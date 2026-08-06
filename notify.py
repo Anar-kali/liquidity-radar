@@ -1,0 +1,119 @@
+"""
+Liquidity Radar — Telegram alerts.
+
+Alert format (Markdown), scannable, ~8-15 a day:
+
+    [RED] *Company* · deal_type · amount or "Size undisclosed"
+
+    _one_line_
+
+    names if any, else "No individual named"
+
+    [source](url)
+
+A red circle emoji = high confidence, yellow = medium. Follow-ups on an
+existing deal are prefixed "UPDATE ·".
+"""
+
+import os
+
+import requests
+
+TELEGRAM_API = "https://api.telegram.org/bot{token}/sendMessage"
+
+
+def _token():
+    return os.environ.get("TELEGRAM_BOT_TOKEN", "")
+
+
+def _chat_id():
+    return os.environ.get("TELEGRAM_CHAT_ID", "")
+
+
+def _escape(text):
+    """Escape characters that break Telegram's legacy Markdown."""
+    if text is None:
+        return ""
+    for ch in ("_", "*", "[", "]", "`"):
+        text = text.replace(ch, f"\\{ch}")
+    return text
+
+
+def format_amount(amount_cr):
+    if amount_cr is None:
+        return "Size undisclosed"
+    # Render whole numbers cleanly, keep one decimal otherwise.
+    if float(amount_cr).is_integer():
+        return f"Rs {int(amount_cr):,}cr"
+    return f"Rs {amount_cr:,.1f}cr"
+
+
+def format_alert(alert):
+    emoji = "🔴" if alert.get("confidence") == "high" else "🟡"
+    company = _escape(alert.get("company") or "Unknown company")
+    if alert.get("is_update"):
+        company = f"UPDATE · {company}"
+
+    deal_type = _escape(alert.get("deal_type") or "unknown")
+    amount = format_amount(alert.get("amount_cr"))
+
+    one_line = _escape(alert.get("one_line") or "")
+
+    individuals = alert.get("individuals") or []
+    if individuals:
+        names = _escape(", ".join(individuals))
+    else:
+        names = "No individual named"
+    if alert.get("buyer"):
+        names += f"  ·  buyer: {_escape(alert['buyer'])}"
+
+    source = _escape(alert.get("source") or "source")
+    url = alert.get("url") or ""
+
+    note = ""
+    if alert.get("is_update") and alert.get("note"):
+        note = f"\n_({_escape(alert['note'])})_"
+
+    return (
+        f"{emoji} *{company}* · {deal_type} · {amount}\n\n"
+        f"_{one_line}_{note}\n\n"
+        f"{names}\n\n"
+        f"[{source}]({url})"
+    )
+
+
+def send(text):
+    """Send one message to Telegram. Returns True on success."""
+    token, chat_id = _token(), _chat_id()
+    if not token or not chat_id:
+        print("[notify] TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID not set")
+        return False
+    try:
+        r = requests.post(
+            TELEGRAM_API.format(token=token),
+            json={
+                "chat_id": chat_id,
+                "text": text,
+                "parse_mode": "Markdown",
+                "disable_web_page_preview": True,
+            },
+            timeout=30,
+        )
+        if r.status_code != 200:
+            print(f"[notify] Telegram error {r.status_code}: {r.text}")
+            return False
+        return True
+    except Exception as exc:  # noqa: BLE001
+        print(f"[notify] Telegram send failed: {exc}")
+        return False
+
+
+def send_alert(alert):
+    return send(format_alert(alert))
+
+
+def send_test():
+    ok = send("🔴 *Liquidity Radar* test message — if you can read this, "
+              "Telegram is wired up correctly.")
+    print("Test message sent." if ok else "Test message FAILED — check secrets.")
+    return ok

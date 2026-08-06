@@ -1,0 +1,42 @@
+name: fast
+
+# Every 15 minutes, Mon-Fri, 09:00-18:30 IST (03:30-13:00 UTC).
+# Sources: exchanges + news.
+on:
+  schedule:
+    - cron: "30,45 3 * * 1-5"      # IST 09:00, 09:15
+    - cron: "*/15 4-12 * * 1-5"    # IST 09:30 - 18:15
+    - cron: "0 13 * * 1-5"         # IST 18:30
+  workflow_dispatch:
+
+# One shared group across all four workflows so two runs never overlap.
+concurrency:
+  group: liquidity-radar
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - name: Run radar (fast)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python main.py --mode fast
+      - name: Commit state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add radar.db
+          git diff --quiet --cached || git commit -m "state: fast run $(date -u +%FT%TZ)"
+          git pull --rebase --autostash || true
+          git push || true
