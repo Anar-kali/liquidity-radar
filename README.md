@@ -1,136 +1,202 @@
 # Liquidity Radar
 
-Monitors Indian corporate filings and financial news for deals where an
-individual (promoter, founder, family shareholder) is likely to receive a
-large sum of money, and sends a Telegram alert for each qualifying deal.
+A private early-warning system for a banker who prospects **individuals about
+to receive a large sum of money** — promoters, founders, family shareholders —
+from deals happening in Indian markets. It watches financial news and stock
+exchange filings around the clock, decides which ones are genuine leads, and
+pings a private Telegram chat with a one-line summary and a link.
 
-Built for high recall: false alarms are fine, missing a real deal is not.
+It costs nothing to run (GitHub's free tier + Claude Haiku, the cheapest
+Claude model) and needs no server — it's a handful of Python scripts that
+GitHub triggers on a schedule.
 
-It runs entirely on **GitHub Actions' free tier** — no server to rent. State
-(the `radar.db` file) is committed back to the repo after each run so the
-system remembers what it has already seen.
+**Philosophy: recall over precision, tempered by a second opinion.** Missing a
+real deal costs a client. A false alarm costs five seconds. So the first
+filter is deliberately generous — when in doubt, it lets an item through — and
+a second, stricter pass then cleans up the noise that generosity lets in.
 
 ---
 
-## 1. The three secrets — what they are and where to get them
+## What you actually get
+
+A Telegram message per qualifying deal, within minutes of it breaking:
+
+```
+🔴 *Fine Edge Engineering* · strategic buyout · Rs 2,000cr
+
+_IndiaRF acquires Fine Edge Engineering, a machine castings maker, for ~₹2,000cr._
+
+No individual named
+
+[Economic Times](https://...)
+
+[ 👍 Useful ]  [ 🤷 Already knew ]  [ 🗑 Noise ]
+```
+
+🔴 = high confidence (a named individual *and* a size are both known), 🟡 =
+medium. Tap a button to rate the alert — that feedback rolls up into a weekly
+report so the filters can be tuned deliberately, based on evidence, not guesswork.
+
+---
+
+## How it works, end to end
+
+**1. Fetch.** Every run pulls from several places at once: eight targeted
+Google News searches, trade-press RSS (Mint, Entrackr), BSE and NSE exchange
+announcements, and SEBI's draft-IPO filings. Nothing here goes through the
+model yet — this stage just collects candidates and throws away anything
+already seen (tracked by URL/ID in `radar.db`, GitHub's copy of the system's
+memory).
+
+**2. Classify — stage 1 (Haiku, cheap, generous).** Every new item is batched
+25-at-a-time to Claude Haiku with one instruction: *flag only the ones you're
+sure are noise.* Pure debt, government divestment, internal restructuring,
+earnings news, IPO-listing chatter, a clearly-stated deal under the size
+threshold — those get dropped. Everything else, including anything ambiguous,
+passes through.
+
+**3. Size the ones with no stated amount.** A lot of news doesn't quote a
+number. For a *listed* company this doesn't need a guess: the market
+capitalisation is public data, so a stated stake percentage times market cap
+gives a real figure, and even with no percentage, a company's market cap alone
+can rule out anything too small to matter. Only for unlisted companies does
+Haiku estimate a rough size band — and only when the text actually gives it
+something to go on; otherwise it says so, and the item passes rather than
+being suppressed on a guess.
+
+**4. Classify — stage 2 (Haiku, strict).** The survivors go through a second,
+much stricter Haiku pass whose only job is to *positively confirm* this looks
+like a real lead: a concrete or actively-negotiated deal, an individual likely
+to be paid, at real scale. This is where "company raises funding" (money
+flowing *in*, nobody cashing out), "plans to IPO" (intent, not a filing), and
+small stake purchases get caught — the noise stage 1's generosity let through.
+
+**5. Cluster.** The same transaction gets reported by five outlets under five
+different headlines. Matching company names (stripped of "Ltd", parent-company
+asides, punctuation) and matching amounts fold repeats into a single alert. A
+follow-up article only earns you a second ping if it reveals the deal's size
+for the first time, or revises it by more than 20% — a newly-named buyer or
+individual updates the record quietly rather than pinging you again.
+
+**6. Alert — and listen.** The message goes to Telegram with three feedback
+buttons. Button presses are logged (still no server needed — the next
+scheduled run just checks for new presses) and rolled into a weekly report.
+
+---
+
+## Setup
+
+### The three secrets
 
 Set these in **repo Settings → Secrets and variables → Actions → New repository
-secret**. Never put them in the code.
+secret**. Never put them in code.
 
 | Secret | What it is | Where to get it |
 |---|---|---|
-| `TELEGRAM_BOT_TOKEN` | The password for your Telegram bot. | In Telegram, message **@BotFather**, send `/newbot`, follow the prompts. It gives you a token like `123456:ABC-DEF...`. |
-| `TELEGRAM_CHAT_ID` | Which chat the alerts go to (you). | Message your new bot once (say "hi"). Then visit `https://api.telegram.org/bot<YOUR_TOKEN>/getUpdates` in a browser and look for `"chat":{"id":...}`. That number is your chat id. |
-| `ANTHROPIC_API_KEY` | The key that lets the system call Claude to classify items. | Create one at **console.anthropic.com → API Keys**. Starts with `sk-ant-...`. |
+| `TELEGRAM_BOT_TOKEN` | Your Telegram bot's password. | Message **@BotFather** in Telegram, send `/newbot`, follow the prompts. |
+| `TELEGRAM_CHAT_ID` | Which chat gets the alerts. | Message your bot once (say "hi"), then visit `https://api.telegram.org/bot<TOKEN>/getUpdates` and read the `"chat":{"id":...}` field. |
+| `ANTHROPIC_API_KEY` | Lets the system call Claude to classify items. | **console.anthropic.com → API Keys.** Starts with `sk-ant-...`. |
 
----
-
-## 2. First run — test it before going live
-
-You need Python 3.11.
+### Test before going live
 
 ```bash
 pip install -r requirements.txt
 
-# Check Telegram is wired up (sends one test message):
-export TELEGRAM_BOT_TOKEN=...      # or set them however you like
+export TELEGRAM_BOT_TOKEN=...
 export TELEGRAM_CHAT_ID=...
-python main.py --test-telegram
+python main.py --test-telegram        # sends one test message
 
-# Do a real fetch + classify, but PRINT alerts instead of sending them:
 export ANTHROPIC_API_KEY=...
-python main.py --mode fast --dry
+python main.py --mode fast --dry      # fetch + classify for real, but PRINT
+                                       # alerts instead of sending them
 ```
 
-`--dry` prints every alert to the terminal and sends nothing. Use it whenever
-you want to see what the system would do without pinging your phone.
-
 ---
 
-## 3. Going live
+## Scheduling — how it actually runs
 
-Push this repo to GitHub. The four schedules under `.github/workflows/` then
-run automatically:
+**GitHub's own cron scheduler is unreliable** — on a fresh repo it can sit
+silent for hours before firing, and it never guarantees exact timing. So the
+real trigger is an **external scheduler, [cron-job.org](https://cron-job.org)**
+(free), which calls GitHub's API directly to kick off each workflow — GitHub's
+built-in schedule is kept on every workflow only as a backup, in case the
+external trigger is ever down.
 
-| Workflow | When (IST) | What it looks at |
+| Workflow | External cadence | What it does |
 |---|---|---|
-| `fast.yml`  | every 15 min, Mon-Fri, 09:00-18:30 | exchanges + news |
-| `news.yml`  | every 30 min, all days, 07:00-23:00 | news only |
-| `slow.yml`  | 08:00, 14:00, 20:00 daily | SEBI draft offer documents |
-| `digest.yml`| 20:30 daily | the suppression summary |
+| `radar.yml` | every 15 min | `main.py --mode auto` — auto-detects what to fetch from the current time (see below) |
+| `digest.yml` | 20:30 IST daily | suppression summary |
+| `feedback-report.yml` | Monday 09:00 IST | weekly feedback rollup |
+| `refresh-tickers.yml` | monthly | refreshes the NSE/BSE ticker lists used for sizing |
 
-A shared `concurrency` group means two runs never overlap.
+`--mode auto` is time-aware, so the one 15-minute trigger does the right thing
+without needing separate schedules:
 
-You can also trigger any workflow by hand: **Actions → pick a workflow → Run
-workflow.**
+- **weekday 09:00–18:30 IST** → full sweep: exchanges + news
+- **any day 07:00–23:00 IST** → news only
+- **08:00 / 14:00 / 20:00** → also checks SEBI for new IPO filings
+- outside those hours → does nothing (cheap no-op)
 
----
-
-## 4. Reading the suppression report
-
-Everything the system filtered out is kept forever in the `suppressed` table.
-
-- **Daily digest** (`digest.yml`) sends a Telegram summary at 20:30 IST: how
-  many were suppressed, broken down by rule, plus the largest one.
-- **7-day report** — run locally:
-
-  ```bash
-  python report.py            # last 7 days, grouped by rule
-  python report.py --days 30  # last 30 days
-  ```
-
-If you see real deals showing up in the suppression report, the classifier is
-being too aggressive — loosen the relevant rule in the system prompt (see
-below).
+A shared `concurrency` group means two runs never overlap and clash on the
+database. You can trigger any workflow by hand any time: **Actions → pick a
+workflow → Run workflow.**
 
 ---
 
-## 5. Changing the 250-crore threshold
+## Visibility — three different reports
 
-Open **`config.py`** and edit one line near the top:
+| What | Where | Shows |
+|---|---|---|
+| **Daily digest** | Telegram, 20:30 IST | how many items were filtered out today, broken down by which rule caught them, plus the single largest one |
+| **Weekly feedback report** | Telegram, Monday 09:00 IST | your 👍/🤷/🗑 button ratings from the last 14 days, with noise broken down by deal type, size, and source — so you can see *where* the filters are still letting junk through |
+| **7-day suppression report** | run locally: `python report.py [--days N]` | the same suppression data as the digest, in more detail, on demand |
+| **Clustering audit** | run locally: `python dedupe_check.py [--days N]` | which article titles merged into each alert, so you can sanity-check nothing is being over- or under-merged |
 
+**The feedback report never changes anything automatically.** It's there so
+you can look at the evidence and decide what to tune yourself — see below.
+
+---
+
+## Tuning
+
+Everything below is a small edit to **`config.py`**, then commit + push (or
+edit directly on GitHub: open the file → pencil icon → commit).
+
+**Change the size threshold** (currently ₹250 crore):
 ```python
 THRESHOLD_CR = 250
 ```
 
-Raise it for fewer, bigger deals; lower it to catch smaller ones. The value is
-also injected into the instructions given to Claude, so the two always agree.
-
----
-
-## 6. Adding or removing a Google News search
-
-Also in **`config.py`**, edit the `GOOGLE_NEWS_QUERIES` list:
-
+**Add or remove a Google News search:**
 ```python
 GOOGLE_NEWS_QUERIES = [
     "promoter stake sale crore India",
     "block deal promoter shares crore",
-    # add a new line here, in quotes, to add a search
-    # delete a line to remove a search
+    # add a line to add a search; delete a line to remove one
 ]
 ```
 
-Each entry becomes one Google News feed restricted to the last two days.
+**Change how cautious the "listed company, no stated amount" gate is**
+(currently: below ₹350cr market cap, don't bother — see step 3 above):
+```python
+MCAP_PLAUSIBLE_MIN = 350
+```
+
+**Tighten or loosen either classifier stage:** the exact instructions given to
+Claude are `SYSTEM_PROMPT` (stage 1, generous) and `STAGE2_SYSTEM_PROMPT`
+(stage 2, strict) in `config.py`. If the weekly feedback report shows a
+specific pattern of noise, this is where to add a rule against it.
 
 ---
 
-## How it works (one paragraph)
+## Deliberately not built
 
-Each run fetches items, drops anything already in `radar.db`, and sends the
-rest to Claude Haiku in batches of 25. Claude's only job is to flag
-**confirmed negatives** (pure debt, government divestment, deals clearly under
-the threshold, non-transactions, etc.); everything else passes. Passed items go
-through **clustering** — the same deal reported by eight outlets becomes one
-alert, keyed on the normalised company name + deal type within a rolling 72-hour
-window. A later article only interrupts you again ("UPDATE") if it adds a
-material fact the deal record lacked: an amount, a named individual, a named
-buyer, or an amount revised by more than 20%.
+No valuation lookups, no funding-history tracking, no cap-table inference, no
+MCA / Probe42 / Tracxn, no web dashboard, no HUF/family-settlement tracking.
+**No Sonnet, anywhere** — Haiku only, on both classifier stages, because cost
+matters more than marginal accuracy at this volume.
 
 ---
 
-## What this is deliberately *not*
-
-No valuation lookups, no funding history, no cap-table inference, no MCA /
-Probe42 / Tracxn, no web dashboard, no HUF/family-settlement tracking, and no
-Sonnet — Haiku only, because cost matters more than marginal accuracy here.
+For the full technical specification — exact prompts, table schemas,
+clustering algorithm, every module — see `SPEC.md`.
