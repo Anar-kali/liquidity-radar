@@ -33,6 +33,7 @@ RULE_LABELS = {
     "Rule 7": "seed/Series A primary",
     "Rule 8": f"under {config.THRESHOLD_CR}cr",
     "Rule 9": "not a transaction",
+    "Rule P": "failed precision check",
     "Rule ?": "unclassified",
 }
 

@@ -1,16 +1,16 @@
-name: fast
+name: radar
 
-# Every 15 minutes, Mon-Fri, 09:00-18:30 IST (03:30-13:00 UTC).
-# Sources: exchanges + news.
+# Primary trigger is an EXTERNAL scheduler (e.g. cron-job.org) calling this
+# workflow's dispatch API every ~15 min — GitHub's own cron is unreliable.
+# The GitHub schedule below is only a lightweight backup.
+#
+# `--mode auto` decides what to fetch based on the current IST time, so the
+# external scheduler only has to poke this one endpoint.
 on:
-  # Times use off-peak minutes (:08/:23/:38/:53) — GitHub delays/drops
-  # scheduled runs most on the exact :00/:15/:30/:45 marks.
-  schedule:
-    - cron: "38,53 3 * * 1-5"        # IST ~09:08, 09:23
-    - cron: "8,23,38,53 4-12 * * 1-5" # IST ~09:38 - 18:23
   workflow_dispatch:
+  schedule:
+    - cron: "9,39 2-16 * * *"   # backup only: ~07:39-22:39 IST every 30 min
 
-# One shared group across all four workflows so two runs never overlap.
 concurrency:
   group: liquidity-radar
   cancel-in-progress: false
@@ -27,17 +27,17 @@ jobs:
         with:
           python-version: "3.11"
       - run: pip install -r requirements.txt
-      - name: Run radar (fast)
+      - name: Run radar (auto)
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python main.py --mode fast
+        run: python main.py --mode auto
       - name: Commit state
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add radar.db
-          git diff --quiet --cached || git commit -m "state: fast run $(date -u +%FT%TZ)"
+          git diff --quiet --cached || git commit -m "state: radar run $(date -u +%FT%TZ)"
           git pull --rebase --autostash || true
           git push || true

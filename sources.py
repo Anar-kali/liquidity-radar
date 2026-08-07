@@ -10,12 +10,15 @@ warning and returns an empty list rather than crashing the whole run.
 
 import time
 import urllib.parse
+from datetime import datetime, timedelta, timezone
 
 import feedparser
 import requests
 from bs4 import BeautifulSoup
 
 import config
+
+IST = timezone(timedelta(hours=5, minutes=30))
 
 
 def _log(msg):
@@ -211,12 +214,49 @@ def fetch_sebi():
 # --------------------------------------------------------------------------
 # Source groups, keyed by workflow mode.
 # --------------------------------------------------------------------------
+def fetch_auto(now=None):
+    """
+    Time-aware plan, so a single trigger (fired every ~15 min) does the right
+    thing. Uses IST:
+      weekday 09:00-18:30 -> fast (exchanges + news)
+      any day 07:00-23:00 -> news
+      outside those        -> nothing
+    Plus SEBI DRHP at the 08:00 / 14:00 / 20:00 checkpoints.
+    """
+    now = now or datetime.now(IST)
+    minutes = now.hour * 60 + now.minute
+    weekday = now.weekday() < 5  # Mon-Fri
+    items, ran = [], []
+
+    if weekday and 540 <= minutes <= 1110:      # 09:00 - 18:30 IST
+        items += fetch_google_news()
+        items += fetch_trade_press()
+        items += fetch_bse()
+        items += fetch_nse()
+        ran.append("fast")
+    elif 420 <= minutes <= 1380:                # 07:00 - 23:00 IST
+        items += fetch_google_news()
+        items += fetch_trade_press()
+        ran.append("news")
+
+    if now.hour in (8, 14, 20) and now.minute < 15:  # DRHP checkpoints
+        items += fetch_sebi()
+        ran.append("slow")
+
+    day = "weekday" if weekday else "weekend"
+    _log(f"auto plan ({now:%H:%M} IST {day}): {ran or ['idle — outside hours']}")
+    return items
+
+
 def fetch_for_mode(mode):
     """
     fast  -> exchanges + news
     news  -> news only
     slow  -> SEBI DRHP
+    auto  -> pick based on the current IST time (used by the scheduler)
     """
+    if mode == "auto":
+        return fetch_auto()
     items = []
     if mode == "fast":
         items += fetch_google_news()

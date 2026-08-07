@@ -13,11 +13,16 @@ likely to want to change lives here, near the top, with comments.
 THRESHOLD_CR = 250
 
 # --------------------------------------------------------------------------
-# THE CLASSIFIER MODEL
-# Haiku only, on purpose — it is cheap and the job is "reject confirmed noise".
-# Do not change this to Sonnet; cost matters more than marginal accuracy here.
+# THE CLASSIFIER MODEL — Haiku only, both stages (cost matters).
+#
+# STAGE 1: cheap bulk pass. "Reject confirmed noise", high recall. Every item.
+# STAGE 2: strict precision pass. "Positively confirm a real, large,
+#   individual-payout lead". Runs ONLY on the few that survive stage 1, so the
+#   extra call is cheap. A live run only classifies the NEW items since last
+#   time (usually a handful), so total spend stays tiny.
 # --------------------------------------------------------------------------
 MODEL = "claude-haiku-4-5-20251001"
+STAGE2_MODEL = MODEL  # same Haiku model; keep two focused passes, not Sonnet
 
 # How many items we send to the model in one API call.
 BATCH_SIZE = 25
@@ -176,7 +181,11 @@ Mark confirmed_negative = true ONLY for:
 8. A deal size is clearly STATED and converts to less than {THRESHOLD_CR} crore INR.
 9. Not a transaction at all: earnings results, share price moves, analyst
    ratings, technical signals, product launches, regulatory disputes,
-   aggregate market commentary, or listicles about promoter selling trends.
+   aggregate market commentary, listicles about promoter selling trends,
+   stock-market listings or trading debuts, IPO subscription / GMP /
+   listing-day coverage, or a mere announcement of an INTENTION to launch an
+   IPO or raise funds where no concrete transaction, DRHP, or selling
+   shareholder is stated.
 
 Rule 8 applies ONLY when a size is stated. Undisclosed terms, no figure
 given, "sources say" with no number: these all PASS. Silence is never a
@@ -206,4 +215,75 @@ null. Do not estimate from stake percentages or valuations.
 
 Set confidence to "high" when a named individual and a stated amount are both
 present. Otherwise "medium".
+"""
+
+# --------------------------------------------------------------------------
+# STAGE 2 — precision. This runs only on items that survived stage 1. It must
+# POSITIVELY confirm a qualifying deal, and reject everything else. This is
+# where the noise (listings, IPO intentions, small stake buys) gets killed.
+# --------------------------------------------------------------------------
+STAGE2_SYSTEM_PROMPT = f"""\
+You are the second-stage screen for a private banker who prospects individuals
+about to receive a large sum of money. Items reaching you passed a loose first
+filter and still contain noise. PASS genuine prospecting leads; drop the noise.
+
+Mark qualify = true when the item is a genuine lead: a concrete OR
+actively-negotiated transaction in which an individual (a promoter, founder,
+family shareholder, or the owners of a privately held / founder-run company)
+is likely to receive a large sum. Give large control / buyout / stake-sale
+deals the benefit of the doubt — the seller is usually a founder or promoter
+even when the headline does not name them.
+
+QUALIFY examples:
+- A promoter, founder, or family shareholder selling shares — block deal, OFS,
+  promoter sale — OR reported to be exploring / in advanced talks for such a
+  sale, when a counterparty or size is mentioned.
+- A strategic buyout or acquisition of a company, especially a privately held
+  or founder/promoter-run one, where the sellers cash out even if unnamed.
+  (A Rs 2,000cr acquisition of a founder-run manufacturer QUALIFIES.)
+- An open offer, or a filed DRHP / RHP / OFS with selling shareholders.
+
+Mark qualify = false when the item is any of these (confirmed noise):
+1. IPO subscription / GMP / anchor-book / listing-day / trading-debut coverage,
+   or a mere INTENTION to launch an IPO ("plans to IPO", "eyes IPO").
+2. A PRIMARY fundraise — money goes INTO the company, or an individual INVESTS
+   money IN; nobody cashes out. ("raises Rs X cr", "to raise funds", a funding
+   round, an investor "invests Rs X cr", anchor investors).
+3. A company acquiring a small or minority stake in another with no individual
+   selling, or where the stake is clearly below the size bar.
+4. A pure fund-to-fund or corporate-to-corporate transfer with no individual in
+   the selling chain; PSU / government divestment; debt (NCDs, bonds,
+   refinancing); IBC / NCLT resolution; intra-group restructuring.
+5. Earnings, share-price moves, analyst ratings, product or market commentary,
+   or listicles.
+
+SCALE. If a size is stated it must convert to at least {THRESHOLD_CR} crore INR
+(1 crore = 10 million; 1 USD = {USD_INR} INR, 1 EUR = {EUR_INR} INR). Drop
+clearly smaller deals. If the size is undisclosed, qualify only when it is
+clearly a large / control / strategic transaction. Never invent a figure.
+
+When a LARGE deal is genuinely borderline — a big buyout where you cannot tell
+if an individual sells — LEAN QUALIFY. A rare false alarm costs five seconds;
+a missed founder cash-out costs a client. But never pass the numbered noise
+categories above; those are confirmed drops.
+
+Return ONLY a JSON array, no markdown fences, no preamble. One object per
+input item, same order:
+[{{
+  "n": 1,
+  "qualify": true|false,
+  "drop_reason": "short phrase if qualify is false, else null",
+  "company": "",
+  "deal_type": "IPO-OFS|block deal|strategic buyout|PE secondary|PE primary|open offer|promoter sale|DRHP filing|other|unknown",
+  "amount_cr": null,
+  "amount_raw": "exact text the figure came from, plus your conversion, or null",
+  "individuals": ["named individuals receiving money, empty if none named"],
+  "buyer": "named acquirer or buyer, or null",
+  "confidence": "high|medium",
+  "one_line": "under 20 words: what happened and who gets paid"
+}}]
+
+Never invent a figure. amount_cr and amount_raw are null if no size is stated.
+Set confidence to "high" only when a named individual and a stated amount are
+both present; otherwise "medium".
 """

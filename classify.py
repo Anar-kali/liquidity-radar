@@ -195,7 +195,7 @@ def _normalise(result):
 
 def classify_all(items):
     """
-    Classify every item, in batches of BATCH_SIZE.
+    STAGE 1 (Haiku). Classify every item, in batches of BATCH_SIZE.
     Returns a list of (item, result) tuples.
 
     If a whole batch fails to classify, its items are passed through as
@@ -211,7 +211,75 @@ def classify_all(items):
         try:
             out.extend(classify_batch(client, batch))
         except Exception as exc:  # noqa: BLE001
-            print(f"[classify] batch failed, passing items through: {exc}")
+            print(f"[classify] stage1 batch failed, passing items through: {exc}")
             for item in batch:
                 out.append((item, _normalise({"one_line": item.get("title", "")})))
+    return out
+
+
+# --------------------------------------------------------------------------
+# STAGE 2 — precision (Sonnet). Runs only on stage-1 survivors.
+# --------------------------------------------------------------------------
+def _normalise2(result):
+    """Defaults for a stage-2 result, so downstream never guards for keys."""
+    if not isinstance(result, dict):
+        result = {}
+    return {
+        "qualify": bool(result.get("qualify", False)),
+        "drop_reason": result.get("drop_reason"),
+        "company": result.get("company") or "",
+        "deal_type": result.get("deal_type") or "unknown",
+        "amount_cr": result.get("amount_cr"),
+        "amount_raw": result.get("amount_raw"),
+        "individuals": result.get("individuals") or [],
+        "buyer": result.get("buyer"),
+        "confidence": result.get("confidence") or "medium",
+        "one_line": result.get("one_line") or "",
+    }
+
+
+def precision_batch(client, batch):
+    """Run the stage-2 precision check on up to BATCH_SIZE items."""
+    resp = client.messages.create(
+        model=config.STAGE2_MODEL,
+        max_tokens=8192,
+        system=config.STAGE2_SYSTEM_PROMPT,
+        messages=[{"role": "user", "content": _build_user_message(batch)}],
+    )
+    text = "".join(b.text for b in resp.content if b.type == "text")
+    results = _parse_array(text, len(batch))
+    aligned = []
+    for i, item in enumerate(batch):
+        result = results[i] if i < len(results) else {}
+        norm = _normalise2(result)
+        corrected, changed = reconcile_amount(norm["amount_cr"], norm.get("amount_raw"))
+        if changed:
+            norm["amount_cr"] = corrected
+        aligned.append((item, norm))
+    return aligned
+
+
+def precision_classify(items):
+    """
+    STAGE 2 (Sonnet). Returns a list of (item, result) tuples where result has
+    a `qualify` flag plus cleanly re-extracted fields.
+
+    If a batch fails, its items are passed through as qualify=true (fail open —
+    keep the human in the loop rather than silently dropping a possible deal).
+    """
+    if not items:
+        return []
+    client = _client()
+    out = []
+    for start in range(0, len(items), config.BATCH_SIZE):
+        batch = items[start : start + config.BATCH_SIZE]
+        try:
+            out.extend(precision_batch(client, batch))
+        except Exception as exc:  # noqa: BLE001
+            print(f"[classify] stage2 batch failed, passing items through: {exc}")
+            for item in batch:
+                out.append((item, _normalise2({
+                    "qualify": True,
+                    "one_line": item.get("title", ""),
+                })))
     return out

@@ -57,49 +57,55 @@ def run(mode, dry, limit=None):
     if not fresh:
         return
 
-    classified = classify.classify_all(fresh)
+    suppressed = [0]  # boxed so the local helper can mutate it
 
-    alerts = []
-    suppressed_count = 0
-    for item, result in classified:
-        if result["confirmed_negative"]:
-            rule = _rule_number(result.get("negative_reason"))
+    def suppress(item, rule, r):
+        db.add_suppressed(
+            title=item.get("title", ""),
+            url=item.get("url", ""),
+            rule=rule,
+            amount_cr=r.get("amount_cr"),
+            amount_raw=r.get("amount_raw"),
+        )
+        suppressed[0] += 1
 
-            # Safety net for Haiku's divide-by-10 slip: never let a
-            # "under threshold" (rule 8) suppression drop a deal whose STATED
-            # size actually parses to >= the threshold. A missed big deal is
-            # the one error we cannot afford, so we err toward keeping it.
+    # ---- STAGE 1: Haiku, reject confirmed noise (high recall) ----
+    stage1 = classify.classify_all(fresh)
+    survivors = []
+    for item, r1 in stage1:
+        if r1["confirmed_negative"]:
+            rule = _rule_number(r1.get("negative_reason"))
+            # Don't let a "under threshold" drop kill a deal whose STATED size
+            # actually parses to >= threshold — let stage 2 judge it instead.
             if rule == "Rule 8":
                 stated = classify.stated_cr_max(
-                    result.get("amount_raw"),
-                    item.get("title"),
-                    item.get("description"),
-                )
+                    r1.get("amount_raw"), item.get("title"), item.get("description"))
                 if stated is not None and stated >= config.THRESHOLD_CR:
-                    print(
-                        f"[main] rule-8 override: stated {stated:g}cr >= "
-                        f"{config.THRESHOLD_CR}cr, keeping: "
-                        f"{item.get('title', '')[:60]}"
-                    )
-                    # Only fill the amount if the model gave none; don't
-                    # clobber a figure the reconcile step already handled.
-                    if result.get("amount_cr") is None:
-                        result["amount_cr"] = stated
-                    alerts.extend(cluster.process(item, result))
+                    survivors.append(item)
                     continue
-
-            db.add_suppressed(
-                title=item.get("title", ""),
-                url=item.get("url", ""),
-                rule=rule,
-                amount_cr=result.get("amount_cr"),
-                amount_raw=result.get("amount_raw"),
-            )
-            suppressed_count += 1
+            suppress(item, rule, r1)
             continue
-        alerts.extend(cluster.process(item, result))
+        # Deterministic small-amount gate: a clearly stated sub-threshold size
+        # is suppressed in code, not left to the model.
+        if r1["amount_cr"] is not None and r1["amount_cr"] < config.THRESHOLD_CR:
+            suppress(item, "Rule 8", r1)
+            continue
+        survivors.append(item)
 
-    print(f"[main] {suppressed_count} suppressed, {len(alerts)} alerts to send")
+    print(f"[main] stage1: {suppressed[0]} suppressed, {len(survivors)} to precision-check")
+
+    # ---- STAGE 2: Sonnet, positively confirm a qualifying deal ----
+    alerts = []
+    for item, r2 in classify.precision_classify(survivors):
+        if not r2["qualify"]:
+            suppress(item, "Rule P", r2)
+            continue
+        if r2["amount_cr"] is not None and r2["amount_cr"] < config.THRESHOLD_CR:
+            suppress(item, "Rule 8", r2)
+            continue
+        alerts.extend(cluster.process(item, r2))
+
+    print(f"[main] {suppressed[0]} suppressed total, {len(alerts)} alerts to send")
 
     # Optional throttle (useful for testing, or to avoid a flood on a cold
     # start). Deals are still recorded; only the notifications are capped.
@@ -117,7 +123,7 @@ def run(mode, dry, limit=None):
 
 def main():
     parser = argparse.ArgumentParser(description="Liquidity Radar")
-    parser.add_argument("--mode", choices=["fast", "news", "slow"])
+    parser.add_argument("--mode", choices=["fast", "news", "slow", "auto"])
     parser.add_argument("--dry", action="store_true",
                         help="print alerts to the terminal instead of Telegram")
     parser.add_argument("--test-telegram", action="store_true",
