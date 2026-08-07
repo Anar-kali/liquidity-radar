@@ -48,6 +48,34 @@ def format_amount(amount_cr):
     return f"Rs {amount_cr:,.1f}cr"
 
 
+_BAND_LABELS = {
+    "100_TO_500": "Rs 100-500cr",
+    "500_TO_2000": "Rs 500-2,000cr",
+    "OVER_2000": "Rs 2,000cr+",
+}
+
+
+def alert_amount(alert):
+    """
+    Render the size, never letting an estimate look like a stated fact:
+      stated               -> Rs 2,000cr
+      computed (stake×mcap) -> ~Rs 1,713cr (stake x mkt cap)
+      band (unlisted)       -> est. Rs 500-2,000cr
+      nothing               -> Size undisclosed
+    """
+    amt = alert.get("amount_cr")
+    src = alert.get("size_source")
+    if amt is not None:
+        if src == "computed":
+            return f"~{format_amount(amt)} (stake x mkt cap)"
+        return format_amount(amt)
+    if src == "band":
+        lbl = _BAND_LABELS.get(alert.get("size_band"))
+        if lbl:
+            return f"est. {lbl}"
+    return "Size undisclosed"
+
+
 def format_alert(alert):
     emoji = "🔴" if alert.get("confidence") == "high" else "🟡"
     company = _escape(alert.get("company") or "Unknown company")
@@ -55,7 +83,7 @@ def format_alert(alert):
         company = f"UPDATE · {company}"
 
     deal_type = _escape(alert.get("deal_type") or "unknown")
-    amount = format_amount(alert.get("amount_cr"))
+    amount = alert_amount(alert)
 
     one_line = _escape(alert.get("one_line") or "")
 

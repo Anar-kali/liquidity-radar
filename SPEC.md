@@ -146,6 +146,53 @@ Currency: 1 crore = 10M INR, 1 lakh = 100,000 INR, 1 USD = 88 INR, 1 EUR = 96
 INR. Never invents a figure; undisclosed size passes (silence is never a small
 deal).
 
+## Sizing undisclosed deals (`sizing.py`)
+
+Deals with no stated amount used to all pass through unfiltered, which let
+through a lot of small-company noise. Runs between stage 1 and stage 2, only
+on items with no stated amount, and resolves size in priority order:
+
+1. **Stake % × market cap** (listed only, deterministic). If the text states a
+   stake percentage ("sells 4.58% stake") and the company resolves to a
+   ticker, compute `market_cap_cr × pct / 100` — a real figure, not an
+   estimate. `size_source = "computed"`.
+2. **Market-cap plausibility gate** (listed only). No percentage, but the
+   ticker resolved: suppress only if `market_cap_cr < 350` (a promoter selling
+   the *entire* company at that size barely clears the 250cr threshold, so any
+   partial stake cannot). Above 350, the item passes with
+   `size_source = "mcap_plausible"`.
+3. **Haiku band estimate** (unlisted only, part of the existing stage 2 call —
+   no extra API request). Stage 2 additionally returns `size_band`
+   (`UNDER_100 | 100_TO_500 | 500_TO_2000 | OVER_2000 | UNKNOWN`) and
+   `size_basis`. The model is told to base this only on what it actually
+   knows about the company, and to return UNKNOWN with basis "no information"
+   when it has nothing to go on — that is the correct, unpenalised answer.
+4. **Nothing resolved** → `size_source = None`, item passes.
+
+**The gate** (recall-biased — suppress only when confident the deal is
+small): `computed` amounts under 250cr are suppressed as Rule 8; a
+`UNDER_100` band is suppressed as **Rule S**, but only when `size_basis` is
+not "no information" (a fabricated band never suppresses). Everything else —
+`100_TO_500`, `mcap_plausible` above 350cr, `UNKNOWN` — passes.
+
+**Ticker resolution.** `data/nse_equities.csv` and `data/bse_scrips.csv` are
+committed master lists (NSE/BSE published equity data), refreshed monthly by
+`.github/workflows/refresh-tickers.yml` via `refresh_tickers.py`. Company names
+are matched using the same token-normalisation as clustering; a match resolves
+only when it is unique — an ambiguous name resolves to "not listed" rather
+than risking the wrong company.
+
+**Market cap.** `yfinance` (`fast_info.market_cap`, NSE `.NS` preferred, BSE
+`.BO` fallback), with the NSE quote endpoint as a second fallback if yfinance
+fails. Cached in SQLite (`market_caps` table) for 7 days, so a busy day costs
+nothing extra and survives rate limiting.
+
+**Alert display never lets an estimate look like a stated fact:**
+- Stated: `Rs 2,000cr`
+- Computed (stake × mcap): `~Rs 4,987cr (stake x mkt cap)`
+- Band: `est. Rs 500-2,000cr`
+- Nothing resolved: `Size undisclosed`
+
 ## Deal clustering
 
 One transaction reported by many outlets — often under different framing
@@ -236,15 +283,19 @@ Red circle 🔴 for high confidence, yellow 🟡 for medium. Follow-ups are pref
 
 ```
 config.py      settings: threshold, queries, feeds, models, both prompts
-db.py          SQLite schema + helpers (items, deals, suppressed)
+db.py          SQLite schema + helpers (items, deals, suppressed, deal_members,
+               market_caps)
 sources.py     fetchers (Google News, trade press, BSE, NSE, SEBI) + auto plan
 classify.py    two-stage Haiku classifier + amount guards
+sizing.py      resolve size for undisclosed-amount deals (ticker/mcap/band)
+refresh_tickers.py  refresh data/nse_equities.csv + data/bse_scrips.csv
 cluster.py     deal clustering / dedup / UPDATE logic
 notify.py      Telegram formatting + sending
-main.py        orchestrator (fetch → classify → cluster → alert)
+main.py        orchestrator (fetch → classify → sizing → cluster → alert)
 digest.py      daily suppression summary
 report.py      N-day suppression report
 dedupe_check.py  N-day clustering audit (what merged into each deal)
+data/          committed NSE/BSE ticker master lists (for sizing.py)
 .github/workflows/radar.yml    main run (--mode auto), external + backup cron
 .github/workflows/digest.yml   daily digest, external + backup cron
 README.md      plain-English setup + tuning guide

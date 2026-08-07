@@ -135,6 +135,7 @@ def _material_updates(existing, result):
     if old_amount is None and new_amount is not None:
         updates["amount_cr"] = new_amount
         updates["amount_raw"] = result.get("amount_raw")
+        updates["size_source"] = "stated"   # a real figure now exists
         fire_alert = True
         notes.append("amount added")
     elif (
@@ -145,6 +146,7 @@ def _material_updates(existing, result):
     ):
         updates["amount_cr"] = new_amount
         updates["amount_raw"] = result.get("amount_raw")
+        updates["size_source"] = "stated"
         fire_alert = True
         notes.append(f"amount revised {old_amount:g}→{new_amount:g} cr")
 
@@ -186,6 +188,8 @@ def process(item, result):
             "one_line": result.get("one_line") or "",
             "source": item.get("source", ""),
             "url": url,
+            "size_source": result.get("size_source"),
+            "size_band": result.get("size_band"),
         }
         deal_id = db.create_deal(deal)
         db.add_deal_member(deal_id, title, url)
@@ -224,5 +228,7 @@ def _alert_from_deal(deal, is_update):
         "one_line": deal.get("one_line") or "",
         "source": deal.get("source", ""),
         "url": deal.get("url", ""),
+        "size_source": deal.get("size_source"),
+        "size_band": deal.get("size_band"),
         "is_update": is_update,
     }

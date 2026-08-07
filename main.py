@@ -18,12 +18,14 @@ Pipeline for a run:
 """
 
 import argparse
+from collections import Counter
 
 import classify
 import cluster
 import config
 import db
 import notify
+import sizing
 import sources
 
 
@@ -71,7 +73,8 @@ def run(mode, dry, limit=None):
 
     # ---- STAGE 1: Haiku, reject confirmed noise (high recall) ----
     stage1 = classify.classify_all(fresh)
-    survivors = []
+    survivors = []          # items that go to the precision check
+    sizing_by_id = {}       # item id -> sizing result, carried into stage 2
     for item, r1 in stage1:
         if r1["confirmed_negative"]:
             rule = _rule_number(r1.get("negative_reason"))
@@ -82,30 +85,84 @@ def run(mode, dry, limit=None):
                     r1.get("amount_raw"), item.get("title"), item.get("description"))
                 if stated is not None and stated >= config.THRESHOLD_CR:
                     survivors.append(item)
+                    sizing_by_id[item["id"]] = {"size_source": "stated"}
                     continue
             suppress(item, rule, r1)
             continue
-        # Deterministic small-amount gate: a clearly stated sub-threshold size
-        # is suppressed in code, not left to the model.
-        if r1["amount_cr"] is not None and r1["amount_cr"] < config.THRESHOLD_CR:
-            suppress(item, "Rule 8", r1)
+
+        # Stated amount: small ones die here; large ones proceed.
+        if r1["amount_cr"] is not None:
+            if r1["amount_cr"] < config.THRESHOLD_CR:
+                suppress(item, "Rule 8", r1)
+                continue
+            survivors.append(item)
+            sizing_by_id[item["id"]] = {"size_source": "stated"}
             continue
+
+        # No stated amount: resolve size (listed -> compute / plausibility).
+        text = f"{item.get('title', '')} {item.get('description', '')}"
+        sz = sizing.resolve_size(r1.get("company") or item.get("title", ""), text)
+        src = sz.get("size_source")
+        if src == "computed" and sz["amount_cr"] < config.THRESHOLD_CR:
+            suppress(item, "Rule 8", {
+                "amount_cr": sz["amount_cr"],
+                "amount_raw": f"{sz['pct']:g}% x mcap ~Rs {sz['mcap_cr']:.0f}cr"})
+            continue
+        if src == "mcap_plausible" and sz["mcap_cr"] < config.MCAP_PLAUSIBLE_MIN:
+            suppress(item, "Rule 8", {
+                "amount_cr": None,
+                "amount_raw": f"mcap ~Rs {sz['mcap_cr']:.0f}cr < {config.MCAP_PLAUSIBLE_MIN}"})
+            continue
+        sizing_by_id[item["id"]] = sz
         survivors.append(item)
 
     print(f"[main] stage1: {suppressed[0]} suppressed, {len(survivors)} to precision-check")
 
-    # ---- STAGE 2: Sonnet, positively confirm a qualifying deal ----
+    # ---- STAGE 2: precision confirm + size band (Haiku) ----
     alerts = []
+    mix = Counter()
     for item, r2 in classify.precision_classify(survivors):
         if not r2["qualify"]:
             suppress(item, "Rule P", r2)
             continue
+
+        sz = sizing_by_id.get(item["id"], {})
+        src = sz.get("size_source")
+
+        # Fill in a computed amount if stage 2 found no figure of its own.
+        if r2["amount_cr"] is None and src == "computed":
+            r2["amount_cr"] = sz["amount_cr"]
+            r2["amount_raw"] = (f"{sz['pct']:g}% x mcap ~Rs {sz['mcap_cr']:.0f}cr "
+                                f"= ~Rs {sz['amount_cr']:.0f}cr")
+
+        # Deterministic small-amount gate on whatever amount we now have.
         if r2["amount_cr"] is not None and r2["amount_cr"] < config.THRESHOLD_CR:
             suppress(item, "Rule 8", r2)
             continue
+
+        # Band gate — only for genuinely unlisted / unresolved items.
+        if r2["amount_cr"] is None and src is None:
+            if (r2.get("size_band") == "UNDER_100"
+                    and (r2.get("size_basis") or "").strip().lower() != "no information"):
+                suppress(item, "Rule S", r2)
+                continue
+
+        # Decide how the size will be shown, and record the mix.
+        if r2["amount_cr"] is not None:
+            r2["size_source"] = "computed" if src == "computed" else "stated"
+        elif src == "mcap_plausible":
+            r2["size_source"] = "mcap_plausible"
+        elif r2.get("size_band") in ("100_TO_500", "500_TO_2000", "OVER_2000"):
+            r2["size_source"] = "band"
+        else:
+            r2["size_source"] = "unknown"
+        mix[r2["size_source"]] += 1
+
         alerts.extend(cluster.process(item, r2))
 
     print(f"[main] {suppressed[0]} suppressed total, {len(alerts)} alerts to send")
+    if mix:
+        print("[main] size_source mix: " + ", ".join(f"{k}={v}" for k, v in mix.items()))
 
     # Optional throttle (useful for testing, or to avoid a flood on a cold
     # start). Deals are still recorded; only the notifications are capped.

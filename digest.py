@@ -34,6 +34,7 @@ RULE_LABELS = {
     "Rule 8": f"under {config.THRESHOLD_CR}cr",
     "Rule 9": "not a transaction",
     "Rule P": "failed precision check",
+    "Rule S": "size band under 100cr",
     "Rule ?": "unclassified",
 }
 

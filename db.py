@@ -76,9 +76,48 @@ def init_db(path=DB_PATH):
             attached_at TEXT
         );
 
+        -- market-cap cache (crore INR), refreshed at most weekly
+        CREATE TABLE IF NOT EXISTS market_caps (
+            ticker         TEXT PRIMARY KEY,
+            market_cap_cr  REAL,
+            fetched_at     TEXT
+        );
+
         CREATE INDEX IF NOT EXISTS idx_deal_key ON deals(deal_key);
         CREATE INDEX IF NOT EXISTS idx_member_deal ON deal_members(deal_id);
         """
+    )
+    # Non-destructive migration: add size columns to an existing deals table.
+    existing = {r[1] for r in conn.execute("PRAGMA table_info(deals)")}
+    if "size_source" not in existing:
+        conn.execute("ALTER TABLE deals ADD COLUMN size_source TEXT")
+    if "size_band" not in existing:
+        conn.execute("ALTER TABLE deals ADD COLUMN size_band TEXT")
+    conn.commit()
+    conn.close()
+
+
+# --------------------------------------------------------------------------
+# market cap cache
+# --------------------------------------------------------------------------
+def get_market_cap(ticker, max_age_days=7, path=DB_PATH):
+    """Return cached market cap (crore) if fresh, else None."""
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=max_age_days)).isoformat()
+    conn = _conn(path)
+    row = conn.execute(
+        "SELECT market_cap_cr FROM market_caps WHERE ticker = ? AND fetched_at >= ?",
+        (ticker, cutoff),
+    ).fetchone()
+    conn.close()
+    return row["market_cap_cr"] if row else None
+
+
+def set_market_cap(ticker, market_cap_cr, path=DB_PATH):
+    conn = _conn(path)
+    conn.execute(
+        "INSERT OR REPLACE INTO market_caps (ticker, market_cap_cr, fetched_at) "
+        "VALUES (?, ?, ?)",
+        (ticker, market_cap_cr, now_iso()),
     )
     conn.commit()
     conn.close()
@@ -167,8 +206,9 @@ def create_deal(deal, path=DB_PATH):
     ts = now_iso()
     cur = conn.execute(
         "INSERT INTO deals (deal_key, company, deal_type, amount_cr, amount_raw, "
-        "individuals, buyer, confidence, one_line, source, url, created_at, updated_at) "
-        "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+        "individuals, buyer, confidence, one_line, source, url, "
+        "size_source, size_band, created_at, updated_at) "
+        "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
         (
             deal["deal_key"],
             deal["company"],
@@ -181,6 +221,8 @@ def create_deal(deal, path=DB_PATH):
             deal["one_line"],
             deal["source"],
             deal["url"],
+            deal.get("size_source"),
+            deal.get("size_band"),
             ts,
             ts,
         ),

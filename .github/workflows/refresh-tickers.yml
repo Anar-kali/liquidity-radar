@@ -1,0 +1,34 @@
+name: refresh-tickers
+
+# Monthly refresh of the NSE / BSE ticker master lists used for market-cap
+# sizing. 1st of each month, 02:00 UTC. Also runnable on demand.
+on:
+  schedule:
+    - cron: "0 2 1 * *"
+  workflow_dispatch:
+
+concurrency:
+  group: liquidity-radar
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Refresh ticker master lists
+        run: python refresh_tickers.py
+      - name: Commit updated lists
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/nse_equities.csv data/bse_scrips.csv
+          git diff --quiet --cached || git commit -m "data: refresh ticker master lists $(date -u +%F)"
+          git pull --rebase --autostash || true
+          git push || true

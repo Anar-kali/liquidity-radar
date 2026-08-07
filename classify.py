@@ -235,6 +235,8 @@ def _normalise2(result):
         "buyer": result.get("buyer"),
         "confidence": result.get("confidence") or "medium",
         "one_line": result.get("one_line") or "",
+        "size_band": result.get("size_band") or "UNKNOWN",
+        "size_basis": result.get("size_basis") or "no information",
     }
 
 

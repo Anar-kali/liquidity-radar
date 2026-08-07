@@ -12,6 +12,11 @@ likely to want to change lives here, near the top, with comments.
 # --------------------------------------------------------------------------
 THRESHOLD_CR = 250
 
+# Listed-company plausibility floor (crore). Below this market cap, even a
+# promoter selling the whole company barely clears the threshold, so a deal
+# with no stated size is suppressed. Above it, the item passes.
+MCAP_PLAUSIBLE_MIN = 350
+
 # --------------------------------------------------------------------------
 # THE CLASSIFIER MODEL — Haiku only, both stages (cost matters).
 #
@@ -291,6 +296,21 @@ company whose shares are being sold — NEVER the acquirer or investor. In
 "IndiaRF acquires Fine Edge Engineering", company is Fine Edge Engineering and
 buyer is IndiaRF.
 
+When no deal amount is stated and the company is not listed, estimate the
+likely total deal size as a BAND, never a number.
+
+Base it only on what you actually know about the company: its sector, scale,
+whether you recognise it at all, and any revenue or headcount or footprint
+detail in the text. If you do not recognise the company and the text gives you
+nothing to work with, return UNKNOWN with basis "no information". That is the
+correct answer and it is never penalised.
+
+Do NOT infer size from the fact that a deal is happening. Do NOT guess from the
+company name. Do NOT produce a band you cannot justify in size_basis.
+
+An unknown company that turns out to be large is a recoverable mistake. A
+fabricated band that suppresses a real lead is not.
+
 Return ONLY a JSON array, no markdown fences, no preamble. One object per
 input item, same order:
 [{{
@@ -304,7 +324,9 @@ input item, same order:
   "individuals": ["named individuals receiving money, empty if none named"],
   "buyer": "named acquirer or buyer, or null",
   "confidence": "high|medium",
-  "one_line": "under 20 words: what happened and who gets paid"
+  "one_line": "under 20 words: what happened and who gets paid",
+  "size_band": "UNDER_100|100_TO_500|500_TO_2000|OVER_2000|UNKNOWN",
+  "size_basis": "what you based the band on, or 'no information'"
 }}]
 
 Never invent a figure. amount_cr and amount_raw are null if no size is stated.
