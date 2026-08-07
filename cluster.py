@@ -1,26 +1,36 @@
 """
 Liquidity Radar — deal clustering.
 
-One transaction gets reported by many outlets. The banker must receive ONE
-alert, not eight.
+One transaction gets reported by many outlets, often under different framing
+("IndiaRF buys Fine Edge" vs "Fine Edge Engineering strategic buyout"). The
+banker must receive ONE alert, not several.
 
-Deal key = normalised company name + deal type, within a rolling 72h window.
+Two items are the same deal if EITHER:
+  - NAME match: their company name-token sets contain one another (after
+    stripping parentheticals, suffixes and corporate stopwords), within 72h; OR
+  - AMOUNT match: both amounts are within 5% of each other and the names share
+    at least one token, within 7 days (follow-up analyses land days later).
 
-  - First item to match a key creates the deal and fires an alert.
+deal_type is deliberately NOT part of the match — one outlet's "strategic
+buyout" is another's "PE secondary".
+
+  - First item creates the deal and fires an alert.
   - Later items attach silently...
-  - ...EXCEPT when a later item adds a material fact the deal record lacks:
-    an amount where there was none, a named individual where there was none,
-    a named buyer where there was none, or an amount revised by >20%. Then we
+  - ...EXCEPT when a later item adds a material fact the record lacks. Then we
     fire one follow-up marked UPDATE.
-
-This module decides what happens; it returns "alerts" for main.py to send.
 """
 
 import json
 import re
+from datetime import datetime, timezone
 
 import config
 import db
+
+# Phrases after which the name is descriptive noise ("Fine Edge, a unit of ...").
+_TRAIL_MARKERS = re.compile(
+    r"\b(formerly|erstwhile|a unit of|division of|arm of|business of)\b", re.I
+)
 
 
 def normalise_company(name):
@@ -30,20 +40,82 @@ def normalise_company(name):
     s = name.lower()
     for word in config.NORMALISE_STOPWORDS:
         s = re.sub(rf"\b{re.escape(word)}\b", " ", s)
-    s = re.sub(r"[^a-z0-9 ]", " ", s)  # drop punctuation
+    s = re.sub(r"[^a-z0-9 ]", " ", s)
     s = re.sub(r"\s+", " ", s).strip()
     return s
 
 
-def deal_key(company, deal_type):
-    return f"{normalise_company(company)}|{(deal_type or 'unknown').lower()}"
+def _strip_name(name):
+    """Drop parentheticals, anything after a comma, and descriptive suffixes."""
+    if not name:
+        return ""
+    s = re.sub(r"\([^)]*\)", " ", name)   # remove "(Ashok Iron Works ...)"
+    s = s.split(",")[0]                     # remove ", a unit of ..."
+    m = _TRAIL_MARKERS.search(s)
+    if m:
+        s = s[: m.start()]
+    return s
+
+
+def tokens(name):
+    """Company name -> set of meaningful lowercase tokens (stopwords dropped)."""
+    s = _strip_name(name).lower()
+    s = re.sub(r"[^a-z0-9 ]", " ", s)
+    return frozenset(w for w in s.split() if w and w not in config.CLUSTER_STOPWORDS)
+
+
+def deal_key(company):
+    """Stable string key for storage/debug (not used for matching)."""
+    return " ".join(sorted(tokens(company))) or normalise_company(company)
+
+
+def _subset_match(a, b):
+    """True if either token set contains the other (both non-empty)."""
+    return bool(a) and bool(b) and (a <= b or b <= a)
+
+
+def _amount_match(a1, a2):
+    """True if both amounts are present and within AMOUNT_MATCH_TOL of each other."""
+    if a1 is None or a2 is None:
+        return False
+    a1, a2 = float(a1), float(a2)
+    if a1 <= 0 or a2 <= 0:
+        return False
+    return abs(a1 - a2) <= config.AMOUNT_MATCH_TOL * max(a1, a2)
+
+
+def _age_hours(created_at_iso):
+    try:
+        dt = datetime.fromisoformat(created_at_iso)
+    except (ValueError, TypeError):
+        return float("inf")
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    return (datetime.now(timezone.utc) - dt).total_seconds() / 3600.0
+
+
+def _find_match(new_tokens, new_amount):
+    """Return the first open deal this item belongs to, or None."""
+    for cand in db.deals_in_window(config.AMOUNT_WINDOW_HOURS):  # newest first
+        age = _age_hours(cand.get("created_at"))
+        cand_tokens = tokens(cand.get("company", ""))
+        # Name path — containment, within the 72h window.
+        if age <= config.DEAL_WINDOW_HOURS and _subset_match(new_tokens, cand_tokens):
+            return cand
+        # Amount path — within 5% and sharing a token, up to 7 days.
+        if (
+            age <= config.AMOUNT_WINDOW_HOURS
+            and _amount_match(new_amount, cand.get("amount_cr"))
+            and (new_tokens & cand_tokens)
+        ):
+            return cand
+    return None
 
 
 def _material_updates(existing, result):
     """
     Compare a new classifier result against the stored deal.
-    Returns a dict of columns to update AND a human note, or (None, None) if
-    the new item adds nothing material.
+    Returns (updates_dict, note) or (None, None) if nothing material is added.
     """
     updates = {}
     notes = []
@@ -51,12 +123,10 @@ def _material_updates(existing, result):
     old_amount = existing.get("amount_cr")
     new_amount = result.get("amount_cr")
 
-    # Amount where there was none.
     if old_amount is None and new_amount is not None:
         updates["amount_cr"] = new_amount
         updates["amount_raw"] = result.get("amount_raw")
         notes.append("amount added")
-    # Amount revised by more than 20%.
     elif (
         old_amount is not None
         and new_amount is not None
@@ -67,14 +137,12 @@ def _material_updates(existing, result):
         updates["amount_raw"] = result.get("amount_raw")
         notes.append(f"amount revised {old_amount:g}→{new_amount:g} cr")
 
-    # Named individual where there was none.
     old_individuals = json.loads(existing.get("individuals") or "[]")
     new_individuals = result.get("individuals") or []
     if not old_individuals and new_individuals:
         updates["individuals"] = new_individuals
         notes.append("individual named")
 
-    # Named buyer where there was none.
     if not existing.get("buyer") and result.get("buyer"):
         updates["buyer"] = result.get("buyer")
         notes.append("buyer named")
@@ -86,46 +154,48 @@ def _material_updates(existing, result):
 
 def process(item, result):
     """
-    Handle one classified, non-negative item.
-    Returns a list of alert dicts (0, 1 for a new deal, or 1 for an UPDATE).
+    Handle one qualifying item.
+    Returns a list of alert dicts (a new-deal alert, an UPDATE, or nothing).
     """
     company = result.get("company") or item.get("title", "")
-    dtype = result.get("deal_type") or "unknown"
-    key = deal_key(company, dtype)
+    new_tokens = tokens(company)
+    new_amount = result.get("amount_cr")
+    title = item.get("title", "")
+    url = item.get("url", "")
 
-    existing = db.find_open_deal(key, config.DEAL_WINDOW_HOURS)
+    match = _find_match(new_tokens, new_amount)
 
-    if existing is None:
-        # First sighting: create the deal and fire an alert.
+    if match is None:
         deal = {
-            "deal_key": key,
+            "deal_key": deal_key(company),
             "company": company,
-            "deal_type": dtype,
-            "amount_cr": result.get("amount_cr"),
+            "deal_type": result.get("deal_type") or "unknown",
+            "amount_cr": new_amount,
             "amount_raw": result.get("amount_raw"),
             "individuals": result.get("individuals") or [],
             "buyer": result.get("buyer"),
             "confidence": result.get("confidence") or "medium",
             "one_line": result.get("one_line") or "",
             "source": item.get("source", ""),
-            "url": item.get("url", ""),
+            "url": url,
         }
-        db.create_deal(deal)
+        deal_id = db.create_deal(deal)
+        db.add_deal_member(deal_id, title, url)
         return [_alert_from_deal(deal, is_update=False)]
 
-    # Deal already known. Does this item add a material fact?
-    updates, note = _material_updates(existing, result)
+    # Existing deal — record the merge, then decide whether to fire an UPDATE.
+    db.add_deal_member(match["id"], title, url)
+    updates, note = _material_updates(match, result)
     if updates is None:
         return []  # attach silently
 
-    db.update_deal(existing["id"], dict(updates))
-    merged = dict(existing)
+    db.update_deal(match["id"], dict(updates))
+    merged = dict(match)
     merged.update(updates)
     if isinstance(merged.get("individuals"), str):
         merged["individuals"] = json.loads(merged["individuals"] or "[]")
-    # Prefer the fresh item's source/url for the UPDATE alert.
-    merged["source"] = item.get("source", existing.get("source", ""))
-    merged["url"] = item.get("url", existing.get("url", ""))
+    merged["source"] = item.get("source", match.get("source", ""))
+    merged["url"] = url or match.get("url", "")
     alert = _alert_from_deal(merged, is_update=True)
     alert["note"] = note
     return [alert]

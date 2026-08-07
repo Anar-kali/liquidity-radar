@@ -149,6 +149,20 @@ NORMALISE_STOPWORDS = [
 # How long (hours) a deal stays "open" for later articles to attach to it.
 DEAL_WINDOW_HOURS = 72
 
+# Clustering v2 — amount-match path. Two items with amounts within
+# AMOUNT_MATCH_TOL of each other, sharing at least one name token, are the same
+# deal even up to AMOUNT_WINDOW_HOURS apart (follow-up analyses land days later).
+AMOUNT_WINDOW_HOURS = 168      # 7 days
+AMOUNT_MATCH_TOL = 0.05        # 5%
+
+# Corporate stopwords dropped when tokenising company names for clustering.
+CLUSTER_STOPWORDS = {
+    "private", "limited", "ltd", "pvt", "inc", "corp", "corporation",
+    "technologies", "technology", "industries", "enterprises", "group",
+    "holdings", "india", "company", "co", "and", "the", "engineering",
+    "services", "solutions",
+}
+
 # A browser-like User-Agent, needed by BSE and NSE.
 BROWSER_UA = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -193,6 +207,11 @@ small deal.
 
 Currency: 1 crore = 10 million INR. 1 lakh = 100,000 INR.
 Use 1 USD = {USD_INR} INR, 1 EUR = {EUR_INR} INR. Show your working in amount_raw.
+
+"company" is ALWAYS the entity whose ownership is changing — the target, or the
+company whose shares are being sold — NEVER the acquirer or investor. In
+"IndiaRF acquires Fine Edge Engineering", company is Fine Edge Engineering and
+buyer is IndiaRF.
 
 Return ONLY a JSON array, no markdown fences, no preamble. One object per
 input item, same order:
@@ -266,6 +285,11 @@ When a LARGE deal is genuinely borderline — a big buyout where you cannot tell
 if an individual sells — LEAN QUALIFY. A rare false alarm costs five seconds;
 a missed founder cash-out costs a client. But never pass the numbered noise
 categories above; those are confirmed drops.
+
+"company" is ALWAYS the entity whose ownership is changing — the target, or the
+company whose shares are being sold — NEVER the acquirer or investor. In
+"IndiaRF acquires Fine Edge Engineering", company is Fine Edge Engineering and
+buyer is IndiaRF.
 
 Return ONLY a JSON array, no markdown fences, no preamble. One object per
 input item, same order:

@@ -1,47 +1,66 @@
-# Liquidity Radar — build specification
+# Liquidity Radar — as-built specification
 
-Build this exactly as described. Ask me before deviating.
+This describes the system **as actually built and deployed**, including the
+changes made during implementation. (The original pre-build spec is in git
+history if you need it.)
 
-I am not a programmer. Explain anything you need me to do in plain English,
-and tell me exactly which file to open and what to paste where.
+Deployed at **github.com/Anar-kali/liquidity-radar** (public), running on
+GitHub Actions' free tier, alerting a private Telegram bot (@Deal_trackbot).
 
 ## What it does
 
 Monitors Indian corporate filings and financial news for deals where an
 individual (promoter, founder, family shareholder) is likely to receive a
-large sum of money. Sends a Telegram alert for each qualifying deal.
+large sum of money, and sends a Telegram alert for each qualifying deal.
 
-The user is a private banker prospecting UHNI clients. He wants high recall.
-False positives are fine. Missing a real deal is not.
+Bias: the banker wants real leads without noise. The pipeline keeps high
+recall early, then applies a strict precision pass, so genuinely large
+individual-payout deals get through while listings, IPO-intention chatter, and
+small stake buys are filtered out.
 
 ## Environment
 
-- Runs on GitHub Actions, free tier. No VPS.
-- Python 3.11.
+- Runs entirely on **GitHub Actions**, free tier. No server.
+- **Python 3.11.** Dependencies: `anthropic`, `requests`, `feedparser`,
+  `beautifulsoup4`.
 - All secrets from environment variables, never hardcoded.
-- State persists by committing a SQLite file back to the repo after each run.
-  Use a `concurrency` group in the workflow so two runs never overlap.
+- State persists by committing the SQLite file `radar.db` back to the repo
+  after each run. A shared `concurrency` group (`liquidity-radar`) ensures two
+  runs never overlap and clash on the database.
 
-Required secrets (repo Settings > Secrets and variables > Actions):
-`TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`, `ANTHROPIC_API_KEY`
+Required repo secrets (Settings → Secrets and variables → Actions):
+`TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`, `ANTHROPIC_API_KEY`.
 
-## Schedules
+## Scheduling
 
-Cron expressions must be in UTC. IST is UTC+5:30.
+**GitHub's built-in cron proved unreliable** (it barely fired for the first
+day on a new repo), so scheduling is driven by an **external scheduler
+(cron-job.org)** that calls GitHub's `workflow_dispatch` API on an exact
+cadence. GitHub's own cron is kept only as a lightweight backup.
 
-| Workflow | Cadence | Sources |
+Two workflows, driven by two cron-job.org jobs:
+
+| Workflow | External cadence | Runs |
 |---|---|---|
-| `fast.yml` | every 15 min, Mon-Fri, 09:00-18:30 IST | exchanges + news |
-| `news.yml` | every 30 min, all days, 07:00-23:00 IST | news only |
-| `slow.yml` | 08:00, 14:00, 20:00 IST daily | SEBI DRHP |
-| `digest.yml` | 20:30 IST daily | suppression summary |
+| `radar.yml` | every 15 min | `python main.py --mode auto` |
+| `digest.yml` | 20:30 IST daily | `python digest.py` (suppression summary) |
+
+`--mode auto` is time-aware (IST) so a single trigger does the right thing:
+
+- weekday 09:00–18:30 → **fast**: exchanges + news
+- any day 07:00–23:00 → **news**: news only
+- 08:00 / 14:00 / 20:00 → additionally fetch **SEBI DRHP**
+- outside those hours → no-op (cheap)
+
+The external scheduler authenticates with a dedicated fine-grained GitHub PAT
+(repo-scoped, **Actions: Read and write**), stored in cron-job.org.
 
 ## Sources
 
-**Google News RSS — highest yield, weight accordingly.** One feed per query:
+**Google News RSS — highest yield.** One feed per query:
 `https://news.google.com/rss/search?q={URL-encoded query}+when:2d&hl=en-IN&gl=IN&ceid=IN:en`
 
-Queries:
+Queries (edit the list in `config.py`):
 - `promoter stake sale crore India`
 - `block deal promoter shares crore`
 - `DRHP filed SEBI offer for sale`
@@ -51,159 +70,187 @@ Queries:
 - `open offer acquisition promoter crore`
 - `family office stake sale India crore`
 
-**Trade press RSS.** Mint companies, VCCircle, Entrackr, Business Standard
-companies. Do NOT add ET Markets direct RSS — tested, produces only retail
-investor noise. ET articles reach us via Google News anyway.
+**Trade press RSS** (sent with a browser User-Agent):
+- **Mint** companies — `https://www.livemint.com/rss/companies`
+- **Entrackr** — `https://entrackr.com/rss`
+- *Removed:* VCCircle (no longer serves a working RSS feed) and Business
+  Standard (its RSS returns HTTP 403 to server IPs). Both reach us via Google
+  News anyway, as does ET Markets (never added — retail noise).
 
 **BSE announcements.** `https://api.bseindia.com/BseIndiaAPI/api/AnnSubCategoryGetData/w`
-Needs a browser User-Agent and `Referer: https://www.bseindia.com/`. Filter by
-announcement subcategory to drop routine filings (results, board meeting
-notices, newspaper publications, trading window closures). Keep acquisition,
-disposal, fundraising and shareholding categories.
+with a browser User-Agent and `Referer: https://www.bseindia.com/`. Kept
+subcategories relate to acquisition/disposal/fundraising/shareholding; routine
+filings (results, board meetings, newspaper publications, trading-window
+notices) are dropped.
 
 **NSE announcements.** `https://www.nseindia.com/api/corporate-announcements?index=equities`
-Requires cookie warm-up: GET `https://www.nseindia.com` first, wait one second,
-then call the API with a Referer header. NSE blocks aggressively. On failure,
-back off and retry next run rather than looping.
+with cookie warm-up (GET the home page, wait 1s, then the API with a Referer).
+On block/failure it backs off and returns nothing (retries next run).
 
-**SEBI draft offer documents.** Scrape `https://www.sebi.gov.in/filings/public-issues`
+**SEBI draft offer documents.** Scrapes `https://www.sebi.gov.in/filings/public-issues`
 for links matching draft / DRHP / prospectus / offer document.
 
-No keyword prefilter on news. Everything goes to the classifier. The
-subcategory filter applies only to exchange filings.
+Every fetcher is defensive: a source that is down or blocking returns an empty
+list rather than crashing the run. No keyword prefilter on news — everything
+goes to the classifier. The subcategory filter applies only to BSE filings.
 
-## Classification — ONE stage, Haiku only
+## Classification — two Haiku passes (Haiku only)
 
-Model: `claude-haiku-4-5-20251001`. Do not use Sonnet anywhere. Cost matters
-more than marginal accuracy here.
+Model: `claude-haiku-4-5-20251001` for **both** stages. Sonnet was trialled and
+rejected: too expensive for this volume. Cost matters more than marginal
+accuracy. Items are classified only when **new** (deduped against the `items`
+table), so a normal run classifies just the handful of new items.
 
-Batch 25 items per API call as a numbered list. For each item send the
-headline plus the first 400 characters of description. Ask for a JSON array
-with one object per item, in the same order.
+Batch 25 items per API call as a numbered list: headline plus the first 400
+characters of description. Response is a JSON array, one object per item, same
+order.
 
-### System prompt
+**Stage 1 — reject confirmed noise (high recall).** Marks an item as a
+confirmed negative only for clear cases; when in doubt it passes. Confirmed
+negatives include: pure debt; IBC/NCLT; PSU/government divestment; a subsidiary
+sale onto a corporate balance sheet (unless the parent is a closely-held
+promoter holding company); intra-group restructuring; no Indian individual in
+the chain; explicitly all-primary seed/Series-A fundraising; a clearly stated
+size under 250 crore; and non-transactions — earnings, price moves, analyst
+ratings, product launches, aggregate commentary, **stock-market listings /
+trading debuts, IPO subscription / GMP / listing-day coverage, and mere
+announcements of an intention to IPO or raise funds**.
 
-```
-You screen Indian corporate news and exchange filings for a private banker
-who prospects individuals about to receive large sums of money.
+**Deterministic amount gate (code, not the model).** A clearly stated size
+below the 250-crore threshold is suppressed in code. Conversely, if stage 1
+tried to drop something as "under threshold" but the stated size (read as
+INR crore, USD, or EUR) is actually ≥ 250 crore, it is kept for stage 2 — a
+missed large deal is the one error to avoid.
 
-Your ONLY job is to decide whether each item is a CONFIRMED NEGATIVE. If it
-is not confirmed, it passes. When in doubt, pass it. A false alarm costs the
-banker five seconds. A missed deal costs him a client.
+**Stage 2 — positively confirm a qualifying lead (precision).** Runs only on
+stage-1 survivors. Passes an item only when it is a concrete or
+actively-negotiated transaction in which an individual (promoter, founder,
+family shareholder, or the owners of a privately held / founder-run company) is
+likely to receive a large sum. Large buyouts get the benefit of the doubt even
+when the seller isn't named. Drops: IPO subscription/listing/intention;
+**primary fundraises** (money into the company, or an individual investing in);
+a company acquiring a small/minority stake; pure fund-to-fund transfers with no
+individual; and anything clearly under 250 crore.
 
-Mark confirmed_negative = true ONLY for:
-1. Pure debt. NCDs, venture debt, working capital, refinancing, bonds.
-2. IBC or NCLT resolution. Creditors are paid, promoters get nothing.
-3. PSU or government divestment. Proceeds go to the government.
-4. A subsidiary sale by a listed or MNC parent, where proceeds land on a
-   corporate balance sheet. EXCEPTION: if the parent is a closely held
-   promoter holding company, this is NOT a negative.
-5. Internal restructuring, including intra-group transfers between entities
-   controlled by the same promoter family. No outside money changes hands.
-6. No Indian individual anywhere in the transaction chain.
-7. Explicitly all-primary fundraising at seed or Series A stage.
-8. A deal size is clearly STATED and converts to less than 250 crore INR.
-9. Not a transaction at all: earnings results, share price moves, analyst
-   ratings, technical signals, product launches, regulatory disputes,
-   aggregate market commentary, or listicles about promoter selling trends.
+**Amount guards** (`classify.py`): `reconcile_amount` corrects Haiku's
+occasional ×10 slip on INR-crore figures (e.g. reads "₹3,000 crore" but returns
+300) while leaving foreign-currency ($/€) amounts alone; `stated_cr_max` reads
+INR/USD/EUR figures for the recall safety net.
 
-Rule 8 applies ONLY when a size is stated. Undisclosed terms, no figure
-given, "sources say" with no number: these all PASS. Silence is never a
-small deal.
+The classifier returns, per item: company, deal_type, amount_cr, amount_raw,
+individuals, **buyer**, confidence, one_line, plus the stage decision. The
+`buyer` field was **added** beyond the original schema because the clustering
+"named buyer" update rule needs it.
 
-Currency: 1 crore = 10 million INR. 1 lakh = 100,000 INR.
-Use 1 USD = 88 INR, 1 EUR = 96 INR. Show your working in amount_raw.
-
-Return ONLY a JSON array, no markdown fences, no preamble. One object per
-input item, same order:
-[{
-  "n": 1,
-  "confirmed_negative": true|false,
-  "negative_reason": "rule number and short phrase, or null",
-  "company": "",
-  "deal_type": "IPO-OFS|block deal|strategic buyout|PE secondary|PE primary|open offer|promoter sale|DRHP filing|other|unknown",
-  "amount_cr": null,
-  "amount_raw": "exact text the figure came from, plus your conversion, or null",
-  "individuals": ["named individuals receiving money, empty if none named"],
-  "confidence": "high|medium",
-  "one_line": "under 20 words: what happened and who gets paid"
-}]
-
-Never invent a figure. If no amount is stated, amount_cr and amount_raw are
-null. Do not estimate from stake percentages or valuations.
-
-Set confidence to "high" when a named individual and a stated amount are both
-present. Otherwise "medium".
-```
+Currency: 1 crore = 10M INR, 1 lakh = 100,000 INR, 1 USD = 88 INR, 1 EUR = 96
+INR. Never invents a figure; undisclosed size passes (silence is never a small
+deal).
 
 ## Deal clustering
 
-The most important part. One transaction gets reported by eight outlets. The
-user must receive one alert, not eight.
+One transaction reported by many outlets — often under different framing
+("IndiaRF buys Fine Edge" vs "Fine Edge Engineering strategic buyout") — must
+produce **one** alert.
 
-Two tables:
+Tables:
 - `items` — every fetched item, keyed on source ID or URL, for dedup.
 - `deals` — clustered transactions.
+- `deal_members` — which item titles merged into each deal (audit / dedupe check).
 
-Deal key: normalised company name plus deal type, within a rolling 72 hour
-window. Normalise by lowercasing and stripping: private, limited, ltd, pvt,
-inc, corp, technologies, industries, enterprises, and all punctuation.
+The classifier's `company` field is always the **target** (the entity whose
+ownership is changing), never the acquirer or investor.
 
-- First item to match a key creates the deal and fires an alert.
-- Later items attach silently.
-- EXCEPT when a later item adds a material fact the deal record lacks: an
-  amount where there was none, a named individual where there was none, a
-  named buyer where there was none, or an amount revised by more than 20%.
-  Then send one follow-up marked UPDATE.
+A new item joins an existing deal if EITHER:
 
-## Suppression log
+- **Name match**, within 72 hours: the two company names, reduced to token
+  sets, contain one another. Reduction: drop parentheticals, anything after a
+  comma or a descriptive marker ("formerly", "a unit of", "division of", …),
+  punctuation, and corporate stopwords (private, ltd, technologies, industries,
+  group, holdings, india, engineering, services, …). `{fine, edge}` is a subset
+  of `{fine, edge, ashok, iron, works}` → same deal.
+- **Amount match**, within 7 days: both amounts are within 5% of each other and
+  the names share at least one token. (The wider window catches follow-up
+  analysis pieces that land days later.)
 
-Every confirmed negative goes into a `suppressed` table with title, URL, the
-rule that killed it, `amount_cr` and `amount_raw`. Never delete from it.
+`deal_type` is deliberately NOT part of the match — one outlet's "strategic
+buyout" is another's "PE secondary".
 
-`digest.yml` sends one Telegram message at 20:30 IST daily:
+- First item creates the deal and fires an alert.
+- Later matching items attach silently.
+- EXCEPT when a later item adds a material fact the record lacks — an amount
+  where there was none, a named individual, a named buyer, or an amount revised
+  by more than 20% — then one follow-up is sent, marked UPDATE.
 
-```
-Suppressed today: 34
+Accepted trade-off: one company doing two genuinely different deals within the
+window can merge into a single alert. Rare, and the cost is only a missed
+second ping about a company already on the radar.
 
-Rule 3 (govt/PSU): 6
-Rule 8 (under 250cr): 11
-Rule 9 (not a transaction): 14
-Rule 5 (intra-group): 3
+`python dedupe_check.py [--days N]` prints the deals clustered in the last N
+days with the item titles that merged into each, so over-merging can be spotted.
 
-Largest suppressed: Coal India OFS Rs 5,549cr (rule 3)
-```
+Note: because Google News rotates its article URLs, the same story can look
+"new" to item-level dedup; this clustering layer is the real guard against
+duplicate alerts.
 
-Also add `python report.py` to print the last 7 days grouped by rule.
+## Suppression log, digest, report
+
+Every suppressed item goes into a `suppressed` table with title, URL, the rule
+that killed it, `amount_cr` and `amount_raw`. Never deleted. Rules recorded:
+Rule 1–9 (stage-1 negatives), **Rule 8** (under threshold — model or code), and
+**Rule P** (failed the stage-2 precision check).
+
+`digest.yml` sends one Telegram message at 20:30 IST daily: total suppressed,
+a breakdown by rule, and the largest suppressed deal.
+
+`python report.py [--days N]` prints the last N days (default 7) grouped by
+rule.
 
 ## Alert format
 
-Telegram, Markdown. Scannable, he gets 8 to 15 a day.
+Telegram, Markdown, scannable:
 
 ```
-[RED] *{company}* · {deal_type} · {amount or "Size undisclosed"}
+[EMOJI] *{company}* · {deal_type} · {amount or "Size undisclosed"}
 
 _{one_line}_
 
-{names if any, else "No individual named"}
+{names if any, else "No individual named"}[  ·  buyer: {buyer}]
 
 [{source}]({url})
 ```
 
-Use a red circle emoji for high confidence, yellow for medium. Prefix the
-company name with `UPDATE ·` for follow-ups on an existing deal.
+Red circle 🔴 for high confidence, yellow 🟡 for medium. Follow-ups are prefixed
+`UPDATE ·`. Markdown-breaking characters in fields are escaped.
 
-## Not building
+## Command-line flags
 
-No valuation lookups. No funding history. No cap table inference. No MCA,
-Probe42 or Tracxn. No web dashboard. No family settlement or HUF tracking.
-No Sonnet. If you think one of these would help, mention it, do not build it.
+- `--mode fast|news|slow|auto` — which sources to fetch (`auto` = time-aware).
+- `--dry` — print alerts to the terminal instead of sending to Telegram.
+- `--test-telegram` — send one test message and exit.
+- `--limit N` — cap how many alerts are sent this run (testing / anti-flood);
+  deals are still recorded.
 
-## Before you finish
+## File layout
 
-1. Add a `--dry` flag that prints alerts to the terminal instead of Telegram.
-2. Add a `--test-telegram` flag that sends one test message and exits.
-3. Write a README covering: what each secret is and where to get it, how to
-   read the suppression report, how to change the 250 crore threshold, and
-   how to add or remove a Google News query.
-4. Run it once with `--dry` and show me the output before we go live.
+```
+config.py      settings: threshold, queries, feeds, models, both prompts
+db.py          SQLite schema + helpers (items, deals, suppressed)
+sources.py     fetchers (Google News, trade press, BSE, NSE, SEBI) + auto plan
+classify.py    two-stage Haiku classifier + amount guards
+cluster.py     deal clustering / dedup / UPDATE logic
+notify.py      Telegram formatting + sending
+main.py        orchestrator (fetch → classify → cluster → alert)
+digest.py      daily suppression summary
+report.py      N-day suppression report
+dedupe_check.py  N-day clustering audit (what merged into each deal)
+.github/workflows/radar.yml    main run (--mode auto), external + backup cron
+.github/workflows/digest.yml   daily digest, external + backup cron
+README.md      plain-English setup + tuning guide
+requirements.txt
+```
+
+## Deliberately not built
+
+No Sonnet (Haiku only). No valuation lookups, funding history, or cap-table
+inference. No MCA / Probe42 / Tracxn. No web dashboard. No family-settlement or
+HUF tracking.

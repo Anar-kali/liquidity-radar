@@ -67,7 +67,17 @@ def init_db(path=DB_PATH):
             created_at TEXT
         );
 
+        -- which items merged into each deal (for dedupe_check + auditing)
+        CREATE TABLE IF NOT EXISTS deal_members (
+            id          INTEGER PRIMARY KEY AUTOINCREMENT,
+            deal_id     INTEGER,
+            title       TEXT,
+            url         TEXT,
+            attached_at TEXT
+        );
+
         CREATE INDEX IF NOT EXISTS idx_deal_key ON deals(deal_key);
+        CREATE INDEX IF NOT EXISTS idx_member_deal ON deal_members(deal_id);
         """
     )
     conn.commit()
@@ -116,6 +126,40 @@ def find_open_deal(deal_key, window_hours, path=DB_PATH):
     ).fetchone()
     conn.close()
     return dict(row) if row else None
+
+
+def deals_in_window(hours, path=DB_PATH):
+    """All deals created within the last `hours`, most recent first."""
+    cutoff = (datetime.now(timezone.utc) - timedelta(hours=hours)).isoformat()
+    conn = _conn(path)
+    rows = conn.execute(
+        "SELECT * FROM deals WHERE created_at >= ? ORDER BY created_at DESC",
+        (cutoff,),
+    ).fetchall()
+    conn.close()
+    return [dict(r) for r in rows]
+
+
+def add_deal_member(deal_id, title, url, path=DB_PATH):
+    conn = _conn(path)
+    conn.execute(
+        "INSERT INTO deal_members (deal_id, title, url, attached_at) "
+        "VALUES (?, ?, ?, ?)",
+        (deal_id, title, url, now_iso()),
+    )
+    conn.commit()
+    conn.close()
+
+
+def members_for_deal(deal_id, path=DB_PATH):
+    conn = _conn(path)
+    rows = conn.execute(
+        "SELECT title, url, attached_at FROM deal_members WHERE deal_id = ? "
+        "ORDER BY attached_at",
+        (deal_id,),
+    ).fetchall()
+    conn.close()
+    return [dict(r) for r in rows]
 
 
 def create_deal(deal, path=DB_PATH):
