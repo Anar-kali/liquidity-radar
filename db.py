@@ -83,6 +83,21 @@ def init_db(path=DB_PATH):
             fetched_at     TEXT
         );
 
+        -- Telegram inline-button feedback (Useful / Already knew / Noise)
+        CREATE TABLE IF NOT EXISTS feedback (
+            id         INTEGER PRIMARY KEY AUTOINCREMENT,
+            deal_id    INTEGER,
+            verdict    TEXT,
+            chat_id    TEXT,
+            created_at TEXT
+        );
+
+        -- small key/value store; currently just the Telegram getUpdates offset
+        CREATE TABLE IF NOT EXISTS kv_state (
+            key   TEXT PRIMARY KEY,
+            value TEXT
+        );
+
         CREATE INDEX IF NOT EXISTS idx_deal_key ON deals(deal_key);
         CREATE INDEX IF NOT EXISTS idx_member_deal ON deal_members(deal_id);
         """
@@ -121,6 +136,52 @@ def set_market_cap(ticker, market_cap_cr, path=DB_PATH):
     )
     conn.commit()
     conn.close()
+
+
+# --------------------------------------------------------------------------
+# feedback + kv_state
+# --------------------------------------------------------------------------
+def get_state(key, default=None, path=DB_PATH):
+    conn = _conn(path)
+    row = conn.execute("SELECT value FROM kv_state WHERE key = ?", (key,)).fetchone()
+    conn.close()
+    return row["value"] if row else default
+
+
+def set_state(key, value, path=DB_PATH):
+    conn = _conn(path)
+    conn.execute(
+        "INSERT INTO kv_state (key, value) VALUES (?, ?) "
+        "ON CONFLICT(key) DO UPDATE SET value = excluded.value",
+        (key, value),
+    )
+    conn.commit()
+    conn.close()
+
+
+def add_feedback(deal_id, verdict, chat_id, path=DB_PATH):
+    conn = _conn(path)
+    conn.execute(
+        "INSERT INTO feedback (deal_id, verdict, chat_id, created_at) VALUES (?, ?, ?, ?)",
+        (deal_id, verdict, chat_id, now_iso()),
+    )
+    conn.commit()
+    conn.close()
+
+
+def feedback_since(days, path=DB_PATH):
+    """Feedback rows from the last N days, joined with the deal they rate."""
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=days)).isoformat()
+    conn = _conn(path)
+    rows = conn.execute(
+        "SELECT f.verdict, f.created_at, d.company, d.deal_type, d.size_band, "
+        "d.size_source, d.source AS source_feed, d.one_line, d.url AS deal_url "
+        "FROM feedback f LEFT JOIN deals d ON d.id = f.deal_id "
+        "WHERE f.created_at >= ? ORDER BY f.created_at DESC",
+        (cutoff,),
+    ).fetchall()
+    conn.close()
+    return [dict(r) for r in rows]
 
 
 # --------------------------------------------------------------------------

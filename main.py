@@ -24,6 +24,7 @@ import classify
 import cluster
 import config
 import db
+import feedback
 import notify
 import sizing
 import sources
@@ -41,6 +42,10 @@ def _rule_number(reason):
 
 def run(mode, dry, limit=None):
     db.init_db()
+
+    # Pick up any Telegram button presses (Useful / Already knew / Noise)
+    # from since the last run, at the start of every run.
+    feedback.poll_feedback(dry=dry)
 
     raw = sources.fetch_for_mode(mode)
     print(f"[main] fetched {len(raw)} items in mode '{mode}'")

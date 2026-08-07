@@ -110,23 +110,22 @@ def format_alert(alert):
     )
 
 
-def send(text):
+def send(text, reply_markup=None):
     """Send one message to Telegram. Returns True on success."""
     token, chat_id = _token(), _chat_id()
     if not token or not chat_id:
         print("[notify] TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID not set")
         return False
+    payload = {
+        "chat_id": chat_id,
+        "text": text,
+        "parse_mode": "Markdown",
+        "disable_web_page_preview": True,
+    }
+    if reply_markup:
+        payload["reply_markup"] = reply_markup
     try:
-        r = requests.post(
-            TELEGRAM_API.format(token=token),
-            json={
-                "chat_id": chat_id,
-                "text": text,
-                "parse_mode": "Markdown",
-                "disable_web_page_preview": True,
-            },
-            timeout=30,
-        )
+        r = requests.post(TELEGRAM_API.format(token=token), json=payload, timeout=30)
         if r.status_code != 200:
             print(f"[notify] Telegram error {r.status_code}: {r.text}")
             return False
@@ -136,8 +135,18 @@ def send(text):
         return False
 
 
+def feedback_keyboard(deal_id):
+    """Inline keyboard: Useful / Already knew / Noise. callback_data e.g. 'fb:1423:useful'."""
+    return {"inline_keyboard": [[
+        {"text": "\U0001F44D Useful", "callback_data": f"fb:{deal_id}:useful"},
+        {"text": "\U0001F937 Already knew", "callback_data": f"fb:{deal_id}:already_knew"},
+        {"text": "\U0001F5D1 Noise", "callback_data": f"fb:{deal_id}:noise"},
+    ]]}
+
+
 def send_alert(alert):
-    return send(format_alert(alert))
+    markup = feedback_keyboard(alert["deal_id"]) if alert.get("deal_id") else None
+    return send(format_alert(alert), reply_markup=markup)
 
 
 def send_test():

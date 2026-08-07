@@ -1,0 +1,31 @@
+name: feedback-report
+
+# Monday 09:00 IST (03:30 UTC) weekly feedback summary. Primary trigger is the
+# external scheduler (cron-job.org, same as radar.yml/digest.yml); GitHub cron
+# below is kept only as a backup.
+on:
+  schedule:
+    - cron: "31 3 * * 1"   # off-peak minute, ~09:01 IST Monday
+  workflow_dispatch:
+
+concurrency:
+  group: liquidity-radar
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - name: Send weekly feedback report
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python feedback_report.py

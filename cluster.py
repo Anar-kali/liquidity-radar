@@ -193,7 +193,7 @@ def process(item, result):
         }
         deal_id = db.create_deal(deal)
         db.add_deal_member(deal_id, title, url)
-        return [_alert_from_deal(deal, is_update=False)]
+        return [_alert_from_deal(deal, deal_id, is_update=False)]
 
     # Existing deal — record the merge, then decide whether to fire an UPDATE.
     db.add_deal_member(match["id"], title, url)
@@ -209,16 +209,17 @@ def process(item, result):
         merged["individuals"] = json.loads(merged["individuals"] or "[]")
     merged["source"] = item.get("source", match.get("source", ""))
     merged["url"] = url or match.get("url", "")
-    alert = _alert_from_deal(merged, is_update=True)
+    alert = _alert_from_deal(merged, match["id"], is_update=True)
     alert["note"] = note
     return [alert]
 
 
-def _alert_from_deal(deal, is_update):
+def _alert_from_deal(deal, deal_id, is_update):
     individuals = deal.get("individuals")
     if isinstance(individuals, str):
         individuals = json.loads(individuals or "[]")
     return {
+        "deal_id": deal_id,
         "company": deal.get("company", ""),
         "deal_type": deal.get("deal_type", "unknown"),
         "amount_cr": deal.get("amount_cr"),

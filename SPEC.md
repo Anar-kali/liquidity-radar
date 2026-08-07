@@ -271,6 +271,28 @@ _{one_line}_
 Red circle 🔴 for high confidence, yellow 🟡 for medium. Follow-ups are prefixed
 `UPDATE ·`. Markdown-breaking characters in fields are escaped.
 
+## Telegram feedback buttons (`feedback.py`)
+
+Every alert carries an inline keyboard: **Useful / Already knew / Noise**.
+There is no persistent server, so this is polling-based (`getUpdates`), not a
+webhook — `callback_data` encodes `fb:{deal_id}:{verdict}`.
+
+At the start of every `radar.yml` run, `feedback.poll_feedback()`: fetches
+pending `callback_query` updates since the last stored offset, writes each to
+a `feedback` table (deal_id, verdict, chat_id, timestamp), calls
+`answerCallbackQuery` ("Logged"), edits the original message to append the
+verdict (using Telegram's `entities` field rather than re-parsing Markdown, so
+already-escaped characters can't cause a parse error on edit), and persists
+the new offset in a `kv_state` table. In `--dry` mode nothing is written or
+acknowledged, so pending presses are left for the next real run.
+
+`python feedback_report.py [--dry]` sends one Telegram message every Monday
+09:00 IST: verdict counts over the last 14 days, a noise breakdown by deal
+type / size band / source feed / size source, an "already knew" breakdown by
+source feed, and the 5 most recent noise-marked alerts in full. This **only
+reports** — it never modifies prompts, thresholds, or rules automatically;
+that stays a manual `config.py` edit.
+
 ## Command-line flags
 
 - `--mode fast|news|slow|auto` — which sources to fetch (`auto` = time-aware).
@@ -290,8 +312,11 @@ classify.py    two-stage Haiku classifier + amount guards
 sizing.py      resolve size for undisclosed-amount deals (ticker/mcap/band)
 refresh_tickers.py  refresh data/nse_equities.csv + data/bse_scrips.csv
 cluster.py     deal clustering / dedup / UPDATE logic
-notify.py      Telegram formatting + sending
-main.py        orchestrator (fetch → classify → sizing → cluster → alert)
+notify.py      Telegram formatting + sending + feedback keyboard
+feedback.py    poll Telegram button presses, log + ack + edit
+feedback_report.py  weekly (Monday 09:00 IST) feedback summary
+main.py        orchestrator (poll feedback → fetch → classify → sizing →
+               cluster → alert)
 digest.py      daily suppression summary
 report.py      N-day suppression report
 dedupe_check.py  N-day clustering audit (what merged into each deal)
