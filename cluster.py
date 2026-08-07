@@ -115,9 +115,18 @@ def _find_match(new_tokens, new_amount):
 def _material_updates(existing, result):
     """
     Compare a new classifier result against the stored deal.
-    Returns (updates_dict, note) or (None, None) if nothing material is added.
+
+    Returns (updates_dict, fire_alert, note):
+      - updates_dict: columns to persist (amount, and newly-known individual /
+        buyer). Persisted whether or not we alert.
+      - fire_alert: True ONLY when the amount appears or revises by >20%. A new
+        buyer or individual alone updates the record silently — the banker does
+        his own research once alerted; a second ping naming the buyer is noise.
+        When an amount update does fire, the alert already carries the latest
+        individual and buyer via the merged record.
     """
     updates = {}
+    fire_alert = False
     notes = []
 
     old_amount = existing.get("amount_cr")
@@ -126,6 +135,7 @@ def _material_updates(existing, result):
     if old_amount is None and new_amount is not None:
         updates["amount_cr"] = new_amount
         updates["amount_raw"] = result.get("amount_raw")
+        fire_alert = True
         notes.append("amount added")
     elif (
         old_amount is not None
@@ -135,21 +145,19 @@ def _material_updates(existing, result):
     ):
         updates["amount_cr"] = new_amount
         updates["amount_raw"] = result.get("amount_raw")
+        fire_alert = True
         notes.append(f"amount revised {old_amount:g}→{new_amount:g} cr")
 
+    # Newly-known individual / buyer are persisted but do NOT fire on their own.
     old_individuals = json.loads(existing.get("individuals") or "[]")
     new_individuals = result.get("individuals") or []
     if not old_individuals and new_individuals:
         updates["individuals"] = new_individuals
-        notes.append("individual named")
 
     if not existing.get("buyer") and result.get("buyer"):
         updates["buyer"] = result.get("buyer")
-        notes.append("buyer named")
 
-    if not updates:
-        return None, None
-    return updates, "; ".join(notes)
+    return updates, fire_alert, "; ".join(notes)
 
 
 def process(item, result):
@@ -185,11 +193,12 @@ def process(item, result):
 
     # Existing deal — record the merge, then decide whether to fire an UPDATE.
     db.add_deal_member(match["id"], title, url)
-    updates, note = _material_updates(match, result)
-    if updates is None:
-        return []  # attach silently
+    updates, fire_alert, note = _material_updates(match, result)
+    if updates:
+        db.update_deal(match["id"], dict(updates))  # persist new facts always
+    if not fire_alert:
+        return []  # buyer/individual alone don't alert; attach silently
 
-    db.update_deal(match["id"], dict(updates))
     merged = dict(match)
     merged.update(updates)
     if isinstance(merged.get("individuals"), str):

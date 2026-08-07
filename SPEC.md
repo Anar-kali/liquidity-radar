@@ -177,9 +177,11 @@ buyout" is another's "PE secondary".
 
 - First item creates the deal and fires an alert.
 - Later matching items attach silently.
-- EXCEPT when a later item adds a material fact the record lacks — an amount
-  where there was none, a named individual, a named buyer, or an amount revised
-  by more than 20% — then one follow-up is sent, marked UPDATE.
+- EXCEPT when the **amount** appears (from unknown) or revises by more than
+  20% — then one follow-up is sent, marked UPDATE, carrying whatever else is
+  newly known (buyer, individuals). A newly-named buyer or individual on its
+  own is persisted to the record but does **not** alert — the banker researches
+  once alerted, so a second ping naming the buyer is noise.
 
 Accepted trade-off: one company doing two genuinely different deals within the
 window can merge into a single alert. Rare, and the cost is only a missed
