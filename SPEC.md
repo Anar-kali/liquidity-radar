@@ -38,12 +38,13 @@ day on a new repo), so scheduling is driven by an **external scheduler
 (cron-job.org)** that calls GitHub's `workflow_dispatch` API on an exact
 cadence. GitHub's own cron is kept only as a lightweight backup.
 
-Two workflows, driven by two cron-job.org jobs:
-
 | Workflow | External cadence | Runs |
 |---|---|---|
 | `radar.yml` | every 15 min | `python main.py --mode auto` |
 | `digest.yml` | 20:30 IST daily | `python digest.py` (suppression summary) |
+| `feedback-report.yml` | Monday 09:00 IST | `python feedback_report.py` (weekly rollup) |
+| `blockdeals.yml` | 19:30 IST weekdays | `python blockdeals.py` (bulk/block deals, PIT feed, salami-slice aggregation) |
+| `refresh-tickers.yml` | monthly | `python refresh_tickers.py` (NSE/BSE ticker master lists) |
 
 `--mode auto` is time-aware (IST) so a single trigger does the right thing:
 
@@ -241,12 +242,98 @@ Note: because Google News rotates its article URLs, the same story can look
 "new" to item-level dedup; this clustering layer is the real guard against
 duplicate alerts.
 
+## Confirmed deals — bulk/block files and PIT disclosures (`deals_files.py`, `pit_feed.py`)
+
+The only sources in the stack where the money is confirmed rather than
+prospective: the seller is named outright and the value is exact. Block deals
+settle T+1 — a promoter who sold Thursday morning has funds landing Friday.
+
+**Sources.** NSE bulk-deals and block-deals (`/api/historical/{bulk,block}-deals`,
+3-day lookback so a failed run self-heals) and the NSE structured PIT feed
+(`/api/corporates-pit`, ₹10 lakh disclosure threshold, so essentially every
+promoter/director/KMP trade appears here — 7-day lookback, or a **90-day
+backfill on the very first run** so the salami-slice aggregation window below
+doesn't start empty). All three reuse the cookie warm-up already in
+`sources.py`. **BSE's equivalent endpoints were not found** — every guessed
+path 302-redirected to an error page (unlike BSE's announcements API, which is
+confirmed working) — so per the spec's own fallback, this ships NSE only.
+
+> **Honesty note on reliability.** NSE's *announcements* endpoint (used
+> elsewhere in this system) is proven reliable in production. These
+> *historical/market-data* endpoints are guarded more aggressively — they
+> returned `503` (bulk/block) or an empty-but-`200` stub (PIT) from the
+> development sandbox even though the exact same cookie warm-up works fine
+> against the announcements endpoint there. Every fetcher here is defensive
+> (log and return nothing on failure, retry next run — same posture as the
+> existing NSE announcements fetcher), and the row parsers try several
+> candidate JSON field names and log the first row's actual keys, since the
+> real shape could not be verified live. If NSE blocks these endpoints from
+> GitHub's IPs too, `blockdeals.yml` will run every day, log the failure
+> clearly, and alert on nothing — it will not crash or silently misbehave.
+
+**Seller classification** (`deals_files.classify_seller_keyword`) is
+keyword-first: a small set of *strong* signals (FUND, MUTUAL, SECURITIES,
+CAPITAL, ADVISORS, BANK, INSURANCE, …) auto-classify as institution. A
+*weaker* set — corporate suffixes (LTD, PVT, HOLDINGS, TRUST, …) plus generic
+words like "Investment(s)", "Global", "Ventures" — route to AMBIGUOUS rather
+than auto-institution, because closely-held promoter vehicles routinely carry
+those same words (the spec's own worked example, "Indian Continent Investment
+Ltd", is a Bharti promoter entity, not a fund — a literal reading of the
+spec's combined keyword list would have misclassified its own example).
+AMBIGUOUS names are resolved in **one batched Haiku call per run** (usually a
+handful); UNCLEAR passes, matching the system's recall bias.
+
+**Integration with existing deal clusters** reuses `cluster.process()` with
+`confirmed=True`, which changes the update semantics from a news revision to a
+fact-check: if the matched deal's amount is unknown, the confirmed figure
+fires an UPDATE; if it's already known, the confirmed value and seller name
+still overwrite the record, but **silently** — the alert already went out for
+this deal. New deals fire a CONFIRMED alert (🟢, visually distinct from
+news-sourced 🔴/🟡) with the same feedback buttons as any other alert.
+
+## Salami-slice aggregation (`sales_tracker.py`)
+
+A promoter selling ₹120cr three times over six weeks never trips the ₹250cr
+threshold on any single sale, and no outlet writes about a series of
+unremarkable trades — cumulatively it's ₹360cr and nothing else in the system
+would ever see it.
+
+Every individual-seller row — from the PIT feed, the bulk/block files above,
+**and** any news-sourced deal where the classifier named an individual with a
+stated amount (recorded once per genuinely new/updated deal, not once per
+duplicate article) — lands in an `individual_sales` table keyed on
+`(person_key, company_key)`.
+
+**Person-name matching** reuses the exact company-clustering machinery
+(`cluster.token_subset_match`), generalised for people
+(`cluster.person_tokens` strips titles and drops single-letter initials).
+Because different sources spell the same person differently ("AGARWAL SUNIL
+KUMAR" vs "Sunil K Agarwal"), a naive computed key would mint a different
+string per variant and silently fragment the aggregation — so
+`cluster.resolve_person_key()` fuzzy-matches a new name against every person
+already recorded for that company before minting a fresh key, reusing
+whichever key (and canonical spelling) was seen first.
+
+**Fires a PATTERN alert (🟣)** when, over a rolling 90-day window: the sum is
+≥₹250cr, there are ≥2 distinct transactions, and no single transaction
+accounts for more than 70% of the total (if one did, the normal
+single-transaction pipeline already caught it). After firing once, it only
+fires again for the same person+company once the total has grown to **2×**
+the previously alerted amount, or after a **90-day cooldown** — never on every
+incremental tick.
+
+Expect this a handful of times a **quarter**, not weekly. The value is that
+nothing else in the market catches this pattern, not that it fires often.
+
 ## Suppression log, digest, report
 
 Every suppressed item goes into a `suppressed` table with title, URL, the rule
 that killed it, `amount_cr` and `amount_raw`. Never deleted. Rules recorded:
 Rule 1–9 (stage-1 negatives), **Rule 8** (under threshold — model or code), and
 **Rule P** (failed the stage-2 precision check).
+
+The daily digest additionally reports how many CONFIRMED and PATTERN alerts
+fired that day (v3 Changes A/B).
 
 `digest.yml` sends one Telegram message at 20:30 IST daily: total suppressed,
 a breakdown by rule, and the largest suppressed deal.
@@ -270,6 +357,32 @@ _{one_line}_
 
 Red circle 🔴 for high confidence, yellow 🟡 for medium. Follow-ups are prefixed
 `UPDATE ·`. Markdown-breaking characters in fields are escaped.
+
+**CONFIRMED alerts** (🟢, v3 Change A — bulk/block deals, PIT disclosures) look
+different on purpose, since the money here is fact, not a classifier estimate:
+
+```
+🟢 CONFIRMED · {security_name} · block/bulk deal · {amount}
+
+{client_name} sold {quantity} shares at {price}
+
+Settles T+1 · trade date {date}
+{exchange} daily deal file
+```
+
+**PATTERN alerts** (🟣, v3 Change B — salami-slice aggregation) are a third,
+distinct shape — they summarise several sales, not one transaction, so they
+carry no single source link:
+
+```
+🟣 PATTERN · {person_name} · {company} · {total} over {n} sales
+
+{date}  {amount}
+{date}  {amount}
+{date}  {amount}
+
+{weeks} weeks · no single sale crossed the threshold
+```
 
 ## Telegram feedback buttons (`feedback.py`)
 
@@ -306,23 +419,34 @@ that stays a manual `config.py` edit.
 ```
 config.py      settings: threshold, queries, feeds, models, both prompts
 db.py          SQLite schema + helpers (items, deals, suppressed, deal_members,
-               market_caps)
+               market_caps, feedback, kv_state, individual_sales, pattern_alerts)
 sources.py     fetchers (Google News, trade press, BSE, NSE, SEBI) + auto plan
+               + warm_nse_session() (shared NSE cookie warm-up)
 classify.py    two-stage Haiku classifier + amount guards
 sizing.py      resolve size for undisclosed-amount deals (ticker/mcap/band)
 refresh_tickers.py  refresh data/nse_equities.csv + data/bse_scrips.csv
-cluster.py     deal clustering / dedup / UPDATE logic
-notify.py      Telegram formatting + sending + feedback keyboard
+cluster.py     deal clustering / dedup / UPDATE logic + person-name matching
+               (person_tokens, resolve_person_key) shared with Change B
+notify.py      Telegram formatting + sending: news alerts, CONFIRMED alerts,
+               PATTERN alerts, feedback keyboard
 feedback.py    poll Telegram button presses, log + ack + edit
 feedback_report.py  weekly (Monday 09:00 IST) feedback summary
+deals_files.py   v3 Change A: NSE bulk/block deal files, seller classification
+pit_feed.py      v3 Change B source: NSE PIT feed, 90-day first-run backfill
+sales_tracker.py v3 Change B: rolling 90-day aggregation, PATTERN alerts
+blockdeals.py    entry point: deals_files → pit_feed → sales_tracker
 main.py        orchestrator (poll feedback → fetch → classify → sizing →
-               cluster → alert)
-digest.py      daily suppression summary
+               cluster → alert; also feeds news-sourced sales to
+               individual_sales for Change B)
+digest.py      daily suppression summary + CONFIRMED/PATTERN counts
 report.py      N-day suppression report
 dedupe_check.py  N-day clustering audit (what merged into each deal)
 data/          committed NSE/BSE ticker master lists (for sizing.py)
-.github/workflows/radar.yml    main run (--mode auto), external + backup cron
-.github/workflows/digest.yml   daily digest, external + backup cron
+.github/workflows/radar.yml         main run (--mode auto), external + backup cron
+.github/workflows/digest.yml        daily digest, external + backup cron
+.github/workflows/feedback-report.yml  weekly feedback rollup
+.github/workflows/blockdeals.yml    v3 A/B: bulk/block/PIT/aggregation, 19:30 IST
+.github/workflows/refresh-tickers.yml  monthly ticker list refresh
 README.md      plain-English setup + tuning guide
 requirements.txt
 ```

@@ -69,9 +69,50 @@ def deal_key(company):
     return " ".join(sorted(tokens(company))) or normalise_company(company)
 
 
-def _subset_match(a, b):
+def person_tokens(name):
+    """
+    Individual name -> set of meaningful lowercase tokens, for matching the
+    same person across sources that spell/order the name differently
+    ("AGARWAL SUNIL KUMAR" / "Sunil K Agarwal"). Strips titles and drops
+    single-character tokens (initials), which company names don't need.
+    """
+    if not name:
+        return frozenset()
+    s = re.sub(r"[^a-z0-9 ]", " ", name.lower())
+    words = [w for w in s.split() if w and w not in config.PERSON_TITLE_STOPWORDS]
+    return frozenset(w for w in words if len(w) > 1)
+
+
+def person_key(name):
+    """Stable string key for a person, built the same way as deal_key."""
+    return " ".join(sorted(person_tokens(name)))
+
+
+def token_subset_match(a, b):
     """True if either token set contains the other (both non-empty)."""
     return bool(a) and bool(b) and (a <= b or b <= a)
+
+
+def resolve_person_key(name, company_key, window_days):
+    """
+    Stable person_key for `name`, scoped to one company. Different sources
+    spell the same person differently ("AGARWAL SUNIL KUMAR" vs "Sunil K
+    Agarwal"), and a plain person_key() call would mint a different string
+    for each variant — silently breaking the 90-day aggregation. So this
+    fuzzy-resolves against existing persons recorded for the same company
+    first (same containment logic as company matching), reusing whichever
+    key was seen first; only mints a fresh key when nothing matches.
+
+    Returns (person_key, canonical_name) — canonical_name is the
+    first-seen spelling, kept stable so alerts don't flip-flop on wording.
+    """
+    new_tokens = person_tokens(name)
+    if not new_tokens:
+        return "", name
+    for pk, existing_name in db.distinct_persons_for_company(company_key, window_days):
+        if token_subset_match(new_tokens, person_tokens(existing_name)):
+            return pk, existing_name
+    return person_key(name), name
 
 
 def _amount_match(a1, a2):
@@ -100,7 +141,7 @@ def _find_match(new_tokens, new_amount):
         age = _age_hours(cand.get("created_at"))
         cand_tokens = tokens(cand.get("company", ""))
         # Name path — containment, within the 72h window.
-        if age <= config.DEAL_WINDOW_HOURS and _subset_match(new_tokens, cand_tokens):
+        if age <= config.DEAL_WINDOW_HOURS and token_subset_match(new_tokens, cand_tokens):
             return cand
         # Amount path — within 5% and sharing a token, up to 7 days.
         if (
@@ -162,10 +203,44 @@ def _material_updates(existing, result):
     return updates, fire_alert, "; ".join(notes)
 
 
-def process(item, result):
+def _confirmed_updates(existing, result):
+    """
+    Update rule for a CONFIRMED source (block/bulk deal, PIT disclosure) — the
+    money here is a fact, not a classifier estimate, so the semantics differ
+    from a news revision:
+      - existing amount unknown -> the confirmed figure IS the news. Fire an
+        UPDATE.
+      - existing amount already known (whatever the source) -> the confirmed
+        figure and seller name still get recorded onto the deal record, but
+        SILENTLY — the alert already went out for this deal; a fact-check
+        attach is not a second ping.
+    Always marks the deal `confirmed=1` once any confirmed source touches it.
+    """
+    updates = {"confirmed": 1}
+    fire_alert = existing.get("amount_cr") is None and result.get("amount_cr") is not None
+
+    updates["amount_cr"] = result.get("amount_cr")
+    updates["amount_raw"] = result.get("amount_raw")
+    updates["size_source"] = "stated"
+
+    old_individuals = json.loads(existing.get("individuals") or "[]")
+    new_individuals = result.get("individuals") or []
+    if new_individuals and not set(new_individuals) <= set(old_individuals):
+        updates["individuals"] = list(dict.fromkeys(old_individuals + new_individuals))
+
+    note = "amount confirmed" if fire_alert else "seller/value confirmed (silent)"
+    return updates, fire_alert, note
+
+
+def process(item, result, confirmed=False):
     """
     Handle one qualifying item.
     Returns a list of alert dicts (a new-deal alert, an UPDATE, or nothing).
+
+    `confirmed=True` marks the source as fact rather than a classifier
+    estimate (block/bulk deal files, PIT disclosures — v3 Change A/B) and uses
+    `_confirmed_updates` instead of the news-revision rule when attaching to
+    an existing deal.
     """
     company = result.get("company") or item.get("title", "")
     new_tokens = tokens(company)
@@ -190,6 +265,7 @@ def process(item, result):
             "url": url,
             "size_source": result.get("size_source"),
             "size_band": result.get("size_band"),
+            "confirmed": 1 if confirmed else 0,
         }
         deal_id = db.create_deal(deal)
         db.add_deal_member(deal_id, title, url)
@@ -197,11 +273,14 @@ def process(item, result):
 
     # Existing deal — record the merge, then decide whether to fire an UPDATE.
     db.add_deal_member(match["id"], title, url)
-    updates, fire_alert, note = _material_updates(match, result)
+    if confirmed:
+        updates, fire_alert, note = _confirmed_updates(match, result)
+    else:
+        updates, fire_alert, note = _material_updates(match, result)
     if updates:
         db.update_deal(match["id"], dict(updates))  # persist new facts always
     if not fire_alert:
-        return []  # buyer/individual alone don't alert; attach silently
+        return []  # buyer/individual alone (or a silent confirm) don't alert
 
     merged = dict(match)
     merged.update(updates)
@@ -231,5 +310,6 @@ def _alert_from_deal(deal, deal_id, is_update):
         "url": deal.get("url", ""),
         "size_source": deal.get("size_source"),
         "size_band": deal.get("size_band"),
+        "confirmed": bool(deal.get("confirmed")),
         "is_update": is_update,
     }

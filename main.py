@@ -163,7 +163,22 @@ def run(mode, dry, limit=None):
             r2["size_source"] = "unknown"
         mix[r2["size_source"]] += 1
 
-        alerts.extend(cluster.process(item, r2))
+        new_alerts = cluster.process(item, r2)
+        alerts.extend(new_alerts)
+
+        # v3 Change B: feed the salami-slice aggregator. Recorded only when
+        # cluster.process() actually alerted (new deal or amount UPDATE) —
+        # not per raw article — so a deal repeated across five outlets
+        # doesn't get counted five times toward the rolling 90-day sum.
+        if new_alerts and r2.get("individuals") and r2.get("amount_cr") is not None:
+            company_key = cluster.deal_key(r2.get("company") or "")
+            for individual in r2["individuals"]:
+                pk, canonical_name = cluster.resolve_person_key(
+                    individual, company_key, config.AGGREGATION_WINDOW_DAYS)
+                if pk:
+                    db.add_individual_sale(
+                        pk, canonical_name, r2.get("company") or "", company_key,
+                        db.now_iso()[:10], r2["amount_cr"], "news")
 
     print(f"[main] {suppressed[0]} suppressed total, {len(alerts)} alerts to send")
     if mix:

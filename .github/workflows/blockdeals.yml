@@ -1,0 +1,43 @@
+name: blockdeals
+
+# v3 Changes A + B: NSE bulk/block deal files + PIT feed + salami-slice
+# aggregation. Once daily, weekdays, 19:30 IST (14:00 UTC) — exchange deal
+# files publish after close, around 18:00-19:00 IST.
+#
+# Primary trigger is the external scheduler (cron-job.org, same as
+# radar.yml/digest.yml/feedback-report.yml); GitHub cron below is a backup.
+on:
+  schedule:
+    - cron: "3 14 * * 1-5"   # off-peak minute, ~19:33 IST weekdays
+  workflow_dispatch:
+
+concurrency:
+  group: liquidity-radar
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - name: Run bulk/block deals + PIT feed + aggregation
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python blockdeals.py
+      - name: Commit state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add radar.db
+          git diff --quiet --cached || git commit -m "state: blockdeals run $(date -u +%FT%TZ)"
+          git pull --rebase --autostash || true
+          git push || true

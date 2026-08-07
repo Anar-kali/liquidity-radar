@@ -139,7 +139,12 @@ def fetch_bse():
 # NSE announcements. Needs a cookie warm-up and blocks aggressively.
 # On failure we back off and return nothing (retry happens next run).
 # --------------------------------------------------------------------------
-def fetch_nse():
+def warm_nse_session():
+    """
+    A requests.Session() with NSE's cookie warm-up already done, plus the
+    headers NSE expects. Reused by deals_files.py and pit_feed.py so the
+    warm-up isn't duplicated across every NSE-hitting module.
+    """
     session = requests.Session()
     headers = {
         "User-Agent": config.BROWSER_UA,
@@ -147,11 +152,15 @@ def fetch_nse():
         "Accept-Language": "en-US,en;q=0.9",
         "Referer": config.NSE_HOME,
     }
+    session.get(config.NSE_HOME, headers=headers, timeout=30)
+    time.sleep(1)
+    return session, headers
+
+
+def fetch_nse():
     items = []
     try:
-        # Warm up cookies, then wait one second before hitting the API.
-        session.get(config.NSE_HOME, headers=headers, timeout=30)
-        time.sleep(1)
+        session, headers = warm_nse_session()
         r = session.get(config.NSE_API, headers=headers, timeout=30)
         r.raise_for_status()
         data = r.json()

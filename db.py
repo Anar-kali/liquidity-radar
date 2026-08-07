@@ -93,21 +93,49 @@ def init_db(path=DB_PATH):
         );
 
         -- small key/value store; currently just the Telegram getUpdates offset
+        -- and the PIT-feed first-run backfill marker
         CREATE TABLE IF NOT EXISTS kv_state (
             key   TEXT PRIMARY KEY,
             value TEXT
+        );
+
+        -- every individual-seller row seen (PIT disclosures, block/bulk deal
+        -- files, and news-sourced deals with a named individual + amount) —
+        -- feeds the v3 Change B salami-slice aggregation
+        CREATE TABLE IF NOT EXISTS individual_sales (
+            id          INTEGER PRIMARY KEY AUTOINCREMENT,
+            person_key  TEXT,
+            person_name TEXT,
+            company     TEXT,
+            company_key TEXT,
+            trade_date  TEXT,
+            value_cr    REAL,
+            source      TEXT,      -- pit | block | bulk | news
+            created_at  TEXT
+        );
+
+        -- one row per PATTERN (aggregate) alert fired, for the re-alert
+        -- cooldown rule (only alert again at 2x the amount or after 90 days)
+        CREATE TABLE IF NOT EXISTS pattern_alerts (
+            id          INTEGER PRIMARY KEY AUTOINCREMENT,
+            person_key  TEXT,
+            company_key TEXT,
+            total_cr    REAL,
+            alerted_at  TEXT
         );
 
         CREATE INDEX IF NOT EXISTS idx_deal_key ON deals(deal_key);
         CREATE INDEX IF NOT EXISTS idx_member_deal ON deal_members(deal_id);
         """
     )
-    # Non-destructive migration: add size columns to an existing deals table.
+    # Non-destructive migration: add new columns to an existing deals table.
     existing = {r[1] for r in conn.execute("PRAGMA table_info(deals)")}
     if "size_source" not in existing:
         conn.execute("ALTER TABLE deals ADD COLUMN size_source TEXT")
     if "size_band" not in existing:
         conn.execute("ALTER TABLE deals ADD COLUMN size_band TEXT")
+    if "confirmed" not in existing:
+        conn.execute("ALTER TABLE deals ADD COLUMN confirmed INTEGER DEFAULT 0")
     conn.commit()
     conn.close()
 
@@ -268,8 +296,8 @@ def create_deal(deal, path=DB_PATH):
     cur = conn.execute(
         "INSERT INTO deals (deal_key, company, deal_type, amount_cr, amount_raw, "
         "individuals, buyer, confidence, one_line, source, url, "
-        "size_source, size_band, created_at, updated_at) "
-        "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+        "size_source, size_band, confirmed, created_at, updated_at) "
+        "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
         (
             deal["deal_key"],
             deal["company"],
@@ -284,6 +312,7 @@ def create_deal(deal, path=DB_PATH):
             deal["url"],
             deal.get("size_source"),
             deal.get("size_band"),
+            deal.get("confirmed", 0),
             ts,
             ts,
         ),
@@ -329,3 +358,95 @@ def suppressed_since(hours, path=DB_PATH):
     ).fetchall()
     conn.close()
     return [dict(r) for r in rows]
+
+
+# --------------------------------------------------------------------------
+# individual_sales / pattern_alerts (v3 Change B — salami-slice aggregation)
+# --------------------------------------------------------------------------
+def add_individual_sale(person_key, person_name, company, company_key,
+                         trade_date, value_cr, source, path=DB_PATH):
+    conn = _conn(path)
+    conn.execute(
+        "INSERT INTO individual_sales "
+        "(person_key, person_name, company, company_key, trade_date, value_cr, "
+        "source, created_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
+        (person_key, person_name, company, company_key, trade_date, value_cr,
+         source, now_iso()),
+    )
+    conn.commit()
+    conn.close()
+
+
+def sales_for_person_company(person_key, company_key, days, path=DB_PATH):
+    """Rows for one (person, company) pair in the last N days, oldest first."""
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=days)).isoformat()
+    conn = _conn(path)
+    rows = conn.execute(
+        "SELECT * FROM individual_sales WHERE person_key = ? AND company_key = ? "
+        "AND created_at >= ? ORDER BY trade_date",
+        (person_key, company_key, cutoff),
+    ).fetchall()
+    conn.close()
+    return [dict(r) for r in rows]
+
+
+def distinct_persons_for_company(company_key, days, path=DB_PATH):
+    """(person_key, a person_name seen under it) pairs for one company in the
+    last N days — used to fuzzy-resolve a new name to an existing person_key."""
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=days)).isoformat()
+    conn = _conn(path)
+    rows = conn.execute(
+        "SELECT person_key, person_name FROM individual_sales "
+        "WHERE company_key = ? AND created_at >= ? AND person_key != '' "
+        "GROUP BY person_key",
+        (company_key, cutoff),
+    ).fetchall()
+    conn.close()
+    return [(r["person_key"], r["person_name"]) for r in rows]
+
+
+def distinct_person_companies(days, path=DB_PATH):
+    """Every (person_key, company_key) pair with activity in the last N days."""
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=days)).isoformat()
+    conn = _conn(path)
+    rows = conn.execute(
+        "SELECT DISTINCT person_key, company_key FROM individual_sales "
+        "WHERE created_at >= ? AND person_key != ''",
+        (cutoff,),
+    ).fetchall()
+    conn.close()
+    return [(r["person_key"], r["company_key"]) for r in rows]
+
+
+def last_pattern_alert(person_key, company_key, path=DB_PATH):
+    """Most recent PATTERN alert for this pair, or None."""
+    conn = _conn(path)
+    row = conn.execute(
+        "SELECT * FROM pattern_alerts WHERE person_key = ? AND company_key = ? "
+        "ORDER BY alerted_at DESC LIMIT 1",
+        (person_key, company_key),
+    ).fetchone()
+    conn.close()
+    return dict(row) if row else None
+
+
+def pattern_alerts_since(hours, path=DB_PATH):
+    cutoff = (datetime.now(timezone.utc) - timedelta(hours=hours)).isoformat()
+    conn = _conn(path)
+    rows = conn.execute(
+        "SELECT * FROM pattern_alerts WHERE alerted_at >= ? ORDER BY alerted_at",
+        (cutoff,),
+    ).fetchall()
+    conn.close()
+    return [dict(r) for r in rows]
+
+
+def record_pattern_alert(person_key, company_key, total_cr, path=DB_PATH):
+    conn = _conn(path)
+    conn.execute(
+        "INSERT INTO pattern_alerts (person_key, company_key, total_cr, alerted_at) "
+        "VALUES (?, ?, ?, ?)",
+        (person_key, company_key, total_cr, now_iso()),
+    )
+    conn.commit()
+    conn.close()

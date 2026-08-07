@@ -149,6 +149,83 @@ def send_alert(alert):
     return send(format_alert(alert), reply_markup=markup)
 
 
+def format_confirmed_alert(row):
+    """
+    CONFIRMED alert (v3 Change A) — a bulk/block deal or PIT disclosure.
+    The money here is a fact, not a classifier estimate; visually distinct
+    (green, not red/yellow) from news-sourced alerts.
+
+        [GREEN] CONFIRMED · Security Name · block deal · Rs 2,000cr
+
+        Client Name sold 150,000 shares at Rs 245.50
+
+        Settles T+1 · trade date 07-Aug-2026
+        NSE daily deal file
+    """
+    prefix = "CONFIRMED UPDATE" if row.get("is_update") else "CONFIRMED"
+    security = _escape(row.get("security_name") or "Unknown company")
+    deal_type = _escape(row.get("deal_type") or "block deal")
+    amount = format_amount(row.get("value_cr"))
+
+    client = _escape(row.get("client_name") or "Unnamed seller")
+    qty = row.get("quantity")
+    price = row.get("price")
+    qty_line = f"{client} sold"
+    if qty:
+        qty_line += f" {int(qty):,} shares"
+    if price:
+        qty_line += f" at Rs {price:g}"
+
+    settle_line = "Settles T+1"
+    if row.get("trade_date"):
+        settle_line += f" · trade date {_escape(row['trade_date'])}"
+
+    exchange = _escape(row.get("exchange") or "Exchange")
+    source_label = "daily PIT feed" if row.get("deal_type") == "PIT disclosure" else "daily deal file"
+
+    return (
+        f"\U0001F7E2 {prefix} · *{security}* · {deal_type} · {amount}\n\n"
+        f"{qty_line}\n\n"
+        f"{settle_line}\n"
+        f"{exchange} {source_label}"
+    )
+
+
+def send_confirmed_alert(row, deal_id=None):
+    markup = feedback_keyboard(deal_id) if deal_id else None
+    return send(format_confirmed_alert(row), reply_markup=markup)
+
+
+def format_pattern_alert(person_name, company, total_cr, transactions, weeks):
+    """
+    PATTERN alert (v3 Change B) — several sub-threshold sales that add up.
+    Visually distinct from both news and CONFIRMED alerts.
+
+        [PURPLE] PATTERN · Person Name · Company · Rs 360cr over 3 sales
+
+        2026-06-01  Rs 120cr
+        2026-06-20  Rs 120cr
+        2026-07-15  Rs 120cr
+
+        6 weeks · no single sale crossed the threshold
+    """
+    person = _escape(person_name or "Unnamed individual")
+    co = _escape(company or "Unknown company")
+    total = format_amount(total_cr)
+    n = len(transactions)
+
+    lines = [f"\U0001F7E3 PATTERN · *{person}* · {co} · {total} over {n} sales", ""]
+    for trade_date, value_cr in transactions:
+        lines.append(f"{_escape(trade_date)}  {format_amount(value_cr)}")
+    lines.append("")
+    lines.append(f"{weeks} weeks · no single sale crossed the threshold")
+    return "\n".join(lines)
+
+
+def send_pattern_alert(person_name, company, total_cr, transactions, weeks):
+    return send(format_pattern_alert(person_name, company, total_cr, transactions, weeks))
+
+
 def send_test():
     ok = send("🔴 *Liquidity Radar* test message — if you can read this, "
               "Telegram is wired up correctly.")

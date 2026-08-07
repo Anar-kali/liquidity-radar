@@ -127,6 +127,7 @@ external trigger is ever down.
 | `radar.yml` | every 15 min | `main.py --mode auto` — auto-detects what to fetch from the current time (see below) |
 | `digest.yml` | 20:30 IST daily | suppression summary |
 | `feedback-report.yml` | Monday 09:00 IST | weekly feedback rollup |
+| `blockdeals.yml` | 19:30 IST weekdays | NSE bulk/block deal files + PIT feed + salami-slice aggregation (see below) |
 | `refresh-tickers.yml` | monthly | refreshes the NSE/BSE ticker lists used for sizing |
 
 `--mode auto` is time-aware, so the one 15-minute trigger does the right thing
@@ -154,6 +155,36 @@ workflow → Run workflow.**
 
 **The feedback report never changes anything automatically.** It's there so
 you can look at the evidence and decide what to tune yourself — see below.
+
+---
+
+## Two more alert types: when the money is a *fact*, not a classifier guess
+
+Everything above works from news and public filings, which means every alert
+is ultimately Claude's best read of prose. Two extra sources skip that
+entirely:
+
+- **🟢 CONFIRMED alerts** — India's stock exchanges publish daily files of
+  every bulk and block deal (large on-market trades), and a structured feed of
+  every promoter/director trade disclosure (PIT). When one of these directly
+  names an individual selling ≥₹250cr, you get a CONFIRMED alert — no
+  inference, no false positives, the seller's name and the exact value are
+  right there in the exchange's own data. Block deals settle T+1, so this can
+  land the morning after a promoter sold.
+- **🟣 PATTERN alerts** — the same feeds also catch something news never will:
+  a promoter selling ₹120cr three times over six weeks. No single sale trips
+  the threshold and no outlet writes about it, but the total is ₹360cr. This
+  fires only a handful of times a **quarter** — the value is that nothing else
+  catches it, not that it's frequent.
+
+**Honesty note:** the exchange data feeds behind these two alert types are
+guarded more heavily by NSE than the news/announcement feeds elsewhere in this
+system, and their exact response format couldn't be confirmed before shipping
+this. It's built to fail safe either way — if NSE blocks a fetch, it logs
+clearly and tries again the next day rather than breaking anything else. BSE's
+equivalent bulk/block deal files aren't included; their web addresses weren't
+findable during development (unlike BSE's announcement feed, which works
+fine) — NSE alone still covers most of the volume.
 
 ---
 

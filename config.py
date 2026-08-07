@@ -108,6 +108,15 @@ BSE_KEEP_KEYWORDS = [
     "shareholding",
     "open offer",
     "scheme of arrangement",
+    # Individual promoter/insider trading disclosures (v3 Change B) — these
+    # were previously dropped entirely.
+    "insider trading",
+    "sast",
+    "reg. 7", "reg 7",         # PIT continual disclosure
+    "reg. 29", "reg 29",       # SAST acquisition disclosure
+    "reg. 31", "reg 31",       # promoter pledge disclosure
+    "pledge",
+    "encumbrance",
 ]
 
 # Subcategory names we always DROP (routine filings).
@@ -333,3 +342,108 @@ Never invent a figure. amount_cr and amount_raw are null if no size is stated.
 Set confidence to "high" only when a named individual and a stated amount are
 both present; otherwise "medium".
 """
+
+# ==========================================================================
+# v3 CHANGE A/B — bulk/block deal files, PIT feed, salami-slice aggregation
+# ==========================================================================
+
+# Minimum single-transaction size (crore) for a confirmed block/bulk deal or
+# PIT disclosure to fire its own alert. Reuses the same bar as everything else.
+BULK_BLOCK_MIN_CR = THRESHOLD_CR
+
+# How many days back to fetch on each run, so a failed run self-heals.
+BULK_BLOCK_LOOKBACK_DAYS = 3
+PIT_LOOKBACK_DAYS = 7
+PIT_BACKFILL_DAYS = 90  # first run only — populates the rolling window
+
+# --------------------------------------------------------------------------
+# NSE bulk/block deal + PIT endpoints. Same cookie warm-up as sources.py.
+# NOTE: unlike the announcements endpoint (which is proven reliable in
+# production), these are historical/market-data endpoints NSE guards more
+# aggressively. Every fetcher here is defensive — on failure it logs and
+# returns nothing rather than crashing, and retries on the next scheduled run.
+# --------------------------------------------------------------------------
+NSE_BULK_DEALS_API = "https://www.nseindia.com/api/historical/bulk-deals"
+NSE_BLOCK_DEALS_API = "https://www.nseindia.com/api/historical/block-deals"
+NSE_PIT_API = "https://www.nseindia.com/api/corporates-pit"
+
+# BSE bulk/block deal endpoints were NOT found during development (every
+# guessed path 302-redirected to an error page; unlike the announcements API,
+# which is confirmed working). Per the spec's own fallback: ship NSE only.
+# If you find the real BSE endpoints, add fetchers in deals_files.py following
+# the same pattern as the NSE ones, and note the URLs here.
+BSE_BULK_DEALS_API = None
+BSE_BLOCK_DEALS_API = None
+
+# --------------------------------------------------------------------------
+# Seller classification (Change A). Keyword-first; only genuinely AMBIGUOUS
+# names (corporate-shaped but no strong institutional keyword) go to Haiku,
+# usually a handful per run.
+# --------------------------------------------------------------------------
+# STRONG institutional signals — auto-classify without a Haiku call.
+INSTITUTION_KEYWORDS = [
+    "fund", "mutual", "amc", "llp", "securities", "capital", "advisors",
+    "advisers", "partners", "mauritius", "pte", "plc", "gmbh", "sicav",
+    "insurance", "bank", "asset management", "portfolio", "trustee", "fpi",
+    "fii",
+]
+
+# Corporate-shaped, or a WEAK/generic institutional-adjacent word, but not a
+# strong signal on its own — these go to Haiku. "Investment(s)" is here
+# rather than in the strong list on purpose: closely-held promoter holding
+# companies are routinely named "X Investment(s) Ltd" (spec's own worked
+# example, "Indian Continent Investment Ltd", is exactly this — a Bharti
+# promoter entity, not a fund).
+AMBIGUOUS_KEYWORDS = [
+    "ltd", "limited", "pvt", "holdings", "enterprises", "trust", "corp",
+    "investment", "investments", "global", "international", "ventures",
+    "equity",
+]
+
+SELLER_CLASSIFY_SYSTEM_PROMPT = """\
+You classify the names of sellers in Indian stock exchange bulk/block deal
+filings for a private banker who prospects individuals about to receive a
+large sum of money.
+
+For each name, decide: is this a PROMOTER OR FAMILY INVESTMENT VEHICLE (a
+closely-held company or trust that is really an individual/family's holding
+entity — e.g. "Indian Continent Investment Ltd" is a Bharti promoter entity),
+an INSTITUTIONAL INVESTOR (a fund, bank, insurer, or other financial
+institution investing on behalf of others), or UNCLEAR.
+
+When genuinely unsure, answer UNCLEAR — a false alarm costs the banker five
+seconds; wrongly dropping a real promoter vehicle costs him a client.
+
+Return ONLY a JSON array, no markdown fences, no preamble. One object per
+input name, same order:
+[{"n": 1, "name": "exact name as given", "verdict": "promoter|institution|unclear"}]
+"""
+
+# --------------------------------------------------------------------------
+# PIT feed (Change B). Only these disclosing-person categories represent an
+# individual who may be receiving money; other categories (e.g. institutional
+# shareholders required to disclose) are not prospecting leads.
+# --------------------------------------------------------------------------
+PIT_KEEP_CATEGORIES = ["promoter", "promoter group", "director", "kmp"]
+
+# --------------------------------------------------------------------------
+# Person-name normalisation (Change B). Same containment-matching approach as
+# company clustering (cluster.person_tokens / cluster.token_subset_match).
+# --------------------------------------------------------------------------
+PERSON_TITLE_STOPWORDS = {
+    "mr", "mrs", "ms", "miss", "shri", "smt", "dr", "kum", "km", "late",
+}
+
+# --------------------------------------------------------------------------
+# Salami-slice aggregation rule (Change B).
+# --------------------------------------------------------------------------
+AGGREGATION_WINDOW_DAYS = 90
+AGGREGATION_MIN_CR = THRESHOLD_CR
+AGGREGATION_MIN_TRANSACTIONS = 2
+# If one transaction already accounts for more than this share of the total,
+# the normal single-transaction pipeline already caught it — don't re-alert.
+AGGREGATION_MAX_SINGLE_SHARE = 0.70
+# Re-alert on the same person+company only once the total has grown to this
+# multiple of the last alerted amount, or after the cooldown below.
+AGGREGATION_REALERT_MULTIPLE = 2.0
+AGGREGATION_REALERT_COOLDOWN_DAYS = 90

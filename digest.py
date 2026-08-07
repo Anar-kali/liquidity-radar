@@ -64,6 +64,14 @@ def build_digest(hours=24):
         lines.append("")
         lines.append(f"Largest suppressed: {title} {amount} ({rule})")
 
+    # v3 Changes A/B: confirmed (block/bulk/PIT) and PATTERN alerts today.
+    confirmed = [d for d in db.deals_in_window(hours) if d.get("confirmed")]
+    patterns = db.pattern_alerts_since(hours)
+    if confirmed or patterns:
+        lines.append("")
+        lines.append(f"Confirmed (block/bulk/PIT): {len(confirmed)} · "
+                      f"Pattern (aggregated): {len(patterns)}")
+
     return "\n".join(lines)
 
 
