@@ -52,9 +52,12 @@ cadence. GitHub's own cron is kept only as a lightweight backup.
 
 `--mode auto` is time-aware (IST) so a single trigger does the right thing:
 
-- weekday 09:00–18:30 → **fast**: exchanges + news
-- any day 07:00–23:00 → **news**: news only
-- 08:00 / 14:00 / 20:00 → additionally fetch **SEBI DRHP**
+- weekday 09:00–18:30 → **fast**: exchanges + news + SEBI DRHP
+- any day 07:00–23:00 → **news**: news + SEBI DRHP
+- SEBI DRHP is fetched on **every run** in either window (a cheap single-page
+  scrape, no rate-limit risk), not on a separate slower schedule — a DRHP
+  filing is one of the highest-value IPO-stage signals, so it's checked as
+  fast as news is
 - outside those hours → no-op (cheap)
 
 The external scheduler authenticates with a dedicated fine-grained GitHub PAT

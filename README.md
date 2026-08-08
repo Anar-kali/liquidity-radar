@@ -143,7 +143,10 @@ without needing separate schedules:
 
 - **weekday 09:00–18:30 IST** → full sweep: exchanges + news
 - **any day 07:00–23:00 IST** → news only
-- **08:00 / 14:00 / 20:00** → also checks SEBI for new IPO filings
+- SEBI's DRHP filing page is checked on **every run** in the 07:00–23:00
+  window, same as news — not a separate slower schedule. A DRHP filing is one
+  of the highest-value IPO-stage signals in the system, so it gets checked as
+  fast as everything else does.
 - outside those hours → does nothing (cheap no-op)
 
 A shared `concurrency` group means two runs never overlap and clash on the

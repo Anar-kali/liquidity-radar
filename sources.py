@@ -227,10 +227,14 @@ def fetch_auto(now=None):
     """
     Time-aware plan, so a single trigger (fired every ~15 min) does the right
     thing. Uses IST:
-      weekday 09:00-18:30 -> fast (exchanges + news)
-      any day 07:00-23:00 -> news
+      weekday 09:00-18:30 -> fast (exchanges + news) + SEBI DRHP
+      any day 07:00-23:00 -> news + SEBI DRHP
       outside those        -> nothing
-    Plus SEBI DRHP at the 08:00 / 14:00 / 20:00 checkpoints.
+    SEBI DRHP is checked on every run in that window, not just a few times a
+    day — it's a cheap single-page scrape (no rate-limit risk like NSE/BSE),
+    dedup already prevents re-alerting on a filing already seen, so checking
+    it as often as news costs nothing and catches a new filing as fast as
+    everything else does.
     """
     now = now or datetime.now(IST)
     minutes = now.hour * 60 + now.minute
@@ -242,15 +246,13 @@ def fetch_auto(now=None):
         items += fetch_trade_press()
         items += fetch_bse()
         items += fetch_nse()
+        items += fetch_sebi()
         ran.append("fast")
     elif 420 <= minutes <= 1380:                # 07:00 - 23:00 IST
         items += fetch_google_news()
         items += fetch_trade_press()
-        ran.append("news")
-
-    if now.hour in (8, 14, 20) and now.minute < 15:  # DRHP checkpoints
         items += fetch_sebi()
-        ran.append("slow")
+        ran.append("news")
 
     day = "weekday" if weekday else "weekend"
     _log(f"auto plan ({now:%H:%M} IST {day}): {ran or ['idle — outside hours']}")
