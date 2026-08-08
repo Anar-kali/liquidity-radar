@@ -18,6 +18,7 @@ Pipeline for a run:
 """
 
 import argparse
+import re
 from collections import Counter
 
 import classify
@@ -30,14 +31,27 @@ import sizing
 import sources
 
 
+_RULE_NUMBER_RE = re.compile(r"^\s*(?:rule\s*)?#?(\d+)", re.IGNORECASE)
+
+
 def _rule_number(reason):
-    """Extract a stable 'Rule N' label from the classifier's negative_reason."""
+    """
+    Extract a stable 'Rule N' label from the classifier's negative_reason.
+
+    Anchored to the START of the string on purpose. Haiku consistently writes
+    "Rule 9: Earnings result..." — the digit is directly followed by a colon,
+    so a naive "any whitespace-split token that isdigit()" scan (the previous
+    approach) never matches "9:" and falls through to scanning the REST of
+    the free-text explanation, where it can latch onto a completely unrelated
+    bare number later in the sentence (an amount, a percentage) and report a
+    nonexistent "Rule 38". Anchoring to the first number at the start of the
+    string, regardless of what punctuation follows it, fixes both failure
+    modes at once.
+    """
     if not reason:
         return "Rule ?"
-    for token in str(reason).replace(".", " ").split():
-        if token.isdigit():
-            return f"Rule {token}"
-    return "Rule ?"
+    m = _RULE_NUMBER_RE.match(str(reason))
+    return f"Rule {m.group(1)}" if m else "Rule ?"
 
 
 def run(mode, dry, limit=None):

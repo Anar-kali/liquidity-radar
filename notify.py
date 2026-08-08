@@ -215,7 +215,16 @@ def format_pattern_alert(person_name, company, total_cr, transactions, weeks):
     n = len(transactions)
 
     lines = [f"\U0001F7E3 PATTERN · *{person}* · {co} · {total} over {n} sales", ""]
-    for trade_date, value_cr in transactions:
+    # Cap the displayed rows — a genuine high-frequency salami-slice pattern
+    # (the exact case this alert type exists to catch) can otherwise exceed
+    # Telegram's 4096-character message limit and silently fail to send.
+    # Show the most recent MAX_SHOWN and summarise the rest.
+    MAX_SHOWN = 20
+    shown = transactions[-MAX_SHOWN:] if n > MAX_SHOWN else transactions
+    if n > MAX_SHOWN:
+        hidden_total = sum(v for _, v in transactions[:-MAX_SHOWN])
+        lines.append(f"… {n - MAX_SHOWN} earlier sales totalling {format_amount(hidden_total)} …")
+    for trade_date, value_cr in shown:
         lines.append(f"{_escape(trade_date)}  {format_amount(value_cr)}")
     lines.append("")
     lines.append(f"{weeks} weeks · no single sale crossed the threshold")

@@ -58,10 +58,25 @@ def _strip_name(name):
 
 
 def tokens(name):
-    """Company name -> set of meaningful lowercase tokens (stopwords dropped)."""
+    """
+    Company name -> set of meaningful lowercase tokens (stopwords dropped).
+
+    Single-character tokens are dropped too (same as person_tokens). An
+    ampersand or apostrophe becomes a space ("L&T" -> "l", "t"; "Reddy's" ->
+    "reddy", "s"), and a bare single letter is not a meaningful identifier —
+    keeping it risks a false merge between two completely unrelated
+    companies that happen to share one via the amount-match path (e.g.
+    "L&T Finance" and "R&T Capital" both reducing to include token "t"),
+    which would silently swallow a real deal into the wrong cluster. The
+    tradeoff is the safe direction: worst case here is an extra duplicate
+    alert for an ampersand-only name with nothing else distinctive
+    ("M&M" alone -> empty tokens -> doesn't self-cluster); the alternative
+    was a real deal disappearing into someone else's cluster.
+    """
     s = _strip_name(name).lower()
     s = re.sub(r"[^a-z0-9 ]", " ", s)
-    return frozenset(w for w in s.split() if w and w not in config.CLUSTER_STOPWORDS)
+    return frozenset(w for w in s.split()
+                     if w and len(w) > 1 and w not in config.CLUSTER_STOPWORDS)
 
 
 def deal_key(company):
@@ -170,7 +185,14 @@ def _material_updates(existing, result):
     fire_alert = False
     notes = []
 
-    old_amount = existing.get("amount_cr")
+    # Treat a stored amount of exactly 0 the same as "not really known yet" —
+    # no genuine deal has a zero value in this domain, so if a record ever
+    # ends up with 0 (a data glitch, a future source that doesn't pre-filter
+    # by threshold), a real later figure must still be able to overwrite it.
+    # Otherwise the record is permanently stuck: `old_amount is None` fails
+    # (it's 0, not None) and the revision branch requires `old_amount > 0`,
+    # so a genuine huge follow-up would be silently dropped forever.
+    old_amount = existing.get("amount_cr") or None
     new_amount = result.get("amount_cr")
 
     if old_amount is None and new_amount is not None:
@@ -217,11 +239,17 @@ def _confirmed_updates(existing, result):
     Always marks the deal `confirmed=1` once any confirmed source touches it.
     """
     updates = {"confirmed": 1}
-    fire_alert = existing.get("amount_cr") is None and result.get("amount_cr") is not None
+    old_amount = existing.get("amount_cr") or None  # 0 treated as "not really known"
+    new_amount = result.get("amount_cr")
+    fire_alert = old_amount is None and new_amount is not None
 
-    updates["amount_cr"] = result.get("amount_cr")
-    updates["amount_raw"] = result.get("amount_raw")
-    updates["size_source"] = "stated"
+    # Only ever overwrite with a REAL figure — never let a confirmed-source
+    # call site that somehow lacks a value (e.g. a future caller) wipe out a
+    # perfectly good existing amount by writing None over it.
+    if new_amount is not None:
+        updates["amount_cr"] = new_amount
+        updates["amount_raw"] = result.get("amount_raw")
+        updates["size_source"] = "stated"
 
     old_individuals = json.loads(existing.get("individuals") or "[]")
     new_individuals = result.get("individuals") or []

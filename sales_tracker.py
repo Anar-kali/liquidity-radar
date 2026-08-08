@@ -114,10 +114,20 @@ def run(dry=False):
         if dry:
             _log(f"(dry) would fire PATTERN: {person_name} / {company} / "
                  f"Rs {total:g}cr over {len(rows)} sales")
-        else:
-            notify.send_pattern_alert(person_name, company, total, transactions, weeks)
+            fired += 1
+            continue
+
+        # Only record the alert as sent if it actually was — otherwise a
+        # failed Telegram send (network error, or a still-too-long message)
+        # would mark this pattern as "already alerted" and the 2x-or-90-day
+        # cooldown would silently block ever retrying it, even though the
+        # user never saw it.
+        if notify.send_pattern_alert(person_name, company, total, transactions, weeks):
             db.record_pattern_alert(person_key, company_key, total)
-        fired += 1
+            fired += 1
+        else:
+            _log(f"PATTERN alert send FAILED for {person_name} / {company} — "
+                 f"will retry next run")
 
     _log(f"{len(pairs)} person/company pairs checked, {fired} PATTERN alert(s) "
          f"{'would fire' if dry else 'fired'}")
