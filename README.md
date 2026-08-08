@@ -42,7 +42,8 @@ report so the filters can be tuned deliberately, based on evidence, not guesswor
 ## How it works, end to end
 
 **1. Fetch.** Every run pulls from several places at once: eight targeted
-Google News searches, trade-press RSS (Mint, Entrackr), BSE and NSE exchange
+Google News searches, trade-press RSS (Mint, Entrackr, Inc42, YourStory,
+Business Line, ET, FT India, DealStreetAsia), BSE and NSE exchange
 announcements, and SEBI's draft-IPO filings. Nothing here goes through the
 model yet — this stage just collects candidates and throws away anything
 already seen (tracked by URL/ID in `radar.db`, GitHub's copy of the system's
@@ -188,14 +189,19 @@ entirely:
   fires only a handful of times a **quarter** — the value is that nothing else
   catches it, not that it's frequent.
 
-**Honesty note:** the exchange data feeds behind these two alert types are
-guarded more heavily by NSE than the news/announcement feeds elsewhere in this
-system, and their exact response format couldn't be confirmed before shipping
-this. It's built to fail safe either way — if NSE blocks a fetch, it logs
-clearly and tries again the next day rather than breaking anything else. BSE's
-equivalent bulk/block deal files aren't included; their web addresses weren't
-findable during development (unlike BSE's announcement feed, which works
-fine) — NSE alone still covers most of the volume.
+**Status:** bulk/block deals are live and verified — NSE's
+`snapshot-capital-market-largedeal` endpoint (found after the originally
+documented historical endpoints turned out to be permanently broken, `503`
+from every network) returns real current deals with real seller names, and a
+CONFIRMED alert has been test-fired against real data flowing through the
+actual pipeline. The **PIT feed is still broken** — `/api/corporates-pit`
+returns an empty stub from every network tested and no working alternative
+was found, so PATTERN alerts and PIT-sourced CONFIRMED alerts don't fire yet;
+it's left wired up in case NSE fixes it. Either way this is built to fail
+safe — a blocked fetch logs clearly and retries next run rather than breaking
+anything else. BSE's equivalent bulk/block deal files aren't included; their
+web addresses weren't findable during development (unlike BSE's announcement
+feed, which works fine) — NSE alone still covers most of the volume.
 
 ---
 

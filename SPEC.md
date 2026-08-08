@@ -83,9 +83,26 @@ Queries (edit the list in `config.py`):
 **Trade press RSS** (sent with a browser User-Agent):
 - **Mint** companies — `https://www.livemint.com/rss/companies`
 - **Entrackr** — `https://entrackr.com/rss`
-- *Removed:* VCCircle (no longer serves a working RSS feed) and Business
-  Standard (its RSS returns HTTP 403 to server IPs). Both reach us via Google
-  News anyway, as does ET Markets (never added — retail noise).
+- **Inc42** — `https://inc42.com/feed/` (Indian startup/funding/IPO focus)
+- **YourStory** — `https://yourstory.com/feed`
+- **Business Line** (The Hindu group) — `https://www.thehindubusinessline.com/companies/feeder/default.rss`
+- **ET Corporate/Industry** — `https://economictimes.indiatimes.com/industry/rssfeeds/13352306.cms`
+- **FT India** — `https://www.ft.com/india?format=rss` (low volume, occasionally
+  catches mega cross-border deals Indian-only sources miss)
+- **DealStreetAsia** — `https://www.dealstreetasia.com/feed` — its own
+  anti-bot layer blocks it from the development network ("temporarily
+  disabled to mitigate bot attacks"); kept in the list in case GitHub
+  Actions' network fares better (the SEBI fix below is exactly this
+  pattern) — if not, it silently returns nothing, same as any dead source.
+- *Removed / not added, with reasons:* VCCircle (no working RSS), Business
+  Standard (403 to any server IP), Moneycontrol (RSS content is 800+ days
+  stale — a dead/abandoned feed, not live), WSJ (RSS content 550+ days stale),
+  Financial Express (HTTP 410, publisher explicitly disabled feeds site-wide),
+  ET Markets (tested — retail-investor noise only), ET CFO (tested — pure
+  macro/policy content, no deal signal), CNBC-TV18 (very high volume but the
+  same earnings-report noise pattern as ET Markets), BQ Prime / NDTV Profit
+  (no working feed found). All of these still reach the system via Google
+  News when they cover a real story.
 
 **BSE announcements.** `https://api.bseindia.com/BseIndiaAPI/api/AnnSubCategoryGetData/w`
 with a browser User-Agent and `Referer: https://www.bseindia.com/`. Kept
@@ -269,28 +286,32 @@ The only sources in the stack where the money is confirmed rather than
 prospective: the seller is named outright and the value is exact. Block deals
 settle T+1 — a promoter who sold Thursday morning has funds landing Friday.
 
-**Sources.** NSE bulk-deals and block-deals (`/api/historical/{bulk,block}-deals`,
-3-day lookback so a failed run self-heals) and the NSE structured PIT feed
+**Sources.** NSE's `snapshot-capital-market-largedeal` endpoint (the same
+data behind NSE's live market-snapshot widget) — one call returns both bulk
+and block deals as a rolling snapshot, not a historical date-range query;
+dedup on `(date, symbol, client, buy_sell, qty)` handles seeing the same
+window again on the next run. And the NSE structured PIT feed
 (`/api/corporates-pit`, ₹10 lakh disclosure threshold, so essentially every
 promoter/director/KMP trade appears here — 7-day lookback, or a **90-day
 backfill on the very first run** so the salami-slice aggregation window below
-doesn't start empty). All three reuse the cookie warm-up already in
-`sources.py`. **BSE's equivalent endpoints were not found** — every guessed
-path 302-redirected to an error page (unlike BSE's announcements API, which is
+doesn't start empty). Both reuse the cookie warm-up already in `sources.py`.
+**BSE's equivalent endpoints were not found** — every guessed path
+302-redirected to an error page (unlike BSE's announcements API, which is
 confirmed working) — so per the spec's own fallback, this ships NSE only.
 
-> **Honesty note on reliability.** NSE's *announcements* endpoint (used
-> elsewhere in this system) is proven reliable in production. These
-> *historical/market-data* endpoints are guarded more aggressively — they
-> returned `503` (bulk/block) or an empty-but-`200` stub (PIT) from the
-> development sandbox even though the exact same cookie warm-up works fine
-> against the announcements endpoint there. Every fetcher here is defensive
-> (log and return nothing on failure, retry next run — same posture as the
-> existing NSE announcements fetcher), and the row parsers try several
-> candidate JSON field names and log the first row's actual keys, since the
-> real shape could not be verified live. If NSE blocks these endpoints from
-> GitHub's IPs too, `blockdeals.yml` will run every day, log the failure
-> clearly, and alert on nothing — it will not crash or silently misbehave.
+> **Reliability history.** The originally-shipped endpoints
+> (`/api/historical/bulk-deals`, `/block-deals`) never worked — confirmed
+> `503` from both the development sandbox and a live GitHub Actions run.
+> `snapshot-capital-market-largedeal` was found as a working replacement and
+> verified end-to-end (real current deals, correct seller classification,
+> alert firing) through the actual pipeline. The PIT feed (`/api/corporates-pit`)
+> has never returned data from any network tested — always an empty
+> `{"data": []}` stub — and no working alternative was found despite trying
+> several. It's left in place in case NSE fixes it; treat PIT-sourced
+> confirmed alerts and aggregation input as currently not functioning. Every
+> fetcher here stays defensive regardless (log and return nothing on
+> failure, retry next run) — a source going dark logs clearly and never
+> crashes the run.
 
 **Seller classification** (`deals_files.classify_seller_keyword`) is
 keyword-first: a small set of *strong* signals (FUND, MUTUAL, SECURITIES,

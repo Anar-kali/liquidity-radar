@@ -75,19 +75,49 @@ GOOGLE_NEWS_URL = (
 # NOT here, on purpose:
 #   ET Markets   — tested, only retail-investor noise; ET reaches us via
 #                  Google News anyway.
-#   VCCircle     — no longer publishes a working RSS feed (its /rss URL now
-#                  serves a JavaScript web page, not XML). VCCircle stories
-#                  still reach us via Google News.
-#   Business St. — its RSS returns HTTP 403 "Access Denied" to any server IP
-#                  (anti-bot block), so it can't be fetched from GitHub
-#                  Actions. Business Standard stories reach us via Google News.
+#   VCCircle       — no longer publishes a working RSS feed (its /rss URL now
+#                    serves a JavaScript web page, not XML). Reaches us via
+#                    Google News.
+#   Business St.   — (Business Standard, distinct from Business Line below)
+#                    its RSS returns HTTP 403 "Access Denied" to any server
+#                    IP. Reaches us via Google News.
+#   Moneycontrol   — its RSS feeds return content with a pubDate over 800
+#                    days old — a dead/abandoned feed serving a stale cache,
+#                    not live news. Reaches us via Google News.
+#   Financial Exp. — HTTP 410 Gone with an explicit "Feeds have been
+#                    disabled" message. Permanently off, not a network block.
+#   WSJ            — its public RSS feeds return content over 550 days old,
+#                    same dead-feed pattern as Moneycontrol.
+#   ET Markets     — tested during the original build: retail-investor
+#                    noise only (trading tips, technical calls). ET articles
+#                    still reach us via Google News.
+#   ET CFO         — tested: pure macro/policy content (RBI rates, tax
+#                    rules), essentially zero deal-relevant signal.
+#   CNBC-TV18      — very high volume (200+ entries/fetch) but dominated by
+#                    routine earnings reports, same noise pattern as ET
+#                    Markets — not worth the added classification cost.
+#   BQ Prime / NDTV Profit — no working RSS feed found.
+#   DealStreetAsia — its feed actively blocks automated clients ("temporarily
+#                    disabled to mitigate bot attacks"), confirmed from the
+#                    development network. Kept in the list below anyway since
+#                    GitHub Actions sometimes gets through where local dev
+#                    testing doesn't (same pattern as SEBI's fixed source) —
+#                    if it's still blocked in production, this fetcher just
+#                    returns nothing every run, same as any other dead source.
 #
 # To add a feed: add a "Name": "url" line. Give the URL a quick check first —
-# some sites serve HTML or block servers.
+# some sites serve HTML, block servers, or serve a stale/abandoned cache (check
+# the actual pubDate of entries, not just whether the URL returns content).
 # --------------------------------------------------------------------------
 TRADE_PRESS_FEEDS = {
     "Mint": "https://www.livemint.com/rss/companies",
     "Entrackr": "https://entrackr.com/rss",
+    "Inc42": "https://inc42.com/feed/",
+    "YourStory": "https://yourstory.com/feed",
+    "Business Line": "https://www.thehindubusinessline.com/companies/feeder/default.rss",
+    "ET Corporate": "https://economictimes.indiatimes.com/industry/rssfeeds/13352306.cms",
+    "FT India": "https://www.ft.com/india?format=rss",
+    "DealStreetAsia": "https://www.dealstreetasia.com/feed",
 }
 
 # --------------------------------------------------------------------------
@@ -383,20 +413,28 @@ both present; otherwise "medium".
 # PIT disclosure to fire its own alert. Reuses the same bar as everything else.
 BULK_BLOCK_MIN_CR = THRESHOLD_CR
 
-# How many days back to fetch on each run, so a failed run self-heals.
-BULK_BLOCK_LOOKBACK_DAYS = 3
+# How many days back to fetch on each PIT run, so a failed run self-heals.
+# (Bulk/block deals no longer take a date range — see NSE_LARGE_DEALS_API.)
 PIT_LOOKBACK_DAYS = 7
 PIT_BACKFILL_DAYS = 90  # first run only — populates the rolling window
 
 # --------------------------------------------------------------------------
 # NSE bulk/block deal + PIT endpoints. Same cookie warm-up as sources.py.
-# NOTE: unlike the announcements endpoint (which is proven reliable in
-# production), these are historical/market-data endpoints NSE guards more
-# aggressively. Every fetcher here is defensive — on failure it logs and
-# returns nothing rather than crashing, and retries on the next scheduled run.
+#
+# The originally-documented `/api/historical/bulk-deals` and `/block-deals`
+# never worked (503 from every network tested, including GitHub Actions).
+# `snapshot-capital-market-largedeal` is the real, working source — it's
+# NSE's live market-snapshot widget data, confirmed returning current bulk
+# AND block deals in one call with real field names (buySell, clientName,
+# date, name, qty, symbol, watp). No date-range params — it's a rolling
+# snapshot of recent deals, not a historical query; dedup on (date, symbol,
+# client, buy_sell, qty) handles re-fetching the same window every run.
+#
+# NSE_PIT_API never returned data from any network tested (200 OK but always
+# an empty {"data": []} stub) and no working alternative was found — left in
+# place in case NSE fixes it, but treat this source as broken for now.
 # --------------------------------------------------------------------------
-NSE_BULK_DEALS_API = "https://www.nseindia.com/api/historical/bulk-deals"
-NSE_BLOCK_DEALS_API = "https://www.nseindia.com/api/historical/block-deals"
+NSE_LARGE_DEALS_API = "https://www.nseindia.com/api/snapshot-capital-market-largedeal"
 NSE_PIT_API = "https://www.nseindia.com/api/corporates-pit"
 
 # BSE bulk/block deal endpoints were NOT found during development (every

@@ -6,22 +6,16 @@ prospective: the seller is named outright and the value is exact — no
 classification, no inference, no false positives. Block deals settle T+1, so
 a promoter who sold Thursday morning has unallocated funds landing Friday.
 
-Sources: NSE bulk-deals and block-deals (cookie warm-up, same as sources.py).
-BSE's equivalent endpoints were NOT found during development — every guessed
-path 302-redirected to an error page, unlike BSE's announcements API, which is
-confirmed working. Per the spec's own fallback: ship NSE only. If you find the
-real BSE bulk/block endpoints, add a fetcher here following the NSE pattern.
-
-IMPORTANT — NSE's historical/bulk-deal JSON field names could not be verified
-live (the endpoint 503s from the development sandbox; NSE's own announcements
-API works fine from the same sandbox, so this is endpoint-specific bot
-defense, not a broken warm-up). The row parser below tries several candidate
-field names and logs the raw keys of the first row of each fetch — if NSE's
-real field names differ from what's guessed here, that log line shows you the
-actual keys immediately.
+Source: NSE's `snapshot-capital-market-largedeal` endpoint — the same data
+that powers NSE's live market-snapshot widget, confirmed returning current
+bulk AND block deals in one call with real field names (buySell, clientName,
+date, name, qty, symbol, watp). The originally-documented
+`/api/historical/bulk-deals` and `/block-deals` never worked (503 from every
+network tested); see config.py for the full history. BSE's equivalent
+endpoints were NOT found during development — every guessed path
+302-redirected to an error page, unlike BSE's announcements API, which is
+confirmed working. Per the spec's own fallback: ship NSE only.
 """
-
-import time
 
 import requests
 
@@ -38,50 +32,26 @@ def _log(msg):
 
 
 # --------------------------------------------------------------------------
-# Fetch — NSE bulk / block deals, 3-day lookback (self-heals a failed run).
+# Fetch — NSE bulk + block deals in one call (a rolling snapshot, not a
+# historical date-range query — dedup on (date, symbol, client, buy_sell,
+# qty) handles seeing the same window again on the next run).
 # --------------------------------------------------------------------------
-def _date_range(days_back):
-    from datetime import datetime, timedelta
-    today = datetime.now()
-    frm = (today - timedelta(days=days_back)).strftime("%d-%m-%Y")
-    to = today.strftime("%d-%m-%Y")
-    return frm, to
-
-
-_FIELD_CANDIDATES = {
-    "date": ["BD_DT_DATE", "DT_DATE", "date", "dt"],
-    "symbol": ["BD_SYMBOL", "SYMBOL", "symbol"],
-    "security_name": ["BD_SCRIP_NAME", "SCRIP_NAME", "securityName", "security_name"],
-    "client_name": ["BD_CLIENT_NAME", "CLIENT_NAME", "clientName", "client_name"],
-    "buy_sell": ["BD_BUY_SELL", "BUY_SELL", "buySell", "buy_sell"],
-    "quantity": ["BD_QTY_TRD", "QTY_TRD", "quantity", "qty"],
-    "price": ["BD_TP_WATP", "TP_WATP", "tradePrice", "price", "wap"],
-}
-
-
-def _extract(row, field):
-    for key in _FIELD_CANDIDATES[field]:
-        if key in row and row[key] not in (None, ""):
-            return row[key]
-    return None
-
-
-def _parse_rows(raw_rows, exchange, deal_type, logged_keys=[False]):
+def _parse_rows(raw_rows, exchange, deal_type, logged_keys={}):
     """Turn raw NSE JSON rows into our normalised shape. Never raises — a
     row that doesn't parse is skipped and logged, not fatal to the run."""
     out = []
     for row in raw_rows:
-        if not logged_keys[0]:
+        if deal_type not in logged_keys:
             _log(f"first {exchange} {deal_type} row keys: {sorted(row.keys())}")
-            logged_keys[0] = True
+            logged_keys[deal_type] = True
         try:
-            date = _extract(row, "date") or ""
-            symbol = _extract(row, "symbol") or ""
-            security_name = _extract(row, "security_name") or symbol
-            client_name = (_extract(row, "client_name") or "").strip()
-            buy_sell = (_extract(row, "buy_sell") or "").strip().upper()
-            qty = _extract(row, "quantity")
-            price = _extract(row, "price")
+            date = row.get("date") or ""
+            symbol = row.get("symbol") or ""
+            security_name = row.get("name") or symbol
+            client_name = (row.get("clientName") or "").strip()
+            buy_sell = (row.get("buySell") or "").strip().upper()
+            qty = row.get("qty")
+            price = row.get("watp")
             if not (symbol and client_name and buy_sell):
                 continue
             qty = float(str(qty).replace(",", "")) if qty is not None else None
@@ -105,37 +75,19 @@ def _parse_rows(raw_rows, exchange, deal_type, logged_keys=[False]):
     return out
 
 
-def fetch_nse_bulk_deals(days_back=config.BULK_BLOCK_LOOKBACK_DAYS):
-    frm, to = _date_range(days_back)
+def fetch_nse_large_deals():
+    """One call, returns both bulk and block deals."""
     try:
         session, headers = sources.warm_nse_session()
-        r = session.get(config.NSE_BULK_DEALS_API, headers=headers,
-                         params={"from": frm, "to": to}, timeout=30)
+        r = session.get(config.NSE_LARGE_DEALS_API, headers=headers, timeout=30)
         r.raise_for_status()
         data = r.json()
-        rows = data if isinstance(data, list) else data.get("data", [])
-        parsed = _parse_rows(rows, "NSE", "bulk deal")
-        _log(f"NSE bulk deals: {len(parsed)} rows parsed")
-        return parsed
+        bulk = _parse_rows(data.get("BULK_DEALS_DATA", []) or [], "NSE", "bulk deal")
+        block = _parse_rows(data.get("BLOCK_DEALS_DATA", []) or [], "NSE", "block deal")
+        _log(f"NSE large deals: {len(bulk)} bulk, {len(block)} block")
+        return bulk + block
     except Exception as exc:  # noqa: BLE001
-        _log(f"NSE bulk deals fetch failed, skipping this run: {exc}")
-        return []
-
-
-def fetch_nse_block_deals(days_back=config.BULK_BLOCK_LOOKBACK_DAYS):
-    frm, to = _date_range(days_back)
-    try:
-        session, headers = sources.warm_nse_session()
-        r = session.get(config.NSE_BLOCK_DEALS_API, headers=headers,
-                         params={"from": frm, "to": to}, timeout=30)
-        r.raise_for_status()
-        data = r.json()
-        rows = data if isinstance(data, list) else data.get("data", [])
-        parsed = _parse_rows(rows, "NSE", "block deal")
-        _log(f"NSE block deals: {len(parsed)} rows parsed")
-        return parsed
-    except Exception as exc:  # noqa: BLE001
-        _log(f"NSE block deals fetch failed, skipping this run: {exc}")
+        _log(f"NSE large deals fetch failed, skipping this run: {exc}")
         return []
 
 
@@ -248,7 +200,7 @@ def process_bulk_block_deals(dry=False):
     qualifying rows, and record every individual-seller row into
     individual_sales for Change B's aggregation regardless of size.
     """
-    rows = fetch_nse_bulk_deals() + fetch_nse_block_deals() + fetch_bse_bulk_block_deals()
+    rows = fetch_nse_large_deals() + fetch_bse_bulk_block_deals()
 
     fresh = []
     for row in rows:
