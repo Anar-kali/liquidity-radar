@@ -51,9 +51,10 @@ memory).
 **2. Classify — stage 1 (Haiku, cheap, generous).** Every new item is batched
 25-at-a-time to Claude Haiku with one instruction: *flag only the ones you're
 sure are noise.* Pure debt, government divestment, internal restructuring,
-earnings news, IPO-listing chatter, a clearly-stated deal under the size
-threshold — those get dropped. Everything else, including anything ambiguous,
-passes through.
+earnings news, an *already-open* IPO's subscription/listing-day chatter, a
+clearly-stated deal under the size threshold — those get dropped. A company
+merely *planning* an IPO is deliberately not on that list (see stage 2 below).
+Everything else, including anything ambiguous, passes through.
 
 **3. Size the ones with no stated amount.** A lot of news doesn't quote a
 number. For a *listed* company this doesn't need a guess: the market
@@ -68,8 +69,15 @@ being suppressed on a guess.
 much stricter Haiku pass whose only job is to *positively confirm* this looks
 like a real lead: a concrete or actively-negotiated deal, an individual likely
 to be paid, at real scale. This is where "company raises funding" (money
-flowing *in*, nobody cashing out), "plans to IPO" (intent, not a filing), and
-small stake purchases get caught — the noise stage 1's generosity let through.
+flowing *in*, nobody cashing out) and small stake purchases get caught — the
+noise stage 1's generosity let through.
+
+A company **planning or exploring an IPO counts as a lead here, on purpose** —
+even with no size stated and no DRHP filed yet. The whole point is reaching
+the company before it has picked a banking syndicate. What *does* still get
+filtered is the late stage of an *already-open* issue: subscription numbers,
+grey-market-premium chatter, anchor-book allotments, listing-day coverage —
+by then the syndicate is locked in and there's nothing to prospect.
 
 **5. Cluster.** The same transaction gets reported by five outlets under five
 different headlines. Matching company names (stripped of "Ltd", parent-company

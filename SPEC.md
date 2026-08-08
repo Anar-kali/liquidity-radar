@@ -15,8 +15,12 @@ large sum of money, and sends a Telegram alert for each qualifying deal.
 
 Bias: the banker wants real leads without noise. The pipeline keeps high
 recall early, then applies a strict precision pass, so genuinely large
-individual-payout deals get through while listings, IPO-intention chatter, and
-small stake buys are filtered out.
+individual-payout deals get through while trading-debut listings, an
+already-open IPO's subscription/GMP chatter, and small stake buys are filtered
+out. A company merely *planning or exploring* an IPO is explicitly NOT
+filtered — it is one of the highest-value leads in the system (the promoters
+haven't picked a banking syndicate yet), even with no size stated and no DRHP
+filed.
 
 ## Environment
 
@@ -70,6 +74,8 @@ Queries (edit the list in `config.py`):
 - `founders sell shares IPO OFS crore`
 - `open offer acquisition promoter crore`
 - `family office stake sale India crore`
+- `plans IPO India crore`
+- `appoints bankers IPO India`
 
 **Trade press RSS** (sent with a browser User-Agent):
 - **Mint** companies — `https://www.livemint.com/rss/companies`
@@ -111,11 +117,12 @@ confirmed negative only for clear cases; when in doubt it passes. Confirmed
 negatives include: pure debt; IBC/NCLT; PSU/government divestment; a subsidiary
 sale onto a corporate balance sheet (unless the parent is a closely-held
 promoter holding company); intra-group restructuring; no Indian individual in
-the chain; explicitly all-primary seed/Series-A fundraising; a clearly stated
-size under 250 crore; and non-transactions — earnings, price moves, analyst
-ratings, product launches, aggregate commentary, **stock-market listings /
-trading debuts, IPO subscription / GMP / listing-day coverage, and mere
-announcements of an intention to IPO or raise funds**.
+the chain; explicitly all-primary seed/Series-A fundraising (non-IPO); a
+clearly stated size under 250 crore; and non-transactions — earnings, price
+moves, analyst ratings, product launches, aggregate commentary, **stock-market
+listings / trading debuts, and an *already-open* IPO's subscription / GMP /
+anchor-book / listing-day coverage**. A company merely *planning or exploring*
+an IPO is explicitly carved out of this rule — see below.
 
 **Deterministic amount gate (code, not the model).** A clearly stated size
 below the 250-crore threshold is suppressed in code. Conversely, if stage 1
@@ -128,10 +135,17 @@ stage-1 survivors. Passes an item only when it is a concrete or
 actively-negotiated transaction in which an individual (promoter, founder,
 family shareholder, or the owners of a privately held / founder-run company) is
 likely to receive a large sum. Large buyouts get the benefit of the doubt even
-when the seller isn't named. Drops: IPO subscription/listing/intention;
-**primary fundraises** (money into the company, or an individual investing in);
-a company acquiring a small/minority stake; pure fund-to-fund transfers with no
-individual; and anything clearly under 250 crore.
+when the seller isn't named. **A company planning, exploring, or appointing
+bankers for an IPO explicitly qualifies here** — even with no size stated and
+no DRHP filed — since that is one of the highest-value leads the system can
+surface: the promoters haven't yet picked a banking relationship. Drops: an
+*already-open* IPO's subscription/GMP/listing coverage (the syndicate is
+locked in by then); **primary fundraises with no IPO involved** (money into
+the company, or an individual investing in); a company acquiring a
+small/minority stake; pure fund-to-fund transfers with no individual; and
+anything clearly under 250 crore. An undisclosed size never fails this gate on
+its own — see the deterministic size-band gate below, which is what actually
+decides whether an unsized item is too small to matter.
 
 **Amount guards** (`classify.py`): `reconcile_amount` corrects Haiku's
 occasional ×10 slip on INR-crore figures (e.g. reads "₹3,000 crore" but returns

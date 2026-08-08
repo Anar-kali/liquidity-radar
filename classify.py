@@ -152,6 +152,9 @@ def classify_batch(client, batch):
     resp = client.messages.create(
         model=config.MODEL,
         max_tokens=4096,
+        temperature=0,  # deterministic — this is classification, not writing;
+                        # the same headline should get the same verdict every
+                        # time regardless of which other items share its batch
         system=config.SYSTEM_PROMPT,
         messages=[{"role": "user", "content": user_message}],
     )
@@ -245,6 +248,7 @@ def precision_batch(client, batch):
     resp = client.messages.create(
         model=config.STAGE2_MODEL,
         max_tokens=8192,
+        temperature=0,  # deterministic — same reasoning as stage 1
         system=config.STAGE2_SYSTEM_PROMPT,
         messages=[{"role": "user", "content": _build_user_message(batch)}],
     )

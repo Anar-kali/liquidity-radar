@@ -174,6 +174,7 @@ def resolve_ambiguous_sellers(names):
         resp = client.messages.create(
             model=config.MODEL,
             max_tokens=2048,
+            temperature=0,  # deterministic — classification, not writing
             system=config.SELLER_CLASSIFY_SYSTEM_PROMPT,
             messages=[{"role": "user", "content": listing}],
         )

@@ -56,6 +56,11 @@ GOOGLE_NEWS_QUERIES = [
     "founders sell shares IPO OFS crore",
     "open offer acquisition promoter crore",
     "family office stake sale India crore",
+    # Early-stage IPO intent — a prospecting lead in its own right (get to the
+    # company before it picks its banking syndicate), not covered by the
+    # DRHP/OFS queries above, which only catch companies already further along.
+    "plans IPO India crore",
+    "appoints bankers IPO India",
 ]
 
 # Template for a Google News RSS search feed.
@@ -211,9 +216,19 @@ Mark confirmed_negative = true ONLY for:
    ratings, technical signals, product launches, regulatory disputes,
    aggregate market commentary, listicles about promoter selling trends,
    stock-market listings or trading debuts, IPO subscription / GMP /
-   listing-day coverage, or a mere announcement of an INTENTION to launch an
-   IPO or raise funds where no concrete transaction, DRHP, or selling
-   shareholder is stated.
+   anchor-book / listing-day coverage for an issue that has ALREADY opened,
+   or a mere announcement of an intention to raise PRIMARY growth-capital
+   funding with no IPO involved and no concrete transaction stated.
+
+   IPO INTENTION IS NOT NOISE — DO NOT APPLY THIS RULE TO IT. A company
+   announcing it plans to IPO, is exploring an IPO, is considering an IPO, or
+   has appointed bankers for an IPO is a genuine early lead: promoters and
+   founders are heading toward a major liquidity event and have likely not
+   yet picked their banking relationship. This PASSES even with no stated
+   size, no DRHP filed, and no price band yet. Only the LATE stage — an
+   already-open issue's subscription numbers, GMP, anchor allotment, or
+   listing/trading-debut coverage — is noise, because the syndicate is
+   already locked in by then.
 
 Rule 8 applies ONLY when a size is stated. Undisclosed terms, no figure
 given, "sources say" with no number: these all PASS. Silence is never a
@@ -275,13 +290,22 @@ QUALIFY examples:
   or founder/promoter-run one, where the sellers cash out even if unnamed.
   (A Rs 2,000cr acquisition of a founder-run manufacturer QUALIFIES.)
 - An open offer, or a filed DRHP / RHP / OFS with selling shareholders.
+- A company announcing it plans to IPO, is exploring / considering an IPO, or
+  has appointed bankers for an IPO — even with no stated size and no DRHP
+  filed yet. This is an EARLY prospecting lead, not noise: the promoters have
+  a major liquidity event coming and likely have not yet picked a banker.
 
 Mark qualify = false when the item is any of these (confirmed noise):
-1. IPO subscription / GMP / anchor-book / listing-day / trading-debut coverage,
-   or a mere INTENTION to launch an IPO ("plans to IPO", "eyes IPO").
+1. IPO subscription / GMP / anchor-book allotment / listing-day /
+   trading-debut coverage for an issue that has ALREADY opened. (This does
+   NOT include a plans-to-IPO / exploring-IPO announcement — see above. The
+   distinction is stage: before the issue opens and the syndicate is picked,
+   it's a lead; once it's open for subscription, it's too late to be one.)
 2. A PRIMARY fundraise — money goes INTO the company, or an individual INVESTS
    money IN; nobody cashes out. ("raises Rs X cr", "to raise funds", a funding
-   round, an investor "invests Rs X cr", anchor investors).
+   round, an investor "invests Rs X cr", anchor investors). This does NOT
+   include IPO intent (above) — an IPO is a path to individual liquidity even
+   when primary proceeds also go to the company.
 3. A company acquiring a small or minority stake in another with no individual
    selling, or where the stake is clearly below the size bar.
 4. A pure fund-to-fund or corporate-to-corporate transfer with no individual in
@@ -292,8 +316,12 @@ Mark qualify = false when the item is any of these (confirmed noise):
 
 SCALE. If a size is stated it must convert to at least {THRESHOLD_CR} crore INR
 (1 crore = 10 million; 1 USD = {USD_INR} INR, 1 EUR = {EUR_INR} INR). Drop
-clearly smaller deals. If the size is undisclosed, qualify only when it is
-clearly a large / control / strategic transaction. Never invent a figure.
+clearly smaller deals. If the size is undisclosed, still qualify — do NOT set
+qualify=false just because you are unsure how large it is. You will separately
+estimate a size band below (including UNKNOWN, which is the correct answer
+when you have nothing to go on); that band, not this qualify decision, is what
+determines whether an unsized item is suppressed downstream. Never invent a
+figure.
 
 When a LARGE deal is genuinely borderline — a big buyout where you cannot tell
 if an individual sells — LEAN QUALIFY. A rare false alarm costs five seconds;
