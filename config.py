@@ -146,7 +146,11 @@ NSE_API = "https://www.nseindia.com/api/corporate-announcements?index=equities"
 # --------------------------------------------------------------------------
 # SEBI draft offer documents (DRHP) listing page.
 # --------------------------------------------------------------------------
-SEBI_URL = "https://www.sebi.gov.in/filings/public-issues"
+# The modern SPA-style URL (/filings/public-issues/) returns 403 to every
+# fetch attempt from any network tested, including GitHub Actions itself —
+# SEBI has never once returned data at that address in this system's history.
+# This legacy backend route (still actively serving current filings) works.
+SEBI_URL = "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=3&ssid=15&smid=0"
 SEBI_LINK_KEYWORDS = ["draft", "drhp", "prospectus", "offer document"]
 
 # --------------------------------------------------------------------------

@@ -97,8 +97,12 @@ notices) are dropped.
 with cookie warm-up (GET the home page, wait 1s, then the API with a Referer).
 On block/failure it backs off and returns nothing (retries next run).
 
-**SEBI draft offer documents.** Scrapes `https://www.sebi.gov.in/filings/public-issues`
-for links matching draft / DRHP / prospectus / offer document.
+**SEBI draft offer documents.** Scrapes SEBI's legacy filings listing page
+(`sebiweb/home/HomeAction.do?doListing=yes&sid=3&ssid=15&smid=0`) for links
+matching draft / DRHP / prospectus / offer document. The modern SPA-style URL
+(`/filings/public-issues/`) returns 403 from every network tested, including
+GitHub Actions — SEBI never once returned data at that address in this
+system's history; the legacy route works and serves the same current filings.
 
 Every fetcher is defensive: a source that is down or blocking returns an empty
 list rather than crashing the run. No keyword prefilter on news — everything
