@@ -59,6 +59,8 @@ def fetch_google_news():
     for query in config.GOOGLE_NEWS_QUERIES:
         url = config.GOOGLE_NEWS_URL.format(query=urllib.parse.quote_plus(query))
         got = _rss_entries(url, "Google News")
+        for item in got:
+            item["source_query"] = query  # v4 Change 7: query attribution
         _log(f"Google News '{query}': {len(got)} items")
         items.extend(got)
     return items

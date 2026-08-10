@@ -1,10 +1,15 @@
 """
 Liquidity Radar — persistent memory (SQLite).
 
-Three tables:
+Core tables:
   items      — every fetched item, keyed on source id / URL, for dedup.
   deals      — clustered transactions (one row per real-world deal).
   suppressed — every confirmed negative, never deleted.
+
+Plus supporting tables for market-cap caching, Telegram feedback, the v3
+salami-slice aggregator (individual_sales / pattern_alerts), and the v4
+Part 1 pipeline instrumentation (item_queries, funnel_runs) — see each
+table's inline comment below.
 
 The database file is committed back to the repo after each run, so state
 survives between GitHub Actions runs.
@@ -32,12 +37,14 @@ def init_db(path=DB_PATH):
     conn.executescript(
         """
         CREATE TABLE IF NOT EXISTS items (
-            id         TEXT PRIMARY KEY,   -- source id or URL
-            source     TEXT,
-            title      TEXT,
-            url        TEXT,
-            description TEXT,
-            fetched_at TEXT
+            id           TEXT PRIMARY KEY,   -- source id or URL
+            source       TEXT,
+            title        TEXT,
+            url          TEXT,
+            description  TEXT,
+            title_norm   TEXT,               -- v4: normalised title, for dedup
+            source_query TEXT,                -- v4: Google News query, if any
+            fetched_at   TEXT
         );
 
         CREATE TABLE IF NOT EXISTS deals (
@@ -64,6 +71,8 @@ def init_db(path=DB_PATH):
             rule       TEXT,
             amount_cr  REAL,
             amount_raw TEXT,
+            gate       TEXT,      -- v4: "pre-api" (regex, before any model call)
+                                   -- or "model" (stage 1 / stage 2 verdict)
             created_at TEXT
         );
 
@@ -124,8 +133,64 @@ def init_db(path=DB_PATH):
             alerted_at  TEXT
         );
 
+        -- v4 Change 7: every (item, Google News query) pairing ever seen, even
+        -- for items the id-based dedup above later drops as a duplicate —
+        -- needed to compute "produced" (every query that surfaced an item)
+        -- and, via deal_members, "first to surface" a deal cluster.
+        CREATE TABLE IF NOT EXISTS item_queries (
+            item_id    TEXT,
+            query      TEXT,
+            created_at TEXT
+        );
+
+        -- v4 Change 9: shadow-mode decision log for the structural blocklist
+        -- (Change 3) and pre-API amount gate (Change 1). While
+        -- PREFILTER_MODE=shadow, a firing filter logs here instead of
+        -- actually dropping the item, so a trial week costs nothing extra
+        -- and shadow_report.py can show what enforcing it would remove.
+        CREATE TABLE IF NOT EXISTS prefilter_shadow (
+            id         INTEGER PRIMARY KEY AUTOINCREMENT,
+            filter     TEXT,     -- "structural" | "pre_api_amount"
+            title      TEXT,
+            url        TEXT,
+            reason     TEXT,
+            created_at TEXT
+        );
+
+        -- v4 Change 4: every title-dedup drop, logged unconditionally
+        -- (not just in shadow mode) — a dedup drop leaves no trace anywhere
+        -- else (unlike a clustering merge, which still shows up in
+        -- deal_members), so this is the only way to ever discover a wrong
+        -- merge. Surfaced in dedupe_check.py --title-dedup.
+        CREATE TABLE IF NOT EXISTS title_dedup_log (
+            id            INTEGER PRIMARY KEY AUTOINCREMENT,
+            title         TEXT,
+            url           TEXT,
+            matched_title TEXT,
+            similarity    REAL,
+            created_at    TEXT
+        );
+
+        -- v4: one row per main.py run, so the daily digest can show where
+        -- volume goes without re-deriving it from suppressed/items each time.
+        CREATE TABLE IF NOT EXISTS funnel_runs (
+            id                 INTEGER PRIMARY KEY AUTOINCREMENT,
+            mode               TEXT,
+            fetched            INTEGER,
+            already_seen       INTEGER,
+            structural_dropped INTEGER,
+            title_deduped      INTEGER,
+            pre_api_gated      INTEGER,
+            reached_stage1     INTEGER,
+            reached_stage2     INTEGER,
+            alerted            INTEGER,
+            created_at         TEXT
+        );
+
         CREATE INDEX IF NOT EXISTS idx_deal_key ON deals(deal_key);
         CREATE INDEX IF NOT EXISTS idx_member_deal ON deal_members(deal_id);
+        CREATE INDEX IF NOT EXISTS idx_item_queries_item ON item_queries(item_id);
+        CREATE INDEX IF NOT EXISTS idx_item_queries_query ON item_queries(query);
         """
     )
     # Non-destructive migration: add new columns to an existing deals table.
@@ -136,6 +201,24 @@ def init_db(path=DB_PATH):
         conn.execute("ALTER TABLE deals ADD COLUMN size_band TEXT")
     if "confirmed" not in existing:
         conn.execute("ALTER TABLE deals ADD COLUMN confirmed INTEGER DEFAULT 0")
+
+    existing_items = {r[1] for r in conn.execute("PRAGMA table_info(items)")}
+    if "title_norm" not in existing_items:
+        conn.execute("ALTER TABLE items ADD COLUMN title_norm TEXT")
+    if "source_query" not in existing_items:
+        conn.execute("ALTER TABLE items ADD COLUMN source_query TEXT")
+
+    existing_suppressed = {r[1] for r in conn.execute("PRAGMA table_info(suppressed)")}
+    if "gate" not in existing_suppressed:
+        conn.execute("ALTER TABLE suppressed ADD COLUMN gate TEXT")
+
+    # This index depends on items.title_norm, which the migration above may
+    # have JUST added on an existing (pre-v4) database — it must run after
+    # the ALTER TABLE, not inside the initial CREATE TABLE IF NOT EXISTS
+    # script above, since that script is a no-op for a table that already
+    # existed before this column did.
+    conn.execute("CREATE INDEX IF NOT EXISTS idx_items_title_norm ON items(title_norm)")
+
     conn.commit()
     conn.close()
 
@@ -225,19 +308,153 @@ def item_seen(item_id, path=DB_PATH):
 def add_item(item, path=DB_PATH):
     conn = _conn(path)
     conn.execute(
-        "INSERT OR IGNORE INTO items (id, source, title, url, description, fetched_at) "
-        "VALUES (?, ?, ?, ?, ?, ?)",
+        "INSERT OR IGNORE INTO items "
+        "(id, source, title, url, description, title_norm, source_query, fetched_at) "
+        "VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
         (
             item["id"],
             item.get("source", ""),
             item.get("title", ""),
             item.get("url", ""),
             item.get("description", ""),
+            item.get("title_norm"),
+            item.get("source_query"),
             now_iso(),
         ),
     )
     conn.commit()
     conn.close()
+
+
+def recent_title_norms(hours, path=DB_PATH):
+    """Every non-empty title_norm seen in the window — used by the v4
+    Change 4 title-dedup check. filters.py computes distinguishing tokens
+    from these on demand (stopword-stripping is a filtering concern, not a
+    storage one)."""
+    cutoff = (datetime.now(timezone.utc) - timedelta(hours=hours)).isoformat()
+    conn = _conn(path)
+    rows = conn.execute(
+        "SELECT DISTINCT title_norm FROM items "
+        "WHERE fetched_at >= ? AND title_norm IS NOT NULL AND title_norm != ''",
+        (cutoff,),
+    ).fetchall()
+    conn.close()
+    return [r["title_norm"] for r in rows]
+
+
+# --------------------------------------------------------------------------
+# prefilter_shadow / title_dedup_log (v4 Changes 4 and 9)
+# --------------------------------------------------------------------------
+def add_prefilter_shadow(filter_name, title, url, reason, path=DB_PATH):
+    conn = _conn(path)
+    conn.execute(
+        "INSERT INTO prefilter_shadow (filter, title, url, reason, created_at) "
+        "VALUES (?, ?, ?, ?, ?)",
+        (filter_name, title, url, reason, now_iso()),
+    )
+    conn.commit()
+    conn.close()
+
+
+def prefilter_shadow_since(hours, path=DB_PATH):
+    cutoff = (datetime.now(timezone.utc) - timedelta(hours=hours)).isoformat()
+    conn = _conn(path)
+    rows = conn.execute(
+        "SELECT * FROM prefilter_shadow WHERE created_at >= ? ORDER BY created_at",
+        (cutoff,),
+    ).fetchall()
+    conn.close()
+    return [dict(r) for r in rows]
+
+
+def add_title_dedup_log(title, url, matched_title, similarity, path=DB_PATH):
+    conn = _conn(path)
+    conn.execute(
+        "INSERT INTO title_dedup_log (title, url, matched_title, similarity, created_at) "
+        "VALUES (?, ?, ?, ?, ?)",
+        (title, url, matched_title, similarity, now_iso()),
+    )
+    conn.commit()
+    conn.close()
+
+
+def title_dedup_log_since(hours, path=DB_PATH):
+    cutoff = (datetime.now(timezone.utc) - timedelta(hours=hours)).isoformat()
+    conn = _conn(path)
+    rows = conn.execute(
+        "SELECT * FROM title_dedup_log WHERE created_at >= ? ORDER BY created_at",
+        (cutoff,),
+    ).fetchall()
+    conn.close()
+    return [dict(r) for r in rows]
+
+
+def add_item_query(item_id, query, path=DB_PATH):
+    conn = _conn(path)
+    conn.execute(
+        "INSERT INTO item_queries (item_id, query, created_at) VALUES (?, ?, ?)",
+        (item_id, query, now_iso()),
+    )
+    conn.commit()
+    conn.close()
+
+
+def query_item_stats(days, path=DB_PATH):
+    """
+    v4 Change 7 (revised). Returns {query: {"produced": n, "first_to_surface": n}}
+    for Google News queries with any activity in the last `days`.
+
+    "produced" counts every item the query surfaced (even if another query
+    also found the same item). "first_to_surface" counts deal clusters where
+    this query's item was the EARLIEST member attached to that deal (by
+    deal_members.attached_at) — lead time is the point of a search query, not
+    overlap, so a query that mostly duplicates others but consistently gets
+    there first is still valuable; one that never arrives first is a
+    candidate to cut.
+    """
+    from collections import defaultdict
+
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=days)).isoformat()
+    conn = _conn(path)
+    rows = conn.execute(
+        "SELECT item_id, query FROM item_queries WHERE created_at >= ?", (cutoff,)
+    ).fetchall()
+    if not rows:
+        conn.close()
+        return {}
+
+    produced = defaultdict(int)
+    queries_by_item = defaultdict(set)
+    for r in rows:
+        produced[r["query"]] += 1
+        queries_by_item[r["item_id"]].add(r["query"])
+
+    # Earliest deal_member per deal, restricted to members we can trace back
+    # to a tracked item_id (so we know which query, if any, found it).
+    member_rows = conn.execute(
+        "SELECT dm.deal_id, dm.attached_at, i.id AS item_id "
+        "FROM deal_members dm JOIN items i ON i.url = dm.url AND dm.url != '' "
+        "WHERE dm.attached_at >= ? ORDER BY dm.attached_at",
+        (cutoff,),
+    ).fetchall()
+    conn.close()
+
+    first_item_for_deal = {}
+    for r in member_rows:
+        # Rows are ordered by attached_at ascending, so the first time a
+        # deal_id is seen here is its earliest member.
+        first_item_for_deal.setdefault(r["deal_id"], r["item_id"])
+
+    first_to_surface = defaultdict(int)
+    for item_id in first_item_for_deal.values():
+        for q in queries_by_item.get(item_id, ()):
+            first_to_surface[q] += 1
+
+    all_queries = set(produced) | set(first_to_surface)
+    return {
+        q: {"produced": produced.get(q, 0), "first_to_surface": first_to_surface.get(q, 0)}
+        for q in all_queries
+    }
 
 
 # --------------------------------------------------------------------------
@@ -338,12 +555,12 @@ def update_deal(deal_id, fields, path=DB_PATH):
 # --------------------------------------------------------------------------
 # suppressed
 # --------------------------------------------------------------------------
-def add_suppressed(title, url, rule, amount_cr, amount_raw, path=DB_PATH):
+def add_suppressed(title, url, rule, amount_cr, amount_raw, gate="model", path=DB_PATH):
     conn = _conn(path)
     conn.execute(
-        "INSERT INTO suppressed (title, url, rule, amount_cr, amount_raw, created_at) "
-        "VALUES (?, ?, ?, ?, ?, ?)",
-        (title, url, rule, amount_cr, amount_raw, now_iso()),
+        "INSERT INTO suppressed (title, url, rule, amount_cr, amount_raw, gate, created_at) "
+        "VALUES (?, ?, ?, ?, ?, ?, ?)",
+        (title, url, rule, amount_cr, amount_raw, gate, now_iso()),
     )
     conn.commit()
     conn.close()
@@ -450,3 +667,38 @@ def record_pattern_alert(person_key, company_key, total_cr, path=DB_PATH):
     )
     conn.commit()
     conn.close()
+
+
+# --------------------------------------------------------------------------
+# funnel_runs (v4) — one row per main.py run, so the daily digest can show
+# where volume goes: fetched -> structural -> title dedup -> pre-API gate ->
+# stage 1 -> stage 2 -> alerted.
+# --------------------------------------------------------------------------
+_FUNNEL_FIELDS = (
+    "mode", "fetched", "already_seen", "structural_dropped", "title_deduped",
+    "pre_api_gated", "reached_stage1", "reached_stage2", "alerted",
+)
+
+
+def add_funnel_run(counters, path=DB_PATH):
+    conn = _conn(path)
+    cols = ", ".join(_FUNNEL_FIELDS)
+    placeholders = ", ".join("?" for _ in _FUNNEL_FIELDS)
+    values = [counters.get(f) for f in _FUNNEL_FIELDS]
+    conn.execute(
+        f"INSERT INTO funnel_runs ({cols}, created_at) VALUES ({placeholders}, ?)",
+        (*values, now_iso()),
+    )
+    conn.commit()
+    conn.close()
+
+
+def funnel_since(hours, path=DB_PATH):
+    cutoff = (datetime.now(timezone.utc) - timedelta(hours=hours)).isoformat()
+    conn = _conn(path)
+    rows = conn.execute(
+        "SELECT * FROM funnel_runs WHERE created_at >= ? ORDER BY created_at",
+        (cutoff,),
+    ).fetchall()
+    conn.close()
+    return [dict(r) for r in rows]

@@ -39,6 +39,10 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          # v4 Change 9: "shadow" (default, safe) or "enforce". Repo Settings
+          # -> Secrets and variables -> Actions -> Variables -> New repository
+          # variable. Unset/empty also means shadow (config.py's fallback).
+          PREFILTER_MODE: ${{ vars.PREFILTER_MODE }}
         run: python main.py --mode auto
       - name: Commit state
         run: |

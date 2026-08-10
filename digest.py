@@ -72,7 +72,28 @@ def build_digest(hours=24):
         lines.append(f"Confirmed (block/bulk/PIT): {len(confirmed)} · "
                       f"Pattern (aggregated): {len(patterns)}")
 
+    # v4 Part 1: funnel — where the volume went, across every main.py run
+    # today. See SPEC-v4-upgrade.md "Before you finish" #3.
+    funnel_section = _funnel_section(hours)
+    if funnel_section:
+        lines.append("")
+        lines.append(funnel_section)
+
     return "\n".join(lines)
+
+
+def _funnel_section(hours=24):
+    runs = db.funnel_since(hours)
+    if not runs:
+        return None
+    tot = lambda k: sum(r.get(k) or 0 for r in runs)  # noqa: E731
+    return (
+        f"*Funnel today ({len(runs)} runs):* fetched {tot('fetched')} → "
+        f"already-seen -{tot('already_seen')} → structural -{tot('structural_dropped')} "
+        f"→ title dedup -{tot('title_deduped')} → pre-API gate -{tot('pre_api_gated')} "
+        f"→ stage 1 ({tot('reached_stage1')}) → stage 2 ({tot('reached_stage2')}) "
+        f"→ alerted {tot('alerted')}"
+    )
 
 
 def main():

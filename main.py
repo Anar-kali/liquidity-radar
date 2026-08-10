@@ -8,17 +8,24 @@ Usage:
     python main.py --mode fast --dry     # print alerts to terminal, send nothing
     python main.py --test-telegram       # send one test message and exit
 
-Pipeline for a run:
+Pipeline for a run (v4 Part 1 — see SPEC-v4-upgrade.md):
     1. Fetch items for the mode.
     2. Drop items already in the database (dedup on source id / URL).
-    3. Classify the new ones with Haiku, in batches of 25.
-    4. Confirmed negatives go to the suppression log.
-    5. Everything else goes through clustering, which decides whether to fire
-       a NEW alert, a follow-up UPDATE, or attach silently.
+    3. Structural blocklist: drop liveblogs/slideshows/etc by document type.
+    4. Title dedup: drop near-duplicate headlines (Google News URL rotation).
+    5. Pre-API amount gate: regex-suppress a clearly-small stated deal before
+       spending an API call on it.
+    6. Stage 1 (Haiku, slim boolean+rule schema): reject confirmed noise.
+       SEBI DRHP items skip this stage entirely (Change 5).
+    7. Stage 2 (Haiku, full extraction): positively confirm + size the deal.
+    8. Everything that qualifies goes through clustering, which decides
+       whether to fire a NEW alert, a follow-up UPDATE, or attach silently.
+
+Every counter above is recorded to db.funnel_runs so the daily digest can
+show where volume goes.
 """
 
 import argparse
-import re
 from collections import Counter
 
 import classify
@@ -26,32 +33,32 @@ import cluster
 import config
 import db
 import feedback
+import filters
 import notify
 import sizing
 import sources
 
 
-_RULE_NUMBER_RE = re.compile(r"^\s*(?:rule\s*)?#?(\d+)", re.IGNORECASE)
+def _rule_label(rule_number):
+    return f"Rule {rule_number}" if rule_number is not None else "Rule ?"
 
 
-def _rule_number(reason):
-    """
-    Extract a stable 'Rule N' label from the classifier's negative_reason.
+def _stage1_fallback():
+    """v4 Change 6: shape-compatible fail-open result if stage 1 raises
+    entirely (beyond classify.py's own per-batch fail-open)."""
+    return {"confirmed_negative": False, "rule_number": None}
 
-    Anchored to the START of the string on purpose. Haiku consistently writes
-    "Rule 9: Earnings result..." — the digit is directly followed by a colon,
-    so a naive "any whitespace-split token that isdigit()" scan (the previous
-    approach) never matches "9:" and falls through to scanning the REST of
-    the free-text explanation, where it can latch onto a completely unrelated
-    bare number later in the sentence (an amount, a percentage) and report a
-    nonexistent "Rule 38". Anchoring to the first number at the start of the
-    string, regardless of what punctuation follows it, fixes both failure
-    modes at once.
-    """
-    if not reason:
-        return "Rule ?"
-    m = _RULE_NUMBER_RE.match(str(reason))
-    return f"Rule {m.group(1)}" if m else "Rule ?"
+
+def _stage2_fallback(item):
+    """v4 Change 6: shape-compatible fail-open result if stage 2 raises
+    entirely (beyond classify.py's own per-batch fail-open)."""
+    return {
+        "qualify": True, "drop_reason": None,
+        "company": item.get("title") or "", "deal_type": "unknown",
+        "amount_cr": None, "amount_raw": None, "individuals": [], "buyer": None,
+        "confidence": "medium", "one_line": (item.get("title") or "")[:200],
+        "size_band": "UNKNOWN", "size_basis": "no information",
+    }
 
 
 def run(mode, dry, limit=None):
@@ -64,95 +71,212 @@ def run(mode, dry, limit=None):
     raw = sources.fetch_for_mode(mode)
     print(f"[main] fetched {len(raw)} items in mode '{mode}'")
 
-    # Dedup against what we've already seen, and record the new ones.
-    fresh = []
+    funnel = {
+        "mode": mode, "fetched": len(raw), "already_seen": 0,
+        "structural_dropped": 0, "title_deduped": 0, "pre_api_gated": 0,
+        "reached_stage1": 0, "reached_stage2": 0, "alerted": 0,
+    }
+
+    # Dedup against what we've already seen. Query attribution (v4 Change 7)
+    # is recorded for EVERY raw item, even ones the id-based dedup below
+    # drops, so query overlap is fully visible — not just whichever query
+    # happened to surface an item first.
+    candidates = []
     for item in raw:
         if not item.get("id"):
             continue
+        q = item.get("source_query")
+        if q:
+            db.add_item_query(item["id"], q)
         if db.item_seen(item["id"]):
+            funnel["already_seen"] += 1
             continue
+        candidates.append(item)
+
+    # v4 Change 9: shadow mode. Changes 1, 3, and 4 below only ever ACTUALLY
+    # drop an item when config.PREFILTER_MODE == "enforce" (a GitHub Actions
+    # repo variable, default "shadow"). In shadow mode every filter still
+    # computes and logs its decision — to prefilter_shadow, or to
+    # title_dedup_log for Change 4 — but the item passes through regardless,
+    # so a trial week costs nothing extra and shadow_report.py can show
+    # exactly what enforcing would have removed before it's ever real.
+    def apply_prefilter(item, fires, filter_name, reason, funnel_key, log_shadow=True):
+        if not fires:
+            return False
+        funnel[funnel_key] += 1
+        if config.PREFILTER_MODE != "enforce":
+            if log_shadow:
+                db.add_prefilter_shadow(filter_name, item.get("title", ""),
+                                         item.get("url", ""), reason)
+            return False
+        return True
+
+    # Structural blocklist (v4 Change 3) — document-type filter, before
+    # anything else. No suppression-log entry when enforced, just a counter:
+    # this isn't a content judgment that needs auditing later.
+    kept = []
+    for item in candidates:
+        fires = filters.is_structural_noise(item)
+        if apply_prefilter(item, fires, "structural", "document-type match",
+                            "structural_dropped"):
+            continue
+        kept.append(item)
+    candidates = kept
+
+    # Title dedup (v4 Change 4) — Google News rotates article URLs, so the
+    # same story looks new to the id-based dedup above. Every candidate is
+    # still recorded to `items` (with title_norm) so history stays complete
+    # and future runs can dedup against it too. Every DROP (shadow or real)
+    # is logged to title_dedup_log unconditionally — unlike a clustering
+    # merge, a dedup drop leaves no other trace, so this is the only way to
+    # ever discover a wrong one.
+    recent_norms = db.recent_title_norms(hours=config.TITLE_DEDUP_WINDOW_HOURS)
+    recent = [(n, filters.distinguishing_tokens(n)) for n in recent_norms]
+    fresh = []
+    for item in candidates:
+        title_norm = filters.normalise_title(item.get("title", ""))
+        tokens = filters.distinguishing_tokens(title_norm)
+        is_dup, matched_norm, sim = filters.title_dedup_decision(title_norm, tokens, recent)
+        item["title_norm"] = title_norm
         db.add_item(item)
+        if is_dup:
+            db.add_title_dedup_log(item.get("title", ""), item.get("url", ""),
+                                    matched_norm, sim)
+        # log_shadow=False: title_dedup_log above already covers this drop's
+        # audit trail, so prefilter_shadow doesn't need a redundant row.
+        if apply_prefilter(item, is_dup, "title_dedup",
+                            f"matched '{matched_norm}' (sim={sim:.2f})" if is_dup else "",
+                            "title_deduped", log_shadow=False):
+            continue
+        recent.append((title_norm, tokens))
         fresh.append(item)
-    print(f"[main] {len(fresh)} new items after dedup")
+
+    print(f"[main] {len(fresh)} new items after dedup "
+          f"(already-seen {funnel['already_seen']}, structural "
+          f"-{funnel['structural_dropped']}, title dedup -{funnel['title_deduped']}, "
+          f"PREFILTER_MODE={config.PREFILTER_MODE})")
 
     if not fresh:
+        db.add_funnel_run(funnel)
         return
 
     suppressed = [0]  # boxed so the local helper can mutate it
 
-    def suppress(item, rule, r):
+    def suppress(item, rule, r, gate="model"):
         db.add_suppressed(
             title=item.get("title", ""),
             url=item.get("url", ""),
             rule=rule,
             amount_cr=r.get("amount_cr"),
             amount_raw=r.get("amount_raw"),
+            gate=gate,
         )
         suppressed[0] += 1
 
+    # Pre-API amount gate (v4 Change 1) — regex-only, no model call. Suppress
+    # only when the LARGEST proximity-gated rupee figure found in the raw
+    # text is confidently under threshold; never on a smaller figure when a
+    # larger one is also present ("sells 5% stake for Rs150cr in a Rs2,000cr
+    # deal" survives).
+    pre_survivors = []
+    for item in fresh:
+        stated = filters.pre_api_stated_cr(item)
+        fires = stated is not None and stated < config.THRESHOLD_CR
+        reason = f"regex: Rs {stated:g}cr (proximity-gated)" if fires else ""
+        if apply_prefilter(item, fires, "pre_api_amount", reason, "pre_api_gated"):
+            suppress(item, "Rule 8", {"amount_cr": stated, "amount_raw": reason},
+                     gate="pre-api")
+            continue
+        pre_survivors.append(item)
+    fresh = pre_survivors
+
+    # SEBI DRHP filings (v4 Change 5) skip stage 1 entirely — a DRHP is by
+    # definition a company going public, which stage 1 would never mark
+    # confirmed-negative, so the call is wasted every time.
+    sebi_direct = [item for item in fresh if item.get("source") == "SEBI"]
+    to_classify = [item for item in fresh if item.get("source") != "SEBI"]
+    funnel["reached_stage1"] = len(to_classify)
+
     # ---- STAGE 1: Haiku, reject confirmed noise (high recall) ----
-    stage1 = classify.classify_all(fresh)
-    survivors = []          # items that go to the precision check
-    sizing_by_id = {}       # item id -> sizing result, carried into stage 2
+    # v4 Change 6: failure isolation. classify.classify_all() already fails
+    # open per-batch internally; this outer guard is a last-resort net for
+    # anything else that could go wrong, so one broken component never aborts
+    # the whole run.
+    try:
+        stage1 = classify.classify_all(to_classify)
+    except Exception as exc:  # noqa: BLE001
+        print(f"[main] stage1 failed entirely, passing all through: {exc}")
+        if not dry:
+            notify.send(f"⚠️ Liquidity Radar: stage-1 classification failed this "
+                        f"run ({exc}) — items passed through unclassified.")
+        stage1 = [(item, _stage1_fallback()) for item in to_classify]
+
+    survivors = list(sebi_direct)  # items that go to the precision check
     for item, r1 in stage1:
         if r1["confirmed_negative"]:
-            rule = _rule_number(r1.get("negative_reason"))
+            rule = _rule_label(r1.get("rule_number"))
             # Don't let a "under threshold" drop kill a deal whose STATED size
-            # actually parses to >= threshold — let stage 2 judge it instead.
+            # actually parses to >= threshold from the raw text — let stage 2
+            # judge it instead. (Stage 1 no longer extracts amount_raw itself
+            # under the slim v4 schema, so this regexes the item text
+            # directly — the same regex the pre-API gate above uses.)
             if rule == "Rule 8":
-                stated = classify.stated_cr_max(
-                    r1.get("amount_raw"), item.get("title"), item.get("description"))
+                # Deliberately the general (non-proximity-gated) figure
+                # reader here, not filters.pre_api_stated_cr — this is a
+                # rescue check, not a suppression, so being generous only
+                # costs an extra stage-2 call, never a wrongly-dropped lead.
+                stated = classify.stated_cr_max(item.get("title"), item.get("description"))
                 if stated is not None and stated >= config.THRESHOLD_CR:
                     survivors.append(item)
-                    sizing_by_id[item["id"]] = {"size_source": "stated"}
                     continue
-            suppress(item, rule, r1)
+            suppress(item, rule, {"amount_cr": None, "amount_raw": None})
             continue
-
-        # Stated amount: small ones die here; large ones proceed.
-        if r1["amount_cr"] is not None:
-            if r1["amount_cr"] < config.THRESHOLD_CR:
-                suppress(item, "Rule 8", r1)
-                continue
-            survivors.append(item)
-            sizing_by_id[item["id"]] = {"size_source": "stated"}
-            continue
-
-        # No stated amount: resolve size (listed -> compute / plausibility).
-        text = f"{item.get('title', '')} {item.get('description', '')}"
-        sz = sizing.resolve_size(r1.get("company") or item.get("title", ""), text)
-        src = sz.get("size_source")
-        if src == "computed" and sz["amount_cr"] < config.THRESHOLD_CR:
-            suppress(item, "Rule 8", {
-                "amount_cr": sz["amount_cr"],
-                "amount_raw": f"{sz['pct']:g}% x mcap ~Rs {sz['mcap_cr']:.0f}cr"})
-            continue
-        if src == "mcap_plausible" and sz["mcap_cr"] < config.MCAP_PLAUSIBLE_MIN:
-            suppress(item, "Rule 8", {
-                "amount_cr": None,
-                "amount_raw": f"mcap ~Rs {sz['mcap_cr']:.0f}cr < {config.MCAP_PLAUSIBLE_MIN}"})
-            continue
-        sizing_by_id[item["id"]] = sz
         survivors.append(item)
 
+    funnel["reached_stage2"] = len(survivors)
     print(f"[main] stage1: {suppressed[0]} suppressed, {len(survivors)} to precision-check")
 
     # ---- STAGE 2: precision confirm + size band (Haiku) ----
+    try:
+        stage2 = classify.precision_classify(survivors)
+    except Exception as exc:  # noqa: BLE001
+        print(f"[main] stage2 failed entirely, passing all through: {exc}")
+        if not dry:
+            notify.send(f"⚠️ Liquidity Radar: stage-2 classification failed this "
+                        f"run ({exc}) — items passed through unclassified (qualify=true).")
+        stage2 = [(item, _stage2_fallback(item)) for item in survivors]
+
     alerts = []
     mix = Counter()
-    for item, r2 in classify.precision_classify(survivors):
+    for item, r2 in stage2:
         if not r2["qualify"]:
             suppress(item, "Rule P", r2)
             continue
 
-        sz = sizing_by_id.get(item["id"], {})
-        src = sz.get("size_source")
-
-        # Fill in a computed amount if stage 2 found no figure of its own.
-        if r2["amount_cr"] is None and src == "computed":
-            r2["amount_cr"] = sz["amount_cr"]
-            r2["amount_raw"] = (f"{sz['pct']:g}% x mcap ~Rs {sz['mcap_cr']:.0f}cr "
-                                f"= ~Rs {sz['amount_cr']:.0f}cr")
+        # Resolve size: stage 2's own stated figure first; otherwise try
+        # listed-company market-cap inference (v4: this now runs here, once,
+        # using stage 2's own extracted company — stage 1 no longer extracts
+        # a company under the slim schema, so there's nothing to reuse from
+        # an earlier pass).
+        src = None
+        if r2["amount_cr"] is None:
+            text = f"{item.get('title', '')} {item.get('description', '')}"
+            sz = sizing.resolve_size(r2.get("company") or item.get("title", ""), text)
+            src = sz.get("size_source")
+            if src == "computed":
+                if sz["amount_cr"] < config.THRESHOLD_CR:
+                    suppress(item, "Rule 8", {
+                        "amount_cr": sz["amount_cr"],
+                        "amount_raw": f"{sz['pct']:g}% x mcap ~Rs {sz['mcap_cr']:.0f}cr"})
+                    continue
+                r2["amount_cr"] = sz["amount_cr"]
+                r2["amount_raw"] = (f"{sz['pct']:g}% x mcap ~Rs {sz['mcap_cr']:.0f}cr "
+                                    f"= ~Rs {sz['amount_cr']:.0f}cr")
+            elif src == "mcap_plausible" and sz["mcap_cr"] < config.MCAP_PLAUSIBLE_MIN:
+                suppress(item, "Rule 8", {
+                    "amount_cr": None,
+                    "amount_raw": f"mcap ~Rs {sz['mcap_cr']:.0f}cr < {config.MCAP_PLAUSIBLE_MIN}"})
+                continue
 
         # Deterministic small-amount gate on whatever amount we now have.
         if r2["amount_cr"] is not None and r2["amount_cr"] < config.THRESHOLD_CR:
@@ -194,9 +318,12 @@ def run(mode, dry, limit=None):
                         pk, canonical_name, r2.get("company") or "", company_key,
                         db.now_iso()[:10], r2["amount_cr"], "news")
 
+    funnel["alerted"] = len(alerts)
     print(f"[main] {suppressed[0]} suppressed total, {len(alerts)} alerts to send")
     if mix:
         print("[main] size_source mix: " + ", ".join(f"{k}={v}" for k, v in mix.items()))
+
+    db.add_funnel_run(funnel)
 
     # Optional throttle (useful for testing, or to avoid a flood on a cold
     # start). Deals are still recorded; only the notifications are capped.

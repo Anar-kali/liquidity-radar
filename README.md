@@ -205,6 +205,41 @@ feed, which works fine) — NSE alone still covers most of the volume.
 
 ---
 
+## Cutting API costs without losing recall (new)
+
+Stage 1 (the generous first pass) looks at *every* item that gets fetched,
+so it's where almost all the API cost was going. Several changes now cut
+that cost before a deal is ever at risk of being missed:
+
+- Obviously-tiny stated deals, and things like stock-price "live blog" pages,
+  are now filtered out **before** any AI call at all — cheaper than sending
+  them to Claude just to be told no.
+- The same news story showing up twice under a slightly different headline
+  (common with Google News) is now caught **before** classifying it a second
+  time.
+- Stage 1 itself now returns a much shorter answer (just "noise or not, and
+  why") instead of a full write-up for every single item — the detailed
+  write-up only happens for the handful of items that survive to stage 2.
+
+**None of this is live yet in the sense of actually dropping anything.** It
+runs in **shadow mode** first: every one of the changes above computes its
+decision and writes it down, but the item goes through exactly as before —
+so for about a week, cost and behaviour stay unchanged while a full log
+builds up of *what would have been dropped, if you'd let it*.
+
+**What you need to do:** after about a week, run this locally (or ask me to):
+```bash
+python shadow_report.py
+```
+It prints everything the new filters would have removed, grouped by which
+filter caught it. Skim it — if nothing in there looks like a real deal, tell
+me and I'll flip the switch (a setting called `PREFILTER_MODE`, changed in
+GitHub's repo settings, not in code) to actually start dropping that stuff
+and saving the cost. If something in the list looks wrong, we tune the
+filter first instead of turning it on.
+
+---
+
 ## Tuning
 
 Everything below is a small edit to **`config.py`**, then commit + push (or

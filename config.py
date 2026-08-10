@@ -5,6 +5,8 @@ This is the file you edit to tune the system. Everything a non-programmer is
 likely to want to change lives here, near the top, with comments.
 """
 
+import os
+
 # --------------------------------------------------------------------------
 # THE MONEY THRESHOLD
 # Deals that convert to LESS than this many crore INR are suppressed (rule 8).
@@ -16,6 +18,68 @@ THRESHOLD_CR = 250
 # promoter selling the whole company barely clears the threshold, so a deal
 # with no stated size is suppressed. Above it, the item passes.
 MCAP_PLAUSIBLE_MIN = 350
+
+# --------------------------------------------------------------------------
+# v4 Part 1 — pre-classification filters. Everything here runs before any
+# Anthropic API call (see filters.py). Changes 1, 3, and 4 below only ever
+# ACTUALLY drop an item when PREFILTER_MODE is "enforce" — see the shadow
+# mode note further down (Change 9).
+# --------------------------------------------------------------------------
+# Change 1: pre-API amount gate. A regex can't tell a deal value from
+# revenue, EBITDA, market cap, or a target price, so a matched figure only
+# counts when it sits within this many characters of a transaction word AND
+# no valuation/performance word appears in that same window. If either test
+# fails, the item goes to the model rather than being guessed at.
+AMOUNT_PROXIMITY_CHARS = 60
+TRANSACTION_WORDS = [
+    "sold", "sells", "sale", "stake", "deal", "acquire", "acquisition",
+    "buy", "offer", "ofs", "block", "divest",
+]
+VALUATION_WORDS = [
+    "revenue", "turnover", "profit", "pat", "ebitda", "market cap", "m-cap",
+    "order book", "target price", "per annum", "annually", "capex",
+]
+
+# Change 3: structural blocklist. URL substrings and title patterns that
+# identify a page's TYPE (liveblog, slideshow, etc.), never its content — a
+# deal cannot be published as one of these regardless of how it's phrased.
+STRUCTURAL_BLOCK_URL_PATTERNS = [
+    "/liveblog/", "/stock-liveblog/", "/slideshow/", "/photostory/", "/videoshow/",
+]
+# Only checked when the item's description is empty (see filters.py) — a
+# real article headlined this way but WITH a description isn't a bare
+# liveblog stub.
+STRUCTURAL_BLOCK_TITLE_PATTERNS = [
+    "share price live updates", "stock price live",
+]
+
+# Change 4: title dedup ahead of classification. Google News rotates article
+# URLs, so the same story looks new to the id/URL dedup and gets classified
+# again — clustering catches it eventually, but only after paying for the
+# API call. Conservative on purpose: over-deduping loses a real story,
+# under-deduping only costs a few tokens.
+TITLE_DEDUP_WINDOW_HOURS = 72
+TITLE_DEDUP_JACCARD = 0.85
+
+# Generic finance vocabulary stripped before computing title similarity.
+# Indian deal headlines are formulaic ("Promoter sells 2% stake in X for Rs
+# 500 crore" / "...3% stake in Y for Rs 600 crore" share nearly every token
+# except the company name) — without this, Jaccard spikes on shared
+# boilerplate on short headlines where the denominator is small.
+TITLE_DEDUP_STOPWORDS = {
+    "promoter", "promoters", "sells", "sell", "sold", "sale", "stake",
+    "shares", "share", "block", "bulk", "deal", "crore", "cr", "rs", "worth",
+    "per", "cent", "buy", "buys", "acquires", "acquired", "in", "for", "to",
+    "of", "the", "a", "at", "via", "after", "as", "over", "likely",
+}
+
+# Change 9: shadow week before enforcing. Every filter above computes and
+# logs its decision either way; only in "enforce" does it actually drop the
+# item. Set via the PREFILTER_MODE GitHub Actions repository variable (repo
+# Settings -> Secrets and variables -> Actions -> Variables), not a secret
+# and not a code edit — takes effect on the next run. Defaults to "shadow"
+# (safe) if unset or anything other than exactly "enforce".
+PREFILTER_MODE = os.getenv("PREFILTER_MODE", "shadow")
 
 # --------------------------------------------------------------------------
 # THE CLASSIFIER MODEL — Haiku only, both stages (cost matters).
@@ -269,34 +333,22 @@ given, "sources say" with no number: these all PASS. Silence is never a
 small deal.
 
 Currency: 1 crore = 10 million INR. 1 lakh = 100,000 INR.
-Use 1 USD = {USD_INR} INR, 1 EUR = {EUR_INR} INR. Show your working in amount_raw.
+Use 1 USD = {USD_INR} INR, 1 EUR = {EUR_INR} INR.
 
-"company" is ALWAYS the entity whose ownership is changing — the target, or the
-company whose shares are being sold — NEVER the acquirer or investor. In
-"IndiaRF acquires Fine Edge Engineering", company is Fine Edge Engineering and
-buyer is IndiaRF.
+Your ONLY output is the confirmed-negative verdict and, when true, which rule
+number (1-9) applied. You are NOT extracting company names, amounts,
+individuals, or any other field here — that happens in a later pass, only for
+the items that survive this one. Do not let the absence of those fields change
+your judgment: apply the rules above exactly as if you were still extracting
+everything, just report less.
 
 Return ONLY a JSON array, no markdown fences, no preamble. One object per
-input item, same order:
-[{{
-  "n": 1,
-  "confirmed_negative": true|false,
-  "negative_reason": "rule number and short phrase, or null",
-  "company": "",
-  "deal_type": "IPO-OFS|block deal|strategic buyout|PE secondary|PE primary|open offer|promoter sale|DRHP filing|other|unknown",
-  "amount_cr": null,
-  "amount_raw": "exact text the figure came from, plus your conversion, or null",
-  "individuals": ["named individuals receiving money, empty if none named"],
-  "buyer": "named acquirer or buyer, or null",
-  "confidence": "high|medium",
-  "one_line": "under 20 words: what happened and who gets paid"
-}}]
+input item, same order, with exactly these three keys:
+[{{"n": 1, "neg": true, "r": 9}}, {{"n": 2, "neg": false, "r": null}}]
 
-Never invent a figure. If no amount is stated, amount_cr and amount_raw are
-null. Do not estimate from stake percentages or valuations.
-
-Set confidence to "high" when a named individual and a stated amount are both
-present. Otherwise "medium".
+"n" is the item's index. "neg" is true only for a CONFIRMED NEGATIVE per the
+numbered rules above, false otherwise. "r" is the rule number (1-9) that
+applied when neg is true, else null.
 """
 
 # --------------------------------------------------------------------------

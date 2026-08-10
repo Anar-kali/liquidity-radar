@@ -29,8 +29,15 @@ filed.
   `beautifulsoup4`.
 - All secrets from environment variables, never hardcoded.
 - State persists by committing the SQLite file `radar.db` back to the repo
-  after each run. A shared `concurrency` group (`liquidity-radar`) ensures two
-  runs never overlap and clash on the database.
+  after each run. A shared `concurrency` group (`liquidity-radar`) across
+  every workflow that touches it ensures two runs never execute concurrently.
+  `radar.yml` and `blockdeals.yml` (the two that write `radar.db`) pin
+  `actions/checkout` to `ref: main`, not the default dispatch-time SHA — a
+  run queued behind another must check out the *current* tip once it starts,
+  or its "Commit state" step's binary-file rebase can conflict and silently
+  lose that run's writes (`|| true` swallows the failure). Demonstrated live
+  during v4 testing: a real CONFIRMED alert's DB record was lost this way
+  before the fix.
 
 Required repo secrets (Settings → Secrets and variables → Actions):
 `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`, `ANTHROPIC_API_KEY`.
@@ -125,34 +132,147 @@ Every fetcher is defensive: a source that is down or blocking returns an empty
 list rather than crashing the run. No keyword prefilter on news — everything
 goes to the classifier. The subcategory filter applies only to BSE filings.
 
+## Pre-classification filters (v4 Part 1 — `filters.py`)
+
+Stage 1 sees every fetched item, and output tokens dominate its cost, so
+everything here runs BEFORE any Anthropic API call and targets stage-1 volume
+and output size specifically. Nothing here is meant to reduce recall — see the
+shadow-mode safety net (Change 9) below, which exists precisely because these
+changes can't be observed any other way if one of them is wrong.
+
+Runtime order (cheapest, most certain filters first — Change 8): structural
+blocklist → title dedup → pre-API amount gate → stage 1 → stage 2.
+
+**Change 1 — pre-API amount gate.** Regex-only, no model call: reads every
+crore, lakh, plain-rupee, USD, and EUR figure out of the title/description
+(`classify.gated_amount`). Suppresses only when the LARGEST *qualifying*
+figure is under 250cr — never on a smaller figure when a larger one is also
+present ("sells 5% stake for ₹150cr in a ₹2,000cr deal" survives). A figure
+only qualifies if it sits within 60 characters of a transaction word (sold,
+sells, stake, deal, acquire, block, OFS, …) AND no valuation/performance word
+(revenue, EBITDA, market cap, target price, …) appears in that same window —
+a regex can't otherwise tell a deal value from a company's revenue, so when
+neither test clearly passes the item goes to the model instead of being
+guessed at. Logged under Rule 8 with `gate: "pre-api"` on the suppressed row,
+distinguishing it from a model-gated Rule 8.
+
+**Change 2 — slim stage 1 output.** Stage 1's only job is a boolean plus a
+rule number: `[{"n": 1, "neg": true, "r": 9}, {"n": 2, "neg": false, "r":
+null}]` — no company, amount, individuals, or any other field. ~15 output
+tokens/item instead of 100+, a 5-6× cut on the dominant cost line. Everything
+that used to read a stage-1 field (the amount-based small-deal gate, and the
+company handed to `sizing.resolve_size`) now runs once in stage 2 instead,
+using stage 2's own full extraction — there's nothing left in stage 1's
+output to reuse.
+
+**Change 3 — structural blocklist.** Filters on document TYPE (URL contains
+`/liveblog/`, `/stock-liveblog/`, `/slideshow/`, `/photostory/`,
+`/videoshow/`; or the title matches "Share Price Live Updates" / "Stock Price
+Live" / "... Live Updates:" AND the description is empty), never on content —
+a deal cannot be published as a stock-price liveblog regardless of how it's
+phrased, so this can't misfire the way a keyword filter could.
+
+**Change 4 — title dedup.** Google News rotates article URLs, so the same
+story looks new to the id/URL dedup and gets classified again; clustering
+catches it eventually, but only after the API call is already paid for.
+Normalise the title (lowercase, strip punctuation, strip the trailing
+" - SourceName" Google News appends, collapse whitespace), then: (1) exact
+match against normalised titles seen in the last 72h → dup; (2) else, Jaccard
+token overlap above 0.85, computed only on **distinguishing tokens** — a
+fixed stopword list of generic deal vocabulary (promoter, sells, stake, rs,
+crore, block, deal, …) is stripped first, because Indian headlines are
+formulaic enough that two DIFFERENT deals ("Promoter sells 2% stake in X for
+Rs 500cr" / "...3% stake in Y for Rs 600cr") share nearly every token except
+the company name, and on a short headline that boilerplate alone can spike
+raw-token Jaccard past the threshold. If either side's distinguishing token
+set is empty (an all-boilerplate headline with nothing left to compare), the
+Jaccard check is skipped — only the exact-match check can still catch it.
+`title_norm` is stored (and indexed) on the `items` table. **Every drop is
+logged unconditionally** (not just in shadow mode) to `title_dedup_log`
+(title, url, matched title, similarity) — unlike a clustering merge, which
+still shows up in `deal_members`, a dedup drop leaves no other trace, so this
+is the only way to ever discover a wrong one. Surfaced via
+`dedupe_check.py --title-dedup`.
+
+**Change 5 — SEBI DRHP items skip stage 1.** A DRHP filing is by definition a
+company going public, which stage 1 would never mark confirmed-negative, so
+the call is wasted every time; SEBI-sourced items go straight to stage 2 and
+survive a stage-1 failure for free.
+
+**Change 6 — failure isolation.** `classify.classify_all` /
+`precision_classify` construct the Anthropic client INSIDE their per-batch
+try/except, not before it — an unreachable API (bad key, network down) fails
+every batch open (items pass through unclassified) instead of raising and
+aborting the run. `main.py` wraps each stage in its own outer try/except too,
+as a last-resort net, and sends one Telegram warning per failed stage (never
+during `--dry`). `blockdeals.py` wraps its three stages
+(`deals_files`/`pit_feed`/`sales_tracker`) independently for the same
+reason — none of the three needs Anthropic classification for its core
+alerting (the ambiguous-seller Haiku call in `deals_files.py` already fails
+open internally), so a bug in one must not block the other two.
+
+**Change 7 — Google News query attribution.** Every raw item is tagged with
+its `source_query` (`sources.fetch_google_news`) and every (item, query)
+pairing is recorded to `item_queries` — even for items the id-based dedup
+later drops as a duplicate, so cross-query overlap is fully visible. The
+weekly feedback report shows, per query: items **produced**, and how many
+deal clusters that query was the **first** to surface (the earliest
+`deal_members` row for that deal, traced back through `item_queries`).
+First-to-surface, not uniqueness, is the metric that matters — a query that
+mostly duplicates others can still be the one that gets there earliest, and
+lead time is the entire product. Measurement only, for at least two weeks;
+never auto-removes a query.
+
+**Change 9 — shadow mode.** Changes 1, 3, and 4 above only ever ACTUALLY drop
+an item when the `PREFILTER_MODE` GitHub Actions repository variable is
+exactly `"enforce"` (repo Settings → Secrets and variables → Actions →
+Variables; unset or anything else defaults to `"shadow"`, in `config.py`).
+In shadow mode every filter still computes and logs its decision — structural
+and pre-API-amount to `prefilter_shadow`, title-dedup to its own
+unconditional `title_dedup_log` — but the item passes through regardless, so
+a trial week costs nothing extra. `python shadow_report.py [--days N]` prints
+everything that would have been dropped, grouped by filter, for manual
+review before flipping the switch. Rationale: every filter here acts BEFORE
+classification, so none of their failures are directly observable — the
+Telegram feedback buttons measure precision on what became an alert, and
+can't see something that never did.
+
 ## Classification — two Haiku passes (Haiku only)
 
 Model: `claude-haiku-4-5-20251001` for **both** stages. Sonnet was trialled and
 rejected: too expensive for this volume. Cost matters more than marginal
 accuracy. Items are classified only when **new** (deduped against the `items`
-table), so a normal run classifies just the handful of new items.
+table, then filtered per the pre-classification filters above), so a normal
+run classifies just the handful of new items.
 
 Batch 25 items per API call as a numbered list: headline plus the first 400
-characters of description. Response is a JSON array, one object per item, same
-order.
+characters of description.
 
-**Stage 1 — reject confirmed noise (high recall).** Marks an item as a
-confirmed negative only for clear cases; when in doubt it passes. Confirmed
-negatives include: pure debt; IBC/NCLT; PSU/government divestment; a subsidiary
-sale onto a corporate balance sheet (unless the parent is a closely-held
-promoter holding company); intra-group restructuring; no Indian individual in
-the chain; explicitly all-primary seed/Series-A fundraising (non-IPO); a
-clearly stated size under 250 crore; and non-transactions — earnings, price
-moves, analyst ratings, product launches, aggregate commentary, **stock-market
-listings / trading debuts, and an *already-open* IPO's subscription / GMP /
-anchor-book / listing-day coverage**. A company merely *planning or exploring*
-an IPO is explicitly carved out of this rule — see below.
+**Stage 1 — reject confirmed noise (high recall), slim output (v4 Change 2).**
+Response is `[{"n": 1, "neg": true, "r": 9}, ...]` — a boolean plus a rule
+number, nothing else (see Pre-classification filters above for why). Marks an
+item as a confirmed negative only for clear cases; when in doubt it passes.
+Confirmed negatives include: pure debt; IBC/NCLT; PSU/government divestment; a
+subsidiary sale onto a corporate balance sheet (unless the parent is a
+closely-held promoter holding company); intra-group restructuring; no Indian
+individual in the chain; explicitly all-primary seed/Series-A fundraising
+(non-IPO); a clearly stated size under 250 crore; and non-transactions —
+earnings, price moves, analyst ratings, product launches, aggregate
+commentary, **stock-market listings / trading debuts, and an *already-open*
+IPO's subscription / GMP / anchor-book / listing-day coverage**. A company
+merely *planning or exploring* an IPO is explicitly carved out of this rule —
+see below. SEBI-sourced items skip this stage entirely (Change 5).
 
 **Deterministic amount gate (code, not the model).** A clearly stated size
-below the 250-crore threshold is suppressed in code. Conversely, if stage 1
-tried to drop something as "under threshold" but the stated size (read as
-INR crore, USD, or EUR) is actually ≥ 250 crore, it is kept for stage 2 — a
-missed large deal is the one error to avoid.
+below the 250-crore threshold is suppressed in code — now mostly caught
+earlier by the Change 1 pre-API gate, with this as the remaining backstop for
+phrasing the regex can't parse but the model still judges "under threshold."
+Conversely, if stage 1 tried to drop something as "under threshold" but the
+raw text's stated size (read as INR crore, lakh, plain-rupee, USD, or EUR, via
+the general — not proximity-gated — `classify.stated_cr_max`) is actually ≥
+250 crore, it is kept for stage 2 instead: this is a rescue check, not a
+suppression, so being generous here only costs an extra stage-2 call, never a
+wrongly-dropped lead.
 
 **Stage 2 — positively confirm a qualifying lead (precision).** Runs only on
 stage-1 survivors. Passes an item only when it is a concrete or
@@ -173,8 +293,11 @@ decides whether an unsized item is too small to matter.
 
 **Amount guards** (`classify.py`): `reconcile_amount` corrects Haiku's
 occasional ×10 slip on INR-crore figures (e.g. reads "₹3,000 crore" but returns
-300) while leaving foreign-currency ($/€) amounts alone; `stated_cr_max` reads
-INR/USD/EUR figures for the recall safety net.
+300) while leaving foreign-currency ($/€) amounts alone — applied only in
+stage 2 now, since stage 1 no longer extracts an amount to reconcile;
+`stated_cr_max` reads INR/lakh/plain-rupee/USD/EUR figures for the recall
+safety net (and, via the proximity-gated `gated_amount`, the Change 1 pre-API
+gate).
 
 The classifier returns, per item: company, deal_type, amount_cr, amount_raw,
 individuals, **buyer**, confidence, one_line, plus the stage decision. The
@@ -370,15 +493,21 @@ nothing else in the market catches this pattern, not that it fires often.
 ## Suppression log, digest, report
 
 Every suppressed item goes into a `suppressed` table with title, URL, the rule
-that killed it, `amount_cr` and `amount_raw`. Never deleted. Rules recorded:
-Rule 1–9 (stage-1 negatives), **Rule 8** (under threshold — model or code), and
-**Rule P** (failed the stage-2 precision check).
+that killed it, `amount_cr`, `amount_raw`, and (v4) `gate` — `"pre-api"` when
+the Change 1 regex gate suppressed it before any model call, `"model"`
+(the default) when stage 1 or stage 2 made the call. Never deleted. Rules
+recorded: Rule 1–9 (stage-1 negatives), **Rule 8** (under threshold — pre-API,
+model, or the deterministic code gate), and **Rule P** (failed the stage-2
+precision check).
 
 The daily digest additionally reports how many CONFIRMED and PATTERN alerts
-fired that day (v3 Changes A/B).
+fired that day (v3 Changes A/B), and (v4) a permanent funnel line summed
+across every `main.py` run that day: fetched → already-seen → structural →
+title dedup → pre-API gate → stage 1 → stage 2 → alerted (`funnel_runs`
+table, one row per run).
 
 `digest.yml` sends one Telegram message at 20:30 IST daily: total suppressed,
-a breakdown by rule, and the largest suppressed deal.
+a breakdown by rule, the largest suppressed deal, and the funnel line above.
 
 `python report.py [--days N]` prints the last N days (default 7) grouped by
 rule.
@@ -444,9 +573,17 @@ acknowledged, so pending presses are left for the next real run.
 `python feedback_report.py [--dry]` sends one Telegram message every Monday
 09:00 IST: verdict counts over the last 14 days, a noise breakdown by deal
 type / size band / source feed / size source, an "already knew" breakdown by
-source feed, and the 5 most recent noise-marked alerts in full. This **only
-reports** — it never modifies prompts, thresholds, or rules automatically;
-that stays a manual `config.py` edit.
+source feed, the 5 most recent noise-marked alerts in full, and (v4 Change 7)
+a Google News query-attribution section: items produced and deal clusters
+first-surfaced per query over the last 7 days, shown even in a week with zero
+button feedback. This **only reports** — it never modifies prompts,
+thresholds, rules, or queries automatically; that stays a manual `config.py`
+edit.
+
+`python shadow_report.py [--days N]` (v4 Change 9) prints everything the
+pre-classification filters (Changes 1/3/4) would have dropped while
+`PREFILTER_MODE=shadow`, grouped by filter — read this, confirm nothing real
+is in it, then flip the `PREFILTER_MODE` repository variable to `"enforce"`.
 
 ## Command-line flags
 
@@ -456,15 +593,29 @@ that stays a manual `config.py` edit.
 - `--limit N` — cap how many alerts are sent this run (testing / anti-flood);
   deals are still recorded.
 
+`PREFILTER_MODE` (GitHub Actions repository variable, not a flag — repo
+Settings → Secrets and variables → Actions → Variables): `"shadow"` (default)
+or `"enforce"`. Read once at import time in `config.py`; takes effect on the
+next `radar.yml` run.
+
 ## File layout
 
 ```
-config.py      settings: threshold, queries, feeds, models, both prompts
+config.py      settings: threshold, queries, feeds, models, both prompts,
+               v4 filter tunables (proximity words, dedup stopwords,
+               PREFILTER_MODE)
 db.py          SQLite schema + helpers (items, deals, suppressed, deal_members,
-               market_caps, feedback, kv_state, individual_sales, pattern_alerts)
+               market_caps, feedback, kv_state, individual_sales,
+               pattern_alerts, item_queries, prefilter_shadow,
+               title_dedup_log, funnel_runs)
 sources.py     fetchers (Google News, trade press, BSE, NSE, SEBI) + auto plan
-               + warm_nse_session() (shared NSE cookie warm-up)
-classify.py    two-stage Haiku classifier + amount guards
+               + warm_nse_session() (shared NSE cookie warm-up); tags Google
+               News items with source_query (v4 Change 7)
+filters.py     v4 Part 1: structural blocklist, title dedup (stopword-aware
+               Jaccard), pre-API amount gate — decisions only, main.py
+               decides whether to act on them (PREFILTER_MODE)
+classify.py    two-stage Haiku classifier + amount guards; gated_amount()
+               (proximity-checked figures) for the v4 pre-API gate
 sizing.py      resolve size for undisclosed-amount deals (ticker/mcap/band)
 refresh_tickers.py  refresh data/nse_equities.csv + data/bse_scrips.csv
 cluster.py     deal clustering / dedup / UPDATE logic + person-name matching
@@ -472,17 +623,23 @@ cluster.py     deal clustering / dedup / UPDATE logic + person-name matching
 notify.py      Telegram formatting + sending: news alerts, CONFIRMED alerts,
                PATTERN alerts, feedback keyboard
 feedback.py    poll Telegram button presses, log + ack + edit
-feedback_report.py  weekly (Monday 09:00 IST) feedback summary
+feedback_report.py  weekly (Monday 09:00 IST) feedback summary + v4 query
+               attribution section
 deals_files.py   v3 Change A: NSE bulk/block deal files, seller classification
 pit_feed.py      v3 Change B source: NSE PIT feed, 90-day first-run backfill
 sales_tracker.py v3 Change B: rolling 90-day aggregation, PATTERN alerts
-blockdeals.py    entry point: deals_files → pit_feed → sales_tracker
-main.py        orchestrator (poll feedback → fetch → classify → sizing →
-               cluster → alert; also feeds news-sourced sales to
-               individual_sales for Change B)
-digest.py      daily suppression summary + CONFIRMED/PATTERN counts
+blockdeals.py    entry point: deals_files → pit_feed → sales_tracker, each
+                 stage independently failure-isolated (v4 Change 6)
+main.py        orchestrator (poll feedback → fetch → v4 pre-classification
+               filters → classify → sizing → cluster → alert; also feeds
+               news-sourced sales to individual_sales for Change B and
+               per-run counters to funnel_runs)
+digest.py      daily suppression summary + CONFIRMED/PATTERN counts + v4
+               funnel line
 report.py      N-day suppression report
-dedupe_check.py  N-day clustering audit (what merged into each deal)
+dedupe_check.py  N-day clustering audit (what merged into each deal); v4
+               --title-dedup shows title-dedup drops instead
+shadow_report.py v4 Change 9: what PREFILTER_MODE=enforce would have dropped
 data/          committed NSE/BSE ticker master lists (for sizing.py)
 .github/workflows/radar.yml         main run (--mode auto), external + backup cron
 .github/workflows/digest.yml        daily digest, external + backup cron

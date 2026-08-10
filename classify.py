@@ -1,9 +1,13 @@
 """
-Liquidity Radar — classification. ONE stage, Haiku only.
+Liquidity Radar — classification. Two Haiku stages.
 
 Items are sent to the model 25 at a time as a numbered list. For each item we
-send the headline plus the first 400 characters of the description. The model
-returns a JSON array, one object per item, in the same order.
+send the headline plus the first 400 characters of the description.
+
+Stage 1 (classify_all) is a slim boolean-only pass (v4 Change 2): every item
+goes through it, so it returns only {n, neg, r} — no extraction — to keep the
+dominant cost line (stage-1 output tokens) as small as possible. Stage 2
+(precision_classify) runs only on survivors and does the full extraction.
 """
 
 import json
@@ -18,6 +22,24 @@ import config
 # "2480cr", "67.65 cr". Deliberately does NOT match "/share" prices or lakh.
 _CRORE_RE = re.compile(
     r"(?:₹|rs\.?|inr)?\s*([0-9][0-9,]*(?:\.[0-9]+)?)\s*(?:crore|cr)\b",
+    re.IGNORECASE,
+)
+
+# Matches an INR figure in lakh, e.g. "₹85 lakh", "Rs 12.5 lac". 1 lakh =
+# 0.01 crore.
+_LAKH_RE = re.compile(
+    r"(?:₹|rs\.?|inr)?\s*([0-9][0-9,]*(?:\.[0-9]+)?)\s*(?:lakh|lac)s?\b",
+    re.IGNORECASE,
+)
+
+# A rupee figure with NO crore/lakh/million/billion unit word — some filings
+# spell the full number out ("aggregating to Rs 3,25,00,00,000"). Requires an
+# explicit rupee prefix AND at least 8 digits once commas are stripped (>= 1
+# crore raw), so it can't misfire on a share price or an unrelated small
+# number; excludes anything immediately followed by a per-share qualifier.
+_PLAIN_RUPEE_RE = re.compile(
+    r"(?:₹|rs\.?|inr)\s*([0-9][0-9,]{6,}(?:\.[0-9]+)?)"
+    r"(?!\s*(?:crore|cr\b|lakh|lac|million|mn\b|billion|bn\b|per\s|/\s*share))",
     re.IGNORECASE,
 )
 
@@ -57,6 +79,37 @@ def parse_crore(*texts):
     return max(figures) if figures else None
 
 
+def all_lakh_as_crore(*texts):
+    """Return every INR-lakh figure found, converted to crore (1 lakh = 0.01 cr)."""
+    out = []
+    for t in texts:
+        if not t:
+            continue
+        for m in _LAKH_RE.finditer(str(t)):
+            try:
+                out.append(float(m.group(1).replace(",", "")) / 100.0)
+            except ValueError:
+                continue
+    return out
+
+
+def all_plain_rupee_as_crore(*texts):
+    """Return every bare (no-unit-word) rupee figure found, converted to crore."""
+    out = []
+    for t in texts:
+        if not t:
+            continue
+        for m in _PLAIN_RUPEE_RE.finditer(str(t)):
+            digits = m.group(1).replace(",", "").split(".")[0]
+            if len(digits) < 8:  # < 1 crore raw rupees — too small/unreliable to trust
+                continue
+            try:
+                out.append(float(m.group(1).replace(",", "")) / 1e7)
+            except ValueError:
+                continue
+    return out
+
+
 def _fx_to_crore(regex, rate, text):
     """Convert USD/EUR figures in `text` to crore INR."""
     out = []
@@ -70,17 +123,102 @@ def _fx_to_crore(regex, rate, text):
     return out
 
 
+def _figures_with_spans(text):
+    """
+    Every rupee-equivalent figure (crore, lakh, plain-rupee, USD, EUR) found
+    in a single `text`, as (value_cr, match_start, match_end) — used by the
+    v4 Change 1 pre-API gate's proximity check, which needs to know WHERE in
+    the text a figure sits, not just its value.
+    """
+    if not text:
+        return []
+    text = str(text)
+    out = []
+    for m in _CRORE_RE.finditer(text):
+        try:
+            out.append((float(m.group(1).replace(",", "")), m.start(), m.end()))
+        except ValueError:
+            continue
+    for m in _LAKH_RE.finditer(text):
+        try:
+            out.append((float(m.group(1).replace(",", "")) / 100.0, m.start(), m.end()))
+        except ValueError:
+            continue
+    for m in _PLAIN_RUPEE_RE.finditer(text):
+        digits = m.group(1).replace(",", "").split(".")[0]
+        if len(digits) < 8:
+            continue
+        try:
+            out.append((float(m.group(1).replace(",", "")) / 1e7, m.start(), m.end()))
+        except ValueError:
+            continue
+    for regex, rate in ((_USD_RE, config.USD_INR), (_EUR_RE, config.EUR_INR)):
+        for m in regex.finditer(text):
+            try:
+                num = float(m.group(1).replace(",", ""))
+            except ValueError:
+                continue
+            unit = _FX_UNIT.get(m.group(2).lower(), 1)
+            out.append((num * unit * rate / 1e7, m.start(), m.end()))
+    return out
+
+
+_TXN_WORD_RE = re.compile(
+    r"\b(?:" + "|".join(re.escape(w) for w in config.TRANSACTION_WORDS) + r")\b",
+    re.IGNORECASE,
+)
+_VALUATION_WORD_RE = re.compile(
+    r"\b(?:" + "|".join(re.escape(w) for w in config.VALUATION_WORDS) + r")\b",
+    re.IGNORECASE,
+)
+
+
+def _passes_proximity(text, start, end):
+    win_start = max(0, start - config.AMOUNT_PROXIMITY_CHARS)
+    win_end = min(len(text), end + config.AMOUNT_PROXIMITY_CHARS)
+    window = text[win_start:win_end]
+    if not _TXN_WORD_RE.search(window):
+        return False
+    if _VALUATION_WORD_RE.search(window):
+        return False
+    return True
+
+
+def gated_amount(*texts):
+    """
+    v4 Change 1 — the pre-API gate's own figure resolution. Like
+    stated_cr_max, but a figure only counts when it sits near a transaction
+    word and NOT near a valuation/performance word (see config.py). A regex
+    can't tell a deal value from revenue or market cap; the model can — when
+    neither test clearly passes we refuse to guess and let the item through
+    to the model instead of risking a wrong suppression.
+    """
+    vals = []
+    for t in texts:
+        if not t:
+            continue
+        t = str(t)
+        for value, start, end in _figures_with_spans(t):
+            if _passes_proximity(t, start, end):
+                vals.append(value)
+    return max(vals) if vals else None
+
+
 def stated_cr_max(*texts):
     """
-    Largest deal size in crore across the texts, reading INR-crore figures AND
-    USD/EUR figures (converted at the config rates). Used by the 'don't drop a
-    big deal' safety net so foreign-currency deals are protected too.
+    Largest deal size in crore across the texts, reading INR-crore, INR-lakh,
+    and plain-rupee figures, plus USD/EUR figures (converted at the config
+    rates). Used by the v4 Change 1 pre-API gate and the 'don't drop a big
+    deal' Rule 8 override, so every currency phrasing is protected the same
+    way regardless of which one suppresses or which one rescues an item.
     """
     vals = []
     for t in texts:
         if not t:
             continue
         vals += all_crore(t)
+        vals += all_lakh_as_crore(t)
+        vals += all_plain_rupee_as_crore(t)
         vals += _fx_to_crore(_USD_RE, config.USD_INR, t)
         vals += _fx_to_crore(_EUR_RE, config.EUR_INR, t)
     return max(vals) if vals else None
@@ -147,11 +285,18 @@ def _parse_array(text, expected):
 
 
 def classify_batch(client, batch):
-    """Classify up to BATCH_SIZE items. Returns a list of result dicts."""
+    """
+    Classify up to BATCH_SIZE items. Returns a list of result dicts.
+
+    v4 Change 2: stage 1's only job is a boolean + a rule number — see
+    config.SYSTEM_PROMPT and _normalise() below. No amount/company/etc. is
+    extracted here (that only happens for survivors, in stage 2), so there's
+    nothing to reconcile at this stage.
+    """
     user_message = _build_user_message(batch)
     resp = client.messages.create(
         model=config.MODEL,
-        max_tokens=4096,
+        max_tokens=2048,  # slim schema: ~15 tokens/item: 25 * 15 = 375, generous headroom
         temperature=0,  # deterministic — this is classification, not writing;
                         # the same headline should get the same verdict every
                         # time regardless of which other items share its batch
@@ -165,34 +310,26 @@ def classify_batch(client, batch):
     aligned = []
     for i, item in enumerate(batch):
         result = results[i] if i < len(results) else {}
-        norm = _normalise(result)
-        corrected, changed = reconcile_amount(norm["amount_cr"], norm.get("amount_raw"))
-        if changed:
-            print(
-                f"[classify] corrected 10x amount slip "
-                f"{norm['amount_cr']:g} -> {corrected:g} cr for: "
-                f"{item.get('title', '')[:60]}"
-            )
-            norm["amount_cr"] = corrected
-        aligned.append((item, norm))
+        aligned.append((item, _normalise(result)))
     return aligned
 
 
 def _normalise(result):
-    """Fill in defaults so downstream code never has to guard for missing keys."""
+    """
+    Fill in defaults for the slim stage-1 schema so downstream code never has
+    to guard for missing keys. `rule_number` is an int (1-9) or None — no
+    free-text parsing needed, unlike the old "Rule 9: ..." string schema.
+    """
     if not isinstance(result, dict):
         result = {}
+    r = result.get("r")
+    try:
+        rule_number = int(r) if r is not None else None
+    except (TypeError, ValueError):
+        rule_number = None
     return {
-        "confirmed_negative": bool(result.get("confirmed_negative", False)),
-        "negative_reason": result.get("negative_reason"),
-        "company": result.get("company") or "",
-        "deal_type": result.get("deal_type") or "unknown",
-        "amount_cr": result.get("amount_cr"),
-        "amount_raw": result.get("amount_raw"),
-        "individuals": result.get("individuals") or [],
-        "buyer": result.get("buyer"),
-        "confidence": result.get("confidence") or "medium",
-        "one_line": result.get("one_line") or "",
+        "confirmed_negative": bool(result.get("neg", False)),
+        "rule_number": rule_number,
     }
 
 
@@ -201,22 +338,23 @@ def classify_all(items):
     STAGE 1 (Haiku). Classify every item, in batches of BATCH_SIZE.
     Returns a list of (item, result) tuples.
 
-    If a whole batch fails to classify, its items are passed through as
-    non-negative with low information (fail open — a missed deal is worse than
-    a false alarm).
+    v4 Change 6: client construction is INSIDE the try, not before the loop —
+    if the Anthropic API is unreachable (bad key, network down) at the very
+    first call, every item still fails open (passed through as non-negative)
+    instead of the exception propagating up and aborting the whole run.
     """
     if not items:
         return []
-    client = _client()
     out = []
     for start in range(0, len(items), config.BATCH_SIZE):
         batch = items[start : start + config.BATCH_SIZE]
         try:
+            client = _client()
             out.extend(classify_batch(client, batch))
         except Exception as exc:  # noqa: BLE001
             print(f"[classify] stage1 batch failed, passing items through: {exc}")
             for item in batch:
-                out.append((item, _normalise({"one_line": item.get("title", "")})))
+                out.append((item, _normalise({})))
     return out
 
 
@@ -275,11 +413,11 @@ def precision_classify(items):
     """
     if not items:
         return []
-    client = _client()
     out = []
     for start in range(0, len(items), config.BATCH_SIZE):
         batch = items[start : start + config.BATCH_SIZE]
         try:
+            client = _client()
             out.extend(precision_batch(client, batch))
         except Exception as exc:  # noqa: BLE001
             print(f"[classify] stage2 batch failed, passing items through: {exc}")
