@@ -22,7 +22,17 @@ jobs:
   run:
     runs-on: ubuntu-latest
     steps:
+      # ref: main (not the default dispatch-time SHA) matters because this
+      # workflow shares a concurrency group with radar.yml (which runs every
+      # ~15 min and also commits radar.db) — a queued run must check out the
+      # *latest* main once it actually starts, or its "Commit state" step's
+      # binary-file rebase can conflict and silently lose this run's DB
+      # writes (`|| true`). Demonstrated live: a real CONFIRMED alert's DB
+      # record and 29 individual_sales rows were lost this way before this
+      # fix — the Telegram alert had already fired, only the record vanished.
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"

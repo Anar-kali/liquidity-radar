@@ -22,7 +22,14 @@ jobs:
   run:
     runs-on: ubuntu-latest
     steps:
+      # ref: main (not the default dispatch-time SHA) matters because this
+      # workflow shares a concurrency group with blockdeals.yml, which also
+      # commits radar.db — a queued run must check out the *latest* main once
+      # it actually starts, or its "Commit state" step's binary-file rebase
+      # can conflict and silently lose this run's DB writes (`|| true`).
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
