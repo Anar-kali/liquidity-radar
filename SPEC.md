@@ -140,8 +140,9 @@ and output size specifically. Nothing here is meant to reduce recall — see the
 shadow-mode safety net (Change 9) below, which exists precisely because these
 changes can't be observed any other way if one of them is wrong.
 
-Runtime order (cheapest, most certain filters first — Change 8): structural
-blocklist → title dedup → pre-API amount gate → stage 1 → stage 2.
+Runtime order (cheapest, most certain filters first — Change 8, with the BSE
+market-cap gate slotted in alongside): structural blocklist → title dedup →
+BSE market-cap gate → pre-API amount gate → stage 1 → stage 2.
 
 **Change 1 — pre-API amount gate.** Regex-only, no model call: reads every
 crore, lakh, plain-rupee, USD, and EUR figure out of the title/description
@@ -198,6 +199,18 @@ is the only way to ever discover a wrong one. Surfaced via
 company going public, which stage 1 would never mark confirmed-negative, so
 the call is wasted every time; SEBI-sourced items go straight to stage 2 and
 survive a stage-1 failure for free.
+
+**BSE market-cap gate (user-requested, same shadow-mode treatment).** A BSE
+filing's company name (`filters.bse_market_cap`, parsed from the item title
+`sources.fetch_bse` sets) usually resolves to a real, cached market cap via
+the same `sizing.resolve_ticker` / `sizing.market_cap_cr` infrastructure
+`sizing.py` already uses for undisclosed-amount news deals — so instead of
+guessing deal size from filing text, this filters on company size directly.
+Suppressed (`Rule M`, `gate: "pre-api"`) when the resolved market cap is
+under `config.BSE_MCAP_MIN_CR` (1,000cr). A no-op for non-BSE items, and for
+a BSE company that doesn't resolve to a listed ticker or has no cached market
+cap — recall bias: unknown passes, only a CONFIRMED small market cap fires
+this. Runs right before the pre-API amount gate, after title dedup.
 
 **Change 6 — failure isolation.** `classify.classify_all` /
 `precision_classify` construct the Anthropic client INSIDE their per-batch
@@ -494,11 +507,12 @@ nothing else in the market catches this pattern, not that it fires often.
 
 Every suppressed item goes into a `suppressed` table with title, URL, the rule
 that killed it, `amount_cr`, `amount_raw`, and (v4) `gate` — `"pre-api"` when
-the Change 1 regex gate suppressed it before any model call, `"model"`
+a regex or company-size gate suppressed it before any model call, `"model"`
 (the default) when stage 1 or stage 2 made the call. Never deleted. Rules
 recorded: Rule 1–9 (stage-1 negatives), **Rule 8** (under threshold — pre-API,
-model, or the deterministic code gate), and **Rule P** (failed the stage-2
-precision check).
+model, or the deterministic code gate), **Rule P** (failed the stage-2
+precision check), **Rule S** (deterministic size-band gate for an unlisted
+company), and **Rule M** (BSE company market cap under `BSE_MCAP_MIN_CR`).
 
 The daily digest additionally reports how many CONFIRMED and PATTERN alerts
 fired that day (v3 Changes A/B), and (v4) a permanent funnel line summed

@@ -220,6 +220,10 @@ that cost before a deal is ever at risk of being missed:
 - Stage 1 itself now returns a much shorter answer (just "noise or not, and
   why") instead of a full write-up for every single item — the detailed
   write-up only happens for the handful of items that survive to stage 2.
+- A BSE filing whose company is listed and small (market cap under ₹1,000
+  crore, using the same real market-cap lookup already built for sizing
+  news deals) is filtered out before any AI call too — a filing from a
+  company that size isn't worth your time regardless of what it says.
 
 **None of this is live yet in the sense of actually dropping anything.** It
 runs in **shadow mode** first: every one of the changes above computes its

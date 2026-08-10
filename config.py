@@ -40,6 +40,14 @@ VALUATION_WORDS = [
     "order book", "target price", "per annum", "annually", "capex",
 ]
 
+# BSE market-cap gate (user-requested, same spirit as Change 1/3/4 above): a
+# BSE filing's company name is usually resolvable to a real, cached market
+# cap (see sizing.py) unlike free-text news, so this can filter on company
+# size directly rather than guessing deal size from text. A filing from a
+# company below this market cap isn't worth alerting on regardless of what
+# it says — raise/lower to change how big "big enough" means.
+BSE_MCAP_MIN_CR = 1000
+
 # Change 3: structural blocklist. URL substrings and title patterns that
 # identify a page's TYPE (liveblog, slideshow, etc.), never its content — a
 # deal cannot be published as one of these regardless of how it's phrased.
@@ -78,8 +86,11 @@ TITLE_DEDUP_STOPWORDS = {
 # item. Set via the PREFILTER_MODE GitHub Actions repository variable (repo
 # Settings -> Secrets and variables -> Actions -> Variables), not a secret
 # and not a code edit — takes effect on the next run. Defaults to "shadow"
-# (safe) if unset or anything other than exactly "enforce".
-PREFILTER_MODE = os.getenv("PREFILTER_MODE", "shadow")
+# (safe) if unset, empty, or anything other than exactly "enforce". `or`,
+# not getenv's own default arg: an UNSET repo variable still makes GitHub
+# Actions pass PREFILTER_MODE="" (present but empty) to the runner, which
+# getenv's default only covers for a truly absent key.
+PREFILTER_MODE = os.getenv("PREFILTER_MODE") or "shadow"
 
 # --------------------------------------------------------------------------
 # THE CLASSIFIER MODEL — Haiku only, both stages (cost matters).

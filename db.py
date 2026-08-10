@@ -180,6 +180,7 @@ def init_db(path=DB_PATH):
             already_seen       INTEGER,
             structural_dropped INTEGER,
             title_deduped      INTEGER,
+            bse_mcap_gated     INTEGER,
             pre_api_gated      INTEGER,
             reached_stage1     INTEGER,
             reached_stage2     INTEGER,
@@ -211,6 +212,10 @@ def init_db(path=DB_PATH):
     existing_suppressed = {r[1] for r in conn.execute("PRAGMA table_info(suppressed)")}
     if "gate" not in existing_suppressed:
         conn.execute("ALTER TABLE suppressed ADD COLUMN gate TEXT")
+
+    existing_funnel = {r[1] for r in conn.execute("PRAGMA table_info(funnel_runs)")}
+    if "bse_mcap_gated" not in existing_funnel:
+        conn.execute("ALTER TABLE funnel_runs ADD COLUMN bse_mcap_gated INTEGER")
 
     # This index depends on items.title_norm, which the migration above may
     # have JUST added on an existing (pre-v4) database — it must run after
@@ -671,12 +676,12 @@ def record_pattern_alert(person_key, company_key, total_cr, path=DB_PATH):
 
 # --------------------------------------------------------------------------
 # funnel_runs (v4) — one row per main.py run, so the daily digest can show
-# where volume goes: fetched -> structural -> title dedup -> pre-API gate ->
-# stage 1 -> stage 2 -> alerted.
+# where volume goes: fetched -> structural -> title dedup -> BSE mcap gate ->
+# pre-API gate -> stage 1 -> stage 2 -> alerted.
 # --------------------------------------------------------------------------
 _FUNNEL_FIELDS = (
     "mode", "fetched", "already_seen", "structural_dropped", "title_deduped",
-    "pre_api_gated", "reached_stage1", "reached_stage2", "alerted",
+    "bse_mcap_gated", "pre_api_gated", "reached_stage1", "reached_stage2", "alerted",
 )
 
 

@@ -15,6 +15,7 @@ import re
 
 import classify
 import config
+import sizing
 
 # --------------------------------------------------------------------------
 # Change 3 — structural blocklist. Filters on document type, where the URL or
@@ -121,3 +122,33 @@ def pre_api_stated_cr(item):
     """Return the largest proximity-gated crore figure in this item's raw
     text, or None if no qualifying figure was found."""
     return classify.gated_amount(item.get("title"), item.get("description"))
+
+
+# --------------------------------------------------------------------------
+# BSE market-cap gate — a BSE filing's company name usually resolves to a
+# real, cached market cap (sizing.py), unlike free-text news, so filings from
+# small companies can be filtered on company size directly rather than
+# guessing deal size from text. Same shadow-mode-first treatment as the
+# regex/string filters above: an unlisted or unresolved company is NOT
+# suppressed (recall bias — unknown passes), only a CONFIRMED small market
+# cap fires this.
+# --------------------------------------------------------------------------
+def _bse_company_name(item):
+    """sources.fetch_bse() titles items 'ScripName: headline'."""
+    title = (item.get("title") or "").strip()
+    return title.split(":", 1)[0].strip() if ":" in title else title
+
+
+def bse_market_cap(item):
+    """Return (market_cap_cr, ticker) for a BSE item's company if it
+    resolves to a listed ticker with a known market cap, else (None, None).
+    A no-op for any non-BSE item."""
+    if item.get("source") != "BSE":
+        return None, None
+    ticker = sizing.resolve_ticker(_bse_company_name(item))
+    if not ticker:
+        return None, None
+    mcap = sizing.market_cap_cr(ticker)
+    if mcap is None:
+        return None, None
+    return mcap, ticker

@@ -13,12 +13,15 @@ Pipeline for a run (v4 Part 1 — see SPEC-v4-upgrade.md):
     2. Drop items already in the database (dedup on source id / URL).
     3. Structural blocklist: drop liveblogs/slideshows/etc by document type.
     4. Title dedup: drop near-duplicate headlines (Google News URL rotation).
-    5. Pre-API amount gate: regex-suppress a clearly-small stated deal before
+    5. BSE market-cap gate: drop a BSE filing whose company resolves to a
+       market cap under config.BSE_MCAP_MIN_CR — not worth alerting on
+       regardless of what the filing says. No-op for non-BSE items.
+    6. Pre-API amount gate: regex-suppress a clearly-small stated deal before
        spending an API call on it.
-    6. Stage 1 (Haiku, slim boolean+rule schema): reject confirmed noise.
+    7. Stage 1 (Haiku, slim boolean+rule schema): reject confirmed noise.
        SEBI DRHP items skip this stage entirely (Change 5).
-    7. Stage 2 (Haiku, full extraction): positively confirm + size the deal.
-    8. Everything that qualifies goes through clustering, which decides
+    8. Stage 2 (Haiku, full extraction): positively confirm + size the deal.
+    9. Everything that qualifies goes through clustering, which decides
        whether to fire a NEW alert, a follow-up UPDATE, or attach silently.
 
 Every counter above is recorded to db.funnel_runs so the daily digest can
@@ -73,8 +76,8 @@ def run(mode, dry, limit=None):
 
     funnel = {
         "mode": mode, "fetched": len(raw), "already_seen": 0,
-        "structural_dropped": 0, "title_deduped": 0, "pre_api_gated": 0,
-        "reached_stage1": 0, "reached_stage2": 0, "alerted": 0,
+        "structural_dropped": 0, "title_deduped": 0, "bse_mcap_gated": 0,
+        "pre_api_gated": 0, "reached_stage1": 0, "reached_stage2": 0, "alerted": 0,
     }
 
     # Dedup against what we've already seen. Query attribution (v4 Change 7)
@@ -172,6 +175,22 @@ def run(mode, dry, limit=None):
             gate=gate,
         )
         suppressed[0] += 1
+
+    # BSE market-cap gate — a BSE filing's company name usually resolves to a
+    # real, cached market cap (sizing.py), unlike free-text news, so this
+    # suppresses on company size directly rather than deal-value regex. A
+    # no-op for anything not sourced from BSE, and for a BSE company that
+    # doesn't resolve to a listed ticker (recall bias: unknown passes).
+    mcap_survivors = []
+    for item in fresh:
+        mcap, ticker = filters.bse_market_cap(item)
+        fires = mcap is not None and mcap < config.BSE_MCAP_MIN_CR
+        reason = f"BSE company {ticker} mcap ~Rs {mcap:.0f}cr < {config.BSE_MCAP_MIN_CR}cr" if fires else ""
+        if apply_prefilter(item, fires, "bse_mcap", reason, "bse_mcap_gated"):
+            suppress(item, "Rule M", {"amount_cr": None, "amount_raw": reason}, gate="pre-api")
+            continue
+        mcap_survivors.append(item)
+    fresh = mcap_survivors
 
     # Pre-API amount gate (v4 Change 1) — regex-only, no model call. Suppress
     # only when the LARGEST proximity-gated rupee figure found in the raw

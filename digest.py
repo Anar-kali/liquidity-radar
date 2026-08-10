@@ -35,6 +35,7 @@ RULE_LABELS = {
     "Rule 9": "not a transaction",
     "Rule P": "failed precision check",
     "Rule S": "size band under 100cr",
+    "Rule M": f"BSE company under {config.BSE_MCAP_MIN_CR}cr mcap",
     "Rule ?": "unclassified",
 }
 
@@ -90,7 +91,8 @@ def _funnel_section(hours=24):
     return (
         f"*Funnel today ({len(runs)} runs):* fetched {tot('fetched')} → "
         f"already-seen -{tot('already_seen')} → structural -{tot('structural_dropped')} "
-        f"→ title dedup -{tot('title_deduped')} → pre-API gate -{tot('pre_api_gated')} "
+        f"→ title dedup -{tot('title_deduped')} → BSE mcap -{tot('bse_mcap_gated')} "
+        f"→ pre-API gate -{tot('pre_api_gated')} "
         f"→ stage 1 ({tot('reached_stage1')}) → stage 2 ({tot('reached_stage2')}) "
         f"→ alerted {tot('alerted')}"
     )
