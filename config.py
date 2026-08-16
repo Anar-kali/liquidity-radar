@@ -69,6 +69,19 @@ STRUCTURAL_BLOCK_TITLE_PATTERNS = [
 TITLE_DEDUP_WINDOW_HOURS = 72
 TITLE_DEDUP_JACCARD = 0.85
 
+# Sources whose items are NEVER title-deduped. Title dedup exists purely
+# because Google News rotates article URLs for the same story. Exchange and
+# regulator filings have the opposite shape: a stable unique document URL
+# (already deduped exactly by id) and a GENERIC CATEGORY title — "Outcome of
+# Board Meeting", "General Updates", "Appointment", "...disclosure under
+# Regulation 29(2)...". Those titles repeat across genuinely different
+# filings from the same company, so title dedup collapses distinct documents.
+# Measured on 2026-08-10..15 shadow data: 90 exchange-filing drops covered
+# titles spanning more than one distinct document, including separate
+# Regulation 29/31 substantial-acquisition disclosures — exactly the filings
+# this radar exists to catch.
+TITLE_DEDUP_EXEMPT_SOURCES = {"NSE", "BSE", "SEBI"}
+
 # Generic finance vocabulary stripped before computing title similarity.
 # Indian deal headlines are formulaic ("Promoter sells 2% stake in X for Rs
 # 500 crore" / "...3% stake in Y for Rs 600 crore" share nearly every token

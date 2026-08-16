@@ -140,7 +140,12 @@ def run(mode, dry, limit=None):
     for item in candidates:
         title_norm = filters.normalise_title(item.get("title", ""))
         tokens = filters.distinguishing_tokens(title_norm)
-        is_dup, matched_norm, sim = filters.title_dedup_decision(title_norm, tokens, recent)
+        if filters.is_title_dedup_exempt(item):
+            # Exchange/regulator filings: unique document URL, generic
+            # category title. id dedup already handles them exactly.
+            is_dup, matched_norm, sim = False, None, None
+        else:
+            is_dup, matched_norm, sim = filters.title_dedup_decision(title_norm, tokens, recent)
         item["title_norm"] = title_norm
         db.add_item(item)
         if is_dup:

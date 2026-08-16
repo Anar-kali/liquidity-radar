@@ -19,18 +19,57 @@ import anthropic
 import config
 
 # Matches an INR figure in crore, e.g. "₹3,000 crore", "Rs 2,021 crore",
-# "2480cr", "67.65 cr". Deliberately does NOT match "/share" prices or lakh.
+# "2480cr", "67.65 cr", "₹800-Crore". Deliberately does NOT match "/share"
+# prices or lakh.
+# [\s-]* not \s* between number and unit: headlines hyphenate compound
+# modifiers ("a ₹800-Crore IPO"), and \s* silently matched nothing there,
+# so the headline figure was invisible to every caller.
+# Group 1 = the currency marker (may be absent), group 2 = the number.
+# Callers must run the match through _is_share_count() — see below.
 _CRORE_RE = re.compile(
-    r"(?:₹|rs\.?|inr)?\s*([0-9][0-9,]*(?:\.[0-9]+)?)\s*(?:crore|cr)\b",
+    r"(₹|rs\.?|inr)?\s*([0-9][0-9,]*(?:\.[0-9]+)?)[\s-]*(?:crore|cr)\b",
+    re.IGNORECASE,
+)
+
+# "N lakh crore" = N x 100,000 crore. Must be tried BEFORE _LAKH_RE, which
+# would otherwise read "38 lakh crore" as 38 lakh = ₹0.38cr.
+_LAKH_CRORE_RE = re.compile(
+    r"(₹|rs\.?|inr)?\s*([0-9][0-9,]*(?:\.[0-9]+)?)[\s-]*(?:lakh|lac)s?[\s-]*(?:crore|cr)\b",
     re.IGNORECASE,
 )
 
 # Matches an INR figure in lakh, e.g. "₹85 lakh", "Rs 12.5 lac". 1 lakh =
-# 0.01 crore.
+# 0.01 crore. Negative lookahead on crore so "lakh crore" falls to the
+# pattern above instead of being read as a plain lakh figure.
 _LAKH_RE = re.compile(
-    r"(?:₹|rs\.?|inr)?\s*([0-9][0-9,]*(?:\.[0-9]+)?)\s*(?:lakh|lac)s?\b",
+    r"(₹|rs\.?|inr)?\s*([0-9][0-9,]*(?:\.[0-9]+)?)\s*(?:lakh|lac)s?\b"
+    r"(?![\s-]*(?:crore|cr)\b)",
     re.IGNORECASE,
 )
+
+# A unit word followed by a share/unit noun counts SHARES, not rupees
+# ("25 lakh shares", "1.5 crore Thyrocare shares"). Left unhandled, the
+# optional-₹ prefix above turns a share count into a rupee figure and
+# undercounts the deal by orders of magnitude — a 1.5-crore-share block at
+# ₹630/share read as "₹1.5 crore" is a 630x error, and that wrong figure is
+# what the pre-API gate then compares against THRESHOLD_CR.
+#
+# The discriminator is the CURRENCY MARKER, not the noun: a real money figure
+# carries ₹/Rs/INR ("Rs 500 crore worth of shares" is money), a share count
+# never does. So only an unprefixed figure is tested against the share noun,
+# and up to 3 words are allowed in between for the company name.
+_SHARE_NOUN_RE = re.compile(
+    r"^[\s,'-]*(?:\w+[\s,'-]+){0,3}(?:equity\s+|preference\s+)?(?:shares?|units?|scrips?)\b",
+    re.IGNORECASE,
+)
+
+
+def _is_share_count(text, match):
+    """True when `match` (from one of the unit regexes above) is counting
+    shares rather than stating a rupee amount."""
+    if match.group(1):          # explicit ₹ / Rs / INR -> it is money
+        return False
+    return bool(_SHARE_NOUN_RE.match(text[match.end():]))
 
 # A rupee figure with NO crore/lakh/million/billion unit word — some filings
 # spell the full number out ("aggregating to Rs 3,25,00,00,000"). Requires an
@@ -66,8 +105,10 @@ def all_crore(*texts):
         if not t:
             continue
         for m in _CRORE_RE.finditer(str(t)):
+            if _is_share_count(str(t), m):
+                continue
             try:
-                out.append(float(m.group(1).replace(",", "")))
+                out.append(float(m.group(2).replace(",", "")))
             except ValueError:
                 continue
     return out
@@ -86,8 +127,27 @@ def all_lakh_as_crore(*texts):
         if not t:
             continue
         for m in _LAKH_RE.finditer(str(t)):
+            if _is_share_count(str(t), m):
+                continue
             try:
-                out.append(float(m.group(1).replace(",", "")) / 100.0)
+                out.append(float(m.group(2).replace(",", "")) / 100.0)
+            except ValueError:
+                continue
+    return out
+
+
+def all_lakh_crore(*texts):
+    """Return every "N lakh crore" figure, converted to crore (1 lakh crore =
+    100,000 crore)."""
+    out = []
+    for t in texts:
+        if not t:
+            continue
+        for m in _LAKH_CRORE_RE.finditer(str(t)):
+            if _is_share_count(str(t), m):
+                continue
+            try:
+                out.append(float(m.group(2).replace(",", "")) * 1e5)
             except ValueError:
                 continue
     return out
@@ -134,14 +194,34 @@ def _figures_with_spans(text):
         return []
     text = str(text)
     out = []
-    for m in _CRORE_RE.finditer(text):
+    # "N lakh crore" first: _CRORE_RE would otherwise not fire on it at all
+    # and _LAKH_RE's lookahead now declines it, so without this the biggest
+    # figures in the text would simply vanish.
+    lakh_crore_spans = []
+    for m in _LAKH_CRORE_RE.finditer(text):
+        if _is_share_count(text, m):
+            continue
         try:
-            out.append((float(m.group(1).replace(",", "")), m.start(), m.end()))
+            out.append((float(m.group(2).replace(",", "")) * 1e5, m.start(), m.end()))
+            lakh_crore_spans.append((m.start(), m.end()))
+        except ValueError:
+            continue
+
+    def _inside_lakh_crore(s, e):
+        return any(ls <= s and e <= le for ls, le in lakh_crore_spans)
+
+    for m in _CRORE_RE.finditer(text):
+        if _inside_lakh_crore(m.start(), m.end()) or _is_share_count(text, m):
+            continue
+        try:
+            out.append((float(m.group(2).replace(",", "")), m.start(), m.end()))
         except ValueError:
             continue
     for m in _LAKH_RE.finditer(text):
+        if _inside_lakh_crore(m.start(), m.end()) or _is_share_count(text, m):
+            continue
         try:
-            out.append((float(m.group(1).replace(",", "")) / 100.0, m.start(), m.end()))
+            out.append((float(m.group(2).replace(",", "")) / 100.0, m.start(), m.end()))
         except ValueError:
             continue
     for m in _PLAIN_RUPEE_RE.finditer(text):
@@ -217,6 +297,7 @@ def stated_cr_max(*texts):
         if not t:
             continue
         vals += all_crore(t)
+        vals += all_lakh_crore(t)
         vals += all_lakh_as_crore(t)
         vals += all_plain_rupee_as_crore(t)
         vals += _fx_to_crore(_USD_RE, config.USD_INR, t)

@@ -81,6 +81,12 @@ def jaccard(a, b):
     return len(a & b) / union if union else 0.0
 
 
+def is_title_dedup_exempt(item):
+    """True for sources whose titles are generic category labels rather than
+    headlines (see config.TITLE_DEDUP_EXEMPT_SOURCES)."""
+    return (item.get("source") or "") in config.TITLE_DEDUP_EXEMPT_SOURCES
+
+
 def title_dedup_decision(title_norm, tokens, recent):
     """
     `recent` is an iterable of (title_norm, distinguishing_tokens) pairs
