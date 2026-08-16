@@ -45,10 +45,28 @@ jobs:
           PREFILTER_MODE: ${{ vars.PREFILTER_MODE }}
         run: python main.py --mode auto
       - name: Commit state
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add radar.db
           git diff --quiet --cached || git commit -m "state: radar run $(date -u +%FT%TZ)"
-          git pull --rebase --autostash || true
-          git push || true
+          # A failed push here (e.g. radar.db too large, or a real conflict)
+          # must NOT be swallowed: it means this run's dedup memory never
+          # lands, so the next run sees the same items as "new" again and
+          # re-alerts on them every cycle. (2026-08-16: exactly this, from
+          # radar.db crossing GitHub's 100MB push limit, silently produced
+          # 6+ hours of duplicate Telegram alerts before anyone noticed.)
+          if ! git pull --rebase --autostash || ! git push; then
+            git rebase --abort 2>/dev/null || true
+            echo "::error::state commit failed to sync — dedup memory NOT persisted this run"
+            if [ -n "$TELEGRAM_BOT_TOKEN" ]; then
+              curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+                -d chat_id="${TELEGRAM_CHAT_ID}" \
+                -d text="⚠️ Liquidity Radar: state save failed this run (git push rejected). Dedup memory is stale until this is fixed — items may re-alert. Check the Actions log." \
+                > /dev/null || true
+            fi
+            exit 1
+          fi

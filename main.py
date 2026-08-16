@@ -66,6 +66,7 @@ def _stage2_fallback(item):
 
 def run(mode, dry, limit=None):
     db.init_db()
+    db.prune_item_queries()
 
     # Pick up any Telegram button presses (Useful / Already knew / Noise)
     # from since the last run, at the start of every run.

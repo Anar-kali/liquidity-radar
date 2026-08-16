@@ -30,5 +30,10 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/nse_equities.csv data/bse_scrips.csv
           git diff --quiet --cached || git commit -m "data: refresh ticker master lists $(date -u +%F)"
-          git pull --rebase --autostash || true
-          git push || true
+          # A swallowed push failure here just goes stale silently for a
+          # month — fail the job loudly instead so it shows up in Actions.
+          if ! git pull --rebase --autostash || ! git push; then
+            git rebase --abort 2>/dev/null || true
+            echo "::error::ticker list commit failed to sync"
+            exit 1
+          fi

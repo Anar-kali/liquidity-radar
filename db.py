@@ -137,10 +137,18 @@ def init_db(path=DB_PATH):
         -- for items the id-based dedup above later drops as a duplicate —
         -- needed to compute "produced" (every query that surfaced an item)
         -- and, via deal_members, "first to surface" a deal cluster.
+        -- UNIQUE(item_id, query): an item stays in the RSS feed's lookback
+        -- window across many runs, so without this the same pairing gets
+        -- re-logged every ~15 min it remains visible (saw 74,565 rows for
+        -- only 1,258 distinct pairings 2026-08-16 — that duplication alone
+        -- pushed radar.db past GitHub's 100MB push limit and silently broke
+        -- state persistence). One row per pairing is all "produced"/"first
+        -- to surface" ever needed.
         CREATE TABLE IF NOT EXISTS item_queries (
             item_id    TEXT,
             query      TEXT,
-            created_at TEXT
+            created_at TEXT,
+            UNIQUE(item_id, query)
         );
 
         -- v4 Change 9: shadow-mode decision log for the structural blocklist
@@ -192,6 +200,10 @@ def init_db(path=DB_PATH):
         CREATE INDEX IF NOT EXISTS idx_member_deal ON deal_members(deal_id);
         CREATE INDEX IF NOT EXISTS idx_item_queries_item ON item_queries(item_id);
         CREATE INDEX IF NOT EXISTS idx_item_queries_query ON item_queries(query);
+        -- Belt-and-suspenders for DBs created before the inline UNIQUE(item_id,
+        -- query) existed on item_queries above — CREATE TABLE IF NOT EXISTS
+        -- doesn't retrofit existing tables, so this catches those too.
+        CREATE UNIQUE INDEX IF NOT EXISTS uq_item_queries_pair ON item_queries(item_id, query);
         """
     )
     # Non-destructive migration: add new columns to an existing deals table.
@@ -397,9 +409,20 @@ def title_dedup_log_since(hours, path=DB_PATH):
 def add_item_query(item_id, query, path=DB_PATH):
     conn = _conn(path)
     conn.execute(
-        "INSERT INTO item_queries (item_id, query, created_at) VALUES (?, ?, ?)",
+        "INSERT OR IGNORE INTO item_queries (item_id, query, created_at) VALUES (?, ?, ?)",
         (item_id, query, now_iso()),
     )
+    conn.commit()
+    conn.close()
+
+
+def prune_item_queries(days=30, path=DB_PATH):
+    """Backstop cleanup. query_item_stats only ever reads QUERY_STATS_DAYS (7)
+    days, so anything older is dead weight — the UNIQUE(item_id, query)
+    constraint keeps growth slow, but nothing else ever prunes this table."""
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=days)).isoformat()
+    conn = _conn(path)
+    conn.execute("DELETE FROM item_queries WHERE created_at < ?", (cutoff,))
     conn.commit()
     conn.close()
 
