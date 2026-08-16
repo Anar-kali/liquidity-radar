@@ -94,16 +94,23 @@ TITLE_DEDUP_STOPWORDS = {
     "of", "the", "a", "at", "via", "after", "as", "over", "likely",
 }
 
-# Change 9: shadow week before enforcing. Every filter above computes and
-# logs its decision either way; only in "enforce" does it actually drop the
-# item. Set via the PREFILTER_MODE GitHub Actions repository variable (repo
-# Settings -> Secrets and variables -> Actions -> Variables), not a secret
-# and not a code edit — takes effect on the next run. Defaults to "shadow"
-# (safe) if unset, empty, or anything other than exactly "enforce". `or`,
-# not getenv's own default arg: an UNSET repo variable still makes GitHub
-# Actions pass PREFILTER_MODE="" (present but empty) to the runner, which
-# getenv's default only covers for a truly absent key.
-PREFILTER_MODE = os.getenv("PREFILTER_MODE") or "shadow"
+# Change 9: shadow-vs-enforce. Every filter above computes and logs its
+# decision either way; only in "enforce" does it actually drop the item.
+#
+# DEFAULT FLIPPED TO "enforce" ON 2026-08-16 at the user's request (API cost).
+# The shadow trial ran 2026-08-10..16; the four defects it exposed are fixed
+# in commit 4bee802 (share counts read as rupees, "N lakh crore", hyphenated
+# "₹800-Crore", and exchange filings being title-deduped against each other).
+#
+# TO ROLL BACK: set a PREFILTER_MODE repository variable to "shadow" (repo
+# Settings -> Secrets and variables -> Actions -> Variables). The env var
+# still wins over this default, so no code change is needed to go back —
+# anything that isn't exactly "enforce" means shadow.
+#
+# `or`, not getenv's own default arg: an UNSET repo variable still makes
+# GitHub Actions pass PREFILTER_MODE="" (present but empty) to the runner,
+# which getenv's default only covers for a truly absent key.
+PREFILTER_MODE = os.getenv("PREFILTER_MODE") or "enforce"
 
 # --------------------------------------------------------------------------
 # THE CLASSIFIER MODEL — Haiku only, both stages (cost matters).
