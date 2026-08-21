@@ -55,7 +55,11 @@ def init_db(path=DB_PATH):
             amount_cr   REAL,
             amount_raw  TEXT,
             individuals TEXT,               -- JSON list
-            buyer       TEXT,
+            -- Who RECEIVES the money. `buyer` is the pre-2026-08-21 field it
+            -- replaced; it is kept only so historical rows still read back,
+            -- and is never written to any more.
+            seller      TEXT,
+            buyer       TEXT,               -- legacy, read-only
             confidence  TEXT,
             one_line    TEXT,
             source      TEXT,
@@ -227,6 +231,12 @@ def init_db(path=DB_PATH):
         conn.execute("ALTER TABLE deals ADD COLUMN size_band TEXT")
     if "confirmed" not in existing:
         conn.execute("ALTER TABLE deals ADD COLUMN confirmed INTEGER DEFAULT 0")
+    if "seller" not in existing:
+        # Old `buyer` values are deliberately NOT copied across: the model was
+        # filling that field with whichever counterparty the headline named, so
+        # some are genuine sellers and some are acquirers, and there is no way
+        # to tell which without re-classifying. Leave them where they are.
+        conn.execute("ALTER TABLE deals ADD COLUMN seller TEXT")
 
     existing_items = {r[1] for r in conn.execute("PRAGMA table_info(items)")}
     if "title_norm" not in existing_items:
@@ -651,7 +661,7 @@ def create_deal(deal, path=DB_PATH):
     ts = now_iso()
     cur = conn.execute(
         "INSERT INTO deals (deal_key, company, deal_type, amount_cr, amount_raw, "
-        "individuals, buyer, confidence, one_line, source, url, "
+        "individuals, seller, confidence, one_line, source, url, "
         "size_source, size_band, confirmed, created_at, updated_at) "
         "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
         (
@@ -661,7 +671,7 @@ def create_deal(deal, path=DB_PATH):
             deal["amount_cr"],
             deal["amount_raw"],
             json.dumps(deal["individuals"]),
-            deal["buyer"],
+            deal["seller"],
             deal["confidence"],
             deal["one_line"],
             deal["source"],

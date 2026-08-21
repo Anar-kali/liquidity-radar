@@ -87,13 +87,21 @@ def format_alert(alert):
 
     one_line = _escape(alert.get("one_line") or "")
 
+    # Who gets paid, in priority order: named individuals first, then the
+    # selling entity. The seller line is the point of the alert — the buyer is
+    # spending money, so it is deliberately not shown at all any more.
     individuals = alert.get("individuals") or []
+    seller = alert.get("seller")
     if individuals:
-        names = _escape(", ".join(individuals))
+        names = f"💰 {_escape(', '.join(individuals))}"
+        # Only add the entity when it isn't just the same name again — for a
+        # promoter sale the model routinely fills both with the one person.
+        if seller and seller.strip().lower() not in {i.strip().lower() for i in individuals}:
+            names += f"  ·  via {_escape(seller)}"
+    elif seller:
+        names = f"💰 {_escape(seller)} (selling)"
     else:
-        names = "No individual named"
-    if alert.get("buyer"):
-        names += f"  ·  buyer: {_escape(alert['buyer'])}"
+        names = "No seller named"
 
     source = _escape(alert.get("source") or "source")
     url = alert.get("url") or ""

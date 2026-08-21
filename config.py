@@ -464,8 +464,30 @@ categories above; those are confirmed drops.
 
 "company" is ALWAYS the entity whose ownership is changing — the target, or the
 company whose shares are being sold — NEVER the acquirer or investor. In
-"IndiaRF acquires Fine Edge Engineering", company is Fine Edge Engineering and
-buyer is IndiaRF.
+"IndiaRF acquires Fine Edge Engineering", company is Fine Edge Engineering.
+
+"seller" is WHOEVER RECEIVES THE MONEY: the selling shareholder. That is the
+promoter or founding family, the PE or VC fund exiting, the parent company
+divesting, or the named individual offloading shares. It is the single most
+important field here — this whole screen exists to find people about to be
+paid. Do NOT put the acquirer there.
+
+The seller is often the harder name to spot, because headlines are usually
+written from the buyer's side. Read for direction, not word order:
+  - "IndiaRF acquires Fine Edge Engineering" — seller is whoever owned Fine
+    Edge. If the text does not say, seller is null. Never write "IndiaRF".
+  - "General Atlantic sells Rs 1,400 crore KFin Technologies stake" — company
+    is KFin Technologies, seller is General Atlantic. The seller is named
+    first here; that is common with fund exits.
+  - "TPG exits Aster DM" — seller is TPG. An exit, a stake sale, a pared
+    holding, a block deal "offloaded by" someone: all sellers.
+  - "Promoter Sudhir Sethi acquires 4,809 shares" — this is a promoter BUYING.
+    There is no seller receiving a large payout; seller is null.
+
+If both sides are named, seller is still only the paying-out side. If you
+cannot tell which party is selling, use null rather than guessing — a wrong
+name here is worse than no name, because it points the banker at someone who
+is spending money rather than receiving it.
 
 When no deal amount is stated and the company is not listed, estimate the
 likely total deal size as a BAND, never a number.
@@ -493,7 +515,7 @@ input item, same order:
   "amount_cr": null,
   "amount_raw": "exact text the figure came from, plus your conversion, or null",
   "individuals": ["named individuals receiving money, empty if none named"],
-  "buyer": "named acquirer or buyer, or null",
+  "seller": "the party RECEIVING the money (see above) — never the acquirer, null if unclear",
   "confidence": "high|medium",
   "one_line": "under 20 words: what happened and who gets paid",
   "size_band": "UNDER_100|100_TO_500|500_TO_2000|OVER_2000|UNKNOWN",

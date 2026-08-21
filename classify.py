@@ -472,7 +472,11 @@ def _normalise2(result):
         "amount_cr": result.get("amount_cr"),
         "amount_raw": result.get("amount_raw"),
         "individuals": result.get("individuals") or [],
-        "buyer": result.get("buyer"),
+        # The seller is who gets paid — that's the whole point of the screen.
+        # Was `buyer` until 2026-08-21; the model had been filling that field
+        # with whichever counterparty the headline named, which for fund exits
+        # ("General Atlantic sells...", "TPG exits...") was the seller anyway.
+        "seller": result.get("seller"),
         "confidence": result.get("confidence") or "medium",
         "one_line": result.get("one_line") or "",
         "size_band": result.get("size_band") or "UNKNOWN",

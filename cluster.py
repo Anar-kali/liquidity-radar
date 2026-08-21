@@ -174,12 +174,12 @@ def _material_updates(existing, result):
 
     Returns (updates_dict, fire_alert, note):
       - updates_dict: columns to persist (amount, and newly-known individual /
-        buyer). Persisted whether or not we alert.
+        seller). Persisted whether or not we alert.
       - fire_alert: True ONLY when the amount appears or revises by >20%. A new
-        buyer or individual alone updates the record silently — the banker does
-        his own research once alerted; a second ping naming the buyer is noise.
+        seller or individual alone updates the record silently — the banker does
+        his own research once alerted; a second ping naming the seller is noise.
         When an amount update does fire, the alert already carries the latest
-        individual and buyer via the merged record.
+        individual and seller via the merged record.
     """
     updates = {}
     fire_alert = False
@@ -213,14 +213,17 @@ def _material_updates(existing, result):
         fire_alert = True
         notes.append(f"amount revised {old_amount:g}→{new_amount:g} cr")
 
-    # Newly-known individual / buyer are persisted but do NOT fire on their own.
+    # Newly-known individual / seller are persisted but do NOT fire on their own.
     old_individuals = json.loads(existing.get("individuals") or "[]")
     new_individuals = result.get("individuals") or []
     if not old_individuals and new_individuals:
         updates["individuals"] = new_individuals
 
-    if not existing.get("buyer") and result.get("buyer"):
-        updates["buyer"] = result.get("buyer")
+    # A later article naming the selling side is a real gain — headlines are
+    # usually written from the buyer's side, so the seller often only surfaces
+    # on the second or third write-up of the same deal.
+    if not existing.get("seller") and result.get("seller"):
+        updates["seller"] = result.get("seller")
 
     return updates, fire_alert, "; ".join(notes)
 
@@ -286,7 +289,7 @@ def process(item, result, confirmed=False):
             "amount_cr": new_amount,
             "amount_raw": result.get("amount_raw"),
             "individuals": result.get("individuals") or [],
-            "buyer": result.get("buyer"),
+            "seller": result.get("seller"),
             "confidence": result.get("confidence") or "medium",
             "one_line": result.get("one_line") or "",
             "source": item.get("source", ""),
@@ -308,7 +311,7 @@ def process(item, result, confirmed=False):
     if updates:
         db.update_deal(match["id"], dict(updates))  # persist new facts always
     if not fire_alert:
-        return []  # buyer/individual alone (or a silent confirm) don't alert
+        return []  # seller/individual alone (or a silent confirm) don't alert
 
     merged = dict(match)
     merged.update(updates)
@@ -331,7 +334,7 @@ def _alert_from_deal(deal, deal_id, is_update):
         "deal_type": deal.get("deal_type", "unknown"),
         "amount_cr": deal.get("amount_cr"),
         "individuals": individuals or [],
-        "buyer": deal.get("buyer"),
+        "seller": deal.get("seller"),
         "confidence": deal.get("confidence") or "medium",
         "one_line": deal.get("one_line") or "",
         "source": deal.get("source", ""),

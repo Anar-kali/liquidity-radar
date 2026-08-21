@@ -160,7 +160,9 @@ def handle_confirmed_row(company, client_name, value_cr, exchange, deal_type,
         "amount_cr": value_cr,
         "amount_raw": f"{value_cr:g}cr confirmed via {exchange} {deal_type}",
         "individuals": [client_name],
-        "buyer": None,
+        # These rows only ever describe the SELL side of a bulk/block filing,
+        # so the client named in the file is by definition who gets paid.
+        "seller": client_name,
         "confidence": "high",
         "one_line": f"{client_name} sold shares in {company} "
                     f"(confirmed, {exchange} {deal_type})",
