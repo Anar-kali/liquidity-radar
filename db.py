@@ -196,6 +196,19 @@ def init_db(path=DB_PATH):
             created_at         TEXT
         );
 
+        -- Items whose AI classification FAILED (API down, library break,
+        -- rate limit). A failure is not a verdict: these are held here and
+        -- retried on later runs instead of being alerted unclassified.
+        -- `stage` records how far the item got, so a stage-2 failure doesn't
+        -- pay for stage 1 again on the retry.
+        CREATE TABLE IF NOT EXISTS classify_retry (
+            item_id         TEXT PRIMARY KEY,
+            stage           TEXT,
+            attempts        INTEGER DEFAULT 0,
+            first_failed_at TEXT,
+            last_attempt_at TEXT
+        );
+
         CREATE INDEX IF NOT EXISTS idx_deal_key ON deals(deal_key);
         CREATE INDEX IF NOT EXISTS idx_member_deal ON deal_members(deal_id);
         CREATE INDEX IF NOT EXISTS idx_item_queries_item ON item_queries(item_id);
@@ -425,6 +438,104 @@ def prune_item_queries(days=30, path=DB_PATH):
     conn.execute("DELETE FROM item_queries WHERE created_at < ?", (cutoff,))
     conn.commit()
     conn.close()
+
+
+# --------------------------------------------------------------------------
+# classify_retry — the safety valve.
+#
+# When the classifier can't be reached, the old behaviour was to pass items
+# through unclassified, which meant ALERTING them: on 2026-08-21 an anthropic
+# 1.0.0 release broke every API call and 80 raw headlines went to Telegram in
+# three runs. A failure is not a verdict. These helpers park failed items so a
+# later run can judge them properly once the API is back.
+# --------------------------------------------------------------------------
+def enqueue_retry(item_id, stage, path=DB_PATH):
+    """Park one item for reclassification, or bump its attempt count."""
+    conn = _conn(path)
+    ts = now_iso()
+    conn.execute(
+        "INSERT INTO classify_retry (item_id, stage, attempts, first_failed_at, last_attempt_at) "
+        "VALUES (?, ?, 1, ?, ?) "
+        "ON CONFLICT(item_id) DO UPDATE SET "
+        "  attempts = attempts + 1, last_attempt_at = excluded.last_attempt_at, "
+        # A stage-2 failure is later in the pipeline than a stage-1 one, so it
+        # wins: never send an item back through stage 1 once it has cleared it.
+        "  stage = CASE WHEN excluded.stage = 'stage2' THEN 'stage2' ELSE classify_retry.stage END",
+        (item_id, stage, ts, ts),
+    )
+    conn.commit()
+    conn.close()
+
+
+def clear_retry(item_id, path=DB_PATH):
+    """The item finally got a real verdict — stop retrying it."""
+    conn = _conn(path)
+    conn.execute("DELETE FROM classify_retry WHERE item_id = ?", (item_id,))
+    conn.commit()
+    conn.close()
+
+
+def pending_retries(stage, path=DB_PATH):
+    """
+    Items parked for `stage`, rebuilt as pipeline-shaped dicts from `items`.
+
+    They are re-read from `items` rather than stored again here because
+    main.py already recorded every candidate there before classifying — this
+    table only needs to remember WHICH ids are owed a verdict.
+    """
+    conn = _conn(path)
+    rows = conn.execute(
+        "SELECT i.id, i.source, i.title, i.url, i.description, i.title_norm, "
+        "       i.source_query, r.attempts "
+        "FROM classify_retry r JOIN items i ON i.id = r.item_id "
+        "WHERE r.stage = ? ORDER BY r.first_failed_at",
+        (stage,),
+    ).fetchall()
+    conn.close()
+    return [
+        {
+            "id": r["id"], "source": r["source"], "title": r["title"],
+            "url": r["url"], "description": r["description"],
+            "title_norm": r["title_norm"], "source_query": r["source_query"],
+            "retry_attempts": r["attempts"],
+        }
+        for r in rows
+    ]
+
+
+def expire_retries(max_attempts, max_age_hours, path=DB_PATH):
+    """
+    Give up on items the classifier never managed to judge, and return them so
+    the caller can leave an audit trail. Without this the queue would grow
+    without bound through a long outage.
+    """
+    cutoff = (datetime.now(timezone.utc) - timedelta(hours=max_age_hours)).isoformat()
+    conn = _conn(path)
+    rows = conn.execute(
+        "SELECT i.id, i.source, i.title, i.url, r.attempts, r.first_failed_at "
+        "FROM classify_retry r JOIN items i ON i.id = r.item_id "
+        "WHERE r.attempts >= ? OR r.first_failed_at < ?",
+        (max_attempts, cutoff),
+    ).fetchall()
+    conn.execute(
+        "DELETE FROM classify_retry WHERE attempts >= ? OR first_failed_at < ?",
+        (max_attempts, cutoff),
+    )
+    # An orphan can only appear if `items` lost a row the queue still points
+    # at; drop those too so a broken id can't wedge the queue forever.
+    conn.execute(
+        "DELETE FROM classify_retry WHERE item_id NOT IN (SELECT id FROM items)"
+    )
+    conn.commit()
+    conn.close()
+    return [dict(r) for r in rows]
+
+
+def retry_queue_size(path=DB_PATH):
+    conn = _conn(path)
+    n = conn.execute("SELECT COUNT(*) FROM classify_retry").fetchone()[0]
+    conn.close()
+    return n
 
 
 def query_item_stats(days, path=DB_PATH):

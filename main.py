@@ -30,6 +30,7 @@ show where volume goes.
 
 import argparse
 from collections import Counter
+from datetime import datetime, timedelta, timezone
 
 import classify
 import cluster
@@ -46,22 +47,74 @@ def _rule_label(rule_number):
     return f"Rule {rule_number}" if rule_number is not None else "Rule ?"
 
 
-def _stage1_fallback():
-    """v4 Change 6: shape-compatible fail-open result if stage 1 raises
-    entirely (beyond classify.py's own per-batch fail-open)."""
-    return {"confirmed_negative": False, "rule_number": None}
+_FAIL_WARN_KEY = "classify_fail_warned_at"
+_FAILING_KEY = "classify_failing"
 
 
-def _stage2_fallback(item):
-    """v4 Change 6: shape-compatible fail-open result if stage 2 raises
-    entirely (beyond classify.py's own per-batch fail-open)."""
-    return {
-        "qualify": True, "drop_reason": None,
-        "company": item.get("title") or "", "deal_type": "unknown",
-        "amount_cr": None, "amount_raw": None, "individuals": [], "buyer": None,
-        "confidence": "medium", "one_line": (item.get("title") or "")[:200],
-        "size_band": "UNKNOWN", "size_basis": "no information",
-    }
+def _report_classifier_health(fail_reasons, judged_ok, dry):
+    """
+    One message when the classifier goes down, one when it comes back.
+
+    Deliberately throttled: the failure mode this guards against is volume, so
+    a warning per run would be a slower version of the same problem. The held
+    items are safe in classify_retry either way — the message is for the human,
+    not the pipeline.
+
+    `judged_ok` is how many items got a real verdict this run. Recovery is
+    only announced when something actually succeeded — a run with nothing to
+    classify proves nothing, and would otherwise send a false all-clear.
+    """
+    was_failing = db.get_state(_FAILING_KEY) == "1"
+
+    if not fail_reasons:
+        if was_failing and judged_ok:
+            db.set_state(_FAILING_KEY, "0")
+            db.set_state(_FAIL_WARN_KEY, "")
+            print("[main] classifier recovered")
+            if not dry:
+                notify.send("✅ *Liquidity Radar*: classifier is back. "
+                            "Held items are being reprocessed.")
+        return
+
+    held = db.retry_queue_size()
+    # Distinct reasons only — 40 identical TypeErrors say nothing 1 doesn't.
+    reasons = sorted(set(fail_reasons))
+    print(f"[main] classifier failing ({len(fail_reasons)} batched items held, "
+          f"{held} in queue): {reasons[0]}")
+    db.set_state(_FAILING_KEY, "1")
+
+    last = db.get_state(_FAIL_WARN_KEY) or ""
+    if last:
+        try:
+            due = datetime.fromisoformat(last) + timedelta(
+                minutes=config.CLASSIFY_FAIL_WARN_COOLDOWN_MIN)
+            if datetime.now(timezone.utc) < due:
+                return  # already told them recently
+        except ValueError:
+            pass  # unparseable timestamp — treat as never warned
+
+    db.set_state(_FAIL_WARN_KEY, db.now_iso())
+    if dry:
+        return
+    detail = "\n".join(f"• `{r[:180]}`" for r in reasons[:3])
+    notify.send(
+        f"⚠️ *Liquidity Radar: classifier unavailable*\n\n"
+        f"{held} item(s) are held and will be re-checked automatically when "
+        f"it recovers. *No alerts are being missed silently, and nothing "
+        f"unclassified is being sent.*\n\n{detail}"
+    )
+
+
+def _stage1_fallback(exc):
+    """Last-resort result if stage 1 raises entirely, beyond classify.py's own
+    per-batch handling. Flagged as a failure, so the item is parked for retry
+    rather than treated as having passed."""
+    return classify.failed_result1(exc)
+
+
+def _stage2_fallback(exc):
+    """Last-resort result if stage 2 raises entirely. See _stage1_fallback."""
+    return classify.failed_result2(exc)
 
 
 def run(mode, dry, limit=None):
@@ -165,7 +218,10 @@ def run(mode, dry, limit=None):
           f"-{funnel['structural_dropped']}, title dedup -{funnel['title_deduped']}, "
           f"PREFILTER_MODE={config.PREFILTER_MODE})")
 
-    if not fresh:
+    # Nothing new AND nothing held — only then is there genuinely no work.
+    # Held items must still get their retry on a quiet run, or an outage that
+    # coincided with a slow news hour would strand them until the age cap.
+    if not fresh and not db.retry_queue_size():
         db.add_funnel_run(funnel)
         return
 
@@ -219,7 +275,41 @@ def run(mode, dry, limit=None):
     # definition a company going public, which stage 1 would never mark
     # confirmed-negative, so the call is wasted every time.
     sebi_direct = [item for item in fresh if item.get("source") == "SEBI"]
-    to_classify = [item for item in fresh if item.get("source") != "SEBI"]
+    # ---- SAFETY VALVE: re-admit items a previous run couldn't classify ----
+    # These already cleared the prefilters, so each re-enters at exactly the
+    # stage that failed — a stage-2 failure never pays for stage 1 again.
+    expired = db.expire_retries(config.CLASSIFY_RETRY_MAX_ATTEMPTS,
+                                config.CLASSIFY_RETRY_MAX_AGE_HOURS)
+    for row in expired:
+        # Audit trail rather than a silent drop: if the classifier stayed down
+        # long enough to strand an item, that fact should be searchable later.
+        suppress(row, "Rule X", {"amount_cr": None,
+                                 "amount_raw": f"unclassified after {row['attempts']} attempts"},
+                 gate="retry-expired")
+    if expired:
+        print(f"[main] gave up on {len(expired)} items the classifier never judged")
+
+    retry1 = db.pending_retries("stage1")
+    retry2 = db.pending_retries("stage2")
+    # Only these ids can possibly need clearing once a verdict lands, so a
+    # normal run never pays for a DELETE-that-matches-nothing per item.
+    retry_ids = {i["id"] for i in retry1} | {i["id"] for i in retry2}
+    if retry1 or retry2:
+        print(f"[main] re-admitting {len(retry1)} stage-1 + {len(retry2)} "
+              f"stage-2 items held from earlier runs")
+
+    # Every failure seen this run, so one warning can be sent at the end
+    # instead of one alert per unclassified item.
+    fail_reasons = []
+    judged_ok = [0]  # real verdicts this run — proof the API actually works
+
+    def hold(item, stage, r):
+        db.enqueue_retry(item["id"], stage)
+        reason = r.get("failure_reason")
+        if reason:
+            fail_reasons.append(reason)
+
+    to_classify = [item for item in fresh if item.get("source") != "SEBI"] + retry1
     funnel["reached_stage1"] = len(to_classify)
 
     # ---- STAGE 1: Haiku, reject confirmed noise (high recall) ----
@@ -230,14 +320,20 @@ def run(mode, dry, limit=None):
     try:
         stage1 = classify.classify_all(to_classify)
     except Exception as exc:  # noqa: BLE001
-        print(f"[main] stage1 failed entirely, passing all through: {exc}")
-        if not dry:
-            notify.send(f"⚠️ Liquidity Radar: stage-1 classification failed this "
-                        f"run ({exc}) — items passed through unclassified.")
-        stage1 = [(item, _stage1_fallback()) for item in to_classify]
+        print(f"[main] stage1 failed entirely, holding all for retry: {exc}")
+        stage1 = [(item, _stage1_fallback(exc)) for item in to_classify]
 
-    survivors = list(sebi_direct)  # items that go to the precision check
+    survivors = list(sebi_direct) + retry2  # items that go to the precision check
     for item, r1 in stage1:
+        # A failed API call is not a verdict — park it, don't judge it. It is
+        # neither suppressed (which would lose a possible deal) nor passed on
+        # (which, pre-2026-08-21, meant alerting raw unclassified headlines).
+        if r1.get("classify_failed"):
+            hold(item, "stage1", r1)
+            continue
+        judged_ok[0] += 1
+        if item["id"] in retry_ids:  # got a real verdict at last; stop retrying
+            db.clear_retry(item["id"])
         if r1["confirmed_negative"]:
             rule = _rule_label(r1.get("rule_number"))
             # Don't let a "under threshold" drop kill a deal whose STATED size
@@ -265,15 +361,20 @@ def run(mode, dry, limit=None):
     try:
         stage2 = classify.precision_classify(survivors)
     except Exception as exc:  # noqa: BLE001
-        print(f"[main] stage2 failed entirely, passing all through: {exc}")
-        if not dry:
-            notify.send(f"⚠️ Liquidity Radar: stage-2 classification failed this "
-                        f"run ({exc}) — items passed through unclassified (qualify=true).")
-        stage2 = [(item, _stage2_fallback(item)) for item in survivors]
+        print(f"[main] stage2 failed entirely, holding all for retry: {exc}")
+        stage2 = [(item, _stage2_fallback(exc)) for item in survivors]
 
     alerts = []
     mix = Counter()
     for item, r2 in stage2:
+        # As in stage 1: hold, don't judge. Checked before `qualify` because a
+        # failed result carries no meaningful qualify value.
+        if r2.get("classify_failed"):
+            hold(item, "stage2", r2)
+            continue
+        judged_ok[0] += 1
+        if item["id"] in retry_ids:
+            db.clear_retry(item["id"])
         if not r2["qualify"]:
             suppress(item, "Rule P", r2)
             continue
@@ -349,6 +450,7 @@ def run(mode, dry, limit=None):
         print("[main] size_source mix: " + ", ".join(f"{k}={v}" for k, v in mix.items()))
 
     db.add_funnel_run(funnel)
+    _report_classifier_health(fail_reasons, judged_ok[0], dry)
 
     # Optional throttle (useful for testing, or to avoid a flood on a cold
     # start). Deals are still recorded; only the notifications are capped.

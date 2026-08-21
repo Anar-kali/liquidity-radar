@@ -127,6 +127,23 @@ STAGE2_MODEL = MODEL  # same Haiku model; keep two focused passes, not Sonnet
 # How many items we send to the model in one API call.
 BATCH_SIZE = 25
 
+# --------------------------------------------------------------------------
+# CLASSIFIER SAFETY VALVE (2026-08-21)
+#
+# When the classifier can't be reached, items are parked in `classify_retry`
+# and judged on a later run — never alerted unclassified. Before this, an
+# unreachable API meant every fetched headline went straight to Telegram.
+# --------------------------------------------------------------------------
+# Give up on a parked item after this many failed attempts...
+CLASSIFY_RETRY_MAX_ATTEMPTS = 6
+# ...or this long, whichever comes first. At hourly polling the attempt cap
+# bites first; the age cap is what bounds the queue if runs are sparse.
+CLASSIFY_RETRY_MAX_AGE_HOURS = 24
+# Don't send the "classifier is down" Telegram warning more than once per this
+# many minutes. The point is to be told once, not re-alerted every run — which
+# would just be a slower version of the flood this whole valve exists to stop.
+CLASSIFY_FAIL_WARN_COOLDOWN_MIN = 60
+
 # How many characters of each item's description we send (headline is always
 # sent in full).
 DESCRIPTION_CHARS = 400

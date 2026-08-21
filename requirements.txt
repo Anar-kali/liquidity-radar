@@ -1,5 +1,14 @@
-anthropic>=0.40
-requests>=2.31
-feedparser>=6.0
-beautifulsoup4>=4.12
-yfinance>=0.2.40
+# PIN THE MAJOR VERSIONS. The workflows run `pip install -r requirements.txt`
+# fresh on every run, so an unpinned dependency means every run silently picks
+# up whatever was published most recently.
+#
+# This bit us on 2026-08-21: anthropic 1.0.0 (published 2026-08-20 19:58 UTC)
+# REMOVED the `temperature` argument from messages.create(). classify.py passes
+# temperature=0 in both stages, so every batch raised TypeError, both stages
+# failed open, and every fetched news item was alerted to Telegram.
+# 0.125.0 is the last 0.x release and is what ran fine all of 2026-08-20.
+anthropic==0.125.0
+requests>=2.31,<3
+feedparser>=6.0,<7
+beautifulsoup4>=4.12,<5
+yfinance>=0.2.40,<0.3

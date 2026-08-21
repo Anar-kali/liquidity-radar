@@ -36,6 +36,7 @@ RULE_LABELS = {
     "Rule P": "failed precision check",
     "Rule S": "size band under 100cr",
     "Rule M": f"BSE company under {config.BSE_MCAP_MIN_CR}cr mcap",
+    "Rule X": "classifier never recovered — gave up",
     "Rule ?": "unclassified",
 }
 

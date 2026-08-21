@@ -411,6 +411,10 @@ def _normalise(result):
     return {
         "confirmed_negative": bool(result.get("neg", False)),
         "rule_number": rule_number,
+        # True only on the synthetic result built when the API call itself
+        # failed — see classify_all(). Callers MUST NOT treat such a result as
+        # a verdict (neither a pass nor a suppression).
+        "classify_failed": False,
     }
 
 
@@ -421,8 +425,14 @@ def classify_all(items):
 
     v4 Change 6: client construction is INSIDE the try, not before the loop —
     if the Anthropic API is unreachable (bad key, network down) at the very
-    first call, every item still fails open (passed through as non-negative)
-    instead of the exception propagating up and aborting the whole run.
+    first call, one broken batch never aborts the whole run.
+
+    2026-08-21: a failed batch no longer fakes a "not negative" verdict. It
+    returns results flagged `classify_failed`, which main.py parks in
+    classify_retry instead of alerting. Passing items through unclassified
+    used to mean alerting them — when anthropic 1.0.0 removed the
+    `temperature` argument, every batch raised and 80 raw headlines were sent
+    to Telegram in three runs.
     """
     if not items:
         return []
@@ -433,10 +443,18 @@ def classify_all(items):
             client = _client()
             out.extend(classify_batch(client, batch))
         except Exception as exc:  # noqa: BLE001
-            print(f"[classify] stage1 batch failed, passing items through: {exc}")
+            print(f"[classify] stage1 batch failed, holding items for retry: {exc}")
             for item in batch:
-                out.append((item, _normalise({})))
+                out.append((item, failed_result1(exc)))
     return out
+
+
+def failed_result1(exc):
+    """Stage-1 result shape marking 'the API call failed', not a verdict."""
+    r = _normalise({})
+    r["classify_failed"] = True
+    r["failure_reason"] = f"{type(exc).__name__}: {exc}"
+    return r
 
 
 # --------------------------------------------------------------------------
@@ -459,6 +477,8 @@ def _normalise2(result):
         "one_line": result.get("one_line") or "",
         "size_band": result.get("size_band") or "UNKNOWN",
         "size_basis": result.get("size_basis") or "no information",
+        # See _normalise(): set only when the stage-2 API call itself failed.
+        "classify_failed": False,
     }
 
 
@@ -489,8 +509,9 @@ def precision_classify(items):
     STAGE 2 (Sonnet). Returns a list of (item, result) tuples where result has
     a `qualify` flag plus cleanly re-extracted fields.
 
-    If a batch fails, its items are passed through as qualify=true (fail open —
-    keep the human in the loop rather than silently dropping a possible deal).
+    If a batch fails, its items come back flagged `classify_failed` and are
+    parked for a later run by main.py — NOT alerted. See classify_all() for
+    why (2026-08-21 Telegram flood).
     """
     if not items:
         return []
@@ -501,10 +522,16 @@ def precision_classify(items):
             client = _client()
             out.extend(precision_batch(client, batch))
         except Exception as exc:  # noqa: BLE001
-            print(f"[classify] stage2 batch failed, passing items through: {exc}")
+            print(f"[classify] stage2 batch failed, holding items for retry: {exc}")
             for item in batch:
-                out.append((item, _normalise2({
-                    "qualify": True,
-                    "one_line": item.get("title", ""),
-                })))
+                out.append((item, failed_result2(exc)))
     return out
+
+
+def failed_result2(exc):
+    """Stage-2 result shape marking 'the API call failed', not a verdict."""
+    r = _normalise2({})
+    r["qualify"] = False  # belt-and-braces: never alertable even if the flag is missed
+    r["classify_failed"] = True
+    r["failure_reason"] = f"{type(exc).__name__}: {exc}"
+    return r
