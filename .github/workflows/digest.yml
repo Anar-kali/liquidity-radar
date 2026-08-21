@@ -1,10 +1,12 @@
 name: digest
 
-# 20:30 IST daily (15:00 UTC). Suppression summary.
+# 20:30 IST daily. Suppression summary.
+#
+# EXTERNALLY TRIGGERED ONLY — cron-job.org calls the dispatch API. GitHub's own
+# `schedule:` was removed on 2026-08-21 (user request); it fired late or was
+# dropped anyway, so it produced duplicate or missing digests rather than a
+# reliable backup. If the digest stops arriving, check cron-job.org first.
 on:
-  # Off-peak minute (:11) for more reliable scheduled triggering.
-  schedule:
-    - cron: "11 15 * * *"   # IST ~20:41
   workflow_dispatch:
 
 concurrency:

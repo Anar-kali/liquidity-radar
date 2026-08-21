@@ -1,15 +1,17 @@
 name: radar
 
-# Primary trigger is an EXTERNAL scheduler (e.g. cron-job.org) calling this
-# workflow's dispatch API every ~15 min — GitHub's own cron is unreliable.
-# The GitHub schedule below is only a lightweight backup.
+# EXTERNALLY TRIGGERED ONLY. cron-job.org calls this workflow's dispatch API;
+# GitHub's own `schedule:` was removed on 2026-08-21 (user request) because it
+# fired ~8 extra runs a day on top of the external hourly trigger, and each
+# extra run costs API spend.
+#
+# There is deliberately NO backup schedule: if the external cron stops, this
+# workflow stops. Check cron-job.org first if runs go quiet.
 #
 # `--mode auto` decides what to fetch based on the current IST time, so the
 # external scheduler only has to poke this one endpoint.
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "9,39 2-16 * * *"   # backup only: ~07:39-22:39 IST every 30 min
 
 concurrency:
   group: liquidity-radar
