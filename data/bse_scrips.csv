@@ -84,6 +84,7 @@ code,name
 500171,GHCL Ltd
 500173,GFL Ltd
 500174,Gujarat Lease Financing Ltd
+500178,Harig Crankshafts Ltd
 500179,HCL Infosystems Ltd
 500180,HDFC Bank Ltd
 500182,Hero MotoCorp Ltd
@@ -278,6 +279,7 @@ code,name
 501150,Centrum Capital Ltd
 501151,Kartik Investments Trust Ltd
 501242,TCI Finance Ltd
+501261,Lords Mark Industries Ltd
 501270,Antariksh Industries Ltd
 501295,Industrial Investment Trust Ltd
 501298,Industrial & Prudential Investment Company Ltd
@@ -296,7 +298,6 @@ code,name
 501455,Greaves Cotton Ltd
 501477,Muller & Phipps India Ltd
 501479,Springform Technology Ltd
-501630,Anand Projects Ltd
 501700,IndiaNivesh Ltd
 501831,Coastal Corporation Ltd
 501833,Chowgule Steamships Ltd
@@ -369,7 +370,7 @@ code,name
 503960,Bharat Bijlee Ltd-$
 504000,Elpro International Ltd
 504028,GEE Ltd
-504036,Hind Rectifiers Ltd
+504036,Hirect Ltd
 504058,Indo National Ltd
 504067,Zensar Technologies Ltd
 504076,Jyoti Ltd-$
@@ -421,7 +422,6 @@ code,name
 504998,Western Ministil Ltd
 505010,Automotive Axles Ltd
 505029,Atlas Cycles (Haryana) Ltd
-505032,Automobile Products of India Ltd
 505036,Automobile Corporation of Goa Ltd-$
 505075,Setco Automotive Ltd
 505160,Talbros Automotive Components Ltd
@@ -476,7 +476,6 @@ code,name
 505744,Federal-Mogul Goetze (India) Ltd
 505750,Josts Engineering Company Ltd
 505790,Schaeffler India Ltd
-505797,Mipco Seamless Rings Gujarat Ltd
 505800,Rane Holdings Ltd
 505807,Rolcon Engineering Company Ltd
 505827,SNL Bearings Ltd
@@ -642,6 +641,7 @@ code,name
 508954,Finkurve Financial Services Ltd
 508956,HB Leasing & Finance Company Ltd
 508961,Shricon Industries Ltd
+508963,Trustwave Securities Ltd
 508969,Sulabh Engineers & Services Ltd
 508980,Frontier Capital Ltd
 508989,Navneet Education Ltd
@@ -782,7 +782,6 @@ code,name
 511626,RR Financial Consultants Ltd
 511628,Fedders Holding Ltd
 511630,Sambhaav Media Ltd
-511636,DJS Stock & Shares Ltd
 511644,Omega Interactive Technologies Ltd
 511654,Sugal & Damani Share Brokers Ltd
 511658,Nettlinx Ltd
@@ -912,7 +911,7 @@ code,name
 512587,Zodiac-JRD-MKJ Ltd
 512589,Sita Enterprises Ltd
 512591,Pulsar International Ltd
-512595,Manbro Industries Ltd
+512595,KD Green Industries Ltd
 512597,Keynote Financial Services Ltd
 512599,Adani Enterprises Ltd
 512600,Astal Laboratories Ltd
@@ -1171,13 +1170,14 @@ code,name
 519238,Saptarishi Agro Industries Ltd
 519260,Sanwaria Consumer Ltd-$
 519262,Prima Agro Ltd
+519279,Madhur Industries Ltd
 519285,Tarai Foods Ltd
 519287,Modern Dairies Ltd
 519295,Bambino Agro Industries Ltd
 519299,Prime Industries Ltd
 519307,Vikas WSP Ltd
 519331,VSF Projects Ltd
-519353,Bansisons Tea Industries Ltd
+519353,Novyra Pharmachem Ltd
 519359,Poona Dal & Oil Industries Ltd
 519367,Transglobe Foods Ltd
 519383,Anik Industries Ltd
@@ -1220,6 +1220,7 @@ code,name
 520111,Ratnamani Metals & Tubes Ltd-$
 520113,Vesuvius India Ltd
 520119,Automotive Stampings and Assemblies Ltd
+520121,Arcee Industries Ltd
 520123,ABC India Ltd-$
 520127,Balurghat Technologies Ltd
 520131,Coastal Roadways Ltd
@@ -1240,7 +1241,6 @@ code,name
 521068,Hisar Spinning Mills Ltd
 521070,Alok Industries Ltd
 521080,Pasari Spinning Mills Ltd
-521082,CLC Industries Ltd
 521097,Amarjothi Spinning Mills Ltd
 521105,Olympia Industries Ltd
 521109,Nagreeka Exports Ltd-$
@@ -1253,6 +1253,7 @@ code,name
 521151,Dhanlaxmi Fabrics Ltd
 521161,Sri Lakshmi Saraswathi Textiles Arni Ltd-$
 521163,Zodiac Clothing Company Ltd
+521167,Maxgrow India Ltd
 521178,Sri Ramakrishna Mills Coimbatore Ltd-$
 521180,Super Spinning Mills Ltd
 521194,SIL Investments Ltd
@@ -1336,7 +1337,6 @@ code,name
 523120,Thrive Future Habitats Ltd
 523127,EIH Associated Hotels Ltd-$
 523144,Medi Caps Ltd-$
-523151,OTCO International Ltd
 523160,Foseco Crucible (India) Ltd
 523186,B&A Packaging India Ltd
 523204,Aban Offshore Ltd
@@ -1486,7 +1486,6 @@ code,name
 524494,Ipca Laboratories Ltd
 524500,Kilitch Drugs India Ltd
 524502,Raaj Medisafe India Ltd
-524504,Revati Media Ltd
 524506,Coral Laboratories Ltd
 524514,Tulasee Bio Ethanol Ltd
 524516,Bacil Pharma Ltd
@@ -1609,7 +1608,6 @@ code,name
 526468,Euro Leder Fashion Ltd
 526471,Winsome Breweries Ltd
 526473,Elegant Floriculture & Agrotech India Ltd
-526477,South Asian Enterprises Ltd
 526479,Sky Industries Ltd-$
 526481,Phoenix International Ltd
 526488,Bhudevi Infra Projects Ltd
@@ -1844,6 +1842,7 @@ code,name
 530655,Goodluck India Ltd
 530663,Goyal Associates Ltd
 530665,Zenith Healthcare Ltd
+530669,Ace Engitech Ltd
 530675,York Exports Ltd
 530677,Supreme Holdings & Hospitality (India) Ltd
 530689,Lykis Ltd
@@ -1885,6 +1884,7 @@ code,name
 530879,Capital India Finance Ltd
 530881,Arunjyoti Bio Ventures Ltd
 530883,Super Crop Safe Ltd
+530889,Audroc Ltd
 530897,NG Industries Ltd-$
 530899,Asia Pack Ltd
 530907,SI Capital & Financial Services Ltd
@@ -2092,7 +2092,6 @@ code,name
 531556,Coral India Finance & Housing Ltd
 531557,Amit Securities Ltd
 531562,Pushpsons Industries Ltd
-531568,Ashutosh Paper Mills Ltd
 531569,Sanjivani Paranteral Ltd
 531572,Ranjit Securities Ltd
 531574,Vas Infrastructure Ltd
@@ -2129,7 +2128,6 @@ code,name
 531667,RR MetalMakers India Ltd
 531668,Vision Corporation Ltd
 531671,Karnawati Innovation Ltd
-531672,Inani Securities Ltd
 531673,Anka India Ltd
 531676,Emrock Corporation Ltd
 531680,Mayur Leather Products Ltd
@@ -2196,6 +2194,7 @@ code,name
 531909,Croissance Ltd
 531910,JOJO Ltd
 531911,Galaxy Agrico Exports Ltd
+531913,Castora Agri Commodities Ltd
 531918,Hindustan Appliances Ltd
 531921,Agarwal Industrial Corporation Ltd
 531923,Dhampure Specialty Sugars Ltd
@@ -2362,7 +2361,6 @@ code,name
 532398,Usha Martin Education & Solutions Ltd
 532400,Birlasoft Ltd
 532402,USG Tech Solutions Ltd
-532403,Fourth Generation Information Systems Ltd
 532404,Saven Technologies Ltd
 532406,Avantel Ltd
 532407,Moschip Technologies Ltd
@@ -2439,6 +2437,7 @@ code,name
 532626,Pondy Oxides & Chemicals Ltd
 532627,Jaiprakash Power Ventures Ltd
 532628,3i Infotech Ltd
+532629,McNally Bharat Engineering Company Ltd
 532630,Gokaldas Exports Ltd
 532633,Alldigi Tech Ltd
 532636,IIFL Finance Ltd
@@ -2589,9 +2588,10 @@ code,name
 532884,Refex Industries Ltd
 532885,Central Bank of India
 532886,SEL Manufacturing Company Ltd
+532887,Neueon Corporation Ltd
 532888,Asian Granito India Ltd
 532889,K.P.R. Mill Limited
-532890,Take Solutions Ltd
+532890,Take Ltd
 532891,Puravankara Ltd
 532892,Motilal Oswal Financial Services Ltd
 532893,VTM Ltd
@@ -2619,6 +2619,7 @@ code,name
 532928,Transformers and Rectifiers (India) Ltd
 532929,Brigade Enterprises Ltd
 532930,BGR Energy Systems Ltd
+532931,Burnpur Cement Ltd
 532932,Manaksia Ltd
 532933,Porwal Auto Components Ltd
 532934,PPAP Automotive Ltd
@@ -2654,10 +2655,10 @@ code,name
 532994,Archidply Industries Ltd
 532998,Lotus Eye Hospital And Institute Ltd
 533001,Somi Conveyor Beltings Ltd
+533006,Birla Cotsyn (India) Ltd
 533007,LGB Forge Ltd
 533012,Landmark Property Development Company Ltd
 533014,Sicagen India Ltd
-533018,Simplex Mills Company Ltd
 533019,Simplex Papers Ltd
 533022,20 Microns Ltd
 533023,ZF Commercial Vehicle Control Systems India Ltd
@@ -2760,6 +2761,7 @@ code,name
 533339,ZEN Technologies Ltd
 533343,Lovable Lingerie Ltd
 533344,PTC India Financial Services Ltd
+533385,Motilal Oswal NASDAQ 100 ETF
 533398,Muthoot Finance Ltd
 533407,True Green Bio Energy Ltd
 533427,VMS Industries Ltd
@@ -2810,6 +2812,7 @@ code,name
 534422,Looks Health Services Ltd
 534425,Speciality Restaurants Ltd
 534532,Aurus Gem Corporation Ltd
+534535,String Metaverse Ltd
 534597,Rattanindia Enterprises Ltd
 534598,Sampann Utpadan India Ltd
 534600,JTL Industries Ltd
@@ -2830,7 +2833,7 @@ code,name
 534742,Zuari Agro Chemicals Ltd
 534748,Steel Exchange India Ltd
 534755,Trio Mercantile & Trading Ltd
-534796,CDG Petchem Ltd
+534796,Jujhar Logistics Ltd
 534804,CARE Ratings Ltd
 534809,PC Jeweller Ltd
 534816,Indus Towers Ltd
@@ -2850,6 +2853,7 @@ code,name
 535566,KIFS Financial Services Ltd
 535601,Sreeleathers Ltd
 535602,Sharda Motor Industries Ltd
+535620,Binny Mills Ltd
 535621,S V Global Mill Ltd
 535647,SDC Techmedia Ltd
 535648,Just Dial Ltd
@@ -2884,10 +2888,12 @@ code,name
 537008,ICICI Prudential Nifty 100 ETF
 537069,Arnold Holdings Ltd
 537253,Sunil Healthcare Ltd
+537254,JTL Defence Ltd
 537259,Suyog Telematics Ltd
 537291,Nath Bio-Genes (India) Ltd
 537292,Agri- Tech (India) Ltd
 537326,Chemtech Industrial Valves Ltd
+537392,Keto Motors Ltd
 537483,NIPPON INDIA ETF NIFTY 100
 537536,Denis Chem Lab Ltd
 537573,Polymac Thermoformers Ltd
@@ -2903,7 +2909,6 @@ code,name
 537800,Mangalam Industrial Finance Ltd
 537820,Viji Finance Ltd
 537839,HBG Hotels Ltd
-537840,Raunaq International Ltd
 537985,Infronics Systems Ltd
 538057,CPSE ETF
 538081,Haria Apparels Ltd
@@ -2922,9 +2927,9 @@ code,name
 538446,Moneyboxx Finance Ltd
 538451,Worth Investment & Trading Co Ltd
 538464,Thirani Projects Ltd
-538465,Amarnath Securities Ltd
 538476,Capital Trade Links Ltd
 538496,Tarini International Ltd
+538520,Shivamshree Businesses Ltd
 538521,Yaan Enterprises Ltd
 538539,Annvrridhhi  Ventures Ltd
 538540,Raama Finance Ltd
@@ -3030,7 +3035,6 @@ code,name
 539012,Megri Soft Ltd
 539013,Gita Renewable Energy Ltd
 539014,Kalpa Commercial Ltd
-539015,Ortel Communications Ltd
 539016,Neil Industries Ltd
 539017,Star Housing Finance Ltd
 539018,Beekay Steel Industries Ltd
@@ -3130,8 +3134,8 @@ code,name
 539353,Sal Automotive Ltd
 539354,Polyspin Exports Ltd
 539359,Pritika Auto Industries Ltd
-539378,Soni Medicare Ltd
 539383,Mahaveer Infoway Ltd
+539384,Krishna Capital and Securities Ltd
 539391,Acme Resources Ltd
 539393,Kabra Commercial Ltd
 539398,Vishal Bearings Ltd
@@ -3169,7 +3173,7 @@ code,name
 539516,HDFC NIFTY 50 ETF
 539517,HDFC BSE SENSEX ETF
 539518,Uday Jewellery Industries Ltd
-539519,Sattva Sukun Lifecare Ltd
+539519,Tavexia Lifecare Ltd
 539521,Navigant Corporate Advisors Ltd
 539522,Grovy India Ltd
 539523,Alkem Laboratories Ltd
@@ -3184,7 +3188,7 @@ code,name
 539545,Apoorva Leasing Finance and Investment Company Ltd
 539546,Agribio Spirits Ltd
 539551,Narayana Hrudayalaya Ltd
-539552,F Mec International Financial Services Ltd
+539552,Dhvija Finance Ltd
 539559,Deep Health AI India Ltd
 539560,Malt Land Distilleries Ltd
 539561,Supha Pharmachem Ltd
@@ -3343,7 +3347,6 @@ code,name
 540318,Sueryaa Knitwear Ltd
 540332,Tanvi Foods (India) Ltd
 540358,RMC Switchgears Ltd
-540359,Parmax Pharma Ltd
 540360,Leading Leasing Finance And Investment Company Ltd
 540361,Danube Industries Ltd
 540366,Music Broadcast Ltd
@@ -4393,7 +4396,7 @@ code,name
 544329,Leo Dryfruits & Spices Trading Ltd
 544330,Parmeshwar Metal Ltd
 544331,Davin Sons Retail Ltd
-544332,Fabtech Technologies Cleanrooms Ltd
+544332,Fabtech Cleanrooms Ltd
 544333,Standard Engineering Technology Ltd
 544334,Indobell Insulations Ltd
 544335,B.R.Goyal Infrastructure Ltd
@@ -4879,6 +4882,39 @@ code,name
 544855,Prima Innovation Ltd
 544856,Fusion Klassroom Edutech Ltd
 544857,DSP BSE MidSmall Private Banks ETF
+544858,Aegeus Technologies Ltd
+544859,G V Electricals Ltd
+544860,Ardee Industries Ltd
+544861,Swaraj Suiting Ltd
+544862,Solex Energy Ltd
+544863,LAPL Automotive Ltd
+544864,Technocraft Ventures Ltd
+544865,LEAP India Ltd
+544866,Molbio Diagnostics Ltd
+544867,Dhoot Transmission Ltd
+544868,Milky Mist Dairy Food Ltd
+544869,Sham Foam Ltd
+544870,Behari Lal Engineering Ltd
+544871,Shiprocket Ltd
+544872,Q&T Foods Ltd
+544873,JioBlackRock Nifty 50 ETF
+544874,Mirae Asset BSE LargeMid (60:40) Stable Dividend 50 ETF
+544876,ENS Enterprises Ltd
+544877,Technocrats Plasma Systems Ltd
+544878,Invesco India BSE Sensex ETF
+544879,Lalithaa Jewellery Mart Ltd
+544880,Horizon Industrial Parks Ltd
+544881,Sunshine Pictures Ltd
+544882,Shankesh Jewellers Ltd
+544883,Mopshop Distribution Ltd
+544884,Dhanwel Hybrid Seeds Ltd
+544885,Gaja Alternative Asset Management Ltd
+544886,Tempsens Instruments (India) Ltd
+544887,UTI Nifty 500 Exchange Traded Fund
+544888,Augmont Enterprises Ltd
+544889,Symbiotec Pharmalab Ltd
+544890,Skyways Air Services Ltd
+544891,Hy-Tech Engineers Ltd
 555555,ICICI Prudential BSE Sensex ETF
 570002,Future Enterprises Ltd_DVR
 570004,Jain Irrigation Systems Ltd_DVR
@@ -4916,12 +4952,12 @@ code,name
 590108,Nippon India ETF Nifty PSU Bank BeES
 590109,Nippon India ETF Nifty 50 Shariah BeES
 590110,Quantum Nifty 50 ETF
+590113,NIPPON INDIA ETF HANG SENG BEES
 590115,Motilal Oswal Nifty 50 ETF
 590134,Madras Fertilizers Ltd
 590136,Kotak Nifty Bank ETF
 590137,SBI-ETF NIFTY BANK
 590138,SBI-ETF NIFTY 50
-590139,Kotak Nifty 1D Rate Liquid ETF
 590141,Nippon India ETF Nifty IT
 590142,Nippon India Nifty Pharma ETF
 590144,Nippon India ETF Nifty Midcap 150
@@ -4936,15 +4972,15 @@ code,name
 590158,Groww Nifty India Railways PSU ETF
 590160,Tata Nifty 50 Exchange Traded Fund
 750942,Dhanlaxmi Bank Ltd
-751127,Minolta Finance Ltd
+751131,CONTAINE TECHNOLOGIES Ltd
+751132,Manoj Jewellers Ltd
+751133,ALAN SCOTT ENTERPRISES Ltd
 780014,Has Lifestyle Ltd
 780016,Web Element Solutions Ltd
 780018,Adhiraj Distributors Ltd
 890217,Aplab Ltd
-890221,Spandana Sphoorty Financial Ltd
 890226,Suraj Industries Ltd
 890228,Allcargo Terminals Ltd
-890230,Ace Software Exports ltd
 890231,ANIRIT VENTURES Ltd
 890234,Vertex Securities Ltd
 890238,GS Auto International Ltd
