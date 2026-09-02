@@ -428,13 +428,22 @@ def run(mode, dry, limit=None):
         mix[r2["size_source"]] += 1
 
         new_alerts = cluster.process(item, r2)
-        alerts.extend(new_alerts)
+        # v5 Change 3: a deal notifies exactly once. Attaching to an existing
+        # deal still returns the merged record (flagged `silent`) so the
+        # aggregator below keeps seeing it, but only a genuinely new deal is
+        # ever sent.
+        alerts.extend(a for a in new_alerts if not a.get("silent"))
 
-        # v3 Change B: feed the salami-slice aggregator. Recorded only when
-        # cluster.process() actually alerted (new deal or amount UPDATE) —
-        # not per raw article — so a deal repeated across five outlets
-        # doesn't get counted five times toward the rolling 90-day sum.
-        if new_alerts and r2.get("individuals") and r2.get("amount_cr") is not None:
+        # v3 Change B: feed the salami-slice aggregator — on a NEW deal, or on
+        # an existing deal whose amount this article actually changed. Never on
+        # the raw article, so a deal repeated across five outlets doesn't get
+        # counted five times toward the rolling 90-day sum, and never on an
+        # attach that only added a seller name (that is the same sale again).
+        # This is exactly the pre-v5 condition, which used to be "did an alert
+        # fire" back when a material update still sent one.
+        recorded = [a for a in new_alerts
+                    if not a.get("silent") or a.get("amount_changed")]
+        if recorded and r2.get("individuals") and r2.get("amount_cr") is not None:
             company_key = cluster.deal_key(r2.get("company") or "")
             for individual in r2["individuals"]:
                 pk, canonical_name = cluster.resolve_person_key(

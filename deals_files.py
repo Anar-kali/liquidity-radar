@@ -150,9 +150,10 @@ def handle_confirmed_row(company, client_name, value_cr, exchange, deal_type,
                           trade_date, quantity=None, price=None, dry=False):
     """
     Run one confirmed individual-seller row through the same deal-clustering
-    system as news. Fires a CONFIRMED alert on a new deal or when the amount
-    was previously unknown; attaches silently (but still records the fact)
-    when the cluster already had an amount. Returns True if an alert fired.
+    system as news. Fires a CONFIRMED alert only on a NEW deal; if the row
+    attaches to a deal that already exists, the confirmed figure and seller are
+    recorded onto it silently (v5 Change 3 — one alert per deal, even when the
+    later fact is a hard confirmed number). Returns True if an alert fired.
     """
     result = {
         "company": company,
@@ -176,7 +177,10 @@ def handle_confirmed_row(company, client_name, value_cr, exchange, deal_type,
              f"Rs {value_cr:g}cr")
         return False
 
-    alerts = cluster.process(item, result, confirmed=True)
+    # v5 Change 3: a `silent` alert means the facts were recorded onto an
+    # existing deal that has already been announced — nothing to send.
+    alerts = [a for a in cluster.process(item, result, confirmed=True)
+              if not a.get("silent")]
     for alert in alerts:
         row = {
             "security_name": company, "client_name": client_name,

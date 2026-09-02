@@ -15,9 +15,10 @@ deal_type is deliberately NOT part of the match — one outlet's "strategic
 buyout" is another's "PE secondary".
 
   - First item creates the deal and fires an alert.
-  - Later items attach silently...
-  - ...EXCEPT when a later item adds a material fact the record lacks. Then we
-    fire one follow-up marked UPDATE.
+  - Every later item attaches SILENTLY. Its new facts (amount, seller,
+    individuals, confirmed flag) are written to the deal record and shown in
+    the daily digest, but never notify — v5 Change 3: one alert per deal, full
+    stop. The research after that first alert is done by hand.
 """
 
 import json
@@ -172,17 +173,15 @@ def _material_updates(existing, result):
     """
     Compare a new classifier result against the stored deal.
 
-    Returns (updates_dict, fire_alert, note):
-      - updates_dict: columns to persist (amount, and newly-known individual /
-        seller). Persisted whether or not we alert.
-      - fire_alert: True ONLY when the amount appears or revises by >20%. A new
-        seller or individual alone updates the record silently — the banker does
-        his own research once alerted; a second ping naming the seller is noise.
-        When an amount update does fire, the alert already carries the latest
-        individual and seller via the merged record.
+    Returns (updates_dict, note). `updates_dict` is the columns to persist —
+    amount, and newly-known individual / seller.
+
+    v5 Change 3: nothing here fires a notification any more. A deal alerts
+    exactly once, when it is first created; every later article about it
+    updates the record silently. `note` survives only to describe what changed
+    for the digest and the logs.
     """
     updates = {}
-    fire_alert = False
     notes = []
 
     # Treat a stored amount of exactly 0 the same as "not really known yet" —
@@ -199,7 +198,6 @@ def _material_updates(existing, result):
         updates["amount_cr"] = new_amount
         updates["amount_raw"] = result.get("amount_raw")
         updates["size_source"] = "stated"   # a real figure now exists
-        fire_alert = True
         notes.append("amount added")
     elif (
         old_amount is not None
@@ -210,7 +208,6 @@ def _material_updates(existing, result):
         updates["amount_cr"] = new_amount
         updates["amount_raw"] = result.get("amount_raw")
         updates["size_source"] = "stated"
-        fire_alert = True
         notes.append(f"amount revised {old_amount:g}→{new_amount:g} cr")
 
     # Newly-known individual / seller are persisted but do NOT fire on their own.
@@ -225,7 +222,7 @@ def _material_updates(existing, result):
     if not existing.get("seller") and result.get("seller"):
         updates["seller"] = result.get("seller")
 
-    return updates, fire_alert, "; ".join(notes)
+    return updates, "; ".join(notes)
 
 
 def _confirmed_updates(existing, result):
@@ -233,18 +230,16 @@ def _confirmed_updates(existing, result):
     Update rule for a CONFIRMED source (block/bulk deal, PIT disclosure) — the
     money here is a fact, not a classifier estimate, so the semantics differ
     from a news revision:
-      - existing amount unknown -> the confirmed figure IS the news. Fire an
-        UPDATE.
-      - existing amount already known (whatever the source) -> the confirmed
-        figure and seller name still get recorded onto the deal record, but
-        SILENTLY — the alert already went out for this deal; a fact-check
-        attach is not a second ping.
+    Everything is recorded onto the deal record; nothing notifies. Under v5
+    Change 3 even a confirmed figure landing on an amount-less deal stays
+    silent — the alert for that deal already went out, and the user does their
+    own research from there.
     Always marks the deal `confirmed=1` once any confirmed source touches it.
     """
     updates = {"confirmed": 1}
     old_amount = existing.get("amount_cr") or None  # 0 treated as "not really known"
     new_amount = result.get("amount_cr")
-    fire_alert = old_amount is None and new_amount is not None
+    learned_amount = old_amount is None and new_amount is not None
 
     # Only ever overwrite with a REAL figure — never let a confirmed-source
     # call site that somehow lacks a value (e.g. a future caller) wipe out a
@@ -259,14 +254,18 @@ def _confirmed_updates(existing, result):
     if new_individuals and not set(new_individuals) <= set(old_individuals):
         updates["individuals"] = list(dict.fromkeys(old_individuals + new_individuals))
 
-    note = "amount confirmed" if fire_alert else "seller/value confirmed (silent)"
-    return updates, fire_alert, note
+    note = "amount confirmed" if learned_amount else "seller/value confirmed"
+    return updates, note
 
 
 def process(item, result, confirmed=False):
     """
     Handle one qualifying item.
-    Returns a list of alert dicts (a new-deal alert, an UPDATE, or nothing).
+
+    Returns a list holding at most one alert dict. A brand-new deal returns a
+    sendable alert; an item attaching to an existing deal returns one flagged
+    `silent=True` (recorded, never sent) or nothing at all. **Callers must
+    filter out `silent` alerts before notifying.**
 
     `confirmed=True` marks the source as fact rather than a classifier
     estimate (block/bulk deal files, PIT disclosures — v3 Change A/B) and uses
@@ -302,16 +301,20 @@ def process(item, result, confirmed=False):
         db.add_deal_member(deal_id, title, url)
         return [_alert_from_deal(deal, deal_id, is_update=False)]
 
-    # Existing deal — record the merge, then decide whether to fire an UPDATE.
+    # Existing deal — record the merge and persist any new facts. v5 Change 3:
+    # this never notifies. The merged record is still RETURNED, flagged
+    # `silent`, because two callers need to know a material fact landed even
+    # though nothing is sent: main.py feeds the salami-slice aggregator from
+    # it, and deals_files.py counts real alerts. Every caller must therefore
+    # filter on `silent` before sending anything.
     db.add_deal_member(match["id"], title, url)
     if confirmed:
-        updates, fire_alert, note = _confirmed_updates(match, result)
+        updates, note = _confirmed_updates(match, result)
     else:
-        updates, fire_alert, note = _material_updates(match, result)
-    if updates:
-        db.update_deal(match["id"], dict(updates))  # persist new facts always
-    if not fire_alert:
-        return []  # seller/individual alone (or a silent confirm) don't alert
+        updates, note = _material_updates(match, result)
+    if not updates:
+        return []
+    db.update_deal(match["id"], dict(updates))  # persist new facts always
 
     merged = dict(match)
     merged.update(updates)
@@ -321,6 +324,12 @@ def process(item, result, confirmed=False):
     merged["url"] = url or match.get("url", "")
     alert = _alert_from_deal(merged, match["id"], is_update=True)
     alert["note"] = note
+    alert["silent"] = True   # recorded, never sent
+    # Pre-v5 this was the exact condition that fired an UPDATE alert, and the
+    # salami-slice aggregator keyed off that alert. Now that nothing fires, the
+    # aggregator keys off this flag instead — otherwise a second article that
+    # merely names the seller would count the same sale twice.
+    alert["amount_changed"] = "amount_cr" in updates
     return [alert]
 
 
