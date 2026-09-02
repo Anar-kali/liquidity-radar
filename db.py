@@ -186,6 +186,27 @@ def init_db(path=DB_PATH):
 
         -- v4: one row per main.py run, so the daily digest can show where
         -- volume goes without re-deriving it from suppressed/items each time.
+        -- v5 Change 4: every NON-EXACT company-name match. The fuzzy tiers
+        -- (subset, alias) enforce from day one, and a wrong match suppresses a
+        -- real deal INVISIBLY -- nothing reaches Telegram to notice. This log
+        -- is therefore the only way to find one, so it records enough to both
+        -- detect the mistake and reverse it: what was matched, to what, on
+        -- which token, and what the pipeline then did about it.
+        CREATE TABLE IF NOT EXISTS name_match_log (
+            id          INTEGER PRIMARY KEY AUTOINCREMENT,
+            input_name  TEXT,     -- the company name as extracted
+            title       TEXT,     -- the item it came from
+            url         TEXT,
+            tier        TEXT,     -- alias | subset
+            master_name TEXT,     -- the master-list name it matched
+            ticker      TEXT,
+            rare_token  TEXT,     -- the token that carried a subset match
+            rare_df     INTEGER,  -- how many master names hold that token
+            mcap_cr     REAL,
+            decision    TEXT,     -- passed | suppressed
+            created_at  TEXT
+        );
+
         CREATE TABLE IF NOT EXISTS funnel_runs (
             id                 INTEGER PRIMARY KEY AUTOINCREMENT,
             mode               TEXT,
@@ -193,6 +214,7 @@ def init_db(path=DB_PATH):
             already_seen       INTEGER,
             structural_dropped INTEGER,
             stale_dropped      INTEGER,
+            republisher_gated  INTEGER,
             title_deduped      INTEGER,
             bse_mcap_gated     INTEGER,
             pre_api_gated      INTEGER,
@@ -260,6 +282,8 @@ def init_db(path=DB_PATH):
         conn.execute("ALTER TABLE funnel_runs ADD COLUMN bse_mcap_gated INTEGER")
     if "stale_dropped" not in existing_funnel:
         conn.execute("ALTER TABLE funnel_runs ADD COLUMN stale_dropped INTEGER")
+    if "republisher_gated" not in existing_funnel:
+        conn.execute("ALTER TABLE funnel_runs ADD COLUMN republisher_gated INTEGER")
 
     # This index depends on items.title_norm, which the migration above may
     # have JUST added on an existing (pre-v4) database — it must run after
@@ -837,8 +861,52 @@ def record_pattern_alert(person_key, company_key, total_cr, path=DB_PATH):
 _FUNNEL_FIELDS = (
     "mode", "fetched", "already_seen", "structural_dropped", "stale_dropped",
     "title_deduped", "bse_mcap_gated", "pre_api_gated", "reached_stage1",
-    "reached_stage2", "alerted",
+    "reached_stage2", "republisher_gated", "alerted",
 )
+
+
+def add_name_match(input_name, title, url, match, mcap_cr, decision,
+                   path=DB_PATH):
+    """Record one non-exact company-name match (v5 Change 4).
+
+    Exact matches are not logged — they are the pre-existing behaviour and
+    would bury the fuzzy ones this exists to surface.
+    """
+    if not match or match.get("tier") == "exact":
+        return
+    conn = _conn(path)
+    conn.execute(
+        "INSERT INTO name_match_log (input_name, title, url, tier, master_name,"
+        " ticker, rare_token, rare_df, mcap_cr, decision, created_at)"
+        " VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+        (input_name, title, url, match.get("tier"), match.get("master"),
+         match.get("ticker"), match.get("rare_token"), match.get("rare_df"),
+         mcap_cr, decision, now_iso()),
+    )
+    conn.commit()
+    conn.close()
+
+
+def name_matches_since(days=7, path=DB_PATH):
+    """Recent non-exact name matches, newest first.
+
+    Returns [] rather than raising when the table doesn't exist yet: the
+    report that reads this is meant to be runnable on a database the upgraded
+    pipeline hasn't touched yet, and a traceback there reads like a broken
+    tool rather than "nothing logged so far".
+    """
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=days)).isoformat()
+    conn = _conn(path)
+    try:
+        rows = conn.execute(
+            "SELECT * FROM name_match_log WHERE created_at >= ? ORDER BY created_at DESC",
+            (cutoff,),
+        ).fetchall()
+    except sqlite3.OperationalError:
+        return []
+    finally:
+        conn.close()
+    return [dict(r) for r in rows]
 
 
 def add_funnel_run(counters, path=DB_PATH):

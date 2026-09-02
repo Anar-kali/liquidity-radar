@@ -15,14 +15,16 @@ Pipeline for a run (v4 Part 1 — see SPEC-v4-upgrade.md):
     4. Freshness gate: drop news published more than config.NEWS_MAX_AGE_HOURS
        ago. Exchange filings exempt; an item with no timestamp passes.
     5. Title dedup: drop near-duplicate headlines (Google News URL rotation).
-    6. BSE market-cap gate: drop a BSE filing whose company resolves to a
-       market cap under config.BSE_MCAP_MIN_CR — not worth alerting on
-       regardless of what the filing says. No-op for non-BSE items.
+    6. Filing market-cap gate: drop a BSE or NSE filing whose company resolves
+       to a market cap under config.MCAP_MIN_CR — not worth alerting on
+       regardless of what the filing says. No-op for news items.
     7. Pre-API amount gate: regex-suppress a clearly-small stated deal before
        spending an API call on it.
     8. Stage 1 (Haiku, slim boolean+rule schema): reject confirmed noise.
        SEBI DRHP items skip this stage entirely (Change 5).
-    9. Stage 2 (Haiku, full extraction): positively confirm + size the deal.
+    9. Stage 2 (Haiku, full extraction): positively confirm + size the deal,
+       then apply the market-cap floor to news and the re-publisher substance
+       gate. Neither costs an API call — both reuse stage 2's own extraction.
    10. Everything that qualifies goes through clustering, which fires an alert
        for a NEW deal and attaches every later item silently (v5 Change 3).
 
@@ -134,7 +136,7 @@ def run(mode, dry, limit=None):
         "mode": mode, "fetched": len(raw), "already_seen": 0,
         "structural_dropped": 0, "stale_dropped": 0, "title_deduped": 0,
         "bse_mcap_gated": 0, "pre_api_gated": 0, "reached_stage1": 0,
-        "reached_stage2": 0, "alerted": 0,
+        "reached_stage2": 0, "republisher_gated": 0, "alerted": 0,
     }
 
     # Dedup against what we've already seen. Query attribution (v4 Change 7)
@@ -269,17 +271,22 @@ def run(mode, dry, limit=None):
     # (`suppress` and its counter are defined above the filter chain, so the
     # freshness gate can record its drops too.)
 
-    # BSE market-cap gate — a BSE filing's company name usually resolves to a
-    # real, cached market cap (sizing.py), unlike free-text news, so this
-    # suppresses on company size directly rather than deal-value regex. A
-    # no-op for anything not sourced from BSE, and for a BSE company that
-    # doesn't resolve to a listed ticker (recall bias: unknown passes).
+    # Exchange-filing market-cap gate — a filing names its company
+    # structurally (BSE by scrip name, NSE by ticker symbol), unlike free-text
+    # news, so this suppresses on company size directly rather than on a
+    # deal-value regex. A no-op for anything that isn't a BSE/NSE filing, and
+    # for a company that doesn't resolve (recall bias: unknown passes).
+    #
+    # v5 Change 2 extended this from BSE-only to NSE as well. NSE is 40% of
+    # everything fetched and had no size gate at all, which is why microcap
+    # disclosures were reaching the classifier untouched.
     mcap_survivors = []
     for item in fresh:
-        mcap, ticker = filters.bse_market_cap(item)
-        fires = mcap is not None and mcap < config.BSE_MCAP_MIN_CR
-        reason = f"BSE company {ticker} mcap ~Rs {mcap:.0f}cr < {config.BSE_MCAP_MIN_CR}cr" if fires else ""
-        if apply_prefilter(item, fires, "bse_mcap", reason, "bse_mcap_gated"):
+        mcap, ticker = filters.filing_market_cap(item)
+        fires = mcap is not None and mcap < config.MCAP_MIN_CR
+        reason = (f"{item.get('source')} company {ticker} mcap ~Rs {mcap:.0f}cr "
+                  f"< {config.MCAP_MIN_CR}cr") if fires else ""
+        if apply_prefilter(item, fires, "filing_mcap", reason, "bse_mcap_gated"):
             suppress(item, "Rule M", {"amount_cr": None, "amount_raw": reason}, gate="pre-api")
             continue
         mcap_survivors.append(item)
@@ -418,22 +425,60 @@ def run(mode, dry, limit=None):
         src = None
         if r2["amount_cr"] is None:
             text = f"{item.get('title', '')} {item.get('description', '')}"
-            sz = sizing.resolve_size(r2.get("company") or item.get("title", ""), text)
+            company = r2.get("company") or item.get("title", "")
+            sz = sizing.resolve_size(company, text)
             src = sz.get("size_source")
+            match = sz.get("match")
+
+            def log_match(decision):
+                """Record a non-exact name match beside what it caused (v5
+                Change 4). A no-op for exact matches and unresolved names."""
+                db.add_name_match(company, item.get("title", ""),
+                                  item.get("url", ""), match,
+                                  sz.get("mcap_cr"), decision)
+
             if src == "computed":
-                if sz["amount_cr"] < config.THRESHOLD_CR:
+                # A stated stake sizes the deal directly, so it is judged on
+                # deal value (300cr), not on company size — a 40% stake in a
+                # 900cr company is a real payout even though the company is
+                # under the size floor.
+                if sz["amount_cr"] < config.STAKE_VALUE_MIN_CR:
+                    log_match("suppressed")
                     suppress(item, "Rule 8", {
                         "amount_cr": sz["amount_cr"],
-                        "amount_raw": f"{sz['pct']:g}% x mcap ~Rs {sz['mcap_cr']:.0f}cr"})
+                        "amount_raw": (f"{sz['pct']:g}% x mcap ~Rs {sz['mcap_cr']:.0f}cr "
+                                       f"= ~Rs {sz['amount_cr']:.0f}cr "
+                                       f"< {config.STAKE_VALUE_MIN_CR}cr")})
                     continue
+                log_match("passed")
                 r2["amount_cr"] = sz["amount_cr"]
                 r2["amount_raw"] = (f"{sz['pct']:g}% x mcap ~Rs {sz['mcap_cr']:.0f}cr "
                                     f"= ~Rs {sz['amount_cr']:.0f}cr")
-            elif src == "mcap_plausible" and sz["mcap_cr"] < config.MCAP_PLAUSIBLE_MIN:
-                suppress(item, "Rule 8", {
-                    "amount_cr": None,
-                    "amount_raw": f"mcap ~Rs {sz['mcap_cr']:.0f}cr < {config.MCAP_PLAUSIBLE_MIN}"})
-                continue
+            elif src == "mcap_plausible":
+                # No stake stated, so there is nothing to size the deal with —
+                # judge the company instead (v5 Change 2: one floor everywhere).
+                if sz["mcap_cr"] < config.MCAP_MIN_CR:
+                    log_match("suppressed")
+                    suppress(item, "Rule 8", {
+                        "amount_cr": None,
+                        "amount_raw": (f"mcap ~Rs {sz['mcap_cr']:.0f}cr "
+                                       f"< {config.MCAP_MIN_CR}cr")})
+                    continue
+                log_match("passed")
+
+        # v5 Change 6 — substance gate on re-publishers. Google re-pushes these
+        # with fresh timestamps, so the freshness gate cannot tell the article
+        # is months old and the true date is unrecoverable. Gate on substance
+        # instead: by this point the item has neither a real amount nor a
+        # listed company big enough to clear the size floor, so for these
+        # sources only, "unknown" fails instead of passing.
+        if (filters.is_republisher(item)
+                and r2["amount_cr"] is None and src is None):
+            funnel["republisher_gated"] += 1
+            reason = (f"{filters.publisher(item)}: no stated amount and no "
+                      f"listed company — re-publisher substance gate")
+            suppress(item, "Rule R", {"amount_cr": None, "amount_raw": reason})
+            continue
 
         # Deterministic small-amount gate on whatever amount we now have.
         if r2["amount_cr"] is not None and r2["amount_cr"] < config.THRESHOLD_CR:

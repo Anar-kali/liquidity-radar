@@ -181,16 +181,51 @@ def _bse_company_name(item):
     return title.split(":", 1)[0].strip() if ":" in title else title
 
 
-def bse_market_cap(item):
-    """Return (market_cap_cr, ticker) for a BSE item's company if it
-    resolves to a listed ticker with a known market cap, else (None, None).
-    A no-op for any non-BSE item."""
-    if item.get("source") != "BSE":
+def filing_market_cap(item):
+    """
+    Return (market_cap_cr, ticker) for an exchange filing's company, or
+    (None, None). A no-op for anything that isn't a BSE or NSE filing.
+
+    The two exchanges name their subject differently, and NSE is the easier
+    of the two: its titles carry the TICKER SYMBOL itself ("PARKHOSPS: Copy
+    of Newspaper Publication"), so no name matching is involved at all. BSE
+    titles carry the scrip name, which goes through the normal matcher.
+
+    v5 Change 2 — NSE filings had no market-cap gate at all before this, even
+    though NSE is 40% of everything fetched and 56% of its titles carry a
+    symbol matching the master list exactly.
+    """
+    source = item.get("source")
+    if source == "NSE":
+        ticker = sizing.resolve_nse_symbol(item.get("title"))
+    elif source == "BSE":
+        ticker = sizing.resolve_ticker(_bse_company_name(item))
+    else:
         return None, None
-    ticker = sizing.resolve_ticker(_bse_company_name(item))
     if not ticker:
         return None, None
     mcap = sizing.market_cap_cr(ticker)
     if mcap is None:
-        return None, None
+        return None, None                       # lookup failed -> unknown passes
     return mcap, ticker
+
+
+# --------------------------------------------------------------------------
+# v5 Change 6 — re-publishers. Google re-pushes scanx.trade articles with
+# FRESH timestamps, so Change 1 cannot tell they are months old, and the true
+# date is unrecoverable: the Google News link is an opaque redirect token, the
+# interstitial page carries no publisher URL, and reaching the real article
+# needs Google's undocumented batchexecute RPC.
+#
+# So these are gated on SUBSTANCE instead of age — see main.py. Blanket-
+# blocking the publisher was rejected: it would have cost Waaree Energies at
+# Rs 14,307cr and CultFit at Rs 2,500cr, both of which scanx broke alone.
+# --------------------------------------------------------------------------
+def publisher(item):
+    """The outlet Google News appends to a headline as ' - Publisher'."""
+    match = _TRAILING_SOURCE_RE.search((item.get("title") or "").strip())
+    return match.group(0).strip(" -").strip() if match else ""
+
+
+def is_republisher(item):
+    return publisher(item).lower() in {s.lower() for s in config.REPUBLISHER_SOURCES}

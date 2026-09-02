@@ -14,10 +14,40 @@ import os
 # --------------------------------------------------------------------------
 THRESHOLD_CR = 250
 
-# Listed-company plausibility floor (crore). Below this market cap, even a
-# promoter selling the whole company barely clears the threshold, so a deal
-# with no stated size is suppressed. Above it, the item passes.
-MCAP_PLAUSIBLE_MIN = 350
+# --------------------------------------------------------------------------
+# v5 Change 2 — company-size floor. ONE number across the whole pipeline: a
+# listed company smaller than this is not worth an alert regardless of what
+# the item says. Replaces the old MCAP_PLAUSIBLE_MIN of 350 and matches
+# BSE_MCAP_MIN_CR below, so a filing and a news article about the same company
+# are judged identically.
+#
+# Applies at two points (see main.py): pre-API on NSE/BSE filings, where the
+# company is named structurally, and after stage 2 on news, where stage 2 has
+# already extracted the company — neither costs an Anthropic call, since this
+# is a CSV lookup plus a market-cap fetch cached for 7 days.
+# --------------------------------------------------------------------------
+MCAP_MIN_CR = 1000
+
+# When a stake percentage IS stated, the deal is sized directly rather than
+# judged on company size: stake x market cap must clear this. Lower than
+# MCAP_MIN_CR on purpose — a 40% stake in a 900cr company is a real payout
+# even though the company is under the size floor.
+STAKE_VALUE_MIN_CR = 300
+
+# v5 Change 4 — the rarity guard on subset name matching. A subset match may
+# only stand on a token appearing in at most this many master-list names.
+# Without it, "Steel Infra Solutions" matches "Magnus Infra Steel" on two
+# words appearing in 35+ names. Validated at 3 against 30 days of real data:
+# 16 new matches, all correct, and the one wrong match rejected.
+MATCH_RARE_TOKEN_MAX_DF = 3
+
+# v5 Change 6 — re-publishers. Google re-pushes these with FRESH timestamps,
+# so the freshness gate (Change 1) cannot see that the article is old, and the
+# real publication date is unrecoverable behind Google's opaque redirect.
+# For these sources only, the standing "unknown passes" bias is INVERTED: the
+# item must carry a real size or a listed company clearing MCAP_MIN_CR.
+# Matched against the publisher suffix Google News appends to a title.
+REPUBLISHER_SOURCES = {"scanx.trade"}
 
 # --------------------------------------------------------------------------
 # v4 Part 1 — pre-classification filters. Everything here runs before any
