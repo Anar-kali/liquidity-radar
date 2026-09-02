@@ -12,17 +12,19 @@ Pipeline for a run (v4 Part 1 — see SPEC-v4-upgrade.md):
     1. Fetch items for the mode.
     2. Drop items already in the database (dedup on source id / URL).
     3. Structural blocklist: drop liveblogs/slideshows/etc by document type.
-    4. Title dedup: drop near-duplicate headlines (Google News URL rotation).
-    5. BSE market-cap gate: drop a BSE filing whose company resolves to a
+    4. Freshness gate: drop news published more than config.NEWS_MAX_AGE_HOURS
+       ago. Exchange filings exempt; an item with no timestamp passes.
+    5. Title dedup: drop near-duplicate headlines (Google News URL rotation).
+    6. BSE market-cap gate: drop a BSE filing whose company resolves to a
        market cap under config.BSE_MCAP_MIN_CR — not worth alerting on
        regardless of what the filing says. No-op for non-BSE items.
-    6. Pre-API amount gate: regex-suppress a clearly-small stated deal before
+    7. Pre-API amount gate: regex-suppress a clearly-small stated deal before
        spending an API call on it.
-    7. Stage 1 (Haiku, slim boolean+rule schema): reject confirmed noise.
+    8. Stage 1 (Haiku, slim boolean+rule schema): reject confirmed noise.
        SEBI DRHP items skip this stage entirely (Change 5).
-    8. Stage 2 (Haiku, full extraction): positively confirm + size the deal.
-    9. Everything that qualifies goes through clustering, which decides
-       whether to fire a NEW alert, a follow-up UPDATE, or attach silently.
+    9. Stage 2 (Haiku, full extraction): positively confirm + size the deal.
+   10. Everything that qualifies goes through clustering, which fires an alert
+       for a NEW deal and attaches every later item silently (v5 Change 3).
 
 Every counter above is recorded to db.funnel_runs so the daily digest can
 show where volume goes.
@@ -130,8 +132,9 @@ def run(mode, dry, limit=None):
 
     funnel = {
         "mode": mode, "fetched": len(raw), "already_seen": 0,
-        "structural_dropped": 0, "title_deduped": 0, "bse_mcap_gated": 0,
-        "pre_api_gated": 0, "reached_stage1": 0, "reached_stage2": 0, "alerted": 0,
+        "structural_dropped": 0, "stale_dropped": 0, "title_deduped": 0,
+        "bse_mcap_gated": 0, "pre_api_gated": 0, "reached_stage1": 0,
+        "reached_stage2": 0, "alerted": 0,
     }
 
     # Dedup against what we've already seen. Query attribution (v4 Change 7)
@@ -168,6 +171,21 @@ def run(mode, dry, limit=None):
             return False
         return True
 
+    # Defined before the filter chain because the age gate below records its
+    # drops here, not just as a counter.
+    suppressed = [0]  # boxed so the local helper can mutate it
+
+    def suppress(item, rule, r, gate="model"):
+        db.add_suppressed(
+            title=item.get("title", ""),
+            url=item.get("url", ""),
+            rule=rule,
+            amount_cr=r.get("amount_cr"),
+            amount_raw=r.get("amount_raw"),
+            gate=gate,
+        )
+        suppressed[0] += 1
+
     # Structural blocklist (v4 Change 3) — document-type filter, before
     # anything else. No suppression-log entry when enforced, just a counter:
     # this isn't a content judgment that needs auditing later.
@@ -179,6 +197,28 @@ def run(mode, dry, limit=None):
             continue
         kept.append(item)
     candidates = kept
+
+    # Freshness gate (v5 Change 1) — drop news published more than
+    # config.NEWS_MAX_AGE_HOURS ago. Deliberately placed BEFORE title dedup
+    # and before db.add_item: a stale item that got recorded would join the
+    # dedup pool and could then suppress a genuinely fresh article carrying
+    # the same headline on a later run. Exchange filings are exempt and an
+    # item with no timestamp passes (filters.stale_news_age).
+    fresh_enough = []
+    for item in candidates:
+        age = filters.stale_news_age(item)
+        reason = (f"published {age / 24:.1f} days ago "
+                  f"(limit {config.NEWS_MAX_AGE_HOURS}h)") if age else ""
+        if apply_prefilter(item, age is not None, "stale_news", reason,
+                            "stale_dropped"):
+            # Recorded, not just counted: this gate acts on feed metadata the
+            # item itself doesn't show, so a wrong drop is invisible without
+            # an audit row.
+            suppress(item, "Rule D", {"amount_cr": None, "amount_raw": reason},
+                     gate="pre-api")
+            continue
+        fresh_enough.append(item)
+    candidates = fresh_enough
 
     # Title dedup (v4 Change 4) — Google News rotates article URLs, so the
     # same story looks new to the id-based dedup above. Every candidate is
@@ -215,7 +255,8 @@ def run(mode, dry, limit=None):
 
     print(f"[main] {len(fresh)} new items after dedup "
           f"(already-seen {funnel['already_seen']}, structural "
-          f"-{funnel['structural_dropped']}, title dedup -{funnel['title_deduped']}, "
+          f"-{funnel['structural_dropped']}, stale -{funnel['stale_dropped']}, "
+          f"title dedup -{funnel['title_deduped']}, "
           f"PREFILTER_MODE={config.PREFILTER_MODE})")
 
     # Nothing new AND nothing held — only then is there genuinely no work.
@@ -225,18 +266,8 @@ def run(mode, dry, limit=None):
         db.add_funnel_run(funnel)
         return
 
-    suppressed = [0]  # boxed so the local helper can mutate it
-
-    def suppress(item, rule, r, gate="model"):
-        db.add_suppressed(
-            title=item.get("title", ""),
-            url=item.get("url", ""),
-            rule=rule,
-            amount_cr=r.get("amount_cr"),
-            amount_raw=r.get("amount_raw"),
-            gate=gate,
-        )
-        suppressed[0] += 1
+    # (`suppress` and its counter are defined above the filter chain, so the
+    # freshness gate can record its drops too.)
 
     # BSE market-cap gate — a BSE filing's company name usually resolves to a
     # real, cached market cap (sizing.py), unlike free-text news, so this

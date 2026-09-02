@@ -12,6 +12,7 @@ every decision without acting on it for a trial week before enforcing).
 """
 
 import re
+from datetime import datetime, timezone
 
 import classify
 import config
@@ -43,6 +44,41 @@ def is_structural_noise(item):
     if _TITLE_LIVE_RE.search(title_l):
         return True
     return False
+
+
+# --------------------------------------------------------------------------
+# v5 Change 1 — news freshness gate. Feeds keep serving articles long after
+# publication; an old story is not a lead. Two deliberate holes, both in the
+# recall-safe direction: an item with NO timestamp passes, and exchange /
+# regulator filings are exempt entirely (no feed timestamp, same-day by
+# construction, so an age check on them could only ever be a false drop).
+# --------------------------------------------------------------------------
+def published_age_hours(item, now=None):
+    """Hours since publication, or None if the item carries no usable
+    timestamp. A naive timestamp is read as UTC, matching sources.py."""
+    published = item.get("published_at")
+    if not published:
+        return None
+    try:
+        dt = datetime.fromisoformat(published)
+    except (TypeError, ValueError):
+        return None
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    now = now or datetime.now(timezone.utc)
+    return (now - dt).total_seconds() / 3600.0
+
+
+def stale_news_age(item, now=None):
+    """Return the item's age in hours if it should be dropped as stale, else
+    None. None covers every pass case — exempt source, no timestamp, or
+    genuinely fresh — so the caller never has to distinguish them."""
+    if item.get("source") in config.AGE_GATE_EXEMPT_SOURCES:
+        return None
+    age = published_age_hours(item, now)
+    if age is None or age <= config.NEWS_MAX_AGE_HOURS:
+        return None
+    return age
 
 
 # --------------------------------------------------------------------------

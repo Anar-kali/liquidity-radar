@@ -66,8 +66,30 @@ STRUCTURAL_BLOCK_TITLE_PATTERNS = [
 # again — clustering catches it eventually, but only after paying for the
 # API call. Conservative on purpose: over-deduping loses a real story,
 # under-deduping only costs a few tokens.
+#
+# 72h is not a guess — a 3-to-10-day sweep replayed over 12,939 recorded items
+# (2026-09-02) showed widening the window buys 9 extra drops out of 5,801
+# scored items while destroying real deals from day 4 onward: Yatharth
+# Hospitals at 4-5 days, Avaada Electro (Rs 7,600cr) from day 6. Everything
+# worth catching is caught inside 72h; past that the rule stops catching
+# repeats of one story and starts merging DIFFERENT deals at the same company.
 TITLE_DEDUP_WINDOW_HOURS = 72
 TITLE_DEDUP_JACCARD = 0.85
+
+# --------------------------------------------------------------------------
+# v5 Change 1: news freshness gate. Google News and the trade-press feeds keep
+# serving articles long after publication, and an old story is not a lead.
+# Every feed entry measured on 2026-09-02 carried a publication timestamp
+# (279/279 Google News, 264/264 trade press), but an item WITHOUT one still
+# passes — the recall bias that governs every filter here: unknown is never
+# suppressed.
+# --------------------------------------------------------------------------
+NEWS_MAX_AGE_HOURS = 48
+
+# Sources the age gate never applies to. Exchange and regulator filings carry
+# no feed timestamp and are fetched same-day by construction, so an age check
+# on them could only ever produce a false drop.
+AGE_GATE_EXEMPT_SOURCES = {"NSE", "BSE", "SEBI"}
 
 # Sources whose items are NEVER title-deduped. Title dedup exists purely
 # because Google News rotates article URLs for the same story. Exchange and

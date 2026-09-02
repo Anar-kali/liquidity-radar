@@ -44,6 +44,7 @@ def init_db(path=DB_PATH):
             description  TEXT,
             title_norm   TEXT,               -- v4: normalised title, for dedup
             source_query TEXT,                -- v4: Google News query, if any
+            published_at TEXT,                -- v5: feed publication time (UTC)
             fetched_at   TEXT
         );
 
@@ -191,6 +192,7 @@ def init_db(path=DB_PATH):
             fetched            INTEGER,
             already_seen       INTEGER,
             structural_dropped INTEGER,
+            stale_dropped      INTEGER,
             title_deduped      INTEGER,
             bse_mcap_gated     INTEGER,
             pre_api_gated      INTEGER,
@@ -243,6 +245,11 @@ def init_db(path=DB_PATH):
         conn.execute("ALTER TABLE items ADD COLUMN title_norm TEXT")
     if "source_query" not in existing_items:
         conn.execute("ALTER TABLE items ADD COLUMN source_query TEXT")
+    if "published_at" not in existing_items:
+        # v5 Change 1. Rows written before this column existed keep NULL, which
+        # reads as "no timestamp" — i.e. they pass the age gate, same as any
+        # item whose feed didn't date it.
+        conn.execute("ALTER TABLE items ADD COLUMN published_at TEXT")
 
     existing_suppressed = {r[1] for r in conn.execute("PRAGMA table_info(suppressed)")}
     if "gate" not in existing_suppressed:
@@ -251,6 +258,8 @@ def init_db(path=DB_PATH):
     existing_funnel = {r[1] for r in conn.execute("PRAGMA table_info(funnel_runs)")}
     if "bse_mcap_gated" not in existing_funnel:
         conn.execute("ALTER TABLE funnel_runs ADD COLUMN bse_mcap_gated INTEGER")
+    if "stale_dropped" not in existing_funnel:
+        conn.execute("ALTER TABLE funnel_runs ADD COLUMN stale_dropped INTEGER")
 
     # This index depends on items.title_norm, which the migration above may
     # have JUST added on an existing (pre-v4) database — it must run after
@@ -349,8 +358,9 @@ def add_item(item, path=DB_PATH):
     conn = _conn(path)
     conn.execute(
         "INSERT OR IGNORE INTO items "
-        "(id, source, title, url, description, title_norm, source_query, fetched_at) "
-        "VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
+        "(id, source, title, url, description, title_norm, source_query, "
+        "published_at, fetched_at) "
+        "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
         (
             item["id"],
             item.get("source", ""),
@@ -359,6 +369,7 @@ def add_item(item, path=DB_PATH):
             item.get("description", ""),
             item.get("title_norm"),
             item.get("source_query"),
+            item.get("published_at"),
             now_iso(),
         ),
     )
@@ -824,8 +835,9 @@ def record_pattern_alert(person_key, company_key, total_cr, path=DB_PATH):
 # pre-API gate -> stage 1 -> stage 2 -> alerted.
 # --------------------------------------------------------------------------
 _FUNNEL_FIELDS = (
-    "mode", "fetched", "already_seen", "structural_dropped", "title_deduped",
-    "bse_mcap_gated", "pre_api_gated", "reached_stage1", "reached_stage2", "alerted",
+    "mode", "fetched", "already_seen", "structural_dropped", "stale_dropped",
+    "title_deduped", "bse_mcap_gated", "pre_api_gated", "reached_stage1",
+    "reached_stage2", "alerted",
 )
 
 

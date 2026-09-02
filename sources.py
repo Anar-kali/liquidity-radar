@@ -10,6 +10,7 @@ warning and returns an empty list rather than crashing the whole run.
 
 import time
 import urllib.parse
+from calendar import timegm
 from datetime import datetime, timedelta, timezone
 
 import feedparser
@@ -23,6 +24,25 @@ IST = timezone(timedelta(hours=5, minutes=30))
 
 def _log(msg):
     print(f"[sources] {msg}")
+
+
+def _published_iso(entry):
+    """
+    The entry's publication time as a UTC ISO string, or None.
+
+    feedparser hands back a UTC struct_time, which calendar.timegm converts
+    without dragging local time into it (time.mktime would). `updated_parsed`
+    is the fallback for feeds that only date their last edit. Returns None
+    rather than guessing when neither is present — v5 Change 1 lets an item
+    with no timestamp through, so a bad guess here would be worse than nothing.
+    """
+    parsed = entry.get("published_parsed") or entry.get("updated_parsed")
+    if not parsed:
+        return None
+    try:
+        return datetime.fromtimestamp(timegm(parsed), timezone.utc).isoformat()
+    except (TypeError, ValueError, OverflowError):
+        return None
 
 
 def _rss_entries(url, source_name):
@@ -44,6 +64,7 @@ def _rss_entries(url, source_name):
                     "title": title,
                     "url": link,
                     "description": e.get("summary", "") or e.get("description", ""),
+                    "published_at": _published_iso(e),   # v5 Change 1
                 }
             )
     except Exception as exc:  # noqa: BLE001
