@@ -1,7 +1,26 @@
 # SPEC v5 — Freshness, sizing, and one-alert-per-deal
 
-Status: **awaiting approval, nothing built.** Drafted 2026-09-02 with Claude.
+Status: **BUILT 2026-09-02, committed on `main`, NOT YET PUSHED.**
 Baseline measured the same day against the live `radar.db` and the live feeds.
+
+| Change | Commit | Verified |
+|---|---|---|
+| 3 — one alert per deal | `f5a7b13` | 14 checks |
+| 1 — 48h freshness gate | `f786746` | 26 checks + live feed run |
+| 2/4/5/6 — matcher, market-cap, report, re-publisher | `82f61a4` | 43 checks + live NSE pricing |
+
+Changes 2/4/5/6 ship together because Change 2 is meaningless without Change
+4 — the market-cap gate can only judge a company whose name resolves.
+
+**On first run after deploy** `db.init_db()` migrates in three new columns
+(`items.published_at`, `funnel_runs.stale_dropped`, `funnel_runs.republisher_gated`)
+and the `name_match_log` table. Existing rows keep NULL, which reads as
+"no timestamp" — i.e. they pass the age gate, same as any undated item.
+
+**Review one week after deploy:** `python unresolved_report.py`. Read the
+SUPPRESSED half of the fuzzy-match list. If a company there is not the company
+named in the headline, that is a bad match — raise
+`config.MATCH_RARE_TOKEN_MAX_DF` or add a correcting alias.
 
 ## Why
 
