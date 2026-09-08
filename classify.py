@@ -305,6 +305,92 @@ def stated_cr_max(*texts):
     return max(vals) if vals else None
 
 
+# --------------------------------------------------------------------------
+# Company-name hygiene.
+#
+# `company` is the primary scan target of every row on the site and the key
+# clustering matches on, but the model occasionally returns the HEADLINE
+# instead of the name — publisher suffix and all. Measured on 2026-09-08 over
+# 601 deals: 5 rows carried a leaked " - Publisher", 4 held more than one
+# company ("Welspun Corp; PhysicsWallah"), and the longest was 116 characters
+# of Economic Times headline.
+#
+# The prompt (config.STAGE2_SYSTEM_PROMPT) is the real fix and now states the
+# constraint explicitly. This is the belt-and-braces pass for when it slips:
+# it repairs only what is MECHANICALLY safe and refuses to guess at the rest,
+# which is the same rule sizing.py and reconcile_amount() follow. A bad name
+# that survives is reported loudly rather than silently mangled — truncating a
+# headline to 60 characters would produce a plausible-looking wrong company,
+# which is worse than an obviously wrong one.
+#
+# NOTE: filters.py imports this module, so this cannot import filters — the
+# trailing-source pattern is duplicated here deliberately, not by oversight.
+# --------------------------------------------------------------------------
+_COMPANY_TRAILING_SOURCE_RE = re.compile(r"\s+-\s+[^-]+$")
+_COMPANY_WS_RE = re.compile(r"\s+")
+
+# Length beyond which a "company name" is almost certainly a headline. The
+# longest legitimate name seen in the same 601 deals was 67 chars — "MSEDCL
+# (Maharashtra State Electricity Distribution Company Limited)" — so this sits
+# above the real ceiling and only catches prose.
+COMPANY_MAX_LEN = 70
+
+# A company name never contains a currency symbol, a percentage, or
+# sentence-ending punctuation — headlines routinely do. These are invariants,
+# not a blocklist of phrasings, so they do not need maintaining as coverage
+# changes.
+#
+# An earlier draft flagged on ". " as well. That was wrong: abbreviations are
+# ubiquitous in Indian company names ("IFL Finance Ltd.", "Dr. Agarwal
+# Healthcare", "T.C. Terrytex Limited") and it produced 7 false positives in 11
+# on real data. Kept out deliberately.
+_HEADLINE_SIGNALS = ("%", "\u20b9", "?", "!", " crore", " rs ")
+
+
+def looks_like_headline(name):
+    """True when `company` is prose rather than a name. Detection only."""
+    if not name:
+        return False
+    low = f" {name.lower()} "
+    return len(name) > COMPANY_MAX_LEN or any(s in low for s in _HEADLINE_SIGNALS)
+
+
+def clean_company(name):
+    """
+    Repair the mechanically-safe defects in a model-returned company name.
+    Returns (cleaned, note) where note is None when nothing was wrong, else a
+    short reason for the caller to log.
+
+    Safe repairs only:
+      - strip a trailing " - Publisher" Google News suffix
+      - strip wrapping quotes and collapse whitespace
+
+    Explicitly NOT repaired, because every option is a guess:
+      - a headline in the company field (no way to recover the name)
+      - two companies in one value (no way to know which the deal is about)
+    Both are reported so they surface in the run log instead of vanishing.
+    """
+    if not name:
+        return "", None
+    cleaned = _COMPANY_WS_RE.sub(" ", str(name)).strip().strip('"').strip("'")
+
+    note = None
+    stripped = _COMPANY_TRAILING_SOURCE_RE.sub("", cleaned).strip()
+    # Only accept the strip if it leaves something name-shaped behind. On a
+    # short real name a stray " - " would otherwise eat half the name.
+    if stripped and stripped != cleaned and len(stripped) >= 3:
+        cleaned = stripped
+        note = "publisher suffix stripped"
+
+    notes = [note] if note else []
+    if ";" in cleaned:
+        notes.append("multiple companies in one value")
+    if looks_like_headline(cleaned):
+        notes.append("headline in company field")
+
+    return cleaned, "; ".join(notes) if notes else None
+
+
 def reconcile_amount(model_amount_cr, amount_raw):
     """
     Guard against Haiku's occasional 'divide by 10' slip on INR-crore figures
@@ -467,7 +553,9 @@ def _normalise2(result):
     return {
         "qualify": bool(result.get("qualify", False)),
         "drop_reason": result.get("drop_reason"),
-        "company": result.get("company") or "",
+        # Cleaned here, at the one place every stage-2 result passes
+        # through, so nothing downstream ever sees a raw headline.
+        "company": clean_company(result.get("company"))[0],
         "deal_type": result.get("deal_type") or "unknown",
         "amount_cr": result.get("amount_cr"),
         "amount_raw": result.get("amount_raw"),
@@ -501,6 +589,12 @@ def precision_batch(client, batch):
     for i, item in enumerate(batch):
         result = results[i] if i < len(results) else {}
         norm = _normalise2(result)
+        _, name_note = clean_company(result.get("company"))
+        if name_note:
+            # Loud, not fatal: the deal is still a real lead, but the name is
+            # wrong and clustering will key on it. Shows up in the Actions log.
+            print(f"[classify] company name suspect ({name_note}): "
+                  f"{norm['company']!r}")
         corrected, changed = reconcile_amount(norm["amount_cr"], norm.get("amount_raw"))
         if changed:
             norm["amount_cr"] = corrected

@@ -518,6 +518,16 @@ categories above; those are confirmed drops.
 company whose shares are being sold — NEVER the acquirer or investor. In
 "IndiaRF acquires Fine Edge Engineering", company is Fine Edge Engineering.
 
+"company" must be a COMPANY NAME AND NOTHING ELSE. Not the headline, not a
+description, not a sentence. Never append the publisher (" - The Economic
+Times", " - ET Now"). Never put two companies in one value; if the item covers
+several, pick the ONE whose ownership is actually changing. If you genuinely
+cannot identify a single company, return "" rather than pasting the headline.
+  - GOOD: "Atomberg Technologies"
+  - BAD:  "Atomberg Technologies files DRHP with SEBI for IPO; plans Rs 450
+           crore fresh issue, 7.65 crore-share OFS - ET Now"
+  - BAD:  "Welspun Corp; PhysicsWallah"
+
 "seller" is WHOEVER RECEIVES THE MONEY: the selling shareholder. That is the
 promoter or founding family, the PE or VC fund exiting, the parent company
 divesting, or the named individual offloading shares. It is the single most

@@ -6,3 +6,8 @@ venv/
 get-pip.py
 radar.db.bak
 .claude/
+
+# Derived fixture for design/testing — regenerate from radar.db, don't commit
+# (radar.db is already tracked; a second copy only adds to the size problem
+# that broke pushes on 2026-08-16)
+docs/radar-sample.db
