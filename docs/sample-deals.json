@@ -1,0 +1,1193 @@
+[
+  {
+    "id": 771,
+    "company": "Biocon",
+    "dealType": "block deal",
+    "confidence": "medium",
+    "confirmed": false,
+    "amountCr": null,
+    "amountRaw": "1.66 crore shares — no price stated",
+    "sizeSource": "mcap_plausible",
+    "sizeBand": null,
+    "oneLine": "Biocon block deal of 1.66 crore shares; seller unnamed.",
+    "seller": null,
+    "buyer": null,
+    "individuals": [],
+    "advisers": [],
+    "sources": [
+      {
+        "outlet": "Zee Business",
+        "title": "Biocon block deal tomorrow: 1.66 crore shares likely to change hands; check floor price",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNemNQTlFvZzh2ZGJEWkJLYnMwczItTm9HOVFfbmhaTjFESlFSUGFhM3VXY1h4emg3Wms4OEF4ZldfUUdsVHFKMGUxVVpkY1RTem9IQkhRQmYwUmJQMVVFTUhzRExfMWJaeEJlQlJ3QldIUXM0dlkxYjE4MENiZGRSdkoyWEFhTnU0RGt1VlhKX0diVmwtaGZISHB6UFJmWk00azdlWmZ2cWRjV0VCRjFoU3czSW5mWDkweldDTU5YN3A5bDlqaXc4U3ctNA?oc=5",
+        "resolvable": false
+      }
+    ],
+    "primaryUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNemNQTlFvZzh2ZGJEWkJLYnMwczItTm9HOVFfbmhaTjFESlFSUGFhM3VXY1h4emg3Wms4OEF4ZldfUUdsVHFKMGUxVVpkY1RTem9IQkhRQmYwUmJQMVVFTUhzRExfMWJaeEJlQlJ3QldIUXM0dlkxYjE4MENiZGRSdkoyWEFhTnU0RGt1VlhKX0diVmwtaGZISHB6UFJmWk00azdlWmZ2cWRjV0VCRjFoU3czSW5mWDkweldDTU5YN3A5bDlqaXc4U3ctNA?oc=5",
+    "createdAt": "2026-09-08T13:31:07.298520+00:00",
+    "updatedAt": "2026-09-08T13:31:07.298520+00:00"
+  },
+  {
+    "id": 770,
+    "company": "Kuku Technologies",
+    "dealType": "DRHP filing",
+    "confidence": "high",
+    "confirmed": false,
+    "amountCr": 3500.0,
+    "amountRaw": "₹3,500 crore IPO",
+    "sizeSource": "stated",
+    "sizeBand": "OVER_2000",
+    "oneLine": "Kuku Technologies files confidential IPO papers for ₹3,500 crore.",
+    "seller": null,
+    "buyer": null,
+    "individuals": [],
+    "advisers": [],
+    "sources": [
+      {
+        "outlet": "Storyboard18",
+        "title": "Kuku Technologies files confidential papers for ₹3,500 crore IPO: Reports",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOWGo2NUxWdlY5NmVjVVRNVm5rVkhyMHVwRWtmdGRVMl95UkNWQVVkazYxSzFhMDVQNDZsQnd2UzRpUmZJenBWUFNnWDVFaDdNU1Nac2hmT3ROUl9jXy1NNEpRRzBsSm1uUHBxRDFIbnMwSkRwSXRNQ2wzbkRBcEpaUEZIakVrQ09JRmJ4dGE0U0puNjZ3dXlVM2FPRjFvMHhwX1A3SENNU1Y2QVdKbTZ0TVlaQzJiZ3V5a2tjY0Jsbll1Z9IBwgFBVV95cUxOWGo2NUxWdlY5NmVjVVRNVm5rVkhyMHVwRWtmdGRVMl95UkNWQVVkazYxSzFhMDVQNDZsQnd2UzRpUmZJenBWUFNnWDVFaDdNU1Nac2hmT3ROUl9jXy1NNEpRRzBsSm1uUHBxRDFIbnMwSkRwSXRNQ2wzbkRBcEpaUEZIakVrQ09JRmJ4dGE0U0puNjZ3dXlVM2FPRjFvMHhwX1A3SENNU1Y2QVdKbTZ0TVlaQzJiZ3V5a2tjY0Jsbll1Zw?oc=5",
+        "resolvable": false
+      },
+      {
+        "outlet": "Indian Television Dot Com",
+        "title": "Kuku Technologies plans Rs 3,500 crore IPO and AI-led production unit",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVjNPa1pHLVZIUzI5T3o0NjRIeXJ4U1NXdDhIOUVoUmZyM2RSMFpHN0lfSjhTNWN2aUx2Ty1zYVVZZ2FyV014dl90NXFJOFZaRnVzSDZKOEdhX1RFanc5RWRoRllxbGV5TXd0aHdGZl9DY3JLRFhiaUtfU3l5STVqd1hhaXhnbFExUE1KQTl1TnBhVF9oaUhXOTJLTUs3OVpuZlQ5TExRRXc?oc=5",
+        "resolvable": false
+      }
+    ],
+    "primaryUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOWGo2NUxWdlY5NmVjVVRNVm5rVkhyMHVwRWtmdGRVMl95UkNWQVVkazYxSzFhMDVQNDZsQnd2UzRpUmZJenBWUFNnWDVFaDdNU1Nac2hmT3ROUl9jXy1NNEpRRzBsSm1uUHBxRDFIbnMwSkRwSXRNQ2wzbkRBcEpaUEZIakVrQ09JRmJ4dGE0U0puNjZ3dXlVM2FPRjFvMHhwX1A3SENNU1Y2QVdKbTZ0TVlaQzJiZ3V5a2tjY0Jsbll1Z9IBwgFBVV95cUxOWGo2NUxWdlY5NmVjVVRNVm5rVkhyMHVwRWtmdGRVMl95UkNWQVVkazYxSzFhMDVQNDZsQnd2UzRpUmZJenBWUFNnWDVFaDdNU1Nac2hmT3ROUl9jXy1NNEpRRzBsSm1uUHBxRDFIbnMwSkRwSXRNQ2wzbkRBcEpaUEZIakVrQ09JRmJ4dGE0U0puNjZ3dXlVM2FPRjFvMHhwX1A3SENNU1Y2QVdKbTZ0TVlaQzJiZ3V5a2tjY0Jsbll1Zw?oc=5",
+    "createdAt": "2026-09-08T12:31:38.400161+00:00",
+    "updatedAt": "2026-09-08T12:31:38.400161+00:00"
+  },
+  {
+    "id": 769,
+    "company": "MKC Agro Fresh",
+    "dealType": "DRHP filing",
+    "confidence": "medium",
+    "confirmed": false,
+    "amountCr": null,
+    "amountRaw": null,
+    "sizeSource": "unknown",
+    "sizeBand": null,
+    "oneLine": "MKC Agro Fresh files draft IPO papers with SEBI",
+    "seller": null,
+    "buyer": null,
+    "individuals": [],
+    "advisers": [],
+    "sources": [
+      {
+        "outlet": "BusinessLine",
+        "title": "MKC Agro Fresh files draft papers with SEBI for IPO",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWHgxeU84RVhyMkhUMFlTM0xfS2JxdkRYeEZHMEc2UWN0Rk15NEc4ZC1nOWtJdHhIX0FpbVZySktMOE1HTWdzZ05CdVVVV0cwY2M2NXFsWDBPeEYxR1EyUlZYeGxmdWdabFhUa0Y4LUJxMkRLeXV4ekh5WklySmZVTzVlZmdYVGVRT0dSUWt1TU9UZ1BJMEI3dXdfOHluNFVfOXFoWDFRdDd3WGRWYUo3ZHNKRDBDalnSAb4BQVVfeXFMUFVOZmI2VXc0dWxsWFQ5TWlzMVpSbWI2R0ZZdXBfVmhWc21JdDN5M0ZHOW9yb1RzODFmUTEwMlRPeU4yZXRSTWRjSzhIekpKWGxsMWQwalFhWmhGMnI3cXpzN000X245akp0T1JkYXJOblhKdWhwWTBndGY1U0VMZUtlU1daX0x2ZmNTaC0wTDltLWtzM2dzSzI5a2NLaGdiTnFNc3dTTmFpSUtwU2o0dDJoLW0zYnhlLXljUndldw?oc=5",
+        "resolvable": false
+      },
+      {
+        "outlet": "Free Press Journal",
+        "title": "M K C Agro Fresh Takes IPO Route, Files Draft Papers With Sebi",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNLTQxeW1hRU5Xa3dlM2drUUxoRkItdDB5WEdwMHhjeVNvX0NMM0ZQVTFCdmhrMGZzcmZZOXFYMTl2TzBKeFhCOVg5bDZTNzZoZlZ1SFNkWlJkNVFTZUlyYXZrY1dwQ3F5VGdtdEc4eWR4VHBNX2NTd2ZVeWNYMHRScTg0Z2U1VHl3blpwWExsTmVISHhkLVF2dkdCTHBJanRpSElPSNIBqgFBVV95cUxPTmdjNmt2eEx3eGxmR3JCTnpCWi1Za3E3RndSQXBCNFh0a0xHQ0prcU9JTEZfUnI1RnlmYmRUdDdyU1VKeFBCTGJnQkViYWlrUW5ScTdYd19vMXc3TGhlbDVsa2p6NFNxRTBORUttT1pqcnY1a1VsdERhZUcwc3NwWlhmMjBLTGJvZ1JmSG1PQ3dHb3BZdG1xak9KU1dGRk1XVmRRM01DUDRoUQ?oc=5",
+        "resolvable": false
+      },
+      {
+        "outlet": "Whalesbook",
+        "title": "M K C Agro Fresh Files Draft Papers For IPO",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRlI4V3BhZTUwc240NDZQekZ6eDBicXBIUlhFNVk5bFVMcG5DZE5pcHRRZVZDdUxmR291ZXJOaG16NGpaNXBDT0tjM0xVRTJDX1VfSnlBVGdNaXh0UXZJbkRSSGlQcVRZSFBBbGZYcDQzLXJtNEwzdXlBMXlWUnJOZzB3dUJKeUE3Q2EzMWlTMHd2eU1pVU0yUmt6SWpSQWdfSTlnS0h4M2VFZThXRHFvcWhn?oc=5",
+        "resolvable": false
+      }
+    ],
+    "primaryUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWHgxeU84RVhyMkhUMFlTM0xfS2JxdkRYeEZHMEc2UWN0Rk15NEc4ZC1nOWtJdHhIX0FpbVZySktMOE1HTWdzZ05CdVVVV0cwY2M2NXFsWDBPeEYxR1EyUlZYeGxmdWdabFhUa0Y4LUJxMkRLeXV4ekh5WklySmZVTzVlZmdYVGVRT0dSUWt1TU9UZ1BJMEI3dXdfOHluNFVfOXFoWDFRdDd3WGRWYUo3ZHNKRDBDalnSAb4BQVVfeXFMUFVOZmI2VXc0dWxsWFQ5TWlzMVpSbWI2R0ZZdXBfVmhWc21JdDN5M0ZHOW9yb1RzODFmUTEwMlRPeU4yZXRSTWRjSzhIekpKWGxsMWQwalFhWmhGMnI3cXpzN000X245akp0T1JkYXJOblhKdWhwWTBndGY1U0VMZUtlU1daX0x2ZmNTaC0wTDltLWtzM2dzSzI5a2NLaGdiTnFNc3dTTmFpSUtwU2o0dDJoLW0zYnhlLXljUndldw?oc=5",
+    "createdAt": "2026-09-08T11:31:47.406137+00:00",
+    "updatedAt": "2026-09-08T11:31:47.406137+00:00"
+  },
+  {
+    "id": 768,
+    "company": "ARCIL",
+    "dealType": "IPO-OFS",
+    "confidence": "medium",
+    "confirmed": false,
+    "amountCr": null,
+    "amountRaw": null,
+    "sizeSource": "unknown",
+    "sizeBand": null,
+    "oneLine": "ARCIL IPO with promoters selling stake; early-stage prospecting lead.",
+    "seller": null,
+    "buyer": null,
+    "individuals": [],
+    "advisers": [],
+    "sources": [
+      {
+        "outlet": "Business Today",
+        "title": "ARCIL IPO: Why Promoters Are Selling Stake And How The ARC Plans Future Growth",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxONG1ZYldicGVEc3EzbFNtdXktWnhOMUhTd0hmS1Rlb0ZUUlo3V2lFQXBYRlhKUWdlWHp4UmxlbnFQanNnc2t2am5fcVZWMmczM010ZXJWWUxBOVNzd2hHWUF5SWxYM2ViVUFUTUNJNFpjblRFU2xqcU1BMWZtdVFTVWxUVjlZaXNyQnZBRXRfbXV0ZHpVWVNBakRldXRZdVpHZmZlQkRuVW4xS2l4bnhRbTQ0Y2xTTUE1NFpQTzIydWxNYmxSSVVYcUI5bmE2dEZwcXZGYkZLc0hpaFFMZmVYSEVCZ9IB6AFBVV95cUxPeWpHWVVpUG5WODVDclpEck1uMU0xY2lMZ2ZwaER0cTBGRjk5SG5nVFlXV193TWgzWEg1S2lLSmhhY1JLaC1LbGpTbGdPSUVxV3FILWNvTS1QdENVaUk4bE13RWpsd0g2WjBkOFhjWUxISGdWYjB5TDA3WWR3NmFDNmY1SkNJUlhHMWZkVVRGR3VwbmFFTXpnT3FDaU5hajZBWmYtSkpmSUI5Q3ZiTkNvQ0ptVVMxb0VTZGxHLWNtTVI2YWJabE1tQXRSSWRKckUzeDhFQkpZV1dHb3ljcHR5bDJTZmlzUlNP?oc=5",
+        "resolvable": false
+      }
+    ],
+    "primaryUrl": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxONG1ZYldicGVEc3EzbFNtdXktWnhOMUhTd0hmS1Rlb0ZUUlo3V2lFQXBYRlhKUWdlWHp4UmxlbnFQanNnc2t2am5fcVZWMmczM010ZXJWWUxBOVNzd2hHWUF5SWxYM2ViVUFUTUNJNFpjblRFU2xqcU1BMWZtdVFTVWxUVjlZaXNyQnZBRXRfbXV0ZHpVWVNBakRldXRZdVpHZmZlQkRuVW4xS2l4bnhRbTQ0Y2xTTUE1NFpQTzIydWxNYmxSSVVYcUI5bmE2dEZwcXZGYkZLc0hpaFFMZmVYSEVCZ9IB6AFBVV95cUxPeWpHWVVpUG5WODVDclpEck1uMU0xY2lMZ2ZwaER0cTBGRjk5SG5nVFlXV193TWgzWEg1S2lLSmhhY1JLaC1LbGpTbGdPSUVxV3FILWNvTS1QdENVaUk4bE13RWpsd0g2WjBkOFhjWUxISGdWYjB5TDA3WWR3NmFDNmY1SkNJUlhHMWZkVVRGR3VwbmFFTXpnT3FDaU5hajZBWmYtSkpmSUI5Q3ZiTkNvQ0ptVVMxb0VTZGxHLWNtTVI2YWJabE1tQXRSSWRKckUzeDhFQkpZV1dHb3ljcHR5bDJTZmlzUlNP?oc=5",
+    "createdAt": "2026-09-08T09:31:22.531861+00:00",
+    "updatedAt": "2026-09-08T09:31:22.531861+00:00"
+  },
+  {
+    "id": 767,
+    "company": "Aragen Life Sciences",
+    "dealType": "DRHP filing",
+    "confidence": "high",
+    "confirmed": false,
+    "amountCr": 800.0,
+    "amountRaw": "₹800 Crore Fresh Issue",
+    "sizeSource": "stated",
+    "sizeBand": "500_TO_2000",
+    "oneLine": "Aragen Life Sciences files DRHP for ₹800 crore IPO.",
+    "seller": null,
+    "buyer": null,
+    "individuals": [],
+    "advisers": [],
+    "sources": [
+      {
+        "outlet": "Business Upturn",
+        "title": "Aragen Life Sciences Files DRHP with SEBI for ₹800 Crore Fresh Issue",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQX3FrYVF5R0pfYjM2dzNFOUMwcVBqclFpSWJROVRSSXV2ZDVxM3cwWmY1U2VUV2t2eXNYQXMzQ2s1YUloM1o2aGRDSUpGR0t2V3ZiR0dpMldLYU9aal90RjFJVXpCbl83ejRaZllWamVacnVqVWx0UEg4Vm5vc1M1X0ZNNWd0eGVDc0h2UzBQd1U2bUZUeDl4a1ZuX2pzTnh1dHhvYTlESlpJQQ?oc=5",
+        "resolvable": false
+      }
+    ],
+    "primaryUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQX3FrYVF5R0pfYjM2dzNFOUMwcVBqclFpSWJROVRSSXV2ZDVxM3cwWmY1U2VUV2t2eXNYQXMzQ2s1YUloM1o2aGRDSUpGR0t2V3ZiR0dpMldLYU9aal90RjFJVXpCbl83ejRaZllWamVacnVqVWx0UEg4Vm5vc1M1X0ZNNWd0eGVDc0h2UzBQd1U2bUZUeDl4a1ZuX2pzTnh1dHhvYTlESlpJQQ?oc=5",
+    "createdAt": "2026-09-08T07:31:19.079165+00:00",
+    "updatedAt": "2026-09-08T07:31:19.079165+00:00"
+  },
+  {
+    "id": 766,
+    "company": "CJ Darcl Logistics Limited",
+    "dealType": "DRHP filing",
+    "confidence": "medium",
+    "confirmed": false,
+    "amountCr": null,
+    "amountRaw": null,
+    "sizeSource": "unknown",
+    "sizeBand": null,
+    "oneLine": "CJ Darcl Logistics files DRHP addendum; IPO prospecting lead.",
+    "seller": null,
+    "buyer": null,
+    "individuals": [],
+    "advisers": [],
+    "sources": [
+      {
+        "outlet": "SEBI",
+        "title": "CJ Darcl Logistics Limited -  Addendum to DRHP",
+        "url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/cj-darcl-logistics-limited-addendum-to-drhp_104335.html",
+        "resolvable": true
+      }
+    ],
+    "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/cj-darcl-logistics-limited-addendum-to-drhp_104335.html",
+    "createdAt": "2026-09-08T06:31:11.918095+00:00",
+    "updatedAt": "2026-09-08T06:31:11.918095+00:00"
+  },
+  {
+    "id": 765,
+    "company": "Tribhovandas Bhimji Zaveri",
+    "dealType": "strategic buyout",
+    "confidence": "high",
+    "confirmed": false,
+    "amountCr": 1033.0,
+    "amountRaw": "Rs 1,033 crore",
+    "sizeSource": "stated",
+    "sizeBand": "OVER_2000",
+    "oneLine": "GRT Jewellers acquires 74% stake in TBZ for Rs 1,033 crore.",
+    "seller": "Tribhovandas Bhimji Zaveri (promoters/existing shareholders)",
+    "buyer": null,
+    "individuals": [],
+    "advisers": [],
+    "sources": [
+      {
+        "outlet": "The Hans India",
+        "title": "GRT Jewellers strikes Rs 1,033 crore deal to acquire controlling stake in Tribhovandas Bhimji Zaveri",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQMzhSczZ0czhWRTJNQkNwa1NtTGU2WWNZQ2pJS2M2VklNSUIyRHg5RHBjaGJVRHJ3MGVuanUxM01xYlB6eDJodW5Kd253bng0QUk5dVgzYTBZLUxLOHgyWWVzclV2V1gwSzk1V2NXZGJZRHppVmNHSkExSUUxRW1DaUd5LVpfMGd1VktTNFcxMHNZd0VLem4zSE90OUstMGxONTlvMGhFYl9KVDRoSC15SzZwTlJYVkNoVXRqUGVuQkkzb05iQWVHVS1mbnNNUXFJcGVvWG5VVHFEeGcxZ0oza3l2UEZDdUpXQ3M3YmxEVXhGdw?oc=5",
+        "resolvable": false
+      },
+      {
+        "outlet": "Google News",
+        "title": "GRT Jewellers to acquire 74 per cent stake in Tribhovandas Bhimji Zaveri for Rs 1,033 crore - Mid-Day",
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPd2ZfcmlZSUU5YTZZWnNhSGNnVzNqbGNUTF9DR1lYQkhWal9uS0hxY3V4anhVQ29abDZ4OVZ2eFRidC1HdmJrLXcxZ21pbGc5VDhQY0taUjFBYmFIdEhELWo4SmFSNXc3UExYeFpUS0pyZnJLek1iRDFjZ0kyeFFjOXBjLWRxUmFHeFBHTjFXZ1NmYmNNOFpzTjFMamVkQmdEU0FjRTZDVlFieGNzVWpBUGR1b2lHOEg5ZWVubWVMaEF3eEZxcnZZSzRBWjUwT3RBTy1ZS2ZhSk54enFmWGstZEh6dXgzYVlkcjBIT2c2enLSAfABQVVfeXFMT3dmX3JpWUlFOWE2WVpzYUhjZ1czamxjVExfQ0dZWEJIVmpfbktIcWN1eGp4VUNvWmw2eDlWdnhUYnQtR3Ziay13MWdtaWxnOVQ4UGNLWlIxQWJhSHRIRC1qOEphUjV3N1BMWHhaVEtKcmZyS3pNYkQxY2dJMnhRYzlwYy1kcVJhR3hQR04xV2dTZmJjTThac04xTGplZEJnRFNBY0U2Q1ZRYnhjc1VqQVBkdW9pRzhIOWVlbm1lTGhBd3hGcXJ2WUs0QVo1ME90QU8tWUtmYUpOeHpxZlhrLWRIenV4M2FZZHIwSE9nNnpy?oc=5",
+        "resolvable": false
+      },
+      {
+        "outlet": "IBTimes India",
+        "title": "GRT Jewellers to acquire 74% stake in Tribhovandas Bhimji Zaveri for Rs 1,033 crore",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQkNJb2FYaUtwY1B1UDdXaERQaHJYT1ZtU2JNWWNWcHM1dVREbUlOUXRGaEtQNnIwOS15azh5OUY0d1RtbzRFRDVtQnI2UHR6RlUydE11RExQLXEzZGJNZWJsNUpjWTRMbnJkdG1nUnJPM0VlTkpZLTZuQXZLbHB0a1REWlVXcVJkSnJSWTdua0JzeUlSUjFMb3dhODNPdzVPRG9EZFlFaw?oc=5",
+        "resolvable": false
+      }
+    ],
+    "primaryUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQMzhSczZ0czhWRTJNQkNwa1NtTGU2WWNZQ2pJS2M2VklNSUIyRHg5RHBjaGJVRHJ3MGVuanUxM01xYlB6eDJodW5Kd253bng0QUk5dVgzYTBZLUxLOHgyWWVzclV2V1gwSzk1V2NXZGJZRHppVmNHSkExSUUxRW1DaUd5LVpfMGd1VktTNFcxMHNZd0VLem4zSE90OUstMGxONTlvMGhFYl9KVDRoSC15SzZwTlJYVkNoVXRqUGVuQkkzb05iQWVHVS1mbnNNUXFJcGVvWG5VVHFEeGcxZ0oza3l2UEZDdUpXQ3M3YmxEVXhGdw?oc=5",
+    "createdAt": "2026-09-08T05:31:25.249082+00:00",
+    "updatedAt": "2026-09-08T05:31:25.249082+00:00"
+  },
+  {
+    "id": 764,
+    "company": "Jindal Supreme (India) Limited",
+    "dealType": "DRHP filing",
+    "confidence": "medium",
+    "confirmed": false,
+    "amountCr": null,
+    "amountRaw": null,
+    "sizeSource": "unknown",
+    "sizeBand": null,
+    "oneLine": "Jindal Supreme files RHP for IPO; promoters likely to have liquidity event.",
+    "seller": null,
+    "buyer": null,
+    "individuals": [],
+    "advisers": [],
+    "sources": [
+      {
+        "outlet": "SEBI",
+        "title": "Jindal Supreme (India) Limited - RHPJindal Supreme (India) Limited - Abridged Prospectus",
+        "url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/jindal-supreme-india-limited-rhp_104328.html",
+        "resolvable": true
+      },
+      {
+        "outlet": "SEBI",
+        "title": "Jindal Supreme (India) Limited - Abridged Prospectus",
+        "url": "https://www.sebi.gov.in/sebi_data/commondocs/sep-2026/Jindal%20Supreme%20(India)%20Limited%20-%20AP_p.PDF",
+        "resolvable": true
+      }
+    ],
+    "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/jindal-supreme-india-limited-rhp_104328.html",
+    "createdAt": "2026-09-08T05:31:25.239438+00:00",
+    "updatedAt": "2026-09-08T05:31:25.239438+00:00"
+  },
+  {
+    "id": 763,
+    "company": "Tempsens Instruments (India) Limited",
+    "dealType": "DRHP filing",
+    "confidence": "medium",
+    "confirmed": false,
+    "amountCr": null,
+    "amountRaw": null,
+    "sizeSource": "unknown",
+    "sizeBand": null,
+    "oneLine": "Tempsens Instruments files RHP for IPO; promoters likely to cash out.",
+    "seller": null,
+    "buyer": null,
+    "individuals": [],
+    "advisers": [],
+    "sources": [
+      {
+        "outlet": "SEBI",
+        "title": "Tempsens Instruments (India) Limited - RHPTempsens Instruments (India) Limited - Abridged Prospectus",
+        "url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/tempsens-instruments-india-limited-rhp_104326.html",
+        "resolvable": true
+      },
+      {
+        "outlet": "SEBI",
+        "title": "Tempsens Instruments (India) Limited - Abridged Prospectus",
+        "url": "https://www.sebi.gov.in/sebi_data/commondocs/sep-2026/Tempsens%20Instruments%20(India)%20Limited%20-%20AP_p.pdf",
+        "resolvable": true
+      }
+    ],
+    "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/tempsens-instruments-india-limited-rhp_104326.html",
+    "createdAt": "2026-09-08T04:32:27.717922+00:00",
+    "updatedAt": "2026-09-08T04:32:27.717922+00:00"
+  },
+  {
+    "id": 762,
+    "company": "Jio Platforms",
+    "dealType": "IPO-OFS",
+    "confidence": "medium",
+    "confirmed": false,
+    "amountCr": null,
+    "amountRaw": null,
+    "sizeSource": "unknown",
+    "sizeBand": null,
+    "oneLine": "Jio Platforms gearing up for IPO marketing, targeting November listing",
+    "seller": null,
+    "buyer": null,
+    "individuals": [],
+    "advisers": [],
+    "sources": [
+      {
+        "outlet": "The Economic Times",
+        "title": "Jio Platforms gears up for IPO marketing next week, eyes November listing: Report",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNQ1FsRnhOaXpGRWF0SmJRUXJMRDBIdDJlYjlIa3JadlJkMnpfSkF2cFQ4THBab1dKZ2ZCWEp1dE5VNGlReUNCMzZoa19uSGZPQlk3Y3Q1dm1MbU4xRDhud2gyeFVFYVV2NllRUC1QZnY3cEI0ZEt4TjhvN0tWVGdxalJfSGIwZUZ3WXhQZ1hQY0Y3VXgza3BaR1RVbmVqX1BRWnJGX2JfaWdpa3p3eG9pUWtHYnNLTDRyaENTRE02blM4RVVzbC1pMlFkZEtUc1A2UzBVcExuejlKZ3hINGdPUXJtUXBRd9IB6wFBVV95cUxOY0UtT2lxY0F1RGdpU3hPWUZIbDIyUEEwZnVzMUVaajhqbmE3U0RqeHdNRjMwSzZLUFdGOUkwdEJUak9MbzlYUXZQeUJaUzhQM2JUYVpTYUhZWDZXdUEtYmpKY2ZFdWpFeDRiZUxHTDU5TmtNbUhCZlJHUlNmWEZjXzRpOHlsOENwUElYUWZMWUlQZ2FvRk1RNG5kZGQ2YVhlM2J5Zk5aVEQtb2ltM2hXMDBnM0owbVRVLTRTSk5vZUZWTFlIZmlwT2dsOTBWaExxbHcxdGtYcHZwZy1EY1ZWcDdJV2pvRmNhUHk0?oc=5",
+        "resolvable": false
+      }
+    ],
+    "primaryUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNQ1FsRnhOaXpGRWF0SmJRUXJMRDBIdDJlYjlIa3JadlJkMnpfSkF2cFQ4THBab1dKZ2ZCWEp1dE5VNGlReUNCMzZoa19uSGZPQlk3Y3Q1dm1MbU4xRDhud2gyeFVFYVV2NllRUC1QZnY3cEI0ZEt4TjhvN0tWVGdxalJfSGIwZUZ3WXhQZ1hQY0Y3VXgza3BaR1RVbmVqX1BRWnJGX2JfaWdpa3p3eG9pUWtHYnNLTDRyaENTRE02blM4RVVzbC1pMlFkZEtUc1A2UzBVcExuejlKZ3hINGdPUXJtUXBRd9IB6wFBVV95cUxOY0UtT2lxY0F1RGdpU3hPWUZIbDIyUEEwZnVzMUVaajhqbmE3U0RqeHdNRjMwSzZLUFdGOUkwdEJUak9MbzlYUXZQeUJaUzhQM2JUYVpTYUhZWDZXdUEtYmpKY2ZFdWpFeDRiZUxHTDU5TmtNbUhCZlJHUlNmWEZjXzRpOHlsOENwUElYUWZMWUlQZ2FvRk1RNG5kZGQ2YVhlM2J5Zk5aVEQtb2ltM2hXMDBnM0owbVRVLTRTSk5vZUZWTFlIZmlwT2dsOTBWaExxbHcxdGtYcHZwZy1EY1ZWcDdJV2pvRmNhUHk0?oc=5",
+    "createdAt": "2026-09-08T03:31:13.818661+00:00",
+    "updatedAt": "2026-09-08T03:31:13.818661+00:00"
+  },
+  {
+    "id": 761,
+    "company": "Tanfac",
+    "dealType": "strategic buyout",
+    "confidence": "medium",
+    "confirmed": false,
+    "amountCr": null,
+    "amountRaw": null,
+    "sizeSource": "unknown",
+    "sizeBand": null,
+    "oneLine": "Anupam Rasayan acquiring stake in Tanfac.",
+    "seller": "Tanfac shareholders (unnamed)",
+    "buyer": null,
+    "individuals": [],
+    "advisers": [],
+    "sources": [
+      {
+        "outlet": "Whalesbook",
+        "title": "Anupam Rasayan ਦਾ ਵੱਡਾ ਐਲਾਨ! Tanfac ਵਿੱਚ ਖਰੀਦੇਗੀ ਹਿੱਸੇਦਾਰੀ, AGM ਤੇ ਨਵੀਂ ਨਿਯੁਕਤੀ ਦਾ ਵੀ ਐਲਾਨ",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPWUJXVWhpNzZtZVl0OVBqNE42ekhmdWV1ajc5MDA5ajJ0bWpBQnQ0OFV0UFJXbDQxc1ljWHZKeFVBcl84ZWhIdm5laE5yVmRibm1yYzYySmdSNnp5emNQdUVhalVJWWdCbFBGaUVaUC1FN1RFbTBIenh0Z21hT002bzgyUF9aX19pMUhfM1NyTmtPQmZKbzcwVFFIN1FjZ0FKcDhxLWltTl9ZaXE3djBhSkpkb01UTzdSS1FDZ0pFbjBZNFJpV2lYOW1WbHdkcFlvLWExOWo4bnRFa2tuOG5INmUzNXhmaTRv?oc=5",
+        "resolvable": false
+      }
+    ],
+    "primaryUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPWUJXVWhpNzZtZVl0OVBqNE42ekhmdWV1ajc5MDA5ajJ0bWpBQnQ0OFV0UFJXbDQxc1ljWHZKeFVBcl84ZWhIdm5laE5yVmRibm1yYzYySmdSNnp5emNQdUVhalVJWWdCbFBGaUVaUC1FN1RFbTBIenh0Z21hT002bzgyUF9aX19pMUhfM1NyTmtPQmZKbzcwVFFIN1FjZ0FKcDhxLWltTl9ZaXE3djBhSkpkb01UTzdSS1FDZ0pFbjBZNFJpV2lYOW1WbHdkcFlvLWExOWo4bnRFa2tuOG5INmUzNXhmaTRv?oc=5",
+    "createdAt": "2026-09-08T02:31:07.787194+00:00",
+    "updatedAt": "2026-09-08T02:31:07.787194+00:00"
+  },
+  {
+    "id": 760,
+    "company": "Novartis India Ltd",
+    "dealType": "strategic buyout",
+    "confidence": "high",
+    "confirmed": false,
+    "amountCr": 1250.0,
+    "amountRaw": "₹1,250 crore",
+    "sizeSource": "stated",
+    "sizeBand": "500_TO_2000",
+    "oneLine": "ChrysCapital exits 70.68% Novartis India stake to Novartis for ₹1,250 cr.",
+    "seller": "ChrysCapital",
+    "buyer": null,
+    "individuals": [],
+    "advisers": [],
+    "sources": [
+      {
+        "outlet": "Business Line",
+        "title": "Novartis India Ltd to acquire BP drug trademarks from Pfizer Inc, for ₹1,250 crore",
+        "url": "https://www.thehindubusinessline.com/companies/novartis-india-ltd-to-acquire-bp-drug-trademarks-from-pfizer-inc-for-1250-crore/article71438937.ece",
+        "resolvable": true
+      }
+    ],
+    "primaryUrl": "https://www.thehindubusinessline.com/companies/novartis-india-ltd-to-acquire-bp-drug-trademarks-from-pfizer-inc-for-1250-crore/article71438937.ece",
+    "createdAt": "2026-09-08T01:32:17.492915+00:00",
+    "updatedAt": "2026-09-08T01:32:17.492915+00:00"
+  },
+  {
+    "id": 759,
+    "company": "TBZ",
+    "dealType": "strategic buyout",
+    "confidence": "medium",
+    "confirmed": false,
+    "amountCr": 1034.0,
+    "amountRaw": "₹1,034 Crore Takeover Deal",
+    "sizeSource": "stated",
+    "sizeBand": null,
+    "oneLine": "GRT acquires TBZ; share price hits 10% upper circuit on takeover.",
+    "seller": "TBZ shareholders/promoters",
+    "buyer": null,
+    "individuals": [],
+    "advisers": [],
+    "sources": [
+      {
+        "outlet": "Business Upturn",
+        "title": "TBZ share price hits 10% upper circuit on GRT takeover",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOVkE1SURCNmJkS2k1RDlVbzB3bWZvREtyYXFYcHNxcjk5M0RMZnItT0llSm5TSmdYMF9iNDliQ2t3c184QjBxRjNmSm10Q0hOdEtkYnhlSUw5TFBub0dZTDkzNV9hbVo1ZllzWTIxNHhCUFVrSmhoNG1uUlZOaHBVUjZZZU5UTVBJTzlsZ1VGNVRKaEkzc2RjYWhyMnUyS0VRSUN4MzBJZzU2ZTB3MnVBcmR0Q0tjNHRKZGs5T3BNQzd4TkU?oc=5",
+        "resolvable": false
+      },
+      {
+        "outlet": "Moneylife",
+        "title": "TBZ Hits 52-week High as GRT’s ₹1,034 Crore Takeover Deal Triggers Open Offer",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZVVwSjZXV1p4eWxLM3lfSmo3ZXhSeXExalZOWWxEc0JTU0plUGk1QzV6ZE1kTjR3b0xOanFuYWFHYV9RQy00d3BfS2pmaHpBbVpGdVo4UkpUbUVveEo4WnR3US1lWGMxOU0zbmpzcjRZaXNSSlZHaEhSVWFNMERJMlY5dThmMXVQNzFBLXNBa3RVRGJYUU5ZOW9LNFlTVHFIY3RkVXY2d2lRSXNTaldyVzFVTWJTT2o0?oc=5",
+        "resolvable": false
+      },
+      {
+        "outlet": "Free Press Journal",
+        "title": "Will GRT Change The 162-Year-Old TBZ Name? Here’s What We Know After The ₹1,033.71-Crore Deal",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbGk5cGtMWXN3TVY3QzdxeTNQLUlCZnoza0F1Vmk3VGI1SHNDQjczNnhFTEk3YlNScHNxM1pRZ1lEY2k4R2JZRVpRbTYwQ0MxeTZnNkZWbkNnVm5sbE91M0JRTDYyYThTRmwwQXVmWlZlV1JNUE9HM0JnMlZaZVp3QV9zN1Nja0RuTjM1Vm91RTJkU2VsamFadUFBRzdyT0tvamllN0FoMFU4NENnWTFSb0V3U1JqWUh5Um9xaHV0OXR2VlA0b1FGQtIBzgFBVV95cUxQZ0dlQUIwSF85dTlIUTFFcmdwaFdTMXRHNE51dHFSRmQxSVEwbzBYX0d2TEdhb3I0VTlGUWpISDVCb19pRnNuVXJocXoyd2k2Tm1Vem1PWDQ0TWQ0Ry1zQk82dEpSNUxxUzc3Yi1xVVd3aTlQSXRobVM3NEtwbld6T2NEUVh6blptNDIyTy1VTnpVMjdJSGd3Y0dlQ1VnRTRPYVR0TjEtamNYWDVvTUN5S1kwOUZtZVFNRkZTY3hNSmhhQ3NrbHFwYXM4MnpMZw?oc=5",
+        "resolvable": false
+      }
+    ],
+    "primaryUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOVkE1SURCNmJkS2k1RDlVbzB3bWZvREtyYXFYcHNxcjk5M0RMZnItT0llSm5TSmdYMF9iNDliQ2t3c184QjBxRjNmSm10Q0hOdEtkYnhlSUw5TFBub0dZTDkzNV9hbVo1ZllzWTIxNHhCUFVrSmhoNG1uUlZOaHBVUjZZZU5UTVBJTzlsZ1VGNVRKaEkzc2RjYWhyMnUyS0VRSUN4MzBJZzU2ZTB3MnVBcmR0Q0tjNHRKZGs5T3BNQzd4TkU?oc=5",
+    "createdAt": "2026-09-08T01:32:17.476157+00:00",
+    "updatedAt": "2026-09-08T09:31:22.541248+00:00"
+  },
+  {
+    "id": 757,
+    "company": "Lynk Logistics",
+    "dealType": "strategic buyout",
+    "confidence": "high",
+    "confirmed": false,
+    "amountCr": 500.0,
+    "amountRaw": "Rs 500 crore",
+    "sizeSource": "stated",
+    "sizeBand": "500_TO_2000",
+    "oneLine": "Swiggy divests Lynk Logistics to Udaan for Rs 500 crore",
+    "seller": "Swiggy",
+    "buyer": null,
+    "individuals": [],
+    "advisers": [],
+    "sources": [
+      {
+        "outlet": "Entrackr",
+        "title": "Udaan to acquire Swiggy-owned Lynk Logistics for Rs 500 Cr",
+        "url": "https://entrackr.com/news/udaan-to-acquire-swiggy-owned-lynk-logistics-for-rs-500-cr-12503261",
+        "resolvable": true
+      },
+      {
+        "outlet": "Zee Business",
+        "title": "Swiggy to sell entire Lynks Logistics stake to Udaan parent Trustroot Internet",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZk9Pcm5CS3pfMlVjMjVGazY2dU91UFZ4U2k2NlAwUXQyZFRPSm1KeUVoWS1HODhYTnhJSVZ4X09tdUVLVzVkNGhzWmx2ZEhGbmxpTEtBU0Z3b1hUaV9rb2cwb1UxOVg3Y1VzX2YxTng4c0o2LTNMZ2NpejlLcFk4TjBKV1NqaDh2MkM3OHJpVVJWVi1SNHRTY0dMQVhaSFo2YkZfYm1FRmZzNWxwaFlsT3g4cGJxc2JubHZmR1p6VzA?oc=5",
+        "resolvable": false
+      },
+      {
+        "outlet": "thehindu.com",
+        "title": "Udaan buys Swiggy’s Lynk Logistics for ₹500 crore",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRlVRXzIwbmNuM3dsNC1QNHFGeFJTWnNvU0lHZG9janY2d09CV1JLNUJidXFQZFl1WENwMF9BT1dTTDJJbGVSVXZEeURqcEpzMU05aG15Sjgyd2VrU2NPaF9CdTI5b1N6dzl2OERod3dFQVp2ZV9BS1czY1Zhazd0Zi1rYUZJTWdMMFptWXd1dTI1cTByaVNQQ284b0txaS1TcWFv0gGqAUFVX3lxTE0xWVNGa3RiRGNPSFludzk0UEhyV3kwbTdQbW80TzZRd1hjYXlzMXNZVVJNRzJpUlpQWGlrQzZ1bHVYR2pSY1RPZG5FLXFkV0FrZmhxVXpoUzdYSTBaZ1phYkJmQnZYdVp2cXlzSzd6U0c2cWg1LTJBM0dXcmgxRExxdGo0ZGZOTTdZdVhTeUdRY1FEMWx1QTk2QkxJanE5ODRTQmtZLWlrWllR?oc=5",
+        "resolvable": false
+      },
+      {
+        "outlet": "ET Retail",
+        "title": "Swiggy to take 3.2 per cent stake in udaan as eB2B firm acquires LYNK in Rs 500 cr deal",
+        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQQnJHV2lPRU5qM214MThXX09mR0hRUVUxZVJWTzMtMC04T2ZUM3RZWlZyNTNuZEYzSHhzcloxWFZIY3oxSEZYNUpqQ3J3X0FUN25BMVFTNjZVVkJndF9TZVNyNWVhZENpa1Fmbk9kQ1NtbGlUTmNBSnJ3T1pUcWpqbHA4YllKUFY4d1Y2UUppd0YyMHozNTFyY0tKSmo1ajBKbWM0N3Z0LTkyRHF2TDhhRGtSYlNnQVhRRDJ6RlJCVVZFUWhiMFRWSVdCMG43QTIwYU1Lc3dqWjNfbGtPalI3Ynk3NS11Z2RyMVBGUlJzVnZmbkRwOVBXLXFsMA?oc=5",
+        "resolvable": false
+      },
+      {
+        "outlet": "Deccan Herald",
+        "title": "Udaan acquires Swiggy's retail distribution platform LYNK Logistics for Rs 500 crore",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPRkE4WmNtTmI0ZS0xNE1BMkRWWkFtYUpGMzJRNU5ZRlRHa0NSN3RoZzNBSnE5YUVUM1FncFE5cWo1bXR5UUtSdG1WdC1FR1lmZ1VyOVI1NjBTdVFoNjR5RW9rb3VWREQ0amtFMU5QQmZEOWZ5QVFPNDVhVmVXQ1BldTJDRVpYUjI1bkZXMkdLMmR6VW1VOU5RSWp4dmQzMTl2eGt6THhlWWNmTDU2M0NwbWZjc0ZfVjZZN3p0aTZ3Z3NzbzRiOXNUR2ljNDd2RHkwRVA3SGxn?oc=5",
+        "resolvable": false
+      },
+      {
+        "outlet": "Business Standard",
+        "title": "Udaan buys Swiggy's LYNK for ₹500 cr as e-commerce firm readies for IPO",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxONURfb3pIUjQwQWpOcy1NX1RWTThlai1GSXlwbHdjSmUxYjhpOGNvdEpWd1FrTnMyS0w1Sko4YzBsSVhqbTJEdC0zMW9sSVVac2tvbnZPckwwWkhVM2R2TW9fN0Y5TlJ6MTNWSjVZRWJ6MW11T25oakZiVmxpdV93RlJiLTNQbG5KQjRzTk12dnRLaWZyRkEtSXc3YVF2R0ZRaUFTVmEtOTAwV0tPU052cVhIeWJMam1JZWl0Y2tPRDNJTXNXdzBvOXRLWDlnZndxRVhhedIB2gFBVV95cUxQNFcxSXZ0a0MwV0pYVk5ySkNpM1NlUW9sNEV1VlE1cTZFbnBRUS1XRDZzRDFSR21XRWt0cjM1T04zUjcxZlEtb0Joekh3RXN4THdNUWJOeGJ3LVdIbE9LRWVkdkRGM01OblNMQ2oySFdHZlRSTE9xUHhtSmZ2X2ZiMGpRWW9vTVRibkllT18yVk9xY0JIUDdadXlVdE93QUNFM0RmSjhKb0N4S0k2MmZybUF5bHEzMVByZHUwMXdrOW9BZnpCVGllUkNYNzZlcGdDTzBQT1VpbkVGQQ?oc=5",
+        "resolvable": false
+      },
+      {
+        "outlet": "Entrackr",
+        "title": "Swiggy picks 3.2% stake in Udaan, sells B2B arm for  ₹500 crore",
+        "url": "https://www.livemint.com/companies/news/swiggy-picks-3-2-stake-in-udaan-sells-b2b-arm-for-500-crore-11788782732922.html",
+        "resolvable": true
+      },
+      {
+        "outlet": "hospitality.economictimes.indiatimes.com",
+        "title": "udaan to acquire Swiggy-owned LYNK Logistics for Rs 500 crore; Swiggy to take about 3.2% stake",
+        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPc3RyVTlqQ3RnWFAtd1RHYUM2dFA5LXdsa3RvV096bzBHYk90a0hBbkVhV3BFQklmbm1OSUx1QmJvOXhjMHZzUS1nWDhWU0pGT25xOHBRNGVIQ0g5UTZPVjBGdHJVcmRMZXhZblJ6R2tIM251dTR5WmRxSE8zVjBCczZfUW9hWFZZZEMzdXE3b1l5MWpRNUFJRFlMWDJXUXpIcHFnTDhUa2hKR2FDX0U4V3lxTFIyM3VaX0c5VWl2Qmo3R1E1ZmowWDNoRlZrcV9GZFRLRFNpQjZpLUwwd3FUVFpvbldsOERzSG5vb1RQb0plWkg5SHh2OXBJc092NzVXaE1xVENjQ1ptMWdYQmfSAY4CQVVfeXFMT3N0clU5akN0Z1hQLXdUR2FDNnRQOS13bGt0b1dPem8wR2JPdGtIQW5FYVdwRUJJZm5tTklMdUJibzl4YzB2c1EtZ1g4VlNKRk9ucThwUTRlSENIOVE2T1YwRnRyVXJkTGV4WW5SekdrSDNudXU0eVpkcUhPM1YwQnM2X1FvYVhWWWRDM3VxN29ZeTFqUTVBSURZTFgyV1F6SHBxZ0w4VGtoSkdhQ19FOFd5cUxSMjN1Wl9HOVVpdkJqN0dRNWZqMFgzaEZWa3FfRmRUS0RTaUI2aS1MMHdxVFRab25XbDhEc0hub29UUG9KZVpIOUh4djlwSXNPdjc1V2hNcVRDY0NabTFnWEJn?oc=5",
+        "resolvable": false
+      }
+    ],
+    "primaryUrl": "https://entrackr.com/news/udaan-to-acquire-swiggy-owned-lynk-logistics-for-rs-500-cr-12503261",
+    "createdAt": "2026-09-07T12:31:09.312556+00:00",
+    "updatedAt": "2026-09-07T12:31:09.312556+00:00"
+  },
+  {
+    "id": 756,
+    "company": "Casagrand",
+    "dealType": "other",
+    "confidence": "medium",
+    "confirmed": false,
+    "amountCr": 750.0,
+    "amountRaw": "₹750 cr",
+    "sizeSource": "stated",
+    "sizeBand": "500_TO_2000",
+    "oneLine": "Casagrand IPO-bound; Arnya fund invests ₹750 cr in residential platform",
+    "seller": null,
+    "buyer": null,
+    "individuals": [],
+    "advisers": [],
+    "sources": [
+      {
+        "outlet": "Mint",
+        "title": "Arnya, IPO-bound Casagrand form  ₹750 cr south India-focused residential platform",
+        "url": "https://www.livemint.com/companies/news/arnya-casagrand-rs-750-crore-equity-platform-residential-projects-11788771613590.html",
+        "resolvable": true
+      }
+    ],
+    "primaryUrl": "https://www.livemint.com/companies/news/arnya-casagrand-rs-750-crore-equity-platform-residential-projects-11788771613590.html",
+    "createdAt": "2026-09-07T12:31:09.308627+00:00",
+    "updatedAt": "2026-09-07T12:31:09.308627+00:00"
+  },
+  {
+    "id": 754,
+    "company": "Pernod Ricard India",
+    "dealType": "IPO-OFS",
+    "confidence": "high",
+    "confirmed": false,
+    "amountCr": 8800.0,
+    "amountRaw": "over $1 billion = ~₹8,800 crore at 88 INR/USD",
+    "sizeSource": "stated",
+    "sizeBand": "OVER_2000",
+    "oneLine": "Pernod Ricard appoints bankers for $1B+ India IPO; promoter liquidity ahead.",
+    "seller": "Pernod Ricard promoters/shareholders",
+    "buyer": null,
+    "individuals": [],
+    "advisers": [],
+    "sources": [
+      {
+        "outlet": "Business Today",
+        "title": "Chivas Regal, Absolut Vodka maker Pernod Ricard picks 4 bankers for over $1 billion India IPO: Report",
+        "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOTzJhaFF4RTZ2ZDV5LUl5UDBDZWZrM21CNEplSzY4RGtOM01ucUpNYk9rcG8xbURaRTlMREZua0JMdjFEVE44TXhBX3VEMzM5enJsdHBRbVZpTXZOcVNGZ0kzemptZW04ODRsSk5FTjRQWGgyWWhRS1NhRzZySHJ6V0xmcTJrNm5PZl83UW8zOTFMdnhrU1U0c0JpWi1mdlZ4T1BuVUFoY2dkSlJhNUFRdGZIMTdIRzZBaFo1TWNHYjE2SUpMZkhiYW9QQkdhNXRiejNZa2ljNUNiUEwtTGszTlhYV1NRRjRfRlEydHNKTmlUd3ppM3V0VU9FYnlFZWvSAYQCQVVfeXFMTTJlcm42SW9raFpwQThVX2tkY3d2MVZnTkx1bDJfeTdvTEFEcVpyVEwwU2o0S08xTlN2SlQ3cWhXOHB1VDB0elpqQVdjWGk2aGZwdkpJdTlYdzlhc0xVdEpPSmpCeXVxaUJfT3VxTUhLY1M1Zm9xVE9HU1NyY3RCZU10X0pQcmJnUVQ0Nk5qRi1uMXlqd3l5R3VqMkZqX0Y3RmZpRXY4Q1daT1lFVV9xSEdYM0pmT3BRNGtBOENNU0xUdU9VbFNtaVlBMTI3ZThaOHRkRFloRzBVZDlMUTFmU3E1MkFZcDdNNU5zMjVobnVMZFpXYzB4NzhUcXNpSDZXQTFZTmg?oc=5",
+        "resolvable": false
+      },
+      {
+        "outlet": "IndiaIPO",
+        "title": "Pernod Ricard India IPO: Four banks appointed as advisors for proposed mega issue: Report",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeDdNNGFfOVVXU181OEZKdE5IRzVheEt2RnA3OGVsRmFBWUdXZnNaMmprcmtYY0wwQWRpV01haU1NeGVvc3JQcUJkSEtHT0FfeUhRWndFSzZaNVRGaUJpdWRLR3ZyNE1POU9XaWc2Nm9OSHBxWnd5QXRJSkZzN3ZhUjFtb2hWeklXUF9rZk5hY1JJU1kyX3lZMlJqdzFhNzVxMDUtWkNlcmJUZUJqUjZaTDBEY0JRdm9JVllyWi1jUHY?oc=5",
+        "resolvable": false
+      }
+    ],
+    "primaryUrl": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOTzJhaFF4RTZ2ZDV5LUl5UDBDZWZrM21CNEplSzY4RGtOM01ucUpNYk9rcG8xbURaRTlMREZua0JMdjFEVE44TXhBX3VEMzM5enJsdHBRbVZpTXZOcVNGZ0kzemptZW04ODRsSk5FTjRQWGgyWWhRS1NhRzZySHJ6V0xmcTJrNm5PZl83UW8zOTFMdnhrU1U0c0JpWi1mdlZ4T1BuVUFoY2dkSlJhNUFRdGZIMTdIRzZBaFo1TWNHYjE2SUpMZkhiYW9QQkdhNXRiejNZa2ljNUNiUEwtTGszTlhYV1NRRjRfRlEydHNKTmlUd3ppM3V0VU9FYnlFZWvSAYQCQVVfeXFMTTJlcm42SW9raFpwQThVX2tkY3d2MVZnTkx1bDJfeTdvTEFEcVpyVEwwU2o0S08xTlN2SlQ3cWhXOHB1VDB0elpqQVdjWGk2aGZwdkpJdTlYdzlhc0xVdEpPSmpCeXVxaUJfT3VxTUhLY1M1Zm9xVE9HU1NyY3RCZU10X0pQcmJnUVQ0Nk5qRi1uMXlqd3l5R3VqMkZqX0Y3RmZpRXY4Q1daT1lFVV9xSEdYM0pmT3BRNGtBOENNU0xUdU9VbFNtaVlBMTI3ZThaOHRkRFloRzBVZDlMUTFmU3E1MkFZcDdNNU5zMjVobnVMZFpXYzB4NzhUcXNpSDZXQTFZTmg?oc=5",
+    "createdAt": "2026-09-07T10:31:18.545219+00:00",
+    "updatedAt": "2026-09-08T01:32:17.482463+00:00"
+  },
+  {
+    "id": 753,
+    "company": "Vinod Texworld Limited",
+    "dealType": "DRHP filing",
+    "confidence": "medium",
+    "confirmed": false,
+    "amountCr": null,
+    "amountRaw": null,
+    "sizeSource": "unknown",
+    "sizeBand": null,
+    "oneLine": "Vinod Texworld prospectus filed; promoters planning IPO exit.",
+    "seller": null,
+    "buyer": null,
+    "individuals": [],
+    "advisers": [],
+    "sources": [
+      {
+        "outlet": "SEBI",
+        "title": "Vinod Texworld Limited - Prospectus",
+        "url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/vinod-texworld-limited-prospectus_104299.html",
+        "resolvable": true
+      }
+    ],
+    "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/vinod-texworld-limited-prospectus_104299.html",
+    "createdAt": "2026-09-07T10:31:18.535351+00:00",
+    "updatedAt": "2026-09-07T10:31:18.535351+00:00"
+  },
+  {
+    "id": 751,
+    "company": "IIFL Finance",
+    "dealType": "PE secondary",
+    "confidence": "medium",
+    "confirmed": false,
+    "amountCr": null,
+    "amountRaw": null,
+    "sizeSource": "mcap_plausible",
+    "sizeBand": null,
+    "oneLine": "Fairfax exploring exit from IIFL Finance stake to fund IDBI Bank acquisition bid.",
+    "seller": "Fairfax",
+    "buyer": null,
+    "individuals": [],
+    "advisers": [],
+    "sources": [
+      {
+        "outlet": "Business Upturn",
+        "title": "Fairfax may exit IIFL Finance to fund IDBI Bank bid: report",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPekpreVZGeURPU1FULWRDaWZsb0dKNGRWS3NlRkRXYk53QTI1eTVZc1E3WjNta3l3TkRLRHRiYXNsaWFMT0hTb1B6YlFSdngyRGNSQ1R0Q1F0cWRtREhKdGs4XzlldTFIeDdtM0t3aXRYT1RaVGhWWnMxQzZtemJTUzdpMTVSUEc0ZkxKc0tPY3g2bU9DUG5WOV9yWkhuYUxxZG5yU3k2cGkwNmh5R1lsOUIyb3BUWDFKMGlUeWNNLVh5dkc5ZFB3ZS1KdTRETkZkdmxxWEFsRnBPT1hiVEtPMGowWXkweGpfa0E?oc=5",
+        "resolvable": false
+      },
+      {
+        "outlet": "The Economic Times",
+        "title": "Fairfax to exit IIFL Finance before likely IDBI Bank deal",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOcFMxT196bmE5UEg4eUVSZWtyTkZxYVNROXpPQ2dpV3N0TWZ4TEx5Y0doV0xleHVzWDY1V08zTTFPWFAta2l1NTlUaTFjS1I1QU9Ebm1nTVJMVy1uTlR3WGlibmIyZTVuQ1RYVmJPY2E5UzVMQzlwTXBJaFloVUhucEJ0dVA4ek9ILTVjWmJ1NHlKRjh0SFZwRzlZZ3ZGbWE1dm9DUFRZYmNIaTd0N044eC1PSG5EU0tsSnNDVmh0R1NfcW1fRWFMXzIzWmx4VUtoQk5aS3FtMm52MF9rMGdGS0h4MHJPQdIB5gFBVV95cUxOcFMxT196bmE5UEg4eUVSZWtyTkZxYVNROXpPQ2dpV3N0TWZ4TEx5Y0doV0xleHVzWDY1V08zTTFPWFAta2l1NTlUaTFjS1I1QU9Ebm1nTVJMVy1uTlR3WGlibmIyZTVuQ1RYVmJPY2E5UzVMQzlwTXBJaFloVUhucEJ0dVA4ek9ILTVjWmJ1NHlKRjh0SFZwRzlZZ3ZGbWE1dm9DUFRZYmNIaTd0N044eC1PSG5EU0tsSnNDVmh0R1NfcW1fRWFMXzIzWmx4VUtoQk5aS3FtMm52MF9rMGdGS0h4MHJPQQ?oc=5",
+        "resolvable": false
+      },
+      {
+        "outlet": "Google News",
+        "title": "Fairfax to exit IIFL Finance before likely IDBI Bank deal; Blackstone emerges as suitor",
+        "url": "https://economictimes.indiatimes.com/industry/banking/finance/fairfax-to-exit-iifl-finance-before-likely-idbi-bank-deal-blackstone/articleshow/133873530.cms",
+        "resolvable": true
+      },
+      {
+        "outlet": "NiftyTrader",
+        "title": "IIFL Finance stake sale draws interest from Blackstone amid Fairfax’s IDBI Bank push",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1oZzROdXB4V05XMThReXdOcExWd0h4cUxsRFZXQUE0RTZERVU5a2pMNHM3ZWlhNldxbkRreFEteFVFSzhDMGdodFIwRzJrNWV2TXg2WDZIbHl6ZUR4cnZxWnVsOUFhRmlnYkZWNmxnNW5TOEppWG1vSzRIZ0E3YjA?oc=5",
+        "resolvable": false
+      },
+      {
+        "outlet": "Google News",
+        "title": "Fairfax plans IIFL Finance exit to fund IDBI Bank bid",
+        "url": "https://economictimes.indiatimes.com/industry/banking/finance/banking/fairfax-plans-iifl-finance-exit-to-fund-idbi-bank-bid/articleshow/133894423.cms",
+        "resolvable": true
+      }
+    ],
+    "primaryUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPekpreVZGeURPU1FULWRDaWZsb0dKNGRWS3NlRkRXYk53QTI1eTVZc1E3WjNta3l3TkRLRHRiYXNsaWFMT0hTb1B6YlFSdngyRGNSQ1R0Q1F0cWRtREhKdGs4XzlldTFIeDdtM0t3aXRYT1RaVGhWWnMxQzZtemJTUzdpMTVSUEc0ZkxKc0tPY3g2bU9DUG5WOV9yWkhuYUxxZG5yU3k2cGkwNmh5R1lsOUIyb3BUWDFKMGlUeWNNLVh5dkc5ZFB3ZS1KdTRETkZkdmxxWEFsRnBPT1hiVEtPMGowWXkweGpfa0E?oc=5",
+    "createdAt": "2026-09-07T08:31:15.786498+00:00",
+    "updatedAt": "2026-09-07T08:31:15.786498+00:00"
+  },
+  {
+    "id": 750,
+    "company": "Pee Safe",
+    "dealType": "other",
+    "confidence": "medium",
+    "confirmed": false,
+    "amountCr": null,
+    "amountRaw": null,
+    "sizeSource": "unknown",
+    "sizeBand": null,
+    "oneLine": "Pee Safe targets 2X revenue by FY27; IPO on radar.",
+    "seller": null,
+    "buyer": null,
+    "individuals": [],
+    "advisers": [],
+    "sources": [
+      {
+        "outlet": "BW Marketing World",
+        "title": "Pee Safe Targets 2X Revenue In FY27, IPO On Radar",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxON3pHSWVLYWFMdG9WV3czTVZFdmlETHR0aFl4aVRUekJZMFpXTkhtS2stNFpfU0RSMGdsYmRsZVVMaDNqeHRPM2Y1aElGR1FOVTJScURNQjctODFDbG5hUEdteWl4cWxGYUVyY1E4b2QzU3B4aDhKOEZrX2pGQzZVZDlUd2F4ekdZdmMxcURUVGhCY3BHSGItSlJJelk?oc=5",
+        "resolvable": false
+      }
+    ],
+    "primaryUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxON3pHSWVLYWFMdG9WV3czTVZFdmlETHR0aFl4aVRUekJZMFpXTkhtS2stNFpfU0RSMGdsYmRsZVVMaDNqeHRPM2Y1aElGR1FOVTJScURNQjctODFDbG5hUEdteWl4cWxGYUVyY1E4b2QzU3B4aDhKOEZrX2pGQzZVZDlUd2F4ekdZdmMxcURUVGhCY3BHSGItSlJJelk?oc=5",
+    "createdAt": "2026-09-07T06:31:24.190560+00:00",
+    "updatedAt": "2026-09-07T06:31:24.190560+00:00"
+  },
+  {
+    "id": 749,
+    "company": "Inox Clean Energy",
+    "dealType": "DRHP filing",
+    "confidence": "medium",
+    "confirmed": false,
+    "amountCr": 10000.0,
+    "amountRaw": "Rs 10,000-crore IPO",
+    "sizeSource": "stated",
+    "sizeBand": "OVER_2000",
+    "oneLine": "Inox Clean Energy likely to file DRHP for ₹10,000 crore IPO.",
+    "seller": null,
+    "buyer": null,
+    "individuals": [],
+    "advisers": [],
+    "sources": [
+      {
+        "outlet": "Moneycontrol.com",
+        "title": "Inox Clean Energy likely to file draft papers for Rs 10,000-crore IPO by month-end",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOYzB6THFfZGNRUzAwYjV1TXdIUFctRVJobVdibGNBVWFqdHU2amRCbUxSN0dlZzBId0IwbXRfUURLbDk5ZFo1ZW9zd0UzTHEzcF80dG1OYVE3YlJPTndJcTlnM2pEaDFxUFp1Z2JhbG9IU1pPZDVXd1o0UFdKZF9FY1pBWjhib2ltWTNyRVhTa2xaOHVnLWNrQ0hpc00wTEh6ZlU3eXBvOTdSNFdWVTV3Z2dGSEx2YnJndkV3N3JzQjZ6QjhGZGJzN2ZzM0MxNENKTXfSAdcBQVVfeXFMUDItRnkwWGJuVEFOOFI0cElDVVE4SlJRZV9PYlctQ0M2MVp4MW9acFRNWUp3SE1rdEpwZFRGc1N0a1hFQ09IYWJkM2I1M3Z0Mi1UcjRYVTBybS1JNG1jVEs0Qm9VaWk3YVI5LVRvOXdma1NXZ0VtNDRJVHBLZEYweGh0b2RhZEJpMGticHBKb1ppekJXRzFfa04tRng2cUpiSHFaMVJXbC0yZjF5X0t0djd1ZEVEVDB3WVBjdHBUODAxQUk0bzFDQU1DZDJ4VDdQOHdXbFR2NXM?oc=5",
+        "resolvable": false
+      },
+      {
+        "outlet": "Whalesbook",
+        "title": "Inox Clean Energy Targets Rs 10,000 Crore IPO By September End",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPMWYzVEJFcHJJb21ZMnRzRFhIYllLa3k4TEhwdW5aVEY5UWczeUprUnF5QXRRb01ydlZHMU5WM1FMWFhTbDNia2lMVjJtaFdKQVRaWV9NV291VUZ6YzRtVlpjcWg4TzlwejF1bUJIc21vTWpmSDZMVVhXSzUyWjNuNnhKUlJ1Vkw4Y1BjRmhtOWZqMHBOV2ZPdk84a0lsSmNwVmV0MWlKaG1SWllacDh6NFFIV2YxU1NnTDhLV3VYWEo4TURzTFFueHdB?oc=5",
+        "resolvable": false
+      },
+      {
+        "outlet": "Free Press Journal",
+        "title": "Inox Clean Energy Plans ₹10,000-Crore IPO At ₹1 Lakh Crore Valuation To Fund Renewable Energy Expansion",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNNlZXYWZQeEJhS0N1Z1RMeW84TUZlYjlwdUtuTHZySDRPV2hhOFdEbXdySXp1bTBKbHhtdHgxMldiMW1RWHdwMmtjS0hZN2V5XzE4NXN4ZE5Pdm55bXFtTzJpTl9KNHVxWVdaRDkxODRIZnh4b1hBWGM2QjRTZUlMRzhJR252Tm1NOWVMcnN4eHdYcUdKbkIzNEFKZDkyUEVSLTd5Rk5GLXg4OUxsSU4yc2FKWThieXR0S1pMTGlXcGlpNG1zVkZIak1KVFBZSjVncTJ3WWl1bWPSAd4BQVVfeXFMTnRRRnhqSDRDNjg4ZGpCLUZSbldndGt0bGt4YWRIUzdDZVZWVDMyYlQ1aFJlRWJNTE5rRWZNWE5OaTZVVnlyMWxTUzluekhNM21IN01hTGlzQzl2NkRwNkFCRzBMYVUta1ZfNkk3aXJPYXEyTnBCbFJyU3FvaDlIem9QZWl4YVNOWUhOZGJYUVpPeGdKQktiX2xJOUVrVHhHbUM0N1JHM1Zud2Vya01UWm9SWGlPaHlpZTd0UFdkcHVtcHFndnZzZnZtbnl0eHBDdDJOZ1FsdFVhcTFRQVl3?oc=5",
+        "resolvable": false
+      },
+      {
+        "outlet": "Whalesbook",
+        "title": "Inox Clean Energy Readies ₹10,000 Crore IPO After Fresh Funding",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQWG9iS0V0WUNXdF9UTTJtNTNwSGNEOFE0Uk1GUm5CYl83NWRPN1JfZFc4MVpINGVtV0I5bGhGQWRqeHlZQ2lWNmJDb2hUZzA2V29oN3Zqa19jeHRTMHdxS2RWcEVFNkZrdS0tc19WM3RLbVFqNVpNWUI1QWlfeThqZ3A4LUhHS0U3a2pEOGczcGZGcXc0WE1EbTZtRnBLam1KNTVmRXhDUkVsaXp2NDBLMFBseW82VC1fQm81OGloLXp4TVgxczlFcjYtZTNXNmZpY3RYdDBnXzByUQ?oc=5",
+        "resolvable": false
+      }
+    ],
+    "primaryUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOYzB6THFfZGNRUzAwYjV1TXdIUFctRVJobVdibGNBVWFqdHU2amRCbUxSN0dlZzBId0IwbXRfUURLbDk5ZFo1ZW9zd0UzTHEzcF80dG1OYVE3YlJPTndJcTlnM2pEaDFxUFp1Z2JhbG9IU1pPZDVXd1o0UFdKZF9FY1pBWjhib2ltWTNyRVhTa2xaOHVnLWNrQ0hpc00wTEh6ZlU3eXBvOTdSNFdWVTV3Z2dGSEx2YnJndkV3N3JzQjZ6QjhGZGJzN2ZzM0MxNENKTXfSAdcBQVVfeXFMUDItRnkwWGJuVEFOOFI0cElDVVE4SlJRZV9PYlctQ0M2MVp4MW9acFRNWUp3SE1rdEpwZFRGc1N0a1hFQ09IYWJkM2I1M3Z0Mi1UcjRYVTBybS1JNG1jVEs0Qm9VaWk3YVI5LVRvOXdma1NXZ0VtNDRJVHBLZEYweGh0b2RhZEJpMGticHBKb1ppekJXRzFfa04tRng2cUpiSHFaMVJXbC0yZjF5X0t0djd1ZEVEVDB3WVBjdHBUODAxQUk0bzFDQU1DZDJ4VDdQOHdXbFR2NXM?oc=5",
+    "createdAt": "2026-09-07T06:31:24.186936+00:00",
+    "updatedAt": "2026-09-07T06:31:24.186936+00:00"
+  },
+  {
+    "id": 748,
+    "company": "PeeSafe",
+    "dealType": "other",
+    "confidence": "medium",
+    "confirmed": false,
+    "amountCr": null,
+    "amountRaw": null,
+    "sizeSource": "unknown",
+    "sizeBand": null,
+    "oneLine": "PeeSafe planning IPO for FY29-30; early prospecting lead.",
+    "seller": null,
+    "buyer": null,
+    "individuals": [],
+    "advisers": [],
+    "sources": [
+      {
+        "outlet": "ET Retail",
+        "title": "PeeSafe eyes sub-brand launches, acquisitions ahead of FY29-30 IPO plan",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQWVhsTHJVaUI1cmNWeUNOazJSUHZobUNFZ0NFc2NTd0VXb2RmZ0g2SEZsOGpvT0JnMS1HdkEzNnI4QlBEN1lqekU4TTB2OU1KbkRkQ2k3dHAyVFM3SnIzaG1OWTNEZkF3aUZSd3JnQTlJQnlNYTJzRWpNUE1LVDAtcTRFNEZ5UUJ0YWl0cU9ySkU5bV9jV21xTVZqLWJCQnV3dXVmOWVuWUpKaE54ZEV5c3p0SnoxNTNkQjhiN2N0eDMtcFdHQzRFR0phem42U24yeWJ5U3ZwTTFQSzkwYm1vYnNGTnFHaDFwNzg1eQ?oc=5",
+        "resolvable": false
+      }
+    ],
+    "primaryUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQWVhsTHJVaUI1cmNWeUNOazJSUHZobUNFZ0NFc2NTd0VXb2RmZ0g2SEZsOGpvT0JnMS1HdkEzNnI4QlBEN1lqekU4TTB2OU1KbkRkQ2k3dHAyVFM3SnIzaG1OWTNEZkF3aUZSd3JnQTlJQnlNYTJzRWpNUE1LVDAtcTRFNEZ5UUJ0YWl0cU9ySkU5bV9jV21xTVZqLWJCQnV3dXVmOWVuWUpKaE54ZEV5c3p0SnoxNTNkQjhiN2N0eDMtcFdHQzRFR0phem42U24yeWJ5U3ZwTTFQSzkwYm1vYnNGTnFHaDFwNzg1eQ?oc=5",
+    "createdAt": "2026-09-07T05:34:54.231476+00:00",
+    "updatedAt": "2026-09-07T05:34:54.231476+00:00"
+  },
+  {
+    "id": 746,
+    "company": "NoBroker",
+    "dealType": "other",
+    "confidence": "medium",
+    "confirmed": false,
+    "amountCr": null,
+    "amountRaw": null,
+    "sizeSource": "unknown",
+    "sizeBand": null,
+    "oneLine": "NoBroker targets profitability in 8–10 months; IPO under consideration.",
+    "seller": null,
+    "buyer": null,
+    "individuals": [],
+    "advisers": [],
+    "sources": [
+      {
+        "outlet": "Business Line",
+        "title": "NoBroker targets profitability in 8-10 months, FY26 revenue tops ₹1,000 cr",
+        "url": "https://www.thehindubusinessline.com/companies/nobroker-targets-profitability-in-8-10-months-fy26-revenue-tops-1000-cr/article71434840.ece",
+        "resolvable": true
+      }
+    ],
+    "primaryUrl": "https://www.thehindubusinessline.com/companies/nobroker-targets-profitability-in-8-10-months-fy26-revenue-tops-1000-cr/article71434840.ece",
+    "createdAt": "2026-09-07T05:34:54.189773+00:00",
+    "updatedAt": "2026-09-07T05:34:54.189773+00:00"
+  },
+  {
+    "id": 745,
+    "company": "Iberia Pharmaceuticals",
+    "dealType": "DRHP filing",
+    "confidence": "medium",
+    "confirmed": false,
+    "amountCr": null,
+    "amountRaw": null,
+    "sizeSource": "unknown",
+    "sizeBand": null,
+    "oneLine": "Iberia Pharmaceuticals files for IPO; plans manufacturing expansion.",
+    "seller": null,
+    "buyer": null,
+    "individuals": [],
+    "advisers": [],
+    "sources": [
+      {
+        "outlet": "IPO Central",
+        "title": "Derma & Pharma Player Iberia Pharmaceuticals Files for IPO, Plans Manufacturing Expansion and Brand-Building Push",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBQTUZ6dUc3NFRNaEJMWm11R20yYmo2QjBWd3NnR1pUU1VSRzc5cFNYdzFFcGc2bkVJM3Q0eXVnR1NPVzgyWDk5YTVEUDAtdENON0VrYTNNRC1wVTdqQW9qVmdxVklJNGdoZi1aZ0NCRUFoRHBBVEdvamFWR1c?oc=5",
+        "resolvable": false
+      }
+    ],
+    "primaryUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBQTUZ6dUc3NFRNaEJMWm11R20yYmo2QjBWd3NnR1pUU1VSRzc5cFNYdzFFcGc2bkVJM3Q0eXVnR1NPVzgyWDk5YTVEUDAtdENON0VrYTNNRC1wVTdqQW9qVmdxVklJNGdoZi1aZ0NCRUFoRHBBVEdvamFWR1c?oc=5",
+    "createdAt": "2026-09-07T05:34:54.139793+00:00",
+    "updatedAt": "2026-09-07T05:34:54.139793+00:00"
+  },
+  {
+    "id": 744,
+    "company": "InsuranceDekho / RenewBuy (merged entity)",
+    "dealType": "DRHP filing",
+    "confidence": "medium",
+    "confirmed": false,
+    "amountCr": null,
+    "amountRaw": null,
+    "sizeSource": "unknown",
+    "sizeBand": null,
+    "oneLine": "InsuranceDekho-RenewBuy merger; combined entity eyes IPO.",
+    "seller": null,
+    "buyer": null,
+    "individuals": [],
+    "advisers": [],
+    "sources": [
+      {
+        "outlet": "Rediff",
+        "title": "InsuranceDekho-RenewBuy merger to deepen India reach, eyes IPO",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQUFaWTRwN1RIWEV6WlZ1YmVjc294TW82Ync1dmRQV25VcUhJVzlhc203MldJS0tRZ1JJeFMyNXY2bkk3YzhuU1hXRVo2akJwUmo2V0NkYVhKUExlTTZubWVXLUpXS0RGWWhNZFBZc25acFNjUXNDcGVxWndRMGRLWDFoUUZKamdiallXdnpYQU1mS3BUMUpna1hiaTlmQzI2bzU1VHlXSkZfakxLYktBV29NN1dlaDlwemxqSU5oMnhVQdIBxAFBVV95cUxQd2pHcHZ2X3JlRVNKTGJpWGdlSVhJUm1KeERvcVlQRDJ2SkVHd2tJQXJUY3M0OHZXWi1WcUJiVjZVQmJsYnVXT25SXzE5dWJiSXNTSnVlSURUZTJyYXF6MFlQTmNIcTE3Y3ZwdFBjTVdlMlpuVEpXRFRfSGRSc1hXX3FxZEV5QTEyeG42Tk9SQ3JxTVF2dWpSMmo1WnJVa3dFSklfNmlYdE0ycTZFTkF0NWpldzNGaW9tVnhSbTRSLTdfRHR1?oc=5",
+        "resolvable": false
+      }
+    ],
+    "primaryUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQUFaWTRwN1RIWEV6WlZ1YmVjc294TW82Ync1dmRQV25VcUhJVzlhc203MldJS0tRZ1JJeFMyNXY2bkk3YzhuU1hXRVo2akJwUmo2V0NkYVhKUExlTTZubWVXLUpXS0RGWWhNZFBZc25acFNjUXNDcGVxWndRMGRLWDFoUUZKamdiallXdnpYQU1mS3BUMUpna1hiaTlmQzI2bzU1VHlXSkZfakxLYktBV29NN1dlaDlwemxqSU5oMnhVQdIBxAFBVV95cUxQd2pHcHZ2X3JlRVNKTGJpWGdlSVhJUm1KeERvcVlQRDJ2SkVHd2tJQXJUY3M0OHZXWi1WcUJiVjZVQmJsYnVXT25SXzE5dWJiSXNTSnVlSURUZTJyYXF6MFlQTmNIcTE3Y3ZwdFBjTVdlMlpuVEpXRFRfSGRSc1hXX3FxZEV5QTEyeG42Tk9SQ3JxTVF2dWpSMmo1WnJVa3dFSklfNmlYdE0ycTZFTkF0NWpldzNGaW9tVnhSbTRSLTdfRHR1?oc=5",
+    "createdAt": "2026-09-07T05:34:54.136050+00:00",
+    "updatedAt": "2026-09-07T05:34:54.136050+00:00"
+  },
+  {
+    "id": 742,
+    "company": "NSE",
+    "dealType": "DRHP filing",
+    "confidence": "medium",
+    "confirmed": false,
+    "amountCr": 30000.0,
+    "amountRaw": "Rs 30,000 Crore",
+    "sizeSource": "stated",
+    "sizeBand": "OVER_2000",
+    "oneLine": "NSE gets Sebi approval for Rs 30,000 crore IPO.",
+    "seller": "NSE promoters / shareholders (implied)",
+    "buyer": null,
+    "individuals": [],
+    "advisers": [],
+    "sources": [
+      {
+        "outlet": "Deccan Chronicle",
+        "title": "NSE Mega IPO Gets Sebi Approval, Second Biggest IPO After Jio Platforms",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRVJpejMwMjNLSWFDT3Z2X1ZaZ0l4RXFtX0pHUVg0Vm9yWmh3cWpEWWtVMGdhbHNRZjVMdVpkbGo3OWQxZFNHVjlqMnE5SFRVVFh2ZGlOb1hneVVkZXdXbGUxcTlzQ0REdHVkTXlzNWwzWW1pdV9lRWNueUVnMjNVRWdhd3h3SHctX25XMWVTZl9VTGE0NUVVMUVKRWpYc2Z0QUx6N2l4SmFVdFE2ZUxRZmNyR254bGtPbUVzb0RXWDhJSEVC0gHKAUFVX3lxTFBWa0FwYmpGcDBiVERrMUhQTTNoUEdzTk1VelN2ZTZpSlcxTm5fMGdpZ0RGbHBfY1VRVmpSMXFseTY4cy0yN1RCMDVXS3owTEMtRFZrc1JXY3hMcXlkMHdsMDl4eVhWUmJNU21Kb0g5Ti1zTWNxRUlvZW1VNGp1WE10aTV0czExNThoaTBUa0VpNGNRTFVMdU9YdENZNWh2N2VLakl5VmR4UTlVOHFPR3NXSk1RaEtxdE1kNzhrTV9aS3pjcUx6X21WT0E?oc=5",
+        "resolvable": false
+      },
+      {
+        "outlet": "The Economic Times",
+        "title": "NSE IPO gets Sebi approval: 10 important points investors should know as D-Street debut inches closer",
+        "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQUnY2bnVLNXVocTJNMzJlWkRMYl9xWWE3MG5QNDQ5WVhHUFhSdWFvS3VfZWlydUpydFNyVXdxNVZzdDJWZm9GMU50Q0JJU2duV2ItcjM1clJNNWV5Z0NYX0E5Rmo2MENDMlRSOWRFNndldzJSZmp0QzNFQTRJVEZsOUJPNGdGaHZ5TlMzczl2MmVtYVhYaS1zYmFtMFAwOEk1N0QzUjA3c2RTUWI0Q2d1SmpqTmlrcjZTLTZIdm4wNHE4V016UVdNbVR4eWN6NTFTNTBpRXFzU3dzNjV5NlR2SWx5YzFwTE9iLXFINjRlOWN3aC0wUjl3MUhzWmRfNFYwdTBfNNIBigJBVV95cUxNdHNIMUJkMEJiNEtoWnhCLUUtMG53U0RrdjJwdjU0VGZEd0VzdzFZMnpNX2EyTTVVQkhiVVdndWxfMEVXb3hhVC1fMkZNQm1aS0cwV2VyeS1YVnA1ZTk3U3hFVnRPUUp6RC1CQVVYbU50a0tnWWJocDNCbXZleVpwczB5NTc4N05pR0NhTW1hdGNkZ2tLSFFuNHk2REJVUkE1R0VKaFA2QXVxQzhYY2NjQ1l5R2FtZl9aejJQU3B5SnVHb1BtYVVackxCaHlvdno0YlJ5dkktdThFTW1rTUg2cUlhWHZvMU9aZzRYX25FOTM5Xy1SVkpMRDN1YzRRdU9qbDAzUWZBZ1hvQQ?oc=5",
+        "resolvable": false
+      },
+      {
+        "outlet": "sarkaritel.com",
+        "title": "NSE IPO Gets SEBI Observation Letter For Rs 30,000 Crore Issue",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB5cDFpX3FFUFBYR2lyNEMyeUFNekRpc0Z6YXktdzVvSHpjUmFCYlItOFNuUG91ZEVpbmZodGUySWxoNVlWSmJ6alNLeEdJRVptN3ZsRUpFajBCUnIyR2h3cE15dDNMbGwwZlJha05teEh3S0Z5UC1RVFZDd1Y2Ulk?oc=5",
+        "resolvable": false
+      },
+      {
+        "outlet": "thehitavada.com",
+        "title": "biggest so far: NSE gets SEBI nod for Rs 30K cr IPO",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeEJIZGZQU2RJaGgxRDk5YmVqNFVUVnV5T2tHQjFLSFBJN0RiS3A1MG1SVmFpWndFOXJCSGc0TWZrUUFwSUxndElsZjFaRVlYQXZlc2l5TDZ0aTRSTEo3aUQ0S0dWdzBqRXZrX1QySDBhMVBTT0k4cWY1Yk9ZN0QtbXN1dkpuRlZQcGJTUzkzWFBMMkpfazI0ZUlxcXMxbGs?oc=5",
+        "resolvable": false
+      },
+      {
+        "outlet": "BW Businessworld",
+        "title": "NSE IPO Gets Sebi Clearance; Listing Likely In September",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUlEzSzA2dmh1eFlIWjlaSEE0ZEhkX0tzc3VRNXpZbGFDSGtrN00zS0dyRFdlOFJhclVfeXF1SGdCWlZtYUtCTzNySW02N2FsdzJJajk1dDBFQ1dBbzlYMXdObVhEZk1fS2twbXR6czdYOU1oM2kxWE5EZkxUcU4wcXFtSG5qWFl1SExXS2N1S0E3VDVGaHV6UnAtQ0FsX2t4?oc=5",
+        "resolvable": false
+      },
+      {
+        "outlet": "Times Bull",
+        "title": "NSE IPO Receives SEBI Approval – Price Band Expected on September 11",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOanU5T0QzNWRJaE1tcEluLVVNYmxPSUMwRDBwRFQtZzd2elkwcVB6enhmOVhhcFhfcUd5WG13dVo1OWhzZ19lV3B4T3A2Yzgydm5KMlAzSG01ZXdZNUZNb0NmbW5XRElxeGJKQng1N05uN0NNUjZKSUpDRXJ5dEQxNWwtemdoTGNxc3ZXS1poQkN5TTgtd0xPMGJuOWNjd9IBngFBVV95cUxOanU5T0QzNWRJaE1tcEluLVVNYmxPSUMwRDBwRFQtZzd2elkwcVB6enhmOVhhcFhfcUd5WG13dVo1OWhzZ19lV3B4T3A2Yzgydm5KMlAzSG01ZXdZNUZNb0NmbW5XRElxeGJKQng1N05uN0NNUjZKSUpDRXJ5dEQxNWwtemdoTGNxc3ZXS1poQkN5TTgtd0xPMGJuOWNjdw?oc=5",
+        "resolvable": false
+      },
+      {
+        "outlet": "Free Press Journal",
+        "title": "SBI Plans 12,000 Hires, 250 New Branches In FY27; To Dilute 1% Stake In NSE IPO",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQeVRXUWhjMUFRTkg3TGlYWnI3UExrU2ZORW9LSEdLSlp1OHZPZXVkaXV4TDNuckNBVHo3a1R6cld4b21zNkkxQS1iU1hVOGN6ZGxLZG5NRF93ZV9fNWlhUXJPWTFHZmlNSGFoYjYxRW5oT0FrcEszMFVHclBsa01VaFRlQzdfMEFibUM4eGZKVldnN3JaMzc0S29PdGVpV2NaU3dBYTU0OS1BbVo4a3pid05ySmFCT0XSAbwBQVVfeXFMUHotNTdqa3EzZWZzU2U5dnpFSUZvak1WOWF1WThTN1pKRm9ITTg2d2FMV0c5UXhHWVJaZ0ZHLU5Rb1VYeDJ6M1hEUnhoR0IzZnp0bjFGYjBjbDlxNXNKLXRWeUxmYjlDclJzcGRtdGZBZ0tnRzlBWGpIM0FqS1FhYkh2UFV0cW82MWxzZDdpSXp1ZjZsbmJGbFNLMWt4RkpQZWNkazNBR0k3M1E4eGJRcjRDYWc0dVdsdUdKZk0?oc=5",
+        "resolvable": false
+      },
+      {
+        "outlet": "Outlook Money",
+        "title": "Winner Takes It All: Who Gets The Biggest Slice of the Rs 30,000-Crore Plus NSE IPO Pie?",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVXZUSHdHNE5rVi1VX05NWnJKXzg3ZS1YTzUtVVRYbzFHZWJ1NVNReUtWMEpQclV5SjE3akRTNm9IRmJhdEhrNEtpYlZfWWFlQlpOWU1pdjc3NzFLMHpBVEEzVWtsdnRheUVPdzZubndNZGhIVUNqNFdycHYwRmo0aWx4Tmg2d1lRUGRDOUpUQW1YcGM5UFhiMW1xaFh2MGdjcWRDUkRhWTY4aWVyeDdCWnVlR1RJZjNKSkR2TUlR0gHLAUFVX3lxTE8yQTNVQVlXaE9vdE0ySGZNalEtMDl3amhwbWFvQ1p3VUdHbjdEUHAzWXNJbmE5aG9qRXlSOTRYbmhWcVN3Ml9LRE5Bcm8wN2FfeTJMdkxIM2dBY3RZVGprSjNScDY0M1o4WDdvWjBKb0FTREhzanpCVzVwbW01azlFeDhDNUdJck9PNWc1U09VaHU3Tzd3ZGU3am9SWWtvM2tGRzlCY3FZUlQ3dzNCdDVkcTE1ZXRMdmZpRkV2MXNfTnNYOEJhNUVQLW9v?oc=5",
+        "resolvable": false
+      }
+    ],
+    "primaryUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRVJpejMwMjNLSWFDT3Z2X1ZaZ0l4RXFtX0pHUVg0Vm9yWmh3cWpEWWtVMGdhbHNRZjVMdVpkbGo3OWQxZFNHVjlqMnE5SFRVVFh2ZGlOb1hneVVkZXdXbGUxcTlzQ0REdHVkTXlzNWwzWW1pdV9lRWNueUVnMjNVRWdhd3h3SHctX25XMWVTZl9VTGE0NUVVMUVKRWpYc2Z0QUx6N2l4SmFVdFE2ZUxRZmNyR254bGtPbUVzb0RXWDhJSEVC0gHKAUFVX3lxTFBWa0FwYmpGcDBiVERrMUhQTTNoUEdzTk1VelN2ZTZpSlcxTm5fMGdpZ0RGbHBfY1VRVmpSMXFseTY4cy0yN1RCMDVXS3owTEMtRFZrc1JXY3hMcXlkMHdsMDl4eVhWUmJNU21Kb0g5Ti1zTWNxRUlvZW1VNGp1WE10aTV0czExNThoaTBUa0VpNGNRTFVMdU9YdENZNWh2N2VLakl5VmR4UTlVOHFPR3NXSk1RaEtxdE1kNzhrTV9aS3pjcUx6X21WT0E?oc=5",
+    "createdAt": "2026-09-07T05:34:54.106788+00:00",
+    "updatedAt": "2026-09-07T05:34:54.106788+00:00"
+  },
+  {
+    "id": 737,
+    "company": "Rentomojo",
+    "dealType": "DRHP filing",
+    "confidence": "high",
+    "confirmed": false,
+    "amountCr": 1256.0,
+    "amountRaw": "Rs 1,256 crore IPO size",
+    "sizeSource": "stated",
+    "sizeBand": "500_TO_2000",
+    "oneLine": "Rentomojo IPO at ₹4,246 crore valuation; raises ₹1,256 crore.",
+    "seller": "promoters/selling shareholders",
+    "buyer": null,
+    "individuals": [
+      "Nitish Mittersain"
+    ],
+    "advisers": [],
+    "sources": [
+      {
+        "outlet": "The Economic Times",
+        "title": "Rentomojo set to go public at Rs 4,246 crore valuation, set to raise Rs 1,256 crore via IPO",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOS09WYVdrcU8yWmtmY1IyYVJlaEppRngxWGpCRDl5aUQwNm1pVmJucmF4bTlYdk1RdEY4WUg1YWs1dTh1SzNHWVJsakY2NDZ4Zm4wT0g3cF9vWHdabjkxLTIzTklzOVU5U0U5WS1sMlM0TURQVHJjcGlMeHlxUGVoRUFkQzRzTXRiOTFRdVVOa0NuNmgwaEV0R0thUm04X1l5Y1U2SVVjR2tBdVBFdnYtRUM3R1VLT3N6UWFUT2FBck1VU00yZ1ozZlNTQWcyN01xZWxVY1hweUp5SmNYcFY2T0h3RDBmM0xiOEM1RlJBSHNid9IB9wFBVV95cUxQSFlBOXdGSmFidk5iNkNDb25oTHJ5ejJCelJNTC16a3oxa2U0R282SWZhSGJKTDRBclNaZ29Id2YxRjlaS3ViUjN4M3RuYXA0cnZTcUdFMml6aDRuMVNpSHhSQ0t5amlFSkNWaEpGVzZFUnM5WkF4QmVUd09FNVp0V1ZkM2tYUEtFSzdPZTdZZmZiV1E5S0RRWXBnVUJSUldudVI1Qzg1dHdNYkpja01qbUdPV1d0ak50QWR3WjlWTEZWYUg1YnRELW9PSnc2alRMTy02eFZWbVFLemtUYkNZdXFCcUVVYlVpQzFLeEFCOW81elZ2WkE4?oc=5",
+        "resolvable": false
+      },
+      {
+        "outlet": "univest.in",
+        "title": "Rentomojo IPO 2026: Price and Full Review",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5IZXZpYUlzZ0FacXRqSEwyeW05TTFKT2lDNllpMkFGM2tQRVN4eDU5SXI0bk9YYm5LYnNTakJiTHktN2FISmxCRWJ0U1NTa01EUzV6YlQxN1k5a3EzbUItSHZvOUUtY3R2Rm52Z3VxN0FwWUVwRTF5b2RWMA?oc=5",
+        "resolvable": false
+      },
+      {
+        "outlet": "Moneycontrol.com",
+        "title": "Nazara founder Nitish Mittersain's early Rentomojo bet set for 152X return as Rs 1,256-crore IPO opens...",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPTUVOejhvLUdoSldDY1RndThGaWg4OVphLU13TGxDaHdlUF94cGZSMlJETEJHS1p3N0RBb19fQTVWLWNpSVVWRXZ6SFZMS1NtQ3VQbUpzaE1FSFBOemo5R0dlSTV2SjVkbTJlS3I0X1p3amtSNFl2LWZlTXV5SUNTMTVIMGk3MkliVFItUFM5eWRuak5qQklJLVJlZWZ6REpzMDkwemRwU1FTLW5HUG1MN1hNVU5PS1JLUFBldWE4TUR4VWVqdTR4RmxTOXE3SzJzRjFVUGlFNC1TWHBIVW5z0gHfAUFVX3lxTE9NRU56OG8tR2hKV0NjVGd1OEZpaDg5WmEtTXdMbENod2VQX3hwZlIyUkRMQkdLWnc3REFvX19BNVYtY2lJVVZFdnpIVkxLU21DdVBtSnNoTUVIUE56ajlHR2VJNXZKNWRtMmVLcjRfWndqa1I0WXYtZmVNdXlJQ1MxNUgwaTcySWJUUi1QUzl5ZG5qTmpCSUktUmVlZnpESnMwOTB6ZHBTUVMtbkdQbUw3WE1VTk9LUktQUGV1YThNRHhVZWp1NHhGbFM5cTdLMnNGMVVQaUU0LVNYcEhVbnM?oc=5",
+        "resolvable": false
+      },
+      {
+        "outlet": "TechStory",
+        "title": "Rentomojo IPO: Early Investors Eye Massive Returns as Company Heads to Dalal Street",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNczR0MUJZQ3MydzJUcW12aUtId0diMm1xN2VoYi1QOXU1UmhtQURrWXVNTXV3dTlrR0VIc1JIOHAyWWRDT245anZoUnNGX1Q5M3hCOXlpd21xZlVIeUdNeGk0Q0ZvTHZJb3QxQkhJeGNpR3hZSTV4YXdVV3YtX25EWXgzYUJGQlFYTTJ2MWwxQkQ4YWZDWVN6WlFJTDMzclhkeHA0cTZxZw?oc=5",
+        "resolvable": false
+      }
+    ],
+    "primaryUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOS09WYVdrcU8yWmtmY1IyYVJlaEppRngxWGpCRDl5aUQwNm1pVmJucmF4bTlYdk1RdEY4WUg1YWs1dTh1SzNHWVJsakY2NDZ4Zm4wT0g3cF9vWHdabjkxLTIzTklzOVU5U0U5WS1sMlM0TURQVHJjcGlMeHlxUGVoRUFkQzRzTXRiOTFRdVVOa0NuNmgwaEV0R0thUm04X1l5Y1U2SVVjR2tBdVBFdnYtRUM3R1VLT3N6UWFUT2FBck1VU00yZ1ozZlNTQWcyN01xZWxVY1hweUp5SmNYcFY2T0h3RDBmM0xiOEM1RlJBSHNid9IB9wFBVV95cUxQSFlBOXdGSmFidk5iNkNDb25oTHJ5ejJCelJNTC16a3oxa2U0R282SWZhSGJKTDRBclNaZ29Id2YxRjlaS3ViUjN4M3RuYXA0cnZTcUdFMml6aDRuMVNpSHhSQ0t5amlFSkNWaEpGVzZFUnM5WkF4QmVUd09FNVp0V1ZkM2tYUEtFSzdPZTdZZmZiV1E5S0RRWXBnVUJSUldudVI1Qzg1dHdNYkpja01qbUdPV1d0ak50QWR3WjlWTEZWYUg1YnRELW9PSnc2alRMTy02eFZWbVFLemtUYkNZdXFCcUVVYlVpQzFLeEFCOW81elZ2WkE4?oc=5",
+    "createdAt": "2026-09-07T05:34:52.849224+00:00",
+    "updatedAt": "2026-09-07T09:31:09.280209+00:00"
+  },
+  {
+    "id": 705,
+    "company": "BluPine Energy",
+    "dealType": "strategic buyout",
+    "confidence": "medium",
+    "confirmed": false,
+    "amountCr": null,
+    "amountRaw": null,
+    "sizeSource": "band",
+    "sizeBand": "OVER_2000",
+    "oneLine": "Actis-owned BluPine Energy 4GW renewable platform in major M&A auction.",
+    "seller": "Actis",
+    "buyer": null,
+    "individuals": [],
+    "advisers": [],
+    "sources": [
+      {
+        "outlet": "ET Corporate",
+        "title": "JSW Neo, Blackstone &amp; Macquarie among suitors for BluPine Energy",
+        "url": "https://economictimes.indiatimes.com/industry/renewables/jsw-neo-blackstone-macquarie-among-suitors-for-blupine-energy/articleshow/133719186.cms",
+        "resolvable": true
+      }
+    ],
+    "primaryUrl": "https://economictimes.indiatimes.com/industry/renewables/jsw-neo-blackstone-macquarie-among-suitors-for-blupine-energy/articleshow/133719186.cms",
+    "createdAt": "2026-09-03T01:31:53.023954+00:00",
+    "updatedAt": "2026-09-03T01:31:53.023954+00:00"
+  },
+  {
+    "id": 699,
+    "company": "Meesho",
+    "dealType": "block deal",
+    "confidence": "medium",
+    "confirmed": true,
+    "amountCr": 728.6,
+    "amountRaw": "728.6cr confirmed via NSE block deal",
+    "sizeSource": "stated",
+    "sizeBand": null,
+    "oneLine": "SoftBank offloads 1.5% stake in Meesho via block deal.",
+    "seller": "SoftBank",
+    "buyer": null,
+    "individuals": [
+      "SVF II MEERKAT (DE) LLC"
+    ],
+    "advisers": [],
+    "sources": [
+      {
+        "outlet": "Livemint",
+        "title": "SoftBank to offload 1.5% stake in Meesho via block deal",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQeERQWW8tZHd4azFTVWNHcnYyVnJTTjN0MEtxbF9aamw1bzc3RUxlUDRUdkJ5S3ozYW9XWVVfekRjZW9ZSkk5bHAtWTZKQ1Bja3BnT3VoVV9USHhobDl5aFhyRklFWFFubDJreVJqeXNhMmtIelVXcWdWcldrSENMOWZVZjRJZUtRTU8xSTIxWWhVTHByV2U4TjRPemZ4OEFKcmFLWmJHTG1tXzFpZzd0VUJtY1hTSHVCdmRUZ1dla25sTzFNRThobWV1eE3SAdIBQVVfeXFMTkNZRGFRV1hlYVZUeW00WDhNNzJueHpWODhKQ0J5YTVtbjB5WTNIUktpN3JYcDcyYXRGWnQ3WFczUjFXZFlTQ3JrYU9YdU9iM2xqZ0tHc3FYaTB2bXV5dEJsaDdPV04xWGxzOXpaZkR2dDh0emFnLVU4UHN6Um1lRWt5aVZFVEs3dEJWWmF5bndVWTJTeE4ySGo4a2t1UW1JVkgtSHdhV3ZoRVAwVVhRWjljUlg3aTBwbzZvc1BHRjU3dnFsMzloNkZPc0RPaXA5WXJR?oc=5",
+        "resolvable": false
+      },
+      {
+        "outlet": "Moneycontrol.com",
+        "title": "Meesho block deal: 1.7% stake worth Rs 1,650 crore changes hands; SoftBank likely seller",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQR2liT1RCeDVDSjg2WTQybUtVMU5VZjhQUVE5MDdjTU1oblNxVnJJNUpWWWJTa19KWmpWYVY0bGlINnFZaFVFdzNkTjFoak9tNUZQU1FId1p1M1g5NTdnalFLd0VFeU1yY29vNFJDcWhUUWRaci1sVGNidXVUTVY3V0NrRWNVN3NhOXBLaDRRNzBnMXlVM1l4ZHpRYUZlVkVYY2F0UUduVFBhdXFvTEdoMVVDWnE0aEtmNnFZTWUtWXZaSTR3ZVNxN3dVQ2VqS3JMUTZGSG9GRzY1M1BSdWVTNWpDTEnSAeoBQVVfeXFMTU1BbWlnLVdRVThwNEdMbDNPNlpUSUZtV05sX1dqRVdwNGJXaFNVYnpmQ2xPMEFIRWN4ZHpQNTZWUTl6SGxqVG4ySFlDQzVwdV90YjhFaUp2QTR1a3puMy1IVkxRTzZGRlQ3MHRSeEk0S2pyNW5WMkhZZzBsRG9lUVRTVEkxTzJBT3dDaGJvc1NWcW5XSVRpcXZ2SmQybEUtaW0tTHh4OEdyVEtWakRDSG8zYkczQU9kM21KU3FDQ3hvUkEtS2pXdVl0djNQMkFZVks0WTd0VkYzakU4Z1AzSEszSlBaUFA0X3Rn?oc=5",
+        "resolvable": false
+      },
+      {
+        "outlet": "Upstox",
+        "title": "Block deals, Sept 3: Meesho sees ₹1,650 crore block deal; Clean Max witnesses ₹199 crore transaction",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNWjJjbVhhV1pMMU5VMUpSQ1BRMUp6bHZpbmlXMjRCTHVUdGRGOWVlcDN2YVVoUGRwU0NQMVJUQ3o1Q2wySnFkUWJxYkc0UkcwWnlfcVhtcWFkdTR1UWpQRjFjSnI5cnFwM2NnbFhQRklnTkdKeW5BLVI4Y0Y1RGRoeHlRdWl6T3ZHXzRPZkdla0stN3NLc3BhX2s1TTBlbXVUVUJKZjFJSVRXaGpMcVUzMkF2T3QwUFd5Qmljc2RwTzdrZE5OUmVndHBtMzdEd0hfc25mVEVONzhLUUE5MkFZeGMtSHZVYk90b3c?oc=5",
+        "resolvable": false
+      },
+      {
+        "outlet": "fortuneindia.com",
+        "title": "Meesho shares slip over 2% amid ₹1,650 crore block deals; SoftBank likely seller",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQRW1HZXRzSi1wb3IySGZPaDRjOGRwWVNQRG5lQTVBQUhOUk13Ul9pamFLUXN0N0llYjZhQklVWlFiZzdLOG9LcWNQd0N0MUJnbDdLQzQ2TWpvTmttMEdnMHFMSFdzQ2piRjc1cGMyX0hCYXhBUk03bUUtaG10cG1CTGo5TmtRb3A1MXVMd0FxTFcxejdZdzUyNjRmTFpwb3ZfU1VjRDF6SUdjV2hhaE9yNVBiLUh1NS1YR0wzbtIBygFBVV95cUxPY3dfTkVyTXFRaTFtVXJqS1pra3VUcVY2ZzFzRnNGRHJNTDRhbDE2bmNIUVptaTI5Q0wtc0NKdkVybmQxNm5XNF82NDUzd2toQXlXQ0xPUmQyeEo4bjFRdlZFTWlYRVJ4YURMVkNJTURwTEppN1VLZTJhajQ3YS1lMnhOeXpiYkVBNkJpMDE1RUNyM0JSTXlCS18xZ2o1TjNVM0xtMzlXTnd2STA2V0YyTDhkTzZ4MDVLRlhoM0gySTVMWFo1ZXFza05B?oc=5",
+        "resolvable": false
+      },
+      {
+        "outlet": "Google News",
+        "title": "SoftBank trims Meesho stake through Rs 1,650 Cr block deal",
+        "url": "https://entrackr.com/news/softbank-trims-meesho-stake-through-rs-1650-cr-block-deal-12488785",
+        "resolvable": true
+      },
+      {
+        "outlet": "Google News",
+        "title": "SoftBank Offloads Meesho Stake Worth ₹1,650 Cr",
+        "url": "https://inc42.com/buzz/softbank-offloads-meesho-stake-worth-%e2%82%b91650-cr/",
+        "resolvable": true
+      },
+      {
+        "outlet": "Google News",
+        "title": "Meesho Limited: bulk deal",
+        "url": "",
+        "resolvable": true
+      },
+      {
+        "outlet": "Google News",
+        "title": "Meesho Limited: bulk deal",
+        "url": "",
+        "resolvable": true
+      },
+      {
+        "outlet": "Google News",
+        "title": "Meesho Limited: block deal",
+        "url": "",
+        "resolvable": true
+      },
+      {
+        "outlet": "Google News",
+        "title": "Meesho Limited: block deal",
+        "url": "",
+        "resolvable": true
+      }
+    ],
+    "primaryUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQeERQWW8tZHd4azFTVWNHcnYyVnJTTjN0MEtxbF9aamw1bzc3RUxlUDRUdkJ5S3ozYW9XWVVfekRjZW9ZSkk5bHAtWTZKQ1Bja3BnT3VoVV9USHhobDl5aFhyRklFWFFubDJreVJqeXNhMmtIelVXcWdWcldrSENMOWZVZjRJZUtRTU8xSTIxWWhVTHByV2U4TjRPemZ4OEFKcmFLWmJHTG1tXzFpZzd0VUJtY1hTSHVCdmRUZ1dla25sTzFNRThobWV1eE3SAdIBQVVfeXFMTkNZRGFRV1hlYVZUeW00WDhNNzJueHpWODhKQ0J5YTVtbjB5WTNIUktpN3JYcDcyYXRGWnQ3WFczUjFXZFlTQ3JrYU9YdU9iM2xqZ0tHc3FYaTB2bXV5dEJsaDdPV04xWGxzOXpaZkR2dDh0emFnLVU4UHN6Um1lRWt5aVZFVEs3dEJWWmF5bndVWTJTeE4ySGo4a2t1UW1JVkgtSHdhV3ZoRVAwVVhRWjljUlg3aTBwbzZvc1BHRjU3dnFsMzloNkZPc0RPaXA5WXJR?oc=5",
+    "createdAt": "2026-09-03T01:31:52.677895+00:00",
+    "updatedAt": "2026-09-04T14:18:23.160879+00:00"
+  },
+  {
+    "id": 685,
+    "company": "Cloudnine Hospitals",
+    "dealType": "PE secondary",
+    "confidence": "medium",
+    "confirmed": false,
+    "amountCr": null,
+    "amountRaw": null,
+    "sizeSource": "band",
+    "sizeBand": "OVER_2000",
+    "oneLine": "Permira acquires 25.71% stake in Cloudnine from True North Capital",
+    "seller": "True North Capital",
+    "buyer": null,
+    "individuals": [],
+    "advisers": [],
+    "sources": [
+      {
+        "outlet": "ET Corporate",
+        "title": "Permira to buy 25.71% in Cloudnine Hospitals parent: CCI filing",
+        "url": "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/permira-to-buy-25-71-in-cloudnine-hospitals-parent-cci-filing/articleshow/133690126.cms",
+        "resolvable": true
+      }
+    ],
+    "primaryUrl": "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/permira-to-buy-25-71-in-cloudnine-hospitals-parent-cci-filing/articleshow/133690126.cms",
+    "createdAt": "2026-09-02T01:32:09.395463+00:00",
+    "updatedAt": "2026-09-02T01:32:09.395463+00:00"
+  },
+  {
+    "id": 615,
+    "company": "Ather Energy",
+    "dealType": "block deal",
+    "confidence": "high",
+    "confirmed": true,
+    "amountCr": 1758.24,
+    "amountRaw": "1758.24cr confirmed via NSE block deal",
+    "sizeSource": "stated",
+    "sizeBand": "OVER_2000",
+    "oneLine": "Block deal: 3.9% of Ather Energy (₹1,758 cr) changes hands",
+    "seller": null,
+    "buyer": null,
+    "individuals": [
+      "GOVERNMENT OF SINGAPORE"
+    ],
+    "advisers": [],
+    "sources": [
+      {
+        "outlet": "CNBC TV18",
+        "title": "Ather Energy Block Deal: 3.9% equity worth ₹1,758 crore changes hands",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZTFHLUx0cEJyQ1laSnZnR0VDd2dKU1pjRXl0WWpDdWQ5ZXlQTGgwZEowaU1UYTZkdVhXNjdXRTFrLUJObTJRMVJFT0xabGdIb0pIckh5S29UdURienVIUWQ5TDZUUEpRVG5ONGowdmUyWjJoUHVsV0lFaEt3UURWQTc2bDhoaEZqWUdmQXhjQm81dWg1MDhJck43S1FqbHhzVjVYbXBJbXlBdXPSAbABQVVfeXFMT01xamRIY3htcm11UE9xSGdMc0hRVzVyQjlSRkd2X0s0OEdvSEd2TGk3R1N1OW1NcEFPVk12TG0zcWJZR1JYZnFvblg3S3NtdXhoLVJqNlJBbkpUeEgzUDlEelFBLUV1YVZYc1pwcVZSb0hPZlR6bGZJQkthQXo5NWNPZ2tzeHYwQkRQTUFieWdWMk1zOEVSVzN5cEVLRXk0b3REWWxfUXJaQzE0Mm5FWU0?oc=5",
+        "resolvable": false
+      },
+      {
+        "outlet": "Google News",
+        "title": "Ather Energy Limited: bulk deal",
+        "url": "",
+        "resolvable": true
+      },
+      {
+        "outlet": "Google News",
+        "title": "Ather Energy Limited: block deal",
+        "url": "",
+        "resolvable": true
+      }
+    ],
+    "primaryUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZTFHLUx0cEJyQ1laSnZnR0VDd2dKU1pjRXl0WWpDdWQ5ZXlQTGgwZEowaU1UYTZkdVhXNjdXRTFrLUJObTJRMVJFT0xabGdIb0pIckh5S29UdURienVIUWQ5TDZUUEpRVG5ONGowdmUyWjJoUHVsV0lFaEt3UURWQTc2bDhoaEZqWUdmQXhjQm81dWg1MDhJck43S1FqbHhzVjVYbXBJbXlBdXPSAbABQVVfeXFMT01xamRIY3htcm11UE9xSGdMc0hRVzVyQjlSRkd2X0s0OEdvSEd2TGk3R1N1OW1NcEFPVk12TG0zcWJZR1JYZnFvblg3S3NtdXhoLVJqNlJBbkpUeEgzUDlEelFBLUV1YVZYc1pwcVZSb0hPZlR6bGZJQkthQXo5NWNPZ2tzeHYwQkRQTUFieWdWMk1zOEVSVzN5cEVLRXk0b3REWWxfUXJaQzE0Mm5FWU0?oc=5",
+    "createdAt": "2026-08-28T04:31:09.982339+00:00",
+    "updatedAt": "2026-08-28T21:51:23.251400+00:00"
+  },
+  {
+    "id": 609,
+    "company": "Foseco India",
+    "dealType": "block deal",
+    "confidence": "medium",
+    "confirmed": false,
+    "amountCr": 706.3,
+    "amountRaw": "15.26% x mcap ~Rs 4628cr = ~Rs 706cr",
+    "sizeSource": "computed",
+    "sizeBand": null,
+    "oneLine": "Morgan Terrassen, Morganite Crucible sell 15.26% stake in Foseco India; Alpha Wave exits",
+    "seller": "Morgan Terrassen, Morganite Crucible, Alpha Wave India",
+    "buyer": null,
+    "individuals": [],
+    "advisers": [],
+    "sources": [
+      {
+        "outlet": "Moneycontrol.com",
+        "title": "Morgan Terrassen, Morganite Crucible sell entire 15.26% stake in Foseco India; Alpha Wave India exits Aye...",
+        "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNbXpkM3V0VXJrUnF1enZuX3MyOUtnRVFrRHZvX2c5NUFBOHZzMDFsOGlNbHlib0MtbU9YWUNjalBVbHZfdk1zLVdpdGZ6Zm5tNVk4d1RDMlhDaHM3UGZrTTRWS2JPODBPc1RTMXU4aXlnZWVNcC1OR25SMW4ybVJQSTg4THZyTktGemFrdzVZMVpCMTJTbVpyeWxLeS1yVnVCekJYeFlabVduR3dpLXgzNW1TRmhoYkNEVDBnR25DNlZPZ2ZzVm9pSm1GbDUtU2FfMWtFeVVWeE56cGN0X0VXLVJSUzFWSklic01ONlpPLThUVXlTZGF5NDlPNW1vTWpRaG5fNmxGLVl6eGPSAYsCQVVfeXFMTW16ZDN1dFVya1JxdXp2bl9zMjlLZ0VRa0R2b19nOTVBQTh2czAxbDhpTWx5Ym9DLW1PWFlDY2pQVWx2X3ZNcy1XaXRmemZubTVZOHdUQzJYQ2hzN1Bma000VktiTzgwT3NUUzF1OGl5Z2VlTXAtTkduUjFuMm1SUEk4OEx2ck5LRnpha3c1WTFaQjEyU21acnlsS3ktclZ1QnpCWHhZWm1Xbkd3aS14MzVtU0ZoaGJDRFQwZ0duQzZWT2dmc1ZvaUptRmw1LVNhXzFrRXlVVnhOenBjdF9FVy1SUlMxVkpJYnNNTjZaTy04VFV5U2RheTQ5TzVtb01qUWhuXzZsRi1Zenhj?oc=5",
+        "resolvable": false
+      },
+      {
+        "outlet": "CNBC TV18",
+        "title": "Foseco India block deal: SBI Mutual Fund, Mirae, Invesco and LIC among buyers",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQcUhveVkyRk5lWlhMbkh1WHVYMGhWZFVaOXFQbnl2MFNXVld3aE1KWEU1ZWpaQ2tfaWR1MVYxZ2xLSDhRN05sRUhQeDZpR2J1NkpiTFNvRWVnYnlPRkxCV3RQRnpoeWlKN3cyS18xS3hidE1JRDlEbFQtUTRqZW1GRFZhLUp5cnBObzl3ZkdkVTkxM3FFLWcxdkZoU09lbDA1NlpxV0RJbkFIMU5BNFRvMGU5UEZKM2tQQnhN0gHAAUFVX3lxTE9HY04yV1NvUFZkYzFoU3k2a2p2RHZtaFlqS3ZKNTFpSGQxRUQ4RV82Rkc4TlBtUDRtdGluWmFxblowOXN0STFITFRpM3ctNVVKYVB2WWxTOXZqZ083bU9nZ3RpbmRlaU5HcmJUaEtRcjZBdEx0dDRRWU1JazNEVE1jOEp6Vm14QmpXUjV3dGs3TWxlMDRpZFdDZk1hU0k2S29fRVI1QzBHbTAyeWUxd0NjMEJVd2VPWTBleHFJYnJkSQ?oc=5",
+        "resolvable": false
+      }
+    ],
+    "primaryUrl": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNbXpkM3V0VXJrUnF1enZuX3MyOUtnRVFrRHZvX2c5NUFBOHZzMDFsOGlNbHlib0MtbU9YWUNjalBVbHZfdk1zLVdpdGZ6Zm5tNVk4d1RDMlhDaHM3UGZrTTRWS2JPODBPc1RTMXU4aXlnZWVNcC1OR25SMW4ybVJQSTg4THZyTktGemFrdzVZMVpCMTJTbVpyeWxLeS1yVnVCekJYeFlabVduR3dpLXgzNW1TRmhoYkNEVDBnR25DNlZPZ2ZzVm9pSm1GbDUtU2FfMWtFeVVWeE56cGN0X0VXLVJSUzFWSklic01ONlpPLThUVXlTZGF5NDlPNW1vTWpRaG5fNmxGLVl6eGPSAYsCQVVfeXFMTW16ZDN1dFVya1JxdXp2bl9zMjlLZ0VRa0R2b19nOTVBQTh2czAxbDhpTWx5Ym9DLW1PWFlDY2pQVWx2X3ZNcy1XaXRmemZubTVZOHdUQzJYQ2hzN1Bma000VktiTzgwT3NUUzF1OGl5Z2VlTXAtTkduUjFuMm1SUEk4OEx2ck5LRnpha3c1WTFaQjEyU21acnlsS3ktclZ1QnpCWHhZWm1Xbkd3aS14MzVtU0ZoaGJDRFQwZ0duQzZWT2dmc1ZvaUptRmw1LVNhXzFrRXlVVnhOenBjdF9FVy1SUlMxVkpJYnNNTjZaTy04VFV5U2RheTQ5TzVtb01qUWhuXzZsRi1Zenhj?oc=5",
+    "createdAt": "2026-08-28T01:32:27.993140+00:00",
+    "updatedAt": "2026-08-28T01:32:27.993140+00:00"
+  },
+  {
+    "id": 574,
+    "company": "KDDL",
+    "dealType": "block deal",
+    "confidence": "medium",
+    "confirmed": false,
+    "amountCr": 2323.7,
+    "amountRaw": "48.14% x mcap ~Rs 4827cr = ~Rs 2324cr",
+    "sizeSource": "computed",
+    "sizeBand": null,
+    "oneLine": "KDDL promoter group sells shares, stake falls to 48.14%",
+    "seller": "KDDL promoter group",
+    "buyer": null,
+    "individuals": [],
+    "advisers": [],
+    "sources": [
+      {
+        "outlet": "scanx.trade",
+        "title": "KDDL promoter group reduces stake to 48.14% after share sale",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVUREVWVvaE9lMUJkdkNxRll0Ml91YVh3M3BzX0VxeWlsQjFRZW9FZXZydUtjdHNVOEdEUzVEWmFfRDB3VjQtSUFNX1l0QUZxQUM3OGsycURKU1E5Z1NaSUxPell4aVNIUHRtZ0hrZVE2ZXllVXZLdHEtSTA2eWRna0VnR2s0RE1ldTBvMldxalZVNER5UWx1X012Q3JhUnpRZFJIQmlDYlFvNUE?oc=5",
+        "resolvable": false
+      }
+    ],
+    "primaryUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVUREVWVvaE9lMUJkdkNxRll0Ml91YVh3M3BzX0VxeWlsQjFRZW9FZXZydUtjdHNVOEdEUzVEWmFfRDB3VjQtSUFNX1l0QUZxQUM3OGsycURKU1E5Z1NaSUxPell4aVNIUHRtZ0hrZVE2ZXllVXZLdHEtSTA2eWRna0VnR2s0RE1ldTBvMldxalZVNER5UWx1X012Q3JhUnpRZFJIQmlDYlFvNUE?oc=5",
+    "createdAt": "2026-08-25T12:31:29.734678+00:00",
+    "updatedAt": "2026-08-25T12:31:29.734678+00:00"
+  },
+  {
+    "id": 404,
+    "company": "Kronox Lab Sciences",
+    "dealType": "strategic buyout",
+    "confidence": "medium",
+    "confirmed": false,
+    "amountCr": 443.9,
+    "amountRaw": "64.26% x mcap ~Rs 691cr = ~Rs 444cr",
+    "sizeSource": "computed",
+    "sizeBand": null,
+    "oneLine": "Kronox Lab Sciences promoters sell 64.26% stake to Indo Borax.",
+    "seller": "Kronox Lab Sciences shareholders (unnamed)",
+    "buyer": "Indo Borax",
+    "individuals": [],
+    "advisers": [],
+    "sources": [
+      {
+        "outlet": "scanx.trade",
+        "title": "Kronox Lab Sciences promoters sell 64.26% stake to Indo Borax",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdlc3VlFUVmlpbE9EcWRIYTlJMmxBQUVGcHBYbklPeGluVTRRX1lMU09Od3lnZ0dSRTVvWVBTcEJYMTZMdDhpaGY1QUJ1WGhHV1U5dFlIdU9kZG81UnhpMkxjQUgydWhfQ1NvUzd3eFdUMVc3US1zVWFpRWpoWTA2c1o5b09fVmZyanUwTURYbWVwLW5OTXo0UjBDRXBUNUl3WGpoWEI2Ty16S2hnWTM2UVI5SVE?oc=5",
+        "resolvable": false
+      },
+      {
+        "outlet": "BusinessLine",
+        "title": "Vadodara-based Kronox Lab Sciences to change hands 2 yrs after listing",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNaWdDYTR6SGdzN1UwdjBMdTA1VU1lUE4wM0ZRZXNGU3J0bWpZTUdjTktqaV8yT0FiaTFXX2lBY2t6Z21EWW5TaFNNSllPUjU1eDhKWF95V05ud3BEWjEyZVRORTQxZkpZNnBBaUZsdk85M29IWXhKeFVyVnFqUmQ2bTlqRlBDZWRRTkhWcEhwQ0dzNW1JaE1qOVRIbXY5N0NSckJ5dUdBWnRiZGxZRDZ0cm80UWRybWF5NENobTJsSU9pVEJOSkdGTDhCSk81ZlRw0gHXAUFVX3lxTFBOclFremJTTnRtdmVDQmVtelZYVzFKWHhpMTlFbGpHdGtnbTRfYVZRQ0JoMUVKX1BxRnFRTEo2SEwwNXNVdHAxTW1BdnNwejVSMTZqeHpsSGtPaTlKc2c4WlpwUGExNzdIOHNCLVVzWHlzYTdvb04zcjlEMDd4WkgwY05rbDV0Um92S19mZlF6NUhOcVNYQzhVX1paUVdHakRXY0RzX0lfZVY5WXR5NzBiWEJLTFZBTkVZQlhxcEp5Zk0wM3VxREJxVS0xRlpqbTEwUWFvVThB?oc=5",
+        "resolvable": false
+      },
+      {
+        "outlet": "Whalesbook",
+        "title": "Indo Borax to Acquire 64.26% in Kronox Lab Sciences via Open Offer",
+        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQZzRZZnR0UFlrMDFEZG5zU29NamxsVzU0bTI2S1Via0dtSkxiVlJCVHRaaHYxOXJWcUc2M0lVS3NZMlN2VzNVVkxWdG5ycVJkS0VIcG8xN0N0Y1lSeW1MS1R6X1FmNzNlQWJTWW5EVURUOUdXYnhwZWl3LTExQWh0TjkzUzM1MXMydHlvb1dvTWk3UVE2TmIzNjJMaTJNNzhJeDBIbkg2aU9GOUVFUi1yUmhyczJiNG5GakdXRFg0MTRWOFNMa00yVmg4TFVVTExGUWtoUzJiUThhSm9zUjd2S2FuQ1FZZXBoODZQLTdtdmpwQW8?oc=5",
+        "resolvable": false
+      },
+      {
+        "outlet": "areporterlive.com",
+        "title": "Indo Borax to acquire 64.26% stake in Vadodara-headquartered listed speciality chemicals player Kronox Lab Sciences",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPX1N6Ym1rRXQtemQtMHhJeHNjUl9VaFNBN0p6N0R6Sl8zLUpfbjBwN3VoQXZpaUt0S3RLUXh4WC1oOXBZR0JhVUc5bHlhaXdVVXVFRFlxcnN1eUhNVUVJQ1JnTE5JSEJnX3N4cGFlUlFoX0QzQVhlT0Z3ZkpJeDJHeWRCR0toSWRlajdxbTlHSEFlcU9KYzR1VHN6TnR6SUhmVW5EQXc3aThyOGhNMll4UERYWkNJN2ROdkl5MGNrY2JuVjl6TW1FRFowOGdKdU5SWmVtWkVvU1M?oc=5",
+        "resolvable": false
+      }
+    ],
+    "primaryUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdlc3VlFUVmlpbE9EcWRIYTlJMmxBQUVGcHBYbklPeGluVTRRX1lMU09Od3lnZ0dSRTVvWVBTcEJYMTZMdDhpaGY1QUJ1WGhHV1U5dFlIdU9kZG81UnhpMkxjQUgydWhfQ1NvUzd3eFdUMVc3US1zVWFpRWpoWTA2c1o5b09fVmZyanUwTURYbWVwLW5OTXo0UjBDRXBUNUl3WGpoWEI2Ty16S2hnWTM2UVI5SVE?oc=5",
+    "createdAt": "2026-08-20T10:31:09.742635+00:00",
+    "updatedAt": "2026-08-21T08:31:21.165338+00:00"
+  }
+]
