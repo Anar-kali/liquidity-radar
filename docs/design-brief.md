@@ -135,8 +135,16 @@ context is never lost, and deep-linkable at `/deal/:id`. Sections, in order:
 - **The maximally sparse detail window** — no amount, no individual, no seller,
   no buyer, no adviser, one unresolvable source. This is the most-viewed screen
   in the product.
-- A very long company name (`"Fine Edge Engineering (Ashok Iron Works
-  engineering business)"` is real) and a long deal-type chip
+- **A very long company name.** The `company` field sometimes holds an entire
+  headline — the real maximum is **116 characters**:
+  `"Rs 58,000 crore selloff by promoters, PE funds hits stock market. Why are
+  they cashing out now? - The Economic Times"`. 3% of rows exceed 40 chars.
+  Company name is the primary scan target, so the truncation rule matters.
+- A long deal-type chip
+- **A deal with no sources at all** — 18% of deals have no clustered articles,
+  leaving only the primary link
+- **A deal with 39 sources** (Zetwerk is real) — the Coverage list needs a
+  collapse-after-N affordance
 
 ### D. Company Profile — gated, design lightly
 

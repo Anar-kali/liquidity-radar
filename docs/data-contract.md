@@ -51,7 +51,7 @@ interface Deal {
   advisers:    Adviser[];           //   0 — field does not exist yet
 
   // ---- provenance ----
-  sources:     Source[];            // 1..12, see §4
+  sources:     Source[];            // 0..39 — CAN BE EMPTY, see §4
   primaryUrl:  string;
   createdAt:   string;              // ISO 8601 UTC
   updatedAt:   string;
@@ -189,10 +189,18 @@ Source count distribution (1,469 links across 601 deals):
 
 | Sources | Deals | | Sources | Deals |
 |---|---|---|---|---|
-| 1 | 263 (44%) | | 5 | 16 |
-| 2 | 101 | | 6–8 | 19 |
-| 3 | 41 | | 9–12 | 11 |
-| 4 | 20 | | | |
+| **0** | **108 (18%)** | | 4–5 | 36 |
+| 1 | 263 (44%) | | 6–10 | 27 |
+| 2 | 101 (17%) | | 11–20 | 14 |
+| 3 | 41 (7%) | | 21–39 | 11 |
+
+**108 deals (18%) have no `deal_members` rows at all.** The exporter must fall
+back to `deals.url` + `deals.source` to synthesise a single `Source`, or the
+Coverage section renders empty on nearly one deal in five.
+
+At the other end, coverage goes to **39 sources** on one deal (Zetwerk), with 22
+deals above 12. The Coverage section needs a collapse-after-N affordance; a flat
+list of 39 links is unusable.
 
 Clustering also carries real signal worth showing: **8 outlets on one deal means
 the market is talking about it.** Source count is a ranking dimension, not just
@@ -219,7 +227,8 @@ a timeline view per company. Ignoring it makes the feed look broken.
 
 | Field | Populated |
 |---|---|
-| `company`, `dealType`, `oneLine`, `confidence`, `sources` | 100% |
+| `company`, `dealType`, `oneLine`, `confidence` | 100% |
+| `sources` | 82% — **18% of deals have none** |
 | `amountCr` | 43% |
 | `seller` | 27% |
 | `confirmed` | small minority |
@@ -232,3 +241,39 @@ type, one sentence, no amount, no named individual, no buyer, no adviser, one
 source link that goes to a Google redirect. **That screen is the product.** A
 mockup with every field populated is drawing a state that occurs in roughly 1
 deal in 20.
+
+---
+
+## 7. The `company` field is not always a company name
+
+Haiku writes this field, and on a small but visible fraction of rows it writes
+something else. Measured across 601 deals:
+
+| Length | Rows |
+|---|---|
+| ≤20 chars | 411 (68%) |
+| 21–40 | 168 (28%) |
+| 41–60 | 15 (2%) |
+| 61–116 | 7 (1%) |
+
+The worst cases are entire headlines, publisher suffix included:
+
+- `"Rs 58,000 crore selloff by promoters, PE funds hits stock market. Why are they cashing out now? - The Economic Times"` (116 chars)
+- `"Atomberg Technologies files DRHP with SEBI for IPO; plans Rs 450 crore fresh issue, 7.65 crore-share OFS - ET Now"` (113 chars)
+
+Five rows carry a leaked `" - Publisher"` suffix; four carry more than one
+company (`"Meenakshi India; Sapphire Foods"`, `"Welspun Corp; PhysicsWallah"`);
+one is a summary rather than a name
+(`"Dhoot Transmission, Shiprocket, Milky Mist, and 4 others (8 companies total)"`).
+
+Consequences:
+
+- **Design must truncate gracefully at ~116 characters**, not the ~58 an earlier
+  draft of this document assumed. The company name is the primary scan target in
+  every feed row, so the truncation rule matters.
+- **The exporter should strip a trailing `" - Publisher"`** from `company` using
+  the same `filters._TRAILING_SOURCE_RE` it uses for source titles. That is a
+  safe, mechanical cleanup for 5 rows.
+- Multi-company and summary rows are a **classifier** problem, not a display
+  problem. Do not paper over them in the UI — they should be fixed upstream in
+  `classify.py`, and until then they are simply rare bad rows.
