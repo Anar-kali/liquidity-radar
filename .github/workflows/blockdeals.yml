@@ -20,6 +20,9 @@ permissions:
 
 jobs:
   run:
+    outputs:
+      # Whether this run changed anything the website ships.
+      site_changed: ${{ steps.state.outputs.site_changed }}
     runs-on: ubuntu-latest
     steps:
       # ref: main (not the default dispatch-time SHA) matters because this
@@ -43,7 +46,18 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python blockdeals.py
+      # This workflow creates deals too — block/bulk deals and PIT
+      # disclosures — so it has to refresh the site's data like radar.yml
+      # does. Without this its deals alerted on Telegram and never appeared
+      # on the website (2026-09-09: a block deal did exactly that).
+      - name: Export site data
+        run: |
+          python export_site.py || {
+            echo "::error::site export failed — site/data is stale this run"
+            exit 0
+          }
       - name: Commit state
+        id: state
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
@@ -51,6 +65,12 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add radar.db
+          if [ -d site/public/data ]; then git add site/public/data; fi
+          if git diff --cached --name-only | grep -q '^site/public/data'; then
+            echo "site_changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "site_changed=false" >> "$GITHUB_OUTPUT"
+          fi
           git diff --quiet --cached || git commit -m "state: blockdeals run $(date -u +%FT%TZ)"
           # See radar.yml's Commit state step for why this must not be
           # swallowed with `|| true` anymore.
@@ -65,3 +85,11 @@ jobs:
             fi
             exit 1
           fi
+
+  # Same chain as radar.yml: a push made with GITHUB_TOKEN cannot start
+  # another workflow, so the deploy has to be called rather than triggered.
+  deploy-site:
+    needs: run
+    if: needs.run.outputs.site_changed == 'true'
+    uses: ./.github/workflows/deploy-site.yml
+    secrets: inherit
