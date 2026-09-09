@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Table Space",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-17T14:01:29.118259+00:00",
+ "dealType": "DRHP filing",
+ "id": 339,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Table Space files DRHP for IPO",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUXNWbjEweXNQbTFQUGFhMTNHLTFZcFAyRDEzdkJ2bDgtdThDMEJUNXJMYTZwaVo5TWNGQWNfVzcyYWlfVzhlVDQxaTE1Z21sR0FzbDg0blFMM1A2VHNQM1A0dVdmbHdSelZTNVhPbHpNUERTekwzc256VnluRFJUbTJQaDJQUzlybHl0X1FtOA?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-08-17T14:01:29.119337+00:00",
+   "outlet": "Inc42",
+   "resolvable": false,
+   "title": "Table Space DRHP: A Look At Shareholding Pattern & Key Executives",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUXNWbjEweXNQbTFQUGFhMTNHLTFZcFAyRDEzdkJ2bDgtdThDMEJUNXJMYTZwaVo5TWNGQWNfVzcyYWlfVzhlVDQxaTE1Z21sR0FzbDg0blFMM1A2VHNQM1A0dVdmbHdSelZTNVhPbHpNUERTekwzc256VnluRFJUbTJQaDJQUzlybHl0X1FtOA?oc=5"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-17T14:01:29.118259+00:00"
+}

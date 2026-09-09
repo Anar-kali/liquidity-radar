@@ -1,0 +1,39 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Jay Kailash Namkeen",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-14T03:16:05.408986+00:00",
+ "dealType": "open offer",
+ "id": 229,
+ "individuals": [
+  "Amar Talwar"
+ ],
+ "listed": true,
+ "oneLine": "Amar Talwar launches open offer for Jay Kailash Namkeen stake",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWi1pbk0tUEhHN1F6eWpHVVVScW1vNVJkUVZiYld1UDZLeVA1ZlNaS29WN0QwRmE2cFkyLWpER2h0dDZPNkFSanB2ZGY5OHd2ZzBBWThwcDlpbHJvTmNHdWZaT2lGVmFjeGV0QmdJMUI4ejQtSWp6TmxMQnNIWDJlNUhjQTdJNmxILTdkTFJPZTFVZHpwYVJJSlhSOEtfME94TnV6YjZmU1piMWJicklnQ3FaUWw?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-08-14T03:16:05.467328+00:00",
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "Amar Talwar launches open offer for Jay Kailash Namkeen stake",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWi1pbk0tUEhHN1F6eWpHVVVScW1vNVJkUVZiYld1UDZLeVA1ZlNaS29WN0QwRmE2cFkyLWpER2h0dDZPNkFSanB2ZGY5OHd2ZzBBWThwcDlpbHJvTmNHdWZaT2lGVmFjeGV0QmdJMUI4ejQtSWp6TmxMQnNIWDJlNUhjQTdJNmxILTdkTFJPZTFVZHpwYVJJSlhSOEtfME94TnV6YjZmU1piMWJicklnQ3FaUWw?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-14T03:31:24.380874+00:00",
+   "outlet": "Google News",
+   "resolvable": true,
+   "title": "Jay Kailash Namkeen Ltd: Gretex Corporate Services Ltd (\"Manager to the Offer\") has submitted to BSE a copy of Public Announcement (\"PA\") under Regulation 3(1) and 4 read with Regulations 13(1),14 and 15(1) of ....",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7863F9DF-D4D9-4BE9-B01C-1FD87C2A66DC-082131.pdf"
+  }
+ ],
+ "ticker": "544160.BO",
+ "updatedAt": "2026-08-14T03:16:05.408986+00:00"
+}

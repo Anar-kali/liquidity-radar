@@ -1,0 +1,37 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Purple Style Labs",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-31T01:34:53.789218+00:00",
+ "dealType": "DRHP filing",
+ "id": 641,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Purple Style Labs (Pernia's Pop-Up Shop parent) heading to public markets; founders/promoters to cash out.",
+ "primaryUrl": "https://inc42.com/features/purple-style-labs-asks-for-a-luxury-premium/",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-08-31T01:34:53.790315+00:00",
+   "outlet": "Inc42",
+   "resolvable": true,
+   "title": "Purple Style Labs Asks For A Luxury Premium",
+   "url": "https://inc42.com/features/purple-style-labs-asks-for-a-luxury-premium/"
+  },
+  {
+   "attachedAt": "2026-09-02T04:30:59.901026+00:00",
+   "outlet": "Business Standard",
+   "resolvable": false,
+   "title": "Purple Style Labs bets IPO on India's booming luxury wedding market",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNUVN1MFU0dEU3aThKNzcwZWRVV2JkT0hONi1yNXMyOWlxTjJySXpERzhjVFhUOFZFbEp6ai1PNG8wYWdZSlNPcE80akdOMFp5bG43SUdpR0NoYUFHVFh3aWs0SnpGckZaRDNBM2RIc3F4QU1IaUpGaWRLd0FsUE1nY3RyRnlNYzZfWXJqTHg3R3dOS21lR25BM3NhaGFneE5NNll4UllWS1RUODdjSWdfX2lveXZpY3FEc2JjQWZtUkZSbVIwQ1c3Y0RvSGIxd9IB0wFBVV95cUxPMFpHeUNUcnh4WmhjTVhwZjV5UG1kVFVlSjdxaVA1LXZpdzJBR2dCMVF1aG1PRkUwMzd0cVV4OXZoS29UWHJheG0zakRMOWtmN09XRElFcFoxZ2pGWnpNbjhkNkg3Wk53U3p1dzhSVmZFWDREUmk4Nnh5RGdDTTFXMHdIcGRLZF92YXJhMlBuaUVPTFpFWHMzcXItTUYtWjM1Q195c0gtN1ZDOXcxMUYyX25NWkRaT0FDaVJSTXFCV3pDRlJTb1lGcVZ1dHgwSS1lV1Fv?oc=5"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-31T01:34:53.789218+00:00"
+}

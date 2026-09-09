@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": 2323.7,
+ "amountRaw": "48.14% x mcap ~Rs 4827cr = ~Rs 2324cr",
+ "buyer": null,
+ "company": "KDDL",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-25T12:31:29.734678+00:00",
+ "dealType": "block deal",
+ "id": 574,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "KDDL promoter group sells shares, stake falls to 48.14%",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVUREVWVvaE9lMUJkdkNxRll0Ml91YVh3M3BzX0VxeWlsQjFRZW9FZXZydUtjdHNVOEdEUzVEWmFfRDB3VjQtSUFNX1l0QUZxQUM3OGsycURKU1E5Z1NaSUxPell4aVNIUHRtZ0hrZVE2ZXllVXZLdHEtSTA2eWRna0VnR2s0RE1ldTBvMldxalZVNER5UWx1X012Q3JhUnpRZFJIQmlDYlFvNUE?oc=5",
+ "seller": "KDDL promoter group",
+ "sizeBand": null,
+ "sizeSource": "computed",
+ "sources": [
+  {
+   "attachedAt": "2026-08-25T12:31:29.773057+00:00",
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "KDDL promoter group reduces stake to 48.14% after share sale",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVUREVWVvaE9lMUJkdkNxRll0Ml91YVh3M3BzX0VxeWlsQjFRZW9FZXZydUtjdHNVOEdEUzVEWmFfRDB3VjQtSUFNX1l0QUZxQUM3OGsycURKU1E5Z1NaSUxPell4aVNIUHRtZ0hrZVE2ZXllVXZLdHEtSTA2eWRna0VnR2s0RE1ldTBvMldxalZVNER5UWx1X012Q3JhUnpRZFJIQmlDYlFvNUE?oc=5"
+  }
+ ],
+ "ticker": "KDDL.NS",
+ "updatedAt": "2026-08-25T12:31:29.734678+00:00"
+}

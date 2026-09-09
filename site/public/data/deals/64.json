@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Sree Metaliks",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-06T05:24:42.719846+00:00",
+ "dealType": "open offer",
+ "id": 64,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "SEBI extension for SAL Steel open offer; underlying transaction details not disclosed.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOOXQ0alhwNm9uNF9fNTd6dnlTWWxnaENIZHpTVi1RUWFzdi1CZDlYZ3EtaUlyWFE1THVvSDM2dnlxcnNlVTRDcUkyU2szNkdONU1qRjRXTFgzUGF4Q05NMTdELUJyNldiN0VwVkRUeEc4V0JqWktvLVBaN3pWeW5TaGJhUjNGTy10bzlXdnRZSG1XYi0xc0c4UTRqWWt0Vkw1TGhvMUlEZUtBaUNFb2hjZjhlWHZiMmFJZ2REOGhIdlhldG1PT3VxZ0ZiWmV6VFllMm5kQ1BnMjFqd0pwMFNBZzNwQzRFQQ?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": null,
+ "sources": [
+  {
+   "attachedAt": "2026-08-06T05:24:42.719846+00:00",
+   "outlet": "Google News",
+   "resolvable": false,
+   "title": "",
+   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOOXQ0alhwNm9uNF9fNTd6dnlTWWxnaENIZHpTVi1RUWFzdi1CZDlYZ3EtaUlyWFE1THVvSDM2dnlxcnNlVTRDcUkyU2szNkdONU1qRjRXTFgzUGF4Q05NMTdELUJyNldiN0VwVkRUeEc4V0JqWktvLVBaN3pWeW5TaGJhUjNGTy10bzlXdnRZSG1XYi0xc0c4UTRqWWt0Vkw1TGhvMUlEZUtBaUNFb2hjZjhlWHZiMmFJZ2REOGhIdlhldG1PT3VxZ0ZiWmV6VFllMm5kQ1BnMjFqd0pwMFNBZzNwQzRFQQ?oc=5"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-06T05:24:42.719846+00:00"
+}

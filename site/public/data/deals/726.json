@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Gaurik Fashions Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-04T10:31:26.315409+00:00",
+ "dealType": "DRHP filing",
+ "id": 726,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Gaurik Fashions files DRHP addendum; IPO prospecting lead.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/gaurik-fashions-limited-addendum-to-drhp_104276.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-04T10:31:26.341731+00:00",
+   "outlet": "Addendum to DRHP",
+   "resolvable": true,
+   "title": "Gaurik Fashions Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/gaurik-fashions-limited-addendum-to-drhp_104276.html"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-04T10:31:26.315409+00:00"
+}

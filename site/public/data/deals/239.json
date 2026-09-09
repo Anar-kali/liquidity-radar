@@ -1,0 +1,37 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "National Stock Exchange (NSE)",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-14T14:31:00.064983+00:00",
+ "dealType": "IPO-OFS",
+ "id": 239,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "NSE planning IPO launch mid-September with listing by month-end.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMC1PLThfbHBUUFd3NUt6SFNKUWJ3dGRQYzQtaGNoTWYyUGJmb1VFSHoyek5KNWJCNVFVT21CTi01LU5DRGlaWWdJVnMzOC1pN2VLekRZeGdyNVNnLXJ3eUEwcjQ2ZXJURXdhdzIwYURJMnJoUUJUT1A4MXpraHVxMFg5bmc3LURqa1dHNEFvM2pVX0NXT3dWNENjeVlOV2JIaEhpRThXRUZiYk4wYlo3ZkVIS2xrY3FR?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-08-14T14:31:00.066519+00:00",
+   "outlet": "TradingView",
+   "resolvable": false,
+   "title": "NSE aims to launch IPO in mid-September, list by end of month",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMC1PLThfbHBUUFd3NUt6SFNKUWJ3dGRQYzQtaGNoTWYyUGJmb1VFSHoyek5KNWJCNVFVT21CTi01LU5DRGlaWWdJVnMzOC1pN2VLekRZeGdyNVNnLXJ3eUEwcjQ2ZXJURXdhdzIwYURJMnJoUUJUT1A4MXpraHVxMFg5bmc3LURqa1dHNEFvM2pVX0NXT3dWNENjeVlOV2JIaEhpRThXRUZiYk4wYlo3ZkVIS2xrY3FR?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-16T07:46:32.397117+00:00",
+   "outlet": "livemint.com",
+   "resolvable": false,
+   "title": "NSE aims to launch IPO in mid-September, list by end of month",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZG5pbGV6TFl3WnRPVDMxTjlwMDNjcXhHbjJOYlRmN1JXRFJfX1lYTkpoLUdfYUpYMGd5SjBsaTR5ODJSQllQX1VQSlFvb1hkd0RPU3IyQ3BycS1xOVlMdllRazNUM3F4NERiaE9idzNHRUpXNk5ic2ZQb1drS0lRMjB2djJTMEtVWUdKa3hjTmRPS1BGY3U1MdIBmAFBVV95cUxPZG5pbGV6TFl3WnRPVDMxTjlwMDNjcXhHbjJOYlRmN1JXRFJfX1lYTkpoLUdfYUpYMGd5SjBsaTR5ODJSQllQX1VQSlFvb1hkd0RPU3IyQ3BycS1xOVlMdllRazNUM3F4NERiaE9idzNHRUpXNk5ic2ZQb1drS0lRMjB2djJTMEtVWUdKa3hjTmRPS1BGY3U1MQ?oc=5"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-14T14:31:00.064983+00:00"
+}

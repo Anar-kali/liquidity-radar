@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Cloudnine Hospitals",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-02T01:32:09.395463+00:00",
+ "dealType": "PE secondary",
+ "id": 685,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Permira acquires 25.71% stake in Cloudnine from True North Capital",
+ "primaryUrl": "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/permira-to-buy-25-71-in-cloudnine-hospitals-parent-cci-filing/articleshow/133690126.cms",
+ "seller": "True North Capital",
+ "sizeBand": "OVER_2000",
+ "sizeSource": "band",
+ "sources": [
+  {
+   "attachedAt": "2026-09-02T01:32:09.396951+00:00",
+   "outlet": "ET Corporate",
+   "resolvable": true,
+   "title": "Permira to buy 25.71% in Cloudnine Hospitals parent: CCI filing",
+   "url": "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/permira-to-buy-25-71-in-cloudnine-hospitals-parent-cci-filing/articleshow/133690126.cms"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-02T01:32:09.395463+00:00"
+}

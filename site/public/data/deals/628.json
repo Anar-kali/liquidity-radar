@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Devyani International",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-28T12:31:35.767782+00:00",
+ "dealType": "strategic buyout",
+ "id": 628,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Devyani International and Sapphire Foods merge after sale deal change",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQX2pvWnNDTTFfVmlIZUQtd0FsYXpEZktuSVA5azV4YVZaSm9UN2huY0ViVUdzV2lDaUxaNDBvQzNlRVhoYzNIUFg4X3VSWVFCelVfTklzSjNFZi15cXIyQ21ZYjJFSk5XOHpmU0REZEtIMGlFck9Nc1VOVDg2dVJjNm5pbF9iNHNnMjhoRDhvS01LMXpmZl80SDlla0NqdzdtaGQxSVI5OXE0eW94dXJORTB1cUtRWUwyQjdjaUFURllCZElJaTlqbHY4eWJaVzlURFhQNVBvVGN0b2lqV25jVERR?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "mcap_plausible",
+ "sources": [
+  {
+   "attachedAt": "2026-08-28T12:31:35.768945+00:00",
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "Devyani International, Sapphire Foods Merge After Sale Deal Change",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQX2pvWnNDTTFfVmlIZUQtd0FsYXpEZktuSVA5azV4YVZaSm9UN2huY0ViVUdzV2lDaUxaNDBvQzNlRVhoYzNIUFg4X3VSWVFCelVfTklzSjNFZi15cXIyQ21ZYjJFSk5XOHpmU0REZEtIMGlFck9Nc1VOVDg2dVJjNm5pbF9iNHNnMjhoRDhvS01LMXpmZl80SDlla0NqdzdtaGQxSVI5OXE0eW94dXJORTB1cUtRWUwyQjdjaUFURllCZElJaTlqbHY4eWJaVzlURFhQNVBvVGN0b2lqV25jVERR?oc=5"
+  }
+ ],
+ "ticker": "DEVYANI.NS",
+ "updatedAt": "2026-08-28T12:31:35.767782+00:00"
+}

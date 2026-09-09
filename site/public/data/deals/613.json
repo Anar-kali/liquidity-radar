@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Cult.fit",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-28T01:32:28.690051+00:00",
+ "dealType": "DRHP filing",
+ "id": 613,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Cult.fit DRHP filed; IPO in early stages, promoter liquidity event ahead",
+ "primaryUrl": "https://www.thehindubusinessline.com/companies/cultfit-eyes-100-cities-in-4-5-years-ceo-says-ipo-timing-will-depend-on-investor-feedback/article71397012.ece",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-08-28T01:32:28.691339+00:00",
+   "outlet": "Business Line",
+   "resolvable": true,
+   "title": "Cult.fit eyes 100 cities in 4-5 years; CEO says IPO timing will depend on investor feedback",
+   "url": "https://www.thehindubusinessline.com/companies/cultfit-eyes-100-cities-in-4-5-years-ceo-says-ipo-timing-will-depend-on-investor-feedback/article71397012.ece"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-28T01:32:28.690051+00:00"
+}

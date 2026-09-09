@@ -1,0 +1,51 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "ITC Infotech",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-01T04:31:07.946543+00:00",
+ "dealType": "strategic buyout",
+ "id": 670,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "ITC Infotech to merge with Happiest Minds; ITC shareholders to receive consideration.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNNV9KcmswS3pUT3hneS1FVHhPend5SXl6YlRpOVMxdl84MmFwa2lMTUZSNFBLbkVLcXRHZmwzX1Q3b3A1cHBYbVlCal9TRHNXdWR2NVlOakRaVkl1RzlzdVNRR2hoZ29NN3g1b0w5RDRSeE4zR2pfQnpDMnZVbUhxa1B1dGdpRXRwWmloUGdUYkZKMDFjQkU2R25SRE44d0FDR1gzWjQ0VWNPS253SHYxczFWVWVYZzcwelp5SHhwZHVVQklucUdGenVhV1Nyd0VRTDR4THVvQXA4YVlRY0hrTEVVZ0vSAeQBQVVfeXFMTTVfSnJrMEt6VE94Z3ktRVR4T3p3eUl5emJUaTlTMXZfODJhcGtpTE1GUjRQS25FS3F0R2ZsM19UN29wNXBwWG1ZQmpfU0RzV3VkdjVZTmpEWlZJdUc5c3VTUUdoaGdvTTd4NW9MOUQ0UnhOM0dqX0J6QzJ2VW1IcWtQdXRnaUV0cFppaFBnVGJGSjAxY0JFNkduUkROOHdBQ0dYM1o0NFVjT0tud0h2MXMxVlVlWGc3MHpaeUh4cGR1VUJJbnFHRnp1YVdTcndFUUw0eEx1b0FwOGFZUWNIa0xFVWdL?oc=5",
+ "seller": "ITC (parent company divesting ITC Infotech)",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-01T04:31:07.947726+00:00",
+   "outlet": "The Economic Times",
+   "resolvable": false,
+   "title": "Tech layoff continues; ITC Infotech-Happiest Minds to merge",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNNV9KcmswS3pUT3hneS1FVHhPend5SXl6YlRpOVMxdl84MmFwa2lMTUZSNFBLbkVLcXRHZmwzX1Q3b3A1cHBYbVlCal9TRHNXdWR2NVlOakRaVkl1RzlzdVNRR2hoZ29NN3g1b0w5RDRSeE4zR2pfQnpDMnZVbUhxa1B1dGdpRXRwWmloUGdUYkZKMDFjQkU2R25SRE44d0FDR1gzWjQ0VWNPS253SHYxczFWVWVYZzcwelp5SHhwZHVVQklucUdGenVhV1Nyd0VRTDR4THVvQXA4YVlRY0hrTEVVZ0vSAeQBQVVfeXFMTTVfSnJrMEt6VE94Z3ktRVR4T3p3eUl5emJUaTlTMXZfODJhcGtpTE1GUjRQS25FS3F0R2ZsM19UN29wNXBwWG1ZQmpfU0RzV3VkdjVZTmpEWlZJdUc5c3VTUUdoaGdvTTd4NW9MOUQ0UnhOM0dqX0J6QzJ2VW1IcWtQdXRnaUV0cFppaFBnVGJGSjAxY0JFNkduUkROOHdBQ0dYM1o0NFVjT0tud0h2MXMxVlVlWGc3MHpaeUh4cGR1VUJJbnFHRnp1YVdTcndFUUw0eEx1b0FwOGFZUWNIa0xFVWdL?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-02T07:31:31.821562+00:00",
+   "outlet": "The Hindu",
+   "resolvable": false,
+   "title": "Upon listing, Happiest Minds-ITC Infotech combo expected to be valued at ₹18,000 crore",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQWFhxWEt5Z2xFcVdpR2Fyc2VxaERaRXA1aldhVllPWHNBTFVTeGFCdEp5eXNqbTB3ckYwOHBYTFFzWExMTHBSdHU1ZGtQNmNfQThyTHZJeFFwRW12SnFJZG5VajJva0ItWEJQMGhTNFZJZGNlWmF2aXRUbExSWTdNYVk3NVhRWjBwX3JRRGtqWkdpVUJMWkJXVlQzc19vMEtyOHF0cmMtY0Nhb2V5Z2JCZnNldmxhQ1c2bzRBMnFtdDBBN0RYZXhxdjZSckxTc09iMnBUUzVPU3dnMEtqZ1dB0gHmAUFVX3lxTFB3cjFXMEg2RzZoUGVmV3d4RmFUY0Qxb2FqbTNSLWloTWZrelF4YWE2MzRJOC1mUXVQV25tSWlIZTJqX3lkQVpnLXJnaVZ4YnhielB2U29kOWxSN2oxUWNhYU9yZXNnVlRDZXQyVUlBaG5NTnVLeWo1aVdZZ2kxV0FuLWNSVlVtR3ZMWThRMi1PRVd6cl9XVjYzRVlOczNhMkRqamxtMmVsSVRyczBwNFN5ZUlfOXhzVGdfWE1FRzIzcnZqQjUwMXRDbHZXX184YVFWWERUeVZhM1M5b19CdEoxX3A2MGFR?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-02T13:31:21.812694+00:00",
+   "outlet": "Fortune India",
+   "resolvable": false,
+   "title": "Happiest Minds crashes 8% after ITC Infotech deal; ITC rises 3.3% intraday",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQR0sxX21SaThxRmZYRzROalJ5b2FBMVpmRjlCNlgxMEJPSXNaeS1LbDZEYmVQVEhFR1NKU1h0bUZlYUJ5ZHVtaXJSZGtYZWFUVGdmZGh4RFUwYjNhZThONGR1aEtxTnBjX1VxTng2RWNIX0d3VDQ5YlhwQ1Z6WGQwWHQyVXZBekhoTjBLVDNhNy1HOTZuR3FSajlaT2g5b21PdDVCRUhzSEdoQzdudVc5WWNMVDbSAcIBQVVfeXFMUEV2Y19jRFNLUjRfZWZCLVhScGJqQWE4YnRralRjR1RDNWJ1WTJaWkM5UzVWaWRqRDhZRm5rNV93UGtUcWRZZTNIdlZWZC10aGFMdVdtM2hhSFMzRmhBbl9seWMyYnY3cmMzU0JSZ0ctN0RSV1dkZGc3VkJMYTNqVWZtS1Rndml0QnhmU01OdkU0SmNqTnRMRWoyV201QVA3Q01QRnkzTk1kQ2FiRXp3b3hjNnJhQTRBOGJrWnZzVFN6QXc?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-02T13:31:21.814922+00:00",
+   "outlet": "Moneycontrol.com",
+   "resolvable": false,
+   "title": "ITC shares jump nearly 3%, among top Nifty gainers after Happiest Minds-ITC Infotech merger deal",
+   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNajJsc083cVdNb0h2UEloeVUwTEdfeDRhbXlnSEUzMDI3bVRtS1FBUHBOZHBvd3I3dE1tTTN5OGJuUUc4T0gxNFEzallfZXhmV0lhemthNm0xeHgxd3FnRFIyVk1Ebm9JZGRrQTh3a3RSalQxYWE2RHFrdDh2N1JEamNSOVJwTlhueVU2bm13NWZkWFpfYzRLSnRGdVZBMmdiazk2bDVZaEZwNUtFVWpxNWlVVHY5T3h1RzVEQUlub2c4LVFZSmZmN1NoWWJGWVkxZjNySUV1d3lxMFpfZkl4ZE1CSVViVEs5dUFXRjB0WVM1SzhzSUHSAfYBQVVfeXFMTWoybHNPN3FXTW9IdlBJaHlVMExHX3g0YW15Z0hFMzAyN21UbUtRQVBwTmRwb3dyN3RNbU0zeThiblFHOE9IMTRRM2pZX2V4ZldJYXprYTZtMXh4MXdxZ0RSMlZNRG5vSWRka0E4d2t0UmpUMWFhNkRxa3Q4djdSRGpjUjlScE5YbnlVNm5tdzVmZFhaX2M0S0p0RnVWQTJnYms5Nmw1WWhGcDVLRVVqcTVpVVR2OU94dUc1REFJbm9nOC1RWUpmZjdTaFliRllZMWYzcklFdXd5cTBaX2ZJeGRNQklVYlRLOXVBV0YwdFlTNUs4c0lB?oc=5"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-01T04:31:07.946543+00:00"
+}

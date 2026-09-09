@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": 1760.0,
+ "amountRaw": "$200 million ≈ ₹1,760 crore (at 1 USD = 88 INR)",
+ "buyer": null,
+ "company": "Tynor Orthotics",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-08-26T01:31:46.540470+00:00",
+ "dealType": "PE secondary",
+ "id": 581,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Kedaara acquires majority stake in Tynor; Lighthouse Funds exits for ~$200m.",
+ "primaryUrl": "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/kedaara-pumps-200m-into-ortho-support-wear-maker-tynor/articleshow/133523637.cms",
+ "seller": "Lighthouse Funds",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-08-26T01:31:46.541902+00:00",
+   "outlet": "ET Corporate",
+   "resolvable": true,
+   "title": "Kedaara pumps $200m into ortho support wear maker Tynor",
+   "url": "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/kedaara-pumps-200m-into-ortho-support-wear-maker-tynor/articleshow/133523637.cms"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-26T01:31:46.540470+00:00"
+}

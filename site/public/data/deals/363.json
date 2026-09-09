@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Siyaram Silk Mills Ltd",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-18T11:31:20.099423+00:00",
+ "dealType": "block deal",
+ "id": 363,
+ "individuals": [
+  "Vibha Shrikishan Poddar"
+ ],
+ "listed": true,
+ "oneLine": "Vibha Shrikishan Poddar acquires substantial stake in Siyaram Silk Mills.",
+ "primaryUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5A376AED_58FB_42A8_9450_246F10D223AA_165557.pdf",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "mcap_plausible",
+ "sources": [
+  {
+   "attachedAt": "2026-08-18T11:31:20.100592+00:00",
+   "outlet": "BSE",
+   "resolvable": true,
+   "title": "Siyaram Silk Mills Ltd-$: The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations, 2011 for Vibha Shrikishan Poddar",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5A376AED_58FB_42A8_9450_246F10D223AA_165557.pdf"
+  }
+ ],
+ "ticker": "SIYSIL.NS",
+ "updatedAt": "2026-08-18T11:31:20.099423+00:00"
+}

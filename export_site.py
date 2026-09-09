@@ -4,18 +4,17 @@ Liquidity Radar — static site export.
 Turns `deals` + `deal_members` into the JSON documented in
 docs/data-contract.md, so the website is a static site with no server:
 
-    site/data/deals.json        feed slice — trimmed fields, newest first
-    site/data/deals/<id>.json   one full Deal record each
+    site/public/data/deals.json       feed slice — trimmed fields, newest first
+    site/public/data/deals/<id>.json  one full Deal record each
 
     python export_site.py                 # export, default 90-day feed window
     python export_site.py --dry           # report what WOULD be written
     python export_site.py --days 0        # no window: every deal in the feed
 
-Deliberately imports nothing but `db` and `textutil`. filters.py would have
-been the natural home for the publisher parsing, but importing it pulls in
-classify (and so the Anthropic SDK) plus sizing (which parses 252KB of
-exchange CSVs at import). A data-export step must not need the LLM SDK
-installed to run.
+Imports only `db`, `sizing` and `textutil` — never `classify` or `filters`,
+which pull in the Anthropic SDK. A data-export step must not need the LLM SDK
+installed to run. `sizing` is fine: it costs one 0.10s parse of the exchange
+CSVs at import and drags in nothing else.
 
 Two things here are easy to get wrong and both would publish a false number:
 
@@ -34,9 +33,12 @@ import sqlite3
 import sys
 
 import db
+import sizing
 import textutil
 
-OUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "site", "data")
+# Vite serves site/public/* at the site root, so this lands at /data/*.
+OUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                       "site", "public", "data")
 
 # Feed retention. 90 days at ~18 deals/day is ~1,600 rows; the trimmed feed
 # entry is small enough that this stays well under a megabyte. Per-deal files
@@ -63,8 +65,25 @@ FORBIDDEN_KEYS = {
 FEED_FIELDS = (
     "id", "company", "dealType", "confidence", "confirmed", "amountCr",
     "amountRaw", "sizeSource", "sizeBand", "oneLine", "seller", "individuals",
-    "primaryOutlet", "sourceCount", "createdAt", "updatedAt",
+    "listed", "ticker", "primaryOutlet", "sourceCount", "createdAt", "updatedAt",
 )
+
+
+def _listing(company):
+    """
+    (listed, ticker) via the same NSE/BSE master-list resolution sizing.py
+    uses for market caps.
+
+    A False here means "no unique match in the exchange master lists", which
+    is *usually* genuinely unlisted (Rentomojo, Zetwerk) but also catches a
+    listed company whose name is ambiguous — sizing drops ambiguous keys
+    rather than guessing. The site's Listing filter inherits that caveat.
+    """
+    try:
+        match = sizing.resolve_company(company or "")
+    except Exception:  # noqa: BLE001
+        return False, None
+    return (True, match["ticker"]) if match else (False, None)
 
 
 def _individuals(raw):
@@ -119,6 +138,10 @@ def _sources(deal_id, row, path):
             "title": title,
             "url": member["url"] or "",
             "resolvable": _OPAQUE_HOST not in (member["url"] or ""),
+            # When this article joined the cluster. The site's update list is
+            # "coverage that arrived after the first article", so it needs the
+            # attach time, not the deal's creation time.
+            "attachedAt": member.get("attached_at"),
         })
     if out:
         return out
@@ -134,6 +157,7 @@ def _sources(deal_id, row, path):
         "title": "",
         "url": url,
         "resolvable": _OPAQUE_HOST not in url,
+        "attachedAt": row["created_at"],
     }]
 
 
@@ -142,6 +166,7 @@ def build_deal(row, path):
     amount, size_source, size_band = _size(row)
     company, _ = textutil.clean_company(row["company"])
     sources = _sources(row["id"], row, path)
+    listed, ticker = _listing(company)
 
     return {
         "id": row["id"],
@@ -161,6 +186,8 @@ def build_deal(row, path):
         # rows only. Exported so the UI can show it where it exists.
         "buyer": (row["buyer"] or "").strip() or None,
         "individuals": _individuals(row["individuals"]),
+        "listed": listed,
+        "ticker": ticker,
         # Not extracted by the pipeline yet; present so the shape is stable.
         "advisers": [],
         "sources": sources,
@@ -175,6 +202,14 @@ def feed_entry(deal):
     entry = {k: deal[k] for k in FEED_FIELDS if k in deal}
     entry["primaryOutlet"] = deal["sources"][0]["outlet"] if deal["sources"] else None
     entry["sourceCount"] = len(deal["sources"])
+    # Coverage that arrived after the first article, for the row's inline
+    # update list. Carried in the feed rather than fetched on expand so the
+    # interaction is instant; it is the headline and attach time only, not
+    # the whole Source.
+    entry["updates"] = [
+        {"attachedAt": s["attachedAt"], "title": s["title"]}
+        for s in deal["sources"][1:] if s["title"]
+    ]
     return entry
 
 

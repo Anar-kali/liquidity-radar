@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": 600.0,
+ "amountRaw": "Rs 6,000 Mn = 600 cr INR",
+ "buyer": null,
+ "company": "Sathya Agencies",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-08-05T13:21:00.711447+00:00",
+ "dealType": "DRHP filing",
+ "id": 19,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "DRHP filing for IPO; 6,000 Mn rupees",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSjBfaTdubFdERGFrQWU0aFR5NzJ1c3NPYWEzMi02OHRYempzc3lTUVNjTWsyaHFPamFkZEdEbVNjMjE4eURvbFNhMDlpUHA2T2M2Xy1MLUFSVVppMnNqaGZrWVlibV8zSU1hcHJUZjFPRWhqMFhFNmItMlBnZXptZXpkc3RWd2tkY0hfNWdhTFpqM1V1VHBES2dPYw?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-08-05T13:21:00.711447+00:00",
+   "outlet": "Google News",
+   "resolvable": false,
+   "title": "",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSjBfaTdubFdERGFrQWU0aFR5NzJ1c3NPYWEzMi02OHRYempzc3lTUVNjTWsyaHFPamFkZEdEbVNjMjE4eURvbFNhMDlpUHA2T2M2Xy1MLUFSVVppMnNqaGZrWVlibV8zSU1hcHJUZjFPRWhqMFhFNmItMlBnZXptZXpkc3RWd2tkY0hfNWdhTFpqM1V1VHBES2dPYw?oc=5"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-05T13:21:00.711447+00:00"
+}

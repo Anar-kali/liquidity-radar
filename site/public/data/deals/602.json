@@ -1,0 +1,44 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "OYO (Prism)",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-27T11:31:20.195362+00:00",
+ "dealType": "other",
+ "id": 602,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "OYO parent Prism IPO-bound; promoter liquidity event in pipeline.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQa0JxVnZGX1FtVDlqaU5SLVB3bE95djdKUzZUN2xvZkZ2c3poQ3p4MnhFaUlFUXpOQlRIYm1VMFQ0MmpSeXgyNWQ3eUJoYjhTdUkySXhtOWVIbDFRa0szc01SQ3NXdXY4WU1tblRma1hZOUtxVEdXeVF6Q294S1FkRGV4aEd4dzlnT3ZHcmR1RmxZcmRaaXNCMHFVdk9pcGctc0xldkF3V1JZVjN1WDYzSTRJb3E3VnAwcnVHd0pzRUJMbVcwX3QxbjBnUU9qdXhVR0E?oc=5",
+ "seller": "Oyo promoters / existing shareholders",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-08-27T11:31:20.196327+00:00",
+   "outlet": "NDTV Profit",
+   "resolvable": false,
+   "title": "IPO-Bound OYO Parent Prism Reports Four-Fold Jump In Net Profit To Rs 994 Crore In FY2025-26",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQa0JxVnZGX1FtVDlqaU5SLVB3bE95djdKUzZUN2xvZkZ2c3poQ3p4MnhFaUlFUXpOQlRIYm1VMFQ0MmpSeXgyNWQ3eUJoYjhTdUkySXhtOWVIbDFRa0szc01SQ3NXdXY4WU1tblRma1hZOUtxVEdXeVF6Q294S1FkRGV4aEd4dzlnT3ZHcmR1RmxZcmRaaXNCMHFVdk9pcGctc0xldkF3V1JZVjN1WDYzSTRJb3E3VnAwcnVHd0pzRUJMbVcwX3QxbjBnUU9qdXhVR0E?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-28T01:32:28.640285+00:00",
+   "outlet": "Livemint",
+   "resolvable": false,
+   "title": "IPO-bound OYO parent Prism's profit jumps fourfold to ₹994 crore in FY26",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQZmU5bUJfd25yVGhkS0prNFk2LWZsaVVGSll6ZFB5QllxUzJPRzdFMlFUcDVhMERiS29uQ1hZRGg0MnZjWlBkVnpnbVM0ck9aeXc0NG42cFJxTzZEUTN1WEVnQzM5YlNydnJ4cWxRd2E1dHY0eUpEUWxjRm00MElFeHpPY3Y5Z3RUQTNBTzMwSjRCSERXcDRqb0dLNVJHb1dRSG93NERlbEtQZkRWM3hOU1JTdEFMai1STzA2bUJCMlhreEtVNk5MUXg0SklXNVVvd08xa3dESzNzUdIB3wFBVV95cUxOTEtTcmlsbmhTTjVBWnUtUkdWZGg3bTBqZXB6bWRjRXZYUXVZeXVGVmdva1lIU2c1VHNfVExFMEtJR014OFE5WVIwc2ZhMG5IN0hBZlNrSThrSENJOENYOFh0Z1dwZkRYaTh5Tzhaall0YXVZMEdzVXVIWmFfUzFBYjZrY0J5bHJnOXhOOUpQSXdDczk5XzF6VFFtTFNJUy1QS3d1X0VqS0Q4dERGWV9vV2RUN3owbG96QklqX09QclJadjBhZjNOaVdaUF91dUNyYUxHRDFWOEdhQXZsU3ln?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-28T01:32:28.710985+00:00",
+   "outlet": "Google News",
+   "resolvable": true,
+   "title": "Oyo parent Prism’s FY26 profit jumps over fourfold to Rs 994 crore",
+   "url": "https://economictimes.indiatimes.com/industry/services/hotels-/-restaurants/oyo-parent-prisms-fy26-profit-jumps-over-fourfold-to-rs-994-crore/articleshow/133575916.cms"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-28T01:32:28.711992+00:00"
+}

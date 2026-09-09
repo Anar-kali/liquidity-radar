@@ -1,0 +1,37 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Karamtara Engineering Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-04T10:31:26.346085+00:00",
+ "dealType": "DRHP filing",
+ "id": 727,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Karamtara Engineering files RHP; IPO prospecting lead.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/karamtara-engineering-limited-rhp_103407.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-04T10:31:26.347298+00:00",
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "Karamtara Engineering Limited - RHPKaramtara Engineering Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/karamtara-engineering-limited-rhp_103407.html"
+  },
+  {
+   "attachedAt": "2026-09-04T10:31:26.349485+00:00",
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "Karamtara Engineering Limited",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/sep-2026/Annexure%20II%20-%20Abridged%20Prospectus_p.pdf"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-04T10:31:26.346085+00:00"
+}

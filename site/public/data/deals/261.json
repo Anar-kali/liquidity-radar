@@ -1,0 +1,46 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Svatantra Microfin",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-17T06:31:02.123312+00:00",
+ "dealType": "DRHP filing",
+ "id": 261,
+ "individuals": [
+  "Ananya Birla"
+ ],
+ "listed": false,
+ "oneLine": "Svatantra Microfin files DRHP for IPO; Ananya Birla led company.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPT0RkWE11Z1JNS20zYkJkaGFyNGVpMF9Tc1puejFwb20zbkFTS0h6UkpKaUFTaGltcHlqeDNWdGZsRjhpMmhOV05VaS1UNGNzeThNTzBjNTViNkFLQk01dGMwbWhRSVhtdlhVbGRsSnE2S2NHOXhNYVVzb0M5NG1lQkE5R0k1VXpXWWRHazVPRkZnOC0teExEVXhPUWIxRzNCTk4xb3pqYWpmQdIBqgFBVV95cUxPT0RkWE11Z1JNS20zYkJkaGFyNGVpMF9Tc1puejFwb20zbkFTS0h6UkpKaUFTaGltcHlqeDNWdGZsRjhpMmhOV05VaS1UNGNzeThNTzBjNTViNkFLQk01dGMwbWhRSVhtdlhVbGRsSnE2S2NHOXhNYVVzb0M5NG1lQkE5R0k1VXpXWWRHazVPRkZnOC0teExEVXhPUWIxRzNCTk4xb3pqYWpmQQ?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-08-17T06:31:02.126446+00:00",
+   "outlet": "SMEStreet",
+   "resolvable": false,
+   "title": "Ananya Birla led Svatantra Microfin files DRHP with SEBI for its IPO",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPT0RkWE11Z1JNS20zYkJkaGFyNGVpMF9Tc1puejFwb20zbkFTS0h6UkpKaUFTaGltcHlqeDNWdGZsRjhpMmhOV05VaS1UNGNzeThNTzBjNTViNkFLQk01dGMwbWhRSVhtdlhVbGRsSnE2S2NHOXhNYVVzb0M5NG1lQkE5R0k1VXpXWWRHazVPRkZnOC0teExEVXhPUWIxRzNCTk4xb3pqYWpmQdIBqgFBVV95cUxPT0RkWE11Z1JNS20zYkJkaGFyNGVpMF9Tc1puejFwb20zbkFTS0h6UkpKaUFTaGltcHlqeDNWdGZsRjhpMmhOV05VaS1UNGNzeThNTzBjNTViNkFLQk01dGMwbWhRSVhtdlhVbGRsSnE2S2NHOXhNYVVzb0M5NG1lQkE5R0k1VXpXWWRHazVPRkZnOC0teExEVXhPUWIxRzNCTk4xb3pqYWpmQQ?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-19T10:31:13.609011+00:00",
+   "outlet": "Draft Abridged Prospectus",
+   "resolvable": true,
+   "title": "Svatantra Microfin Limited - DRHPSvatantra Microfin Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/svatantra-microfin-limited-drhp_103765.html"
+  },
+  {
+   "attachedAt": "2026-08-19T10:31:13.612527+00:00",
+   "outlet": "Draft Abridged Prospectus",
+   "resolvable": true,
+   "title": "Svatantra Microfin Limited",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/aug-2026/Svatantra%20Microfin%20Limited%20%20-%20DAP_p.pdf"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-17T06:31:02.123312+00:00"
+}

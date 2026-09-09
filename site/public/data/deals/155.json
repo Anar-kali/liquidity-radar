@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Balusamy Silvears Jewellery Pvt Ltd",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-10T06:16:42.521937+00:00",
+ "dealType": "other",
+ "id": 155,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Substantial acquisition disclosure filed under SEBI SAST Regulations for Balusamy Silvears Jewellery.",
+ "primaryUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5A805A23_97AA_482B_B4E7_227186BFC56A_114517.pdf",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "mcap_plausible",
+ "sources": [
+  {
+   "attachedAt": "2026-08-10T06:16:42.684618+00:00",
+   "outlet": "BSE",
+   "resolvable": true,
+   "title": "Thangamayil Jewellery Ltd: The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations, 2011 for Balusamy Silvears Jewellery Pvt Ltd",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5A805A23_97AA_482B_B4E7_227186BFC56A_114517.pdf"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-10T06:16:42.521937+00:00"
+}

@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "NSDL",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-19T13:31:06.538384+00:00",
+ "dealType": "block deal",
+ "id": 389,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Deutsche Bank sells stake in NSDL, shareholding falls below 5%.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPbHdXNEZndU9uY0Zfd25na2xDeExYdzM2SG5SV05IbExhaGtfaUJueHY4Y3R1eUVsTEdqVkFvdjRxcEtESEZUeXRPSE9zS1RDcG1FelVHcHRSUzR5b3MzSzB0MkVqWk1XRnBvSlpUakZCdG9SYU9CREU0QURuTEVlM0lZVVd3cVdLNmNVQnpvMzZRVEtHOVJXVjJmVUZLOXY1cnJzYWp6WVJNRjh2cjBfNTdaS0RRVmVGeVJ3ZXN5akNNMnFLQVY5WjJSbzNQQUQwbG8tM0puVVFwdUQxTVVUWDc3VVl0SzliTGNPMjVn?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-08-19T13:31:06.540329+00:00",
+   "outlet": "whalesbook.com",
+   "resolvable": false,
+   "title": "Deutsche Bank Sells Stake in NSDL, Shareholding Falls Below 5%",
+   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPbHdXNEZndU9uY0Zfd25na2xDeExYdzM2SG5SV05IbExhaGtfaUJueHY4Y3R1eUVsTEdqVkFvdjRxcEtESEZUeXRPSE9zS1RDcG1FelVHcHRSUzR5b3MzSzB0MkVqWk1XRnBvSlpUakZCdG9SYU9CREU0QURuTEVlM0lZVVd3cVdLNmNVQnpvMzZRVEtHOVJXVjJmVUZLOXY1cnJzYWp6WVJNRjh2cjBfNTdaS0RRVmVGeVJ3ZXN5akNNMnFLQVY5WjJSbzNQQUQwbG8tM0puVVFwdUQxTVVUWDc3VVl0SzliTGNPMjVn?oc=5"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-19T13:31:06.538384+00:00"
+}

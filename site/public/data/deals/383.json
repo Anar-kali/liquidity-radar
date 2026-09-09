@@ -1,0 +1,65 @@
+{
+ "advisers": [],
+ "amountCr": 3520.0,
+ "amountRaw": "$400 million ≈ ₹3,520 Cr (at 88 INR/USD)",
+ "buyer": null,
+ "company": "Upstox",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-19T08:05:04.617297+00:00",
+ "dealType": "DRHP filing",
+ "id": 383,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Upstox plans India IPO, Tiger Global-backed broking firm, promoter liquidity",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMVgzUEVZR0oyRHluRkV0SENrQ0VjVDNPTklGcjdMS0xPS0FhVWk5X3ZGNGl1eE9WdHlySWpMZ3dnV1V5MGtnVC1JWV9MMl9Ma0pOeS1fU1dHVl9UQzhvZHRFMURMZHVXOXc3X2VZcEJrTXJyU0dNek5xaXNsblhvSHdFVWlvOUFSWjBpYzRJeG9OZm4zODJGTHRBM2dnQUlNb21aUVEtc1lROE8walRGUnZrWQ?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-08-19T08:05:04.618356+00:00",
+   "outlet": "Bloomberg.com",
+   "resolvable": false,
+   "title": "Tiger Global-Backed Broking Firm Upstox Said to Plan India IPO",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMVgzUEVZR0oyRHluRkV0SENrQ0VjVDNPTklGcjdMS0xPS0FhVWk5X3ZGNGl1eE9WdHlySWpMZ3dnV1V5MGtnVC1JWV9MMl9Ma0pOeS1fU1dHVl9UQzhvZHRFMURMZHVXOXc3X2VZcEJrTXJyU0dNek5xaXNsblhvSHdFVWlvOUFSWjBpYzRJeG9OZm4zODJGTHRBM2dnQUlNb21aUVEtc1lROE8walRGUnZrWQ?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-19T08:05:04.620733+00:00",
+   "outlet": "Business Today",
+   "resolvable": false,
+   "title": "Upstox IPO: Tiger Global-backed brokerage begins talks with bankers for $400 million issue",
+   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPQ18yT3oyb2ZCNVdHNXFtYWdTSUl4cHVuT0RmaFdlQ1dhUW1NT0FxUWNVWE5MOXFqWTR3SDVlaGhrTGxqeUdhc3Jfc0ptZ3VLSFNObzIxQkxDLXBtMGdqdmdtdnBuMzEzOWJfUkJJdmRvS0NmVmtwYTBxRDh2UjQ2Wm1ZdVpHenlRWmhFWTJLUjdxT2liUk5ZczMySy1aVXB3V200VktlQVE1QlYtdUJMZVdKQnQ3VVU5UFJSNWI5TEd4eWtSV3paMUFENGctXzQtUWdGZEJKZEhLbjI5amZPQktLTkx4b3BhMk5uaC1PSWlzUdIB9wFBVV95cUxPVndaSTJzNXRJRjlSUlZIRHN1UVl0YWxLQXh5T3BIVnJ2WEtaNWZqX1pTSUhpS1JVT0d6YUdrblRtSFh3amlhYkdjUER1OGlhelhwUzNBSHFSdDNENHBwaGdCZnFKLU4wWnV2Wnp2d1RfV1lKeHgwejlDVFRRb1dKVkNwTkQwMGgyYXI4MEtRcXg1WV9GQk02MmtQZVhwM0k2bzlxRHdIYjlUaThoeUFnQUVoQ2MyNUdldEg0aXZxeVZmRjIxY3NoTnM5RVRCYmFVb3g1MEtKR0U4OVU4dVF4Yy1ZTzBURC14WVVCemZYaEZld282dzBz?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-19T10:31:13.628502+00:00",
+   "outlet": "Business Standard",
+   "resolvable": false,
+   "title": "Tiger Global-backed Upstox begins talks for potential $400 million IPO",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPNWR6OER1Uk14T3FsTDhKcFBIYlZLSU13ZEdkRlVJU3U4MkVkSUxhTms3Q0JGVGwzQWxBR3FvNzBjZE1iNFNRTjhJNnBMTlJzQVpXeEFqdWxWWGNES0NqQlBGRWprYzNzMXpNcnAxbFR0bHA4QkFvNnpVOExhVFlYU1BHU0hCWmY5VzdlM3RSRmlXT3BUdjMzZk1xQU9GYWQxQThqaG81Q0haS3d0aWZfUFMyelFQTW9icmZTZWlpYzlpazNzYXFSYlU1bjlKakx2X3VMWXhn0gHWAUFVX3lxTE81ZHo4RHVSTXhPcWxMOEpwUEhiVktJTXdkR2RGVUlTdTgyRWRJTGFOazdDQkZUbDNBbEFHcW83MGNkTWI0U1FOOEk2cExOUnNBWld4QWp1bFZYY0RLQ2pCUEZFamtjM3Mxek1ycDFsVHRscDhCQW82elU4TGFUWVhTUEdTSEJaZjlXN2UzdFJGaVdPcFR2MzNmTXFBT0ZhZDFBOGpobzVDSFpLd3RpZl9QUzJ6UVBNb2JyZlNlaWljOWlrM3NhcVJiVTVuOUpqTHZfdUxZeGc?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-19T14:09:19.521284+00:00",
+   "outlet": "Trade Brains",
+   "resolvable": false,
+   "title": "Upstox Begins IPO Preparations; Here’s Everything We Know So Far",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNXJEQnY5al93cWo4U0kxTUxrY2Fjc05TeXcxdU93VHF2SWZJajFiTVFRUzM1Rk5wM0N4a2JscVlPSjZ4TjMwdE4xQjNpM0J0czBCYTdOUlZKcnZJMDNGTzVLRlgzRzNjM2xLOE9EYnpKaEU0eHNzTUkwbElERmVLZmQ4MWRzclFqUWI1ZFdPdw?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-20T15:54:34.856201+00:00",
+   "outlet": "Google News",
+   "resolvable": true,
+   "title": "Tiger Global-Backed Upstox Begins IPO Talks, Eyes $400 Mn Public Issue: Report",
+   "url": "https://inc42.com/buzz/tiger-global-backed-upstox-begins-ipo-talks-eyes-400-mn-public-issue-report/"
+  },
+  {
+   "attachedAt": "2026-08-21T12:31:22.840564+00:00",
+   "outlet": "The Economic Times",
+   "resolvable": false,
+   "title": "IPO-bound Upstox crosses 2 crore customers, eyes 10 crore users in five years",
+   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOYURBbElMdmE0MS1GZThOVkpZM285WVotMGtlaFR3bDdUQW9xMW9Bd2g4dXJjTlBKbV9tV2d6akFmYkh4RFlZakpCRFM5akZJanQtVG9kVGVhY2VKcnBBZEdaY0FqQzhQaWx1cEF3cUllY29CMUk3V3JzWnJrZjI4V2d6OHJYaHNYQVFvNE5xSzNWMFVlYmZ5cXZYNUZ1N242Q3YzWElCWUtkUHRiMjFSS0M5Z25KSUREUjZsT2F4ZTVnaFo5WVl5SEFFRzlxa0xIMDhpazhIRTZyTXRwMnhGSWxpZEg5YUJwSXfSAeoBQVVfeXFMTmFEQWxJTHZhNDEtRmU4TlZKWTNvOVlaLTBrZWhUd2w3VEFvcTFvQXdoOHVyY05QSm1fbVdnempBZmJIeERZWWpKQkRTOWpGSWp0LVRvZFRlYWNlSnJwQWRHWmNBakM4UGlsdXBBd3FJZWNvQjFJN1dyc1pya2YyOFdnejhyWGhzWEFRbzROcUszVjBVZWJmeXF2WDVGdTduNkN2M1hJQllLZFB0YjIxUktDOWduSklERFI2bE9heGU1Z2haOVlZeUhBRUc5cWtMSDA4aWs4SEU2ck10cDJ4RklsaWRIOWFCcEl3?oc=5"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-19T08:05:04.621657+00:00"
+}

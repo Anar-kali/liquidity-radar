@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": 100.0,
+ "amountRaw": "₹100 Cr stake",
+ "buyer": "Goldman Sachs",
+ "company": "Mukul Agrawal portfolio stock (unnamed)",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-05T13:21:00.688416+00:00",
+ "dealType": "block deal",
+ "id": 13,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Goldman Sachs buys ₹100 cr stake in Mukul Agrawal portfolio stock.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONWllUnFnS3RkRjBFM29KVjJDS2djU2tGakp1Ul9yREhsaDEtT1JxT01lMWdvYjJ6a0dKeW0yb3hTMk1wcmw4NW5jN0pVUXlRc3BnV0FfdHdVaF8xVDZSdEFjRjJRYmZoVl8tbnBwVFdfSk1YbkhWTmMyZlVYbGxDeGFqbGwwMXE5a0lNd1h5Y2x3TzNKZGRBU2lsYXNFMU90a1B1cGR1WGN0eWtJY3ZjN1pxTjR4ZFdtVjhqZQ?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-08-05T13:21:00.688416+00:00",
+   "outlet": "Google News",
+   "resolvable": false,
+   "title": "",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONWllUnFnS3RkRjBFM29KVjJDS2djU2tGakp1Ul9yREhsaDEtT1JxT01lMWdvYjJ6a0dKeW0yb3hTMk1wcmw4NW5jN0pVUXlRc3BnV0FfdHdVaF8xVDZSdEFjRjJRYmZoVl8tbnBwVFdfSk1YbkhWTmMyZlVYbGxDeGFqbGwwMXE5a0lNd1h5Y2x3TzNKZGRBU2lsYXNFMU90a1B1cGR1WGN0eWtJY3ZjN1pxTjR4ZFdtVjhqZQ?oc=5"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-05T13:21:00.688416+00:00"
+}

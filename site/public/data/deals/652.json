@@ -1,0 +1,33 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "AI Company (unnamed)",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-31T08:31:32.932813+00:00",
+ "dealType": "IPO-OFS",
+ "id": 652,
+ "individuals": [
+  "Ashish Kacholia",
+  "Mukul Agrawal"
+ ],
+ "listed": false,
+ "oneLine": "Unnamed AI company planning IPO; Ashish Kacholia and Mukul Agrawal hold stakes",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNYkdPZmM4SlhPUUprZ1cwX055VXkzckE2OGVWZEFRaWxpQjgycjhsNWpzc1JGMHpmaG5URzJiMnZGYkhiSGt4ZjgzQUphTUVqMnJqTGpXc3lqMGI3T21WSnpuUW9aMjYwXy1Ud1ZqRUFFYnNscy1YOXk1bmR4Q2lsYldVTzlmMW1fY05KRFV5TW8zc29VTE9KYnJkRnZ0NUpqNWhLU19Dcm5USC15ajFmVTIzbEZBVWZtV2dWOWZFRmRJT3BOMWluUVBTa2xFNkc5U1g2YmFRMmQyb1V5NmFuRWw1Tk9HQQ?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-08-31T08:31:32.934051+00:00",
+   "outlet": "Trade Brains",
+   "resolvable": false,
+   "title": "AI Company Coming Up With an IPO in Which Ashish Kacholia and Mukul Agrawal Hold Stakes; Are You Applying?",
+   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNYkdPZmM4SlhPUUprZ1cwX055VXkzckE2OGVWZEFRaWxpQjgycjhsNWpzc1JGMHpmaG5URzJiMnZGYkhiSGt4ZjgzQUphTUVqMnJqTGpXc3lqMGI3T21WSnpuUW9aMjYwXy1Ud1ZqRUFFYnNscy1YOXk1bmR4Q2lsYldVTzlmMW1fY05KRFV5TW8zc29VTE9KYnJkRnZ0NUpqNWhLU19Dcm5USC15ajFmVTIzbEZBVWZtV2dWOWZFRmRJT3BOMWluUVBTa2xFNkc5U1g2YmFRMmQyb1V5NmFuRWw1Tk9HQQ?oc=5"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-31T08:31:32.932813+00:00"
+}

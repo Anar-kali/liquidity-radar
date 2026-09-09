@@ -1,0 +1,37 @@
+{
+ "advisers": [],
+ "amountCr": 17336.0,
+ "amountRaw": "₹17,336 Crore",
+ "buyer": null,
+ "company": "Nuvama Wealth",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-01T03:31:12.060759+00:00",
+ "dealType": "PE secondary",
+ "id": 669,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "HSBC and others bidding for stake in Nuvama Wealth valued at ₹17,336 crore; seller unnamed.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNdnRrRG04SXlxUlZtZVI4cl9zcmhjcDZtekhzdk1QYlNVVUI3TUtDOWYtTlNQU1Ffazl1aWJRTmRBTVVjMXpidG1UbmJOb2RRdE5VZnFjcW53dHB4dXlLWlQxbGk3R3RGWmp4TmRZMEQ0Tkx5b1lYV013WEZmOHBWQWE5X3FYemVFTlNTY1JUVktJV0VZTF9oRUxqQnFxYl82S0NEamxzU1hjbjk2VHVYaVo5cWVkaFJ0elZWRHY1TUJCeER4RTJfV0ZaSi1Gelk0aEl1U19iTjYxWm1abDNMMnJoSEU0YWRW?oc=5",
+ "seller": "Nuvama Wealth shareholders (existing PE/promoter stake)",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-01T03:31:12.062855+00:00",
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "HSBC Joins Race for Nuvama Wealth Stake Valued at ₹17,336 Crore",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNdnRrRG04SXlxUlZtZVI4cl9zcmhjcDZtekhzdk1QYlNVVUI3TUtDOWYtTlNQU1Ffazl1aWJRTmRBTVVjMXpidG1UbmJOb2RRdE5VZnFjcW53dHB4dXlLWlQxbGk3R3RGWmp4TmRZMEQ0Tkx5b1lYV013WEZmOHBWQWE5X3FYemVFTlNTY1JUVktJV0VZTF9oRUxqQnFxYl82S0NEamxzU1hjbjk2VHVYaVo5cWVkaFJ0elZWRHY1TUJCeER4RTJfV0ZaSi1Gelk0aEl1U19iTjYxWm1abDNMMnJoSEU0YWRW?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-02T11:31:45.647437+00:00",
+   "outlet": "Sahi",
+   "resolvable": false,
+   "title": "Nuvama Wealth: HSBC Joins Private Equity Firms Bidding For 54% Stake Valued At $1.8 Billion",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUkFoY2NsNUt4SW5VNWxQd1RnWk03YVZZNzlTUUkxdVREclR5RGQtY0hPU190QnZYZW1qZXg1cWt5blpZcHlTeG9DS28xTDdlTXZfaWpVZWVDX0F6bWFNS0wzeW5xdDNLTjRDakhtVGZCZWptdDViajRTNnZPTGxJdGR6V2d1VEhVWVlxbWRJb1VlOGFTcmJxTW1fLXVWWlRzSXlaVFhZaGp0c1M4Rm9hTVJkaTAtVkJSeU5wNDJnMWlnbEJ2YUE?oc=5"
+  }
+ ],
+ "ticker": "NUVAMA.NS",
+ "updatedAt": "2026-09-02T11:31:45.648389+00:00"
+}

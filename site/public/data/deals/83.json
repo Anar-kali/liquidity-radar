@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": 2627.0,
+ "amountRaw": "INR 2,627 crore",
+ "buyer": "Adani Infra",
+ "company": "Adani Power",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-07T01:47:18.194243+00:00",
+ "dealType": "other",
+ "id": 83,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Adani promoter entity sells 0.65% to Adani Infra (internal restructuring signal).",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPLUlIWjVCYkN1WHdyaFN2a3h1YUh6MFZ3WXpEVzdNbjR1a2w4TzlPT3VOTkpZVUFsMmlOTWxQYkJaY0JHLWZSZVhNLTVjQzI1S3J6c1RpWkRtbVBzSE9pa0I1UGVfZzhTTnY1azRud1JTbGlPZ3drc3E1LVk4Q0pKMkFlQzBYazJlUy14M00tRGdlN3lhaVRmMzB4dFk0Q3dwMDYyNVFkWmNfaUk4VmpPT250Y0diNTdPcS1LSUFYWjJGWEZXb05UWkxaOFZpX0lrYU9YNzJuSUY?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-08-07T01:47:18.194243+00:00",
+   "outlet": "Google News",
+   "resolvable": false,
+   "title": "",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPLUlIWjVCYkN1WHdyaFN2a3h1YUh6MFZ3WXpEVzdNbjR1a2w4TzlPT3VOTkpZVUFsMmlOTWxQYkJaY0JHLWZSZVhNLTVjQzI1S3J6c1RpWkRtbVBzSE9pa0I1UGVfZzhTTnY1azRud1JTbGlPZ3drc3E1LVk4Q0pKMkFlQzBYazJlUy14M00tRGdlN3lhaVRmMzB4dFk0Q3dwMDYyNVFkWmNfaUk4VmpPT250Y0diNTdPcS1LSUFYWjJGWEZXb05UWkxaOFZpX0lrYU9YNzJuSUY?oc=5"
+  }
+ ],
+ "ticker": "ADANIPOWER.NS",
+ "updatedAt": "2026-08-07T01:47:18.194243+00:00"
+}

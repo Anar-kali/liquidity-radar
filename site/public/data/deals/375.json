@@ -1,0 +1,37 @@
+{
+ "advisers": [],
+ "amountCr": 1435.0,
+ "amountRaw": "Rs 1,435 crore",
+ "buyer": "Vijay Kedia firm",
+ "company": "Groww",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-08-19T01:31:09.939358+00:00",
+ "dealType": "block deal",
+ "id": 375,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "YC Holdings sells Rs 1,435 cr Groww stake to Vijay Kedia firm",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPOHdESHFTWWpYQjR0a1l2aU9jLUd1aXgtVEhKbkEzd3VTdEpvRWVkQVVLYTB5V0p3NnB4R1RuMWxSenVxVzFmZzNmUEY3UDZaN09HVlZDQUhIOXdmY3g4dXZYQnFCc1ROTGh4YzZxNnRnZnNuZ1RicjN1Q0FfczRBSGMwS1hVWElBWWxobEx5ZnJveWE3R3licUJCQS1WaGI3TEg4T2thOENOellSWS1ET24zZnlCSWlkZm9veVpLcUVrcjh2cWNPMmVaSmNrcF80QXh0c0ZQXzNpTWFrc1NXQzJEdzYyYXM?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-08-19T01:31:09.940631+00:00",
+   "outlet": "TradingView",
+   "resolvable": false,
+   "title": "YC Holdings sells Rs 1,435 crore Groww stake; Vijay Kedia firm buys 1.48% in Zaggle Prepaid",
+   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPOHdESHFTWWpYQjR0a1l2aU9jLUd1aXgtVEhKbkEzd3VTdEpvRWVkQVVLYTB5V0p3NnB4R1RuMWxSenVxVzFmZzNmUEY3UDZaN09HVlZDQUhIOXdmY3g4dXZYQnFCc1ROTGh4YzZxNnRnZnNuZ1RicjN1Q0FfczRBSGMwS1hVWElBWWxobEx5ZnJveWE3R3licUJCQS1WaGI3TEg4T2thOENOellSWS1ET24zZnlCSWlkZm9veVpLcUVrcjh2cWNPMmVaSmNrcF80QXh0c0ZQXzNpTWFrc1NXQzJEdzYyYXM?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-19T07:32:14.067404+00:00",
+   "outlet": "Google News",
+   "resolvable": true,
+   "title": "Y Combinator Rakes In ₹1,435 Cr From Groww Stake Sale, Clocks 55.7X Return",
+   "url": "https://inc42.com/buzz/y-combinator-rakes-in-%e2%82%b91435-cr-from-groww-stake-sale-clocks-55-7x-return/"
+  }
+ ],
+ "ticker": "GROWW.NS",
+ "updatedAt": "2026-08-19T01:31:09.939358+00:00"
+}

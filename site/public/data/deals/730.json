@@ -1,0 +1,37 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "LCC PROJECTS LIMITED",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-04T12:31:20.456590+00:00",
+ "dealType": "DRHP filing",
+ "id": 730,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "LCC Projects Limited files RHP for IPO; promoters likely to cash out.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/lcc-projects-limited-rhp_104283.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-04T12:31:20.458294+00:00",
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "LCC PROJECTS LIMITED - RHPLCC PROJECTS LIMITED",
+   "url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/lcc-projects-limited-rhp_104283.html"
+  },
+  {
+   "attachedAt": "2026-09-04T12:31:20.462008+00:00",
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "LCC PROJECTS LIMITED",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/sep-2026/LCC%20PROJECTS%20LIMITED%20-%20AP_p.pdf"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-04T12:31:20.456590+00:00"
+}

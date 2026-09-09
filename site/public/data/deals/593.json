@@ -1,0 +1,37 @@
+{
+ "advisers": [],
+ "amountCr": 320.0,
+ "amountRaw": "up to ₹320 crore",
+ "buyer": null,
+ "company": "Aye Finance",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-08-27T01:31:44.735599+00:00",
+ "dealType": "PE secondary",
+ "id": 593,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Alpha Wave seeks to sell 7.8% stake in Aye Finance for up to ₹320 crore.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQaFZiXzdvanBuUjN2ZFJfT0RfbmkzUTVncTNkU3R1d3ZLQnFlc0htdFBaaDVWYWdPUWlsa3dONW0yQ3JRRndPb1pnVEM1ekg2QmxDSG04d2prOWtsUnJTaHdaTUNwOElSX3VSbnNVV2llSXVXVjVrVURtVlZYMVBiVmc0RWpJZnQ0N2YtMTlZdlNISWRFaEFLX3hndDBXNGR3eVRkLWNlZ0lnd2VrcThpQ2ljQU9Cd0pOTDhjMl96QzZOaFNhZTJqXzZsQ1RUTmc2eW00ZtIB2gFBVV95cUxOdmlXaEJuTWVTTlprdXF2V1dtZkZnYzlVY0llMEVTVGpYU1NxQ1F2THVNdk8wZlhUV01pbnNuQlpKZnpqOXNYc1c1WFhDWFVodllNc190M0lfUXBhdmJFLUpTdThucE16N0VqdUxldHZYY185T194UWlGSldDdkRHZ21mMW5KX2t6ZWNfcmN2UkRlR2c4TTMzV0tXcG5DdmxiQ0h3WXJsS3drNGVkODRIajBwalhUekFuZVlqRHd4V2FqNnNuU0piQmlremtnT0F3c1B5bzltUFZGZw?oc=5",
+ "seller": "Alpha Wave",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-08-27T01:31:44.736788+00:00",
+   "outlet": "CNBC TV18",
+   "resolvable": false,
+   "title": "Alpha Wave looks to sell 7.8% stake in Aye Finance for up to ₹320 crore via block deal",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQaFZiXzdvanBuUjN2ZFJfT0RfbmkzUTVncTNkU3R1d3ZLQnFlc0htdFBaaDVWYWdPUWlsa3dONW0yQ3JRRndPb1pnVEM1ekg2QmxDSG04d2prOWtsUnJTaHdaTUNwOElSX3VSbnNVV2llSXVXVjVrVURtVlZYMVBiVmc0RWpJZnQ0N2YtMTlZdlNISWRFaEFLX3hndDBXNGR3eVRkLWNlZ0lnd2VrcThpQ2ljQU9Cd0pOTDhjMl96QzZOaFNhZTJqXzZsQ1RUTmc2eW00ZtIB2gFBVV95cUxOdmlXaEJuTWVTTlprdXF2V1dtZkZnYzlVY0llMEVTVGpYU1NxQ1F2THVNdk8wZlhUV01pbnNuQlpKZnpqOXNYc1c1WFhDWFVodllNc190M0lfUXBhdmJFLUpTdThucE16N0VqdUxldHZYY185T194UWlGSldDdkRHZ21mMW5KX2t6ZWNfcmN2UkRlR2c4TTMzV0tXcG5DdmxiQ0h3WXJsS3drNGVkODRIajBwalhUekFuZVlqRHd4V2FqNnNuU0piQmlremtnT0F3c1B5bzltUFZGZw?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-28T01:32:28.676508+00:00",
+   "outlet": "Google News",
+   "resolvable": true,
+   "title": "Alpha Wave Ventures Exits Aye Finance Via ₹323 Cr Bulk Deals",
+   "url": "https://inc42.com/buzz/alpha-wave-ventures-exits-aye-finance-via-%e2%82%b9323-cr-bulk-deals/"
+  }
+ ],
+ "ticker": "AYE.NS",
+ "updatedAt": "2026-08-27T01:31:44.735599+00:00"
+}

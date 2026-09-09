@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": 806.0,
+ "amountRaw": "5.02% x mcap ~Rs 16055cr = ~Rs 806cr",
+ "buyer": "Claymore",
+ "company": "Dr. Agarwal's Health Care",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-16T07:46:32.386858+00:00",
+ "dealType": "block deal",
+ "id": 246,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Claymore sells 5.02% stake in Dr. Agarwal's Health Care.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdHFYMDlhdkgzd0RKbzFxTWRseldyRkc5NFRod3FaOUJWODZzWXVldl9HUm1fclNBc3dLd1hyTUxQcE9nQm05VTZCaHI1TjVQWXd1WjVsdHMzSUhpQVNUajBoOXFwbjR3alVrZV9WSFQ1UmZ1dGlmbnFrTGs2RG9odnNkLUpNUkx5Ml8xUXN6OE9FVDdfdjRYNWU3MjhiYUdzOGhrc1ZiZFozTWc?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "computed",
+ "sources": [
+  {
+   "attachedAt": "2026-08-16T07:46:32.387991+00:00",
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "Claymore sells 5.02% stake in Dr. Agarwal's Health Care",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdHFYMDlhdkgzd0RKbzFxTWRseldyRkc5NFRod3FaOUJWODZzWXVldl9HUm1fclNBc3dLd1hyTUxQcE9nQm05VTZCaHI1TjVQWXd1WjVsdHMzSUhpQVNUajBoOXFwbjR3alVrZV9WSFQ1UmZ1dGlmbnFrTGs2RG9odnNkLUpNUkx5Ml8xUXN6OE9FVDdfdjRYNWU3MjhiYUdzOGhrc1ZiZFozTWc?oc=5"
+  }
+ ],
+ "ticker": "AGARWALEYE.NS",
+ "updatedAt": "2026-08-16T07:46:32.386858+00:00"
+}

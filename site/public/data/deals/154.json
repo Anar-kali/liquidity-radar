@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Ardee Industries Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-10T05:31:25.775853+00:00",
+ "dealType": "DRHP filing",
+ "id": 154,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "SEBI draft prospectus filed; IPO in preparation",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/aug-2026/ardee-industries-limited-prospectus_103457.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-08-10T05:31:25.776854+00:00",
+   "outlet": "Prospectus",
+   "resolvable": true,
+   "title": "Ardee Industries Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/ardee-industries-limited-prospectus_103457.html"
+  }
+ ],
+ "ticker": "ARDEE.NS",
+ "updatedAt": "2026-08-10T05:31:25.775853+00:00"
+}

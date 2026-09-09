@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": 136.0,
+ "amountRaw": "Rs 136 crore ($14.3 million, 14.3 × 88 = 1,258.4 / 9.25 ≈ 136)",
+ "buyer": "The Fundamentum Partnership",
+ "company": "Stable Money",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-08-05T13:21:00.877859+00:00",
+ "dealType": "PE primary",
+ "id": 45,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Stable Money raises Rs 136 Cr Series C from Fundamentum Partnership and others.",
+ "primaryUrl": "https://entrackr.com/exclusive/exclusive-stable-money-kicks-off-series-c-with-143-mn-from-existing-investors-12226556",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-08-05T13:21:00.877859+00:00",
+   "outlet": "Entrackr",
+   "resolvable": true,
+   "title": "",
+   "url": "https://entrackr.com/exclusive/exclusive-stable-money-kicks-off-series-c-with-143-mn-from-existing-investors-12226556"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-05T13:21:00.877859+00:00"
+}

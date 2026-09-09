@@ -69,7 +69,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add radar.db
           # Absent on the very first run, and after an export failure above.
-          if [ -d site/data ]; then git add site/data; fi
+          if [ -d site/public/data ]; then git add site/public/data; fi
           git diff --quiet --cached || git commit -m "state: radar run $(date -u +%FT%TZ)"
           # A failed push here (e.g. radar.db too large, or a real conflict)
           # must NOT be swallowed: it means this run's dedup memory never

@@ -1,0 +1,37 @@
+{
+ "advisers": [],
+ "amountCr": 1000.0,
+ "amountRaw": "INR 1,000 Cr IPO size",
+ "buyer": null,
+ "company": "Hero Motors Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-31T06:31:50.134278+00:00",
+ "dealType": "DRHP filing",
+ "id": 651,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Hero Motors Limited files DRHP addendum; IPO prospecting lead.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/aug-2026/hero-motors-limited-addendum-to-drhp_104121.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-08-31T06:31:50.135574+00:00",
+   "outlet": "Addendum to DRHP",
+   "resolvable": true,
+   "title": "HERO MOTORS LIMITED",
+   "url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/hero-motors-limited-addendum-to-drhp_104121.html"
+  },
+  {
+   "attachedAt": "2026-08-31T13:31:24.172580+00:00",
+   "outlet": "Entrepreneur India",
+   "resolvable": false,
+   "title": "Hero Motors Cuts IPO Size to INR 1,000 Cr",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNa0d3NW1VLVpEUnVCMTU2Y3lhMjZxb1V3cVNJVUNNYVRmTE1sLTc3cGM3ZzhaUGZDNnRRdHA0NXkyR0dSQjI0WUp5NUNZcHB0aFpkTm4yTGcxUTdJUjlNZUtLNFRMZm9MNm5fY1dJWEJ0OW55SVpVbDEwaHRTU1llS21nb2RvLTNocElUMS0tQkRVYlpuWmlJSQ?oc=5"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-31T13:31:24.173331+00:00"
+}

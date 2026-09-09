@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": 1320.0,
+ "amountRaw": "$1.5 billion = ~Rs 1,320 crore (at 88 INR/USD)",
+ "buyer": "Aegis Logistics",
+ "company": "Tristar",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-08-18T01:31:21.979498+00:00",
+ "dealType": "strategic buyout",
+ "id": 349,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Aegis Logistics in advanced talks to acquire Tristar for $1.5 billion",
+ "primaryUrl": "https://economictimes.indiatimes.com/industry/transportation/shipping-/-transport/aegis-logistics-in-talks-to-acquire-uaes-tristar-for-1-5-billion/articleshow/133306137.cms",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-08-18T01:31:21.980349+00:00",
+   "outlet": "ET Corporate",
+   "resolvable": true,
+   "title": "Aegis Logistics in talks to acquire UAE’s Tristar for $1.5 billion",
+   "url": "https://economictimes.indiatimes.com/industry/transportation/shipping-/-transport/aegis-logistics-in-talks-to-acquire-uaes-tristar-for-1-5-billion/articleshow/133306137.cms"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-18T01:31:21.979498+00:00"
+}

@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": 1553.0,
+ "amountRaw": "₹1,553 Crore IPO",
+ "buyer": null,
+ "company": "Milky Mist Dairy Food",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-06T05:24:42.647748+00:00",
+ "dealType": "IPO-OFS",
+ "id": 60,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Milky Mist Dairy IPO opens August 11 at ₹1,553 crore.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPVW56Y2dfQVJLaXBoVDdWclFiMkFGVWdEYWlDSk55MWEwMFVWcm9yVjBzbFNQQVFNWnNtYTgwZTFrb01ZVXlfUnJkM2hfZDkySHpZUFJhODc4MENmWE85M1RhRzZheFlxT1lTZVVmaG02RDJNQXQyeVVTNjRhU19HcTFwbEVKVUd2YTBnZmdWQlMyeDAyWkU2SlBTZlczY1lsbzdaYlFfYmlIY0o0VFBNVDZaUEpraWhUaWlCUWpEV0FocWpDc3ViUVdIZTNDSk5hUVY5V0Rtc1hlZDluQU83T1Y2RmxzdFE?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-08-06T05:24:42.647748+00:00",
+   "outlet": "Google News",
+   "resolvable": false,
+   "title": "",
+   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPVW56Y2dfQVJLaXBoVDdWclFiMkFGVWdEYWlDSk55MWEwMFVWcm9yVjBzbFNQQVFNWnNtYTgwZTFrb01ZVXlfUnJkM2hfZDkySHpZUFJhODc4MENmWE85M1RhRzZheFlxT1lTZVVmaG02RDJNQXQyeVVTNjRhU19HcTFwbEVKVUd2YTBnZmdWQlMyeDAyWkU2SlBTZlczY1lsbzdaYlFfYmlIY0o0VFBNVDZaUEpraWhUaWlCUWpEV0FocWpDc3ViUVdIZTNDSk5hUVY5V0Rtc1hlZDluQU83T1Y2RmxzdFE?oc=5"
+  }
+ ],
+ "ticker": "MILKYMIST.NS",
+ "updatedAt": "2026-08-06T05:24:42.647748+00:00"
+}

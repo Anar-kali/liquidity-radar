@@ -1,0 +1,37 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Coal India (subsidiaries)",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-31T10:31:12.005868+00:00",
+ "dealType": "IPO-OFS",
+ "id": 659,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Coal India planning twin subsidiary IPOs; early prospecting lead.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcTE3dVN2ODBuVjNhSF9UcldqN3l6dzFhMWtQRVRLMVdlT200T3phZGotMkVuZEozdVlhckExVDJFZzdHYnZrWGRlMUQ1M3owUmYtQ3FrdE1vM19jQ1B5Z0Fjd0RkRGxIRDVVb0xINDRYMmUyTDMxM25WN21YVlZXWl90XzFqQUc3UHpDdXV3WDg4WkUtdTdySlBSaTFzMFlHNWZacWxwZUFZcHBUWF8yd19Raw?oc=5",
+ "seller": "Government of India (PSU divestment)",
+ "sizeBand": null,
+ "sizeSource": "mcap_plausible",
+ "sources": [
+  {
+   "attachedAt": "2026-08-31T10:31:12.007145+00:00",
+   "outlet": "Sahi",
+   "resolvable": false,
+   "title": "Coal India Targets 815 Million Ton Output By FY27 And Twin Subsidiary IPOs",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcTE3dVN2ODBuVjNhSF9UcldqN3l6dzFhMWtQRVRLMVdlT200T3phZGotMkVuZEozdVlhckExVDJFZzdHYnZrWGRlMUQ1M3owUmYtQ3FrdE1vM19jQ1B5Z0Fjd0RkRGxIRDVVb0xINDRYMmUyTDMxM25WN21YVlZXWl90XzFqQUc3UHpDdXV3WDg4WkUtdTdySlBSaTFzMFlHNWZacWxwZUFZcHBUWF8yd19Raw?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-01T02:31:03.882597+00:00",
+   "outlet": "whalesbook.com",
+   "resolvable": false,
+   "title": "Coal India Eyes Margin Recovery, Subsidiary IPOs in FY27",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPTjJ4VFBuRmdjVll1Z3NqeXhnaENOM082NXJ6cjZnRXY5U0xrdjVqZWVvV1U0UndnWjVBZFhFejhCNzRlOGNnNDdnUElYdkxONk9QVHRSekJCRFBwY0J2bXJ0YV9kN3RKY0ljMjMzYjJjQm1CRjZZUkdHQnduUTd1QWtSYkExcXNuNmFZWDQzMVdNS05CTkxnUGo4em1jYkVSX2Y0Y1NlWE94YnZrYWdTTkgxMjNzeDRQRUVFYkV0NWZHX0dMU1E?oc=5"
+  }
+ ],
+ "ticker": "COALINDIA.NS",
+ "updatedAt": "2026-09-01T02:31:03.883374+00:00"
+}

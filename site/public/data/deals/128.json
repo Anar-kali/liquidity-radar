@@ -1,0 +1,37 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Technocraft Ventures Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-08T09:49:06.959512+00:00",
+ "dealType": "DRHP filing",
+ "id": 128,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Technocraft Ventures filed RHP; promoters planning IPO liquidity event.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/jul-2026/technocraft-ventures-limited-rhp_103278.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-08-08T09:49:06.960280+00:00",
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "Technocraft Ventures Limited - RHPTechnocraft Ventures Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/jul-2026/technocraft-ventures-limited-rhp_103278.html"
+  },
+  {
+   "attachedAt": "2026-08-08T09:49:06.961997+00:00",
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "Technocraft Ventures Limited",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/jul-2026/Technocraft%20Ventures%20Limited%20%20-%20AP_p.pdf"
+  }
+ ],
+ "ticker": "TECHNOCRAF.NS",
+ "updatedAt": "2026-08-08T09:49:06.959512+00:00"
+}

@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": 1500.0,
+ "amountRaw": "₹1,500 crore payout expected",
+ "buyer": null,
+ "company": "Nitco",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-08-25T07:31:18.183272+00:00",
+ "dealType": "strategic buyout",
+ "id": 568,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Nitco sells Alibaug land to HOABL; ₹1,500 crore payout to shareholders.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVFNyc2cxRnhIX0xabzFtRVBWcmtlRzdIcnd4Y2t1dGN0Z2tNQ3ZlN01wQksyX3FqUHMzVVNCQU1hVjVId3lCdWxNVjFkbE8zQjJZWDhWQURONkhBX1l3MGpEdTM5a1FHVVozV0ItUlc1ME1mcEUtbU1pWGIyQmpsOEw5bjVrbU1rUjFKQkh2NXFyVUFuU3NCcE8wbXVlNlBlT3laWWFHeU1mRTlITmpFTVFOYzBxZzhHbGdld0JiSXNVM3lDQnRZ?oc=5",
+ "seller": "Nitco (promoter/shareholders)",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-08-25T07:31:18.184739+00:00",
+   "outlet": "India IPO",
+   "resolvable": false,
+   "title": "Nitco shares jump nearly 14% on Alibaug land deal with HOABL; up to ₹1,500 crore payout expected",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVFNyc2cxRnhIX0xabzFtRVBWcmtlRzdIcnd4Y2t1dGN0Z2tNQ3ZlN01wQksyX3FqUHMzVVNCQU1hVjVId3lCdWxNVjFkbE8zQjJZWDhWQURONkhBX1l3MGpEdTM5a1FHVVozV0ItUlc1ME1mcEUtbU1pWGIyQmpsOEw5bjVrbU1rUjFKQkh2NXFyVUFuU3NCcE8wbXVlNlBlT3laWWFHeU1mRTlITmpFTVFOYzBxZzhHbGdld0JiSXNVM3lDQnRZ?oc=5"
+  }
+ ],
+ "ticker": "NITCO.NS",
+ "updatedAt": "2026-08-25T07:31:18.183272+00:00"
+}

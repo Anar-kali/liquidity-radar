@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "GalaxEye",
+ "company": "StarOps",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-10T07:31:36.180562+00:00",
+ "dealType": "strategic buyout",
+ "id": 161,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "GalaxEye acquires spacecraft engineering company StarOps; founders likely cash out.",
+ "primaryUrl": "https://entrackr.com/snippets/galaxeye-acquires-spacecraft-engineering-company-starops-12246751",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-08-10T07:31:36.278263+00:00",
+   "outlet": "Entrackr",
+   "resolvable": true,
+   "title": "GalaxEye acquires spacecraft engineering company StarOps",
+   "url": "https://entrackr.com/snippets/galaxeye-acquires-spacecraft-engineering-company-starops-12246751"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-10T07:31:36.180562+00:00"
+}

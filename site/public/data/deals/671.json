@@ -1,0 +1,44 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "ARAGEN LIFE SCIENCES LIMITED",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-01T06:31:34.525657+00:00",
+ "dealType": "DRHP filing",
+ "id": 671,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Aragen Life Sciences files DRHP for IPO; promoters likely to have liquidity event.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/aragen-life-sciences-limited-drhp_104157.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-01T06:31:34.529341+00:00",
+   "outlet": "Draft Abridged Prospectus",
+   "resolvable": true,
+   "title": "ARAGEN LIFE SCIENCES LIMITED - DRHPARAGEN LIFE SCIENCES LIMITED",
+   "url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/aragen-life-sciences-limited-drhp_104157.html"
+  },
+  {
+   "attachedAt": "2026-09-01T06:31:34.531584+00:00",
+   "outlet": "Draft Abridged Prospectus",
+   "resolvable": true,
+   "title": "ARAGEN LIFE SCIENCES LIMITED",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/sep-2026/ARAGEN%20LIFE%20SCIENCES%20LIMITED%20-%20DAP_p.pdf"
+  },
+  {
+   "attachedAt": "2026-09-02T13:31:21.817065+00:00",
+   "outlet": "ETLegalWorld.com",
+   "resolvable": false,
+   "title": "CAM, Trilegal, TT&A act on Aragen Life Sciences proposed IPO",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSTNXU0ZPZno3ODBZTUVwM1ZSZm1qRlMwc2FBbm9MQTNpSFR4cmg0d0haLUxjd2M2dGZwZTVlYnVTek9NRWwwQzRxbGpfalcxOUMwYndMQjFmd3FpbFlKb0t6OW53Ykd3LWRGcEs4dlVIVjFuNTMtOXV5UjIxajluYjN2NW05NHpNWkJETWlyRVJoSmo1UFA5d25zNjhQN05YY05NdVVUdi14MkM3UjYzWlJlRjNmNVpsNUdXRjdkaWg2QdIBxwFBVV95cUxPMm1xdDJvMjlldzE4dU1kc2c2MEdtS1UzNWZNM1ZHR0daNmNwMWFaTkRnVnhYWXBlVng4VkQxZ3JtVXh0amEwUmpPeTRBdWN0RnhZRm1tTnVzVW1KT0VEMmZOYzVzQ0pXNmFqdERnb0Yyb1A1ODZOVjA5UzNKZUpBZmtyQlpNNVQ2Yk8wU2tMWlNSWXBuV05Db3RIdkFTcm5ncnYwQTJfd3FEVU95QmFBVUIyU01RbVcwU2h6TnNOeTBCOUVUNXZj?oc=5"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-01T06:31:34.525657+00:00"
+}

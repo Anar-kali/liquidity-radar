@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Sumax Engineering",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-19T10:31:13.619902+00:00",
+ "dealType": "DRHP filing",
+ "id": 386,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Sumax Engineering IPO with price band and timeline announced.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPeDVyRFVEUW1aUURIdmV5SWthUVFFVThBSmRPeUx4U3NWbjJqTWhxYVBNd0RpaWkwcGUwVExtUXZ4R3F5VmxSRTExMUJZakFxSF9ONUxVOTRoNzBOTnRJUTZjaHdBaVpzUXItRW1CdUE5Ulp1MllsZHlUMUlQT0Y2VlpMb19lbktoOHltdGNsano4eUN4R2MzRzM3MHBOS25VbENuclpzdjk4WFYzY2FF?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-08-19T10:31:13.621028+00:00",
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "Sumax Engineering IPO: Check Price Band, Timeline & Key Details",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPeDVyRFVEUW1aUURIdmV5SWthUVFFVThBSmRPeUx4U3NWbjJqTWhxYVBNd0RpaWkwcGUwVExtUXZ4R3F5VmxSRTExMUJZakFxSF9ONUxVOTRoNzBOTnRJUTZjaHdBaVpzUXItRW1CdUE5Ulp1MllsZHlUMUlQT0Y2VlpMb19lbktoOHltdGNsano4eUN4R2MzRzM3MHBOS25VbENuclpzdjk4WFYzY2FF?oc=5"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-19T10:31:13.619902+00:00"
+}

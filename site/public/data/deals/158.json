@@ -1,0 +1,37 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "IFL Finance Ltd.",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-10T06:46:20.476558+00:00",
+ "dealType": "DRHP filing",
+ "id": 158,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "IFL Finance Ltd. files DRHP for IPO; promoters likely to cash out.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/jul-2026/ifl-finance-ltd-drhp_103313.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-08-10T06:46:20.477886+00:00",
+   "outlet": "Draft Abridged Prospectus",
+   "resolvable": true,
+   "title": "IFL Finance Ltd. - DRHPIFL Finance Ltd.",
+   "url": "https://www.sebi.gov.in/filings/public-issues/jul-2026/ifl-finance-ltd-drhp_103313.html"
+  },
+  {
+   "attachedAt": "2026-08-10T06:46:20.480291+00:00",
+   "outlet": "Draft Abridged Prospectus",
+   "resolvable": true,
+   "title": "IFL Finance Ltd.",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/aug-2026/IFL%20Finance%20Ltd-%20DAP_p.pdf"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-10T06:46:20.476558+00:00"
+}

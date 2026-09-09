@@ -1,0 +1,37 @@
+{
+ "advisers": [],
+ "amountCr": 500.0,
+ "amountRaw": "Rs 500 crore stated for acquisition; further Rs 500-750 crore for growth capex alongside founders",
+ "buyer": "Investcorp",
+ "company": "20Cube's India contract logistics arm",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-19T08:05:04.610411+00:00",
+ "dealType": "strategic buyout",
+ "id": 382,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Investcorp acquires 20Cube's India logistics arm, founder/shareholder exit",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQTl3VEFMM2xiYkxtRDlwQkhBSlJfVmNPQjhSeVEtSWFxdUxmY1hna3R4NmZnbUQ2NHhKQ0pBWGV2X3JHVWIwN2I2MFI0U0RCZVMzN0ZmSk1aTGpXV3h5SVR6UGtmWURUd3cwYVEwdGEtbXlwVC1kRUs3Q2h0SkFYa05DVTFTbkRVVzNRVVVkeFlsaDRpQ2NyVGVNNGNLT1BvWURN?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-08-19T08:05:04.611928+00:00",
+   "outlet": "VCCircle",
+   "resolvable": false,
+   "title": "Investcorp snaps up 20Cube’s India contract logistics arm, plans bolt-on deals",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQTl3VEFMM2xiYkxtRDlwQkhBSlJfVmNPQjhSeVEtSWFxdUxmY1hna3R4NmZnbUQ2NHhKQ0pBWGV2X3JHVWIwN2I2MFI0U0RCZVMzN0ZmSk1aTGpXV3h5SVR6UGtmWURUd3cwYVEwdGEtbXlwVC1kRUs3Q2h0SkFYa05DVTFTbkRVVzNRVVVkeFlsaDRpQ2NyVGVNNGNLT1BvWURN?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-19T12:31:08.044446+00:00",
+   "outlet": "Google News",
+   "resolvable": true,
+   "title": "Investcorp acquires 20Cube to expand its presence in India’s growing logistics market",
+   "url": "https://yourstory.com/2026/08/investcorp-acquires-20cube-to-expand-its-presence-in-india"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-19T12:31:08.045608+00:00"
+}

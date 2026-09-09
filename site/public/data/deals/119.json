@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "IndiaRF",
+ "company": "Ashok Iron Works",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-07T07:01:03.268701+00:00",
+ "dealType": "strategic buyout",
+ "id": 119,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "IndiaRF acquires majority stake in Ashok Iron Works' casting and machining business.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNOGxkN3lKZF9pS3dqbUV0R1dLUnJQWkVsbko3Tlo1VEtLcFhFUVA1LW1aWE1MejhEd0p1RHNadEhqZVJwXzRwaFd3Zy13ZG5EUWh3NS1wUENvVHhIZkw3c2VoRzFmQkhUeTFrYnFTd2FUYlg2VlFCRmgyMEFaM28xdm91MGU5R01yTWtpZ0hNU1p1NnBsYjBfbmVHYWJqdGdpWS1UR0ZVT1lsQUczOXpWWGNLRzIydG13ZUdqYjFmM1FhbjJo0gHEAUFVX3lxTE04bGQ3eUpkX2lLd2ptRXRHV0tSclBaRWxuSjdOWjVUS0twWEVRUDUtbVpYTUx6OER3SnVEc1p0SGplUnBfNHBoV3dnLXdkbkRRaHc1LXBQQ29UeEhmTDdzZWhHMWZCSFR5MWticVN3YVRiWDZWUUJGaDIwQVozbzF2b3UwZTlHTXJNa2lnSE1TWnU2cGxiMF9uZUdhYmp0Z2lZLVRHRlVPWWxBRzM5elZYY0tHMjJ0bXdlR2piMWYzUWFuMmg?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": null,
+ "sources": [
+  {
+   "attachedAt": "2026-08-07T11:33:59.664642+00:00",
+   "outlet": "ET Manufacturing",
+   "resolvable": false,
+   "title": "IndiaRF acquires majority stake in Ashok Iron Works’ casting, machining business",
+   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOVWNDQUNza0MzcHJ1ZFhSQzFabS03UV9iWE5PeklfT0pMQjhSSFhtMGxfMHZvcmFiT1prR09jT2NBRVRmU2hIMEZDWmtTQzF1MWduLTN3YWpvQXkzOFhFRUtsVUY2S1NuWUlIXzV2ZHNNR0JrSzZTTXVNdFZJdmR6NXdfdHZiT1BUZURJQUVWOExSeEpzc0Z0YnFISHA3TzJfLUNNenpFSWpRZHJsMjJodnY3OU9wSFJhSTNGRHlPZ3dHWDBTbWJLa1pRRzJfbnBxWjhQRkFpcF95X3RkNDNTZERnTjRTbUNTS3lkdExB?oc=5"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-07T07:01:03.268701+00:00"
+}

@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Aditya Infotech",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-24T01:33:24.536886+00:00",
+ "dealType": "IPO-OFS",
+ "id": 529,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Aditya Infotech rebounds on fundraise plans; IPO intent signals promoter liquidity.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUml2NmF4U2ctck9sNW5LRG9NSHUweDBzNFZjZkVjamQxOHN5OGVwMXNRdzVpMEhSOHpYd3hzZGJLVWdBWW9RT0M0WWZfaFRTbmZncTlZMWM0TXBkYXMyZkh0WFFUbWdMNkFRanJTZjFhMUl4dmcxX2lNRGpYQi1LY3FHZjV0cHF0TmJucTlVSXZVUVhvNEZ5U1oxTTNrQi1oTGhpcVNBcXZHSVlR?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "mcap_plausible",
+ "sources": [
+  {
+   "attachedAt": "2026-08-24T01:33:24.538028+00:00",
+   "outlet": "IndiaIPO",
+   "resolvable": false,
+   "title": "Aditya Infotech rebounds on fundraise plans; analysts see up to 20% upside",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUml2NmF4U2ctck9sNW5LRG9NSHUweDBzNFZjZkVjamQxOHN5OGVwMXNRdzVpMEhSOHpYd3hzZGJLVWdBWW9RT0M0WWZfaFRTbmZncTlZMWM0TXBkYXMyZkh0WFFUbWdMNkFRanJTZjFhMUl4dmcxX2lNRGpYQi1LY3FHZjV0cHF0TmJucTlVSXZVUVhvNEZ5U1oxTTNrQi1oTGhpcVNBcXZHSVlR?oc=5"
+  }
+ ],
+ "ticker": "CPPLUS.NS",
+ "updatedAt": "2026-08-24T01:33:24.536886+00:00"
+}

@@ -1,0 +1,37 @@
+{
+ "advisers": [],
+ "amountCr": 128.0,
+ "amountRaw": "₹128 crore from anchor investors",
+ "buyer": null,
+ "company": "Ardee Industries",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-05T13:21:00.781296+00:00",
+ "dealType": "IPO-OFS",
+ "id": 36,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Ardee Industries IPO opens for subscription; price band and GMP mentioned.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNVDFhOFBlRldUbEs1MmpYWHQ5VUNFaUNsOVBCamRvYzF4YllDZU02a1FsUjVPQW96QTNieGhoOVluWWxqS1k3MmU4M0dJU253aXE1MmdCVXNqS3Z5UkJkUFZXYWlFR3FrS3Mta1g5aHU2WERNVS1BQ1NmNDVjVlRxcmN5NmVKOUN5LUlsWTdEcU4xRmpNLXQxb215aUhIYmhhSjN5SWtIc0Zta3FpVzhJOHFBRm0zMjJFRko0Mk15MGxQVHdMSUY0NjFwcklobHZNX0FSVkpsRjFmR2160gHcAUFVX3lxTE1UMWE4UGVGV1RsSzUyalhYdDlVQ0VpQ2w5UEJqZG9jMXhiWUNlTTZrUWxSNU9Bb3pBM2J4aGg5WW5ZbGpLWTcyZTgzR0lTbndpcTUyZ0JVc2pLdnlSQmRQVldhaUVHcWtLcy1rWDlodTZYRE1VLUFDU2Y0NWNWVHFyY3k2ZUo5Q3ktSWxZN0RxTjFGak0tdDFvbXlpSEhiaGFKM3lJa0hzRm1rcWlXOEk4cUFGbTMyMkVGSjQyTXkwbFBUd0xJRjQ2MXBySWhsdk1fQVJWSmxGMWZHbXo?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-08-08T09:49:06.984443+00:00",
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "Ardee Industries Limited- RHPArdee Industries Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/jul-2026/ardee-industries-limited-rhp_103086.html"
+  },
+  {
+   "attachedAt": "2026-08-08T09:49:06.986790+00:00",
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "Ardee Industries Limited",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/jul-2026/Ardee%20Industries%20Ltd%20-%20AP_p.pdf"
+  }
+ ],
+ "ticker": "ARDEE.NS",
+ "updatedAt": "2026-08-05T13:21:00.783230+00:00"
+}

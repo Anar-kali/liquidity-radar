@@ -1,0 +1,37 @@
+{
+ "advisers": [],
+ "amountCr": 3067.0,
+ "amountRaw": "₹3,067-crore IPO",
+ "buyer": null,
+ "company": "Dhoot Transmission",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-05T13:21:00.604395+00:00",
+ "dealType": "IPO-OFS",
+ "id": 4,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Dhoot Transmission IPO price band set; issue size not stated here.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQYVg0LXF4S1hkYkd1N0kwSUFINDQ3aHhER1NLeUVHeTNobUY4SURrd04zV2dkQlZZTVpTNkcxRmZRS1NsNWg0OVJXSzJVREI1amJOY3k5RmYzY3FKRTVyLWdOUjlya1hvRHN5N21SaGFCMGpfR09rcmwzRlRsWGpwVUhERHljZ19ScXYtdDFLU1J4a1RPeFB0Y2VocE1FMWZiLWNTMEQtTGtOblowWTRBcF9falY0Ui12czE3YUgyRV9MMG1fZk9XWlVMYjJaWEdMMU00cnVybkZqNjlqXzd3MzdGM1ZLYlpWOHc?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-08-08T09:49:06.933703+00:00",
+   "outlet": "Abridged prospectus",
+   "resolvable": true,
+   "title": "Dhoot Transmission Limited - RHPDhoot Transmission Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/dhoot-transmission-limited-rhp_103333.html"
+  },
+  {
+   "attachedAt": "2026-08-08T09:49:06.935921+00:00",
+   "outlet": "Abridged prospectus",
+   "resolvable": true,
+   "title": "Dhoot Transmission Limited",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/aug-2026/Dhoot%20Transmission%20Limited%20-%20AP_p.pdf"
+  }
+ ],
+ "ticker": "DHOOTTRANS.NS",
+ "updatedAt": "2026-08-05T13:21:00.615935+00:00"
+}

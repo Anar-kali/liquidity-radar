@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Norfund-backed green energy company",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-01T01:32:38.789470+00:00",
+ "dealType": "PE primary",
+ "id": 667,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Green energy company lines up fresh capital as IPO plan lingers",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPTUxrM1lTUVNPSndta1FKZU5oR0VBd1NocHZ0dXVnenByVlJlREVqWTM2cnE2bWRKQW11M28ybGk5bWZMYjRzYnFEQm9CaUd6aWRUeHRXYlV4eXQ0Y3BlZURaZ01KLXd3YkdGX2d1SzlMS21fZlBVZGV5bTVoc2g5OVNNRk92SDh3Y1lnT1VxNWdvbF83Q0J6aF9haUNDb1ptZGQ3NkE5T0tqTUx1NXQxQWwtX3RqWDNuVmZSaHFzVUVwbmo3U3JFTW5tejI?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-01T01:32:38.790739+00:00",
+   "outlet": "HT Syndication",
+   "resolvable": false,
+   "title": "Norfund-backed green energy company lines up fresh capital as IPO plan lingers",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPTUxrM1lTUVNPSndta1FKZU5oR0VBd1NocHZ0dXVnenByVlJlREVqWTM2cnE2bWRKQW11M28ybGk5bWZMYjRzYnFEQm9CaUd6aWRUeHRXYlV4eXQ0Y3BlZURaZ01KLXd3YkdGX2d1SzlMS21fZlBVZGV5bTVoc2g5OVNNRk92SDh3Y1lnT1VxNWdvbF83Q0J6aF9haUNDb1ptZGQ3NkE5T0tqTUx1NXQxQWwtX3RqWDNuVmZSaHFzVUVwbmo3U3JFTW5tejI?oc=5"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-01T01:32:38.789470+00:00"
+}

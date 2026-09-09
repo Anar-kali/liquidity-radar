@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Baazar Retail",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-10T09:01:30.979638+00:00",
+ "dealType": "PE secondary",
+ "id": 162,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "PE investors (Siguler Guff, O3 Alternatives, NR Group) exploring exit from Baazar Retail at ₹5,000 cr valuation.",
+ "primaryUrl": "https://www.livemint.com/companies/baazar-retail-stake-sale-siguler-guff-rs-4000-5000-crore-valuation-11786343868956.html",
+ "seller": null,
+ "sizeBand": "OVER_2000",
+ "sizeSource": "band",
+ "sources": [
+  {
+   "attachedAt": "2026-08-10T09:01:30.980718+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "Siguler Guff, other investors explore exit from Baazar Kolkata’s parent at ₹5,000 crore valuation",
+   "url": "https://www.livemint.com/companies/baazar-retail-stake-sale-siguler-guff-rs-4000-5000-crore-valuation-11786343868956.html"
+  }
+ ],
+ "ticker": "STYLEBAAZA.NS",
+ "updatedAt": "2026-08-10T09:01:30.979638+00:00"
+}

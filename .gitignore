@@ -11,3 +11,9 @@ radar.db.bak
 # (radar.db is already tracked; a second copy only adds to the size problem
 # that broke pushes on 2026-08-16)
 docs/radar-sample.db
+
+# Enrichment prototype output — fetched article text, regenerate with
+# `python prototype_enrich.py fetch`
+prototype_fetch.json
+prototype_fetch.log
+prototype_extract.json

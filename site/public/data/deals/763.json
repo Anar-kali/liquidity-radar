@@ -1,0 +1,37 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Tempsens Instruments (India) Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-08T04:32:27.717922+00:00",
+ "dealType": "DRHP filing",
+ "id": 763,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Tempsens Instruments files RHP for IPO; promoters likely to cash out.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/tempsens-instruments-india-limited-rhp_104326.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-08T04:32:27.719435+00:00",
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "Tempsens Instruments (India) Limited - RHPTempsens Instruments (India) Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/tempsens-instruments-india-limited-rhp_104326.html"
+  },
+  {
+   "attachedAt": "2026-09-08T04:32:28.922178+00:00",
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "Tempsens Instruments (India) Limited",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/sep-2026/Tempsens%20Instruments%20(India)%20Limited%20-%20AP_p.pdf"
+  }
+ ],
+ "ticker": "TEMPSENS.NS",
+ "updatedAt": "2026-09-08T04:32:27.717922+00:00"
+}

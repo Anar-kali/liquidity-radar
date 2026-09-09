@@ -1,0 +1,39 @@
+{
+ "advisers": [],
+ "amountCr": 323.7,
+ "amountRaw": "323.7cr confirmed via NSE block deal",
+ "buyer": null,
+ "company": "Trident Limited",
+ "confidence": "high",
+ "confirmed": true,
+ "createdAt": "2026-08-10T04:34:39.103285+00:00",
+ "dealType": "bulk deal",
+ "id": 153,
+ "individuals": [
+  "MADHURAJ  FOUNDATION"
+ ],
+ "listed": true,
+ "oneLine": "MADHURAJ  FOUNDATION sold shares in Trident Limited (confirmed, NSE bulk deal)",
+ "primaryUrl": "",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-08-10T04:34:39.104184+00:00",
+   "outlet": "NSE",
+   "resolvable": true,
+   "title": "Trident Limited: bulk deal",
+   "url": ""
+  },
+  {
+   "attachedAt": "2026-08-10T04:34:39.658917+00:00",
+   "outlet": "NSE",
+   "resolvable": true,
+   "title": "Trident Limited: block deal",
+   "url": ""
+  }
+ ],
+ "ticker": "TRIDENT.NS",
+ "updatedAt": "2026-08-10T04:34:39.659772+00:00"
+}

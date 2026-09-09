@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Manipal Health Enterprises",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-07T01:47:18.223285+00:00",
+ "dealType": "IPO-OFS",
+ "id": 89,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Manipal Health Enterprises IPO lists at 10.5% premium on NSE.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOaG5paW9EcHI4SWtsaDN5cU1ZNGFmR3ZVb0ZCYVVDRTNiUzY4VERjcUVvOE1ENGNPYnp5Q0F6eDhfdWV4cUVBNm5icjM2TE9PdGp5SFAzSmxIYmxVMjg1M0VjVlFqSFBQVmZiaERfVG54dEl5YWxQbEhzRWx6WklUVDZ6OG9QbXFlRlQwYlI5ZURyMWhaUVY2aUtJYjBXN0RES0YyZnQxcU1DSWN1VzRHU0x5bTZSb0VRNTZxWk5Ga25XLVh1X0ZWS3V2NUtYWDdjTDBMZkd6cGNPZDdIZllnMXZnQkdMYkhsYWZUX1RuTHJvSzVMNUplWVRmZEEwOV8wYkVzbjlLSlBiNDQ?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": null,
+ "sources": [
+  {
+   "attachedAt": "2026-08-08T09:49:06.945148+00:00",
+   "outlet": "Google News",
+   "resolvable": true,
+   "title": "Manipal Health Enterprises Limited – Prospectus",
+   "url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/manipal-health-enterprises-limited-prospectus_103300.html"
+  }
+ ],
+ "ticker": "MANIPALHOS.NS",
+ "updatedAt": "2026-08-07T01:47:18.223285+00:00"
+}

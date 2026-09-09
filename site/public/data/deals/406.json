@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Elpro International",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-20T13:31:08.495536+00:00",
+ "dealType": "promoter sale",
+ "id": 406,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Elpro International promoters selling 75% shares; new disclosures filed.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPY0RJQlc2bDhaVXNoUkF4N1hWZzBPdDZ6M2tSc1pOeU42UE5EMDVwTHZOT2o5SUtTSzlRcWNNckJvUlNoN2trMXliZzRraWFMWmpwWWY1OHhkbVc3eXA5UEoyMmp2NEhlMGFWbTByQzZMbVBJY0NzN2t6ZEtUcGhlekpibV9QNVJQbFRLcHFnc3FrUm5YblUzWFgwV2w5ak1rM1g3QThCYUlQaFlTbzFKNmJTbXlwb3RNR0lIamNQSE4yYnN6NDktU3JzTFhPcFhPUDdUVVFVeWdXb253dzlWdVZINFpSWG8wQUZCZmZoSGtHTjZERlR5RFBwaWlQU1pPR295N0RuMk0?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "mcap_plausible",
+ "sources": [
+  {
+   "attachedAt": "2026-08-20T13:31:08.496633+00:00",
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "Elpro International: प्रमोटर्सचे **75%** शेअर्स तारण, नवीन खुलासे सादर",
+   "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPY0RJQlc2bDhaVXNoUkF4N1hWZzBPdDZ6M2tSc1pOeU42UE5EMDVwTHZOT2o5SUtTSzlRcWNNckJvUlNoN2trMXliZzRraWFMWmpwWWY1OHhkbVc3eXA5UEoyMmp2NEhlMGFWbTByQzZMbVBJY0NzN2t6ZEtUcGhlekpibV9QNVJQbFRLcHFnc3FrUm5YblUzWFgwV2w5ak1rM1g3QThCYUlQaFlTbzFKNmJTbXlwb3RNR0lIamNQSE4yYnN6NDktU3JzTFhPcFhPUDdUVVFVeWdXb253dzlWdVZINFpSWG8wQUZCZmZoSGtHTjZERlR5RFBwaWlQU1pPR295N0RuMk0?oc=5"
+  }
+ ],
+ "ticker": "ELPROINTL.NS",
+ "updatedAt": "2026-08-20T13:31:08.495536+00:00"
+}

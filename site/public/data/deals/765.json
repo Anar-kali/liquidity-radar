@@ -1,0 +1,44 @@
+{
+ "advisers": [],
+ "amountCr": 1033.0,
+ "amountRaw": "Rs 1,033 crore",
+ "buyer": null,
+ "company": "Tribhovandas Bhimji Zaveri",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-09-08T05:31:25.249082+00:00",
+ "dealType": "strategic buyout",
+ "id": 765,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "GRT Jewellers acquires 74% stake in TBZ for Rs 1,033 crore.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQMzhSczZ0czhWRTJNQkNwa1NtTGU2WWNZQ2pJS2M2VklNSUIyRHg5RHBjaGJVRHJ3MGVuanUxM01xYlB6eDJodW5Kd253bng0QUk5dVgzYTBZLUxLOHgyWWVzclV2V1gwSzk1V2NXZGJZRHppVmNHSkExSUUxRW1DaUd5LVpfMGd1VktTNFcxMHNZd0VLem4zSE90OUstMGxONTlvMGhFYl9KVDRoSC15SzZwTlJYVkNoVXRqUGVuQkkzb05iQWVHVS1mbnNNUXFJcGVvWG5VVHFEeGcxZ0oza3l2UEZDdUpXQ3M3YmxEVXhGdw?oc=5",
+ "seller": "Tribhovandas Bhimji Zaveri (promoters/existing shareholders)",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-08T05:31:25.250356+00:00",
+   "outlet": "The Hans India",
+   "resolvable": false,
+   "title": "GRT Jewellers strikes Rs 1,033 crore deal to acquire controlling stake in Tribhovandas Bhimji Zaveri",
+   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQMzhSczZ0czhWRTJNQkNwa1NtTGU2WWNZQ2pJS2M2VklNSUIyRHg5RHBjaGJVRHJ3MGVuanUxM01xYlB6eDJodW5Kd253bng0QUk5dVgzYTBZLUxLOHgyWWVzclV2V1gwSzk1V2NXZGJZRHppVmNHSkExSUUxRW1DaUd5LVpfMGd1VktTNFcxMHNZd0VLem4zSE90OUstMGxONTlvMGhFYl9KVDRoSC15SzZwTlJYVkNoVXRqUGVuQkkzb05iQWVHVS1mbnNNUXFJcGVvWG5VVHFEeGcxZ0oza3l2UEZDdUpXQ3M3YmxEVXhGdw?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-08T05:31:25.252424+00:00",
+   "outlet": "Google News",
+   "resolvable": false,
+   "title": "GRT Jewellers to acquire 74 per cent stake in Tribhovandas Bhimji Zaveri for Rs 1,033 crore - Mid-Day",
+   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPd2ZfcmlZSUU5YTZZWnNhSGNnVzNqbGNUTF9DR1lYQkhWal9uS0hxY3V4anhVQ29abDZ4OVZ2eFRidC1HdmJrLXcxZ21pbGc5VDhQY0taUjFBYmFIdEhELWo4SmFSNXc3UExYeFpUS0pyZnJLek1iRDFjZ0kyeFFjOXBjLWRxUmFHeFBHTjFXZ1NmYmNNOFpzTjFMamVkQmdEU0FjRTZDVlFieGNzVWpBUGR1b2lHOEg5ZWVubWVMaEF3eEZxcnZZSzRBWjUwT3RBTy1ZS2ZhSk54enFmWGstZEh6dXgzYVlkcjBIT2c2enLSAfABQVVfeXFMT3dmX3JpWUlFOWE2WVpzYUhjZ1czamxjVExfQ0dZWEJIVmpfbktIcWN1eGp4VUNvWmw2eDlWdnhUYnQtR3Ziay13MWdtaWxnOVQ4UGNLWlIxQWJhSHRIRC1qOEphUjV3N1BMWHhaVEtKcmZyS3pNYkQxY2dJMnhRYzlwYy1kcVJhR3hQR04xV2dTZmJjTThac04xTGplZEJnRFNBY0U2Q1ZRYnhjc1VqQVBkdW9pRzhIOWVlbm1lTGhBd3hGcXJ2WUs0QVo1ME90QU8tWUtmYUpOeHpxZlhrLWRIenV4M2FZZHIwSE9nNnpy?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-08T13:31:07.303616+00:00",
+   "outlet": "IBTimes India",
+   "resolvable": false,
+   "title": "GRT Jewellers to acquire 74% stake in Tribhovandas Bhimji Zaveri for Rs 1,033 crore",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQkNJb2FYaUtwY1B1UDdXaERQaHJYT1ZtU2JNWWNWcHM1dVREbUlOUXRGaEtQNnIwOS15azh5OUY0d1RtbzRFRDVtQnI2UHR6RlUydE11RExQLXEzZGJNZWJsNUpjWTRMbnJkdG1nUnJPM0VlTkpZLTZuQXZLbHB0a1REWlVXcVJkSnJSWTdua0JzeUlSUjFMb3dhODNPdzVPRG9EZFlFaw?oc=5"
+  }
+ ],
+ "ticker": "TBZ.NS",
+ "updatedAt": "2026-09-08T05:31:25.249082+00:00"
+}

@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "New Light Industries",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-07T05:34:53.210096+00:00",
+ "dealType": "block deal",
+ "id": 738,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "New Light Industries promoter divests 6.36% stake via open market.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPckVScDVKLXVPajNCeVE5enM0blNlLVZZN3ZmY0o4WUFyMUpjdzV5Qm1kTHFDNEQ3NGwwbDlvMDFlNU9RQWFQR3B4ejBmcjBCMFJOZzZBYUVQNmU5cncxOXk3ZzRkeEVjTXY3T0l0akJTbE82VU9BUWRIX09LNlVDMG5hTFVjR2J6VENsMEFmVGRhUG1Zbm9EdzZDeFg5ZUNJbEFIYm9idDhGN3d3SGIyYmJGM0lKazl0NWstZVFjVzBKOXVheFFjc3Z3VEE0Y3lUcW1jMmg2V0QzVThSMGhjdHE4T3lfcTVJUFNnd2tB?oc=5",
+ "seller": "promoter of New Light Industries",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-07T05:34:53.211336+00:00",
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "New Light Industries Promoter Divests 6.36% Stake via Open Market Sales",
+   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPckVScDVKLXVPajNCeVE5enM0blNlLVZZN3ZmY0o4WUFyMUpjdzV5Qm1kTHFDNEQ3NGwwbDlvMDFlNU9RQWFQR3B4ejBmcjBCMFJOZzZBYUVQNmU5cncxOXk3ZzRkeEVjTXY3T0l0akJTbE82VU9BUWRIX09LNlVDMG5hTFVjR2J6VENsMEFmVGRhUG1Zbm9EdzZDeFg5ZUNJbEFIYm9idDhGN3d3SGIyYmJGM0lKazl0NWstZVFjVzBKOXVheFFjc3Z3VEE0Y3lUcW1jMmg2V0QzVThSMGhjdHE4T3lfcTVJUFNnd2tB?oc=5"
+  }
+ ],
+ "ticker": "540243.BO",
+ "updatedAt": "2026-09-07T05:34:53.210096+00:00"
+}

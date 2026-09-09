@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Raksan Transformers",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-09T01:32:25.125086+00:00",
+ "dealType": "DRHP filing",
+ "id": 772,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Raksan Transformers IPO 2026; promoter liquidity event planned",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRDNuUWRlaVl1NFZ3OThvMDlxZS1NODVySi1ITUFmbEVUTms2dFBpXzdUNTFRVzZ4dUhpQzV6N2w2UjVfeWNCVEsxdEhfQmtXbDJsY0N3bV9wTHRyVjJMUE1saVFVdVNiajRIbDJmbmdPdUNicEtmRXZHMzZzdmtNX19KYndYMkRH?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-09T01:32:25.126337+00:00",
+   "outlet": "Univest",
+   "resolvable": false,
+   "title": "Raksan Transformers IPO 2026: Price and Review",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRDNuUWRlaVl1NFZ3OThvMDlxZS1NODVySi1ITUFmbEVUTms2dFBpXzdUNTFRVzZ4dUhpQzV6N2w2UjVfeWNCVEsxdEhfQmtXbDJsY0N3bV9wTHRyVjJMUE1saVFVdVNiajRIbDJmbmdPdUNicEtmRXZHMzZzdmtNX19KYndYMkRH?oc=5"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-09T01:32:25.125086+00:00"
+}

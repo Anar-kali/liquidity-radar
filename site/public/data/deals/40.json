@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": 1949.28,
+ "amountRaw": "Rs 1,949.28 crore block deal of 2.27% stake",
+ "buyer": null,
+ "company": "Meesho",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-08-05T13:21:00.860449+00:00",
+ "dealType": "block deal",
+ "id": 40,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Peak XV and Elevation Capital divest 2.27% stake in Meesho for Rs 1,949 Cr.",
+ "primaryUrl": "https://entrackr.com/news/peak-xv-elevation-capital-sell-227-stake-in-meesho-for-rs-1949-cr-via-block-deals-12229462",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-08-05T13:21:00.860449+00:00",
+   "outlet": "Entrackr",
+   "resolvable": true,
+   "title": "",
+   "url": "https://entrackr.com/news/peak-xv-elevation-capital-sell-227-stake-in-meesho-for-rs-1949-cr-via-block-deals-12229462"
+  }
+ ],
+ "ticker": "MEESHO.NS",
+ "updatedAt": "2026-08-05T13:21:00.860449+00:00"
+}

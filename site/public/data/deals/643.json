@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "KMEW",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-31T02:31:12.698767+00:00",
+ "dealType": "block deal",
+ "id": 643,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "KMEW promoters sell 5.12 lakh shares, reduce holding to 51.56%.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQM19ieFZ5OVgwcHYyX0NsRFJMYU1xMFlCa19HbmpjRlkxV2plU3V1RmMxZDF3dnJOOW5mMDBPRTNOMVpuUDFFdEtMcnQ2SkprMjRtOTE4SzQza3ZNclJUcVFvcVpDbldDWjI3ZGZnS0xoZjc3Nm9ObFlTemx2MHBwR1paZl9nOHB4SGtEel9HX3pmYm5YZ0tsWl81bXVDNmFwbWZVZFhtUjVCUnB1dEdiYzZ3?oc=5",
+ "seller": "KMEW promoters",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-08-31T02:31:12.700130+00:00",
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "KMEW promoters sell 5.12 lakh shares, reduce holding to 51.56%",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQM19ieFZ5OVgwcHYyX0NsRFJMYU1xMFlCa19HbmpjRlkxV2plU3V1RmMxZDF3dnJOOW5mMDBPRTNOMVpuUDFFdEtMcnQ2SkprMjRtOTE4SzQza3ZNclJUcVFvcVpDbldDWjI3ZGZnS0xoZjc3Nm9ObFlTemx2MHBwR1paZl9nOHB4SGtEel9HX3pmYm5YZ0tsWl81bXVDNmFwbWZVZFhtUjVCUnB1dEdiYzZ3?oc=5"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-31T02:31:12.698767+00:00"
+}

@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "P N Gadgil Jewellers Ltd",
+ "company": "Silvostyle Jewellers Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-20T10:00:10.888110+00:00",
+ "dealType": "strategic buyout",
+ "id": 401,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "P N Gadgil Jewellers acquires Silvostyle Jewellers Limited",
+ "primaryUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/9037fd58-fdd3-4e84-b784-6697fe7e8d7c.pdf",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-08-20T10:00:10.889690+00:00",
+   "outlet": "BSE",
+   "resolvable": true,
+   "title": "P N Gadgil Jewellers Ltd: Intimation of Acquisition of Silvostyle Jewellers Limited",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/9037fd58-fdd3-4e84-b784-6697fe7e8d7c.pdf"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-20T10:00:10.888110+00:00"
+}

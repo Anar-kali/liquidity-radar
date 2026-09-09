@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Iberia Pharmaceuticals",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-07T05:34:54.139793+00:00",
+ "dealType": "DRHP filing",
+ "id": 745,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Iberia Pharmaceuticals files for IPO; plans manufacturing expansion.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBQTUZ6dUc3NFRNaEJMWm11R20yYmo2QjBWd3NnR1pUU1VSRzc5cFNYdzFFcGc2bkVJM3Q0eXVnR1NPVzgyWDk5YTVEUDAtdENON0VrYTNNRC1wVTdqQW9qVmdxVklJNGdoZi1aZ0NCRUFoRHBBVEdvamFWR1c?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-07T05:34:54.140831+00:00",
+   "outlet": "IPO Central",
+   "resolvable": false,
+   "title": "Derma & Pharma Player Iberia Pharmaceuticals Files for IPO, Plans Manufacturing Expansion and Brand-Building Push",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBQTUZ6dUc3NFRNaEJMWm11R20yYmo2QjBWd3NnR1pUU1VSRzc5cFNYdzFFcGc2bkVJM3Q0eXVnR1NPVzgyWDk5YTVEUDAtdENON0VrYTNNRC1wVTdqQW9qVmdxVklJNGdoZi1aZ0NCRUFoRHBBVEdvamFWR1c?oc=5"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-07T05:34:54.139793+00:00"
+}

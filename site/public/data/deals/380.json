@@ -1,0 +1,58 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Lumino Industries Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-19T07:32:14.060466+00:00",
+ "dealType": "DRHP filing",
+ "id": 380,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Lumino Industries files DRHP corrigendum; IPO prospecting lead.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/aug-2026/lumino-industries-limited-corrigendum-to-drhp_103755.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-08-19T07:32:14.061985+00:00",
+   "outlet": "Corrigendum to DRHP",
+   "resolvable": true,
+   "title": "Lumino Industries Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/lumino-industries-limited-corrigendum-to-drhp_103755.html"
+  },
+  {
+   "attachedAt": "2026-08-21T01:30:51.778942+00:00",
+   "outlet": "Moneycontrol.com",
+   "resolvable": false,
+   "title": "Lumino Industries IPO to hit Dalal Street on August 27; issue size trimmed",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNckRQVHpZMjU2MTFla3Q1S1ZhUVYxZFRrU2dCbWFtQUkyUzJRYlNOWXdVeE9MWWpEVFFzNVdDck11TEJOTWlQQ0RZWUQ1LVFEWU91cFFCd29CaHpTZkxYMndpOEc0VUM1Rm41R2h0aHB4N1NrcUdNcUhpc3BVVlJQcXE4WmNLTVNodDlhWnYyRHlNV2RzYnlJc05MQUkwSXItUXpQZ09KbkdPSjdsVW5FWGtNSktZY2ZyTHdDejZRQl9ldUFGdFN2ZEVsbm5YZzQtYTNkQtIB1AFBVV95cUxNckRQVHpZMjU2MTFla3Q1S1ZhUVYxZFRrU2dCbWFtQUkyUzJRYlNOWXdVeE9MWWpEVFFzNVdDck11TEJOTWlQQ0RZWUQ1LVFEWU91cFFCd29CaHpTZkxYMndpOEc0VUM1Rm41R2h0aHB4N1NrcUdNcUhpc3BVVlJQcXE4WmNLTVNodDlhWnYyRHlNV2RzYnlJc05MQUkwSXItUXpQZ09KbkdPSjdsVW5FWGtNSktZY2ZyTHdDejZRQl9ldUFGdFN2ZEVsbm5YZzQtYTNkQg?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-21T03:30:53.646473+00:00",
+   "outlet": "ET Now",
+   "resolvable": false,
+   "title": "Lumino Industries IPO price band announced; issue to open next week",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOaGJvV2dudVBXYzBVMDVqTFQ4Z3hRQkx4dWQtZkkzcUVfS2JJVUZjVkZGRmNJYVBwRjlxaS1PdEJtSWo1RkZQUGJqMEdJRlc5TnRmSGtqbGRObEtISGZEWW1zREJlUWwxc2NKbUJuZTNxS0ZhMjI1RGRldG1YdzZPMmhfUWhnRWRubEoxMkRmNkZYVUhNQWhHMzk2R19LWTUyeEd3R1pxNmpIRWJuSm5vbHpvaXpzOGhlN0HSAb8BQVVfeXFMUHNKSU1INWgzcGVoYlJzdXNtRnNZdlRZeWJXV2xVaFMtMGloMFRjZkFMSWdmbXBWWFF1RksxSnp2X3g0akRoZmVGUEJ4aUo5ZlJSbUlfVHVEN1oyNTVhel9JNVp3Uy1WdUs4YlVteUZsNmhrOXlMSTFvX2hqTlNYSTNFUUdUWkZtdWxRaFpDcUZKa1g0RXI1LWFYZUhCZWJHNWVzMkktNS0wR1VDdGtTWmhEb2ZZVEdqR2pMaDd5SVk?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-21T07:31:13.501018+00:00",
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "LUMINO INDUSTRIES LIMITED - RHPLUMINO INDUSTRIES LIMITED",
+   "url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/lumino-industries-limited-rhp_103845.html"
+  },
+  {
+   "attachedAt": "2026-08-21T07:31:13.504260+00:00",
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "LUMINO INDUSTRIES LIMITED",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/aug-2026/LUMINO%20INDUSTRIES%20LIMITED%20-AP_p.pdf"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-19T07:32:14.060466+00:00"
+}

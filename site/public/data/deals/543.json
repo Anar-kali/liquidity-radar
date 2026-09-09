@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "GAJA ALTERNATIVE ASSET MANAGEMENT LIMITED",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-24T06:31:27.469540+00:00",
+ "dealType": "DRHP filing",
+ "id": 543,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "DRHP filed; IPO prospectus stage, promoters likely to cash out.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/aug-2026/gaja-alternative-asset-management-limited-prospectus_103898.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-08-24T06:31:27.471774+00:00",
+   "outlet": "PROSPECTUS",
+   "resolvable": true,
+   "title": "GAJA ALTERNATIVE ASSET MANAGEMENT LIMITED",
+   "url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/gaja-alternative-asset-management-limited-prospectus_103898.html"
+  }
+ ],
+ "ticker": "GAJA.NS",
+ "updatedAt": "2026-08-24T06:31:27.469540+00:00"
+}

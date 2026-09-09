@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Synergy Advanced Metals",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-16T07:46:32.399978+00:00",
+ "dealType": "DRHP filing",
+ "id": 247,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Synergy Advanced Metals receives SEBI nod for mainboard IPO.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQT3k5UXI2YmxwTV9yVGtUb2h3b29xUzFWOXFSZWtEX2FjWVYtRnpyelpVWVVEVzFHNG1JRTFNY1VSWHpNT1lBaDdNN3pVVndzZ0RGR1l3YW12YmZsY1hGY3B0VWl1bVdhVjQ1Qk00bUpBakdMZENjc0xKX1FSU3NCT0hGMXBTQ3FZbzJZY0JnWjdoOWNxR3YxLXZPMG56dWZsY1JTMmtHa2tyWGVmeHdhdDBPZ3NWN00yR0lySnNKR3I2UFRBdlFF?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-08-16T07:46:32.401112+00:00",
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "Synergy Advanced Metals Receives SEBI Nod for Mainboard IPO",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQT3k5UXI2YmxwTV9yVGtUb2h3b29xUzFWOXFSZWtEX2FjWVYtRnpyelpVWVVEVzFHNG1JRTFNY1VSWHpNT1lBaDdNN3pVVndzZ0RGR1l3YW12YmZsY1hGY3B0VWl1bVdhVjQ1Qk00bUpBakdMZENjc0xKX1FSU3NCT0hGMXBTQ3FZbzJZY0JnWjdoOWNxR3YxLXZPMG56dWZsY1JTMmtHa2tyWGVmeHdhdDBPZ3NWN00yR0lySnNKR3I2UFRBdlFF?oc=5"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-16T07:46:32.399978+00:00"
+}

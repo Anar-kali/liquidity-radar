@@ -1,0 +1,65 @@
+{
+ "advisers": [],
+ "amountCr": 10440.0,
+ "amountRaw": "Rs 10,440 crore share-swap transaction",
+ "buyer": "Shalimar Paints",
+ "company": "Infra.Market",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-08-13T06:46:06.151956+00:00",
+ "dealType": "other",
+ "id": 221,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Infra.Market reverse merger with Shalimar Paints via ₹10,440 crore share swap; founders liquidity event.",
+ "primaryUrl": "https://entrackr.com/news-analysis/inframarket-may-go-public-through-reverse-merger-with-shalimar-paints-12256139",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-08-13T06:46:06.152991+00:00",
+   "outlet": "Entrackr",
+   "resolvable": true,
+   "title": "Infra.Market may go public through reverse merger with Shalimar Paints",
+   "url": "https://entrackr.com/news-analysis/inframarket-may-go-public-through-reverse-merger-with-shalimar-paints-12256139"
+  },
+  {
+   "attachedAt": "2026-08-13T06:46:06.155411+00:00",
+   "outlet": "Entrackr",
+   "resolvable": true,
+   "title": "IPO-Bound Infra.Market Eyes Reverse Listing Via Shalimar Paints In ₹10,440 Cr Share Swap",
+   "url": "https://inc42.com/buzz/ipo-bound-infra-market-eyes-reverse-listing-via-shalimar-paints-in-%e2%82%b910440-cr-share-swap/"
+  },
+  {
+   "attachedAt": "2026-08-13T09:46:06.975525+00:00",
+   "outlet": "Entrackr",
+   "resolvable": true,
+   "title": "IPO-Bound Infra.Market Eyes Reverse Listing Via Shalimar Paints In ₹10,545 Cr Deal",
+   "url": "https://inc42.com/buzz/ipo-bound-infra-market-eyes-reverse-listing-via-shalimar-paints-in-%e2%82%b910545-cr-deal/"
+  },
+  {
+   "attachedAt": "2026-08-13T15:02:18.727571+00:00",
+   "outlet": "TradingView",
+   "resolvable": false,
+   "title": "Infra.Market eyes backdoor market entry via Shalimar Paints share swap deal",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOamlIcE5nWGdKWldWVE8zdm1mZzdkb2FyaVN6WVltMjl1OFYwd2lXZU14Slh1OWY5ajBZOVZQcDdLUDQzeEd5ZU9FQi1EcWQ1UmNLajRDQ19NYWVCLWpQczk3OGF3UXpKS0RLcE51Slg0MUFERHNLTnhJM0lKdm1NU0tnei1pNkVtMFktRElFQXJfdnI1aDNBOTNiNmpmX0dZdWJzOTE1N0RPOE1NeTFzVldZRm5HcURqUkhfc1hrd3BlU0tKUGtqRl9RRGU?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-15T06:45:50.893858+00:00",
+   "outlet": "The Economic Times",
+   "resolvable": false,
+   "title": "Infra.Market’s backdoor listing; Honasa posts record profit",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPYnZXMWJvbkJKd3V3N2g1OTNaYXVRR3d5NTBXTmE4M0V1SU1ySG1yb25tQUVHVUhYQm45UHdNYThCeWN6VWlrMnNINGdhTUhYd0I5VUx0T0dPR3ZCX2hYdGhVSUd5SUw1T0ZTZWwzSW9EVWxnTHhudEozbG5VaHBEVDYxdHgzcFhVeW9hTGtFa2ZQRk03c25zVnlqWVdNaUFMMlBTNTkyZzRkekdBdVlNX1VsNzc1aWdBLWJwNkpBN1dIaEdMMUd4dFhJQnVoQzA1SE02RXdocE9GWGfSAdsBQVVfeXFMT2J2VzFib25CSnd1dzdoNTkzWmF1UUd3eTUwV05hODNFdUlNckhtcm9ubUFFR1VIWEJuOVB3TWE4QnljelVpazJzSDRnYU1IWHdCOVVMdE9HT0d2Ql9oWHRoVUlHeUlMNU9GU2VsM0lvRFVsZ0x4bnRKM2xuVWhwRFQ2MXR4M3BYVXlvYUxrRWtmUEZNN3Nuc1Z5allXTWlBTDJQUzU5Mmc0ZHpHQXVZTV9VbDc3NWlnQS1icDZKQTdXSGhHTDFHeHRYSUJ1aEMwNUhNNkV3aHBPRlhn?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-15T09:31:00.961820+00:00",
+   "outlet": "CXO Digitalpulse",
+   "resolvable": false,
+   "title": "Infra.Market Chooses Reverse Merger With Shalimar Paints Over Conventional IPO",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPeFhweElYZkJnT0RwRklCMG9qbFRPQUZFV2tqdEIxQ3laVDc2TTB6V0xYSmxtcUVpMFp0TWxFWV9fbGdQMEhxbFZjTWgtanlEcmhvSktrbHBNS3lSRkw5MERyNnRTMmVYUVhWamlDR29xdm5ON2FQR0VUNk1McFQtTWVoaFhqcFFJTEpGbTBLT1VOMC1VZ3FuU19sS0Z3d1ZmWGRLZUFJRnU3OHJGMnJIRQ?oc=5"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-13T06:46:06.151956+00:00"
+}

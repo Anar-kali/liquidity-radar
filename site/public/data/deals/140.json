@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "Adani (via entity to be determined)",
+ "company": "Associated British Ports",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-08T10:50:11.416353+00:00",
+ "dealType": "strategic buyout",
+ "id": 140,
+ "individuals": [
+  "Gautam Adani"
+ ],
+ "listed": false,
+ "oneLine": "Adani considers bid for UK's top port operator; Canadian pension funds selling.",
+ "primaryUrl": "https://www.ft.com/content/be6ae5f1-01fd-41d2-bd0f-e2f492076b6e?syn-25a6b1a6=1",
+ "seller": null,
+ "sizeBand": "OVER_2000",
+ "sizeSource": "band",
+ "sources": [
+  {
+   "attachedAt": "2026-08-08T10:50:11.417307+00:00",
+   "outlet": "FT India",
+   "resolvable": true,
+   "title": "Asia’s richest man Adani weighs bid for UK’s top port operator",
+   "url": "https://www.ft.com/content/be6ae5f1-01fd-41d2-bd0f-e2f492076b6e?syn-25a6b1a6=1"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-08T10:50:11.416353+00:00"
+}

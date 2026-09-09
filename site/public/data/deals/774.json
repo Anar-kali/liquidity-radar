@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "upGrad",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-09T01:32:25.190096+00:00",
+ "dealType": "DRHP filing",
+ "id": 774,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "upGrad planning 2027 IPO listing; promoter liquidity event ahead",
+ "primaryUrl": "https://www.livemint.com/companies/upgrad-bets-on-corporate-upskilling-advisory-ahead-of-2027-listing-11788855169092.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-09T01:32:25.191475+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "upGrad bets on corporate upskilling, advisory ahead of 2027 listing",
+   "url": "https://www.livemint.com/companies/upgrad-bets-on-corporate-upskilling-advisory-ahead-of-2027-listing-11788855169092.html"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-09T01:32:25.190096+00:00"
+}

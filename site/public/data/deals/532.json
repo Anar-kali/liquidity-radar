@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "RMZ Corp",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-24T01:33:24.556740+00:00",
+ "dealType": "IPO-OFS",
+ "id": 532,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "RMZ Corp appoints capital markets lead for $35 billion expansion via debt, equity, and potential IPO.",
+ "primaryUrl": "https://www.livemint.com/companies/rmz-taps-ankit-samdariya-to-lead-capital-raise-as-35-billion-expansion-takes-shape-11787173951745.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-08-24T01:33:24.557750+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "RMZ taps Ankit Samdariya to lead capital raise as $35 billion expansion takes shape",
+   "url": "https://www.livemint.com/companies/rmz-taps-ankit-samdariya-to-lead-capital-raise-as-35-billion-expansion-takes-shape-11787173951745.html"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-24T01:33:24.556740+00:00"
+}

@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Italdesign",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-07T11:31:19.299090+00:00",
+ "dealType": "strategic buyout",
+ "id": 755,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "UST acquires majority stake in Italdesign from Audi Group",
+ "primaryUrl": "https://www.thehindubusinessline.com/companies/ust-completes-acquisition-of-majority-stake-in-italdesign-from-audi-group/article71438376.ece",
+ "seller": "Audi Group",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-07T11:31:19.299965+00:00",
+   "outlet": "Business Line",
+   "resolvable": true,
+   "title": "UST completes acquisition of majority stake in Italdesign from Audi Group",
+   "url": "https://www.thehindubusinessline.com/companies/ust-completes-acquisition-of-majority-stake-in-italdesign-from-audi-group/article71438376.ece"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-07T11:31:19.299090+00:00"
+}

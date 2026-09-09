@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": 30.0,
+ "amountRaw": "Rs 30 crore ($3.1 million approx, 3.1 × 88 = 272.8 / 9 ≈ 30)",
+ "buyer": "Sorin Investments",
+ "company": "Kily",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-08-05T13:21:00.882133+00:00",
+ "dealType": "PE primary",
+ "id": 47,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Kily raises Rs 30 Cr funding round from Sorin Investments and partners.",
+ "primaryUrl": "https://entrackr.com/snippets/agentic-ai-startup-kily-raises-rs-30-cr-in-round-led-by-sorin-investments-12225876",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-08-05T13:21:00.882133+00:00",
+   "outlet": "Entrackr",
+   "resolvable": true,
+   "title": "",
+   "url": "https://entrackr.com/snippets/agentic-ai-startup-kily-raises-rs-30-cr-in-round-led-by-sorin-investments-12225876"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-05T13:21:00.882133+00:00"
+}

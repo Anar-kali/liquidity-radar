@@ -1,0 +1,44 @@
+{
+ "advisers": [],
+ "amountCr": 30000.0,
+ "amountRaw": "Rs 30,000 crore IPO; SBI group offloading 1% stake",
+ "buyer": null,
+ "company": "National Stock Exchange (NSE)",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-08-31T01:34:53.738893+00:00",
+ "dealType": "IPO-OFS",
+ "id": 639,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "SBI group to offload 1% NSE stake via Rs 30,000 crore IPO.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOYlF3bng4cjBBeGhnRVY1UnFTNjhHUW04N2NuV0JPdXdQcEw2Mm5oalVtZ1dtOGROMldWT1RvTHQ5SXhsTXJaME9TaXRaVzZSVldodWxCQXFUZktCUlF3MHB1U3IxdS1RUDZYbkFlRUlIaXlhaTY5aHZKcFdtbkQ3dGx5MzJGaFJiLWNRMnEwUjJzV0ZPNDBhQl95ZWNMeEo1RWdzT3M2M2VwNUR5QkdUNjhuOU94MDVseEFDSkw3cnBiaHMzcXBodmd6NW5ZSGJtM2Y4alhwdGs4ZmpXZ2I2Qm9DZDFkaWVpVXhLOGx30gHuAUFVX3lxTE5iUXdueDhyMEF4aGdFVjVScVM2OEdRbTg3Y25XQk91d1BwTDYybmhqVW1nV204ZE4yV1ZPVG9MdDlJeGxNclowT1NpdFpXNlJWV2h1bEJBcVRmS0JSUXcwcHVTcjF1LVFQNlhuQWVFSUhpeWFpNjlodkpwV21uRDd0bHkzMkZoUmItY1EycTBSMnNXRk80MGFCX3llY0x4SjVFZ3NPczYzZXA1RHlCR1Q2OG45T3gwNWx4QUNKTDdycGJoczNxcGh2Z3o1bllIYm0zZjhqWHB0azhmaldnYjZCb0NkMWRpZWlVeEs4bHc?oc=5",
+ "seller": "SBI group",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-08-31T01:34:53.739860+00:00",
+   "outlet": "Fortune India",
+   "resolvable": false,
+   "title": "SBI group to offload 1% stake in NSE via ₹30,000-crore IPO, rules out wider subsidiary monetisation for now",
+   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOYlF3bng4cjBBeGhnRVY1UnFTNjhHUW04N2NuV0JPdXdQcEw2Mm5oalVtZ1dtOGROMldWT1RvTHQ5SXhsTXJaME9TaXRaVzZSVldodWxCQXFUZktCUlF3MHB1U3IxdS1RUDZYbkFlRUlIaXlhaTY5aHZKcFdtbkQ3dGx5MzJGaFJiLWNRMnEwUjJzV0ZPNDBhQl95ZWNMeEo1RWdzT3M2M2VwNUR5QkdUNjhuOU94MDVseEFDSkw3cnBiaHMzcXBodmd6NW5ZSGJtM2Y4alhwdGs4ZmpXZ2I2Qm9DZDFkaWVpVXhLOGx30gHuAUFVX3lxTE5iUXdueDhyMEF4aGdFVjVScVM2OEdRbTg3Y25XQk91d1BwTDYybmhqVW1nV204ZE4yV1ZPVG9MdDlJeGxNclowT1NpdFpXNlJWV2h1bEJBcVRmS0JSUXcwcHVTcjF1LVFQNlhuQWVFSUhpeWFpNjlodkpwV21uRDd0bHkzMkZoUmItY1EycTBSMnNXRk80MGFCX3llY0x4SjVFZ3NPczYzZXA1RHlCR1Q2OG45T3gwNWx4QUNKTDdycGJoczNxcGh2Z3o1bllIYm0zZjhqWHB0azhmaldnYjZCb0NkMWRpZWlVeEs4bHc?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-31T07:31:23.088840+00:00",
+   "outlet": "The Daily Jagran",
+   "resolvable": false,
+   "title": "NSE IPO 2026 Update: SBI Chairman Confirms 1% Stake Sale Plan Through Rs 30,000 Mega IPO; Key Inputs",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNk4xRlBoSXBCNjNWVGszQkhqVVI5aVBMR3Fzb1JzcE1HOG5SVktmM0dfYS1jT1M5VjByem52UHVpckRodWRkd3lqS0llbFZZemJKSy14eEI5djM0MTFVcFptcWJsRkNNcjFjQ2FlUEJIQ3o5X25FNkV2VGUxazdwMjhZTWgyLTMzaTJwSEJSVldrV29jSWE2N2JMc3FGNmI2OV9fOGtJdXRYcU96M3FvVmsxUXlPaU1UV1BLZnNjUDMzRVhDcFViSVEwQWFoQQ?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-31T07:31:23.093037+00:00",
+   "outlet": "Times Now",
+   "resolvable": false,
+   "title": "SBI, SBI Capital Markets To Dilute Up To 1% Stake In NSE via IPO: Chairman C S Setty",
+   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNRFFPQmJVTGF6ZHgzOXE1VE12dDBJT1dIUzJhb0VhRzF5cDUxb1pXZDBxMURCS1hmWVlOa2NLME4zNFBRYlhFQXhJeDVBMDJMNjZWZjQza3RnUGhGTmZZLWltU215dXRuOUpnbUlDVUt2cUhNVXFsNnMtT3R6ZlJJUzFubVB4aXdJRkN0ZTBNemFDalBZcmhXb29ROEluUmZWNzY3ZFFCWnVPU3ZtLWU0UTJSRlNGczVvV3h2WVB2Unp6OUF1a3BZcC0yVjhjWFJiQVFEcXJjZG5sbmRoS3AwOXVsaEVuV1QtUEFr0gHwAUFVX3lxTE43V0pDaWpveVNlSzhXWTZZYW5rSWExWk15elFqeGJucHJwNWxxT0o1bU9adUxPOUw2R3lpVDhkQUYyekUyQlM2STVYTEduTVNiRm9fbjd1YV8yZWpGVVFxV2tnY0xja0hwSmJWTWdwc1Fqb0xHdUQ0bDhLNWJqVm4zYnhhUV9MSkZRSEpFSV9ROGl4dG1NTkRiSHVTRktMeVhQNnhqbVFfNHFYeDRuQV9uVTJSWVl4S0lkVWRPc1VVNHQ3UW9wQnk1MkJPU2lLTURudktrUWtMcDEwZ3NGb291OC1SaWczTUZXc2h2Qmcxcw?oc=5"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-31T01:34:53.738893+00:00"
+}

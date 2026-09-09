@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": 105.6,
+ "amountRaw": "$12 million = ₹105.6 crore (using 1 USD = 88 INR × 12 = 1,056 million INR = 105.6 crore)",
+ "buyer": "Nexus Venture Partners",
+ "company": "HomeRun",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-06T05:24:42.766355+00:00",
+ "dealType": "PE primary",
+ "id": 68,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Construction materials quick-commerce startup raises $12M Series A+; VC-led growth round",
+ "primaryUrl": "https://entrackr.com/news/homerun-raises-12-mn-in-series-a-round-led-by-nexus-venture-partners-12234340",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-08-06T05:24:42.766355+00:00",
+   "outlet": "Entrackr",
+   "resolvable": true,
+   "title": "",
+   "url": "https://entrackr.com/news/homerun-raises-12-mn-in-series-a-round-led-by-nexus-venture-partners-12234340"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-06T05:24:42.766355+00:00"
+}

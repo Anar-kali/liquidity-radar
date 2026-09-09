@@ -1,0 +1,53 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "HMA Agro Industries Ltd",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-10T06:16:42.689367+00:00",
+ "dealType": "other",
+ "id": 156,
+ "individuals": [
+  "Mohammad Kamil Qureshi"
+ ],
+ "listed": true,
+ "oneLine": "Substantial acquisition disclosure filed by Mohammad Kamil Qureshi in HMA Agro Industries.",
+ "primaryUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/39040B23_C8D3_44B8_9C4B_1379C7381459_114033.pdf",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "mcap_plausible",
+ "sources": [
+  {
+   "attachedAt": "2026-08-10T06:16:42.721462+00:00",
+   "outlet": "BSE",
+   "resolvable": true,
+   "title": "HMA Agro Industries Ltd: The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations, 2011 for Mohammad Kamil Qureshi",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/39040B23_C8D3_44B8_9C4B_1379C7381459_114033.pdf"
+  },
+  {
+   "attachedAt": "2026-08-10T06:16:42.748528+00:00",
+   "outlet": "BSE",
+   "resolvable": true,
+   "title": "HMA Agro Industries Ltd: The Exchange has received the disclosure under Regulation 29(1) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations, 2011 for Mohammad Kamil Qureshi",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/AF0D5712_63F2_4A53_B323_EF7749815DB3_113804.pdf"
+  },
+  {
+   "attachedAt": "2026-08-10T06:16:42.966532+00:00",
+   "outlet": "BSE",
+   "resolvable": true,
+   "title": "HMA Agro Industries Ltd: The Exchange has received the disclosure under Regulation 10(6) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations, 2011 for Mohammad Kamil Qureshi",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/760F8E14_1F58_46EC_A620_D21920C79D7F_113223.pdf"
+  },
+  {
+   "attachedAt": "2026-08-10T06:16:42.969696+00:00",
+   "outlet": "BSE",
+   "resolvable": true,
+   "title": "HMA Agro Industries Ltd: The Exchange has received the disclosure under Regulation 10(6) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations, 2011 for Mohammad Kamil Qureshi",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/F3BE17C6_6CC2_4CCB_BC70_673BF0D6668F_113116.pdf"
+  }
+ ],
+ "ticker": "HMAAGRO.NS",
+ "updatedAt": "2026-08-10T06:16:42.689367+00:00"
+}

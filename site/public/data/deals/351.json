@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Thyrocare Technologies",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-18T05:31:11.177237+00:00",
+ "dealType": "promoter sale",
+ "id": 351,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Thyrocare promoter pledged shares released; potential liquidity event.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQUEpQc1NXdlktam1QM3l5OWo5ckdZWjMzeTItZnpBTVdXaXY4VTU2YkJaWVdjUW11VWx3ZmRENTdBYjUzVjZGd0lhNnRmdHFuemh6ZFBsYnBPT3VEc2pGbmJYa2FqanhqRC03cUdaUkVQanVHNXBOX0VDNHNiUWVPNkhMQ3diNE5MWHV0UU9HNGV4cUVqYXZwTTcxZ2xDZlA3VzFBZDJnYXpYcEJScC14eUUtQjJ0bC1kNjdjMXVKNjlkLUlKakRiNXEwQktaMHJVWjNGc1N5RXY0MUpVVWc1RWxITjRUZVRsRUdF?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "mcap_plausible",
+ "sources": [
+  {
+   "attachedAt": "2026-08-18T05:31:11.180416+00:00",
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "Thyrocare Share Price: गुंतवणूकदारांना दिलासा! प्रमोटरने तारण ठेवलेले शेअर्स मोकळे",
+   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQUEpQc1NXdlktam1QM3l5OWo5ckdZWjMzeTItZnpBTVdXaXY4VTU2YkJaWVdjUW11VWx3ZmRENTdBYjUzVjZGd0lhNnRmdHFuemh6ZFBsYnBPT3VEc2pGbmJYa2FqanhqRC03cUdaUkVQanVHNXBOX0VDNHNiUWVPNkhMQ3diNE5MWHV0UU9HNGV4cUVqYXZwTTcxZ2xDZlA3VzFBZDJnYXpYcEJScC14eUUtQjJ0bC1kNjdjMXVKNjlkLUlKakRiNXEwQktaMHJVWjNGc1N5RXY0MUpVVWc1RWxITjRUZVRsRUdF?oc=5"
+  }
+ ],
+ "ticker": "THYROCARE.NS",
+ "updatedAt": "2026-08-18T05:31:11.177237+00:00"
+}

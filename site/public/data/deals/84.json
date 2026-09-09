@@ -1,0 +1,39 @@
+{
+ "advisers": [],
+ "amountCr": 371.3,
+ "amountRaw": "₹371.3 crore pre-IPO at ₹159 upper price band",
+ "buyer": "GIC arm, Sunu Mathew",
+ "company": "LEAP India",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-08-07T01:47:18.195638+00:00",
+ "dealType": "PE primary",
+ "id": 84,
+ "individuals": [
+  "Sunu Mathew"
+ ],
+ "listed": true,
+ "oneLine": "LEAP raises 371 cr pre-IPO with promoter Sunu Mathew and GIC.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPR0laMTFoN2VmeUctdkhjVkhtTFRPaEItTnZSSTFINnFMMERQX1NQZTFwTWx2TEhNZ2E3SjNQcGNZbTZrYXI1UXlJRnpkWkg2UDU4aW4wRWR3SURXa0R6SjJKUWJYU3dXM1hRRzFwdkdXOWc1QmFETEZNZjJETkFZUUM4QlRHN3BxLWkxdHhsa3k3cmYxZkV0bUFRU1dMbEw2NWdXNHphcDBkdk9vVHRBRkNuSVJxV1NreDVEVEJ6eDEyaU9BYjlEdVpHYmhxT2lYVVNGZ3ZRZFlwZllpbVJZTXFsd3lKSVVHM3p4Mzc4Y1U1RHUtT1MwTtIB-AFBVV95cUxPR0laMTFoN2VmeUctdkhjVkhtTFRPaEItTnZSSTFINnFMMERQX1NQZTFwTWx2TEhNZ2E3SjNQcGNZbTZrYXI1UXlJRnpkWkg2UDU4aW4wRWR3SURXa0R6SjJKUWJYU3dXM1hRRzFwdkdXOWc1QmFETEZNZjJETkFZUUM4QlRHN3BxLWkxdHhsa3k3cmYxZkV0bUFRU1dMbEw2NWdXNHphcDBkdk9vVHRBRkNuSVJxV1NreDVEVEJ6eDEyaU9BYjlEdVpHYmhxT2lYVVNGZ3ZRZFlwZllpbVJZTXFsd3lKSVVHM3p4Mzc4Y1U1RHUtT1MwTg?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-08-08T09:49:06.950213+00:00",
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "LEAP India Limited - RHPLEAP India Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/leap-india-limited-rhp_103182.html"
+  },
+  {
+   "attachedAt": "2026-08-08T09:49:06.952134+00:00",
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "LEAP India Limited",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/aug-2026/LEAP%20INDIA%20LIMITED%20-%20Abridged%20prospectus_p.pdf"
+  }
+ ],
+ "ticker": "LEAPIND.NS",
+ "updatedAt": "2026-08-07T01:47:18.213236+00:00"
+}

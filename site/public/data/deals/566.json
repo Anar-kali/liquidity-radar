@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Eureka Forbes Ltd",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-25T05:31:12.910147+00:00",
+ "dealType": "block deal",
+ "id": 566,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Lunolux Midco disclosed substantial acquisition in Eureka Forbes; size undisclosed.",
+ "primaryUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/D148A860_DC8D_49D8_B6D1_D0BD34677208_101946.pdf",
+ "seller": "Lunolux Midco",
+ "sizeBand": null,
+ "sizeSource": "mcap_plausible",
+ "sources": [
+  {
+   "attachedAt": "2026-08-25T05:31:12.911824+00:00",
+   "outlet": "BSE",
+   "resolvable": true,
+   "title": "Eureka Forbes Ltd: The Exchange has received revised Disclosure under Regulation 31(1) and 31(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations, 2011 on August 24, 2026 for Lunolux Midco ....",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/D148A860_DC8D_49D8_B6D1_D0BD34677208_101946.pdf"
+  }
+ ],
+ "ticker": "EUREKAFORB.NS",
+ "updatedAt": "2026-08-25T05:31:12.910147+00:00"
+}

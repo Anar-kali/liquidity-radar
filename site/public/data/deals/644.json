@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Umiya Tubes",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-31T02:31:13.820363+00:00",
+ "dealType": "block deal",
+ "id": 644,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Umiya Tubes promoter sells 25,000 shares, reduces stake to 3.32%.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMEFyQUtxZ0lyekR0eXVFSEU2clRkVk1zZmRGRm5tdHZwNnEwbWFWRjY4RWtBbVRxVWVEMm5hMkxIY2l6NGY5bDZCUjFRTDZjd2pyZEtHdm5HUmRnRmd6RkZURzJwRXZEd3BMVmhneEMwalFXTFRiNG5tcHhUS1JTWlowcTgxZEx1QmtiNWFYODdTRVJ2Y19zVnFQZ05LVnlOQ2Vndk9tV3Q0a1F6OXpMQUtKWGUzUXBBaHVv?oc=5",
+ "seller": "Umiya Tubes promoter",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-08-31T02:31:13.821663+00:00",
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "Umiya Tubes promoter sells 25,000 shares, reduces stake to 3.32%",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMEFyQUtxZ0lyekR0eXVFSEU2clRkVk1zZmRGRm5tdHZwNnEwbWFWRjY4RWtBbVRxVWVEMm5hMkxIY2l6NGY5bDZCUjFRTDZjd2pyZEtHdm5HUmRnRmd6RkZURzJwRXZEd3BMVmhneEMwalFXTFRiNG5tcHhUS1JTWlowcTgxZEx1QmtiNWFYODdTRVJ2Y19zVnFQZ05LVnlOQ2Vndk9tV3Q0a1F6OXpMQUtKWGUzUXBBaHVv?oc=5"
+  }
+ ],
+ "ticker": "539798.BO",
+ "updatedAt": "2026-08-31T02:31:13.820363+00:00"
+}

@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "JSW Group",
+ "company": "Volkswagen India JV",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-05T13:21:00.657626+00:00",
+ "dealType": "strategic buyout",
+ "id": 10,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "JSW Group eyes majority stake in new VW India JV; deal size unknown.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdlpLeFFkLThuOHJzdGd2S3RsUFlrUGFVOHoyVlVTRzBRR0lfaGhKOWp2VlJUcWdwb09RbTdEQ0h2UXFkOGw4R2Z5R2t6YzdxWE50Vkg5VHFBS3JfblN2UXE4NndDbTUwUHY3TlpuQWNGdzlCNGZibmFwY1NqWndBUkdSZjVOa0VrUko1cjR5TkpFUy1ibE5xd180cVhUSVJLVFJDWFB1YVhCMFJsYXJkV18zS0JBUVNkQUVQWUl0UExURmxp?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": null,
+ "sources": [
+  {
+   "attachedAt": "2026-08-05T13:21:00.657626+00:00",
+   "outlet": "Google News",
+   "resolvable": false,
+   "title": "",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdlpLeFFkLThuOHJzdGd2S3RsUFlrUGFVOHoyVlVTRzBRR0lfaGhKOWp2VlJUcWdwb09RbTdEQ0h2UXFkOGw4R2Z5R2t6YzdxWE50Vkg5VHFBS3JfblN2UXE4NndDbTUwUHY3TlpuQWNGdzlCNGZibmFwY1NqWndBUkdSZjVOa0VrUko1cjR5TkpFUy1ibE5xd180cVhUSVJLVFJDWFB1YVhCMFJsYXJkV18zS0JBUVNkQUVQWUl0UExURmxp?oc=5"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-05T13:21:00.657626+00:00"
+}

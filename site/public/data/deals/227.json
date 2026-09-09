@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Ace Software Exports",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-13T16:31:24.511181+00:00",
+ "dealType": "promoter sale",
+ "id": 227,
+ "individuals": [
+  "Vaishali Mehta"
+ ],
+ "listed": true,
+ "oneLine": "Promoter Vaishali Mehta sells 1.34 lakh shares in Ace Software Exports",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUmdkUjladi1RMGVacHA3LVQzd0JIM1VUeEJvNFBmSnBwR2Z4ekY4YWF4S3NlTU0tR2RQaU5zbHJvTG1HZkFSamtnUlR1OW9iYWJVZEVmaURIZU5tWDlHeDh5VDExN0cteXBzN196V281N1hJMTBhQzBFYWdHYmJ4WUh1aURiZjd0Yjh4WHF3RHZtY3VQQlZNS2xwSnhRd3ZyQjNlLTdkcjJ2cXpUNEpLWjZ3QVhaT2lZSTJ2R2Ezb2dJUQ?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-08-13T16:31:24.512862+00:00",
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "Ace Software Exports promoter Vaishali Mehta sells 1.34 lakh shares",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUmdkUjladi1RMGVacHA3LVQzd0JIM1VUeEJvNFBmSnBwR2Z4ekY4YWF4S3NlTU0tR2RQaU5zbHJvTG1HZkFSamtnUlR1OW9iYWJVZEVmaURIZU5tWDlHeDh5VDExN0cteXBzN196V281N1hJMTBhQzBFYWdHYmJ4WUh1aURiZjd0Yjh4WHF3RHZtY3VQQlZNS2xwSnhRd3ZyQjNlLTdkcjJ2cXpUNEpLWjZ3QVhaT2lZSTJ2R2Ezb2dJUQ?oc=5"
+  }
+ ],
+ "ticker": "531525.BO",
+ "updatedAt": "2026-08-13T16:31:24.511181+00:00"
+}

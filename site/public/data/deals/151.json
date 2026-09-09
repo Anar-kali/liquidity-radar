@@ -1,0 +1,51 @@
+{
+ "advisers": [],
+ "amountCr": 2800.0,
+ "amountRaw": "Rs 2800 crore",
+ "buyer": "Warburg",
+ "company": "Universal NutriScience",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-08-10T01:31:53.293361+00:00",
+ "dealType": "strategic buyout",
+ "id": 151,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Warburg acquires Universal NutriScience for ₹2,800 cr; sellers cash out.",
+ "primaryUrl": "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/warburg-set-to-buy-seacod-maker-universal-nutriscience-for-rs-2800-crore/articleshow/133074248.cms",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-08-10T01:31:53.294327+00:00",
+   "outlet": "ET Corporate",
+   "resolvable": true,
+   "title": "Warburg set to buy Seacod-maker Universal NutriScience for Rs 2800 crore",
+   "url": "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/warburg-set-to-buy-seacod-maker-universal-nutriscience-for-rs-2800-crore/articleshow/133074248.cms"
+  },
+  {
+   "attachedAt": "2026-08-10T01:45:53.041770+00:00",
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "Warburg Pincus Eyes Rs 2,800 Crore Deal for Seacod Maker Universal NutriScience",
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOVlp6MkhkSVVsd25iWkFCdmJFNkppUG9KUTVpWjFiNnI0Q2pFWEZSWF9Rc3o3Y25Wb1VxQUV4SjBoMDYwOVM5UFBNeXRldGRuc1RpRkgxUmRESFpkbmh3ZmJfZTJOWm1BVFRzUDdzWHJDWGF0ZlAzX0dfazYzdk1HNGRoTFpPRm54bU5qRHdPem9RZ2pieGxYTzRwMEh5dm1tZkxXZkRlcm1kVmEzb05rUGZFMUxxU1p0UWpIY3RteDgxSkVkbjJyWEtCSXlSSy16bEZ6emZra24zckstenY1UTZrUXp3V01VWVQ3OVFhQQ?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-10T06:16:42.271846+00:00",
+   "outlet": "The Economic Times",
+   "resolvable": false,
+   "title": "Warburg set to buy Seacod-maker Universal NutriScience for Rs 2800 crore",
+   "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQMFZlbWpjWk9lTFV5LVNjVzhlbGtRUWJsazZTbG5VYk03OEpMZm1hdkNoV2YyeTU4ZkF3Tk1ZZGNSYTQ3a0VNWWRCRGhoZHRfNFRiQ2h6OXUyYXd0T05lZjJXYUxqaFAyaThPSnFJbEhUSGQtRWVPS1lmLWd5bTFXUm43RWlONVFsZkdvTlgxWV9rSUxZZDRQajgzRnM0c1k1SVQ4enFCNEE4YnZ4WThRc013LUNtSFpaUXp5NnNtblBRNllRcl85MEJWdjlhamxseFprVUFIalJzcTRkazRzeTRNMEV4dHM0WERCNVU5ekdjZWNxNVp3MnlfLVkwNlXSAYQCQVVfeXFMUEJaUXpwSHB5OE5WVHNGUWNsbTNGbnRLTkxzTnJpZVYwMmVBT1I5RHVZcXlGdVpsM3gwVWt3MnJuUTJldjVqNnBCLThpMzl2aC05MVVXOGdndTdUajZyZW1CNnJNWlp3Y0F0MUNuWXZPQ2pmeEhJYUNyaHBMSWNhanZUT0hNSGFFYVhlMWgyQnVqa28zYV9maHNTV3BRQnIwQlkyaDk0RjlHUmp2eW9yQ1NWWHoxaFBDQ3VPMjV5QzR4dC0tYXJQSnJDS0phcTlEbzhYXzhMa2Q3ZnVqRFlUSjV1LWlkblVnQjFuZVpDMlRxd05OQ3NZeEN2MVBuQjd1V0NaWnM?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-10T09:01:30.976408+00:00",
+   "outlet": "outlookbusiness.com",
+   "resolvable": false,
+   "title": "Warburg Pincus To Buy Universal NutriScience In ₹2,800 Cr Deal",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdW1KQ291RGFvNjlsSGU4dG80djlnNnBZMXczdHhGNTZTT2dnR1JnaDRGRVI2RFgwN3JtYlFrV1Y1UUhxTGg5UnMzbjRDWVNnMjJGZVF2cFV5NkZuVWp3OUJsX2YxZG5TR2pNTnJEYnNCTEtpam9JODFhTnF4MVl6eVd0RjBFZ2l4WklDaG5XLWQ4WXJfQzFJLXVRMDhIckVkSmFBVlVYZXjSAbYBQVVfeXFMUHNIeXNKMXlPREwydVQweWx3ZTN6MUZvdS1hcHg0TDBOb1FSMzlhZjZXeVdwdFZJTnRqbmxyVC1Rbk9zNVlXS21CUTgwaVJFVWxqVE5kb3g1ZkVIQW1KTVpydEJjcnFITlNsU1lTSUF0YnNfNHdJS1pkY2lzbVUydXFYcnFONWZ1d0RnQjlhb2x5bzhMeGs0ZWt1amdVcTdjWGpvMkVGRlRIcmFibmlDUHl1VUZLUFE?oc=5"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-10T01:31:53.293361+00:00"
+}

@@ -1,0 +1,37 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Advanced Sys-Tek Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-08T09:49:06.928718+00:00",
+ "dealType": "DRHP filing",
+ "id": 124,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Advanced Sys-Tek filed DRHP; promoters planning IPO liquidity event.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/aug-2026/advanced-sys-tek-limited-drhp_103353.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-08-08T09:49:06.929592+00:00",
+   "outlet": "SEBI",
+   "resolvable": true,
+   "title": "Advanced Sys-Tek Limited - DRHPAdvanced Sys-Tek Limited- Draft Abridged Prospectus",
+   "url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/advanced-sys-tek-limited-drhp_103353.html"
+  },
+  {
+   "attachedAt": "2026-08-08T09:49:06.931290+00:00",
+   "outlet": "SEBI",
+   "resolvable": true,
+   "title": "Advanced Sys-Tek Limited- Draft Abridged Prospectus",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/aug-2026/Advanced%20Sys-Tek%20Limited%20%20-%20DAP_p.pdf"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-08T09:49:06.928718+00:00"
+}

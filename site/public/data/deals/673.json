@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "unnamed small-cap",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-01T06:31:35.855290+00:00",
+ "dealType": "PE secondary",
+ "id": 673,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Blackstone arm plans to sell entire 26.38% stake; stock crashes 9%.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUld5aE8zdGwxY0ZmZ3pZdUhON04xUU9hU3YxWlZvOUdyS19SSkFDVEVyd1lLVmxMbi1YamNHTlhlbFFxRl9fbm5SZlhxNW45NmRRbXpZOXNRMEFxS3FRcHJhREttV3lHanRFVXVqSGN6NkJjTUY0ODNmN0paNmtPUl8yTF9yMVRNZWJnaUlUTGlvR3R5SDE4bTZwR1IydEx0UGdIVG94Qm55TW5KcWpwNXY3cVhHcHl0dUY4NjNkYjlYZzA?oc=5",
+ "seller": "Blackstone arm",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-01T06:31:35.856449+00:00",
+   "outlet": "Trade Brains",
+   "resolvable": false,
+   "title": "Small-Cap Stock Crashes 9% After Blackstone Arm Plans to Sell Entire 26.38% Stake",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUld5aE8zdGwxY0ZmZ3pZdUhON04xUU9hU3YxWlZvOUdyS19SSkFDVEVyd1lLVmxMbi1YamNHTlhlbFFxRl9fbm5SZlhxNW45NmRRbXpZOXNRMEFxS3FRcHJhREttV3lHanRFVXVqSGN6NkJjTUY0ODNmN0paNmtPUl8yTF9yMVRNZWJnaUlUTGlvR3R5SDE4bTZwR1IydEx0UGdIVG94Qm55TW5KcWpwNXY3cVhHcHl0dUY4NjNkYjlYZzA?oc=5"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-01T06:31:35.855290+00:00"
+}

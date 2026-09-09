@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": 5100.0,
+ "amountRaw": "₹5,100 Cr",
+ "buyer": null,
+ "company": "Capital Foods",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-09-01T09:31:16.955052+00:00",
+ "dealType": "strategic buyout",
+ "id": 681,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Tata Consumer buys 75% stake in Capital Foods for ₹5,100 crore.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORElUdUJNMUJmYkQxYkVDOUQzSmFrbWxwcjUwQU0tdkdrLXNmR0NZU1IwcnRUZDVwbFBaZUpNXzRrVFVnRkc0QmlOUTdFa2JadlN2dnZqUDFiMlJZUERaa3k4STREOGRvZUdCRERHbDNsbmNkTVdZYlM2OVlXVi1obm5GUmJJSUxaX2lUazJDU2w3WkJHdkdz?oc=5",
+ "seller": "Capital Foods promoters / shareholders",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-01T09:31:16.956033+00:00",
+   "outlet": "InvestyWise",
+   "resolvable": false,
+   "title": "Tata Consumer Buys 75% Stake in Capital Foods for ₹5,100 Cr",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORElUdUJNMUJmYkQxYkVDOUQzSmFrbWxwcjUwQU0tdkdrLXNmR0NZU1IwcnRUZDVwbFBaZUpNXzRrVFVnRkc0QmlOUTdFa2JadlN2dnZqUDFiMlJZUERaa3k4STREOGRvZUdCRERHbDNsbmNkTVdZYlM2OVlXVi1obm5GUmJJSUxaX2lUazJDU2w3WkJHdkdz?oc=5"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-01T09:31:16.955052+00:00"
+}

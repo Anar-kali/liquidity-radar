@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Cineline India",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-05T13:21:00.741452+00:00",
+ "dealType": "other",
+ "id": 28,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Promoters acquire 21.36 lakh shares via warrant conversion",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNOWNLZDhla09ybGNUcDVYTUR6MVZDb2toUmp4ektaclM4QXNXNUJzODhoUFdTTGFvZEpuR0tuMS15d3BNNXBjanhPVktpcUpKeXpHREd6WFJvQWRoYVFobWF5YzlqRFVsSURSUlRUQ3BFcEo3SDYxR3ZxaHMwSTJUd2paYnJ0RFJJaDBaWXJqb2U4aHRzdVI0QnFQUnZUeFpDZUVTYWUwUzZWN2p2a1RFdVNKTVE4d2Q2Ym1mckJ0ZUpBQmhidHktX1N3?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": null,
+ "sources": [
+  {
+   "attachedAt": "2026-08-05T13:21:00.741452+00:00",
+   "outlet": "Google News",
+   "resolvable": false,
+   "title": "",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNOWNLZDhla09ybGNUcDVYTUR6MVZDb2toUmp4ektaclM4QXNXNUJzODhoUFdTTGFvZEpuR0tuMS15d3BNNXBjanhPVktpcUpKeXpHREd6WFJvQWRoYVFobWF5YzlqRFVsSURSUlRUQ3BFcEo3SDYxR3ZxaHMwSTJUd2paYnJ0RFJJaDBaWXJqb2U4aHRzdVI0QnFQUnZUeFpDZUVTYWUwUzZWN2p2a1RFdVNKTVE4d2Q2Ym1mckJ0ZUpBQmhidHktX1N3?oc=5"
+  }
+ ],
+ "ticker": "CINELINE.NS",
+ "updatedAt": "2026-08-05T13:21:00.741452+00:00"
+}

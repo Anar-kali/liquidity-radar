@@ -1,0 +1,37 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "HY-TECH ENGINEERS LIMITED",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-21T06:31:30.298062+00:00",
+ "dealType": "DRHP filing",
+ "id": 511,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "HY-TECH ENGINEERS LIMITED files RHP/DRHP for IPO",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/aug-2026/hy-tech-engineers-limited-rhp_103844.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-08-21T06:31:30.299521+00:00",
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "HY-TECH ENGINEERS LIMITED - RHPHY-TECH ENGINEERS LIMITED",
+   "url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/hy-tech-engineers-limited-rhp_103844.html"
+  },
+  {
+   "attachedAt": "2026-08-21T06:31:30.301598+00:00",
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "HY-TECH ENGINEERS LIMITED",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/aug-2026/HY-TECH%20ENGINEERS%20LIMITED%20-%20AP_p.pdf"
+  }
+ ],
+ "ticker": "HTEL.NS",
+ "updatedAt": "2026-08-21T06:31:30.298062+00:00"
+}

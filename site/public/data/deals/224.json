@@ -1,0 +1,88 @@
+{
+ "advisers": [],
+ "amountCr": 3000.0,
+ "amountRaw": "Rs 3,000 crore IPO",
+ "buyer": null,
+ "company": "Navi",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-08-13T09:01:29.013496+00:00",
+ "dealType": "IPO-OFS",
+ "id": 224,
+ "individuals": [
+  "Sachin Bansal"
+ ],
+ "listed": false,
+ "oneLine": "Navi (Sachin Bansal) mulls Rs 3,000 crore IPO at $2 billion valuation",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxORVRyWkk5WnY4TEZoR041RDlvVnRzb3Z3MGpTQWZnaHoyUFNlYjFsb1lBX183MXJFcm9sY01RbkhSRDdpZmt4THNyTl9HVTB3UTN6UWcxNzRJX2dmc0RwLTVLOUtfR1F1SEt0MTZZUXJPOGFMbUVEbWc5TEdQNEcxcUJoV0t2NTlWT1NDNGtfc3ZjeTROdkZLMWxBQlI5TzdIRXBUUnBnU2ZvYmwzbm43eHpyRmd0aGJvTFNxcXZuUlotUFhqTi1tMVo5dEQzT2xUVjdLeXhYVGltd0JVaHo2eEJlWnhiZUdsVGo3d2xn0gHzAUFVX3lxTE9tOW5YR29iT0puT19xUkdKOFFFMUNsd2pKUkxVZkJuZGRvYXhHNkZuQ2FRWXdLMElHaGlSdnFDcHpNRUtLVVR1UFFRcWgydEpCWkhFVnFBUGJkOXV3eVdHVnotSldSUHlUbGlhU0xfMFotakQ1Tm4tbzA1N014Y29WbjBhUjZYRUZfSmdYdElCa2ZnSVBLcW42Z0picUdobEZrOVlDbUYtRDFIdXdBWHBwdUhSVWZtM3lvd3VxMHBOSVk2c3dTclBvMXZnRmhIYkZ3TjNJYVo3RkdXcWo0ZktFRFQ3aE5YRGVwVHVrVW9qMHpRaw?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-08-13T09:01:29.014571+00:00",
+   "outlet": "Business Today",
+   "resolvable": false,
+   "title": "Navi mulls for Rs 3,000 crore IPO; Sachin Bansal's fintech firm eyes $2 billion valuation",
+   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxORVRyWkk5WnY4TEZoR041RDlvVnRzb3Z3MGpTQWZnaHoyUFNlYjFsb1lBX183MXJFcm9sY01RbkhSRDdpZmt4THNyTl9HVTB3UTN6UWcxNzRJX2dmc0RwLTVLOUtfR1F1SEt0MTZZUXJPOGFMbUVEbWc5TEdQNEcxcUJoV0t2NTlWT1NDNGtfc3ZjeTROdkZLMWxBQlI5TzdIRXBUUnBnU2ZvYmwzbm43eHpyRmd0aGJvTFNxcXZuUlotUFhqTi1tMVo5dEQzT2xUVjdLeXhYVGltd0JVaHo2eEJlWnhiZUdsVGo3d2xn0gHzAUFVX3lxTE9tOW5YR29iT0puT19xUkdKOFFFMUNsd2pKUkxVZkJuZGRvYXhHNkZuQ2FRWXdLMElHaGlSdnFDcHpNRUtLVVR1UFFRcWgydEpCWkhFVnFBUGJkOXV3eVdHVnotSldSUHlUbGlhU0xfMFotakQ1Tm4tbzA1N014Y29WbjBhUjZYRUZfSmdYdElCa2ZnSVBLcW42Z0picUdobEZrOVlDbUYtRDFIdXdBWHBwdUhSVWZtM3lvd3VxMHBOSVk2c3dTclBvMXZnRmhIYkZ3TjNJYVo3RkdXcWo0ZktFRFQ3aE5YRGVwVHVrVW9qMHpRaw?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-13T09:16:08.159883+00:00",
+   "outlet": "Moneycontrol.com",
+   "resolvable": false,
+   "title": "Sachin Bansal’s Navi taps Goldman, JPMorgan for Rs 3,000-crore IPO; eyes $2 billion valuation",
+   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQTE9LV0JLMlZ0bUpac1N3a0I2VUpvUlRVX0hIRl9ONi1vZ01lcTM0eXVJenAyenZRS2YyeDlYRjJ4aEt2Wm9IRXd0bUo3VmxvSUFnYjNldDdaczU2d3VtdEdoOEdETkRDMFRlMzVGdTRjNHdCUTFSYTRhdks4R250cTVzd0VKZ1ZVZVRNQU1OakF6Nm5fXzNlNUpLbjNjMThLYXBUaVRtRTh2X1R5OTZ4QW9uN18zRk1wRG9LRXV1aFZVRlRUZHdEOWtqZUkxN21UNy04ZGlBbDlMMGh4SkFhUzdnOXJhUdIB6wFBVV95cUxNa3hpMkpEVlppb1NMRWkwUGFEeVdOZGtnVFJMUEJKb21VcnN6NGQ4NGxjdXNqOFdXRHJJNmk3NWRVblA5QXpPMkh1VTdkaFFYZkNpeWZXNG1nZGpXc2dDeG5CVkNJTUUxYUdvMmh6eWhZanU2T2o1MEFTaVFzMUhQYmo0U2hlRDY3aGRXNDNBS0toZnVGNjAxMVNyQVpCYzBJRzN2UVVuNDZhRERuUHhkak9OVFh4elVZNmRMRjFfU1BpT1BWbHRvWVJlbE45YWZqRmhDcV9VdTVVN1VkeGUyQlNuYjNTWXN3YXRJ?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-13T10:45:57.562412+00:00",
+   "outlet": "Moneycontrol.com",
+   "resolvable": false,
+   "title": "Sachin Bansal’s Navi taps Goldman, JPMorgan for Rs 3,000-crore IPO; eyes $2 billion valuation",
+   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNa3hpMkpEVlppb1NMRWkwUGFEeVdOZGtnVFJMUEJKb21VcnN6NGQ4NGxjdXNqOFdXRHJJNmk3NWRVblA5QXpPMkh1VTdkaFFYZkNpeWZXNG1nZGpXc2dDeG5CVkNJTUUxYUdvMmh6eWhZanU2T2o1MEFTaVFzMUhQYmo0U2hlRDY3aGRXNDNBS0toZnVGNjAxMVNyQVpCYzBJRzN2UVVuNDZhRERuUHhkak9OVFh4elVZNmRMRjFfU1BpT1BWbHRvWVJlbE45YWZqRmhDcV9VdTVVN1VkeGUyQlNuYjNTWXN3YXRJ0gHrAUFVX3lxTE1reGkySkRWWmlvU0xFaTBQYUR5V05ka2dUUkxQQkpvbVVyc3o0ZDg0bGN1c2o4V1dEckk2aTc1ZFVuUDlBek8ySHVVN2RoUVhmQ2l5Zlc0bWdkaldzZ0N4bkJWQ0lNRTFhR28yaHp5aFlqdTZPajUwQVNpUXMxSFBiajRTaGVENjdoZFc0M0FLS2hmdUY2MDExU3JBWkJjMElHM3ZRVW40NmFERG5QeGRqT05UWHh6VVk2ZExGMV9TUGlPUFZsdG9ZUmVsTjlhZmpGaENxX1V1NVU3VWR4ZTJCU25iM1NZc3dhdEk?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-13T11:31:24.898642+00:00",
+   "outlet": "Free Press Journal",
+   "resolvable": false,
+   "title": "Navi IPO: Sachin Bansal’s Fintech Firm Plans ₹3,000 Crore India Public Listing",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQ240NGdfSFhyYlo1anp3aWp4eE93a0wyWkJZb3JXWTlJek5MVE5zZVNsZWYyYWZ5SG9UcEx1NFJxck9BUEZ5NkJ5VUpXY1pPLXp3YXZGeUdDSUV2T1dRbmNmeVZieG1qdkE3M21iUTUybGV2elN3Nm5fajg5eUlhRHN2dGtZMFE2eGFhcHIyQWp6NUJidWxEWEtUWU9wc3ZENXJpWmVRZlNha3Z2ZmNla2g0YTJoZ9IBuwFBVV95cUxQQ3dRWWphMG53WGpNN2RDNW44cThIR3dQeTZxUEZNSTNNNndMZEJ1emd5dER1cXllVzc5Z2lvZkJ4RzZWMUtWSjRjdTFKMHJsM2hkR042NHR0T201a1JFUnVkYldCeklNeElEcXdoV0I0c3BXbEtHRTFfZ2FrOGJ2OFhMYjM1RVdrVWZxMHB2X3Bua2JHcFR1TTI3SnBtbGRSeGtTR2hVUDFjenljcDUtVEFCY2JoWTZybE1z?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-13T12:46:28.943148+00:00",
+   "outlet": "Google News",
+   "resolvable": true,
+   "title": "Navi To File For ₹3,000 Cr IPO By December: Report",
+   "url": "https://inc42.com/buzz/navi-to-file-for-%e2%82%b93000-cr-ipo-by-december-report/"
+  },
+  {
+   "attachedAt": "2026-08-13T13:16:03.809089+00:00",
+   "outlet": "Free Press Journal",
+   "resolvable": false,
+   "title": "Navi IPO: Sachin Bansal’s Fintech Firm Plans ₹3,000 Crore India Public Listing",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQQ3dRWWphMG53WGpNN2RDNW44cThIR3dQeTZxUEZNSTNNNndMZEJ1emd5dER1cXllVzc5Z2lvZkJ4RzZWMUtWSjRjdTFKMHJsM2hkR042NHR0T201a1JFUnVkYldCeklNeElEcXdoV0I0c3BXbEtHRTFfZ2FrOGJ2OFhMYjM1RVdrVWZxMHB2X3Bua2JHcFR1TTI3SnBtbGRSeGtTR2hVUDFjenljcDUtVEFCY2JoWTZybE1z0gG7AUFVX3lxTFBDd1FZamEwbndYak03ZEM1bjhxOEhHd1B5NnFQRk1JM002d0xkQnV6Z3l0RHVxeWVXNzlnaW9mQnhHNlYxS1ZKNGN1MUowcmwzaGRHTjY0dHRPbTVrUkVSdWRiV0J6SU14SURxd2hXQjRzcFdsS0dFMV9nYWs4YnY4WExiMzVFV2tVZnEwcHZfcG5rYkdwVHVNMjdKcG1sZFJ4a1NHaFVQMWN6eWNwNS1UQUJjYmhZNnJsTXM?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-13T13:16:03.811235+00:00",
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "Sachin Bansal's Navi Eyes ₹3,000 Crore IPO at $2 Billion Valuation",
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNNzkzUmV4eWNJczI5Qkg0N1ZNdHd0eFA1RnJtWlpDSXloQTdtNm5ianFSbTRhMGJLMThEWll5bUZqaE5wTmRTZFFaeWhObXRmb3dwd0FFOWFLaEFZekt5OXpVODlsWmZHakRpOVFYdVphbmJIVVhHazktZEdXRGVvVHg0Tjhacllzd0xOcjg4d0RnQ2dGZ3RCbEU1emp0VFZCVW4wUWhwR1FyUmNfd19KQ0xkQkRpaHJMVDNiRkI5cDVTRFZxZW9fclE5RUx0Y3N1N2VodTVsc0hRazNpd1A1WVBmcw?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-13T13:16:03.813479+00:00",
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "Sachin Bansal's Navi Eyes ₹3,000 Crore IPO at $2 Billion Valuation",
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNNzkzUmV4eWNJczI5Qkg0N1ZNdHd0eFA1RnJtWlpDSXloQTdtNm5ianFSbTRhMGJLMThEWll5bUZqaE5wTmRTZFFaeWhObXRmb3dwd0FFOWFLaEFZekt5OXpVODlsWmZHakRpOVFYdVphbmJIVVhHazktZEdXRGVvVHg0Tjhacllzd0xOcjg4d0RnQ2dGZ3RCbEU1emp0VFZCVW4wUWhwR1FyUmNfd19KQ0xkQkRpaHJMVDNiRkI5cDVTRFZxZW9fclE5RUx0Y3N1N2VodTVsc0hRazNpd1A1WVBmcw?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-15T01:45:57.180963+00:00",
+   "outlet": "Business Today",
+   "resolvable": false,
+   "title": "Navi mulls for Rs 3,000 crore IPO; Sachin Bansal's fintech firm eyes $2 billion valuation",
+   "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPbTluWEdvYk9Kbk9fcVJHSjhRRTFDbHdqSlJMVWZCbmRkb2F4RzZGbkNhUVl3SzBJR2hpUnZxQ3B6TUVLS1VUdVBRUXFoMnRKQlpIRVZxQVBiZDl1d3lXR1Z6LUpXUlB5VGxpYVNMXzBaLWpENU5uLW8wNTdNeGNvVm4wYVI2WEVGX0pnWHRJQmtmZ0lQS3FuNmdKYnFHaGxGazlZQ21GLUQxSHV3QVhwcHVIUlVmbTN5b3d1cTBwTklZNnN3U3JQbzF2Z0ZoSGJGd04zSWFaN0ZHV3FqNGZLRURUN2hOWERlcFR1a1VvajB6UWvSAfMBQVVfeXFMT205blhHb2JPSm5PX3FSR0o4UUUxQ2x3akpSTFVmQm5kZG9heEc2Rm5DYVFZd0swSUdoaVJ2cUNwek1FS0tVVHVQUVFxaDJ0SkJaSEVWcUFQYmQ5dXd5V0dWei1KV1JQeVRsaWFTTF8wWi1qRDVObi1vMDU3TXhjb1ZuMGFSNlhFRl9KZ1h0SUJrZmdJUEtxbjZnSmJxR2hsRms5WUNtRi1EMUh1d0FYcHB1SFJVZm0zeW93dXEwcE5JWTZzd1NyUG8xdmdGaEhiRndOM0lhWjdGR1dxajRmS0VEVDdoTlhEZXBUdWtVb2owelFr?oc=5"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-13T09:01:29.013496+00:00"
+}

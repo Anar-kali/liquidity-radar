@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": 32.0,
+ "amountRaw": "Rs 32 Cr",
+ "buyer": "Nykaa",
+ "company": "Nykaa",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-08-05T13:21:00.758858+00:00",
+ "dealType": "strategic buyout",
+ "id": 32,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Nykaa acquires 51% of D2C skincare brand Aminu for Rs 32 crore; buyout.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSDBfS3g5MFpCVnl5dzZmV1JMS3JuR0hUWUF2X1lYaW9ZamtxSzJYQTRGUHRJTE9IaTY3VTJTc0hudG1TeGJNbk5ZbWN0d2tXaXA4OHFKV2VLM21PRUUySmwtTHNpa0Z1NGdJUUZJMmZzVHpaN1lvQmF1TmI5VlVsejdvNjg1NW1SbWIwR3M3ODVCU1JvRmY0YnltVlU?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-08-05T13:21:00.758858+00:00",
+   "outlet": "Google News",
+   "resolvable": false,
+   "title": "",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSDBfS3g5MFpCVnl5dzZmV1JMS3JuR0hUWUF2X1lYaW9ZamtxSzJYQTRGUHRJTE9IaTY3VTJTc0hudG1TeGJNbk5ZbWN0d2tXaXA4OHFKV2VLM21PRUUySmwtTHNpa0Z1NGdJUUZJMmZzVHpaN1lvQmF1TmI5VlVsejdvNjg1NW1SbWIwR3M3ODVCU1JvRmY0YnltVlU?oc=5"
+  }
+ ],
+ "ticker": "NYKAA.NS",
+ "updatedAt": "2026-08-05T13:21:00.758858+00:00"
+}

@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Gujarat Winding Systems Ltd",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-11T11:46:00.750530+00:00",
+ "dealType": "block deal",
+ "id": 176,
+ "individuals": [
+  "Sanjeev Lunkad"
+ ],
+ "listed": true,
+ "oneLine": "Substantial acquisition by Sanjeev Lunkad & PACs disclosed.",
+ "primaryUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/A0D078C7_EC19_468B_9DFA_A88D85DC9539_170943.pdf",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-08-11T11:46:00.752167+00:00",
+   "outlet": "BSE",
+   "resolvable": true,
+   "title": "Gujarat Winding Systems Ltd: The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations, 2011 for Sanjeev Lunkad & PACs",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/A0D078C7_EC19_468B_9DFA_A88D85DC9539_170943.pdf"
+  }
+ ],
+ "ticker": "541627.BO",
+ "updatedAt": "2026-08-11T11:46:00.750530+00:00"
+}

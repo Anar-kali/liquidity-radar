@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "LEAP India Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-12T12:01:50.903054+00:00",
+ "dealType": "DRHP filing",
+ "id": 205,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "LEAP India Limited prospectus filed; IPO underway.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/aug-2026/leap-india-limited-prospectus_103511.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-08-12T12:01:50.904409+00:00",
+   "outlet": "Prospectus",
+   "resolvable": true,
+   "title": "LEAP India Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/leap-india-limited-prospectus_103511.html"
+  }
+ ],
+ "ticker": "LEAPIND.NS",
+ "updatedAt": "2026-08-12T12:01:50.903054+00:00"
+}

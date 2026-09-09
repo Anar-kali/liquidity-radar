@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "BluPine Energy",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-03T01:31:53.023954+00:00",
+ "dealType": "strategic buyout",
+ "id": 705,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Actis-owned BluPine Energy 4GW renewable platform in major M&A auction.",
+ "primaryUrl": "https://economictimes.indiatimes.com/industry/renewables/jsw-neo-blackstone-macquarie-among-suitors-for-blupine-energy/articleshow/133719186.cms",
+ "seller": "Actis",
+ "sizeBand": "OVER_2000",
+ "sizeSource": "band",
+ "sources": [
+  {
+   "attachedAt": "2026-09-03T01:31:53.024990+00:00",
+   "outlet": "ET Corporate",
+   "resolvable": true,
+   "title": "JSW Neo, Blackstone &amp; Macquarie among suitors for BluPine Energy",
+   "url": "https://economictimes.indiatimes.com/industry/renewables/jsw-neo-blackstone-macquarie-among-suitors-for-blupine-energy/articleshow/133719186.cms"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-03T01:31:53.023954+00:00"
+}

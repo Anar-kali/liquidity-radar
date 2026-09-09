@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": 26337.0,
+ "amountRaw": "Rs 26,337 crore across 12 companies in August block and bulk deals",
+ "buyer": null,
+ "company": "Multiple (17 companies in block/bulk deals)",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-02T08:31:23.434285+00:00",
+ "dealType": "block deal",
+ "id": 692,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "₹26,337 crore in block/bulk deals across 17 Indian tech stocks in August.",
+ "primaryUrl": "https://entrackr.com/news-analysis/investors-cash-out-over-277-bn-from-indian-tech-stocks-in-august-12483118",
+ "seller": "Early-stage investors (exiting secondary positions)",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-02T08:31:23.435956+00:00",
+   "outlet": "Entrackr",
+   "resolvable": true,
+   "title": "Investors cash out over $2.77 Bn from Indian tech stocks in August",
+   "url": "https://entrackr.com/news-analysis/investors-cash-out-over-277-bn-from-indian-tech-stocks-in-august-12483118"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-02T08:31:23.434285+00:00"
+}

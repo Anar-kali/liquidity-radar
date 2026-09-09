@@ -1,0 +1,37 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "South Eastern Coalfields",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-31T09:31:22.452990+00:00",
+ "dealType": "other",
+ "id": 656,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Coal India plans IPOs of SECL and MCL by year-end; early prospecting lead.",
+ "primaryUrl": "https://www.thehindubusinessline.com/markets/coal-india-to-launch-ipos-of-south-eastern-coalfields-and-mahanadi-coalfields-this-fiscal/article71410119.ece",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-08-31T09:31:22.454055+00:00",
+   "outlet": "Business Line",
+   "resolvable": true,
+   "title": "Coal India to launch IPOs of South Eastern Coalfields and Mahanadi Coalfields this fiscal",
+   "url": "https://www.thehindubusinessline.com/markets/coal-india-to-launch-ipos-of-south-eastern-coalfields-and-mahanadi-coalfields-this-fiscal/article71410119.ece"
+  },
+  {
+   "attachedAt": "2026-08-31T10:31:10.797620+00:00",
+   "outlet": "Free Press Journal",
+   "resolvable": false,
+   "title": "South Eastern Coalfields, Mahanadi Coalfields IPOs Likely By Year-End: Official",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPb29kYWhDSGRPYlBZTkNIbG1tWGgyVXhLZHRzNzFGT2lqdEI3VjZ6SThQanNBUXVlaldJY3R6XzYyQS1aS3BSNGxmbHBwTDlaRVVxdGhsTTdNWnNJcnRUbWhiTHNTV05hWU9nSjAyWmxVdmhjc3ljYjNuS2NXZ010eHFPaUtmeGM4b0trM0xYYTdjTUVoa3d5V0hfeF9xT3kwdkkzX2ZsS1BueExTSWJPVzc0Y3VNM2k3SEHSAb8BQVVfeXFMTThfVGJEMVlFMktBdjNOVkNIa2M4NGVjOFZnQ2NQSXl4bDZZejBlTEJiTE9nakc4bi01TjUxYVdneDFUQzl1TnFmSlQtWGhnWENGM1RDLWViQzJwWGdidFNyeTFPRTR5RTBYa3kwQ3E4T00zeEhxZzBwaG01anJXOVQtRU03eEZ5Y2RfaTNCV0pNUGNkMVc2NEF1ek94Rk52RVZZaloxQ0FVdThWVHFBWEV1cVdwbC1HOFo0ZUtPakE?oc=5"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-31T09:31:22.452990+00:00"
+}

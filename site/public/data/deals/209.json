@@ -1,0 +1,58 @@
+{
+ "advisers": [],
+ "amountCr": 2600.0,
+ "amountRaw": "₹2,600 crore",
+ "buyer": null,
+ "company": "Horizon Industrial Parks",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-08-12T12:46:35.793608+00:00",
+ "dealType": "IPO-OFS",
+ "id": 209,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Blackstone-backed Horizon Industrial Parks to launch ₹2,600 crore IPO on August 17.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQnBMV2RoemlRSkRZcE1jdVpPT0RhZ3hEbkpydll1U1pROW1VZHVzQnBnZDlibldDc3Zqa2lEX0hzdzdHc1pYQzRLV254eU1VQmx2enp4SnZwVzg5Sm10NEo3cDBMd3oxRW5YcjhHVDlTbHhDbHltdTFINkVqYXN6N2ZYbVhmd0xlT2RJQXNXODN0WS1EU1NhcjhRRmFsMnpmU1ZDeWJpSDVtcTgyWUJrS1FFZjdidDFNMXZTcVh0a1R6NDjSAcMBQVVfeXFMTkJwTFdkaHppUUpEWXBNY3VaT09EYWd4RG5KcnZZdVNaUTltVWR1c0JwZ2Q5Ym5XQ3N2amtpRF9Ic3c3R3NaWEM0S1dueHlNVUJsdnp6eEp2cFc4OUptdDRKN3AwTHd6MUVuWHI4R1Q5U2x4Q2x5bXUxSDZFamFzejdmWG1YZndMZU9kSUFzVzgzdFktRFNTYXI4UUZhbDJ6ZlNWQ3liaUg1bXE4MllCa0tRRWY3YnQxTTF2U3FYdGtUejQ4?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-08-12T12:46:35.794631+00:00",
+   "outlet": "Free Press Journal",
+   "resolvable": false,
+   "title": "Blackstone-Backed Horizon Industrial Parks To Launch ₹2,600 Crore IPO On August 17",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQnBMV2RoemlRSkRZcE1jdVpPT0RhZ3hEbkpydll1U1pROW1VZHVzQnBnZDlibldDc3Zqa2lEX0hzdzdHc1pYQzRLV254eU1VQmx2enp4SnZwVzg5Sm10NEo3cDBMd3oxRW5YcjhHVDlTbHhDbHltdTFINkVqYXN6N2ZYbVhmd0xlT2RJQXNXODN0WS1EU1NhcjhRRmFsMnpmU1ZDeWJpSDVtcTgyWUJrS1FFZjdidDFNMXZTcVh0a1R6NDjSAcMBQVVfeXFMTkJwTFdkaHppUUpEWXBNY3VaT09EYWd4RG5KcnZZdVNaUTltVWR1c0JwZ2Q5Ym5XQ3N2amtpRF9Ic3c3R3NaWEM0S1dueHlNVUJsdnp6eEp2cFc4OUptdDRKN3AwTHd6MUVuWHI4R1Q5U2x4Q2x5bXUxSDZFamFzejdmWG1YZndMZU9kSUFzVzgzdFktRFNTYXI4UUZhbDJ6ZlNWQ3liaUg1bXE4MllCa0tRRWY3YnQxTTF2U3FYdGtUejQ4?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-12T14:01:12.268290+00:00",
+   "outlet": "livemint.com",
+   "resolvable": false,
+   "title": "Blackstone-backed Horizon bets on India’s warehouse boom with ₹2,600 crore IPO",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNYTBJbjZYWlpyUlNlVGdsWDEtd2QzQWpnWmtpc1F3YktPRXZMaEJEbjNMNWpoYjV0OWdGbVVXZUpwUGZqMlFHQldMUlpFWjlQT1pXWDZUMnJTWUlmaHB2LW1pU19XLVdjemN6NzVkMDlnOXRHcGNjN3FJWlBKdEUxZE5nZEFZbU45Y195ZmszLXV2djdybl80SXR4TUswM0xRXzRDbXBQNDM3RkpEVzV6N0xUY0h6UFZIUWE1OGxEaFc0NV9kaEhqNmJmTGJrTmtyRGpnMjE4MlhFUGtj?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-12T14:45:13.728247+00:00",
+   "outlet": "Business Standard",
+   "resolvable": false,
+   "title": "Horizon Industrial Parks eyes next growth phase with ₹2,600 crore IPO",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNandMZFo4a0UzX01xa0R6NTB4dGgtUHNwTzBLMmxIc3NEdVh3NkRaMWFpV0oyZzBIN3ZMZVVSOUtxcGRTeGFCRlJwREFKZDJaQkw3V1FVQmNIWlRxbkR6X09lamM2dmh2aUpIU2ZsdThueDNiMUxNUVZRTi1qdkZDMmRBQWRmemp0MzJwekVGbjN1TkpZdFRPbXV6NjhoMTdmZzJIZ2Y5TmdXRldPS09OOTJUdElPQk1tS0JZc0JuRF9tYzlIcFEzQ0V2aXNWY1XSAdQBQVVfeXFMTmJ6Sm44eThJRkdxUEhZUnMxeFY1UnZnMFM1WjZreUpyMjJ1MDBVWTg2VnNvcVFITklHN1RqekMycUxLTjRiaTZvVExPaF82bDdiVlZDMVdMUkxCNUROTmM3cXNiUGE2QTU5cHAxOW9oOGFFMUMxbUlTSFJMRkE0Z0NhOFFkYnZDS0RreTZYNmNNSWVpUmlCRVlnUTg5NTJDNmhpUnZ3X0ZWUTNoM05PSldNRDFwd3gtYVJOakwtbHA3a0NwblVINzdzNk03MkVJUF9oNGM?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-13T10:31:20.404069+00:00",
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "Horizon Industrial Parks IPO: Check Price Band, Timeline & Key Details",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcExwUC00aUNhSHdlT3NJcHF6MGFBZ20ya0NvMmtTT0FjOXFnMFM2bnctaHZkRV9ULW9lYkVyb0ZIN19BVFhDR3VhNHZhQ0lDTk5jWmI3ZVI3TUlYYzJfNWhMNHRIT3BJbWkyX0pIMlI5RGZZeGJVRW80X3NGaEJ6aGxJekRaX0RCWUlDa2gxXzJpRkdmVFkxQnlad01oMUplbWhMeXFVcl9NcVVwSUt4NGZuX3o1Y2FC?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-16T07:46:32.417911+00:00",
+   "outlet": "Moneycontrol.com",
+   "resolvable": false,
+   "title": "Horizon Industrial Parks raises Rs 1,168 crore from anchors ahead of Rs 2,600-crore IPO",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPcDBmbmViRHliLTJVLU9RYjFCelVZRXFMU3E3U25ZalhnNkljRFVqZXFYOGlwZUNqb0dLWHRtVU9GTjZ4VTJncEpSdWJjSHU0S3BGdXBNR21XcWQxLUFJdE9rYVhyTW1EMkRVRS1nY2ZVSlFRZEFDQVNON001STNGWDhEZjE1ZVg0dlVPajk1REt0bFduYmplUk40VTRwYVd3WVhnUzRzMTRET3g2ZVZqbFFpMEF0N1NWczFsRUhSeHNLNGdrX0hlOHRRM3dPWG83elNYc3NLR2JQeHJZd05jR3BR0gHnAUFVX3lxTE0tdkVIWnZiaDMxTTcteURfR2RVSldMS0gtU3VldnJZWDRGNzFTcHlsd2ZsVEh1ZGZ0Q3V0QWFiNDREWjhEVUJxa25pMXNtVjlZUy1ScmxxX1lkSEFIdDFrT0dvVzlZcFpSeVoyaEtPaXFLUDQtWjkyNHY0Q2xjcXBTUW1iY1pkUHNmMVFzOWo5MURsc2Zkc0JYNklsbDJQcGhzYlkyVHBYZFozLTJIMFZnRkZIcEJuSzVnMS1wOGRCMkF1aDJGdFc0UnVsSkxZN1VKNnZCcUJiN2drT0UzdmFfUmxqaVhsaw?oc=5"
+  }
+ ],
+ "ticker": "HORIZONIND.NS",
+ "updatedAt": "2026-08-12T12:46:35.793608+00:00"
+}

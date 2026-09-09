@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Arohan",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-20T15:54:34.852420+00:00",
+ "dealType": "IPO-OFS",
+ "id": 407,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Arohan IPO awaited; Aavishkaar Group hits $1.3 billion AUM",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPSXg4b3hRdTB6YjVMRS1OOHIzbFZ3QWJ2ckpSSkdGNkJSbVlPQzFRcDU4WlhLS3pRcFFyNDhNZDF3RHE5MkprRGJmaFpFQ2xnUE9naW5RRWRmV3ZPaVpRN082QkdNcXZUcmVJM3JQeWEtcVpIbkJvTmowdExxQVcxWVZKT0E1UGxaV1djRWpuMW1LQ3o0emV5S083TFlFVG1DOW4tY3VXQVJsejgwNk5SbmVOa1JfOWk0QjAybEJxazNkZ1FidkRvNlFsUzEtYURaU0xELUpYLUQ?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-08-20T15:54:34.853825+00:00",
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "Aavishkaar Group Hits $1.3 Billion AUM; Arohan IPO Awaited",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPSXg4b3hRdTB6YjVMRS1OOHIzbFZ3QWJ2ckpSSkdGNkJSbVlPQzFRcDU4WlhLS3pRcFFyNDhNZDF3RHE5MkprRGJmaFpFQ2xnUE9naW5RRWRmV3ZPaVpRN082QkdNcXZUcmVJM3JQeWEtcVpIbkJvTmowdExxQVcxWVZKT0E1UGxaV1djRWpuMW1LQ3o0emV5S083TFlFVG1DOW4tY3VXQVJsejgwNk5SbmVOa1JfOWk0QjAybEJxazNkZ1FidkRvNlFsUzEtYURaU0xELUpYLUQ?oc=5"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-20T15:54:34.852420+00:00"
+}

@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": 3265.0,
+ "amountRaw": "₹3,265 crore block deals",
+ "buyer": null,
+ "company": "Eternal",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-09-01T01:32:38.818720+00:00",
+ "dealType": "block deal",
+ "id": 668,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "BNP Paribas and Millennium sell 10 crore Eternal shares for Rs 3,265 crore",
+ "primaryUrl": "https://inc42.com/buzz/bnp-paribas-millennium-sell-10-cr-eternal-shares-in-%e2%82%b93265-cr-block-deals/",
+ "seller": "BNP Paribas, Millennium Management",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-01T01:32:38.820063+00:00",
+   "outlet": "Inc42",
+   "resolvable": true,
+   "title": "BNP Paribas & Millennium Sell 10 Cr Eternal Shares In ₹3,265 Cr Block Deals",
+   "url": "https://inc42.com/buzz/bnp-paribas-millennium-sell-10-cr-eternal-shares-in-%e2%82%b93265-cr-block-deals/"
+  }
+ ],
+ "ticker": "ETERNAL.NS",
+ "updatedAt": "2026-09-01T01:32:38.818720+00:00"
+}

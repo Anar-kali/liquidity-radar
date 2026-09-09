@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "IDBI Bank",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-21T06:31:30.829789+00:00",
+ "dealType": "strategic buyout",
+ "id": 514,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Fairfax Financial to acquire majority stake in IDBI Bank from LIC and government",
+ "primaryUrl": "https://economictimes.indiatimes.com/industry/banking/finance/banking/india-to-give-canadas-fairfax-two-years-to-consolidate-holdings-for-idbi-bank-deal-sources/articleshow/133394993.cms",
+ "seller": "Life Insurance Corporation; Government of India",
+ "sizeBand": null,
+ "sizeSource": "mcap_plausible",
+ "sources": [
+  {
+   "attachedAt": "2026-08-21T06:31:30.831149+00:00",
+   "outlet": "ET Corporate",
+   "resolvable": true,
+   "title": "India to give Canada's Fairfax two years to consolidate holdings for IDBI Bank deal: Sources",
+   "url": "https://economictimes.indiatimes.com/industry/banking/finance/banking/india-to-give-canadas-fairfax-two-years-to-consolidate-holdings-for-idbi-bank-deal-sources/articleshow/133394993.cms"
+  }
+ ],
+ "ticker": "IDBI.NS",
+ "updatedAt": "2026-08-21T06:31:30.829789+00:00"
+}

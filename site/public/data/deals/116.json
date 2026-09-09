@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Mitshi India",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-07T06:31:01.385941+00:00",
+ "dealType": "open offer",
+ "id": 116,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "New promoter entry; open offer details pending.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOMDRQdFJHTFUxVE5oQS1UNXpjcDA2U01JTFctZEhOVFZveF9RdWFQRzMyb1VBV3doTW1lUWlQU0xBSFc0S2xRZkR5RXY1OFEwM1J1cHhaeHh2QjFsQ01oQWdMVDZTdnA4bXdtM0dJWGwtSXNFTFh2aHpFQVRZdGVQdjhaRTctcDkxcWFBdFFLQ1pmUDVSMVc5dklHNjhHU0F2Qmc5NmZ5MWlyR0FPUl9vMy13cWlKbDI1MkVyWFBPQXdndmo0Z05TTWlJVzRKVXZ3Um02SjJtYXQ4UEJHdElCNTNGTQ?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": null,
+ "sources": [
+  {
+   "attachedAt": "2026-08-07T06:31:01.385941+00:00",
+   "outlet": "Google News",
+   "resolvable": false,
+   "title": "",
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOMDRQdFJHTFUxVE5oQS1UNXpjcDA2U01JTFctZEhOVFZveF9RdWFQRzMyb1VBV3doTW1lUWlQU0xBSFc0S2xRZkR5RXY1OFEwM1J1cHhaeHh2QjFsQ01oQWdMVDZTdnA4bXdtM0dJWGwtSXNFTFh2aHpFQVRZdGVQdjhaRTctcDkxcWFBdFFLQ1pmUDVSMVc5dklHNjhHU0F2Qmc5NmZ5MWlyR0FPUl9vMy13cWlKbDI1MkVyWFBPQXdndmo0Z05TTWlJVzRKVXZ3Um02SjJtYXQ4UEJHdElCNTNGTQ?oc=5"
+  }
+ ],
+ "ticker": "523782.BO",
+ "updatedAt": "2026-08-07T06:31:01.385941+00:00"
+}

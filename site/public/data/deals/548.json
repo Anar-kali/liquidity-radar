@@ -1,0 +1,156 @@
+{
+ "advisers": [],
+ "amountCr": 7040.0,
+ "amountRaw": "$800 million IPO = ~7,040 crore INR at 88 INR/USD",
+ "buyer": null,
+ "company": "Avaada Electro",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-08-24T06:31:27.814774+00:00",
+ "dealType": "IPO-OFS",
+ "id": 548,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Avaada Electro plans $800M IPO after SEBI approval; promoters to cash out.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQWnB6NS1FbDhuTC1XMGhvTUVMMmZJNEtxOFlFTWkyZ3FHOFdRYlJyVm5QMjFkLVE3Skh1aWlVeDdHOEd6aHJWZFNQN0xDY2tCNzgxY05SRnQyV21PX25RWkpGaW1GR21IWEdTQ3BHSG5YMFhrLTdaQ2pOMHREdG5TOGd3Si1YZEVXem1NckJXZHhHWUpwdGs0X0UxeU9RT2dXQWk1UmYtdjNzcUh3Yl9lemsyUGtaa1docDFWQ2UzYmROUncyM2JONHB1dDhUUQ?oc=5",
+ "seller": "Avaada promoters/shareholders",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-08-24T06:31:27.815816+00:00",
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "Avaada Electro Plans $800M IPO After Securing SEBI Approval",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQWnB6NS1FbDhuTC1XMGhvTUVMMmZJNEtxOFlFTWkyZ3FHOFdRYlJyVm5QMjFkLVE3Skh1aWlVeDdHOEd6aHJWZFNQN0xDY2tCNzgxY05SRnQyV21PX25RWkpGaW1GR21IWEdTQ3BHSG5YMFhrLTdaQ2pOMHREdG5TOGd3Si1YZEVXem1NckJXZHhHWUpwdGs0X0UxeU9RT2dXQWk1UmYtdjNzcUh3Yl9lemsyUGtaa1docDFWQ2UzYmROUncyM2JONHB1dDhUUQ?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-24T12:31:21.156313+00:00",
+   "outlet": "Free Press Journal",
+   "resolvable": false,
+   "title": "Avaada Electro May File For $800 Million IPO This Month",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWjBaTEpfV3pJc21VUnZCTHF3WEdtUUxRMnIwZ2ZraVlaR2xwdkZYM050dmdqUmdsbjFPakxoRHJhMXhNcnlnTUI0ZFY1RXpwY0Q4SzhDem9RSXBIanM0ZUxpcE42Rml3aXUwYlhQVEd1QnJtcTA2WVV3VWhlVE1qVFpXeGZNd01YM1Rnd0FEcGotNU5LZVhzWDc0MNIBoAFBVV95cUxQODFoUDRfT2FhNXhUdDZVS1pUWHU1TjRTMUNLa2JIWkpRSG1fc004dUdQYlBTR3ZpczJSb2tmVmpkdkFlMUNCRzdfRlZpZzIwd3RRVWpJQ19VREFTY0gzdXN0MjZKNXluYzhBWko1NXFFaG9WZ256SjNXX01wNmdlSkpwa3BuQV9iS1hRQ3RhN2U2RHJIMEh3MVFoUjFaaHVs?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-25T07:31:18.189248+00:00",
+   "outlet": "The Economic Times",
+   "resolvable": false,
+   "title": "Avaada said to plan public filing for $800 million IPO",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVkFwYjB5dW9FSWp5WWUzaGV0aTh4all1UmZjQVpBR2xFOGZLeUpvRU1Bbm1iSGdaakNhQk1HU3BKeXIzUzFrSnlZczNzT2hCNjdIdFVsYXNzQTRmNm1lRW5KT2wwX3hhQ2x4NlFLcVdqZ1hFdTlaRktFd2dOandKSzJ4Nmo0RXctdi1rMkJZQjQteFp3cW96azFZRE9MeGxWcnR0eEl1OVJ6ZUM5ZFNkNG9SQmJ4aEZGUDdYVlUyLXZjV2fSAcgBQVVfeXFMTUVTWWJwdnBJWUdmTmotM0N6YXhlN282UldMTGs2aEhDUkVkWFc0WXdSOG12X1JzUHR3SzJtMWxqbVFZR20weGM2T3haQmMyaVhhRkUyVDhBQW0tenRtNmdaR2xEalFHdTkzTUJVQTFUOTFzZFVvQ2hJLUl1VmlLZm9sQmtnd2ZzYzh6YWVJdlB4WDE1YjlSQWptYWNubUc4RHJlVHBnZFJwU1JqeDhpTXBjTjJNNkNTeXZzZTlRQmowSkZtbVIyRTA?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-26T03:31:32.705340+00:00",
+   "outlet": "Moneycontrol.com",
+   "resolvable": false,
+   "title": "Solar panels maker Avaada Electro files updated DRHP for Rs 7,600-crore IPO",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPRDlaOGkweEhwanIzcER6TnRoUDMyRFNNenVhSjBmLU5wS3dsSWpCOGNCYWJqQ3ZPbmtRVkVtVnB6NVBzN3FianJkaXRFLU9iaVZTOFU0UmQ3QnFzMWZoNzR1Z1FOSkNpZVRYd1lMNFRVS2xCYkFTSDBYSTFlbG5pUkpqRnpaLXNEUlFjekVlQml2SGU5bG1ybjlhbGFsd0pZQjE1RjQ4b1V1RjlVYTZGeVRielRGVnE2YmhYZl96QnAzaEpkcGtmM1YyQXNKcmlNakHSAdcBQVVfeXFMTTNIdUJxNGRnTEdyVEh6MllrQVRNdWNlc2hGbXB2NVI4SmQ5ekx2UVBMS21NM2pJZ0NVc1JFS1pqbUxIemNvV3QxcGx3Qm5SbjJfQTA5NVpWakNGNGo1bXVBX1R5d1lONEJTSW5UWHpWdjNwbHlCZ2hWWHhEdWVmOExLSDMzNnhJYm01eFZ2X25YaEZaNjZtZk1Rd3BJSEpuSXlxb1M3UW5tSmVjMFpqanQ2RVIyTGhwZXNWXzE2eVY3ejNpeGRmbjhHQnVydlZORWp4RVNEZVk?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-26T03:31:32.707759+00:00",
+   "outlet": "NDTV Profit",
+   "resolvable": false,
+   "title": "Avaada Electro Cuts Proposed IPO Size To Rs 7,600 Crore In Updated DRHP",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVmNMX2lhbTkwUlZFX2VWVl9LbDAwQ1MwaTVMX2pBVGNUXy1FWEF3RS1MUmU5bW1ma1ZQNC0xWmd4TEpwSXRwVnRyejJ4cTBRMGtaQ0prbGlISUpsakRsRFR2SklxaF9sTlJCcV8xTDFwMmdPZUhyb0d2RWNxd3BtTkZVcFc4alMzUFNQMUdxZHdvaWdXWGN5YTlXN214Uno0cjdSU1Bfd1JRQUZIUHFfSmVaOEVjQdIBvgFBVV95cUxPWlk1dC1tQU9TOXJyeDRiNVhOVXVranJvMGNwXzE1YVpoTEpkS1dDMl8xZHhteXdWbkFudnU3QUI4S1cyZUl1SXVaa0xuLTNqRmgwdDFGMFN4SkRjWHYyMHpKVl9oQkJ5cFVybFYtWVNXcmNHYU9SVjZVVkZBNENNNEc1V3laUExfY3NWbXg0Ync5bU9McW5rWlFUXzVWbnN0Q3NoZFIzcEtyU0hQeXZ2M2hPZXl2bFV6YUdvRUtR?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-26T04:31:08.480793+00:00",
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "Avaada Electro Files Updated DRHP for Rs 7,600 Crore IPO",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZ0xveW9qRlFRWEFnSGs4TXNIZF9IVl9vWmdlNnhTLUI3c0tGaXJzV3poUzFOMjl5MnJIR1BnZFJkaExuZHhhTFBYT1pjX3RPaHpqaURUNF9IZndVWWYyRVRwU2lDaUJudDFGNDRNZm8zRFIwcVl1LW5wLW1LLVlhc3BXQjZIalJ1SHlFVUtEMXhPcXdmOHA4a0J0TS1kLWNOUjJ3amt5WGF4XzllUmRBMENJVVNKZEhnOFpSM1h4V0pYZw?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-26T05:31:12.397691+00:00",
+   "outlet": "Saur Energy",
+   "resolvable": false,
+   "title": "Avaada Electro Moves Closer to IPO With ₹7,600 Crore Issue",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPb1dzWTVSa3ZxNW5ZOFB1bGFwOHJlMndKWVZQeVVUOUs3eWxEdHYzZUdfTExPcHYzZkllN3JfVkxmb2U3SW1XeDdmbzNLZ3d5LUV1SGFfT214NmtzNHRickUxSGU3RVliVS1uVUxXUWlIazRKaE40TnJ6b1hwTFRjNmx3aDhmUS1CaWtPOUM0Z1Ryd0s2cTVoamZuZDdTUm1nanByYkcySlJnaEhmYkFn?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-26T05:31:12.399967+00:00",
+   "outlet": "ET Now",
+   "resolvable": false,
+   "title": "Upcoming IPO: Avaada Electro files updated DRHP for Rs 7,600 crore public issue with SEBI",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNZlRZc1dKNndhYW05R3g3UVlWS2JZMERXd2hEa3J0a2dSN1JrRGVqMWNjUVo3SEFqTGw3dDZpYVRxZzQ3UHBjZ09fT1VQRHB1c3dwVHNIMFFSamlRWWNFOVNKSWJ0bUVPRVJnSjFYTmtrSVZna3UzNmVLSGtaM1JXMmx0dUxzSllVVFNfNHFRRUJjN2F0M1B5Yzlqc2NPR2NadElGQjVmWnNhcnc0YmY2RDREQzljUFlsbFVuYl9jcWZrR3BRWnNNWElZNzZUVkJBOXRiTlNB0gHbAUFVX3lxTE5pQWNCa2xDVEFZM1lzLUFKeVVRLVRISnZuanNNR28zOEh3QTZRZGJab1BaczZLbkFpMGtmS3lkSzI3VEpwV2VuVk5vMmNtQTJRX3pMZ2RlbmtMUlNOeVg3XzF1VHpreE1rREtnY25CMWtLRkpEMEx4SE1uN2VETThtSkxqQU92cmJwRHRXbGZRR2pyZnNPOUxBVlhRTW5pdnBxek1xbUV1WENuSmIzV3NpUUdPenBCQ3dGd0REODgtTExZcFlKVTY0c3RadjVGSU9MbUczNDRLQkNsZw?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-26T05:31:12.402116+00:00",
+   "outlet": "Energetica India Magazine",
+   "resolvable": false,
+   "title": "Avaada Electro Files UDRHP for INR 7,600-Crore IPO",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRE9wcWI4Qlpib21Mbzh4LXpJQmdQVTEyQVh4SjIxU2Utd1hnR1JvWmFXM1ZtTElMTklZUUhpcENwNEQyTE9ZM2c5Zjhia19DdndWd1ZiSDZid01JZ01XMHNGNVR2NldDX2hubHNtUjhGMzZtWTc2cEtJOXJkRWNNck91SGlac3A0d3NiUXZaNHE?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-26T06:31:22.271395+00:00",
+   "outlet": "financialexpress.com",
+   "resolvable": false,
+   "title": "Avaada Electro IPO: Files updated DRHP for Rs 7,600 crore; Check 5 ‘must-know’ details",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNLUVTdzFUaDdGelJyZEdGamxtbVVtZFJqV0o2T3g3S0ZqcHh5dUoteXQ5aTZxT3Rqd3lDRHF0MjFiVzRKQktfZnU0Nmtja0xSakg3SktCZm1yc29IWVpYR1plaVFyZmRPYTgtbXd5a2xnYkFhVmQ3dWNkSmktcWxqTWk5Vjk2N0tUS3kxa1phbEhzSFVhSi1xQnJPbEJwYVZaNzlRellJeWtQenZBbWhndmt2SjlBRGdBQ1ZyQjRuU0JjYUl4bjVPblJUNnFDRTRpT3BwQnlXUTJxRzBL0gHcAUFVX3lxTE0tRVN3MVRoN0Z6UnJkR0ZqbG1tVW1kUmpXSjZPeDdLRmpweHl1Si15dDlpNnFPdGp3eUNEcXQyMWJXNEpCS19mdTQ2a2NrTFJqSDdKS0JmbXJzb0hZWlhHWmVpUXJmZE9hOC1td3lrbGdiQWFWZDd1Y2RKaS1xbGpNaTlWOTY3S1RLeTFrWmFsSHNIVWFKLXFCck9sQnBhVlo3OVF6WUl5a1B6dkFtaGd2a3ZKOUFEZ0FDVnJCNG5TQmNhSXhuNU9uUlQ2cUNFNGlPcHBCeVdRMnFHMEs?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-26T06:31:22.273514+00:00",
+   "outlet": "Free Press Journal",
+   "resolvable": false,
+   "title": "Avaada Electro Files IPO Papers To Raise ₹7,600 Crore; Plans ₹6,000 Crore OFS And ₹1,600 Crore Fresh",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPa0h6UU10TlJoSlB0VU1fZ2dZeHZPenEyWUt2MWtrNFpyVXNqNWt0VUx2T1NvQVBvVW9lTExZWUhBd1NCZk40MkdyQ01oUTZYM2VVdHVORjBFZS1pREpWaURRX2V2czk3Qm5xVUlmMjVuTGtmWTg1ak4xVFhJOGkyeHg3eHlpbkNCUGF1aU1wd0xVTzNIQ3l5d0VHS2RPRW9tQTFaRTNBamc2d3pncEIwM3JVVzRyVG8wQ3NtM0lqMzVLaWNOV2RqSkR3YWdyWC1iNnlQVVFCRdIB3AFBVV95cUxNX0ZPOW9kOXhfVGxxNkx0eUlDZUV4bHQ4YWdXR1I3aW8zd2hqMUZJNVREd05Pdnl1Yl8xNno3SlRKQkhnczFaUzlLcmtrUUc4ekdnSFV5emswYV9PM1BFcTZ4VEp2N3NyeUVzOU5RY0lTOEVwejRzT2RYcnNpZzdSSzhLZHhRTXIya1Izal9NUkdPbjczYVNwdWI4OVFnUDZhYTRGNzJVUjh6WlpLWWNIZXZxRDB2ZXJGa2YtOWF6bEptSGtRcVFsX0xIWUxTU2NobVhyZjk4MXhDWC1V?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-26T07:31:32.673230+00:00",
+   "outlet": "NiftyTrader",
+   "resolvable": false,
+   "title": "Avaada Electro’s ₹7,600-Crore IPO Has a ₹6,000-Crore Promoter Exit at Its Core",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUzhpb1B2enhlUlFwMzYxbExPWU5Yb0FSMUc5N3JvZndadC0wUk01OEpURmpuZjg5NXNjWnpBdFF2X3R3emcyMklEdHZ1UFRsTlpyY1daUjJBR2VfQTJOT2k1UXVIeUh3VzA0djFESjdaWlVzbTFadWwyQU5fQ1U4TXFzYnVRWmpRaHc?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-26T09:31:26.992474+00:00",
+   "outlet": "Business Today",
+   "resolvable": false,
+   "title": "Solar PV maker Avaada Electro filed DRHP with SEBI to launch Rs 7,600 crore IPO; check key details",
+   "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPVzBiWkdvZ2NfaEZMeWc1MFdJTHhaSmRMWW5YS01CRHo3WnlWVXk1OGVENkhPNVhoamtHUklUZUxnWVJVRThIU3hrUVhmUTE3M2FmWUE0Q05wNUFFWWQyU0ZSYURSX2RQRDF4U09WN0xRTlFhYUtBT2x3SFF6dmxyeDBMVFRWUjZUMkM2R2JVYm42TC1BN3hoLWlrZ0ZTdllHbUhLZ3ptcEFhQ3RXaTY0RVM1SHBXSUdCa2dRN0ppSlRfSEhFY1cxOVZfRnJ3R3RBMnE1LTNZbmRPeG1QeEFjcGtvT1NGcUVEdDZKUUVmSUh5dlV1S0VYY0xOVTHSAYICQVVfeXFMT0lNYmVaMVVOMTc5UF91cHJlTGdoa0dta0lNYnl3d2FQMGNYVmdtXzB4OG1YZThlTEpFQVZGWGtCS1J1Z3dOVTdETnptaS15ZEhPRTdQZFpYcjlJWnFXOEFFYVdCUnhWQVJnVEE3TjkwU094X3k5UnBwUERxUE45cmhpNUxfQTVsUl9vWGtFa29Xdnp2TDJBOENQa3Bxaml2RUwtUUo1UURXOFoyRUQ0MzlJVk5ldlowZGV2dkN2OUxwYkZTUVN4bEpPem9RMnQxenU3MDRMRUtTdVNYemNxRGFKN1JBTDcySy12NlQ2aE5yUThoMDJwNkotOGJaamYyUlVR?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-26T09:31:26.994524+00:00",
+   "outlet": "cfo.economictimes.indiatimes.com",
+   "resolvable": false,
+   "title": "Avaada Electro files updated draft papers with Sebi for Rs 7,600-cr IPO",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOclNZNHRVb0V5RlByanY2R3pzZGc4azZPMmRLUFRJNXhLakVESDRvQ29oa2tBV3pBYnN6dkRPRkRMU3dVZ0EyNmtua2d0cEpmUml0bFZDXzAxYjFscWZXSTNlMmxFRUNzQW96RGRlRl9HVWZ0djFfSVBYQXFNcVRmbGl6cFJ6b181U0ZvNEZZd1VreXFVOVJ2RTMyOGZjcEY3S3hFTWdxYW1PMUsxdzJjM0pGU082UVpkQWxaOXF6c3V4MGk1TjBuYjNKRGp6UFBBclBjOUtOeGV5eHBfM2o0ZGtn0gHiAUFVX3lxTE5yU1k0dFVvRXlGUHJqdjZHenNkZzhrNk8yZEtQVEk1eEtqRURING9Db2hra0FXekFic3p2RE9GRExTd1VnQTI2a25rZ3RwSmZSaXRsVkNfMDFiMWxxZldJM2UybEVFQ3NBb3pEZGVGX0dVZnR2MV9JUFhBcU1xVGZsaXpwUnpvXzVTRm80Rll3VWt5cVU5UnZFMzI4ZmNwRjdLeEVNZ3FhbU8xSzF3MmMzSkZTTzZRWmRBbFo5cXpzdXgwaTVOMG5iM0pEanpQUEFyUGM5S054ZXl4cF8zajRka2c?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-26T10:31:07.555635+00:00",
+   "outlet": "Livemint",
+   "resolvable": false,
+   "title": "Avaada Electro cuts IPO size to ₹7,600 crore amid valuation, concentration concerns",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZTVMaTZyZjhBT1pBN1AtTWFiNGk4cVdwdU5uYXJleFpKeFBRVFdkdVpjQXlIZWxJb2tOZndtSGtJdmh6N2lST3JiV04wOXhhOEE2aDFmOVBxUkRIamZBZE5uQ1hydmt4eU5lbjFpMmZIVjVPb2lTMWNtbVY4dFJTQU42LS1DNFJ1bUpzaEdKaHFrekVPQU5CTS1sb1kxT1BZcTlB0gGoAUFVX3lxTFBTeFRzcUNDUjllcWZQd2M2dGE3eHdUcHhnc2tjb2IyeUpEVnQ0bzMxMDdtMWNyTnV4MlBHV0pQOUxmUkduMkdJb3R5UncyVU9FTzhlbjEydHAzU1BmbHpMcDJaU19YUEJvT010MUpvZHVaSnFnLXBiM1pEV0FLZS11VnMyLXNPbllyRVVQWTZSQ0JDZDM3UEh5R3hXalY1QzFVZEhDNVowXw?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-26T12:31:09.319563+00:00",
+   "outlet": "Business Standard",
+   "resolvable": false,
+   "title": "Solar panel maker Avaada Electro files updated DRHP for ₹7,600 crore IPO",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZU9udDJJRHQ3N0xSNk5Sc2VrUFJhQXktcTM0UVRwM1hjWE16RUtORWxWSkVrbjRPNHZ1bmhlNXZ2NldiVWo2TTZ6WTg4M01wUmh3S0RXZWtJWGtxdDB5Vkx5ZndqM1BIZGxKazBxb0RxM2ttb20taVEzeHpBNExjTFg4S0l3dTI1Nm9URGktem8wTktxQVp5cFdua2w4bW9xS1MyeVlRYS1ZdFlOTDJ1TmtTU3AybkFhdk9VcHdjbWV6TjBGYjg0UUNRX2VTY1pJUVNWUWJGc9IB3AFBVV95cUxOeVVJLUNhMXRJZFdkdlVScjM1VlZpR25Yd2gzYlVoYmVTVXdNOFpOaFctUlRRRnNKdmJPWGNzel9BUzdWYmlFWVlTYnlZeS1sQzM4Wm5yc0tFd0d6NW5SZzZOS2owTTVFZnh3aXFSU1lEOVZSVXJyV0x3YTFRZVBoT3h6ZEdlczNNc0NhWVdFNEYtdEVDRFU1TnZsX2JZOV9jdVdhdGFaZ211UUhnQURJV2NQdUp5WmExaEUweWRNM29OaVJVcjJtMWFNRjNwa1hISDktNkIyQTY4ei1o?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-27T01:31:44.762666+00:00",
+   "outlet": "Google News",
+   "resolvable": true,
+   "title": "Avaada Electro files IPO papers with SEBI, eyes ₹7,600 crore",
+   "url": "https://www.thehindubusinessline.com/markets/stock-markets/avaada-electro-files-ipo-papers-with-sebi-eyes-7600-crore/article71393311.ece"
+  },
+  {
+   "attachedAt": "2026-08-27T05:32:16.473437+00:00",
+   "outlet": "Draft Abridged Prospectus.",
+   "resolvable": true,
+   "title": "AVAADA ELECTRO LIMITED - UDRHPAvaada Electro Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/avaada-electro-limited-udrhp_104034.html"
+  },
+  {
+   "attachedAt": "2026-08-27T05:32:16.476084+00:00",
+   "outlet": "Draft Abridged Prospectus.",
+   "resolvable": true,
+   "title": "Avaada Electro Limited",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/aug-2026/Avaada%20Electro%20Limited%20-%20Draft%20Abridged%20Prospectus_p.pdf"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-25T07:31:18.189980+00:00"
+}

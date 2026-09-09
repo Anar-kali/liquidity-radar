@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Fintech Company (unnamed)",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-18T07:31:17.139977+00:00",
+ "dealType": "block deal",
+ "id": 355,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Promoter-linked entity proposes block market trade of up to 4.98% stake.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPREV0cXdGQWNHdkdFajVTRjdCSm8yQlhKQjUyVHlvTlVqWDVJVFh0QnI2S256WkpUTWQ4Nlc5c0QyNXU5WEl2Yzd2aFdBTjVIQ0l3eUU2SS1pTE1yOGpuaHBJYS1fZTVoN010YTlaa3R0MGlPRmxIeUFzVFhyd2sxV0liT2U3UE13enVua3JUV3NBTzNSOGZyLVhFMHZBQTJRRjk4SlRlOTRZTmFMODBiVEk2Q1M3X2NUVnRRdHlyTGVjYi1YcC16MDB5X3pIaVRIZm5mSVBuVmk4MUw3U3hMM2gyWVpEbkVPdUxiUTJSUnZ2UFBaZnNOOUxR?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-08-18T07:31:17.141064+00:00",
+   "outlet": "Dalal Street Investment Journal",
+   "resolvable": false,
+   "title": "This Multibagger Fintech Company’s Promoter-Linked Entity Proposes Block Market Trade of Up to 4.98% Stake; Check Details",
+   "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPREV0cXdGQWNHdkdFajVTRjdCSm8yQlhKQjUyVHlvTlVqWDVJVFh0QnI2S256WkpUTWQ4Nlc5c0QyNXU5WEl2Yzd2aFdBTjVIQ0l3eUU2SS1pTE1yOGpuaHBJYS1fZTVoN010YTlaa3R0MGlPRmxIeUFzVFhyd2sxV0liT2U3UE13enVua3JUV3NBTzNSOGZyLVhFMHZBQTJRRjk4SlRlOTRZTmFMODBiVEk2Q1M3X2NUVnRRdHlyTGVjYi1YcC16MDB5X3pIaVRIZm5mSVBuVmk4MUw3U3hMM2gyWVpEbkVPdUxiUTJSUnZ2UFBaZnNOOUxR?oc=5"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-18T07:31:17.139977+00:00"
+}

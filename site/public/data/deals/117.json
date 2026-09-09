@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": 2000.0,
+ "amountRaw": "₹2,000 crore",
+ "buyer": "India Resurgence Fund",
+ "company": "Fine Edge Engineering (Ashok Iron Works engineering business)",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-07T06:45:50.335351+00:00",
+ "dealType": "strategic buyout",
+ "id": 117,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "India Resurgence Fund acquires majority stake in Ashok Iron Works engineering business for ₹2,000 crore.",
+ "primaryUrl": "https://www.livemint.com/companies/india-resurgence-fund-indiarf-piramal-finance-bain-capital-ashok-iron-works-fine-edge-engineering-iron-castings-11786082372683.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-08-07T06:45:50.335351+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "",
+   "url": "https://www.livemint.com/companies/india-resurgence-fund-indiarf-piramal-finance-bain-capital-ashok-iron-works-fine-edge-engineering-iron-castings-11786082372683.html"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-07T06:45:50.335351+00:00"
+}

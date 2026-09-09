@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "German Green Steel and Power Ltd.",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-24T06:31:27.802878+00:00",
+ "dealType": "DRHP filing",
+ "id": 546,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "DRHP addendum filed; IPO stage, promoters likely to cash out.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/aug-2026/german-green-steel-and-power-ltd-addendum-to-drhp_103895.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-08-24T06:31:27.803771+00:00",
+   "outlet": "Addendum to DRHP",
+   "resolvable": true,
+   "title": "German Green Steel and Power Ltd.",
+   "url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/german-green-steel-and-power-ltd-addendum-to-drhp_103895.html"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-24T06:31:27.802878+00:00"
+}

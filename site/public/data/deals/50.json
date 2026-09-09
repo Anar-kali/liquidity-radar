@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "Imarticus Learning",
+ "company": "Imarticus Learning",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-05T13:21:00.894869+00:00",
+ "dealType": "strategic buyout",
+ "id": 50,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Acquires Singapore-based BELLS Institute; no amount disclosed.",
+ "primaryUrl": "https://entrackr.com/snippets/imarticus-learning-acquires-singapore-based-bells-institute-of-higher-learning-12223587",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": null,
+ "sources": [
+  {
+   "attachedAt": "2026-08-05T13:21:00.894869+00:00",
+   "outlet": "Entrackr",
+   "resolvable": true,
+   "title": "",
+   "url": "https://entrackr.com/snippets/imarticus-learning-acquires-singapore-based-bells-institute-of-higher-learning-12223587"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-05T13:21:00.894869+00:00"
+}

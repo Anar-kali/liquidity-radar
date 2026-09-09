@@ -1,0 +1,44 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Horizon Parks",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-17T01:31:10.531242+00:00",
+ "dealType": "DRHP filing",
+ "id": 255,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Horizon Parks planning IPO; early prospecting lead.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQQmdabEVnRnFuS1B5akEyVm9BWTlfZnIyYnJyOGxPUjdtUllFSFlBbmN1WWV3LU4tQVZyWHZvQ2prNG1JNEJMV2ozb1ZPZmx2S0wxN2w3UkJCaE9LVUZBdkxzZ3VYMkl6WjFLclF0bzl6YlpvNHBEWDd5cmptdTJiRS16ZGJDRkU1VU9MaVRWRjBYVlRFY2NrZmUtOGZFUjdDU25qZGNJZi1sTmtnWXNSbmNhNHY4V1VneXh2Y2RNQUMwLVduLTZYN1dFVEE4SGFhaWx6dmhNUEZ3Z9IB3wFBVV95cUxNUzJ4ZnpWU3BLbE9HekhnRXVpUDlid3d4TnBiVUFKamxnMTZ6MWhFMGdnSURkOUFDZE5Qb1ZwVjAwSXhTODVSV3NteDNTNWg2a2FBTlpzTnRWWHo2YUVjR0ZldEVabXRPVzdVbmpaMlVOMmFob0FwaTJ6amhjMGM2c3lNZk95MmZyNktYU0h1N1BSZ3JxaTR4SXRfT052aURqYld6OFVNMC11LWxjOHoyTEJHY3pUX2JZVnY3a3R5djR1SllVdW53U2xZb09tRUotM0I1cU0tSndIaF9iZ05F?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-08-17T01:31:10.532215+00:00",
+   "outlet": "The Economic Times",
+   "resolvable": false,
+   "title": "Can Horizon Parks IPO deliver long-term growth for high-risk investors?",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQQmdabEVnRnFuS1B5akEyVm9BWTlfZnIyYnJyOGxPUjdtUllFSFlBbmN1WWV3LU4tQVZyWHZvQ2prNG1JNEJMV2ozb1ZPZmx2S0wxN2w3UkJCaE9LVUZBdkxzZ3VYMkl6WjFLclF0bzl6YlpvNHBEWDd5cmptdTJiRS16ZGJDRkU1VU9MaVRWRjBYVlRFY2NrZmUtOGZFUjdDU25qZGNJZi1sTmtnWXNSbmNhNHY4V1VneXh2Y2RNQUMwLVduLTZYN1dFVEE4SGFhaWx6dmhNUEZ3Z9IB3wFBVV95cUxNUzJ4ZnpWU3BLbE9HekhnRXVpUDlid3d4TnBiVUFKamxnMTZ6MWhFMGdnSURkOUFDZE5Qb1ZwVjAwSXhTODVSV3NteDNTNWg2a2FBTlpzTnRWWHo2YUVjR0ZldEVabXRPVzdVbmpaMlVOMmFob0FwaTJ6amhjMGM2c3lNZk95MmZyNktYU0h1N1BSZ3JxaTR4SXRfT052aURqYld6OFVNMC11LWxjOHoyTEJHY3pUX2JZVnY3a3R5djR1SllVdW53U2xZb09tRUotM0I1cU0tSndIaF9iZ05F?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-17T09:31:20.003692+00:00",
+   "outlet": "Trade Brains",
+   "resolvable": false,
+   "title": "Horizon Industrial Parks IPO: From Issue Details to Financials; Here’s What You Need to Know",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUVM2a3Y1dV9hNnVhYXVOQTAwQmRMMm9mNkN0QUdELTZ3Z0h0OUFHbUhwUG9kcXFJXzZwaDZOazVhUWQyY2dQLUFkUVhpSlFVek1UV3hUMEhLRGNVNmZ0WTZ3eEF6M3BFY2xVUFJ3ZlFtNDEtUFFSSV9JcDg5c0k2ellUN0pkMlM2ZDJKdHFrMEJPUnUxNHF5ZW5KLXBUaEgxcHdLbHdqbXVsd2VyS3B3NUZLVQ?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-18T10:31:21.329320+00:00",
+   "outlet": "businesstoday.in",
+   "resolvable": false,
+   "title": "Horizon Industrial Parks IPO: Growth Story, Valuation & Outlook | CEO",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOUWtkSW5WZkd6WkdsMmhHeDlpcVRtSmx3aV9BcmU3MkJWNFZYLURHQlQ2M3B1REpuUEIzVnpTeG5KOElKcEJwS29zci1WWjgxeTBvbFRsTDNwWS1NZjBEdTNaTmpxTG9ERDM2czJCeHJUc2E4U2YwYjJIMFBxTzd2UkZOd2k1OV8tNl90U3pkNG1tOUpYMWd4ZmI0MzhWZWNzOVliZGF4U2NJaDNCMHlNR2Z4RUNCbWcwNHJEUGRHemZNTW9NNHIxaDh1NTducVQ30gHWAUFVX3lxTE1fQlRBZzFHNVBDSWdSbTM5ZmxFaFg4RzRISEFZM28zOGdlUDZnTWkwZEJ6dTJhSEtWWlZOa2Zlb0dhd29nTkxyNHRMWmFMaVdDQ25YeVNkVURyOWMyYnJRclJxY1dhc2ZIZF95UzBTZFh3dkdESmFuYmthMkYySFVERTE4U3dyM1NfWnR0UVBadjR6YWpBczNFMnlTTFduVklKUHZQYXVTN3U3LS1yY3JsVDBpRnh0ZjBqbEJycVNtYkZZVVlfaWtIVlFWaGJOYlI2MDVuQXc?oc=5"
+  }
+ ],
+ "ticker": "HORIZONIND.NS",
+ "updatedAt": "2026-08-17T01:31:10.531242+00:00"
+}

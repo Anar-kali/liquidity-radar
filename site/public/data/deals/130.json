@@ -1,0 +1,37 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "YOGIJI DIGI LIMITED",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-08T09:49:06.967527+00:00",
+ "dealType": "DRHP filing",
+ "id": 130,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Yogiji Digi filed DRHP; promoters planning IPO liquidity event.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/jul-2026/yogiji-digi-limited-drhp_103106.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-08-08T09:49:06.968345+00:00",
+   "outlet": "Draft Abridged prospectus",
+   "resolvable": true,
+   "title": "YOGIJI DIGI LIMITED - DRHPYOGIJI DIGI LIMITED",
+   "url": "https://www.sebi.gov.in/filings/public-issues/jul-2026/yogiji-digi-limited-drhp_103106.html"
+  },
+  {
+   "attachedAt": "2026-08-08T09:49:06.970198+00:00",
+   "outlet": "Draft Abridged prospectus",
+   "resolvable": true,
+   "title": "YOGIJI DIGI LIMITED",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/jul-2026/YOGIJI%20DIGI%20LIMITED_p.pdf"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-08T09:49:06.967527+00:00"
+}

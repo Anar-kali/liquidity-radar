@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Yash Chemex Ltd",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-21T11:31:16.314562+00:00",
+ "dealType": "block deal",
+ "id": 520,
+ "individuals": [
+  "Paxal Shah"
+ ],
+ "listed": true,
+ "oneLine": "Paxal Shah disclosed substantial acquisition in Yash Chemex Ltd",
+ "primaryUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0D82A13D_F63D_4635_82FF_393EDDBAE9FD_164124.pdf",
+ "seller": "Paxal Shah & PACs",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-08-21T11:31:16.315745+00:00",
+   "outlet": "BSE",
+   "resolvable": true,
+   "title": "Yash Chemex Ltd: The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations, 2011 for Paxal Shah & PACs",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0D82A13D_F63D_4635_82FF_393EDDBAE9FD_164124.pdf"
+  }
+ ],
+ "ticker": "539939.BO",
+ "updatedAt": "2026-08-21T11:31:16.314562+00:00"
+}

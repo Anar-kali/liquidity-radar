@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": "$4 bn fundraise (subsidiary listing planned)",
+ "buyer": null,
+ "company": "Sify Infinit",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-11T01:33:11.394923+00:00",
+ "dealType": "IPO-OFS",
+ "id": 169,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Sify Infinit eyes $4 bn fundraise; plans IPO of data centre subsidiary",
+ "primaryUrl": "https://www.livemint.com/companies/news/sify-infinit-4-bn-fundraise-data-centre-ipo-debt-11786368517718.html",
+ "seller": null,
+ "sizeBand": "OVER_2000",
+ "sizeSource": "band",
+ "sources": [
+  {
+   "attachedAt": "2026-08-11T01:33:11.395838+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "Sify Infinit eyes $4 bn fundraise for data centre growth, plan for IPO holds",
+   "url": "https://www.livemint.com/companies/news/sify-infinit-4-bn-fundraise-data-centre-ipo-debt-11786368517718.html"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-11T01:33:11.394923+00:00"
+}

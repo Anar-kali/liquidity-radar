@@ -1,0 +1,245 @@
+/*
+ * Layout, transcribed from the design handoff. Two things are tuned and must
+ * not be "cleaned up":
+ *
+ *  1. Row height — ~86px narrow, ~72px wide. Density is the feature.
+ *  2. The ≤1180px row reshape. `.lr-sum` clamps to ONE line and `.lr-meta`
+ *     becomes a flex ROW so time and source count share a line. Getting this
+ *     wrong costs 20px on every row.
+ */
+
+@keyframes lrpulse {
+  0%,
+  100% {
+    opacity: 0.35;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+.lr {
+  background: var(--lr-bg);
+  color: var(--lr-text);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+
+.lr *::placeholder {
+  color: var(--lr-faint);
+}
+
+/* Generic link colour must not out-specify the coverage-row reset below —
+   the handoff calls this out explicitly as a gotcha worth carrying over. */
+.lr a:not(.lr-src) {
+  color: var(--lr-accent-text);
+}
+.lr a:not(.lr-src):hover {
+  color: var(--lr-accent);
+}
+
+/* ── shell ────────────────────────────────────────────────────────────── */
+
+.lr-shell {
+  display: grid;
+  grid-template-columns: 236px minmax(0, 1fr);
+  align-items: start;
+}
+
+.lr-rail {
+  position: sticky;
+  top: 57px;
+  padding: var(--space-6);
+  border-right: 1px solid var(--lr-line);
+}
+
+/* ── feed rows ────────────────────────────────────────────────────────── */
+
+.lr-head,
+.lr-row {
+  display: grid;
+  grid-template-columns: 14px minmax(180px, 1.05fr) 112px 164px minmax(240px, 1.35fr) 84px;
+  column-gap: var(--space-6);
+  align-items: start;
+}
+
+.lr-head {
+  padding: 0 8px var(--space-3);
+  font-size: 10.5px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--lr-faint);
+  border-bottom: 1px solid var(--lr-line);
+}
+
+.lr-row {
+  padding: var(--space-4) 8px;
+  border-bottom: 1px solid var(--lr-line-soft);
+  cursor: pointer;
+  border-radius: var(--radius-md);
+  width: 100%;
+  text-align: left;
+  background: transparent;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  font: inherit;
+  color: inherit;
+}
+
+.lr-row:hover {
+  background: var(--lr-surface);
+}
+
+.lr[data-density="comfortable"] .lr-row {
+  padding: var(--space-6) 8px;
+}
+
+.lr-amt {
+  text-align: right;
+  min-width: 0;
+}
+
+.lr-sum {
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--lr-muted);
+  min-width: 0;
+}
+
+.lr-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2.8px;
+  text-align: right;
+  font-size: 11.5px;
+  color: var(--lr-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.lr-clamp2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+/* ── coverage rows ────────────────────────────────────────────────────── */
+
+.lr a.lr-src,
+.lr a.lr-src:hover {
+  color: inherit;
+}
+
+.lr-src {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 11.2px;
+  padding: 8.4px;
+  margin: 0 -8.4px;
+  border-bottom: 1px solid var(--lr-line-soft);
+  align-items: baseline;
+  text-decoration: none;
+  border-radius: var(--radius-md);
+}
+
+.lr-src:hover {
+  background: var(--lr-surface);
+}
+
+.lr-src:hover .lr-src-h {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* ── drawer ───────────────────────────────────────────────────────────── */
+
+.lr-drawer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 560px;
+  max-width: 100%;
+  border-left: 1px solid var(--lr-line);
+  z-index: 41;
+  background: var(--lr-raise);
+  box-shadow: var(--lr-shadow);
+  overflow: auto;
+}
+
+.lr-filterbtn {
+  display: none;
+}
+
+/* ── breakpoints ──────────────────────────────────────────────────────── */
+
+@media (max-width: 1280px) {
+  .lr-shell {
+    display: block;
+  }
+  .lr-rail {
+    position: static;
+    border-right: 0;
+    border-bottom: 1px solid var(--lr-line);
+    padding: var(--space-4) var(--space-6);
+  }
+  /* The feed must load first on a laptop — a deliberate fix, not a fallback. */
+  .lr-rail[data-open="closed"] {
+    display: none;
+  }
+  .lr-filterbtn {
+    display: inline-flex;
+  }
+}
+
+@media (max-width: 1180px) {
+  .lr-head {
+    display: none;
+  }
+  .lr-row {
+    grid-template-columns: 14px minmax(0, 1fr) auto auto;
+    grid-template-areas:
+      "dot co type amt"
+      "sum sum sum meta";
+    row-gap: var(--space-1);
+    column-gap: var(--space-3);
+    align-items: start;
+  }
+  .lr-dot {
+    grid-area: dot;
+    align-self: start;
+  }
+  .lr-co {
+    grid-area: co;
+  }
+  .lr-type {
+    grid-area: type;
+  }
+  .lr-amt {
+    grid-area: amt;
+  }
+  .lr-sum {
+    grid-area: sum;
+    padding-left: 22.4px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .lr-meta {
+    grid-area: meta;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 7px;
+  }
+  .lr-drawer {
+    top: 8%;
+    left: 0;
+    width: auto;
+    border-left: 0;
+    border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  }
+}

@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": 8800.0,
+ "amountRaw": "$10bn = 10 × 88 = 880 cr INR (converted at 1 USD = 88 INR)",
+ "buyer": null,
+ "company": "Airtel Africa Finance",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-08-08T10:50:11.413216+00:00",
+ "dealType": "IPO-OFS",
+ "id": 139,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Airtel to list $10bn Africa finance business in London.",
+ "primaryUrl": "https://www.ft.com/content/3029a861-8d61-4939-a49d-2b4c05dab64b?syn-25a6b1a6=1",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-08-08T10:50:11.414143+00:00",
+   "outlet": "FT India",
+   "resolvable": true,
+   "title": "Airtel to list its $10bn Africa finance business in London",
+   "url": "https://www.ft.com/content/3029a861-8d61-4939-a49d-2b4c05dab64b?syn-25a6b1a6=1"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-08T10:50:11.413216+00:00"
+}

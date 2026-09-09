@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": 550.0,
+ "amountRaw": "Rs 550 Crore",
+ "buyer": null,
+ "company": "Pine Labs",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-09-03T01:31:52.695973+00:00",
+ "dealType": "PE secondary",
+ "id": 701,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Alpha Wave Ventures sells 3% stake in Pine Labs for Rs 550 crore.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNYWY1clNhcTNuVXZLSzFXaUFrNmJKZlRiQXF2akhUaDRsdlhYamkzWk1LWmlMdzlxVU1XT0kxR1dyNzRXU3pHQThKamM0ZTV4YUg1cmFIdWgwUktiYno3TUVUcUNDLUtmUFdwdHFSSFlveWhfVUhDZkRfSTFJYjBqTGFlQkkwV24wb2FnS2pFUTgyaEt6M29iVE1OMmNvTVk5enBkRFBFVDhNLUJpMml2M2VMekZUTTNITUczYjM5Mkd5dThGNktFbklfa19xX0loN1VMYkppODhjVnA2Wm0wX25PSnU?oc=5",
+ "seller": "Alpha Wave Ventures",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-03T01:31:52.697067+00:00",
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "Alpha Wave Ventures Sells 3% Stake in Pine Labs for Rs 550 Crore",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNYWY1clNhcTNuVXZLSzFXaUFrNmJKZlRiQXF2akhUaDRsdlhYamkzWk1LWmlMdzlxVU1XT0kxR1dyNzRXU3pHQThKamM0ZTV4YUg1cmFIdWgwUktiYno3TUVUcUNDLUtmUFdwdHFSSFlveWhfVUhDZkRfSTFJYjBqTGFlQkkwV24wb2FnS2pFUTgyaEt6M29iVE1OMmNvTVk5enBkRFBFVDhNLUJpMml2M2VMekZUTTNITUczYjM5Mkd5dThGNktFbklfa19xX0loN1VMYkppODhjVnA2Wm0wX25PSnU?oc=5"
+  }
+ ],
+ "ticker": "PINELABS.NS",
+ "updatedAt": "2026-09-03T01:31:52.695973+00:00"
+}

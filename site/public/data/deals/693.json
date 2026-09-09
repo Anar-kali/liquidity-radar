@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 20680.0,
+ "amountRaw": "$235 million claim = ~₹20,680 crore at 88 INR/USD",
+ "buyer": null,
+ "company": "Aakash Educational Services",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-02T08:31:23.439790+00:00",
+ "dealType": "other",
+ "id": 693,
+ "individuals": [
+  "Byju Raveendran"
+ ],
+ "listed": false,
+ "oneLine": "Byju Raveendran offers Aakash shares to settle Qatar Holding's $235M claim.",
+ "primaryUrl": "https://inc42.com/buzz/byju-raveendran-offers-aakash-shares-to-settle-qatar-holdings-235-mn-claim/",
+ "seller": "Byju Raveendran (founder, relinquishing beneficial interest in Aakash shares)",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-02T08:31:23.441271+00:00",
+   "outlet": "Inc42",
+   "resolvable": true,
+   "title": "Byju Raveendran Offers Aakash Shares To Settle Qatar Holding’s $235 Mn Claim",
+   "url": "https://inc42.com/buzz/byju-raveendran-offers-aakash-shares-to-settle-qatar-holdings-235-mn-claim/"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-02T08:31:23.439790+00:00"
+}

@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 885.0,
+ "amountRaw": "₹885 Cr from headline",
+ "buyer": null,
+ "company": "Shiprocket",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-05T13:21:00.709324+00:00",
+ "dealType": "IPO-OFS",
+ "id": 18,
+ "individuals": [
+  "Saahil Goel"
+ ],
+ "listed": true,
+ "oneLine": "IPO planned for August; loss reduction reported",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMFBRdmR1SEE5RGdrR1FDOGhDZERLWlBxZUZaR1FrQmg0SW5hY1ExbFpLbnRWOUNaT2ZtTm1lM0xHaWNZUTBBemkxOERDb1FybVJKYVFGZHB6eXUzLXdoTlFtbkhCMFZyQkhuWWhISFpJYlFXdE1WeWVBbUdJY2RXcWxPZjRRR1F2X2lnM3FieXVPc19xU0JPTTdXWldTalBmdXo1SlpCSS1wTzBsWkt4dC14bFVFajdIc0tPRUlSTDI0cnM?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-08-08T12:01:11.819196+00:00",
+   "outlet": "outlookbusiness.com",
+   "resolvable": false,
+   "title": "Shiprocket IPO: Who Is Cashing In, Where ₹885 Cr Will Go And What Could Go Wrong?",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMWpBcDNHUkZSYmc3OG5vQ3JlZS1GeWZZQUxQWnpsZ29LRjU3ci0wOUxnWFp1dVY0cDh4V1RwYjRMeFhiNEd4b01SMWprazA1TkwyaHVJaHFaYUNqUV9CYlI0dWZoSFFJR1phclowSlpPdXZKMGw4b2xSZUJYVExjNWtkNDVOTW8xUWRsWUpNcTAxdjlQN1JGUFExd1ZhMy1xVzRUV1BBVUpRNVVra0kyMXZneGY3b3lh0gHGAUFVX3lxTE1IMzhJLXF4SjVEQS1GdTV2Y1dWalJ6MVFDNGl6U09HUk10LTlRN0VWWkd3bk13cEJHdmRwUDhrZkhRRFFWRkQ5dHM2THVKcTBuWWZhTHFWV0VpZkhVWjNjWVJBNVJiSjdJeG0zdS1qT0xjQ2VkVm9MSlVWWTN2VGIyM3pmUm1oRS1CSkRQaFFIN1g5VmVnUnNUWmN2VXJiZ0tLUDk0c0JFTEZkc3BiX0VMdDNmUnFta2V1QWRBbGFNUTNvaTFGdw?oc=5"
+  }
+ ],
+ "ticker": "SHIPROCKET.NS",
+ "updatedAt": "2026-08-08T12:01:11.821236+00:00"
+}

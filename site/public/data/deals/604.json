@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Kataria Jewellers",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-27T11:31:20.202492+00:00",
+ "dealType": "DRHP filing",
+ "id": 604,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Kataria Jewellers files for IPO; promoter liquidity event.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQS0pOZ2lIeml0TmxLSzZaQ18yRDBqRnA1bVVOdzBaQXYyeEJDNGRLLXI2TDBKT2p0cndVcmNhMllYcmd4MDNVN0I5b2Zhb19YSTRvNkp6WndoSTJGQTh2SHFQVnBFV3VMVDR6TzNVM0tEU3hqdlNvZC1qNHhRY1VsWS1fRjdOQU1COTZGd2kyMFdZQ3VyNklCWUFVczREWW5zN0RZNzd1MjRpeTNUa1hFai1tOUJmZTB0ZVpWallRQQ?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-08-27T11:31:20.203425+00:00",
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "Kataria Jewellers Files for IPO to Add Two New Stores",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQS0pOZ2lIeml0TmxLSzZaQ18yRDBqRnA1bVVOdzBaQXYyeEJDNGRLLXI2TDBKT2p0cndVcmNhMllYcmd4MDNVN0I5b2Zhb19YSTRvNkp6WndoSTJGQTh2SHFQVnBFV3VMVDR6TzNVM0tEU3hqdlNvZC1qNHhRY1VsWS1fRjdOQU1COTZGd2kyMFdZQ3VyNklCWUFVczREWW5zN0RZNzd1MjRpeTNUa1hFai1tOUJmZTB0ZVpWallRQQ?oc=5"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-27T11:31:20.202492+00:00"
+}

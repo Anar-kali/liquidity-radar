@@ -1,0 +1,44 @@
+{
+ "advisers": [],
+ "amountCr": 370.0,
+ "amountRaw": "₹370 crore",
+ "buyer": "PNGJL",
+ "company": "unknown",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-20T10:00:10.893253+00:00",
+ "dealType": "strategic buyout",
+ "id": 402,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "PNGJL announces acquisition of undisclosed target",
+ "primaryUrl": "https://nsearchives.nseindia.com/corporate/PNGJEWELLERS_20082026152200_OutcomeofBoardMeeting.pdf",
+ "seller": "Rane Madras (or its promoters)",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-08-20T10:00:10.894332+00:00",
+   "outlet": "NSE",
+   "resolvable": true,
+   "title": "PNGJL: Acquisition",
+   "url": "https://nsearchives.nseindia.com/corporate/PNGJEWELLERS_20082026152200_OutcomeofBoardMeeting.pdf"
+  },
+  {
+   "attachedAt": "2026-08-20T13:31:07.289684+00:00",
+   "outlet": "The India Forum",
+   "resolvable": false,
+   "title": "Trying to Sell the Family Silver, Again",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE00V014X2tvVXJYVkdKZE5GREFkUC1rckZhZGR4X1ZtODU1M0pFZDJvMVQwbTRPMEFkd1NBOU8zeG5pTVp5azJST1RCU09zQ3N0R1Q3SXE4THp3dTR2VHdSYVYxVEJweXM3SWl2QzlzWEhYRDc1YlRr?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-21T05:32:32.478798+00:00",
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "Rane Madras Share Price: லாபம் **62.5%** உயர்வு! **₹370 கோடி**க்கு புதிய வியாபாரம் கையகப்படுத்தல்!",
+   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNajhHMTVMeWhudXhSVGRiOVFvTVNzU3l5R19qTGZKcEZieDNtYUJkQmdRa3BTc0R0eE9TOHVFUUhuSFBHWVBtUXVTTlBqZU1FTzFIMVByN2FBUWFnaTRnMm4yNGhIaXNLalpnU2p6NThaZXg1ZW1xdGo3Z2Z0QWlTcURhY2haVC1tck8xQU9LbEpPNVI0eS1jaF85SUtKVF9SbmRMZzVKUHRyczZTZE1zNnQ5QjhYbmI2NmZUZ2JFVmlFQUNvU1NKcmszWDVFRldBbVFKRVZuaUJSQnYzMEJQemJTQ25fZEVubmgwMGpocThQclAwc3c?oc=5"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-21T05:32:32.479822+00:00"
+}

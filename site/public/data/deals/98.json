@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "M.K.Sons Fine Jewels",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-07T01:47:18.247480+00:00",
+ "dealType": "IPO-OFS",
+ "id": 98,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "M.K.Sons Fine Jewels IPO date, price band, GMP details",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5Pak9seDloSjM3cWRRdnZwbWViYjZEWE5CU2ZPTUNVZGc0NEZkakdqUjRiaHlibjhHZjFmLWRVVUt3WFB3U0cySXBqc29lSmFFTVFuOXFLVl9SU3Q5YTJvRDRoNVZubEk?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": null,
+ "sources": [
+  {
+   "attachedAt": "2026-08-07T01:47:18.247480+00:00",
+   "outlet": "Google News",
+   "resolvable": false,
+   "title": "",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5Pak9seDloSjM3cWRRdnZwbWViYjZEWE5CU2ZPTUNVZGc0NEZkakdqUjRiaHlibjhHZjFmLWRVVUt3WFB3U0cySXBqc29lSmFFTVFuOXFLVl9SU3Q5YTJvRDRoNVZubEk?oc=5"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-07T01:47:18.247480+00:00"
+}

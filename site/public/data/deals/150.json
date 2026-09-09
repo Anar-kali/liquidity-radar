@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Gaja Capital",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-10T01:31:53.282025+00:00",
+ "dealType": "DRHP filing",
+ "id": 150,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Gaja Capital pivoting to deeptech; IPO awaits market debut.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNZHBEOFloWWc2a0RiS19yOVM0SmIwbWJIcE9scWxyM0NKNUFKUF9RZWYwZDZOenJ4LXhkeFFtYTRETG1BWHZFU0tqbEZ1dG44c1FlQmNPRmRFalR4ajQwM19LVlhLZGtIeFJxekwwdU9pTDF2YkRCaTVjZDQtSVdRWURnVFFHVmwtV3Rac0dsejk5ZGh0dVBjYlBUZjljel9uQW5FZ3J5UDN5bjNrSGxocWNnOW5mOGwxT29qRnNDSXY1TEJSdnhSYTRFRQ?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-08-10T01:31:53.283184+00:00",
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "Gaja Capital Pivots to Deeptech; IPO Awaits Market Debut",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNZHBEOFloWWc2a0RiS19yOVM0SmIwbWJIcE9scWxyM0NKNUFKUF9RZWYwZDZOenJ4LXhkeFFtYTRETG1BWHZFU0tqbEZ1dG44c1FlQmNPRmRFalR4ajQwM19LVlhLZGtIeFJxekwwdU9pTDF2YkRCaTVjZDQtSVdRWURnVFFHVmwtV3Rac0dsejk5ZGh0dVBjYlBUZjljel9uQW5FZ3J5UDN5bjNrSGxocWNnOW5mOGwxT29qRnNDSXY1TEJSdnhSYTRFRQ?oc=5"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-10T01:31:53.282025+00:00"
+}

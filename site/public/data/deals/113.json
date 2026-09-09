@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": 733.5,
+ "amountRaw": "Rs 733.5 Cr preferential share issue",
+ "buyer": null,
+ "company": "Nazara Technologies",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-07T01:47:18.320164+00:00",
+ "dealType": "other",
+ "id": 113,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Nazara approves ₹733.5 crore preferential share issue; new CEO stake",
+ "primaryUrl": "https://entrackr.com/news/nazara-approves-rs-7335-cr-preferential-share-issue-new-ceo-to-hold-467-stake-12235918",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-08-07T01:47:18.320164+00:00",
+   "outlet": "Entrackr",
+   "resolvable": true,
+   "title": "",
+   "url": "https://entrackr.com/news/nazara-approves-rs-7335-cr-preferential-share-issue-new-ceo-to-hold-467-stake-12235918"
+  }
+ ],
+ "ticker": "NAZARA.NS",
+ "updatedAt": "2026-08-07T01:47:18.320164+00:00"
+}

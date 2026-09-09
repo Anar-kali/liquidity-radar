@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Mahan Industries",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-05T13:21:00.774238+00:00",
+ "dealType": "other",
+ "id": 35,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "EGM corrigendum for preferential share and warrant issue; amount undisclosed.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNMko2ZGRsVThFa0dnUWdNRkxMbENiakZVRWhkMjloSDVVVTU3ekUzUWlJOVpGSmlQTElXUW9wa2FKSVp3SjlrZEdmclozVTZ1d2paUmtkZmZURy01cHpsc0ZZLV83czZCaW45aGx2enhVQ293ZW84ZDRsSW1DbXVIMU1fQVlOS012OXVTcWNQa0RwOFpRdjNxdWtneTVndm5GbDN6VUQtU2dGWmNhUEJ3V3c1Mk4xOEdlRWxXYWhpLWswaDBEMTk2TEthZUJGRTViNldF?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": null,
+ "sources": [
+  {
+   "attachedAt": "2026-08-05T13:21:00.774238+00:00",
+   "outlet": "Google News",
+   "resolvable": false,
+   "title": "",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNMko2ZGRsVThFa0dnUWdNRkxMbENiakZVRWhkMjloSDVVVTU3ekUzUWlJOVpGSmlQTElXUW9wa2FKSVp3SjlrZEdmclozVTZ1d2paUmtkZmZURy01cHpsc0ZZLV83czZCaW45aGx2enhVQ293ZW84ZDRsSW1DbXVIMU1fQVlOS012OXVTcWNQa0RwOFpRdjNxdWtneTVndm5GbDN6VUQtU2dGWmNhUEJ3V3c1Mk4xOEdlRWxXYWhpLWswaDBEMTk2TEthZUJGRTViNldF?oc=5"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-05T13:21:00.774238+00:00"
+}

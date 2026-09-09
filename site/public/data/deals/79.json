@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "DCM Shriram",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-06T06:53:26.331117+00:00",
+ "dealType": "other",
+ "id": 79,
+ "individuals": [
+  "Urvashi Tilakdhar"
+ ],
+ "listed": false,
+ "oneLine": "Promoter Urvashi Tilakdhar acquires 27.42% stake in restructuring, amount unclear",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRWZhRmxlTHEzcDFoRzlTa0J3d3BjN2hVMDI3a2dhaWFKQUpXblFpY0JTTUt6U2pSN3FCOXNMNjBPYzZ1REc1YXM0RnF3REpfVlI4eXEtSlJ0eVdMY1dsT1FXQkVzQ0MzZFBXOHhWb3RMMzhEa1VMNU9MRWxTVW45bXU2YjdIWEt0U3B5dDhhRlk4QXBWdlFvdDhzbzh3YjJ6RWdidlNUV1Ntb09QV1FzVHU0RTZHdWdNSXN0c3dpWnNjVFlUa1dN?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": null,
+ "sources": [
+  {
+   "attachedAt": "2026-08-06T06:53:26.331117+00:00",
+   "outlet": "Google News",
+   "resolvable": false,
+   "title": "",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRWZhRmxlTHEzcDFoRzlTa0J3d3BjN2hVMDI3a2dhaWFKQUpXblFpY0JTTUt6U2pSN3FCOXNMNjBPYzZ1REc1YXM0RnF3REpfVlI4eXEtSlJ0eVdMY1dsT1FXQkVzQ0MzZFBXOHhWb3RMMzhEa1VMNU9MRWxTVW45bXU2YjdIWEt0U3B5dDhhRlk4QXBWdlFvdDhzbzh3YjJ6RWdidlNUV1Ntb09QV1FzVHU0RTZHdWdNSXN0c3dpWnNjVFlUa1dN?oc=5"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-06T06:53:26.331117+00:00"
+}

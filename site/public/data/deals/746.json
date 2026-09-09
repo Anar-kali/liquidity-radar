@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "NoBroker",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-07T05:34:54.189773+00:00",
+ "dealType": "other",
+ "id": 746,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "NoBroker targets profitability in 8–10 months; IPO under consideration.",
+ "primaryUrl": "https://www.thehindubusinessline.com/companies/nobroker-targets-profitability-in-8-10-months-fy26-revenue-tops-1000-cr/article71434840.ece",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-07T05:34:54.190762+00:00",
+   "outlet": "Business Line",
+   "resolvable": true,
+   "title": "NoBroker targets profitability in 8-10 months, FY26 revenue tops ₹1,000 cr",
+   "url": "https://www.thehindubusinessline.com/companies/nobroker-targets-profitability-in-8-10-months-fy26-revenue-tops-1000-cr/article71434840.ece"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-07T05:34:54.189773+00:00"
+}

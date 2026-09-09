@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "One 97 Communications",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-09T07:31:37.245516+00:00",
+ "dealType": "block deal",
+ "id": 779,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "One 97 Communications block deal; shareholder exit reported.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQdTdWT0pDLWE0MkFreW9yQXlxOXQwY25OVndLYXFSVFZPOWtpRWxTakpXUFFzVVZfMEtObTlNaHQ5SlFKbnRWTUJWZnB0ZWNueU5xY1NLYlc1VnRJRm94NEdlY2pudnVBZmU3NzkxQlJDNWlDWGpqRndsdGJzNlZTQkNqT0V1a0pzWV9EanhvY3dHUl9wRmJyeEdUd0FrS1lVQWRrWEFFZW4zdS12S3pmZWhNOFhjV2E2bjd3Zm1SX3RObUM5NDZDLVdockMzemRhRkNWbVlEX2VNZ2FLUUJiX1dHdm55VEtD0gHuAUFVX3lxTFB6aEJUQ01aNkkwdGxSOTc0Yk9TYWVLUkw4dEhVWFk3TmM5cmRWQVQ3ZW5TQ2hnX3VGcHdfdHBSb1lieV9iQWNqSE9HNGZCUEM1S3piRE1YWklNbFZXcVctVTk5Yk1iLTBOUWJqblRuUC14akpxdjF1T0lneXFQeXUtM0xPZTI0cWc2TUdkNFg5ajJuMHFxOWFmY3huN3RvaXA4eVoycUstblBZVXZ6NVU0cTI0R2lWS1B6ZnZmMjNHd1BOQk0tSGxjaW1ONmkxNHZSMll6VlFnME9ERmQ4eTVvdDdaY0tZLVJvM2pRS3c?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "mcap_plausible",
+ "sources": [
+  {
+   "attachedAt": "2026-09-09T07:31:37.246928+00:00",
+   "outlet": "Business Standard",
+   "resolvable": false,
+   "title": "One 97 Communications jumps on block deal, AI business expansion reports",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQdTdWT0pDLWE0MkFreW9yQXlxOXQwY25OVndLYXFSVFZPOWtpRWxTakpXUFFzVVZfMEtObTlNaHQ5SlFKbnRWTUJWZnB0ZWNueU5xY1NLYlc1VnRJRm94NEdlY2pudnVBZmU3NzkxQlJDNWlDWGpqRndsdGJzNlZTQkNqT0V1a0pzWV9EanhvY3dHUl9wRmJyeEdUd0FrS1lVQWRrWEFFZW4zdS12S3pmZWhNOFhjV2E2bjd3Zm1SX3RObUM5NDZDLVdockMzemRhRkNWbVlEX2VNZ2FLUUJiX1dHdm55VEtD0gHuAUFVX3lxTFB6aEJUQ01aNkkwdGxSOTc0Yk9TYWVLUkw4dEhVWFk3TmM5cmRWQVQ3ZW5TQ2hnX3VGcHdfdHBSb1lieV9iQWNqSE9HNGZCUEM1S3piRE1YWklNbFZXcVctVTk5Yk1iLTBOUWJqblRuUC14akpxdjF1T0lneXFQeXUtM0xPZTI0cWc2TUdkNFg5ajJuMHFxOWFmY3huN3RvaXA4eVoycUstblBZVXZ6NVU0cTI0R2lWS1B6ZnZmMjNHd1BOQk0tSGxjaW1ONmkxNHZSMll6VlFnME9ERmQ4eTVvdDdaY0tZLVJvM2pRS3c?oc=5"
+  }
+ ],
+ "ticker": "PAYTM.NS",
+ "updatedAt": "2026-09-09T07:31:37.245516+00:00"
+}

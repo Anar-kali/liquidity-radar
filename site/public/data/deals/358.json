@@ -1,0 +1,58 @@
+{
+ "advisers": [],
+ "amountCr": 4000.0,
+ "amountRaw": "up to ₹4,000-crore IPO",
+ "buyer": null,
+ "company": "Torrent Gas",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-08-18T09:54:19.254031+00:00",
+ "dealType": "DRHP filing",
+ "id": 358,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Torrent Gas to file updated DRHP for up to ₹4,000 cr IPO.",
+ "primaryUrl": "https://www.thehindubusinessline.com/markets/torrent-gas-to-file-updated-draft-papers-for-up-to-4000-crore-ipo/article71359759.ece",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-08-18T09:54:19.254974+00:00",
+   "outlet": "Business Line",
+   "resolvable": true,
+   "title": "Torrent Gas to file updated draft papers for up to ₹4,000-crore IPO",
+   "url": "https://www.thehindubusinessline.com/markets/torrent-gas-to-file-updated-draft-papers-for-up-to-4000-crore-ipo/article71359759.ece"
+  },
+  {
+   "attachedAt": "2026-08-18T10:31:21.326235+00:00",
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "Torrent Gas Set To File Updated IPO Papers For ₹4,000 Crore",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQVDhTTUhlOThKZkJFN1lMa0htZldzc3pxbWZNSnhkeGtvXy1jUkUtS1k3X2R0VHBwV0lncm1oWjR6VEhOWmNxa085TEtqNlZjYU55NEZWQTJnaHdPVzA2czludms3VDFQWVlkNnZxU2NhaWxxYm5JNTJjZUxzZ2RCZDJmQ2xkSGNfQnVCelNYZjhTSlJKRDk3NkRnY0tZNnNHZF9FUURkYmdPdmFfTmNWR2J4VWx5VTRFRDhvQTJpMjZtYl9ja0l1YUc2SktZdG5LVGJacQ?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-18T11:31:20.089697+00:00",
+   "outlet": "Free Press Journal",
+   "resolvable": false,
+   "title": "Torrent Gas Plans ₹4,000 Crore IPO Draft Filing This Week",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQaFdCNU9kNWRBWW5LeFFaZjhJbmtULTMxeEpCdzAya0pZZ3VKV3NkaTJtWkx0WjlreGVzTUQ2bzBsNVQ4Q1pCRUFxTXBZdXk2Vm1NQ2hEbTRDSXdWNlM2M25KOHd0VG5qRUp4aDJKWmxxU19tV25WbXF5MUZuaUN1dlVVQ25JcTVEa2NUWFZLb1JwclFaeVdkUGJsOTnSAaIBQVVfeXFMTTRUN3Vpc19xS1RXX0lFNFlGTGNmVmcwVzhHc1lKS19LaXBrYkFlbGhMRmVQRlN3eW1OQW1QSldvTjR2aDF5TktiVmlSQzhqNkdFY3ZqbUVrQzkzNWdMb2tINDZ4ZzAxaVgwQmwzQm54QjdoUFhEQ2FtanRMRkoxblZMQUVYSm5kSnBKMmEyczN5M1NoeHcwTm1kdkpnem5pWDNB?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-18T12:31:11.319917+00:00",
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "Torrent Gas IPO: ₹4,000 கோடி நிதி திரட்ட புதிய திட்டம் - SEBI அனுமதிக்கு காத்திருப்பு",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxON1VZaGZMNExpaGJkU3R4VVNWY1c5Ung5TEVjV1phajhNdjlHd3VKQmVvaXUtaVlMVE1fVEFOSGZEb2plMG4zVEgwc2p1Z3BOSEgydFV3LXZYV1J2UER3UE16TnNUWWcwR2NPVUVRX3lOdVZ1ajVUd2xoSkM2WE9RU0JGV1FoZXRuM3VHem9vZkI2XzhtcGxVUVBMbWtHMEVVWVdjdmY5MTVsSmtQN2Rpbnh4QS1GTkpWS1hnUXZQOTBQcENZMkxhYUdWdW9JVEFJYkE?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-20T01:31:20.831070+00:00",
+   "outlet": "Reuters",
+   "resolvable": false,
+   "title": "India's Torrent Gas to file updated draft papers for up to $418 million IPO, sources say",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNazNQN0NqTEFWR1pscEpmRWl2dmItR2J2TnY4MThLNUZqVFJxWXhtRktJclNhRVlFM3BNNmE0dTdIRUZVTWd2N2lyTzlIWWRzQnEzbkF3R0pyX0tpU1dHZUJXb1lqLVJDUmlSaFJhUzRxNTB1bk5YSmNjNjBVdnkxamUzb3BxX2Z4YmNKN2R3RGxIRkc5R1hRRjQ4ckhIeHN6YW5jU2VaS1FhMVBiLXJjeFN3cEFVM3Njd1hmYjNxZF96dXhQSGc?oc=5"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-18T09:54:19.254031+00:00"
+}

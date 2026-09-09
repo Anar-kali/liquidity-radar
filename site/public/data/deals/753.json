@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Vinod Texworld Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-07T10:31:18.535351+00:00",
+ "dealType": "DRHP filing",
+ "id": 753,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Vinod Texworld prospectus filed; promoters planning IPO exit.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/vinod-texworld-limited-prospectus_104299.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-07T10:31:18.536248+00:00",
+   "outlet": "Prospectus",
+   "resolvable": true,
+   "title": "Vinod Texworld Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/vinod-texworld-limited-prospectus_104299.html"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-07T10:31:18.535351+00:00"
+}

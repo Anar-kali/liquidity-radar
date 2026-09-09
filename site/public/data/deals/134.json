@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Lohia Corp Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-08T09:49:06.989104+00:00",
+ "dealType": "DRHP filing",
+ "id": 134,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Lohia Corp filed prospectus for IPO; promoters likely to cash out.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/jul-2026/lohia-corp-limited-prospectus_103075.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "mcap_plausible",
+ "sources": [
+  {
+   "attachedAt": "2026-08-08T09:49:06.990132+00:00",
+   "outlet": "Prospectus",
+   "resolvable": true,
+   "title": "Lohia Corp Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/jul-2026/lohia-corp-limited-prospectus_103075.html"
+  }
+ ],
+ "ticker": "LCL.NS",
+ "updatedAt": "2026-08-08T09:49:06.989104+00:00"
+}

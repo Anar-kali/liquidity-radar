@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 6160.0,
+ "amountRaw": "$7 billion = 7000 million USD × 88 INR/USD ÷ 10 million/cr = 6160 cr INR",
+ "buyer": null,
+ "company": "OpenAI",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-08-11T14:31:21.799414+00:00",
+ "dealType": "PE secondary",
+ "id": 179,
+ "individuals": [
+  "OpenAI employees (unnamed)"
+ ],
+ "listed": false,
+ "oneLine": "OpenAI employees sell ~$7B shares ahead of potential IPO.",
+ "primaryUrl": "https://www.livemint.com/companies/news/openai-lets-employees-cash-out-7-billion-ahead-of-potential-ipo-11786456232588.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-08-11T14:31:21.800557+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "OpenAI lets employees cash out $7 billion ahead of potential IPO",
+   "url": "https://www.livemint.com/companies/news/openai-lets-employees-cash-out-7-billion-ahead-of-potential-ipo-11786456232588.html"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-11T14:31:21.799414+00:00"
+}

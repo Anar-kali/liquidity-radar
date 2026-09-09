@@ -1,0 +1,37 @@
+{
+ "advisers": [],
+ "amountCr": 3000.0,
+ "amountRaw": "₹3,000 cr IPO",
+ "buyer": null,
+ "company": "RSB Transmissions",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-18T01:31:21.968654+00:00",
+ "dealType": "IPO-OFS",
+ "id": 347,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Bain-backed RSB Transmissions begins IPO banker talks for Rs 3,000 cr",
+ "primaryUrl": "https://www.livemint.com/companies/after-dhoot-bain-backed-rsb-transmissions-begins-talks-with-bankers-for-rs-3-000-cr-ipo-oems-manufacturers-11786976307068.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-08-18T01:31:21.969577+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "After Dhoot, Bain-backed RSB Transmissions begins talks with bankers for ₹3,000 cr IPO",
+   "url": "https://www.livemint.com/companies/after-dhoot-bain-backed-rsb-transmissions-begins-talks-with-bankers-for-rs-3-000-cr-ipo-oems-manufacturers-11786976307068.html"
+  },
+  {
+   "attachedAt": "2026-08-18T02:30:59.587208+00:00",
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "RSB Transmissions Targets ₹3,000 Crore IPO with Bain Capital",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNZXdiWDdFZVloaXd5YWlUMXVwRURoVzBiSHJLenJPSHBRbGYtcnZKUEJrR2JrbUwzSlJTbEUwNnV3QmxuR0k1RU1TbmhFRDRDdGtKdlJRMDlGNGZEaFBLdkR4Z2xHUnB6M2xMemszWVF3cDVoNE1GY1BncE1PWnFSY2lBcjI5MWZNUGJGZVFvWS1QMGVVYklJX1VJakc3WlVidExZWjMwX05tdHp4RGhTazlWUUptTzU5OWxrbXNWUE1JMTlyTnB3WFl3Zkl0aFpEMWRWYVZSdw?oc=5"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-18T01:31:21.968654+00:00"
+}

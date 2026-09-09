@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "unknown",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-25T08:31:17.915429+00:00",
+ "dealType": "promoter sale",
+ "id": 569,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Promoters plan to sell up to 19.68% stake at 12.03% discount.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRTQ0WktZQVgzT2NPZGNFQXpicDRiTjJ5Z0h4azZ0OE8yQ050MHB3NWc1ejlxZXljTTVNSHJSVkdDdE1HaEdOcENBbnB6RF9BTHJMNmpIcWVlVGx0V1NaekFyb1QzQW9USXFEMHE1c3lYXzRXMzBJVHYwdzg5Rnc3d0ZQeGtOSW1ORWNWY1A2OGw2allnbEpzaXMzbnlYYms1clJTZWJ2elo?oc=5",
+ "seller": "promoters",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-08-25T08:31:17.916883+00:00",
+   "outlet": "Trade Brains",
+   "resolvable": false,
+   "title": "Stock in Focus After Promoters to Sell Up to 19.68% Stake at a 12.03% Discount",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRTQ0WktZQVgzT2NPZGNFQXpicDRiTjJ5Z0h4azZ0OE8yQ050MHB3NWc1ejlxZXljTTVNSHJSVkdDdE1HaEdOcENBbnB6RF9BTHJMNmpIcWVlVGx0V1NaekFyb1QzQW9USXFEMHE1c3lYXzRXMzBJVHYwdzg5Rnc3d0ZQeGtOSW1ORWNWY1A2OGw2allnbEpzaXMzbnlYYms1clJTZWJ2elo?oc=5"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-25T08:31:17.915429+00:00"
+}

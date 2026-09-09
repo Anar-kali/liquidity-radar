@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "CM Airtime Promotion LLP",
+ "company": "Chambal Fertilisers & Chemicals Ltd",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-13T07:01:18.602370+00:00",
+ "dealType": "block deal",
+ "id": 222,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "CM Airtime Promotion LLP acquires substantial stake in Chambal Fertilisers",
+ "primaryUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4363AEC0_471D_4423_A07C_5FAC4BDA65D2_121832.pdf",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-08-13T07:01:18.603758+00:00",
+   "outlet": "BSE",
+   "resolvable": true,
+   "title": "Chambal Fertilisers & Chemicals Ltd: The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations, 2011 for CM Airtime Promotion LLP",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4363AEC0_471D_4423_A07C_5FAC4BDA65D2_121832.pdf"
+  }
+ ],
+ "ticker": "500085.BO",
+ "updatedAt": "2026-08-13T07:01:18.602370+00:00"
+}

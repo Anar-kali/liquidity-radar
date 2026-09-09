@@ -1,0 +1,95 @@
+{
+ "advisers": [],
+ "amountCr": 1417.0,
+ "amountRaw": "Rs 1,417 crore",
+ "buyer": null,
+ "company": "Welspun Renewable Energy (WNEL)",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-24T01:33:24.628578+00:00",
+ "dealType": "strategic buyout",
+ "id": 535,
+ "individuals": [
+  "Vipul Mathur"
+ ],
+ "listed": false,
+ "oneLine": "Macquarie and RP Sanjiv Goenka in final bid for Welspun RE business",
+ "primaryUrl": "https://economictimes.indiatimes.com/industry/renewables/welspun-re-biz-race-macquarie-rp-sanjiv-goenka-in-last-lap/articleshow/133445937.cms",
+ "seller": "Welspun (implied seller in competitive bid process)",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-08-24T01:33:24.629555+00:00",
+   "outlet": "ET Corporate",
+   "resolvable": true,
+   "title": "Welspun RE biz race: Macquarie, RP Sanjiv Goenka in last lap",
+   "url": "https://economictimes.indiatimes.com/industry/renewables/welspun-re-biz-race-macquarie-rp-sanjiv-goenka-in-last-lap/articleshow/133445937.cms"
+  },
+  {
+   "attachedAt": "2026-08-26T01:31:46.478103+00:00",
+   "outlet": "The Economic Times",
+   "resolvable": false,
+   "title": "Welspun Corp promoter group, CEO to sell up to Rs 1,417 crore stake via block deal",
+   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNUkhIZDdIQ0trWEFZcVlnblE3RGhfRFNqc1BCakJZZHdNaDFHdmt1OXkwdXdjdDhOcWhDVWw4V2NfWTRrZXNjbTg2c01OMmNZaEExUXlWeUpDek1XS25lci01TTBqZG5IMThPaXdkdWlsZnB1LVllMUlXdXVReHpZajNIajlLN3ptaVRMbndndGV4ZXl4MkdRTHdUd1JwUDFxZVhTYUFkdUg3ejZXanJHc0JXTHlvQ0FtQ0k0ZUhNMldPSWRmR2FqOGE5bnlQSHZEUC1pelVFaV9Ed2V2N3pWUXFhaGhiZVBGTXVCTF9OVnhJcTBFWmfSAe8BQVVfeXFMUGNoTE1IVlkwaHhXTV9SZk1oZDF4T2lJTnRYTG1FenVabVg2Q2hLOFFsdTBzY1lUZmZjQ0w5WERiSEZOVko3SktwUjVGNmJfZ2c3UExyRkxTa0lWR2czM2FMT1NxRVRUQzhvSThoc0pmUnRHNGQyeU5UZlhkSk1yTDFmaWVrSXZmVEJNeVFWUjRJRFZjOTJsTEIzTDVxem4wb0pqZWxIbVRZNm1CM0VBeWpKWjJkdlp5TW1wNW4xQy1xTkVjNzVMbG8wa2FVM3Rnb1FScmI2ODVRMU1zY19DcUVHS0laMlc0N0F1bjRSVTQ?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-26T01:31:46.482375+00:00",
+   "outlet": "NDTV Profit",
+   "resolvable": false,
+   "title": "Welspun Corp Block Deal: Promoter Group, CEO Vipul Mathur To Sell Rs 1,400-Crore Stake",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPY1JjemlLMnRoSnFoNTkxWUxHOUFQeTFKQlVocFprSG9QNGNWSV85aVRSWWt0eDFtZy1aMFBaazEzUmgyNWRDWmpLV1dyVzJvZ2laS2sxek1NS2xIQ3E4TmN2MWZLOUY3Z3ZqVjNYWTd4OVk2Q0dqYm1GR0tVX0o5WS1FcE9zUDlMRjJCR2hpR2FoQXJWUXozT0lPb2laYWx5NUFTNlBrRkUzQmxFS0RyWXRMZXh4WHdMZGRxXzdKcEJBSS1nenpJ0gHPAUFVX3lxTE5FTlI1TW9jOHUzbnZham9JZGVkeDNRWTF4Um1VTWctYnczUXFPMl8tZzM2Z3FFLWJfZzcteFpUWDZORTdKdno0Tk9iUVNvUm9UUWhHeUV0NGx1WFRJTVVHU0lfYjFrVzFZN09ucmxoOWZTWkxaWlI4SW54SjVTdWZRRnA0a09yOEt3a3hFRUFxS0h1cFRFVmdIdThQcDhnNW8wWEtIaTZaa3o1TVFVakotZUVqUGlnbmpQdWJyWkx3Zk1nMFJzaGk3UXJMa1NRaw?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-26T01:31:46.485647+00:00",
+   "outlet": "TradingView",
+   "resolvable": false,
+   "title": "Days after record $1.8 bn order, Welspun Corp's promoter and CEO offer shares worth $149 mn",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPNjVmYnhnUkVzMEs4Tmk5d1R5eTFJTWw0RW5nbXc1ZjY3VDktVHdRUnJQSGtCbGZaSzFwNENEQTJTYm1UU19YZjJyWWNoRTdzQ0dHMElFTklQSXJXZkhqdjg3SU9rNXh1X3ZnNGc5bGdWY3haelBWa25ET3VQQlF5Qy11MTI3M1YwSmVvZWpFbU85LWJUM3RmMDEzR25YWUt0Z3RqR2VrVnZBcU9hcTNmZ2pDeHZtR2FhdHhXd005ZFh4UTZBajFjUFFLMHJVUDI0MHpDOXJON2ZMQUZSVWc?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-26T01:31:46.487877+00:00",
+   "outlet": "CNBC TV18",
+   "resolvable": false,
+   "title": "Welspun Corp promoter group, CEO look to sell 2.4% stake in ₹1,417 crore block deal",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQOExLYkc3UUZDWWJJLTQ3R3lzcmtvTXRMa1YzSEVxRzBSWVRXTlZkeXNkZzh4aURwTGxHdnpCdE15QXhDaHpkY2VhWEZOX05acEZLTFI2TENWdDU3ZVNzN01SNDhvbDFhNnVVcmxGMzF0RVFJeURQbFNlX3F2VWpRRWdycy1LU2NoWlR1YjFzd0htcmpsZXRmdXdLMl9FZ096QjZaZWtvQTFGWWs5RkQ5WktyTGtuV0VmUlZlNWJIbW9KMEdFX1gzR1FUcFZLdzQ3SExJ0gHTAUFVX3lxTFA4TEtiRzdRRkNZYkktNDdHeXNya29NdExrVjNIRXFHMFJZVFdOVmR5c2RnOHhpRHBMbEd2ekJ0TXlBeENoemRjZWFYRk5fTlpwRktMUjZMQ1Z0NTdlU3M3TVI0OG9sMWE2dVVybEYzMXRFUUl5RFBsU2VfcXZValFFZ3JzLUtTY2haVHViMXN3SG1yamxldGZ1d0syX0VnT3pCNlpla29BMUZZazlGRDlaS3JMa25XRWZSVmU1Ykhtb0owR0VfWDNHUVRwVkt3NDdITEk?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-26T01:31:46.493698+00:00",
+   "outlet": "BusinessLine",
+   "resolvable": false,
+   "title": "Welspun Corp promoters launch ₹1,417 crore block deal at 4% discount",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOM2lnNElwOUNTSkQyTktiTUZJSzZLb3ZlS1F5MzNPa05TY0FCbTlVMWlrby1CczhhMGE0NnhrYWpjbjhPc244OW9pNDdnN3cxMXNaZU44TFJrVTc5cFRJRnJUd1JCdW5xVE9HTTFIUG44ZDgxNzlya2FoVlgxWU9sbXVxLTRVa21PWllqN2tZT01TS3lXX2hNb2pSUEpmUk9keURjX2pFVy1BMXlXQmtoeGlVNkpyeUw2ZEpuT2dLRS1rOVozTm1DcXRB0gHQAUFVX3lxTE5pUzNISFotTHJ5S3JwOGlqYlJmcnpTZFBuczVOYUZacFpSeXYzZDJpNDF4cllLbEwtZDlPSVctVGpmckdZTHQ0MVczdWlpWFFoY2doWlhXWVZqaU03OUdJQU1FY3NaZ3BkZUY1MmJtZHM4RVJQWkRoeE00SHhJVjA0RHVuNHJNYmVaMFZ2Ykt6VXRQb2QzVVhUYWw4Q0kyVmt1VmpOVVhyYTQ1bGdYdkFLdUp4d0RiUjF6QldpbHc5cTBndXNoMlN6MFd0Rmtub0U?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-26T01:31:46.503157+00:00",
+   "outlet": "Zee Business",
+   "resolvable": false,
+   "title": "Welspun Corp Block Deal Buzz: Promoter group may sell Rs 1,418 crore stake; floor price seen at Rs 2,250",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPd0VQTjB2UmltSkVobHh6cUpEWDdMSGdvcXVMcmtyYnRTalB6ZkJrWEtta2ViSW5sLWs0cW5vTHZoa3Q2QW9xVjR4TTJ4MU1pZzZ3WXhxdTh5UGRDWmxBU0toc29ERDl1MUF0bms1V3dHaVBnY0ZfM1VTSFBNMHpFSDFnUWhzcDNGVTNBQ1Nma0ZlUUFiY24wYTBmVUJPblp2VklZRUQ5S2VYaHZHeElUT3NQcEpweEY4ZHJjRGlBdGtDcUdhR0YyTE80eXZ5SmJvdURxNmZnWXJHNnhqcnRMNQ?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-26T01:31:46.505374+00:00",
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "Welspun Corp Promoters to Sell 2.4% Stake for ₹1,417 Crore",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNQm1PTnE5Y0JqZ3FmT0xhbHNNOFdoWHlCV2pHelczdFhySlVLRkwycFB1TzJwXzNjeG40c2VHY3IwdXZZN0Y0OFgzUFdhanA5SkMyTmhubVBzRGd5ZVBaSlFkNEZwZ3g1NGx5YXlnZzJLYzA5cnlPRmhnZDgtcGN6RVR6elpDZ1JROE40MThVSEdwMDk4UUoyQU56OTRCXzFOVDl1aVRLdG1aMFRjYVVYdERBS0lodlF6Uk11WTE1VjA2SEd0OXBoVnYwZ1FzN3JvZktISGh2UWJnVThnV2p3ZEJfYjhtbWRk?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-26T03:31:32.696999+00:00",
+   "outlet": "CNBC TV18",
+   "resolvable": false,
+   "title": "Welspun Corp Block Deal: 2.4% equity worth ₹1,433 crore changes hands",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZmVJX0M1Mm1ERUhYSDNNS1N4MXZJczZpLTFNY0VGSWsyeEhjbWczSHNXa0lnWWdpOTIzNDhkako4alFKYnFnU0ZZTTdmeWFiNGVGUFo0V0dFRmxBc1hWNlU2Z0xRRzhHVF9MRU1LNkEzc1F0RHQtV0ZucGdCMHFWS2hzUzV4dkFrUGU4SDhSNWNPY2NJbFpVb1pxRWY4T1ZCdGFPZlBpLTJqZmE1R2lWX3p5Q1FJQngwb2UwOG1fak5DbW5IeWIwUjE2bm5TUE90VmNQStIB2gFBVV95cUxPamRkaFlacWlkcXpUVlRNSzlPX3Y2Tlh5ZU91UGg2NlJ2ZkhMd1dReEZOM0tZZG85ZGFzQUZrUWgxSlZpZGJFZlBGVzdqUlFFZ2N6T1hmYWVTQi1IOFJuNS1qa1ZQeVFZaVFOZ2VPa240aWhMbGNUME5DR0lvOElCUkVmMm1kSmpYTWxjQkMzc2RENktHbmt6aTlleE1DaGRkVHE1dktEQnhKWHhMUnJKeUtQYVlUU3N6MkVaX2ZrX2dtU0JMbUF2WHFhSTA0OWxpWWN4UGZ6SEh4QQ?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-26T04:31:08.464900+00:00",
+   "outlet": "Moneycontrol.com",
+   "resolvable": false,
+   "title": "Welspun Corp stock falls 4% as 2.4% equity changes hands in Rs 1,433-crore block deal; promoters likely...",
+   "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPTW5nU1pHbFBaV2NwMldGT1A3MUJqNjV1YjhROEYzMDU1SjJxYlRQZVdFZXFySmlzTkJzTER3amFyLXA0X3kzTHp4RjZIWlZVd1VlSjBGZUJyalZGZ1dVZU9ndUZSWjhXQW9yYVZMTHdTVU53RDFtNDBnMlhxa0FwcUlCdHh4eXliWHpTdTY1TmRjM3VOc2NIOXlVVTRKSEpCUlRfVkN3NzdFdExpdTA3VFVkVkZXbWpRTER1ZEpDbHhtVDgwNms0QjVoUkpTZ1JWTW92WXE4OFFpbnliV0dueTB3OUZ4bmtCN1RSdWU5MVhVVXBDeUJkTmtMMndXeGhDTEx30gGIAkFVX3lxTE1Pb19pc0hYVy1MOFpFYnlwSjlKVjdGN3lrTlFsbW1LdDNwODBEZFhXZHNqcDV0M2hTVy1PalIySUkyMUVSenJ2X1lDb1ZrRHhMR3J3V1RoeVFORkJydkJjT2ZvZkYzMVo2aTFIMmQ4S3A2OXotZGRKc09hZTA4UkxlWDlpUGV5bnVjaVBKU2Jnek9xb3hkZXUxQU4yZHh1RlZ4ZU14MVF1YjYxQW9VWWhGMXVneDdOVVZJbzc4MkpmVFBUZ3V3Rzkzd0VEeGZDbUhaM0xYZ3Y3d0tiUGxvYjhnZENISURucVlPVzhLOTlXS3haTHpXQ1BWSmgwU3lkVFBibk00Mjl0Nw?oc=5"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-08-26T01:31:46.483342+00:00"
+}
