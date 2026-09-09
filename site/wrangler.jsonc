@@ -1,0 +1,27 @@
+{
+  // Cloudflare's dashboard now routes new projects through Workers rather
+  // than Pages, so this deploys as a Worker serving static assets. There is
+  // no Worker script — `assets.directory` alone makes it a pure static site,
+  // which is all this needs: the page fetches /data/*.json at runtime and
+  // there is nothing to run server-side.
+  //
+  // `npx wrangler deploy` reads this file. It must sit next to package.json,
+  // so the project's "Root directory" in the dashboard has to be `site`.
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "liquidity-radar",
+  "compatibility_date": "2026-09-09",
+
+  "assets": {
+    "directory": "./dist",
+    // Every path serves the same shell. The app keeps drawer state in a
+    // query param (?deal=123) rather than a route, so this is belt-and-braces
+    // for a stray path rather than something the app depends on.
+    "not_found_handling": "single-page-application"
+  },
+
+  // Cache headers live in site/public/_headers, which Vite copies into dist.
+  // Workers static assets honour it the same way Pages does.
+  "observability": {
+    "enabled": true
+  }
+}

@@ -15,21 +15,31 @@ cron-job.org  →  GitHub Actions (radar.yml)
 There is nothing to keep alive. A domain is only a name; it needs a host to
 point at, and the host below is free.
 
-## Cloudflare Pages — settings
+## Cloudflare — settings
 
-Create the project from the GitHub repo (Workers & Pages → Create → Pages →
-Connect to Git → `Anar-kali/liquidity-radar`), then:
+Cloudflare's dashboard now routes new projects through **Workers** rather than
+Pages, so this deploys as a Worker serving static assets. There is no Worker
+script: `assets.directory` in `site/wrangler.jsonc` alone makes it a pure
+static site, which is all this needs.
+
+Workers & Pages → Create → connect `Anar-kali/liquidity-radar`, then:
 
 | Setting | Value |
 |---|---|
-| Production branch | `main` |
-| Framework preset | None |
-| Root directory | `site` |
+| Project name | `liquidity-radar` |
 | Build command | `npm ci && npm run build` |
-| Build output directory | `dist` |
-| Node version | read from `site/.node-version` (20) |
+| Deploy command | `npx wrangler deploy` |
+| **Root directory** (Advanced settings) | `site` |
 
-Then, under **Settings → Builds → Build watch paths**, set *Include paths* to:
+**Root directory is the one that is easy to miss** — it is collapsed under
+*Advanced settings*. Without it the build runs at the repo root, where there is
+no `package.json`, and `npm ci` fails immediately.
+
+Node version comes from `site/.node-version`, pinned to **22**. Wrangler
+requires Node 22 or newer; Vite is happy on anything ≥20. Pinning lower breaks
+the deploy step rather than the build, so the failure arrives late.
+
+Under **Settings → Build → Build watch paths**, set *Include paths* to:
 
 ```
 site/*
@@ -41,7 +51,7 @@ path every unrelated `radar.db` commit spends a build.
 
 ## The build-quota constraint
 
-Cloudflare Pages' free plan allows **500 builds/month**, 1 concurrent, 20-minute
+Cloudflare's free plan allows **500 builds/month**, 1 concurrent, 20-minute
 timeout. The pipeline pushes **~14 times a day ≈ 420/month**, and nearly all of
 those change site data, so a build fires each time.
 
@@ -59,7 +69,8 @@ cadence. If it becomes a problem, in order of preference:
 3. **Pro plan** — $20/month, 5,000 builds.
 
 Free-plan ceilings this deployment sits well inside: 20,000 files (we ship
-~620), 25 MiB per file (largest is ~330 KB), unlimited bandwidth.
+~620) and 25 MiB per file (largest is ~330 KB). Static-asset requests are not
+billed as Worker invocations.
 
 ## Caching
 
@@ -73,8 +84,8 @@ Free-plan ceilings this deployment sits well inside: 20,000 files (we ship
 
 ## Custom domain
 
-Buy the domain from any registrar. In the Pages project → **Custom domains →
-Set up a domain**, enter it, and Cloudflare shows the record to add:
+Buy the domain from any registrar. In the project → **Settings → Domains &
+Routes → Add**, enter it, and Cloudflare shows the record to add:
 
 - Domain registered *at* Cloudflare, or using Cloudflare nameservers → the
   record is created automatically.
