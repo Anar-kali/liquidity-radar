@@ -46,6 +46,20 @@ jobs:
           # variable. Unset/empty also means shadow (config.py's fallback).
           PREFILTER_MODE: ${{ vars.PREFILTER_MODE }}
         run: python main.py --mode auto
+      # Runs BEFORE the state commit so the export lands in the SAME commit,
+      # reusing the hardened push below. A second commit+push step would add
+      # another conflict surface against blockdeals.yml, which shares this
+      # concurrency group and also writes radar.db.
+      #
+      # A broken export must never block the state commit. Stale site data is
+      # cosmetic; unpersisted dedup memory re-alerts every cycle until someone
+      # notices (2026-08-16). So this annotates loudly and still exits 0.
+      - name: Export site data
+        run: |
+          python export_site.py || {
+            echo "::error::site export failed — site/data is stale this run"
+            exit 0
+          }
       - name: Commit state
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
@@ -54,6 +68,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add radar.db
+          # Absent on the very first run, and after an export failure above.
+          if [ -d site/data ]; then git add site/data; fi
           git diff --quiet --cached || git commit -m "state: radar run $(date -u +%FT%TZ)"
           # A failed push here (e.g. radar.db too large, or a real conflict)
           # must NOT be swallowed: it means this run's dedup memory never
