@@ -47,11 +47,11 @@ jobs:
     steps:
       # depth 1: radar.db makes the full history ~200MB and none of it is
       # needed to build a static site.
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           fetch-depth: 1
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
           # Wrangler requires >=22. Vite is happy on anything >=20, so this
           # is pinned by wrangler's floor, not the build's.
@@ -79,7 +79,7 @@ jobs:
           [ "$count" -gt 0 ] || { echo "::error::feed is empty"; exit 1; }
 
       - name: Deploy to Cloudflare
-        uses: cloudflare/wrangler-action@v3
+        uses: cloudflare/wrangler-action@v4
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
