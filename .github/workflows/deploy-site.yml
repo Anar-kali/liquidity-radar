@@ -30,6 +30,12 @@ on:
       - "site/**"
       - ".github/workflows/deploy-site.yml"
   workflow_dispatch:
+  # Called by radar.yml after it commits new site data. This is the trigger
+  # that actually matters: a push made with the default GITHUB_TOKEN does NOT
+  # start another workflow (GitHub blocks it to prevent loops), so the `push`
+  # trigger above never fires for the pipeline's own commits — only for a
+  # human's. Without this the site silently stopped updating.
+  workflow_call:
 
 # One deploy at a time. The pipeline can push several times in quick
 # succession; cancelling superseded runs means the newest data wins rather

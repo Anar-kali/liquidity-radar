@@ -23,6 +23,10 @@ permissions:
 jobs:
   run:
     runs-on: ubuntu-latest
+    outputs:
+      # Whether this run changed anything the website ships, so the deploy
+      # below can be skipped when it did not.
+      site_changed: ${{ steps.state.outputs.site_changed }}
     steps:
       # ref: main (not the default dispatch-time SHA) matters because this
       # workflow shares a concurrency group with blockdeals.yml, which also
@@ -61,6 +65,7 @@ jobs:
             exit 0
           }
       - name: Commit state
+        id: state
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
@@ -70,6 +75,13 @@ jobs:
           git add radar.db
           # Absent on the very first run, and after an export failure above.
           if [ -d site/public/data ]; then git add site/public/data; fi
+          # Record whether the site's own files moved. `grep -q` inside an if
+          # is safe under `bash -e`; bare it would abort the step on no match.
+          if git diff --cached --name-only | grep -q '^site/public/data'; then
+            echo "site_changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "site_changed=false" >> "$GITHUB_OUTPUT"
+          fi
           git diff --quiet --cached || git commit -m "state: radar run $(date -u +%FT%TZ)"
           # A failed push here (e.g. radar.db too large, or a real conflict)
           # must NOT be swallowed: it means this run's dedup memory never
@@ -88,3 +100,12 @@ jobs:
             fi
             exit 1
           fi
+
+  # Ships the data this run just produced. Separate job so a deploy failure is
+  # reported without touching the alerting pipeline's own result — by the time
+  # this starts, alerts are sent and dedup state is persisted.
+  deploy-site:
+    needs: run
+    if: needs.run.outputs.site_changed == 'true'
+    uses: ./.github/workflows/deploy-site.yml
+    secrets: inherit
