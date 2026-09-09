@@ -56,11 +56,14 @@ def init_db(path=DB_PATH):
             amount_cr   REAL,
             amount_raw  TEXT,
             individuals TEXT,               -- JSON list
-            -- Who RECEIVES the money. `buyer` is the pre-2026-08-21 field it
-            -- replaced; it is kept only so historical rows still read back,
-            -- and is never written to any more.
+            -- The two sides of the transaction. `seller` is who RECEIVES the
+            -- money and is the point of the whole system; `buyer` is context.
+            -- `buyer` was the original field, superseded by `seller` on
+            -- 2026-08-21 and left unwritten until 2026-09-09, when the website
+            -- gave it a reason to exist again. Rows created in that window
+            -- have seller but no buyer, and nothing backfills them.
             seller      TEXT,
-            buyer       TEXT,               -- legacy, read-only
+            buyer       TEXT,
             confidence  TEXT,
             one_line    TEXT,
             source      TEXT,
@@ -696,9 +699,9 @@ def create_deal(deal, path=DB_PATH):
     ts = now_iso()
     cur = conn.execute(
         "INSERT INTO deals (deal_key, company, deal_type, amount_cr, amount_raw, "
-        "individuals, seller, confidence, one_line, source, url, "
+        "individuals, seller, buyer, confidence, one_line, source, url, "
         "size_source, size_band, confirmed, created_at, updated_at) "
-        "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+        "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
         (
             deal["deal_key"],
             deal["company"],
@@ -707,6 +710,7 @@ def create_deal(deal, path=DB_PATH):
             deal["amount_raw"],
             json.dumps(deal["individuals"]),
             deal["seller"],
+            deal.get("buyer"),
             deal["confidence"],
             deal["one_line"],
             deal["source"],

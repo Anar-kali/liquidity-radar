@@ -222,6 +222,12 @@ def _material_updates(existing, result):
     if not existing.get("seller") and result.get("seller"):
         updates["seller"] = result.get("seller")
 
+    # Same rule for the buying side. Silent like the seller: knowing who pays
+    # does not change whether this deal is worth prospecting, so it updates the
+    # record without earning a second ping.
+    if not existing.get("buyer") and result.get("buyer"):
+        updates["buyer"] = result.get("buyer")
+
     return updates, "; ".join(notes)
 
 
@@ -289,6 +295,7 @@ def process(item, result, confirmed=False):
             "amount_raw": result.get("amount_raw"),
             "individuals": result.get("individuals") or [],
             "seller": result.get("seller"),
+            "buyer": result.get("buyer"),
             "confidence": result.get("confidence") or "medium",
             "one_line": result.get("one_line") or "",
             "source": item.get("source", ""),

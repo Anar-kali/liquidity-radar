@@ -484,6 +484,10 @@ def _normalise2(result):
         # with whichever counterparty the headline named, which for fund exits
         # ("General Atlantic sells...", "TPG exits...") was the seller anyway.
         "seller": result.get("seller"),
+        # Re-enabled 2026-09-09 for the website's deal record. The Telegram
+        # alert still does not show it — the seller is the point there — but
+        # the site's detail view wants both sides of the transaction.
+        "buyer": result.get("buyer"),
         "confidence": result.get("confidence") or "medium",
         "one_line": result.get("one_line") or "",
         "size_band": result.get("size_band") or "UNKNOWN",

@@ -551,6 +551,12 @@ cannot tell which party is selling, use null rather than guessing — a wrong
 name here is worse than no name, because it points the banker at someone who
 is spending money rather than receiving it.
 
+"buyer" is the OTHER side: whoever pays. In "IndiaRF acquires Fine Edge
+Engineering", buyer is IndiaRF. It is context, not the point of the screen —
+the alert still leads with who gets paid — so never let a named buyer tempt
+you into putting it in "seller". If only one party is named and you cannot
+tell which side it is on, put it in neither field.
+
 When no deal amount is stated and the company is not listed, estimate the
 likely total deal size as a BAND, never a number.
 
@@ -578,6 +584,7 @@ input item, same order:
   "amount_raw": "exact text the figure came from, plus your conversion, or null",
   "individuals": ["named individuals receiving money, empty if none named"],
   "seller": "the party RECEIVING the money (see above) — never the acquirer, null if unclear",
+  "buyer": "the party PAYING — the acquirer or incoming investor, null if unclear",
   "confidence": "high|medium",
   "one_line": "under 20 words: what happened and who gets paid",
   "size_band": "UNDER_100|100_TO_500|500_TO_2000|OVER_2000|UNKNOWN",
