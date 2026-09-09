@@ -1,0 +1,33 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Paramotor Digital Tech",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-27T11:31:20.199178+00:00",
+ "dealType": "DRHP filing",
+ "id": 603,
+ "individuals": [],
+ "oneLine": "Paramotor Digital Tech gets SEBI IPO approval; promoter exit coming.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVWVMbFB4bG5HNmhGRzU5WU9kSVl2aFdvWDBQc2dIWWFoYkc0Y0w5enFKUlRKd2J3LTNDZ3lSYkkzRnpzS0J4UlZTMHFlWmJPQlg5QU85ekVmUkJjUmQ1TmJNa1dyRkRUNHRTV1M4LXZFQkpYS0dsQ2ZOZDNfbTZXQnVRd2h6aHh2R2tEWnhuZ3pWUHV1bVJZY09BaXZQdUJvWWgwRkF1RzhkZEQ2bi1EUGNmTDNBSFVuTTJzWkRHUQ?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "Paramotor Digital Tech Gets SEBI Green Signal for IPO",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVWVMbFB4bG5HNmhGRzU5WU9kSVl2aFdvWDBQc2dIWWFoYkc0Y0w5enFKUlRKd2J3LTNDZ3lSYkkzRnpzS0J4UlZTMHFlWmJPQlg5QU85ekVmUkJjUmQ1TmJNa1dyRkRUNHRTV1M4LXZFQkpYS0dsQ2ZOZDNfbTZXQnVRd2h6aHh2R2tEWnhuZ3pWUHV1bVJZY09BaXZQdUJvWWgwRkF1RzhkZEQ2bi1EUGNmTDNBSFVuTTJzWkRHUQ?oc=5"
+  },
+  {
+   "outlet": "Google News",
+   "resolvable": true,
+   "title": "Fintech firm Paramotor Digital Technology secures Sebi's nod for IPO",
+   "url": "https://yourstory.com/2026/08/fintech-firm-paramotor-digital-technology-sebi-nod-ipo"
+  }
+ ],
+ "updatedAt": "2026-08-27T11:31:20.199178+00:00"
+}

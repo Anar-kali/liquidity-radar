@@ -1,0 +1,45 @@
+{
+ "advisers": [],
+ "amountCr": 400.0,
+ "amountRaw": "Rs 400 crore",
+ "buyer": "SBI MF",
+ "company": "Urban Company",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-08-13T06:01:27.038624+00:00",
+ "dealType": "block deal",
+ "id": 219,
+ "individuals": [],
+ "oneLine": "Urban Company block deal of Rs 428.4 crore (2.13% stake, 3.15 cr shares).",
+ "primaryUrl": "https://entrackr.com/news/urban-company-shares-rise-4-after-rs-428-cr-block-deal-12255963",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "outlet": "Entrackr",
+   "resolvable": true,
+   "title": "Urban Company shares rise 4% after Rs 428 Cr block deal",
+   "url": "https://entrackr.com/news/urban-company-shares-rise-4-after-rs-428-cr-block-deal-12255963"
+  },
+  {
+   "outlet": "TradingView",
+   "resolvable": false,
+   "title": "SBI MF picks up additional 2% stake in Urban Company; Accel India, Vy Capital, Bessemer Venture Partners offload Rs 599 crore worth shares",
+   "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxQQVhRTXYwYVZSMGVHSkxOM0dhaE5XbkhONlVYRXlvcXk4SjdIbEZqbTFCOXJuazc0Y1U0YjdvRW1YLW9waUVrOF9YTGdSN2VLSFoxVV95SkhFM3oyN3loRkJxRXZUZzlXYzctamlhamJoZnlRNkdoeXkwS2xQZkFUQzYwWUNobUN2dElLUU5wWkhydmhDOE5lVk5ZQVdmZ2FTMnpoNU1tN25XaTdOTUpkbWViZUlnR3NVMmpVZmpBbFVWVnFFYThOVElYc1p0c1NwZ3RYUy1sNDNCVklpeUgyenFaRkdxQTJiTGd5RHBtMU5pSXg1dUtEVUJwWTdxRl81UWI4T2E1UGR3V1hmendjTGpwZU1VQXJtR2VxUmt5dW82OW8?oc=5"
+  },
+  {
+   "outlet": "Business Standard",
+   "resolvable": false,
+   "title": "Accel India IV offloads 2 crore Urban Company shares, cuts stake to 4.84%",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQSFBRMmd2Y2FaemF0RFZyMWhpTXZtY0N6UlBZV1lSOTlGbC05aVl6N09KX3B0cmZ2LWttdXNZUnBVdjBTSzYtTmNGM3hScEhOM2tkdU9Wd2JWVVZaOVBHbWpleFNxZnRMRG81RUdzTmxoZnV5Z1Jrb194ako0dUhhaVpjcFRqNzdVWVhlVkNRWXRJd2xSNWhfeWRQZkJqMzZUdE1BRXlsQWVHSGY4V2VxTFdSZE51a3pZYVNFbnltamkzSU9tQnJMOUFRTnBFVGY2alBTV2JlQdIB3AFBVV95cUxPWmlfVnNJTlZnVDdkR2FYSTRZSGlTcE5CeEZKY01BdWY0T0RwZVZ3bG1oUWJIbWY2NzJ0NnFqWm9nQTJSV2x5dVVxZzhOU0FwckdwNkMyRVVURnZKVEw4WnU4VzBtbXg5cmhEc3JsWVo1bWdBbWdzVXY1Ny05Y3B3UmFrWl9RMm52eTFVcHpfdkJOcmN1NlVhWTM3emFuMXVwTGJTc1VLbk94WkpZcUx6bmhSSG5DczBoX3hiY2JvZnlHek5MVG51MEFoaG5DYmVWc3lheGV2OW40R0c3?oc=5"
+  },
+  {
+   "outlet": "Moneycontrol.com",
+   "resolvable": false,
+   "title": "Urban Company block deal: SBI MF doubles down with stake purchase over Rs 400 crore from Accel, Vy Capital",
+   "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQVWJXZG03MmVnZnZmeGxfQjJqS01sQ0FtZktPcldVYVdxMWtTYnppUlZ3RzdXOVBndTJ5TVJELUt2NGZCSVdjcjBnNUM3NzExaGZZdXc5cjdqNl9XdVlrdDFJenAwWHl5NFJaQVgzNUhZamNrZ0ZmRy1EWEVWN2xTY05xN2h6bU52TWR4Ym8wQUNMLVEtM2xVS1QxTGItTVBKaEpPazB3OTl6bXJ0SHV3RWxUb2Zla1lPYTEtYzllVE83eW1DbkVadHJROUtycG1LQ3VmNTRpdm1fbVQ5djA2TmFMNVRXdnFFZGZKX3Z1VVFGOEZNTzVlVFBYcnRwUdIBgwJBVV95cUxOY2FxVjZKb3h5elhvODdWckU4Z1hsNnVFOFVXbmxrb2hOSWFfR0p2NzNqbTQwYjVlUlBoYTB4MEJTeEQwajlKVDk2WVhxaUdvTmN3VE40SFk5REE1dkJDZkNHamV0cHNxV2lmaUh6aUhEekgzcXo5YU5QRUtDaFJvdFdpbzFGR2ZhUl96c2xCMlVHUy1xOF9CNnpuNEd3SmxjY3RzRjE2N0JWcGxxWGZuWHJfdkxuOGZnNkJhZ1BadGZSQ082TUlySnhWLXotRGV6LWxvcklvUC04NExSSXc1Sk54X1dpc2tOeVNwcTVKdVFUWGFhSkZCZUdvMklmNFcxT3hj?oc=5"
+  }
+ ],
+ "updatedAt": "2026-08-15T04:01:02.984124+00:00"
+}

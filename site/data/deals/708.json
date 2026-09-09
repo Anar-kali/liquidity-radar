@@ -1,0 +1,33 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Kanohar Electricals Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-03T05:32:03.163190+00:00",
+ "dealType": "DRHP filing",
+ "id": 708,
+ "individuals": [],
+ "oneLine": "Kanohar Electricals files RHP for IPO; promoters likely to have liquidity event.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/kanohar-electricals-limited-rhp_104224.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "KANOHAR ELECTRICALS LIMITED - RHPKANOHAR ELECTRICALS LIMITED",
+   "url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/kanohar-electricals-limited-rhp_104224.html"
+  },
+  {
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "KANOHAR ELECTRICALS LIMITED",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/sep-2026/Kanohar%20Electricals%20Limited%20-%20AP_p.pdf"
+  }
+ ],
+ "updatedAt": "2026-09-03T05:32:03.163190+00:00"
+}

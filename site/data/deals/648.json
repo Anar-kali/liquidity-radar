@@ -1,0 +1,27 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Ishaan Infrastructures and Shelters Ltd",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-31T03:31:19.417472+00:00",
+ "dealType": "open offer",
+ "id": 648,
+ "individuals": [],
+ "oneLine": "Open offer filed for Ishaan Infrastructures and Shelters Ltd",
+ "primaryUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/652B3099-0AAB-45F7-901F-0EB56231A120-081834.pdf",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "outlet": "BSE",
+   "resolvable": true,
+   "title": "Ishaan Infrastructures and Shelters Ltd: Novus Capital Advisors Pvt Ltd (\"Manager to the Offer\") has submitted to BSE a copy of Public Announcement under Regulation 3(1) and 4 read with Regulations 13, 14 and 15(1) of the Securities ....",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/652B3099-0AAB-45F7-901F-0EB56231A120-081834.pdf"
+  }
+ ],
+ "updatedAt": "2026-08-31T03:31:19.417472+00:00"
+}

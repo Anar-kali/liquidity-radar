@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": 800.0,
+ "amountRaw": "₹800 crore",
+ "buyer": null,
+ "company": "Style Union",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-16T08:31:00.398481+00:00",
+ "dealType": "PE primary",
+ "id": 251,
+ "individuals": [
+  "Rakesh Biyani",
+  "Ekta Biyani"
+ ],
+ "oneLine": "Style Union seeks to raise ₹800 crore; founders Rakesh and Ekta Biyani",
+ "primaryUrl": "https://www.livemint.com/companies/style-union-fundraise-800-crore-biyani-family-11786858224112.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "Biyani's Style Union seeks to raise ₹800 crore as value retail market expands",
+   "url": "https://www.livemint.com/companies/style-union-fundraise-800-crore-biyani-family-11786858224112.html"
+  }
+ ],
+ "updatedAt": "2026-08-16T08:31:00.398481+00:00"
+}

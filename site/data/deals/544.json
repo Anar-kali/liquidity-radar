@@ -1,0 +1,27 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "SPECIALITY MEDICINES LIMITED",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-24T06:31:27.793946+00:00",
+ "dealType": "DRHP filing",
+ "id": 544,
+ "individuals": [],
+ "oneLine": "DRHP filed; IPO prospectus stage, promoters likely to cash out.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/aug-2026/speciality-medicines-limited-prospectus_103897.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "outlet": "Prospectus",
+   "resolvable": true,
+   "title": "SPECIALITY MEDICINES LIMITED",
+   "url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/speciality-medicines-limited-prospectus_103897.html"
+  }
+ ],
+ "updatedAt": "2026-08-24T06:31:27.793946+00:00"
+}

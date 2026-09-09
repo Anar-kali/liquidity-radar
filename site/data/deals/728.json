@@ -1,0 +1,153 @@
+{
+ "advisers": [],
+ "amountCr": 30000.0,
+ "amountRaw": "₹30,000 crore",
+ "buyer": null,
+ "company": "National Stock Exchange",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-04T11:31:12.633538+00:00",
+ "dealType": "IPO-OFS",
+ "id": 728,
+ "individuals": [],
+ "oneLine": "NSE IPO set for SEBI approval; promoter liquidity event coming.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB5N1RuUExZck93bzloNHp4eVh2RjNJZmxKQ1RkTzBZSWxWRDRZZ2xNMkpQODRfbWt3WFRzRFdrLTdwQTVZR01MWGJGRzFnT2lzV1paRldn?oc=5",
+ "seller": "NSE shareholders / promoters",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "outlet": "NiftyTrader",
+   "resolvable": false,
+   "title": "NSE IPO Set for SEBI Approval Next Week; IFCI, NIACL Shares Soar",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB5N1RuUExZck93bzloNHp4eVh2RjNJZmxKQ1RkTzBZSWxWRDRZZ2xNMkpQODRfbWt3WFRzRFdrLTdwQTVZR01MWGJGRzFnT2lzV1paRldn?oc=5"
+  },
+  {
+   "outlet": "Fortune India",
+   "resolvable": false,
+   "title": "NSE gets Sebi green light to launch IPO; exchange eyes ₹30,000 crore issue",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQT2QwOU9QeU14OHYtdlBtZWpHN1dVdUp4RmhMb0dlX1JFOV93d1pwanNENFZ5dEhZV0NfdlU5MGRHYmlvdzc3Zm5uVnhVa3lMdmdvTlhpRlFVYkRTTU0xWmtGRm82ekxEQlo0STl2cGVXRGs1UHl1d056TEZobk5DNmRIb2Nydjd6ZUFPaEdXWFQ3ZHhvT3loY3dzYTdHdzRuZW1pZG9hc1lhWFhmR2JQYlVnSnNVWXdRd1FR0gHIAUFVX3lxTE5PMjMzOVk1WVpXbGFoZGxuMkV1NnlMVW9TRTh4b2lXNUNKVThESkFBcGZiY2Q3eE5XNm5Bb0tPaGZ1LXVfdlVxSTJLR3FKeGx2YmxTX0FfYVZTMGFQMzlzWFJKbm9maGFhX0tlNG40TUlDT0tPRFBfVmY2ZEFRQ05MbFBOMnE4cjNXWEZoSmVIaFVFR1pWNE5INVVZSzRjTnRjVzdabmt6SW12OURoN1BEZHpCOUU1d0FvTmFWd1RVMTdiVzN1aWFp?oc=5"
+  },
+  {
+   "outlet": "Moneycontrol.com",
+   "resolvable": false,
+   "title": "SEBI clears NSE IPO, observation letter issued; listing likely this month",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNbGFCWmxud1o1YzZseElwc0gxd3BnTTJkMThCR1F0NEFKcGtSakpiRlpuTVAyWi10YVFMOE5EeksyX3hJWFlRT05fclI0NGl6UGFxUzJ1b2V0dEpCM284eFBBSElYNHJRRHNQM0JFZmIxdS05MmlEV2RJYVJMaGlJNU1wakdldWE0NUFXLWNiS0JSd19ud1V6anpNWW41cWtKdUxURkd4cDljNko1SDlnRVJ0S09GQlEwOTlPc0c0d1NTOFZXRzRxY2ZOWTJ3bjl3a2fSAdcBQVVfeXFMTVFDYkM3SDFycWFyNjR3dkItZHFpNXZzRmhvSlU3LW5sNUdLUkZOSXFsUFNTSXYxOFdESWZlYzBqZnRCRjRtVFdRamh2eXpDV25FMXgxRlQ3bk91YnZZbFBNUVgzM2d3bUdQekZQMi1UMm1jLWxkeEh3NjdJWTBiYjQwakRydzRuVkdfd05rVEZmVlVHUTBWUUtTdmdfUDVyakpwSEsxYWNYbFQ1aE11NE1QUEszLWtwRFY2Rk5DNkFGenJSQ3E1SFB2czlLVDVXbV8yRnBfbW8?oc=5"
+  },
+  {
+   "outlet": "CNBC TV18",
+   "resolvable": false,
+   "title": "SEBI greenlights the much-awaited NSE IPO",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNFNGZi1USEFCbGJwR2dra05GT3pnc2dLNExPZ0FERnBvZlVmTVBDN1BTblRlQkxHNWFsd2IzSnVSZ0pvZWYwWnd1Y0g4c2hBMUt0OGt3NEI1WS1SZ2Z0NTZlbkZaNGRzcXo2QmFlRnlCWDBhR1hrc3JQVXNXWjk1UFNoWHZreDFRYV9XZGRabWJsQ1VsR0NPQUdRWW9BSTRucHZaNUhWYWdXU0FxWEU2OXZ30gG3AUFVX3lxTFBVU0Jyc3J5Wk10ZE0zUDBrRXViMkJ3M3lfSDZrbGZibkptZHE5UUJYVXNDWkZXMjBuejMzbVhIYXBZLUFaQk5CVVZBZ3Y5dHI1RUgtcGVoektuVEtFRUxxM3lZQWxULVNCYmQ0SldabzBLLU9VT2lmeGRoRG1uOUVLWS1rM1BqbHlUVUkzMlVTazhnd0xjdnZyMWZPbElNdWtKaXBqeDVldlV6a2hKWXVHa2o3eHVRMA?oc=5"
+  },
+  {
+   "outlet": "economictimes.com",
+   "resolvable": false,
+   "title": "Mega NSE IPO coming as Sebi approves Rs 30,000 crore public offer",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOOEcxTmhlNDI4TkZhSWhwWS1aS1ZGV3lQbjFoVFZOemp3bkJ4V05HVFRtY0V0RUlPcjZyWUJ5RHQzMlJiMFM2c3lOTTFibUd5NU40ZzBrZWwxazVJTmlNYTFrSnk2NU1BaVFRVG41ekkxZ2NpYW4xWjI4bXhnRGxWdzRwRVRiWkt6aGxmWUpFR2JaNzBhNjk3LXFjNS1ZQzBUYVo5WnRoU0g3MmMwYnRIZWVFZWtiRHJkbHQxXzZxMmFmUDVRb282N1F1bzFMR00tOXVPUTRhQdIB1wFBVV95cUxOOEcxTmhlNDI4TkZhSWhwWS1aS1ZGV3lQbjFoVFZOemp3bkJ4V05HVFRtY0V0RUlPcjZyWUJ5RHQzMlJiMFM2c3lOTTFibUd5NU40ZzBrZWwxazVJTmlNYTFrSnk2NU1BaVFRVG41ekkxZ2NpYW4xWjI4bXhnRGxWdzRwRVRiWkt6aGxmWUpFR2JaNzBhNjk3LXFjNS1ZQzBUYVo5WnRoU0g3MmMwYnRIZWVFZWtiRHJkbHQxXzZxMmFmUDVRb282N1F1bzFMR00tOXVPUTRhQQ?oc=5"
+  },
+  {
+   "outlet": "The Tribune",
+   "resolvable": false,
+   "title": "NSE gets SEBI nod for IPO, clears key hurdle for mega listing",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdG5fZ25IV0F0bG5TWHRZd2VkUTZYWTAydXhNMHZsV3RQMWY5akJFNU0xTkxYT2Jsa1gxRFdfMmVDYVFzUXIzYnc1bnZYaHFUMWlEV3JxbmlVSXFpZ1VJZ3JJX2RZSXJvaTNfcWl5MVgzZEFpMjViT1FDRUxFMW9XRlNBMFRpTzNiNUpWV1IxVjFfekhlZW1tMWJfQnN6eHRsRXQwd0JWZ9IBqwFBVV95cUxQdE9jX3F1X3FnQXA2aE9SaXB3SEI2WkEydjBzdW5kaHlwRlRPazFSSGlmMi1QQjJGM1FKWmFjYzhSYzhldks2WVVqRHZtVWtVMzllZXJlQkdSa1FmYlRNQnl4UklOeURVSmNIN0xuTTNwV1JuMVplNFRWZ082eE5QN3NtdXpXM0YzbW1XWEV1MUtCMXk3WWpyRWZqQmxvN2ZFNTZxMVhWN281aUE?oc=5"
+  },
+  {
+   "outlet": "NewsBytes",
+   "resolvable": false,
+   "title": "NSE's ₹30,000cr IPO gets SEBI nod",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNT1ZZOS03cXRCbHJIc0JNa3M4cmp2em56WnZSUFo1ZG5vYi1xR2ZlUEZNUE4yNDJ2NmEzRjNpX1g5N1JQa1FCaDh2MnJFOEZZeW0zWnpucy1pRFN0eFROcENpcnRCbUR6UmJNb0NYdzFnRjBRTkdnMm1SbVMxc19pLVFmVVJleTh3VVl1QllqZ2R5bXp0Z1dEaXV3RmY3RWZtSU1Ub2x3Rl91OFU?oc=5"
+  },
+  {
+   "outlet": "ET Now",
+   "resolvable": false,
+   "title": "SEBI approves NSE DRHP for IPO",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQ2NURFdMb0l2OXBmc2MydFJDSmxEdnkyLXB0OXBnOXZsQWdvRHVadVlWbGZzbHppLUpnaHM3a2UwbUpXdGppTVByWVVTaGxlcHEzRWRJdUNWd1l2dHd5NUpOd2ZEWkZUWUFWQjhTZnRIQWRVM1Q0WUl6Nlc2R1NxdXdWT3hKSjE3VGfSAY8BQVVfeXFMTV82N1VxSnNRM2Z1bEZOcThrNm9pNlVlVzZtem5helZWNHBoVnN5dlNCY2dIcjVIc2pCcGd4T3BBaTRvMWpKT0ppTzZFREJITzM1cHVJbUpoSFVRdU91dTNWYjlDbFlIams3OE5YSWlYdVREVTdUcjRQN2piUDZNQUNzQ19VUUhackFjNXRZNEk?oc=5"
+  },
+  {
+   "outlet": "NDTV Profit",
+   "resolvable": false,
+   "title": "NSE IPO Gets Much-Awaited Approval From SEBI",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdm5KMnJ3bnFRa0NLWHRFQ2E0c01vZWdRbFFuQ0t0ZzZPQXhWeGlCbHdBWWRmd243a2dobU1WNVlmZUp5R3dVS0xlU2R1ekY0SkxoZElTLUNkZmYxZGp6RGZQSGNPUmFnMGtidEhYYkdzRWZ5a3NoVjBsVnd4R1cyZmV1VDVMejFoX25ya0FTUHRKd9IBmgFBVV95cUxNR2h0eWVueFhTQkJBRkhXQzg1TmxUTE05aUx2NFNMY3Rxb3BOcFExc0hzbXdxRlllMFYwQjZSQkhLVnNrSnRhVW1nWVZzLWkwYTFQRVozbTU3RVFnM1ZCeDFyZzNkam42QjJpZFpTVHRwNTVqX0pHQ3hxYjJ0c21JUWJaR3VWMnNXd0FQOTQ4WmlHay1RYU5YeXFR?oc=5"
+  },
+  {
+   "outlet": "Free Press Journal",
+   "resolvable": false,
+   "title": "NSE Gets Sebi Nod For ₹30,000 Crore IPO, Set To Become Indias Largest Public Issue",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNaVo1ZTVXR25ranVqUkx3RnRKVzBjT3BYSlNTLVhfR1p3VUxDbVFxVVk3LWR0NzRURlpMeUk3S19KakhZTHJNUlAzbEN4SjcyYy13N1Y0UFI5S3hoRmVKaWZZb1g0eE1ubFNLWWFjUGtmblB2bThnZ2dmN1FSLVl3R280bWl2NjRvTmpzc1UyYkt0N1h0N3Z2VG9UTm5UYTl5VFE4dkxRT2o0c2JRb0R3ODViT2JoOThCUmx5MNIBwgFBVV95cUxQd2QteUFKSWQ5akp1MTNnWjV1OW9HNEVzajlBQXJxSFhrelZTZkVvcnVBNG9oY0R4VmNYZzBlOUJ6WnJKc29IZ2dKa3Z2VXpKYUVzRnNuWkhvbDZwT0s1QTVfZTJzU0t0bk9MdVUyOFV3SlZabGhzZW4yZHlGVlBjWFFiWWRrQ3VNN0JqUDV5ZHAydUNMV1dZbDdDT3ZFZDlYd3dKU1pVbS1MNll6T0EtQWJLdHZmd1U3Y0psdzdaYjltUQ?oc=5"
+  },
+  {
+   "outlet": "Upstox",
+   "resolvable": false,
+   "title": "NSE IPO: Stock exchange receives SEBI approval for ₹30,000-crore issue; all you need to know",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQc0RfajM1VUFSV1J2ei1KUVhQLWFDUkRQM3lJQ19fV0dDeFpoT2tSRlNPZjY3VnU3S0xnbmNIR2l5cUhHaUMta0RSbG4weWREeVZQazBGU3RiXzZhVVBnZzBSN2NIMkhrRzAxMXAwWnViQTBYTjNqUmZMNVU3WG91bUFZZEVDOGRpRDFsX0NCNnJ1OGdNYmZVWFY3bmc0UlhtZEZtVW9zcGx1RkRyMzlqSWdmVENra2lMV09NeXFWN2Jmc2p6ME8tNmxNb2NHQlQ5OXR6RWdDNVFpYjlNUUE?oc=5"
+  },
+  {
+   "outlet": "Moneylife",
+   "resolvable": false,
+   "title": "NSE IPO Gets SEBI Nod; ₹30,000 Crore Issue Could Challenge India’s IPO Record",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNWVIZzQzdUtYZnlidElnSWhzRGxSUkU1c1BRVWozRnlKYXN1NnlrbnFHQkVVUkJ3STJ4ZjN3UWdSYjNJZ0FHcS1wMW0tb0xyMjRwMElUTmt5UjV0TExvVXd3a2Q4S3lkZ0NFM2Z3WlRjeEQwSXNBOGV6WVJ5a2lMT2NSclVpSVVmaEdCX0UxVF9uSlRmYWVYeXlYeEpRQ2ZFRHI2WTdWcXlsb1BTX09RUjl0Tzhwd0JL?oc=5"
+  },
+  {
+   "outlet": "NDTV Profit",
+   "resolvable": false,
+   "title": "NSE IPO Timeline: From Draft Papers In 2016 To Co-Location Scandal And SEBI Approval In 2026",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPV29UTUtnMUFsOXMwSVVKZmdHWWlmZFRDSGtPaTVTNlFuRG1oeXVZNVZ2dVpXb0w3LVBfTEJqOUp6MzNXVjFtOFBWSjVRSUxyRVBCVk5GQ1pLc2dhOXhBVVlFdzVBaV9pZ1c0RUFSbXc3YVhVSHpJLVFMSDMweTg5V192MzB6a24zS2h1b3RRX0owNVc4WGN6eHFIZk43SjBWQ0xLR3NiU3VkR1pZNFVUblI2MDN1dWc4U1NielM2ckJtSzZSVTRzZXFObmVlOHdq0gHYAUFVX3lxTE44OTJWRnBVWkpEeFR4OVNGVm9KOW0zTU41TklsazQ3ZG5VRkQxZHhzNW9YS1d6VExNdDExbTZ2Yl9BR2M4MjJqVmt0VENoYk1QM3dqX2t6QW05eHJpWXNWVGhRcUdDOGw4MHRhRnl2Q2pxblVwNzI2cGo5QlhHQldZMHVwb3RHQVU1enN4N0NmalZ6S0VzcjhJQk1NOVNSX2V4Zkp0M0dUZnpfTlAwUlFraHRvaWlmN3Jkd0VfZGs5bWRwbXZldjFveUxCel9pV3lCVWdNMXdGNg?oc=5"
+  },
+  {
+   "outlet": "Livemint",
+   "resolvable": false,
+   "title": "SEBI approves ₹30,000 crore NSE IPO | Details here",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQczV2OU5vbnZBY2JDQTd6YV9hakY2Z0VBendiQ25VdlBkOFNHclVveVRfNXc4VmozbXF1VkFUSGlhV3lpTEhuYzFTWnNyeWJNaWJXMVhCZnJhOGZGaXhZZFA2Z3Z2amJHYzRHdnhzTWwxY3YxNUx0SzZYRi1UcXl0Z0hNZFdyWE43TUU1RUxaSGJkQmtjdDY0THk5bGltT1NWQVl0R0hB0gGrAUFVX3lxTE9EdFVQSVk4VTFFT0dYVElRRHBFbnJwaFh5WkxyTDhiNUExdE1oN0FjakozQkxXYUNWTV9wSGZEbFdjTmQ3UWh0ZFRZbmFwb0NIb2I0RnJ2N2EybG1yV0FJM3VKaERJSmFobm9XTGVBSWNINzl1NVNOSENTcjNNdHJBUFN1Zmg3a3huNF9yd2VVZEVVQm9Tby1PR2loV3BtR3lEUFRLMXJjVWZVYw?oc=5"
+  },
+  {
+   "outlet": "India Infoline",
+   "resolvable": false,
+   "title": "NSE IPO: SEBI Clears IPO papers; Issue likely to open this month",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQU0t1YmhqbEEweTZNNkZCbnNySVNSWlNseEZaaGxjNGs1cFNCck8zRUMwN2VwV1pHVUJNNlVQSzRhUWltRDNlWUlxbGl2bENYM0EtTElXRUFEMk1sQ0pISjlvR3plbDBFb1ZFMXRGeWRGUTBZdTF2Ul81OFBuVFUzY0dKX0YyUnFwN2FKRDBEcnlNaFNHSVp0T3RFRjhfLWxVcDQw?oc=5"
+  },
+  {
+   "outlet": "ETV Bharat",
+   "resolvable": false,
+   "title": "NSE Gets Regulatory Nod For Rs 30,000 Cr IPO, The Biggest So Far",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcWgxekdqNE93YUJkRzdaMGFCM1FJT0VHck9LQzZ2UU05bUl5TmVLenNlcEhUMkhFUVFzeWhUS3dsSUZMVEFmQV9iTVFqeXpQZEtBSmRzbWowejI5LVdfa3piSXQ1ZXAwczB2TGhPb2sxbEprZWR3NmdZRDJUdGZkRjZXRTY0Zk03czE0dGNfaEU3TW9IUUIxYXd4ZnVrWVhvcU02S3JrZFRYbDZfa0dBanJmVko0UdIBuwFBVV95cUxONVdybXpIcXBOQjZHejdzZkVhS3lMREV6NTZTck9abi1heVZlYVRaUXhkVWt2b2k1bkpDZHQxMktHTU5FRFhMNDgxWnduTlpVNEpJOTV2NlFXSXFsaERNa2sxanM0UUtXb1Ezd0R0bjEtMUlHcG03U3N0SnRCR1hHYk9CMHFxa2ZXUlBod0REbDFONkhIdF9aRUFLenpCVncwQUg0bFVIRG1UQjlLeFNOSUl5dFlBMk9RUERv?oc=5"
+  },
+  {
+   "outlet": "outlookbusiness.com",
+   "resolvable": false,
+   "title": "NSE IPO Gets SEBI Nod: India’s Biggest Listing Could Be Just Weeks Away",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVl8zclVhNnFTWkpMVFRzYnZrWjdDM25MSE52anNKRmNacmsxdUhtc2JuSXl4LU1WTGVZUGlqTVJTenJuUXJJMzB1SW9iZTM1YVVGWTEzcFRzWUVhYXJkZG5Ddkt2dF9sYUxibnEyMkZicWZwcWZvWktuYU5HV2phWkxCVDJBWU1uNkt1MHNENjEtS0dKY1lkZ1c0dzFNMTlkTC1jaTN2QXRscnZVc1HSAbsBQVVfeXFMT3cwMXl1dGFWV1ZnZ1FJNnBmZGM2U0pwY2ZXU3VMemVGYjQwZ2l0RGZQV3k2a2J1RWxsY19sUDJ0dXlwbkFWTWROaEMzY3laQ3JuREY1eGVyXzZfbFpvdU5pVFJrMkdxbXdmQXVfWDlPRHowVFdSQUl6QTR2Mmtjd2hqUFI1bHhrNHBpU1dEVThQN014ZmtMNmFHVWhkOURzb1p3c25Cd0dGX3BOeTZNMU5LdzMyR21Bb2lHNA?oc=5"
+  },
+  {
+   "outlet": "LatestLY",
+   "resolvable": false,
+   "title": "Business News | NSE Gets SEBI Nod for IPO, Clears Key Hurdle for Mega Listing",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPb2Jlb1o5V0F0M0NTSGJaTmdXOHh1VmlxWnJuMFdlSEJFa0F4WnlhQTFmWm8wMlFUOHRYbThwaktJQlVKc1hsRTNHYTVxbDNKcEYtaHJ5RTFRMXQyaGFqdmhnRFAxYkpTRlVXSjdGMUUyalYxZ01xU2U4RmZfQk1tWVN1U3BDRE5IeHJBMVM4MkxYdEVpVnJhQXZkVkVhQkFSR1Q3NS1SZ2tROVBkOEFPRVFkR1hZWmVQVmZVRjhNNW5UQdIBxwFBVV95cUxONkhBRGRiNDlTYUhicFVsZTNObTVDR2ZDbXcwcmZnUjBtUTYtVS1VdlduU1FUZHlxc2RPMlVFLW0xaHlTdWlwX1Vad1VvNDk2czM1RlpQM19od1cyRDV4dHh4clBMR0hueVpyWXlvYXBiTmdoY2NXMDdfNTQ0VndRUDNlQUx3MG9ybDJOVmFYLXV6bFdPN1M5STdwOWFaTkhRSVJPdFhoWkNjUVNZYS0zMXEzSTRQYUcwcS0wTWZNaEtTQVdRTWl3?oc=5"
+  },
+  {
+   "outlet": "newsdrum.in",
+   "resolvable": false,
+   "title": "NSE IPO finally gets SEBI nod: India's biggest exchange is finally heading to Dalal Street",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPYWdyNnMteng3dmZiTVpjTU8yUHJ0Vy1lWWpUMjdRLVY4MnJhS3BUcHRXTTdtRXh4Z0drY3lKTG1aLWg0Y2FLYTJncTVTZnF1MkxJOXUtRFI3c0pYRndaYzFVVDd1TnR5c1FOMkhJbGczQ3Z1Q0JIbWZKSkFGWXRlZkRZNzNpWDA2akZ1V0V2a3VnNmV1ZlFuU19mWHFmZVUyQ3RaNURlSHZiY1cwYzhCQ2VvU1JNTmhzdXlnRVRrcjU2Zm04WkFqV2xR0gHKAUFVX3lxTE9hZ3I2cy16eDd2ZmJNWmNNTzJQcnRXLWVZalQyN1EtVjgycmFLcFRwdFdNN21FeHhnR2tjeUpMbVotaDRjYUthMmdxNVNmcXUyTEk5dS1EUjdzSlhGd1pjMVVUN3VOdHlzUU4ySElsZzNDdnVDQkhtZkpKQUZZdGVmRFk3M2lYMDZqRnVXRXZrdWc2ZXVmUW5TX2ZYcWZlVTJDdFo1RGVIdmJjVzBjOEJDZW9TUk1OaHN1eWdFVGtyNTZmbThaQWpXbFE?oc=5"
+  },
+  {
+   "outlet": "EBC Financial Group",
+   "resolvable": false,
+   "title": "NSE IPO Could Top ₹30,000 Crore After SEBI Approval. Will It Beat Hyundai?",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9aUjBHSVBJakxFZ0dEM003dFZVa1lwUmxURkhIYjZKenRlbm1GQUwydVV2QjhkUjBzM1FVdDFJSk04SEphTVhBajJiZzZRcjVuRENiSXd0bTNNeEI0WDJMa3JLampUVnR6Z1BCLQ?oc=5"
+  },
+  {
+   "outlet": "newsbytesapp.com",
+   "resolvable": false,
+   "title": "NSE plans ₹30,000cr IPO selling 6% stake, SEBI approves",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNekRxZ2hFQ2RDME1GWGViaWtWZVFQelkxaVdZSnJPWGp2ajJfU3VxNlYwREJoVWdlNERJQS10bEY1Wi0yREpoVVU1UHp6Y2E0NUQwaUI5ODkxRGxLNXFQeXhYaFRxaUdIY0k4SnNhNU53RUxzcmxvS0V3Y3pmazFMUTY1V0YzMDMtakFfLTJrWDVxMkdrdmZWdDNVSkFFVE5kcUg0?oc=5"
+  },
+  {
+   "outlet": "NewsBytes",
+   "resolvable": false,
+   "title": "NSE IPO to raise ₹30,000cr, valuation could touch ₹5 trillion",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPcVMxMm5RUFM0OW5pRkN4U3lLZXdWNXpYNmxwc3BENVNEYzNuTUNDVEtidWY4UHplN0xESWxmamJ5S0xqNFRyX3dYSFFhLTFlUm1HYzlOSFNYX0dEQ3FmRHdjcWlRR0ZrOEdHOWYxY29KblZzSlJXcW9ubFR5R3I0YTNzcDJvYkQ2OUhUZ2tn?oc=5"
+  }
+ ],
+ "updatedAt": "2026-09-07T07:31:17.907316+00:00"
+}

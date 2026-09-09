@@ -1,0 +1,27 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Hero Motors Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-08T09:49:06.947381+00:00",
+ "dealType": "DRHP filing",
+ "id": 126,
+ "individuals": [],
+ "oneLine": "Hero Motors filed DRHP corrigendum; promoters planning IPO liquidity event.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/aug-2026/hero-motors-limited-corrigendum-to-drhp_103180.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "outlet": "Corrigendum to DRHP",
+   "resolvable": true,
+   "title": "Hero Motors Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/hero-motors-limited-corrigendum-to-drhp_103180.html"
+  }
+ ],
+ "updatedAt": "2026-08-08T09:49:06.947381+00:00"
+}

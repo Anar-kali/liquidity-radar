@@ -1,0 +1,29 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Bikaji Bakes Private Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-26T09:31:27.000308+00:00",
+ "dealType": "strategic buyout",
+ "id": 585,
+ "individuals": [
+  "Thayekunni Khaleel"
+ ],
+ "oneLine": "Bikaji Foods sells 30% stake in Bikaji Bakes to Bakemart founder Khaleel.",
+ "primaryUrl": "https://economictimes.indiatimes.com/industry/cons-products/food/bikaji-foods-sells-30-stake-in-baked-foods-subsidiary-to-bakemart-founder/articleshow/133534900.cms",
+ "seller": "Bikaji Foods International",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "outlet": "ET Corporate",
+   "resolvable": true,
+   "title": "Bikaji Foods sells 30% stake in baked foods subsidiary to Bakemart founder",
+   "url": "https://economictimes.indiatimes.com/industry/cons-products/food/bikaji-foods-sells-30-stake-in-baked-foods-subsidiary-to-bakemart-founder/articleshow/133534900.cms"
+  }
+ ],
+ "updatedAt": "2026-08-26T09:31:27.000308+00:00"
+}

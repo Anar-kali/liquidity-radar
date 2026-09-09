@@ -1,0 +1,27 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Blue Star E&E's Medtech Solutions",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-07T05:34:54.200439+00:00",
+ "dealType": "strategic buyout",
+ "id": 747,
+ "individuals": [],
+ "oneLine": "Somerset-backed Cyrix acquires Blue Star E&E's Medtech Solutions unit.",
+ "primaryUrl": "https://www.thehindubusinessline.com/companies/somerset-backed-cyrix-healthcare-acquires-blue-star-ees-medtech-solutions/article71432381.ece",
+ "seller": "Blue Star E&E (or its parent/shareholders)",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "outlet": "Business Line",
+   "resolvable": true,
+   "title": "Somerset-backed Cyrix Healthcare acquires Blue Star E&E's Medtech Solutions",
+   "url": "https://www.thehindubusinessline.com/companies/somerset-backed-cyrix-healthcare-acquires-blue-star-ees-medtech-solutions/article71432381.ece"
+  }
+ ],
+ "updatedAt": "2026-09-07T05:34:54.200439+00:00"
+}

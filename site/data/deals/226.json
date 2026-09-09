@@ -1,0 +1,27 @@
+{
+ "advisers": [],
+ "amountCr": 534.4,
+ "amountRaw": "77% x mcap ~Rs 694cr = ~Rs 534cr",
+ "buyer": "Hella Infra / Infra.Market",
+ "company": "Shalimar Paints",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-13T11:31:24.901876+00:00",
+ "dealType": "strategic buyout",
+ "id": 226,
+ "individuals": [],
+ "oneLine": "Infra.Market to acquire Shalimar Paints via share swap, alternative to ₹5,000 crore IPO",
+ "primaryUrl": "https://www.livemint.com/companies/news/inframarket-eyes-backdoor-market-entry-via-shalimar-paints-share-swap-deal-11786614791135.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "computed",
+ "sources": [
+  {
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "Infra.Market eyes backdoor market entry via Shalimar Paints share swap deal",
+   "url": "https://www.livemint.com/companies/news/inframarket-eyes-backdoor-market-entry-via-shalimar-paints-share-swap-deal-11786614791135.html"
+  }
+ ],
+ "updatedAt": "2026-08-13T11:31:24.901876+00:00"
+}

@@ -1,0 +1,27 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Zypp Electric (Bycyshare Technologies)",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-16T07:46:32.446944+00:00",
+ "dealType": "IPO-OFS",
+ "id": 250,
+ "individuals": [],
+ "oneLine": "IPO-bound Zypp Electric reduces FY26 loss; company preparing for public listing",
+ "primaryUrl": "https://inc42.com/buzz/ipo-bound-zypp-electric-slashes-fy26-loss-by-45-yoy-to-%e2%82%b960-cr/",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "outlet": "Inc42",
+   "resolvable": true,
+   "title": "IPO-Bound Zypp Electric Slashes FY26 Loss By 45% YoY To ₹60 Cr",
+   "url": "https://inc42.com/buzz/ipo-bound-zypp-electric-slashes-fy26-loss-by-45-yoy-to-%e2%82%b960-cr/"
+  }
+ ],
+ "updatedAt": "2026-08-16T07:46:32.446944+00:00"
+}

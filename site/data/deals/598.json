@@ -1,0 +1,33 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Deepa Jewellers Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-27T05:32:16.478836+00:00",
+ "dealType": "DRHP filing",
+ "id": 598,
+ "individuals": [],
+ "oneLine": "Deepa Jewellers files RHP; IPO prospecting lead.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/aug-2026/deepa-jewellers-limited-rhp_104030.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "Deepa Jewellers Limited - RHPDeepa Jewellers Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/deepa-jewellers-limited-rhp_104030.html"
+  },
+  {
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "Deepa Jewellers Limited",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/aug-2026/Deepa%20Jewellers%20Ltd.%20-%20Abridged%20Prospectus_p.pdf"
+  }
+ ],
+ "updatedAt": "2026-08-27T05:32:16.478836+00:00"
+}

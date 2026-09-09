@@ -1,0 +1,27 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "Capillary Technologies International Pte Ltd",
+ "company": "Capillary Technologies India Ltd",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-11T11:46:00.500971+00:00",
+ "dealType": "block deal",
+ "id": 174,
+ "individuals": [],
+ "oneLine": "Substantial acquisition disclosure filed; acquirer identified.",
+ "primaryUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/B44A8DBB_2048_4C27_B1D3_3A6914222D56_171309.pdf",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "mcap_plausible",
+ "sources": [
+  {
+   "outlet": "BSE",
+   "resolvable": true,
+   "title": "Capillary Technologies India Ltd: The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations, 2011 for Capillary Technologies International Pte Ltd",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/B44A8DBB_2048_4C27_B1D3_3A6914222D56_171309.pdf"
+  }
+ ],
+ "updatedAt": "2026-08-11T11:46:00.500971+00:00"
+}

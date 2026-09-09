@@ -1,0 +1,27 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Baazar Style Retail",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-18T12:31:11.308173+00:00",
+ "dealType": "block deal",
+ "id": 365,
+ "individuals": [],
+ "oneLine": "Baazar Style Retail promoters sell 4.55 million shares on NSE",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUDZXWkdsX09RUExvemI2UWFvdG9GUE1MU0Y5c3haaGRjR2tNSTVrNWNKTDVTZzNFTHRIM0Rzci1YbHRmSFk0MHN6c0p4TmRHN3BKTENiQWRUOWVXRXY0a1RHYWhkLVA1SHFFQUV2bnlYcUtWODFGak5ndEJFVGF0cGh5V05kR1RNbldpZEs2WVpnTTlzMFlWOUs0YUp5NUZnWlFlbVpyZVpYLWY2d2JyXzBWQWVxdw?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "mcap_plausible",
+ "sources": [
+  {
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "Baazar Style Retail promoters sell 4.55 million shares on NSE",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUDZXWkdsX09RUExvemI2UWFvdG9GUE1MU0Y5c3haaGRjR2tNSTVrNWNKTDVTZzNFTHRIM0Rzci1YbHRmSFk0MHN6c0p4TmRHN3BKTENiQWRUOWVXRXY0a1RHYWhkLVA1SHFFQUV2bnlYcUtWODFGak5ndEJFVGF0cGh5V05kR1RNbldpZEs2WVpnTTlzMFlWOUs0YUp5NUZnWlFlbVpyZVpYLWY2d2JyXzBWQWVxdw?oc=5"
+  }
+ ],
+ "updatedAt": "2026-08-18T12:31:11.308173+00:00"
+}

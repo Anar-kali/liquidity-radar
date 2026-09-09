@@ -1,0 +1,27 @@
+{
+ "advisers": [],
+ "amountCr": 97.0,
+ "amountRaw": "Rs 97 crore ($9 million approx, 9 × 88 = 792 / 8.16 ≈ 97)",
+ "buyer": "Dallas Venture Capital",
+ "company": "Simplismart",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-08-05T13:21:00.874575+00:00",
+ "dealType": "PE primary",
+ "id": 43,
+ "individuals": [],
+ "oneLine": "Simplismart set to raise Rs 97 Cr Series B from Dallas Venture Capital.",
+ "primaryUrl": "https://entrackr.com/exclusive/exclusive-gen-ai-startup-simplismart-set-to-raise-9-mn-in-series-b-led-by-dallas-venture-capital-12226753",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "outlet": "Entrackr",
+   "resolvable": true,
+   "title": "",
+   "url": "https://entrackr.com/exclusive/exclusive-gen-ai-startup-simplismart-set-to-raise-9-mn-in-series-b-led-by-dallas-venture-capital-12226753"
+  }
+ ],
+ "updatedAt": "2026-08-05T13:21:00.874575+00:00"
+}

@@ -1,0 +1,27 @@
+{
+ "advisers": [],
+ "amountCr": 225.0,
+ "amountRaw": "$27 million = Rs 237.6 crore (27 × 88)",
+ "buyer": "Bessemer Venture Partners, Northpoint Capital",
+ "company": "InRisk Labs",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-08-05T13:21:00.810129+00:00",
+ "dealType": "PE primary",
+ "id": 38,
+ "individuals": [],
+ "oneLine": "InRisk Labs raises $27 million as subsidiary EarthRe gets reinsurer licence.",
+ "primaryUrl": "https://www.livemint.com/companies/inrisk-labs-raises-27-million-series-a-earthre-gift-city-reinsurer-11785903926508.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "",
+   "url": "https://www.livemint.com/companies/inrisk-labs-raises-27-million-series-a-earthre-gift-city-reinsurer-11785903926508.html"
+  }
+ ],
+ "updatedAt": "2026-08-05T13:21:00.857035+00:00"
+}

@@ -1,0 +1,27 @@
+{
+ "advisers": [],
+ "amountCr": 50.0,
+ "amountRaw": "Rs 50 crore stated",
+ "buyer": "Sedna HoReCa",
+ "company": "Kaapi Machines",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-08-05T13:21:00.900229+00:00",
+ "dealType": "PE primary",
+ "id": 52,
+ "individuals": [],
+ "oneLine": "Equity infusion of Rs 50 Cr from PE-backed HoReCa provider.",
+ "primaryUrl": "https://entrackr.com/snippets/coffee-equipment-and-services-provider-kaapi-machines-raises-rs-50-cr-from-sedna-horeca-12223166",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "outlet": "Entrackr",
+   "resolvable": true,
+   "title": "",
+   "url": "https://entrackr.com/snippets/coffee-equipment-and-services-provider-kaapi-machines-raises-rs-50-cr-from-sedna-horeca-12223166"
+  }
+ ],
+ "updatedAt": "2026-08-05T13:21:00.900229+00:00"
+}

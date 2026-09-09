@@ -1,0 +1,27 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "local partner (unnamed)",
+ "company": "Volkswagen Group India / Skoda Auto India",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-19T01:31:10.883034+00:00",
+ "dealType": "strategic buyout",
+ "id": 377,
+ "individuals": [],
+ "oneLine": "Volkswagen willing to cede majority control in India unit to local partner",
+ "primaryUrl": "https://economictimes.indiatimes.com/industry/auto/auto-news/volkswagen-willing-to-cede-majority-control-in-india-unit-to-local-partner-skoda-auto-ceo-klaus-zellmer/articleshow/133329234.cms",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "outlet": "ET Corporate",
+   "resolvable": true,
+   "title": "Volkswagen willing to cede majority control in India unit to local partner: Skoda Auto CEO Klaus Zellmer",
+   "url": "https://economictimes.indiatimes.com/industry/auto/auto-news/volkswagen-willing-to-cede-majority-control-in-india-unit-to-local-partner-skoda-auto-ceo-klaus-zellmer/articleshow/133329234.cms"
+  }
+ ],
+ "updatedAt": "2026-08-19T01:31:10.883034+00:00"
+}

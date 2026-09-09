@@ -1,0 +1,33 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Manika Plastech Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-07T10:31:18.527854+00:00",
+ "dealType": "DRHP filing",
+ "id": 752,
+ "individuals": [],
+ "oneLine": "Manika Plastech files RHP; promoters planning IPO liquidity event.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/manika-plastech-limited-rhp_104296.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "Manika Plastech Limited - RHPManika Plastech Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/manika-plastech-limited-rhp_104296.html"
+  },
+  {
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "Manika Plastech Limited",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/sep-2026/Manika%20IPO%20-%20Abridged%20Prospectus_p.pdf"
+  }
+ ],
+ "updatedAt": "2026-09-07T10:31:18.527854+00:00"
+}

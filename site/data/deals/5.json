@@ -1,0 +1,27 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Molbio Diagnostics",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-05T13:21:00.624719+00:00",
+ "dealType": "IPO-OFS",
+ "id": 5,
+ "individuals": [],
+ "oneLine": "Molbio Diagnostics files RHP; IPO opens Aug 10; issue size not stated.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSWpqUGc0Vlk5YmJpZXVPVDFyVVRSYzJMLUtHRmFlbGcyVU00UGJ3eWJ5UldkOEg0OVF2ZlVIZmc4SDdPSW15Mm5mQkZCQW16MlZCbmxzQlp3OFNnNUx3eWpNaF9Nc3F5aWlDVXRyVmtBSkRpWHZ4MTlPUDNQVUJLa1FGdEE3TlI3TGdMZHYtS2VXYlR0WmtCdEZsdVNTQ3lXYkFhQjRR0gGmAUFVX3lxTFBJampQZzRWWTliYmlldU9UMXJVVFJjMkwtS0dGYWVsZzJVTTRQYnd5YnlSV2Q4SDQ5UXZmVUhmZzhIN09JbXkybmZCRkJBbXoyVkJubHNCWnc4U2c1THd5ak1oX01zcXlpaUNVdHJWa0FKRGlYdngxOU9QM1BVQktrUUZ0QTdOUjdMZ0xkdi1LZVdiVHRaa0J0Rmx1U1NDeVdiQWFCNFE?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": null,
+ "sources": [
+  {
+   "outlet": "Red Herring Prospectus",
+   "resolvable": true,
+   "title": "Molbio Diagnostics Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/molbio-diagnostics-limited-red-herring-prospectus_103428.html"
+  }
+ ],
+ "updatedAt": "2026-08-05T13:21:00.624719+00:00"
+}

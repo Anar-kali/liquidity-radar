@@ -1,0 +1,51 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Atomberg",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-24T08:31:05.211490+00:00",
+ "dealType": "DRHP filing",
+ "id": 550,
+ "individuals": [],
+ "oneLine": "Atomberg files DRHP for IPO; founder liquidity event ahead.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNR2o1bnNFN1VtOXBkQ0dOVFZCSDhpSmF2NzNjUnFPSC05ZUtUZ1Q3Q2hlTzJXQ3NuNGNjM0pQZzVIOXctMXZFczltQkV4NWE4RFNsRlBHcWczQXN5YVYwWGg5M3FYR2xUVXlXWDlSTXVWZTJZbnJRZ1lYd05HOUxfOVU0TFRGVDRjSzdHVXRvLU8wbzd0c1V0OHY1YV9nSU5pVV9EY2praExJOFFmVHZzQ0tqbnhBZ3lJLS0tQi1MRVZIR3BMVkZfQUxyY05JMTVnOXJEZEpuSVlPTU5MRjBMYXVhZnkzVUxmY0NrY3hQLVdicEk?oc=5",
+ "seller": "promoters of Atomberg (implied)",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "Atomberg IPO Files DRHP: ₹190 Cr Founder Bonus Liability Faces Investor Scrutiny",
+   "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNR2o1bnNFN1VtOXBkQ0dOVFZCSDhpSmF2NzNjUnFPSC05ZUtUZ1Q3Q2hlTzJXQ3NuNGNjM0pQZzVIOXctMXZFczltQkV4NWE4RFNsRlBHcWczQXN5YVYwWGg5M3FYR2xUVXlXWDlSTXVWZTJZbnJRZ1lYd05HOUxfOVU0TFRGVDRjSzdHVXRvLU8wbzd0c1V0OHY1YV9nSU5pVV9EY2praExJOFFmVHZzQ0tqbnhBZ3lJLS0tQi1MRVZIR3BMVkZfQUxyY05JMTVnOXJEZEpuSVlPTU5MRjBMYXVhZnkzVUxmY0NrY3hQLVdicEk?oc=5"
+  },
+  {
+   "outlet": "Analytics Insight",
+   "resolvable": false,
+   "title": "Atomberg IPO: Can India’s Smart Fan Maker Become a Home Appliance Giant?",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdm9yRGl2LUtKcmI5RDNnc2F0TWJkcXd6c2pvQVpDemdGcU1lXzVyNXlTektSeG9hZUtfNlJDVXNzOEdidVNQUHM2SDNQRDllR3ZfNlNBTWFJeTlVZ09KbDRZdkxtdnJLeWxXLTMwMHBpUVlSV3pHcjRCYTFnQkN2WGpkV0RHdWJHSFpvNTdaWU9YN1Q5Y1NxNlVTUW5sUUkzbmtweE9fRW1QYmZuN3BuLWRWUTNyLWlfUEw5dFpn0gG-AUFVX3lxTE92b3JEaXYtS0pyYjlEM2dzYXRNYmRxd3pzam9BWkN6Z0ZxTWVfNXI1eVN6S1J4b2FlS182UkNVc3M4R2J1U1BQczZIM1BEOWVHdl82U0FNYUl5OVVnT0psNFl2TG12ckt5bFctMzAwcGlRWVJXekdyNEJhMWdCQ3ZYamRXREd1YkdIWm81N1pZT1g3VDljU3E2VVNRbmxRSTNua3B4T19FbVBiZm43cG4tZFZRM3ItaV9QTDl0Wmc?oc=5"
+  },
+  {
+   "outlet": "Google News",
+   "resolvable": true,
+   "title": "Atomberg DRHP: A Look At Shareholding Pattern & Key Personnel",
+   "url": "https://inc42.com/buzz/atomberg-drhp-a-look-at-shareholding-pattern-key-personnel/"
+  },
+  {
+   "outlet": "Draft Abridged Prospectus",
+   "resolvable": true,
+   "title": "ATOMBERG TECHNOLOGIES LIMITED - DRHPATOMBERG TECHNOLOGIES LIMITED",
+   "url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/atomberg-technologies-limited-drhp_104037.html"
+  },
+  {
+   "outlet": "Draft Abridged Prospectus",
+   "resolvable": true,
+   "title": "ATOMBERG TECHNOLOGIES LIMITED",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/aug-2026/ATOMBERG%20TECHNOLOGIES%20LIMITED%20-%20AP_p.pdf"
+  }
+ ],
+ "updatedAt": "2026-08-25T01:31:59.826804+00:00"
+}

@@ -1,0 +1,29 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Filatex India Ltd",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-28T11:31:20.168702+00:00",
+ "dealType": "block deal",
+ "id": 626,
+ "individuals": [
+  "Anurag Choudhary"
+ ],
+ "oneLine": "Anurag Choudhary & Others acquire substantial stake in Filatex India.",
+ "primaryUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/CC8B408A_7622_44ED_A805_C60119F7B65F_164125.pdf",
+ "seller": "Anurag Choudhary & Others",
+ "sizeBand": null,
+ "sizeSource": "mcap_plausible",
+ "sources": [
+  {
+   "outlet": "BSE",
+   "resolvable": true,
+   "title": "Filatex India Ltd-$: The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations, 2011 for Anurag Choudhary & Others",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/CC8B408A_7622_44ED_A805_C60119F7B65F_164125.pdf"
+  }
+ ],
+ "updatedAt": "2026-08-28T11:31:20.168702+00:00"
+}

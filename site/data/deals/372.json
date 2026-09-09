@@ -1,0 +1,33 @@
+{
+ "advisers": [],
+ "amountCr": 387.5,
+ "amountRaw": "₹387.5 Crore",
+ "buyer": "Wipro Consumer Care",
+ "company": "Dermatouch",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-08-18T15:53:21.122650+00:00",
+ "dealType": "strategic buyout",
+ "id": 372,
+ "individuals": [],
+ "oneLine": "Wipro Consumer Care acquires 60% stake in Dermatouch for ₹387.5 cr; founders/shareholders exit.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQdl9MNktwOXgtVzlLV0FFX2Qyc3N5QVNMYnhhQ3J6ZkprV2gzY3dydEFOcV9PMkJuMXlHaVF0WEtpb2tzMGtCY1NJTFlWNk85NnNacmswQ1JMcEpWM3pFSXdscTc3MzRSbGl0NEhxcFkwcGsyUG93SmpKSEdMTkxqWm1ROFJkbEh1cTJ4M2hFNjRMeXpVNVlhMmNIT2ZYZXo0dk05VGZfTVE0ck5XRkxmU1lsbUNXRTY2WDdmVzkzWFl2U3N2N3hvMjhua3FObjZhdHBCbmp0ODhRNUhRLW1RbF9raWwtbk1Ud0RVU0xybjBaYjFQT0pLVFowWFQ?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "Wipro Consumer Care Acquires 60% Stake in Dermatouch for ₹387.5 Crore",
+   "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQdl9MNktwOXgtVzlLV0FFX2Qyc3N5QVNMYnhhQ3J6ZkprV2gzY3dydEFOcV9PMkJuMXlHaVF0WEtpb2tzMGtCY1NJTFlWNk85NnNacmswQ1JMcEpWM3pFSXdscTc3MzRSbGl0NEhxcFkwcGsyUG93SmpKSEdMTkxqWm1ROFJkbEh1cTJ4M2hFNjRMeXpVNVlhMmNIT2ZYZXo0dk05VGZfTVE0ck5XRkxmU1lsbUNXRTY2WDdmVzkzWFl2U3N2N3hvMjhua3FObjZhdHBCbmp0ODhRNUhRLW1RbF9raWwtbk1Ud0RVU0xybjBaYjFQT0pLVFowWFQ?oc=5"
+  },
+  {
+   "outlet": "Google News",
+   "resolvable": true,
+   "title": "Wipro Consumer Care joins beauty M&A rush with ₹387-crore Dermatouch buy",
+   "url": "https://www.thehindubusinessline.com/companies/wipro-consumer-care-joins-beauty-ma-rush-with-387-crore-dermatouch-buy/article71361071.ece"
+  }
+ ],
+ "updatedAt": "2026-08-18T15:53:21.122650+00:00"
+}

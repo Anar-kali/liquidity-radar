@@ -1,0 +1,29 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Nila Spaces",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-28T12:31:35.404493+00:00",
+ "dealType": "block deal",
+ "id": 627,
+ "individuals": [
+  "Kiran B Vadodaria"
+ ],
+ "oneLine": "Promoter Kiran B Vadodaria sells 1M shares in open market",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNT1pVZmR4aC1XTEY2V1Jsd3Q4SXMwTjdXVHptVExLanVDZTV6VXBtS0hOMjQ4dzJhaXFIY0dlckxLaXk2Q08wZmxQNm8wWTZDandSMUQydUpaRnE5dUNFT1VXbzR4MkxONTlYeE9rcVFTYUozRWJIWmdCamIyYURubVk1YVdQZHp0cnlzYVJkRWtXN3hqdlJCdjNNYkxUUVJ3V0wwOUpvWVJsV3ZUSks5ZldROGVUQ1RrNFJDUWpXOS1aN2c?oc=5",
+ "seller": "Kiran B Vadodaria",
+ "sizeBand": null,
+ "sizeSource": "mcap_plausible",
+ "sources": [
+  {
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "Nila Spaces promoter Kiran B Vadodaria sells 1M shares in open market",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNT1pVZmR4aC1XTEY2V1Jsd3Q4SXMwTjdXVHptVExLanVDZTV6VXBtS0hOMjQ4dzJhaXFIY0dlckxLaXk2Q08wZmxQNm8wWTZDandSMUQydUpaRnE5dUNFT1VXbzR4MkxONTlYeE9rcVFTYUozRWJIWmdCamIyYURubVk1YVdQZHp0cnlzYVJkRWtXN3hqdlJCdjNNYkxUUVJ3V0wwOUpvWVJsV3ZUSks5ZldROGVUQ1RrNFJDUWpXOS1aN2c?oc=5"
+  }
+ ],
+ "updatedAt": "2026-08-28T12:31:35.404493+00:00"
+}

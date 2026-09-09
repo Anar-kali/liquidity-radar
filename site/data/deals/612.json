@@ -1,0 +1,27 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "PRISM (OYO Parent)",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-28T01:32:28.682913+00:00",
+ "dealType": "DRHP filing",
+ "id": 612,
+ "individuals": [],
+ "oneLine": "PRISM (OYO parent) IPO-bound; promoter liquidity event coming",
+ "primaryUrl": "https://inc42.com/buzz/oyo-parent-prisms-fy26-profit-skyrockets-4x-yoy-to-%e2%82%b9994-cr/",
+ "seller": null,
+ "sizeBand": "OVER_2000",
+ "sizeSource": "band",
+ "sources": [
+  {
+   "outlet": "Inc42",
+   "resolvable": true,
+   "title": "OYO Parent PRISM’s FY26 Profit Skyrockets 4X YoY To ₹994 Cr",
+   "url": "https://inc42.com/buzz/oyo-parent-prisms-fy26-profit-skyrockets-4x-yoy-to-%e2%82%b9994-cr/"
+  }
+ ],
+ "updatedAt": "2026-08-28T01:32:28.682913+00:00"
+}

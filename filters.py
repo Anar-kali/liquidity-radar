@@ -17,6 +17,7 @@ from datetime import datetime, timezone
 import classify
 import config
 import sizing
+import textutil
 
 # --------------------------------------------------------------------------
 # Change 3 — structural blocklist. Filters on document type, where the URL or
@@ -87,7 +88,8 @@ def stale_news_age(item, now=None):
 # classified again; clustering catches it afterwards, but only after the API
 # call has already been paid for.
 # --------------------------------------------------------------------------
-_TRAILING_SOURCE_RE = re.compile(r"\s+-\s+[^-]+$")
+# Single definition lives in textutil (see that module's docstring for why).
+_TRAILING_SOURCE_RE = textutil.TRAILING_SOURCE_RE
 _PUNCT_RE = re.compile(r"[^\w\s]")
 _WHITESPACE_RE = re.compile(r"\s+")
 

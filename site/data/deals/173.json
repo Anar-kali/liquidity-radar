@@ -1,0 +1,33 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Beauty Garage Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-11T09:16:08.755192+00:00",
+ "dealType": "DRHP filing",
+ "id": 173,
+ "individuals": [],
+ "oneLine": "Beauty Garage Limited files DRHP with SEBI for IPO.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/aug-2026/beauty-garage-limited-drhp_103479.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "BEAUTY GARAGE LIMITED - DRHPBEAUTY GARAGE LIMITED",
+   "url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/beauty-garage-limited-drhp_103479.html"
+  },
+  {
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "BEAUTY GARAGE LIMITED",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/aug-2026/BEAUTY%20GARAGE%20LIMITED%20-%20AP_p.pdf"
+  }
+ ],
+ "updatedAt": "2026-08-11T09:16:08.755192+00:00"
+}

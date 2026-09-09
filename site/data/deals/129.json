@@ -1,0 +1,27 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Propshop Events and Exhibitions Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-08T09:49:06.964243+00:00",
+ "dealType": "DRHP filing",
+ "id": 129,
+ "individuals": [],
+ "oneLine": "Propshop Events and Exhibitions filed prospectus; promoters planning IPO liquidity event.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/jul-2026/propshop-events-and-exhibitions-limited-prospectus_103111.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "outlet": "Prospectus",
+   "resolvable": true,
+   "title": "Propshop Events and Exhibitions Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/jul-2026/propshop-events-and-exhibitions-limited-prospectus_103111.html"
+  }
+ ],
+ "updatedAt": "2026-08-08T09:49:06.964243+00:00"
+}

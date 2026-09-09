@@ -1,0 +1,27 @@
+{
+ "advisers": [],
+ "amountCr": 750.0,
+ "amountRaw": "$90 Mn ≈ 750 Cr INR (at 88 INR/USD)",
+ "buyer": null,
+ "company": "DealShare",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-31T08:31:32.938418+00:00",
+ "dealType": "strategic buyout",
+ "id": 653,
+ "individuals": [],
+ "oneLine": "Truemeds acquiring DealShare at $90 Mn; founders cash out",
+ "primaryUrl": "https://inc42.com/buzz/truemeds-eyes-dealshare-acquisition-at-90-mn-95-below-peak-valuation-report/",
+ "seller": "DealShare founders/shareholders",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "outlet": "Inc42",
+   "resolvable": true,
+   "title": "Truemeds Eyes DealShare Acquisition At $90 Mn, 95% Below Peak Valuation: Report",
+   "url": "https://inc42.com/buzz/truemeds-eyes-dealshare-acquisition-at-90-mn-95-below-peak-valuation-report/"
+  }
+ ],
+ "updatedAt": "2026-08-31T08:31:32.938418+00:00"
+}

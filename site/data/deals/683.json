@@ -1,0 +1,33 @@
+{
+ "advisers": [],
+ "amountCr": 35200.0,
+ "amountRaw": "€3.8 billion ≈ ₹3.65 lakh crore (using 1 EUR = 96 INR); text states ₹40,000 crore in headline context",
+ "buyer": null,
+ "company": "Iveco Group",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-09-02T01:32:09.361090+00:00",
+ "dealType": "strategic buyout",
+ "id": 683,
+ "individuals": [],
+ "oneLine": "Tata Motors acquires Iveco Group for €3.8 billion; ECB approval secured.",
+ "primaryUrl": "https://www.thehindubusinessline.com/companies/tata-motors-gets-ecb-nod-for-40000-crore-iveco-takeover/article71416966.ece",
+ "seller": "Iveco Group shareholders (unnamed)",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "outlet": "Business Line",
+   "resolvable": true,
+   "title": "Tata Motors gets ECB nod for ₹40,000-crore Iveco takeover",
+   "url": "https://www.thehindubusinessline.com/companies/tata-motors-gets-ecb-nod-for-40000-crore-iveco-takeover/article71416966.ece"
+  },
+  {
+   "outlet": "Business Line",
+   "resolvable": true,
+   "title": "Tata Motors secures all regulatory approvals for €3.8 billion Iveco Group acquisition",
+   "url": "https://economictimes.indiatimes.com/industry/auto/auto-news/tata-motors-secures-all-regulatory-approvals-for-3-8-billion-iveco-group-acquisition/articleshow/133691453.cms"
+  }
+ ],
+ "updatedAt": "2026-09-02T01:32:09.361090+00:00"
+}

@@ -1,0 +1,33 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Kataria Dhulchand Pannalal Jewellers Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-02T05:31:33.158709+00:00",
+ "dealType": "DRHP filing",
+ "id": 688,
+ "individuals": [],
+ "oneLine": "DRHP filed; jewellery company planning IPO with promoter liquidity ahead.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/kataria-dhulchand-pannalal-jewellers-limited-drhp_104178.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "outlet": "Draft Abridged Prospectus",
+   "resolvable": true,
+   "title": "Kataria Dhulchand Pannalal Jewellers Limited - DRHPKataria Dhulchand Pannalal Jewellers Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/kataria-dhulchand-pannalal-jewellers-limited-drhp_104178.html"
+  },
+  {
+   "outlet": "Draft Abridged Prospectus",
+   "resolvable": true,
+   "title": "Kataria Dhulchand Pannalal Jewellers Limited",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/sep-2026/Kataria%20Dhulchand%20Pannalal%20Jewellers%20Ltd%20-%20DAP_p.pdf"
+  }
+ ],
+ "updatedAt": "2026-09-02T05:31:33.158709+00:00"
+}

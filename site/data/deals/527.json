@@ -1,0 +1,27 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Capillary Technologies",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-24T01:33:24.372108+00:00",
+ "dealType": "DRHP filing",
+ "id": 527,
+ "individuals": [],
+ "oneLine": "Capillary Technologies receives SEBI nod to float IPO; size undisclosed.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdFpvLTRSOXlzMjg5VVRBX09SdUhoMV9neVI4QVNqNmJITm9XS2MwNlNUejFDVkVRZDlQX3g2RVFrUUZaSzhvSUxaRjRmeEF5cEsyLUtSdVhNTHk1bUh5NXMzbVViUW9zYmtOVWF2Z2hUNk9ZdEM5OENfMnlvbGswX3FYalJLUkstZEo0WGpLVzNISjFmckxMdVJ0QlFSOVh10gGmAUFVX3lxTE1kdFRnNjJMTzJzZ2N3bGZhTEdFaHBzSDNaX1Z3SGszTUpMMFFnRkZaMnl6cFlXMGUtQV85aGhqOUpYTERxWGk3bE9WOWRUYjNrcXBvUl9PZFJ1djF0djg2bmZVdUtiSndXUEc4aUpCYU1hbGR1S2dzZzRtMzhJMTBZOV9XVlZ5X25ZVmUxM0gyV3BTeHJ1YlRrcERTWFVwRkt2LV95LVE?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "mcap_plausible",
+ "sources": [
+  {
+   "outlet": "News18",
+   "resolvable": false,
+   "title": "Capillary Technologies gets Sebi's nod to float IPO",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdFpvLTRSOXlzMjg5VVRBX09SdUhoMV9neVI4QVNqNmJITm9XS2MwNlNUejFDVkVRZDlQX3g2RVFrUUZaSzhvSUxaRjRmeEF5cEsyLUtSdVhNTHk1bUh5NXMzbVViUW9zYmtOVWF2Z2hUNk9ZdEM5OENfMnlvbGswX3FYalJLUkstZEo0WGpLVzNISjFmckxMdVJ0QlFSOVh10gGmAUFVX3lxTE1kdFRnNjJMTzJzZ2N3bGZhTEdFaHBzSDNaX1Z3SGszTUpMMFFnRkZaMnl6cFlXMGUtQV85aGhqOUpYTERxWGk3bE9WOWRUYjNrcXBvUl9PZFJ1djF0djg2bmZVdUtiSndXUEc4aUpCYU1hbGR1S2dzZzRtMzhJMTBZOV9XVlZ5X25ZVmUxM0gyV3BTeHJ1YlRrcERTWFVwRkt2LV95LVE?oc=5"
+  }
+ ],
+ "updatedAt": "2026-08-24T01:33:24.372108+00:00"
+}

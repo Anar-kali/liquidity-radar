@@ -1,0 +1,35 @@
+{
+ "advisers": [],
+ "amountCr": 616.0,
+ "amountRaw": "$700 million ≈ Rs 616 cr (at 88 INR/USD)",
+ "buyer": null,
+ "company": "Megha Engineering",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-08-31T03:31:19.271628+00:00",
+ "dealType": "strategic buyout",
+ "id": 647,
+ "individuals": [
+  "PV Krishna Reddy"
+ ],
+ "oneLine": "PV Krishna Reddy buys out uncle's Megha Engineering stake for $700m private credit",
+ "primaryUrl": "https://economictimes.indiatimes.com/industry/indl-goods/svs/construction/construction-giant-megha-engineerings-pv-krishna-reddy-taps-700-million-private-credit-to-buy-out-uncles-share/articleshow/133640265.cms",
+ "seller": "uncle (unnamed shareholder)",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "outlet": "ET Corporate",
+   "resolvable": true,
+   "title": "Construction giant Megha Engineering's PV Krishna Reddy taps $700 million private credit to buy out uncle's share",
+   "url": "https://economictimes.indiatimes.com/industry/indl-goods/svs/construction/construction-giant-megha-engineerings-pv-krishna-reddy-taps-700-million-private-credit-to-buy-out-uncles-share/articleshow/133640265.cms"
+  },
+  {
+   "outlet": "ET Corporate",
+   "resolvable": true,
+   "title": "PV Krishna Reddy, MD of Megha Engineering, taps $700-million private credit for Megha buyout",
+   "url": "https://www.thehindubusinessline.com/companies/pv-krishna-reddy-md-of-megha-engineering-taps-700-million-private-credit-for-megha-buyout/article71409548.ece"
+  }
+ ],
+ "updatedAt": "2026-08-31T03:31:19.271628+00:00"
+}

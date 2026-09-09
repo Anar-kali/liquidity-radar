@@ -1,0 +1,27 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "CJ Darcl Logistics Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-08T06:31:11.918095+00:00",
+ "dealType": "DRHP filing",
+ "id": 766,
+ "individuals": [],
+ "oneLine": "CJ Darcl Logistics files DRHP addendum; IPO prospecting lead.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/cj-darcl-logistics-limited-addendum-to-drhp_104335.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "outlet": "Addendum to DRHP",
+   "resolvable": true,
+   "title": "CJ Darcl Logistics Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/cj-darcl-logistics-limited-addendum-to-drhp_104335.html"
+  }
+ ],
+ "updatedAt": "2026-09-08T06:31:11.918095+00:00"
+}

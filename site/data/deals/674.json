@@ -1,0 +1,69 @@
+{
+ "advisers": [],
+ "amountCr": 2032.0,
+ "amountRaw": "₹2,032 crore",
+ "buyer": null,
+ "company": "EPL",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-09-01T06:31:35.861314+00:00",
+ "dealType": "block deal",
+ "id": 674,
+ "individuals": [],
+ "oneLine": "Block deal: ₹2,200 crore equity changes hands in EPL; stock falls 9%.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNY1VGdlNlWjdUX3YwSzk0dVA4dXc3MVZ3MFBCNExLc0o5NHBpRzNQX0NzRWQtLUpJMHNIZnp3cmhXMUxGSk8wNEhYbWc3SkVudEJsYk5yeDNCZkhpX0pfT2VKLVFHY0twcFkwRms0N1BmUjE5a1NPaFpYblBNTkhEVGNqOXZ4TVdva09GaElDcEtMRG5MeVptRG5fRGR4VWlKVGk1akYwMVFCYXRqUndtNDNxc1p6cGxOU242aF9RRTlKM0Y20gHKAUFVX3lxTE1rYzRrcWI3UlJNVkhnTFEwckFIeXBURllvT05lUzBpUTZaRVhDWDI4TFFSdDR1V29TaGxTZ0FwV2xFb19TQ1FTQkpQOGN0S2NnMjV5SUFqNW0xTmgteW95TjV6WDZhckY2S05RUERLX0FUdTlzNGRmdkN4WEpKNUZGR1VweURtbV9VcFdTekhzTEdDSVNORlJoTkdzV1MzaUFuM21BbjR6T052ZGtMcnVwUVhRNkJWWTNwcW41elNhMUlkNUdqUnp5OHc?oc=5",
+ "seller": "EPL shareholder(s)",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "outlet": "CNBC TV18",
+   "resolvable": false,
+   "title": "EPL shares fall over 9% after equity worth ₹2,200 crore changes hands in block deal",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNY1VGdlNlWjdUX3YwSzk0dVA4dXc3MVZ3MFBCNExLc0o5NHBpRzNQX0NzRWQtLUpJMHNIZnp3cmhXMUxGSk8wNEhYbWc3SkVudEJsYk5yeDNCZkhpX0pfT2VKLVFHY0twcFkwRms0N1BmUjE5a1NPaFpYblBNTkhEVGNqOXZ4TVdva09GaElDcEtMRG5MeVptRG5fRGR4VWlKVGk1akYwMVFCYXRqUndtNDNxc1p6cGxOU242aF9RRTlKM0Y20gHKAUFVX3lxTE1rYzRrcWI3UlJNVkhnTFEwckFIeXBURllvT05lUzBpUTZaRVhDWDI4TFFSdDR1V29TaGxTZ0FwV2xFb19TQ1FTQkpQOGN0S2NnMjV5SUFqNW0xTmgteW95TjV6WDZhckY2S05RUERLX0FUdTlzNGRmdkN4WEpKNUZGR1VweURtbV9VcFdTekhzTEdDSVNORlJoTkdzV1MzaUFuM21BbjR6T052ZGtMcnVwUVhRNkJWWTNwcW41elNhMUlkNUdqUnp5OHc?oc=5"
+  },
+  {
+   "outlet": "Zee Business",
+   "resolvable": false,
+   "title": "EPL share price crashes over 9% as nearly 30% equity changes hands in block deals",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPSmpndlZBcHZqeDFpNzFiRzh1QzI3RG51LW9fMmR3Q0ZCZDVpcDNUN0h4cjRNb24yeGVyU09Db0NaRWRCU2VjTUluTjBFNW5tNFBtaVQwaUhYTVNkNDJkOGE5U2RQWi1PcGZwZE9pdUFJT2pUWFc5dlctdEtIcG8wZWpVX0gxaUFIdGJielJrbkFydUV6ODRSa1ZlTGQ5b3lLa0hBUHpSTTZYWWZzaExHdFZTSGhuLWtsbXU4?oc=5"
+  },
+  {
+   "outlet": "fortuneindia.com",
+   "resolvable": false,
+   "title": "Blackstone exits EPL with ₹2,032 crore stake sale; Quant MF raises holding to 6.95%",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZjBMMWZTbHBlT045SXRiOUZOY2pNeHV5eHJKdjk1RXV0TWRYVDNiamRrVmQ1eldNTFpFdERNQWZ6a3ZWbEtxRDFjRXN1VWtsZWJ4Uk82UzF1VVJJUm83dEdjcjN3OGlYdHdFNTF0eUgwM0RDWmdrQnVVTTVzUzJEVFJtQ3kybE5TQUdUUnk5blQwaFpjTW9fc25xTDk5TkRRZ3J4NTBpRmRTRTJXd3luMGs0SGlScDRtbTE4anoyRjBoYU5XZUHSAdMBQVVfeXFMTVNIcVI1Tml2TEg2bFNLMnNaQmxwMVhiM0Z0MEd5TzJNSmZFd1pPN2VPbWhSZVpSVzZWX2prdGRzN2k5SktIaUVIVldZRHc1UHo0Y2pJRXVycDRBLXRoN2h6Rl9KVEo0N0p3UGpYbUdCeXdYaDRTeGlYVFp4dmJNSDFuVW5sUHR5ZkFKT2E2QmEtNkJCSy1rRG9pWDlIa21UbC1tQ2ZuX1AybnhoakZraTUtcEp0WF9LVk9PMmh4N1o2clhJcElPMktNa0JONURaeTVmTQ?oc=5"
+  },
+  {
+   "outlet": "Google News",
+   "resolvable": false,
+   "title": "Blackstone Group exits EPL; offloads 26.38 per cent stake for Rs 2,032 crore - Mid-Day",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNX1l6TXRNYkFpd2R2SEs0bTV1cVlYTElTQm54YzZTUlZkY0NVWm5lQjVsQVF3eUUtYzZHbC1yczJXdFBkZWR5OEFKdzZZWjRBckxKbGJWTkI3VUNCYTgyNWNBM3Zvek1obkQyWVBibFhFbGVBV3dONnZkT2M4QURrMWM5QUsyampwSnNiWGpIMUlJTXdsQ3RFRnZsSUNaZDBWZmg4cXlYSHl5bm1LTlg3VmFidTBoZzFmMDJlV1prVXhTVWNabHN6R19uV0s2ZEx0VEI5NU91azbSAdgBQVVfeXFMTV9Zek10TWJBaXdkdkhLNG01dXFZWExJU0JueGM2U1JWZGNDVVpuZUI1bEFRd3lFLWM2R2wtcnMyV3RQZGVkeThBSnc2WVo0QXJMSmxiVk5CN1VDQmE4MjVjQTN2b3pNaG5EMllQYmxYRWxlQVd3TjZ2ZE9jOEFEazFjOUFLMmpqcEpzYlhqSDFJSU13bEN0RUZ2bElDWmQwVmZoOHF5WEh5eW5tS05YN1ZhYnUwaGcxZjAyZVdaa1V4U1VjWmxzekdfbldLNmRMdFRCOTVPdWs2?oc=5"
+  },
+  {
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "EPL promoter Epsilon Bidco sells entire 26.37% stake via open market",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVTZ2bk9RMUU5ckl2QVJpY0FXUjFOY0gwc21WRFVzR0t5Vm5MbGRqZzBVdmxva09MYm80RXhEdUdNbzFCSHBiV3UtMzMyWUU3dnBOUXZXenlFREtxQ0FLdVZnLXVLMEoyYUNGQmtvTTJKdkRpdGpndzM1VW4xdk5pOTgzRzVNY2tyV2ZnSlY4eHlaVHZDUDlsUFg0LVIxX1RYZklzaVVrd1RSdWhfUU91SEJhNS1EV2hSdVpOTGFtcGQ0Zw?oc=5"
+  },
+  {
+   "outlet": "TradingView",
+   "resolvable": false,
+   "title": "Blackstone-backed Epsilon Bidco exits EPL for Rs 2,032 crore; HDFC Life buys Rs 74 crore worth shares in SBFC Finance",
+   "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNU1dGQllGeVhYSG0tdnlLNzQ2T3lxNkVBTmM3YlpBV0YxeG9lMksxempjbjd2TXNSWVZMYlE1VDBPNEU0UUwxc19RWG91QXVqUGtnRmhtb2RpRXhtMkkwOHRfZ2ZUMHdpQXhpUV9MLS1WUFN1aWhxSFNwb216RGJvYUdnMU42dFR5Rk90Um5ET1FyX0V2aHA0ZXJ3MnRxSFNaLVdoMlYzR0dWLUJWUnoyYnViZmFUWTdMaFU2bFdBZ2RGTlcxVHN6UURlTVBxeTFLdXRlUmRERHdFRHNXU0xDT3U3WmZMVFJnM3BjTXRtWVpnMWgyT21DTmlTN0Y1VWxGd3R3SzhfTFRJRW8?oc=5"
+  },
+  {
+   "outlet": "HDFC Sky",
+   "resolvable": false,
+   "title": "Blackstone Exits EPL With ₹2,032 Cr Stake Sale; MFs, FIIs Buy In",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSVlEQTE4cVFXbUMzcjkxM0lsTzBnekJTMkxQZ1VhcEtwN3dlNTZIQV8zeDBNV1ZpaFlZMHJLZ3F2ZTNESGV2Q3JfYzl3SHBreXhPR0F6NFUxTEhkc0JMdjhxLW1pajNTcjJOMnVuRE43c3dGVEFsZlBoWkJWTUNrV0d1MjVaNnNtc1R6Sk8xT2NST1lWeFlCRUQ3Ni1Hek1CMldv?oc=5"
+  },
+  {
+   "outlet": "Prop News Time",
+   "resolvable": false,
+   "title": "Blackstone exits EPL with INR 2,032 crore stake sale",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOb3R5eUMwTlY0WmN2aFBHbjc2bWpSVjBUa21IQU82c3pMdU5BcUd1NHdwLVcweEdXZmJEMjNYMUtoRFo2RHRRbU9Id0xGZ2pXYjJwdV81VDd1UTJHekRCQkhfT2hQUFctekVfVm9wUGpXYzBEYlRJeGV2c3lFN0I2ZzdXS1RsREZleW5hZ2Vya2ZxOU5tLWdud0RWVGpmUnAyS0NkaWRCTQ?oc=5"
+  }
+ ],
+ "updatedAt": "2026-09-02T01:32:09.321645+00:00"
+}

@@ -1,0 +1,35 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "CUPID: General Updates",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-17T11:47:02.481461+00:00",
+ "dealType": "unknown",
+ "id": 328,
+ "individuals": [
+  "Aditya Kumar Halwasiya"
+ ],
+ "oneLine": "CUPID: General Updates",
+ "primaryUrl": "https://nsearchives.nseindia.com/corporate/CUPID_17082026171023_SE_Disclosure_under_Reg_29_2__SAST.pdf",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "outlet": "NSE",
+   "resolvable": true,
+   "title": "CUPID: General Updates",
+   "url": "https://nsearchives.nseindia.com/corporate/CUPID_17082026171023_SE_Disclosure_under_Reg_29_2__SAST.pdf"
+  },
+  {
+   "outlet": "NSE",
+   "resolvable": true,
+   "title": "Cupid Ltd-$: The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations, 2011 for Aditya Kumar Halwasiya",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/71705967_A7DE_4A24_9B9A_2EF1D60EB29B_165300.pdf"
+  }
+ ],
+ "updatedAt": "2026-08-18T11:31:20.110368+00:00"
+}

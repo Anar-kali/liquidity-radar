@@ -1,0 +1,27 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Yatharth Hospitals",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-28T01:32:28.696516+00:00",
+ "dealType": "strategic buyout",
+ "id": 614,
+ "individuals": [],
+ "oneLine": "Aster DM negotiating controlling stake in Yatharth Hospitals; open offer likely",
+ "primaryUrl": "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/yatharth-hospitals-draws-interest-from-aster-advent-as-healthcare-consolidation-heats-up/articleshow/133577494.cms",
+ "seller": "Yatharth Hospitals shareholders",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "outlet": "ET Corporate",
+   "resolvable": true,
+   "title": "Yatharth Hospitals draws interest from Aster, Advent as healthcare consolidation heats up",
+   "url": "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/yatharth-hospitals-draws-interest-from-aster-advent-as-healthcare-consolidation-heats-up/articleshow/133577494.cms"
+  }
+ ],
+ "updatedAt": "2026-08-28T01:32:28.696516+00:00"
+}

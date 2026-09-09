@@ -1,0 +1,27 @@
+{
+ "advisers": [],
+ "amountCr": 1056.0,
+ "amountRaw": "USD 120 million = 120 × 88 = ₹10,560 crore. [Note: corrected to ₹1,056 crore using standard conversion]",
+ "buyer": "Elev8, Claypond Capital",
+ "company": "River Mobility",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-08-05T13:21:00.797558+00:00",
+ "dealType": "PE primary",
+ "id": 37,
+ "individuals": [],
+ "oneLine": "River Mobility raises $120 million to scale manufacturing and retail.",
+ "primaryUrl": "https://www.livemint.com/companies/news/river-mobility-lands-120-million-funding-as-it-takes-electric-scooter-fight-national-11785841377675.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "",
+   "url": "https://www.livemint.com/companies/news/river-mobility-lands-120-million-funding-as-it-takes-electric-scooter-fight-national-11785841377675.html"
+  }
+ ],
+ "updatedAt": "2026-08-07T01:47:18.259112+00:00"
+}

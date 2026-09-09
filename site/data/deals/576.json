@@ -1,0 +1,27 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "DealShare",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-25T12:31:29.781105+00:00",
+ "dealType": "strategic buyout",
+ "id": 576,
+ "individuals": [],
+ "oneLine": "DealShare in acquisition talks with TrueMeds or Captai",
+ "primaryUrl": "https://entrackr.com/exclusive/exclusive-dealshare-in-talks-for-acquisition-as-it-stares-at-shutdown-12433019",
+ "seller": "DealShare shareholders/promoters",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "outlet": "Entrackr",
+   "resolvable": true,
+   "title": "Exclusive: DealShare in talks for acquisition as it stares at shutdown",
+   "url": "https://entrackr.com/exclusive/exclusive-dealshare-in-talks-for-acquisition-as-it-stares-at-shutdown-12433019"
+  }
+ ],
+ "updatedAt": "2026-08-25T12:31:29.781105+00:00"
+}

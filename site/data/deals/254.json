@@ -1,0 +1,39 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Muthoot Fincorp",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-16T14:58:10.912909+00:00",
+ "dealType": "DRHP filing",
+ "id": 254,
+ "individuals": [],
+ "oneLine": "Muthoot Fincorp progressing IPO filing; promoters likely to cash out",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNVnR4bFF1LWVZbl93eWpJSkJiWnBpc0wwb3ZpU3E1YlBBd1dQX3Z5NFY2Nm1PV3FLRVVtMjc1aC1KeUxyTjZyb1F4U2VTLUNFVDNSSzd0NE5PeVU4SHFsMktZVjhpR05VSXJjcGFxVEZud2lQRDdCenQ0TTZVQ3hlVElta25SSW52eTQ2angzbHUxcFA3bGpUVGEwbnBVcGpvZ29TOGl2eWpNMUI5TUhodzJ2V0tDTlZXRHNSZXFWbVNQNmFCSW9qUUNNXzMtQzRLamFUanJHY1RIWi1lcUVsVU9VelZQaHRNb1E?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "Muthoot Fincorp Profit Hits ₹705 Cr in Q1; IPO Filing Progresses",
+   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNVnR4bFF1LWVZbl93eWpJSkJiWnBpc0wwb3ZpU3E1YlBBd1dQX3Z5NFY2Nm1PV3FLRVVtMjc1aC1KeUxyTjZyb1F4U2VTLUNFVDNSSzd0NE5PeVU4SHFsMktZVjhpR05VSXJjcGFxVEZud2lQRDdCenQ0TTZVQ3hlVElta25SSW52eTQ2angzbHUxcFA3bGpUVGEwbnBVcGpvZ29TOGl2eWpNMUI5TUhodzJ2V0tDTlZXRHNSZXFWbVNQNmFCSW9qUUNNXzMtQzRLamFUanJHY1RIWi1lcUVsVU9VelZQaHRNb1E?oc=5"
+  },
+  {
+   "outlet": "Draft Abridged Prospectus",
+   "resolvable": true,
+   "title": "Muthoot Fincorp Limited - DRHPMuthoot Fincorp Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/muthoot-fincorp-limited-drhp_103697.html"
+  },
+  {
+   "outlet": "Draft Abridged Prospectus",
+   "resolvable": true,
+   "title": "Muthoot Fincorp Limited",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/aug-2026/Muthoot%20Fincorp%20DAP_p.pdf"
+  }
+ ],
+ "updatedAt": "2026-08-16T14:58:10.912909+00:00"
+}

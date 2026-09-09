@@ -1,0 +1,33 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Lalithaa Jewellery Mart Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-12T12:01:50.880334+00:00",
+ "dealType": "DRHP filing",
+ "id": 204,
+ "individuals": [],
+ "oneLine": "Lalithaa Jewellery Mart files RHP for IPO; promoters likely to cash out.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/aug-2026/lalithaa-jewellery-mart-limited-rhp_103513.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "outlet": "SEBI",
+   "resolvable": true,
+   "title": "Lalithaa Jewellery Mart Limited - RHPLalithaa Jewellery Mart Limited -Abridged Prospectus",
+   "url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/lalithaa-jewellery-mart-limited-rhp_103513.html"
+  },
+  {
+   "outlet": "SEBI",
+   "resolvable": true,
+   "title": "Lalithaa Jewellery Mart Limited -Abridged Prospectus",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/aug-2026/Lalithaa%20Jewellery%20Mart%20Limited-AP_p.pdf"
+  }
+ ],
+ "updatedAt": "2026-08-12T12:01:50.880334+00:00"
+}

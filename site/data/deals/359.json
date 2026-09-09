@@ -1,0 +1,81 @@
+{
+ "advisers": [],
+ "amountCr": 465.0,
+ "amountRaw": "₹465 Cr",
+ "buyer": null,
+ "company": "AUGMONT ENTERPRISES LIMITED",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-18T11:03:48.086860+00:00",
+ "dealType": "DRHP filing",
+ "id": 359,
+ "individuals": [],
+ "oneLine": "Augmont Enterprises filed RHP for IPO; promoters likely to cash out.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/aug-2026/augmont-enterprises-limited-rhp_103716.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "outlet": "SEBI",
+   "resolvable": true,
+   "title": "AUGMONT ENTERPRISES LIMITED – RHPAUGMONT ENTERPRISES LIMITED – Abridged Prospectus",
+   "url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/augmont-enterprises-limited-rhp_103716.html"
+  },
+  {
+   "outlet": "SEBI",
+   "resolvable": true,
+   "title": "AUGMONT ENTERPRISES LIMITED – Abridged Prospectus",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/aug-2026/AUGMONT%20ENTERPRISES%20LIMITED%20-%20Abridged%20Prospectus_p.pdf"
+  },
+  {
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "Augmont Enterprises IPO: ₹465 Cr Issue, Financials & Key Details",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNb1o4WEdmbHloS1hKOVE4bWtRVFBwYnlqaVBSUEdTc3Q2d3FGVFVLMVE5cmZQY0lveFVJZ05HVWJxdVBUdGIyVW0zajRReHhJc3JDNXRDeUN1emdlMkNsakUtTS1FeFdMQ0pYTldTYUNIeGFnY1VrT0piV3lhdzlrQ2hpLWRpM1A1c3pnYWxIT245bVlPeXZsa0VHYTV5V1FJVmVsY1o1SU1PdVZuUzdB?oc=5"
+  },
+  {
+   "outlet": "CNBC TV18",
+   "resolvable": false,
+   "title": "Augmont Enterprises raises ₹246 crore from anchor investors ahead of ₹826 crore IPO",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOcEZtVEMyLUR0TG93YnNDcDhfbGJhVGFpSXVUbEFyckJUTWdBaEtlVnltMFFHQ1lheHJDS0V1MjJKbjcybEdEX3JOMm4tanJIWGNOVHZQZUUyTWRkRlJXT2U5RklQaXBhZElyeHg1a0xJYUg0QzAzVDA3bDZuWnZXWHM2dEVuemM1NzR6R3B4eU9uXzBCbG9NRlAwVTJOUVhscnBfV1BXSGnSAa4BQVVfeXFMT3FzQ1ZsYm03cjBUU0ZUMnlTelJ2UWxtVTBzdFB1VER0eUlzTG81RkotcVQwRUt2NVplcklDNGlLb1ZlSjJtTTR1QW9PZDlVR3ZPNmQ2Skhxb0w4bEdqTEVsQnVpY3l6Z0NvWmg1X05FU1FQQTZjQmY0bXMwWmpKS3I4MTYwT2J6UHhqYW9zOWUwWUc1QmJFSWdtalZpbVdBbWp5TWxKS2JjLTBfZEdR?oc=5"
+  },
+  {
+   "outlet": "Business Today",
+   "resolvable": false,
+   "title": "Augmont Enterprises IPO Opens August 21: Price Band, Dates, & Should You Apply",
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPeXI5QW0xWjVZaUE2R3UtZ0ozb3ZfMmFaWm8xNlk0dkFxMFJ5XzRZODF5YjRLNkJUVTJNV09nbEpiUmV6YnJGNlE5Q2E4OWFwU09LcDBJUHlJOFlLaFdTaEJXMk9XblJLQVU5Y3JXWjhmYTQwS1VHWjBfNHlPeTl3UGhDYlB4bVFtcEt3enZISkNzLUtmYlVLSUxvNDVYQU9RbVdvZ1pqQ0dsemxyQUtDeS1MM2MtMmZkZEZJRnVNRnd3d3ZBN25zOWJ5NHJmTlVTN0xYdUI2SVJTeWh2NXdGZXJUVdIB4wFBVV95cUxPeXI5QW0xWjVZaUE2R3UtZ0ozb3ZfMmFaWm8xNlk0dkFxMFJ5XzRZODF5YjRLNkJUVTJNV09nbEpiUmV6YnJGNlE5Q2E4OWFwU09LcDBJUHlJOFlLaFdTaEJXMk9XblJLQVU5Y3JXWjhmYTQwS1VHWjBfNHlPeTl3UGhDYlB4bVFtcEt3enZISkNzLUtmYlVLSUxvNDVYQU9RbVdvZ1pqQ0dsemxyQUtDeS1MM2MtMmZkZEZJRnVNRnd3d3ZBN25zOWJ5NHJmTlVTN0xYdUI2SVJTeWh2NXdGZXJUVQ?oc=5"
+  },
+  {
+   "outlet": "Moneycontrol.com",
+   "resolvable": false,
+   "title": "Augmont Enterprises raises over Rs 246 crore from anchor investors; to open Rs 825-crore IPO on August 21",
+   "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNR21wSE5qaXFMdTlrcDJOMWdINFByTWtBTFZ4aGg1WlpTYnhreGJGeU4xVGw4RTl3YkJCWGpTa3ZaYjlvVm9PSFR0dFk5WEhYRi01S0dFSnduSThRaHdZQXdLbzhySUs5alFEOHhfdnp6R2xnZDhxR2JGQl8zVzJEMExmU19kLWlJZFBzc29kZVBCd1U0ODhNWFRPNHRLbDZfUEhmZ1ZMV0QxQmtHWmhucDJXRnkyOFpZRl9hYlk2RDRPQXlYU2NPUTdiRkdXT2gxaDBOTGZtb3RIb2xGdVpYaXFZM3dGaFhBaENSMWdlcUJ1SDlHbTFIQXgycm94UdIB_gFBVV95cUxNR21wSE5qaXFMdTlrcDJOMWdINFByTWtBTFZ4aGg1WlpTYnhreGJGeU4xVGw4RTl3YkJCWGpTa3ZaYjlvVm9PSFR0dFk5WEhYRi01S0dFSnduSThRaHdZQXdLbzhySUs5alFEOHhfdnp6R2xnZDhxR2JGQl8zVzJEMExmU19kLWlJZFBzc29kZVBCd1U0ODhNWFRPNHRLbDZfUEhmZ1ZMV0QxQmtHWmhucDJXRnkyOFpZRl9hYlk2RDRPQXlYU2NPUTdiRkdXT2gxaDBOTGZtb3RIb2xGdVpYaXFZM3dGaFhBaENSMWdlcUJ1SDlHbTFIQXgycm94UQ?oc=5"
+  },
+  {
+   "outlet": "The Times of India",
+   "resolvable": false,
+   "title": "Augmont raises Rs 246 cr from anchors ahead of IPO",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOUVVraGJZdkt1eEVTNFo4Mk1sVmEySzV0RjZWdVdqWnFQUmJITmdjLTgxdWJSLUNoOFNEbUVtQ1h1MDBEMVlzZEFHcmRiWnFXTFo2b09HQ19tbWNSVUppSXQyWnNPMEwteDduMmgxckxMZ0JaeEpIeE9HaUkxTGlKb1dEYmRtZ2s2a2FBRUd3WFFISDFTQ04xeC0ycjJOY3JRMGFILTZ1U2h5WG0zR0lyclY2d1F1UHpxM19TNmlfTXdzdXE1dUHSAcsBQVVfeXFMUHFnS1FEeHNtNFBnNF9qR2M3U3QyY3I0aXk4RTBFTzVHS2xoc1lyNlJTY3RkaTNtVEt1NlBmdno5WnFVRk1MODgydm5Vb0diVFJQNjlvemhhMGpCTFlqUnVlZzFBWng4bWc0ejVsaEgtanM2XzVyb296YUhMUTBRN0VYVjJjRXk0M1hJNXBIZVVZMUZYQnR6eG52NU1jTlY0MTlzV21VWGFma2EySUVDaVR3aUgxcjJ5a1lhd1NXU2xXbVFxbTY5U0xldzQ?oc=5"
+  },
+  {
+   "outlet": "The Economic Times",
+   "resolvable": false,
+   "title": "Augmont Enterprises mops up Rs 246 crore in anchor round ahead of IPO; Nomura, HDFC MF among investors",
+   "url": "https://news.google.com/rss/articles/CBMi6wJBVV95cUxOZ1Q5RWFvOGRQellRb0FqYVdZWVdIZHFVWHRQcVpQV1BMRmxCYzZEdHo0SlJ4Ujhtemh1MGpNZTYyWDVxdWZ3WHNoR242NlZnbjdFQ0ZqZ25xNlRlcnBkTzdNcC1qSngzX3oyNG42TDdFdWh2RENKQjBPd3JOUTdYWkFVeWdhc3BNRnYxYkg2OGE1VDRUOGwzYVl4WTljXzNESUY0YVNxd1BKYTh2R0JPM3dhNlhTcE45UkFQeDFPR3BablAzQWgxUlgyWmJsZ3ZLWkxldnI5alVDaC1UUzc2VDZlSTRCM09IaVZCLVhYaEU5LXhLRk95OEhRSWpuVzE0dGFJZ0JvOExiX29HVUZvcmNmNWhSSmFNcVZsbnpjZHRBU2t0bEJtNkQ5MnJtYWNnVDBvRVdUY21SaW9JbWlDN2JhRzBBMFhPa3pvSnh6U29lV2NfRjFsaUN1NDNPQUJSbkFpRTVYLW1MYjDSAYcCQVVfeXFMUFNQdkMzVGJ0SzY1TTEyMXQwMjhVRWROSHpUMHA4QnV6U21TS191X1JGdjl2SWhmWktwcjVIaE0yTlpXSDN1RU55YmdUcGxYaFhZS0U3SWdRbGxKNGI2bTdWMnQtMVoyTFdrMnRHQVk2b1N5SzEtenozS3NwMEhsTEtjTFlFX2hTeFh5QXFrRGVpYzlNdUo0bDVMamFNbnRwaWtqYVBWRHoxMXhXM0RlcDd6RFBjTkxGWVczUERudWFsYzlycFlGZi1kNk50MzZUeWJsOW5EZkFGX0hUVkVadDU3UHlqbjdQdmxwdnVqbTdpREJ5SUxyekRQbVBkZTAteHFob1prZUU?oc=5"
+  },
+  {
+   "outlet": "CNBC TV18",
+   "resolvable": false,
+   "title": "Augmont Enterprises IPO: Issue opens today, anchor investors raise ₹246 crore — should you apply?",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNbnh3NXd1UThlaVBhYUwwemZHQm05V1RTN2ZoX3RKaUM4bHFMVnRJS1FfcG9JX3h0ZW9RUXltTXlvYW1Sc0tzcWVoVDBhWnBXZmJqTFZYQVByOHp1aGdnVzYzUTNSRjJvUVBURnEwVFo5aUotb3FUTUZ6VUVIbFd3aHpPT2J2b3FCZV9jakFlTXEzdWg3eGZxNEJWQzgtUGZDNnUybUVYbk1fOFBEOHFOUE1kLWk3TGFmTGtheUJzNTBwUWE3NDJxYUdnT2N3YlI3c1hyVGlhMHh5UUZYVzExcWJpd3fSAeoBQVVfeXFMTWgwdUpiYUVzNFhhak4yRkk4em5yR1RFN1Vsb19vRlFXUmZpZXU4ZmFwbDc5NHhWekIxenRac1FfRnVCUXhvZHdIdFdPNDJnRTF0eDVnX252VGlKbjdxMXR4d3VnWUVkdk9vVGlJa0F6YUFpTGNjTi1XQ2s2cG5FQjQ2V0wwQzQ5Q0tWZ2RIYUlacXFXVjVLT2lfenRqV2FtNjlWZW45UWNEY1B0MllTd2lYZlJUbE55LTQ0Q1pMakotemxUZGl6YVhVc2J6WlN5TFREbkszek5PazVLZG1Rc3NtNjR3ak9hb29B?oc=5"
+  },
+  {
+   "outlet": "The Economic Times",
+   "resolvable": false,
+   "title": "Can Augmont Enterprises IPO deliver long-term growth for high-risk investors?",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPRGo3dHYySTBkR3hNU3VOLUNGUXFWSHpJVHRoVEs3WmoxOWE2aW1qNzREZDg4c1ZDd19TbTJwc2VmQ1JBNWNoREI4TzB0a1JFWjBZSlBZM2tXNUplY0syRUpBSGUzM1JGZ3ZHMnRyb1Q1Z3J1RXRmOF9HRDlWTkk5MGthWlhDYnM4OXFJV09QbHBVQnY3TnR0SWt3enVwV25JN3JabkxyVnEwdzM0bER5Y3ZBSmRPX0I2UFUyNGxJcnNvdXg4WHdOQUhVQmROaHYtRWZ0SmUtVVZiZm83aEYxRlNB?oc=5"
+  }
+ ],
+ "updatedAt": "2026-08-19T08:05:04.597404+00:00"
+}

@@ -1,0 +1,27 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "Mahindra",
+ "company": "SML (Swaraj Mazda Limited or similar)",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-16T11:30:58.314492+00:00",
+ "dealType": "strategic buyout",
+ "id": 252,
+ "individuals": [],
+ "oneLine": "Mahindra acquires SML to grow commercial vehicle market share.",
+ "primaryUrl": "https://www.thehindubusinessline.com/companies/mahindra-bets-on-sml-acquisition-eyes-10-12-cv-market-share-by-fy31/article71344065.ece",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "outlet": "Business Line",
+   "resolvable": true,
+   "title": "Mahindra bets on SML acquisition; eyes 10-12% CV market share by FY31",
+   "url": "https://www.thehindubusinessline.com/companies/mahindra-bets-on-sml-acquisition-eyes-10-12-cv-market-share-by-fy31/article71344065.ece"
+  }
+ ],
+ "updatedAt": "2026-08-16T11:30:58.314492+00:00"
+}

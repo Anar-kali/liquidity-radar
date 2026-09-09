@@ -1,0 +1,47 @@
+{
+ "advisers": [],
+ "amountCr": 1760.0,
+ "amountRaw": "$200 million = ~Rs 1,760 crore (at 88 INR/USD)",
+ "buyer": null,
+ "company": "Unacademy",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-09-01T08:31:13.760463+00:00",
+ "dealType": "strategic buyout",
+ "id": 679,
+ "individuals": [
+  "Gaurav Munjal"
+ ],
+ "oneLine": "UpGrad acquires Unacademy for $200M; founders including Gaurav Munjal cash out.",
+ "primaryUrl": "https://entrackr.com/news/unacademy-closes-upgrad-deal-at-200-mn-12479514",
+ "seller": "Unacademy founders/shareholders",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "outlet": "Entrackr",
+   "resolvable": true,
+   "title": "Unacademy closes UpGrad deal at $200 Mn",
+   "url": "https://entrackr.com/news/unacademy-closes-upgrad-deal-at-200-mn-12479514"
+  },
+  {
+   "outlet": "Entrackr",
+   "resolvable": true,
+   "title": "upGrad wraps up Unacademy acquisition at $200M",
+   "url": "https://yourstory.com/2026/09/upgrad-unacademy-acquisition-usd-200-m-edtech"
+  },
+  {
+   "outlet": "Entrackr",
+   "resolvable": true,
+   "title": "Unacademy’s $3.44 billion valuation to $200 million acquisition by upGrad: Gaurav Munjal reflects on journey",
+   "url": "https://www.livemint.com/companies/news/unacademys-3-44-billion-valuation-to-200-million-acquisition-by-upgrad-gaurav-munjal-reflects-on-journey-11788243091634.html"
+  },
+  {
+   "outlet": "Entrackr",
+   "resolvable": true,
+   "title": "From $3.5 Bn To $200 Mn: upGrad Completes Unacademy Acquisition",
+   "url": "https://inc42.com/buzz/from-3-5-bn-to-200-mn-upgrad-completes-unacademy-acquisition/"
+  }
+ ],
+ "updatedAt": "2026-09-01T08:31:13.760463+00:00"
+}

@@ -1,0 +1,39 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Veritas Finance Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-08T09:49:06.940499+00:00",
+ "dealType": "DRHP filing",
+ "id": 125,
+ "individuals": [],
+ "oneLine": "Veritas Finance filed RHP; promoters planning IPO liquidity event.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/aug-2026/veritas-finance-limited-rhp_103304.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "Veritas Finance Limited - RHPVeritas Finance Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/veritas-finance-limited-rhp_103304.html"
+  },
+  {
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "Veritas Finance Limited",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/aug-2026/Veritas%20Finance%20Limited%20-%20AP_p.pdf"
+  },
+  {
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "Veritas Finance Limited - DRHPVeritas Finance Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/veritas-finance-limited-drhp_103304.html"
+  }
+ ],
+ "updatedAt": "2026-08-08T09:49:06.940499+00:00"
+}

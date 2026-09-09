@@ -1,0 +1,27 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Coca-Cola India Bottling Unit",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-14T15:01:08.394348+00:00",
+ "dealType": "IPO-OFS",
+ "id": 240,
+ "individuals": [],
+ "oneLine": "Coca-Cola plans mega India IPO of bottling unit in 2027; valued ~₹85,000 crore.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1VZGVJaExGMHNxVDFIU2hDNFEya3UtOUJaYlViN29LYnRHQ2x2bzdqY1BGbVM5VGRpRVpZanl1V213dllNV2dfZDV2MmQxUVg3dXFFUmR3cGoyemc?oc=5",
+ "seller": null,
+ "sizeBand": "OVER_2000",
+ "sizeSource": "band",
+ "sources": [
+  {
+   "outlet": "Mshale",
+   "resolvable": false,
+   "title": "Coca-Cola Plans Mega India IPO In 2027; Bottling Unit May Be Valued At ₹85,000 Crore Volodymyr Zelenskyy (GPNIwGFrPm)",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1VZGVJaExGMHNxVDFIU2hDNFEya3UtOUJaYlViN29LYnRHQ2x2bzdqY1BGbVM5VGRpRVpZanl1V213dllNV2dfZDV2MmQxUVg3dXFFUmR3cGoyemc?oc=5"
+  }
+ ],
+ "updatedAt": "2026-08-14T15:01:08.394348+00:00"
+}

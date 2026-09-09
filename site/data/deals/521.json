@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Wherrelz IT Solutions Ltd",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-21T11:31:16.441129+00:00",
+ "dealType": "block deal",
+ "id": 521,
+ "individuals": [
+  "Sumanlata Dhareshwar",
+  "Chaitanya Bharat Dhareshwar"
+ ],
+ "oneLine": "Sumanlata and Chaitanya Dhareshwar disclosed substantial acquisition in Wherrelz IT",
+ "primaryUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/69A06B4F_1450_498E_9237_947FCEDBA4EE_163806.pdf",
+ "seller": "Sumanlata Dhareshwar & Chaitanya Bharat Dhareshwar",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "outlet": "BSE",
+   "resolvable": true,
+   "title": "Wherrelz IT Solutions Ltd: The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations, 2011 for Sumanlata Dhareshwar & Chaitanya Bharat Dhareshwar",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/69A06B4F_1450_498E_9237_947FCEDBA4EE_163806.pdf"
+  }
+ ],
+ "updatedAt": "2026-08-21T11:31:16.441129+00:00"
+}

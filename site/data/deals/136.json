@@ -1,0 +1,27 @@
+{
+ "advisers": [],
+ "amountCr": 300.6,
+ "amountRaw": "₹300.6 Cr",
+ "buyer": null,
+ "company": "Shadowfax",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-08-08T10:50:11.374178+00:00",
+ "dealType": "PE secondary",
+ "id": 136,
+ "individuals": [],
+ "oneLine": "TPG offloads Shadowfax shares worth ₹301 cr in bulk deal",
+ "primaryUrl": "https://inc42.com/buzz/pe-giant-tpg-offloads-shadowfax-shares-in-%e2%82%b9301-cr-bulk-deal/",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "outlet": "Inc42",
+   "resolvable": true,
+   "title": "PE Giant TPG Offloads Shadowfax Shares In ₹301 Cr Bulk Deal",
+   "url": "https://inc42.com/buzz/pe-giant-tpg-offloads-shadowfax-shares-in-%e2%82%b9301-cr-bulk-deal/"
+  }
+ ],
+ "updatedAt": "2026-08-08T10:50:11.374178+00:00"
+}

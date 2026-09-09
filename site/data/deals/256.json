@@ -1,0 +1,33 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": "$1.5 billion = ~13,200 crore INR",
+ "buyer": null,
+ "company": "Yotta Data",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-17T01:31:10.536899+00:00",
+ "dealType": "DRHP filing",
+ "id": 256,
+ "individuals": [],
+ "oneLine": "Yotta Data planning $1.5B raise including India IPO.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQZGFxVEh5Rm9fcWx1SXBTZ0FPbXE2cjdUNlhPTVFCRXhrc1pOR2owSTQ4R1hYSmZBMjQ3cDlfT2dVVm05NE5pOS1rN0huUVkxUGlsLWdTSmd2S3hvc2tveDZjcUNfRWlvb3J0OGZvcFFGbkJuS2F2RWdfYnJWcmhoQ21WMEZFcDh3SmxFMGZlY0NXa0c1Y2g0VVdqUlhRWlBHeUoxRU5JcXRsMlVoWGpfa21nNkYwZERRdmlYcDA1VEhUY0o0Yk9peDZnQnoyRnRO?oc=5",
+ "seller": null,
+ "sizeBand": "OVER_2000",
+ "sizeSource": "band",
+ "sources": [
+  {
+   "outlet": "whalesbook.com",
+   "resolvable": false,
+   "title": "Yotta Data Plans $1.5 Billion Raise, Pivots to India IPO",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQZGFxVEh5Rm9fcWx1SXBTZ0FPbXE2cjdUNlhPTVFCRXhrc1pOR2owSTQ4R1hYSmZBMjQ3cDlfT2dVVm05NE5pOS1rN0huUVkxUGlsLWdTSmd2S3hvc2tveDZjcUNfRWlvb3J0OGZvcFFGbkJuS2F2RWdfYnJWcmhoQ21WMEZFcDh3SmxFMGZlY0NXa0c1Y2g0VVdqUlhRWlBHeUoxRU5JcXRsMlVoWGpfa21nNkYwZERRdmlYcDA1VEhUY0o0Yk9peDZnQnoyRnRO?oc=5"
+  },
+  {
+   "outlet": "Google News",
+   "resolvable": true,
+   "title": "Yotta targets $1.5 billion raise in FY27, including India IPO",
+   "url": "https://www.livemint.com/companies/news/yotta-targets-1-5-billion-raise-in-fy27-including-india-ipo-11786845613375.html"
+  }
+ ],
+ "updatedAt": "2026-08-17T01:31:10.536899+00:00"
+}

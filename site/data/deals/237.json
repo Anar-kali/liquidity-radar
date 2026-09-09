@@ -1,0 +1,27 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "The Viral Fever",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-14T12:31:35.151704+00:00",
+ "dealType": "PE secondary",
+ "id": 237,
+ "individuals": [],
+ "oneLine": "Tiger Global exits entire stake in OTT platform The Viral Fever.",
+ "primaryUrl": "https://inc42.com/buzz/tiger-global-offloads-entire-stake-in-ott-platform-the-viral-fever/",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "outlet": "Inc42",
+   "resolvable": true,
+   "title": "Tiger Global Offloads Entire Stake In OTT Platform The Viral Fever",
+   "url": "https://inc42.com/buzz/tiger-global-offloads-entire-stake-in-ott-platform-the-viral-fever/"
+  }
+ ],
+ "updatedAt": "2026-08-14T12:31:35.151704+00:00"
+}

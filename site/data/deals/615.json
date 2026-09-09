@@ -1,0 +1,41 @@
+{
+ "advisers": [],
+ "amountCr": 1758.24,
+ "amountRaw": "1758.24cr confirmed via NSE block deal",
+ "buyer": null,
+ "company": "Ather Energy",
+ "confidence": "high",
+ "confirmed": true,
+ "createdAt": "2026-08-28T04:31:09.982339+00:00",
+ "dealType": "block deal",
+ "id": 615,
+ "individuals": [
+  "GOVERNMENT OF SINGAPORE"
+ ],
+ "oneLine": "Block deal: 3.9% of Ather Energy (₹1,758 cr) changes hands",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZTFHLUx0cEJyQ1laSnZnR0VDd2dKU1pjRXl0WWpDdWQ5ZXlQTGgwZEowaU1UYTZkdVhXNjdXRTFrLUJObTJRMVJFT0xabGdIb0pIckh5S29UdURienVIUWQ5TDZUUEpRVG5ONGowdmUyWjJoUHVsV0lFaEt3UURWQTc2bDhoaEZqWUdmQXhjQm81dWg1MDhJck43S1FqbHhzVjVYbXBJbXlBdXPSAbABQVVfeXFMT01xamRIY3htcm11UE9xSGdMc0hRVzVyQjlSRkd2X0s0OEdvSEd2TGk3R1N1OW1NcEFPVk12TG0zcWJZR1JYZnFvblg3S3NtdXhoLVJqNlJBbkpUeEgzUDlEelFBLUV1YVZYc1pwcVZSb0hPZlR6bGZJQkthQXo5NWNPZ2tzeHYwQkRQTUFieWdWMk1zOEVSVzN5cEVLRXk0b3REWWxfUXJaQzE0Mm5FWU0?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "outlet": "CNBC TV18",
+   "resolvable": false,
+   "title": "Ather Energy Block Deal: 3.9% equity worth ₹1,758 crore changes hands",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZTFHLUx0cEJyQ1laSnZnR0VDd2dKU1pjRXl0WWpDdWQ5ZXlQTGgwZEowaU1UYTZkdVhXNjdXRTFrLUJObTJRMVJFT0xabGdIb0pIckh5S29UdURienVIUWQ5TDZUUEpRVG5ONGowdmUyWjJoUHVsV0lFaEt3UURWQTc2bDhoaEZqWUdmQXhjQm81dWg1MDhJck43S1FqbHhzVjVYbXBJbXlBdXPSAbABQVVfeXFMT01xamRIY3htcm11UE9xSGdMc0hRVzVyQjlSRkd2X0s0OEdvSEd2TGk3R1N1OW1NcEFPVk12TG0zcWJZR1JYZnFvblg3S3NtdXhoLVJqNlJBbkpUeEgzUDlEelFBLUV1YVZYc1pwcVZSb0hPZlR6bGZJQkthQXo5NWNPZ2tzeHYwQkRQTUFieWdWMk1zOEVSVzN5cEVLRXk0b3REWWxfUXJaQzE0Mm5FWU0?oc=5"
+  },
+  {
+   "outlet": "Google News",
+   "resolvable": true,
+   "title": "Ather Energy Limited: bulk deal",
+   "url": ""
+  },
+  {
+   "outlet": "Google News",
+   "resolvable": true,
+   "title": "Ather Energy Limited: block deal",
+   "url": ""
+  }
+ ],
+ "updatedAt": "2026-08-28T21:51:23.251400+00:00"
+}

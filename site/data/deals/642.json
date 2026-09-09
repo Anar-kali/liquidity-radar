@@ -1,0 +1,45 @@
+{
+ "advisers": [],
+ "amountCr": 2670.0,
+ "amountRaw": "₹2,670 crore block deals",
+ "buyer": null,
+ "company": "Lenskart",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-08-31T01:34:53.793730+00:00",
+ "dealType": "block deal",
+ "id": 642,
+ "individuals": [],
+ "oneLine": "Alpha Wave Ventures sells ₹1,857 cr stake in Lenskart via block deals; fund receives proceeds.",
+ "primaryUrl": "https://inc42.com/buzz/alpha-wave-ventures-sells-%e2%82%b91857-cr-stake-in-lenskart-via-block-deals/",
+ "seller": "Alpha Wave Ventures",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "outlet": "Inc42",
+   "resolvable": true,
+   "title": "Alpha Wave Ventures Sells ₹1,857 Cr Stake In Lenskart Via Block Deals",
+   "url": "https://inc42.com/buzz/alpha-wave-ventures-sells-%e2%82%b91857-cr-stake-in-lenskart-via-block-deals/"
+  },
+  {
+   "outlet": "Univest",
+   "resolvable": false,
+   "title": "Lenskart Solutions Share Price: Alpha Wave Sells 1.7%",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPY1Z6cXI3bm50MTlOc0VMQUdNVzlodXpUZjU0d0pnb3VFal9SbkYwS25pTFVsOWQtLXpkOE5mQkU1U0l0TTZKa0pwaktKVnRsdnhPd04wOW1SZ05NN0hFVWdDczdRcVFUTjRNVmJKMGdZbzA1TFBndHhkMTZCWHFCUk9zYWd1cldCaENNWlpoWkJ3WVFfUE5r?oc=5"
+  },
+  {
+   "outlet": "Inc42",
+   "resolvable": true,
+   "title": "BNP Paribas, Societe Generale & Millennium Sell Lenskart Shares Via ₹2,670 Cr Block Deals",
+   "url": "https://inc42.com/buzz/bnp-paribas-societe-generale-millennium-sell-lenskart-shares-via-%e2%82%b92670-cr-block-deals/"
+  },
+  {
+   "outlet": "Inc42",
+   "resolvable": true,
+   "title": "BNP Paribas, SocGen pare Lenskart holdings in Rs 2,700 Cr bulk deals",
+   "url": "https://entrackr.com/news/bnp-paribas-socgen-pare-lenskart-holdings-in-rs-2700-cr-bulk-deals-12479320"
+  }
+ ],
+ "updatedAt": "2026-09-01T01:32:38.814919+00:00"
+}

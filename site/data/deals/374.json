@@ -1,0 +1,39 @@
+{
+ "advisers": [],
+ "amountCr": 335.0,
+ "amountRaw": "₹335 crore",
+ "buyer": "Tata Steel",
+ "company": "TMILL",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-18T17:15:26.442779+00:00",
+ "dealType": "strategic buyout",
+ "id": 374,
+ "individuals": [],
+ "oneLine": "Tata Steel acquires additional 23% stake in TMILL, becomes majority holder.",
+ "primaryUrl": "https://www.thehindubusinessline.com/companies/cci-approves-tata-steels-proposal-to-acquire-additional-23-stake-in-tmill/article71361900.ece",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "outlet": "Business Line",
+   "resolvable": true,
+   "title": "CCI approves Tata Steel's proposal to acquire additional 23% stake in TMILL",
+   "url": "https://www.thehindubusinessline.com/companies/cci-approves-tata-steels-proposal-to-acquire-additional-23-stake-in-tmill/article71361900.ece"
+  },
+  {
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "Tata Steel buys 23% TMILL stake for ₹335 crore, makes it subsidiary",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOczdrUUh4SW5qZDZVd3psQUlLTmk4QjBybGlRTGh1ZXdfc0llWk5wUTRDTlgtcVM5Ql9lYXRMYU0wTU1WMndFQWx6RF84MlRnVEdrdEJMTER2ZEVBZ1NGYTE3SUhLS3hXbUwxNWJDZTFkYmROUG51UFhPWFpGekRKYzdWaHdyd3N0ZlFBdkpGVHlNM0JoRms3N2otV3FKQzR1TEIxVkdtc19HLVJuZkpOcm1Xd0FDOWxL?oc=5"
+  },
+  {
+   "outlet": "Sahi",
+   "resolvable": false,
+   "title": "Tata Steel Acquires 23% Share In TMILL For ₹335 Crore, Increasing Ownership To 74%",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRjdKUlczYUUtWDV4bF9MdU5rRzluMVdzWGJtUjJCYzk0RFJHRXhhT1llUk5VM01xX2FlSHRsdXRYR3dkbVM2YlRGWTlsN2cwOG5MNGhOUTVaVkp0MnJObDlnN2QxUUlZYWRTV3NRdkFxWG03ZGVQLTBJc2N2bUZNX3BpOUxOb0x6Rnh3eDN1cDF5N3gwV0NtMGNjNVpWdVg2THVVODJqTHZSbGJ6dUdRSmU3Sm91dFMw?oc=5"
+  }
+ ],
+ "updatedAt": "2026-08-20T15:54:34.845574+00:00"
+}

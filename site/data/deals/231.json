@@ -1,0 +1,33 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "AGS Health Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-14T05:16:16.942320+00:00",
+ "dealType": "DRHP filing",
+ "id": 231,
+ "individuals": [],
+ "oneLine": "AGS Health Limited filed UDRHP for IPO; promoters likely to cash out.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/aug-2026/ags-health-limited-udrhp_103617.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "outlet": "Abridged prospectus",
+   "resolvable": true,
+   "title": "AGS Health Limited - UDRHPAGS Health Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/ags-health-limited-udrhp_103617.html"
+  },
+  {
+   "outlet": "Abridged prospectus",
+   "resolvable": true,
+   "title": "AGS Health Limited",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/aug-2026/AGS%20Health%20Limited%20-%20AP_p.pdf"
+  }
+ ],
+ "updatedAt": "2026-08-14T05:16:16.942320+00:00"
+}

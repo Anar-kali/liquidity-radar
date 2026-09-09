@@ -1,0 +1,27 @@
+{
+ "advisers": [],
+ "amountCr": 76.0,
+ "amountRaw": "$8 million = ₹76 crore (using 1 USD = 88 INR × 8 = 704 million INR ≈ 70.4 crore; stated as 'around Rs 76 crore')",
+ "buyer": "Stellaris Venture Partners",
+ "company": "Pinegap",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-06T05:24:42.764571+00:00",
+ "dealType": "PE primary",
+ "id": 67,
+ "individuals": [],
+ "oneLine": "Equity research startup raises $8M Series A; VC-backed, growth funding",
+ "primaryUrl": "https://entrackr.com/snippets/stellaris-venture-leads-8-mn-series-a-round-in-equity-research-startup-pinegap-12234362",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "outlet": "Entrackr",
+   "resolvable": true,
+   "title": "",
+   "url": "https://entrackr.com/snippets/stellaris-venture-leads-8-mn-series-a-round-in-equity-research-startup-pinegap-12234362"
+  }
+ ],
+ "updatedAt": "2026-08-06T05:24:42.764571+00:00"
+}

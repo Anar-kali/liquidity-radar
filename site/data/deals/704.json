@@ -1,0 +1,27 @@
+{
+ "advisers": [],
+ "amountCr": 1760.0,
+ "amountRaw": "$2 billion-plus = ~₹1,760 crore+",
+ "buyer": null,
+ "company": "Foundation Software",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-03T01:31:53.003409+00:00",
+ "dealType": "PE secondary",
+ "id": 704,
+ "individuals": [],
+ "oneLine": "Thoma Bravo explores $2 billion-plus sale of Foundation Software.",
+ "primaryUrl": "https://www.livemint.com/companies/thoma-bravo-explores-2-billion-plus-sale-of-foundation-software-sources-say-11788376664749.html",
+ "seller": "Thoma Bravo",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "Thoma Bravo explores $2 billion-plus sale of Foundation Software, sources say",
+   "url": "https://www.livemint.com/companies/thoma-bravo-explores-2-billion-plus-sale-of-foundation-software-sources-say-11788376664749.html"
+  }
+ ],
+ "updatedAt": "2026-09-03T01:31:53.003409+00:00"
+}

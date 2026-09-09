@@ -1,0 +1,39 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Nobel Hygiene",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-24T09:31:20.211912+00:00",
+ "dealType": "DRHP filing",
+ "id": 551,
+ "individuals": [],
+ "oneLine": "Nobel Hygiene files for IPO; promoters likely to cash out",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVnI2S0pzbEpDSkF4MFlXV2VPMEtfZXM0ZzVvT0ZQandlVGZvVTRBbEZRTmlLSEUxczY0LTB2cHVBVlBvOFpsMVBOaUY0b0s0QVgzYVV0RDM3Xy1FelpadE5oaWs2ZzdlM0dDdFB2SWhROUxncVBaQkYxM1hqZ3NPcEN4T1c?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "outlet": "fintechbiznews.com",
+   "resolvable": false,
+   "title": "Nobel Hygiene Files for IPO",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVnI2S0pzbEpDSkF4MFlXV2VPMEtfZXM0ZzVvT0ZQandlVGZvVTRBbEZRTmlLSEUxczY0LTB2cHVBVlBvOFpsMVBOaUY0b0s0QVgzYVV0RDM3Xy1FelpadE5oaWs2ZzdlM0dDdFB2SWhROUxncVBaQkYxM1hqZ3NPcEN4T1c?oc=5"
+  },
+  {
+   "outlet": "Draft Abridged Prospectus",
+   "resolvable": true,
+   "title": "Nobel Hygiene Limited - DRHPNobel Hygiene Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/nobel-hygiene-limited-drhp_103938.html"
+  },
+  {
+   "outlet": "Draft Abridged Prospectus",
+   "resolvable": true,
+   "title": "Nobel Hygiene Limited",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/aug-2026/Nobel%20Hygiene%20Limited%20-%20Draft%20Abridged%20Prospectus_p.pdf"
+  }
+ ],
+ "updatedAt": "2026-08-24T09:31:20.211912+00:00"
+}

@@ -1,0 +1,27 @@
+{
+ "advisers": [],
+ "amountCr": 45.65,
+ "amountRaw": "$5.5 Mn Series A1 = 48.4 crore INR @ 88 INR/USD",
+ "buyer": "Mela Ventures, Hero Enterprise Family Office",
+ "company": "Solinas Integrity",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-08-07T01:47:18.319086+00:00",
+ "dealType": "PE primary",
+ "id": 112,
+ "individuals": [],
+ "oneLine": "Solinas Integrity raises $5.5M Series A1 for deeptech",
+ "primaryUrl": "https://entrackr.com/snippets/mela-ventures-co-leads-55-mn-series-a1-round-in-solinas-integrity-12236009",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "outlet": "Entrackr",
+   "resolvable": true,
+   "title": "",
+   "url": "https://entrackr.com/snippets/mela-ventures-co-leads-55-mn-series-a1-round-in-solinas-integrity-12236009"
+  }
+ ],
+ "updatedAt": "2026-08-07T01:47:18.319086+00:00"
+}

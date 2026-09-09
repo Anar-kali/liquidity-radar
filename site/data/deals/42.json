@@ -1,0 +1,27 @@
+{
+ "advisers": [],
+ "amountCr": 63.0,
+ "amountRaw": "Rs 63 crore ($6.6 million, hybrid equity and debt)",
+ "buyer": null,
+ "company": "GetVantage",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-08-05T13:21:00.871750+00:00",
+ "dealType": "PE primary",
+ "id": 42,
+ "individuals": [],
+ "oneLine": "GetVantage raises Rs 63 Cr Series A1 hybrid capital round for MSMEs.",
+ "primaryUrl": "https://entrackr.com/snippets/getvantage-secures-rs-63-cr-in-series-a1-round-12226948",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "outlet": "Entrackr",
+   "resolvable": true,
+   "title": "",
+   "url": "https://entrackr.com/snippets/getvantage-secures-rs-63-cr-in-series-a1-round-12226948"
+  }
+ ],
+ "updatedAt": "2026-08-05T13:21:00.871750+00:00"
+}

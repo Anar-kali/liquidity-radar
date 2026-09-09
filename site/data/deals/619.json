@@ -1,0 +1,27 @@
+{
+ "advisers": [],
+ "amountCr": 7920.0,
+ "amountRaw": "$900 million IPO target; $900M × 88 INR/USD = 79,200 crore; primary proceeds but IPO intent qualifies as early lead",
+ "buyer": null,
+ "company": "Yotta Data Services",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-28T06:32:34.029601+00:00",
+ "dealType": "other",
+ "id": 619,
+ "individuals": [],
+ "oneLine": "Yotta Data Services planning IPO targeting $6B valuation, $900M raise.",
+ "primaryUrl": "https://www.livemint.com/companies/news/hyperscale-data-center-operator-yotta-set-for-ipo-very-soon-11787894999345.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "Hyperscale data center operator Yotta set for IPO ‘very soon’, eyes valuation of $6 billion",
+   "url": "https://www.livemint.com/companies/news/hyperscale-data-center-operator-yotta-set-for-ipo-very-soon-11787894999345.html"
+  }
+ ],
+ "updatedAt": "2026-08-28T06:32:34.029601+00:00"
+}

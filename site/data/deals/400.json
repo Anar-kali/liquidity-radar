@@ -1,0 +1,27 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "WeWork India",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-20T08:31:06.546450+00:00",
+ "dealType": "block deal",
+ "id": 400,
+ "individuals": [],
+ "oneLine": "Stakeholder sells 2.53% stake in WeWork India via block deal",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOeF9fOWdkOTFTc0U2NklEQVBEU3BKcE96ZnhrdUtQQm5CaWljZ0V0TGlQYlVkS1lnaHllRWd6Z3VCNHY5R01FYjBQRjVQTUxrM1U5V3BFZWYyYjFxY1lrSEVhelpPU1RqemZNUVB3M0ZWNXlseEwyYmR2cWU2MWxZY1dFNzJFbUJwR0Q0dXFIa1BEQnVoOHoyN2lpajhCa203cnRoRDlKYWR5SXRKUDZ0Q0pCS3BwWDY2R1RHSk5HMkppODFaQzlXRVJWWFpNbWxNeEQ2d3ZBYUtIY0lvbkwwanhpSXd4RHl5QkpGb3NrQzM?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "WeWork India Management: Stakeholder Sells 2.53% Stake in Block Deal",
+   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOeF9fOWdkOTFTc0U2NklEQVBEU3BKcE96ZnhrdUtQQm5CaWljZ0V0TGlQYlVkS1lnaHllRWd6Z3VCNHY5R01FYjBQRjVQTUxrM1U5V3BFZWYyYjFxY1lrSEVhelpPU1RqemZNUVB3M0ZWNXlseEwyYmR2cWU2MWxZY1dFNzJFbUJwR0Q0dXFIa1BEQnVoOHoyN2lpajhCa203cnRoRDlKYWR5SXRKUDZ0Q0pCS3BwWDY2R1RHSk5HMkppODFaQzlXRVJWWFpNbWxNeEQ2d3ZBYUtIY0lvbkwwanhpSXd4RHl5QkpGb3NrQzM?oc=5"
+  }
+ ],
+ "updatedAt": "2026-08-20T08:31:06.546450+00:00"
+}

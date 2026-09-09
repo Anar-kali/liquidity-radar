@@ -1,0 +1,29 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Gujarat Themis Biosyn",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-05T13:21:00.768277+00:00",
+ "dealType": "block deal",
+ "id": 33,
+ "individuals": [
+  "Sachin D. Patel"
+ ],
+ "oneLine": "Sachin D. Patel acquires 5.2 lakh shares; price and amount undisclosed.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWXh2TE9fcnhHSzh0YXExd3ZEOWVKU3hNSEZ1UnVRQi02bUU4WTVXeTd5SG02aDJITlY5MnpTdnBBSWVNcU1yZUpKbk1uXzZubHo1WDZ4Z0ZLTHBjYlU4Yzg3TFZyNkNnZDhjN2NjZ2JCWlVlTjZZT1BIVUdFSjVEazM5ZGl3b0NzRWZtaDBqR2pXRzBoSTVPRVR5S250RF9GSlNBZnV3T0tmTVBTcXYtSW92b0JtZ2stLUE?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": null,
+ "sources": [
+  {
+   "outlet": "Google News",
+   "resolvable": false,
+   "title": "",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWXh2TE9fcnhHSzh0YXExd3ZEOWVKU3hNSEZ1UnVRQi02bUU4WTVXeTd5SG02aDJITlY5MnpTdnBBSWVNcU1yZUpKbk1uXzZubHo1WDZ4Z0ZLTHBjYlU4Yzg3TFZyNkNnZDhjN2NjZ2JCWlVlTjZZT1BIVUdFSjVEazM5ZGl3b0NzRWZtaDBqR2pXRzBoSTVPRVR5S250RF9GSlNBZnV3T0tmTVBTcXYtSW92b0JtZ2stLUE?oc=5"
+  }
+ ],
+ "updatedAt": "2026-08-05T13:21:00.768277+00:00"
+}

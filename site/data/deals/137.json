@@ -1,0 +1,27 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Tata Sons",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-08T10:50:11.380587+00:00",
+ "dealType": "IPO-OFS",
+ "id": 137,
+ "individuals": [],
+ "oneLine": "Tata Sons considering listing; RBI de-registration decision pending",
+ "primaryUrl": "https://www.thehindubusinessline.com/news/tata-sons-listing-question-hinges-on-rbis-de-registration-call/article71314245.ece",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "outlet": "Business Line",
+   "resolvable": true,
+   "title": "Tata Sons listing question hinges on RBI’s de-registration call",
+   "url": "https://www.thehindubusinessline.com/news/tata-sons-listing-question-hinges-on-rbis-de-registration-call/article71314245.ece"
+  }
+ ],
+ "updatedAt": "2026-08-08T10:50:11.380587+00:00"
+}

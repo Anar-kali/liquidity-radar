@@ -1,0 +1,27 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": "up to $2 bn = ~₹17,600 crore",
+ "buyer": null,
+ "company": "BluPine Energy",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-18T09:31:06.163961+00:00",
+ "dealType": "strategic buyout",
+ "id": 356,
+ "individuals": [],
+ "oneLine": "Actis-owned BluPine Energy in sale process; PE/strategic buyers circling.",
+ "primaryUrl": "https://www.livemint.com/companies/private-equity-funds-actis-owned-blupine-energy-2-bn-deal-11787028430925.html",
+ "seller": null,
+ "sizeBand": "OVER_2000",
+ "sizeSource": "band",
+ "sources": [
+  {
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "Top PEs, strategics circle Actis-owned BluPine Energy for up to $2 bn deal",
+   "url": "https://www.livemint.com/companies/private-equity-funds-actis-owned-blupine-energy-2-bn-deal-11787028430925.html"
+  }
+ ],
+ "updatedAt": "2026-08-18T09:31:06.163961+00:00"
+}

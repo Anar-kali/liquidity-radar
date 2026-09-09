@@ -1,0 +1,33 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Arjun Jewellers Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-10T10:31:13.586978+00:00",
+ "dealType": "DRHP filing",
+ "id": 165,
+ "individuals": [],
+ "oneLine": "Arjun Jewellers Limited files DRHP for IPO; promoters to cash out.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/aug-2026/arjun-jewellers-limited-drhp_103462.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "outlet": "Draft Abridged Prospectus",
+   "resolvable": true,
+   "title": "Arjun Jewellers Limited - DRHPArjun Jewellers Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/arjun-jewellers-limited-drhp_103462.html"
+  },
+  {
+   "outlet": "Draft Abridged Prospectus",
+   "resolvable": true,
+   "title": "Arjun Jewellers Limited",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/aug-2026/Arjun%20Jewellers%20Limited%20-%20DAP_p.pdf"
+  }
+ ],
+ "updatedAt": "2026-08-10T10:31:13.586978+00:00"
+}

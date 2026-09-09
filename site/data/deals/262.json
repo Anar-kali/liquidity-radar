@@ -1,0 +1,33 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Anthropic",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-17T07:31:05.229216+00:00",
+ "dealType": "IPO-OFS",
+ "id": 262,
+ "individuals": [],
+ "oneLine": "Anthropic IPO valuation hinges on $190-200B 2028 revenue forecast",
+ "primaryUrl": "https://www.livemint.com/companies/anthropic-ipo-valuation-hinges-on-190-200-billion-2028-revenue-forecast-sources-say-11786950086691.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "Anthropic IPO valuation hinges on $190-200 billion 2028 revenue forecast, sources say",
+   "url": "https://www.livemint.com/companies/anthropic-ipo-valuation-hinges-on-190-200-billion-2028-revenue-forecast-sources-say-11786950086691.html"
+  },
+  {
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "Anthropic may expand credit line beyond $10 billion as it gears up for IPO",
+   "url": "https://www.livemint.com/companies/news/anthropic-may-expand-credit-line-beyond-10-billion-as-it-gears-up-for-ipo-11787135173217.html"
+  }
+ ],
+ "updatedAt": "2026-08-17T07:31:05.229216+00:00"
+}

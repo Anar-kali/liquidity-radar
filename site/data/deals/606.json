@@ -1,0 +1,59 @@
+{
+ "advisers": [],
+ "amountCr": 284.83,
+ "amountRaw": "284.83cr confirmed via NSE block deal",
+ "buyer": null,
+ "company": "Lenskart",
+ "confidence": "high",
+ "confirmed": true,
+ "createdAt": "2026-08-27T13:31:29.998268+00:00",
+ "dealType": "block deal",
+ "id": 606,
+ "individuals": [
+  "ALPHA WAVE VENTURES"
+ ],
+ "oneLine": "SoftBank sells 2.59% Lenskart stake for ₹2,888 cr via block deal.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTTljd3NEY3lmR0VHaFBjX2ZqeHNqMGlReEppR1NzZFpBMXV2R0dKMFI3enBxN3dsam9aQnhiT3A4bVVxMEx2SjdkOTNnbFdNUFpQdUdfTEwtclgtdWd1Q0VFNkc5OU5lUGFqM2k4dlNWZl93REZxd09tRkV4Ym9mSXdHa2VmYWpCSEF2UThlVDd0R2RKLXJJd0NMeHVUeERnV2tjQmppc1NaRmItUnl4MkpuWQ?oc=5",
+ "seller": "SoftBank",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "outlet": "Trade Brains",
+   "resolvable": false,
+   "title": "SoftBank Sells 2.59% Stake in Lenskart for ₹2,888 Crore via Block Deal",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTTljd3NEY3lmR0VHaFBjX2ZqeHNqMGlReEppR1NzZFpBMXV2R0dKMFI3enBxN3dsam9aQnhiT3A4bVVxMEx2SjdkOTNnbFdNUFpQdUdfTEwtclgtdWd1Q0VFNkc5OU5lUGFqM2k4dlNWZl93REZxd09tRkV4Ym9mSXdHa2VmYWpCSEF2UThlVDd0R2RKLXJJd0NMeHVUeERnV2tjQmppc1NaRmItUnl4MkpuWQ?oc=5"
+  },
+  {
+   "outlet": "The Economic Times",
+   "resolvable": false,
+   "title": "Lenskart shares block deal: Alpha Wave Ventures II likely to sell 1.2% stake worth Rs 1,313 crore",
+   "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPd1lYOHNhdW5aVWhjVG4ycDE1ekk2UUlVRkM3TkNwa0RqaEktOHBSTHRNVEVoSzI3X0JrdThfU2lhTS1XMnB4MDc2ZXFkS2ROdHJQdC1ROXdwbWxpUUVWbUd2RThQd2cxM19mbjkxNzBKZ0VvZzBjSEZGNWNBMlROZzRjZ2xSd2VaZ19KX3hmRU1vQUpqcjJ0cWdPWGJPcEtNLXhOX1pEQWlzSkI2WW84OW02ME9sbTdrZkI3ZU5jaGtwakhXVmR2Z3pja3JTc0t5V1ZXSzd5YTVaOUl4dXQtTDJpdzg0SDRmU2FqbnFLVDQ4MS1oTGg5OXZWbjjSAYICQVVfeXFMT0ZLYXFCWVc2VWRpQzBxVXRZRW5GUHlLendRdjh4TnVUOEdwSmNMbUV1TE5sdklQVG9rZFRDSUpacktkMEozVjFkSjdWOF8xR2UxODBlVDFEZ0x6U1NuTDhYenJTbVg5Y2ZuX05qUXY0bHdrcjVXR3B2TmpqQWJmQ1JjX0VNc3p0eVJEb2Y0WFh5SzJBMlhoU0ZLM2EtT1E2dGU2WkdOX1hFMDBrc00wV3hXOHFyWU1xLTctNWpsckxiWkk4MklnZmkzaENDblNYYUJqVndjM0xXeTFvZ0lIUGNIMzdoSGpKRlBlZ3BMMnlwR01HOGVTblgxWEw2ZU5oV3p3?oc=5"
+  },
+  {
+   "outlet": "Google News",
+   "resolvable": true,
+   "title": "Alpha Wave offers $137 mn Lenskart stake as investor exits gather pace",
+   "url": "https://www.livemint.com/companies/news/alpha-wave-joins-softbank-temasek-adia-lenskart-share-sale-11787841215351.html"
+  },
+  {
+   "outlet": "Google News",
+   "resolvable": true,
+   "title": "Alpha Wave Ventures to sell up to 1.2% stake in Lenskart for ₹1,313 crore",
+   "url": "https://www.thehindubusinessline.com/companies/alpha-wave-ventures-to-sell-up-to-12-stake-in-lenskart-for-1313-crore/article71396817.ece"
+  },
+  {
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "Lenskart Sees ₹1,313 Crore Stake Sale by Alpha Wave Ventures",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOZVViTERhVHhBZEpSY0FxcEdvZmMwMEoydk82SHhzVEJNVFAxVlA1dXB3MUY3bnZtbjBBdnczeEd4bkEyb3ZvOHdPdGRCVUhTaGFMbklPZnNtMXlSQm1FNFFsbkpOT1NwNkNDbkJyLTFBNmhOOGFqbXBRdW9kb1RIb29Kd1RJVWNSVm10WENSQVVTM1RySVJiMHNNUWxvUmlIa1I5OEVHdzdHUDdIMVhYWldvbEh4NGhPTjk0WG40bFhOQlAxbWNBcWx1b01mSTlQNHVrODg3Tno?oc=5"
+  },
+  {
+   "outlet": "Google News",
+   "resolvable": true,
+   "title": "Lenskart Solutions Ltd: block deal",
+   "url": ""
+  }
+ ],
+ "updatedAt": "2026-08-28T21:51:23.256072+00:00"
+}

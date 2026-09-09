@@ -1,0 +1,33 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Carlsberg India",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-21T08:31:21.168076+00:00",
+ "dealType": "other",
+ "id": 516,
+ "individuals": [],
+ "oneLine": "Carlsberg India IPO plans advance; mid-teen H1 growth reported.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPVlFCa2FIbFo3eXU1SUx4QzE1aHBkUE9CTFliVzVZalkwUkdJWTVza2lfVnJLZ3NfcHNTdUMyLThFMVZkOHBXOXZJX0ExMG56SVlmbmFKUGhkdjlZeVMxeERycl8yZkR3OW1fSndQSE5pVVJZcm9kMExkbUlmRlFKMkpNQ3B1OFp2cDFVZmxpSXlJRWFMa3RZZ1lRTHhUTXJrT2ZiYTc1cTRJWTIzQk1aRUpJc3g0TnlBRlJXZ3NTTFN4RHlNM3k2aWhKRzctbjF2Vng4OTZic3lFTFFsb1E?oc=5",
+ "seller": "Carlsberg parent / promoters",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "Carlsberg India IPO Plans Advance Following Mid-Teen H1 Growth",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPVlFCa2FIbFo3eXU1SUx4QzE1aHBkUE9CTFliVzVZalkwUkdJWTVza2lfVnJLZ3NfcHNTdUMyLThFMVZkOHBXOXZJX0ExMG56SVlmbmFKUGhkdjlZeVMxeERycl8yZkR3OW1fSndQSE5pVVJZcm9kMExkbUlmRlFKMkpNQ3B1OFp2cDFVZmxpSXlJRWFMa3RZZ1lRTHhUTXJrT2ZiYTc1cTRJWTIzQk1aRUpJc3g0TnlBRlJXZ3NTTFN4RHlNM3k2aWhKRzctbjF2Vng4OTZic3lFTFFsb1E?oc=5"
+  },
+  {
+   "outlet": "Google News",
+   "resolvable": true,
+   "title": "Carlsberg India posts strong volume growth in H1, IPO process underway: Global CEO Aarup-Andersen.",
+   "url": "https://economictimes.indiatimes.com/industry/cons-products/liquor/carlsberg-india-posts-strong-volume-growth-in-h1-ipo-process-underway-global-ceo-aarup-andersen-/articleshow/133396666.cms"
+  }
+ ],
+ "updatedAt": "2026-08-21T08:31:21.168076+00:00"
+}

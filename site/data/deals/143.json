@@ -1,0 +1,36 @@
+{
+ "advisers": [],
+ "amountCr": 2500.0,
+ "amountRaw": "INR 2,500 Cr IPO",
+ "buyer": null,
+ "company": "Cult.fit",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-08-08T16:31:07.140202+00:00",
+ "dealType": "DRHP filing",
+ "id": 143,
+ "individuals": [
+  "Rishabh Telang",
+  "Deepak Poduval"
+ ],
+ "oneLine": "Cult.fit IPO-bound; founders in dispute; Rs 2,500 cr IPO planned.",
+ "primaryUrl": "https://inc42.com/buzz/ipo-bound-cult-fits-rishabh-telang-denies-forgery-allegations-by-deepak-poduval/",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "outlet": "Inc42",
+   "resolvable": true,
+   "title": "IPO-Bound Cult.fit’s Rishabh Telang Denies Forgery Allegations By Deepak Poduval",
+   "url": "https://inc42.com/buzz/ipo-bound-cult-fits-rishabh-telang-denies-forgery-allegations-by-deepak-poduval/"
+  },
+  {
+   "outlet": "inventiva.co.in",
+   "resolvable": false,
+   "title": "Cult.fit Heads Towards An IPO But Finds Itself Dealing With A Serious Co Founder Allegation",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOblNjY2QwSnpUdmdCVEdURlkxU2ZfbDNTX01UcnlfNmFlLWFya1M2YTlUTFNGRzFqTXJGOEJTbFhDRjRPVXQ0cE1tQmpwMXZ1c09vMExOX29iNm9tN0ZZczMyQktPOUNrdVNKcmZKNmE4WTRjQloxamF4aVI2MXl0Qkhpa19sLVJNbGM2Q0xjNFd0N1JnWUx6aDlRYTFTMFBqUmVyR1VzV3pNZko1V1lvaTNMTks1bk9QdzFYeEFzRmJ5dTJWTWc?oc=5"
+  }
+ ],
+ "updatedAt": "2026-08-08T16:31:07.140202+00:00"
+}

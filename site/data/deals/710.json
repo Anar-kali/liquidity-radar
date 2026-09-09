@@ -1,0 +1,33 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Glass Wall Systems (India) Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-03T06:32:00.211671+00:00",
+ "dealType": "DRHP filing",
+ "id": 710,
+ "individuals": [],
+ "oneLine": "Glass Wall Systems files RHP for IPO; promoters likely to cash out.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/glass-wall-systems-india-limited-rhp_104226.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "GLASS WALL SYSTEMS (INDIA) LIMITED - RHPGLASS WALL SYSTEMS (INDIA) LIMITED",
+   "url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/glass-wall-systems-india-limited-rhp_104226.html"
+  },
+  {
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "GLASS WALL SYSTEMS (INDIA) LIMITED",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/sep-2026/GLASS%20WALL%20SYSTEMS%20(INDIA)%20LIMITED%20-%20AP_p.pdf"
+  }
+ ],
+ "updatedAt": "2026-09-03T06:32:00.211671+00:00"
+}

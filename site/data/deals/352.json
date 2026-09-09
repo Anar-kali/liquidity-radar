@@ -1,0 +1,41 @@
+{
+ "advisers": [],
+ "amountCr": 450.0,
+ "amountRaw": "₹450-Crore IPO",
+ "buyer": null,
+ "company": "Gaja Alternative Asset Management Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-18T06:31:05.077898+00:00",
+ "dealType": "DRHP filing",
+ "id": 352,
+ "individuals": [
+  "Gopal Jain"
+ ],
+ "oneLine": "Gaja Alternative Asset Management files RHP for IPO; promoter liquidity event pending.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/aug-2026/gaja-alternative-asset-management-limited-rhp_103733.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "Gaja Alternative Asset Management Limited - RHPGaja Alternative Asset Management Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/gaja-alternative-asset-management-limited-rhp_103733.html"
+  },
+  {
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "Gaja Alternative Asset Management Limited",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/aug-2026/GAJA%20ALTERNATIVE%20ASSET%20MANAGEMENT%20LIMITED%20-%20AP_p.pdf"
+  },
+  {
+   "outlet": "Free Press Journal",
+   "resolvable": false,
+   "title": "Gaja Alternative Asset Management’s ₹450-Crore IPO Push, Gopal Jain Reveals Fund Expansion Roadmap",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNVFHWkZoem9yQ1lOV1NNdlo1blFLUjk1VkE0MmRDZVh1RkJoUWFQVUY2V3d5dlN0QU1Yelhzc0NWS1dBQnFoOThWc05hM1FFdk9Fb1dZdnpnMm9RRE1kLU5PSE9RMmliMjBtOEpqNUstTjBITGlMb0J1Y0ZSYzFQdjZpQTg2Ukc1dUZzV3BuQkRpNFlyT3NXUXA4QWxWWmd1OWE0OTYzTFVmZnVtdVJUbG81Rzl1czJkZTdlZWF1bExGM1BVN1NTQ1RVSkNsMGlPdFHSAdcBQVVfeXFMUDM0RWZqWVBNZDhBNGlJZERxUXhnZUVEaWlZQzNaa3FmWHI5TkdfZXEySDF1ZEE3MER1M04yV01xSGJLUGVMVExBNEZvOFJsbmRpNzdrX3pMUXpYcFprMWJ4eUJUbnRRcThLUm1ZWS1yWjZCX2o1OTVjNmo3c1dMM181MkIwZ0tMUUlaVVdIU1lEamlwMGJDUWtMYTNnYXpoMjFFMnVJaW03SFFyNlkwN3RzMndwRDVVTHlQeW9DazFXamlsUVdvLTNFVG82UzRsY1hKaW5oR0U?oc=5"
+  }
+ ],
+ "updatedAt": "2026-08-19T10:31:13.624727+00:00"
+}

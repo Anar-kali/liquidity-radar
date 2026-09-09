@@ -1,0 +1,27 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "IHCL (Indian Hotels Company Limited)",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-18T12:31:11.313587+00:00",
+ "dealType": "promoter sale",
+ "id": 366,
+ "individuals": [],
+ "oneLine": "TajGVK Hotels sells 25.52% stake in IHCL, reclassifying it to public",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSjA3ZkpTMFBNdWZyUmUyT1UxeGF6QzIxaWFVV1dtSC1PRnFDSkFHV3BWd3VUclNUb2JTMjB0NUlDdXRUaGVNWUNndmdSZ0FjSTcwOVpDUWhENmVlYTNHMlhFbkhubkhnbHAzNzYwSEZOM00zczJjblluT0tMQVNPckZ6RDBmUW41WG1fMENJS1JmUV9meEp2TF94WUViRkxCZXlBdTZYVHpyWWYyRFo3bFNn?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "TajGVK Hotels reclassifies IHCL stake to public after 25.52% sale",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSjA3ZkpTMFBNdWZyUmUyT1UxeGF6QzIxaWFVV1dtSC1PRnFDSkFHV3BWd3VUclNUb2JTMjB0NUlDdXRUaGVNWUNndmdSZ0FjSTcwOVpDUWhENmVlYTNHMlhFbkhubkhnbHAzNzYwSEZOM00zczJjblluT0tMQVNPckZ6RDBmUW41WG1fMENJS1JmUV9meEp2TF94WUViRkxCZXlBdTZYVHpyWWYyRFo3bFNn?oc=5"
+  }
+ ],
+ "updatedAt": "2026-08-18T12:31:11.313587+00:00"
+}

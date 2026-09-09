@@ -1,0 +1,33 @@
+{
+ "advisers": [],
+ "amountCr": 4400.0,
+ "amountRaw": "$500 million = ~₹4,400 crore (at 1 USD = 88 INR)",
+ "buyer": null,
+ "company": "unknown (2% stake sale advised)",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-07T05:34:52.343926+00:00",
+ "dealType": "block deal",
+ "id": 735,
+ "individuals": [],
+ "oneLine": "2% stake sale advised by BofA Securities and ICICI Securities.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZzIyTHF0dW5iSk9XdHJ5SEhMQnNrdHdKTUszMmszOHdsNnBGZ1lwS3p6ZGxOZ2FXTUhub1o1SVpwUFdlSWxnZUpVakJzOVFXOXc2RzV3TW0tSzBYNHgxWk9Samg5QjBtajF0Z19RS0xWcGpOMEtlRGZnTUVFa19qdWJsNU5WbDRQTW95em1CUDh6OGtHOGZkY2t2MnctNEFFN3ZwaUNEdXFJVVo1SkRTWnhZaw?oc=5",
+ "seller": "unknown shareholder",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "outlet": "SCC Online",
+   "resolvable": false,
+   "title": "SAM & Co Advises BofA Securities India and ICICI Securities on 2% Stake Sale | SCC Times",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZzIyTHF0dW5iSk9XdHJ5SEhMQnNrdHdKTUszMmszOHdsNnBGZ1lwS3p6ZGxOZ2FXTUhub1o1SVpwUFdlSWxnZUpVakJzOVFXOXc2RzV3TW0tSzBYNHgxWk9Samg5QjBtajF0Z19RS0xWcGpOMEtlRGZnTUVFa19qdWJsNU5WbDRQTW95em1CUDh6OGtHOGZkY2t2MnctNEFFN3ZwaUNEdXFJVVo1SkRTWnhZaw?oc=5"
+  },
+  {
+   "outlet": "Google News",
+   "resolvable": true,
+   "title": "Lightspeed India to realise about $500 million by year end as India’s exit landscape broadens",
+   "url": "https://www.livemint.com/companies/news/lightspeed-india-lightspeed-venture-partners-anuj-bhargava-startup-exits-venture-capital-vc-exits-private-secondaries-11788842495736.html"
+  }
+ ],
+ "updatedAt": "2026-09-08T08:31:21.724611+00:00"
+}

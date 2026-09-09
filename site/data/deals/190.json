@@ -1,0 +1,27 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "ACV Auctions",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-12T04:01:13.320882+00:00",
+ "dealType": "strategic buyout",
+ "id": 190,
+ "individuals": [],
+ "oneLine": "ACV Auctions exploring sale amid takeover interest",
+ "primaryUrl": "https://www.thehindubusinessline.com/companies/acv-auctions-said-to-explore-sale-amid-takeover-interest/article71334954.ece",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "outlet": "Business Line",
+   "resolvable": true,
+   "title": "ACV Auctions said to explore sale amid takeover interest",
+   "url": "https://www.thehindubusinessline.com/companies/acv-auctions-said-to-explore-sale-amid-takeover-interest/article71334954.ece"
+  }
+ ],
+ "updatedAt": "2026-08-12T04:01:13.320882+00:00"
+}

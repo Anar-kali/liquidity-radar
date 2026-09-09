@@ -1,0 +1,63 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "IIFL Finance",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-07T08:31:15.786498+00:00",
+ "dealType": "PE secondary",
+ "id": 751,
+ "individuals": [],
+ "oneLine": "Fairfax exploring exit from IIFL Finance stake to fund IDBI Bank acquisition bid.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPekpreVZGeURPU1FULWRDaWZsb0dKNGRWS3NlRkRXYk53QTI1eTVZc1E3WjNta3l3TkRLRHRiYXNsaWFMT0hTb1B6YlFSdngyRGNSQ1R0Q1F0cWRtREhKdGs4XzlldTFIeDdtM0t3aXRYT1RaVGhWWnMxQzZtemJTUzdpMTVSUEc0ZkxKc0tPY3g2bU9DUG5WOV9yWkhuYUxxZG5yU3k2cGkwNmh5R1lsOUIyb3BUWDFKMGlUeWNNLVh5dkc5ZFB3ZS1KdTRETkZkdmxxWEFsRnBPT1hiVEtPMGowWXkweGpfa0E?oc=5",
+ "seller": "Fairfax",
+ "sizeBand": null,
+ "sizeSource": "mcap_plausible",
+ "sources": [
+  {
+   "outlet": "Business Upturn",
+   "resolvable": false,
+   "title": "Fairfax may exit IIFL Finance to fund IDBI Bank bid: report",
+   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPekpreVZGeURPU1FULWRDaWZsb0dKNGRWS3NlRkRXYk53QTI1eTVZc1E3WjNta3l3TkRLRHRiYXNsaWFMT0hTb1B6YlFSdngyRGNSQ1R0Q1F0cWRtREhKdGs4XzlldTFIeDdtM0t3aXRYT1RaVGhWWnMxQzZtemJTUzdpMTVSUEc0ZkxKc0tPY3g2bU9DUG5WOV9yWkhuYUxxZG5yU3k2cGkwNmh5R1lsOUIyb3BUWDFKMGlUeWNNLVh5dkc5ZFB3ZS1KdTRETkZkdmxxWEFsRnBPT1hiVEtPMGowWXkweGpfa0E?oc=5"
+  },
+  {
+   "outlet": "The Economic Times",
+   "resolvable": false,
+   "title": "Fairfax to exit IIFL Finance before likely IDBI Bank deal",
+   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOcFMxT196bmE5UEg4eUVSZWtyTkZxYVNROXpPQ2dpV3N0TWZ4TEx5Y0doV0xleHVzWDY1V08zTTFPWFAta2l1NTlUaTFjS1I1QU9Ebm1nTVJMVy1uTlR3WGlibmIyZTVuQ1RYVmJPY2E5UzVMQzlwTXBJaFloVUhucEJ0dVA4ek9ILTVjWmJ1NHlKRjh0SFZwRzlZZ3ZGbWE1dm9DUFRZYmNIaTd0N044eC1PSG5EU0tsSnNDVmh0R1NfcW1fRWFMXzIzWmx4VUtoQk5aS3FtMm52MF9rMGdGS0h4MHJPQdIB5gFBVV95cUxOcFMxT196bmE5UEg4eUVSZWtyTkZxYVNROXpPQ2dpV3N0TWZ4TEx5Y0doV0xleHVzWDY1V08zTTFPWFAta2l1NTlUaTFjS1I1QU9Ebm1nTVJMVy1uTlR3WGlibmIyZTVuQ1RYVmJPY2E5UzVMQzlwTXBJaFloVUhucEJ0dVA4ek9ILTVjWmJ1NHlKRjh0SFZwRzlZZ3ZGbWE1dm9DUFRZYmNIaTd0N044eC1PSG5EU0tsSnNDVmh0R1NfcW1fRWFMXzIzWmx4VUtoQk5aS3FtMm52MF9rMGdGS0h4MHJPQQ?oc=5"
+  },
+  {
+   "outlet": "Google News",
+   "resolvable": true,
+   "title": "Fairfax to exit IIFL Finance before likely IDBI Bank deal; Blackstone emerges as suitor",
+   "url": "https://economictimes.indiatimes.com/industry/banking/finance/fairfax-to-exit-iifl-finance-before-likely-idbi-bank-deal-blackstone/articleshow/133873530.cms"
+  },
+  {
+   "outlet": "NiftyTrader",
+   "resolvable": false,
+   "title": "IIFL Finance stake sale draws interest from Blackstone amid Fairfax’s IDBI Bank push",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1oZzROdXB4V05XMThReXdOcExWd0h4cUxsRFZXQUE0RTZERVU5a2pMNHM3ZWlhNldxbkRreFEteFVFSzhDMGdodFIwRzJrNWV2TXg2WDZIbHl6ZUR4cnZxWnVsOUFhRmlnYkZWNmxnNW5TOEppWG1vSzRIZ0E3YjA?oc=5"
+  },
+  {
+   "outlet": "Google News",
+   "resolvable": true,
+   "title": "Fairfax plans IIFL Finance exit to fund IDBI Bank bid",
+   "url": "https://economictimes.indiatimes.com/industry/banking/finance/banking/fairfax-plans-iifl-finance-exit-to-fund-idbi-bank-bid/articleshow/133894423.cms"
+  },
+  {
+   "outlet": "Google News",
+   "resolvable": true,
+   "title": "IIFL Finance dismisses reports on Fairfax planning company exit to fund IDBI Bank deal",
+   "url": "https://economictimes.indiatimes.com/industry/banking/finance/iifl-finance-dismisses-reports-on-fairfax-planning-company-exit-to-fund-idbi-bank-deal/articleshow/133954365.cms"
+  },
+  {
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "Fairfax Plans IIFL Finance Exit To Back $6.2 Billion IDBI Bank Bid",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNN19iZ0xxTEFNeUFFZlo3akZ3RVJfZmhvMmVEZi1KMlYyaXMydk9ieGpPTVpweC1jNm8tWHR5a3hyQ1M3ZmMwbWVJZTJnTkkzX0FZQWZWa1duNlZ0V1c1Y2t6c2hMamJFblhENUdkMWIta0hzbU1Qb0lVWndkNmlhdTBrMkFRbFR4cEc5MGNRenczSXBiVWdHUVpfeUZZZVcxVHZYenF0LXdNMzl6cXoxWjB4dkVDRUc2WHh1VHVIVDlyQjdJQ2p6WmhSbFdScWt3c0xSRUl1X0hqckJ5ckVNZG1tQ1U?oc=5"
+  }
+ ],
+ "updatedAt": "2026-09-07T08:31:15.786498+00:00"
+}

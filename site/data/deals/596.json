@@ -1,0 +1,27 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Gemini Edibles & Fats India Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-27T04:31:12.347778+00:00",
+ "dealType": "DRHP filing",
+ "id": 596,
+ "individuals": [],
+ "oneLine": "Gemini Edibles & Fats files DRHP for IPO; promoters likely to cash out.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/aug-2026/gemini-edibles-and-fats-india-limited-drhp_104032.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "GEMINI EDIBLES & FATS INDIA LIMITED - DRHPGEMINI EDIBLES & FATS INDIA LIMITED",
+   "url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/gemini-edibles-and-fats-india-limited-drhp_104032.html"
+  }
+ ],
+ "updatedAt": "2026-08-27T04:31:12.347778+00:00"
+}

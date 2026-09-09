@@ -1,0 +1,33 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Behari Lal Engineering Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-08-12T06:45:58.260674+00:00",
+ "dealType": "DRHP filing",
+ "id": 195,
+ "individuals": [],
+ "oneLine": "Behari Lal Engineering Limited filed RHP for IPO; promoters likely to cash out.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/aug-2026/behari-lal-engineering-limited-rhp_103498.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "outlet": "SEBI",
+   "resolvable": true,
+   "title": "Behari Lal Engineering Limited - RHPBehari Lal Engineering Limited- Abridged prospectus",
+   "url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/behari-lal-engineering-limited-rhp_103498.html"
+  },
+  {
+   "outlet": "SEBI",
+   "resolvable": true,
+   "title": "Behari Lal Engineering Limited- Abridged prospectus",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/aug-2026/Behari%20Lal%20Engineering%20Limited%20-%20Abridged%20Prospectus_p.pdf"
+  }
+ ],
+ "updatedAt": "2026-08-12T06:45:58.260674+00:00"
+}

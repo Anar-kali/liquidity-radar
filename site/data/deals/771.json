@@ -1,0 +1,27 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": "1.66 crore shares — no price stated",
+ "buyer": null,
+ "company": "Biocon",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-08T13:31:07.298520+00:00",
+ "dealType": "block deal",
+ "id": 771,
+ "individuals": [],
+ "oneLine": "Biocon block deal of 1.66 crore shares; seller unnamed.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNemNQTlFvZzh2ZGJEWkJLYnMwczItTm9HOVFfbmhaTjFESlFSUGFhM3VXY1h4emg3Wms4OEF4ZldfUUdsVHFKMGUxVVpkY1RTem9IQkhRQmYwUmJQMVVFTUhzRExfMWJaeEJlQlJ3QldIUXM0dlkxYjE4MENiZGRSdkoyWEFhTnU0RGt1VlhKX0diVmwtaGZISHB6UFJmWk00azdlWmZ2cWRjV0VCRjFoU3czSW5mWDkweldDTU5YN3A5bDlqaXc4U3ctNA?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "mcap_plausible",
+ "sources": [
+  {
+   "outlet": "Zee Business",
+   "resolvable": false,
+   "title": "Biocon block deal tomorrow: 1.66 crore shares likely to change hands; check floor price",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNemNQTlFvZzh2ZGJEWkJLYnMwczItTm9HOVFfbmhaTjFESlFSUGFhM3VXY1h4emg3Wms4OEF4ZldfUUdsVHFKMGUxVVpkY1RTem9IQkhRQmYwUmJQMVVFTUhzRExfMWJaeEJlQlJ3QldIUXM0dlkxYjE4MENiZGRSdkoyWEFhTnU0RGt1VlhKX0diVmwtaGZISHB6UFJmWk00azdlWmZ2cWRjV0VCRjFoU3czSW5mWDkweldDTU5YN3A5bDlqaXc4U3ctNA?oc=5"
+  }
+ ],
+ "updatedAt": "2026-09-08T13:31:07.298520+00:00"
+}

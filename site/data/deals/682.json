@@ -1,0 +1,27 @@
+{
+ "advisers": [],
+ "amountCr": 880.0,
+ "amountRaw": "$1 billion ≈ ₹880 crore",
+ "buyer": null,
+ "company": "Nestlé vitamins, minerals and supplements business",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-09-02T01:32:09.343345+00:00",
+ "dealType": "strategic buyout",
+ "id": 682,
+ "individuals": [],
+ "oneLine": "Nestlé sells vitamins and supplements business to Yellow Wood for $1 billion.",
+ "primaryUrl": "https://www.livemint.com/companies/nestle-agrees-1-billion-sale-of-vitamins-minerals-and-supplements-business-to-yellow-wood-11788284728805.html",
+ "seller": "Nestlé",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "Nestle agrees $1 billion sale of vitamins, minerals and supplements business to Yellow Wood",
+   "url": "https://www.livemint.com/companies/nestle-agrees-1-billion-sale-of-vitamins-minerals-and-supplements-business-to-yellow-wood-11788284728805.html"
+  }
+ ],
+ "updatedAt": "2026-09-02T01:32:09.343345+00:00"
+}

@@ -1,0 +1,33 @@
+{
+ "advisers": [],
+ "amountCr": 3520.0,
+ "amountRaw": "$400M stock deal = ~$400M × 88 INR/USD = ~35,200 million = ~3,520 crore INR",
+ "buyer": null,
+ "company": "Tazapay",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-09T01:32:25.199190+00:00",
+ "dealType": "strategic buyout",
+ "id": 775,
+ "individuals": [],
+ "oneLine": "Circle acquires Peak XV-backed Tazapay; PE fund exits",
+ "primaryUrl": "https://inc42.com/buzz/us-based-circle-to-acquire-peak-xv-backed-tazapay/",
+ "seller": "Peak XV Partners",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "outlet": "Inc42",
+   "resolvable": true,
+   "title": "US-Based Circle To Acquire Peak XV-Backed Tazapay",
+   "url": "https://inc42.com/buzz/us-based-circle-to-acquire-peak-xv-backed-tazapay/"
+  },
+  {
+   "outlet": "Inc42",
+   "resolvable": true,
+   "title": "Tazapay to be acquired by Circle in $400M stock deal",
+   "url": "https://yourstory.com/2026/09/circle-internet-group-to-acquire-singapore-based-tazapay"
+  }
+ ],
+ "updatedAt": "2026-09-09T01:32:25.205159+00:00"
+}
