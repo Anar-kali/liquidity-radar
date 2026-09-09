@@ -1,6 +1,71 @@
 {
- "dealCount": 613,
+ "dealCount": 616,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "M K Sons Fine Jewels",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-09T10:31:47.255117+00:00",
+   "dealType": "DRHP filing",
+   "id": 786,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "M K Sons Fine Jewels receives SEBI approval for upcoming IPO",
+   "primaryOutlet": "The Retail Jeweller",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-09T10:31:47.255117+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "NLC India Renewables",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-09T10:31:47.250330+00:00",
+   "dealType": "DRHP filing",
+   "id": 785,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "NLC India Renewables subsidiary to list in FY27",
+   "primaryOutlet": "Sahi",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-09T10:31:47.250330+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Kalind Ltd",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-09T10:31:47.006283+00:00",
+   "dealType": "block deal",
+   "id": 784,
+   "individuals": [
+    "Abhishek Ashvinbhai Kamdar HUF"
+   ],
+   "listed": true,
+   "oneLine": "Non-promoter Abhishek Ashvinbhai Kamdar HUF sells 3.18% stake in Kalind Ltd",
+   "primaryOutlet": "Whalesbook",
+   "seller": "Abhishek Ashvinbhai Kamdar HUF",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": "526935.BO",
+   "updatedAt": "2026-09-09T10:31:47.006283+00:00",
+   "updates": []
+  },
   {
    "amountCr": 8800.0,
    "amountRaw": "$1 billion = ~Rs 8,800 crore at 88 INR/USD",
@@ -17,10 +82,15 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-09-09T09:31:35.813135+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-09-09T10:31:47.010189+00:00",
+     "title": "Mahatransco Plans Up to ₹10,000 Crore IPO to List State Utility"
+    }
+   ]
   },
   {
    "amountCr": null,
@@ -153,10 +223,15 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": "543282.BO",
    "updatedAt": "2026-09-09T03:31:11.291538+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-09-09T10:31:47.241215+00:00",
+     "title": "Niks Technology Open Offer at ₹136 Signals Promoter Control Change"
+    }
+   ]
   },
   {
    "amountCr": null,
@@ -17232,6 +17307,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-09T09:31:35.813135+00:00",
- "totalDeals": 613
+ "generatedAt": "2026-09-09T10:31:47.255117+00:00",
+ "totalDeals": 616
 }

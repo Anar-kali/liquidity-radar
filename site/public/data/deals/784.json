@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Kalind Ltd",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-09T10:31:47.006283+00:00",
+ "dealType": "block deal",
+ "id": 784,
+ "individuals": [
+  "Abhishek Ashvinbhai Kamdar HUF"
+ ],
+ "listed": true,
+ "oneLine": "Non-promoter Abhishek Ashvinbhai Kamdar HUF sells 3.18% stake in Kalind Ltd",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQck5IYjEzbEprcGpnNDF6WDdUMHQwN0x3LXVUc1ZJbUN0M1VCUGdMeDlSLURSQzN1RnRBYWxPY25oT3Y1SzRRTEVaV3NTUUh5bUVLSDVJMGExY3hCZjJCT1FFcDJrUjlrdUhZMWlUOE40ZUZIU2xCb1o0N2xXSzVHNnJ5bmVsUm9yTEVFOXNVQWFjb016Z0VCcXRpODdxNzlyOUQwam56Ny1YWElmZ2UwVTVZZVJrTEdobUpCZlQyYXJLN1Y4Y1ZUclByRUp2dzdwN0VRQjNvRFNLdXowVGJhTkJpQzRVckg1X0haS3pIUQ?oc=5",
+ "seller": "Abhishek Ashvinbhai Kamdar HUF",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-09T10:31:47.007847+00:00",
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "Kalind Ltd: Non-promoter Abhishek Ashvinbhai Kamdar HUF Sells 3.18% Stake",
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQck5IYjEzbEprcGpnNDF6WDdUMHQwN0x3LXVUc1ZJbUN0M1VCUGdMeDlSLURSQzN1RnRBYWxPY25oT3Y1SzRRTEVaV3NTUUh5bUVLSDVJMGExY3hCZjJCT1FFcDJrUjlrdUhZMWlUOE40ZUZIU2xCb1o0N2xXSzVHNnJ5bmVsUm9yTEVFOXNVQWFjb016Z0VCcXRpODdxNzlyOUQwam56Ny1YWElmZ2UwVTVZZVJrTEdobUpCZlQyYXJLN1Y4Y1ZUclByRUp2dzdwN0VRQjNvRFNLdXowVGJhTkJpQzRVckg1X0haS3pIUQ?oc=5"
+  }
+ ],
+ "ticker": "526935.BO",
+ "updatedAt": "2026-09-09T10:31:47.006283+00:00"
+}
