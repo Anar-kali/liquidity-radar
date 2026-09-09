@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Razorpay",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-09T12:31:22.759729+00:00",
+ "dealType": "DRHP filing",
+ "id": 788,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Razorpay confirms IPO filing; targets global markets.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUDFFTUZLT1RRYi1CMVNLRmdhdC1SejlZems1S0Rsek1yZEZJcVQxUjNqNlI2WUlrdFJnS2RLWGxyVXNXZTFTdnlqUVJrMnVnX2NPdjdLSGFMNFctWUgxV1ZIdWdaXy10czVhU2Vnbm01TmdMcDVySzM4eS1kclJod2VfeDhoY1FVOFBpYWFNcFJkSFJfbzdJMlVPU2dkUkZwSjJDMjZLRnJKbXdtNTcyQWVLOHZKeUItZHRDeXJJYkNqRUZiZVdF?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-09T12:31:22.763841+00:00",
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "Razorpay Targets Global Markets, IPO Filing Confirmed",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUDFFTUZLT1RRYi1CMVNLRmdhdC1SejlZems1S0Rsek1yZEZJcVQxUjNqNlI2WUlrdFJnS2RLWGxyVXNXZTFTdnlqUVJrMnVnX2NPdjdLSGFMNFctWUgxV1ZIdWdaXy10czVhU2Vnbm01TmdMcDVySzM4eS1kclJod2VfeDhoY1FVOFBpYWFNcFJkSFJfbzdJMlVPU2dkUkZwSjJDMjZLRnJKbXdtNTcyQWVLOHZKeUItZHRDeXJJYkNqRUZiZVdF?oc=5"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-09T12:31:22.759729+00:00"
+}

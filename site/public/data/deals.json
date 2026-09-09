@@ -1,6 +1,48 @@
 {
- "dealCount": 616,
+ "dealCount": 618,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Razorpay",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-09T12:31:22.759729+00:00",
+   "dealType": "DRHP filing",
+   "id": 788,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Razorpay confirms IPO filing; targets global markets.",
+   "primaryOutlet": "Whalesbook",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-09T12:31:22.759729+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Clean Max Dynamis",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-09T12:31:22.746222+00:00",
+   "dealType": "strategic buyout",
+   "id": 787,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Clean Max Enviro sells 49% stake in Clean Max Dynamis to Sunvik Steels.",
+   "primaryOutlet": "SolarQuarter",
+   "seller": "Clean Max Enviro",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-09T12:31:22.746222+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -129,13 +171,17 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-09-09T09:31:35.804235+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-09T09:31:35.810607+00:00",
      "title": "OYO parent Prism plans to launch Rs 6,650-crore IPO this financial year - Mid-Day"
+    },
+    {
+     "attachedAt": "2026-09-09T12:31:22.752045+00:00",
+     "title": "OYO IPO Update: Parent Prism likely to launch Rs 6,650 crore issue in FY27"
     }
    ]
   },
@@ -380,7 +426,7 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-09-08T12:31:38.400161+00:00",
    "updates": [
@@ -391,6 +437,10 @@
     {
      "attachedAt": "2026-09-09T01:32:25.194861+00:00",
      "title": "Kuku to build 1,000-member AI team ahead of Rs 3,500 Cr IPO"
+    },
+    {
+     "attachedAt": "2026-09-09T12:31:22.756949+00:00",
+     "title": "Kuku Plans 1,000-Hire AI Content Team Ahead of IPO"
     }
    ]
   },
@@ -17307,6 +17357,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-09T10:31:47.255117+00:00",
- "totalDeals": 616
+ "generatedAt": "2026-09-09T12:31:22.759729+00:00",
+ "totalDeals": 618
 }
