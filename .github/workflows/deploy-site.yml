@@ -11,9 +11,11 @@ name: deploy site
 #
 # Requires two repository secrets (Settings -> Secrets and variables ->
 # Actions). Neither is ever printed:
-#   CLOUDFLARE_API_TOKEN   — My Profile -> API Tokens -> Create Token.
-#                            Permission needed: Account / Workers Scripts /
-#                            Edit. Scope it to this account only.
+#   CLOUDFLARE_API_TOKEN   — My Profile -> API Tokens -> Create Custom Token.
+#                            Deploying needs only Account / Workers Scripts /
+#                            Edit; docs/DEPLOY.md lists a wider forward-looking
+#                            set so the token outlives the roadmap. Never the
+#                            Global API Key — it cannot be scoped.
 #   CLOUDFLARE_ACCOUNT_ID  — right-hand sidebar of the Cloudflare dashboard.
 #
 # If the Git connection in Cloudflare is also set up, DISCONNECT it or both

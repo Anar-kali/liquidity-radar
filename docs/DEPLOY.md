@@ -62,8 +62,51 @@ Actions → New repository secret**:
 
 | Secret | Where to get it |
 |---|---|
-| `CLOUDFLARE_API_TOKEN` | Cloudflare → My Profile → API Tokens → Create Token → Custom. Permission: **Account / Workers Scripts / Edit**. Scope it to this account only. |
+| `CLOUDFLARE_API_TOKEN` | Cloudflare → My Profile → API Tokens → **Create Token → Custom token**. Permissions below. |
 | `CLOUDFLARE_ACCOUNT_ID` | Right-hand sidebar of the Cloudflare dashboard. |
+
+### Token permissions
+
+**Do not use the Global API Key.** It cannot be scoped, cannot be limited to
+one account, and leaking it hands over the whole Cloudflare login. Create a
+*custom token* instead.
+
+Only the first row is needed to deploy today. The rest are here so the token
+survives the roadmap without being recreated — each maps to something already
+planned.
+
+**Account** — resource: this account only.
+
+| Permission | Why |
+|---|---|
+| Workers Scripts — **Edit** | Deploys the site. Required now. |
+| Workers R2 Storage — **Edit** | If exports or article text ever move to object storage instead of the repo. |
+| Workers KV Storage — **Edit** | Cheap shared state — a view counter, a cached lookup. |
+| D1 — **Edit** | The obvious home for `radar.db` if it ever outgrows a file in git. |
+| Workers Tail — **Read** | `wrangler tail` for live logs when a deploy misbehaves. |
+| Workers CI — **Edit** | Cloudflare-side builds, if the Git connection is ever used as well. |
+| Cloudflare Pages — **Edit** | Only if a Pages project is added alongside. |
+| Access: Apps and Policies — **Write** | The gated promoter/contacts layer. Cloudflare Access is the natural way to put a login in front of it without building auth. |
+| Account Settings — **Read** | Several wrangler operations enumerate the account first. |
+| Account Analytics — **Read** | Traffic numbers without opening the dashboard. |
+
+**Zone** — resource: **All zones**.
+
+| Permission | Why |
+|---|---|
+| Zone — **Read** | Resolve the domain when attaching it. |
+| DNS — **Edit** | Create the record for the custom domain. |
+| Workers Routes — **Edit** | Bind the Worker to that domain. |
+| Cache Purge — **Purge** | Force a flush if a stale `deals.json` ever sticks. |
+
+Set **Zone Resources to "All zones", not a specific zone.** Zone permissions
+only appear once a domain is on Cloudflare, and picking a specific zone means
+editing the token the day you add one — exactly the rotation this is meant to
+avoid. "All zones" covers a domain bought later automatically.
+
+**TTL:** leave the expiry blank so it does not silently die mid-pipeline.
+**Client IP filtering:** leave empty — GitHub Actions runners have rotating
+IPs, and a filter here would break deploys unpredictably.
 
 Neither value is ever printed by the workflow, and secrets are masked in logs.
 
