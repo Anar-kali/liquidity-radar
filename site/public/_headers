@@ -1,0 +1,12 @@
+# Vite fingerprints these, so the filename changes whenever the content does.
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# The pipeline rewrites these every ~15 minutes. Short cache with
+# revalidation keeps the feed fresh without hammering the origin.
+/data/*
+  Cache-Control: public, max-age=300, must-revalidate
+
+# Never cache the shell, or a deploy won't reach anyone holding an old copy.
+/index.html
+  Cache-Control: public, max-age=0, must-revalidate
