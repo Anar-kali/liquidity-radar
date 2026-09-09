@@ -1,6 +1,60 @@
 {
- "dealCount": 610,
+ "dealCount": 613,
  "deals": [
+  {
+   "amountCr": 8800.0,
+   "amountRaw": "$1 billion = ~Rs 8,800 crore at 88 INR/USD",
+   "company": "Mahatransco",
+   "confidence": "high",
+   "confirmed": false,
+   "createdAt": "2026-09-09T09:31:35.813135+00:00",
+   "dealType": "IPO-OFS",
+   "id": 783,
+   "individuals": [],
+   "oneLine": "Maharashtra's Mahatransco targets $1 billion IPO.",
+   "primaryOutlet": "Moneycontrol.com",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "updatedAt": "2026-09-09T09:31:35.813135+00:00"
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Glass Wall Systems",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-09T09:31:35.807692+00:00",
+   "dealType": "IPO-OFS",
+   "id": 782,
+   "individuals": [],
+   "oneLine": "Glass Wall Systems plans IPO; management discusses growth and expansion.",
+   "primaryOutlet": "Business Today",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "updatedAt": "2026-09-09T09:31:35.807692+00:00"
+  },
+  {
+   "amountCr": 6650.0,
+   "amountRaw": "Rs 6,650-Cr IPO",
+   "company": "Prism",
+   "confidence": "high",
+   "confirmed": false,
+   "createdAt": "2026-09-09T09:31:35.804235+00:00",
+   "dealType": "IPO-OFS",
+   "id": 781,
+   "individuals": [],
+   "oneLine": "OYO parent Prism plans Rs 6,650-crore IPO this fiscal year.",
+   "primaryOutlet": "Rediff MoneyWiz",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 2,
+   "updatedAt": "2026-09-09T09:31:35.804235+00:00"
+  },
   {
    "amountCr": 1650.0,
    "amountRaw": "₹1,650 crore",
@@ -11161,6 +11215,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-09T08:31:14.454696+00:00",
- "totalDeals": 610
+ "generatedAt": "2026-09-09T09:31:35.813135+00:00",
+ "totalDeals": 613
 }
