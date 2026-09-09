@@ -49,6 +49,31 @@ This matters. Three workflows push to `main` (`radar.yml`, `blockdeals.yml`,
 `refresh-tickers.yml`) but only `radar.yml` touches the site. Without a watch
 path every unrelated `radar.db` commit spends a build.
 
+## Deploying from GitHub Actions (recommended)
+
+`.github/workflows/deploy-site.yml` builds the site and uploads it to
+Cloudflare on every push that touches `site/**`. This is preferable to letting
+Cloudflare build from the Git connection, for one concrete reason: this repo is
+public, so GitHub Actions minutes are unlimited, and building here spends none
+of Cloudflare's 500-build monthly allowance (see below).
+
+Two repository secrets are required — **Settings → Secrets and variables →
+Actions → New repository secret**:
+
+| Secret | Where to get it |
+|---|---|
+| `CLOUDFLARE_API_TOKEN` | Cloudflare → My Profile → API Tokens → Create Token → Custom. Permission: **Account / Workers Scripts / Edit**. Scope it to this account only. |
+| `CLOUDFLARE_ACCOUNT_ID` | Right-hand sidebar of the Cloudflare dashboard. |
+
+Neither value is ever printed by the workflow, and secrets are masked in logs.
+
+**If you also connect the repo inside Cloudflare's dashboard, disconnect one of
+them.** Both will deploy on every push and race each other.
+
+The workflow refuses to ship a build with no `index.html`, no `_headers`, or an
+empty feed — a site that looks broken with nothing explaining why is worse than
+a failed deploy.
+
 ## The build-quota constraint
 
 Cloudflare's free plan allows **500 builds/month**, 1 concurrent, 20-minute
@@ -61,12 +86,10 @@ cadence. If it becomes a problem, in order of preference:
 1. **Export less often.** Have `radar.yml` commit `site/public/data` on a subset
    of runs (say hourly rather than every sweep). The feed is a reading tool;
    15-minute freshness is not load-bearing.
-2. **Direct Upload.** Build in GitHub Actions — already free and already
-   running — and push the artifact with `wrangler pages deploy`, bypassing
-   Cloudflare's build system. Needs a `CLOUDFLARE_API_TOKEN` repo secret.
-   (Cloudflare's limits page does not explicitly state whether Direct Upload
-   deployments count against the 500; confirm before relying on it.)
-3. **Pro plan** — $20/month, 5,000 builds.
+2. **Pro plan** — $20/month, 5,000 builds.
+
+None of this applies if you deploy from GitHub Actions as above, which is why
+that is the recommended path.
 
 Free-plan ceilings this deployment sits well inside: 20,000 files (we ship
 ~620) and 25 MiB per file (largest is ~330 KB). Static-asset requests are not

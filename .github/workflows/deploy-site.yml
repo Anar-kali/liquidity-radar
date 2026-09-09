@@ -1,0 +1,85 @@
+name: deploy site
+
+# Builds the site and uploads it to Cloudflare, instead of letting Cloudflare
+# build it from the Git connection.
+#
+# Why not Cloudflare's own build: its free plan allows 500 builds/month, and
+# the pipeline pushes ~14 times a day (~420/month) — nearly all of them
+# changing site data. That fits with no headroom. This repo is public, so
+# GitHub Actions minutes are unlimited, and building here spends none of that
+# Cloudflare quota.
+#
+# Requires two repository secrets (Settings -> Secrets and variables ->
+# Actions). Neither is ever printed:
+#   CLOUDFLARE_API_TOKEN   — My Profile -> API Tokens -> Create Token.
+#                            Permission needed: Account / Workers Scripts /
+#                            Edit. Scope it to this account only.
+#   CLOUDFLARE_ACCOUNT_ID  — right-hand sidebar of the Cloudflare dashboard.
+#
+# If the Git connection in Cloudflare is also set up, DISCONNECT it or both
+# will deploy and they will race.
+
+on:
+  push:
+    branches: [main]
+    # Only when something the site actually ships has changed. radar.db moves
+    # on almost every pipeline run and must not trigger a deploy on its own.
+    paths:
+      - "site/**"
+      - ".github/workflows/deploy-site.yml"
+  workflow_dispatch:
+
+# One deploy at a time. The pipeline can push several times in quick
+# succession; cancelling superseded runs means the newest data wins rather
+# than whichever upload happens to finish last.
+concurrency:
+  group: deploy-site
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      # depth 1: radar.db makes the full history ~200MB and none of it is
+      # needed to build a static site.
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - uses: actions/setup-node@v4
+        with:
+          # Wrangler requires >=22. Vite is happy on anything >=20, so this
+          # is pinned by wrangler's floor, not the build's.
+          node-version-file: site/.node-version
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+
+      - name: Install
+        run: npm ci
+        working-directory: site
+
+      - name: Build
+        run: npm run build
+        working-directory: site
+
+      # A deploy that ships an empty feed is worse than one that fails: the
+      # site would look broken and nothing would say why.
+      - name: Check the build carries real data
+        working-directory: site
+        run: |
+          test -f dist/index.html || { echo "::error::no index.html"; exit 1; }
+          test -f dist/_headers   || { echo "::error::_headers missing — caching would be wrong"; exit 1; }
+          count=$(node -p "require('./dist/data/deals.json').deals.length")
+          echo "feed carries $count deals"
+          [ "$count" -gt 0 ] || { echo "::error::feed is empty"; exit 1; }
+
+      - name: Deploy to Cloudflare
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          workingDirectory: site
+          command: deploy
