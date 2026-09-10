@@ -229,16 +229,39 @@ def main():
     print(f"\n{'='*70}")
     print(f"wrote {args.dump} — READ THE FALSE NEGATIVES. The percentage says")
     print("how often the candidate agreed; only the rows say who was right.")
-    worst = max((r["leads_lost_pct"] or 0) for r in results) if results else 0
     if args.provider == "anthropic":
         low = min(r["agreement"] for r in results)
         print(f"\nharness check: incumbent agreed with itself {low:.1f}% "
               f"({'OK' if low >= 95 else 'TOO LOW — fix the harness before trusting any candidate'})")
-    elif worst > 1.0:
-        print(f"\nGATE: {worst:.2f}% of deals would have been lost at stage 1, "
-              f"over the 1% ceiling. Read the dump before going further.")
-    elif results:
-        print(f"\nGATE: {worst:.2f}% of deals lost — inside the 1% ceiling.")
+        return
+
+    # The gate is defined on deals lost, which only stage 1 can measure —
+    # stage-2 rows carry no `outcome`. A stage-2-only run therefore has
+    # deals_in_sample == 0 everywhere, and reporting max()==0 as "inside the
+    # ceiling" would be a pass the run never earned. Say so instead.
+    gated = [r for r in results if r["deals_in_sample"]]
+    if not gated:
+        print("\nGATE: NOT EVALUATED — no stage in this run carries deal "
+              "outcomes, so nothing here can be compared to the 1% ceiling.")
+        print("      (the gate is a stage-1 measurement; run --stage 1 for it)")
+    else:
+        worst = max(r["leads_lost_pct"] or 0 for r in gated)
+        base = min(r["deals_in_sample"] for r in gated)
+        if worst > 1.0:
+            print(f"\nGATE: {worst:.2f}% of deals would have been lost at stage 1 "
+                  f"(n={base}), over the 1% ceiling. Read the dump before going further.")
+        else:
+            print(f"\nGATE: {worst:.2f}% of deals lost (n={base}) — inside the 1% ceiling.")
+
+    # Separately: warn about any stage whose base is too thin to support the
+    # percentage it just printed.
+    for r in results:
+        if r["false_negative_pct"] is not None and r["scored"] < 400:
+            print(f"\n  !! stage {r['stage']}: only {r['scored']} rows scored. A "
+                  f"false-negative rate from this few positives has no "
+                  f"resolution against a 1% gate — treat it as directional only,")
+            print(f"     and measure this stage with CLASSIFIER_SHADOW on live "
+                  f"traffic instead.")
 
 
 if __name__ == "__main__":
