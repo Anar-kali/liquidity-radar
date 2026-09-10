@@ -53,8 +53,24 @@ jobs:
     steps:
       # depth 1: radar.db makes the full history ~200MB and none of it is
       # needed to build a static site.
+      # ref: main, NOT the default. A bare checkout takes github.sha, which for
+      # a workflow_call is the SHA that STARTED the caller — i.e. the commit
+      # from BEFORE the caller's "Commit state" step wrote the new site data.
+      # The deploy therefore shipped the previous run's export every time and
+      # the site sat permanently one deploy behind, updating only when the
+      # NEXT workflow happened to run.
+      #
+      # Demonstrated 2026-09-10: the enrich run committed 87531b9 at 19:06:31
+      # containing site/public/data, and the deploy that followed it at
+      # 19:09 checked out 70dbbff from 19:03 and published the older feed.
+      # Same defect on radar.yml and blockdeals.yml, which share this workflow.
+      #
+      # This is the second half of the 2026-09-09 "site never updates" fix:
+      # workflow_call got the deploy to RUN, and this gets it to run against
+      # what the pipeline actually just wrote.
       - uses: actions/checkout@v7
         with:
+          ref: main
           fetch-depth: 1
 
       - uses: actions/setup-node@v7

@@ -106,6 +106,20 @@ def test_no_workflow_passes_the_paid_key():
                 f"{name}.yml line {i} passes the paid key"
 
 
+def test_deploy_checks_out_main():
+    """A bare checkout takes github.sha — for a workflow_call that is the SHA
+    from before the caller committed its new site data, so the deploy ships
+    the PREVIOUS run's export and the site sits one deploy behind forever."""
+    doc = load("deploy-site")
+    steps = [s for j in (doc.get("jobs") or {}).values() for s in (j.get("steps") or [])]
+    checkouts = [s for s in steps if str(s.get("uses", "")).startswith("actions/checkout")]
+    assert checkouts, "deploy-site has no checkout step"
+    for step in checkouts:
+        assert (step.get("with") or {}).get("ref") == "main", (
+            "deploy-site must check out ref: main, or it publishes the commit "
+            "from before the pipeline wrote its data")
+
+
 def test_enrich_exposes_both_dispatch_inputs():
     """The exact failure that motivated this file."""
     doc = load("enrich")
