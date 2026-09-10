@@ -279,6 +279,14 @@ PROVIDER_MODELS = {
 # --------------------------------------------------------------------------
 ENRICH_MAX_AGE_HOURS = 24
 ENRICH_NEW_PER_RUN = 8
+# Second and final attempt at deals that failed earlier. Only failures inside
+# the window are eligible — a deal whose article simply named nobody is
+# finished, not pending, and is never fetched again.
+ENRICH_RETRY_PER_RUN = 8
+# Recorded attempts before we stop. One attempt = one RUN (each already
+# retries once internally), so 2 means: tried this run, tried the next, done.
+# That is exactly what the alert wording promises the banker.
+ENRICH_MAX_ATTEMPTS = 2
 ENRICH_RECENT_PER_RUN = 8
 
 # Requests per minute to stay under, per provider. Gemini's free tier allows

@@ -75,7 +75,8 @@ PRIORITY = ["block deal", "promoter sale", "open offer", "pe secondary",
             "strategic buyout", "other", "unknown", "pe primary", "ipo-ofs",
             "drhp filing"]
 
-MAX_ATTEMPTS = 2          # give up on a deal that has failed this many times
+MAX_ATTEMPTS = config.ENRICH_MAX_ATTEMPTS
+RETRY_PAUSE_SECONDS = 3   # between a failure and its immediate retry
 ARTICLE_CHARS = 6000      # ~1,500 tokens; enough for the body, cheap to send
 FETCH_TIMEOUT = 25
 
@@ -231,31 +232,53 @@ def candidates(limit, path=db.DB_PATH, max_age_hours=None):
     return rows[:limit] if limit else rows
 
 
+def _try_once(deal, path, dry):
+    """One pass at resolve -> fetch -> extract. Writes nothing.
+
+    Returns (status, url, found). status is "ok" or a failure reason.
+    """
+    url = gnews.resolve(deal["url"], path=path, write_cache=not dry)
+    if not url:
+        return "unresolved", deal["url"], None
+    try:
+        body = article_text(url)
+    except Exception as exc:  # noqa: BLE001
+        return f"fetch_failed:{type(exc).__name__}", url, None
+    try:
+        return "ok", url, extract(deal["one_line"] or deal["company"], body)
+    except Exception as exc:  # noqa: BLE001
+        return f"extract_failed:{type(exc).__name__}", url, None
+
+
 def enrich_one(deal, dry=False, path=None):
     """Returns (status, applied_fields).
+
+    Retries ONCE immediately before giving up. Most failures here are
+    transient — a publisher rate-limiting, a slow gateway, a momentary 5xx —
+    and a second try seconds later costs one request and often succeeds.
+
+    The immediate retry is deliberately NOT a second recorded attempt. What
+    gets counted in `deal_enrichment.attempts` is one attempt PER RUN, because
+    that is what the user-facing wording promises: "will try next run". Two
+    recorded attempts means we have tried across two runs and stopped.
 
     `path` is passed to every db call explicitly. Do NOT reintroduce reliance
     on db.DB_PATH here: those defaults bind at import time, so reassigning the
     module attribute does nothing and the writes go to the default database.
     """
     path = path or db.DB_PATH
-    url = gnews.resolve(deal["url"], path=path, write_cache=not dry)
-    if not url:
+    status, url, found = _try_once(deal, path, dry)
+    if status != "ok":
+        time.sleep(RETRY_PAUSE_SECONDS)
+        retry_status, retry_url, retry_found = _try_once(deal, path, dry)
+        print(f"[enrich] deal {deal['id']} {status} — retried immediately, "
+              f"{'recovered' if retry_status == 'ok' else retry_status}")
+        status, url, found = retry_status, retry_url, retry_found
+
+    if status != "ok":
         if not dry:
-            db.record_enrichment(deal["id"], deal["url"], "unresolved", path=path)
-        return "unresolved", {}
-    try:
-        body = article_text(url)
-    except Exception as exc:  # noqa: BLE001
-        if not dry:
-            db.record_enrichment(deal["id"], url, "fetch_failed", path=path)
-        return f"fetch_failed ({type(exc).__name__})", {}
-    try:
-        found = extract(deal["one_line"] or deal["company"], body)
-    except Exception as exc:  # noqa: BLE001
-        if not dry:
-            db.record_enrichment(deal["id"], url, "extract_failed", path=path)
-        return f"extract_failed ({type(exc).__name__})", {}
+            db.record_enrichment(deal["id"], url, status.split(":")[0], path=path)
+        return status, {}
 
     fields = _merge(deal, found)
     if not dry:
@@ -282,6 +305,60 @@ def _deals_by_id(deal_ids, path):
         f"SELECT * FROM deals WHERE id IN ({marks})", tuple(deal_ids))]
     conn.close()
     return rows
+
+
+# The three states the rest of the system renders. Derived from
+# deal_enrichment rather than stored twice, so they cannot drift.
+#
+#   None        enriched fine, or never attempted — show nothing
+#   "retrying"  failed, another run will try — Telegram AND website
+#   "failed"    failed twice, we have stopped — WEBSITE ONLY, no second text
+#
+# The asymmetry is deliberate: the banker is told once that a deal is
+# incomplete and will be retried, and never pinged again about the same deal.
+# The website carries the final state because it is pulled, not pushed.
+STATE_RETRYING = db.ENRICHMENT_RETRYING
+STATE_FAILED = db.ENRICHMENT_FAILED
+enrichment_state = db.enrichment_state
+
+
+def retry_failed(limit=None, path=None, dry=False):
+    """Second and final attempt at deals whose enrichment failed earlier.
+
+    NOT a sweep over everything unnamed — only deals that actually failed and
+    have attempts left, inside the window. A deal that simply had no name in
+    its article is finished, not pending, and must not be fetched again.
+
+    Runs after the alerts are away and never raises. Sends nothing: the deal
+    has already been alerted once, and a second text about the same deal is
+    exactly what we are avoiding.
+    """
+    path = path or db.DB_PATH
+    limit = config.ENRICH_RETRY_PER_RUN if limit is None else limit
+    hours = config.ENRICH_MAX_AGE_HOURS
+    recovered = 0
+    try:
+        conn = db._conn(path)
+        rows = [dict(r) for r in conn.execute(
+            "SELECT d.* FROM deals d JOIN deal_enrichment e ON e.deal_id = d.id "
+            "WHERE e.status != 'ok' AND e.attempts < ? "
+            "  AND d.created_at >= datetime('now', ?) "
+            "ORDER BY d.id DESC LIMIT ?",
+            (MAX_ATTEMPTS, f"-{int(hours)} hour", limit))]
+        conn.close()
+        for deal in rows:
+            try:
+                status, fields = enrich_one(deal, dry=dry, path=path)
+                if status == "ok":
+                    recovered += 1
+            except Exception as exc:  # noqa: BLE001
+                print(f"[enrich] retry deal {deal['id']}: {type(exc).__name__}: {exc}")
+        if rows:
+            print(f"[enrich] retried {len(rows)} failed deals, {recovered} recovered, "
+                  f"{len(rows) - recovered} now marked failed for good")
+    except Exception as exc:  # noqa: BLE001
+        print(f"[enrich] retry pass failed: {type(exc).__name__}: {exc}")
+    return recovered
 
 
 def enrich_new(deal_ids, limit=None, path=None, dry=False):

@@ -227,6 +227,86 @@ def test_no_paid_fallback():
     assert llm.providers_for() == ["gemini"], llm.providers_for()
 
 
+# --------------------------------------------------------------------------
+# The retry state machine, exactly as specified:
+#   fail once  -> "retrying" -> Telegram AND website
+#   fail twice -> "failed"   -> website ONLY, no second text
+# --------------------------------------------------------------------------
+def _db_with_deal():
+    tmp = os.path.join(tempfile.mkdtemp(), "s.db")
+    db.init_db(tmp)
+    did = db.create_deal({"deal_key": "k", "company": "X", "deal_type": "block deal",
+        "amount_cr": None, "amount_raw": None, "individuals": [], "seller": None,
+        "buyer": None, "confidence": "medium", "one_line": "x", "source": "s",
+        "url": "u", "size_source": None, "size_band": None, "confirmed": 0}, path=tmp)
+    return tmp, did
+
+
+def test_state_is_none_before_any_attempt():
+    tmp, did = _db_with_deal()
+    assert db.enrichment_state(did, path=tmp) is None
+
+
+def test_state_is_none_when_enrichment_succeeded():
+    """Succeeding without finding a name is NOT a failure — the article was
+    read and named nobody, which is a fact, not an error."""
+    tmp, did = _db_with_deal()
+    db.record_enrichment(did, "http://a", "ok", {"individuals": []}, [], path=tmp)
+    assert db.enrichment_state(did, path=tmp) is None
+
+
+def test_first_failure_says_it_will_retry():
+    tmp, did = _db_with_deal()
+    db.record_enrichment(did, "http://a", "fetch_failed", path=tmp)
+    assert db.enrichment_state(did, path=tmp) == db.ENRICHMENT_RETRYING
+
+
+def test_second_failure_is_final():
+    tmp, did = _db_with_deal()
+    db.record_enrichment(did, "http://a", "fetch_failed", path=tmp)
+    db.record_enrichment(did, "http://a", "fetch_failed", path=tmp)
+    assert db.enrichment_state(did, path=tmp) == db.ENRICHMENT_FAILED
+
+
+def test_only_the_retrying_state_reaches_telegram():
+    """The banker is told once that a retry is coming and never pinged again
+    about the same deal. A second text is exactly what this avoids."""
+    import notify
+    base = {"company": "X", "deal_type": "block deal", "amount_cr": 500,
+            "one_line": "x", "individuals": [], "seller": "p", "source": "ET",
+            "url": "http://x", "confidence": "high", "size_source": "stated"}
+    assert "will try next run" in notify.format_alert({**base, "enrichmentState": "retrying"})
+    assert "Stage 3" not in notify.format_alert({**base, "enrichmentState": "failed"})
+    assert "Stage 3" not in notify.format_alert({**base, "enrichmentState": None})
+    assert "Stage 3" not in notify.format_alert(base)
+
+
+def test_retry_pass_ignores_deals_that_merely_found_no_name():
+    """Only actual failures are retried. A deal whose article was read and
+    named nobody is finished, and re-fetching it would waste the quota the
+    alerts depend on."""
+    tmp, did = _db_with_deal()
+    db.record_enrichment(did, "http://a", "ok", {"individuals": []}, [], path=tmp)
+    conn = db._conn(tmp)
+    rows = conn.execute(
+        "SELECT d.id FROM deals d JOIN deal_enrichment e ON e.deal_id = d.id "
+        "WHERE e.status != 'ok' AND e.attempts < ?", (config.ENRICH_MAX_ATTEMPTS,)
+    ).fetchall()
+    conn.close()
+    assert rows == [], f"a successful deal entered the retry queue: {rows}"
+
+
+def test_immediate_retry_is_not_a_second_recorded_attempt():
+    """enrich_one retries in-process before recording. If that counted as two
+    attempts, a deal would go straight to 'failed' and the promised next-run
+    retry would never happen."""
+    import inspect
+    body = inspect.getsource(enrich.enrich_one)
+    assert body.count("record_enrichment") == 2, (
+        "enrich_one should record exactly once per outcome (ok / failed)")
+    assert "_try_once" in body and "RETRY_PAUSE_SECONDS" in body
+
+
 if __name__ == "__main__":
     print("stage-3 enrichment safety tests\n")
     for name, fn in sorted(globals().items()):

@@ -194,6 +194,33 @@ export function Panel({ deal, onClose, now }: { deal: Deal; onClose: () => void;
                   No individual named yet — the pipeline records one in 14% of deals
                 </span>
               )}
+              {/*
+                Stage 3 reads the article behind a deal looking for a name. When
+                it cannot, say so here rather than leaving "no individual named"
+                to imply the article was read and named nobody — those are
+                different facts and only one of them is worth a second look.
+
+                "failed" appears ONLY here: the alert already told the banker a
+                retry was coming, and a second Telegram message about the same
+                deal is exactly what this avoids. A page is pulled, so it can
+                carry the final state without interrupting anyone.
+              */}
+              {deal.enrichmentState && (
+                <div
+                  style={{
+                    marginTop: 7,
+                    fontSize: 11.5,
+                    lineHeight: 1.5,
+                    color: "var(--lr-faint)",
+                    borderLeft: "2px solid var(--lr-line-soft)",
+                    paddingLeft: 9,
+                  }}
+                >
+                  {deal.enrichmentState === "retrying"
+                    ? "Stage 3 failed, will try next run — the source article could not be read."
+                    : "Stage 3 failed — the source article could not be read, so this deal was never checked for a name."}
+                </div>
+              )}
             </div>
 
             <div style={microLabel}>Selling</div>

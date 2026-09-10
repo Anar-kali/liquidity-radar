@@ -68,6 +68,7 @@ FEED_FIELDS = (
     "id", "company", "dealType", "confidence", "confirmed", "amountCr",
     "amountRaw", "sizeSource", "sizeBand", "oneLine", "seller", "individuals",
     "listed", "ticker", "primaryOutlet", "sourceCount", "createdAt", "updatedAt",
+    "enrichmentState",
 )
 
 
@@ -190,6 +191,12 @@ def build_deal(row, path):
         "individuals": _individuals(row["individuals"]),
         "listed": listed,
         "ticker": ticker,
+        # Stage 3 read the article for a name and could not. null when it
+        # worked or was never needed; "retrying" while another run will try;
+        # "failed" once we have stopped. Unlike Telegram, the site shows the
+        # final state too — a page is pulled, so it can carry a fact the
+        # banker was deliberately not pinged about a second time.
+        "enrichmentState": db.enrichment_state(row["id"], path=path),
         # Not extracted by the pipeline yet; present so the shape is stable.
         "advisers": [],
         "sources": sources,

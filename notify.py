@@ -110,10 +110,18 @@ def format_alert(alert):
     if alert.get("is_update") and alert.get("note"):
         note = f"\n_({_escape(alert['note'])})_"
 
+    # Stage 3 read the article to look for a name and could not. Say so, once.
+    # Only the "retrying" state ever reaches Telegram: once a deal has failed
+    # for good the website carries it and the banker is not pinged again about
+    # a deal they have already seen.
+    stage3 = ""
+    if alert.get("enrichmentState") == "retrying":
+        stage3 = "\n\n⚠️ _Stage 3 failed, will try next run_"
+
     return (
         f"{emoji} *{company}* · {deal_type} · {amount}\n\n"
         f"_{one_line}_{note}\n\n"
-        f"{names}\n\n"
+        f"{names}{stage3}\n\n"
         f"[{source}]({url})"
     )
 

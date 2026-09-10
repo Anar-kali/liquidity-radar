@@ -29,6 +29,18 @@ export interface FeedUpdate {
   title: string;
 }
 
+/**
+ * Whether stage 3 managed to read the article behind a deal.
+ *
+ *   null        it worked, or there was nothing to look for
+ *   "retrying"  it failed and another run will try — also sent to Telegram
+ *   "failed"    it failed for good — SHOWN HERE ONLY. The banker was told once
+ *               that a retry was coming and is deliberately not messaged again
+ *               about the same deal, so this page is the only place the final
+ *               state appears.
+ */
+export type EnrichmentState = "retrying" | "failed" | null;
+
 export interface Adviser {
   firm: string;
   role: "sellside" | "buyside" | "legal" | "unknown";
@@ -48,6 +60,7 @@ export interface Deal {
   seller: string | null;
   buyer: string | null;
   individuals: string[];
+  enrichmentState: EnrichmentState;
   advisers: Adviser[];
   listed: boolean;
   ticker: string | null;

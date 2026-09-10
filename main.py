@@ -564,6 +564,15 @@ def run(mode, dry, limit=None):
             print(f"[main] stage 3 enriched {len(applied)} of {len(alerts)} "
                   f"new deals before alerting")
 
+        # Tell the banker, once, when stage 3 could not read the article. Only
+        # the "retrying" state reaches Telegram — see db.enrichment_state.
+        for alert in alerts:
+            alert["enrichmentState"] = db.enrichment_state(alert["deal_id"])
+        stalled = sum(1 for a in alerts
+                      if a.get("enrichmentState") == db.ENRICHMENT_RETRYING)
+        if stalled:
+            print(f"[main] {stalled} alert(s) carry a stage-3 retry notice")
+
     funnel["alerted"] = len(alerts)
     print(f"[main] {suppressed[0]} suppressed total, {len(alerts)} alerts to send")
     if mix:
@@ -590,6 +599,14 @@ def run(mode, dry, limit=None):
             print(notify.format_alert(alert))
         else:
             notify.send_alert(alert)
+
+    # ---- STAGE 3, second and final attempt at earlier failures ----
+    # Deliberately after the sends, and deliberately silent: these deals were
+    # already alerted with "will try next run", and a second message about the
+    # same deal is exactly what we are avoiding. Whatever happens here shows
+    # on the website only. Not a sweep — only deals that actually failed.
+    if not dry:
+        enrich.retry_failed()
 
 
 

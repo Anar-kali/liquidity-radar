@@ -16,6 +16,8 @@ survives between GitHub Actions runs.
 """
 
 import json
+
+import config
 import sqlite3
 from datetime import datetime, timedelta, timezone
 
@@ -498,6 +500,27 @@ def enrichment_for(deal_id, path=DB_PATH):
     row = conn.execute("SELECT * FROM deal_enrichment WHERE deal_id = ?", (deal_id,)).fetchone()
     conn.close()
     return dict(row) if row else None
+
+
+# What the alert and the website should say about a deal's enrichment.
+# Derived from deal_enrichment rather than stored twice, so it cannot drift.
+#
+#   None        enriched fine, or never attempted — show nothing
+#   "retrying"  failed, another run will try — Telegram AND website
+#   "failed"    failed for good — WEBSITE ONLY, no second Telegram message
+#
+# Lives here rather than in enrich.py so export_site.py can read it without
+# importing the enricher — the same separation textutil.py exists for.
+ENRICHMENT_RETRYING = "retrying"
+ENRICHMENT_FAILED = "failed"
+
+
+def enrichment_state(deal_id, path=DB_PATH):
+    row = enrichment_for(deal_id, path=path)
+    if not row or row["status"] == "ok":
+        return None
+    return (ENRICHMENT_FAILED if (row["attempts"] or 0) >= config.ENRICH_MAX_ATTEMPTS
+            else ENRICHMENT_RETRYING)
 
 
 def record_enrichment(deal_id, url, status, found=None, applied=None, path=DB_PATH):
