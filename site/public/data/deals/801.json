@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": 500.0,
+ "amountRaw": "₹500 crore via IPO",
+ "buyer": null,
+ "company": "SS Retail",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-10T12:31:35.939921+00:00",
+ "dealType": "IPO-OFS",
+ "id": 801,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Mobile chain SS Retail plans ₹500 crore IPO; promoters to cash out via OFS.",
+ "primaryUrl": "https://www.thehindubusinessline.com/markets/mobile-chain-ss-retail-to-raise-500-crore-via-ipo/article71451519.ece",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-10T12:31:35.941834+00:00",
+   "outlet": "Business Line",
+   "resolvable": true,
+   "title": "Mobile chain SS Retail to raise ₹500 crore via IPO",
+   "url": "https://www.thehindubusinessline.com/markets/mobile-chain-ss-retail-to-raise-500-crore-via-ipo/article71451519.ece"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-10T12:31:35.939921+00:00"
+}

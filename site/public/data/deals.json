@@ -1,6 +1,27 @@
 {
- "dealCount": 630,
+ "dealCount": 631,
  "deals": [
+  {
+   "amountCr": 500.0,
+   "amountRaw": "₹500 crore via IPO",
+   "company": "SS Retail",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-10T12:31:35.939921+00:00",
+   "dealType": "IPO-OFS",
+   "id": 801,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Mobile chain SS Retail plans ₹500 crore IPO; promoters to cash out via OFS.",
+   "primaryOutlet": "Business Line",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-10T12:31:35.939921+00:00",
+   "updates": []
+  },
   {
    "amountCr": 53000.0,
    "amountRaw": "Rs 53,000 Crore Offer",
@@ -38,10 +59,15 @@
    "seller": "Dilip Buildcon",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-09-10T10:31:16.269827+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-09-10T12:31:35.679503+00:00",
+     "title": "Dilip Buildcon Divests 51% Stake In INR 2,171 Crore Karnataka Power Transmission Project To Alpha Alternatives"
+    }
+   ]
   },
   {
    "amountCr": 2250.0,
@@ -985,7 +1011,7 @@
    "seller": "TBZ shareholders/promoters",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 5,
+   "sourceCount": 6,
    "ticker": null,
    "updatedAt": "2026-09-10T01:32:19.909537+00:00",
    "updates": [
@@ -1004,6 +1030,10 @@
     {
      "attachedAt": "2026-09-10T06:31:20.333075+00:00",
      "title": "GRT Jewellers to acquire 74.12% stake in TBZ for up to ₹1,034 crore"
+    },
+    {
+     "attachedAt": "2026-09-10T12:31:35.683899+00:00",
+     "title": "Trilegal advises GRT Jewellers on ₹1,034 crore stake acquisition in TBZ"
     }
    ]
   },
@@ -17667,6 +17697,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-10T11:31:35.264721+00:00",
- "totalDeals": 630
+ "generatedAt": "2026-09-10T12:31:35.939921+00:00",
+ "totalDeals": 631
 }
