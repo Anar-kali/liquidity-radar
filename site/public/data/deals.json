@@ -1,6 +1,27 @@
 {
- "dealCount": 627,
+ "dealCount": 628,
  "deals": [
+  {
+   "amountCr": 2250.0,
+   "amountRaw": "₹2,000-2,500 crore — midpoint 2,250 crore",
+   "company": "Alcobrew",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-10T07:31:20.901972+00:00",
+   "dealType": "strategic buyout",
+   "id": 798,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Kiva Spirits in advanced talks to acquire spirits maker Alcobrew for ₹2,000–2,500 crore.",
+   "primaryOutlet": "Mint",
+   "seller": "Alcobrew shareholders/promoters",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-10T07:31:20.901972+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -17592,6 +17613,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-10T06:31:20.327950+00:00",
- "totalDeals": 627
+ "generatedAt": "2026-09-10T07:31:20.901972+00:00",
+ "totalDeals": 628
 }

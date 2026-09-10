@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": 2250.0,
+ "amountRaw": "₹2,000-2,500 crore — midpoint 2,250 crore",
+ "buyer": "Varun Beverages (Kiva Spirits)",
+ "company": "Alcobrew",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-10T07:31:20.901972+00:00",
+ "dealType": "strategic buyout",
+ "id": 798,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Kiva Spirits in advanced talks to acquire spirits maker Alcobrew for ₹2,000–2,500 crore.",
+ "primaryUrl": "https://www.livemint.com/companies/news/varun-beverages-kiva-spirits-alcobrew-acquisition-11788974351052.html",
+ "seller": "Alcobrew shareholders/promoters",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-10T07:31:20.902998+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "Varun Beverages’ Kiva Spirits in advanced talks to acquire spirits maker Alcobrew for ₹2,000-2,500 crore",
+   "url": "https://www.livemint.com/companies/news/varun-beverages-kiva-spirits-alcobrew-acquisition-11788974351052.html"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-10T07:31:20.901972+00:00"
+}
