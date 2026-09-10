@@ -42,7 +42,12 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Run bulk/block deals + PIT feed + aggregation
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # ANTHROPIC_API_KEY is deliberately NOT passed (2026-09-11).
+          # The system must be completely free, not merely cheap, so the
+          # paid provider is unreachable from here by construction rather
+          # than by a config flag someone could flip by accident. Restoring
+          # paid fallback means putting this line back AND setting the
+          # CLASSIFIER_FALLBACK repo variable to "anthropic".
           # blockdeals -> deals_files.resolve_ambiguous_sellers is a model call
           # too, and it goes through the same seam (llm.py) as stages 1 and 2.
           # Without these it would silently keep using Anthropic while radar.yml

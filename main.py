@@ -33,6 +33,7 @@ show where volume goes.
 """
 
 import argparse
+import json
 from collections import Counter
 from datetime import datetime, timedelta, timezone
 
@@ -40,6 +41,7 @@ import classify
 import cluster
 import config
 import db
+import enrich
 import feedback
 import filters
 import llm
@@ -530,6 +532,34 @@ def run(mode, dry, limit=None):
                         pk, canonical_name, r2.get("company") or "", company_key,
                         db.now_iso()[:10], r2["amount_cr"], "news")
 
+    # ---- STAGE 3: read the article behind each NEW deal, before alerting ----
+    # Stage 2 only ever saw a headline and 400 characters. A name in paragraph
+    # four is invisible to it, and naming individuals is the product — so the
+    # article is read now, while the alert is still unsent, rather than after.
+    #
+    # Wholly non-fatal by construction. If Gemini is down, the free-tier quota
+    # is spent, or a publisher blocks the fetch, this adds nothing and the run
+    # publishes exactly what stage 2 produced. Nothing below may raise.
+    if alerts and not dry:
+        applied = enrich.enrich_new([a["deal_id"] for a in alerts])
+        if applied:
+            # The alert payloads were built from the pre-enrichment record, so
+            # they have to be re-read or the name we just found would sit in
+            # the database while the Telegram message still says nobody.
+            for alert in alerts:
+                fields = applied.get(alert["deal_id"])
+                if not fields:
+                    continue
+                fresh = db.get_deal(alert["deal_id"])
+                if not fresh:
+                    continue
+                alert["individuals"] = json.loads(fresh["individuals"] or "[]")
+                for key in ("amount_cr", "seller", "size_source", "size_band"):
+                    if fresh[key] is not None:
+                        alert[key] = fresh[key]
+            print(f"[main] stage 3 enriched {len(applied)} of {len(alerts)} "
+                  f"new deals before alerting")
+
     funnel["alerted"] = len(alerts)
     print(f"[main] {suppressed[0]} suppressed total, {len(alerts)} alerts to send")
     if mix:
@@ -556,6 +586,13 @@ def run(mode, dry, limit=None):
             print(notify.format_alert(alert))
         else:
             notify.send_alert(alert)
+
+    # ---- STAGE 3, part two: work the backlog, alerts already away ----
+    # Deliberately after the sends. There are ~550 older deals with nobody
+    # named, and a slow fetch must never sit between a deal and the banker's
+    # phone. Same non-fatal contract as above.
+    if not dry:
+        enrich.drain_backlog()
 
 
 def main():

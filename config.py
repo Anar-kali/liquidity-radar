@@ -225,13 +225,14 @@ GEMINI_STAGE2_MODEL = "gemini-3.5-flash-lite"
 # --------------------------------------------------------------------------
 CLASSIFIER_PROVIDER = os.getenv("CLASSIFIER_PROVIDER") or "gemini"
 
-# Tried when the primary provider has exhausted its retries. Unset (or empty,
-# which is what Actions passes for an undefined repo variable — see the
-# PREFILTER_MODE note above) means "whichever provider is not the primary", so
-# this stays correct in BOTH directions without editing it at cutover. The
-# literal "none" disables fallback and sends a failed batch straight to
-# classify_retry.
-CLASSIFIER_FALLBACK = os.getenv("CLASSIFIER_FALLBACK") or ""
+# NO FALLBACK. Default is "none" (2026-09-11, user decision): the system must
+# be completely free, not merely cheap, and any fall through to Anthropic costs
+# money. A Gemini failure now means the batch is parked in classify_retry and
+# judged next run — which is the safety valve working, not a fault.
+#
+# Set to "anthropic" only if you decide paid insurance is worth it. Empty means
+# "the other provider", which is the pre-2026-09-11 behaviour.
+CLASSIFIER_FALLBACK = os.getenv("CLASSIFIER_FALLBACK") or "none"
 
 # Keyed by stage. "seller" is deals_files.resolve_ambiguous_sellers — a third,
 # much smaller model call (a handful of names per run) that predates the two
@@ -250,12 +251,27 @@ PROVIDER_MODELS = {
                "enrich": GEMINI_MODEL},
 }
 
-# Stage 3 (enrich.py) reads whole articles, so it is the one caller whose input
-# is large — ~1,500 tokens of body per deal against stage 1's ~65 per item.
-# It is also the only one that is not time-critical: nothing waits on it, and a
-# deal missed today is enriched tomorrow. Both are why it runs in its own
-# workflow with its own budget rather than inside the alert path.
-ENRICH_PER_RUN = 40
+# --------------------------------------------------------------------------
+# STAGE 3 — runs inline, every run, right after stage 2.
+#
+# Two separate budgets, because the two jobs have different urgency:
+#
+#   NEW      the deals THIS run just created. Enriched BEFORE the Telegram
+#            alert is sent, so a name found in the article reaches the message
+#            rather than appearing on the website an hour later. Usually 1-2.
+#   BACKLOG  older deals with nobody named. Drained AFTER the alerts are away,
+#            so a slow fetch can never delay a notification.
+#
+# Sized against the free tier, which is the whole point. At 13 runs/day:
+#   classifier   ~3 calls/run   =  ~39/day
+#   enrichment   <=20 calls/run = <=260/day
+#   total                          ~300/day against a ~1,000/day free quota.
+#
+# The classifier always runs FIRST in a run, so enrichment can never eat the
+# quota the alerts depend on — it only ever spends what is left over.
+# --------------------------------------------------------------------------
+ENRICH_NEW_PER_RUN = 8
+ENRICH_BACKLOG_PER_RUN = 12
 
 # Requests per minute to stay under, per provider. Gemini's free tier allows
 # 15 RPM and our worst measured run issued 19 calls back to back, so this is

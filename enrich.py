@@ -246,6 +246,81 @@ def enrich_one(deal, dry=False, path=None):
     return "ok", fields
 
 
+# --------------------------------------------------------------------------
+# INLINE ENTRY POINTS — called by main.py every run, right after stage 2.
+#
+# Both are TOTALLY NON-FATAL. Enrichment is an improvement to a record that is
+# already correct without it, so nothing here may ever stop an alert going out
+# or a deal being published. Every failure is caught, logged and swallowed;
+# the caller publishes whatever stage 2 produced.
+# --------------------------------------------------------------------------
+def _deals_by_id(deal_ids, path):
+    if not deal_ids:
+        return []
+    conn = db._conn(path)
+    marks = ",".join("?" * len(deal_ids))
+    rows = [dict(r) for r in conn.execute(
+        f"SELECT * FROM deals WHERE id IN ({marks})", tuple(deal_ids))]
+    conn.close()
+    return rows
+
+
+def enrich_new(deal_ids, limit=None, path=None, dry=False):
+    """Enrich deals this run just created, BEFORE their alert is sent.
+
+    This is the half that changes what the banker actually reads: a name found
+    in the article reaches the Telegram message instead of surfacing on the
+    website an hour later. Returns {deal_id: applied_fields} for the caller to
+    refresh its alerts from.
+    """
+    path = path or db.DB_PATH
+    limit = config.ENRICH_NEW_PER_RUN if limit is None else limit
+    out = {}
+    try:
+        deals = _deals_by_id(deal_ids, path)
+        # Only ones with nobody named — the rest need nothing.
+        deals = [d for d in deals
+                 if (d["individuals"] or "[]") in ("[]", "", "null")][:limit]
+        for deal in deals:
+            try:
+                status, fields = enrich_one(deal, dry=dry, path=path)
+            except Exception as exc:  # noqa: BLE001
+                print(f"[enrich] deal {deal['id']} failed, alert unaffected: "
+                      f"{type(exc).__name__}: {exc}")
+                continue
+            if fields:
+                out[deal["id"]] = fields
+            print(f"[enrich] new deal {deal['id']} {status}: "
+                  f"{', '.join(sorted(fields)) or 'nothing new'}")
+    except Exception as exc:  # noqa: BLE001 — never block the alert path
+        print(f"[enrich] new-deal pass failed entirely, publishing stage-2 "
+              f"output: {type(exc).__name__}: {exc}")
+    return out
+
+
+def drain_backlog(limit=None, path=None, dry=False):
+    """Work through older unnamed deals. Runs AFTER alerts are away, so a slow
+    fetch cannot delay a notification. Never raises."""
+    path = path or db.DB_PATH
+    limit = config.ENRICH_BACKLOG_PER_RUN if limit is None else limit
+    named = 0
+    try:
+        queue = candidates(limit, path=path)
+        for deal in queue:
+            try:
+                _, fields = enrich_one(deal, dry=dry, path=path)
+                if "individuals" in fields:
+                    named += 1
+            except Exception as exc:  # noqa: BLE001
+                print(f"[enrich] backlog deal {deal['id']}: "
+                      f"{type(exc).__name__}: {exc}")
+        if queue:
+            print(f"[enrich] backlog: read {len(queue)}, named {named}")
+    except Exception as exc:  # noqa: BLE001
+        print(f"[enrich] backlog pass failed: {type(exc).__name__}: {exc}")
+    return named
+
+
 def main():
     p = argparse.ArgumentParser(description="Stage 3 — read the article, name the individual")
     p.add_argument("--limit", type=int, default=25)

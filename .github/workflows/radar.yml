@@ -42,7 +42,12 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Run radar (auto)
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # ANTHROPIC_API_KEY is deliberately NOT passed (2026-09-11).
+          # The system must be completely free, not merely cheap, so the
+          # paid provider is unreachable from here by construction rather
+          # than by a config flag someone could flip by accident. Restoring
+          # paid fallback means putting this line back AND setting the
+          # CLASSIFIER_FALLBACK repo variable to "anthropic".
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}

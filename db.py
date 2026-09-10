@@ -859,6 +859,15 @@ def create_deal(deal, path=DB_PATH):
     return deal_id
 
 
+def get_deal(deal_id, path=DB_PATH):
+    """One deal by id, or None. `individuals` stays as stored JSON — callers
+    that need a list decode it, the same as every other reader here."""
+    conn = _conn(path)
+    row = conn.execute("SELECT * FROM deals WHERE id = ?", (deal_id,)).fetchone()
+    conn.close()
+    return dict(row) if row else None
+
+
 def update_deal(deal_id, fields, path=DB_PATH):
     """fields: dict of column -> new value. individuals may be a list."""
     if "individuals" in fields and isinstance(fields["individuals"], list):

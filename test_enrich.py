@@ -13,6 +13,7 @@ import sqlite3
 import sys
 import tempfile
 
+import config
 import db
 import enrich
 
@@ -144,6 +145,58 @@ def test_drhp_is_ranked_last():
     assert enrich.PRIORITY[-1] == "drhp filing", enrich.PRIORITY
     assert enrich.PRIORITY[0] == "block deal", enrich.PRIORITY
     assert enrich.PRIORITY.index("promoter sale") < enrich.PRIORITY.index("ipo-ofs")
+
+
+# --------------------------------------------------------------------------
+# The inline path must never be able to stop an alert.
+# --------------------------------------------------------------------------
+def _with_broken_enrichment(fn):
+    """Run fn() with enrich_one raising on every call."""
+    original = enrich.enrich_one
+    enrich.enrich_one = lambda *a, **k: (_ for _ in ()).throw(RuntimeError("gemini down"))
+    try:
+        return fn()
+    finally:
+        enrich.enrich_one = original
+
+
+def test_new_deal_pass_survives_a_dead_provider():
+    """If Gemini is gone the run must still publish stage-2 output."""
+    tmp = os.path.join(tempfile.mkdtemp(), "n.db")
+    db.init_db(tmp)
+    did = db.create_deal({"deal_key": "k", "company": "X", "deal_type": "block deal",
+        "amount_cr": None, "amount_raw": None, "individuals": [], "seller": None,
+        "buyer": None, "confidence": "medium", "one_line": "x", "source": "s",
+        "url": "u", "size_source": None, "size_band": None, "confirmed": 0}, path=tmp)
+    got = _with_broken_enrichment(lambda: enrich.enrich_new([did], path=tmp))
+    assert got == {}, got          # nothing applied, and crucially no raise
+
+
+def test_backlog_drain_survives_a_dead_provider():
+    tmp = os.path.join(tempfile.mkdtemp(), "b.db")
+    db.init_db(tmp)
+    assert _with_broken_enrichment(lambda: enrich.drain_backlog(limit=3, path=tmp)) == 0
+
+
+def test_new_deal_pass_survives_a_broken_database():
+    """Even a database error must not reach the alert path."""
+    got = enrich.enrich_new([1, 2], path="/nonexistent/dir/nope.db")
+    assert got == {}, got
+
+
+def test_budgets_fit_the_free_tier():
+    """13 runs/day must stay well under Gemini's ~1,000/day free quota, or the
+    classifier — which runs first — starts getting 429s and alerts stop."""
+    per_run = config.ENRICH_NEW_PER_RUN + config.ENRICH_BACKLOG_PER_RUN
+    daily = 13 * (per_run + 3)      # +3 is the classifier's calls per run
+    assert daily < 700, f"{daily}/day leaves too little headroom under 1,000"
+
+
+def test_no_paid_fallback():
+    """The system must be free, not cheap. A fallback to Anthropic costs money."""
+    import llm
+    assert config.CLASSIFIER_FALLBACK == "none", config.CLASSIFIER_FALLBACK
+    assert llm.providers_for() == ["gemini"], llm.providers_for()
 
 
 if __name__ == "__main__":

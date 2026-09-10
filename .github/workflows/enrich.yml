@@ -8,11 +8,15 @@ name: enrich
 # enriched tomorrow. Putting it in the alert path would slow alerts for work
 # that is not time-critical, and a slow fetch would hold up a Telegram message.
 #
-# Twice daily, off the hour, so it does not collide with radar.yml's external
-# hourly trigger any more than the shared concurrency group already prevents.
+# NO SCHEDULE. As of 2026-09-11 enrichment runs inline in radar.yml, every
+# hour, right after stage 2 — new deals are enriched before their alert is
+# sent, and a slice of the backlog is drained after. See main.py.
+#
+# This workflow survives only as a manual lever for draining the backlog in
+# bulk (there were ~550 unnamed deals at cutover, and the hourly slice of 12
+# takes weeks to clear them). Run it by hand with a bigger limit when you want
+# to catch up faster; it is not part of normal operation.
 on:
-  schedule:
-    - cron: "17 4,16 * * *"
   workflow_dispatch:
     inputs:
       limit:
@@ -47,10 +51,12 @@ jobs:
       - name: Enrich deals
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # No ANTHROPIC_API_KEY on purpose: enrichment is Gemini-only. If
+          # Gemini cannot serve it, the deal stays unenriched — it never falls
+          # through to a paid provider.
           CLASSIFIER_PROVIDER: ${{ vars.CLASSIFIER_PROVIDER }}
           CLASSIFIER_FALLBACK: ${{ vars.CLASSIFIER_FALLBACK }}
-        run: python enrich.py --limit "${{ github.event.inputs.limit || 40 }}"
+        run: python enrich.py --limit "${{ github.event.inputs.limit || 100 }}"
       # Enrichment writes individuals, amounts and sellers onto existing
       # deals, so the site's JSON is stale until this runs.
       - name: Export site data
