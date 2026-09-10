@@ -154,14 +154,18 @@ export default function App({
    * export carries a 90-day window (619 deals), which under that headline
    * reads wrong and renders a 59-screen page.
    *
-   * So the front page is the last three days, and everything older lives at
+   * So the front page is the last 24 hours, and everything older lives at
    * /archive. Both surfaces share the cells, filters and panel; only the
    * heading, the hero and the digest differ, because "latest" and "most
    * covered today" are front-page ideas.
    */
-  const RECENT_DAYS = 3;
+  // Expressed in hours, and phrased as "24 hours" rather than "1 day" —
+  // the label is written out because "the last 1 days" is what a naive
+  // pluralisation gives you.
+  const RECENT_HOURS = 24;
+  const RECENT_LABEL = "the last 24 hours";
   const [recent, older] = useMemo(() => {
-    const cut = new Date(now - RECENT_DAYS * 24 * 3600 * 1000).toISOString();
+    const cut = new Date(now - RECENT_HOURS * 3600 * 1000).toISOString();
     const a: FeedDeal[] = [];
     const b: FeedDeal[] = [];
     for (const d of allDeals) ((d.createdAt ?? "") >= cut ? a : b).push(d);
@@ -238,12 +242,12 @@ export default function App({
   );
 
   const leadLabel = sort === "largest" ? "Largest" : sort === "covered" ? "Most covered" : "Latest";
-  const scopeName = view === "archive" ? "the archive" : `the last ${RECENT_DAYS} days`;
+  const scopeName = view === "archive" ? "the archive" : RECENT_LABEL;
   const resultLine = anyFilter
     ? `${rows.length} of ${scope.length} in ${scopeName} match`
     : view === "archive"
       ? `${scope.length} earlier ${scope.length === 1 ? "deal" : "deals"}`
-      : `${scope.length} ${scope.length === 1 ? "deal" : "deals"} in the last ${RECENT_DAYS} days · ~18 a day is normal`;
+      : `${scope.length} ${scope.length === 1 ? "deal" : "deals"} in ${RECENT_LABEL} · ~18 a day is normal`;
 
   const filterState = {
     band, conf, listed, outlet, bandCounts, outlets,
@@ -388,7 +392,7 @@ export default function App({
             }}
           >
             {view === "archive"
-              ? `Everything older than ${RECENT_DAYS} days`
+              ? `Everything older than ${RECENT_LABEL.replace("the last ", "")}`
               : feed
                 ? dateLine(feed.generatedAt)
                 : ""}
@@ -398,7 +402,7 @@ export default function App({
             className="lr-stand"
             style={{ marginTop: 12, fontSize: 14, lineHeight: 1.5, color: "var(--lr-muted)", textWrap: "pretty" }}
           >
-            {scope.length ? standfirst(scope, view === "archive" ? "in the archive" : `in the last ${RECENT_DAYS} days`) : " "}
+            {scope.length ? standfirst(scope, view === "archive" ? "in the archive" : `in ${RECENT_LABEL}`) : " "}
           </div>
 
           <div style={{ marginTop: 18, position: "relative" }}>
