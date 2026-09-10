@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Incred Holdings Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-10T06:31:20.322177+00:00",
+ "dealType": "DRHP filing",
+ "id": 796,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Incred Holdings files UDRHP corrigendum; IPO prospecting lead.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/incred-holdings-limited-corrigendum-to-udrhp_104399.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-10T06:31:20.325538+00:00",
+   "outlet": "Corrigendum to UDRHP",
+   "resolvable": true,
+   "title": "Incred Holdings Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/incred-holdings-limited-corrigendum-to-udrhp_104399.html"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-10T06:31:20.322177+00:00"
+}

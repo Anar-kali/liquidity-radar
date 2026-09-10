@@ -1,6 +1,48 @@
 {
- "dealCount": 625,
+ "dealCount": 627,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "NSE",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-10T06:31:20.327950+00:00",
+   "dealType": "DRHP filing",
+   "id": 797,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "NSE files UDRHP for mega IPO; promoter liquidity event ahead.",
+   "primaryOutlet": "Business Today",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-10T06:31:20.327950+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Incred Holdings Limited",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-10T06:31:20.322177+00:00",
+   "dealType": "DRHP filing",
+   "id": 796,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Incred Holdings files UDRHP corrigendum; IPO prospecting lead.",
+   "primaryOutlet": "Corrigendum to UDRHP",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-10T06:31:20.322177+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -868,7 +910,7 @@
    "seller": "TBZ shareholders/promoters",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 4,
+   "sourceCount": 5,
    "ticker": null,
    "updatedAt": "2026-09-10T01:32:19.909537+00:00",
    "updates": [
@@ -883,6 +925,10 @@
     {
      "attachedAt": "2026-09-10T01:32:19.907259+00:00",
      "title": "Trilegal, AZB act on GRT Jewellers’ proposed 74.12% stake acquisition in TBZ"
+    },
+    {
+     "attachedAt": "2026-09-10T06:31:20.333075+00:00",
+     "title": "GRT Jewellers to acquire 74.12% stake in TBZ for up to ₹1,034 crore"
     }
    ]
   },
@@ -17546,6 +17592,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-10T04:31:22.337099+00:00",
- "totalDeals": 625
+ "generatedAt": "2026-09-10T06:31:20.327950+00:00",
+ "totalDeals": 627
 }
