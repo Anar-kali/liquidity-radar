@@ -1,5 +1,5 @@
 """
-Liquidity Radar — classification. Two Haiku stages.
+Liquidity Radar — classification. Two stages, either provider.
 
 Items are sent to the model 25 at a time as a numbered list. For each item we
 send the headline plus the first 400 characters of the description.
@@ -8,15 +8,28 @@ Stage 1 (classify_all) is a slim boolean-only pass (v4 Change 2): every item
 goes through it, so it returns only {n, neg, r} — no extraction — to keep the
 dominant cost line (stage-1 output tokens) as small as possible. Stage 2
 (precision_classify) runs only on survivors and does the full extraction.
+
+The model is reached through llm.complete, so which vendor answers is a config
+question, not a code question — see llm.py. Nothing below is provider-specific
+except the schemas, which are written in the dialect Gemini constrains against
+and are advisory on Anthropic.
+
+## The batch contract, which is load-bearing
+
+Results are aligned to the batch BY POSITION. An array of the wrong length
+therefore misassigns every verdict after the gap, and _normalise2 reads a
+missing entry as qualify=False — a silent drop, on the stage where a dropped
+item is a lead nobody ever hears about. _parse_array enforces the length and
+test_classify.py exists to keep it enforcing it. Do not reintroduce positional
+padding "defensively"; padding is what made the failure silent.
 """
 
 import json
-import os
 import re
 
-import anthropic
-
 import config
+import db
+import llm
 from textutil import (  # noqa: F401  (re-exported for callers)
     COMPANY_MAX_LEN,
     clean_company,
@@ -338,11 +351,6 @@ def reconcile_amount(model_amount_cr, amount_raw):
     return model_amount_cr, False
 
 
-def _client():
-    # Reads ANTHROPIC_API_KEY from the environment. Never hardcode the key.
-    return anthropic.Anthropic()
-
-
 def _build_user_message(batch):
     lines = []
     for i, item in enumerate(batch, start=1):
@@ -350,6 +358,85 @@ def _build_user_message(batch):
         desc = (item.get("description", "") or "").strip()[: config.DESCRIPTION_CHARS]
         lines.append(f"{i}. HEADLINE: {title}\n   DESCRIPTION: {desc}")
     return "\n\n".join(lines)
+
+
+# --------------------------------------------------------------------------
+# OUTPUT SCHEMAS
+#
+# Written in the OpenAPI subset Gemini constrains decoding against, which is
+# why types are uppercase and it is minItems/maxItems rather than JSON Schema's
+# spelling. On Anthropic (pinned to SDK 0.125.0, which predates structured
+# outputs) these are advisory — _parse_array's length check is what actually
+# holds the contract there. Both are kept in step with config's two prompts:
+# if you change a prompt's declared keys, change these.
+#
+# minItems == maxItems == len(batch) is the point of the exercise. Results are
+# aligned to the batch BY POSITION, so an array of the wrong length silently
+# misassigns every verdict after the gap.
+# --------------------------------------------------------------------------
+_DEAL_TYPES = ["IPO-OFS", "block deal", "strategic buyout", "PE secondary",
+               "PE primary", "open offer", "promoter sale", "DRHP filing",
+               "other", "unknown"]
+_SIZE_BANDS = ["UNDER_100", "100_TO_500", "500_TO_2000", "OVER_2000", "UNKNOWN"]
+
+
+def _stage1_schema(n):
+    return {
+        "type": "ARRAY", "minItems": n, "maxItems": n,
+        "items": {
+            "type": "OBJECT",
+            "properties": {
+                "n": {"type": "INTEGER"},
+                "neg": {"type": "BOOLEAN"},
+                "r": {"type": "INTEGER", "nullable": True},
+            },
+            "required": ["n", "neg", "r"],
+        },
+    }
+
+
+def _stage2_schema(n):
+    return {
+        "type": "ARRAY", "minItems": n, "maxItems": n,
+        "items": {
+            "type": "OBJECT",
+            "properties": {
+                "n": {"type": "INTEGER"},
+                "qualify": {"type": "BOOLEAN"},
+                "drop_reason": {"type": "STRING", "nullable": True},
+                "company": {"type": "STRING", "nullable": True},
+                "deal_type": {"type": "STRING", "enum": _DEAL_TYPES},
+                "amount_cr": {"type": "NUMBER", "nullable": True},
+                "amount_raw": {"type": "STRING", "nullable": True},
+                "individuals": {"type": "ARRAY", "items": {"type": "STRING"}},
+                "seller": {"type": "STRING", "nullable": True},
+                "buyer": {"type": "STRING", "nullable": True},
+                "confidence": {"type": "STRING", "enum": ["high", "medium"]},
+                "one_line": {"type": "STRING"},
+                "size_band": {"type": "STRING", "enum": _SIZE_BANDS},
+                "size_basis": {"type": "STRING"},
+            },
+            "required": ["n", "qualify", "company", "deal_type", "amount_cr",
+                         "individuals", "confidence", "one_line", "size_band"],
+        },
+    }
+
+
+def _seller_schema(n):
+    """deals_files.resolve_ambiguous_sellers — promoter vehicle or institution."""
+    return {
+        "type": "ARRAY", "minItems": n, "maxItems": n,
+        "items": {
+            "type": "OBJECT",
+            "properties": {
+                "n": {"type": "INTEGER"},
+                "name": {"type": "STRING"},
+                "verdict": {"type": "STRING",
+                            "enum": ["promoter", "institution", "unclear"]},
+            },
+            "required": ["n", "name", "verdict"],
+        },
+    }
 
 
 def _parse_array(text, expected):
@@ -367,10 +454,73 @@ def _parse_array(text, expected):
     parsed = json.loads(text[start : end + 1])
     if not isinstance(parsed, list):
         raise ValueError("model output was not a list")
+    # `expected` was a parameter here for a long time and was never checked.
+    # Callers align results to the batch by position and pad the tail with {},
+    # and _normalise2 reads a missing dict as qualify=False — so a model that
+    # returned 7 objects for an 8-item batch silently dropped the 8th item as
+    # a non-deal, with no error and no log line. Raising instead makes it a
+    # failed batch, which main.py parks in classify_retry and judges next run.
+    if len(parsed) != expected:
+        raise ValueError(
+            f"model returned {len(parsed)} results for {expected} items"
+        )
     return parsed
 
 
-def classify_batch(client, batch):
+def _shadow(stage, batch, system, max_tokens, schema, primary):
+    """Judge the same batch with the shadow provider and record the comparison.
+
+    `primary` is [(rejected, detail)] from the provider whose verdict actually
+    acted, in batch order. Nothing here can change a verdict — the return value
+    is discarded and every failure is swallowed after logging. A shadow run
+    that could break a live run would be worse than no measurement at all.
+    """
+    shadow_name = config.CLASSIFIER_SHADOW
+    if not shadow_name or shadow_name == config.CLASSIFIER_PROVIDER:
+        return
+    try:
+        text = llm.complete(
+            system=system,
+            user=_build_user_message(batch),
+            max_tokens=max_tokens,
+            schema=schema,
+            stage=stage,
+            provider=shadow_name,
+            # Never fall back: a shadow result must come from the provider it
+            # is filed under, or it is worse than no result.
+            allow_fallback=False,
+        )
+        results = _parse_array(text, len(batch))
+    except Exception as exc:  # noqa: BLE001
+        print(f"[classify] shadow {shadow_name} stage {stage} batch failed "
+              f"(primary unaffected): {type(exc).__name__}: {exc}")
+        return
+
+    for item, (primary_reject, primary_detail), raw in zip(batch, primary, results):
+        if stage == 1:
+            r = _normalise(raw)
+            shadow_reject, shadow_detail = r["confirmed_negative"], r["rule_number"]
+        else:
+            r = _normalise2(raw)
+            shadow_reject, shadow_detail = (not r["qualify"]), r.get("drop_reason")
+        try:
+            db.add_classifier_shadow(
+                stage=stage,
+                title=item.get("title", ""),
+                url=item.get("url", ""),
+                primary_name=config.CLASSIFIER_PROVIDER,
+                shadow_name=shadow_name,
+                primary_reject=primary_reject,
+                shadow_reject=shadow_reject,
+                primary_detail=primary_detail,
+                shadow_detail=shadow_detail,
+            )
+        except Exception as exc:  # noqa: BLE001
+            print(f"[classify] could not record shadow row: {exc}")
+            return
+
+
+def classify_batch(batch):
     """
     Classify up to BATCH_SIZE items. Returns a list of result dicts.
 
@@ -379,24 +529,21 @@ def classify_batch(client, batch):
     extracted here (that only happens for survivors, in stage 2), so there's
     nothing to reconcile at this stage.
     """
-    user_message = _build_user_message(batch)
-    resp = client.messages.create(
-        model=config.MODEL,
-        max_tokens=2048,  # slim schema: ~15 tokens/item: 25 * 15 = 375, generous headroom
-        temperature=0,  # deterministic — this is classification, not writing;
-                        # the same headline should get the same verdict every
-                        # time regardless of which other items share its batch
+    text = llm.complete(
         system=config.SYSTEM_PROMPT,
-        messages=[{"role": "user", "content": user_message}],
+        user=_build_user_message(batch),
+        # slim schema: ~15 tokens/item: 25 * 15 = 375, generous headroom
+        max_tokens=2048,
+        schema=_stage1_schema(len(batch)),
+        stage=1,
     )
-    text = "".join(b.text for b in resp.content if b.type == "text")
     results = _parse_array(text, len(batch))
 
-    # Align results to the batch by position; pad/trim defensively.
-    aligned = []
-    for i, item in enumerate(batch):
-        result = results[i] if i < len(results) else {}
-        aligned.append((item, _normalise(result)))
+    # Align results to the batch by position. _parse_array has already
+    # guaranteed the lengths match, so this can no longer silently pad.
+    aligned = [(item, _normalise(results[i])) for i, item in enumerate(batch)]
+    _shadow(1, batch, config.SYSTEM_PROMPT, 2048, _stage1_schema(len(batch)),
+            [(r["confirmed_negative"], r["rule_number"]) for _, r in aligned])
     return aligned
 
 
@@ -425,12 +572,13 @@ def _normalise(result):
 
 def classify_all(items):
     """
-    STAGE 1 (Haiku). Classify every item, in batches of BATCH_SIZE.
+    STAGE 1. Classify every item, in batches of BATCH_SIZE.
     Returns a list of (item, result) tuples.
 
-    v4 Change 6: client construction is INSIDE the try, not before the loop —
-    if the Anthropic API is unreachable (bad key, network down) at the very
-    first call, one broken batch never aborts the whole run.
+    v4 Change 6: the API call is INSIDE the try, not before the loop — if the
+    provider is unreachable (bad key, network down) at the very first call, one
+    broken batch never aborts the whole run. llm.complete has already tried the
+    fallback provider by the time an exception reaches here.
 
     2026-08-21: a failed batch no longer fakes a "not negative" verdict. It
     returns results flagged `classify_failed`, which main.py parks in
@@ -445,8 +593,7 @@ def classify_all(items):
     for start in range(0, len(items), config.BATCH_SIZE):
         batch = items[start : start + config.BATCH_SIZE]
         try:
-            client = _client()
-            out.extend(classify_batch(client, batch))
+            out.extend(classify_batch(batch))
         except Exception as exc:  # noqa: BLE001
             print(f"[classify] stage1 batch failed, holding items for retry: {exc}")
             for item in batch:
@@ -497,20 +644,21 @@ def _normalise2(result):
     }
 
 
-def precision_batch(client, batch):
+def precision_batch(batch):
     """Run the stage-2 precision check on up to BATCH_SIZE items."""
-    resp = client.messages.create(
-        model=config.STAGE2_MODEL,
-        max_tokens=8192,
-        temperature=0,  # deterministic — same reasoning as stage 1
+    text = llm.complete(
         system=config.STAGE2_SYSTEM_PROMPT,
-        messages=[{"role": "user", "content": _build_user_message(batch)}],
+        user=_build_user_message(batch),
+        max_tokens=8192,
+        schema=_stage2_schema(len(batch)),
+        stage=2,
     )
-    text = "".join(b.text for b in resp.content if b.type == "text")
     results = _parse_array(text, len(batch))
     aligned = []
-    for i, item in enumerate(batch):
-        result = results[i] if i < len(results) else {}
+    # No positional padding here any more: _parse_array raises unless the
+    # lengths match exactly. The old `results[i] if i < len(results) else {}`
+    # is what silently dropped the tail of a short batch as qualify=False.
+    for item, result in zip(batch, results):
         norm = _normalise2(result)
         _, name_note = clean_company(result.get("company"))
         if name_note:
@@ -522,12 +670,15 @@ def precision_batch(client, batch):
         if changed:
             norm["amount_cr"] = corrected
         aligned.append((item, norm))
+    _shadow(2, batch, config.STAGE2_SYSTEM_PROMPT, 8192,
+            _stage2_schema(len(batch)),
+            [(not r["qualify"], r.get("drop_reason")) for _, r in aligned])
     return aligned
 
 
 def precision_classify(items):
     """
-    STAGE 2 (Sonnet). Returns a list of (item, result) tuples where result has
+    STAGE 2. Returns a list of (item, result) tuples where result has
     a `qualify` flag plus cleanly re-extracted fields.
 
     If a batch fails, its items come back flagged `classify_failed` and are
@@ -540,8 +691,7 @@ def precision_classify(items):
     for start in range(0, len(items), config.BATCH_SIZE):
         batch = items[start : start + config.BATCH_SIZE]
         try:
-            client = _client()
-            out.extend(precision_batch(client, batch))
+            out.extend(precision_batch(batch))
         except Exception as exc:  # noqa: BLE001
             print(f"[classify] stage2 batch failed, holding items for retry: {exc}")
             for item in batch:

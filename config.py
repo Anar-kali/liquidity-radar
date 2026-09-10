@@ -165,7 +165,12 @@ TITLE_DEDUP_STOPWORDS = {
 PREFILTER_MODE = os.getenv("PREFILTER_MODE") or "enforce"
 
 # --------------------------------------------------------------------------
-# THE CLASSIFIER MODEL — Haiku only, both stages (cost matters).
+# THE CLASSIFIER MODELS
+#
+# Two stages, and which vendor runs them is CLASSIFIER_PROVIDER below rather
+# than anything in classify.py. Measured cost of the pair on Haiku, over 788
+# runs: 63 calls/day, 4.70M in / 0.96M out per month, $9.49/mo. That is the
+# whole ceiling on any saving here — pick on quality and reliability, not price.
 #
 # STAGE 1: cheap bulk pass. "Reject confirmed noise", high recall. Every item.
 # STAGE 2: strict precision pass. "Positively confirm a real, large,
@@ -175,6 +180,62 @@ PREFILTER_MODE = os.getenv("PREFILTER_MODE") or "enforce"
 # --------------------------------------------------------------------------
 MODEL = "claude-haiku-4-5-20251001"
 STAGE2_MODEL = MODEL  # same Haiku model; keep two focused passes, not Sonnet
+
+# Gemini equivalents. Flash-Lite is the free tier's workhorse; stage 2 gets the
+# stronger model because it does the extraction, and its call volume (24/day)
+# is the smaller half of the bill anyway.
+GEMINI_MODEL = "gemini-2.5-flash-lite"
+GEMINI_STAGE2_MODEL = "gemini-2.5-flash"
+
+# --------------------------------------------------------------------------
+# WHICH PROVIDER RUNS THE CLASSIFIER
+#
+# `or`, not getenv's default arg: an UNSET repo variable still makes GitHub
+# Actions pass CLASSIFIER_PROVIDER="" (present but empty) to the runner, which
+# getenv's default only covers for a truly absent key. Same reasoning as
+# PREFILTER_MODE above, same trap.
+#
+# Default stays "anthropic" so nothing changes until the eval says it should.
+# --------------------------------------------------------------------------
+CLASSIFIER_PROVIDER = os.getenv("CLASSIFIER_PROVIDER") or "anthropic"
+
+# Tried when the primary provider has exhausted its retries. Unset (or empty,
+# which is what Actions passes for an undefined repo variable — see the
+# PREFILTER_MODE note above) means "whichever provider is not the primary", so
+# this stays correct in BOTH directions without editing it at cutover. The
+# literal "none" disables fallback and sends a failed batch straight to
+# classify_retry.
+CLASSIFIER_FALLBACK = os.getenv("CLASSIFIER_FALLBACK") or ""
+
+# Keyed by stage. "seller" is deals_files.resolve_ambiguous_sellers — a third,
+# much smaller model call (a handful of names per run) that predates the two
+# numbered stages and is easy to forget when changing providers.
+# Run this provider alongside the primary on every batch and record what it
+# WOULD have decided, without letting it affect anything. Empty = off. This is
+# the same shadow->enforce path the prefilters took (PREFILTER_MODE above); it
+# is the only measurement that sees live traffic rather than a stored corpus.
+# Costs one extra call per batch, so it roughly doubles classifier spend while
+# it is on — which is why it is a knob and not the default.
+CLASSIFIER_SHADOW = os.getenv("CLASSIFIER_SHADOW") or ""
+
+PROVIDER_MODELS = {
+    "anthropic": {1: MODEL, 2: STAGE2_MODEL, "seller": MODEL},
+    "gemini": {1: GEMINI_MODEL, 2: GEMINI_STAGE2_MODEL, "seller": GEMINI_MODEL},
+}
+
+# Requests per minute to stay under, per provider. Gemini's free tier allows
+# 15 RPM and our worst measured run issued 19 calls back to back, so this is
+# load-bearing, not decorative. None = no client-side pacing.
+PROVIDER_RPM = {
+    "anthropic": None,
+    "gemini": 15,
+}
+
+# Per-provider retries before falling back. Free tiers 429 under burst, and a
+# 429 is usually over in seconds, so retrying the same provider first is much
+# cheaper than switching.
+LLM_RETRY_ATTEMPTS = 3
+LLM_RETRY_MAX_SLEEP = 8.0
 
 # How many items we send to the model in one API call.
 BATCH_SIZE = 25

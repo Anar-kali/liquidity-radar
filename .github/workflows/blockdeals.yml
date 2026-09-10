@@ -43,6 +43,13 @@ jobs:
       - name: Run bulk/block deals + PIT feed + aggregation
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # blockdeals -> deals_files.resolve_ambiguous_sellers is a model call
+          # too, and it goes through the same seam (llm.py) as stages 1 and 2.
+          # Without these it would silently keep using Anthropic while radar.yml
+          # had moved on, and the two workflows would disagree about sellers.
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          CLASSIFIER_PROVIDER: ${{ vars.CLASSIFIER_PROVIDER }}
+          CLASSIFIER_FALLBACK: ${{ vars.CLASSIFIER_FALLBACK }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python blockdeals.py

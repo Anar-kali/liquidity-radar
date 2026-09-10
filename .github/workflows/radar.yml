@@ -43,12 +43,25 @@ jobs:
       - name: Run radar (auto)
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           # v4 Change 9: "shadow" (default, safe) or "enforce". Repo Settings
           # -> Secrets and variables -> Actions -> Variables -> New repository
           # variable. Unset/empty also means shadow (config.py's fallback).
           PREFILTER_MODE: ${{ vars.PREFILTER_MODE }}
+          # Which provider runs stages 1 and 2. Unset/empty = "anthropic", so
+          # nothing changes until this variable is set. See llm.py.
+          CLASSIFIER_PROVIDER: ${{ vars.CLASSIFIER_PROVIDER }}
+          # Set this (e.g. "gemini") to judge every batch with a SECOND
+          # provider and record what it would have decided, without letting it
+          # act. Read the log with classifier_shadow_report.py. Doubles
+          # classifier spend while on; empty = off.
+          CLASSIFIER_SHADOW: ${{ vars.CLASSIFIER_SHADOW }}
+          # Provider tried when the primary exhausts its retries. Unset means
+          # "the other one", which is right in both directions; "none"
+          # disables it.
+          CLASSIFIER_FALLBACK: ${{ vars.CLASSIFIER_FALLBACK }}
         run: python main.py --mode auto
       # Runs BEFORE the state commit so the export lands in the SAME commit,
       # reusing the hardened push below. A second commit+push step would add

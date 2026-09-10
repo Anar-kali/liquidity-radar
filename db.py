@@ -164,6 +164,27 @@ def init_db(path=DB_PATH):
         -- PREFILTER_MODE=shadow, a firing filter logs here instead of
         -- actually dropping the item, so a trial week costs nothing extra
         -- and shadow_report.py can show what enforcing it would remove.
+        -- One row per item judged by BOTH providers while
+        -- CLASSIFIER_SHADOW is set. The primary provider's verdict is the one
+        -- that acted; the shadow's is recorded only. `agreed` is stored rather
+        -- than derived so a report can index on it, and both rules are kept
+        -- because "we both rejected it, for different reasons" is a weaker
+        -- agreement than the boolean alone suggests.
+        CREATE TABLE IF NOT EXISTS classifier_shadow (
+            id             INTEGER PRIMARY KEY AUTOINCREMENT,
+            stage          INTEGER,  -- 1 or 2
+            title          TEXT,
+            url            TEXT,
+            primary_name   TEXT,     -- provider whose verdict acted
+            shadow_name    TEXT,
+            primary_reject INTEGER,  -- 1 = confirmed negative / not qualified
+            shadow_reject  INTEGER,
+            primary_detail TEXT,     -- rule number or drop_reason
+            shadow_detail  TEXT,
+            agreed         INTEGER,
+            created_at     TEXT
+        );
+
         CREATE TABLE IF NOT EXISTS prefilter_shadow (
             id         INTEGER PRIMARY KEY AUTOINCREMENT,
             filter     TEXT,     -- "structural" | "pre_api_amount"
@@ -423,6 +444,36 @@ def recent_title_norms(hours, path=DB_PATH):
 # --------------------------------------------------------------------------
 # prefilter_shadow / title_dedup_log (v4 Changes 4 and 9)
 # --------------------------------------------------------------------------
+def add_classifier_shadow(stage, title, url, primary_name, shadow_name,
+                          primary_reject, shadow_reject, primary_detail,
+                          shadow_detail, path=DB_PATH):
+    conn = _conn(path)
+    conn.execute(
+        "INSERT INTO classifier_shadow (stage, title, url, primary_name, "
+        "shadow_name, primary_reject, shadow_reject, primary_detail, "
+        "shadow_detail, agreed, created_at) "
+        "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+        (stage, title, url, primary_name, shadow_name,
+         int(bool(primary_reject)), int(bool(shadow_reject)),
+         None if primary_detail is None else str(primary_detail),
+         None if shadow_detail is None else str(shadow_detail),
+         int(bool(primary_reject) == bool(shadow_reject)), now_iso()),
+    )
+    conn.commit()
+    conn.close()
+
+
+def classifier_shadow_since(hours, path=DB_PATH):
+    cutoff = (datetime.now(timezone.utc) - timedelta(hours=hours)).isoformat()
+    conn = _conn(path)
+    rows = conn.execute(
+        "SELECT * FROM classifier_shadow WHERE created_at >= ? ORDER BY created_at",
+        (cutoff,),
+    ).fetchall()
+    conn.close()
+    return [dict(r) for r in rows]
+
+
 def add_prefilter_shadow(filter_name, title, url, reason, path=DB_PATH):
     conn = _conn(path)
     conn.execute(
