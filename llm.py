@@ -22,12 +22,16 @@ degrades to the other provider instead.
 
 ## Schemas are enforced on Gemini and advisory on Anthropic
 
-Gemini constrains decoding to `response_schema`, so a malformed or wrong-length
-array is impossible. The pinned anthropic SDK (0.125.0) predates structured
-outputs, so there the schema is documentation only and classify._parse_array's
-length check is the actual guarantee. That check runs on BOTH providers — it is
-the backstop, not a Gemini workaround. Do not remove it on the grounds that the
-schema already covers it; it only covers it on one of the two paths.
+Gemini constrains decoding to `response_schema`, so the SHAPE of each object is
+guaranteed there. Length is not, everywhere: Gemini rejects minItems/maxItems on
+stage 2's 14-field object with an opaque 400, so that schema ships without a
+length pin (see classify's schema section). The pinned anthropic SDK (0.125.0)
+predates structured outputs entirely, so there the whole schema is documentation.
+
+classify._parse_array's length check is therefore the only guarantee that holds
+on every provider and every stage. It is the backstop, not a workaround for one
+vendor. Do not remove it on the grounds that the schema already covers it —
+on the stage where a wrong length silently drops a lead, it does not.
 
 ## Fallback
 

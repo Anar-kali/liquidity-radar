@@ -65,6 +65,27 @@ well-formed rule numbers both begin at the same timestamp. CORPUS_FROM makes
 the cut explicit rather than leaving it as a side effect of filtering on
 `gate`, so backfilling that column later cannot silently widen the corpus.
 
+## Stage-1 positives are not all equal, and the eval must not treat them so
+
+"Haiku passed it at stage 1" is a weak label. 68% of what stage 1 passes is
+killed by stage 2 anyway, so a candidate that rejects one of those at stage 1
+is not losing a lead — it is saving a stage-2 call that was going to be wasted.
+Measured on real disagreements: the items Gemini "wrongly" rejected were
+HINDALCO analyst-meet notices, "Outcome of Board Meeting", "Stocks in news"
+roundups. Gemini was right; Haiku was passing junk downstream.
+
+So every stage-1 positive carries an `outcome` saying what happened to it next:
+
+    deal            it became a deal. Rejecting this at stage 1 LOSES A LEAD.
+    post_gate       stage 2 approved it, a deterministic gate then dropped it
+                    on size. Rejecting early is harmless and cheaper.
+    stage2_rejected stage 2 said no. Rejecting early is a SAVING.
+
+Only the `deal` bucket carries real risk, and eval_classifier reports it
+separately. Averaging the three produces a "false negative rate" that is mostly
+measuring Haiku's stage-1 sloppiness, which is how the first run of this eval
+reported 50% and meant nothing.
+
 ## url is a dirty key
 
 3,738 items carry an empty url and 91 carry '-'. Joining on those fans out
@@ -150,8 +171,16 @@ def collect(path=db.DB_PATH):
     # post-model gates then killed.
     s2_pos = {u: "deal" for u in deals}
     s2_pos.update({u: r for u, r in post.items()})
-    # Stage 1 passed everything stage 2 ever saw.
-    s1_pos = set(s2_neg) | set(s2_pos)
+    # Stage 1 passed everything stage 2 ever saw. What happened next is the
+    # difference between "lost a lead" and "saved a call" — see the docstring.
+    s1_outcome = {}
+    for url in s2_neg:
+        s1_outcome[url] = "stage2_rejected"
+    for url in post:
+        s1_outcome[url] = "post_gate"
+    for url in deals:
+        s1_outcome[url] = "deal"          # last, so a deal always wins
+    s1_pos = set(s1_outcome)
 
     report = Counter()
 
@@ -172,14 +201,17 @@ def collect(path=db.DB_PATH):
                 report[f"stage{stage}_no_title"] += 1
                 continue
             positive = url in positives
-            out.append({
+            row = {
                 "url": url,
                 "title": title,
                 "description": desc,
                 "label": "positive" if positive else "negative",
                 "rule": (positives.get(url) if isinstance(positives, dict) and positive
                          else negatives.get(url) if not positive else None),
-            })
+            }
+            if positive and stage == 1:
+                row["outcome"] = s1_outcome.get(url)
+            out.append(row)
         report[f"stage{stage}_conflicting"] = conflicts
         return out
 
@@ -189,16 +221,25 @@ def collect(path=db.DB_PATH):
 
 
 def sample(rows, n, seed=SEED):
-    """Stratified by label, so the mix survives sampling."""
+    """Stratified by label, so the mix survives sampling.
+
+    Rows whose outcome is "deal" are ALWAYS kept, never sampled away. They are
+    the only bucket where a candidate's rejection costs a real lead, there are
+    only a few hundred of them, and a proportional sample would leave ~30 — too
+    thin a base for the one number that decides the migration.
+    """
     if not n or n >= len(rows):
         return rows
     rng = random.Random(seed)
-    pos = [r for r in rows if r["label"] == "positive"]
-    neg = [r for r in rows if r["label"] == "negative"]
-    share = len(pos) / len(rows) if rows else 0
-    want_pos = min(len(pos), round(n * share))
-    want_neg = min(len(neg), n - want_pos)
-    picked = rng.sample(pos, want_pos) + rng.sample(neg, want_neg)
+    deals = [r for r in rows if r.get("outcome") == "deal"]
+    rest = [r for r in rows if r.get("outcome") != "deal"]
+    remaining = max(0, n - len(deals))
+    pos = [r for r in rest if r["label"] == "positive"]
+    neg = [r for r in rest if r["label"] == "negative"]
+    share = len(pos) / len(rest) if rest else 0
+    want_pos = min(len(pos), round(remaining * share))
+    want_neg = min(len(neg), remaining - want_pos)
+    picked = deals + rng.sample(pos, want_pos) + rng.sample(neg, want_neg)
     rng.shuffle(picked)
     return picked
 
@@ -209,6 +250,10 @@ def describe(name, rows):
     pos = counts["positive"]
     print(f"  {name:8} {total:6d}   positive {pos:5d} ({100*pos/total if total else 0:4.1f}%)"
           f"   negative {counts['negative']:5d}")
+    outcomes = Counter(r["outcome"] for r in rows if r.get("outcome"))
+    if outcomes:
+        parts = "  ".join(f"{k}:{v}" for k, v in outcomes.most_common())
+        print(f"           positives by outcome -> {parts}")
     by_rule = Counter(r["rule"] for r in rows if r["label"] == "negative")
     if by_rule:
         top = "  ".join(f"{k}:{v}" for k, v in by_rule.most_common(6))

@@ -184,8 +184,17 @@ STAGE2_MODEL = MODEL  # same Haiku model; keep two focused passes, not Sonnet
 # Gemini equivalents. Flash-Lite is the free tier's workhorse; stage 2 gets the
 # stronger model because it does the extraction, and its call volume (24/day)
 # is the smaller half of the bill anyway.
-GEMINI_MODEL = "gemini-2.5-flash-lite"
-GEMINI_STAGE2_MODEL = "gemini-2.5-flash"
+#
+# Pinned to explicit versions, NOT the "-latest" aliases. An alias that moves
+# under a running classifier changes verdicts with no commit and no way to
+# correlate the change to anything — the same reason requirements.txt pins.
+#
+# 2026-09-10: gemini-2.5-flash-lite and gemini-2.5-flash both return 404 "no
+# longer available to new users" on a key issued now, even though models.list
+# still advertises them. List membership is not availability; verify a model
+# with a real generate_content call before pinning it here.
+GEMINI_MODEL = "gemini-3.5-flash-lite"
+GEMINI_STAGE2_MODEL = "gemini-3.5-flash"
 
 # --------------------------------------------------------------------------
 # WHICH PROVIDER RUNS THE CLASSIFIER

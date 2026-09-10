@@ -142,10 +142,22 @@ def test_classify_all_parks_the_batch_rather_than_verdicting_it():
 # --------------------------------------------------------------------------
 # Schemas must stay in step with what the prompts declare and with _normalise.
 # --------------------------------------------------------------------------
-def test_schema_pins_array_length_to_batch():
-    for build in (classify._stage1_schema, classify._stage2_schema, classify._seller_schema):
+def test_simple_schemas_pin_array_length_to_batch():
+    """Stage 1 and the seller call use 3-field objects, which Gemini accepts a
+    length constraint on."""
+    for build in (classify._stage1_schema, classify._seller_schema):
         s = build(11)
         assert s["minItems"] == 11 and s["maxItems"] == 11, (build.__name__, s)
+
+
+def test_stage2_schema_carries_no_length_pin():
+    """Gemini 400s on minItems for stage 2's 14-field object at any value, so
+    the pin is deliberately absent and _parse_array is the only guarantee.
+    Re-adding it here would break every stage-2 call against Gemini."""
+    s = classify._stage2_schema(11)
+    assert "minItems" not in s and "maxItems" not in s, (
+        "stage-2 schema has a length pin again — Gemini rejects it with an "
+        "opaque 400; the length contract is enforced by _parse_array instead")
 
 
 def test_stage2_schema_matches_normalise_keys():
