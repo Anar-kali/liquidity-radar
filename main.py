@@ -533,6 +533,10 @@ def run(mode, dry, limit=None):
                         db.now_iso()[:10], r2["amount_cr"], "news")
 
     # ---- STAGE 3: read the article behind each NEW deal, before alerting ----
+    # This is the ONLY place enrichment runs in normal operation. Every deal is
+    # enriched once, at the moment it is created, and never revisited: there is
+    # no recurring sweep and no going back over older deals. enrich.py exists
+    # as a manual command for one-off catch-ups, not as part of the loop.
     # Stage 2 only ever saw a headline and 400 characters. A name in paragraph
     # four is invisible to it, and naming individuals is the product — so the
     # article is read now, while the alert is still unsent, rather than after.
@@ -587,13 +591,6 @@ def run(mode, dry, limit=None):
         else:
             notify.send_alert(alert)
 
-    # ---- STAGE 3, part two: anything recent still unnamed ----
-    # Deliberately after the sends: a slow fetch must never sit between a deal
-    # and the banker's phone. Bounded to the last ENRICH_MAX_AGE_HOURS — old
-    # deals are never revisited, because a five-week-old deal is of no use to
-    # a banker. Same non-fatal contract as above.
-    if not dry:
-        enrich.enrich_recent()
 
 
 def main():
