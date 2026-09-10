@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { data } from "./data/adapter";
-import type { Deal, Feed, FeedDeal } from "./data/types";
+import type { Deal, Feed, FeedDeal, PatternAlert } from "./data/types";
 import {
   type Band,
   amtStyle,
@@ -17,6 +17,7 @@ import {
 import { DealCell } from "./components/DealCell";
 import { HeroCell } from "./components/HeroCell";
 import { Panel } from "./components/Panel";
+import { PatternPanel, PatternSection } from "./components/Patterns";
 import { BANDS, type Conf, FilterGroups, type Listed, chipStyle } from "./components/Filters";
 import { ArrowUp, Refresh, Search, X } from "./components/icons";
 import "./app.css";
@@ -69,6 +70,8 @@ export default function App({
 
   const [openId, setOpenId] = useState<number | null>(null);
   const [openDeal, setOpenDeal] = useState<Deal | null>(null);
+  const [patterns, setPatterns] = useState<PatternAlert[]>([]);
+  const [openPattern, setOpenPattern] = useState<PatternAlert | null>(null);
 
   // Fixed at load so a cell's "12m" does not drift while the page is read.
   const [now, setNow] = useState(() => Date.now());
@@ -102,6 +105,12 @@ export default function App({
       const f = await data.getFeed();
       setFeed(f);
       setNow(Date.now());
+      // Pattern alerts are a separate, much smaller file. A failure here must
+      // not blank the deal feed — the section simply does not render.
+      data
+        .getPatterns()
+        .then((p) => setPatterns(p.alerts))
+        .catch(() => setPatterns([]));
     } catch (e) {
       setError(e instanceof Error ? e.message : String(e));
     } finally {
@@ -745,6 +754,10 @@ export default function App({
             </div>
           )}
 
+          {!loading && !error && view === "today" && (
+            <PatternSection alerts={patterns} onOpen={setOpenPattern} />
+          )}
+
           {!loading && !error && rowsB.length > 0 && (
             <div className="lr-grid" style={{ marginTop: 26 }}>
               {rowsB.map((d) => (
@@ -933,6 +946,7 @@ export default function App({
       )}
 
       {openDeal && <Panel deal={openDeal} onClose={closePanel} now={now} />}
+      {openPattern && <PatternPanel alert={openPattern} onClose={() => setOpenPattern(null)} />}
     </div>
   );
 }

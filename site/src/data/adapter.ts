@@ -2,11 +2,12 @@
  * Data access behind one interface, so swapping the static JSON for an HTTP
  * API later is a new adapter rather than a component rewrite.
  */
-import type { Deal, Feed } from "./types";
+import type { Deal, Feed, PatternFeed } from "./types";
 
 export interface DataAdapter {
   getFeed(): Promise<Feed>;
   getDeal(id: number): Promise<Deal>;
+  getPatterns(): Promise<PatternFeed>;
 }
 
 /** Reads the files export_site.py writes into site/public/data. */
@@ -22,6 +23,12 @@ export class StaticJsonAdapter implements DataAdapter {
   async getDeal(id: number): Promise<Deal> {
     const res = await fetch(`${this.base}/deals/${id}.json`);
     if (!res.ok) throw new Error(`deal ${id}: ${res.status}`);
+    return res.json();
+  }
+
+  async getPatterns(): Promise<PatternFeed> {
+    const res = await fetch(`${this.base}/patterns.json`);
+    if (!res.ok) throw new Error(`patterns ${res.status}`);
     return res.json();
   }
 }

@@ -1,0 +1,340 @@
+{
+ "alerts": [
+  {
+   "alertedAt": "2026-09-09T17:46:18.594126+00:00",
+   "company": "MV Electrosystems Limited",
+   "firstTrade": "28-Aug-2026",
+   "id": 15,
+   "lastTrade": "09-Sep-2026",
+   "person": "HRTI PRIVATE LIMITED",
+   "saleCount": 7,
+   "sales": [
+    {
+     "date": "28-Aug-2026",
+     "sources": [
+      "bulk"
+     ],
+     "valueCr": 36.72
+    },
+    {
+     "date": "01-Sep-2026",
+     "sources": [
+      "bulk"
+     ],
+     "valueCr": 15.74
+    },
+    {
+     "date": "02-Sep-2026",
+     "sources": [
+      "bulk"
+     ],
+     "valueCr": 8.87
+    },
+    {
+     "date": "03-Sep-2026",
+     "sources": [
+      "bulk"
+     ],
+     "valueCr": 50.85
+    },
+    {
+     "date": "07-Sep-2026",
+     "sources": [
+      "bulk"
+     ],
+     "valueCr": 65.63
+    },
+    {
+     "date": "08-Sep-2026",
+     "sources": [
+      "bulk"
+     ],
+     "valueCr": 56.46
+    },
+    {
+     "date": "09-Sep-2026",
+     "sources": [
+      "bulk"
+     ],
+     "valueCr": 62.23
+    }
+   ],
+   "storedTotalCr": 296.5,
+   "totalCr": 296.5,
+   "weeks": 2
+  },
+  {
+   "alertedAt": "2026-09-08T17:52:47.860214+00:00",
+   "company": "PC Jeweller Ltd",
+   "firstTrade": "24-Aug-2026",
+   "id": 14,
+   "lastTrade": "09-Sep-2026",
+   "person": "HRTI PRIVATE LIMITED",
+   "saleCount": 4,
+   "sales": [
+    {
+     "date": "24-Aug-2026",
+     "sources": [
+      "bulk"
+     ],
+     "valueCr": 34.63
+    },
+    {
+     "date": "07-Sep-2026",
+     "sources": [
+      "bulk"
+     ],
+     "valueCr": 188.9
+    },
+    {
+     "date": "08-Sep-2026",
+     "sources": [
+      "bulk"
+     ],
+     "valueCr": 137.34
+    },
+    {
+     "date": "09-Sep-2026",
+     "sources": [
+      "bulk"
+     ],
+     "valueCr": 117.96
+    }
+   ],
+   "storedTotalCr": 360.87,
+   "totalCr": 478.83,
+   "weeks": 2
+  },
+  {
+   "alertedAt": "2026-09-04T14:18:26.400115+00:00",
+   "company": "Meesho Limited",
+   "firstTrade": "03-Sep-2026",
+   "id": 13,
+   "lastTrade": "03-Sep-2026",
+   "person": "SVF II MEERKAT (DE) LLC",
+   "saleCount": 2,
+   "sales": [
+    {
+     "date": "03-Sep-2026",
+     "sources": [
+      "bulk",
+      "block"
+     ],
+     "valueCr": 728.6
+    },
+    {
+     "date": "03-Sep-2026",
+     "sources": [
+      "bulk",
+      "block"
+     ],
+     "valueCr": 921.8
+    }
+   ],
+   "storedTotalCr": 3300.8,
+   "totalCr": 1650.4,
+   "weeks": 1
+  },
+  {
+   "alertedAt": "2026-08-26T16:56:23.284937+00:00",
+   "company": "Viyash Scientific Limited",
+   "firstTrade": "26-Aug-2026",
+   "id": 9,
+   "lastTrade": "26-Aug-2026",
+   "person": "CA HULL INVESTMENTS",
+   "saleCount": 4,
+   "sales": [
+    {
+     "date": "26-Aug-2026",
+     "sources": [
+      "bulk"
+     ],
+     "valueCr": 244.98
+    },
+    {
+     "date": "26-Aug-2026",
+     "sources": [
+      "bulk"
+     ],
+     "valueCr": 325.54
+    },
+    {
+     "date": "26-Aug-2026",
+     "sources": [
+      "bulk",
+      "block"
+     ],
+     "valueCr": 70.0
+    },
+    {
+     "date": "26-Aug-2026",
+     "sources": [
+      "block"
+     ],
+     "valueCr": 38.03
+    }
+   ],
+   "storedTotalCr": 748.55,
+   "totalCr": 678.55,
+   "weeks": 1
+  },
+  {
+   "alertedAt": "2026-08-26T16:56:22.807251+00:00",
+   "company": "Viyash Scientific Limited",
+   "firstTrade": "26-Aug-2026",
+   "id": 8,
+   "lastTrade": "26-Aug-2026",
+   "person": "CA HARBOR INVESTMENTS",
+   "saleCount": 4,
+   "sales": [
+    {
+     "date": "26-Aug-2026",
+     "sources": [
+      "bulk",
+      "block"
+     ],
+     "valueCr": 80.01
+    },
+    {
+     "date": "26-Aug-2026",
+     "sources": [
+      "bulk"
+     ],
+     "valueCr": 226.65
+    },
+    {
+     "date": "26-Aug-2026",
+     "sources": [
+      "bulk"
+     ],
+     "valueCr": 312.22
+    },
+    {
+     "date": "26-Aug-2026",
+     "sources": [
+      "block"
+     ],
+     "valueCr": 36.78
+    }
+   ],
+   "storedTotalCr": 735.67,
+   "totalCr": 655.66,
+   "weeks": 1
+  },
+  {
+   "alertedAt": "2026-08-18T15:48:47.303148+00:00",
+   "company": "Paytm",
+   "firstTrade": "2026-08-17",
+   "id": 6,
+   "lastTrade": "2026-08-17",
+   "person": "Vijay Shekhar Sharma",
+   "saleCount": 2,
+   "sales": [
+    {
+     "date": "2026-08-17",
+     "sources": [
+      "news"
+     ],
+     "valueCr": 7675.0
+    },
+    {
+     "date": "2026-08-17",
+     "sources": [
+      "news"
+     ],
+     "valueCr": 4900.0
+    }
+   ],
+   "storedTotalCr": 12575.0,
+   "totalCr": 12575.0,
+   "weeks": 1
+  },
+  {
+   "alertedAt": "2026-08-17T14:58:45.191787+00:00",
+   "company": "Thyrocare Technologies",
+   "firstTrade": "2026-08-13",
+   "id": 5,
+   "lastTrade": "2026-08-15",
+   "person": "Docon Technologies (promoter entity)",
+   "saleCount": 2,
+   "sales": [
+    {
+     "date": "2026-08-13",
+     "sources": [
+      "news"
+     ],
+     "valueCr": 1577.0
+    },
+    {
+     "date": "2026-08-15",
+     "sources": [
+      "news"
+     ],
+     "valueCr": 986.0
+    }
+   ],
+   "storedTotalCr": 2563.0,
+   "totalCr": 2563.0,
+   "weeks": 1
+  },
+  {
+   "alertedAt": "2026-08-14T16:36:40.737751+00:00",
+   "company": "Svatantra Microfin",
+   "firstTrade": "2026-08-14",
+   "id": 4,
+   "lastTrade": "2026-08-14",
+   "person": "Ananya Birla",
+   "saleCount": 2,
+   "sales": [
+    {
+     "date": "2026-08-14",
+     "sources": [
+      "news"
+     ],
+     "valueCr": 3000.0
+    },
+    {
+     "date": "2026-08-14",
+     "sources": [
+      "news"
+     ],
+     "valueCr": 1500.0
+    }
+   ],
+   "storedTotalCr": 7500.0,
+   "totalCr": 4500.0,
+   "weeks": 1
+  },
+  {
+   "alertedAt": "2026-08-13T17:36:39.236546+00:00",
+   "company": "Thyrocare Tech Ltd",
+   "firstTrade": "13-Aug-2026",
+   "id": 2,
+   "lastTrade": "13-Aug-2026",
+   "person": "DOCON TECHNOLOGIES PRIVATE LIMITED",
+   "saleCount": 2,
+   "sales": [
+    {
+     "date": "13-Aug-2026",
+     "sources": [
+      "bulk"
+     ],
+     "valueCr": 63.17
+    },
+    {
+     "date": "13-Aug-2026",
+     "sources": [
+      "bulk",
+      "block"
+     ],
+     "valueCr": 821.72
+    }
+   ],
+   "storedTotalCr": 1706.61,
+   "totalCr": 884.89,
+   "weeks": 1
+  }
+ ],
+ "count": 9,
+ "generatedAt": "2026-09-10T06:31:20.327950+00:00"
+}

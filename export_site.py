@@ -6,6 +6,7 @@ docs/data-contract.md, so the website is a static site with no server:
 
     site/public/data/deals.json       feed slice — trimmed fields, newest first
     site/public/data/deals/<id>.json  one full Deal record each
+    site/public/data/patterns.json    PATTERN alerts, resolved and deduplicated
 
     python export_site.py                 # export, default 90-day feed window
     python export_site.py --dry           # report what WOULD be written
@@ -33,6 +34,7 @@ import sqlite3
 import sys
 
 import db
+import patterns
 import sizing
 import textutil
 
@@ -273,7 +275,18 @@ def run(path, out_dir, days, dry):
         "deals": [feed_entry(d) for d in feed_deals],
     }
 
+    # PATTERN alerts — several sub-threshold sales by one person adding up.
+    # patterns.py rebuilds them from individual_sales and drops the ones that
+    # are a single NSE trade double-reported; see that module for why.
+    pattern_alerts, pattern_dropped = patterns.build(path)
+    pattern_payload = {
+        "generatedAt": feed["generatedAt"],
+        "count": len(pattern_alerts),
+        "alerts": pattern_alerts,
+    }
+
     assert_public(feed)
+    assert_public(pattern_payload)
     for deal in deals:
         assert_public(deal)
 
@@ -290,11 +303,14 @@ def run(path, out_dir, days, dry):
           f"no sources {nosrc}")
     print(f"[export] {links} source links, {opaque} opaque "
           f"({100*opaque//links if links else 0}%)")
+    print(f"[export] {len(pattern_alerts)} pattern alerts "
+          f"({pattern_dropped} dropped as one trade double-reported)")
 
     if dry:
         print("[export] --dry: nothing written")
         return 0
 
+    write_json(os.path.join(out_dir, "patterns.json"), pattern_payload)
     write_json(os.path.join(out_dir, "deals.json"), feed)
     for deal in deals:
         write_json(os.path.join(out_dir, "deals", f"{deal['id']}.json"), deal)

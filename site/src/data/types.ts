@@ -80,3 +80,38 @@ export interface Feed {
  * prose ("estimated", "undisclosed").
  */
 export type Provenance = "stated" | "derived" | "estimate" | "none";
+
+/* ── pattern alerts ───────────────────────────────────────────────────── */
+
+export interface PatternSale {
+  date: string;
+  valueCr: number;
+  /** Which NSE file(s) reported it — "bulk", "block", "pit", "news". */
+  sources: string[];
+}
+
+/**
+ * Several sub-threshold sales by one person in one company that add up over a
+ * rolling 90-day window. Not a Deal: there is no article, no buyer and no
+ * headline — just a ledger of trades and a running total.
+ */
+export interface PatternAlert {
+  id: number;
+  person: string;
+  company: string;
+  /** Deduplicated. `storedTotalCr` is what the Telegram alert said. */
+  totalCr: number;
+  storedTotalCr: number;
+  saleCount: number;
+  weeks: number;
+  firstTrade: string;
+  lastTrade: string;
+  alertedAt: string;
+  sales: PatternSale[];
+}
+
+export interface PatternFeed {
+  generatedAt: string;
+  count: number;
+  alerts: PatternAlert[];
+}
