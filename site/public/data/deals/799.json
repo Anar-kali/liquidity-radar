@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": 2171.0,
+ "amountRaw": "Rs 2,171 crore",
+ "buyer": "Alpha Alternatives",
+ "company": "Mekhali Power Transmission",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-09-10T10:31:16.269827+00:00",
+ "dealType": "strategic buyout",
+ "id": 799,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Dilip Buildcon divests Mekhali Power stake for Rs 2,171 crore to Alpha Alternatives.",
+ "primaryUrl": "https://economictimes.indiatimes.com/industry/renewables/dilip-buildcon-to-sell-stake-in-mekhali-power-to-alpha-alternatives-for-rs-2171-crore/articleshow/134003159.cms",
+ "seller": "Dilip Buildcon",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-10T10:31:16.270938+00:00",
+   "outlet": "ET Corporate",
+   "resolvable": true,
+   "title": "Dilip Buildcon to sell stake in Mekhali Power to Alpha Alternatives for Rs 2,171 crore",
+   "url": "https://economictimes.indiatimes.com/industry/renewables/dilip-buildcon-to-sell-stake-in-mekhali-power-to-alpha-alternatives-for-rs-2171-crore/articleshow/134003159.cms"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-10T10:31:16.269827+00:00"
+}

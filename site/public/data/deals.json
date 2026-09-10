@@ -1,6 +1,27 @@
 {
- "dealCount": 628,
+ "dealCount": 629,
  "deals": [
+  {
+   "amountCr": 2171.0,
+   "amountRaw": "Rs 2,171 crore",
+   "company": "Mekhali Power Transmission",
+   "confidence": "high",
+   "confirmed": false,
+   "createdAt": "2026-09-10T10:31:16.269827+00:00",
+   "dealType": "strategic buyout",
+   "id": 799,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Dilip Buildcon divests Mekhali Power stake for Rs 2,171 crore to Alpha Alternatives.",
+   "primaryOutlet": "ET Corporate",
+   "seller": "Dilip Buildcon",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-10T10:31:16.269827+00:00",
+   "updates": []
+  },
   {
    "amountCr": 2250.0,
    "amountRaw": "₹2,000-2,500 crore — midpoint 2,250 crore",
@@ -106,13 +127,21 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 2,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-09-10T04:31:22.330812+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-10T04:31:22.334893+00:00",
      "title": "HERO MOTORS LIMITED"
+    },
+    {
+     "attachedAt": "2026-09-10T10:31:16.262953+00:00",
+     "title": "Hero Motors IPO 2026: Price and Full Review"
+    },
+    {
+     "attachedAt": "2026-09-10T10:31:16.265244+00:00",
+     "title": "Hero Motors Charts IPO Roadmap, Management Details Debt Reduction, EV And Global Expansion Plans"
     }
    ]
   },
@@ -17613,6 +17642,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-10T07:31:20.901972+00:00",
- "totalDeals": 628
+ "generatedAt": "2026-09-10T10:31:16.269827+00:00",
+ "totalDeals": 629
 }
