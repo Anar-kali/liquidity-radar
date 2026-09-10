@@ -170,6 +170,35 @@ def init_db(path=DB_PATH):
         -- than derived so a report can index on it, and both rules are kept
         -- because "we both rejected it, for different reasons" is a weaker
         -- agreement than the boolean alone suggests.
+        -- Google News token -> publisher url. The round-trip costs two HTTP
+        -- requests against an endpoint we do not own and the answer never
+        -- changes, so it is asked once. An empty url is a CACHED FAILURE, kept
+        -- deliberately: without it every run would retry the same dead tokens
+        -- forever. See gnews.py.
+        CREATE TABLE IF NOT EXISTS gnews_cache (
+            token      TEXT PRIMARY KEY,
+            url        TEXT,       -- "" means resolution failed
+            created_at TEXT
+        );
+
+        -- One row per enrichment attempt on a deal, whatever the outcome.
+        -- Attempts are recorded even when nothing was found, so the next run
+        -- can skip a deal it has already read rather than re-fetching it.
+        CREATE TABLE IF NOT EXISTS deal_enrichment (
+            deal_id     INTEGER PRIMARY KEY,
+            url         TEXT,      -- what we actually read
+            status      TEXT,      -- ok | unresolved | fetch_failed | extract_failed
+            individuals TEXT,      -- JSON list, as found
+            amount_cr   REAL,
+            seller      TEXT,
+            buyer       TEXT,
+            advisers    TEXT,      -- JSON list
+            applied     TEXT,      -- JSON list of fields written onto the deal
+            attempts    INTEGER DEFAULT 1,
+            created_at  TEXT,
+            updated_at  TEXT
+        );
+
         CREATE TABLE IF NOT EXISTS classifier_shadow (
             id             INTEGER PRIMARY KEY AUTOINCREMENT,
             stage          INTEGER,  -- 1 or 2
@@ -444,6 +473,57 @@ def recent_title_norms(hours, path=DB_PATH):
 # --------------------------------------------------------------------------
 # prefilter_shadow / title_dedup_log (v4 Changes 4 and 9)
 # --------------------------------------------------------------------------
+def gnews_cached(token, path=DB_PATH):
+    """Cached resolution, or None if this token has never been tried.
+    Returns "" for a token we tried and failed — distinct from never-tried."""
+    conn = _conn(path)
+    row = conn.execute("SELECT url FROM gnews_cache WHERE token = ?", (token,)).fetchone()
+    conn.close()
+    return None if row is None else (row["url"] or "")
+
+
+def gnews_cache(token, url, path=DB_PATH):
+    conn = _conn(path)
+    conn.execute(
+        "INSERT INTO gnews_cache (token, url, created_at) VALUES (?, ?, ?) "
+        "ON CONFLICT(token) DO UPDATE SET url = excluded.url",
+        (token, url or "", now_iso()),
+    )
+    conn.commit()
+    conn.close()
+
+
+def enrichment_for(deal_id, path=DB_PATH):
+    conn = _conn(path)
+    row = conn.execute("SELECT * FROM deal_enrichment WHERE deal_id = ?", (deal_id,)).fetchone()
+    conn.close()
+    return dict(row) if row else None
+
+
+def record_enrichment(deal_id, url, status, found=None, applied=None, path=DB_PATH):
+    """Upsert one attempt. `attempts` increments so a deal that keeps failing
+    can be given up on rather than retried every run forever."""
+    found = found or {}
+    conn = _conn(path)
+    conn.execute(
+        "INSERT INTO deal_enrichment (deal_id, url, status, individuals, amount_cr, "
+        " seller, buyer, advisers, applied, attempts, created_at, updated_at) "
+        "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, 1, ?, ?) "
+        "ON CONFLICT(deal_id) DO UPDATE SET url=excluded.url, status=excluded.status, "
+        " individuals=excluded.individuals, amount_cr=excluded.amount_cr, "
+        " seller=excluded.seller, buyer=excluded.buyer, advisers=excluded.advisers, "
+        " applied=excluded.applied, attempts=deal_enrichment.attempts+1, "
+        " updated_at=excluded.updated_at",
+        (deal_id, url, status,
+         json.dumps(found.get("individuals") or []), found.get("amount_cr"),
+         found.get("seller"), found.get("buyer"),
+         json.dumps(found.get("advisers") or []),
+         json.dumps(applied or []), now_iso(), now_iso()),
+    )
+    conn.commit()
+    conn.close()
+
+
 def add_classifier_shadow(stage, title, url, primary_name, shadow_name,
                           primary_reject, shadow_reject, primary_detail,
                           shadow_detail, path=DB_PATH):

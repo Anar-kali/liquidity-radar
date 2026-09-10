@@ -1,0 +1,96 @@
+name: enrich
+
+# Stage 3 — read the article behind a deal and name the individual.
+#
+# Deliberately NOT part of radar.yml. Enrichment fetches whole articles and is
+# the one caller whose input is large (~1,500 tokens of body per deal against
+# stage 1's ~65 per item), and nothing waits on it: a deal missed today is
+# enriched tomorrow. Putting it in the alert path would slow alerts for work
+# that is not time-critical, and a slow fetch would hold up a Telegram message.
+#
+# Twice daily, off the hour, so it does not collide with radar.yml's external
+# hourly trigger any more than the shared concurrency group already prevents.
+on:
+  schedule:
+    - cron: "17 4,16 * * *"
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Deals to enrich this run"
+        required: false
+        default: "40"
+
+concurrency:
+  group: liquidity-radar
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    outputs:
+      site_changed: ${{ steps.state.outputs.site_changed }}
+    runs-on: ubuntu-latest
+    steps:
+      # ref: main, for the reason spelled out at length in blockdeals.yml —
+      # this shares a concurrency group with two workflows that also commit
+      # radar.db, and a queued run must check out the latest main when it
+      # actually starts or its writes get lost in the rebase.
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - name: Enrich deals
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CLASSIFIER_PROVIDER: ${{ vars.CLASSIFIER_PROVIDER }}
+          CLASSIFIER_FALLBACK: ${{ vars.CLASSIFIER_FALLBACK }}
+        run: python enrich.py --limit "${{ github.event.inputs.limit || 40 }}"
+      # Enrichment writes individuals, amounts and sellers onto existing
+      # deals, so the site's JSON is stale until this runs.
+      - name: Export site data
+        run: |
+          python export_site.py || {
+            echo "::error::site export failed — site/data is stale this run"
+            exit 0
+          }
+      - name: Commit state
+        id: state
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add radar.db
+          if [ -d site/public/data ]; then git add site/public/data; fi
+          if git diff --cached --name-only | grep -q '^site/public/data'; then
+            echo "site_changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "site_changed=false" >> "$GITHUB_OUTPUT"
+          fi
+          git diff --quiet --cached || git commit -m "state: enrich run $(date -u +%FT%TZ)"
+          if ! git pull --rebase --autostash || ! git push; then
+            git rebase --abort 2>/dev/null || true
+            echo "::error::state commit failed to sync — this run's enrichment NOT persisted"
+            if [ -n "$TELEGRAM_BOT_TOKEN" ]; then
+              curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+                -d chat_id="${TELEGRAM_CHAT_ID}" \
+                -d text="⚠️ Liquidity Radar: enrich state save failed this run (git push rejected). Check the Actions log." \
+                > /dev/null || true
+            fi
+            exit 1
+          fi
+
+  # A push made with GITHUB_TOKEN cannot start another workflow, so the deploy
+  # is called rather than triggered. Same chain as radar.yml and blockdeals.yml.
+  deploy-site:
+    needs: run
+    if: needs.run.outputs.site_changed == 'true'
+    uses: ./.github/workflows/deploy-site.yml
+    secrets: inherit

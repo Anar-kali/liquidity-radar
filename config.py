@@ -245,9 +245,17 @@ CLASSIFIER_FALLBACK = os.getenv("CLASSIFIER_FALLBACK") or ""
 CLASSIFIER_SHADOW = os.getenv("CLASSIFIER_SHADOW") or ""
 
 PROVIDER_MODELS = {
-    "anthropic": {1: MODEL, 2: STAGE2_MODEL, "seller": MODEL},
-    "gemini": {1: GEMINI_MODEL, 2: GEMINI_STAGE2_MODEL, "seller": GEMINI_MODEL},
+    "anthropic": {1: MODEL, 2: STAGE2_MODEL, "seller": MODEL, "enrich": MODEL},
+    "gemini": {1: GEMINI_MODEL, 2: GEMINI_STAGE2_MODEL, "seller": GEMINI_MODEL,
+               "enrich": GEMINI_MODEL},
 }
+
+# Stage 3 (enrich.py) reads whole articles, so it is the one caller whose input
+# is large — ~1,500 tokens of body per deal against stage 1's ~65 per item.
+# It is also the only one that is not time-critical: nothing waits on it, and a
+# deal missed today is enriched tomorrow. Both are why it runs in its own
+# workflow with its own budget rather than inside the alert path.
+ENRICH_PER_RUN = 40
 
 # Requests per minute to stay under, per provider. Gemini's free tier allows
 # 15 RPM and our worst measured run issued 19 calls back to back, so this is
