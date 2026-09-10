@@ -1,6 +1,27 @@
 {
- "dealCount": 632,
+ "dealCount": 633,
  "deals": [
+  {
+   "amountCr": 1500.0,
+   "amountRaw": "Rs 1,500-Crore",
+   "company": "Granules India",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-10T14:52:05.233090+00:00",
+   "dealType": "block deal",
+   "id": 803,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Granules India promoter to offload Rs 1,500-crore stake via block deal.",
+   "primaryOutlet": "ndtvprofit.com",
+   "seller": "Promoter",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "GRANULES.NS",
+   "updatedAt": "2026-09-10T14:52:05.233090+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -38,10 +59,15 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-09-10T12:31:35.939921+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-09-10T14:52:05.257396+00:00",
+     "title": "SS Retail eyes public markets with ₹5,000-million IPO"
+    }
+   ]
   },
   {
    "amountCr": 53000.0,
@@ -17718,6 +17744,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-10T13:31:09.230748+00:00",
- "totalDeals": 632
+ "generatedAt": "2026-09-10T14:52:05.233090+00:00",
+ "totalDeals": 633
 }
