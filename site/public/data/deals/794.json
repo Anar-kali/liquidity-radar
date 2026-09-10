@@ -1,7 +1,7 @@
 {
  "advisers": [],
- "amountCr": null,
- "amountRaw": null,
+ "amountCr": 1000.0,
+ "amountRaw": "₹1,000-Crore Issue",
  "buyer": null,
  "company": "Hero Motors Limited",
  "confidence": "medium",
@@ -13,9 +13,9 @@
  "listed": false,
  "oneLine": "Hero Motors Limited files RHP with SEBI for IPO.",
  "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/hero-motors-limited-rhp_104395.html",
- "seller": null,
+ "seller": "Hero Motors promoter",
  "sizeBand": null,
- "sizeSource": "unknown",
+ "sizeSource": "stated",
  "sources": [
   {
    "attachedAt": "2026-09-10T04:31:22.332641+00:00",
@@ -44,8 +44,15 @@
    "resolvable": false,
    "title": "Hero Motors Charts IPO Roadmap, Management Details Debt Reduction, EV And Global Expansion Plans",
    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWFdISFY2TWtMRU51N2dxSUduWFUxQW9kOG5WSllQMldQWXF1eXVrd2pXdTM2c0lmdkNDS1l2ZzFuMHF3dFZ0UGZjbUNUTExXYUhhckt5YWZoSDl2NnBOMlV5RHV0Sjg5empsMWljWWVKMnc1aGVCRXhKSDN5QUZkVFotUmt0RmIwblFrQi0xNE5oS0VCNjBZUnhCbGl0eVZjQ3ZXaUJyY0tqaFc2QnBpQmVZUHdHYWdmQkxoem5vSFhkODMxN2U1YXI4ZVRnUEpy0gHWAUFVX3lxTFBEZkktcEt5eHRKcjV0RkktSWk2SVVnd0tkLXdFSUhrTUtkcW5pYnI0VDRQWnQxaE5RUjlVUHRQTWZHSGstdTdMTDZjdVAxUUYyaDcwMzdnYkpMNFFId0pmZHJ2MmNvNFZYNUd4cDd6QjlwREZmM0FHc1NGZ3AzMnJ1R0dna1dvRTBFSEx0VlJSdjI1a2x6MWk5X01jTXZoenhHUHRYbU9UZ0ZkYmxRQi03UUc5RWhXbVNORU8yS1V2cHc0Z2VnU0EtR3VVN1NDeHNpTzdzaUE?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-10T11:31:35.263243+00:00",
+   "outlet": "Free Press Journal",
+   "resolvable": false,
+   "title": "Hero Motors Charts IPO Growth Roadmap, ₹1,000-Crore Issue To Fund Debt Reduction And Expansion",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbUJTeDBJVEdraklqWFhzeDA2b0RzWVhUWjh2THdZZDFWQ2g2SlNZd095cVY2Wjk1OUllZWYwQU1NY2FuRFJzOEVBMktvb0k3UDlxRUpNUF9rLVdpZURrSVBTMEhObXdNZmpLNFVEdVZnTFFldkxPeVZ4dFF0MzF0amtKOXJUaXdUelA4ZUREWk9vVFNRVDFQZHcwZ19YTDdYeUNlU05SRlBScmtOV2U5dVRGRmwzc1l1ZkdYbE5OT1IteF9CRmI4QXhwX3fSAdIBQVVfeXFMTnFZN2NHUXFhcUU2SzllU1VsQ2lfSk1sT1JvcGlEc3VmSFNwV29uM0lCbFEyXzhuaFpHT2RGOEN2T2YxM1g3YWprcEJZSXd0ZGxFMG83TERPY1VsQXIwb0xaaU9lRWhHbm5KX2ZQNmV2RXF4ZzRONmhxYklWcExUXy1KcmI1ZjRoTmxBTHAtUXBKQm9rcFlNcmt1SFpqVWdKVFVGZTEwT0FNQzhQR25pcmVLeUtvUk9NZGlnalozdHk1Ql9ueHZxYUxzOUZSV21PZVpR?oc=5"
   }
  ],
  "ticker": null,
- "updatedAt": "2026-09-10T04:31:22.330812+00:00"
+ "updatedAt": "2026-09-10T11:31:35.264721+00:00"
 }

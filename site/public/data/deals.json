@@ -1,6 +1,27 @@
 {
- "dealCount": 629,
+ "dealCount": 630,
  "deals": [
+  {
+   "amountCr": 53000.0,
+   "amountRaw": "Rs 53,000 Crore Offer",
+   "company": "IDBI Bank",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-10T11:31:35.259101+00:00",
+   "dealType": "strategic buyout",
+   "id": 800,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Fairfax acquisition of IDBI Bank for Rs 53,000 crore; deal delayed.",
+   "primaryOutlet": "NDTV Profit",
+   "seller": "IDBI Bank shareholders / promoter",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "IDBI.NS",
+   "updatedAt": "2026-09-10T11:31:35.259101+00:00",
+   "updates": []
+  },
   {
    "amountCr": 2171.0,
    "amountRaw": "Rs 2,171 crore",
@@ -112,8 +133,8 @@
    ]
   },
   {
-   "amountCr": null,
-   "amountRaw": null,
+   "amountCr": 1000.0,
+   "amountRaw": "₹1,000-Crore Issue",
    "company": "Hero Motors Limited",
    "confidence": "medium",
    "confirmed": false,
@@ -124,12 +145,12 @@
    "listed": false,
    "oneLine": "Hero Motors Limited files RHP with SEBI for IPO.",
    "primaryOutlet": "Abridged Prospectus",
-   "seller": null,
+   "seller": "Hero Motors promoter",
    "sizeBand": null,
-   "sizeSource": "unknown",
-   "sourceCount": 4,
+   "sizeSource": "stated",
+   "sourceCount": 5,
    "ticker": null,
-   "updatedAt": "2026-09-10T04:31:22.330812+00:00",
+   "updatedAt": "2026-09-10T11:31:35.264721+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-10T04:31:22.334893+00:00",
@@ -142,6 +163,10 @@
     {
      "attachedAt": "2026-09-10T10:31:16.265244+00:00",
      "title": "Hero Motors Charts IPO Roadmap, Management Details Debt Reduction, EV And Global Expansion Plans"
+    },
+    {
+     "attachedAt": "2026-09-10T11:31:35.263243+00:00",
+     "title": "Hero Motors Charts IPO Growth Roadmap, ₹1,000-Crore Issue To Fund Debt Reduction And Expansion"
     }
    ]
   },
@@ -17642,6 +17667,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-10T10:31:16.269827+00:00",
- "totalDeals": 629
+ "generatedAt": "2026-09-10T11:31:35.264721+00:00",
+ "totalDeals": 630
 }
