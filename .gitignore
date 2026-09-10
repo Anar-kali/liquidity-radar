@@ -27,3 +27,6 @@ eval_disagreements.json
 # Locally vendored google-genai (54MB). Production installs it from
 # requirements.txt; this exists only so the spike can run without a venv.
 .vendor/
+
+# eval_classifier --dump output, regenerate by re-running the eval
+eval_stage2_valid.json
