@@ -1257,8 +1257,8 @@
    "updates": []
   },
   {
-   "amountCr": 30000.0,
-   "amountRaw": "Rs 30,000 Crore",
+   "amountCr": 23000.0,
+   "amountRaw": "₹23,000 cr IPO size",
    "company": "NSE",
    "confidence": "medium",
    "confirmed": false,
@@ -1272,9 +1272,9 @@
    "seller": "NSE promoters / shareholders (implied)",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 10,
+   "sourceCount": 11,
    "ticker": null,
-   "updatedAt": "2026-09-07T05:34:54.106788+00:00",
+   "updatedAt": "2026-09-10T03:31:22.698592+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-07T05:34:54.110419+00:00",
@@ -1311,6 +1311,10 @@
     {
      "attachedAt": "2026-09-10T01:32:19.921742+00:00",
      "title": "NSE IPO - What is NSE IPO and Why NSE is Listing?"
+    },
+    {
+     "attachedAt": "2026-09-10T03:31:22.696842+00:00",
+     "title": "NSE files UDRHP with Sebi; IPO size likely to be cut to ₹23,000 cr as shareholders trim OFS: Sources"
     }
    ]
   },
@@ -17482,6 +17486,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-10T01:32:19.943567+00:00",
+ "generatedAt": "2026-09-10T03:31:22.698592+00:00",
  "totalDeals": 623
 }
