@@ -8,6 +8,7 @@
  "confirmed": false,
  "createdAt": "2026-08-05T13:21:00.677808+00:00",
  "dealType": "open offer",
+ "enrichmentState": null,
  "id": 11,
  "individuals": [
   "Uday Narang"

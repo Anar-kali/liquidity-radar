@@ -8,6 +8,7 @@
  "confirmed": false,
  "createdAt": "2026-08-12T12:01:51.066243+00:00",
  "dealType": "block deal",
+ "enrichmentState": null,
  "id": 207,
  "individuals": [
   "Rromil Nikhil Shah"

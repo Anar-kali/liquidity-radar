@@ -8,6 +8,7 @@
  "confirmed": false,
  "createdAt": "2026-08-07T01:47:18.281688+00:00",
  "dealType": "promoter sale",
+ "enrichmentState": null,
  "id": 106,
  "individuals": [
   "Mehul Shah"

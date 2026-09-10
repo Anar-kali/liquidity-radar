@@ -8,6 +8,7 @@
  "confirmed": false,
  "createdAt": "2026-08-12T08:46:11.312446+00:00",
  "dealType": "strategic buyout",
+ "enrichmentState": null,
  "id": 200,
  "individuals": [
   "Shapoor Mistry family"

@@ -8,6 +8,7 @@
  "confirmed": false,
  "createdAt": "2026-08-24T13:31:11.515095+00:00",
  "dealType": "block deal",
+ "enrichmentState": null,
  "id": 562,
  "individuals": [
   "Sumanlata Dhareshwar"

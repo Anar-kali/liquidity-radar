@@ -1,21 +1,22 @@
 {
  "advisers": [],
- "amountCr": null,
- "amountRaw": null,
+ "amountCr": 23000.0,
+ "amountRaw": "Rs 23,000 crore (from article)",
  "buyer": null,
  "company": "NSE",
  "confidence": "medium",
  "confirmed": false,
  "createdAt": "2026-09-10T06:31:20.327950+00:00",
  "dealType": "DRHP filing",
+ "enrichmentState": null,
  "id": 797,
  "individuals": [],
  "listed": false,
  "oneLine": "NSE files UDRHP for mega IPO; promoter liquidity event ahead.",
  "primaryUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPaWZrS2RWUWZPM1BsdkVJVU5KUDFuVEgtMlloTGJqb2pRLXpieDRGWkN2blUxX3JLWVdUbnE0VUN1bGIyWDU1c0xsMDFHTjZDOFZ6dVVNV1QzVlAwSU5HSmozSl9SbzJQMnJWNk95MXE2cnNUTXhaV2VNaks4VG15d1A2dUlYMlVaaUI2cUFQU2dtWnprRjljaVZQek9JbVpkUzlYckVnaWpiQlVMZ2FERWhVeHNBdV9Na3hOcElvSWY4cHdFV05DRVhmTjBUY3VKU0NreW9OTjM3WFVaTUY0VUZzbjNaRVR0dDRZSkpNa9IB_AFBVV95cUxQT0RCanQ4RW9wVUVlUFJzbEFEUmxJY3gtZHNZX3hRRVJSUkotTmVFUVpXRHZWUkNfTXNRcl8yeVJUUnY5aWtKenR6YUhLWTRtTTlWN3NIcTR0TmxxY1QyRXFocFJqeHl0bmI4MnpNMklNMjFtbFFmN0YtMC1oVHV1b1BPYWRqbmp0MElFUFdScmxlQ0JzbWZkWkdma21aV29XVFhjMXZ3dDZYbldCZEd4bUszMUdQWjl6bi1BOWpzM0hYVTNJNGpiUHdvMmZJMXdaSTRKYmFtQlphU2ZRbGxsM3FQXzAtSndWQW9Eb0JnM2Jaekg2WkRHWDJWWVc?oc=5",
- "seller": null,
+ "seller": "existing shareholders (including public sector insurance companies and MS Strategic (Mauritius) Ltd)",
  "sizeBand": null,
- "sizeSource": "unknown",
+ "sizeSource": "stated",
  "sources": [
   {
    "attachedAt": "2026-09-10T06:31:20.329045+00:00",
@@ -26,5 +27,5 @@
   }
  ],
  "ticker": null,
- "updatedAt": "2026-09-10T06:31:20.327950+00:00"
+ "updatedAt": "2026-09-10T19:05:38.131712+00:00"
 }

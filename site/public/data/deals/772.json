@@ -1,21 +1,24 @@
 {
  "advisers": [],
- "amountCr": null,
- "amountRaw": null,
+ "amountCr": 30.03,
+ "amountRaw": "Rs 30.03 crore (from article)",
  "buyer": null,
  "company": "Raksan Transformers",
  "confidence": "medium",
  "confirmed": false,
  "createdAt": "2026-09-09T01:32:25.125086+00:00",
  "dealType": "DRHP filing",
+ "enrichmentState": null,
  "id": 772,
- "individuals": [],
+ "individuals": [
+  "Sanjeev Kanda"
+ ],
  "listed": false,
  "oneLine": "Raksan Transformers IPO 2026; promoter liquidity event planned",
  "primaryUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRDNuUWRlaVl1NFZ3OThvMDlxZS1NODVySi1ITUFmbEVUTms2dFBpXzdUNTFRVzZ4dUhpQzV6N2w2UjVfeWNCVEsxdEhfQmtXbDJsY0N3bV9wTHRyVjJMUE1saVFVdVNiajRIbDJmbmdPdUNicEtmRXZHMzZzdmtNX19KYndYMkRH?oc=5",
- "seller": null,
+ "seller": "Sanjeev Kanda",
  "sizeBand": null,
- "sizeSource": "unknown",
+ "sizeSource": "stated",
  "sources": [
   {
    "attachedAt": "2026-09-09T01:32:25.126337+00:00",
@@ -26,5 +29,5 @@
   }
  ],
  "ticker": null,
- "updatedAt": "2026-09-09T01:32:25.125086+00:00"
+ "updatedAt": "2026-09-10T19:06:29.258711+00:00"
 }

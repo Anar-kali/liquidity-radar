@@ -8,6 +8,7 @@
  "confirmed": false,
  "createdAt": "2026-08-28T05:31:09.854874+00:00",
  "dealType": "strategic buyout",
+ "enrichmentState": null,
  "id": 618,
  "individuals": [
   "Noel Tata"

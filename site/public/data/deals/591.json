@@ -8,6 +8,7 @@
  "confirmed": true,
  "createdAt": "2026-08-26T16:56:20.228018+00:00",
  "dealType": "bulk deal",
+ "enrichmentState": null,
  "id": 591,
  "individuals": [
   "CA HULL INVESTMENTS",

@@ -8,6 +8,7 @@
  "confirmed": false,
  "createdAt": "2026-08-18T11:31:20.099423+00:00",
  "dealType": "block deal",
+ "enrichmentState": null,
  "id": 363,
  "individuals": [
   "Vibha Shrikishan Poddar"

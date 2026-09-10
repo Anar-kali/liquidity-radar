@@ -8,6 +8,7 @@
  "confirmed": true,
  "createdAt": "2026-08-27T13:31:29.998268+00:00",
  "dealType": "block deal",
+ "enrichmentState": null,
  "id": 606,
  "individuals": [
   "ALPHA WAVE VENTURES"

@@ -8,6 +8,7 @@
  "confirmed": false,
  "createdAt": "2026-08-21T11:31:16.178816+00:00",
  "dealType": "IPO-OFS",
+ "enrichmentState": null,
  "id": 519,
  "individuals": [],
  "listed": true,

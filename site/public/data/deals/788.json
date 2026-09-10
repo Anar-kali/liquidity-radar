@@ -8,12 +8,13 @@
  "confirmed": false,
  "createdAt": "2026-09-09T12:31:22.759729+00:00",
  "dealType": "DRHP filing",
+ "enrichmentState": null,
  "id": 788,
  "individuals": [],
  "listed": false,
  "oneLine": "Razorpay confirms IPO filing; targets global markets.",
  "primaryUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUDFFTUZLT1RRYi1CMVNLRmdhdC1SejlZems1S0Rsek1yZEZJcVQxUjNqNlI2WUlrdFJnS2RLWGxyVXNXZTFTdnlqUVJrMnVnX2NPdjdLSGFMNFctWUgxV1ZIdWdaXy10czVhU2Vnbm01TmdMcDVySzM4eS1kclJod2VfeDhoY1FVOFBpYWFNcFJkSFJfbzdJMlVPU2dkUkZwSjJDMjZLRnJKbXdtNTcyQWVLOHZKeUItZHRDeXJJYkNqRUZiZVdF?oc=5",
- "seller": null,
+ "seller": "Razorpay",
  "sizeBand": null,
  "sizeSource": "unknown",
  "sources": [
@@ -26,5 +27,5 @@
   }
  ],
  "ticker": null,
- "updatedAt": "2026-09-09T12:31:22.759729+00:00"
+ "updatedAt": "2026-09-10T19:06:05.805044+00:00"
 }

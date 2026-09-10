@@ -1,21 +1,22 @@
 {
  "advisers": [],
- "amountCr": null,
- "amountRaw": null,
+ "amountCr": 6650.0,
+ "amountRaw": "Rs 6,650 crore (from article)",
  "buyer": null,
  "company": "OYO",
  "confidence": "medium",
  "confirmed": false,
  "createdAt": "2026-09-09T13:31:33.667038+00:00",
  "dealType": "IPO-OFS",
+ "enrichmentState": null,
  "id": 789,
  "individuals": [],
  "listed": false,
  "oneLine": "OYO parent Prism planning IPO launch in current fiscal.",
  "primaryUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSjB3TjdTbmliWE9oYk5SM0RVVFJVOVhEaTdoVnR3ajdDTklyQ3RDUS1uQmppTWljZG1rSFBkNW5NYTg0Z2pKNC1PNFVFWW04U1lBMF9obUx6ak16SGxGbW9mbk9XRHdmZnlMU0pQSGd2cGtfQjRQeXYwVFN1V2pVSGxEWXNsanZxYnNneGJNWlBZck9KWmtoak9TSDQ3Vmxyb0Z4aEFSTmdVZEV3ak1PT0tBcHNGQ0VPYzZxeXZzTUM1eE9MMEHSAcoBQVVfeXFMT1htbkhzQlVJNEZDS0FWRUdpZHlNZ0xsZTFNc2Nibi11WjdRdGJFTGVkNTdiNjVuXzNZZ29zUGxncnQtbXFkS0N1SE9zTkgzRTlFZ01qY1BkUlZLWWMtSHZ3Tkp4NEt5amZ3ZXdNTkxrYnpwcUFKX2gzMWhvcUNQZHlybkdIOURjVTRlSlJxZzlZbkVsUk50MW1LSUtUTjd1Q1FhbjFzZVA2Z1p0aUJiQ1g5T3ZHRzE0Q0RrcXNsamlHZFE5TUtsQ2pqUQ?oc=5",
- "seller": null,
+ "seller": "Prism",
  "sizeBand": null,
- "sizeSource": "unknown",
+ "sizeSource": "stated",
  "sources": [
   {
    "attachedAt": "2026-09-09T13:31:33.668594+00:00",
@@ -26,5 +27,5 @@
   }
  ],
  "ticker": null,
- "updatedAt": "2026-09-09T13:31:33.667038+00:00"
+ "updatedAt": "2026-09-10T19:05:22.587044+00:00"
 }

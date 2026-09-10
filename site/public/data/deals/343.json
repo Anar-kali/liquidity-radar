@@ -8,6 +8,7 @@
  "confirmed": false,
  "createdAt": "2026-08-17T15:02:12.363657+00:00",
  "dealType": "block deal",
+ "enrichmentState": null,
  "id": 343,
  "individuals": [
   "Vijay Shekhar Sharma"

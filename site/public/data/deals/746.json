@@ -8,6 +8,7 @@
  "confirmed": false,
  "createdAt": "2026-09-07T05:34:54.189773+00:00",
  "dealType": "other",
+ "enrichmentState": null,
  "id": 746,
  "individuals": [],
  "listed": false,

@@ -1,21 +1,22 @@
 {
  "advisers": [],
- "amountCr": null,
- "amountRaw": null,
- "buyer": null,
+ "amountCr": 4000.0,
+ "amountRaw": "₹4,000 crore (from article)",
+ "buyer": "NLC India Renewables Limited",
  "company": "NLC India Renewables",
  "confidence": "medium",
  "confirmed": false,
  "createdAt": "2026-09-09T10:31:47.250330+00:00",
  "dealType": "DRHP filing",
+ "enrichmentState": null,
  "id": 785,
  "individuals": [],
  "listed": false,
  "oneLine": "NLC India Renewables subsidiary to list in FY27",
  "primaryUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxORGxOZkhLZjY3NGxqc2lYblg1MUFWZUxRdUtJYnRaaVcyZEgyUGtaOXRyUkxvOURJckJVdjRoeDExZ1ZGT1RBYVhaQWNTWllSamFzWmlPaXJiTklzWWNpTDBMR2xqSEktNmVsdVV1VFdCSklEMkVQRmVkM2k0VDZ1NFBLT3B5M01lU1hRdUNzbjdRa0ZaWXVVZnlTNFA?oc=5",
- "seller": null,
+ "seller": "NLC India",
  "sizeBand": null,
- "sizeSource": "unknown",
+ "sizeSource": "stated",
  "sources": [
   {
    "attachedAt": "2026-09-09T10:31:47.251551+00:00",
@@ -26,5 +27,5 @@
   }
  ],
  "ticker": null,
- "updatedAt": "2026-09-09T10:31:47.250330+00:00"
+ "updatedAt": "2026-09-10T19:06:14.021361+00:00"
 }

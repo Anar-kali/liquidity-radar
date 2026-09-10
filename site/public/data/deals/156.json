@@ -8,6 +8,7 @@
  "confirmed": false,
  "createdAt": "2026-08-10T06:16:42.689367+00:00",
  "dealType": "other",
+ "enrichmentState": null,
  "id": 156,
  "individuals": [
   "Mohammad Kamil Qureshi"

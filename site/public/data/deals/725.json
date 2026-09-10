@@ -8,6 +8,7 @@
  "confirmed": false,
  "createdAt": "2026-09-04T09:31:12.984596+00:00",
  "dealType": "DRHP filing",
+ "enrichmentState": null,
  "id": 725,
  "individuals": [],
  "listed": false,

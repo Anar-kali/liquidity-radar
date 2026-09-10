@@ -8,6 +8,7 @@
  "confirmed": false,
  "createdAt": "2026-08-28T07:31:10.579195+00:00",
  "dealType": "promoter sale",
+ "enrichmentState": null,
  "id": 620,
  "individuals": [],
  "listed": true,

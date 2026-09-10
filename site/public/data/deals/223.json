@@ -8,6 +8,7 @@
  "confirmed": false,
  "createdAt": "2026-08-13T07:01:18.703957+00:00",
  "dealType": "block deal",
+ "enrichmentState": null,
  "id": 223,
  "individuals": [
   "Mayadevi Kabra"

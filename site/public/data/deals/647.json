@@ -8,6 +8,7 @@
  "confirmed": false,
  "createdAt": "2026-08-31T03:31:19.271628+00:00",
  "dealType": "strategic buyout",
+ "enrichmentState": null,
  "id": 647,
  "individuals": [
   "PV Krishna Reddy"

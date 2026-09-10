@@ -2,12 +2,13 @@
  "advisers": [],
  "amountCr": 3520.0,
  "amountRaw": "$400M stock deal = ~$400M × 88 INR/USD = ~35,200 million = ~3,520 crore INR",
- "buyer": null,
+ "buyer": "Circle Internet Group",
  "company": "Tazapay",
  "confidence": "medium",
  "confirmed": false,
  "createdAt": "2026-09-09T01:32:25.199190+00:00",
  "dealType": "strategic buyout",
+ "enrichmentState": null,
  "id": 775,
  "individuals": [],
  "listed": false,
@@ -33,5 +34,5 @@
   }
  ],
  "ticker": null,
- "updatedAt": "2026-09-09T01:32:25.205159+00:00"
+ "updatedAt": "2026-09-10T19:05:12.593426+00:00"
 }

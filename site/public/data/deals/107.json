@@ -8,6 +8,7 @@
  "confirmed": false,
  "createdAt": "2026-08-07T01:47:18.282868+00:00",
  "dealType": "open offer",
+ "enrichmentState": null,
  "id": 107,
  "individuals": [],
  "listed": true,

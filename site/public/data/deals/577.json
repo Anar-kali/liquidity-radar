@@ -8,6 +8,7 @@
  "confirmed": false,
  "createdAt": "2026-08-25T12:31:29.877160+00:00",
  "dealType": "promoter sale",
+ "enrichmentState": null,
  "id": 577,
  "individuals": [
   "Shri Madhav Jayesh Valia"

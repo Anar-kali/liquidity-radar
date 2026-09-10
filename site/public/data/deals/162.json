@@ -8,6 +8,7 @@
  "confirmed": false,
  "createdAt": "2026-08-10T09:01:30.979638+00:00",
  "dealType": "PE secondary",
+ "enrichmentState": null,
  "id": 162,
  "individuals": [],
  "listed": true,

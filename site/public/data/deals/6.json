@@ -8,6 +8,7 @@
  "confirmed": false,
  "createdAt": "2026-08-05T13:21:00.636061+00:00",
  "dealType": "promoter sale",
+ "enrichmentState": null,
  "id": 6,
  "individuals": [
   "Early backers/founders (unnamed)"

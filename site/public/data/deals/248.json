@@ -8,6 +8,7 @@
  "confirmed": true,
  "createdAt": "2026-08-16T07:46:32.408490+00:00",
  "dealType": "block deal",
+ "enrichmentState": null,
  "id": 248,
  "individuals": [
   "APAC COMPANY XXIII LIMITED"

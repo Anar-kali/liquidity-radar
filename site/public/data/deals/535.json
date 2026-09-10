@@ -8,6 +8,7 @@
  "confirmed": false,
  "createdAt": "2026-08-24T01:33:24.628578+00:00",
  "dealType": "strategic buyout",
+ "enrichmentState": null,
  "id": 535,
  "individuals": [
   "Vipul Mathur"

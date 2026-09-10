@@ -8,6 +8,7 @@
  "confirmed": false,
  "createdAt": "2026-09-01T08:31:13.760463+00:00",
  "dealType": "strategic buyout",
+ "enrichmentState": null,
  "id": 679,
  "individuals": [
   "Gaurav Munjal"

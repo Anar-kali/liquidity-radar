@@ -8,6 +8,7 @@
  "confirmed": true,
  "createdAt": "2026-08-10T04:34:39.103285+00:00",
  "dealType": "bulk deal",
+ "enrichmentState": null,
  "id": 153,
  "individuals": [
   "MADHURAJ  FOUNDATION"

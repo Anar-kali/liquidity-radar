@@ -8,6 +8,7 @@
  "confirmed": false,
  "createdAt": "2026-08-16T08:31:00.398481+00:00",
  "dealType": "PE primary",
+ "enrichmentState": null,
  "id": 251,
  "individuals": [
   "Rakesh Biyani",

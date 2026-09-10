@@ -1,21 +1,22 @@
 {
  "advisers": [],
- "amountCr": null,
- "amountRaw": null,
+ "amountCr": 428.0,
+ "amountRaw": "₹428 crore (from article)",
  "buyer": null,
  "company": "Glass Wall Systems",
  "confidence": "medium",
  "confirmed": false,
  "createdAt": "2026-09-09T09:31:35.807692+00:00",
  "dealType": "IPO-OFS",
+ "enrichmentState": null,
  "id": 782,
  "individuals": [],
  "listed": false,
  "oneLine": "Glass Wall Systems plans IPO; management discusses growth and expansion.",
  "primaryUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPeVNiOEoyRzhuN1ctc1FNN2ZOYjN3b09qdUJvd2NzaXUwNF9jeTBxS2x4VjJnUVRRRGJYVHpLZTZzRkVMeU04bF9oTUJycXpMeDlFQ25wblI4d1psd2k3cVMzM1RFV1VGUklNY3Zzbloyc0FjU2ZaX2JaYU54RXphc3AydjRmYVNhekRLOFVtc204aEVSRzRwQkQ3WG1PTVdfemZmenVFaHFiYjd2b0g1aTlCT2hRRTNzemNBbWVWWEdkQ25vLTV5N05FY2Y2RHR1dWxwcURaTUNhdlh4d1Z5SGVERU3SAeoBQVVfeXFMTkZFclR3Yy02UG13NjIyU19OYUN3R2NrLXQ2TGlVdms0UVczWDlUMTFfQi14eFlIM0VfQzVmd3VHSGF6eVVxU1c4Nkk3aDRoRWN2VGJRYUxWQWlmVTJpMGQ3VmJOVDBkbHNuelBIeVJ2VWt3bklKQUU2RG1obnUzbWlSbkc1d1IxbkJsblhQc0gzd0c3dVZELTVhWFhvTXRQS0pSb3EwOUJMejdXamI3ZjQ0a0VjX2IzQU1BZ2pIYVJTUXRmQ0p0Z0JYdUc2VHBDNkZzcTNoaGdudE1RajVUTDBib0Q0cUllNnpB?oc=5",
- "seller": null,
+ "seller": "Glass Wall Systems (India)",
  "sizeBand": null,
- "sizeSource": "unknown",
+ "sizeSource": "stated",
  "sources": [
   {
    "attachedAt": "2026-09-09T09:31:35.808637+00:00",
@@ -26,5 +27,5 @@
   }
  ],
  "ticker": null,
- "updatedAt": "2026-09-09T09:31:35.807692+00:00"
+ "updatedAt": "2026-09-10T19:05:30.107501+00:00"
 }

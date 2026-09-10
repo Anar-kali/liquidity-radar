@@ -8,8 +8,11 @@
  "confirmed": false,
  "createdAt": "2026-09-10T07:31:20.901972+00:00",
  "dealType": "strategic buyout",
+ "enrichmentState": null,
  "id": 798,
- "individuals": [],
+ "individuals": [
+  "Romesh Pandita"
+ ],
  "listed": false,
  "oneLine": "Kiva Spirits in advanced talks to acquire spirits maker Alcobrew for ₹2,000–2,500 crore.",
  "primaryUrl": "https://www.livemint.com/companies/news/varun-beverages-kiva-spirits-alcobrew-acquisition-11788974351052.html",
@@ -26,5 +29,5 @@
   }
  ],
  "ticker": null,
- "updatedAt": "2026-09-10T07:31:20.901972+00:00"
+ "updatedAt": "2026-09-10T19:04:50.771306+00:00"
 }

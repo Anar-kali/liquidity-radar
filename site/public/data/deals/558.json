@@ -8,6 +8,7 @@
  "confirmed": false,
  "createdAt": "2026-08-24T11:31:21.948259+00:00",
  "dealType": "block deal",
+ "enrichmentState": null,
  "id": 558,
  "individuals": [
   "Rajasvee Sagar Shah"

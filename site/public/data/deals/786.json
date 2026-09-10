@@ -8,12 +8,13 @@
  "confirmed": false,
  "createdAt": "2026-09-09T10:31:47.255117+00:00",
  "dealType": "DRHP filing",
+ "enrichmentState": null,
  "id": 786,
  "individuals": [],
  "listed": false,
  "oneLine": "M K Sons Fine Jewels receives SEBI approval for upcoming IPO",
  "primaryUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUWVIamh6VTNpWXZwcVFmSTVyc2MwM1U4WllsbDZicVNRelIyaXlCOG9Na21oRnBDd3ltaUhINGNxT2ZZVGxmMjhtcFEwWDhZOFVIblN6WlBqQkY5VExGU2Fwcm5ocGc3Yl91bGpwb0M1a0g2T0U3SU9rOVdHNkU0c21UR0wyT1dzeXhSclhCWGhSLVlJSzJOSUlyQ0h6TDJ4LWVMZ0FTWndFUGhIS3JGRURiSjJFdWp1UndHVQ?oc=5",
- "seller": null,
+ "seller": "M K Sons Fine Jewels Ltd",
  "sizeBand": null,
  "sizeSource": "unknown",
  "sources": [
@@ -26,5 +27,5 @@
   }
  ],
  "ticker": null,
- "updatedAt": "2026-09-09T10:31:47.255117+00:00"
+ "updatedAt": "2026-09-10T19:06:09.936776+00:00"
 }

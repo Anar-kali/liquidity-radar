@@ -2,12 +2,13 @@
  "advisers": [],
  "amountCr": 1650.0,
  "amountRaw": "₹1,650 crore",
- "buyer": null,
+ "buyer": "Cube Highways and Infrastructure V Pte. Ltd",
  "company": "HKR Roadways",
  "confidence": "high",
  "confirmed": false,
  "createdAt": "2026-09-09T07:31:37.250358+00:00",
  "dealType": "PE secondary",
+ "enrichmentState": null,
  "id": 780,
  "individuals": [],
  "listed": false,
@@ -26,5 +27,5 @@
   }
  ],
  "ticker": null,
- "updatedAt": "2026-09-09T07:31:37.250358+00:00"
+ "updatedAt": "2026-09-10T19:04:36.607678+00:00"
 }

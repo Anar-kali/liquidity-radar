@@ -8,6 +8,7 @@
  "confirmed": false,
  "createdAt": "2026-08-21T05:32:32.754995+00:00",
  "dealType": "block deal",
+ "enrichmentState": null,
  "id": 510,
  "individuals": [
   "Krishna Awtar Kabra"

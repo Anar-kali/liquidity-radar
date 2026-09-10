@@ -8,6 +8,7 @@
  "confirmed": false,
  "createdAt": "2026-08-17T11:47:02.481461+00:00",
  "dealType": "unknown",
+ "enrichmentState": null,
  "id": 328,
  "individuals": [
   "Aditya Kumar Halwasiya"

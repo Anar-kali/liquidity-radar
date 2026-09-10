@@ -8,6 +8,7 @@
  "confirmed": false,
  "createdAt": "2026-08-18T12:31:11.308173+00:00",
  "dealType": "block deal",
+ "enrichmentState": null,
  "id": 365,
  "individuals": [],
  "listed": true,

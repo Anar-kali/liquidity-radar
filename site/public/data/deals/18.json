@@ -8,6 +8,7 @@
  "confirmed": false,
  "createdAt": "2026-08-05T13:21:00.709324+00:00",
  "dealType": "IPO-OFS",
+ "enrichmentState": null,
  "id": 18,
  "individuals": [
   "Saahil Goel"

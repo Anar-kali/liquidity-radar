@@ -8,6 +8,7 @@
  "confirmed": false,
  "createdAt": "2026-08-14T01:46:02.607438+00:00",
  "dealType": "DRHP filing",
+ "enrichmentState": null,
  "id": 228,
  "individuals": [
   "Ananya Birla"

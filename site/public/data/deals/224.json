@@ -8,6 +8,7 @@
  "confirmed": false,
  "createdAt": "2026-08-13T09:01:29.013496+00:00",
  "dealType": "IPO-OFS",
+ "enrichmentState": null,
  "id": 224,
  "individuals": [
   "Sachin Bansal"

@@ -1,21 +1,22 @@
 {
  "advisers": [],
- "amountCr": null,
- "amountRaw": null,
+ "amountCr": 875.0,
+ "amountRaw": "₹875 crore (from article)",
  "buyer": null,
  "company": "Karamtara Engineering",
  "confidence": "medium",
  "confirmed": false,
  "createdAt": "2026-09-10T01:32:19.896664+00:00",
  "dealType": "DRHP filing",
+ "enrichmentState": null,
  "id": 790,
  "individuals": [],
  "listed": false,
  "oneLine": "Karamtara Engineering planning IPO; promoters likely to cash out.",
  "primaryUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQU1I3cVFtUldRdmFrUzVqZVlzUFRzbHBxUmxGcWRZOWU5VTUzQUgyMC1hNHNUWGsxb1J5N2VubmJCSHdxekNhLXZJeUtieGljazFiWENLeWVidV9WZHlIaGRPdExQVmtjWVF1SGJiM0lBclJrTGkxQ3ItRGVVMW5uZV9VQkpaTVAzc1d5aEpCLTNwRC1PTm44TV9yRVlrSEQ2blpJR3o3QVJGNXl5QUhTSnRkRGtLandSYzdsXzE1ZE4xRlRzc0FjNE03YVotMkNBLXFGUjh0em4xV2ZCT2xFVlBkM1FVRTJxelHSAeoBQVVfeXFMUFNSN3FRbVJXUXZha1M1amVZc1BUc2xwcVJsRnFkWTllOVU1M0FIMjAtYTRzVFhrMW9SeTdlbm5iQkh3cXpDYS12SXlLYnhpY2sxYlhDS3llYnVfVmR5SGhkT3RMUFZrY1lRdUhiYjNJQXJSa0xpMUNyLURlVTFubmVfVUJKWk1QM3NXeWhKQi0zcEQtT05uOE1fckVZa0hENm5aSUd6N0FSRjV5eUFIU0p0ZERrS2p3UmM3bF8xNWROMUZUc3NBYzRNN2FaLTJDQS1xRlI4dHpuMVdmQk9sRVZQZDNRVUUycXpR?oc=5",
- "seller": null,
+ "seller": "Karamtara Engineering promoters",
  "sizeBand": null,
- "sizeSource": "unknown",
+ "sizeSource": "stated",
  "sources": [
   {
    "attachedAt": "2026-09-10T01:32:19.899041+00:00",
@@ -26,5 +27,5 @@
   }
  ],
  "ticker": null,
- "updatedAt": "2026-09-10T01:32:19.896664+00:00"
+ "updatedAt": "2026-09-10T19:06:01.911460+00:00"
 }

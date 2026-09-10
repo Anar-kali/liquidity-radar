@@ -8,6 +8,7 @@
  "confirmed": false,
  "createdAt": "2026-08-10T10:16:18.820587+00:00",
  "dealType": "DRHP filing",
+ "enrichmentState": null,
  "id": 164,
  "individuals": [
   "Sathish Kumar"

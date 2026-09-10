@@ -8,6 +8,7 @@
  "confirmed": false,
  "createdAt": "2026-08-31T08:31:32.932813+00:00",
  "dealType": "IPO-OFS",
+ "enrichmentState": null,
  "id": 652,
  "individuals": [
   "Ashish Kacholia",

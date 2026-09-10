@@ -8,6 +8,7 @@
  "confirmed": false,
  "createdAt": "2026-08-13T16:31:24.511181+00:00",
  "dealType": "promoter sale",
+ "enrichmentState": null,
  "id": 227,
  "individuals": [
   "Vaishali Mehta"

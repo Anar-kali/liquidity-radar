@@ -8,6 +8,7 @@
  "confirmed": false,
  "createdAt": "2026-08-20T06:00:50.809615+00:00",
  "dealType": "promoter sale",
+ "enrichmentState": null,
  "id": 396,
  "individuals": [
   "Virendrabhai Gandhi"

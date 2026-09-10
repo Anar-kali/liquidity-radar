@@ -8,6 +8,7 @@
  "confirmed": false,
  "createdAt": "2026-08-07T01:47:18.299953+00:00",
  "dealType": "PE secondary",
+ "enrichmentState": null,
  "id": 110,
  "individuals": [
   "Subramanya S.V.",

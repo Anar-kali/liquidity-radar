@@ -8,6 +8,7 @@
  "confirmed": false,
  "createdAt": "2026-08-14T14:01:09.538438+00:00",
  "dealType": "DRHP filing",
+ "enrichmentState": null,
  "id": 238,
  "individuals": [
   "Shah Rukh Khan",

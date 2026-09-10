@@ -8,6 +8,7 @@
  "confirmed": false,
  "createdAt": "2026-08-20T08:31:06.541491+00:00",
  "dealType": "promoter sale",
+ "enrichmentState": null,
  "id": 399,
  "individuals": [
   "Ankur Patodia"

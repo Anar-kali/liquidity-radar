@@ -8,6 +8,7 @@
  "confirmed": false,
  "createdAt": "2026-08-07T07:01:03.266529+00:00",
  "dealType": "strategic buyout",
+ "enrichmentState": null,
  "id": 118,
  "individuals": [],
  "listed": false,

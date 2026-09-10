@@ -8,6 +8,7 @@
  "confirmed": false,
  "createdAt": "2026-08-28T11:31:20.168702+00:00",
  "dealType": "block deal",
+ "enrichmentState": null,
  "id": 626,
  "individuals": [
   "Anurag Choudhary"

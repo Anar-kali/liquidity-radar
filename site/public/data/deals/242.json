@@ -8,6 +8,7 @@
  "confirmed": false,
  "createdAt": "2026-08-15T01:31:28.942727+00:00",
  "dealType": "promoter sale",
+ "enrichmentState": null,
  "id": 242,
  "individuals": [
   "Docon (promoter)"

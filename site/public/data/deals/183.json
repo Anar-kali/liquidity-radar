@@ -8,6 +8,7 @@
  "confirmed": true,
  "createdAt": "2026-08-12T01:31:25.433316+00:00",
  "dealType": "block deal",
+ "enrichmentState": null,
  "id": 183,
  "individuals": [
   "Docon Technologies (promoter entity)",

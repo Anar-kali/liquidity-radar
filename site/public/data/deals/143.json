@@ -8,6 +8,7 @@
  "confirmed": false,
  "createdAt": "2026-08-08T16:31:07.140202+00:00",
  "dealType": "DRHP filing",
+ "enrichmentState": null,
  "id": 143,
  "individuals": [
   "Rishabh Telang",

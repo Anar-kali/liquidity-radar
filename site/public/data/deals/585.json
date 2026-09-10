@@ -8,6 +8,7 @@
  "confirmed": false,
  "createdAt": "2026-08-26T09:31:27.000308+00:00",
  "dealType": "strategic buyout",
+ "enrichmentState": null,
  "id": 585,
  "individuals": [
   "Thayekunni Khaleel"
