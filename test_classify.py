@@ -202,9 +202,14 @@ def _shadow_run(shadow_text, record=None):
 
     original_complete, original_add = llm.complete, db.add_classifier_shadow
     original_shadow = config.CLASSIFIER_SHADOW
+    original_primary = config.CLASSIFIER_PROVIDER
     llm.complete = fake_complete
     db.add_classifier_shadow = (lambda **kw: record.append(kw)) if record is not None \
         else (lambda **kw: None)
+    # Pin BOTH: _shadow refuses to shadow the primary with itself, so a test
+    # that only set the shadow name silently stopped exercising anything the
+    # day the default primary changed to that same provider.
+    config.CLASSIFIER_PROVIDER = "anthropic"
     config.CLASSIFIER_SHADOW = "gemini"
     try:
         batch = [{"title": "a", "description": "", "url": "u1"},
@@ -213,6 +218,7 @@ def _shadow_run(shadow_text, record=None):
     finally:
         llm.complete, db.add_classifier_shadow = original_complete, original_add
         config.CLASSIFIER_SHADOW = original_shadow
+        config.CLASSIFIER_PROVIDER = original_primary
 
 
 def test_shadow_exception_does_not_break_the_primary():
@@ -239,6 +245,27 @@ def test_shadow_records_both_verdicts_and_agreement():
     assert rows[0]["primary_reject"] is False and rows[0]["shadow_reject"] is True, rows[0]
     assert rows[1]["primary_reject"] == rows[1]["shadow_reject"] is False, rows[1]
     assert rows[0]["shadow_detail"] == 9, rows[0]
+
+
+def test_shadow_refuses_to_shadow_itself():
+    """CLASSIFIER_SHADOW == CLASSIFIER_PROVIDER must make no extra call — it
+    would compare a provider with itself and log meaningless agreement."""
+    import config, llm
+    op, os_ = config.CLASSIFIER_PROVIDER, config.CLASSIFIER_SHADOW
+    original = llm.complete
+    calls = {"n": 0}
+
+    def fake(**kw):
+        calls["n"] += 1
+        return '[{"n":1,"neg":false,"r":null}]'
+    llm.complete = fake
+    config.CLASSIFIER_PROVIDER = config.CLASSIFIER_SHADOW = "gemini"
+    try:
+        classify.classify_batch([{"title": "a", "description": "", "url": "u"}])
+    finally:
+        llm.complete = original
+        config.CLASSIFIER_PROVIDER, config.CLASSIFIER_SHADOW = op, os_
+    assert calls["n"] == 1, f"shadowed itself ({calls['n']} calls)"
 
 
 def test_shadow_is_off_by_default():
