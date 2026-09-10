@@ -370,9 +370,22 @@ def _build_user_message(batch):
 # holds the contract there. Both are kept in step with config's two prompts:
 # if you change a prompt's declared keys, change these.
 #
-# minItems == maxItems == len(batch) is the point of the exercise. Results are
-# aligned to the batch BY POSITION, so an array of the wrong length silently
-# misassigns every verdict after the gap.
+# Array length: pinned with minItems/maxItems WHERE GEMINI ACCEPTS IT, which
+# is not everywhere. Measured 2026-09-10 against gemini-3.5-flash-lite and
+# gemini-3.5-flash:
+#
+#   stage 1 / seller (3-field objects)   minItems=25 accepted
+#   stage 2          (14-field objects)  400 INVALID_ARGUMENT at ANY value,
+#                                        including minItems=1
+#
+# So it is a schema-complexity budget, not a rule about the constraint itself,
+# and it fails as an opaque "Request contains an invalid argument" with nothing
+# naming the offending field. Stage 2 therefore ships WITHOUT the length pin.
+#
+# This is precisely why _parse_array checks the length itself. That check is
+# the guarantee on every provider and every stage; the schema pin is an extra
+# layer where the API happens to allow it. Do not weaken the check on the
+# grounds that "the schema handles it" — for stage 2 it demonstrably does not.
 # --------------------------------------------------------------------------
 _DEAL_TYPES = ["IPO-OFS", "block deal", "strategic buyout", "PE secondary",
                "PE primary", "open offer", "promoter sale", "DRHP filing",
@@ -396,8 +409,11 @@ def _stage1_schema(n):
 
 
 def _stage2_schema(n):
+    # No minItems/maxItems — Gemini 400s on this object shape (see above).
+    # `n` is still taken so the signature matches the other two builders and
+    # the call sites do not have to special-case stage 2.
     return {
-        "type": "ARRAY", "minItems": n, "maxItems": n,
+        "type": "ARRAY",
         "items": {
             "type": "OBJECT",
             "properties": {

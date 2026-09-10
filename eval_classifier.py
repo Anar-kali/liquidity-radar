@@ -22,14 +22,24 @@ the floor on how precise any of this can be.
 
 ## The number that decides the migration
 
-FALSE NEGATIVES, on stage 1 especially. A stage-1 false negative is an item the
-incumbent passed and the candidate kills: it never reaches stage 2, never
-becomes a deal, never alerts, and nothing downstream will ever notice. Silent
-and unrecoverable. False positives cost a stage-2 call — about a thousandth of
-a cent.
+A stage-1 rejection the incumbent did not make is only dangerous if the item
+was going somewhere. The corpus records what happened next, and the three
+outcomes mean opposite things:
 
-So the two rates are NOT symmetric and must never be summarised into a single
-"accuracy" figure.
+  deal             it became a deal. Rejecting it at stage 1 LOSES A LEAD,
+                   silently and unrecoverably. THIS is the migration number.
+  post_gate        stage 2 approved it; a size gate then dropped it. Rejecting
+                   early is harmless.
+  stage2_rejected  stage 2 said no. Rejecting early SAVES a wasted call.
+
+Averaging them is meaningless, and worse than meaningless: 86% of what stage 1
+passes is killed by stage 2, so a candidate with better stage-1 judgment scores
+as massively "wrong". The first run of this tool did exactly that and reported
+a 50% false-negative rate whose contents were HINDALCO analyst-meet notices and
+"Outcome of Board Meeting" — Gemini filtering junk Haiku had waved through.
+
+False positives cost one downstream call, about a thousandth of a cent. None of
+these rates may be summarised into a single "accuracy" figure.
 
 ## Agreement is not accuracy
 
@@ -42,7 +52,7 @@ import argparse
 import json
 import sys
 import time
-from collections import defaultdict
+from collections import Counter, defaultdict
 
 import classify
 import config
@@ -106,18 +116,23 @@ def score(stage, scored, failed, elapsed):
 
     agree = fn = fp = 0
     fn_rows, fp_rows = [], []
+    fn_by_outcome, pos_by_outcome = Counter(), Counter()
     rule_hits = defaultdict(lambda: [0, 0])   # rule -> [agreed, total]
     for row, predicted_negative, detail in scored:
         incumbent_negative = row["label"] == "negative"
         if predicted_negative == incumbent_negative:
             agree += 1
         elif predicted_negative:
-            # incumbent passed it, candidate kills it — the dangerous direction
+            # incumbent passed it, candidate kills it. Whether that matters
+            # depends entirely on where the item was headed.
             fn += 1
+            fn_by_outcome[row.get("outcome") or "unknown"] += 1
             fn_rows.append({**row, "candidate_rule": detail})
         else:
             fp += 1
             fp_rows.append({**row, "incumbent_rule": row["rule"]})
+        if not incumbent_negative:
+            pos_by_outcome[row.get("outcome") or "unknown"] += 1
         if incumbent_negative and row["rule"]:
             rule_hits[row["rule"]][1] += 1
             if predicted_negative:
@@ -126,11 +141,24 @@ def score(stage, scored, failed, elapsed):
     positives = sum(1 for r, _, _ in scored if r["label"] == "positive")
     negatives = n - positives
     print(f"  agreement with incumbent      {agree}/{n}  ({100*agree/n:.1f}%)")
-    print(f"\n  FALSE NEGATIVES               {fn}/{positives}  "
-          f"({100*fn/positives if positives else 0:.2f}% of what the incumbent passed)")
-    print(f"    ^ items the candidate kills that Haiku let through — silent, "
-          f"unrecoverable")
-    print(f"  false positives               {fp}/{negatives}  "
+    print(f"  (agreement is not accuracy — the incumbent is not ground truth)")
+
+    lost = fn_by_outcome.get("deal", 0)
+    deals = pos_by_outcome.get("deal", 0)
+    if stage == 1 and deals:
+        print(f"\n  *** LEADS LOST                {lost}/{deals}  "
+              f"({100*lost/deals:.2f}% of items that became deals) ***")
+        print(f"      the migration number: deals the candidate kills at stage 1")
+        for bucket, label in (("stage2_rejected", "calls SAVED (stage 2 would have said no)"),
+                              ("post_gate", "harmless (a size gate killed it anyway)")):
+            got, tot = fn_by_outcome.get(bucket, 0), pos_by_outcome.get(bucket, 0)
+            if tot:
+                print(f"  {label:52} {got}/{tot} ({100*got/tot:.1f}%)")
+    else:
+        print(f"\n  FALSE NEGATIVES               {fn}/{positives}  "
+              f"({100*fn/positives if positives else 0:.2f}%)")
+        print(f"    ^ items the candidate rejects that the incumbent approved")
+    print(f"\n  false positives               {fp}/{negatives}  "
           f"({100*fp/negatives if negatives else 0:.2f}% of what the incumbent rejected)")
     print(f"    ^ costs one extra downstream call each; not a correctness problem")
 
@@ -140,9 +168,15 @@ def score(stage, scored, failed, elapsed):
             if total >= 3:
                 print(f"    {rule:9} {hit:5d}/{total:<5d} {100*hit/total:5.1f}%")
 
+    deals = pos_by_outcome.get("deal", 0)
+    lost = fn_by_outcome.get("deal", 0)
     return {"stage": stage, "scored": n, "failed_batches": failed,
             "agreement": round(100*agree/n, 2),
-            "false_negatives": fn, "false_negative_pct": round(100*fn/positives, 3) if positives else None,
+            "false_negatives": fn,
+            "false_negative_pct": round(100*fn/positives, 3) if positives else None,
+            # The gate is on leads lost, not on raw disagreement.
+            "leads_lost": lost, "deals_in_sample": deals,
+            "leads_lost_pct": round(100*lost/deals, 3) if deals else None,
             "false_positives": fp,
             "_fn_rows": fn_rows, "_fp_rows": fp_rows}
 
@@ -195,14 +229,16 @@ def main():
     print(f"\n{'='*70}")
     print(f"wrote {args.dump} — READ THE FALSE NEGATIVES. The percentage says")
     print("how often the candidate agreed; only the rows say who was right.")
-    worst = max((r["false_negative_pct"] or 0) for r in results) if results else 0
+    worst = max((r["leads_lost_pct"] or 0) for r in results) if results else 0
     if args.provider == "anthropic":
         low = min(r["agreement"] for r in results)
         print(f"\nharness check: incumbent agreed with itself {low:.1f}% "
               f"({'OK' if low >= 95 else 'TOO LOW — fix the harness before trusting any candidate'})")
     elif worst > 1.0:
-        print(f"\nGATE: stage false-negative rate {worst:.2f}% exceeds the 1% "
-              f"ceiling set in the plan. Read the dump before going further.")
+        print(f"\nGATE: {worst:.2f}% of deals would have been lost at stage 1, "
+              f"over the 1% ceiling. Read the dump before going further.")
+    elif results:
+        print(f"\nGATE: {worst:.2f}% of deals lost — inside the 1% ceiling.")
 
 
 if __name__ == "__main__":
