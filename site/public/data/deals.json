@@ -1,6 +1,90 @@
 {
- "dealCount": 619,
+ "dealCount": 623,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Mann Fleet Partners",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-10T01:32:19.943567+00:00",
+   "dealType": "DRHP filing",
+   "id": 793,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Mann Fleet Partners receives SEBI nod for IPO.",
+   "primaryOutlet": "Moneycontrol.com",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-10T01:32:19.943567+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Linux Labs",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-10T01:32:19.928972+00:00",
+   "dealType": "PE secondary",
+   "id": 792,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "ChrysCap to buy into Chennai's Linux Labs.",
+   "primaryOutlet": "pharma.economictimes.indiatimes.com",
+   "seller": "Linux Labs shareholders",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-10T01:32:19.928972+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 500.0,
+   "amountRaw": "₹500 crore",
+   "company": "Prasol Chemicals",
+   "confidence": "high",
+   "confirmed": false,
+   "createdAt": "2026-09-10T01:32:19.925013+00:00",
+   "dealType": "DRHP filing",
+   "id": 791,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Prasol Chemicals IPO September 2026; ₹500 crore issue.",
+   "primaryOutlet": "newsd.in",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-10T01:32:19.925013+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Karamtara Engineering",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-10T01:32:19.896664+00:00",
+   "dealType": "DRHP filing",
+   "id": 790,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Karamtara Engineering planning IPO; promoters likely to cash out.",
+   "primaryOutlet": "The Economic Times",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-10T01:32:19.896664+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -728,9 +812,9 @@
    "seller": "TBZ shareholders/promoters",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": null,
-   "updatedAt": "2026-09-08T09:31:22.541248+00:00",
+   "updatedAt": "2026-09-10T01:32:19.909537+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-08T09:31:22.540354+00:00",
@@ -739,6 +823,10 @@
     {
      "attachedAt": "2026-09-08T09:31:22.544398+00:00",
      "title": "Will GRT Change The 162-Year-Old TBZ Name? Here’s What We Know After The ₹1,033.71-Crore Deal"
+    },
+    {
+     "attachedAt": "2026-09-10T01:32:19.907259+00:00",
+     "title": "Trilegal, AZB act on GRT Jewellers’ proposed 74.12% stake acquisition in TBZ"
     }
    ]
   },
@@ -923,13 +1011,17 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-09-07T10:31:18.527854+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-07T10:31:18.532944+00:00",
      "title": "Manika Plastech Limited"
+    },
+    {
+     "attachedAt": "2026-09-10T01:32:19.936375+00:00",
+     "title": "Manika Plastech IPO 2026: Price and Full Review"
     }
    ]
   },
@@ -1176,7 +1268,7 @@
    "seller": "NSE promoters / shareholders (implied)",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 8,
+   "sourceCount": 10,
    "ticker": null,
    "updatedAt": "2026-09-07T05:34:54.106788+00:00",
    "updates": [
@@ -1207,6 +1299,14 @@
     {
      "attachedAt": "2026-09-08T09:31:22.538090+00:00",
      "title": "Winner Takes It All: Who Gets The Biggest Slice of the Rs 30,000-Crore Plus NSE IPO Pie?"
+    },
+    {
+     "attachedAt": "2026-09-10T01:32:19.918699+00:00",
+     "title": "NSE IPO 2026: Price Band and Full Review"
+    },
+    {
+     "attachedAt": "2026-09-10T01:32:19.921742+00:00",
+     "title": "NSE IPO - What is NSE IPO and Why NSE is Listing?"
     }
    ]
   },
@@ -17378,6 +17478,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-09T13:31:33.667038+00:00",
- "totalDeals": 619
+ "generatedAt": "2026-09-10T01:32:19.943567+00:00",
+ "totalDeals": 623
 }
