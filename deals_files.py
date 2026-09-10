@@ -20,6 +20,7 @@ confirmed working. Per the spec's own fallback: ship NSE only.
 import requests
 
 import classify
+import llm
 import cluster
 import config
 import db
@@ -121,22 +122,21 @@ def resolve_ambiguous_sellers(names):
     if not names:
         return {}
     try:
-        client = classify._client()
         listing = "\n".join(f"{i}. {n}" for i, n in enumerate(names, start=1))
-        resp = client.messages.create(
-            model=config.MODEL,
-            max_tokens=2048,
-            temperature=0,  # deterministic — classification, not writing
+        text = llm.complete(
             system=config.SELLER_CLASSIFY_SYSTEM_PROMPT,
-            messages=[{"role": "user", "content": listing}],
+            user=listing,
+            max_tokens=2048,
+            schema=classify._seller_schema(len(names)),
+            stage="seller",
         )
-        text = "".join(b.text for b in resp.content if b.type == "text")
+        # _parse_array now raises on a length mismatch rather than letting the
+        # tail of the list fall through to the positional default below, so a
+        # truncated response lands in the except and every name reads
+        # "unclear" — which passes. Fail open, loudly, as before.
         results = classify._parse_array(text, len(names))
-        out = {}
-        for i, name in enumerate(names):
-            r = results[i] if i < len(results) else {}
-            out[name] = (r.get("verdict") or "unclear").lower()
-        return out
+        return {name: (results[i].get("verdict") or "unclear").lower()
+                for i, name in enumerate(names)}
     except Exception as exc:  # noqa: BLE001
         _log(f"ambiguous-seller Haiku batch failed, treating all as unclear: {exc}")
         return {name: "unclear" for name in names}

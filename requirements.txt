@@ -12,3 +12,9 @@ requests>=2.31,<3
 feedparser>=6.0,<7
 beautifulsoup4>=4.12,<5
 yfinance>=0.2.40,<0.3
+
+# The classifier's second provider (llm.py). Pinned to a major version for the
+# reason above: this file is reinstalled fresh on every run, and google-genai
+# ships breaking changes between majors. 2.22.0 is what the migration was
+# measured against.
+google-genai>=2.22,<3

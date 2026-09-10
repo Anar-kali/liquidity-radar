@@ -17,3 +17,13 @@ docs/radar-sample.db
 prototype_fetch.json
 prototype_fetch.log
 prototype_extract.json
+
+# Classifier eval corpus — derived from radar.db, which is already tracked.
+# Same rule as docs/radar-sample.db above: regenerate with `python evalset.py`
+# rather than committing a second copy of data we already have.
+data/evalset.json
+eval_disagreements.json
+
+# Locally vendored google-genai (54MB). Production installs it from
+# requirements.txt; this exists only so the spike can run without a venv.
+.vendor/
