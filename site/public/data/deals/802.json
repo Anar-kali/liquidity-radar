@@ -1,0 +1,30 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "National Stock Exchange",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-10T13:31:09.230748+00:00",
+ "dealType": "IPO-OFS",
+ "id": 802,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "NSE IPO: government and listed shareholders plan stake monetisation.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPcU5lQUZ1ZzFEOE10STBYMXp5TW1oVF9HNEQ1VF9hNG1ReDlrbGNNaFhKQkNSOFB3cWZqeEtXc3NRdlI2LUV5eVY5OGNnekpSWVFiVmJYMzlLVl9hQll2dlBsaDRpeU1vaWlJTDM2NzFJSDAtZ2NYeE4zUTdPZzFJRUkzNjQ5ME9RZHN4a1VJbVYtOFkwVW5iYTBvME9QdDhlVEZtRW5SeUNVLTNtOWZsNHQwRVRRSWNwbjVGLXFaZjBmaVhrSlR6czg1a3l0djVtYjZydDZWZFpLUQ?oc=5",
+ "seller": "Government of India",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-10T13:31:09.231669+00:00",
+   "outlet": "financialexpress.com",
+   "resolvable": false,
+   "title": "NSE IPO: From SBI to Bank of Baroda, 5 listed stocks positioned for stake monetisation",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPcU5lQUZ1ZzFEOE10STBYMXp5TW1oVF9HNEQ1VF9hNG1ReDlrbGNNaFhKQkNSOFB3cWZqeEtXc3NRdlI2LUV5eVY5OGNnekpSWVFiVmJYMzlLVl9hQll2dlBsaDRpeU1vaWlJTDM2NzFJSDAtZ2NYeE4zUTdPZzFJRUkzNjQ5ME9RZHN4a1VJbVYtOFkwVW5iYTBvME9QdDhlVEZtRW5SeUNVLTNtOWZsNHQwRVRRSWNwbjVGLXFaZjBmaVhrSlR6czg1a3l0djVtYjZydDZWZFpLUQ?oc=5"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-10T13:31:09.230748+00:00"
+}

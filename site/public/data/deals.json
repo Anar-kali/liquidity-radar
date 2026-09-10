@@ -1,6 +1,27 @@
 {
- "dealCount": 631,
+ "dealCount": 632,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "National Stock Exchange",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-10T13:31:09.230748+00:00",
+   "dealType": "IPO-OFS",
+   "id": 802,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "NSE IPO: government and listed shareholders plan stake monetisation.",
+   "primaryOutlet": "financialexpress.com",
+   "seller": "Government of India",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-10T13:31:09.230748+00:00",
+   "updates": []
+  },
   {
    "amountCr": 500.0,
    "amountRaw": "₹500 crore via IPO",
@@ -17697,6 +17718,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-10T12:31:35.939921+00:00",
- "totalDeals": 631
+ "generatedAt": "2026-09-10T13:31:09.230748+00:00",
+ "totalDeals": 632
 }
