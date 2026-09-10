@@ -50,20 +50,38 @@ This is the part that is easy to get wrong, so it is spelled out:
 Stage-1 positives are therefore "everything that reached stage 2" = Rule P plus
 the post-gate rules plus deals.
 
-## The corpus starts at 2026-08-10, and that is not arbitrary
+## Each stage has its OWN start date, set by when ITS prompt last changed
 
-Rows before 2026-08-10T09:45 carry `gate IS NULL` and rule values that the
-current prompt cannot produce — 'Rule 80', 'Rule 44', 'Rule 38', 'Rule 0'.
-Those are the old free-text "Rule 9: ..." schema, from before v4 Change 2
-replaced it with the slim {n, neg, r} pass (see classify._normalise). Verdicts
-from that era were produced by a DIFFERENT PROMPT, so scoring a candidate
-against them would measure prompt drift and call it model disagreement.
+A verdict is only a usable label while the prompt that produced it is the
+prompt under test. Compare a candidate running today's prompt against verdicts
+written by an older one and you measure prompt drift, then report it as model
+disagreement. The two prompts move independently, so they get separate floors:
 
-Git cannot date this — the repo's history is squashed and a single commit
-touches config.py — but the data dates it unambiguously: gate='model' rows and
-well-formed rule numbers both begin at the same timestamp. CORPUS_FROM makes
-the cut explicit rather than leaving it as a side effect of filtering on
-`gate`, so backfilling that column later cannot silently widen the corpus.
+    stage 1   SYSTEM_PROMPT         unchanged since 2026-08-10  -> 10,186 negs
+    stage 2   STAGE2_SYSTEM_PROMPT  changed 08-21, 09-08, 09-09 ->    139 rows
+
+Stage 2's prompt has moved three times in a month (the seller/buyer swap, the
+company-name fix, then re-enabling buyer extraction), which collapses its
+usable corpus from 4,026 rows to 139 — only 17 of them deals. That is too thin
+to measure a false-negative rate and the code says so rather than quietly
+reporting a number with no resolution.
+
+Upstream FILTER changes do not invalidate a label. They change which items get
+judged, not how a given (title, description) is judged. Only prompt changes
+count here.
+
+Re-derive these with `python evalset.py --prompt-history`, which hashes both
+prompt bodies across the repo's commits via the GitHub API and prints when each
+last moved. Do that whenever a prompt is touched — a stale floor here is
+invisible and silently poisons every score.
+
+## The pre-2026-08-10 era is excluded for a second, separate reason
+
+Rows before 2026-08-10T09:45 also carry `gate IS NULL` and rule values the
+current stage-1 prompt cannot produce — 'Rule 80', 'Rule 44', 'Rule 0'. That is
+the old free-text "Rule 9: ..." schema from before v4 Change 2 introduced the
+slim {n, neg, r} pass. So stage 1's floor is where both the schema and the
+prompt settle.
 
 ## Stage-1 positives are not all equal, and the eval must not treat them so
 
@@ -95,15 +113,33 @@ are excluded, and every query is DISTINCT on url.
 import argparse
 import json
 import random
+import re
 import sqlite3
 from collections import Counter
 
 import db
 
 OUT_PATH = "data/evalset.json"
-# First run under the current prompts — see the module docstring. Anything
-# earlier was judged by a different stage-1 schema.
-CORPUS_FROM = "2026-08-10T09:45"
+
+# When each stage's prompt last changed, and therefore the earliest verdict
+# that is still a valid label for it. VERIFY WITH --prompt-history AFTER EVERY
+# PROMPT EDIT; a stale value here poisons every score and shows no symptom.
+#
+#   stage 1  2026-08-10  4495e0e  v4 Part 1, slim {n, neg, r} schema
+#   stage 2  2026-09-09  8e95447  "Re-enable buyer extraction"
+#            (previously 15a68a4 09-08, 5fae7ac 08-21 seller/buyer swap)
+CORPUS_FROM = {
+    1: "2026-08-10T09:45",
+    2: "2026-09-09T09:00",
+}
+
+# Below this many positives a false-negative rate has no resolution worth
+# quoting — one miss in 17 is 5.9%, which says nothing about a 1% gate.
+MIN_POSITIVES_FOR_A_RATE = 40
+
+# config.py paths, for --prompt-history.
+REPO = "Anar-kali/liquidity-radar"
+PROMPT_NAMES = ("SYSTEM_PROMPT", "STAGE2_SYSTEM_PROMPT")
 SEED = 20260910          # fixed so two runs sample the same rows
 DEFAULT_STAGE1 = 1000
 DEFAULT_STAGE2 = 600
@@ -118,24 +154,93 @@ STAGE1_NEGATIVE_RULES = ("Rule 1", "Rule 2", "Rule 3", "Rule 4", "Rule 5",
 POST_STAGE2_RULES = ("Rule 8", "Rule R", "Rule S")
 
 
+def prompt_history(limit=40):
+    """When did each prompt last change? Hashes the prompt bodies across the
+    repo's commits, newest first, and reports the boundary.
+
+    Uses `gh api` rather than git log: the working clone is shallow (18
+    commits, all from one day), so local history cannot answer this. Needs an
+    authenticated gh; it is a maintenance command, not part of building the
+    corpus.
+    """
+    import base64
+    import hashlib
+    import json as _json
+    import subprocess
+
+    def gh(path):
+        out = subprocess.run(["gh", "api", path], capture_output=True, text=True, timeout=60)
+        if out.returncode:
+            raise RuntimeError(out.stderr.strip()[:200])
+        return _json.loads(out.stdout)
+
+    def body(src, name):
+        # The prompts are f-strings: NAME = f"""...
+        m = re.search(rf'^{name}\s*=\s*[a-z]*"""(.*?)"""', src, re.S | re.M)
+        return hashlib.sha1(m.group(1).encode()).hexdigest()[:8] if m else "MISSING"
+
+    print(f"prompt history for {REPO} (newest first)\n")
+    commits = gh(f"repos/{REPO}/commits?path=config.py&per_page={limit}")
+    seen, rows = {}, []
+    for c in commits:
+        sha, date = c["sha"][:7], c["commit"]["committer"]["date"][:10]
+        msg = c["commit"]["message"].split("\n")[0][:52]
+        if msg.startswith(("state: radar run", "state: blockdeals")):
+            continue
+        try:
+            blob = gh(f"repos/{REPO}/contents/config.py?ref={c['sha']}")
+            src_at = base64.b64decode(blob["content"]).decode("utf-8", "replace")
+        except Exception as exc:  # noqa: BLE001
+            print(f"  {sha} {date}  (unreadable: {exc})")
+            continue
+        rows.append((sha, date, msg, {n: body(src_at, n) for n in PROMPT_NAMES}))
+
+    current = open("config.py", encoding="utf-8").read()
+    now = {n: body(current, n) for n in PROMPT_NAMES}
+    print(f"  {'commit':8} {'date':11} {'stage-1':10} {'stage-2':10} message")
+    print(f"  {'WORKING':8} {'(now)':11} {now[PROMPT_NAMES[0]]:10} {now[PROMPT_NAMES[1]]:10}")
+    for sha, date, msg, h in rows:
+        marks = []
+        for i, n in enumerate(PROMPT_NAMES, start=1):
+            if h[n] != now[n] and n not in seen:
+                seen[n] = (date, sha)
+                marks.append(f"stage {i} differs from here back")
+        print(f"  {sha:8} {date:11} {h[PROMPT_NAMES[0]]:10} {h[PROMPT_NAMES[1]]:10} {msg}"
+              + (f"   <- {'; '.join(marks)}" if marks else ""))
+
+    print("\n  CORPUS_FROM should be the first date at which each prompt still")
+    print("  matches the working tree:")
+    for i, n in enumerate(PROMPT_NAMES, start=1):
+        if n in seen:
+            date, sha = seen[n]
+            newer = [r for r in rows if r[1] >= date and r[3][n] == now[n]]
+            first = min((r[1] for r in newer), default="?")
+            print(f"    stage {i}: changed at {sha} ({date}); current body from {first}"
+                  f"   [config says {CORPUS_FROM[i][:10]}]")
+        else:
+            oldest = rows[-1][1] if rows else "?"
+            print(f"    stage {i}: unchanged across all {len(rows)} commits examined "
+                  f"(back to {oldest})   [config says {CORPUS_FROM[i][:10]}]")
+
+
 def _placeholders(values):
     return ",".join("?" * len(values))
 
 
-def _suppressed_urls(conn, rules, gate="model"):
+def _suppressed_urls(conn, rules, gate="model", since=None):
     """Distinct urls suppressed under `rules` at `gate`, with their rule."""
     sql = (f"SELECT url, MIN(rule) AS rule FROM suppressed "
            f"WHERE gate = ? AND created_at >= ? AND rule IN ({_placeholders(rules)}) "
            f"AND url NOT IN ({_placeholders(_BAD_URL)}) "
            f"GROUP BY url")
-    rows = conn.execute(sql, (gate, CORPUS_FROM, *rules, *_BAD_URL))
+    rows = conn.execute(sql, (gate, since, *rules, *_BAD_URL))
     return {r["url"]: r["rule"] for r in rows}
 
 
-def _deal_urls(conn):
+def _deal_urls(conn, since):
     sql = (f"SELECT DISTINCT url FROM deals "
            f"WHERE created_at >= ? AND url NOT IN ({_placeholders(_BAD_URL)})")
-    return {r["url"] for r in conn.execute(sql, (CORPUS_FROM, *_BAD_URL))}
+    return {r["url"] for r in conn.execute(sql, (since, *_BAD_URL))}
 
 
 def _item_text(conn):
@@ -160,10 +265,17 @@ def collect(path=db.DB_PATH):
     conn = db._conn(path)
     conn.row_factory = sqlite3.Row
 
-    s1_neg = _suppressed_urls(conn, STAGE1_NEGATIVE_RULES)
-    s2_neg = _suppressed_urls(conn, ("Rule P",))
-    post = _suppressed_urls(conn, POST_STAGE2_RULES)
-    deals = _deal_urls(conn)
+    # Stage-1 labels only need stage 1's prompt to have been stable. Stage-2
+    # labels need stage 2's, which is much more recent.
+    s1_neg = _suppressed_urls(conn, STAGE1_NEGATIVE_RULES, since=CORPUS_FROM[1])
+    s2_neg = _suppressed_urls(conn, ("Rule P",), since=CORPUS_FROM[2])
+    post = _suppressed_urls(conn, POST_STAGE2_RULES, since=CORPUS_FROM[2])
+    deals = _deal_urls(conn, since=CORPUS_FROM[2])
+    # Stage 1's positives are "it reached stage 2", which is a stage-1 fact and
+    # survives a stage-2 prompt change — so they use stage 1's floor.
+    s1_pos_neg = _suppressed_urls(conn, ("Rule P",), since=CORPUS_FROM[1])
+    s1_pos_post = _suppressed_urls(conn, POST_STAGE2_RULES, since=CORPUS_FROM[1])
+    s1_pos_deals = _deal_urls(conn, since=CORPUS_FROM[1])
     text = _item_text(conn)
     conn.close()
 
@@ -174,11 +286,11 @@ def collect(path=db.DB_PATH):
     # Stage 1 passed everything stage 2 ever saw. What happened next is the
     # difference between "lost a lead" and "saved a call" — see the docstring.
     s1_outcome = {}
-    for url in s2_neg:
+    for url in s1_pos_neg:
         s1_outcome[url] = "stage2_rejected"
-    for url in post:
+    for url in s1_pos_post:
         s1_outcome[url] = "post_gate"
-    for url in deals:
+    for url in s1_pos_deals:
         s1_outcome[url] = "deal"          # last, so a deal always wins
     s1_pos = set(s1_outcome)
 
@@ -267,12 +379,20 @@ def main():
     p.add_argument("--stage1", type=int, default=DEFAULT_STAGE1)
     p.add_argument("--stage2", type=int, default=DEFAULT_STAGE2)
     p.add_argument("--out", default=OUT_PATH)
+    p.add_argument("--prompt-history", action="store_true",
+                   help="report when each prompt last changed, then exit "
+                        "(verifies CORPUS_FROM; needs an authenticated gh)")
     args = p.parse_args()
+
+    if args.prompt_history:
+        prompt_history()
+        return
 
     stage1, stage2, report = collect()
 
-    print(f"FULL CORPUS — verdicts recorded since {CORPUS_FROM} "
-          f"(when the current prompts went live)")
+    print("FULL CORPUS — each stage limited to verdicts written by the prompt "
+          "it still runs")
+    print(f"  stage 1 since {CORPUS_FROM[1]}   stage 2 since {CORPUS_FROM[2]}")
     describe("stage 1", stage1)
     describe("stage 2", stage2)
     skipped = {k: v for k, v in report.items() if v}
@@ -280,6 +400,16 @@ def main():
         print(f"\n  excluded: {dict(skipped)}")
         print("  (conflicting = one url labelled both ways across runs; "
               "no_item_text = suppressed/deal row whose url is not in items)")
+
+    for stage, rows_ in ((1, stage1), (2, stage2)):
+        pos = sum(1 for r in rows_ if r["label"] == "positive")
+        if pos < MIN_POSITIVES_FOR_A_RATE:
+            print(f"\n  !! STAGE {stage}: only {pos} positives survive the "
+                  f"{CORPUS_FROM[stage][:10]} prompt floor.")
+            print(f"     Too few to quote a false-negative rate against a 1% "
+                  f"gate — one miss would read as {100/pos:.1f}%.")
+            print(f"     Measure this stage with CLASSIFIER_SHADOW on live "
+                  f"traffic instead, not from history.")
 
     if args.stats:
         return
