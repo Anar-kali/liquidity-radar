@@ -1,0 +1,37 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Hero Motors Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-10T04:31:22.330812+00:00",
+ "dealType": "DRHP filing",
+ "id": 794,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Hero Motors Limited files RHP with SEBI for IPO.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/hero-motors-limited-rhp_104395.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-10T04:31:22.332641+00:00",
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "HERO MOTORS LIMITED - RHPHERO MOTORS LIMITED",
+   "url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/hero-motors-limited-rhp_104395.html"
+  },
+  {
+   "attachedAt": "2026-09-10T04:31:22.334893+00:00",
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "HERO MOTORS LIMITED",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/sep-2026/HERO%20MOTORS%20LIMITED%20-%20AP_p.pdf"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-10T04:31:22.330812+00:00"
+}

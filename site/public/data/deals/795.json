@@ -1,0 +1,37 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Sonaselection India Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-10T04:31:22.337099+00:00",
+ "dealType": "DRHP filing",
+ "id": 795,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Sonaselection India Limited files RHP with SEBI for IPO.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/sonaselection-india-limited-rhp_104393.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-10T04:31:22.338181+00:00",
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "SONASELECTION INDIA LIMITED - RHPSONASELECTION INDIA LIMITED",
+   "url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/sonaselection-india-limited-rhp_104393.html"
+  },
+  {
+   "attachedAt": "2026-09-10T04:31:22.340057+00:00",
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "SONASELECTION INDIA LIMITED",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/sep-2026/Sonaselection%20India%20Limited%20%20-%20AP_p.pdf"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-10T04:31:22.337099+00:00"
+}

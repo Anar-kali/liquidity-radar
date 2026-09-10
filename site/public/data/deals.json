@@ -1,6 +1,58 @@
 {
- "dealCount": 623,
+ "dealCount": 625,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Sonaselection India Limited",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-10T04:31:22.337099+00:00",
+   "dealType": "DRHP filing",
+   "id": 795,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Sonaselection India Limited files RHP with SEBI for IPO.",
+   "primaryOutlet": "Abridged Prospectus",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 2,
+   "ticker": null,
+   "updatedAt": "2026-09-10T04:31:22.337099+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-09-10T04:31:22.340057+00:00",
+     "title": "SONASELECTION INDIA LIMITED"
+    }
+   ]
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Hero Motors Limited",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-10T04:31:22.330812+00:00",
+   "dealType": "DRHP filing",
+   "id": 794,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Hero Motors Limited files RHP with SEBI for IPO.",
+   "primaryOutlet": "Abridged Prospectus",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 2,
+   "ticker": null,
+   "updatedAt": "2026-09-10T04:31:22.330812+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-09-10T04:31:22.334893+00:00",
+     "title": "HERO MOTORS LIMITED"
+    }
+   ]
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -1272,7 +1324,7 @@
    "seller": "NSE promoters / shareholders (implied)",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 11,
+   "sourceCount": 13,
    "ticker": null,
    "updatedAt": "2026-09-10T03:31:22.698592+00:00",
    "updates": [
@@ -1315,6 +1367,14 @@
     {
      "attachedAt": "2026-09-10T03:31:22.696842+00:00",
      "title": "NSE files UDRHP with Sebi; IPO size likely to be cut to ₹23,000 cr as shareholders trim OFS: Sources"
+    },
+    {
+     "attachedAt": "2026-09-10T04:31:22.341957+00:00",
+     "title": "NSE IPO: UDRHP filed, price band and issue size likely this week"
+    },
+    {
+     "attachedAt": "2026-09-10T04:31:22.512611+00:00",
+     "title": "NSE offer may shrink as shareholders back out of planned IPO offer for sale size"
     }
    ]
   },
@@ -17486,6 +17546,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-10T03:31:22.698592+00:00",
- "totalDeals": 623
+ "generatedAt": "2026-09-10T04:31:22.337099+00:00",
+ "totalDeals": 625
 }
