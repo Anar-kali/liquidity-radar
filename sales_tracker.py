@@ -22,6 +22,7 @@ from datetime import datetime, timedelta, timezone
 import config
 import db
 import notify
+import patterns
 
 _DATE_FORMATS = ("%d-%b-%Y", "%d-%m-%Y", "%Y-%m-%d")
 
@@ -64,15 +65,14 @@ def _chronological(rows):
 def _should_fire(rows, last_alert):
     """Apply the aggregation + re-alert rule. Returns (fire: bool, total: float)."""
     total = round(sum(r["value_cr"] for r in rows), 2)
-    if total < config.AGGREGATION_MIN_CR:
-        return False, total
-    if len(rows) < config.AGGREGATION_MIN_TRANSACTIONS:
-        return False, total
 
-    max_single = max(r["value_cr"] for r in rows)
-    if max_single > config.AGGREGATION_MAX_SINGLE_SHARE * total:
-        return False, total  # one transaction already accounts for this; the
-                              # normal single-transaction pipeline caught it
+    # The "is this a pattern" test lives in patterns.py so the alerting path
+    # and the website apply the identical rule. It covers the size floor, the
+    # minimum number of distinct trades, and the guard against one
+    # transaction dominating — that last one meaning the normal
+    # single-transaction pipeline already caught it.
+    if not patterns.qualifies([r["value_cr"] for r in rows]):
+        return False, total
 
     if last_alert is None:
         return True, total
@@ -100,6 +100,24 @@ def run(dry=False):
                                             config.AGGREGATION_WINDOW_DAYS)
         if not rows:
             continue
+
+        # NSE lists the same transaction in BOTH its bulk-deals and
+        # block-deals files, and deals_files.py stores each as its own row.
+        # Left alone the rolling sum counts one trade twice, which inflates
+        # the total AND defeats the AGGREGATION_MAX_SINGLE_SHARE guard below:
+        # two identical rows are 50% each, so a single sale masquerading as a
+        # pattern passes the 70% test it exists to fail.
+        #
+        # Measured 2026-09-10 over the 15 alerts already fired: 10 inflated,
+        # 6 of them a single trade counted twice — GOVERNMENT OF SINGAPORE /
+        # Ather Energy fired "Rs 3,516cr over 2 sales" for one Rs 1,758cr
+        # trade.
+        rows, duplicates = patterns.dedupe_rows(rows)
+        if duplicates:
+            _log(f"{person_key} / {company_key}: dropped {duplicates} "
+                 f"duplicate row(s) — same trade in more than one file")
+        if not rows:
+            continue
         last_alert = db.last_pattern_alert(person_key, company_key)
         fire, total = _should_fire(rows, last_alert)
         if not fire:
@@ -113,7 +131,7 @@ def run(dry=False):
 
         if dry:
             _log(f"(dry) would fire PATTERN: {person_name} / {company} / "
-                 f"Rs {total:g}cr over {len(rows)} sales")
+                 f"Rs {total:g}cr over {len(rows)} distinct sales")
             fired += 1
             continue
 

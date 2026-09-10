@@ -304,37 +304,8 @@
    "storedTotalCr": 7500.0,
    "totalCr": 4500.0,
    "weeks": 1
-  },
-  {
-   "alertedAt": "2026-08-13T17:36:39.236546+00:00",
-   "company": "Thyrocare Tech Ltd",
-   "firstTrade": "13-Aug-2026",
-   "id": 2,
-   "lastTrade": "13-Aug-2026",
-   "person": "DOCON TECHNOLOGIES PRIVATE LIMITED",
-   "saleCount": 2,
-   "sales": [
-    {
-     "date": "13-Aug-2026",
-     "sources": [
-      "bulk"
-     ],
-     "valueCr": 63.17
-    },
-    {
-     "date": "13-Aug-2026",
-     "sources": [
-      "bulk",
-      "block"
-     ],
-     "valueCr": 821.72
-    }
-   ],
-   "storedTotalCr": 1706.61,
-   "totalCr": 884.89,
-   "weeks": 1
   }
  ],
- "count": 9,
+ "count": 8,
  "generatedAt": "2026-09-10T06:31:20.327950+00:00"
 }

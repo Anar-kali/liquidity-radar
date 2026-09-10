@@ -25,9 +25,15 @@ file reported it, and an alert whose distinct trades fall below
 AGGREGATION_MIN_TRANSACTIONS is dropped: it is not a pattern, it is one sale
 seen twice.
 
-This module corrects the DISPLAY only. The stored rows and the Telegram alerts
-they already produced are untouched — fixing those means changing what fires,
-which is a decision about the alerting system rather than about the website.
+`trade_key` / `dedupe_rows` are the single definition of "same trade", used by
+BOTH this module and sales_tracker's alerting path, so what fires on Telegram
+and what the site shows can never drift apart.
+
+Rows already in the database are left as they are — deals_files.py keeps
+writing one row per file, which is faithful to what the exchange published.
+The deduplication happens when they are read. Alerts that already fired with
+inflated totals stay in `pattern_alerts` as a record of what was sent; the
+site recomputes rather than trusting `total_cr`.
 """
 from datetime import datetime
 
@@ -48,15 +54,65 @@ def parse_trade_date(value):
     return None
 
 
+def trade_key(row):
+    """
+    What makes two rows the same trade: the date and the value. NOT the
+    source — that is precisely the field that differs when NSE lists one
+    transaction in both its bulk and block files.
+    """
+    return (row.get("trade_date"), round(float(row.get("value_cr") or 0), 2))
+
+
+def dedupe_rows(rows):
+    """
+    Database-shaped rows, one per distinct trade, first occurrence kept.
+    Returns (kept, duplicates_removed).
+
+    This is the function the ALERTING path uses (sales_tracker), so the rule
+    that decides what fires and the rule that decides what the site shows are
+    the same rule. dedupe_sales() below is the display projection of it.
+    """
+    seen, kept = set(), []
+    for row in rows:
+        key = trade_key(row)
+        if key in seen:
+            continue
+        seen.add(key)
+        kept.append(row)
+    return kept, len(rows) - len(kept)
+
+
+def qualifies(trades):
+    """
+    Is this actually a pattern? Total over the threshold, enough distinct
+    trades, and no single trade dominating — the last one is what separates a
+    salami-slice from one large sale the normal pipeline already caught.
+
+    Takes deduplicated values, and is the single definition of the test:
+    sales_tracker applies it before alerting, build() applies it before
+    displaying, so the site cannot show a "pattern" the system would no longer
+    fire on.
+    """
+    values = [v for v in trades if v is not None]
+    if not values:
+        return False
+    total = round(sum(values), 2)
+    if total < config.AGGREGATION_MIN_CR:
+        return False
+    if len(values) < config.AGGREGATION_MIN_TRANSACTIONS:
+        return False
+    return max(values) <= config.AGGREGATION_MAX_SINGLE_SHARE * total
+
+
 def dedupe_sales(sales):
     """
-    One entry per distinct trade. Same date and same value = same trade, no
-    matter how many NSE files carried it; the reporting files are kept so the
-    UI can show that a trade appeared in both.
+    One entry per distinct trade, in the shape the site renders. Same identity
+    rule as dedupe_rows, but the reporting files are collected so the UI can
+    show that a trade appeared in both.
     """
     merged = {}
     for s in sales:
-        key = (s.get("trade_date"), round(float(s.get("value_cr") or 0), 2))
+        key = trade_key(s)
         entry = merged.setdefault(
             key,
             {"date": s.get("trade_date"), "valueCr": key[1], "sources": [], "parsed": parse_trade_date(s.get("trade_date"))},
@@ -94,7 +150,7 @@ def build(path=db.DB_PATH):
             continue
 
         trades = dedupe_sales(sales)
-        if len(trades) < config.AGGREGATION_MIN_TRANSACTIONS:
+        if not qualifies([t["valueCr"] for t in trades]):
             dropped += 1
             continue
 
