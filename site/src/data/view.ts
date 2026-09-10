@@ -33,32 +33,63 @@ export function provenanceOf(d: { sizeSource: string | null; amountCr: number | 
   }
 }
 
-/** Underline treatment, verbatim from the design source's `U` map. */
+/**
+ * Underline treatment, verbatim from the v2 design source's `U` map. 2px to
+ * match the system's rule weight. The distinction is carried by underline
+ * STYLE, not colour, so it survives greyscale and colourblind viewing.
+ */
 export const PROV_STYLE: Record<Provenance, React.CSSProperties> = {
   stated: {
     textDecoration: "underline",
-    textDecorationThickness: "1.5px",
+    textDecorationThickness: "2px",
     textUnderlineOffset: "5px",
-    textDecorationColor: "color-mix(in srgb, currentColor 55%, transparent)",
   },
   derived: {
     textDecoration: "underline",
     textDecorationStyle: "dashed",
-    textDecorationThickness: "1.5px",
+    textDecorationThickness: "2px",
     textUnderlineOffset: "5px",
-    textDecorationColor: "color-mix(in srgb, currentColor 45%, transparent)",
   },
   estimate: {
     textDecoration: "underline",
     textDecorationStyle: "dotted",
-    textDecorationThickness: "1.5px",
+    textDecorationThickness: "2px",
     textUnderlineOffset: "5px",
-    textDecorationColor: "color-mix(in srgb, currentColor 42%, transparent)",
+    color: "var(--lr-muted)",
   },
-  none: { color: "var(--lr-faint)", fontStyle: "italic" },
+  none: { fontStyle: "italic", color: "var(--lr-faint)" },
 };
 
-/** Drawer explanation, verbatim from the design source's PROV_SENTENCE. */
+/**
+ * The figure's full style at a given size.
+ *
+ * `none` is deliberately NOT a figure: "Size undisclosed" is a label, and the
+ * handoff records that rendering it at quantum scale wrapped it mid-phrase.
+ * It caps at 15.5px, stays italic and never wraps, however large the caller
+ * asks for.
+ */
+export function amtStyle(prov: Provenance, size: number): React.CSSProperties {
+  if (prov === "none") {
+    return {
+      fontSize: Math.min(size, 15.5),
+      lineHeight: 1.3,
+      whiteSpace: "nowrap",
+      ...PROV_STYLE.none,
+    };
+  }
+  return {
+    fontFamily: "var(--font-heading)",
+    fontWeight: 800,
+    fontSize: size,
+    lineHeight: 1.05,
+    letterSpacing: "-0.025em",
+    fontVariantNumeric: "tabular-nums",
+    color: "var(--lr-text)",
+    ...PROV_STYLE[prov],
+  };
+}
+
+/** Drawer/panel explanation, verbatim from the design's PROV_SENTENCE. */
 export const PROV_SENTENCE: Record<Provenance, string> = {
   stated: "Stated in the source. Quotable as a fact.",
   derived:
@@ -178,6 +209,37 @@ export function sourceLabel(n: number): string {
 
 export function peopleLabel(individuals: string[]): string {
   return individuals.length ? `◆ ${individuals.join(", ")}` : "";
+}
+
+/* ── page furniture ───────────────────────────────────────────────────── */
+
+/** "TUE 9 SEP · 06:40 IST" — the feed's own timestamp, not the wall clock. */
+export function dateLine(generatedAt: string): string {
+  const t = Date.parse(generatedAt);
+  if (Number.isNaN(t)) return "";
+  const d = new Date(t);
+  const fmt = (opts: Intl.DateTimeFormatOptions) =>
+    new Intl.DateTimeFormat("en-IN", { timeZone: "Asia/Kolkata", ...opts }).format(d);
+  const day = fmt({ weekday: "short" });
+  const date = fmt({ day: "numeric", month: "short" });
+  const time = fmt({ hour: "2-digit", minute: "2-digit", hour12: false });
+  return `${day} ${date} · ${time} IST`;
+}
+
+/**
+ * The standfirst counts are computed from the feed, never written — the
+ * handoff is explicit about that. They describe the whole sweep, not the
+ * filtered view, because they are a statement about today's flow.
+ */
+export function standfirst(deals: FeedDeal[], scopeLabel: string): string {
+  const named = deals.filter((d) => d.individuals.length).length;
+  const derived = deals.filter((d) => provenanceOf(d) === "derived").length;
+  const plural = (n: number, one: string, many: string) => (n === 1 ? one : many);
+  return (
+    `${deals.length} ${plural(deals.length, "deal", "deals")} ${scopeLabel}. ` +
+    `${named} ${plural(named, "names", "name")} an individual you can call, ` +
+    `${derived} ${plural(derived, "carries", "carry")} a number we worked out ourselves.`
+  );
 }
 
 /* ── search ───────────────────────────────────────────────────────────── */
