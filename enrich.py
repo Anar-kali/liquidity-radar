@@ -20,6 +20,15 @@ sitting in paragraph four is invisible to it. This reads the article.
 Measured 2026-09-10 on deals that previously had NO usable link at all:
 token resolution 20/20, fetch 19/20, extraction 19/20.
 
+## It only ever looks at recent deals
+
+ENRICH_MAX_AGE_HOURS bounds everything. This is a prospecting tool, not an
+archive — a deal from five weeks ago is of no use to a banker, so old deals are
+never revisited however many of them name nobody. The window is the same 24
+hours the website's front page shows, so "what the site shows" and "what gets
+enriched" are the same set. `--max-age-hours 0` lifts the bound for a manual
+catch-up, and is the only way to reach older deals.
+
 ## Why it targets by deal type
 
 Individuals are not spread evenly, and the spread is the whole design:
@@ -196,16 +205,26 @@ def _merge(deal, found):
     return fields
 
 
-def candidates(limit, path=db.DB_PATH):
-    """Unenriched deals with no named individual, highest-yield type first."""
+def candidates(limit, path=db.DB_PATH, max_age_hours=None):
+    """Recent unenriched deals with no named individual, best type first.
+
+    Bounded by age on purpose. This is a prospecting tool, not an archive: a
+    deal from five weeks ago is of no use to a banker, so old ones are never
+    revisited however many of them name nobody. The window matches the site's
+    own 24-hour front page.
+    """
+    hours = config.ENRICH_MAX_AGE_HOURS if max_age_hours is None else max_age_hours
     conn = db._conn(path)
-    rows = [dict(r) for r in conn.execute(
-        "SELECT d.* FROM deals d "
-        "LEFT JOIN deal_enrichment e ON e.deal_id = d.id "
-        "WHERE (d.individuals IS NULL OR d.individuals IN ('[]','','null')) "
-        "  AND (e.deal_id IS NULL OR e.attempts < ?) "
-        "  AND (e.status IS NULL OR e.status != 'ok') "
-        "ORDER BY d.id DESC", (MAX_ATTEMPTS,))]
+    sql = ("SELECT d.* FROM deals d "
+           "LEFT JOIN deal_enrichment e ON e.deal_id = d.id "
+           "WHERE (d.individuals IS NULL OR d.individuals IN ('[]','','null')) "
+           "  AND (e.deal_id IS NULL OR e.attempts < ?) "
+           "  AND (e.status IS NULL OR e.status != 'ok') ")
+    params = [MAX_ATTEMPTS]
+    if hours:
+        sql += "  AND d.created_at >= datetime('now', ?) "
+        params.append(f"-{int(hours)} hour")
+    rows = [dict(r) for r in conn.execute(sql + "ORDER BY d.id DESC", params)]
     conn.close()
     rank = {t: i for i, t in enumerate(PRIORITY)}
     rows.sort(key=lambda d: (rank.get((d["deal_type"] or "").lower(), len(PRIORITY)), -d["id"]))
@@ -298,11 +317,16 @@ def enrich_new(deal_ids, limit=None, path=None, dry=False):
     return out
 
 
-def drain_backlog(limit=None, path=None, dry=False):
-    """Work through older unnamed deals. Runs AFTER alerts are away, so a slow
-    fetch cannot delay a notification. Never raises."""
+def enrich_recent(limit=None, path=None, dry=False):
+    """Catch anything inside the window that still names nobody — a deal whose
+    fetch failed, or one created just before this shipped.
+
+    Runs AFTER alerts are away, so a slow fetch cannot delay a notification.
+    Never raises. Deals older than ENRICH_MAX_AGE_HOURS are out of scope and
+    stay that way; we do not go back over old deals.
+    """
     path = path or db.DB_PATH
-    limit = config.ENRICH_BACKLOG_PER_RUN if limit is None else limit
+    limit = config.ENRICH_RECENT_PER_RUN if limit is None else limit
     named = 0
     try:
         queue = candidates(limit, path=path)
@@ -312,12 +336,12 @@ def drain_backlog(limit=None, path=None, dry=False):
                 if "individuals" in fields:
                     named += 1
             except Exception as exc:  # noqa: BLE001
-                print(f"[enrich] backlog deal {deal['id']}: "
+                print(f"[enrich] recent deal {deal['id']}: "
                       f"{type(exc).__name__}: {exc}")
         if queue:
-            print(f"[enrich] backlog: read {len(queue)}, named {named}")
+            print(f"[enrich] recent: read {len(queue)}, named {named}")
     except Exception as exc:  # noqa: BLE001
-        print(f"[enrich] backlog pass failed: {type(exc).__name__}: {exc}")
+        print(f"[enrich] recent pass failed: {type(exc).__name__}: {exc}")
     return named
 
 
@@ -329,17 +353,25 @@ def main():
     p.add_argument("--type", help="only this deal_type")
     p.add_argument("--db", default=db.DB_PATH,
                    help="operate on this database (for testing against a copy)")
+    p.add_argument("--max-age-hours", type=int, default=None,
+                   help=f"only deals newer than this (default "
+                        f"{config.ENRICH_MAX_AGE_HOURS}; 0 = no limit, which "
+                        f"reaches back over old deals we normally ignore)")
     args = p.parse_args()
 
     db.init_db(args.db)
-    queue = candidates(None, path=args.db)
+    queue = candidates(None, path=args.db, max_age_hours=args.max_age_hours)
     if args.type:
         queue = [d for d in queue if (d["deal_type"] or "").lower() == args.type.lower()]
 
     if args.stats:
         from collections import Counter
         by = Counter((d["deal_type"] or "unknown").lower() for d in queue)
-        print(f"{len(queue)} deals await enrichment (no individual named yet)\n")
+        hours = (config.ENRICH_MAX_AGE_HOURS if args.max_age_hours is None
+                 else args.max_age_hours)
+        window = f"last {hours}h" if hours else "ALL TIME (no age limit)"
+        print(f"{len(queue)} deals await enrichment, {window} "
+              f"(no individual named yet)\n")
         for t in PRIORITY:
             if by.get(t):
                 print(f"  {t:20} {by[t]:5d}")

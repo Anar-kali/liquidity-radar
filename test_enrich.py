@@ -139,6 +139,34 @@ def test_cached_failure_is_distinct_from_never_tried():
 # --------------------------------------------------------------------------
 # Queue ordering is the whole design — DRHP last.
 # --------------------------------------------------------------------------
+def test_old_deals_are_never_revisited():
+    """A prospecting tool, not an archive. Deals outside the window must not
+    appear in the queue however many of them name nobody."""
+    tmp = os.path.join(tempfile.mkdtemp(), "age.db")
+    db.init_db(tmp)
+    conn = db._conn(tmp)
+    for label, age in (("fresh", "-2 hour"), ("stale", "-40 day")):
+        conn.execute(
+            "INSERT INTO deals (deal_key, company, deal_type, individuals, url, created_at, updated_at) "
+            f"VALUES (?, ?, 'block deal', '[]', 'u', datetime('now','{age}'), datetime('now'))",
+            (label, label))
+    conn.commit(); conn.close()
+
+    got = [d["company"] for d in enrich.candidates(None, path=tmp)]
+    assert "fresh" in got, got
+    assert "stale" not in got, f"a 40-day-old deal entered the queue: {got}"
+
+    # ...and the manual override is the only way to reach it.
+    both = [d["company"] for d in enrich.candidates(None, path=tmp, max_age_hours=0)]
+    assert "stale" in both and "fresh" in both, both
+
+
+def test_window_matches_the_site_front_page():
+    """The site shows the last 24h; enriching a different span would mean the
+    page and the enrichment set quietly disagree."""
+    assert config.ENRICH_MAX_AGE_HOURS == 24, config.ENRICH_MAX_AGE_HOURS
+
+
 def test_drhp_is_ranked_last():
     """DRHP filings are the biggest bucket (175) and the worst yield (5.1%).
     Untargeted the chain named 10%; targeted it named 20%."""
@@ -172,10 +200,10 @@ def test_new_deal_pass_survives_a_dead_provider():
     assert got == {}, got          # nothing applied, and crucially no raise
 
 
-def test_backlog_drain_survives_a_dead_provider():
+def test_recent_pass_survives_a_dead_provider():
     tmp = os.path.join(tempfile.mkdtemp(), "b.db")
     db.init_db(tmp)
-    assert _with_broken_enrichment(lambda: enrich.drain_backlog(limit=3, path=tmp)) == 0
+    assert _with_broken_enrichment(lambda: enrich.enrich_recent(limit=3, path=tmp)) == 0
 
 
 def test_new_deal_pass_survives_a_broken_database():
@@ -187,7 +215,7 @@ def test_new_deal_pass_survives_a_broken_database():
 def test_budgets_fit_the_free_tier():
     """13 runs/day must stay well under Gemini's ~1,000/day free quota, or the
     classifier — which runs first — starts getting 429s and alerts stop."""
-    per_run = config.ENRICH_NEW_PER_RUN + config.ENRICH_BACKLOG_PER_RUN
+    per_run = config.ENRICH_NEW_PER_RUN + config.ENRICH_RECENT_PER_RUN
     daily = 13 * (per_run + 3)      # +3 is the classifier's calls per run
     assert daily < 700, f"{daily}/day leaves too little headroom under 1,000"
 

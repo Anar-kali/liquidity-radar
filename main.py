@@ -587,12 +587,13 @@ def run(mode, dry, limit=None):
         else:
             notify.send_alert(alert)
 
-    # ---- STAGE 3, part two: work the backlog, alerts already away ----
-    # Deliberately after the sends. There are ~550 older deals with nobody
-    # named, and a slow fetch must never sit between a deal and the banker's
-    # phone. Same non-fatal contract as above.
+    # ---- STAGE 3, part two: anything recent still unnamed ----
+    # Deliberately after the sends: a slow fetch must never sit between a deal
+    # and the banker's phone. Bounded to the last ENRICH_MAX_AGE_HOURS — old
+    # deals are never revisited, because a five-week-old deal is of no use to
+    # a banker. Same non-fatal contract as above.
     if not dry:
-        enrich.drain_backlog()
+        enrich.enrich_recent()
 
 
 def main():

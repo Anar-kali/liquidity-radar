@@ -256,22 +256,30 @@ PROVIDER_MODELS = {
 #
 # Two separate budgets, because the two jobs have different urgency:
 #
-#   NEW      the deals THIS run just created. Enriched BEFORE the Telegram
-#            alert is sent, so a name found in the article reaches the message
-#            rather than appearing on the website an hour later. Usually 1-2.
-#   BACKLOG  older deals with nobody named. Drained AFTER the alerts are away,
-#            so a slow fetch can never delay a notification.
+#   NEW     the deals THIS run just created. Enriched BEFORE the Telegram
+#           alert is sent, so a name found in the article reaches the message
+#           rather than appearing on the website an hour later. Usually 1-2.
+#   RECENT  anything else inside the window that still names nobody — a deal
+#           whose fetch failed, or one created just before this shipped. Runs
+#           AFTER the alerts are away, so a slow fetch cannot delay a message.
 #
-# Sized against the free tier, which is the whole point. At 13 runs/day:
-#   classifier   ~3 calls/run   =  ~39/day
-#   enrichment   <=20 calls/run = <=260/day
-#   total                          ~300/day against a ~1,000/day free quota.
+# ENRICH_MAX_AGE_HOURS is the whole policy: this is a prospecting tool, not an
+# archive. A five-week-old deal is of no use to a banker, so old deals are
+# never revisited however many of them name nobody. It matches the website's
+# own 24-hour front page, so "what the site shows" and "what gets enriched"
+# are the same set by construction.
 #
-# The classifier always runs FIRST in a run, so enrichment can never eat the
-# quota the alerts depend on — it only ever spends what is left over.
+# That cap is also what keeps this comfortably free. The window holds ~30
+# deals against ~20 arriving a day, so in steady state almost everything is
+# enriched at creation and the RECENT pass has very little left to do:
+#   classifier  ~3 calls/run   =  ~39/day
+#   enrichment  <=16 calls/run = <=208/day worst case, far less in practice
+# against a ~1,000/day free quota. The classifier always runs FIRST in a run,
+# so enrichment can only ever spend what is left over.
 # --------------------------------------------------------------------------
+ENRICH_MAX_AGE_HOURS = 24
 ENRICH_NEW_PER_RUN = 8
-ENRICH_BACKLOG_PER_RUN = 12
+ENRICH_RECENT_PER_RUN = 8
 
 # Requests per minute to stay under, per provider. Gemini's free tier allows
 # 15 RPM and our worst measured run issued 19 calls back to back, so this is

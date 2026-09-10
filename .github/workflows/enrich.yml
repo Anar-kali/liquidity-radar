@@ -8,16 +8,23 @@ name: enrich
 # enriched tomorrow. Putting it in the alert path would slow alerts for work
 # that is not time-critical, and a slow fetch would hold up a Telegram message.
 #
-# NO SCHEDULE. As of 2026-09-11 enrichment runs inline in radar.yml, every
-# hour, right after stage 2 — new deals are enriched before their alert is
-# sent, and a slice of the backlog is drained after. See main.py.
+# NO SCHEDULE, and not part of normal operation. As of 2026-09-11 enrichment
+# runs inline in radar.yml every hour, right after stage 2: new deals are
+# enriched before their alert is sent, and anything else inside the 24-hour
+# window is caught afterwards. See main.py.
 #
-# This workflow survives only as a manual lever for draining the backlog in
-# bulk (there were ~550 unnamed deals at cutover, and the hourly slice of 12
-# takes weeks to clear them). Run it by hand with a bigger limit when you want
-# to catch up faster; it is not part of normal operation.
+# This survives only as a manual lever. Its one real use is reaching deals
+# OLDER than the window, which the hourly pass deliberately never touches —
+# a five-week-old deal is of no use to a banker, so it is skipped by design,
+# not by omission. Run this with max_age_hours: 0 if you ever want to go back
+# over them anyway.
 on:
   workflow_dispatch:
+    inputs:
+      max_age_hours:
+        description: "Only deals newer than this (0 = no limit, reaches old deals)"
+        required: false
+        default: "24"
     inputs:
       limit:
         description: "Deals to enrich this run"
@@ -56,7 +63,10 @@ jobs:
           # through to a paid provider.
           CLASSIFIER_PROVIDER: ${{ vars.CLASSIFIER_PROVIDER }}
           CLASSIFIER_FALLBACK: ${{ vars.CLASSIFIER_FALLBACK }}
-        run: python enrich.py --limit "${{ github.event.inputs.limit || 100 }}"
+        run: |
+          python enrich.py \
+            --limit "${{ github.event.inputs.limit || 100 }}" \
+            --max-age-hours "${{ github.event.inputs.max_age_hours || 24 }}"
       # Enrichment writes individuals, amounts and sellers onto existing
       # deals, so the site's JSON is stale until this runs.
       - name: Export site data
