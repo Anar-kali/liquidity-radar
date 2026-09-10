@@ -229,13 +229,17 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-09-09T09:31:35.813135+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-09T10:31:47.010189+00:00",
      "title": "Mahatransco Plans Up to ₹10,000 Crore IPO to List State Utility"
+    },
+    {
+     "attachedAt": "2026-09-10T02:31:06.927496+00:00",
+     "title": "Mahatransco IPO Takes Shape as Maharashtra Power Utility Eyes Rs.10,000-Crore Share Sale"
     }
    ]
   },
