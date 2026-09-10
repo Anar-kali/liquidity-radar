@@ -21,15 +21,14 @@ name: enrich
 on:
   workflow_dispatch:
     inputs:
-      max_age_hours:
-        description: "Only deals newer than this (0 = no limit, reaches old deals)"
-        required: false
-        default: "24"
-    inputs:
       limit:
         description: "Deals to enrich this run"
         required: false
         default: "40"
+      max_age_hours:
+        description: "Only deals newer than this (0 = no limit, reaches old deals)"
+        required: false
+        default: "24"
 
 concurrency:
   group: liquidity-radar
