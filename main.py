@@ -42,6 +42,7 @@ import config
 import db
 import feedback
 import filters
+import llm
 import notify
 import sizing
 import sources
@@ -535,6 +536,12 @@ def run(mode, dry, limit=None):
         print("[main] size_source mix: " + ", ".join(f"{k}={v}" for k, v in mix.items()))
 
     db.add_funnel_run(funnel)
+    # Which provider actually served this run. Printed unconditionally: a
+    # fallback is otherwise indistinguishable from a healthy run, and the
+    # whole point of moving the classifier is knowing where it ran.
+    provider_line = llm.summary()
+    if provider_line:
+        print(provider_line)
     _report_classifier_health(fail_reasons, judged_ok[0], dry)
 
     # Optional throttle (useful for testing, or to avoid a flood on a cold

@@ -193,8 +193,13 @@ STAGE2_MODEL = MODEL  # same Haiku model; keep two focused passes, not Sonnet
 # longer available to new users" on a key issued now, even though models.list
 # still advertises them. List membership is not availability; verify a model
 # with a real generate_content call before pinning it here.
+# BOTH stages are Flash-Lite. Stage 2 is deliberately NOT gemini-3.5-flash:
+# it rate-limited after roughly ten calls on the free tier during evaluation,
+# so it was never quality-tested and could not carry 24 calls/day anyway.
+# Flash-Lite sustained 64 eval calls without throttling. Do not "upgrade"
+# stage 2 to Flash without re-running eval_classifier and checking the quota.
 GEMINI_MODEL = "gemini-3.5-flash-lite"
-GEMINI_STAGE2_MODEL = "gemini-3.5-flash"
+GEMINI_STAGE2_MODEL = "gemini-3.5-flash-lite"
 
 # --------------------------------------------------------------------------
 # WHICH PROVIDER RUNS THE CLASSIFIER
@@ -204,9 +209,21 @@ GEMINI_STAGE2_MODEL = "gemini-3.5-flash"
 # getenv's default only covers for a truly absent key. Same reasoning as
 # PREFILTER_MODE above, same trap.
 #
-# Default stays "anthropic" so nothing changes until the eval says it should.
+# Default is "gemini" as of 2026-09-10, after adjudicating the disagreements
+# between the two on real traffic. Of 20 deals Gemini rejected that Haiku had
+# created, all 20 were judged correct rejections — Haiku had manufactured
+# "deals" from board-meeting notices, a 400-share stake sale, and Coal India
+# divestments its own Rule 3 exists to catch. In the other direction Haiku was
+# killing real leads with Rule 9 ("not a transaction at all"), including a
+# named founder's 152x IPO gain, a Rs 2,888cr Lenskart block deal, and a
+# Rs 2,800cr buyback.
+#
+# If GEMINI_API_KEY is missing the provider raises and CLASSIFIER_FALLBACK
+# carries the run on Anthropic, so a missing key degrades rather than breaks.
+# Watch the [llm] provider lines in the run log to see which one actually
+# served — a silent fallback looks exactly like success otherwise.
 # --------------------------------------------------------------------------
-CLASSIFIER_PROVIDER = os.getenv("CLASSIFIER_PROVIDER") or "anthropic"
+CLASSIFIER_PROVIDER = os.getenv("CLASSIFIER_PROVIDER") or "gemini"
 
 # Tried when the primary provider has exhausted its retries. Unset (or empty,
 # which is what Actions passes for an undefined repo variable — see the

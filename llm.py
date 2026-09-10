@@ -53,6 +53,13 @@ import config
 _last_call = {}
 _last_call_lock = threading.Lock()
 
+# Per-run accounting, so a run can say which provider actually served it.
+# This exists because a fallback is INVISIBLE otherwise: if GEMINI_API_KEY is
+# missing or the free tier throttles, every batch quietly completes on
+# Anthropic and the run looks identical to a healthy one — same alerts, same
+# funnel, same exit code, and a bill nobody is watching.
+USAGE = {}
+
 # Clients are built once per process. Constructing an Anthropic() per batch was
 # deliberate once (v4 Change 6, so one unreachable API didn't abort a whole
 # run) but that is now handled by the try/except in classify_all — the client
@@ -150,8 +157,11 @@ def _attempt(provider, stage, system, user, max_tokens, schema):
     for attempt in range(config.LLM_RETRY_ATTEMPTS):
         try:
             _pace(provider)
-            return backend(model, system, user, max_tokens, schema)
+            out = backend(model, system, user, max_tokens, schema)
+            USAGE.setdefault(provider, {"calls": 0, "failures": 0})["calls"] += 1
+            return out
         except Exception as exc:  # noqa: BLE001 — vendor SDKs raise unrelated types
+            USAGE.setdefault(provider, {"calls": 0, "failures": 0})["failures"] += 1
             last = exc
             if attempt == config.LLM_RETRY_ATTEMPTS - 1:
                 break
@@ -162,6 +172,26 @@ def _attempt(provider, stage, system, user, max_tokens, schema):
                   f"({type(exc).__name__}: {str(exc)[:120]}), retrying in {delay:.1f}s")
             time.sleep(delay)
     raise last
+
+
+def summary():
+    """One line naming who actually served this run, or None if no calls were
+    made. Print it: it is the only signal separating "running on the
+    configured provider" from "silently running on the fallback"."""
+    if not USAGE:
+        return None
+    configured = config.CLASSIFIER_PROVIDER
+    parts = [f"{name} {u['calls']} ok"
+             + (f" / {u['failures']} failed" if u["failures"] else "")
+             for name, u in sorted(USAGE.items())]
+    line = "[llm] " + ", ".join(parts)
+    served = [n for n, u in USAGE.items() if u["calls"]]
+    if served and configured not in served:
+        line += (f"   ** {configured.upper()} SERVED NOTHING — this run ran "
+                 f"entirely on the fallback **")
+    elif len(served) > 1:
+        line += "   ** fell back mid-run **"
+    return line
 
 
 def providers_for(provider=None):
