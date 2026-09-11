@@ -211,7 +211,7 @@
    "seller": "Government of India",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 6,
+   "sourceCount": 9,
    "ticker": null,
    "updatedAt": "2026-09-11T01:31:18.776478+00:00",
    "updates": [
@@ -234,6 +234,18 @@
     {
      "attachedAt": "2026-09-11T01:31:21.086967+00:00",
      "title": "NSE Downsizes India IPO, Showing Mounting Valuation Concern"
+    },
+    {
+     "attachedAt": "2026-09-11T07:31:48.680279+00:00",
+     "title": "NATIONAL STOCK EXCHANGE OF INDIA LIMITED - RHPNATIONAL STOCK EXCHANGE OF INDIA LIMITED"
+    },
+    {
+     "attachedAt": "2026-09-11T07:31:48.690469+00:00",
+     "title": "NATIONAL STOCK EXCHANGE OF INDIA LIMITED"
+    },
+    {
+     "attachedAt": "2026-09-11T07:31:48.748620+00:00",
+     "title": "NSE sets IPO price band at Rs 1,700-1,785; issue to raise up to Rs 22,562 crore"
     }
    ]
   },
