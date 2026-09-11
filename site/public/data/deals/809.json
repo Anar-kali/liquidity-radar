@@ -1,0 +1,31 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Runwal Enterprises Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-11T04:31:21.769845+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": "failed",
+ "id": 809,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Runwal Enterprises submitted an addendum to its DRHP with SEBI.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/runwal-enterprises-limited-addendum-to-drhp_104424.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-11T04:31:21.772728+00:00",
+   "outlet": "Addendum to DRHP",
+   "resolvable": true,
+   "title": "RUNWAL ENTERPRISES LIMITED",
+   "url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/runwal-enterprises-limited-addendum-to-drhp_104424.html"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-11T04:31:21.769845+00:00"
+}

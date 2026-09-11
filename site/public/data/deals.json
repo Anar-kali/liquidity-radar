@@ -1,6 +1,28 @@
 {
- "dealCount": 638,
+ "dealCount": 639,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Runwal Enterprises Limited",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-11T04:31:21.769845+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 809,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Runwal Enterprises submitted an addendum to its DRHP with SEBI.",
+   "primaryOutlet": "Addendum to DRHP",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-11T04:31:21.769845+00:00",
+   "updates": []
+  },
   {
    "amountCr": 1256.0,
    "amountRaw": "₹1,256 Cr (from article)",
@@ -115,8 +137,8 @@
    "updates": []
   },
   {
-   "amountCr": 1500.0,
-   "amountRaw": "Rs 1,500-Crore",
+   "amountCr": 1160.0,
+   "amountRaw": "Rs 1,160 crore",
    "company": "Granules India",
    "confidence": "medium",
    "confirmed": false,
@@ -131,10 +153,15 @@
    "seller": "Promoter",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": "GRANULES.NS",
-   "updatedAt": "2026-09-10T14:52:05.233090+00:00",
-   "updates": []
+   "updatedAt": "2026-09-11T04:31:21.777234+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-09-11T04:31:21.775459+00:00",
+     "title": "Granules India block deal: 5.3% equity worth Rs 1,160 crore changes hands; promoter likely seller"
+    }
+   ]
   },
   {
    "amountCr": 23000.0,
@@ -665,10 +692,15 @@
    "seller": "Glass Wall Systems (India)",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-09-10T19:05:30.107501+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-09-11T04:31:21.765052+00:00",
+     "title": "GLASS WALL SYSTEMS (INDIA) LIMITED"
+    }
+   ]
   },
   {
    "amountCr": 6650.0,
@@ -18525,6 +18557,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-11T03:31:27.976335+00:00",
- "totalDeals": 638
+ "generatedAt": "2026-09-11T04:31:21.777234+00:00",
+ "totalDeals": 639
 }
