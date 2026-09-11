@@ -1,0 +1,31 @@
+{
+ "advisers": [],
+ "amountCr": 1256.0,
+ "amountRaw": "₹1,256 Cr (from article)",
+ "buyer": null,
+ "company": "RentoMojo",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-11T03:31:24.562105+00:00",
+ "dealType": "unknown",
+ "enrichmentState": null,
+ "id": 808,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "RentoMojo is planning an upcoming IPO, opening up founder liquidity.",
+ "primaryUrl": "https://inc42.com/buzz/gff-2026-day-2-unpacked-rentomojos-ipo-more/",
+ "seller": "RentoMojo",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-11T03:31:24.563814+00:00",
+   "outlet": "Inc42",
+   "resolvable": true,
+   "title": "GFF 2026 Day 2 Unpacked, RentoMojo’s IPO & More",
+   "url": "https://inc42.com/buzz/gff-2026-day-2-unpacked-rentomojos-ipo-more/"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-11T03:31:27.976335+00:00"
+}

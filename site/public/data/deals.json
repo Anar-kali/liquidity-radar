@@ -1,6 +1,28 @@
 {
- "dealCount": 637,
+ "dealCount": 638,
  "deals": [
+  {
+   "amountCr": 1256.0,
+   "amountRaw": "₹1,256 Cr (from article)",
+   "company": "RentoMojo",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-11T03:31:24.562105+00:00",
+   "dealType": "unknown",
+   "enrichmentState": null,
+   "id": 808,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "RentoMojo is planning an upcoming IPO, opening up founder liquidity.",
+   "primaryOutlet": "Inc42",
+   "seller": "RentoMojo",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-11T03:31:27.976335+00:00",
+   "updates": []
+  },
   {
    "amountCr": 3500.0,
    "amountRaw": "₹3,500 crore",
@@ -18503,6 +18525,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-11T01:31:31.779823+00:00",
- "totalDeals": 637
+ "generatedAt": "2026-09-11T03:31:27.976335+00:00",
+ "totalDeals": 638
 }
