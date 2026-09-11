@@ -1,0 +1,38 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "NoPaperForms Solutions Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-11T06:31:24.193478+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": "failed",
+ "id": 810,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "NoPaperForms Solutions filed its draft offer document with SEBI for an IPO.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/nopaperforms-solutions-limited-udrhp-1_104427.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-11T06:31:24.196256+00:00",
+   "outlet": "Draft Abridged Prospectus",
+   "resolvable": true,
+   "title": "NOPAPERFORMS SOLUTIONS LIMITED - UDRHP-1NOPAPERFORMS SOLUTIONS LIMITED",
+   "url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/nopaperforms-solutions-limited-udrhp-1_104427.html"
+  },
+  {
+   "attachedAt": "2026-09-11T06:31:24.199373+00:00",
+   "outlet": "Draft Abridged Prospectus",
+   "resolvable": true,
+   "title": "NOPAPERFORMS SOLUTIONS LIMITED",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/sep-2026/NOPAPERFORMS%20SOLUTIONS%20LIMITED%20-%20DAP_p.pdf"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-11T06:31:24.193478+00:00"
+}

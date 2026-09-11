@@ -1,6 +1,33 @@
 {
- "dealCount": 639,
+ "dealCount": 640,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "NoPaperForms Solutions Limited",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-11T06:31:24.193478+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 810,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "NoPaperForms Solutions filed its draft offer document with SEBI for an IPO.",
+   "primaryOutlet": "Draft Abridged Prospectus",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 2,
+   "ticker": null,
+   "updatedAt": "2026-09-11T06:31:24.193478+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-09-11T06:31:24.199373+00:00",
+     "title": "NOPAPERFORMS SOLUTIONS LIMITED"
+    }
+   ]
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -153,13 +180,17 @@
    "seller": "Promoter",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": "GRANULES.NS",
    "updatedAt": "2026-09-11T04:31:21.777234+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-11T04:31:21.775459+00:00",
      "title": "Granules India block deal: 5.3% equity worth Rs 1,160 crore changes hands; promoter likely seller"
+    },
+    {
+     "attachedAt": "2026-09-11T06:31:24.311420+00:00",
+     "title": "Granules India Sees ₹1,160 Crore Block Deal by Promoter"
     }
    ]
   },
@@ -18557,6 +18588,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-11T04:31:21.777234+00:00",
- "totalDeals": 639
+ "generatedAt": "2026-09-11T06:31:24.193478+00:00",
+ "totalDeals": 640
 }
