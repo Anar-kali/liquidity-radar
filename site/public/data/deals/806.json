@@ -1,0 +1,31 @@
+{
+ "advisers": [],
+ "amountCr": 5000.0,
+ "amountRaw": "Rs 5,000 crore",
+ "buyer": null,
+ "company": "Swiggy",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-11T01:31:21.081037+00:00",
+ "dealType": "IPO-OFS",
+ "enrichmentState": null,
+ "id": 806,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Swiggy expands its upcoming IPO plans to raise Rs 5,000 crore.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQzlZNXY3N2stZU42ZTFjaG9Gd2pQNm45OFdETkhPSjRfWHJGQUN4MEFxTGQ0WERDNTB3M19nZC1IVk9VdC1GUzBxckVRN2VvUmVrRTl4dXdiUFFvOUpOdWliMlkxMFZ6T3ZxSDZDdjZTTDhQNWFPUnUyQW9tdGwtWDNPZDh0NjZvRnJtSTVnU09WLTRzZ3RfMg?oc=5",
+ "seller": "Swiggy",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-11T01:31:21.082117+00:00",
+   "outlet": "ascendants.in",
+   "resolvable": false,
+   "title": "Swiggy expands IPO plans to raise Rs 5,000 crore amid growing market competition",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQzlZNXY3N2stZU42ZTFjaG9Gd2pQNm45OFdETkhPSjRfWHJGQUN4MEFxTGQ0WERDNTB3M19nZC1IVk9VdC1GUzBxckVRN2VvUmVrRTl4dXdiUFFvOUpOdWliMlkxMFZ6T3ZxSDZDdjZTTDhQNWFPUnUyQW9tdGwtWDNPZDh0NjZvRnJtSTVnU09WLTRzZ3RfMg?oc=5"
+  }
+ ],
+ "ticker": "SWIGGY.NS",
+ "updatedAt": "2026-09-11T01:31:31.779823+00:00"
+}

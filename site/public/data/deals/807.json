@@ -1,0 +1,31 @@
+{
+ "advisers": [],
+ "amountCr": 3500.0,
+ "amountRaw": "₹3,500 crore",
+ "buyer": "Advent International",
+ "company": "IIFL Finance",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-11T01:31:21.089553+00:00",
+ "dealType": "PE secondary",
+ "enrichmentState": null,
+ "id": 807,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Advent and Temasek in talks to acquire Fairfax's stake in IIFL Finance for ₹3,500 crore.",
+ "primaryUrl": "https://economictimes.indiatimes.com/industry/banking/finance/banking/advent-temasek-in-talks-for-fairfax-stake-in-iifl-fin/articleshow/134027143.cms",
+ "seller": "Fairfax Financial",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-11T01:31:21.090814+00:00",
+   "outlet": "ET Corporate",
+   "resolvable": true,
+   "title": "Advent, Temasek in talks for Fairfax stake in IIFL Fin",
+   "url": "https://economictimes.indiatimes.com/industry/banking/finance/banking/advent-temasek-in-talks-for-fairfax-stake-in-iifl-fin/articleshow/134027143.cms"
+  }
+ ],
+ "ticker": "IIFL.NS",
+ "updatedAt": "2026-09-11T01:31:21.089553+00:00"
+}

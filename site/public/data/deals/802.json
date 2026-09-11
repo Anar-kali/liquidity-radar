@@ -1,14 +1,14 @@
 {
  "advisers": [],
- "amountCr": null,
- "amountRaw": null,
+ "amountCr": 23000.0,
+ "amountRaw": "Rs 23,000 crore",
  "buyer": null,
  "company": "National Stock Exchange",
  "confidence": "medium",
  "confirmed": false,
  "createdAt": "2026-09-10T13:31:09.230748+00:00",
  "dealType": "IPO-OFS",
- "enrichmentState": "retrying",
+ "enrichmentState": "failed",
  "id": 802,
  "individuals": [],
  "listed": false,
@@ -16,7 +16,7 @@
  "primaryUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPcU5lQUZ1ZzFEOE10STBYMXp5TW1oVF9HNEQ1VF9hNG1ReDlrbGNNaFhKQkNSOFB3cWZqeEtXc3NRdlI2LUV5eVY5OGNnekpSWVFiVmJYMzlLVl9hQll2dlBsaDRpeU1vaWlJTDM2NzFJSDAtZ2NYeE4zUTdPZzFJRUkzNjQ5ME9RZHN4a1VJbVYtOFkwVW5iYTBvME9QdDhlVEZtRW5SeUNVLTNtOWZsNHQwRVRRSWNwbjVGLXFaZjBmaVhrSlR6czg1a3l0djVtYjZydDZWZFpLUQ?oc=5",
  "seller": "Government of India",
  "sizeBand": null,
- "sizeSource": "unknown",
+ "sizeSource": "stated",
  "sources": [
   {
    "attachedAt": "2026-09-10T13:31:09.231669+00:00",
@@ -24,8 +24,43 @@
    "resolvable": false,
    "title": "NSE IPO: From SBI to Bank of Baroda, 5 listed stocks positioned for stake monetisation",
    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPcU5lQUZ1ZzFEOE10STBYMXp5TW1oVF9HNEQ1VF9hNG1ReDlrbGNNaFhKQkNSOFB3cWZqeEtXc3NRdlI2LUV5eVY5OGNnekpSWVFiVmJYMzlLVl9hQll2dlBsaDRpeU1vaWlJTDM2NzFJSDAtZ2NYeE4zUTdPZzFJRUkzNjQ5ME9RZHN4a1VJbVYtOFkwVW5iYTBvME9QdDhlVEZtRW5SeUNVLTNtOWZsNHQwRVRRSWNwbjVGLXFaZjBmaVhrSlR6czg1a3l0djVtYjZydDZWZFpLUQ?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-11T01:31:18.775194+00:00",
+   "outlet": "The New Indian Express",
+   "resolvable": false,
+   "title": "NSE likely to slash IPO size to Rs 23,000 crore",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaExVb05VZTdKWW1PMzhqT1M1cXA1M0EzelJGQldpV19Dam9tLVVQQ1FTQ0M2V1IxaWhnSE11MEVfVEVuTlNDdzZsVkQxakhQZjlaYkI2eFRBZ01SRFFWNUc1NmdrckNQRUl5WGR0dncyWlBBZGpXME1fazIybF9SSWNPbTBkaUY4VFg4RVRlbGczb0p1emViV2hYeWVXWEQxcEHSAa8BQVVfeXFMTzF2WEZOeXA2XzJPTllaVkFkZWVkMVVIcEtkZk9YSEZwLVhaZzNrWWJfVkFYc1Nfak1RRmk1bmhscTY5U2drTkVtRUozcjEyTW92dGZZX3pzV1Y1ZEx3LUpKU2ZXWVBoYUNHbElSNkkzcmkxZ1BpUmRGQW43MDVsVW90TkEwcWZBb050RWMxN2ZYd1o3cEZ4dmE5TDJCX3M0cVNQSk9xYTdydWNyWDN6Yw?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-11T01:31:18.778637+00:00",
+   "outlet": "Moneycontrol.com",
+   "resolvable": false,
+   "title": "NSE IPO to list on September 24; price band likely at Rs 1,700-1,785: Sources",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPemdVN2hUSlB0WVNzZDJIUlpxdllzZVJSLS1oRjNZcm9RQ0puZnJXTE9semxRYTh2TXhLZURuVnJ1Mm5uXy1sQWZBT2VWbmZhcUVzZkJ4ekVzaHhBZlh4cVdpalJ0d0ZZZUhqQVlTRVlnU1Jkb0dhLTVsbkhBZW1uWTJuWkNscG50SlQwcVEtSHFod2JQSVllcF9VZGFpclktS3JhajMzYll4NUo5UFdhaGRwUXoybDJIU3lCZldIZFY1U1ZibVZvajI5WDM0ZmRDNFFPctIB2gFBVV95cUxNbmlUX09jU3JqNkg2b29DaG5lWnMxR1FWVjNfQXlUMVFvd081RUtRdVowdjdBNTZmaE1NTm5pb1hPLUV1WnQ5VHhYWWluVGNMbGpzMjl2OWdWWmV4MlNzYUxWcEVrVFlZMzVScFpHRlhXbzRfR25FNWxGNzNLZ2lteE4yLWhYRXdDMkxtdDQyR0RtTVJJQXFjd1Mzb180YjdQeDZ0bTlDN1N1Wk9YWWJNbzhXanlVdVpOWlU4V2hmTko2ckNmRG5Cel94dDZQS0VncE5kN1RmN1JvZw?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-11T01:31:21.078361+00:00",
+   "outlet": "IndiaIPO",
+   "resolvable": false,
+   "title": "Exclusive | NSE files IPO papers with RoC; price band likely on Sept 11, issue opens Sept 17, say sources",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQLXdXNzdZTXM4elhsX0NDRDRkb2hHSG1CS3gxdUk3eGwxZ0NQdlVnX2c3Qkh5WGY2UGFKVG40N2NSVG5GOWliMDRsTWtPVGszMHJOTzdrM1pfcXBmMnFVRURQNWpzSmZVQUNia28wWERXdTNhTTJzYkEyNjl6ZDNSeVVlVU95SjNlS0tFcDdkNjAwLXR6dHhNX1hjWnBEZ3RxRWN3NHIzWmJ2c3Z3SXhxcVpUSGxVQ1JLdFZoQk1fd042NE9FV3VTSGNkODdITXVnZ1E?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-11T01:31:21.084322+00:00",
+   "outlet": "ABP Live English",
+   "resolvable": false,
+   "title": "NSE IPO to open on Sep 17 OFS reduced ahead of much-awaited issue",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYVpDSVhoVC1CRVZ6QkhXekExb29USl9BZnZ2U0RCdG5jOFZCTzlRZW4tMzBmeXF0NEZCV3VsdVZwNnk3VWh6eVl5dmhad3l0WEdYcmV6M0xwbURvLS1pWjF4a05ZeXQ4NFFPWFBEX2lkdzFsNkVqdHVNLVJmM3VzdFpQenpnOFFFNVZHOGg3M3EtTlpCbGNFa3NObFBtdGd4a1VIRk85bW13TTDSAbABQVVfeXFMTy11WkVoVWVWRTNBWXNDX2dIMGNnTXExX2lPVE5fOXJYWlVIZU1OX2dTbVJ5OWZFOENwOGN1dEJ2aTRtTFBUazE1NnJ3RGU4VWRmOGdhd0EtX1Z5eDVVT0FoRllXTnVZVFFkaGNsblNxaUR4MWxPR2xYdUN3aWhUaTB5bnNUUlV2anZoUk5ZTFFGUml0R0FYa2IteXQ4RmpCbkM0WHQzR1NvTlpQbk5vN3E?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-11T01:31:21.086967+00:00",
+   "outlet": "Google News",
+   "resolvable": true,
+   "title": "NSE Downsizes India IPO, Showing Mounting Valuation Concern",
+   "url": "https://www.livemint.com/companies/nse-downsizes-india-ipo-showing-mounting-valuation-concern-11789065021652.html"
   }
  ],
  "ticker": null,
- "updatedAt": "2026-09-10T13:31:09.230748+00:00"
+ "updatedAt": "2026-09-11T01:31:18.776478+00:00"
 }

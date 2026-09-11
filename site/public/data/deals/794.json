@@ -8,7 +8,7 @@
  "confirmed": false,
  "createdAt": "2026-09-10T04:31:22.330812+00:00",
  "dealType": "DRHP filing",
- "enrichmentState": "retrying",
+ "enrichmentState": "failed",
  "id": 794,
  "individuals": [],
  "listed": false,
@@ -52,6 +52,13 @@
    "resolvable": false,
    "title": "Hero Motors Charts IPO Growth Roadmap, ₹1,000-Crore Issue To Fund Debt Reduction And Expansion",
    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbUJTeDBJVEdraklqWFhzeDA2b0RzWVhUWjh2THdZZDFWQ2g2SlNZd095cVY2Wjk1OUllZWYwQU1NY2FuRFJzOEVBMktvb0k3UDlxRUpNUF9rLVdpZURrSVBTMEhObXdNZmpLNFVEdVZnTFFldkxPeVZ4dFF0MzF0amtKOXJUaXdUelA4ZUREWk9vVFNRVDFQZHcwZ19YTDdYeUNlU05SRlBScmtOV2U5dVRGRmwzc1l1ZkdYbE5OT1IteF9CRmI4QXhwX3fSAdIBQVVfeXFMTnFZN2NHUXFhcUU2SzllU1VsQ2lfSk1sT1JvcGlEc3VmSFNwV29uM0lCbFEyXzhuaFpHT2RGOEN2T2YxM1g3YWprcEJZSXd0ZGxFMG83TERPY1VsQXIwb0xaaU9lRWhHbm5KX2ZQNmV2RXF4ZzRONmhxYklWcExUXy1KcmI1ZjRoTmxBTHAtUXBKQm9rcFlNcmt1SFpqVWdKVFVGZTEwT0FNQzhQR25pcmVLeUtvUk9NZGlnalozdHk1Ql9ueHZxYUxzOUZSV21PZVpR?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-11T01:31:20.769356+00:00",
+   "outlet": "financialexpress.com",
+   "resolvable": false,
+   "title": "Hero Motors IPO: 5 key risks investors should know about Rs 1,000 crore issue",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOalNvc24wYzREeTlsYTQwR0w3SXhubldrTnJBdUR3NUZtbXpXUS1VVlBGcjh6bDh1TEJtR2FWM0VSNkIwM2wycXdRUzE5WUZsV0hjR1lORy1makc5YXpQVEk3X2ZHd1pHczZOcU1QVE9MUWpZRkZ1d3oweldkZ3B0cXRiZ1JtR3JKb0xJX0NKbHdMSU1YYkViN2NrME5WQTEwVTZDaV9DeEVaZ0QyMFUtNEtUUy1tYThkT05NQ0tLeGRPcDRqTnhQQmljSHE4UdIB1AFBVV95cUxNVzcxYkJWY3ZkZXhsV1o3dWhwUmxzNXh6SF9iT2lVUDhldUJmd0RoMGlrcHpJUE4wVDFCSm0zeUpwSElZbVhEM2ktdGRPeXVmd3hqOGJJeU44cEpJSFJ6NVZXeDhXbENKTWRRMlJBVzI1VEV3YWhCTWZKWkRRRW95azVZcHpWTjRGd24tSnJLSVozSlQ0eHZDR2taWGRuQ2dMYmpSb3hfS3BUaE5BdWhPSDFDbDdHLXIxcUtvck95Tkc2Y3IyMndETnVQNnZsYm5rbjZLLQ?oc=5"
   }
  ],
  "ticker": null,

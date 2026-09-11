@@ -1,0 +1,31 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "Capital Group",
+ "company": "Corona",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-11T01:31:20.764977+00:00",
+ "dealType": "block deal",
+ "enrichmentState": null,
+ "id": 805,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "ChrysCapital offloads over 4% stake in Corona via block deal.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPRTdLaHJXTTdha1MxTHMtNXRhTVc2YTE1UWxCd2c2ME5uNXNwanFmTTdGbEJITmhfbDJHaUFJSTF5RzN1V09MTHJIYjF1d0hJSVdnM1k5OEZkMXBLRGRGMHJlYzVjSjBjMkNVbWtLRGRaRFltQ09XMnFOZnBDY1IyZktnU1A2N1BKOHhaSy05eWFJNVN4TG5HNnZFRHV4VzZRWW54TWdNVjBnbVlFR05OeW1wWTJ6ZkdmRUM4XzVJUGFQRGRqUVlfYVBoeXZVTDk3QzZuQm41d3RLRWZ5ZkZkdlBUQVRkTTN5eDJqUXloc0FyakdBY1VHci1jQ3FHbWpxaHNwOUZPY9IBhwJBVV95cUxPRTdLaHJXTTdha1MxTHMtNXRhTVc2YTE1UWxCd2c2ME5uNXNwanFmTTdGbEJITmhfbDJHaUFJSTF5RzN1V09MTHJIYjF1d0hJSVdnM1k5OEZkMXBLRGRGMHJlYzVjSjBjMkNVbWtLRGRaRFltQ09XMnFOZnBDY1IyZktnU1A2N1BKOHhaSy05eWFJNVN4TG5HNnZFRHV4VzZRWW54TWdNVjBnbVlFR05OeW1wWTJ6ZkdmRUM4XzVJUGFQRGRqUVlfYVBoeXZVTDk3QzZuQm41d3RLRWZ5ZkZkdlBUQVRkTTN5eDJqUXloc0FyakdBY1VHci1jQ3FHbWpxaHNwOUZPYw?oc=5",
+ "seller": "ChrysCapital",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-11T01:31:20.767010+00:00",
+   "outlet": "Moneycontrol.com",
+   "resolvable": false,
+   "title": "Capital Group buys nearly 2% stake in Lotus Developers; ChrysCapital offloads over 4% stake in Corona...",
+   "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPRTdLaHJXTTdha1MxTHMtNXRhTVc2YTE1UWxCd2c2ME5uNXNwanFmTTdGbEJITmhfbDJHaUFJSTF5RzN1V09MTHJIYjF1d0hJSVdnM1k5OEZkMXBLRGRGMHJlYzVjSjBjMkNVbWtLRGRaRFltQ09XMnFOZnBDY1IyZktnU1A2N1BKOHhaSy05eWFJNVN4TG5HNnZFRHV4VzZRWW54TWdNVjBnbVlFR05OeW1wWTJ6ZkdmRUM4XzVJUGFQRGRqUVlfYVBoeXZVTDk3QzZuQm41d3RLRWZ5ZkZkdlBUQVRkTTN5eDJqUXloc0FyakdBY1VHci1jQ3FHbWpxaHNwOUZPY9IBhwJBVV95cUxPRTdLaHJXTTdha1MxTHMtNXRhTVc2YTE1UWxCd2c2ME5uNXNwanFmTTdGbEJITmhfbDJHaUFJSTF5RzN1V09MTHJIYjF1d0hJSVdnM1k5OEZkMXBLRGRGMHJlYzVjSjBjMkNVbWtLRGRaRFltQ09XMnFOZnBDY1IyZktnU1A2N1BKOHhaSy05eWFJNVN4TG5HNnZFRHV4VzZRWW54TWdNVjBnbVlFR05OeW1wWTJ6ZkdmRUM4XzVJUGFQRGRqUVlfYVBoeXZVTDk3QzZuQm41d3RLRWZ5ZkZkdlBUQVRkTTN5eDJqUXloc0FyakdBY1VHci1jQ3FHbWpxaHNwOUZPYw?oc=5"
+  }
+ ],
+ "ticker": "CORONA.NS",
+ "updatedAt": "2026-09-11T01:31:20.764977+00:00"
+}
