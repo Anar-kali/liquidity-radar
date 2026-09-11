@@ -195,8 +195,8 @@
    ]
   },
   {
-   "amountCr": 23000.0,
-   "amountRaw": "Rs 23,000 crore",
+   "amountCr": 2850.0,
+   "amountRaw": "Rs 2,850 crore",
    "company": "National Stock Exchange",
    "confidence": "medium",
    "confirmed": false,
@@ -211,9 +211,9 @@
    "seller": "Government of India",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 9,
+   "sourceCount": 10,
    "ticker": null,
-   "updatedAt": "2026-09-11T01:31:18.776478+00:00",
+   "updatedAt": "2026-09-11T08:31:13.957147+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-11T01:31:18.775194+00:00",
@@ -246,6 +246,10 @@
     {
      "attachedAt": "2026-09-11T07:31:48.748620+00:00",
      "title": "NSE sets IPO price band at Rs 1,700-1,785; issue to raise up to Rs 22,562 crore"
+    },
+    {
+     "attachedAt": "2026-09-11T08:31:13.956042+00:00",
+     "title": "SBI's 80 paise masterstroke: How NSE IPO could deliver Rs 2,850 crore jackpot and 2,23,025% return"
     }
    ]
   },
@@ -18600,6 +18604,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-11T06:31:24.193478+00:00",
+ "generatedAt": "2026-09-11T08:31:13.957147+00:00",
  "totalDeals": 640
 }
