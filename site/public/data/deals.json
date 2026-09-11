@@ -209,24 +209,26 @@
   },
   {
    "amountCr": 1160.0,
-   "amountRaw": "Rs 1,160 crore",
+   "amountRaw": "1160cr confirmed via NSE block deal",
    "company": "Granules India",
    "confidence": "medium",
-   "confirmed": false,
+   "confirmed": true,
    "createdAt": "2026-09-10T14:52:05.233090+00:00",
    "dealType": "block deal",
    "enrichmentState": "failed",
    "id": 803,
-   "individuals": [],
+   "individuals": [
+    "KRISHNA PRASAD CHIGURUPATI"
+   ],
    "listed": true,
    "oneLine": "Granules India promoter to offload Rs 1,500-crore stake via block deal.",
    "primaryOutlet": "ndtvprofit.com",
    "seller": "Promoter",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 6,
    "ticker": "GRANULES.NS",
-   "updatedAt": "2026-09-11T04:31:21.777234+00:00",
+   "updatedAt": "2026-09-11T17:43:14.339156+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-11T04:31:21.775459+00:00",
@@ -235,6 +237,18 @@
     {
      "attachedAt": "2026-09-11T06:31:24.311420+00:00",
      "title": "Granules India Sees ₹1,160 Crore Block Deal by Promoter"
+    },
+    {
+     "attachedAt": "2026-09-11T17:43:13.932721+00:00",
+     "title": "Granules India Limited: bulk deal"
+    },
+    {
+     "attachedAt": "2026-09-11T17:43:13.940637+00:00",
+     "title": "Granules India Limited: bulk deal"
+    },
+    {
+     "attachedAt": "2026-09-11T17:43:14.337632+00:00",
+     "title": "Granules India Limited: block deal"
     }
    ]
   },
@@ -18677,6 +18691,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-11T10:31:34.973722+00:00",
+ "generatedAt": "2026-09-11T17:43:14.339156+00:00",
  "totalDeals": 642
 }

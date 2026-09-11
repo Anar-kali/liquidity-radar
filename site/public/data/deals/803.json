@@ -1,16 +1,18 @@
 {
  "advisers": [],
  "amountCr": 1160.0,
- "amountRaw": "Rs 1,160 crore",
+ "amountRaw": "1160cr confirmed via NSE block deal",
  "buyer": null,
  "company": "Granules India",
  "confidence": "medium",
- "confirmed": false,
+ "confirmed": true,
  "createdAt": "2026-09-10T14:52:05.233090+00:00",
  "dealType": "block deal",
  "enrichmentState": "failed",
  "id": 803,
- "individuals": [],
+ "individuals": [
+  "KRISHNA PRASAD CHIGURUPATI"
+ ],
  "listed": true,
  "oneLine": "Granules India promoter to offload Rs 1,500-crore stake via block deal.",
  "primaryUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONWoyWVFtOGtPY2l6YWtkQU8zTlM0WTc0QUtiLUpnSG1WLVJxaW5scUwtYzRBSDRiYTZRblIwdzRkVk1fczN2VE15dHRYeFBheTlzOTdfVTJMbFpMRnZ5eDNSUmRkVUtnYTlGT2FQSkZDenA5LU84MXUyVFZuTk8tclJSaENyU2QwU1Zxa28wM3pfZVlDUkhyUjhEdkl1YUZ6QV9jSkFKdGtESVNLUXFwV2EwellsY1o5enB6ZHNjUDJDejBPTjFB0gHPAUFVX3lxTE5GVVdUMVlSdm5hNkE3TmpjRHFKRmdyMGkxSkRlcU1CcHVaczRhX2twZWx4RTdFeTFyRFVuSnFpa2tBcDhBeS12ZzQtM1BRazRIZkdWWXh6R3cwQXdjWVhTdUlzUVBhMEhvMmFLRC1Uc2Z1VHpLLV9MSEE4V1NGQ2p3TkFGaktLWk5qQm9mQWpuLVhZaHZCXzZ4ZTdweVBBTURFMjIxZ050OWhWNVFsQnNQVjdtWF9qTFFnWEhHV3VZek5TU1plYU02NFgxeHAtVQ?oc=5",
@@ -38,8 +40,29 @@
    "resolvable": false,
    "title": "Granules India Sees ₹1,160 Crore Block Deal by Promoter",
    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOYWJNaGlja2ZNWmFRWFhKTkRDMEloTE5kRGd5bXYzZHB5WWVsZVZoMUxwLVRFUmNkYTVaMkFHYU9LLWhlNHZhcUVGM25md094Z3NMaHJ2UjhkeWp0Q3k4X2Y4U29NamppYXJwT3cxcE8yZm92WWVTWm9JMkE4UTQ0RjNvUlpEZHd4T3FxSHVMR2piYjBmaGprNDdvejJzYndTLTB4Z3hXdVVYRHFCT3pJSkxlVGJCM3ZvWmxXS0kxXy1HY0R6Wk84TUx6ZWF4bUhaWVEwbjcyTm56Mm10T2VCWmVR?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-11T17:43:13.932721+00:00",
+   "outlet": "Google News",
+   "resolvable": true,
+   "title": "Granules India Limited: bulk deal",
+   "url": ""
+  },
+  {
+   "attachedAt": "2026-09-11T17:43:13.940637+00:00",
+   "outlet": "Google News",
+   "resolvable": true,
+   "title": "Granules India Limited: bulk deal",
+   "url": ""
+  },
+  {
+   "attachedAt": "2026-09-11T17:43:14.337632+00:00",
+   "outlet": "Google News",
+   "resolvable": true,
+   "title": "Granules India Limited: block deal",
+   "url": ""
   }
  ],
  "ticker": "GRANULES.NS",
- "updatedAt": "2026-09-11T04:31:21.777234+00:00"
+ "updatedAt": "2026-09-11T17:43:14.339156+00:00"
 }
