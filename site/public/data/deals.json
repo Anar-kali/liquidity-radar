@@ -534,10 +534,23 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 1,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-09-10T01:32:19.943567+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-09-11T12:31:11.835869+00:00",
+     "title": "Mann Fleet Partners Gets Sebi Nod for IPO Fundraising"
+    },
+    {
+     "attachedAt": "2026-09-11T12:31:11.838418+00:00",
+     "title": "Mann Fleet Partners gets Sebi nod to raise funds via IPO"
+    },
+    {
+     "attachedAt": "2026-09-11T12:31:11.840925+00:00",
+     "title": "Mann Fleet Partners Gets Sebi Nod For IPO With Fresh Issue Of 60.12 Lakh Shares"
+    }
+   ]
   },
   {
    "amountCr": 600.0,
