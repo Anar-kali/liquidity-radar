@@ -1,0 +1,31 @@
+{
+ "advisers": [],
+ "amountCr": 234.0,
+ "amountRaw": "Rs 234 crore (from article)",
+ "buyer": "AXISCADES",
+ "company": "Cloud Wave",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-11T09:31:46.207060+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 811,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "AXISCADES acquired a majority stake in Cloud Wave.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQODhPQV9vNUdrdU55ekV0SDdETDNLcVRRelp1Q2F3Tm51VldtZHFURUJ3NHRUeWYtS0VRTUIzS285dlBhVENteDJjc0NrRk16MFE5MjVUZnEyVlRLNG56eGVsTlFzUEVvcG1ERGJ1cTB0aXc4WXpfVFBQamxoaGtsOWN1VE8tR1BSeUZ4aDRHUTNRalY0Y19Va2lkY3oxX3loMTdZZ2lWYXUwQVpRUkhIdlkwd1ZmVExOSzRQWnNkS3YySnlNRGNSS3A2aUNEYWtCWm5PMURhUmx6NWo3QzBxOUpPOGnSAeoBQVVfeXFMTm41bTEzQjRLcDd6ZHJnWExsRHdoOW9fMEpUZGF2SS1LM1hMRkxzTEoxazMtdUhQdDR1eFAzX3VOM3BuTzd6MTlIZjNWWG9fbG5mdVo2dTlfUTJpdEJHZ08yR21lbEZmejFIdWVUdjBjWHpSVTdIb3c4WW1vZ0JkTzRHbHk3TjA1X2d1YVZPTDBYQVBpaUwxT1VsWGtMeDV2MHBuQU9rdURIWXFmaVZQVlpzOVc5S0lOVDI2VDh5eHNxblUzWkVqOGVQaWVaSG94YTUtd3hmYlR5VXdWc1p2VlVRZUdnRkg5dmRn?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-11T09:31:46.209359+00:00",
+   "outlet": "Business Standard",
+   "resolvable": false,
+   "title": "AXISCADES acquires majority stake in Cloud Wave and its subsidiaries",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQODhPQV9vNUdrdU55ekV0SDdETDNLcVRRelp1Q2F3Tm51VldtZHFURUJ3NHRUeWYtS0VRTUIzS285dlBhVENteDJjc0NrRk16MFE5MjVUZnEyVlRLNG56eGVsTlFzUEVvcG1ERGJ1cTB0aXc4WXpfVFBQamxoaGtsOWN1VE8tR1BSeUZ4aDRHUTNRalY0Y19Va2lkY3oxX3loMTdZZ2lWYXUwQVpRUkhIdlkwd1ZmVExOSzRQWnNkS3YySnlNRGNSS3A2aUNEYWtCWm5PMURhUmx6NWo3QzBxOUpPOGnSAeoBQVVfeXFMTm41bTEzQjRLcDd6ZHJnWExsRHdoOW9fMEpUZGF2SS1LM1hMRkxzTEoxazMtdUhQdDR1eFAzX3VOM3BuTzd6MTlIZjNWWG9fbG5mdVo2dTlfUTJpdEJHZ08yR21lbEZmejFIdWVUdjBjWHpSVTdIb3c4WW1vZ0JkTzRHbHk3TjA1X2d1YVZPTDBYQVBpaUwxT1VsWGtMeDV2MHBuQU9rdURIWXFmaVZQVlpzOVc5S0lOVDI2VDh5eHNxblUzWkVqOGVQaWVaSG94YTUtd3hmYlR5VXdWc1p2VlVRZUdnRkg5dmRn?oc=5"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-11T09:31:48.909413+00:00"
+}

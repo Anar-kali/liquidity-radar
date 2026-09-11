@@ -1,6 +1,28 @@
 {
- "dealCount": 640,
+ "dealCount": 641,
  "deals": [
+  {
+   "amountCr": 234.0,
+   "amountRaw": "Rs 234 crore (from article)",
+   "company": "Cloud Wave",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-11T09:31:46.207060+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 811,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "AXISCADES acquired a majority stake in Cloud Wave.",
+   "primaryOutlet": "Business Standard",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-11T09:31:48.909413+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -18604,6 +18626,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-11T08:31:13.957147+00:00",
- "totalDeals": 640
+ "generatedAt": "2026-09-11T09:31:48.909413+00:00",
+ "totalDeals": 641
 }
