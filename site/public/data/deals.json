@@ -1,6 +1,28 @@
 {
- "dealCount": 641,
+ "dealCount": 642,
  "deals": [
+  {
+   "amountCr": 310.17,
+   "amountRaw": "INR 310.17 crore",
+   "company": "SPV Global Trading",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-11T10:31:34.973722+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": "failed",
+   "id": 812,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Gravita India to acquire a stake in SPV Global Trading for INR 310.17 crore.",
+   "primaryOutlet": "scanx.trade",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "512221.BO",
+   "updatedAt": "2026-09-11T10:31:34.973722+00:00",
+   "updates": []
+  },
   {
    "amountCr": 234.0,
    "amountRaw": "Rs 234 crore (from article)",
@@ -233,7 +255,7 @@
    "seller": "Government of India",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 10,
+   "sourceCount": 11,
    "ticker": null,
    "updatedAt": "2026-09-11T08:31:13.957147+00:00",
    "updates": [
@@ -272,6 +294,10 @@
     {
      "attachedAt": "2026-09-11T08:31:13.956042+00:00",
      "title": "SBI's 80 paise masterstroke: How NSE IPO could deliver Rs 2,850 crore jackpot and 2,23,025% return"
+    },
+    {
+     "attachedAt": "2026-09-11T10:31:34.979572+00:00",
+     "title": "NSE IPO: Key Changes from DRHP to RHP Revealed"
     }
    ]
   },
@@ -18626,6 +18652,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-11T09:31:48.909413+00:00",
- "totalDeals": 641
+ "generatedAt": "2026-09-11T10:31:34.973722+00:00",
+ "totalDeals": 642
 }

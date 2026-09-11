@@ -1,0 +1,31 @@
+{
+ "advisers": [],
+ "amountCr": 310.17,
+ "amountRaw": "INR 310.17 crore",
+ "buyer": "Gravita India",
+ "company": "SPV Global Trading",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-11T10:31:34.973722+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": "failed",
+ "id": 812,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Gravita India to acquire a stake in SPV Global Trading for INR 310.17 crore.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNY3ROTDhOYjJIdUFWaWpTT2ptY2JfbUlxNGpNWUJZdE9vQ0RiUFZOMnRLanpIMU1qMjRKcFBMQmV6YTlXU0Y3S1FPTXYtUVktb0NHX3hQYlU1WmVBbEFqd29zRjRUR0FqTkd0Q1hHSUZJOHdmUUpJN1EyU1ppY2VJRXNXT1k0emE2d1BLVm1EYmJnTjNNaTN6VWJHbVF1bEE2LTRabkk2SzNWaWJrSkRFQzU5dGo5cE5ndXRuOG9wSmh4YVVNVzVYbkl2eUlVLXUxNFJ3MGJmRHFCM1h3M3djNDBfbw?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-11T10:31:34.975509+00:00",
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "SPV Global Trading board approves binding term sheet with Gravita India for INR 310.17 crore stake sale",
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNY3ROTDhOYjJIdUFWaWpTT2ptY2JfbUlxNGpNWUJZdE9vQ0RiUFZOMnRLanpIMU1qMjRKcFBMQmV6YTlXU0Y3S1FPTXYtUVktb0NHX3hQYlU1WmVBbEFqd29zRjRUR0FqTkd0Q1hHSUZJOHdmUUpJN1EyU1ppY2VJRXNXT1k0emE2d1BLVm1EYmJnTjNNaTN6VWJHbVF1bEE2LTRabkk2SzNWaWJrSkRFQzU5dGo5cE5ndXRuOG9wSmh4YVVNVzVYbkl2eUlVLXUxNFJ3MGJmRHFCM1h3M3djNDBfbw?oc=5"
+  }
+ ],
+ "ticker": "512221.BO",
+ "updatedAt": "2026-09-11T10:31:34.973722+00:00"
+}
