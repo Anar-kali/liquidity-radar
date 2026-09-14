@@ -1,0 +1,31 @@
+{
+ "advisers": [],
+ "amountCr": 750.0,
+ "amountRaw": "Rs 750 Crore",
+ "buyer": null,
+ "company": "Rayzon Solar",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-14T10:31:06.260004+00:00",
+ "dealType": "IPO-OFS",
+ "enrichmentState": null,
+ "id": 839,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Rayzon Solar cuts its IPO size to Rs 750 crore.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUVFFMzFPbExwenFFRmhuWnlDR3FycEhSUXE0aTdYdnE1SXBTZ2hkT2VwMGZHTFE4X0Q1NUJiLUkzc2tjWVZNelNiWmIwUXlTNjRqZUZqSzdtdlBoUkFqWXdjSENlRkcyRXZJTVFCdHNKNVd1bUlFYVJST0daVElhY2VITWRDSnk0TDFtRzBKUFBQNVBHUV9tVllha1dmSTNldWFzajUtZHh5bmkyZjVscg?oc=5",
+ "seller": "Rayzon Solar",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-14T10:31:06.261019+00:00",
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "Rayzon Solar Cuts IPO Size to Rs 750 Crore",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUVFFMzFPbExwenFFRmhuWnlDR3FycEhSUXE0aTdYdnE1SXBTZ2hkT2VwMGZHTFE4X0Q1NUJiLUkzc2tjWVZNelNiWmIwUXlTNjRqZUZqSzdtdlBoUkFqWXdjSENlRkcyRXZJTVFCdHNKNVd1bUlFYVJST0daVElhY2VITWRDSnk0TDFtRzBKUFBQNVBHUV9tVllha1dmSTNldWFzajUtZHh5bmkyZjVscg?oc=5"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-14T10:31:14.062947+00:00"
+}

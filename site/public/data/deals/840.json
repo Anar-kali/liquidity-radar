@@ -1,0 +1,34 @@
+{
+ "advisers": [],
+ "amountCr": 38400.0,
+ "amountRaw": "400 million pounds",
+ "buyer": "EET Retail",
+ "company": "SGN Retail",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-09-14T10:31:06.269116+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 840,
+ "individuals": [
+  "Graham Peacock",
+  "Susan Tobbell"
+ ],
+ "listed": false,
+ "oneLine": "EET Retail acquires SGN Retail, cashing out founders Graham Peacock and Susan Tobbell.",
+ "primaryUrl": "https://www.thehindubusinessline.com/companies/essars-eet-retail-to-acquire-uk-forecourt-operator-sgn-for-400-million-pounds/article71465596.ece",
+ "seller": "Graham Peacock and Susan Tobbell",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-14T10:31:06.270585+00:00",
+   "outlet": "Business Line",
+   "resolvable": true,
+   "title": "Essar's EET Retail to acquire UK forecourt operator SGN for 400 million pounds",
+   "url": "https://www.thehindubusinessline.com/companies/essars-eet-retail-to-acquire-uk-forecourt-operator-sgn-for-400-million-pounds/article71465596.ece"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-14T10:31:06.269116+00:00"
+}

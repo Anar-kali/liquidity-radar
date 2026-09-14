@@ -1,6 +1,75 @@
 {
- "dealCount": 667,
+ "dealCount": 670,
  "deals": [
+  {
+   "amountCr": 38400.0,
+   "amountRaw": "400 million pounds",
+   "company": "SGN Retail",
+   "confidence": "high",
+   "confirmed": false,
+   "createdAt": "2026-09-14T10:31:06.269116+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 840,
+   "individuals": [
+    "Graham Peacock",
+    "Susan Tobbell"
+   ],
+   "listed": false,
+   "oneLine": "EET Retail acquires SGN Retail, cashing out founders Graham Peacock and Susan Tobbell.",
+   "primaryOutlet": "Business Line",
+   "seller": "Graham Peacock and Susan Tobbell",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-14T10:31:06.269116+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 750.0,
+   "amountRaw": "Rs 750 Crore",
+   "company": "Rayzon Solar",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-14T10:31:06.260004+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 839,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Rayzon Solar cuts its IPO size to Rs 750 crore.",
+   "primaryOutlet": "Whalesbook",
+   "seller": "Rayzon Solar",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-14T10:31:14.062947+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 3520.0,
+   "amountRaw": "$400M",
+   "company": "This auto component maker plans to raise $400M via IPO",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-14T10:31:06.255172+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": "failed",
+   "id": 838,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Unnamed auto component maker plans a $400M IPO.",
+   "primaryOutlet": "NewsBytes",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-14T10:31:06.255172+00:00",
+   "updates": []
+  },
   {
    "amountCr": 11968.0,
    "amountRaw": "$1.36 billion",
@@ -354,16 +423,18 @@
    "dealType": "DRHP filing",
    "enrichmentState": null,
    "id": 823,
-   "individuals": [],
+   "individuals": [
+    "Noel Tata"
+   ],
    "listed": false,
    "oneLine": "Tata Sons potential listing provides liquidity relief to the Mistry family.",
    "primaryOutlet": "Fortune India",
    "seller": "Shapoorji Pallonji Group",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 7,
+   "sourceCount": 8,
    "ticker": null,
-   "updatedAt": "2026-09-14T08:31:05.993868+00:00",
+   "updatedAt": "2026-09-14T10:31:06.265691+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-14T01:32:10.963632+00:00",
@@ -388,6 +459,10 @@
     {
      "attachedAt": "2026-09-14T08:31:05.993019+00:00",
      "title": "Shapoorji Pallonji Group rethinks 18.37% Tata stake sale, valued at Rs 2.3 lakh crore"
+    },
+    {
+     "attachedAt": "2026-09-14T10:31:06.264740+00:00",
+     "title": "Tata Sons under IPO pressure: Noel faces biggest crisis amid RBI's regulatory push for public listing"
     }
    ]
   },
@@ -19355,6 +19430,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-14T09:31:11.260155+00:00",
- "totalDeals": 667
+ "generatedAt": "2026-09-14T10:31:14.062947+00:00",
+ "totalDeals": 670
 }
