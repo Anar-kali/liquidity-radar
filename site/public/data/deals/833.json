@@ -1,0 +1,31 @@
+{
+ "advisers": [],
+ "amountCr": 2670.0,
+ "amountRaw": "₹2,670 Cr",
+ "buyer": "Lenskart",
+ "company": "Lenskart",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-14T06:31:04.902022+00:00",
+ "dealType": "block deal",
+ "enrichmentState": null,
+ "id": 833,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "BNP and Millennium sell Lenskart shares in Rs 2,670 crore block deals.",
+ "primaryUrl": "https://inc42.com/buzz/lenskart-increases-ajnalens-stake-to-over-9-to-deepen-smart-glasses-push/",
+ "seller": "BNP & Millennium",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-14T06:31:04.903329+00:00",
+   "outlet": "Inc42",
+   "resolvable": true,
+   "title": "Lenskart Increases AjnaLens Stake To Over 9% To Deepen Smart Glasses Push",
+   "url": "https://inc42.com/buzz/lenskart-increases-ajnalens-stake-to-over-9-to-deepen-smart-glasses-push/"
+  }
+ ],
+ "ticker": "LENSKART.NS",
+ "updatedAt": "2026-09-14T06:31:11.331401+00:00"
+}

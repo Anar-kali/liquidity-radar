@@ -1,6 +1,50 @@
 {
- "dealCount": 661,
+ "dealCount": 663,
  "deals": [
+  {
+   "amountCr": 2670.0,
+   "amountRaw": "₹2,670 Cr",
+   "company": "Lenskart",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-14T06:31:04.902022+00:00",
+   "dealType": "block deal",
+   "enrichmentState": null,
+   "id": 833,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "BNP and Millennium sell Lenskart shares in Rs 2,670 crore block deals.",
+   "primaryOutlet": "Inc42",
+   "seller": "BNP & Millennium",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "LENSKART.NS",
+   "updatedAt": "2026-09-14T06:31:11.331401+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 3960.0,
+   "amountRaw": "$450 mn",
+   "company": "Maple InVIT",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-14T06:31:04.896599+00:00",
+   "dealType": "PE secondary",
+   "enrichmentState": null,
+   "id": 832,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Macquarie Asset buys stake in Maple InVIT from La Caisse for $450 million.",
+   "primaryOutlet": "Mint",
+   "seller": "La Caisse",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-14T06:31:04.896599+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -19194,6 +19238,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-14T04:31:10.594058+00:00",
- "totalDeals": 661
+ "generatedAt": "2026-09-14T06:31:11.331401+00:00",
+ "totalDeals": 663
 }

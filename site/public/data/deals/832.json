@@ -1,0 +1,31 @@
+{
+ "advisers": [],
+ "amountCr": 3960.0,
+ "amountRaw": "$450 mn",
+ "buyer": "Macquarie Asset",
+ "company": "Maple InVIT",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-14T06:31:04.896599+00:00",
+ "dealType": "PE secondary",
+ "enrichmentState": null,
+ "id": 832,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Macquarie Asset buys stake in Maple InVIT from La Caisse for $450 million.",
+ "primaryUrl": "https://www.livemint.com/companies/news/macquarie-asset-buys-stake-in-maple-invit-from-la-caisse-infuses-450-mn-11789363894702.html",
+ "seller": "La Caisse",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-14T06:31:04.898000+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "Macquarie Asset buys stake in Maple InVIT from La Caisse, infuses $450 mn",
+   "url": "https://www.livemint.com/companies/news/macquarie-asset-buys-stake-in-maple-invit-from-la-caisse-infuses-450-mn-11789363894702.html"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-14T06:31:04.896599+00:00"
+}
