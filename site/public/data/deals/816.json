@@ -1,0 +1,73 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "National Stock Exchange",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-14T01:32:08.452479+00:00",
+ "dealType": "IPO-OFS",
+ "enrichmentState": "failed",
+ "id": 816,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "National Stock Exchange trims price band amid stake sale plans for IPO.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWm1BMUt5S3MzQVo4MjY2OUVROWlLQ2d3Q0xNVDVSa2R0aEJpMEo3d19zUlNuRUk0SHJMM3FGWU9FdzRDTkdhOThtZ3JXWDlOaDBnLVV3WWtXSy0tR3Y0d1ZaM0hIby1KcUhCYmRTRXo1UzZHU08wQ0U4cmEzRTFCR1MxbDdJSmFQT3VkYWdXcFR2OU5Dak5NUjZUa1hMLXU2YVl6amtfb0JKQTY2VXFmUlB3?oc=5",
+ "seller": "Oriental Insurance",
+ "sizeBand": "OVER_2000",
+ "sizeSource": "band",
+ "sources": [
+  {
+   "attachedAt": "2026-09-14T01:32:08.453584+00:00",
+   "outlet": "Prop News Time",
+   "resolvable": false,
+   "title": "NSE cuts IPO price band by 15% amid plans to trim stake sale",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWm1BMUt5S3MzQVo4MjY2OUVROWlLQ2d3Q0xNVDVSa2R0aEJpMEo3d19zUlNuRUk0SHJMM3FGWU9FdzRDTkdhOThtZ3JXWDlOaDBnLVV3WWtXSy0tR3Y0d1ZaM0hIby1KcUhCYmRTRXo1UzZHU08wQ0U4cmEzRTFCR1MxbDdJSmFQT3VkYWdXcFR2OU5Dak5NUjZUa1hMLXU2YVl6amtfb0JKQTY2VXFmUlB3?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-14T01:32:09.972780+00:00",
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "Oriental Insurance Targets FY27 Profitability With NSE IPO Stake Sale",
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOTmp2MUJLZ3lreEpFMjYyS3VHTmZuUTZDanY3QkV1eFd0LXFZT3phNTdhTy10MWRpU1JSMVB4RUQ3LXp3bHZER19MM2ZTVlRZNEhlTVJSLVBjY29hbmtqeFN6WXlwVThLeUtpVWlRaS1aMUZlOFhpdTl1SlBTTzYtSVdpZWNLUG9jRTR6WlpQMGxCWVQwcUVLTlprNTBWa2pYUVE2VEQtTl9rbi1tZmpUQ3V6VHliRHdYOGxyZkNTQmoyY0pKRDlldVJFU3dhMFFZeXJrZzltQkdsdWF0Mzg2ekhNbw?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-14T01:32:10.591568+00:00",
+   "outlet": "India Infoline",
+   "resolvable": false,
+   "title": "National Stock Exchange (NSE) IPO Details",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9CLUFGM3BQOW1icF9QZXRFWDJfT0ZtclV1U2QzMEFuQnNMNlJQbWJ3b00zUjd4N19LeEtGbzU2ZE4zZHlXM3MwajlDT0JFYm1nOEhGSklBMTEta1pxX05DWDZjeEFncTE1Y2dJbHRn?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-14T01:32:10.593791+00:00",
+   "outlet": "BBN Times",
+   "resolvable": false,
+   "title": "When Is the NSE IPO Coming, and How Does the IPO Process Work?",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQS2g1TkRoQ0otbGRnamw1MXdIYVluRVN5bnNqNTNVODNKRDhDTS0xRk15UGZraXNDMl8wZzluOXgxMFJFc0RZN3I3cEplTWxIMk83akw2ZzBicklxbjJqNGVtWDRVUnM0a3lFVGdyaXlXbG5MOTRUeTVWQ2htTmVWYThlUUh0b1VHcDFJM0NCTEhEQmExcnBJTzNn?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-14T01:32:10.618321+00:00",
+   "outlet": "ET Now",
+   "resolvable": false,
+   "title": "NSE IPO: SBI, Bank of Baroda, GIC Re, New India Assurance shares in focus amid stake sale - What it means for stocks",
+   "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPT0p0ZjRTcVJzaDc3VmE1aXBsUk5RMzg3OWtnNFIzV1dENWxFaGYwQ2czMmZxNmQ3UmN5bWNqQnZ5VW91b2t4RkNJUEpSMUkwZW80dUZXamV1ckpNT0FoczZ2bi0tV1ZWTkxGbWVYcUNOY2JZdDBES20zc0J1VG1Bc1pkU1p3RGd0VU9DU3NJUW9xMmZuTnoyd0tHRzBFTlBmUlEzd1Fja3diTVFJUXlOZHBDUjFGcFYyR3hrMEJXbXRGTXI4NHZjbV82YmlRUndWQmpmeXpEYVdNazFIdkxxVmVySFJzMDBBbEhwSmFvQS1DOHA1d2xsSGJB0gH_AUFVX3lxTE41Mm1rYmFDUEt0VDRsSnpSNHBWblpkRXVVNjdSVzd1aUJ3Z3dlYTBCUVZVNkJmRFJ0eWk1MVpXU0ljNE1hNFJCd0trd0Y4VmdieklPRmpjTDV0RWhGb19uR1Zkbzg3MmdqZ0ZacmNRQVhvT0JqODdyVDMteGZuREh5bDB4T0RyVW9taVlvbHpjWG16ZVNFNXRIUzZ1Q19sRWV1aTN5MjNSOEFZSEluVkhyYnFzaF9aS2M1Q1p4dmp4OS1nMjFVR0laQVI1d2VvTWtQVlU5V2VtS3FEUTNOVTVYY0xkUDVpVUNucE5zYkxVNXBFdG1zem82ZHh5bGI1QQ?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-14T01:32:10.626780+00:00",
+   "outlet": "The Economic Times",
+   "resolvable": false,
+   "title": "Oriental Insurance hopes to turn corner in FY27 assisted by NSE stake dilution",
+   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQNGpCcmtPXzVGUnYtVENmbGNNOGJTemhxTUQ5NXJUMENMZ244aTR6OFVWeG5ZOXFFS1NqNTdSLThENWlNUE5nRTlMUjktcGtOTnNYbkxCSkhRejV2dEYyQ0dDQ2JjQVBlbWpsUjZGZXgtazN3SHBCMWVFVWdfbFRPR3FVUkFhZ0gwNzJxWmZfTDhwaVhCV3dFUEJLMFgwUTRjY0QxSjRJcW1veTBLQ2VTMV8yd1lpeWxreUVNMFdqQzFhVDdnN2N5SGc3b1FqSHhTQ19PZjRSNW0wODRVMVREMEdud3BFeHlXNGNhadIB7AFBVV95cUxQNGpCcmtPXzVGUnYtVENmbGNNOGJTemhxTUQ5NXJUMENMZ244aTR6OFVWeG5ZOXFFS1NqNTdSLThENWlNUE5nRTlMUjktcGtOTnNYbkxCSkhRejV2dEYyQ0dDQ2JjQVBlbWpsUjZGZXgtazN3SHBCMWVFVWdfbFRPR3FVUkFhZ0gwNzJxWmZfTDhwaVhCV3dFUEJLMFgwUTRjY0QxSjRJcW1veTBLQ2VTMV8yd1lpeWxreUVNMFdqQzFhVDdnN2N5SGc3b1FqSHhTQ19PZjRSNW0wODRVMVREMEdud3BFeHlXNGNhaQ?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-14T01:32:10.633474+00:00",
+   "outlet": "Rediff MoneyWiz",
+   "resolvable": false,
+   "title": "Oriental Insurance Targets FY27 Profit with NSE IPO Sale",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQR1RIQS1uWlk0c0ZYb29aQW03Q3FrUWdLLXdZY3lCbVBBemJWbi1jeTVrTHkyNkhuNHpGTXhVYkxxS0VjRm9vRDVWdC1vUkR2OWR2aUEwNnBCT29ZWURWSk1fUVRKX0FKOUp1SHRIeXdITm5jcE1yWWI4ZXVzd1dUNTlnMDFsZFJwcWNyNmZTLWdMdE1hN3RxcEg0aVRBc21vdmF1ajRRWm5Wa1M30gGyAUFVX3lxTE1GX1ZJREtBVUFkZ2oxamtrN1U5b3doakgxcVRSTnlDQmhEblRvRkVTUVJiQnRQNHFtMFBOZFJwTDhQekdpYVNmcGJLOGpYdUlqXzFZVFpmbWhxV1c0SjdEa3RpU3dGUnVVd3hfZ0dGUjlhUU41aHBDYXM5SWNQeUhxNzdBZXUxNk1WSnZQVDV5b0FxVlFSZmZya1JjaGExS05neE42WGJsOEl4a0FUVm5MYWc?oc=5"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-14T01:32:09.974035+00:00"
+}

@@ -1,0 +1,31 @@
+{
+ "advisers": [],
+ "amountCr": 356.8,
+ "amountRaw": "7.7% x mcap ~Rs 4633cr = ~Rs 357cr",
+ "buyer": null,
+ "company": "Bosch Home Comfort India",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-14T01:32:09.150510+00:00",
+ "dealType": "promoter sale",
+ "enrichmentState": "failed",
+ "id": 818,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Bosch Home Comfort India promoter sells 7.7% stake via OFS.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNXE1MC1ybzd2UFZnQUltZnhZckMzVWRyNzhjUHFBc2lyQXpkRjhvdDBfNjFHRHVEQVJRTFY3eUNlOUluU0VFRURKaGdVRjVjMFFWM2ZKSjVLQ1VIQWc2OHFZNWwtMlBZZXI1ODdFZWVKVG92aXA2NWgtSlpjbzNvRV9sZDAtTUZpVTRSaW9SYmhWNFQzOWc0Z0N5elBOcEtpdmtZVGpOeFhMZzRyd1NBYVJGU3A?oc=5",
+ "seller": "Promoter",
+ "sizeBand": null,
+ "sizeSource": "computed",
+ "sources": [
+  {
+   "attachedAt": "2026-09-14T01:32:09.151953+00:00",
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "Bosch Home Comfort India promoter sells 7.7% stake via OFS",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNXE1MC1ybzd2UFZnQUltZnhZckMzVWRyNzhjUHFBc2lyQXpkRjhvdDBfNjFHRHVEQVJRTFY3eUNlOUluU0VFRURKaGdVRjVjMFFWM2ZKSjVLQ1VIQWc2OHFZNWwtMlBZZXI1ODdFZWVKVG92aXA2NWgtSlpjbzNvRV9sZDAtTUZpVTRSaW9SYmhWNFQzOWc0Z0N5elBOcEtpdmtZVGpOeFhMZzRyd1NBYVJGU3A?oc=5"
+  }
+ ],
+ "ticker": "BOSCH-HCIL.NS",
+ "updatedAt": "2026-09-14T01:32:09.150510+00:00"
+}

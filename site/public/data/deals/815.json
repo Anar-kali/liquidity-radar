@@ -1,0 +1,31 @@
+{
+ "advisers": [],
+ "amountCr": 552.49,
+ "amountRaw": "₹552.49 Crore",
+ "buyer": null,
+ "company": "Novartis India",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-14T01:32:08.449104+00:00",
+ "dealType": "open offer",
+ "enrichmentState": "failed",
+ "id": 815,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Novartis India received a detailed public statement for a ₹552.49 crore open offer.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNb2o3UkRybDNlbDVyMVVkaTktNS1TbXpINXg4SHY4OFNDMkhlbFZfQjliaks0ZlkxVmFkSmF3eVJMY3FhNWF5NGhlSE9GMWdFb0JlcWhXUmZjQWo1cU5FWlZfYng1Vjlza1hJbjFPMkhONElVR0E5UHE1SHlvM3lDbnlGQWotbXNpZHl4S2ptNFhEUENqWE4ySDF5aGJDOUlRRmYtNXNlV29zU0VpNEdhNHd1NktZOGlOcmt6c2QxYlhwZHA1TmR3R202a1BuNUNWMGMyRmNnVm92NGh4eXluUkd4NllCNEU?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-14T01:32:08.450094+00:00",
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "Novartis India Receives Detailed Public Statement for ₹552.49 Crore Open Offer",
+   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNb2o3UkRybDNlbDVyMVVkaTktNS1TbXpINXg4SHY4OFNDMkhlbFZfQjliaks0ZlkxVmFkSmF3eVJMY3FhNWF5NGhlSE9GMWdFb0JlcWhXUmZjQWo1cU5FWlZfYng1Vjlza1hJbjFPMkhONElVR0E5UHE1SHlvM3lDbnlGQWotbXNpZHl4S2ptNFhEUENqWE4ySDF5aGJDOUlRRmYtNXNlV29zU0VpNEdhNHd1NktZOGlOcmt6c2QxYlhwZHA1TmR3R202a1BuNUNWMGMyRmNnVm92NGh4eXluUkd4NllCNEU?oc=5"
+  }
+ ],
+ "ticker": "NOVARTIND.NS",
+ "updatedAt": "2026-09-14T01:32:08.449104+00:00"
+}

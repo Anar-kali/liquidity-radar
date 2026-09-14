@@ -1,0 +1,33 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "OpenAI",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-14T01:32:10.975150+00:00",
+ "dealType": "unknown",
+ "enrichmentState": null,
+ "id": 828,
+ "individuals": [
+  "Sam Altman"
+ ],
+ "listed": false,
+ "oneLine": "OpenAI says no IPO in 2026.",
+ "primaryUrl": "https://www.livemint.com/companies/openais-altman-says-no-ipo-in-2026-firm-to-prioritize-safety-11789245963661.html",
+ "seller": null,
+ "sizeBand": "OVER_2000",
+ "sizeSource": "band",
+ "sources": [
+  {
+   "attachedAt": "2026-09-14T01:32:10.976256+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "OpenAI’s Altman Says No IPO in 2026, Firm to Prioritize Safety",
+   "url": "https://www.livemint.com/companies/openais-altman-says-no-ipo-in-2026-firm-to-prioritize-safety-11789245963661.html"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-14T01:32:10.975150+00:00"
+}

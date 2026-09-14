@@ -1,0 +1,38 @@
+{
+ "advisers": [],
+ "amountCr": 1200.0,
+ "amountRaw": "₹1,200cr",
+ "buyer": null,
+ "company": "Kamarajar Port",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-14T01:32:10.955769+00:00",
+ "dealType": "unknown",
+ "enrichmentState": null,
+ "id": 827,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Chennai-based Kamarajar Port is planning a ₹1,200 crore IPO.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOTTRSa00xb0M5ZHRuaXVMcWdIcGRESVgzZnBGMk51RWRkcnQ1LXQ4UXNuVVRNdTFqZFlUQkwwaVFrbHBsQkJ6eGV4THJsSnFfZ0tSWkkyX3Z6RnUxaWVQTkJBTDVQTEtyaWNycjJad0l0QVI2ZjNndjFiY25RZGJ3eVc1S0xtbHFuZXFtdWhFdlhfMmxtYS1vWkc1bWhJTGRUQzVodHpVdHNuZUlnWUhxTU8zQXpLa0Zvbms5SW03Zm1KQQ?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-14T01:32:10.957132+00:00",
+   "outlet": "NewsBytes",
+   "resolvable": false,
+   "title": "This Chennai-based port is planning ₹1,200cr IPO in India",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOTTRSa00xb0M5ZHRuaXVMcWdIcGRESVgzZnBGMk51RWRkcnQ1LXQ4UXNuVVRNdTFqZFlUQkwwaVFrbHBsQkJ6eGV4THJsSnFfZ0tSWkkyX3Z6RnUxaWVQTkJBTDVQTEtyaWNycjJad0l0QVI2ZjNndjFiY25RZGJ3eVc1S0xtbHFuZXFtdWhFdlhfMmxtYS1vWkc1bWhJTGRUQzVodHpVdHNuZUlnWUhxTU8zQXpLa0Zvbms5SW03Zm1KQQ?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-14T01:32:10.961415+00:00",
+   "outlet": "IndiaIPO",
+   "resolvable": false,
+   "title": "Kamarajar Port invites bankers for ₹1,200 crore IPO",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNaV9wSkVwelVySm9hQ3ByWnNKX2l0T3ZaRXBnc0dvdlV1ZlhkTVVWR3p6VEhKTXdqc0ZOZko5U3V2VXRuZzJrWHhyYmM1dXFodGE2NWhsR0pvZ193NFlVOEZxZ2FEOHpZWTdjMHkyOE5tMjZ3NHNBa3BDUU9mTGtRU2xMVEYxeV84dmZkckVB?oc=5"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-14T01:32:10.955769+00:00"
+}

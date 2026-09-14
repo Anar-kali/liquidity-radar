@@ -1,0 +1,31 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "SML Ltd",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-14T01:32:10.949101+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": null,
+ "id": 826,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "SML Ltd weighing IPO within 2 to 3 years.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPbTJEaTNWLTRZLXhRNFU5NG5TVWk2NlcyTXM0X0JYQmFfR1RvcWJCVkxHZDE3NzVpNlVFemtmZUdsNmdlay0yaGo2RW9hMEVvZXQteVB1dm9yNFRiUDNES09FeG9MTGZTVko4SkprbVRDV3M4UlBaZjRkTVEyRjVaYi1EaGoydU9LT2VjY3JnellJeG0tcVBTcjVoN2diOFFyLXpuMURqNzJnTTlfSmM0eXJIdTR6eUl1RkRxUmlNZGM0bTVoekwwUDVLMXktMVpDQ2Z1azRSeGI1YmpkZXAxSFVPVlHSAeQBQVVfeXFMT20yRGkzVi00WS14UTRVOTRuU1VpNjZXMk1zNF9CWEJhX0dUb3FiQlZMR2QxNzc1aTZVRXprZmVHbDZnZWstMmhqNkVvYTBFb2V0LXlQdXZvcjRUYlAzREtPRXhvTExmU1ZKOEpKa21UQ1dzOFJQWmY0ZE1RMkY1WmItRGhqMnVPS09lY2NyZ3pZSXhtLXFQU3I1aDdnYjhRci16bjFEajcyZ005X0pjNHlySHU0enlJdUZEcVJpTWRjNG01aHpMMFA1SzF5LTFaQ0NmdWs0UnhiNWJqZGVwMUhVT1ZR?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "mcap_plausible",
+ "sources": [
+  {
+   "attachedAt": "2026-09-14T01:32:10.950173+00:00",
+   "outlet": "The Economic Times",
+   "resolvable": false,
+   "title": "SML Ltd weighing IPO within 2 to 3 years, eyes new chemical entity pipeline",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPbTJEaTNWLTRZLXhRNFU5NG5TVWk2NlcyTXM0X0JYQmFfR1RvcWJCVkxHZDE3NzVpNlVFemtmZUdsNmdlay0yaGo2RW9hMEVvZXQteVB1dm9yNFRiUDNES09FeG9MTGZTVko4SkprbVRDV3M4UlBaZjRkTVEyRjVaYi1EaGoydU9LT2VjY3JnellJeG0tcVBTcjVoN2diOFFyLXpuMURqNzJnTTlfSmM0eXJIdTR6eUl1RkRxUmlNZGM0bTVoekwwUDVLMXktMVpDQ2Z1azRSeGI1YmpkZXAxSFVPVlHSAeQBQVVfeXFMT20yRGkzVi00WS14UTRVOTRuU1VpNjZXMk1zNF9CWEJhX0dUb3FiQlZMR2QxNzc1aTZVRXprZmVHbDZnZWstMmhqNkVvYTBFb2V0LXlQdXZvcjRUYlAzREtPRXhvTExmU1ZKOEpKa21UQ1dzOFJQWmY0ZE1RMkY1WmItRGhqMnVPS09lY2NyZ3pZSXhtLXFQU3I1aDdnYjhRci16bjFEajcyZ005X0pjNHlySHU0enlJdUZEcVJpTWRjNG01aHpMMFA1SzF5LTFaQ0NmdWs0UnhiNWJqZGVwMUhVT1ZR?oc=5"
+  }
+ ],
+ "ticker": "SMLMAH.NS",
+ "updatedAt": "2026-09-14T01:32:10.949101+00:00"
+}

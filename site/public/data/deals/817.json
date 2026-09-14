@@ -1,0 +1,31 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Granules India",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-14T01:32:08.457490+00:00",
+ "dealType": "block deal",
+ "enrichmentState": "failed",
+ "id": 817,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Granules India promoter sells 1.72 crore shares in a block deal.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSHhFLWxoeWpwTHNDLVhOeGJkTzZJLWxOdk4tUHZBYk1PdnBBZDQtbnQ5SmhWXzFtMjVZZDRyU2tLeEsxSjFoZU5XRjlOazIxTThld3AtSG56bndhZTM1RlR1Y21oWF9EY25YQjNqWXJ2ek92emR5dmFxelM3RHF4cHcyRGZWSlJGU0Q5bU1YOVhMZEZmUE85SUNtZVBzdkpuWnVqZkYxMXp4QWpodVA4XzVQclB3UQ?oc=5",
+ "seller": "Promoter",
+ "sizeBand": null,
+ "sizeSource": "mcap_plausible",
+ "sources": [
+  {
+   "attachedAt": "2026-09-14T01:32:08.458680+00:00",
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "Granules India promoter sells 1.72 crore shares in block deal",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSHhFLWxoeWpwTHNDLVhOeGJkTzZJLWxOdk4tUHZBYk1PdnBBZDQtbnQ5SmhWXzFtMjVZZDRyU2tLeEsxSjFoZU5XRjlOazIxTThld3AtSG56bndhZTM1RlR1Y21oWF9EY25YQjNqWXJ2ek92emR5dmFxelM3RHF4cHcyRGZWSlJGU0Q5bU1YOVhMZEZmUE85SUNtZVBzdkpuWnVqZkYxMXp4QWpodVA4XzVQclB3UQ?oc=5"
+  }
+ ],
+ "ticker": "GRANULES.NS",
+ "updatedAt": "2026-09-14T01:32:08.457490+00:00"
+}

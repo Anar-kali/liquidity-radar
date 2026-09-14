@@ -1,0 +1,31 @@
+{
+ "advisers": [],
+ "amountCr": 2702.0,
+ "amountRaw": "₹2,702 crore",
+ "buyer": null,
+ "company": "Maple Infra Trust",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-14T01:32:09.155571+00:00",
+ "dealType": "block deal",
+ "enrichmentState": "failed",
+ "id": 819,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Maple Infra Trust sponsor sells units worth ₹2,702 crore in an off-market deal.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWGlmY3NFcjBQSmpJSExmM1o0OTlJZ1J2WDJrSW1YdXZpb0FxNzNwLXRFMHNwbVpnaDk5eEM3dDMzdGtMRzJPdzVFcDBaTnBHMWowbnJ1TFZDVjBrcFNKSG43bUR4WmpEUG9Bcjk1eFFkemhXeDRyemwyNU1TU0tuSURjbnZKMWV1WHJjT1B5Znlkd0FQNkIwNzdlQzFnOGRYTm1nMVhoNldCWldXS0tMMzRFZ000aS02d3hZekpjUjZSZw?oc=5",
+ "seller": "Sponsor",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-14T01:32:09.156748+00:00",
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "Maple Infra Trust sponsor sells 177.3M units in ₹2,702 crore off-market deal",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWGlmY3NFcjBQSmpJSExmM1o0OTlJZ1J2WDJrSW1YdXZpb0FxNzNwLXRFMHNwbVpnaDk5eEM3dDMzdGtMRzJPdzVFcDBaTnBHMWowbnJ1TFZDVjBrcFNKSG43bUR4WmpEUG9Bcjk1eFFkemhXeDRyemwyNU1TU0tuSURjbnZKMWV1WHJjT1B5Znlkd0FQNkIwNzdlQzFnOGRYTm1nMVhoNldCWldXS0tMMzRFZ000aS02d3hZekpjUjZSZw?oc=5"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-14T01:32:09.155571+00:00"
+}

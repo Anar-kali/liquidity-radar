@@ -1,0 +1,31 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Tavexia Lifecare",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-14T01:32:10.293963+00:00",
+ "dealType": "promoter sale",
+ "enrichmentState": null,
+ "id": 821,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Promoters sell shares in Tavexia Lifecare.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUE9XUlU1Q29Ua3V4Tm16OE1Ebkhkcmtfd1RFcUdCUU5uMjVDT2cxOUZjWWJiVS1CeElnbUxiZl9RSEU4V1FDNzRqUThuOGwyZ1FyYmpmMmxpVklCUzhWREtxbjRxamdFZG5qWFZtTnBBaUljdWNFUGlRS1RzcEZzaw?oc=5",
+ "seller": "Roshan Dealmark",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-14T01:32:10.295708+00:00",
+   "outlet": "InvestyWise",
+   "resolvable": false,
+   "title": "Roshan Dealmark: Promoters Sell 18 Lakh Shares in Tavexia Lifecare",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUE9XUlU1Q29Ua3V4Tm16OE1Ebkhkcmtfd1RFcUdCUU5uMjVDT2cxOUZjWWJiVS1CeElnbUxiZl9RSEU4V1FDNzRqUThuOGwyZ1FyYmpmMmxpVklCUzhWREtxbjRxamdFZG5qWFZtTnBBaUljdWNFUGlRS1RzcEZzaw?oc=5"
+  }
+ ],
+ "ticker": "539519.BO",
+ "updatedAt": "2026-09-14T01:32:10.293963+00:00"
+}

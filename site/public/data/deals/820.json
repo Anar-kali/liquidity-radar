@@ -1,0 +1,33 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "financial services business",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-14T01:32:09.160341+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 820,
+ "individuals": [
+  "N Srinivasan"
+ ],
+ "listed": false,
+ "oneLine": "N Srinivasan exits financial services business.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUndCWDhIM3lqbmtLUFpxbzRLZ2dHSk1mY0hFU2lzak56ZktwRW5oRS1uZjBtU0hZNTZKc01MODNKWmVlQWEyUFV4OHJ1clJKb3Z1NjRQVkV0OGQ4ZzlCZk9hc05YN0VVaWg0SVEySk03Rk1RekNKclZCU09SMk5WdXdfcXlHSHVILXfSAZcBQVVfeXFMUDFDQ2JjRUVxTDdPa3ctQ0JOMVhlc3pibkRQTER5aTZZcm1yWUtkWTN6TmlrNDF1OVdVdDNaM2swNU8yRzUwa1N0VWw0RFVyQ2V0LVhnMXNpQ2s0cEQ0LWlGeVJvOTFzQ0Z0NWJNeEkzdHp3VFd5bFBSQzJzZ3I3NFQ4Q2NmalVDdjZvZ2RwZEhYQzlYUDR4OA?oc=5",
+ "seller": "N Srinivasan",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-14T01:32:09.161722+00:00",
+   "outlet": "DT Next",
+   "resolvable": false,
+   "title": "N Srinivasan exits financial services business",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUndCWDhIM3lqbmtLUFpxbzRLZ2dHSk1mY0hFU2lzak56ZktwRW5oRS1uZjBtU0hZNTZKc01MODNKWmVlQWEyUFV4OHJ1clJKb3Z1NjRQVkV0OGQ4ZzlCZk9hc05YN0VVaWg0SVEySk03Rk1RekNKclZCU09SMk5WdXdfcXlHSHVILXfSAZcBQVVfeXFMUDFDQ2JjRUVxTDdPa3ctQ0JOMVhlc3pibkRQTER5aTZZcm1yWUtkWTN6TmlrNDF1OVdVdDNaM2swNU8yRzUwa1N0VWw0RFVyQ2V0LVhnMXNpQ2s0cEQ0LWlGeVJvOTFzQ0Z0NWJNeEkzdHp3VFd5bFBSQzJzZ3I3NFQ4Q2NmalVDdjZvZ2RwZEhYQzlYUDR4OA?oc=5"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-14T01:32:09.160341+00:00"
+}

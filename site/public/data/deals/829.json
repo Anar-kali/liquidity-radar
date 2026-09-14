@@ -1,0 +1,33 @@
+{
+ "advisers": [],
+ "amountCr": 66000.0,
+ "amountRaw": "$7.5 billion",
+ "buyer": null,
+ "company": "Oracle",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-09-14T01:32:10.979109+00:00",
+ "dealType": "promoter sale",
+ "enrichmentState": null,
+ "id": 829,
+ "individuals": [
+  "Larry Ellison"
+ ],
+ "listed": true,
+ "oneLine": "Larry Ellison adopts plan to sell up to $7.5 billion in Oracle shares.",
+ "primaryUrl": "https://www.livemint.com/companies/news/oracle-is-betting-big-on-ai-and-debt-now-larry-ellison-could-cash-in-7-5-billion-11789216263158.html",
+ "seller": "Larry Ellison",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-14T01:32:10.980194+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "Oracle is betting big on AI and debt. Now Larry Ellison could cash in $7.5 billion",
+   "url": "https://www.livemint.com/companies/news/oracle-is-betting-big-on-ai-and-debt-now-larry-ellison-could-cash-in-7-5-billion-11789216263158.html"
+  }
+ ],
+ "ticker": "OFSS.NS",
+ "updatedAt": "2026-09-14T01:32:10.979109+00:00"
+}

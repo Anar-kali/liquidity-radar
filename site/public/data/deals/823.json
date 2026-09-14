@@ -1,0 +1,66 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Tata Sons",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-14T01:32:10.614024+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": null,
+ "id": 823,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Tata Sons potential listing provides liquidity relief to the Mistry family.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRWZQTnl2N2hET0VSMkFLTTdvWllPaC1MU2Y2eG5jTjNadTZpcXI5X0Y4TGVaMGNVVnpiLUdDZ1ZNTlZDTjRoNlJtZm0wakxQWDJxcjhzb0NjSEN1NkozNXBVbDVOdnRNWVpSSk8wcDFzOFlIRVhvTXl1M0pQNmdqNnVfUG04R1F4NS1JckVpaG5FRG9NY0VrRVFaeGhqTVRkQnREVkVydFNTM1lreFh4MXM0Qzd5X0XSAcQBQVVfeXFMUEdQTnE5UEhFSzZqSC12STd2NmgySnhjd1F6SDlrQTVvVTF3TEdXWnRyZHpvVC1pNEVfdFBfOVZWSzU0dWNScUE3bDhMSVQydnhhMHFzaXRoN2pGQ2E2T2l1eWFxR09xUllBUUxBUy1ybnRJWUJ2V3R3aFV2R2ZMeU5TSVlwTURxelhNbURKYjMtZzJucnNBc1BfSkpyUzR6UV80dzJQTEZvOG9IOGw2SFhMTVk0ekF3SGdQcW5paDMxbTZWdA?oc=5",
+ "seller": null,
+ "sizeBand": "OVER_2000",
+ "sizeSource": "band",
+ "sources": [
+  {
+   "attachedAt": "2026-09-14T01:32:10.615584+00:00",
+   "outlet": "Fortune India",
+   "resolvable": false,
+   "title": "Tata Sons listing will come as a big breather to the Mistry family",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRWZQTnl2N2hET0VSMkFLTTdvWllPaC1MU2Y2eG5jTjNadTZpcXI5X0Y4TGVaMGNVVnpiLUdDZ1ZNTlZDTjRoNlJtZm0wakxQWDJxcjhzb0NjSEN1NkozNXBVbDVOdnRNWVpSSk8wcDFzOFlIRVhvTXl1M0pQNmdqNnVfUG04R1F4NS1JckVpaG5FRG9NY0VrRVFaeGhqTVRkQnREVkVydFNTM1lreFh4MXM0Qzd5X0XSAcQBQVVfeXFMUEdQTnE5UEhFSzZqSC12STd2NmgySnhjd1F6SDlrQTVvVTF3TEdXWnRyZHpvVC1pNEVfdFBfOVZWSzU0dWNScUE3bDhMSVQydnhhMHFzaXRoN2pGQ2E2T2l1eWFxR09xUllBUUxBUy1ybnRJWUJ2V3R3aFV2R2ZMeU5TSVlwTURxelhNbURKYjMtZzJucnNBc1BfSkpyUzR6UV80dzJQTEZvOG9IOGw2SFhMTVk0ekF3SGdQcW5paDMxbTZWdA?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-14T01:32:10.963632+00:00",
+   "outlet": "Google News",
+   "resolvable": true,
+   "title": "RBI's Tata Sons listing push may be a lifeline for SP Group — if it comes in time",
+   "url": "https://www.livemint.com/companies/rbi-tata-sons-ipo-listing-impact-on-shapoorji-pallonji-group-debt-11789296937772.html"
+  },
+  {
+   "attachedAt": "2026-09-14T01:32:10.965887+00:00",
+   "outlet": "Google News",
+   "resolvable": true,
+   "title": "Test looms for Tata Sons board meet amid division in Tata Trusts",
+   "url": "https://www.livemint.com/companies/news/tata-sons-board-meeting-ipo-listing-discussion-tata-trusts-noel-tata-11789307136577.html"
+  },
+  {
+   "attachedAt": "2026-09-14T01:32:10.972524+00:00",
+   "outlet": "Google News",
+   "resolvable": true,
+   "title": "Tata Sons faces IPO deadline with RBI decision. What happens next?",
+   "url": "https://www.livemint.com/companies/news/rbi-tata-sons-ipo-listing-tata-trusts-noel-tata-11789227983193.html"
+  },
+  {
+   "attachedAt": "2026-09-14T01:32:10.983812+00:00",
+   "outlet": "Know how it will impact Shapoorji Pallonji group",
+   "resolvable": true,
+   "title": "Suspense ends! Tata Sons to go for public listing, directs RBI",
+   "url": "https://www.livemint.com/companies/news/rbi-rejects-tata-sons-deregistration-bid-listing-requirement-stays-11789218797955.html"
+  },
+  {
+   "attachedAt": "2026-09-14T01:32:11.024565+00:00",
+   "outlet": "Google News",
+   "resolvable": true,
+   "title": "India’s central bank tells Tata Sons to take conglomerate public",
+   "url": "https://www.ft.com/content/6a173e7c-cfe8-4ab8-8c8f-b90871cc907e?syn-25a6b1a6=1"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-14T01:32:10.614024+00:00"
+}
