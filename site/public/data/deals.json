@@ -1,6 +1,28 @@
 {
- "dealCount": 666,
+ "dealCount": 667,
  "deals": [
+  {
+   "amountCr": 11968.0,
+   "amountRaw": "$1.36 billion",
+   "company": "Omnia",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-14T09:31:09.180596+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 837,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Solar Industries to acquire South Africa's Omnia in an all-cash deal.",
+   "primaryOutlet": "Business Line",
+   "seller": "Omnia Holdings",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-14T09:31:11.260155+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -47,10 +69,15 @@
    "seller": "Moneyview",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-09-14T08:31:09.621440+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-09-14T09:31:09.175914+00:00",
+     "title": "Moneyview Cuts IPO Fresh Issue by 50% to Rs 750 Crore"
+    }
+   ]
   },
   {
    "amountCr": 2475.2,
@@ -19328,6 +19355,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-14T08:31:09.621440+00:00",
- "totalDeals": 666
+ "generatedAt": "2026-09-14T09:31:11.260155+00:00",
+ "totalDeals": 667
 }

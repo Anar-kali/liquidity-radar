@@ -1,0 +1,31 @@
+{
+ "advisers": [],
+ "amountCr": 11968.0,
+ "amountRaw": "$1.36 billion",
+ "buyer": "Solar Industries",
+ "company": "Omnia",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-14T09:31:09.180596+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 837,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Solar Industries to acquire South Africa's Omnia in an all-cash deal.",
+ "primaryUrl": "https://www.thehindubusinessline.com/companies/solar-industries-to-buy-south-africas-omnia-for-136-billion/article71465621.ece",
+ "seller": "Omnia Holdings",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-14T09:31:09.181682+00:00",
+   "outlet": "Business Line",
+   "resolvable": true,
+   "title": "Solar Industries to buy South Africa’s Omnia for $1.36 billion",
+   "url": "https://www.thehindubusinessline.com/companies/solar-industries-to-buy-south-africas-omnia-for-136-billion/article71465621.ece"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-14T09:31:11.260155+00:00"
+}
