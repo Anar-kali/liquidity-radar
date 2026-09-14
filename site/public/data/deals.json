@@ -112,10 +112,15 @@
    "seller": "Ankit Agrawal, Ish Babbar",
    "sizeBand": "500_TO_2000",
    "sizeSource": "band",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-09-14T08:31:05.997299+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-09-14T13:31:12.295811+00:00",
+     "title": "IPO-Bound InsuranceDekho’s Cofounders Mull Move To Promoter Roles, Company Denies"
+    }
+   ]
   },
   {
    "amountCr": 750.0,
@@ -588,8 +593,8 @@
    "updates": []
   },
   {
-   "amountCr": 7003.0,
-   "amountRaw": "31.08% x mcap ~Rs 22532cr = ~Rs 7003cr",
+   "amountCr": 5421.2,
+   "amountRaw": "24.06% x mcap ~Rs 22532cr = ~Rs 5421cr",
    "company": "Granules India",
    "confidence": "medium",
    "confirmed": false,
@@ -597,16 +602,18 @@
    "dealType": "block deal",
    "enrichmentState": "failed",
    "id": 817,
-   "individuals": [],
+   "individuals": [
+    "Chigurupati"
+   ],
    "listed": true,
    "oneLine": "Granules India promoter sells 1.72 crore shares in a block deal.",
    "primaryOutlet": "scanx.trade",
    "seller": "Promoter",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": "GRANULES.NS",
-   "updatedAt": "2026-09-14T07:31:18.071252+00:00",
+   "updatedAt": "2026-09-14T13:31:12.292178+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-14T04:31:10.589276+00:00",
@@ -615,6 +622,10 @@
     {
      "attachedAt": "2026-09-14T07:31:18.069846+00:00",
      "title": "Granules India promoter offloads 1.72 crore shares, Group stake drops to 31.08%"
+    },
+    {
+     "attachedAt": "2026-09-14T13:31:12.290835+00:00",
+     "title": "Granules India Promoter Chigurupati Sells 1.72 Cr Shares, Cuts Stake To 24.06%"
     }
    ]
   },
@@ -19430,6 +19441,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-14T10:31:14.062947+00:00",
+ "generatedAt": "2026-09-14T13:31:12.292178+00:00",
  "totalDeals": 670
 }

@@ -1,7 +1,7 @@
 {
  "advisers": [],
- "amountCr": 7003.0,
- "amountRaw": "31.08% x mcap ~Rs 22532cr = ~Rs 7003cr",
+ "amountCr": 5421.2,
+ "amountRaw": "24.06% x mcap ~Rs 22532cr = ~Rs 5421cr",
  "buyer": "Morgan Stanley",
  "company": "Granules India",
  "confidence": "medium",
@@ -10,7 +10,9 @@
  "dealType": "block deal",
  "enrichmentState": "failed",
  "id": 817,
- "individuals": [],
+ "individuals": [
+  "Chigurupati"
+ ],
  "listed": true,
  "oneLine": "Granules India promoter sells 1.72 crore shares in a block deal.",
  "primaryUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSHhFLWxoeWpwTHNDLVhOeGJkTzZJLWxOdk4tUHZBYk1PdnBBZDQtbnQ5SmhWXzFtMjVZZDRyU2tLeEsxSjFoZU5XRjlOazIxTThld3AtSG56bndhZTM1RlR1Y21oWF9EY25YQjNqWXJ2ek92emR5dmFxelM3RHF4cHcyRGZWSlJGU0Q5bU1YOVhMZEZmUE85SUNtZVBzdkpuWnVqZkYxMXp4QWpodVA4XzVQclB3UQ?oc=5",
@@ -38,8 +40,15 @@
    "resolvable": false,
    "title": "Granules India promoter offloads 1.72 crore shares, Group stake drops to 31.08%",
    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQc3M2Zi1meVQyNFFkZWxPUHNKdTdkWEhyUWNsZERZN2pQV29fN3BQTUowdUplZENJWGpMUktxekZIWmFsWTlYd2NXVHdzUlQ1T1pfNXh6X01LMTVlMHRydkVwdmprYmJHQVpPaV92REtlRWRLUkFCeVNZYTNvVEhVb3gzdVJvSDlObGdyYXcxMGhUWU9tc0ZWWEZEcGYwMVhTeU83UmZPdDJHSl9ZTk5DVU9DS0g5TG5QQkI40gHCAUFVX3lxTE9UQ1NVOWNxTTY5MWpVamRMTFdkcFA3c1dfZ2FKSDBvM014VWhmNFFtVlFVeVBTdXlodklFOVFVbXVCc3pSeHJxMlFUYlU3UUF4OHVjNnhYYWMtdXIyWVB2UTl0X0REQ0h0TDBSZWp4MGEwc0dkR1dEaW95X2psTmd5b2lyUFZ4SVNrYmxZLXBqR3p1Vkw1YnNrS0JjZ2pwcFR6SEt3ekZIZExhS0FrX1ctNEFVaVdJVTNEakJNSGlyNmVR?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-14T13:31:12.290835+00:00",
+   "outlet": "BW Businessworld",
+   "resolvable": false,
+   "title": "Granules India Promoter Chigurupati Sells 1.72 Cr Shares, Cuts Stake To 24.06%",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPX0JNQU8yUDFXbEZ0VENQRmZSbGpjdnItbVQ0NWFFM3FNMk54M0U5NnhDcm5DZ1M3UzUyUGU5UWJ3WG5xNmNMblp0R3BqSFVoVXRmaF9mN2VSczZVU0NzN3JwejRvdzE1cVRJS1hDb3NjWFBrZ21yZkJuZUQ5dDVkVkJoN3MwYm9DeDFna1ZxV1FMbHZFX3g1Qk5WX296RjhMbTdfR0FzdHAzdTJpcEliWFFRNDN5NC15SEtVYQ?oc=5"
   }
  ],
  "ticker": "GRANULES.NS",
- "updatedAt": "2026-09-14T07:31:18.071252+00:00"
+ "updatedAt": "2026-09-14T13:31:12.292178+00:00"
 }
