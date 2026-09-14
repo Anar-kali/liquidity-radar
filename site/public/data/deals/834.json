@@ -1,0 +1,31 @@
+{
+ "advisers": [],
+ "amountCr": 2475.2,
+ "amountRaw": "74% x mcap ~Rs 3345cr = ~Rs 2475cr",
+ "buyer": "GRT",
+ "company": "Tribhovandas Bhimji Zaveri",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-14T07:31:18.074033+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 834,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "GRT to acquire a 74% stake in Tribhovandas Bhimji Zaveri, providing a cash exit to sellers.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPVjJMRm5TZWV3SVNMTVYyRDZUd3dxZGFrYnNrNlI3ck9RazVyQ3lYMnFva3dXX3JrNUowbERQMHZjZXB5OGRZeG4zMmU1VW85QWFSRExOVlFNMnRORzFhUTJFUkxGcGlUdEM0SW45RllpVGRrSGhSaktIdlEtVVlzcXZjN0JtQlhCZkgzdVJDdzVQSF9YV01kZDJaYjFuWnZvcGZ3SnM0cGJVLXBBb1JQY3JPQXVCU1JxZEtRZi1LM1dhRXJCTnI2OTBSQTVmbEFOU1Rqc2c0SjdXb3BvOXhzTWt1SQ?oc=5",
+ "seller": "Existing shareholders of TBZ",
+ "sizeBand": null,
+ "sizeSource": "computed",
+ "sources": [
+  {
+   "attachedAt": "2026-09-14T07:31:18.075119+00:00",
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "Jewellery IPO Rush Continues; GRT to Acquire 74% Stake in TBZ",
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPVjJMRm5TZWV3SVNMTVYyRDZUd3dxZGFrYnNrNlI3ck9RazVyQ3lYMnFva3dXX3JrNUowbERQMHZjZXB5OGRZeG4zMmU1VW85QWFSRExOVlFNMnRORzFhUTJFUkxGcGlUdEM0SW45RllpVGRrSGhSaktIdlEtVVlzcXZjN0JtQlhCZkgzdVJDdzVQSF9YV01kZDJaYjFuWnZvcGZ3SnM0cGJVLXBBb1JQY3JPQXVCU1JxZEtRZi1LM1dhRXJCTnI2OTBSQTVmbEFOU1Rqc2c0SjdXb3BvOXhzTWt1SQ?oc=5"
+  }
+ ],
+ "ticker": "TBZ.NS",
+ "updatedAt": "2026-09-14T07:31:18.074033+00:00"
+}

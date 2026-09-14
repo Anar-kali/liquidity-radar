@@ -1,6 +1,28 @@
 {
- "dealCount": 663,
+ "dealCount": 664,
  "deals": [
+  {
+   "amountCr": 2475.2,
+   "amountRaw": "74% x mcap ~Rs 3345cr = ~Rs 2475cr",
+   "company": "Tribhovandas Bhimji Zaveri",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-14T07:31:18.074033+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 834,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "GRT to acquire a 74% stake in Tribhovandas Bhimji Zaveri, providing a cash exit to sellers.",
+   "primaryOutlet": "Whalesbook",
+   "seller": "Existing shareholders of TBZ",
+   "sizeBand": null,
+   "sizeSource": "computed",
+   "sourceCount": 1,
+   "ticker": "TBZ.NS",
+   "updatedAt": "2026-09-14T07:31:18.074033+00:00",
+   "updates": []
+  },
   {
    "amountCr": 2670.0,
    "amountRaw": "₹2,670 Cr",
@@ -181,10 +203,15 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "mcap_plausible",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": "SMLMAH.NS",
    "updatedAt": "2026-09-14T01:32:10.949101+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-09-14T07:31:18.079729+00:00",
+     "title": "SML Ltd Eyes IPO in 2-3 Years to Fund R&D Push"
+    }
+   ]
   },
   {
    "amountCr": 1000.0,
@@ -404,8 +431,8 @@
    "updates": []
   },
   {
-   "amountCr": 1509.0,
-   "amountRaw": "Rs 1,509 crore",
+   "amountCr": 7003.0,
+   "amountRaw": "31.08% x mcap ~Rs 22532cr = ~Rs 7003cr",
    "company": "Granules India",
    "confidence": "medium",
    "confirmed": false,
@@ -420,13 +447,17 @@
    "seller": "Promoter",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": "GRANULES.NS",
-   "updatedAt": "2026-09-14T04:31:10.591187+00:00",
+   "updatedAt": "2026-09-14T07:31:18.071252+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-14T04:31:10.589276+00:00",
      "title": "Granules India promoter offloads shares worth Rs 1,509 crore; Morgan Stanley picks stake in Lotus..."
+    },
+    {
+     "attachedAt": "2026-09-14T07:31:18.069846+00:00",
+     "title": "Granules India promoter offloads 1.72 crore shares, Group stake drops to 31.08%"
     }
    ]
   },
@@ -19238,6 +19269,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-14T06:31:11.331401+00:00",
- "totalDeals": 663
+ "generatedAt": "2026-09-14T07:31:18.074033+00:00",
+ "totalDeals": 664
 }
