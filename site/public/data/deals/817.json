@@ -1,8 +1,8 @@
 {
  "advisers": [],
- "amountCr": null,
- "amountRaw": null,
- "buyer": null,
+ "amountCr": 1509.0,
+ "amountRaw": "Rs 1,509 crore",
+ "buyer": "Morgan Stanley",
  "company": "Granules India",
  "confidence": "medium",
  "confirmed": false,
@@ -16,7 +16,7 @@
  "primaryUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSHhFLWxoeWpwTHNDLVhOeGJkTzZJLWxOdk4tUHZBYk1PdnBBZDQtbnQ5SmhWXzFtMjVZZDRyU2tLeEsxSjFoZU5XRjlOazIxTThld3AtSG56bndhZTM1RlR1Y21oWF9EY25YQjNqWXJ2ek92emR5dmFxelM3RHF4cHcyRGZWSlJGU0Q5bU1YOVhMZEZmUE85SUNtZVBzdkpuWnVqZkYxMXp4QWpodVA4XzVQclB3UQ?oc=5",
  "seller": "Promoter",
  "sizeBand": null,
- "sizeSource": "mcap_plausible",
+ "sizeSource": "stated",
  "sources": [
   {
    "attachedAt": "2026-09-14T01:32:08.458680+00:00",
@@ -24,8 +24,15 @@
    "resolvable": false,
    "title": "Granules India promoter sells 1.72 crore shares in block deal",
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSHhFLWxoeWpwTHNDLVhOeGJkTzZJLWxOdk4tUHZBYk1PdnBBZDQtbnQ5SmhWXzFtMjVZZDRyU2tLeEsxSjFoZU5XRjlOazIxTThld3AtSG56bndhZTM1RlR1Y21oWF9EY25YQjNqWXJ2ek92emR5dmFxelM3RHF4cHcyRGZWSlJGU0Q5bU1YOVhMZEZmUE85SUNtZVBzdkpuWnVqZkYxMXp4QWpodVA4XzVQclB3UQ?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-14T04:31:10.589276+00:00",
+   "outlet": "Moneycontrol.com",
+   "resolvable": false,
+   "title": "Granules India promoter offloads shares worth Rs 1,509 crore; Morgan Stanley picks stake in Lotus...",
+   "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQbFVsX1I0VHFma0hlU0kzUHVxcFJoeEtEY1ctcDRxN0g3ek9NbzFvLUNZVllScHRrUkRZcS1tbkRUcmNjQUFDc1BOREZTQ3lXeklRQUk0eF9IZEN2YUxYdU5lRG5ZYXZZTmdaSUQxbWhrZGpFSllhSTk4dllVN0xRR0tpUnBMdmhKdW92UGJpdVhOc24tWHkteEthZjdzb3hEbGtLb3dwcnRjaDhobDk2b2FQSjZ6UVlwWHdRYVdadlVVMEwxbGtUdGlpejdGQ25laGtVQ3JzSlJQVS12MC1zOTQxM25FQnZ2RE8yaG1jLVVkRVpGT0pFdGpXYlBSRE5CRXfSAYcCQVVfeXFMUE1rLUhNQzNiMFc1SnR0dEVCbU5talg0bU5DTUJTZEctVmNHU0w5X0luUUNaZVc0X2hSQjJlMlNQRW8yUGRDLUMxWDRHS1FEc1FiSEx2M0UzVV95Qkd3Nm1NcU5rVHprMVVBdk9UTERQU01jb3J0YnNaN0ZrWUs4UjNWcWNXcTBvVURzdnBFdVV5SUpLMDZnaC1DcUU0NV9hLTFxWlN4d0lrT0ZpN0hrbmJJcFhuaTFuREdiWmRfRmpqTGp2YkFCN0pNeVN0eTJxM2EyN1E5cEo0dWVoLXd0VXJfUENuejVidkVHcHJ1eDlQV2h2bVJhemx1Slo0MlN1NWZ1eVYtYkE?oc=5"
   }
  ],
  "ticker": "GRANULES.NS",
- "updatedAt": "2026-09-14T01:32:08.457490+00:00"
+ "updatedAt": "2026-09-14T04:31:10.591187+00:00"
 }

@@ -1,0 +1,31 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Victura",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-14T04:31:10.594058+00:00",
+ "dealType": "IPO-OFS",
+ "enrichmentState": null,
+ "id": 831,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Auto parts maker Victura has appointed Rothschild for an IPO involving secondary share sales.",
+ "primaryUrl": "https://www.livemint.com/companies/news/victura-ipo-process-rothschild-auto-parts-makers-india-public-listing-11789351781890.html",
+ "seller": "existing shareholders",
+ "sizeBand": "OVER_2000",
+ "sizeSource": "band",
+ "sources": [
+  {
+   "attachedAt": "2026-09-14T04:31:10.595245+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "Auto parts maker Victura picks Rothschild to help with $300-400 mn IPO process",
+   "url": "https://www.livemint.com/companies/news/victura-ipo-process-rothschild-auto-parts-makers-india-public-listing-11789351781890.html"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-14T04:31:10.594058+00:00"
+}

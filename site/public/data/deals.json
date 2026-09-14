@@ -1,6 +1,28 @@
 {
- "dealCount": 660,
+ "dealCount": 661,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Victura",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-14T04:31:10.594058+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 831,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Auto parts maker Victura has appointed Rothschild for an IPO involving secondary share sales.",
+   "primaryOutlet": "Mint",
+   "seller": "existing shareholders",
+   "sizeBand": "OVER_2000",
+   "sizeSource": "band",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-14T04:31:10.594058+00:00",
+   "updates": []
+  },
   {
    "amountCr": 11440.0,
    "amountRaw": "$1.3 billion",
@@ -338,8 +360,8 @@
    "updates": []
   },
   {
-   "amountCr": null,
-   "amountRaw": null,
+   "amountCr": 1509.0,
+   "amountRaw": "Rs 1,509 crore",
    "company": "Granules India",
    "confidence": "medium",
    "confirmed": false,
@@ -353,11 +375,16 @@
    "primaryOutlet": "scanx.trade",
    "seller": "Promoter",
    "sizeBand": null,
-   "sizeSource": "mcap_plausible",
-   "sourceCount": 1,
+   "sizeSource": "stated",
+   "sourceCount": 2,
    "ticker": "GRANULES.NS",
-   "updatedAt": "2026-09-14T01:32:08.457490+00:00",
-   "updates": []
+   "updatedAt": "2026-09-14T04:31:10.591187+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-09-14T04:31:10.589276+00:00",
+     "title": "Granules India promoter offloads shares worth Rs 1,509 crore; Morgan Stanley picks stake in Lotus..."
+    }
+   ]
   },
   {
    "amountCr": null,
@@ -19167,6 +19194,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-14T01:32:18.096948+00:00",
- "totalDeals": 660
+ "generatedAt": "2026-09-14T04:31:10.594058+00:00",
+ "totalDeals": 661
 }
