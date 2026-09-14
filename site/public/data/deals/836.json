@@ -1,0 +1,34 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "InsuranceDekho",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-14T08:31:05.997299+00:00",
+ "dealType": "IPO-OFS",
+ "enrichmentState": null,
+ "id": 836,
+ "individuals": [
+  "Ankit Agrawal",
+  "Ish Babbar"
+ ],
+ "listed": false,
+ "oneLine": "InsuranceDekho heading for a public listing following a major merger.",
+ "primaryUrl": "https://www.livemint.com/companies/insurancedekho-ipo-founders-exit-renewbuy-merger-pre-ipo-funding-11789370937465.html",
+ "seller": "Ankit Agrawal, Ish Babbar",
+ "sizeBand": "500_TO_2000",
+ "sizeSource": "band",
+ "sources": [
+  {
+   "attachedAt": "2026-09-14T08:31:05.998798+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "InsuranceDekho co-founders Ankit Agrawal, Ish Babbar express intent to step down",
+   "url": "https://www.livemint.com/companies/insurancedekho-ipo-founders-exit-renewbuy-merger-pre-ipo-funding-11789370937465.html"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-14T08:31:05.997299+00:00"
+}

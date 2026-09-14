@@ -1,7 +1,7 @@
 {
  "advisers": [],
- "amountCr": null,
- "amountRaw": null,
+ "amountCr": 230000.0,
+ "amountRaw": "Rs 2.3 lakh crore",
  "buyer": null,
  "company": "Tata Sons",
  "confidence": "medium",
@@ -14,9 +14,9 @@
  "listed": false,
  "oneLine": "Tata Sons potential listing provides liquidity relief to the Mistry family.",
  "primaryUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRWZQTnl2N2hET0VSMkFLTTdvWllPaC1MU2Y2eG5jTjNadTZpcXI5X0Y4TGVaMGNVVnpiLUdDZ1ZNTlZDTjRoNlJtZm0wakxQWDJxcjhzb0NjSEN1NkozNXBVbDVOdnRNWVpSSk8wcDFzOFlIRVhvTXl1M0pQNmdqNnVfUG04R1F4NS1JckVpaG5FRG9NY0VrRVFaeGhqTVRkQnREVkVydFNTM1lreFh4MXM0Qzd5X0XSAcQBQVVfeXFMUEdQTnE5UEhFSzZqSC12STd2NmgySnhjd1F6SDlrQTVvVTF3TEdXWnRyZHpvVC1pNEVfdFBfOVZWSzU0dWNScUE3bDhMSVQydnhhMHFzaXRoN2pGQ2E2T2l1eWFxR09xUllBUUxBUy1ybnRJWUJ2V3R3aFV2R2ZMeU5TSVlwTURxelhNbURKYjMtZzJucnNBc1BfSkpyUzR6UV80dzJQTEZvOG9IOGw2SFhMTVk0ekF3SGdQcW5paDMxbTZWdA?oc=5",
- "seller": null,
- "sizeBand": "OVER_2000",
- "sizeSource": "band",
+ "seller": "Shapoorji Pallonji Group",
+ "sizeBand": null,
+ "sizeSource": "stated",
  "sources": [
   {
    "attachedAt": "2026-09-14T01:32:10.615584+00:00",
@@ -59,8 +59,15 @@
    "resolvable": true,
    "title": "India’s central bank tells Tata Sons to take conglomerate public",
    "url": "https://www.ft.com/content/6a173e7c-cfe8-4ab8-8c8f-b90871cc907e?syn-25a6b1a6=1"
+  },
+  {
+   "attachedAt": "2026-09-14T08:31:05.993019+00:00",
+   "outlet": "The Economic Times",
+   "resolvable": false,
+   "title": "Shapoorji Pallonji Group rethinks 18.37% Tata stake sale, valued at Rs 2.3 lakh crore",
+   "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNTlFLTTNjQ05CMmE4ZmpMWnM0QktZTFd1aE9PazBNM1JNcEZXaGlaNkcyQWZVTzBkNG9yZnZXSWV5dXlKQmFWTFBXenV5QXZ5eE5kaHBpUDUtUEVval9fMGkxUno3RXZJdUhYZjBIY3BqeXF2WGZIUUNmaDZFRnU2Tm9LYWE0dy1Sb3JDdTJIVjNVV0xTbFdxY2NKWnY3V0ZicE9BaGpGQWFWd28zSV93WTZHWW9ITDBDczg0bDk0QWlpUGFnQ19XUHdZWlhQUy03NWMxWERJbUhtaTZhcVBONmRCdkJIV2RHdGFOaTEwZ2Jhb0xQeTJV?oc=5"
   }
  ],
  "ticker": null,
- "updatedAt": "2026-09-14T01:32:10.614024+00:00"
+ "updatedAt": "2026-09-14T08:31:05.993868+00:00"
 }

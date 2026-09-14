@@ -1,6 +1,57 @@
 {
- "dealCount": 664,
+ "dealCount": 666,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "InsuranceDekho",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-14T08:31:05.997299+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 836,
+   "individuals": [
+    "Ankit Agrawal",
+    "Ish Babbar"
+   ],
+   "listed": false,
+   "oneLine": "InsuranceDekho heading for a public listing following a major merger.",
+   "primaryOutlet": "Mint",
+   "seller": "Ankit Agrawal, Ish Babbar",
+   "sizeBand": "500_TO_2000",
+   "sizeSource": "band",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-14T08:31:05.997299+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 750.0,
+   "amountRaw": "Rs 750 crore",
+   "company": "Moneyview",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-14T08:31:05.989188+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 835,
+   "individuals": [
+    "Puneet Agarwal",
+    "Sanjay Aggarwal",
+    "Chitra Agarwal"
+   ],
+   "listed": false,
+   "oneLine": "Digital lending platform Moneyview cuts IPO fresh issue size to Rs 750 crore.",
+   "primaryOutlet": "Moneycontrol.com",
+   "seller": "Moneyview",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-14T08:31:09.621440+00:00",
+   "updates": []
+  },
   {
    "amountCr": 2475.2,
    "amountRaw": "74% x mcap ~Rs 3345cr = ~Rs 2475cr",
@@ -267,8 +318,8 @@
    ]
   },
   {
-   "amountCr": null,
-   "amountRaw": null,
+   "amountCr": 230000.0,
+   "amountRaw": "Rs 2.3 lakh crore",
    "company": "Tata Sons",
    "confidence": "medium",
    "confirmed": false,
@@ -280,12 +331,12 @@
    "listed": false,
    "oneLine": "Tata Sons potential listing provides liquidity relief to the Mistry family.",
    "primaryOutlet": "Fortune India",
-   "seller": null,
-   "sizeBand": "OVER_2000",
-   "sizeSource": "band",
-   "sourceCount": 6,
+   "seller": "Shapoorji Pallonji Group",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 7,
    "ticker": null,
-   "updatedAt": "2026-09-14T01:32:10.614024+00:00",
+   "updatedAt": "2026-09-14T08:31:05.993868+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-14T01:32:10.963632+00:00",
@@ -306,6 +357,10 @@
     {
      "attachedAt": "2026-09-14T01:32:11.024565+00:00",
      "title": "India’s central bank tells Tata Sons to take conglomerate public"
+    },
+    {
+     "attachedAt": "2026-09-14T08:31:05.993019+00:00",
+     "title": "Shapoorji Pallonji Group rethinks 18.37% Tata stake sale, valued at Rs 2.3 lakh crore"
     }
    ]
   },
@@ -478,7 +533,7 @@
    "seller": "Oriental Insurance",
    "sizeBand": "OVER_2000",
    "sizeSource": "band",
-   "sourceCount": 7,
+   "sourceCount": 8,
    "ticker": null,
    "updatedAt": "2026-09-14T01:32:09.974035+00:00",
    "updates": [
@@ -505,6 +560,10 @@
     {
      "attachedAt": "2026-09-14T01:32:10.633474+00:00",
      "title": "Oriental Insurance Targets FY27 Profit with NSE IPO Sale"
+    },
+    {
+     "attachedAt": "2026-09-14T08:31:05.995584+00:00",
+     "title": "NSE IPO: SBI, GIC, Bank of Baroda cut stake sale; why are shareholders holding back?"
     }
    ]
   },
@@ -19269,6 +19328,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-14T07:31:18.074033+00:00",
- "totalDeals": 664
+ "generatedAt": "2026-09-14T08:31:09.621440+00:00",
+ "totalDeals": 666
 }

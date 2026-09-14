@@ -1,0 +1,35 @@
+{
+ "advisers": [],
+ "amountCr": 750.0,
+ "amountRaw": "Rs 750 crore",
+ "buyer": null,
+ "company": "Moneyview",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-14T08:31:05.989188+00:00",
+ "dealType": "IPO-OFS",
+ "enrichmentState": null,
+ "id": 835,
+ "individuals": [
+  "Puneet Agarwal",
+  "Sanjay Aggarwal",
+  "Chitra Agarwal"
+ ],
+ "listed": false,
+ "oneLine": "Digital lending platform Moneyview cuts IPO fresh issue size to Rs 750 crore.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOV0tCeklBWkZHWXJkU01jVmhGbWQydEh1d2luaUx1bEQ0XzBnSC1tWlJLdmlPTlM2T3R2UUhxLTA1eHdvV3c0SlNOV2J5dXgybThnUk96NmlaajlKaWl4ektHQ200QlZJT1JIWTNTWE42Q3Y5Mk5nTDlLaTlaWjJUX3BNQlFzS290VEZ0b20wLW9naWJab2ZNUVdWX0dPeGdZUUt1ekhiRm1hVnRmUVM1RldPSE45ZVY0aUUwZVhtTWQtNlVLb3F5Q2dBbWZKdHlzUXo1aEY3VGlPbHl50gHiAUFVX3lxTFBqR3RBbUR3OXlpVWs0VHNZU3UxbDBsdEhTWE5wTWVURlZSSjgtNTdFUWZ5ZHRfU3k0VDNid3ZxUG9TbTlWSTExSzFVQ2NGQ2R5SENrZld5UWdMWHdDTGItZW5QSjE1cGNOa05sdzFiaGNSMmpKTGZjeEpuZ2FTU1lieTJRODZSdkxzOFN4S0x6M0RJT1V0OVczZThocFd4YXVDM2hmOXlKMUdMcnZEZHZVcG1xUkZQTHU3S0RfbFFUdjBmV1h0Q0ZlX2VkQld2XzlDYnZEMmdfNmlxTjZCc0hUQkE?oc=5",
+ "seller": "Moneyview",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-14T08:31:05.990442+00:00",
+   "outlet": "Moneycontrol.com",
+   "resolvable": false,
+   "title": "Digital lending platform Moneyview cuts IPO size; fresh issue halved to Rs 750 crore",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOV0tCeklBWkZHWXJkU01jVmhGbWQydEh1d2luaUx1bEQ0XzBnSC1tWlJLdmlPTlM2T3R2UUhxLTA1eHdvV3c0SlNOV2J5dXgybThnUk96NmlaajlKaWl4ektHQ200QlZJT1JIWTNTWE42Q3Y5Mk5nTDlLaTlaWjJUX3BNQlFzS290VEZ0b20wLW9naWJab2ZNUVdWX0dPeGdZUUt1ekhiRm1hVnRmUVM1RldPSE45ZVY0aUUwZVhtTWQtNlVLb3F5Q2dBbWZKdHlzUXo1aEY3VGlPbHl50gHiAUFVX3lxTFBqR3RBbUR3OXlpVWs0VHNZU3UxbDBsdEhTWE5wTWVURlZSSjgtNTdFUWZ5ZHRfU3k0VDNid3ZxUG9TbTlWSTExSzFVQ2NGQ2R5SENrZld5UWdMWHdDTGItZW5QSjE1cGNOa05sdzFiaGNSMmpKTGZjeEpuZ2FTU1lieTJRODZSdkxzOFN4S0x6M0RJT1V0OVczZThocFd4YXVDM2hmOXlKMUdMcnZEZHZVcG1xUkZQTHU3S0RfbFFUdjBmV1h0Q0ZlX2VkQld2XzlDYnZEMmdfNmlxTjZCc0hUQkE?oc=5"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-14T08:31:09.621440+00:00"
+}
