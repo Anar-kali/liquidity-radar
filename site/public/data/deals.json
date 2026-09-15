@@ -165,7 +165,7 @@
    "seller": "Moneyview",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-09-14T08:31:09.621440+00:00",
    "updates": [
@@ -176,6 +176,10 @@
     {
      "attachedAt": "2026-09-15T01:31:09.810196+00:00",
      "title": "Moneyview Cuts IPO Size After SEBI Nod, Halves Fresh Issue Component To ₹750 Cr"
+    },
+    {
+     "attachedAt": "2026-09-15T03:31:07.117190+00:00",
+     "title": "Moneyview halves IPO Fresh Issue To Rs 750 Cr After SEBI Nod"
     }
    ]
   },
@@ -363,13 +367,17 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-09-14T01:32:10.955769+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-14T01:32:10.961415+00:00",
      "title": "Kamarajar Port invites bankers for ₹1,200 crore IPO"
+    },
+    {
+     "attachedAt": "2026-09-15T03:31:07.122488+00:00",
+     "title": "Kamarajar Port invites bankers for Rs 1,200 crore IPO, set to become India's only listed state-backed port"
     }
    ]
   },
@@ -685,7 +693,7 @@
    "seller": "Oriental Insurance",
    "sizeBand": "OVER_2000",
    "sizeSource": "band",
-   "sourceCount": 8,
+   "sourceCount": 9,
    "ticker": null,
    "updatedAt": "2026-09-14T01:32:09.974035+00:00",
    "updates": [
@@ -716,6 +724,10 @@
     {
      "attachedAt": "2026-09-14T08:31:05.995584+00:00",
      "title": "NSE IPO: SBI, GIC, Bank of Baroda cut stake sale; why are shareholders holding back?"
+    },
+    {
+     "attachedAt": "2026-09-15T03:31:07.120382+00:00",
+     "title": "National Stock Exchange of India set for landmark IPO, impacting unlisted shares"
     }
    ]
   },
