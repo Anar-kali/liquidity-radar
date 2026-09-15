@@ -316,6 +316,13 @@ def init_db(path=DB_PATH):
         # some are genuine sellers and some are acquirers, and there is no way
         # to tell which without re-classifying. Leave them where they are.
         conn.execute("ALTER TABLE deals ADD COLUMN seller TEXT")
+    if "synopsis" not in existing:
+        # 100-150 words written by stage 3 from the full article, shown on the
+        # deal page. Distinct from one_line, which stage 2 writes from a
+        # headline and 400 characters and keeps under 20 words. NULL on every
+        # deal stage 3 never read — most of the archive, and any deal whose
+        # publisher blocked the fetch.
+        conn.execute("ALTER TABLE deals ADD COLUMN synopsis TEXT")
 
     existing_items = {r[1] for r in conn.execute("PRAGMA table_info(items)")}
     if "title_norm" not in existing_items:

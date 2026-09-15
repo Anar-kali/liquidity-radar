@@ -57,6 +57,13 @@ export interface Deal {
   sizeSource: SizeSource;
   sizeBand: SizeBand;
   oneLine: string;
+  /**
+   * 100-150 words written by stage 3 from the full article, for the detail
+   * page. Null wherever stage 3 never read the article — most of the archive,
+   * and any deal whose publisher blocked the fetch. Not present on FeedDeal:
+   * the feed slice omits it so the homepage payload stays small.
+   */
+  synopsis: string | null;
   seller: string | null;
   buyer: string | null;
   individuals: string[];
@@ -72,7 +79,7 @@ export interface Deal {
 
 /** The trimmed projection the feed list renders from. */
 export interface FeedDeal
-  extends Omit<Deal, "sources" | "advisers" | "buyer" | "primaryUrl" | "ticker"> {
+  extends Omit<Deal, "sources" | "advisers" | "buyer" | "primaryUrl" | "ticker" | "synopsis"> {
   primaryOutlet: string | null;
   sourceCount: number;
   updates: FeedUpdate[];

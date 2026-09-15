@@ -170,6 +170,40 @@ export function Panel({ deal, onClose, now }: { deal: Deal; onClose: () => void;
             </div>
           )}
 
+          {/*
+            ── what happened ────────────────────────────────────────────
+            100-150 words written by stage 3 from the full article, not from
+            the headline. Sits directly under the amount because it is the
+            thing that decides whether the deal is worth a call, and above the
+            parties because it gives them their context.
+
+            Absent on most of the archive: stage 3 only started reading
+            articles on 11 Sept, and a publisher can still block the fetch. The
+            section simply does not render then — an empty "Synopsis" heading
+            would read as a failure rather than as silence.
+          */}
+          {deal.synopsis && (
+            <>
+              <div style={rule} />
+              <div style={sectionLabel}>What happened</div>
+              <p
+                style={{
+                  margin: "12px 0 0",
+                  fontSize: 14.5,
+                  lineHeight: 1.62,
+                  color: "var(--lr-text)",
+                  textWrap: "pretty",
+                  maxWidth: "64ch",
+                }}
+              >
+                {deal.synopsis}
+              </p>
+              <div style={{ ...microLabel, marginTop: 9 }}>
+                Summarised from the source article
+              </div>
+            </>
+          )}
+
           <div style={rule} />
 
           {/* ── who gets paid ───────────────────────────────────────── */}

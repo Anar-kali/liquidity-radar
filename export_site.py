@@ -184,6 +184,12 @@ def build_deal(row, path):
         "sizeSource": size_source,
         "sizeBand": size_band,
         "oneLine": row["one_line"] or "",
+        # 100-150 words written by stage 3 from the full article. Deliberately
+        # NOT in FEED_FIELDS: deals.json is 589KB and every visitor downloads
+        # it on page load, so carrying 682 synopses would roughly double the
+        # homepage's weight to ship text nobody sees until they open a deal.
+        # Here it costs the feed nothing and ~900 bytes on open.
+        "synopsis": (row["synopsis"] or "").strip() or None,
         "seller": (row["seller"] or "").strip() or None,
         # Legacy column, never written since 2026-08-21 — populated on old
         # rows only. Exported so the UI can show it where it exists.

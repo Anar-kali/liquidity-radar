@@ -307,6 +307,70 @@ def test_immediate_retry_is_not_a_second_recorded_attempt():
     assert "_try_once" in body and "RETRY_PAUSE_SECONDS" in body
 
 
+# --------------------------------------------------------------------------
+# Synopsis — 100-150 words from the full article, shown on the deal page.
+# --------------------------------------------------------------------------
+def test_synopsis_fills_an_empty_field():
+    words = " ".join(f"word{i}" for i in range(120))
+    f = enrich._merge(deal(), {"synopsis": words})
+    assert f["synopsis"].startswith("word0"), f
+    assert len(f["synopsis"].split()) == 120
+
+
+def test_synopsis_never_overwrites_an_existing_one():
+    """Re-reading the same article can produce slightly different prose.
+    Silently rewording a page the banker may already have read is worse than
+    leaving it alone."""
+    d = deal()
+    d["synopsis"] = "Already written."
+    f = enrich._merge(d, {"synopsis": " ".join(f"w{i}" for i in range(120))})
+    assert "synopsis" not in f, f
+
+
+def test_a_padded_headline_is_not_a_synopsis():
+    """Under the floor the model is padding a headline rather than summarising
+    an article, which reads worse than showing nothing."""
+    f = enrich._merge(deal(), {"synopsis": "Company sells stake to buyer for money."})
+    assert "synopsis" not in f, f
+
+
+def test_a_long_synopsis_is_kept_whole():
+    """No upper guard: an over-long synopsis is still accurate prose, and
+    truncating would cut a sentence in half."""
+    words = " ".join(f"word{i}" for i in range(400))
+    f = enrich._merge(deal(), {"synopsis": words})
+    assert len(f["synopsis"].split()) == 400, len(f["synopsis"].split())
+
+
+def test_synopsis_is_asked_for_in_the_prompt_and_schema():
+    assert "synopsis" in enrich.SCHEMA["properties"]
+    assert "synopsis" in enrich.SCHEMA["required"]
+    assert "100 to 150 words" in enrich.PROMPT
+
+
+def test_stage3_no_longer_skips_deals_that_name_someone():
+    """The inversion that motivated this: stage 3 used to skip named deals
+    because it existed only to find names. Now it writes the synopsis too, so
+    skipping them would leave the BEST deals with none."""
+    import inspect
+    body = inspect.getsource(enrich.enrich_new)
+    assert '("[]", "", "null")' not in body, (
+        "enrich_new is filtering to nameless deals again — named deals would "
+        "get no synopsis")
+    assert "individuals" not in inspect.getsource(enrich.candidates)
+
+
+def test_synopsis_stays_out_of_the_feed_slice():
+    """deals.json is 589KB and every visitor downloads it on page load.
+    682 synopses would roughly double the homepage payload to carry text
+    nobody sees until they open a deal."""
+    import re
+    src = open("export_site.py", encoding="utf-8").read()
+    fields = re.search(r"FEED_FIELDS = \((.*?)\)", src, re.S).group(1)
+    assert "synopsis" not in fields, "synopsis must live in the per-deal file only"
+    assert '"synopsis"' in src, "but it must still be exported per deal"
+
+
 if __name__ == "__main__":
     print("stage-3 enrichment safety tests\n")
     for name, fn in sorted(globals().items()):
