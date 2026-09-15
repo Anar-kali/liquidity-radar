@@ -1,6 +1,28 @@
 {
- "dealCount": 686,
+ "dealCount": 687,
  "deals": [
+  {
+   "amountCr": 370.0,
+   "amountRaw": "Rs 370 crore",
+   "company": "Maharashtra Oil Extractions",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-15T13:31:16.265748+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 857,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Maharashtra Oil Extractions files draft IPO papers with SEBI to raise Rs 370 crore.",
+   "primaryOutlet": "Moneycontrol.com",
+   "seller": "Promoters of Maharashtra Oil Extractions",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-15T13:32:04.295205+00:00",
+   "updates": []
+  },
   {
    "amountCr": 750.0,
    "amountRaw": "₹750 Cr+",
@@ -43,10 +65,15 @@
    "seller": "OnEMI Technology Solutions",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": "KISSHT.NS",
    "updatedAt": "2026-09-15T11:31:53.385472+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-09-15T13:31:16.269728+00:00",
+     "title": "Kissht Parent OnEMI Plans Fresh Fundraise After Rs 926 Crore IPO"
+    }
+   ]
   },
   {
    "amountCr": 37700.0,
@@ -19888,6 +19915,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-15T11:31:57.522210+00:00",
- "totalDeals": 686
+ "generatedAt": "2026-09-15T13:32:04.295205+00:00",
+ "totalDeals": 687
 }
