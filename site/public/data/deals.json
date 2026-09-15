@@ -396,7 +396,7 @@
    "seller": "Moneyview",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 6,
+   "sourceCount": 7,
    "ticker": null,
    "updatedAt": "2026-09-14T08:31:09.621440+00:00",
    "updates": [
@@ -419,6 +419,10 @@
     {
      "attachedAt": "2026-09-15T06:31:15.820374+00:00",
      "title": "Moneyview cuts IPO fresh issue size by half to Rs 750 crore"
+    },
+    {
+     "attachedAt": "2026-09-15T08:31:14.476963+00:00",
+     "title": "Lending platform Moneyview cuts IPO size, halves fresh issue from Rs 1,500 crore to Rs 750 crore"
     }
    ]
   },
@@ -719,7 +723,7 @@
    "seller": "Shapoorji Pallonji Group",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 8,
+   "sourceCount": 9,
    "ticker": null,
    "updatedAt": "2026-09-14T10:31:06.265691+00:00",
    "updates": [
@@ -750,6 +754,10 @@
     {
      "attachedAt": "2026-09-14T10:31:06.264740+00:00",
      "title": "Tata Sons under IPO pressure: Noel faces biggest crisis amid RBI's regulatory push for public listing"
+    },
+    {
+     "attachedAt": "2026-09-15T08:31:14.482948+00:00",
+     "title": "Tata Sons Board Meeting: Mega IPO, Valuation And Value Unlocking In Focus"
     }
    ]
   },
@@ -770,7 +778,7 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 4,
+   "sourceCount": 5,
    "ticker": null,
    "updatedAt": "2026-09-14T01:32:10.597540+00:00",
    "updates": [
@@ -785,6 +793,10 @@
     {
      "attachedAt": "2026-09-15T01:31:09.792411+00:00",
      "title": "Indiabulls enters NBFC fintech space with Rs 1,050 crore Fintech Cloud deal"
+    },
+    {
+     "attachedAt": "2026-09-15T08:31:14.479496+00:00",
+     "title": "Indiabulls Proposes Acquisition Of 70% Stake In Fintech Cloud For ₹1,050 Crore"
     }
    ]
   },
@@ -936,7 +948,7 @@
    "seller": "Oriental Insurance",
    "sizeBand": "OVER_2000",
    "sizeSource": "band",
-   "sourceCount": 11,
+   "sourceCount": 12,
    "ticker": null,
    "updatedAt": "2026-09-14T01:32:09.974035+00:00",
    "updates": [
@@ -979,6 +991,10 @@
     {
      "attachedAt": "2026-09-15T06:31:15.831398+00:00",
      "title": "Goldman, Templeton, Fidelity said to plan buying into NSE IPO"
+    },
+    {
+     "attachedAt": "2026-09-15T08:31:14.473150+00:00",
+     "title": "NSE Shareholding: LIC Leads With 10.72% Stake Ahead of IPO"
     }
    ]
   },
