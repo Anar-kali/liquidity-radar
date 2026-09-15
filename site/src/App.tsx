@@ -71,7 +71,7 @@ export default function App({
   const [openId, setOpenId] = useState<number | null>(null);
   const [openDeal, setOpenDeal] = useState<Deal | null>(null);
   const [patterns, setPatterns] = useState<PatternAlert[]>([]);
-  const [openPattern, setOpenPattern] = useState<PatternAlert | null>(null);
+  const [openPatternId, setOpenPatternId] = useState<number | null>(null);
 
   // Fixed at load so a cell's "12m" does not drift while the page is read.
   const [now, setNow] = useState(() => Date.now());
@@ -91,12 +91,62 @@ export default function App({
     window.history.pushState({}, "", v === "archive" ? "/archive" : "/");
     window.scrollTo({ top: 0 });
   };
-  useEffect(() => {
-    const onPop = () =>
-      setView(window.location.pathname.replace(/\/+$/, "").endsWith("/archive") ? "archive" : "today");
-    window.addEventListener("popstate", onPop);
-    return () => window.removeEventListener("popstate", onPop);
+
+  /*
+   * EVERY OVERLAY LIVES IN THE URL, and the back button is the way out of one.
+   *
+   * Before this, opening a deal called history.replaceState — which OVERWRITES
+   * the current entry instead of adding one, so no back-step ever existed and
+   * pressing back left the site entirely. The pattern panel and the filters
+   * sheet touched history not at all, with the same result.
+   *
+   * So the URL is the single source of truth: opening pushes an entry, the
+   * popstate handler below derives all three overlays plus the archive view
+   * from whatever the URL now says, and closing from the UI calls
+   * history.back() so the entry is consumed rather than left behind for a
+   * confusing forward button.
+   *
+   * `{ overlay: true }` marks the entries we pushed ourselves. A visitor who
+   * lands directly on a shared ?deal=123 link has no entry of ours behind
+   * them, so closing must strip the parameter in place — calling back() there
+   * would throw them out of the site, which is the bug this fixes.
+   */
+  const readOverlays = useCallback(() => {
+    const p = new URLSearchParams(window.location.search);
+    const num = (k: string) => {
+      const v = Number(p.get(k));
+      return Number.isFinite(v) && v > 0 ? v : null;
+    };
+    setView(window.location.pathname.replace(/\/+$/, "").endsWith("/archive") ? "archive" : "today");
+    setOpenId(num("deal"));
+    setOpenPatternId(num("pattern"));
+    setSheet(p.get("filters") === "1" ? "filters" : null);
   }, []);
+
+  useEffect(() => {
+    window.addEventListener("popstate", readOverlays);
+    return () => window.removeEventListener("popstate", readOverlays);
+  }, [readOverlays]);
+
+  /** Open an overlay: one history entry, so one press of back closes it. */
+  const openOverlay = useCallback((key: "deal" | "pattern" | "filters", value: string) => {
+    const url = new URL(window.location.href);
+    url.searchParams.set(key, value);
+    window.history.pushState({ overlay: true }, "", url);
+  }, []);
+
+  /** Close from the UI (X, Esc, scrim, or a filter sheet's Done). */
+  const closeOverlay = useCallback((key: "deal" | "pattern" | "filters") => {
+    if (window.history.state?.overlay) {
+      window.history.back();      // popstate clears the state for us
+      return;
+    }
+    // Deep link: nothing of ours behind us, so drop the parameter in place.
+    const url = new URL(window.location.href);
+    url.searchParams.delete(key);
+    window.history.replaceState({}, "", url);
+    readOverlays();
+  }, [readOverlays]);
 
   const load = useCallback(async () => {
     setLoading(true);
@@ -122,11 +172,12 @@ export default function App({
     void load();
   }, [load]);
 
-  // Deep link: ?deal=123 is shareable and needs no server-side routing.
+  // Deep link: ?deal=123 / ?pattern=4 are shareable and need no server-side
+  // routing. Same reader the back button uses, so first paint and every later
+  // navigation agree about what is open.
   useEffect(() => {
-    const id = Number(new URLSearchParams(window.location.search).get("deal"));
-    if (id) setOpenId(id);
-  }, []);
+    readOverlays();
+  }, [readOverlays]);
 
   useEffect(() => {
     if (openId === null) {
@@ -145,16 +196,29 @@ export default function App({
 
   const openPanel = (id: number) => {
     setOpenId(id);
-    const url = new URL(window.location.href);
-    url.searchParams.set("deal", String(id));
-    window.history.replaceState({}, "", url);
+    openOverlay("deal", String(id));
   };
-  const closePanel = () => {
-    setOpenId(null);
-    const url = new URL(window.location.href);
-    url.searchParams.delete("deal");
-    window.history.replaceState({}, "", url);
+  const closePanel = () => closeOverlay("deal");
+
+  /* Derived, not stored: the URL holds the id, so a back/forward step or a
+     shared ?pattern=4 link resolves to the same alert without a second copy of
+     the state to keep in sync. */
+  const openPattern = useMemo(
+    () => (openPatternId === null ? null : patterns.find((a) => a.id === openPatternId) ?? null),
+    [openPatternId, patterns],
+  );
+
+  const openPatternPanel = (a: PatternAlert) => {
+    setOpenPatternId(a.id);
+    openOverlay("pattern", String(a.id));
   };
+  const closePatternPanel = () => closeOverlay("pattern");
+
+  const openFilters = () => {
+    setSheet("filters");
+    openOverlay("filters", "1");
+  };
+  const closeFilters = () => closeOverlay("filters");
 
   const allDeals = feed?.deals ?? [];
 
@@ -755,7 +819,7 @@ export default function App({
           )}
 
           {!loading && !error && view === "today" && (
-            <PatternSection alerts={patterns} onOpen={setOpenPattern} />
+            <PatternSection alerts={patterns} onOpen={openPatternPanel} />
           )}
 
           {!loading && !error && rowsB.length > 0 && (
@@ -831,7 +895,7 @@ export default function App({
       <div className="lr-bottombar">
         <button
           type="button"
-          onClick={() => setSheet("filters")}
+          onClick={openFilters}
           style={{
             flex: 1,
             minHeight: 56,
@@ -876,7 +940,7 @@ export default function App({
         <>
           <div
             className="lr-scrim"
-            onClick={() => setSheet(null)}
+            onClick={closeFilters}
             style={{
               position: "fixed",
               inset: 0,
@@ -922,7 +986,7 @@ export default function App({
               </button>
               <button
                 type="button"
-                onClick={() => setSheet(null)}
+                onClick={closeFilters}
                 aria-label="Close"
                 style={{
                   width: 40,
@@ -946,7 +1010,7 @@ export default function App({
       )}
 
       {openDeal && <Panel deal={openDeal} onClose={closePanel} now={now} />}
-      {openPattern && <PatternPanel alert={openPattern} onClose={() => setOpenPattern(null)} />}
+      {openPattern && <PatternPanel alert={openPattern} onClose={closePatternPanel} />}
     </div>
   );
 }
