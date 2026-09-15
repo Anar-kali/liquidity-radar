@@ -1,0 +1,35 @@
+{
+ "advisers": [],
+ "amountCr": 2700.0,
+ "amountRaw": "₹2,700 Cr",
+ "buyer": null,
+ "company": "Molbio Diagnostics",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-15T07:31:27.898442+00:00",
+ "dealType": "block deal",
+ "enrichmentState": null,
+ "id": 850,
+ "individuals": [
+  "Pradeep Singh Jauhar",
+  "Randeep Singh Jauhar",
+  "Krishna Prasad Chigurupati"
+ ],
+ "listed": true,
+ "oneLine": "Stakes worth Rs 2,700 crore exchanged hands in bulk deals involving Molbio Diagnostics and Pine Labs.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNTTczWVdHZUllOFloRGtjbzVYVlA0Y2lkZUdHMUNOQTZiY3ZZUFlRd2JXR2dvaDc5UURpRXBtNmNPZWE5QWlqQmw2X2pVdmxoVENKdkV5M2ZCU3VVTFY5cUtoX09zYXA4YlM0U2otOXVkd25ZU3N5NENNbFdIWFpLazJWOEdrcEVsN3d1bFZzeDl0RGs1UFA2WXJUblRlRHM0eURrd19mR1BfMDlEcVVOTzRxZ1pxWm93YTBqdFlST085Um1xV0RMWXBtcnF4ZUtGVUxBaDZvN1h3Vm1la2dPSktCbjlaVmdTeGJDbzdnMVV4X1lIMHh3?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-15T07:31:28.067795+00:00",
+   "outlet": "tradebrains.in",
+   "resolvable": false,
+   "title": "Molbio Diagnostics, Pine Labs and 4 Other Stocks in Focus After ₹2,700 Cr Worth of Stakes Exchanged Hands via Bulk Deals",
+   "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNTTczWVdHZUllOFloRGtjbzVYVlA0Y2lkZUdHMUNOQTZiY3ZZUFlRd2JXR2dvaDc5UURpRXBtNmNPZWE5QWlqQmw2X2pVdmxoVENKdkV5M2ZCU3VVTFY5cUtoX09zYXA4YlM0U2otOXVkd25ZU3N5NENNbFdIWFpLazJWOEdrcEVsN3d1bFZzeDl0RGs1UFA2WXJUblRlRHM0eURrd19mR1BfMDlEcVVOTzRxZ1pxWm93YTBqdFlST085Um1xV0RMWXBtcnF4ZUtGVUxBaDZvN1h3Vm1la2dPSktCbjlaVmdTeGJDbzdnMVV4X1lIMHh3?oc=5"
+  }
+ ],
+ "ticker": "MOLBIO.NS",
+ "updatedAt": "2026-09-15T07:31:31.505552+00:00"
+}

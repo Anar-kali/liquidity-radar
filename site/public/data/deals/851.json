@@ -1,0 +1,38 @@
+{
+ "advisers": [],
+ "amountCr": 1000.0,
+ "amountRaw": "₹ 1,000-crore (from article)",
+ "buyer": null,
+ "company": "Hero Motors",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-15T07:31:28.175721+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": null,
+ "id": 851,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Hero Motors progresses toward its IPO amid questions on EV momentum.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZUQwMVhGQmNVTEh4TGYzZGxkSUlzS0FxTFViSV9PNVhyWUlsandQWFE5TWZHcFpkWXhJc0drRUJZNHJpaXU5ajBuU2Y2SHdnTzkzLW4xcDVUVmF6MkZUbnZ4TG94UlRTNjlhMzJsSXM0OVZzR1hYOXV3WVAwOWZiZTZaMFJrZkJueEN3Zk1TZW1pSEpiRjQzMnJjVUpsWTFyVzhfazktZmRySWJZM2F2ZG96NC1SQjV4Xzg4MUZtdWl0c3ljUkhjLTY2OEdZQdIB0wFBVV95cUxQRzhsbTIxNkpLS1JpaHVzWDVXV0hlbkVqOHBjVTdUSnh0dDJoOEplODdDalhtMUVXdnM2d0F6OXI3cGRuVWUyN2NTX1cycjhoMlV1Mmtsa2hPNl9Fb3ZsV2ZtLTY1SEhZZ0lUeUFoLUYzSmlxbWE3ZHZKN2F3T2dIZHVSUFpVbUxIeG1jNzl3cnpOdDJpdE9xbDdjaGRfRXJWU3FhdlViZWxBSzZTbmhmN0w5cXNXMnJIdXZyVkdubEpGc05FTXdoYlpXS3JzRjZ0SVVN?oc=5",
+ "seller": "OP Munjal Holdings and Hero Cycles",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-15T07:31:28.178345+00:00",
+   "outlet": "Livemint",
+   "resolvable": false,
+   "title": "Hero Motors IPO: Can EV momentum offset muted revenue growth and capacity drag?",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZUQwMVhGQmNVTEh4TGYzZGxkSUlzS0FxTFViSV9PNVhyWUlsandQWFE5TWZHcFpkWXhJc0drRUJZNHJpaXU5ajBuU2Y2SHdnTzkzLW4xcDVUVmF6MkZUbnZ4TG94UlRTNjlhMzJsSXM0OVZzR1hYOXV3WVAwOWZiZTZaMFJrZkJueEN3Zk1TZW1pSEpiRjQzMnJjVUpsWTFyVzhfazktZmRySWJZM2F2ZG96NC1SQjV4Xzg4MUZtdWl0c3ljUkhjLTY2OEdZQdIB0wFBVV95cUxQRzhsbTIxNkpLS1JpaHVzWDVXV0hlbkVqOHBjVTdUSnh0dDJoOEplODdDalhtMUVXdnM2d0F6OXI3cGRuVWUyN2NTX1cycjhoMlV1Mmtsa2hPNl9Fb3ZsV2ZtLTY1SEhZZ0lUeUFoLUYzSmlxbWE3ZHZKN2F3T2dIZHVSUFpVbUxIeG1jNzl3cnpOdDJpdE9xbDdjaGRfRXJWU3FhdlViZWxBSzZTbmhmN0w5cXNXMnJIdXZyVkdubEpGc05FTXdoYlpXS3JzRjZ0SVVN?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-15T07:31:28.184163+00:00",
+   "outlet": "Analytics Insight",
+   "resolvable": false,
+   "title": "IPO Watch: Hero Motors, NSE, SS Retail and 2 IPOs to Track this Week",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQnk0NlRYUHphdzVlUmxmelF1TWg4dFhLRTR4TWpYQ0R3RGZfbXhTSnVBM2xwV2xrRHpYY2xMODNqR1BXSk5VcEVudU91VHR2RHJiU0Rma3JudWhqOTlEM1BWRWtvZzMxczI0eVFMRWVXd3JPeGxkSEZCT0c3SkExeFJvLU1temFVNzlrbEx0cVJxbjdYbEswelhtQVhzdmJOU254anRB0gGzAUFVX3lxTE9TVnEyOE4zTlNrTm9yTzdXZHpkYkp5cnpvNUN0aWxudTVIcmFRd3pDWnhJUk9hdVNFYXdDeGpxVUR3RjFsQUxXUFp6TWxxV0pOR1dEQkoxd0R1TkxfRnJzaGlFeUZ4ZlFQTnJtM0dEZkUtc1BGUG9OYURNMGNKT3ktaUVCeDFpNzJvaHN1elFqdEFiWTBpaXlOcTZFeHhRM1YzYUlQY1RkUVJkbG1CSzA4Z0dZ?oc=5"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-15T07:31:35.455553+00:00"
+}
