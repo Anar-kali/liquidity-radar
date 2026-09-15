@@ -1,6 +1,28 @@
 {
- "dealCount": 681,
+ "dealCount": 682,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "NODWIN Gaming",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-15T09:31:32.770918+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 852,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "IPO-bound NODWIN Gaming launches a new sports vertical.",
+   "primaryOutlet": "Inc42",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-15T09:31:32.770918+00:00",
+   "updates": []
+  },
   {
    "amountCr": 1000.0,
    "amountRaw": "₹ 1,000-crore (from article)",
@@ -948,7 +970,7 @@
    "seller": "Oriental Insurance",
    "sizeBand": "OVER_2000",
    "sizeSource": "band",
-   "sourceCount": 12,
+   "sourceCount": 13,
    "ticker": null,
    "updatedAt": "2026-09-14T01:32:09.974035+00:00",
    "updates": [
@@ -995,6 +1017,10 @@
     {
      "attachedAt": "2026-09-15T08:31:14.473150+00:00",
      "title": "NSE Shareholding: LIC Leads With 10.72% Stake Ahead of IPO"
+    },
+    {
+     "attachedAt": "2026-09-15T09:31:32.749092+00:00",
+     "title": "NSE IPO: Everything investors need to know about the National Stock Exchange IPO"
     }
    ]
   },
@@ -19759,6 +19785,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-15T07:31:35.455553+00:00",
- "totalDeals": 681
+ "generatedAt": "2026-09-15T09:31:32.770918+00:00",
+ "totalDeals": 682
 }

@@ -1,0 +1,31 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "NODWIN Gaming",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-15T09:31:32.770918+00:00",
+ "dealType": "IPO-OFS",
+ "enrichmentState": null,
+ "id": 852,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "IPO-bound NODWIN Gaming launches a new sports vertical.",
+ "primaryUrl": "https://inc42.com/buzz/nodwin-gaming-launches-sports-vertical-ex-adidas-executive-gurbaksh-virdi-to-lead/",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-15T09:31:32.772407+00:00",
+   "outlet": "Inc42",
+   "resolvable": true,
+   "title": "NODWIN Gaming Launches Sports Vertical, Ex-Adidas Executive Gurbaksh Virdi To Lead",
+   "url": "https://inc42.com/buzz/nodwin-gaming-launches-sports-vertical-ex-adidas-executive-gurbaksh-virdi-to-lead/"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-15T09:31:32.770918+00:00"
+}
