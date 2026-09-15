@@ -1,6 +1,28 @@
 {
- "dealCount": 682,
+ "dealCount": 683,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "ECS Biztech Ltd",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-15T10:31:15.774524+00:00",
+   "dealType": "open offer",
+   "enrichmentState": "failed",
+   "id": 853,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "ECS Biztech submits newspaper advertisement for open offer recommendation.",
+   "primaryOutlet": "BSE",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-15T10:31:15.774524+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -465,7 +487,7 @@
    "seller": "Existing shareholders of TBZ",
    "sizeBand": null,
    "sizeSource": "computed",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": "TBZ.NS",
    "updatedAt": "2026-09-14T07:31:18.074033+00:00",
    "updates": [
@@ -476,6 +498,10 @@
     {
      "attachedAt": "2026-09-15T02:30:58.406675+00:00",
      "title": "Jewellery IPO Rush: सोन्याच्या दागिन्यांच्या क्षेत्रात मोठी उलथापालथ, GRT Jewellers खरेदी करणार TBZ मध्ये ७४% हिस्सा"
+    },
+    {
+     "attachedAt": "2026-09-15T10:31:15.751396+00:00",
+     "title": "Jewellery ਸੈਕਟਰ ਵਿੱਚ ਵੱਡੀ ਹਲਚਲ: GRT Jewellers ਵੱਲੋਂ TBZ ਨੂੰ ਖਰੀਦਣ ਦਾ ਐਲਾਨ, IPOs ਦੀ ਲੱਗੀ ਲਾਈਨ"
     }
    ]
   },
@@ -19785,6 +19811,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-15T09:31:32.770918+00:00",
- "totalDeals": 682
+ "generatedAt": "2026-09-15T10:31:15.774524+00:00",
+ "totalDeals": 683
 }

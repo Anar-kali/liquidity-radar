@@ -1,0 +1,31 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "ECS Biztech Ltd",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-15T10:31:15.774524+00:00",
+ "dealType": "open offer",
+ "enrichmentState": "failed",
+ "id": 853,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "ECS Biztech submits newspaper advertisement for open offer recommendation.",
+ "primaryUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/633de33c-197d-493a-948e-e054cdf1307d.pdf",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-15T10:31:15.777732+00:00",
+   "outlet": "BSE",
+   "resolvable": true,
+   "title": "ECS Biztech Ltd: Submission of newspaper advertisement for recommendation of the committee of Independent Directors of the Company.",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/633de33c-197d-493a-948e-e054cdf1307d.pdf"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-15T10:31:15.774524+00:00"
+}
