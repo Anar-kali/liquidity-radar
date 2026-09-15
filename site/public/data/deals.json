@@ -640,8 +640,8 @@
    "updates": []
   },
   {
-   "amountCr": 5421.2,
-   "amountRaw": "24.06% x mcap ~Rs 22532cr = ~Rs 5421cr",
+   "amountCr": 1509.0,
+   "amountRaw": "Rs 1,509 crore",
    "company": "Granules India",
    "confidence": "medium",
    "confirmed": false,
@@ -658,9 +658,9 @@
    "seller": "Promoter",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 4,
+   "sourceCount": 5,
    "ticker": "GRANULES.NS",
-   "updatedAt": "2026-09-14T13:31:12.292178+00:00",
+   "updatedAt": "2026-09-15T04:31:08.619783+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-14T04:31:10.589276+00:00",
@@ -673,6 +673,10 @@
     {
      "attachedAt": "2026-09-14T13:31:12.290835+00:00",
      "title": "Granules India Promoter Chigurupati Sells 1.72 Cr Shares, Cuts Stake To 24.06%"
+    },
+    {
+     "attachedAt": "2026-09-15T04:31:08.618447+00:00",
+     "title": "Granules India shares in focus on September 15 after promoter sells 6.9% stake for Rs 1,509 crore"
     }
    ]
   },
@@ -19492,6 +19496,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-15T01:31:10.792879+00:00",
+ "generatedAt": "2026-09-15T04:31:08.619783+00:00",
  "totalDeals": 671
 }
