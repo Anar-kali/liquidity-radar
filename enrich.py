@@ -5,9 +5,9 @@ Liquidity Radar — stage 3. Read the article, name the individual.
     python enrich.py --limit 20
     python enrich.py --stats
 
-86% of deals name no individual, and naming individuals is the entire product.
 Stage 2 only ever sees a headline and 400 characters of description, so a name
-sitting in paragraph four is invisible to it. This reads the article.
+sitting in paragraph four is invisible to it, and there is nothing to summarise
+from. This reads the article, for EVERY deal that passed stage 2.
 
 ## Everything here is free
 
@@ -77,6 +77,11 @@ PRIORITY = ["block deal", "promoter sale", "open offer", "pe secondary",
 
 MAX_ATTEMPTS = config.ENRICH_MAX_ATTEMPTS
 RETRY_PAUSE_SECONDS = 3   # between a failure and its immediate retry
+# The prompt asks for 100-150 words. Anything far under that is the model
+# padding a headline rather than summarising an article, and reads worse than
+# no synopsis at all. There is no upper guard: an over-long synopsis is still
+# accurate prose, and truncating it would cut a sentence in half.
+MIN_SYNOPSIS_WORDS = 40
 ARTICLE_CHARS = 6000      # ~1,500 tokens; enough for the body, cheap to send
 FETCH_TIMEOUT = 25
 
@@ -89,8 +94,10 @@ SCHEMA = {
         "seller": {"type": "STRING", "nullable": True},
         "buyer": {"type": "STRING", "nullable": True},
         "advisers": {"type": "ARRAY", "items": {"type": "STRING"}},
+        "synopsis": {"type": "STRING", "nullable": True},
     },
-    "required": ["individuals", "amount_cr", "amount_raw", "seller", "buyer", "advisers"],
+    "required": ["individuals", "amount_cr", "amount_raw", "seller", "buyer",
+                 "advisers", "synopsis"],
 }
 
 PROMPT = """You are reading one Indian M&A / stake-sale / IPO article for a \
@@ -111,7 +118,16 @@ amount_raw — the exact phrase the figure came from, quoted from the article,
   so a reader can check it; a paraphrase is useless there.
 advisers — banks or law firms named as advising on this transaction.
 
-Unstated means null, or an empty list."""
+Unstated means null, or an empty list.
+
+synopsis — 100 to 150 words, plain prose, for a banker deciding in ten seconds
+  whether this deal is worth a call. Cover what happened, who is on each side,
+  the money, and the timing or condition that matters. Lead with the fact, not
+  with "This article discusses". Write only what the article states — no
+  background you are supplying yourself, no market commentary, no advice, and
+  no speculation about what it might mean. If the article is too thin to
+  support 100 words, write what it does support and stop; a short accurate
+  synopsis is worth more than a padded one."""
 
 _session = None
 
@@ -195,6 +211,19 @@ def _merge(deal, found):
         # Same class as stage 2's "stated": a figure the article asserts, as
         # opposed to one computed from stake x market cap.
         fields["size_source"] = "stated"
+    # Same fill-a-hole rule as everything else: never overwrite a synopsis a
+    # previous run already wrote. Re-reading the same article twice can produce
+    # slightly different prose, and silently rewording a page the banker may
+    # already have read is worse than leaving it alone.
+    synopsis = " ".join((found.get("synopsis") or "").split())
+    if synopsis and not (deal.get("synopsis") or "").strip():
+        words = len(synopsis.split())
+        if words < MIN_SYNOPSIS_WORDS:
+            # Thin article, or the model padding a headline. Not worth showing.
+            print(f"[enrich] deal {deal['id']} synopsis only {words} words, dropped")
+        else:
+            fields["synopsis"] = synopsis
+
     for key in ("seller", "buyer"):
         val = " ".join((found.get(key) or "").split())
         if val and not (deal[key] or "").strip():
@@ -207,19 +236,24 @@ def _merge(deal, found):
 
 
 def candidates(limit, path=db.DB_PATH, max_age_hours=None):
-    """Recent unenriched deals with no named individual, best type first.
+    """Recent deals not yet read, best type first.
+
+    EVERY deal that passed stage 2 is a candidate, including ones that already
+    name somebody. Until 2026-09-15 this skipped them — stage 3 existed only to
+    find names, so a deal that had one needed nothing. Then stage 3 started
+    producing the synopsis the site shows, and that logic inverted: skipping
+    named deals meant the BEST deals were the ones with no synopsis. Of the 49
+    deals in the first four days, 11 were skipped exactly that way.
 
     Bounded by age on purpose. This is a prospecting tool, not an archive: a
     deal from five weeks ago is of no use to a banker, so old ones are never
-    revisited however many of them name nobody. The window matches the site's
-    own 24-hour front page.
+    revisited. The window matches the site's own 24-hour front page.
     """
     hours = config.ENRICH_MAX_AGE_HOURS if max_age_hours is None else max_age_hours
     conn = db._conn(path)
     sql = ("SELECT d.* FROM deals d "
            "LEFT JOIN deal_enrichment e ON e.deal_id = d.id "
-           "WHERE (d.individuals IS NULL OR d.individuals IN ('[]','','null')) "
-           "  AND (e.deal_id IS NULL OR e.attempts < ?) "
+           "WHERE (e.deal_id IS NULL OR e.attempts < ?) "
            "  AND (e.status IS NULL OR e.status != 'ok') ")
     params = [MAX_ATTEMPTS]
     if hours:
@@ -374,9 +408,10 @@ def enrich_new(deal_ids, limit=None, path=None, dry=False):
     out = {}
     try:
         deals = _deals_by_id(deal_ids, path)
-        # Only ones with nobody named — the rest need nothing.
-        deals = [d for d in deals
-                 if (d["individuals"] or "[]") in ("[]", "", "null")][:limit]
+        # Every deal that reached here passed stage 2, and every one of them
+        # gets read. Filtering to nameless deals would leave the best deals —
+        # the ones that already name somebody — with no synopsis.
+        deals = deals[:limit]
         for deal in deals:
             try:
                 status, fields = enrich_one(deal, dry=dry, path=path)
