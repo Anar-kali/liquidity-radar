@@ -1,6 +1,118 @@
 {
- "dealCount": 674,
+ "dealCount": 679,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "MSEDCL",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-15T06:31:15.833744+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": "failed",
+   "id": 849,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Maharashtra plans MSEDCL IPO.",
+   "primaryOutlet": "Prop News Time",
+   "seller": null,
+   "sizeBand": "OVER_2000",
+   "sizeSource": "band",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-15T06:31:15.833744+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "SJ Corporation",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-15T06:31:15.828311+00:00",
+   "dealType": "block deal",
+   "enrichmentState": null,
+   "id": 848,
+   "individuals": [
+    "Pintu Kanjibhai Kalavadia"
+   ],
+   "listed": false,
+   "oneLine": "SJ Corporation promoter raises stake to 24.66% in off-market deal.",
+   "primaryOutlet": "Whalesbook",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-15T06:31:29.905734+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Pranav Constructions Limited",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-15T06:31:15.710723+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 847,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Pranav Constructions Limited filed a draft offer document for an IPO with SEBI.",
+   "primaryOutlet": "SEBI",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-15T06:31:15.710723+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Steamhouse India Limited",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-15T06:31:15.707473+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 846,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Steamhouse India Limited filed a draft offer document for an IPO with SEBI.",
+   "primaryOutlet": "Prospectus",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-15T06:31:15.707473+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Kanohar Electricals Limited",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-15T06:31:15.704013+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 845,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Kanohar Electricals Limited filed a draft offer document for an IPO with SEBI.",
+   "primaryOutlet": "PROSPECTUS",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-15T06:31:15.704013+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -231,7 +343,7 @@
    "seller": "Moneyview",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 5,
+   "sourceCount": 6,
    "ticker": null,
    "updatedAt": "2026-09-14T08:31:09.621440+00:00",
    "updates": [
@@ -250,6 +362,10 @@
     {
      "attachedAt": "2026-09-15T05:31:36.243991+00:00",
      "title": "Moneyview cuts IPO fresh issue to Rs 750 Cr, investors trim OFS"
+    },
+    {
+     "attachedAt": "2026-09-15T06:31:15.820374+00:00",
+     "title": "Moneyview cuts IPO fresh issue size by half to Rs 750 crore"
     }
    ]
   },
@@ -767,7 +883,7 @@
    "seller": "Oriental Insurance",
    "sizeBand": "OVER_2000",
    "sizeSource": "band",
-   "sourceCount": 9,
+   "sourceCount": 11,
    "ticker": null,
    "updatedAt": "2026-09-14T01:32:09.974035+00:00",
    "updates": [
@@ -802,6 +918,14 @@
     {
      "attachedAt": "2026-09-15T03:31:07.120382+00:00",
      "title": "National Stock Exchange of India set for landmark IPO, impacting unlisted shares"
+    },
+    {
+     "attachedAt": "2026-09-15T06:31:15.822539+00:00",
+     "title": "What NSE's Monopoly Numbers Actually Mean For Its IPO"
+    },
+    {
+     "attachedAt": "2026-09-15T06:31:15.831398+00:00",
+     "title": "Goldman, Templeton, Fidelity said to plan buying into NSE IPO"
     }
    ]
   },
@@ -19566,6 +19690,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-15T05:31:36.239664+00:00",
- "totalDeals": 674
+ "generatedAt": "2026-09-15T06:31:29.905734+00:00",
+ "totalDeals": 679
 }

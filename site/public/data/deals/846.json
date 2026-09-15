@@ -1,0 +1,31 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Steamhouse India Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-15T06:31:15.707473+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": "failed",
+ "id": 846,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Steamhouse India Limited filed a draft offer document for an IPO with SEBI.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/steamhouse-india-limited-prospectus_104485.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-15T06:31:15.708409+00:00",
+   "outlet": "Prospectus",
+   "resolvable": true,
+   "title": "Steamhouse India Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/steamhouse-india-limited-prospectus_104485.html"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-15T06:31:15.707473+00:00"
+}

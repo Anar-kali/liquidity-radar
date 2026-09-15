@@ -1,0 +1,33 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "Promoter",
+ "company": "SJ Corporation",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-15T06:31:15.828311+00:00",
+ "dealType": "block deal",
+ "enrichmentState": null,
+ "id": 848,
+ "individuals": [
+  "Pintu Kanjibhai Kalavadia"
+ ],
+ "listed": false,
+ "oneLine": "SJ Corporation promoter raises stake to 24.66% in off-market deal.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNNGNGWDJsMk9wNmI5UGtSRnpQWFJnR0hEVUVnMDhwVlRFSzllbE8td244bG1NWWFlX1ZKbVh5QXdfeTBQRlluc1ZVWUdsRnRCMHlJVmlfUXB2V3Vrdzh1cFYyeTBRQlFnY3dfT2VFUFF1OWVIWHZRUjlEMjZaSUVxeGNZb3d3UXhLS2FFVWlPZnpoaUJud0h2QW1ETFJZT0duQUpUTUZ6LW9nRWpidDdIZlN6UkhKbXRiZFdJNVRsYnVURDhYdVJkN2lxM0FVMmdPUGExRlU1ejVwaFJYMmxnM2owV25oUk00b0VuR0pqaw?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-15T06:31:15.829273+00:00",
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "SJ Corporation Promoter Raises Stake to 24.66% in Off-Market Deal",
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNNGNGWDJsMk9wNmI5UGtSRnpQWFJnR0hEVUVnMDhwVlRFSzllbE8td244bG1NWWFlX1ZKbVh5QXdfeTBQRlluc1ZVWUdsRnRCMHlJVmlfUXB2V3Vrdzh1cFYyeTBRQlFnY3dfT2VFUFF1OWVIWHZRUjlEMjZaSUVxeGNZb3d3UXhLS2FFVWlPZnpoaUJud0h2QW1ETFJZT0duQUpUTUZ6LW9nRWpidDdIZlN6UkhKbXRiZFdJNVRsYnVURDhYdVJkN2lxM0FVMmdPUGExRlU1ejVwaFJYMmxnM2owV25oUk00b0VuR0pqaw?oc=5"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-15T06:31:29.905734+00:00"
+}

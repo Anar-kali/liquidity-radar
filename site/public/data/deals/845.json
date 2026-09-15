@@ -1,0 +1,31 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Kanohar Electricals Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-15T06:31:15.704013+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": "failed",
+ "id": 845,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Kanohar Electricals Limited filed a draft offer document for an IPO with SEBI.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/kanohar-electricals-limited-prospectus_104483.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-15T06:31:15.705218+00:00",
+   "outlet": "PROSPECTUS",
+   "resolvable": true,
+   "title": "KANOHAR ELECTRICALS LIMITED",
+   "url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/kanohar-electricals-limited-prospectus_104483.html"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-15T06:31:15.704013+00:00"
+}

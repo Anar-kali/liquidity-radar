@@ -1,0 +1,31 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "MSEDCL",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-15T06:31:15.833744+00:00",
+ "dealType": "IPO-OFS",
+ "enrichmentState": "failed",
+ "id": 849,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Maharashtra plans MSEDCL IPO.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWFNDdUV0SUZmWXdQdWlWX0xyd2VBQkJuTXF1enZvRWt1V0NkLXNjS1U2cmJxU19qUTdqX2NmVHNIczlFNXVxOV9SMmJBZXFSVEdYVmFpQ25pWjRfd0ZNeU1kVzgwZ294TVV0UFdFSDdjWGhSMFVuRnpWRWFZdkxxTlRYYlhGSXd6RVJSa0R3T3ZtaXctMjNUXzRONFcxVzR1aGFtUUpoVUN2Ty0wcWhDQ25RU2E?oc=5",
+ "seller": null,
+ "sizeBand": "OVER_2000",
+ "sizeSource": "band",
+ "sources": [
+  {
+   "attachedAt": "2026-09-15T06:31:15.834619+00:00",
+   "outlet": "Prop News Time",
+   "resolvable": false,
+   "title": "Maharashtra rules out privatising power firms, plans MSEDCL IPO",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWFNDdUV0SUZmWXdQdWlWX0xyd2VBQkJuTXF1enZvRWt1V0NkLXNjS1U2cmJxU19qUTdqX2NmVHNIczlFNXVxOV9SMmJBZXFSVEdYVmFpQ25pWjRfd0ZNeU1kVzgwZ294TVV0UFdFSDdjWGhSMFVuRnpWRWFZdkxxTlRYYlhGSXd6RVJSa0R3T3ZtaXctMjNUXzRONFcxVzR1aGFtUUpoVUN2Ty0wcWhDQ25RU2E?oc=5"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-15T06:31:15.833744+00:00"
+}
