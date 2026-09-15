@@ -1,0 +1,31 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Rentomojo Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-15T05:31:36.230768+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": "failed",
+ "id": 842,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Rentomojo Limited filed its SEBI draft offer document for an IPO.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/rentomojo-limited-prospectus_104482.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-15T05:31:36.232956+00:00",
+   "outlet": "SEBI",
+   "resolvable": true,
+   "title": "Rentomojo Limited – Prospectus",
+   "url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/rentomojo-limited-prospectus_104482.html"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-15T05:31:36.230768+00:00"
+}

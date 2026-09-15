@@ -1,0 +1,31 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "PRASOL CHEMICALS LIMITED",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-15T05:31:36.239664+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": "failed",
+ "id": 844,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Prasol Chemicals Limited progressed with its SEBI draft offer document.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/prasol-chemicals-limited-prospectus_104479.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-15T05:31:36.240806+00:00",
+   "outlet": "PROSPECTUS",
+   "resolvable": true,
+   "title": "PRASOL CHEMICALS LIMITED",
+   "url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/prasol-chemicals-limited-prospectus_104479.html"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-15T05:31:36.239664+00:00"
+}

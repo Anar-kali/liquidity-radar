@@ -1,6 +1,72 @@
 {
- "dealCount": 671,
+ "dealCount": 674,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "PRASOL CHEMICALS LIMITED",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-15T05:31:36.239664+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 844,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Prasol Chemicals Limited progressed with its SEBI draft offer document.",
+   "primaryOutlet": "PROSPECTUS",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-15T05:31:36.239664+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "German Green Steel and Power Limited",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-15T05:31:36.236346+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 843,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "German Green Steel and Power Limited submitted an addendum to its DRHP.",
+   "primaryOutlet": "Addendum II to DRHP",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-15T05:31:36.236346+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Rentomojo Limited",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-15T05:31:36.230768+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 842,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Rentomojo Limited filed its SEBI draft offer document for an IPO.",
+   "primaryOutlet": "SEBI",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-15T05:31:36.230768+00:00",
+   "updates": []
+  },
   {
    "amountCr": 13200.0,
    "amountRaw": "$1.5 bn",
@@ -165,7 +231,7 @@
    "seller": "Moneyview",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 4,
+   "sourceCount": 5,
    "ticker": null,
    "updatedAt": "2026-09-14T08:31:09.621440+00:00",
    "updates": [
@@ -180,6 +246,10 @@
     {
      "attachedAt": "2026-09-15T03:31:07.117190+00:00",
      "title": "Moneyview halves IPO Fresh Issue To Rs 750 Cr After SEBI Nod"
+    },
+    {
+     "attachedAt": "2026-09-15T05:31:36.243991+00:00",
+     "title": "Moneyview cuts IPO fresh issue to Rs 750 Cr, investors trim OFS"
     }
    ]
   },
@@ -19496,6 +19566,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-15T04:31:08.619783+00:00",
- "totalDeals": 671
+ "generatedAt": "2026-09-15T05:31:36.239664+00:00",
+ "totalDeals": 674
 }

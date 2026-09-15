@@ -1,0 +1,31 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "German Green Steel and Power Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-15T05:31:36.236346+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": "failed",
+ "id": 843,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "German Green Steel and Power Limited submitted an addendum to its DRHP.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/german-green-steel-and-power-limited-addendum-ii-to-drhp_104480.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-15T05:31:36.237317+00:00",
+   "outlet": "Addendum II to DRHP",
+   "resolvable": true,
+   "title": "German Green Steel and Power Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/german-green-steel-and-power-limited-addendum-ii-to-drhp_104480.html"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-15T05:31:36.236346+00:00"
+}
