@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 37700.0,
+ "amountRaw": "₹ 37,700 crore (from article)",
+ "buyer": null,
+ "company": "Jio",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-15T11:31:19.121644+00:00",
+ "dealType": "IPO-OFS",
+ "enrichmentState": null,
+ "id": 854,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Jio is exploring a major upcoming IPO.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdkVMVlZHQ0JxUmtCeUpBVE1HV2FJdlBqTHVhWjZfbEFDcWZ1ZVREWVVtU0QzTWRhVENxcGVsM29neUFQOFBhZjBjWWw4bHJrdVhFV0FNZGhnZ3paVlM5czNwOTh4Z0ZfREh6dlJUNGJjOHF3eHdxQUZTNEVRX2EtYWVQakZBN1g4bU1uSHVnNUplTzcxVTl0VzlQNDZrR1g4dEZJakpn?oc=5",
+ "seller": "Reliance Industries",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-15T11:31:19.122968+00:00",
+   "outlet": "Livemint",
+   "resolvable": false,
+   "title": "Why The Jio IPO Could Be One Of India’s Biggest IPOs",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdkVMVlZHQ0JxUmtCeUpBVE1HV2FJdlBqTHVhWjZfbEFDcWZ1ZVREWVVtU0QzTWRhVENxcGVsM29neUFQOFBhZjBjWWw4bHJrdVhFV0FNZGhnZ3paVlM5czNwOTh4Z0ZfREh6dlJUNGJjOHF3eHdxQUZTNEVRX2EtYWVQakZBN1g4bU1uSHVnNUplTzcxVTl0VzlQNDZrR1g4dEZJakpn?oc=5"
+  }
+ ],
+ "synopsis": "Jio is exploring a major upcoming initial public offering consisting entirely of a fresh issue of up to 27 crore equity shares, aiming to raise up to ₹ 37,700 crore. The anticipated IPO could hit the market as early as September 2026, with Jio having filed its Draft Red Herring Prospectus with SEBI on 19 June 2026. The entire proceeds are from a fresh issue with no Offer for Sale component, meaning capital goes directly to the company to help strengthen the business and clear certain borrowings. The final pricing, price band, and exact launch dates are yet to be determined.",
+ "ticker": "JIOFIN.NS",
+ "updatedAt": "2026-09-15T11:31:48.266423+00:00"
+}

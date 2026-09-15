@@ -1,0 +1,35 @@
+{
+ "advisers": [],
+ "amountCr": 750.0,
+ "amountRaw": "₹750 Cr+",
+ "buyer": null,
+ "company": "Fibe",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-15T11:31:19.134957+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": null,
+ "id": 856,
+ "individuals": [
+  "Akshay Mehrotra",
+  "Ashish Goyal"
+ ],
+ "listed": false,
+ "oneLine": "SEBI greenlights lending tech startup Fibe's 750 cr plus IPO.",
+ "primaryUrl": "https://inc42.com/buzz/sebi-greenlights-lending-tech-startup-fibes-%e2%82%b9750-cr-ipo/",
+ "seller": "Social Worth Technologies Ltd",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-15T11:31:19.136061+00:00",
+   "outlet": "Inc42",
+   "resolvable": true,
+   "title": "SEBI Greenlights Lending Tech Startup Fibe’s ₹750 Cr+ IPO",
+   "url": "https://inc42.com/buzz/sebi-greenlights-lending-tech-startup-fibes-%e2%82%b9750-cr-ipo/"
+  }
+ ],
+ "synopsis": "Markets regulator SEBI has issued its final observation on the proposed IPO of lending tech startup Fibe, operating under parent entity Social Worth Technologies Ltd, clearing the way for a public listing. The upcoming initial public offering comprises a fresh issue of shares worth up to ₹750 Cr and an offer-for-sale component exceeding 4 Cr equity shares by existing investors, including TPG, Norwest Capital, and Eight Roads Ventures. Fibe plans to invest ₹562.6 Cr from the fresh issue proceeds into its NBFC subsidiary, EarlySalary Services Pvt Ltd, over the next two fiscal years to support its lending requirements. The company may also consider raising up to ₹150 Cr via a pre-IPO placement.",
+ "ticker": null,
+ "updatedAt": "2026-09-15T11:31:57.522210+00:00"
+}

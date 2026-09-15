@@ -1,6 +1,75 @@
 {
- "dealCount": 683,
+ "dealCount": 686,
  "deals": [
+  {
+   "amountCr": 750.0,
+   "amountRaw": "₹750 Cr+",
+   "company": "Fibe",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-15T11:31:19.134957+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 856,
+   "individuals": [
+    "Akshay Mehrotra",
+    "Ashish Goyal"
+   ],
+   "listed": false,
+   "oneLine": "SEBI greenlights lending tech startup Fibe's 750 cr plus IPO.",
+   "primaryOutlet": "Inc42",
+   "seller": "Social Worth Technologies Ltd",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-15T11:31:57.522210+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 850.0,
+   "amountRaw": "₹850 Crore",
+   "company": "OnEMI",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-15T11:31:19.129410+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 855,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Kissht parent OnEMI is considering a fresh fundraise following an 850 crore INR IPO.",
+   "primaryOutlet": "CXO Digitalpulse",
+   "seller": "OnEMI Technology Solutions",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "KISSHT.NS",
+   "updatedAt": "2026-09-15T11:31:53.385472+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 37700.0,
+   "amountRaw": "₹ 37,700 crore (from article)",
+   "company": "Jio",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-15T11:31:19.121644+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 854,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Jio is exploring a major upcoming IPO.",
+   "primaryOutlet": "Livemint",
+   "seller": "Reliance Industries",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "JIOFIN.NS",
+   "updatedAt": "2026-09-15T11:31:48.266423+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -771,7 +840,7 @@
    "seller": "Shapoorji Pallonji Group",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 9,
+   "sourceCount": 10,
    "ticker": null,
    "updatedAt": "2026-09-14T10:31:06.265691+00:00",
    "updates": [
@@ -806,6 +875,10 @@
     {
      "attachedAt": "2026-09-15T08:31:14.482948+00:00",
      "title": "Tata Sons Board Meeting: Mega IPO, Valuation And Value Unlocking In Focus"
+    },
+    {
+     "attachedAt": "2026-09-15T11:31:18.917416+00:00",
+     "title": "Tata Sons Listing Could Give SP Group A New Way Out Of Its Debt Burden"
     }
    ]
   },
@@ -826,7 +899,7 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 5,
+   "sourceCount": 6,
    "ticker": null,
    "updatedAt": "2026-09-14T01:32:10.597540+00:00",
    "updates": [
@@ -845,6 +918,10 @@
     {
      "attachedAt": "2026-09-15T08:31:14.479496+00:00",
      "title": "Indiabulls Proposes Acquisition Of 70% Stake In Fintech Cloud For ₹1,050 Crore"
+    },
+    {
+     "attachedAt": "2026-09-15T11:31:19.125303+00:00",
+     "title": "Indiabulls To Buy 70% Majority Stake In Fintech Cloud Private Limited For ₹1,050 Crore"
     }
    ]
   },
@@ -19811,6 +19888,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-15T10:31:15.774524+00:00",
- "totalDeals": 683
+ "generatedAt": "2026-09-15T11:31:57.522210+00:00",
+ "totalDeals": 686
 }
