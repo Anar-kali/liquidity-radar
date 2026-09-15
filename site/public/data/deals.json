@@ -1,6 +1,28 @@
 {
- "dealCount": 670,
+ "dealCount": 671,
  "deals": [
+  {
+   "amountCr": 13200.0,
+   "amountRaw": "$1.5 bn",
+   "company": "Orbicular Pharma",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-15T01:31:09.803259+00:00",
+   "dealType": "PE secondary",
+   "enrichmentState": null,
+   "id": 841,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "PE majors eye Orbicular Pharma stake sale valued up to $1.5 billion.",
+   "primaryOutlet": "Mint",
+   "seller": "Tata Capital Healthcare Fund",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-15T01:31:10.792879+00:00",
+   "updates": []
+  },
   {
    "amountCr": 38400.0,
    "amountRaw": "400 million pounds",
@@ -143,13 +165,17 @@
    "seller": "Moneyview",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-09-14T08:31:09.621440+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-14T09:31:09.175914+00:00",
      "title": "Moneyview Cuts IPO Fresh Issue by 50% to Rs 750 Crore"
+    },
+    {
+     "attachedAt": "2026-09-15T01:31:09.810196+00:00",
+     "title": "Moneyview Cuts IPO Size After SEBI Nod, Halves Fresh Issue Component To ₹750 Cr"
     }
    ]
   },
@@ -170,10 +196,15 @@
    "seller": "Existing shareholders of TBZ",
    "sizeBand": null,
    "sizeSource": "computed",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": "TBZ.NS",
    "updatedAt": "2026-09-14T07:31:18.074033+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-09-15T01:31:09.797173+00:00",
+     "title": "Jewellery Sector: జ్యువెలరీ రంగంలో భారీ కన్సాలిడేషన్.. TBZలో 74% వాటాను దక్కించుకున్న GRT Jewellers"
+    }
+   ]
   },
   {
    "amountCr": 2670.0,
@@ -488,7 +519,7 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-09-14T01:32:10.597540+00:00",
    "updates": [
@@ -499,6 +530,10 @@
     {
      "attachedAt": "2026-09-14T01:32:10.604534+00:00",
      "title": "Indiabulls to Acquire 70% Stake in Fintech Cloud for ₹1,050 Crore; To Enter Fintech Segment"
+    },
+    {
+     "attachedAt": "2026-09-15T01:31:09.792411+00:00",
+     "title": "Indiabulls enters NBFC fintech space with Rs 1,050 crore Fintech Cloud deal"
     }
    ]
   },
@@ -19441,6 +19476,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-14T13:31:12.292178+00:00",
- "totalDeals": 670
+ "generatedAt": "2026-09-15T01:31:10.792879+00:00",
+ "totalDeals": 671
 }

@@ -1,0 +1,31 @@
+{
+ "advisers": [],
+ "amountCr": 13200.0,
+ "amountRaw": "$1.5 bn",
+ "buyer": "Warburg Pincus, CVC Capital Partners",
+ "company": "Orbicular Pharma",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-15T01:31:09.803259+00:00",
+ "dealType": "PE secondary",
+ "enrichmentState": null,
+ "id": 841,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "PE majors eye Orbicular Pharma stake sale valued up to $1.5 billion.",
+ "primaryUrl": "https://www.livemint.com/companies/news/orbicular-pharma-stake-sale-deal-valuation-warburg-pincus-cvc-capital-11789352026674.html",
+ "seller": "Tata Capital Healthcare Fund",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-15T01:31:09.804280+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "PE majors eye Orbicular Pharma stake, valuation seen up to $1.5 bn",
+   "url": "https://www.livemint.com/companies/news/orbicular-pharma-stake-sale-deal-valuation-warburg-pincus-cvc-capital-11789352026674.html"
+  }
+ ],
+ "ticker": null,
+ "updatedAt": "2026-09-15T01:31:10.792879+00:00"
+}
