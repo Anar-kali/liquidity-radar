@@ -1,6 +1,41 @@
 {
  "alerts": [
   {
+   "alertedAt": "2026-09-16T18:08:20.629326+00:00",
+   "company": "Raymond Ltd.",
+   "firstTrade": "11-Sep-2026",
+   "id": 16,
+   "lastTrade": "16-Sep-2026",
+   "person": "MICROCURVES TRADING PRIVATE LIMITED",
+   "saleCount": 3,
+   "sales": [
+    {
+     "date": "11-Sep-2026",
+     "sources": [
+      "bulk"
+     ],
+     "valueCr": 71.19
+    },
+    {
+     "date": "15-Sep-2026",
+     "sources": [
+      "bulk"
+     ],
+     "valueCr": 140.55
+    },
+    {
+     "date": "16-Sep-2026",
+     "sources": [
+      "bulk"
+     ],
+     "valueCr": 38.51
+    }
+   ],
+   "storedTotalCr": 250.25,
+   "totalCr": 250.25,
+   "weeks": 1
+  },
+  {
    "alertedAt": "2026-09-09T17:46:18.594126+00:00",
    "company": "MV Electrosystems Limited",
    "firstTrade": "28-Aug-2026",
@@ -306,6 +341,6 @@
    "weeks": 1
   }
  ],
- "count": 8,
+ "count": 9,
  "generatedAt": "2026-09-16T13:31:35.821442+00:00"
 }
