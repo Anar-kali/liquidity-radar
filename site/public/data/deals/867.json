@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "NSE",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-16T04:31:11.099903+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": null,
+ "id": 867,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "NSE IPO discussion and market implications",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxOalVscG1SYVdGb1FrUnAwcVlBMUlFa0RCSzR3bWtSSjUtN2hRMU14SnJiY05jMlExUURHbVRtLWFDVlNTbWV0SllwcEh1WklOUHROZjc0aXFCcDJLNXZBT1NGcGhtN1J6dVI3Zk81WDEtbjFpQmFFM3NhSGR2aEtyVU5TSkNkUHpEMmRkOVhpT0dickZDcC1raG9vZG1uUQ?oc=5",
+ "seller": "Existing shareholders (including State Bank of India and SBI Capital Markets Limited)",
+ "sizeBand": "OVER_2000",
+ "sizeSource": "band",
+ "sources": [
+  {
+   "attachedAt": "2026-09-16T04:31:11.100794+00:00",
+   "outlet": "Livemint",
+   "resolvable": false,
+   "title": "NSE IPO: What it means for India’s stock market",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOalVscG1SYVdGb1FrUnAwcVlBMUlFa0RCSzR3bWtSSjUtN2hRMU14SnJiY05jMlExUURHbVRtLWFDVlNTbWV0SllwcEh1WklOUHROZjc0aXFCcDJLNXZBT1NGcGhtN1J6dVI3Zk81WDEtbjFpQmFFM3NhSGR2aEtyVU5TSkNkUHpEMmRkOVhpT0dickZDcC1raG9vZG1uUQ?oc=5"
+  }
+ ],
+ "synopsis": "The National Stock Exchange of India is preparing for an initial public offering via an offer for sale of up to 14.89 crore equity shares, with existing shareholders selling their holdings. Because the offering is an offer for sale, the exchange itself will not receive any proceeds. The Draft Red Herring Prospectus was filed on June 17, 2026, with the launch potentially slated for September 2026 and listing anticipated by September 25, 2026, subject to regulatory approvals. Institutional investors have been targeted around ₹2,000 to ₹2,100 per share, implying a valuation of up to roughly ₹5.26 lakh crore. The exchange reports declining profits for Fiscal 2026 alongside ongoing regulatory and market risks affecting derivatives volumes.",
+ "ticker": null,
+ "updatedAt": "2026-09-16T04:31:22.715125+00:00"
+}

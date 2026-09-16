@@ -1,0 +1,34 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "Public",
+ "company": "Anchor Offshore Services",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-16T04:31:11.103243+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": null,
+ "id": 868,
+ "individuals": [
+  "Narothamdas Chanillo"
+ ],
+ "listed": false,
+ "oneLine": "Anchor Offshore Services files IPO papers",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQZG5RbnhEcUYtSDA4YnZwWHlMc04tNVNvV3JmVTFVVzJrVEZDU1FjRXFkME1pQ2w2UHhBWldCODIzZ05YZldnVHdRYkNneDVsS3lRYV9JUzNDS09DWXBUMHpwenZZOE9mdFZxRGEwWk1CZ1FncUxfRS1wWmMxSXJQWXI0MkFKMEVJeDJpODNhcUVUV1hGOVdnQTk5V1dDNmJEWmR4Nk1TYmxqaXhJWGN2WDVFSWdmaUxUcy1UQVFqOFAxQ3JkZ1JuRzZNWHc2R245MmMw0gHYAUFVX3lxTE4wZzN4VTE4X3R1SVBnejhsa1ppdGZTOXlqTDRrNmFfTWszM2hzSmhJZV81d1E5NU9HM19QRWVnN2g2dFlTa282NFdFSkN1ZS03dHhEM0xPbk8teG9MNWpEdlJhNWgxRHh2Qm5GN0R2NXFCVWxFQnZmc2ZVVHI3MXZVRXp3MVJNZDhuY2JPU3ZEYnc4TUR2M0pyd3VOS2YyMEZ2X3dLUUtPN2pFYkJ5My0tTndITzRtdnVfUnpOcTNwam5GU3FTVHVwTGo0MWdZUDJUVVlOeUdnbA?oc=5",
+ "seller": "Promoters",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-16T04:31:11.104153+00:00",
+   "outlet": "Moneycontrol.com",
+   "resolvable": false,
+   "title": "Anchor Offshore Services files IPO papers to raise funds for working capital",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQZG5RbnhEcUYtSDA4YnZwWHlMc04tNVNvV3JmVTFVVzJrVEZDU1FjRXFkME1pQ2w2UHhBWldCODIzZ05YZldnVHdRYkNneDVsS3lRYV9JUzNDS09DWXBUMHpwenZZOE9mdFZxRGEwWk1CZ1FncUxfRS1wWmMxSXJQWXI0MkFKMEVJeDJpODNhcUVUV1hGOVdnQTk5V1dDNmJEWmR4Nk1TYmxqaXhJWGN2WDVFSWdmaUxUcy1UQVFqOFAxQ3JkZ1JuRzZNWHc2R245MmMw0gHYAUFVX3lxTE4wZzN4VTE4X3R1SVBnejhsa1ppdGZTOXlqTDRrNmFfTWszM2hzSmhJZV81d1E5NU9HM19QRWVnN2g2dFlTa282NFdFSkN1ZS03dHhEM0xPbk8teG9MNWpEdlJhNWgxRHh2Qm5GN0R2NXFCVWxFQnZmc2ZVVHI3MXZVRXp3MVJNZDhuY2JPU3ZEYnc4TUR2M0pyd3VOS2YyMEZ2X3dLUUtPN2pFYkJ5My0tTndITzRtdnVfUnpOcTNwam5GU3FTVHVwTGo0MWdZUDJUVVlOeUdnbA?oc=5"
+  }
+ ],
+ "synopsis": "Anchor Offshore Services, a Mumbai-based engineering projects and services company promoted by Narothamdas Chanillo, has filed preliminary IPO papers with SEBI. The initial public offering comprises a fresh issue of 64 lakh shares and an offer-for-sale of 6 lakh shares by the promoters. Of the net fresh issue proceeds, Rs 82.5 crore is earmarked for long-term working capital requirements, Rs 3 crore for debt repayment, and the remainder for general corporate purposes. Nirbhay Capital Services is the merchant banker managing the issue. The company reported a net profit of Rs 8.03 crore and revenue of Rs 105.8 crore for FY26, with an order book of Rs 217.2 crore as of June 2026.",
+ "ticker": null,
+ "updatedAt": "2026-09-16T04:31:26.737943+00:00"
+}

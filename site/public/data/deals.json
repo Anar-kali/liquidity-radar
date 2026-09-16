@@ -1,6 +1,74 @@
 {
- "dealCount": 695,
+ "dealCount": 698,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Anchor Offshore Services",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-16T04:31:11.103243+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 868,
+   "individuals": [
+    "Narothamdas Chanillo"
+   ],
+   "listed": false,
+   "oneLine": "Anchor Offshore Services files IPO papers",
+   "primaryOutlet": "Moneycontrol.com",
+   "seller": "Promoters",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-16T04:31:26.737943+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "NSE",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-16T04:31:11.099903+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 867,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "NSE IPO discussion and market implications",
+   "primaryOutlet": "Livemint",
+   "seller": "Existing shareholders (including State Bank of India and SBI Capital Markets Limited)",
+   "sizeBand": "OVER_2000",
+   "sizeSource": "band",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-16T04:31:22.715125+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Veegaland Developers Limited",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-16T04:31:10.831948+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 866,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Veegaland Developers Limited files draft offer document for IPO",
+   "primaryOutlet": "PROSPECTUS",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-16T04:31:10.831948+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -163,7 +231,7 @@
    "seller": "Promoter",
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 5,
+   "sourceCount": 6,
    "ticker": "511355.BO",
    "updatedAt": "2026-09-16T01:31:37.684466+00:00",
    "updates": [
@@ -182,12 +250,16 @@
     {
      "attachedAt": "2026-09-16T02:31:35.809827+00:00",
      "title": "India Cements Capital ਵਿੱਚ ਵੱਡੀ ਉਥਲ-ਪੁਥਲ: ਪ੍ਰਮੋਟਰ ਨੇ ਵੇਚਿਆ ਹਿੱਸਾ, ਨਵੇਂ ਮਾਲਕਾਂ ਵੱਲੋਂ **₹12** ਪ੍ਰਤੀ ਸ਼ੇਅਰ ਦਾ ਓਪਨ ਆਫਰ"
+    },
+    {
+     "attachedAt": "2026-09-16T04:31:11.090072+00:00",
+     "title": "India Cements Capital: પ્રમોટર એક્ઝિટ! નવા માલિકો દ્વારા **₹12** ના ભાવે ઓપન ઓફરની જાહેરાત"
     }
    ]
   },
   {
-   "amountCr": 19.18,
-   "amountRaw": "₹19.18 crore (from article)",
+   "amountCr": 2000.0,
+   "amountRaw": "₹2,000 crore",
    "company": "Groww",
    "confidence": "medium",
    "confirmed": false,
@@ -202,10 +274,23 @@
    "seller": "Peak XV Partners, Sequoia Capital",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 4,
    "ticker": "GROWW.NS",
-   "updatedAt": "2026-09-16T01:31:33.842378+00:00",
-   "updates": []
+   "updatedAt": "2026-09-16T04:31:10.842212+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-09-16T04:31:10.841281+00:00",
+     "title": "Groww shares fall over 3% after block deal worth nearly ₹2,000 crore"
+    },
+    {
+     "attachedAt": "2026-09-16T04:31:11.092575+00:00",
+     "title": "Groww shares fall 2.5% after 1.69% equity sold in Rs 1,999-crore block deal; Peak XV, Sequoia likely sellers"
+    },
+    {
+     "attachedAt": "2026-09-16T04:31:11.096519+00:00",
+     "title": "Groww block deal alert: Peak XV, Sequoia Capital likely to sell stake. Here’s what you should know"
+    }
+   ]
   },
   {
    "amountCr": 370.0,
@@ -224,13 +309,21 @@
    "seller": "Promoters of Maharashtra Oil Extractions",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-09-15T13:32:04.295205+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-16T01:31:30.124741+00:00",
      "title": "Maharashtra Oil Extractions Files For Rs 370 Crore IPO"
+    },
+    {
+     "attachedAt": "2026-09-16T04:31:10.836857+00:00",
+     "title": "Maharashtra Oil Extractions Limited - DRHPMaharashtra Oil Extractions Limited"
+    },
+    {
+     "attachedAt": "2026-09-16T04:31:10.839201+00:00",
+     "title": "Maharashtra Oil Extractions Limited"
     }
    ]
   },
@@ -20171,6 +20264,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-16T02:31:39.385021+00:00",
- "totalDeals": 695
+ "generatedAt": "2026-09-16T04:31:26.737943+00:00",
+ "totalDeals": 698
 }
