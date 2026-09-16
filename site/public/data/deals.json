@@ -306,7 +306,7 @@
    "seller": "Peak XV Partners, Sequoia Capital",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 5,
+   "sourceCount": 6,
    "ticker": "GROWW.NS",
    "updatedAt": "2026-09-16T04:31:10.842212+00:00",
    "updates": [
@@ -325,6 +325,10 @@
     {
      "attachedAt": "2026-09-16T06:31:19.406313+00:00",
      "title": "Groww Shares Fall 3% As Rs 1,999 Cr Block Deal Changes Hands"
+    },
+    {
+     "attachedAt": "2026-09-16T07:31:17.726870+00:00",
+     "title": "Groww Stock Falls 4% After Peak XV and Sequoia Offload 1.69% Stake Worth ₹1,999 Cr"
     }
    ]
   },
@@ -1123,7 +1127,7 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 5,
+   "sourceCount": 6,
    "ticker": null,
    "updatedAt": "2026-09-14T01:32:10.955769+00:00",
    "updates": [
@@ -1142,6 +1146,10 @@
     {
      "attachedAt": "2026-09-16T01:31:30.136991+00:00",
      "title": "Kamarajar Port Begins ₹1,200 Crore IPO Process, Seeks Legal Counsel"
+    },
+    {
+     "attachedAt": "2026-09-16T07:31:17.732195+00:00",
+     "title": "Kamarajar Port Plans Rs 1,200 Cr IPO"
     }
    ]
   },
