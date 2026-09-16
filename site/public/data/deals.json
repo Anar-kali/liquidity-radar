@@ -306,7 +306,7 @@
    "seller": "Peak XV Partners, Sequoia Capital",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 6,
+   "sourceCount": 7,
    "ticker": "GROWW.NS",
    "updatedAt": "2026-09-16T04:31:10.842212+00:00",
    "updates": [
@@ -329,6 +329,10 @@
     {
      "attachedAt": "2026-09-16T07:31:17.726870+00:00",
      "title": "Groww Stock Falls 4% After Peak XV and Sequoia Offload 1.69% Stake Worth ₹1,999 Cr"
+    },
+    {
+     "attachedAt": "2026-09-16T08:31:17.521338+00:00",
+     "title": "Groww shares crash 4.5% after 1.69% equity sold in Rs 1,999-crore block deal; Peak XV, Sequoia likely..."
     }
    ]
   },
@@ -457,10 +461,15 @@
    "seller": "Reliance Industries",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": "JIOFIN.NS",
    "updatedAt": "2026-09-15T11:31:48.266423+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-09-16T08:31:17.530843+00:00",
+     "title": "Jio IPO 2026: Expected Timeline, IPO Size, Valuation And Key Details"
+    }
+   ]
   },
   {
    "amountCr": null,
@@ -523,7 +532,7 @@
    "seller": "OP Munjal Holdings and Hero Cycles",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-09-15T07:31:35.455553+00:00",
    "updates": [
@@ -534,6 +543,10 @@
     {
      "attachedAt": "2026-09-16T02:31:33.970896+00:00",
      "title": "Can Hero Motors IPO deliver long-term growth for high-risk investors?"
+    },
+    {
+     "attachedAt": "2026-09-16T08:31:17.524953+00:00",
+     "title": "Chance to invest in company manufacturing auto parts for BMW: Hero Motors IPO requires a minimum investment..."
     }
    ]
   },
@@ -1608,13 +1621,17 @@
    "seller": "promoters",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-09-14T01:32:14.258307+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-14T01:32:10.620691+00:00",
      "title": "A-One Steels India to launch Rs 405-crore IPO on September 24"
+    },
+    {
+     "attachedAt": "2026-09-16T08:31:17.527392+00:00",
+     "title": "Upcoming IPO: A-One Steels India to launch ₹405 crore issue on Sept 24"
     }
    ]
   },
