@@ -1,6 +1,32 @@
 {
- "dealCount": 704,
+ "dealCount": 705,
  "deals": [
+  {
+   "amountCr": 3500.0,
+   "amountRaw": "Rs 2,500-3,500 crore (from article)",
+   "company": "Kuku Technologies",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-16T13:31:32.168328+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 875,
+   "individuals": [
+    "Lal Chand Bisu",
+    "Vinod Kumar Meena",
+    "Vikas Goyal"
+   ],
+   "listed": false,
+   "oneLine": "Kuku Technologies receives SEBI approval for IPO and UDRHP filing.",
+   "primaryOutlet": "Moneycontrol.com",
+   "seller": "Kuku Technologies",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-16T13:31:35.821442+00:00",
+   "updates": []
+  },
   {
    "amountCr": 600.0,
    "amountRaw": "₹600 Crores",
@@ -250,7 +276,7 @@
    "seller": null,
    "sizeBand": "OVER_2000",
    "sizeSource": "band",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-09-16T12:31:36.241253+00:00",
    "updates": [
@@ -261,6 +287,10 @@
     {
      "attachedAt": "2026-09-16T12:31:36.240266+00:00",
      "title": "PhonePe's Sameer Nigam Says UPI MDR Move Brings IPO Filing Closer"
+    },
+    {
+     "attachedAt": "2026-09-16T13:31:32.176414+00:00",
+     "title": "With UPI MDR Clarity, PhonePe Eyes IPO By March 2027"
     }
    ]
   },
@@ -1385,7 +1415,7 @@
    "seller": "Shapoorji Pallonji Group",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 11,
+   "sourceCount": 12,
    "ticker": null,
    "updatedAt": "2026-09-14T10:31:06.265691+00:00",
    "updates": [
@@ -1428,6 +1458,10 @@
     {
      "attachedAt": "2026-09-16T03:32:16.163132+00:00",
      "title": "The Indian business empire being forced to list against its will"
+    },
+    {
+     "attachedAt": "2026-09-16T13:31:32.173839+00:00",
+     "title": "Tata Sons board to discuss keeping Chandra as chairman post RBI's IPO push"
     }
    ]
   },
@@ -20453,6 +20487,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-16T12:31:36.241253+00:00",
- "totalDeals": 704
+ "generatedAt": "2026-09-16T13:31:35.821442+00:00",
+ "totalDeals": 705
 }
