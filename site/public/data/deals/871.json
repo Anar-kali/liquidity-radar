@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Cubical Financial Services Ltd",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-16T09:31:08.348674+00:00",
+ "dealType": "open offer",
+ "enrichmentState": "failed",
+ "id": 871,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Cubical Financial Services Ltd submitted pre-offer advertisement details for an open offer.",
+ "primaryUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ECD5521D-EEF8-477E-AF7E-56E79E5F3FE8-141516.pdf",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-16T09:31:08.350164+00:00",
+   "outlet": "BSE",
+   "resolvable": true,
+   "title": "Cubical Financial Services Ltd: Corporate Makers Capital Limited (\"Manager to the Offer\") has submitted to BSE a copy of Information of Recommendation of Independent Director Committee and Pre Offer Advertisement to the ....",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ECD5521D-EEF8-477E-AF7E-56E79E5F3FE8-141516.pdf"
+  }
+ ],
+ "synopsis": null,
+ "ticker": "511710.BO",
+ "updatedAt": "2026-09-16T09:31:08.348674+00:00"
+}

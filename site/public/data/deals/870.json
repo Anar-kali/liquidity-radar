@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Sterlite Electric Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-16T09:31:08.250268+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": "failed",
+ "id": 870,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Sterlite Electric Limited filed a second addendum to its DRHP for an IPO.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/sterlite-electric-limited-second-addendum-to-drhp_104506.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-16T09:31:08.252621+00:00",
+   "outlet": "SEBI",
+   "resolvable": true,
+   "title": "Sterlite Electric Limited – Second Addendum to DRHP",
+   "url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/sterlite-electric-limited-second-addendum-to-drhp_104506.html"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-09-16T09:31:08.250268+00:00"
+}

@@ -1,6 +1,50 @@
 {
- "dealCount": 699,
+ "dealCount": 701,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Cubical Financial Services Ltd",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-16T09:31:08.348674+00:00",
+   "dealType": "open offer",
+   "enrichmentState": "failed",
+   "id": 871,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Cubical Financial Services Ltd submitted pre-offer advertisement details for an open offer.",
+   "primaryOutlet": "BSE",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": "511710.BO",
+   "updatedAt": "2026-09-16T09:31:08.348674+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Sterlite Electric Limited",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-16T09:31:08.250268+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 870,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Sterlite Electric Limited filed a second addendum to its DRHP for an IPO.",
+   "primaryOutlet": "SEBI",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-16T09:31:08.250268+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -20325,6 +20369,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-16T06:31:19.525018+00:00",
- "totalDeals": 699
+ "generatedAt": "2026-09-16T09:31:08.348674+00:00",
+ "totalDeals": 701
 }
