@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 3000.0,
+ "amountRaw": "₹3,000 Crore",
+ "buyer": null,
+ "company": "Valmiki Leela Capital",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-16T01:31:30.141929+00:00",
+ "dealType": "IPO-OFS",
+ "enrichmentState": null,
+ "id": 862,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Valmiki Leela Capital targets ₹3,000 crore IPO pipeline.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQUjFzOEt2YmxhZzFMREZpLWgwNGE2RDYxYlExRjFIWmYxU3dWeHVxeDBGRk8xdEFHUDhQTTk3MDNhdWx0QnF6UG5SWFJmUjNjYnRYdk5ZUl9GSzVYcDU2UHFRVVFpSmtId2NRLTVzSGhLdldnMmp2ZEc5dWRjb28xS2JPc0hUSWV3TEV1Qk00eWE0VlV6RzlPVkhLLVcya0ZNRFJvX0JWQ3ZfdjVlai0zQlB6dkhGZFhHeklxeWlvQkpVMldyMnpTeEI2T3FhLTQ?oc=5",
+ "seller": "Deepa Jewellers",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-16T01:31:30.143033+00:00",
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "Valmiki Leela Capital Targets ₹3,000 Crore IPO Pipeline",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQUjFzOEt2YmxhZzFMREZpLWgwNGE2RDYxYlExRjFIWmYxU3dWeHVxeDBGRk8xdEFHUDhQTTk3MDNhdWx0QnF6UG5SWFJmUjNjYnRYdk5ZUl9GSzVYcDU2UHFRVVFpSmtId2NRLTVzSGhLdldnMmp2ZEc5dWRjb28xS2JPc0hUSWV3TEV1Qk00eWE0VlV6RzlPVkhLLVcya0ZNRFJvX0JWQ3ZfdjVlai0zQlB6dkhGZFhHeklxeWlvQkpVMldyMnpTeEI2T3FhLTQ?oc=5"
+  }
+ ],
+ "synopsis": "Merchant banker Valmiki Leela Capital is planning a new IPO pipeline worth ₹3,000 crore to be executed over the next 12 to 18 months, with a focus on renewable energy and manufacturing sectors. This follows the successful launch of the ₹460-crore mainboard initial public offering for Deepa Jewellers, which was also handled by Valmiki Leela Capital. The firm's pivot toward larger public market deals aims to help mid-market companies raise equity capital, though the execution of these targets remains subject to market volatility and regulatory approvals.",
+ "ticker": null,
+ "updatedAt": "2026-09-16T01:31:48.272957+00:00"
+}

@@ -1,6 +1,179 @@
 {
- "dealCount": 687,
+ "dealCount": 694,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "PhonePe",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-16T01:31:30.149402+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 864,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "PhonePe is rekindling its IPO plans following regulatory clarity on UPI fees.",
+   "primaryOutlet": "Mint",
+   "seller": null,
+   "sizeBand": "OVER_2000",
+   "sizeSource": "band",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-16T01:31:56.343291+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 750.0,
+   "amountRaw": "₹750 Cr",
+   "company": "Social Worth Technologies",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-16T01:31:30.145542+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 863,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Social Worth Technologies received SEBI approval for its Rs 750 crore IPO.",
+   "primaryOutlet": "Whalesbook",
+   "seller": "Social Worth Technologies",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 2,
+   "ticker": null,
+   "updatedAt": "2026-09-16T01:31:52.327029+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-09-16T01:31:30.152624+00:00",
+     "title": "Fibe gets SEBI nod for Rs 750 Cr IPO"
+    }
+   ]
+  },
+  {
+   "amountCr": 3000.0,
+   "amountRaw": "₹3,000 Crore",
+   "company": "Valmiki Leela Capital",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-16T01:31:30.141929+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 862,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Valmiki Leela Capital targets ₹3,000 crore IPO pipeline.",
+   "primaryOutlet": "Whalesbook",
+   "seller": "Deepa Jewellers",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-16T01:31:48.272957+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Madhur Iron & Steel",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-16T01:31:30.133171+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 861,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Madhur Iron & Steel refiles IPO papers for fresh issue.",
+   "primaryOutlet": "Moneycontrol.com",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 2,
+   "ticker": null,
+   "updatedAt": "2026-09-16T01:31:44.368345+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-09-16T01:31:30.139213+00:00",
+     "title": "Madhur Iron & Steel Refiles IPO for 1.1 Crore Shares"
+    }
+   ]
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "M K C Agro Fresh",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-16T01:31:30.111789+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 860,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "M K C Agro Fresh files draft papers for IPO.",
+   "primaryOutlet": "Prop News Time",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-16T01:31:30.111789+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "India Cements Capital",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-16T01:31:30.057721+00:00",
+   "dealType": "open offer",
+   "enrichmentState": null,
+   "id": 859,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "India Cements Capital promoter exits as new owners launch open offer.",
+   "primaryOutlet": "Whalesbook",
+   "seller": "Promoter",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 3,
+   "ticker": "511355.BO",
+   "updatedAt": "2026-09-16T01:31:37.684466+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-09-16T01:31:30.079214+00:00",
+     "title": "India Cements Capital: प्रमोटर ने बेची हिस्सेदारी, नए मालिक लाएंगे **₹12** के भाव पर ओपन ऑफर"
+    },
+    {
+     "attachedAt": "2026-09-16T01:31:30.104312+00:00",
+     "title": "India Cements Capital: ప్రమోటర్ల నిష్క్రమణ.. షేర్ హోల్డర్లకు **₹12** ధరతో ఓపెన్ ఆఫర్"
+    }
+   ]
+  },
+  {
+   "amountCr": 19.18,
+   "amountRaw": "₹19.18 crore (from article)",
+   "company": "Groww",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-16T01:31:29.740857+00:00",
+   "dealType": "block deal",
+   "enrichmentState": null,
+   "id": 858,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Peak XV Partners and Sequoia Capital likely to sell shares in Groww via block deal.",
+   "primaryOutlet": "cnbctv18.com",
+   "seller": "Peak XV Partners, Sequoia Capital",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "GROWW.NS",
+   "updatedAt": "2026-09-16T01:31:33.842378+00:00",
+   "updates": []
+  },
   {
    "amountCr": 370.0,
    "amountRaw": "Rs 370 crore",
@@ -18,10 +191,15 @@
    "seller": "Promoters of Maharashtra Oil Extractions",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-09-15T13:32:04.295205+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-09-16T01:31:30.124741+00:00",
+     "title": "Maharashtra Oil Extractions Files For Rs 370 Crore IPO"
+    }
+   ]
   },
   {
    "amountCr": 750.0,
@@ -43,10 +221,27 @@
    "seller": "Social Worth Technologies Ltd",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 5,
    "ticker": null,
    "updatedAt": "2026-09-15T11:31:57.522210+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-09-16T01:31:30.115772+00:00",
+     "title": "Fibe IPO Gets SEBI Nod; Rs 750 Crore Public Issue Comprises OFS"
+    },
+    {
+     "attachedAt": "2026-09-16T01:31:30.118242+00:00",
+     "title": "Fibe Gets Sebi Nod for IPO: Digital Lender to Raise Funds"
+    },
+    {
+     "attachedAt": "2026-09-16T01:31:30.120440+00:00",
+     "title": "Digital lending platform Fibe gets Sebi nod to launch IPO"
+    },
+    {
+     "attachedAt": "2026-09-16T01:31:30.122668+00:00",
+     "title": "Fintech lender Fibe gets SEBI nod for Rs 750 crore IPO"
+    }
+   ]
   },
   {
    "amountCr": 850.0,
@@ -536,7 +731,7 @@
    "seller": "Moneyview",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 7,
+   "sourceCount": 8,
    "ticker": null,
    "updatedAt": "2026-09-14T08:31:09.621440+00:00",
    "updates": [
@@ -563,6 +758,10 @@
     {
      "attachedAt": "2026-09-15T08:31:14.476963+00:00",
      "title": "Lending platform Moneyview cuts IPO size, halves fresh issue from Rs 1,500 crore to Rs 750 crore"
+    },
+    {
+     "attachedAt": "2026-09-16T01:31:30.130614+00:00",
+     "title": "Moneyview halves fresh IPO issue to Rs 750 cr"
     }
    ]
   },
@@ -754,7 +953,7 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 5,
    "ticker": null,
    "updatedAt": "2026-09-14T01:32:10.955769+00:00",
    "updates": [
@@ -765,6 +964,14 @@
     {
      "attachedAt": "2026-09-15T03:31:07.122488+00:00",
      "title": "Kamarajar Port invites bankers for Rs 1,200 crore IPO, set to become India's only listed state-backed port"
+    },
+    {
+     "attachedAt": "2026-09-16T01:31:30.128098+00:00",
+     "title": "Kamarajar Port initiates plans for ₹1,200 crore IPO; issues RFP to hire domestic legal counsel"
+    },
+    {
+     "attachedAt": "2026-09-16T01:31:30.136991+00:00",
+     "title": "Kamarajar Port Begins ₹1,200 Crore IPO Process, Seeks Legal Counsel"
     }
    ]
   },
@@ -1061,7 +1268,7 @@
    "seller": "Promoter",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 5,
+   "sourceCount": 6,
    "ticker": "GRANULES.NS",
    "updatedAt": "2026-09-15T04:31:08.619783+00:00",
    "updates": [
@@ -1080,6 +1287,10 @@
     {
      "attachedAt": "2026-09-15T04:31:08.618447+00:00",
      "title": "Granules India shares in focus on September 15 after promoter sells 6.9% stake for Rs 1,509 crore"
+    },
+    {
+     "attachedAt": "2026-09-16T01:31:28.886755+00:00",
+     "title": "Granules India Share Price in Focus After Promoter Sells 6.94% Stake"
     }
    ]
   },
@@ -19915,6 +20126,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-15T13:32:04.295205+00:00",
- "totalDeals": 687
+ "generatedAt": "2026-09-16T01:31:56.343291+00:00",
+ "totalDeals": 694
 }

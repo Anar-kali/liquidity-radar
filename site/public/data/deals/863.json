@@ -1,0 +1,39 @@
+{
+ "advisers": [],
+ "amountCr": 750.0,
+ "amountRaw": "₹750 Cr",
+ "buyer": null,
+ "company": "Social Worth Technologies",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-16T01:31:30.145542+00:00",
+ "dealType": "IPO-OFS",
+ "enrichmentState": null,
+ "id": 863,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Social Worth Technologies received SEBI approval for its Rs 750 crore IPO.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPb2VxSVlnMXBOOTJVTjIwNkxFczNOWkdrWE5KMnFSTDEtNHoxVDlrd0QyWnRmdFR1ekRNXzZ3cGZ5X00zaHdXWHFMZzJhdnJxRmdXN2Jaa2EwbHZaN0M5a1c5bGVvMTBoMHRpYm1DN05VSFVQNkpVcGdfbjBfVGRrTjU0ejFmZTU0S0oxQlRQdjk5M2UtYWE5NFhhdGNLTlhtTU04SkI4Y0dCNUF0aDhhTmJUb2FrbkRiWTBoTlpRRzNZWTRGRnl1MDRZclVoTWJVWW9VR1ZLNDN6U1V3?oc=5",
+ "seller": "Social Worth Technologies",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-16T01:31:30.146686+00:00",
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "Social Worth Technologies (Fibe) Receives SEBI Nod for ₹750 Cr IPO",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPb2VxSVlnMXBOOTJVTjIwNkxFczNOWkdrWE5KMnFSTDEtNHoxVDlrd0QyWnRmdFR1ekRNXzZ3cGZ5X00zaHdXWHFMZzJhdnJxRmdXN2Jaa2EwbHZaN0M5a1c5bGVvMTBoMHRpYm1DN05VSFVQNkpVcGdfbjBfVGRrTjU0ejFmZTU0S0oxQlRQdjk5M2UtYWE5NFhhdGNLTlhtTU04SkI4Y0dCNUF0aDhhTmJUb2FrbkRiWTBoTlpRRzNZWTRGRnl1MDRZclVoTWJVWW9VR1ZLNDN6U1V3?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-16T01:31:30.152624+00:00",
+   "outlet": "Google News",
+   "resolvable": true,
+   "title": "Fibe gets SEBI nod for Rs 750 Cr IPO",
+   "url": "https://entrackr.com/news/fibe-gets-sebi-nod-for-rs-750-cr-ipo-12537051"
+  }
+ ],
+ "synopsis": "Social Worth Technologies, the parent company of digital consumer lending platform Fibe, has received final observations from the Securities and Exchange Board of India for its initial public offering. The proposed public issue consists of a fresh issue of equity shares worth Rs 750 crore, alongside an offer for sale of more than 4 crore shares by existing institutional investors including TPG's The Rise Fund, Norwest Venture Partners, and Eight Roads Ventures. The company plans to use the majority of the fresh issue proceeds to inject roughly Rs 562.6 crore into its subsidiary, EarlySalary Services Pvt Ltd, to support its expanding loan book and onward lending. For fiscal year 2026, Social Worth Technologies reported an operating revenue of Rs 1,585 crore and a net profit of Rs 257 crore.",
+ "ticker": null,
+ "updatedAt": "2026-09-16T01:31:52.327029+00:00"
+}

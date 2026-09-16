@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "PhonePe",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-16T01:31:30.149402+00:00",
+ "dealType": "IPO-OFS",
+ "enrichmentState": null,
+ "id": 864,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "PhonePe is rekindling its IPO plans following regulatory clarity on UPI fees.",
+ "primaryUrl": "https://www.livemint.com/companies/news/phonepe-ipo-mdr-on-upi-11789486939686.html",
+ "seller": null,
+ "sizeBand": "OVER_2000",
+ "sizeSource": "band",
+ "sources": [
+  {
+   "attachedAt": "2026-09-16T01:31:30.150446+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "PhonePe may restart IPO process after new MDR rules bring clarity",
+   "url": "https://www.livemint.com/companies/news/phonepe-ipo-mdr-on-upi-11789486939686.html"
+  }
+ ],
+ "synopsis": "PhonePe Ltd is evaluating options to restart its initial public offering process after the National Payments Corporation of India introduced a 0.4% merchant discount rate on large UPI transactions exceeding ₹2,000, effective 15 October. The regulatory clarity on transaction fees provides revenue visibility that rekindles the payment giant's listing plans, which were previously paused in March due to global capital market volatility and geopolitical tensions. The upcoming IPO involves a pure offer for sale of up to 50.66 million shares led by major shareholder Walmart Inc, alongside prominent investors such as Tiger Global and Microsoft Corp. Before pausing its plans, the company targeted a valuation between $9 billion and $10.5 billion and intends to submit updated financial metrics to the Securities and Exchange Board of India.",
+ "ticker": null,
+ "updatedAt": "2026-09-16T01:31:56.343291+00:00"
+}
