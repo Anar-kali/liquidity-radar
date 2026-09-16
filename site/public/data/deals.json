@@ -1,6 +1,28 @@
 {
- "dealCount": 698,
+ "dealCount": 699,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Niks Technology Ltd",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-16T06:31:19.525018+00:00",
+   "dealType": "open offer",
+   "enrichmentState": "failed",
+   "id": 869,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Detailed Public Statement submitted for an open offer to Niks Technology Ltd shareholders.",
+   "primaryOutlet": "BSE",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": "543282.BO",
+   "updatedAt": "2026-09-16T06:31:19.525018+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -42,10 +64,15 @@
    "seller": "Existing shareholders (including State Bank of India and SBI Capital Markets Limited)",
    "sizeBand": "OVER_2000",
    "sizeSource": "band",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-09-16T04:31:22.715125+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-09-16T06:31:19.410169+00:00",
+     "title": "NSE IPO 2026: Expected Timeline, Valuation And Key Details"
+    }
+   ]
   },
   {
    "amountCr": null,
@@ -111,10 +138,15 @@
    "seller": null,
    "sizeBand": "OVER_2000",
    "sizeSource": "band",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-09-16T01:31:56.343291+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-09-16T06:31:19.414697+00:00",
+     "title": "UPI fee rules change the game for PhonePe as IPO plans return to focus"
+    }
+   ]
   },
   {
    "amountCr": 750.0,
@@ -274,7 +306,7 @@
    "seller": "Peak XV Partners, Sequoia Capital",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 4,
+   "sourceCount": 5,
    "ticker": "GROWW.NS",
    "updatedAt": "2026-09-16T04:31:10.842212+00:00",
    "updates": [
@@ -289,6 +321,10 @@
     {
      "attachedAt": "2026-09-16T04:31:11.096519+00:00",
      "title": "Groww block deal alert: Peak XV, Sequoia Capital likely to sell stake. Here’s what you should know"
+    },
+    {
+     "attachedAt": "2026-09-16T06:31:19.406313+00:00",
+     "title": "Groww Shares Fall 3% As Rs 1,999 Cr Block Deal Changes Hands"
     }
    ]
   },
@@ -20264,6 +20300,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-16T04:31:26.737943+00:00",
- "totalDeals": 698
+ "generatedAt": "2026-09-16T06:31:19.525018+00:00",
+ "totalDeals": 699
 }

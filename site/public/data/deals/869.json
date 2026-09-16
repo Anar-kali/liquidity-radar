@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Niks Technology Ltd",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-16T06:31:19.525018+00:00",
+ "dealType": "open offer",
+ "enrichmentState": "failed",
+ "id": 869,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Detailed Public Statement submitted for an open offer to Niks Technology Ltd shareholders.",
+ "primaryUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/CC652420-A5D4-4679-A9B7-5CBA4BE1D2D5-114738.pdf",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-16T06:31:19.526274+00:00",
+   "outlet": "BSE",
+   "resolvable": true,
+   "title": "Niks Technology Ltd: Navigant Corporate Advisors Ltd (\"Manager to the Offer\") has submitted to BSE a copy of Detailed Public Statement for the attention of the Equity Shareholders of Niks Technology Ltd (\"Target ....",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/CC652420-A5D4-4679-A9B7-5CBA4BE1D2D5-114738.pdf"
+  }
+ ],
+ "synopsis": null,
+ "ticker": "543282.BO",
+ "updatedAt": "2026-09-16T06:31:19.525018+00:00"
+}
