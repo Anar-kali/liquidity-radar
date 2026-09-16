@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 600.0,
+ "amountRaw": "₹600 Crores",
+ "buyer": null,
+ "company": "Shriram Life Insurance",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-16T12:31:36.228475+00:00",
+ "dealType": "PE secondary",
+ "enrichmentState": "failed",
+ "id": 874,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Piramal Finance completes the sale of its stake in Shriram Life Insurance for Rs 600 crore.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPS2JUeV9oUjdCc0J6SHNKdEs5VUptQ3NFNWhIb0dCR2NPUHhTaXJOakFzcm5CQU1JSFdFRHNDMlgwQ1BzR3YwRzVDNGVlRmZMOXI4TVJUVFhkSk5NaE5rYzRlbURyS0tkamREN1kzUjBmcXRabTh2VDAwRFdfUm1SUnFYc09HWllzcmlCQ3Jza2ZXVFdrc3J6cndIVks4bTFzWVRVU09SYmhXWnB6UXZNM3FSVERmWXk5N2ZxdjVJVWFoSlRaeEdxUnBueUR4VjQ?oc=5",
+ "seller": "Piramal Finance",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-16T12:31:36.229837+00:00",
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "Piramal Finance Completes Sale of Shriram Life Insurance Stake for ₹600 Crores",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPS2JUeV9oUjdCc0J6SHNKdEs5VUptQ3NFNWhIb0dCR2NPUHhTaXJOakFzcm5CQU1JSFdFRHNDMlgwQ1BzR3YwRzVDNGVlRmZMOXI4TVJUVFhkSk5NaE5rYzRlbURyS0tkamREN1kzUjBmcXRabTh2VDAwRFdfUm1SUnFYc09HWllzcmlCQ3Jza2ZXVFdrc3J6cndIVks4bTFzWVRVU09SYmhXWnB6UXZNM3FSVERmWXk5N2ZxdjVJVWFoSlRaeEdxUnBueUR4VjQ?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-09-16T12:31:36.228475+00:00"
+}

@@ -1,6 +1,28 @@
 {
- "dealCount": 703,
+ "dealCount": 704,
  "deals": [
+  {
+   "amountCr": 600.0,
+   "amountRaw": "₹600 Crores",
+   "company": "Shriram Life Insurance",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-16T12:31:36.228475+00:00",
+   "dealType": "PE secondary",
+   "enrichmentState": "failed",
+   "id": 874,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Piramal Finance completes the sale of its stake in Shriram Life Insurance for Rs 600 crore.",
+   "primaryOutlet": "scanx.trade",
+   "seller": "Piramal Finance",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-16T12:31:36.228475+00:00",
+   "updates": []
+  },
   {
    "amountCr": 458.0,
    "amountRaw": "₹458 crore",
@@ -219,20 +241,26 @@
    "dealType": "IPO-OFS",
    "enrichmentState": null,
    "id": 864,
-   "individuals": [],
+   "individuals": [
+    "Sameer Nigam"
+   ],
    "listed": false,
    "oneLine": "PhonePe is rekindling its IPO plans following regulatory clarity on UPI fees.",
    "primaryOutlet": "Mint",
    "seller": null,
    "sizeBand": "OVER_2000",
    "sizeSource": "band",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
-   "updatedAt": "2026-09-16T01:31:56.343291+00:00",
+   "updatedAt": "2026-09-16T12:31:36.241253+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-16T06:31:19.414697+00:00",
      "title": "UPI fee rules change the game for PhonePe as IPO plans return to focus"
+    },
+    {
+     "attachedAt": "2026-09-16T12:31:36.240266+00:00",
+     "title": "PhonePe's Sameer Nigam Says UPI MDR Move Brings IPO Filing Closer"
     }
    ]
   },
@@ -479,7 +507,7 @@
    "seller": "Social Worth Technologies Ltd",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 6,
+   "sourceCount": 7,
    "ticker": null,
    "updatedAt": "2026-09-15T11:31:57.522210+00:00",
    "updates": [
@@ -502,6 +530,10 @@
     {
      "attachedAt": "2026-09-16T03:32:16.160807+00:00",
      "title": "The End Of Free UPI, Fibe IPO Gets SEBI Nod & More"
+    },
+    {
+     "attachedAt": "2026-09-16T12:31:36.238054+00:00",
+     "title": "Digital lender Fibe gets SEBI nod for Rs 750 crore IPO after profit more than doubles"
     }
    ]
   },
@@ -1578,8 +1610,8 @@
    ]
   },
   {
-   "amountCr": 16500.0,
-   "amountRaw": "₹16,500 Crore",
+   "amountCr": 22569.0,
+   "amountRaw": "₹22,569 கோடி",
    "company": "National Stock Exchange",
    "confidence": "medium",
    "confirmed": false,
@@ -1594,9 +1626,9 @@
    "seller": "Oriental Insurance",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 14,
+   "sourceCount": 15,
    "ticker": null,
-   "updatedAt": "2026-09-16T10:31:34.479731+00:00",
+   "updatedAt": "2026-09-16T12:31:36.233612+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-14T01:32:09.972780+00:00",
@@ -1649,6 +1681,10 @@
     {
      "attachedAt": "2026-09-16T10:31:34.478535+00:00",
      "title": "NSE IPO: SBI, CPP Investments And Other Shareholders Set To Earn ₹16,500 Crore Windfall Gains"
+    },
+    {
+     "attachedAt": "2026-09-16T12:31:36.232560+00:00",
+     "title": "NSE IPO: பங்குச்சந்தை முதலீட்டாளர்களுக்கு மெகா வாய்ப்பு! ₹22,569 கோடியில் ஐபிஓ களமிறங்குகிறது"
     }
    ]
   },
@@ -20417,6 +20453,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-16T10:31:37.930247+00:00",
- "totalDeals": 703
+ "generatedAt": "2026-09-16T12:31:36.241253+00:00",
+ "totalDeals": 704
 }
