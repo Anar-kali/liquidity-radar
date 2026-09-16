@@ -1,0 +1,35 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Prime Industries",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-16T02:31:36.253001+00:00",
+ "dealType": "promoter sale",
+ "enrichmentState": null,
+ "id": 865,
+ "individuals": [
+  "Rajinder Kumar Singhania",
+  "Puneet Singhania"
+ ],
+ "listed": true,
+ "oneLine": "Prime Industries promoters cut their stake by 19.95% via open market sale.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNRmdNUUJNM3N1TjVZdFRjSHJxRTVSM200b1JWS3BvUkhhQlNDWnMwSzZSenJQcHhUa2lpMHVxU280QXVLUzlWUGlqN2xBQ3g2UXU4bGRuMGRCQ1lEYUVJTmFRcEM1ejJnOUpKWTBIVW1MclR2TS14cm53N0pjb3RRZEh4WVFuSjYxdGF1QTVqUGZXcXByZkRabVNwX0k0QURSMEhidnpZVWZfellhaVQtMnN1VTk0dlZmcnVoZU50WWdMVkYwZEFhN19LTzNEc0NOR042WXJkcEV4T2lZYUszOW1mcVlWWWda?oc=5",
+ "seller": "Promoters",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-16T02:31:36.289069+00:00",
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "Prime Industries Promoters Cut Stake by 19.95% via Open Market Sale",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNRmdNUUJNM3N1TjVZdFRjSHJxRTVSM200b1JWS3BvUkhhQlNDWnMwSzZSenJQcHhUa2lpMHVxU280QXVLUzlWUGlqN2xBQ3g2UXU4bGRuMGRCQ1lEYUVJTmFRcEM1ejJnOUpKWTBIVW1MclR2TS14cm53N0pjb3RRZEh4WVFuSjYxdGF1QTVqUGZXcXByZkRabVNwX0k0QURSMEhidnpZVWZfellhaVQtMnN1VTk0dlZmcnVoZU50WWdMVkYwZEFhN19LTzNEc0NOR042WXJkcEV4T2lZYUszOW1mcVlWWWda?oc=5"
+  }
+ ],
+ "synopsis": "Prime Industries Ltd promoters and Persons Acting in Concert, including Rajinder Kumar Singhania, Puneet Singhania, Saintco India LLP, and Master Trust Limited, offloaded 41,91,600 shares representing a 19.95% stake through open market transactions on September 11, 2026. This divestment reduced the promoter group's total voting capital from 26.07% down to 6.11%. The article does not disclose the financial deal value or the buyers involved in the open market sale.",
+ "ticker": "519299.BO",
+ "updatedAt": "2026-09-16T02:31:39.385021+00:00"
+}

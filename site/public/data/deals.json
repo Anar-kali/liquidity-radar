@@ -1,6 +1,31 @@
 {
- "dealCount": 694,
+ "dealCount": 695,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Prime Industries",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-16T02:31:36.253001+00:00",
+   "dealType": "promoter sale",
+   "enrichmentState": null,
+   "id": 865,
+   "individuals": [
+    "Rajinder Kumar Singhania",
+    "Puneet Singhania"
+   ],
+   "listed": true,
+   "oneLine": "Prime Industries promoters cut their stake by 19.95% via open market sale.",
+   "primaryOutlet": "Whalesbook",
+   "seller": "Promoters",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": "519299.BO",
+   "updatedAt": "2026-09-16T02:31:39.385021+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -138,7 +163,7 @@
    "seller": "Promoter",
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 3,
+   "sourceCount": 5,
    "ticker": "511355.BO",
    "updatedAt": "2026-09-16T01:31:37.684466+00:00",
    "updates": [
@@ -149,6 +174,14 @@
     {
      "attachedAt": "2026-09-16T01:31:30.104312+00:00",
      "title": "India Cements Capital: ప్రమోటర్ల నిష్క్రమణ.. షేర్ హోల్డర్లకు **₹12** ధరతో ఓపెన్ ఆఫర్"
+    },
+    {
+     "attachedAt": "2026-09-16T02:31:35.698590+00:00",
+     "title": "India Cements Capital: प्रमोटर्सचा एक्झिट, नवीन मालकांकडून ₹12 च्या भावात ओपन ऑफर!"
+    },
+    {
+     "attachedAt": "2026-09-16T02:31:35.809827+00:00",
+     "title": "India Cements Capital ਵਿੱਚ ਵੱਡੀ ਉਥਲ-ਪੁਥਲ: ਪ੍ਰਮੋਟਰ ਨੇ ਵੇਚਿਆ ਹਿੱਸਾ, ਨਵੇਂ ਮਾਲਕਾਂ ਵੱਲੋਂ **₹12** ਪ੍ਰਤੀ ਸ਼ੇਅਰ ਦਾ ਓਪਨ ਆਫਰ"
     }
    ]
   },
@@ -353,13 +386,17 @@
    "seller": "OP Munjal Holdings and Hero Cycles",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-09-15T07:31:35.455553+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-15T07:31:28.184163+00:00",
      "title": "IPO Watch: Hero Motors, NSE, SS Retail and 2 IPOs to Track this Week"
+    },
+    {
+     "attachedAt": "2026-09-16T02:31:33.970896+00:00",
+     "title": "Can Hero Motors IPO deliver long-term growth for high-risk investors?"
     }
    ]
   },
@@ -20126,6 +20163,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-16T01:31:56.343291+00:00",
- "totalDeals": 694
+ "generatedAt": "2026-09-16T02:31:39.385021+00:00",
+ "totalDeals": 695
 }
