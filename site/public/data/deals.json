@@ -1,6 +1,50 @@
 {
- "dealCount": 701,
+ "dealCount": 703,
  "deals": [
+  {
+   "amountCr": 458.0,
+   "amountRaw": "₹458 crore",
+   "company": "Locon",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-16T10:31:34.474437+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": "failed",
+   "id": 873,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Aurum PropTech to acquire Housing.com owner Locon for Rs 458 crore.",
+   "primaryOutlet": "scanx.trade",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-16T10:31:34.474437+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 1918.0,
+   "amountRaw": "₹1,918 Cr",
+   "company": "Billionbrains Garage",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-16T10:31:34.468448+00:00",
+   "dealType": "block deal",
+   "enrichmentState": null,
+   "id": 872,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Billionbrains Garage saw a block deal worth Rs 1,918 crore.",
+   "primaryOutlet": "Whalesbook",
+   "seller": "Peak XV Partners Investments VI-1 and Sequoia Capital Global Fund III",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "GROWW.NS",
+   "updatedAt": "2026-09-16T10:31:37.930247+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -1534,8 +1578,8 @@
    ]
   },
   {
-   "amountCr": null,
-   "amountRaw": null,
+   "amountCr": 16500.0,
+   "amountRaw": "₹16,500 Crore",
    "company": "National Stock Exchange",
    "confidence": "medium",
    "confirmed": false,
@@ -1548,11 +1592,11 @@
    "oneLine": "National Stock Exchange trims price band amid stake sale plans for IPO.",
    "primaryOutlet": "Prop News Time",
    "seller": "Oriental Insurance",
-   "sizeBand": "OVER_2000",
-   "sizeSource": "band",
-   "sourceCount": 13,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 14,
    "ticker": null,
-   "updatedAt": "2026-09-14T01:32:09.974035+00:00",
+   "updatedAt": "2026-09-16T10:31:34.479731+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-14T01:32:09.972780+00:00",
@@ -1601,6 +1645,10 @@
     {
      "attachedAt": "2026-09-15T09:31:32.749092+00:00",
      "title": "NSE IPO: Everything investors need to know about the National Stock Exchange IPO"
+    },
+    {
+     "attachedAt": "2026-09-16T10:31:34.478535+00:00",
+     "title": "NSE IPO: SBI, CPP Investments And Other Shareholders Set To Earn ₹16,500 Crore Windfall Gains"
     }
    ]
   },
@@ -20369,6 +20417,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-16T09:31:08.348674+00:00",
- "totalDeals": 701
+ "generatedAt": "2026-09-16T10:31:37.930247+00:00",
+ "totalDeals": 703
 }

@@ -1,7 +1,7 @@
 {
  "advisers": [],
- "amountCr": null,
- "amountRaw": null,
+ "amountCr": 16500.0,
+ "amountRaw": "₹16,500 Crore",
  "buyer": null,
  "company": "National Stock Exchange",
  "confidence": "medium",
@@ -15,8 +15,8 @@
  "oneLine": "National Stock Exchange trims price band amid stake sale plans for IPO.",
  "primaryUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWm1BMUt5S3MzQVo4MjY2OUVROWlLQ2d3Q0xNVDVSa2R0aEJpMEo3d19zUlNuRUk0SHJMM3FGWU9FdzRDTkdhOThtZ3JXWDlOaDBnLVV3WWtXSy0tR3Y0d1ZaM0hIby1KcUhCYmRTRXo1UzZHU08wQ0U4cmEzRTFCR1MxbDdJSmFQT3VkYWdXcFR2OU5Dak5NUjZUa1hMLXU2YVl6amtfb0JKQTY2VXFmUlB3?oc=5",
  "seller": "Oriental Insurance",
- "sizeBand": "OVER_2000",
- "sizeSource": "band",
+ "sizeBand": null,
+ "sizeSource": "stated",
  "sources": [
   {
    "attachedAt": "2026-09-14T01:32:08.453584+00:00",
@@ -108,9 +108,16 @@
    "resolvable": false,
    "title": "NSE IPO: Everything investors need to know about the National Stock Exchange IPO",
    "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOWmtNamNqVFVuQmJySHE1Z1p4R1hGb250Snc3YUlPWE9hbUhUT213MWg1dV9jVWNDdWE2bXNEaThyZ1hsSzFJMWRDTFF5Q3cyOW50NWV0aUFFS2ZSVXlBeFVXd3ZaYUdCTHFjQnYwT1RDVmo4VlZlRDVMNHB3ZU5CdThRdDVMcWpLTXlPLU5VVEZneGdMOUczVkpSNERKZDAybldwazZsQ3VxR1p1b0lncC1nWWpKLWFpYmx2U3pIaEV3RVk2UXNpS25vRXdIbmRkbUZYYnZHX3RZelZzb1NKbnhNZVBaTmNOOWdma3hMMNIB9AFBVV95cUxPYXFtdmVqN3c5QnJVM0ZqWjBXb3IyajhPRklVQWNwZHNiX01KaDM0RndsdG1wQmttdEY1aWVKNFVCVnJvUjFRbWxEaXlZY2ZPLTN2UXZWVldrMExqcHpYUlNKQWdTZWhzMjJackJVU3NMVXRTanFKVG5sQjYxYTV2c0RpWDhkVlVrZVhmX3hVQTlHZDFrMU85bmhCXzZZTGV5akwyZFByM1BQQ055WWw1ZEFsR1B6WXI1TURHOVRiUGhRQ3BtS0VMUGdLRkVqS3NlTUx6Tzg2ci15MXBqeEFhTFFsejNMRDV2N3JNQmxFUHBwRXZK?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-16T10:31:34.478535+00:00",
+   "outlet": "Free Press Journal",
+   "resolvable": false,
+   "title": "NSE IPO: SBI, CPP Investments And Other Shareholders Set To Earn ₹16,500 Crore Windfall Gains",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZUNzYW9DRXZ3bUtiUGdyb21DRVNQSk85NDA4OVdscHhhYjlUZnI5V2Ezbk1iZjg3YzItRmluQzhXSS03aFRhWXdaR3ZFRmFkSHBFNlNBMjdGUktpcjRfeDBIaFdfaGpNQXJVbUF2QU0yYnFPZy1NOU5Tam03aUNiUmJHb3UxMHZvbGNpc2NJVGZoMW9qa3Y1QTdPb3FTczRPLUJIVUlDRm1Fa2dOal9BTE1LRWMyd1hmbEJ4OXlMSHhaV1Rhc1ZyRG01SFhCSmfSAc8BQVVfeXFMTWVDc2FvQ0V2d21LYlBncm9tQ0VTUEpPOTQwODlXbHB4YWI5VGZyOVdhM25NYmY4N2MyLUZpbkM4V0ktN2hUYVl3Wkd2RUZhZEhwRTZTQTI3RlJLaXI0X3gwSGhXX2hqTUFyVW1BdkFNMmJxT2ctTTlOU2ptN2lDYlJiR291MTB2b2xjaXNjSVRmaDFvamt2NUE3T29xU3M0Ty1CSFVJQ0ZtRWtnTmpfQUxNS0VjMndYZmxCeDl5TEh4WldUYXNWckRtNUhYQkpn?oc=5"
   }
  ],
  "synopsis": null,
  "ticker": null,
- "updatedAt": "2026-09-14T01:32:09.974035+00:00"
+ "updatedAt": "2026-09-16T10:31:34.479731+00:00"
 }
