@@ -254,7 +254,7 @@
    "seller": "Social Worth Technologies Ltd",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 5,
+   "sourceCount": 6,
    "ticker": null,
    "updatedAt": "2026-09-15T11:31:57.522210+00:00",
    "updates": [
@@ -273,6 +273,10 @@
     {
      "attachedAt": "2026-09-16T01:31:30.122668+00:00",
      "title": "Fintech lender Fibe gets SEBI nod for Rs 750 crore IPO"
+    },
+    {
+     "attachedAt": "2026-09-16T03:32:16.160807+00:00",
+     "title": "The End Of Free UPI, Fibe IPO Gets SEBI Nod & More"
     }
    ]
   },
@@ -1111,7 +1115,7 @@
    "seller": "Shapoorji Pallonji Group",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 10,
+   "sourceCount": 11,
    "ticker": null,
    "updatedAt": "2026-09-14T10:31:06.265691+00:00",
    "updates": [
@@ -1150,6 +1154,10 @@
     {
      "attachedAt": "2026-09-15T11:31:18.917416+00:00",
      "title": "Tata Sons Listing Could Give SP Group A New Way Out Of Its Debt Burden"
+    },
+    {
+     "attachedAt": "2026-09-16T03:32:16.163132+00:00",
+     "title": "The Indian business empire being forced to list against its will"
     }
    ]
   },
