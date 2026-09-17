@@ -1,6 +1,72 @@
 {
- "dealCount": 716,
+ "dealCount": 719,
  "deals": [
+  {
+   "amountCr": 400.0,
+   "amountRaw": "₹400 crore",
+   "company": "Varmora Granito Ltd.",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-17T06:31:21.118434+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 889,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Varmora Granito updated its DRHP featuring a ₹400 crore fresh issue.",
+   "primaryOutlet": "multibagg.ai",
+   "seller": "Varmora Granito Limited",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-17T06:31:32.195527+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "LCC Projects Limited",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-17T06:31:21.113573+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 888,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "LCC Projects filed draft offer documents with SEBI for an IPO.",
+   "primaryOutlet": "Prospectus",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-17T06:31:21.113573+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Manika Plastech Limited",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-17T06:31:21.104333+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 887,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Manika Plastech filed draft offer documents with SEBI for an IPO.",
+   "primaryOutlet": "Prospectus",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-17T06:31:21.104333+00:00",
+   "updates": []
+  },
   {
    "amountCr": 15100.0,
    "amountRaw": "₹ 15,100 crore (from article)",
@@ -1255,10 +1321,15 @@
    "seller": "Rayzon Solar",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-09-14T10:31:14.062947+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-09-17T06:31:21.110973+00:00",
+     "title": "Rayzon Solar Limited"
+    }
+   ]
   },
   {
    "amountCr": 3520.0,
@@ -1577,7 +1648,7 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 6,
+   "sourceCount": 7,
    "ticker": null,
    "updatedAt": "2026-09-14T01:32:10.955769+00:00",
    "updates": [
@@ -1600,6 +1671,10 @@
     {
      "attachedAt": "2026-09-16T07:31:17.732195+00:00",
      "title": "Kamarajar Port Plans Rs 1,200 Cr IPO"
+    },
+    {
+     "attachedAt": "2026-09-17T06:31:21.122369+00:00",
+     "title": "Kamarajar Port begins banker selection process for proposed INR 1,200 crore IPO"
     }
    ]
   },
@@ -20774,6 +20849,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-17T05:31:24.778429+00:00",
- "totalDeals": 716
+ "generatedAt": "2026-09-17T06:31:32.195527+00:00",
+ "totalDeals": 719
 }

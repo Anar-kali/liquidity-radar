@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "LCC Projects Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-17T06:31:21.113573+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": "failed",
+ "id": 888,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "LCC Projects filed draft offer documents with SEBI for an IPO.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/lcc-projects-limited-prospectus_104530.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-17T06:31:21.114816+00:00",
+   "outlet": "Prospectus",
+   "resolvable": true,
+   "title": "LCC Projects Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/lcc-projects-limited-prospectus_104530.html"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-09-17T06:31:21.113573+00:00"
+}

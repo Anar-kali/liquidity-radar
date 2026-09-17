@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Manika Plastech Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-17T06:31:21.104333+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": "failed",
+ "id": 887,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Manika Plastech filed draft offer documents with SEBI for an IPO.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/manika-plastech-limited-prospectus_104534.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-17T06:31:21.108377+00:00",
+   "outlet": "Prospectus",
+   "resolvable": true,
+   "title": "Manika Plastech Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/manika-plastech-limited-prospectus_104534.html"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-09-17T06:31:21.104333+00:00"
+}
