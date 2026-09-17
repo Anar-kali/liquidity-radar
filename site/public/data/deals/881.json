@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 5.0,
+ "amountRaw": "₹5 crore (from article)",
+ "buyer": "PB Fintech",
+ "company": "MyLoancare",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-17T01:31:25.664863+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 881,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "PB Fintech moves to own 100% of MyLoancare.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQLUR0TGptb2VLN3NDSVdXVF9QQXhIVl9JaFk2dGV5YUZybVpHaFhoV0dLMjhEQnprenFtOGNOcUtDbVczbWVMMmE2enAwV3huaXBJS3Bka2J0Rmp1NUIzSVJzN182d2lEMm0wNTZRZ1lIODhScFJEQ2pYdHVreU9QbjdrenRUalBuWlp4WFhvVlRtcDY4a1lOVUhtS1JVeHhjcE5hX1VfOGRFTUZ3Q0l1ZjBWd1h2b0t5WmMzYVN2a01UTjRNWjNaYzJUeDIwSzVGcFhLcmVua1lVbWI3c3EzTk5WVWJrbkprZGJib2NR?oc=5",
+ "seller": "minority shareholders of MyLoancare Ventures Private Limited",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-17T01:31:25.666537+00:00",
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "PB Fintech Moves to Own 100% of MyLoancare, Backs Subsidiaries",
+   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQLUR0TGptb2VLN3NDSVdXVF9QQXhIVl9JaFk2dGV5YUZybVpHaFhoV0dLMjhEQnprenFtOGNOcUtDbVczbWVMMmE2enAwV3huaXBJS3Bka2J0Rmp1NUIzSVJzN182d2lEMm0wNTZRZ1lIODhScFJEQ2pYdHVreU9QbjdrenRUalBuWlp4WFhvVlRtcDY4a1lOVUhtS1JVeHhjcE5hX1VfOGRFTUZ3Q0l1ZjBWd1h2b0t5WmMzYVN2a01UTjRNWjNaYzJUeDIwSzVGcFhLcmVua1lVbWI3c3EzTk5WVWJrbkprZGJib2NR?oc=5"
+  }
+ ],
+ "synopsis": "PB Fintech Limited has approved in principle the acquisition of the remaining 20 percent stake in MyLoancare Ventures Private Limited to make it a wholly owned subsidiary, for an estimated consideration of up to ₹5 crore. PB Fintech already controls the other 80 percent of MyLoancare. The final valuation will be determined by an independent registered valuer as of September 30, 2026, with the transaction targeted for completion on or before March 31, 2027, subject to definitive agreements and customary closing conditions. Additionally, PB Fintech cleared investments of up to ₹10 crore in PB Wheels Private Limited and ₹1 crore in PB Financial Account Aggregator Private Limited.",
+ "ticker": null,
+ "updatedAt": "2026-09-17T01:31:49.403229+00:00"
+}

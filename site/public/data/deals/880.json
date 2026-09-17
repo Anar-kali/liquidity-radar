@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 55.16,
+ "amountRaw": "₹55.16 crore (from article)",
+ "buyer": "Primo Chemicals",
+ "company": "Flow Tech",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-17T01:31:25.659930+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 880,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Primo Chemicals acquires 51% ownership of Flow Tech.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOVjlZVmNCMTJiX1Y4V3lhRHU0d2hjQnBfZm1YQWl1djJqY3FWSldOekhiQmt0cEw1eWpBczVaSldmNzhaVWYzN3JIWHA4aTZ4Z05NMW5acUhsUXRtOHNoWGFxZlBhZGNNV1JxVERfUGJRVnlBM29OWWJUMFdkclVWbzZ3?oc=5",
+ "seller": "Flow Tech Chemicals Private Limited",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-17T01:31:25.661064+00:00",
+   "outlet": "Sahi",
+   "resolvable": false,
+   "title": "Primo Chemicals Acquires 51% Ownership Of Flow Tech",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOVjlZVmNCMTJiX1Y4V3lhRHU0d2hjQnBfZm1YQWl1djJqY3FWSldOekhiQmt0cEw1eWpBczVaSldmNzhaVWYzN3JIWHA4aTZ4Z05NMW5acUhsUXRtOHNoWGFxZlBhZGNNV1JxVERfUGJRVnlBM29OWWJUMFdkclVWbzZ3?oc=5"
+  }
+ ],
+ "synopsis": "Primo Chemicals has acquired the remaining 51 percent stake in Flow Tech Chemicals for 55.16 crore rupees, increasing its holding from 49 percent to 100 percent and converting Flow Tech into a wholly-owned subsidiary. The transaction involved acquiring 3,88,908 equity shares at 1,418.20 rupees per share, effective September 16, 2026. The acquisition aims to secure vertical integration for chlorine consumption and insulate Primo Chemicals from chlorine disposal bottlenecks. The board has also initiated plans to amalgamate the newly acquired subsidiary directly into Primo Chemicals. Flow Tech reported an FY26 turnover of 341.66 crore rupees and a Profit After Tax of 9.80 crore rupees.",
+ "ticker": null,
+ "updatedAt": "2026-09-17T01:31:45.484629+00:00"
+}

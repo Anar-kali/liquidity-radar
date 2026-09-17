@@ -1,0 +1,34 @@
+{
+ "advisers": [],
+ "amountCr": 343.2,
+ "amountRaw": "$39M",
+ "buyer": "WhiteOak, Ashoka, Carnelian",
+ "company": "Venus Pipes",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-17T01:31:25.636750+00:00",
+ "dealType": "block deal",
+ "enrichmentState": null,
+ "id": 876,
+ "individuals": [
+  "Ashish Kacholia"
+ ],
+ "listed": true,
+ "oneLine": "Venus Pipes lands $39M share sale led by WhiteOak, Ashoka, and Carnelian.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTjUwY0gzOHNCemJybjRXR3JqLVJKbzFFb3dBLXhlTW9qdHNSYkhiTWRzb1pSdnUyUERBb2NaeTI2Q3hkak1KczloM0dPSzNGZ3RoLXJpcmQ1dTBhb1IwUHNrVWRheVpSNFJzTXJxamZWQnoxbUxRQ1FGMk5MczhWR1V0OUduU1VFMURHQnpaOE5WQlVoM1JBdGZISm1CeS1t?oc=5",
+ "seller": "Venus Pipes and Tubes",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-17T01:31:25.639618+00:00",
+   "outlet": "Dealroom",
+   "resolvable": false,
+   "title": "Venus Pipes lands $39M share sale led by WhiteOak, Ashoka, Carnelian",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTjUwY0gzOHNCemJybjRXR3JqLVJKbzFFb3dBLXhlTW9qdHNSYkhiTWRzb1pSdnUyUERBb2NaeTI2Q3hkak1KczloM0dPSzNGZ3RoLXJpcmQ1dTBhb1IwUHNrVWRheVpSNFJzTXJxamZWQnoxbUxRQ1FGMk5MczhWR1V0OUduU1VFMURHQnpaOE5WQlVoM1JBdGZISm1CeS1t?oc=5"
+  }
+ ],
+ "synopsis": "Venus Pipes and Tubes has approved a ₹372 crore preferential share issue on a private placement basis, allotting up to 2,227,544 equity shares to 18 non-promoter public investors at ₹1,670 each. Backers include Kitara PIIN 2401 taking ₹50 crore, WhiteOak Capital India Opportunities Fund taking ₹42 crore, Ashoka WhiteOak India Opportunities Fund taking ₹39.63 crore, and individual investor Ashish Kacholia taking ₹30 crore, alongside Carnelian, Tata, and Kotak Mahindra Life Insurance. Inga Ventures advised the raise. The transaction will drop promoter holding from 48.41% to 43.71% and increase public shareholding from 51.59% to 56.29%. The allotment requires shareholder approval at an extraordinary general meeting called for October 8, 2026.",
+ "ticker": "VENUSPIPES.NS",
+ "updatedAt": "2026-09-17T01:31:29.456657+00:00"
+}

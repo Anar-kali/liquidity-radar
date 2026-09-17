@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "NHC Foods",
+ "company": "Lotmor Brands",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-17T01:31:25.696177+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 883,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "NHC Foods to acquire majority stakes in Lotmor Brands and Walya's Beverages.",
+ "primaryUrl": "https://www.thehindubusinessline.com/companies/nhc-foods-to-acquire-majority-stake-in-lotmor-brands-walyas-beverages/article71472901.ece",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-17T01:31:25.697218+00:00",
+   "outlet": "Business Line",
+   "resolvable": true,
+   "title": "NHC Foods to acquire majority stake in Lotmor Brands, Walya’s Beverages",
+   "url": "https://www.thehindubusinessline.com/companies/nhc-foods-to-acquire-majority-stake-in-lotmor-brands-walyas-beverages/article71472901.ece"
+  }
+ ],
+ "synopsis": "NHC Foods has proposed to acquire controlling stakes in two food and beverage companies, acquiring an 88 per cent stake in Lotmor Brands and an 80 per cent stake in Walya's Beverages. The consideration may be paid in cash or through the issue of NHC Foods equity shares at 6.50 rupees per share, or determined after six months in accordance with SEBI ICDR Regulations. Satyam Shirishchandra Joshi is the Managing Director of NHC Foods, and Suryakant Dhondu Walavalkar is the Founder and Managing Director of Lotmor Brands. No specific total deal value in rupees crores was disclosed in the article.",
+ "ticker": null,
+ "updatedAt": "2026-09-17T01:31:57.513012+00:00"
+}

@@ -1,0 +1,34 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Roshan Dealmark",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-17T01:31:25.646507+00:00",
+ "dealType": "promoter sale",
+ "enrichmentState": null,
+ "id": 877,
+ "individuals": [
+  "Puja Agarwal"
+ ],
+ "listed": false,
+ "oneLine": "Roshan Dealmark promoters sell 14 lakh shares.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMkVUVVlCc2t1bERQTkk2Z2xlcVlzWGFuNGtULWxwNzhPSkYtYTV6NER6OXFzNFFxcFdnQ1c0VDB4Y1lFWlNIY2VmbnZFbnluMFBaZGRTRWl3eXVWM1hWVXI1eXhROEhyN1pIOVRpSTFLcnQ0SXZQc3Q4ZlZUYXJmS0gwZTdJaDF0SlhFRkExNDNLTUE?oc=5",
+ "seller": "Roshan Dealmark Promoters",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-17T01:31:25.647619+00:00",
+   "outlet": "InvestyWise",
+   "resolvable": false,
+   "title": "Roshan Dealmark Promoters Sell 14 Lakh Shares",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMkVUVVlCc2t1bERQTkk2Z2xlcVlzWGFuNGtULWxwNzhPSkYtYTV6NER6OXFzNFFxcFdnQ1c0VDB4Y1lFWlNIY2VmbnZFbnluMFBaZGRTRWl3eXVWM1hWVXI1eXhROEhyN1pIOVRpSTFLcnQ0SXZQc3Q4ZlZUYXJmS0gwZTdJaDF0SlhFRkExNDNLTUE?oc=5"
+  }
+ ],
+ "synopsis": "Roshan Dealmark Private Limited and Puja Agarwal, belonging to the promoters and promoter group, disposed of 14,00,000 equity shares of Tavexia Lifecare Limited, representing 0.36% of the total share capital. The transaction was executed through an on-market trade on September 15, 2026. Prior to this disposal, the promoters held 1,99,29,777 shares, or 5.19% of the company, and post-transaction their holding reduced to 1,85,29,777 shares, representing 4.83% of the total share capital. No financial value or deal amount was disclosed in the report.",
+ "ticker": null,
+ "updatedAt": "2026-09-17T01:31:32.977982+00:00"
+}

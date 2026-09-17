@@ -1,6 +1,186 @@
 {
- "dealCount": 705,
+ "dealCount": 713,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Lotmor Brands",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-17T01:31:25.696177+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 883,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "NHC Foods to acquire majority stakes in Lotmor Brands and Walya's Beverages.",
+   "primaryOutlet": "Business Line",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-17T01:31:57.513012+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 431.0,
+   "amountRaw": "₹431 crore",
+   "company": "TBZ",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-17T01:31:25.670197+00:00",
+   "dealType": "open offer",
+   "enrichmentState": null,
+   "id": 882,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "GRT Jewellers launches ₹431 crore open offer for remaining TBZ stake.",
+   "primaryOutlet": "BusinessLine",
+   "seller": "public shareholders of Tribhovandas Bhimji Zaveri",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-17T01:31:53.331502+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 5.0,
+   "amountRaw": "₹5 crore (from article)",
+   "company": "MyLoancare",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-17T01:31:25.664863+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 881,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "PB Fintech moves to own 100% of MyLoancare.",
+   "primaryOutlet": "Whalesbook",
+   "seller": "minority shareholders of MyLoancare Ventures Private Limited",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-17T01:31:49.403229+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 55.16,
+   "amountRaw": "₹55.16 crore (from article)",
+   "company": "Flow Tech",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-17T01:31:25.659930+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 880,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Primo Chemicals acquires 51% ownership of Flow Tech.",
+   "primaryOutlet": "Sahi",
+   "seller": "Flow Tech Chemicals Private Limited",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-17T01:31:45.484629+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 4300.0,
+   "amountRaw": "$450-million (about Rs 4,300 crore) (from article)",
+   "company": "Maple Highways",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-17T01:31:25.655306+00:00",
+   "dealType": "PE secondary",
+   "enrichmentState": null,
+   "id": 879,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "La Caisse sells big stake in Maple Highways to MAM.",
+   "primaryOutlet": "Pension Pulse blog",
+   "seller": "La Caisse",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-17T01:31:41.028111+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 1.12,
+   "amountRaw": "₹1.12 crore (from article)",
+   "company": "Kameda Seika JV",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-17T01:31:25.651561+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 878,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "LT Foods to acquire Kameda Seika's 49% stake in JV.",
+   "primaryOutlet": "Sahi",
+   "seller": "Kameda Seika",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-17T01:31:37.191249+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Roshan Dealmark",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-17T01:31:25.646507+00:00",
+   "dealType": "promoter sale",
+   "enrichmentState": null,
+   "id": 877,
+   "individuals": [
+    "Puja Agarwal"
+   ],
+   "listed": false,
+   "oneLine": "Roshan Dealmark promoters sell 14 lakh shares.",
+   "primaryOutlet": "InvestyWise",
+   "seller": "Roshan Dealmark Promoters",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-17T01:31:32.977982+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 343.2,
+   "amountRaw": "$39M",
+   "company": "Venus Pipes",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-17T01:31:25.636750+00:00",
+   "dealType": "block deal",
+   "enrichmentState": null,
+   "id": 876,
+   "individuals": [
+    "Ashish Kacholia"
+   ],
+   "listed": true,
+   "oneLine": "Venus Pipes lands $39M share sale led by WhiteOak, Ashoka, and Carnelian.",
+   "primaryOutlet": "Dealroom",
+   "seller": "Venus Pipes and Tubes",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "VENUSPIPES.NS",
+   "updatedAt": "2026-09-17T01:31:29.456657+00:00",
+   "updates": []
+  },
   {
    "amountCr": 3500.0,
    "amountRaw": "Rs 2,500-3,500 crore (from article)",
@@ -88,10 +268,19 @@
    "seller": "Peak XV Partners Investments VI-1 and Sequoia Capital Global Fund III",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 3,
    "ticker": "GROWW.NS",
    "updatedAt": "2026-09-16T10:31:37.930247+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-09-17T01:31:25.641874+00:00",
+     "title": "Groww Parent Billionbrains Shares Fall 3% After Rs 1,999 Cr Block Deal"
+    },
+    {
+     "attachedAt": "2026-09-17T01:31:25.688318+00:00",
+     "title": "Peak XV sells 1.47% stake in Groww for Rs 1,756 Cr via bulk deal"
+    }
+   ]
   },
   {
    "amountCr": null,
@@ -184,8 +373,8 @@
    "updates": []
   },
   {
-   "amountCr": null,
-   "amountRaw": null,
+   "amountCr": 16500.0,
+   "amountRaw": "Rs 16,500 crore",
    "company": "NSE",
    "confidence": "medium",
    "confirmed": false,
@@ -198,15 +387,23 @@
    "oneLine": "NSE IPO discussion and market implications",
    "primaryOutlet": "Livemint",
    "seller": "Existing shareholders (including State Bank of India and SBI Capital Markets Limited)",
-   "sizeBand": "OVER_2000",
-   "sizeSource": "band",
-   "sourceCount": 2,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 4,
    "ticker": null,
-   "updatedAt": "2026-09-16T04:31:22.715125+00:00",
+   "updatedAt": "2026-09-17T01:31:25.676170+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-16T06:31:19.410169+00:00",
      "title": "NSE IPO 2026: Expected Timeline, Valuation And Key Details"
+    },
+    {
+     "attachedAt": "2026-09-17T01:31:25.675096+00:00",
+     "title": "NSE's selling shareholders set to make gains of Rs 16,500 crore from upcoming IPO"
+    },
+    {
+     "attachedAt": "2026-09-17T01:31:25.678344+00:00",
+     "title": "NSE IPO Set to Hand Selling Shareholders a Rs 16,500 Crore Windfall"
     }
    ]
   },
@@ -452,7 +649,7 @@
    "seller": "Peak XV Partners, Sequoia Capital",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 7,
+   "sourceCount": 8,
    "ticker": "GROWW.NS",
    "updatedAt": "2026-09-16T04:31:10.842212+00:00",
    "updates": [
@@ -479,6 +676,10 @@
     {
      "attachedAt": "2026-09-16T08:31:17.521338+00:00",
      "title": "Groww shares crash 4.5% after 1.69% equity sold in Rs 1,999-crore block deal; Peak XV, Sequoia likely..."
+    },
+    {
+     "attachedAt": "2026-09-17T01:31:25.690619+00:00",
+     "title": "Peak XV Partners Sells Groww Shares Worth ₹1,756.2 Cr"
     }
    ]
   },
@@ -20487,6 +20688,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-16T13:31:35.821442+00:00",
- "totalDeals": 705
+ "generatedAt": "2026-09-17T01:31:57.513012+00:00",
+ "totalDeals": 713
 }
