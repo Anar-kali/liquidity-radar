@@ -1,6 +1,28 @@
 {
- "dealCount": 714,
+ "dealCount": 715,
  "deals": [
+  {
+   "amountCr": 3000.0,
+   "amountRaw": "₹3,000-Crore",
+   "company": "GAIL Gas",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-17T04:31:03.947708+00:00",
+   "dealType": "unknown",
+   "enrichmentState": null,
+   "id": 885,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "GAIL India subsidiary clears path for Rs 3,000 crore IPO.",
+   "primaryOutlet": "Sahi",
+   "seller": "GAIL Gas",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-17T04:31:08.229973+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -20714,6 +20736,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-17T03:31:10.229198+00:00",
- "totalDeals": 714
+ "generatedAt": "2026-09-17T04:31:08.229973+00:00",
+ "totalDeals": 715
 }

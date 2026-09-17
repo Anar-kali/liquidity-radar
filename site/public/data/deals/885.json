@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 3000.0,
+ "amountRaw": "₹3,000-Crore",
+ "buyer": "Public investors",
+ "company": "GAIL Gas",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-17T04:31:03.947708+00:00",
+ "dealType": "unknown",
+ "enrichmentState": null,
+ "id": 885,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "GAIL India subsidiary clears path for Rs 3,000 crore IPO.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMGhWMng2cEZVV0pSOTRsWHE4Wms4ajAyNHFVU0l6bklNQ1F3Q0EySFM4Sm83bzlHZllPVUpRZms3SDRMYjJCRHAxaW5NS0k0MGxpa2V4YkN6RUQxaE1WU1kzOFF4dzJLWDIxUWJEZzhjZUdxZm9WVXFOamV1TWRreUUtSkU4MDgxVGMtaDdKd01ydTNZRFlhX0R4ODA1MU05SGY3d3ItY29Ydw?oc=5",
+ "seller": "GAIL Gas",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-17T04:31:03.949173+00:00",
+   "outlet": "Sahi",
+   "resolvable": false,
+   "title": "GAIL India: PNGRB Approves Transfer of 6 CGD Areas Paving Way for ₹3,000-Crore IPO",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMGhWMng2cEZVV0pSOTRsWHE4Wms4ajAyNHFVU0l6bklNQ1F3Q0EySFM4Sm83bzlHZllPVUpRZms3SDRMYjJCRHAxaW5NS0k0MGxpa2V4YkN6RUQxaE1WU1kzOFF4dzJLWDIxUWJEZzhjZUdxZm9WVXFOamV1TWRreUUtSkU4MDgxVGMtaDdKd01ydTNZRFlhX0R4ODA1MU05SGY3d3ItY29Ydw?oc=5"
+  }
+ ],
+ "synopsis": "GAIL India is preparing its subsidiary, GAIL Gas, for a targeted initial public offering to raise ₹3,000 crore by the end of the current financial year. This follows the Petroleum and Natural Gas Regulatory Board approving the transfer of six city gas distribution geographical areas—Varanasi, Patna, Khordha, Ranchi, Cuttack, and East Singhbhum—from GAIL India directly to GAIL Gas. The corporate restructuring consolidates asset ownership to simplify the subsidiary's structure and improve standalone valuation before it goes public by diluting a minority stake.",
+ "ticker": null,
+ "updatedAt": "2026-09-17T04:31:08.229973+00:00"
+}
