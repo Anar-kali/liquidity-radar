@@ -1,6 +1,28 @@
 {
- "dealCount": 713,
+ "dealCount": 714,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "GSL Securities",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-17T03:31:10.229198+00:00",
+   "dealType": "open offer",
+   "enrichmentState": "failed",
+   "id": 884,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Public announcement submitted for an open offer regarding GSL Securities Ltd.",
+   "primaryOutlet": "BSE",
+   "seller": "GSL Securities shareholders",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": "530469.BO",
+   "updatedAt": "2026-09-17T03:31:10.229198+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -473,7 +495,7 @@
    "seller": null,
    "sizeBand": "OVER_2000",
    "sizeSource": "band",
-   "sourceCount": 4,
+   "sourceCount": 5,
    "ticker": null,
    "updatedAt": "2026-09-16T12:31:36.241253+00:00",
    "updates": [
@@ -488,6 +510,10 @@
     {
      "attachedAt": "2026-09-16T13:31:32.176414+00:00",
      "title": "With UPI MDR Clarity, PhonePe Eyes IPO By March 2027"
+    },
+    {
+     "attachedAt": "2026-09-17T03:31:10.216774+00:00",
+     "title": "Clean Label Brands Vs FSSAI, PhonePe Eyes 2027 IPO & More"
     }
    ]
   },
@@ -20688,6 +20714,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-17T01:31:57.513012+00:00",
- "totalDeals": 713
+ "generatedAt": "2026-09-17T03:31:10.229198+00:00",
+ "totalDeals": 714
 }

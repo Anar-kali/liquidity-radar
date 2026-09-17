@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "GSL Securities",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-17T03:31:10.229198+00:00",
+ "dealType": "open offer",
+ "enrichmentState": "failed",
+ "id": 884,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Public announcement submitted for an open offer regarding GSL Securities Ltd.",
+ "primaryUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5FD33CBA-721B-4699-83EA-F902FFCB7A5E-075209.pdf",
+ "seller": "GSL Securities shareholders",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-17T03:31:10.230488+00:00",
+   "outlet": "BSE",
+   "resolvable": true,
+   "title": "GSL Securities Ltd: Mark Corporate Advisors Pvt Ltd (\"Manager to the Offer\") has submitted to BSE a copy of Public Announcement under Regulations 3(1) and 4 read with Regulations 13(1), 14 and 15(1) of the ....",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5FD33CBA-721B-4699-83EA-F902FFCB7A5E-075209.pdf"
+  }
+ ],
+ "synopsis": null,
+ "ticker": "530469.BO",
+ "updatedAt": "2026-09-17T03:31:10.229198+00:00"
+}
