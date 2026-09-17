@@ -1,6 +1,82 @@
 {
- "dealCount": 719,
+ "dealCount": 722,
  "deals": [
+  {
+   "amountCr": 2890.8,
+   "amountRaw": "$328.5 million",
+   "company": "Yatharth Hospitals",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-17T08:31:15.819990+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 892,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Advent International to invest $328.5 million in Yatharth Hospitals",
+   "primaryOutlet": "Business Line",
+   "seller": "Yatharth Hospitals",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-17T08:31:26.724812+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 282.0,
+   "amountRaw": "Rs 282 crore",
+   "company": "Emami",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-17T08:31:15.811830+00:00",
+   "dealType": "promoter sale",
+   "enrichmentState": null,
+   "id": 891,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Emami announces Rs 282 crore share buyback",
+   "primaryOutlet": "Zee Business",
+   "seller": "open market shareholders",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 2,
+   "ticker": "EMAMILTD.NS",
+   "updatedAt": "2026-09-17T08:31:22.787997+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-09-17T08:31:15.815921+00:00",
+     "title": "Emami shares jump 7% as board approves buyback plans of ₹282 crore; check price, other details"
+    }
+   ]
+  },
+  {
+   "amountCr": 3150.0,
+   "amountRaw": "₹3,150 crore",
+   "company": "Yatharth Hospital",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-17T08:31:15.804918+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 890,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Advent International buys 24.9% stake in Yatharth Hospital for Rs 3,150 crore",
+   "primaryOutlet": "Fortune India",
+   "seller": "Yatharth Hospital and Trauma Care Services",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 2,
+   "ticker": "YATHARTH.NS",
+   "updatedAt": "2026-09-17T08:31:18.730786+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-09-17T08:31:15.809007+00:00",
+     "title": "Advent International joins India’s hospital gold rush with Rs 3,150 crore Yatharth bet"
+    }
+   ]
+  },
   {
    "amountCr": 400.0,
    "amountRaw": "₹400 crore",
@@ -20849,6 +20925,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-17T06:31:32.195527+00:00",
- "totalDeals": 719
+ "generatedAt": "2026-09-17T08:31:26.724812+00:00",
+ "totalDeals": 722
 }

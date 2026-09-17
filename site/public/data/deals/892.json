@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 2890.8,
+ "amountRaw": "$328.5 million",
+ "buyer": "Advent International",
+ "company": "Yatharth Hospitals",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-17T08:31:15.819990+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 892,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Advent International to invest $328.5 million in Yatharth Hospitals",
+ "primaryUrl": "https://www.thehindubusinessline.com/companies/advent-international-to-invest-3285-million-in-indias-yatharth-hospitals-for-249-stake/article71475784.ece",
+ "seller": "Yatharth Hospitals",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-17T08:31:15.821163+00:00",
+   "outlet": "Business Line",
+   "resolvable": true,
+   "title": "Advent International to invest $328.5 million in India's Yatharth Hospitals for 24.9% stake",
+   "url": "https://www.thehindubusinessline.com/companies/advent-international-to-invest-3285-million-in-indias-yatharth-hospitals-for-249-stake/article71475784.ece"
+  }
+ ],
+ "synopsis": "US-based private equity firm Advent International announced an investment of ₹3,150 crore ($328.53 million) in Indian hospital chain operator Yatharth Hospitals. The investment secures Advent International a 24.9 per cent stake in the company. The transaction was reported on September 17, 2026.",
+ "ticker": null,
+ "updatedAt": "2026-09-17T08:31:26.724812+00:00"
+}
