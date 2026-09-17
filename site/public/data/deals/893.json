@@ -1,0 +1,39 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "IBERIA PHARMACEUTICALS INDIA LIMITED",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-17T09:31:27.420462+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": "failed",
+ "id": 893,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Iberia Pharmaceuticals India Limited files draft offer document for IPO.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/iberia-pharmaceuticals-india-limited-drhp_104542.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-17T09:31:27.485337+00:00",
+   "outlet": "SEBI",
+   "resolvable": true,
+   "title": "IBERIA PHARMACEUTICALS INDIA LIMITED - DRHPIBERIA PHARMACEUTICALS INDIA LIMITED- Draft Abridged Prospectus",
+   "url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/iberia-pharmaceuticals-india-limited-drhp_104542.html"
+  },
+  {
+   "attachedAt": "2026-09-17T09:31:27.487614+00:00",
+   "outlet": "SEBI",
+   "resolvable": true,
+   "title": "IBERIA PHARMACEUTICALS INDIA LIMITED- Draft Abridged Prospectus",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/sep-2026/IBERIA%20PHARMACEUTICALS%20INDIA%20LIMITED_p.pdf"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-09-17T09:31:27.420462+00:00"
+}

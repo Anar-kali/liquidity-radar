@@ -1,6 +1,33 @@
 {
- "dealCount": 722,
+ "dealCount": 723,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "IBERIA PHARMACEUTICALS INDIA LIMITED",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-17T09:31:27.420462+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 893,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Iberia Pharmaceuticals India Limited files draft offer document for IPO.",
+   "primaryOutlet": "SEBI",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 2,
+   "ticker": null,
+   "updatedAt": "2026-09-17T09:31:27.420462+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-09-17T09:31:27.487614+00:00",
+     "title": "IBERIA PHARMACEUTICALS INDIA LIMITED- Draft Abridged Prospectus"
+    }
+   ]
+  },
   {
    "amountCr": 2890.8,
    "amountRaw": "$328.5 million",
@@ -144,8 +171,8 @@
    "updates": []
   },
   {
-   "amountCr": 15100.0,
-   "amountRaw": "₹ 15,100 crore (from article)",
+   "amountCr": 25000.0,
+   "amountRaw": "₹25,000 crore",
    "company": "Tata Sons",
    "confidence": "medium",
    "confirmed": false,
@@ -162,9 +189,9 @@
    "seller": "Shapoorji Pallonji Group",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": null,
-   "updatedAt": "2026-09-17T05:31:24.778429+00:00",
+   "updatedAt": "2026-09-17T09:31:27.779783+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-17T05:31:22.121898+00:00",
@@ -173,6 +200,10 @@
     {
      "attachedAt": "2026-09-17T05:31:22.124360+00:00",
      "title": "Tata Board may ask Chandrasekaran to stay on amid RBI’s IPO push"
+    },
+    {
+     "attachedAt": "2026-09-17T09:31:27.778831+00:00",
+     "title": "Noel Tata tables a mega offer from SP Group to avoid Tata Sons listing"
     }
    ]
   },
@@ -20925,6 +20956,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-17T08:31:26.724812+00:00",
- "totalDeals": 722
+ "generatedAt": "2026-09-17T09:31:27.779783+00:00",
+ "totalDeals": 723
 }
