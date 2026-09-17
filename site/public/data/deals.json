@@ -198,7 +198,7 @@
    "seller": "Shapoorji Pallonji Group",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 4,
+   "sourceCount": 5,
    "ticker": null,
    "updatedAt": "2026-09-17T09:31:27.779783+00:00",
    "updates": [
@@ -213,6 +213,10 @@
     {
      "attachedAt": "2026-09-17T09:31:27.778831+00:00",
      "title": "Noel Tata tables a mega offer from SP Group to avoid Tata Sons listing"
+    },
+    {
+     "attachedAt": "2026-09-17T13:31:05.476159+00:00",
+     "title": "Noel Tata presents SP Group's Rs 25,000-cr Tata Sons stake sale proposal as RBI pushes listing"
     }
    ]
   },
