@@ -45,10 +45,15 @@
    "seller": "Yatharth Hospitals",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-09-17T08:31:26.724812+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-09-17T10:31:18.782100+00:00",
+     "title": "Advent International Bets Rs 3,150 Crore On Yatharth Hospitals, Buys 24.9% Stake"
+    }
+   ]
   },
   {
    "amountCr": 282.0,
@@ -67,13 +72,17 @@
    "seller": "open market shareholders",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": "EMAMILTD.NS",
    "updatedAt": "2026-09-17T08:31:22.787997+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-17T08:31:15.815921+00:00",
      "title": "Emami shares jump 7% as board approves buyback plans of ₹282 crore; check price, other details"
+    },
+    {
+     "attachedAt": "2026-09-17T10:31:18.786061+00:00",
+     "title": "Emami board approves Rs 282 crore share buyback at maximum price of Rs 475"
     }
    ]
   },
@@ -268,10 +277,15 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-09-17T01:31:57.513012+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-09-17T10:31:18.784109+00:00",
+     "title": "NHC Foods Approves 88% Lotmor, 80% Walya's Acquisitions"
+    }
+   ]
   },
   {
    "amountCr": 431.0,
