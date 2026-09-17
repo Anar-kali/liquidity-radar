@@ -1,6 +1,39 @@
 {
- "dealCount": 715,
+ "dealCount": 716,
  "deals": [
+  {
+   "amountCr": 15100.0,
+   "amountRaw": "₹ 15,100 crore (from article)",
+   "company": "Tata Sons",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-17T05:31:22.117586+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 886,
+   "individuals": [
+    "Shapoor Mistry"
+   ],
+   "listed": false,
+   "oneLine": "Shapoorji Pallonji Group pushes for Tata Sons listing to achieve liquidity.",
+   "primaryOutlet": "Mint",
+   "seller": "Shapoorji Pallonji Group",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 3,
+   "ticker": null,
+   "updatedAt": "2026-09-17T05:31:24.778429+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-09-17T05:31:22.121898+00:00",
+     "title": "RBI listing, N Chandrasekaran's decision on agenda: What's in store as Tata Sons meet today?"
+    },
+    {
+     "attachedAt": "2026-09-17T05:31:22.124360+00:00",
+     "title": "Tata Board may ask Chandrasekaran to stay on amid RBI’s IPO push"
+    }
+   ]
+  },
   {
    "amountCr": 3000.0,
    "amountRaw": "₹3,000-Crore",
@@ -1145,13 +1178,18 @@
    "listed": false,
    "oneLine": "Rentomojo Limited filed its SEBI draft offer document for an IPO.",
    "primaryOutlet": "SEBI",
-   "seller": null,
+   "seller": "Accel, Chiratae, GMO, Cofounder",
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
-   "updatedAt": "2026-09-15T05:31:36.230768+00:00",
-   "updates": []
+   "updatedAt": "2026-09-17T05:31:22.114607+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-09-17T05:31:22.090120+00:00",
+     "title": "RentoMojo IPO Delivers Big Exits: Accel, Chiratae, GMO Cash Out As Cofounder Trims Stake"
+    }
+   ]
   },
   {
    "amountCr": 13200.0,
@@ -20736,6 +20774,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-17T04:31:08.229973+00:00",
- "totalDeals": 715
+ "generatedAt": "2026-09-17T05:31:24.778429+00:00",
+ "totalDeals": 716
 }

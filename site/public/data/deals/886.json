@@ -1,0 +1,48 @@
+{
+ "advisers": [],
+ "amountCr": 15100.0,
+ "amountRaw": "₹ 15,100 crore (from article)",
+ "buyer": "Farallon Capital Management, Davidson Kempner Capital Management and Cerberus Capital",
+ "company": "Tata Sons",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-17T05:31:22.117586+00:00",
+ "dealType": "IPO-OFS",
+ "enrichmentState": null,
+ "id": 886,
+ "individuals": [
+  "Shapoor Mistry"
+ ],
+ "listed": false,
+ "oneLine": "Shapoorji Pallonji Group pushes for Tata Sons listing to achieve liquidity.",
+ "primaryUrl": "https://www.livemint.com/companies/news/tata-sons-ipo-listing-shapoorji-pallonji-noel-tata-tata-trusts-11789619645756.html",
+ "seller": "Shapoorji Pallonji Group",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-17T05:31:22.119024+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "Tata Sons IPO order backs Shapoorji Pallonji's long-running ask",
+   "url": "https://www.livemint.com/companies/news/tata-sons-ipo-listing-shapoorji-pallonji-noel-tata-tata-trusts-11789619645756.html"
+  },
+  {
+   "attachedAt": "2026-09-17T05:31:22.121898+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "RBI listing, N Chandrasekaran's decision on agenda: What's in store as Tata Sons meet today?",
+   "url": "https://www.livemint.com/companies/news/rbi-listing-n-chandrasekarans-decision-on-agenda-whats-in-store-as-tata-sons-meet-today-11789621258784.html"
+  },
+  {
+   "attachedAt": "2026-09-17T05:31:22.124360+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "Tata Board may ask Chandrasekaran to stay on amid RBI’s IPO push",
+   "url": "https://www.thehindubusinessline.com/companies/tata-board-may-ask-chandrasekaran-to-stay-on-amid-rbis-ipo-push/article71475252.ece"
+  }
+ ],
+ "synopsis": "The Reserve Bank of India has refused to relax listing rules for Tata Sons Pvt. Ltd., supporting the Shapoorji Pallonji Group's long-running push to list the holding company and unlock value from its 18.4% stake. Shapoor Mistry, who heads the debt-laden Shapoorji Pallonji Group, has been seeking a public listing to help resolve the conglomerate's financial challenges. The construction giant recently raised about ₹ 15,100 crore in a private credit transaction involving global investors including Farallon Capital Management, Davidson Kempner Capital Management, and Cerberus Capital, with an 18-month timeline to monetize the Tata Sons stake. The timeline for the eventual Tata Sons IPO remains uncertain amid potential legal wrangling between Tata and the RBI.",
+ "ticker": null,
+ "updatedAt": "2026-09-17T05:31:24.778429+00:00"
+}

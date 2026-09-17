@@ -14,7 +14,7 @@
  "listed": false,
  "oneLine": "Rentomojo Limited filed its SEBI draft offer document for an IPO.",
  "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/rentomojo-limited-prospectus_104482.html",
- "seller": null,
+ "seller": "Accel, Chiratae, GMO, Cofounder",
  "sizeBand": null,
  "sizeSource": "unknown",
  "sources": [
@@ -24,9 +24,16 @@
    "resolvable": true,
    "title": "Rentomojo Limited – Prospectus",
    "url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/rentomojo-limited-prospectus_104482.html"
+  },
+  {
+   "attachedAt": "2026-09-17T05:31:22.090120+00:00",
+   "outlet": "BW Disrupt",
+   "resolvable": false,
+   "title": "RentoMojo IPO Delivers Big Exits: Accel, Chiratae, GMO Cash Out As Cofounder Trims Stake",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQaTd3YjVEQTkzQmNJbHdESkVEcnZCSERHTDVkZkFKdldKZkljSHNiV3ZvOVpPbXpNajJVWHJHc0tkdjFIZGFERDVOUWR4VEFfUXV5d283NzBKMlg2WE1JbjRybzAxcVFNb01tSnhRbzZsSGdoWWlwLU1CekFCeW9FSGRfZ25JY2VmX1NQNmtiZkJKYlVfNmhna1FZQk1RRHBuVFhVNDFJWkdUOUtab0h1TnZ2UTdfNHo2azdnT1N2V3Vfekoy?oc=5"
   }
  ],
  "synopsis": null,
  "ticker": null,
- "updatedAt": "2026-09-15T05:31:36.230768+00:00"
+ "updatedAt": "2026-09-17T05:31:22.114607+00:00"
 }
