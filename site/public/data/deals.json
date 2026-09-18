@@ -1,6 +1,28 @@
 {
- "dealCount": 741,
+ "dealCount": 742,
  "deals": [
+  {
+   "amountCr": 3300.0,
+   "amountRaw": "₹2,800-3,800cr",
+   "company": "MuscleBlaze maker",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-18T11:31:22.293600+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": "failed",
+   "id": 912,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "MuscleBlaze maker is planning an IPO ranging between Rs 2800-3800 crore.",
+   "primaryOutlet": "NewsBytes",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-18T11:31:22.293600+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -827,8 +849,8 @@
    "updates": []
   },
   {
-   "amountCr": 55.16,
-   "amountRaw": "₹55.16 crore (from article)",
+   "amountCr": 300.0,
+   "amountRaw": "Rs 300 Cr",
    "company": "Flow Tech",
    "confidence": "medium",
    "confirmed": false,
@@ -843,13 +865,17 @@
    "seller": "Flow Tech Chemicals Private Limited",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
-   "updatedAt": "2026-09-17T01:31:45.484629+00:00",
+   "updatedAt": "2026-09-18T11:31:21.649417+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-18T06:31:15.373570+00:00",
      "title": "Hi-Tech Flow Solutions files DRHP with SEBI to raise funds via IPO"
+    },
+    {
+     "attachedAt": "2026-09-18T11:31:21.646794+00:00",
+     "title": "Hi-Tech Flow Solutions Files IPO Papers for Rs 300 Cr Fresh Issue"
     }
    ]
   },
@@ -21503,6 +21529,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-18T10:31:21.737517+00:00",
- "totalDeals": 741
+ "generatedAt": "2026-09-18T11:31:22.293600+00:00",
+ "totalDeals": 742
 }

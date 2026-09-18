@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 3300.0,
+ "amountRaw": "₹2,800-3,800cr",
+ "buyer": null,
+ "company": "MuscleBlaze maker",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-18T11:31:22.293600+00:00",
+ "dealType": "IPO-OFS",
+ "enrichmentState": "failed",
+ "id": 912,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "MuscleBlaze maker is planning an IPO ranging between Rs 2800-3800 crore.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNnlvWWlkdENrS2ZKTG5VdU5WS0N5Q201amdHMmhIZm12Yml4MHNjUDhSYUVOWkFNODJLQUhEYTNtcVZiZjl6WkNfbEtidTNyZ1FhQVRkX2NsMndzbmQyX3VQdlVGbXVTT3VURFRORlh6a0FGWkNZMzNtOGVqZzZJYzdnUXBMLWI5Z0JzeGpQd1IwMHQtbmpTeGdVR3FyNHpOckxqWHNR?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-18T11:31:22.294521+00:00",
+   "outlet": "NewsBytes",
+   "resolvable": false,
+   "title": "MuscleBlaze maker is planning ₹2,800-3,800cr IPO in India",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNnlvWWlkdENrS2ZKTG5VdU5WS0N5Q201amdHMmhIZm12Yml4MHNjUDhSYUVOWkFNODJLQUhEYTNtcVZiZjl6WkNfbEtidTNyZ1FhQVRkX2NsMndzbmQyX3VQdlVGbXVTT3VURFRORlh6a0FGWkNZMzNtOGVqZzZJYzdnUXBMLWI5Z0JzeGpQd1IwMHQtbmpTeGdVR3FyNHpOckxqWHNR?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-09-18T11:31:22.293600+00:00"
+}
