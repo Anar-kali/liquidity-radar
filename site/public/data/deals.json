@@ -294,13 +294,17 @@
    "seller": "Yatharth Hospital and Trauma Care Services",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": "YATHARTH.NS",
    "updatedAt": "2026-09-17T08:31:18.730786+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-17T08:31:15.809007+00:00",
      "title": "Advent International joins India’s hospital gold rush with Rs 3,150 crore Yatharth bet"
+    },
+    {
+     "attachedAt": "2026-09-18T02:31:04.273830+00:00",
+     "title": "Advent International to acquire 24.9% stake in Yatharth Hospital for Rs 3150 crore"
     }
    ]
   },
