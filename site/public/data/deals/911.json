@@ -1,0 +1,34 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "ArisInfra Solutions Ltd",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-18T10:31:21.737517+00:00",
+ "dealType": "promoter sale",
+ "enrichmentState": "failed",
+ "id": 911,
+ "individuals": [
+  "Siddharth Bhaskar Shah"
+ ],
+ "listed": true,
+ "oneLine": "Siddharth Bhaskar Shah & PACs make stake disclosure in ArisInfra Solutions.",
+ "primaryUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/C8DA4951_E0C9_4EFA_B729_C88D13DF6831_154841.pdf",
+ "seller": "Siddharth Bhaskar Shah & PACs",
+ "sizeBand": null,
+ "sizeSource": "mcap_plausible",
+ "sources": [
+  {
+   "attachedAt": "2026-09-18T10:31:21.738860+00:00",
+   "outlet": "BSE",
+   "resolvable": true,
+   "title": "ArisInfra Solutions Ltd: The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations, 2011 for Siddharth Bhaskar Shah & PACs",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/C8DA4951_E0C9_4EFA_B729_C88D13DF6831_154841.pdf"
+  }
+ ],
+ "synopsis": null,
+ "ticker": "ARIS.NS",
+ "updatedAt": "2026-09-18T10:31:21.737517+00:00"
+}

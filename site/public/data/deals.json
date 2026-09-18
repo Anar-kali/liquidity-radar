@@ -1,6 +1,30 @@
 {
- "dealCount": 740,
+ "dealCount": 741,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "ArisInfra Solutions Ltd",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-18T10:31:21.737517+00:00",
+   "dealType": "promoter sale",
+   "enrichmentState": "failed",
+   "id": 911,
+   "individuals": [
+    "Siddharth Bhaskar Shah"
+   ],
+   "listed": true,
+   "oneLine": "Siddharth Bhaskar Shah & PACs make stake disclosure in ArisInfra Solutions.",
+   "primaryOutlet": "BSE",
+   "seller": "Siddharth Bhaskar Shah & PACs",
+   "sizeBand": null,
+   "sizeSource": "mcap_plausible",
+   "sourceCount": 1,
+   "ticker": "ARIS.NS",
+   "updatedAt": "2026-09-18T10:31:21.737517+00:00",
+   "updates": []
+  },
   {
    "amountCr": 1150.0,
    "amountRaw": "JPY 21.5 billion",
@@ -628,7 +652,7 @@
    "seller": "Shapoorji Pallonji Group",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 12,
+   "sourceCount": 13,
    "ticker": null,
    "updatedAt": "2026-09-17T09:31:27.779783+00:00",
    "updates": [
@@ -675,6 +699,10 @@
     {
      "attachedAt": "2026-09-18T09:31:14.030591+00:00",
      "title": "Shapoorji Pallonji Group for public listing of Tata Sons"
+    },
+    {
+     "attachedAt": "2026-09-18T10:31:21.732689+00:00",
+     "title": "Tata Group’s boardroom tussle: All you need to know"
     }
    ]
   },
@@ -21475,6 +21503,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-18T09:31:21.799368+00:00",
- "totalDeals": 740
+ "generatedAt": "2026-09-18T10:31:21.737517+00:00",
+ "totalDeals": 741
 }
