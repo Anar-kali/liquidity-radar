@@ -1,6 +1,33 @@
 {
- "dealCount": 736,
+ "dealCount": 737,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "KMC Solutions",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-18T07:31:24.965890+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 907,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Table Space and Hillhouse acquired a majority stake in KMC Solutions.",
+   "primaryOutlet": "freepressjournal.in",
+   "seller": "KMC Solutions",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 2,
+   "ticker": "524520.BO",
+   "updatedAt": "2026-09-18T07:31:28.191474+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-09-18T07:31:24.992581+00:00",
+     "title": "IPO-bound Table Space, Hillhouse buy majority stake in Philippines' KMC Solutions"
+    }
+   ]
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -265,10 +292,15 @@
    "seller": "Elevate Campuses",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-09-18T01:31:45.277901+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-09-18T07:31:24.970048+00:00",
+     "title": "Elevate Campuses IPO DRHP: ₹1,850 crore fresh issue; ₹806.93 cr revenue"
+    }
+   ]
   },
   {
    "amountCr": 1500.0,
@@ -530,7 +562,7 @@
    "seller": "Shapoorji Pallonji Group",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 10,
+   "sourceCount": 11,
    "ticker": null,
    "updatedAt": "2026-09-17T09:31:27.779783+00:00",
    "updates": [
@@ -569,6 +601,10 @@
     {
      "attachedAt": "2026-09-18T06:31:15.638001+00:00",
      "title": "Shapoor Mistry backs Tata Sons listing, calls it opportunity for greater accountability"
+    },
+    {
+     "attachedAt": "2026-09-18T07:31:24.972576+00:00",
+     "title": "Shapoorji Mistry urges Tata Trusts to back Tata Sons listing"
     }
    ]
   },
@@ -21353,6 +21389,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-18T06:31:19.156731+00:00",
- "totalDeals": 736
+ "generatedAt": "2026-09-18T07:31:28.191474+00:00",
+ "totalDeals": 737
 }

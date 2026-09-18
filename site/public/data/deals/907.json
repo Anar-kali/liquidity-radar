@@ -1,0 +1,39 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "Table Space",
+ "company": "KMC Solutions",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-18T07:31:24.965890+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 907,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Table Space and Hillhouse acquired a majority stake in KMC Solutions.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOWU9DVDJQX0lQMGRoZEczVkVVcEFLbDFHQ2lEQVhodmpaQ0MzblVmNTZhdWJhX2pzSGhpQzRJcnNIT1dGZVJoMmRzMzlVaWJfNGJBSmZkWXRUT2pkMTF4SXRSeXB5MmtMYzN3RE1ZMnlqWWtWUENybmJZWTVod1NPQVhmMHItNTYyOTJoNkVISFJQNDNCaVVXRjlhUS1OX0MxaV80NXJDSTF6aVpIS0pwUW9KRENpVTJjdUdLejI1SDdjS0JTUjU5RDVGYmoxRHFSZnhyUS0wazXSAd4BQVVfeXFMT0tyWDBna19yT0I5ZkFkeERjbjNEX1RnTVpzXzI0RGdXcjl6TWtRV3ltc2hTZllvXzZfQzhKSER3TXh3N3NYLXdXSjByY0x0eFhlUHlMZ1ZOQWFRZ2Y1d1Ftakt2dVJxS21LUjRSSmFuNHI0ZTE5U2ZvaUVOZkFRR3dBRmc2TUhORlhHd05lc0pQUlhLQnFlZF9yV3pnbk9KQ1VtOWdicUdxLXZsa2Nma0VlRVBESXc5Z2tTdWhSZTVIMUY2a1NRUUhILVltS2ZBaTVyc21YMHFPSU5jRF9B?oc=5",
+ "seller": "KMC Solutions",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-18T07:31:24.967563+00:00",
+   "outlet": "freepressjournal.in",
+   "resolvable": false,
+   "title": "Table Space Steps Up Global Expansion Before IPO, Buys Majority Stake in KMC Solutions With Hillhouse",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOWU9DVDJQX0lQMGRoZEczVkVVcEFLbDFHQ2lEQVhodmpaQ0MzblVmNTZhdWJhX2pzSGhpQzRJcnNIT1dGZVJoMmRzMzlVaWJfNGJBSmZkWXRUT2pkMTF4SXRSeXB5MmtMYzN3RE1ZMnlqWWtWUENybmJZWTVod1NPQVhmMHItNTYyOTJoNkVISFJQNDNCaVVXRjlhUS1OX0MxaV80NXJDSTF6aVpIS0pwUW9KRENpVTJjdUdLejI1SDdjS0JTUjU5RDVGYmoxRHFSZnhyUS0wazXSAd4BQVVfeXFMT0tyWDBna19yT0I5ZkFkeERjbjNEX1RnTVpzXzI0RGdXcjl6TWtRV3ltc2hTZllvXzZfQzhKSER3TXh3N3NYLXdXSjByY0x0eFhlUHlMZ1ZOQWFRZ2Y1d1Ftakt2dVJxS21LUjRSSmFuNHI0ZTE5U2ZvaUVOZkFRR3dBRmc2TUhORlhHd05lc0pQUlhLQnFlZF9yV3pnbk9KQ1VtOWdicUdxLXZsa2Nma0VlRVBESXc5Z2tTdWhSZTVIMUY2a1NRUUhILVltS2ZBaTVyc21YMHFPSU5jRF9B?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-18T07:31:24.992581+00:00",
+   "outlet": "Google News",
+   "resolvable": true,
+   "title": "IPO-bound Table Space, Hillhouse buy majority stake in Philippines' KMC Solutions",
+   "url": "https://www.thehindubusinessline.com/news/real-estate/ipo-bound-table-space-hillhouse-buy-majority-stake-in-philippines-kmc-solutions/article71479636.ece"
+  }
+ ],
+ "synopsis": "IPO-bound managed workspace provider Table Space and Hillhouse-backed Rava Partners have acquired a majority stake in Philippines-based KMC Solutions to expand across the Asia-Pacific office market. The financial value and size of the stake purchased were not disclosed. KMC Solutions provides managed workspaces, human resources support, and business services in the Philippines, and its founders will continue to hold a significant interest in the business while the existing management team and brand are retained. Table Space is separately pursuing an initial public offering involving a fresh share sale worth 800 crore rupees and an offer for sale of up to 6.55 crore equity shares.",
+ "ticker": "524520.BO",
+ "updatedAt": "2026-09-18T07:31:28.191474+00:00"
+}
