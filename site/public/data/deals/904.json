@@ -1,0 +1,39 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Swastika Infra Ltd.",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-18T05:31:22.171346+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": "failed",
+ "id": 904,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Swastika Infra Ltd. filed its draft offer document with SEBI for an IPO.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/swastika-infra-ltd-rhp_104573.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-18T05:31:22.173951+00:00",
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "Swastika Infra Ltd. - RHPSwastika Infra Ltd.",
+   "url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/swastika-infra-ltd-rhp_104573.html"
+  },
+  {
+   "attachedAt": "2026-09-18T05:31:22.176248+00:00",
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "Swastika Infra Ltd.",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/sep-2026/Swastika%20Infra%20Ltd%20-%20AP_p.pdf"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-09-18T05:31:22.171346+00:00"
+}

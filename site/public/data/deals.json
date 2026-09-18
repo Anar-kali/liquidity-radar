@@ -1,6 +1,57 @@
 {
- "dealCount": 733,
+ "dealCount": 735,
  "deals": [
+  {
+   "amountCr": 2640.0,
+   "amountRaw": "$300-400 million",
+   "company": "HealthKart",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-18T05:31:22.181374+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 905,
+   "individuals": [
+    "Sameer Maheshwari"
+   ],
+   "listed": false,
+   "oneLine": "HealthKart weighs $300-400 million IPO combining fresh capital and secondary share sale.",
+   "primaryOutlet": "Mint",
+   "seller": "Existing investors of HealthKart",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-18T05:31:27.863831+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Swastika Infra Ltd.",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-18T05:31:22.171346+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 904,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Swastika Infra Ltd. filed its draft offer document with SEBI for an IPO.",
+   "primaryOutlet": "Abridged Prospectus",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 2,
+   "ticker": null,
+   "updatedAt": "2026-09-18T05:31:22.171346+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-09-18T05:31:22.176248+00:00",
+     "title": "Swastika Infra Ltd."
+    }
+   ]
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -281,7 +332,7 @@
    "seller": "Yatharth Hospitals",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-09-17T08:31:26.724812+00:00",
    "updates": [
@@ -292,6 +343,10 @@
     {
      "attachedAt": "2026-09-18T01:31:32.027080+00:00",
      "title": "Advent International To Mop Up Nearly 25% Stake In Yatharth Hospitals For Rs 3,150 Crore"
+    },
+    {
+     "attachedAt": "2026-09-18T05:31:22.178521+00:00",
+     "title": "Yatharth Hospitals shares rally 10% to fresh record high as Advent set to acquire 25% stake; stock up 20%"
     }
    ]
   },
@@ -442,7 +497,7 @@
    "seller": "Shapoorji Pallonji Group",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 6,
+   "sourceCount": 7,
    "ticker": null,
    "updatedAt": "2026-09-17T09:31:27.779783+00:00",
    "updates": [
@@ -465,6 +520,10 @@
     {
      "attachedAt": "2026-09-18T01:31:33.052582+00:00",
      "title": "Turmoil at Tata deepens as board reverses executive chair’s exit"
+    },
+    {
+     "attachedAt": "2026-09-18T05:31:22.185153+00:00",
+     "title": "Tata Group stocks fall after SP Group unveils ₹25,000 crore stake sale plan"
     }
    ]
   },
@@ -21240,6 +21299,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-18T04:31:11.123943+00:00",
- "totalDeals": 733
+ "generatedAt": "2026-09-18T05:31:27.863831+00:00",
+ "totalDeals": 735
 }

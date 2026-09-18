@@ -1,0 +1,34 @@
+{
+ "advisers": [],
+ "amountCr": 2640.0,
+ "amountRaw": "$300-400 million",
+ "buyer": "Public market investors",
+ "company": "HealthKart",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-18T05:31:22.181374+00:00",
+ "dealType": "IPO-OFS",
+ "enrichmentState": null,
+ "id": 905,
+ "individuals": [
+  "Sameer Maheshwari"
+ ],
+ "listed": false,
+ "oneLine": "HealthKart weighs $300-400 million IPO combining fresh capital and secondary share sale.",
+ "primaryUrl": "https://www.livemint.com/companies/start-ups/healthkart-bright-lifecare-healthkart-ipo-sameer-maheshwari-muscleblaze-hk-vitals-gritzo-fitness-supplements-11789698095267.html",
+ "seller": "Existing investors of HealthKart",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-18T05:31:22.182816+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "HealthKart weighs $300-400 million IPO as nutrition market gains momentum",
+   "url": "https://www.livemint.com/companies/start-ups/healthkart-bright-lifecare-healthkart-ipo-sameer-maheshwari-muscleblaze-hk-vitals-gritzo-fitness-supplements-11789698095267.html"
+  }
+ ],
+ "synopsis": "Fitness supplement brand HealthKart is considering an initial public offering to raise $300 to $400 million, or about ₹2,800 to ₹3,800 crore. The potential transaction could combine a fresh capital raise with a secondary share sale by existing investors. HealthKart has begun early discussions with stakeholders and intermediaries, with formal pitches expected over the next quarter and a target to list on the exchanges by the end of next year if market conditions sustain. The company was founded in 2011 by Sameer Maheshwari and operates digital-first brands including MuscleBlaze, HK Vitals, and Gritzo. Bright Lifecare Private Limited operates the Healthkart brand.",
+ "ticker": null,
+ "updatedAt": "2026-09-18T05:31:27.863831+00:00"
+}
