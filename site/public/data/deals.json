@@ -674,7 +674,7 @@
    "seller": "Shapoorji Pallonji Group",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 13,
+   "sourceCount": 14,
    "ticker": null,
    "updatedAt": "2026-09-17T09:31:27.779783+00:00",
    "updates": [
@@ -725,6 +725,10 @@
     {
      "attachedAt": "2026-09-18T10:31:21.732689+00:00",
      "title": "Tata Group’s boardroom tussle: All you need to know"
+    },
+    {
+     "attachedAt": "2026-09-18T12:31:14.956547+00:00",
+     "title": "SP Group backs Tata Sons IPO plan, proposes stake sale to raise Rs 25,000 crore"
     }
    ]
   },
@@ -865,7 +869,7 @@
    "seller": "Flow Tech Chemicals Private Limited",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-09-18T11:31:21.649417+00:00",
    "updates": [
@@ -876,6 +880,10 @@
     {
      "attachedAt": "2026-09-18T11:31:21.646794+00:00",
      "title": "Hi-Tech Flow Solutions Files IPO Papers for Rs 300 Cr Fresh Issue"
+    },
+    {
+     "attachedAt": "2026-09-18T12:31:14.952092+00:00",
+     "title": "Hi-Tech Flow Solutions Takes IPO Route, Files Draft Papers To Raise ₹300 Crore Through Fresh Issue"
     }
    ]
   },
@@ -1284,7 +1292,7 @@
    "seller": null,
    "sizeBand": "OVER_2000",
    "sizeSource": "band",
-   "sourceCount": 5,
+   "sourceCount": 6,
    "ticker": null,
    "updatedAt": "2026-09-16T12:31:36.241253+00:00",
    "updates": [
@@ -1303,6 +1311,10 @@
     {
      "attachedAt": "2026-09-17T03:31:10.216774+00:00",
      "title": "Clean Label Brands Vs FSSAI, PhonePe Eyes 2027 IPO & More"
+    },
+    {
+     "attachedAt": "2026-09-18T12:31:14.959182+00:00",
+     "title": "UPI MDR Could Accelerate PhonePe’s IPO Plans, Says CEO Sameer Nigam"
     }
    ]
   },
