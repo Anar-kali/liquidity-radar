@@ -1,6 +1,72 @@
 {
- "dealCount": 737,
+ "dealCount": 740,
  "deals": [
+  {
+   "amountCr": 1150.0,
+   "amountRaw": "JPY 21.5 billion",
+   "company": "MicroBiopharm Japan",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-18T09:31:14.025594+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": "failed",
+   "id": 910,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Gujarat Themis Biosyn completes acquisition of MicroBiopharm Japan for JPY 21.5 billion.",
+   "primaryOutlet": "scanx.trade",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-18T09:31:14.025594+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Imperial Online",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-18T09:31:14.021886+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 909,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Aditya Birla Fashion acquires remaining stake in Imperial Online to reach 100% ownership.",
+   "primaryOutlet": "Sahi",
+   "seller": "Imperial Online Services Private Limited shareholders",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-18T09:31:21.799368+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 486.0,
+   "amountRaw": "Rs 486 crore",
+   "company": "KNR Guruvayur Infra",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-18T09:31:14.013463+00:00",
+   "dealType": "block deal",
+   "enrichmentState": null,
+   "id": 908,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "KNR Constructions sells stake in KNR Guruvayur Infra for Rs 486 crore to Indus Infra Trust.",
+   "primaryOutlet": "Business Upturn",
+   "seller": "KNR Constructions",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-18T09:31:17.729343+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -562,7 +628,7 @@
    "seller": "Shapoorji Pallonji Group",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 11,
+   "sourceCount": 12,
    "ticker": null,
    "updatedAt": "2026-09-17T09:31:27.779783+00:00",
    "updates": [
@@ -605,6 +671,10 @@
     {
      "attachedAt": "2026-09-18T07:31:24.972576+00:00",
      "title": "Shapoorji Mistry urges Tata Trusts to back Tata Sons listing"
+    },
+    {
+     "attachedAt": "2026-09-18T09:31:14.030591+00:00",
+     "title": "Shapoorji Pallonji Group for public listing of Tata Sons"
     }
    ]
   },
@@ -868,7 +938,7 @@
    "seller": "Kuku Technologies",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 4,
+   "sourceCount": 6,
    "ticker": null,
    "updatedAt": "2026-09-16T13:31:35.821442+00:00",
    "updates": [
@@ -883,6 +953,14 @@
     {
      "attachedAt": "2026-09-18T06:31:15.375963+00:00",
      "title": "Kuku Technologies secures SEBI clearance for confidential IPO filing"
+    },
+    {
+     "attachedAt": "2026-09-18T09:31:14.016943+00:00",
+     "title": "Kuku Technologies gets SEBI approval to proceed with confidential IPO filing"
+    },
+    {
+     "attachedAt": "2026-09-18T09:31:14.019259+00:00",
+     "title": "Kuku Technologies Eyes ₹3,500 Cr IPO As SEBI Clears Filing"
     }
    ]
   },
@@ -1240,13 +1318,21 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 2,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-09-16T01:31:44.368345+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-16T01:31:30.139213+00:00",
      "title": "Madhur Iron & Steel Refiles IPO for 1.1 Crore Shares"
+    },
+    {
+     "attachedAt": "2026-09-18T09:31:14.005034+00:00",
+     "title": "Madhur Iron & Steel India Limited - DRHPMadhur Iron & Steel India Limited- Abridged Prospectus"
+    },
+    {
+     "attachedAt": "2026-09-18T09:31:14.009790+00:00",
+     "title": "Madhur Iron & Steel India Limited- Abridged Prospectus"
     }
    ]
   },
@@ -21389,6 +21475,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-18T07:31:28.191474+00:00",
- "totalDeals": 737
+ "generatedAt": "2026-09-18T09:31:21.799368+00:00",
+ "totalDeals": 740
 }

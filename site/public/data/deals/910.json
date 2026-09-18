@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 1150.0,
+ "amountRaw": "JPY 21.5 billion",
+ "buyer": "Gujarat Themis Biosyn",
+ "company": "MicroBiopharm Japan",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-18T09:31:14.025594+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": "failed",
+ "id": 910,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Gujarat Themis Biosyn completes acquisition of MicroBiopharm Japan for JPY 21.5 billion.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZXBRS1V4MjluT0w0Y2puaTMtMW9sNjNkWGFQYkVoVjJpQ3h6ME5JZGd3dld1dEc0ZHhIMmpYZk1jLUMwaDBrTWthclBWSzAxTk5sVW0xeldVREt2RVpCTC13RVVxa2V3UVNqTE1CTmxKUHZGRXRFcnZyNHZxbmlOd1R6VmVneldyN29BeE1RbndqaXNZTnY3QTJ4TDMtVFVFdVplbDZ1VTA0R09wbmUzc2tOcmhDRmZPRFZxdA?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-18T09:31:14.026616+00:00",
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "Gujarat Themis Biosyn completes MicroBiopharm Japan acquisition for JPY 21.5 billion",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZXBRS1V4MjluT0w0Y2puaTMtMW9sNjNkWGFQYkVoVjJpQ3h6ME5JZGd3dld1dEc0ZHhIMmpYZk1jLUMwaDBrTWthclBWSzAxTk5sVW0xeldVREt2RVpCTC13RVVxa2V3UVNqTE1CTmxKUHZGRXRFcnZyNHZxbmlOd1R6VmVneldyN29BeE1RbndqaXNZTnY3QTJ4TDMtVFVFdVplbDZ1VTA0R09wbmUzc2tOcmhDRmZPRFZxdA?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-09-18T09:31:14.025594+00:00"
+}
