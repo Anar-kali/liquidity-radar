@@ -1,0 +1,34 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "Mr. Pawankumar Nathmal Mallawat and Allwin Securities Limited",
+ "company": "Arnold Holdings",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-18T06:31:15.624855+00:00",
+ "dealType": "open offer",
+ "enrichmentState": null,
+ "id": 906,
+ "individuals": [
+  "Pawankumar Nathmal Mallawat"
+ ],
+ "listed": true,
+ "oneLine": "Arnold Holdings open offer launched at ₹12.50 per share.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQT0J3R3R5MmRCX1p5VzRMS1VyNjAycjFBcUtWN3RRZ0lRdkNlandtWktGVGM1enpzdnJHX3EzUS02R3ZNZWQ0dDAwbXBLTHVTcTVpQmdORUJPLUdUc1I5alhuZ2pyMk5wY0NWT3lEY3dRNTZKM1o3aWI5TGZKeTVQTnltZ09oN1BYajVRa25oQ21RRERKaW5QZlhqc09DazNDWW56VlJDWG5mdkdzLTBhTHdjS1ZTaUllNkYxczBBNnRPQlRqb19wM1M5QlZtazE5WlVVRjVmb1g5MERCdzZn?oc=5",
+ "seller": "existing shareholders",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-18T06:31:15.626260+00:00",
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "Arnold Holdings Open Offer Launched at ₹12.50 Per Share",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQT0J3R3R5MmRCX1p5VzRMS1VyNjAycjFBcUtWN3RRZ0lRdkNlandtWktGVGM1enpzdnJHX3EzUS02R3ZNZWQ0dDAwbXBLTHVTcTVpQmdORUJPLUdUc1I5alhuZ2pyMk5wY0NWT3lEY3dRNTZKM1o3aWI5TGZKeTVQTnltZ09oN1BYajVRa25oQ21RRERKaW5QZlhqc09DazNDWW56VlJDWG5mdkdzLTBhTHdjS1ZTaUllNkYxczBBNnRPQlRqb19wM1M5QlZtazE5WlVVRjVmb1g5MERCdzZn?oc=5"
+  }
+ ],
+ "synopsis": "Arnold Holdings Ltd has received an open offer from acquirers Mr. Pawankumar Nathmal Mallawat and Allwin Securities Limited, alongside person acting in concert Keemtee Financial Services Limited, to purchase up to 92,72,250 equity shares representing 39% of voting share capital at ₹12.50 per share. This follows a share purchase agreement executed on September 8, 2026, for a 14.95% stake at ₹12 per share from existing shareholders. Shareholders can tender shares between November 3 and November 18, 2026. Kotak Bank Limited acts as the escrow bank with ₹3 crore deposited as cash collateral. The stated objective of the acquirers is to strengthen their stake, support ongoing operations, improve operational efficiency, and pursue commercial expansion.",
+ "ticker": "537069.BO",
+ "updatedAt": "2026-09-18T06:31:19.156731+00:00"
+}

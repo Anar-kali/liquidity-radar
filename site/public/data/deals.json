@@ -1,6 +1,30 @@
 {
- "dealCount": 735,
+ "dealCount": 736,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Arnold Holdings",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-18T06:31:15.624855+00:00",
+   "dealType": "open offer",
+   "enrichmentState": null,
+   "id": 906,
+   "individuals": [
+    "Pawankumar Nathmal Mallawat"
+   ],
+   "listed": true,
+   "oneLine": "Arnold Holdings open offer launched at ₹12.50 per share.",
+   "primaryOutlet": "Whalesbook",
+   "seller": "existing shareholders",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": "537069.BO",
+   "updatedAt": "2026-09-18T06:31:19.156731+00:00",
+   "updates": []
+  },
   {
    "amountCr": 2640.0,
    "amountRaw": "$300-400 million",
@@ -42,13 +66,17 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-09-18T05:31:22.171346+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-18T05:31:22.176248+00:00",
      "title": "Swastika Infra Ltd."
+    },
+    {
+     "attachedAt": "2026-09-18T06:31:15.363248+00:00",
+     "title": "EPC firm Swastika Infra to open IPO on September 23, sets price band at Rs 175-185 per share"
     }
    ]
   },
@@ -135,10 +163,15 @@
    "seller": "Rediff.com",
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-09-18T01:32:01.128049+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-09-18T06:31:15.630726+00:00",
+     "title": "Rediff.coms IPO plans may get a fresh UPI tailwind as new MDR regime kicks in"
+    }
+   ]
   },
   {
    "amountCr": 4000.0,
@@ -497,7 +530,7 @@
    "seller": "Shapoorji Pallonji Group",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 7,
+   "sourceCount": 10,
    "ticker": null,
    "updatedAt": "2026-09-17T09:31:27.779783+00:00",
    "updates": [
@@ -524,6 +557,18 @@
     {
      "attachedAt": "2026-09-18T05:31:22.185153+00:00",
      "title": "Tata Group stocks fall after SP Group unveils ₹25,000 crore stake sale plan"
+    },
+    {
+     "attachedAt": "2026-09-18T06:31:15.370107+00:00",
+     "title": "Tata Sons vs Tata Trusts: What’s behind row over Chandrasekaran, listing and Rs 25,000 crore SP Group proposal?"
+    },
+    {
+     "attachedAt": "2026-09-18T06:31:15.635518+00:00",
+     "title": "Listing of Tata Sons shares an imperative, says Shapoorji Pallonji group"
+    },
+    {
+     "attachedAt": "2026-09-18T06:31:15.638001+00:00",
+     "title": "Shapoor Mistry backs Tata Sons listing, calls it opportunity for greater accountability"
     }
    ]
   },
@@ -664,10 +709,15 @@
    "seller": "Flow Tech Chemicals Private Limited",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-09-17T01:31:45.484629+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-09-18T06:31:15.373570+00:00",
+     "title": "Hi-Tech Flow Solutions files DRHP with SEBI to raise funds via IPO"
+    }
+   ]
   },
   {
    "amountCr": 4300.0,
@@ -782,7 +832,7 @@
    "seller": "Kuku Technologies",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-09-16T13:31:35.821442+00:00",
    "updates": [
@@ -793,6 +843,10 @@
     {
      "attachedAt": "2026-09-18T04:31:06.839857+00:00",
      "title": "Kuku Technologies gets SEBI's green light for confidential IPO filing"
+    },
+    {
+     "attachedAt": "2026-09-18T06:31:15.375963+00:00",
+     "title": "Kuku Technologies secures SEBI clearance for confidential IPO filing"
     }
    ]
   },
@@ -21299,6 +21353,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-18T05:31:27.863831+00:00",
- "totalDeals": 735
+ "generatedAt": "2026-09-18T06:31:19.156731+00:00",
+ "totalDeals": 736
 }
