@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "Sky Gold And Diamonds Ltd",
+ "company": "Purvi Gems & Jewellery (India) Private Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-18T04:31:06.870539+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": "failed",
+ "id": 903,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Sky Gold And Diamonds acquires Purvi Gems & Jewellery, providing a cash-out event for sellers.",
+ "primaryUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b746389d-bf0f-4096-bd74-6543cb979eb6.pdf",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-18T04:31:06.871776+00:00",
+   "outlet": "BSE",
+   "resolvable": true,
+   "title": "Sky Gold And Diamonds Ltd: The Board at its meeting held today i.e. on 18th September 2026 has considered and approved the acquisition of Purvi Gems & Jewellery (India) Private Limited.",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b746389d-bf0f-4096-bd74-6543cb979eb6.pdf"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-09-18T04:31:06.870539+00:00"
+}

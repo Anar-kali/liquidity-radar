@@ -1,6 +1,50 @@
 {
- "dealCount": 731,
+ "dealCount": 733,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Purvi Gems & Jewellery (India) Private Limited",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-18T04:31:06.870539+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": "failed",
+   "id": 903,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Sky Gold And Diamonds acquires Purvi Gems & Jewellery, providing a cash-out event for sellers.",
+   "primaryOutlet": "BSE",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-18T04:31:06.870539+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 22569.0,
+   "amountRaw": "Rs 22,569 crore (from article)",
+   "company": "National Stock Exchange",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-18T04:31:06.864987+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 902,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "NSE IPO features an all-OFS structure providing liquidity to existing shareholders.",
+   "primaryOutlet": "economictimes.com",
+   "seller": "existing shareholders including State Bank of India, Bank of Baroda, and Canada Pension Plan Investment Board",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-18T04:31:11.123943+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -679,13 +723,17 @@
    "seller": "Kuku Technologies",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-09-16T13:31:35.821442+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-18T01:31:32.029258+00:00",
      "title": "SEBI Greenlights Kuku Technologies’ ₹3,500 Cr IPO"
+    },
+    {
+     "attachedAt": "2026-09-18T04:31:06.839857+00:00",
+     "title": "Kuku Technologies gets SEBI's green light for confidential IPO filing"
     }
    ]
   },
@@ -21192,6 +21240,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-18T01:32:05.335943+00:00",
- "totalDeals": 731
+ "generatedAt": "2026-09-18T04:31:11.123943+00:00",
+ "totalDeals": 733
 }
