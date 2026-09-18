@@ -1,0 +1,36 @@
+{
+ "advisers": [],
+ "amountCr": 4000.0,
+ "amountRaw": "₹4,000-5,000 crore",
+ "buyer": null,
+ "company": "VVDN Technologies",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-18T01:31:33.032030+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": null,
+ "id": 899,
+ "individuals": [
+  "Bhupender Saharan",
+  "Puneet Agarwal",
+  "Vivek Bansal"
+ ],
+ "listed": false,
+ "oneLine": "VVDN Technologies readies for ₹4,000-5,000 crore IPO.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSmU1azBPbmRFRHBJS0pqc3RBckQzOGZHVkthbHhMN2Z2dFNNaXUwMmxRZTNvdDlLakRpZXl6Zkx6MFRnRlYySUxZU1dLcDZrbk1PZEFCRTJScjVRenFzTHJqR1UtamlnNGt2X25KVThEeGpUTW5xOHZ0N0NCQW9jM21vOFZUNEtLMndzMV94OWVFOHByQk1YSmwybTNRaDM2ZVdZaHdjT05BVHlnOXJnTzNCaDJrX1VleTBWbWFpMGtrVGlw0gHKAUFVX3lxTE5mcFFEaHlFWmRVRGNWeXlTekxTRVpNN0taMXdIV1JjYVFhOTBiUGFQTmU1blBVTVhXVElvQ0l6U193eWgzcEVDbmh6UmVuUWd0SzdqUEtJdEtRRTFkcktOTzIxNEVTeFdILUMydHk1Vm9paTB2M2xrS0VrczUxY2o4MEw5VWYwNjc0blVjdGNTZEhiRXFOanBTbHdneTBUd05kMkJXVlpjX3pSS1lqY1ptRE1CVUlDQVg0dEpTVjFCTG4xSThmeDJzWlE?oc=5",
+ "seller": "VVDN Technologies",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-18T01:31:33.032878+00:00",
+   "outlet": "Livemint",
+   "resolvable": false,
+   "title": "VVDN Technologies readies for ₹4,000-5,000 crore IPO",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSmU1azBPbmRFRHBJS0pqc3RBckQzOGZHVkthbHhMN2Z2dFNNaXUwMmxRZTNvdDlLakRpZXl6Zkx6MFRnRlYySUxZU1dLcDZrbk1PZEFCRTJScjVRenFzTHJqR1UtamlnNGt2X25KVThEeGpUTW5xOHZ0N0NCQW9jM21vOFZUNEtLMndzMV94OWVFOHByQk1YSmwybTNRaDM2ZVdZaHdjT05BVHlnOXJnTzNCaDJrX1VleTBWbWFpMGtrVGlw0gHKAUFVX3lxTE5mcFFEaHlFWmRVRGNWeXlTekxTRVpNN0taMXdIV1JjYVFhOTBiUGFQTmU1blBVTVhXVElvQ0l6U193eWgzcEVDbmh6UmVuUWd0SzdqUEtJdEtRRTFkcktOTzIxNEVTeFdILUMydHk1Vm9paTB2M2xrS0VrczUxY2o4MEw5VWYwNjc0blVjdGNTZEhiRXFOanBTbHdneTBUd05kMkJXVlpjX3pSS1lqY1ptRE1CVUlDQVg0dEpTVjFCTG4xSThmeDJzWlE?oc=5"
+  }
+ ],
+ "synopsis": "VVDN Technologies is weighing an initial public offering to raise ₹4,000 to ₹5,000 crore. The proposed offering is expected to include a mix of fresh capital and an offer for sale. The electronics manufacturing services company plans to begin formal pitches to investment banks over the next quarter to appoint bankers. Valuation discovery remains underway as the company meets internal revenue and profitability milestones, and details regarding the final IPO structure have not yet been finalized. VVDN was founded by Bhupender Saharan, Puneet Agarwal, and Vivek Bansal, and counts Motilal Oswal Private Equity and LV Holdings Private Family Trust among its major investors.",
+ "ticker": null,
+ "updatedAt": "2026-09-18T01:31:57.186533+00:00"
+}

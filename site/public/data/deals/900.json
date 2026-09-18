@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Rediff.com",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-18T01:31:33.037097+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": null,
+ "id": 900,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Rediff.com's IPO plans may get a fresh UPI tailwind.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQb3kyc19ldG1JVWlsMEZRdUVxQTNWN291WUJ5MmhBSWNOVW9xb2tvamxoWEVheXR6NnZ2RGN3NnVrb3pzUmgzTVVtUDRSM291a2tMYWFqcVkxZ3YyMjdZVEZoa2thQ2FNa3VZRkpicVp4WGdLeExJRzJXV3p2MWRRMV9VY2JMRHBsQmItMUZoTmw0aGkzY0x1MGhHem5LUVNCcF9MNUE1MWhBN1B3UDBXRVVYRkYzSGZV?oc=5",
+ "seller": "Rediff.com",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-18T01:31:33.037980+00:00",
+   "outlet": "India's News.Net",
+   "resolvable": false,
+   "title": "Rediff.com's IPO plans may get a fresh UPI tailwind as new MDR regime kicks in",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQb3kyc19ldG1JVWlsMEZRdUVxQTNWN291WUJ5MmhBSWNOVW9xb2tvamxoWEVheXR6NnZ2RGN3NnVrb3pzUmgzTVVtUDRSM291a2tMYWFqcVkxZ3YyMjdZVEZoa2thQ2FNa3VZRkpicVp4WGdLeExJRzJXV3p2MWRRMV9VY2JMRHBsQmItMUZoTmw0aGkzY0x1MGhHem5LUVNCcF9MNUE1MWhBN1B3UDBXRVVYRkYzSGZV?oc=5"
+  }
+ ],
+ "synopsis": "Rediff.com is preparing for an initial public offering with a reported issue size of approximately Rs 600-800 crore after receiving SEBI approval in August. The upcoming IPO may benefit from the government's new Merchant Discount Rate (MDR) regime of 0.4% on select high-value UPI merchant transactions effective October 15, which could provide additional monetisation avenues as the company scales its consumer UPI app, RediffPay. AvenuesAI Limited owns 82.66% of Rediff.com.",
+ "ticker": null,
+ "updatedAt": "2026-09-18T01:32:01.128049+00:00"
+}

@@ -1,6 +1,193 @@
 {
- "dealCount": 723,
+ "dealCount": 731,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Oriflame India",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-18T01:31:33.047746+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 901,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Oriflame sold its manufacturing operations to Akum Pharmaceuticals.",
+   "primaryOutlet": "ET Corporate",
+   "seller": "Oriflame",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-18T01:32:05.335943+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Rediff.com",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-18T01:31:33.037097+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 900,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Rediff.com's IPO plans may get a fresh UPI tailwind.",
+   "primaryOutlet": "India's News.Net",
+   "seller": "Rediff.com",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-18T01:32:01.128049+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 4000.0,
+   "amountRaw": "₹4,000-5,000 crore",
+   "company": "VVDN Technologies",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-18T01:31:33.032030+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 899,
+   "individuals": [
+    "Bhupender Saharan",
+    "Puneet Agarwal",
+    "Vivek Bansal"
+   ],
+   "listed": false,
+   "oneLine": "VVDN Technologies readies for ₹4,000-5,000 crore IPO.",
+   "primaryOutlet": "Livemint",
+   "seller": "VVDN Technologies",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-18T01:31:57.186533+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 3000.0,
+   "amountRaw": "Rs 3,000-crore",
+   "company": "JSW One",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-18T01:31:33.028643+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 898,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "JSW One plans to file Rs 3,000-crore IPO papers.",
+   "primaryOutlet": "The Economic Times",
+   "seller": "JSW One Platforms",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-18T01:31:52.777273+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Purple Finance Ltd",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-18T01:31:32.509615+00:00",
+   "dealType": "other",
+   "enrichmentState": null,
+   "id": 897,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Purple Finance plans to raise funds, board meeting to decide.",
+   "primaryOutlet": "Whalesbook",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": "544191.BO",
+   "updatedAt": "2026-09-18T01:31:49.014654+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 2100.0,
+   "amountRaw": "Rs 2,100-crore",
+   "company": "Elevate Campuses",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-18T01:31:32.039550+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 896,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Hillhouse Capital-backed Elevate Campuses to open Rs 2,100-crore IPO.",
+   "primaryOutlet": "Moneycontrol.com",
+   "seller": "Elevate Campuses",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-18T01:31:45.277901+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 1500.0,
+   "amountRaw": "Rs 1500 Cr",
+   "company": "Fintech Cloud",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-18T01:31:32.032769+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 895,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Indiabulls to acquire 70% stake in Fintech Cloud at Rs 1500 Cr.",
+   "primaryOutlet": "bfsi.economictimes.indiatimes.com",
+   "seller": "Fintech Cloud Private Limited",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-18T01:31:40.818722+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 1331.2,
+   "amountRaw": "$160M",
+   "company": "Granules India",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-18T01:31:30.658199+00:00",
+   "dealType": "promoter sale",
+   "enrichmentState": null,
+   "id": 894,
+   "individuals": [
+    "Krishna Prasad Chigurupati"
+   ],
+   "listed": true,
+   "oneLine": "Granules India promoter sells 7% stake for $160M.",
+   "primaryOutlet": "Dealroom",
+   "seller": "Promoter",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 2,
+   "ticker": "GRANULES.NS",
+   "updatedAt": "2026-09-18T01:31:36.871100+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-09-18T01:31:30.662828+00:00",
+     "title": "Hyderabad Granules promoter sells 7% stake to raise 1.5k crore"
+    }
+   ]
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -45,13 +232,17 @@
    "seller": "Yatharth Hospitals",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-09-17T08:31:26.724812+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-17T10:31:18.782100+00:00",
      "title": "Advent International Bets Rs 3,150 Crore On Yatharth Hospitals, Buys 24.9% Stake"
+    },
+    {
+     "attachedAt": "2026-09-18T01:31:32.027080+00:00",
+     "title": "Advent International To Mop Up Nearly 25% Stake In Yatharth Hospitals For Rs 3,150 Crore"
     }
    ]
   },
@@ -198,7 +389,7 @@
    "seller": "Shapoorji Pallonji Group",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 5,
+   "sourceCount": 6,
    "ticker": null,
    "updatedAt": "2026-09-17T09:31:27.779783+00:00",
    "updates": [
@@ -217,6 +408,10 @@
     {
      "attachedAt": "2026-09-17T13:31:05.476159+00:00",
      "title": "Noel Tata presents SP Group's Rs 25,000-cr Tata Sons stake sale proposal as RBI pushes listing"
+    },
+    {
+     "attachedAt": "2026-09-18T01:31:33.052582+00:00",
+     "title": "Turmoil at Tata deepens as board reverses executive chair’s exit"
     }
    ]
   },
@@ -259,10 +454,15 @@
    "seller": "GSL Securities shareholders",
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": "530469.BO",
    "updatedAt": "2026-09-17T03:31:10.229198+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-09-18T01:31:33.025910+00:00",
+     "title": "GSL Securities Open Offer at ₹42 After 44.62% Stake Deal"
+    }
+   ]
   },
   {
    "amountCr": null,
@@ -470,10 +670,15 @@
    "seller": "Kuku Technologies",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-09-16T13:31:35.821442+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-09-18T01:31:32.029258+00:00",
+     "title": "SEBI Greenlights Kuku Technologies’ ₹3,500 Cr IPO"
+    }
+   ]
   },
   {
    "amountCr": 600.0,
@@ -2270,7 +2475,7 @@
    "seller": "promoters",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-09-14T01:32:14.258307+00:00",
    "updates": [
@@ -2281,6 +2486,10 @@
     {
      "attachedAt": "2026-09-16T08:31:17.527392+00:00",
      "title": "Upcoming IPO: A-One Steels India to launch ₹405 crore issue on Sept 24"
+    },
+    {
+     "attachedAt": "2026-09-18T01:31:32.036848+00:00",
+     "title": "A-One Steels India Sets IPO Price Band At ₹385–₹405; ₹405-Crore Issue To Open On September 24"
     }
    ]
   },
@@ -20974,6 +21183,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-17T09:31:27.779783+00:00",
- "totalDeals": 723
+ "generatedAt": "2026-09-18T01:32:05.335943+00:00",
+ "totalDeals": 731
 }

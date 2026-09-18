@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Purple Finance Ltd",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-18T01:31:32.509615+00:00",
+ "dealType": "other",
+ "enrichmentState": null,
+ "id": 897,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Purple Finance plans to raise funds, board meeting to decide.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNWFdVQm9DOXcxQUxhZFozVVVIMllMWllKOVZ1N2FnNkFzdWpvQzRwRmNOLVFuTmVGTmwzdGRHWXpvSjE3cjZnelFpZmxUdVF0NndfOFdpelQ4TWstY2ZfTUlQQ205ODY2ek9ITGhvenh6U1ZvNWZ3eGpqRlBYeWMzSmFJSnVKeHdNZTVLb0tOcE9xS2NtWmUzWkxLdVYzY2lhU09Db0l5UmtudEo4NFBzWE42OWgzXzVweEozTFdlVFk1d3lONlNpZ215V0J2dDlla3I1aVQ3cThaR3ZJNzFlV3I5cHdvMlNNdXllS3pySQ?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-18T01:31:32.510825+00:00",
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "Purple Finance Ltd: फंड जुटाने की तैयारी में कंपनी, 22 सितंबर को बोर्ड बैठक में होगा फैसला",
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNWFdVQm9DOXcxQUxhZFozVVVIMllMWllKOVZ1N2FnNkFzdWpvQzRwRmNOLVFuTmVGTmwzdGRHWXpvSjE3cjZnelFpZmxUdVF0NndfOFdpelQ4TWstY2ZfTUlQQ205ODY2ek9ITGhvenh6U1ZvNWZ3eGpqRlBYeWMzSmFJSnVKeHdNZTVLb0tOcE9xS2NtWmUzWkxLdVYzY2lhU09Db0l5UmtudEo4NFBzWE42OWgzXzVweEozTFdlVFk1d3lONlNpZ215V0J2dDlla3I1aVQ3cThaR3ZJNzFlV3I5cHdvMlNNdXllS3pySQ?oc=5"
+  }
+ ],
+ "synopsis": "Purple Finance Ltd announced that its finance committee is scheduled to meet on September 22, 2026, to consider various options for raising funds. The company is exploring capital raising through equity shares, preference shares, warrants, and non-convertible debentures via routes such as a Qualified Institutions Placement, rights issue, or preferential allotment. In compliance with SEBI regulations, the company has closed the trading window for insiders and designated persons with immediate effect, which will remain in effect until 48 hours after the meeting results are made public. Investors are advised to monitor official filings on the BSE and NSE following the September 22 meeting to learn the final amount and purpose of the fundraising.",
+ "ticker": "544191.BO",
+ "updatedAt": "2026-09-18T01:31:49.014654+00:00"
+}

@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 3000.0,
+ "amountRaw": "Rs 3,000-crore",
+ "buyer": null,
+ "company": "JSW One",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-18T01:31:33.028643+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": null,
+ "id": 898,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "JSW One plans to file Rs 3,000-crore IPO papers.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOc1EzWWlTNExKZVFuSXk2SmNhTVhYNGU1dmZJMjctWm5pMjNPMVBfRU9ZRE5CVVJhM1FSXzlBWkVvLWtTeldMNW9rWlFOS0lnMlI5Q3ozWk5jSFRmLWpUc25wTUlXWjRmRC1FZEFzRVRBbUNieElzRTM0WDFycnJ3Q2NqSTROUTVYUzhId3dGNDBtVTQ2ank3ODhhVzZnLWtMeEhjampGOGptQTFPYmxjLURUSjl1ZmPSAbwBQVVfeXFMUFJ4OUpaWk1PSmlSVkZ0RHpDQTFsR1EtaWpzSkVmRWJ2VzlVS1BYX3hUMm54aUZZbng4SENOY1k3UFJhV3B0eWRZLTZNYy1JSXhVVEl1LXZUMWMxMDJyOVEwMUVHanZIcUp2OVlPWTNFNlgtYXEySmlLTWM5TnAyekZuZ19XbTlfdU81TkNoN3pVcHlMSEplZl8wbmpJSHVpdUkxUUc5bkplME1DaGZqLXgya1lpY3FjbDJPNGg?oc=5",
+ "seller": "JSW One Platforms",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-18T01:31:33.029581+00:00",
+   "outlet": "The Economic Times",
+   "resolvable": false,
+   "title": "JSW One plans to file Rs 3,000-crore IPO papers",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOc1EzWWlTNExKZVFuSXk2SmNhTVhYNGU1dmZJMjctWm5pMjNPMVBfRU9ZRE5CVVJhM1FSXzlBWkVvLWtTeldMNW9rWlFOS0lnMlI5Q3ozWk5jSFRmLWpUc25wTUlXWjRmRC1FZEFzRVRBbUNieElzRTM0WDFycnJ3Q2NqSTROUTVYUzhId3dGNDBtVTQ2ank3ODhhVzZnLWtMeEhjampGOGptQTFPYmxjLURUSjl1ZmPSAbwBQVVfeXFMUFJ4OUpaWk1PSmlSVkZ0RHpDQTFsR1EtaWpzSkVmRWJ2VzlVS1BYX3hUMm54aUZZbng4SENOY1k3UFJhV3B0eWRZLTZNYy1JSXhVVEl1LXZUMWMxMDJyOVEwMUVHanZIcUp2OVlPWTNFNlgtYXEySmlLTWM5TnAyekZuZ19XbTlfdU81TkNoN3pVcHlMSEplZl8wbmpJSHVpdUkxUUc5bkplME1DaGZqLXgya1lpY3FjbDJPNGg?oc=5"
+  }
+ ],
+ "synopsis": "Business-to-business ecommerce company JSW One Platforms plans to file draft papers with the Securities and Exchange Board of India for a Rs 3,000-crore initial public offering within the next two to three weeks. Through the public issue, the JSW Group company is expected to raise Rs 1,300-1,500 crore in fresh capital. Backed by JSW Steel and JSW Cement, the company is targeting a listing in the first quarter of the next fiscal year 2028.",
+ "ticker": null,
+ "updatedAt": "2026-09-18T01:31:52.777273+00:00"
+}

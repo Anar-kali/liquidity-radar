@@ -1,0 +1,41 @@
+{
+ "advisers": [],
+ "amountCr": 1331.2,
+ "amountRaw": "$160M",
+ "buyer": "Smallcap World Fund, BNP Paribas Financial Markets, Goldman Sachs Bank Europe SE +others",
+ "company": "Granules India",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-18T01:31:30.658199+00:00",
+ "dealType": "promoter sale",
+ "enrichmentState": null,
+ "id": 894,
+ "individuals": [
+  "Krishna Prasad Chigurupati"
+ ],
+ "listed": true,
+ "oneLine": "Granules India promoter sells 7% stake for $160M.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZmdHNlMteEhkOFFrTkF1SDZtdFg2R0oyLV9PcDZwdEdRS1FES0JWOUJaSU9iWEs3c3FfTzRLcWkyWlRPcGpfZ1ZsWmgyYmpDVUdKbG8xMWNaeU1EeXNTVXpUbGdWRlp2SENRRkJ4Z2U5ME85VnNfbV9SUzgyZjJVQ3V0VDlxVEE?oc=5",
+ "seller": "Promoter",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-18T01:31:30.660653+00:00",
+   "outlet": "Dealroom",
+   "resolvable": false,
+   "title": "Granules India promoter sells 7% stake for $160M",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZmdHNlMteEhkOFFrTkF1SDZtdFg2R0oyLV9PcDZwdEdRS1FES0JWOUJaSU9iWEs3c3FfTzRLcWkyWlRPcGpfZ1ZsWmgyYmpDVUdKbG8xMWNaeU1EeXNTVXpUbGdWRlp2SENRRkJ4Z2U5ME85VnNfbV9SUzgyZjJVQ3V0VDlxVEE?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-18T01:31:30.662828+00:00",
+   "outlet": "timesofindia.indiatimes.com",
+   "resolvable": false,
+   "title": "Hyderabad Granules promoter sells 7% stake to raise 1.5k crore",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPODQzTmYwdUR5RFltODBlLTI4eFdTVG9EbDItblM0STVPN3cyMEJSRjF5Yjk1VW9Va20zMENJNEFMdDZqNnAyb29qUTFJaGVNdnVFMG9XdDFxNzIzaHBvcW5FQm8yc1FmUXJrQ1FSTVlEMUotdWpNWG53cnpCRG5EWlViVTFaa0JCa3lDTV9NRFVqQ29BV3ZJMEFVUHNzQi0zMlBwRUNwT2ZkTVZkYkUwcVJTa0YyVUZjUlZiUGx4dDZ0ZHFXa3dORE9PWjhLZGl4UWE5SdIB2gFBVV95cUxOU2txUEJWTTlxNUVsRE1VZGdvNTRJaHg5RVBUTTU3YWJBblluTjZuNUd2bWpVdHZEZ21PeTFyaEhXVlJTV0w3SGQ5eWRKSjNQb3J4Uk5XTDBGejRkMlBZT2hWMGtObUw0Ny1TTjZ3SzBzZjlLeUZ5Umc2dmFMRXBMWnRzblNqeXdnblY1V1FEZ2IweFk1NEtmX1F4Y2hPTzBoMFJOa3RXbWF4d1daWE5sMjNzNklZMHdILUpsZmJGbHMweEdIQmJ5eGgtZGVDN2pZVXdnMG43eXZYQQ?oc=5"
+  }
+ ],
+ "synopsis": "Krishna Prasad Chigurupati, promoter of drugmaker Granules India, sold a nearly seven percent stake through 1.72 crore shares on September 11, 2026. The transaction raised over 15,000,000,000 INR, roughly $160 million, via block deals and open-market transactions priced at ₹872.50 per share. Nearly two dozen institutional investors participated, with Smallcap World Fund acquiring the largest chunk worth ₹303 crore, alongside BNP Paribas Financial Markets, Goldman Sachs Bank Europe SE, Kotak Mahindra Life Insurance Company, Capital Group, ChrysCapital, and Allspring. The sale reduces Chigurupati's individual stake to 24 percent from 31 percent. Granules stated the proceeds will fund the second tranche of an ongoing preferential issue and support its growth phase. The transaction includes a 180-day lock-in on further promoter sales.",
+ "ticker": "GRANULES.NS",
+ "updatedAt": "2026-09-18T01:31:36.871100+00:00"
+}

@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "Akum Pharmaceuticals",
+ "company": "Oriflame India",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-18T01:31:33.047746+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 901,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Oriflame sold its manufacturing operations to Akum Pharmaceuticals.",
+ "primaryUrl": "https://economictimes.indiatimes.com/industry/cons-products/fashion-/-cosmetics-/-jewellery/oriflame-will-stick-to-direct-selling-sees-india-as-top-market-in-4-years-global-ceo-kenneth-benaim-campbell/articleshow/134318025.cms",
+ "seller": "Oriflame",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-18T01:31:33.048713+00:00",
+   "outlet": "ET Corporate",
+   "resolvable": true,
+   "title": "Oriflame will stick to direct selling, sees India as top market in 4 years: Global CEO Kenneth Benaim Campbell",
+   "url": "https://economictimes.indiatimes.com/industry/cons-products/fashion-/-cosmetics-/-jewellery/oriflame-will-stick-to-direct-selling-sees-india-as-top-market-in-4-years-global-ceo-kenneth-benaim-campbell/articleshow/134318025.cms"
+  }
+ ],
+ "synopsis": "Oriflame India sold its manufacturing operations in India to local company Akum Pharmaceuticals. Global CEO Kenneth Benaim Campbell stated the deal was executed to spur growth, partner with a local contract manufacturer having bigger capacity, and improve speed to market. The transaction occurred approximately two months prior to the report. Oriflame India is a unit of Swedish beauty and wellness company Oriflame Cosmetics, which reported India sales of ₹434 crore in the fiscal year ended March 2025. Campbell noted that 85 to 90 percent of Oriflame products sold in India are made locally, and the company is exploring the possibility of India supplying to global markets while remaining committed to its direct selling model.",
+ "ticker": null,
+ "updatedAt": "2026-09-18T01:32:05.335943+00:00"
+}
