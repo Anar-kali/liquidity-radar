@@ -1,6 +1,41 @@
 {
  "alerts": [
   {
+   "alertedAt": "2026-09-18T17:38:33.162361+00:00",
+   "company": "Glass Wall System (I) Ltd",
+   "firstTrade": "16-Sep-2026",
+   "id": 17,
+   "lastTrade": "18-Sep-2026",
+   "person": "JUNOMONETA FINSOL PRIVATE LIMITED",
+   "saleCount": 3,
+   "sales": [
+    {
+     "date": "16-Sep-2026",
+     "sources": [
+      "bulk"
+     ],
+     "valueCr": 64.3
+    },
+    {
+     "date": "17-Sep-2026",
+     "sources": [
+      "bulk"
+     ],
+     "valueCr": 85.67
+    },
+    {
+     "date": "18-Sep-2026",
+     "sources": [
+      "bulk"
+     ],
+     "valueCr": 118.71
+    }
+   ],
+   "storedTotalCr": 268.68,
+   "totalCr": 268.68,
+   "weeks": 1
+  },
+  {
    "alertedAt": "2026-09-16T18:08:20.629326+00:00",
    "company": "Raymond Ltd.",
    "firstTrade": "11-Sep-2026",
@@ -341,6 +376,6 @@
    "weeks": 1
   }
  ],
- "count": 9,
+ "count": 10,
  "generatedAt": "2026-09-18T11:31:22.293600+00:00"
 }
