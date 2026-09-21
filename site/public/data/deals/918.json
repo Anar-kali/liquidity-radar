@@ -1,7 +1,7 @@
 {
  "advisers": [],
- "amountCr": null,
- "amountRaw": null,
+ "amountCr": 25000.0,
+ "amountRaw": "₹25,000-Crore",
  "buyer": null,
  "company": "Tata Sons",
  "confidence": "medium",
@@ -23,7 +23,7 @@
  "primaryUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOWnFDVTJEU0ZRTzBYMl92a0tDRVhKbG1zWmRfM2VxZ3BMb2RHNFREWENPSEM3bEp5RTJEM2FXWGVfY0lzYmVWMHBFWlhaWEFPVlE3dE9rUjhSYzY0TEh5LUZLWWxNX2NDWjE3azhCTFZUTXRhX1BYS1YwMUROQVBtN1JTTUZ2UWJVb0dHTzJUVHIyYVFBbmEyUTZodTVvSEYtQ3d3RF9IUWowVV85X19fUjdydEozUV9rcHhOemRoQzIzal81RTZnb0NzT1A1QnQ0TFBMZThR0gHWAUFVX3lxTE5acUNVMkRTRlFPMFgyX3ZrS0NFWEpsbXNaZF8zZXFncExvZEc0VERYQ09IQzdsSnlFMkQzYVdYZV9jSXNiZVYwcEVaWFpYQU9WUTd0T2tSOFJjNjRMSHktRktZbE1fY0NaMTdrOEJMVlRNdGFfUFhLVjAxRE5BUG03UlNNRnZRYlVvR0dPMlRUcjJhUUFuYTJRNmh1NW9IRi1Dd3dEX0hRajBVXzlfX19SN3J0SjNRX2tweE56ZGhDMjNqXzVFNmdvQ3NPUDVCdDRMUExlOFE?oc=5",
  "seller": null,
  "sizeBand": null,
- "sizeSource": "unknown",
+ "sizeSource": "stated",
  "sources": [
   {
    "attachedAt": "2026-09-21T01:36:16.356690+00:00",
@@ -38,9 +38,16 @@
    "resolvable": false,
    "title": "Tata Sons IPO: Work quietly begins on the listing process; when can it take place",
    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZFN2MUFSV2hxQUxNUjZOcnBBNGpFVFNiQmJlNTBxXzVESUJLVF9abFJkT29rR1hFV0NfRDI0NHFaVlJLQTVsS1Y2anNRLUFveUhZOFh0ZjJBZV9qaWtURHlyUHRmZEVJUTd1aHk5TXZYbDlFYVJzS1FsTjQ1NWx1MXlrRmFlbGJ5M1d1NG1ydi1TcVFfUkEtUDRGendoY0NMMU42YVg2NVJqREh5MHBSQVB4MzY4Y280SkQ3Z2ZwZmR5cEtUUU5YNFNaTdIB0AFBVV95cUxQZHk1QzlUaFdHTjQ1U2lTb3NpblNTNlVtbnBoUUNQbWVpd3RJYWU2M0xNSWZzaVJHcmM0S3EyNjB0Nm9wWUR4ZUZrTklMaGFlRDA1dkRYMVQyR0dqb0JRbkJ1U2VZWHdxb1NQZzg3S1FWaVBzNUw4RnF6cjlUNzRfWkJJOFZoYjQwTTF2dWVJRDh1cEQwQVl0S1Rna2sxZjFiMzdzRWZoa2R5SXJmaElsQ2ppM09aMDl5NTctbFFBeGRrR3VzV3BYMEdyNWRDQ25N?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-21T09:31:21.258609+00:00",
+   "outlet": "Business Today",
+   "resolvable": false,
+   "title": "Tata Sons Listing Row: Shapoor Mistry Backs IPO As Noel Tata Pushes ₹25,000-Crore Plan",
+   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOM1laQ3VmangxUTVuSTFXbkhIQ3dVdm5rbDlfUkl3Tm9TLTkxd05XWDY2RVprS2N1ZVJqMDdrUDJ4UE1RY0hFMVJoVWVUTl84MXlpYmY0NVdLMk5zekc3a3RLTC1xSzJTOU1ybUpWZ2ZGaE41ZWxMcUFubWR3NTZiN1M5QUd6dmtiaFhFWFpXamlyVjRXMzJ4Ml9YWXFYWHJnWXNseWlaTUdOZExRcUFQaWxiVDFSOFZMaEU0U1plMGtKNEhqblhMLXBEQXc4SGlOS3hvWFRlTFFtVFZVYTNIWFFFZzRrZzh5VWfSAe8BQVVfeXFMTWlYazZGSGNVY3BuZEtzYWZzSVBtcV9VelVhLVJOV3BlRXpYZWF6TnhaY1pZRm9JM2xybV9rRW9SYzJ5OUk0TXExN3M2Y2c5MFE2TGtHVkNybENtN0tLQUY3ellvOWI1S3pKdjROLWdUMHktVXpFNDZ2ZGZTdjZ0WmUwYkdUMmZnc3RUR1pKVmxqMHRpY1Nob0FpWUxJSEtDQk9McTJ5emJGdXJBRnhuMmo1WnZLVjdLbGp3LVNVbUd1bjVnUEszcmJYWXJvY3JRbFBzNTFjWmF1a2Rrc1R1eGlnMnZLVmFTMVlySzI0Nk0?oc=5"
   }
  ],
  "synopsis": "The Reserve Bank of India has rejected Tata Sons' application to surrender its core investment company registration, requiring the firm to comply with upper-layer non-banking finance company regulations, including a mandatory public listing. Investment bankers estimate Tata Sons' total valuation at nine lakh crore to twelve-and-a-half lakh crore Indian Rupees, which translates to an estimated paper value of two crore to three crore rupees per ordinary share. A successful listing would convert previously illiquid holdings into marketable assets for numerous individual shareholders, including Jimmy Naval Tata, Noel Tata, and other family members holding minority stakes, though participation in any future offer-for-sale remains unconfirmed.",
  "ticker": null,
- "updatedAt": "2026-09-21T01:37:07.591646+00:00"
+ "updatedAt": "2026-09-21T09:31:21.259908+00:00"
 }

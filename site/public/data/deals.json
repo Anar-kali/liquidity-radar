@@ -1,6 +1,50 @@
 {
- "dealCount": 761,
+ "dealCount": 763,
  "deals": [
+  {
+   "amountCr": 4900.0,
+   "amountRaw": "over 4,900 crore",
+   "company": "Varmora",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-21T09:31:21.268326+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 933,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Varmora, Moneyview, and others plan IPOs to raise over Rs 4,900 crore.",
+   "primaryOutlet": "Business Today",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-21T09:31:29.188273+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 17049.0,
+   "amountRaw": "Rs Rs 17,049 crore (Rs 17,049 crore) (from article)",
+   "company": "Nuvama Wealth",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-21T09:31:21.254002+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 932,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Private equity firms shortlisted for a stake sale in Nuvama Wealth.",
+   "primaryOutlet": "Moneycontrol.com",
+   "seller": "PAG",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "NUVAMA.NS",
+   "updatedAt": "2026-09-21T09:31:24.998667+00:00",
+   "updates": []
+  },
   {
    "amountCr": 295.0,
    "amountRaw": "Rs 295 Cr",
@@ -342,8 +386,8 @@
    "updates": []
   },
   {
-   "amountCr": null,
-   "amountRaw": null,
+   "amountCr": 25000.0,
+   "amountRaw": "₹25,000-Crore",
    "company": "Tata Sons",
    "confidence": "medium",
    "confirmed": false,
@@ -364,14 +408,18 @@
    "primaryOutlet": "The Economic Times",
    "seller": null,
    "sizeBand": null,
-   "sizeSource": "unknown",
-   "sourceCount": 2,
+   "sizeSource": "stated",
+   "sourceCount": 3,
    "ticker": null,
-   "updatedAt": "2026-09-21T01:37:07.591646+00:00",
+   "updatedAt": "2026-09-21T09:31:21.259908+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-21T01:36:16.397741+00:00",
      "title": "Tata Sons IPO: Work quietly begins on the listing process; when can it take place"
+    },
+    {
+     "attachedAt": "2026-09-21T09:31:21.258609+00:00",
+     "title": "Tata Sons Listing Row: Shapoor Mistry Backs IPO As Noel Tata Pushes ₹25,000-Crore Plan"
     }
    ]
   },
@@ -1273,7 +1321,7 @@
    "seller": "GAIL Gas",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-09-17T04:31:08.229973+00:00",
    "updates": [
@@ -1284,6 +1332,10 @@
     {
      "attachedAt": "2026-09-21T08:31:16.272100+00:00",
      "title": "GAIL Gas hires bankers for ₹3,100cr IPO bids expected October"
+    },
+    {
+     "attachedAt": "2026-09-21T09:31:21.271976+00:00",
+     "title": "This gas distribution company wants to raise ₹3,100cr via IPO"
     }
    ]
   },
@@ -22086,6 +22138,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-21T07:31:37.260075+00:00",
- "totalDeals": 761
+ "generatedAt": "2026-09-21T09:31:29.188273+00:00",
+ "totalDeals": 763
 }
