@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 3750.0,
+ "amountRaw": "₹3,750-crore (from article)",
+ "buyer": null,
+ "company": "Sembcorp",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-21T10:31:13.830141+00:00",
+ "dealType": "IPO-OFS",
+ "enrichmentState": null,
+ "id": 934,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Sembcorp is planning a new IPO to boost its BESS, RTC and FDRE pipeline.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQRjVsZzVkOFo4RE0wUHlVUkN3WE1tUG1WUWRPZFBOc29tenA1N19wWDlSeVRUMGt4cUdndjJKSjRQUEwxQi04d096M1NsdV83QldHRmduUXdRb3UtSlRqSDk5V25TUmFtUVpGYjNGVDRfWUVuZlNpRkJZUm1McXlQS25uOWtQMVEwRFpBbnVOb2E0VVJ1NlkwWHRGV0NtZDlrTjd3RjRMUEE4UXFJbU42amdHVFFsdklDU2hLUGJJMkJBZHkyMWliQlZ3S2twdG8?oc=5",
+ "seller": "Sembcorp Green Infra",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-21T10:31:13.831436+00:00",
+   "outlet": "Saur Energy",
+   "resolvable": false,
+   "title": "How Sembcorp Is Aiming To Boost Its BESS, RTC and FDRE Pipeline With New IPO Plan?",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQRjVsZzVkOFo4RE0wUHlVUkN3WE1tUG1WUWRPZFBOc29tenA1N19wWDlSeVRUMGt4cUdndjJKSjRQUEwxQi04d096M1NsdV83QldHRmduUXdRb3UtSlRqSDk5V25TUmFtUVpGYjNGVDRfWUVuZlNpRkJZUm1McXlQS25uOWtQMVEwRFpBbnVOb2E0VVJ1NlkwWHRGV0NtZDlrTjd3RjRMUEE4UXFJbU42amdHVFFsdklDU2hLUGJJMkJBZHkyMWliQlZ3S2twdG8?oc=5"
+  }
+ ],
+ "synopsis": "Singapore-based Sembcorp's Indian renewable energy arm, Sembcorp Green Infra, has proposed a ₹3,750-crore initial public offering filed via a draft red herring prospectus with SEBI in September. The proposed issue is entirely a fresh issue of equity shares with no offer-for-sale component. Out of the total proceeds, ₹3,000 crore is planned to be utilized for the repayment or prepayment of certain borrowings of the company and its subsidiaries, while the balance is earmarked for general corporate purposes. SEBI has asked the company to furnish more details towards the issue. The company's India business held more than 7.6 GW/GWh of total capacity as of March 31, 2026, and is expanding into battery energy storage systems, round-the-clock power, and firm and dispatchable renewable energy projects.",
+ "ticker": null,
+ "updatedAt": "2026-09-21T10:31:17.171455+00:00"
+}

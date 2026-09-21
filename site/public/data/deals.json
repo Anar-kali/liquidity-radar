@@ -1,6 +1,28 @@
 {
- "dealCount": 763,
+ "dealCount": 764,
  "deals": [
+  {
+   "amountCr": 3750.0,
+   "amountRaw": "₹3,750-crore (from article)",
+   "company": "Sembcorp",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-21T10:31:13.830141+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 934,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Sembcorp is planning a new IPO to boost its BESS, RTC and FDRE pipeline.",
+   "primaryOutlet": "Saur Energy",
+   "seller": "Sembcorp Green Infra",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-21T10:31:17.171455+00:00",
+   "updates": []
+  },
   {
    "amountCr": 4900.0,
    "amountRaw": "over 4,900 crore",
@@ -135,7 +157,7 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-09-21T07:31:19.209897+00:00",
    "updates": [
@@ -146,6 +168,10 @@
     {
      "attachedAt": "2026-09-21T07:31:19.208908+00:00",
      "title": "Moneyview IPO DRHP: ₹575 crore fresh issue; FY26 revenue at ₹3,404.27 crore"
+    },
+    {
+     "attachedAt": "2026-09-21T10:31:13.837101+00:00",
+     "title": "Moneyview Halves IPO Fresh Issue, Seeks $624 Million Valuation"
     }
    ]
   },
@@ -194,8 +220,8 @@
    "updates": []
   },
   {
-   "amountCr": 5004.0,
-   "amountRaw": "₹5,004 crore",
+   "amountCr": 500.0,
+   "amountRaw": "Rs 500 Crore",
    "company": "Rotary Connectors",
    "confidence": "medium",
    "confirmed": false,
@@ -210,13 +236,17 @@
    "seller": "Rotary Connectors Private Limited existing promoters",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
-   "updatedAt": "2026-09-21T06:31:26.729608+00:00",
+   "updatedAt": "2026-09-21T10:31:13.834770+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-21T06:31:26.728145+00:00",
      "title": "SMAST acquires 50.1% stake in Rotary Connectors at ₹5,004 crore EV"
+    },
+    {
+     "attachedAt": "2026-09-21T10:31:13.833803+00:00",
+     "title": "Samvardhana Motherson Acquires 50.1% Stake in Rotary Connectors for Rs 500 Crore"
     }
    ]
   },
@@ -22138,6 +22168,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-21T09:31:29.188273+00:00",
- "totalDeals": 763
+ "generatedAt": "2026-09-21T10:31:17.171455+00:00",
+ "totalDeals": 764
 }
