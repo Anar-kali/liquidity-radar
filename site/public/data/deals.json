@@ -1,6 +1,132 @@
 {
- "dealCount": 756,
+ "dealCount": 761,
  "deals": [
+  {
+   "amountCr": 295.0,
+   "amountRaw": "Rs 295 Cr",
+   "company": "Soach Global",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-21T07:31:19.212586+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 931,
+   "individuals": [
+    "Anubhav Dayal"
+   ],
+   "listed": false,
+   "oneLine": "Soach Global eyes NSE IPO to pocket Rs 295 Cr via partial exit.",
+   "primaryOutlet": "Entrackr",
+   "seller": "Soach Global Opportunities Fund",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-21T07:31:37.260075+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "ANCHOR OFFSHORE SERVICES LIMITED",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-21T07:31:19.201285+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 930,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "ANCHOR OFFSHORE SERVICES LIMITED files SEBI draft offer document for an IPO.",
+   "primaryOutlet": "SEBI",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 2,
+   "ticker": null,
+   "updatedAt": "2026-09-21T07:31:19.201285+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-09-21T07:31:19.204582+00:00",
+     "title": "ANCHOR OFFSHORE SERVICES LIMITED- Draft Abridged Prospectus"
+    }
+   ]
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Hero Motors Limited",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-21T07:31:19.197564+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 929,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Hero Motors Limited files SEBI draft offer document for an IPO.",
+   "primaryOutlet": "Prospectus",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-21T07:31:19.197564+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 575.0,
+   "amountRaw": "₹575 crore",
+   "company": "Moneyview Limited",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-21T07:31:19.191758+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 928,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Moneyview Limited files SEBI draft offer document for an IPO.",
+   "primaryOutlet": "Abridged Prospectus",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 3,
+   "ticker": null,
+   "updatedAt": "2026-09-21T07:31:19.209897+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-09-21T07:31:19.194983+00:00",
+     "title": "Moneyview Limited"
+    },
+    {
+     "attachedAt": "2026-09-21T07:31:19.208908+00:00",
+     "title": "Moneyview IPO DRHP: ₹575 crore fresh issue; FY26 revenue at ₹3,404.27 crore"
+    }
+   ]
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "SS Retail Limited",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-21T07:31:19.186120+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 927,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "SS Retail Limited files SEBI draft offer document for an IPO.",
+   "primaryOutlet": "Prospectus",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-21T07:31:19.186120+00:00",
+   "updates": []
+  },
   {
    "amountCr": 1500.0,
    "amountRaw": "₹1,500 Crore",
@@ -21947,6 +22073,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-21T06:31:30.067081+00:00",
- "totalDeals": 756
+ "generatedAt": "2026-09-21T07:31:37.260075+00:00",
+ "totalDeals": 761
 }

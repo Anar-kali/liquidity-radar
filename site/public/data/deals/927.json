@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "SS Retail Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-21T07:31:19.186120+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": "failed",
+ "id": 927,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "SS Retail Limited files SEBI draft offer document for an IPO.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/ss-retail-limited-prospectus_104599.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-21T07:31:19.189094+00:00",
+   "outlet": "Prospectus",
+   "resolvable": true,
+   "title": "SS Retail Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/ss-retail-limited-prospectus_104599.html"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-09-21T07:31:19.186120+00:00"
+}

@@ -1,0 +1,39 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "ANCHOR OFFSHORE SERVICES LIMITED",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-21T07:31:19.201285+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": "failed",
+ "id": 930,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "ANCHOR OFFSHORE SERVICES LIMITED files SEBI draft offer document for an IPO.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/anchor-offshore-services-limited-drhp_104580.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-21T07:31:19.202336+00:00",
+   "outlet": "SEBI",
+   "resolvable": true,
+   "title": "ANCHOR OFFSHORE SERVICES LIMITED - DRHPANCHOR OFFSHORE SERVICES LIMITED- Draft Abridged Prospectus",
+   "url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/anchor-offshore-services-limited-drhp_104580.html"
+  },
+  {
+   "attachedAt": "2026-09-21T07:31:19.204582+00:00",
+   "outlet": "SEBI",
+   "resolvable": true,
+   "title": "ANCHOR OFFSHORE SERVICES LIMITED- Draft Abridged Prospectus",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/sep-2026/Anchor%20Offshore%20Services%20Limited-DA_p.pdf"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-09-21T07:31:19.201285+00:00"
+}

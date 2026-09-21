@@ -1,0 +1,46 @@
+{
+ "advisers": [],
+ "amountCr": 575.0,
+ "amountRaw": "₹575 crore",
+ "buyer": null,
+ "company": "Moneyview Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-21T07:31:19.191758+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": "failed",
+ "id": 928,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Moneyview Limited files SEBI draft offer document for an IPO.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/moneyview-limited-rhp_104597.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-21T07:31:19.192859+00:00",
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "Moneyview Limited - RHPMoneyview Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/moneyview-limited-rhp_104597.html"
+  },
+  {
+   "attachedAt": "2026-09-21T07:31:19.194983+00:00",
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "Moneyview Limited",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/sep-2026/Moneyview%20Limited%20-%20Abridged%20Prospectus_p.pdf"
+  },
+  {
+   "attachedAt": "2026-09-21T07:31:19.208908+00:00",
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "Moneyview IPO DRHP: ₹575 crore fresh issue; FY26 revenue at ₹3,404.27 crore",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaVFlR3k5Zjh4OXFGaG9xX3pOMkZGbEt1Wl93RFBmY2tTY0M0VktCMHlXaDdRQV9EZHpNQmtmc3lXN2d0SzYxZXZXUzJLX0NHZU0wWXpRWGlZOVZqZ3VrNHhUY1hVZG5yMFN6Z1BQaDJ1LUV1ODVJRHdpOGJlMFN4cDRXMHI0S2ZfWFlCb2NQV1ZlZkRIVUNCQXpzbXZ1ZUs1MlNpZzMwNTZVdEdoUlBDTVA0TVVvbWE4dUg0?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-09-21T07:31:19.209897+00:00"
+}
