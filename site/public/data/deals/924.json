@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 2468.0,
+ "amountRaw": "₹2,468 crore",
+ "buyer": null,
+ "company": "Lenskart",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-21T04:31:12.492163+00:00",
+ "dealType": "block deal",
+ "enrichmentState": null,
+ "id": 924,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Lenskart equity worth ₹2,468 crore changes hands in block deals.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNYXRMbUJpVmUxM1NVWWRJUDBqRnNyb0FuWnFqM3BqOXBTOTlmclRlQ1BvNDlRaWJ1MkIyblZMTW1SNEhwUWVteWgxWllGS0FFdmZQNzd1VzhaeG5LNkZVb0hlRElKNkJXNG9jeGFMZkRrNW1FLUdkREZ6ZnBpTGpUMGNhMThvdXpTbXNNcjF0ck8xZlhNeUVtOWkxV29PNi05RjBqdlQxZkhVOWVMZVYxUy1GWWNwWFNoV1VIQ245eWhrSU80dzR5cEd1UDFoTjBYRkHSAdcBQVVfeXFMTkpJb1Y3U05MWGdvV0xXdVJoVnNEejNDaV9vZ1Z6el9ORHdNZC1abEhyWnUyNlRTNXVQQVdFWnFzekhLSEN4MjVpbkNYQ3dDOEtBLXNDU1FSZ1Z6d051LXNkNUg4UjZQMFp3bllxN0c3N3pjckpKQlVsWVJRd0hiaVlueFUzWFltZ0ZIMHdKMlY3cjJ2RGFBb210NlUwMUhIYXMwUU1ZLU1kV08yUEptNFBpLTNqMFRYb0xtaFlCcUdWUXJJbVdwUXY3My1TRVEzUThyY19qYzg?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-21T04:31:12.493333+00:00",
+   "outlet": "CNBC TV18",
+   "resolvable": false,
+   "title": "Lenskart shares decline after 2.07% equity worth ₹2,468 crore changes hands in block deals",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNYXRMbUJpVmUxM1NVWWRJUDBqRnNyb0FuWnFqM3BqOXBTOTlmclRlQ1BvNDlRaWJ1MkIyblZMTW1SNEhwUWVteWgxWllGS0FFdmZQNzd1VzhaeG5LNkZVb0hlRElKNkJXNG9jeGFMZkRrNW1FLUdkREZ6ZnBpTGpUMGNhMThvdXpTbXNNcjF0ck8xZlhNeUVtOWkxV29PNi05RjBqdlQxZkhVOWVMZVYxUy1GWWNwWFNoV1VIQ245eWhrSU80dzR5cEd1UDFoTjBYRkHSAdcBQVVfeXFMTkpJb1Y3U05MWGdvV0xXdVJoVnNEejNDaV9vZ1Z6el9ORHdNZC1abEhyWnUyNlRTNXVQQVdFWnFzekhLSEN4MjVpbkNYQ3dDOEtBLXNDU1FSZ1Z6d051LXNkNUg4UjZQMFp3bllxN0c3N3pjckpKQlVsWVJRd0hiaVlueFUzWFltZ0ZIMHdKMlY3cjJ2RGFBb210NlUwMUhIYXMwUU1ZLU1kV08yUEptNFBpLTNqMFRYb0xtaFlCcUdWUXJJbVdwUXY3My1TRVEzUThyY19qYzg?oc=5"
+  }
+ ],
+ "synopsis": "As many as 3.6 crore shares, representing 2.07% equity of Lenskart Solutions, worth ₹2,468 crore changed hands via block deals on Monday, September 21. The official buyers and sellers are not yet known, though sources previously indicated that Platinum Jasmine A 2018 Trust, an investment vehicle of the Abu Dhabi Investment Authority, was likely to sell up to 1.7% equity. The transaction was executed at ₹688 per share. The seller in the block deal will be subject to a 90-day lock-up period on further stake sales. This follows previous block deals involving Softbank Vision Fund II Lightbulb and Alpha Wave Ventures over the past month.",
+ "ticker": "LENSKART.NS",
+ "updatedAt": "2026-09-21T04:31:15.519926+00:00"
+}

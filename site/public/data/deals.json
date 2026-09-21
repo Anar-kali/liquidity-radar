@@ -1,6 +1,28 @@
 {
- "dealCount": 753,
+ "dealCount": 754,
  "deals": [
+  {
+   "amountCr": 2468.0,
+   "amountRaw": "₹2,468 crore",
+   "company": "Lenskart",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-21T04:31:12.492163+00:00",
+   "dealType": "block deal",
+   "enrichmentState": null,
+   "id": 924,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Lenskart equity worth ₹2,468 crore changes hands in block deals.",
+   "primaryOutlet": "CNBC TV18",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "LENSKART.NS",
+   "updatedAt": "2026-09-21T04:31:15.519926+00:00",
+   "updates": []
+  },
   {
    "amountCr": 1200.0,
    "amountRaw": "₹1,200 crore",
@@ -21863,6 +21885,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-21T03:31:15.381180+00:00",
- "totalDeals": 753
+ "generatedAt": "2026-09-21T04:31:15.519926+00:00",
+ "totalDeals": 754
 }
