@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 1200.0,
+ "amountRaw": "₹1,200 crore",
+ "buyer": "Samara Capital",
+ "company": "ARC and Calyx",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-21T03:31:12.361952+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 923,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Samara Capital acquires a stake in ARC and Calyx for Rs 1,200 crore.",
+ "primaryUrl": "https://www.livemint.com/companies/start-ups/samara-capital-arc-calyx-logistics-platform-rs-1200-crore-11789902774973.html",
+ "seller": "Associated Road Carriers and Calyx Container Terminals",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-21T03:31:12.363198+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "Samara Capital acquires stake in ARC and Calyx to build logistics platform",
+   "url": "https://www.livemint.com/companies/start-ups/samara-capital-arc-calyx-logistics-platform-rs-1200-crore-11789902774973.html"
+  }
+ ],
+ "synopsis": "Samara Capital has created an integrated logistics platform by acquiring stakes in Associated Road Carriers and Calyx Container Terminals. The private equity firm invested close to ₹1,200 crore, resulting in the promoters and the firm holding almost equal stakes in the new entity. Financial details were not officially disclosed by the company, but were provided by an industry source. PwC acted as the financial advisor to Samara Capital, while EY advised the promoter group. The combined entities recorded a revenue of about ₹2,140 crore in FY26. Fresh capital from the deal will be used to expand the branch and hub network, strengthen first-mile and last-mile capabilities, modernize technology, and pursue selective acquisitions.",
+ "ticker": null,
+ "updatedAt": "2026-09-21T03:31:15.381180+00:00"
+}

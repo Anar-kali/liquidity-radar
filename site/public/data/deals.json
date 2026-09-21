@@ -1,6 +1,28 @@
 {
- "dealCount": 752,
+ "dealCount": 753,
  "deals": [
+  {
+   "amountCr": 1200.0,
+   "amountRaw": "₹1,200 crore",
+   "company": "ARC and Calyx",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-21T03:31:12.361952+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 923,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Samara Capital acquires a stake in ARC and Calyx for Rs 1,200 crore.",
+   "primaryOutlet": "Mint",
+   "seller": "Associated Road Carriers and Calyx Container Terminals",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-21T03:31:15.381180+00:00",
+   "updates": []
+  },
   {
    "amountCr": 600.0,
    "amountRaw": "600 crore",
@@ -21841,6 +21863,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-21T01:37:16.547115+00:00",
- "totalDeals": 752
+ "generatedAt": "2026-09-21T03:31:15.381180+00:00",
+ "totalDeals": 753
 }
