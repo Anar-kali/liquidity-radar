@@ -1,9 +1,31 @@
 {
- "dealCount": 755,
+ "dealCount": 756,
  "deals": [
   {
-   "amountCr": 500.0,
-   "amountRaw": "Rs 500 crore",
+   "amountCr": 1500.0,
+   "amountRaw": "₹1,500 Crore",
+   "company": "Indiabulls",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-21T06:31:26.723782+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 926,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Indiabulls acquires a fintech business valued at ₹1,500 crore.",
+   "primaryOutlet": "inventiva.co.in",
+   "seller": "Fintech Cloud",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "IBULLSLTD.NS",
+   "updatedAt": "2026-09-21T06:31:30.067081+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 5004.0,
+   "amountRaw": "₹5,004 crore",
    "company": "Rotary Connectors",
    "confidence": "medium",
    "confirmed": false,
@@ -18,10 +40,15 @@
    "seller": "Rotary Connectors Private Limited existing promoters",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
-   "updatedAt": "2026-09-21T05:31:23.098586+00:00",
-   "updates": []
+   "updatedAt": "2026-09-21T06:31:26.729608+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-09-21T06:31:26.728145+00:00",
+     "title": "SMAST acquires 50.1% stake in Rotary Connectors at ₹5,004 crore EV"
+    }
+   ]
   },
   {
    "amountCr": 2468.0,
@@ -21920,6 +21947,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-21T05:31:23.098586+00:00",
- "totalDeals": 755
+ "generatedAt": "2026-09-21T06:31:30.067081+00:00",
+ "totalDeals": 756
 }
