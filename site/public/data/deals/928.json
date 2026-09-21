@@ -1,7 +1,7 @@
 {
  "advisers": [],
- "amountCr": 575.0,
- "amountRaw": "₹575 crore",
+ "amountCr": 750.0,
+ "amountRaw": "₹750 crore",
  "buyer": null,
  "company": "Moneyview Limited",
  "confidence": "medium",
@@ -10,7 +10,9 @@
  "dealType": "DRHP filing",
  "enrichmentState": "failed",
  "id": 928,
- "individuals": [],
+ "individuals": [
+  "Puneet Agarwal"
+ ],
  "listed": false,
  "oneLine": "Moneyview Limited files SEBI draft offer document for an IPO.",
  "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/moneyview-limited-rhp_104597.html",
@@ -45,9 +47,16 @@
    "resolvable": false,
    "title": "Moneyview Halves IPO Fresh Issue, Seeks $624 Million Valuation",
    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaHhyak05U1NBT2YyZDhFUHBBMDNUc3F1RDZVUUI0NVhLYmFoT0l2ejl1MjN0NUxaRkVpVnBja2hnZDBlZ3Y5SUdRdjZPTFNqR1VJeTZ1WnF6RExBbGJySlVkRVFJaFotbUZubHFsLVdEcmhsbFh2cDFubGNLU2F1QnBrdTkyT1ZabzJsckdibEpJZHFiRjkybkQ1Z0Z4b3pf?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-21T12:31:15.813172+00:00",
+   "outlet": "bfsi.economictimes.indiatimes.com",
+   "resolvable": false,
+   "title": "Moneyview IPO: Profitability trajectory prompts capital reset, fresh issue cut to ₹750 crore, says Puneet Agarwal",
+   "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxORUpnZmRqQWdNTk82My0zOVpEamNBbEliZWZlV1g0UFlNWGJ6XzBmWER6LWVoWlBOcEh0YWRJVVJkcElxYkFlbHVkY21YT3NWMlo2dGVtTmUzeEFJVjdWWjQ0UXd4TV9FQmc2LUFTbnhRdHd5anpydzlvRmZWNldsMnBVcUEySTdhZ2plRGZSUnR5T2FTaTdlZUdBLXdiOUhYOFBwYlZRbFRIMy1XQWMxdXJUZUpKVVNEMWM5MUtvQ0RYQXZQUXRlUFp1ZHkzZW9fU3FSR2xlR0p2VjFzOHhPM3lsMFJHNUlqRDNjUGxXVlFHYWJ0RjJ5Wi12UG5EMFYzaVFRY1IzdzJWQlVhZWdfNkJydmZNQXRwb1ZPQTE4akRPQkNwc0I5WHd2Ri0wRFhUdUNJNWJn?oc=5"
   }
  ],
  "synopsis": null,
  "ticker": null,
- "updatedAt": "2026-09-21T07:31:19.209897+00:00"
+ "updatedAt": "2026-09-21T12:31:15.814305+00:00"
 }

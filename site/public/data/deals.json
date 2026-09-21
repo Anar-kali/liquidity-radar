@@ -1,6 +1,72 @@
 {
- "dealCount": 764,
+ "dealCount": 767,
  "deals": [
+  {
+   "amountCr": 3520.0,
+   "amountRaw": "$400 Million",
+   "company": "Highway Roop Precision Technologies",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-21T12:31:15.818527+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 937,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Carlyle Group plans a USD 400 million IPO for Highway Roop Precision Technologies.",
+   "primaryOutlet": "Free Press Journal",
+   "seller": "Highway Roop Precision Technologies",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-21T12:31:27.835079+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Manipal Payment & Identity Solutions Limited",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-21T12:31:15.807849+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 936,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Manipal Payment & Identity Solutions filed a draft offer document with SEBI for an IPO.",
+   "primaryOutlet": "Prospectus",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-21T12:31:15.807849+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Jindal Supreme (India) Limited",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-21T12:31:15.802977+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 935,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Jindal Supreme filed a draft offer document with SEBI for an IPO.",
+   "primaryOutlet": "Prospectus",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-21T12:31:15.802977+00:00",
+   "updates": []
+  },
   {
    "amountCr": 3750.0,
    "amountRaw": "₹3,750-crore (from article)",
@@ -146,8 +212,8 @@
    "updates": []
   },
   {
-   "amountCr": 575.0,
-   "amountRaw": "₹575 crore",
+   "amountCr": 750.0,
+   "amountRaw": "₹750 crore",
    "company": "Moneyview Limited",
    "confidence": "medium",
    "confirmed": false,
@@ -155,16 +221,18 @@
    "dealType": "DRHP filing",
    "enrichmentState": "failed",
    "id": 928,
-   "individuals": [],
+   "individuals": [
+    "Puneet Agarwal"
+   ],
    "listed": false,
    "oneLine": "Moneyview Limited files SEBI draft offer document for an IPO.",
    "primaryOutlet": "Abridged Prospectus",
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 4,
+   "sourceCount": 5,
    "ticker": null,
-   "updatedAt": "2026-09-21T07:31:19.209897+00:00",
+   "updatedAt": "2026-09-21T12:31:15.814305+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-21T07:31:19.194983+00:00",
@@ -177,6 +245,10 @@
     {
      "attachedAt": "2026-09-21T10:31:13.837101+00:00",
      "title": "Moneyview Halves IPO Fresh Issue, Seeks $624 Million Valuation"
+    },
+    {
+     "attachedAt": "2026-09-21T12:31:15.813172+00:00",
+     "title": "Moneyview IPO: Profitability trajectory prompts capital reset, fresh issue cut to ₹750 crore, says Puneet Agarwal"
     }
    ]
   },
@@ -22173,6 +22245,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-21T10:31:17.171455+00:00",
- "totalDeals": 764
+ "generatedAt": "2026-09-21T12:31:27.835079+00:00",
+ "totalDeals": 767
 }

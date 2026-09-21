@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Jindal Supreme (India) Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-21T12:31:15.802977+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": "failed",
+ "id": 935,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Jindal Supreme filed a draft offer document with SEBI for an IPO.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/jindal-supreme-india-limited-prospectus_104621.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-21T12:31:15.804703+00:00",
+   "outlet": "Prospectus",
+   "resolvable": true,
+   "title": "Jindal Supreme (India) Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/jindal-supreme-india-limited-prospectus_104621.html"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-09-21T12:31:15.802977+00:00"
+}
