@@ -1,0 +1,46 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Tata Sons",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-21T01:36:16.355211+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": null,
+ "id": 918,
+ "individuals": [
+  "Jimmy Naval Tata",
+  "Ratan Tata",
+  "Piloo Minocher Tata",
+  "Jimmy Minocher Tata",
+  "Vera Farhad Choksey",
+  "Noel Tata"
+ ],
+ "listed": false,
+ "oneLine": "Tata Sons IPO may spotlight low-key crorepatis.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOWnFDVTJEU0ZRTzBYMl92a0tDRVhKbG1zWmRfM2VxZ3BMb2RHNFREWENPSEM3bEp5RTJEM2FXWGVfY0lzYmVWMHBFWlhaWEFPVlE3dE9rUjhSYzY0TEh5LUZLWWxNX2NDWjE3azhCTFZUTXRhX1BYS1YwMUROQVBtN1JTTUZ2UWJVb0dHTzJUVHIyYVFBbmEyUTZodTVvSEYtQ3d3RF9IUWowVV85X19fUjdydEozUV9rcHhOemRoQzIzal81RTZnb0NzT1A1QnQ0TFBMZThR0gHWAUFVX3lxTE5acUNVMkRTRlFPMFgyX3ZrS0NFWEpsbXNaZF8zZXFncExvZEc0VERYQ09IQzdsSnlFMkQzYVdYZV9jSXNiZVYwcEVaWFpYQU9WUTd0T2tSOFJjNjRMSHktRktZbE1fY0NaMTdrOEJMVlRNdGFfUFhLVjAxRE5BUG03UlNNRnZRYlVvR0dPMlRUcjJhUUFuYTJRNmh1NW9IRi1Dd3dEX0hRajBVXzlfX19SN3J0SjNRX2tweE56ZGhDMjNqXzVFNmdvQ3NPUDVCdDRMUExlOFE?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-21T01:36:16.356690+00:00",
+   "outlet": "The Economic Times",
+   "resolvable": false,
+   "title": "Tata Sons IPO may spotlight some low-key crorepatis",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOWnFDVTJEU0ZRTzBYMl92a0tDRVhKbG1zWmRfM2VxZ3BMb2RHNFREWENPSEM3bEp5RTJEM2FXWGVfY0lzYmVWMHBFWlhaWEFPVlE3dE9rUjhSYzY0TEh5LUZLWWxNX2NDWjE3azhCTFZUTXRhX1BYS1YwMUROQVBtN1JTTUZ2UWJVb0dHTzJUVHIyYVFBbmEyUTZodTVvSEYtQ3d3RF9IUWowVV85X19fUjdydEozUV9rcHhOemRoQzIzal81RTZnb0NzT1A1QnQ0TFBMZThR0gHWAUFVX3lxTE5acUNVMkRTRlFPMFgyX3ZrS0NFWEpsbXNaZF8zZXFncExvZEc0VERYQ09IQzdsSnlFMkQzYVdYZV9jSXNiZVYwcEVaWFpYQU9WUTd0T2tSOFJjNjRMSHktRktZbE1fY0NaMTdrOEJMVlRNdGFfUFhLVjAxRE5BUG03UlNNRnZRYlVvR0dPMlRUcjJhUUFuYTJRNmh1NW9IRi1Dd3dEX0hRajBVXzlfX19SN3J0SjNRX2tweE56ZGhDMjNqXzVFNmdvQ3NPUDVCdDRMUExlOFE?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-21T01:36:16.397741+00:00",
+   "outlet": "News9live",
+   "resolvable": false,
+   "title": "Tata Sons IPO: Work quietly begins on the listing process; when can it take place",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZFN2MUFSV2hxQUxNUjZOcnBBNGpFVFNiQmJlNTBxXzVESUJLVF9abFJkT29rR1hFV0NfRDI0NHFaVlJLQTVsS1Y2anNRLUFveUhZOFh0ZjJBZV9qaWtURHlyUHRmZEVJUTd1aHk5TXZYbDlFYVJzS1FsTjQ1NWx1MXlrRmFlbGJ5M1d1NG1ydi1TcVFfUkEtUDRGendoY0NMMU42YVg2NVJqREh5MHBSQVB4MzY4Y280SkQ3Z2ZwZmR5cEtUUU5YNFNaTdIB0AFBVV95cUxQZHk1QzlUaFdHTjQ1U2lTb3NpblNTNlVtbnBoUUNQbWVpd3RJYWU2M0xNSWZzaVJHcmM0S3EyNjB0Nm9wWUR4ZUZrTklMaGFlRDA1dkRYMVQyR0dqb0JRbkJ1U2VZWHdxb1NQZzg3S1FWaVBzNUw4RnF6cjlUNzRfWkJJOFZoYjQwTTF2dWVJRDh1cEQwQVl0S1Rna2sxZjFiMzdzRWZoa2R5SXJmaElsQ2ppM09aMDl5NTctbFFBeGRrR3VzV3BYMEdyNWRDQ25N?oc=5"
+  }
+ ],
+ "synopsis": "The Reserve Bank of India has rejected Tata Sons' application to surrender its core investment company registration, requiring the firm to comply with upper-layer non-banking finance company regulations, including a mandatory public listing. Investment bankers estimate Tata Sons' total valuation at nine lakh crore to twelve-and-a-half lakh crore Indian Rupees, which translates to an estimated paper value of two crore to three crore rupees per ordinary share. A successful listing would convert previously illiquid holdings into marketable assets for numerous individual shareholders, including Jimmy Naval Tata, Noel Tata, and other family members holding minority stakes, though participation in any future offer-for-sale remains unconfirmed.",
+ "ticker": null,
+ "updatedAt": "2026-09-21T01:37:07.591646+00:00"
+}

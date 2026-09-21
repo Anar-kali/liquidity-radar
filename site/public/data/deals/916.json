@@ -1,0 +1,35 @@
+{
+ "advisers": [],
+ "amountCr": 300.0,
+ "amountRaw": "Rs 300 crore (from article)",
+ "buyer": "Public",
+ "company": "Hi-Tech Flow Solutions",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-21T01:36:15.221332+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": null,
+ "id": 916,
+ "individuals": [
+  "Ajay Kumar Bansal",
+  "Vipul Bansal"
+ ],
+ "listed": false,
+ "oneLine": "Hi-Tech Flow Solutions files DRHP for IPO.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNTmJBcU8tVUZQejBoeFNyQkpOUEk1SjUtcmZKNmhacVlnM2p2THV5cXAyaWhjMmJpcmt5UXh4NWFzRl8waWstTXRQOUxkSkNRUl9KdEZSQXp2bUdnU0tqT043RExfYndrUlNSb05qbzVnWG9xR3pZUjR0YjF0MVlKbEdUUWZNcng3TF9tVG1FdVI?oc=5",
+ "seller": "Ajay Kumar Bansal, Vipul Bansal, and The Wealth Company Alternates Trust – India Inflection Opportunity Fund",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-21T01:36:15.223016+00:00",
+   "outlet": "fintechbiznews.com",
+   "resolvable": false,
+   "title": "Hi-Tech Flow Solutions Files DHRP for IPO",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNTmJBcU8tVUZQejBoeFNyQkpOUEk1SjUtcmZKNmhacVlnM2p2THV5cXAyaWhjMmJpcmt5UXh4NWFzRl8waWstTXRQOUxkSkNRUl9KdEZSQXp2bUdnU0tqT043RExfYndrUlNSb05qbzVnWG9xR3pZUjR0YjF0MVlKbEdUUWZNcng3TF9tVG1FdVI?oc=5"
+  }
+ ],
+ "synopsis": "New Delhi-based Hi-Tech Flow Solutions Limited has filed its Draft Red Herring Prospectus with SEBI for an initial public offering. The IPO comprises a fresh issue of up to Rs 300 crore and an offer-for-sale of shares by promoters Ajay Kumar Bansal and Vipul Bansal, alongside investor The Wealth Company Alternates Trust – India Inflection Opportunity Fund offering up to 20,268,225 shares. Specifically, Ajay Kumar Bansal is offering shares up to Rs 75 crore and Vipul Bansal up to Rs 25 crore. The company may also consider a pre-IPO placement for up to Rs 60 crore. Fresh issue proceeds will fund expansion at the Nagpur facility, debt repayment, and general corporate purposes.",
+ "ticker": null,
+ "updatedAt": "2026-09-21T01:36:53.510858+00:00"
+}

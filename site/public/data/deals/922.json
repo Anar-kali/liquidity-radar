@@ -1,0 +1,35 @@
+{
+ "advisers": [],
+ "amountCr": 600.0,
+ "amountRaw": "600 crore",
+ "buyer": "Chalet Hotels",
+ "company": "Six Senses Vana",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-09-21T01:36:16.413329+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 922,
+ "individuals": [
+  "Veer Singh",
+  "Analjit Singh"
+ ],
+ "listed": false,
+ "oneLine": "Chalet Hotels in advanced talks to buy Six Senses Vana from Veer Singh for Rs 600 crore.",
+ "primaryUrl": "https://economictimes.indiatimes.com/industry/services/hotels-/-restaurants/chalet-hotels-in-advanced-talks-to-buy-six-senses-vana-for-600-crore/articleshow/134374818.cms",
+ "seller": "Veer Singh",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-21T01:36:16.415154+00:00",
+   "outlet": "ET Corporate",
+   "resolvable": true,
+   "title": "Chalet Hotels in advanced talks to buy Six Senses Vana for 600 crore",
+   "url": "https://economictimes.indiatimes.com/industry/services/hotels-/-restaurants/chalet-hotels-in-advanced-talks-to-buy-six-senses-vana-for-600-crore/articleshow/134374818.cms"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-09-21T01:36:16.413329+00:00"
+}

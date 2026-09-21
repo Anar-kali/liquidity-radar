@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 1200.0,
+ "amountRaw": "₹1,200 crore",
+ "buyer": null,
+ "company": "Nilon’s",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-21T01:36:16.400839+00:00",
+ "dealType": "promoter sale",
+ "enrichmentState": null,
+ "id": 921,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Nilon's explores majority stake sale at up to Rs 1,200 crore valuation.",
+ "primaryUrl": "https://www.livemint.com/companies/news/nilons-pickle-stake-sale-valuation-11789875343543.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-21T01:36:16.402067+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "Nilon’s explores majority stake sale at up to ₹1,200 crore valuation",
+   "url": "https://www.livemint.com/companies/news/nilons-pickle-stake-sale-valuation-11789875343543.html"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-09-21T01:36:16.400839+00:00"
+}

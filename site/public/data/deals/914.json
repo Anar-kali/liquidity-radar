@@ -1,0 +1,41 @@
+{
+ "advisers": [],
+ "amountCr": 12642.6,
+ "amountRaw": "5.38% x mcap ~Rs 234992cr = ~Rs 12643cr",
+ "buyer": "Asian Paints Promoter Group Entity",
+ "company": "Asian Paints",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-21T01:36:14.636709+00:00",
+ "dealType": "block deal",
+ "enrichmentState": null,
+ "id": 914,
+ "individuals": [
+  "Jalaj Ashwin Dani"
+ ],
+ "listed": true,
+ "oneLine": "Asian Paints promoter group entity buys shares in an inter-se block deal.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQYjhibUdaeDZxN2hrM0FFUjZCdXpXZWhmSF9kNmNtSmFSM2J2SUtVakttZW1OUmliUVllc2VDeEt4Wkllb0pMV29nRi16VFZGUGEtTml4ZnVlcU9veWNlbF9maldhWmVXWVlCZXY1MWhHX1pkUkVka3A4elFvMHZoWnliMzY4bTlFVDV1Mmk3SjhTMHVwU3l3a1dxVWZlUUlhdVZERWRR?oc=5",
+ "seller": "Jalaj Ashwin Dani",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-21T01:36:14.638866+00:00",
+   "outlet": "Sahi",
+   "resolvable": false,
+   "title": "Asian Paints Promoter Group Entity Buys 164,000 Shares In Inter-Se Block Deal",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQYjhibUdaeDZxN2hrM0FFUjZCdXpXZWhmSF9kNmNtSmFSM2J2SUtVakttZW1OUmliUVllc2VDeEt4Wkllb0pMV29nRi16VFZGUGEtTml4ZnVlcU9veWNlbF9maldhWmVXWVlCZXY1MWhHX1pkUkVka3A4elFvMHZoWnliMzY4bTlFVDV1Mmk3SjhTMHVwU3l3a1dxVWZlUUlhdVZERWRR?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-21T01:36:15.005688+00:00",
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "Asian Paints co-promoter Smiti Holding stake rises to 5.38% after block deal",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRFlwSXd0aEN4VXlFamo0THE1ajRZbXdyelZZSTBnUmVwcmxyZWJzRmZlY1dCSlNSbEFleUY5OXJ4WXZ1MkpKRUN2UEs3Rm8tcXQ5ck5vTzNBRTZUNzM4dlhGUFJpM3BDQnl4clBkekNybTdfYkhxbDNFdm5OX1VOZzZrZWpRaVZHUDA4ckYxaEw5Mkw1S0o1SE5tYjBIbGJBRTF3U2VBOENBUW5RSWk2c0RVYTFXRi1WUWVjWElIaWxmd3ZULVE?oc=5"
+  }
+ ],
+ "synopsis": "Smiti Holding and Trading Company acquired 164,000 shares of Asian Paints from co-promoter Jalaj Ashwin Dani in an inter-se promoter transaction conducted through a block deal on September 17, 2026. The transaction was valued at ₹40.02 crore, executed at a rate of ₹2,440 per share. As this represents an internal transfer of shares within the promoter group, the overall promoter holding in Asian Paints remains unchanged at 52.63% of the total share capital. The deal was accompanied by separate promoter share pledging activity by Smiti Holding and Trading Company, which created a cumulative pledge of 26.79 lakh shares between September 16 and 17, 2026, bringing its total encumbered holding to 3.87 crore shares. Concurrently, Asian Paints commenced commercial production at its new 1.5 lakh TPA captive VAE emulsion plant in Dahej, Gujarat.",
+ "ticker": "ASIANPAINT.NS",
+ "updatedAt": "2026-09-21T01:36:42.799279+00:00"
+}

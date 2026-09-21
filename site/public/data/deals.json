@@ -1,6 +1,274 @@
 {
- "dealCount": 742,
+ "dealCount": 752,
  "deals": [
+  {
+   "amountCr": 600.0,
+   "amountRaw": "600 crore",
+   "company": "Six Senses Vana",
+   "confidence": "high",
+   "confirmed": false,
+   "createdAt": "2026-09-21T01:36:16.413329+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 922,
+   "individuals": [
+    "Veer Singh",
+    "Analjit Singh"
+   ],
+   "listed": false,
+   "oneLine": "Chalet Hotels in advanced talks to buy Six Senses Vana from Veer Singh for Rs 600 crore.",
+   "primaryOutlet": "ET Corporate",
+   "seller": "Veer Singh",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-21T01:36:16.413329+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 1200.0,
+   "amountRaw": "₹1,200 crore",
+   "company": "Nilon’s",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-21T01:36:16.400839+00:00",
+   "dealType": "promoter sale",
+   "enrichmentState": null,
+   "id": 921,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Nilon's explores majority stake sale at up to Rs 1,200 crore valuation.",
+   "primaryOutlet": "Mint",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-21T01:36:16.400839+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 3825.0,
+   "amountRaw": "3,825 crore",
+   "company": "Multiple Companies",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-21T01:36:16.374628+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 920,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Six companies line up upcoming IPOs worth 3,825 crore.",
+   "primaryOutlet": "The Times of India",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 5,
+   "ticker": null,
+   "updatedAt": "2026-09-21T01:37:16.547115+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-09-21T01:36:16.379562+00:00",
+     "title": "6 companies line up IPOs worth ₹3,825 cr amid brisk primary market activity - business-standard.com"
+    },
+    {
+     "attachedAt": "2026-09-21T01:36:16.382187+00:00",
+     "title": "Rs 3,825 crore IPO rush: 6 companies to launch public issues next week"
+    },
+    {
+     "attachedAt": "2026-09-21T01:36:16.388741+00:00",
+     "title": "Six companies plan IPOs Sept 22-28 to raise ₹3,825cr"
+    },
+    {
+     "attachedAt": "2026-09-21T01:36:16.391137+00:00",
+     "title": "These 6 IPOs will hit Dalal Street next week"
+    }
+   ]
+  },
+  {
+   "amountCr": 141.57,
+   "amountRaw": "₹141.57 crore (from article)",
+   "company": "Sonaselection India Ltd.",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-21T01:36:16.367878+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 919,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Sonaselection India Ltd. IPO details including price band and issue size.",
+   "primaryOutlet": "Multibagg AI",
+   "seller": "Sonaselection India Limited",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-21T01:37:10.509915+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Tata Sons",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-21T01:36:16.355211+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 918,
+   "individuals": [
+    "Jimmy Naval Tata",
+    "Ratan Tata",
+    "Piloo Minocher Tata",
+    "Jimmy Minocher Tata",
+    "Vera Farhad Choksey",
+    "Noel Tata"
+   ],
+   "listed": false,
+   "oneLine": "Tata Sons IPO may spotlight low-key crorepatis.",
+   "primaryOutlet": "The Economic Times",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 2,
+   "ticker": null,
+   "updatedAt": "2026-09-21T01:37:07.591646+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-09-21T01:36:16.397741+00:00",
+     "title": "Tata Sons IPO: Work quietly begins on the listing process; when can it take place"
+    }
+   ]
+  },
+  {
+   "amountCr": 0.07058,
+   "amountRaw": "₹70.58 lakh (from article)",
+   "company": "Oseaspre Consultants",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-21T01:36:16.337949+00:00",
+   "dealType": "promoter sale",
+   "enrichmentState": null,
+   "id": 917,
+   "individuals": [
+    "Nimesh Sahadeo Singh"
+   ],
+   "listed": true,
+   "oneLine": "Oseaspre Consultants promoters sell 73.52% stake, causing a control change.",
+   "primaryOutlet": "Whalesbook",
+   "seller": "Oseaspre Consultants Promoters",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "509782.BO",
+   "updatedAt": "2026-09-21T01:37:02.396061+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 300.0,
+   "amountRaw": "Rs 300 crore (from article)",
+   "company": "Hi-Tech Flow Solutions",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-21T01:36:15.221332+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 916,
+   "individuals": [
+    "Ajay Kumar Bansal",
+    "Vipul Bansal"
+   ],
+   "listed": false,
+   "oneLine": "Hi-Tech Flow Solutions files DRHP for IPO.",
+   "primaryOutlet": "fintechbiznews.com",
+   "seller": "Ajay Kumar Bansal, Vipul Bansal, and The Wealth Company Alternates Trust – India Inflection Opportunity Fund",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-21T01:36:53.510858+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Kuku Technologies",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-21T01:36:15.211511+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 915,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Sebi clears Kuku Technologies' proposed IPO.",
+   "primaryOutlet": "BW Disrupt",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-21T01:36:15.211511+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 12642.6,
+   "amountRaw": "5.38% x mcap ~Rs 234992cr = ~Rs 12643cr",
+   "company": "Asian Paints",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-21T01:36:14.636709+00:00",
+   "dealType": "block deal",
+   "enrichmentState": null,
+   "id": 914,
+   "individuals": [
+    "Jalaj Ashwin Dani"
+   ],
+   "listed": true,
+   "oneLine": "Asian Paints promoter group entity buys shares in an inter-se block deal.",
+   "primaryOutlet": "Sahi",
+   "seller": "Jalaj Ashwin Dani",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 2,
+   "ticker": "ASIANPAINT.NS",
+   "updatedAt": "2026-09-21T01:36:42.799279+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-09-21T01:36:15.005688+00:00",
+     "title": "Asian Paints co-promoter Smiti Holding stake rises to 5.38% after block deal"
+    }
+   ]
+  },
+  {
+   "amountCr": 405.0,
+   "amountRaw": "₹405 crore",
+   "company": "A-One Steels India",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-21T01:36:12.946406+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 913,
+   "individuals": [
+    "Sandeep Kumar",
+    "Sunil Jalan",
+    "Krishan Kumar Jalan"
+   ],
+   "listed": false,
+   "oneLine": "A-One Steels India plans an IPO to raise ₹405 crore.",
+   "primaryOutlet": "The Hindu",
+   "seller": "A-One Steels India Limited",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-21T01:36:27.744409+00:00",
+   "updates": []
+  },
   {
    "amountCr": 3300.0,
    "amountRaw": "₹2,800-3,800cr",
@@ -86,10 +354,15 @@
    "seller": "Imperial Online Services Private Limited shareholders",
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-09-18T09:31:21.799368+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-09-21T01:36:15.229856+00:00",
+     "title": "ABFRL Expands Fashion Business with Full Acquisition of Imperial Online Services"
+    }
+   ]
   },
   {
    "amountCr": 486.0,
@@ -404,7 +677,7 @@
    "seller": "Elevate Campuses",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-09-18T01:31:45.277901+00:00",
    "updates": [
@@ -415,6 +688,10 @@
     {
      "attachedAt": "2026-09-18T13:31:01.427059+00:00",
      "title": "Elevate Campuses sees 2.5 million-bed student housing market, plans to scale ahead of IPO"
+    },
+    {
+     "attachedAt": "2026-09-21T01:36:16.386286+00:00",
+     "title": "Elevate Campuses Rs 2100 Crore IPO From Sept.23"
     }
    ]
   },
@@ -428,17 +705,24 @@
    "dealType": "strategic buyout",
    "enrichmentState": null,
    "id": 895,
-   "individuals": [],
+   "individuals": [
+    "Sachin Mittal"
+   ],
    "listed": false,
    "oneLine": "Indiabulls to acquire 70% stake in Fintech Cloud at Rs 1500 Cr.",
    "primaryOutlet": "bfsi.economictimes.indiatimes.com",
    "seller": "Fintech Cloud Private Limited",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
-   "updatedAt": "2026-09-18T01:31:40.818722+00:00",
-   "updates": []
+   "updatedAt": "2026-09-21T01:36:15.237394+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-09-21T01:36:15.236149+00:00",
+     "title": "1,500 Crore For A One-Year Revenue Story? The Sachin Mittal–Fintech Cloud–Indiabulls Deal Raises More Questions Than Answers"
+    }
+   ]
   },
   {
    "amountCr": 1331.2,
@@ -548,7 +832,7 @@
    "seller": "open market shareholders",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": "EMAMILTD.NS",
    "updatedAt": "2026-09-17T08:31:22.787997+00:00",
    "updates": [
@@ -559,6 +843,10 @@
     {
      "attachedAt": "2026-09-17T10:31:18.786061+00:00",
      "title": "Emami board approves Rs 282 crore share buyback at maximum price of Rs 475"
+    },
+    {
+     "attachedAt": "2026-09-21T01:36:15.001458+00:00",
+     "title": "Emami Approves Rs 282 Crore Share Buyback At Rs 475"
     }
    ]
   },
@@ -21553,6 +21841,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-18T11:31:22.293600+00:00",
- "totalDeals": 742
+ "generatedAt": "2026-09-21T01:37:16.547115+00:00",
+ "totalDeals": 752
 }

@@ -1,0 +1,34 @@
+{
+ "advisers": [],
+ "amountCr": 0.07058,
+ "amountRaw": "₹70.58 lakh (from article)",
+ "buyer": "Mr. Nimesh Sahadeo Singh",
+ "company": "Oseaspre Consultants",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-21T01:36:16.337949+00:00",
+ "dealType": "promoter sale",
+ "enrichmentState": null,
+ "id": 917,
+ "individuals": [
+  "Nimesh Sahadeo Singh"
+ ],
+ "listed": true,
+ "oneLine": "Oseaspre Consultants promoters sell 73.52% stake, causing a control change.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNVkp5aXNIdkVQZ3pYZkU2NEdsbzNVeUVVc0lObnE4dXIzWEZ3MUs2Mk1sVjFTOEhXX3hmc3NQU1UyY3B0b3l1akdXcWN0WE5ONldQYUZkU2piaXNROUUtN19XUWZybUJZTU5pVkJZbEpmbWhaZlI1aGt5eVZiMUdrTWxWOGtVZk9DSktyWm5qVXEtYVcxd01tUDl4YnpLUE9mc21GaWphTjlHdEVramg5Tlp6VEFUcEl6dVhWbnQ4eG1DWmtsWkhLN201ZDZyVDNGTUd5WkRROUpmMXA0b3FLWURlRmVza2FIcWFSajFwUFk?oc=5",
+ "seller": "Oseaspre Consultants Promoters",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-21T01:36:16.346284+00:00",
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "Oseaspre Consultants Promoters Sell 73.52% Stake, Control to Change",
+   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNVkp5aXNIdkVQZ3pYZkU2NEdsbzNVeUVVc0lObnE4dXIzWEZ3MUs2Mk1sVjFTOEhXX3hmc3NQU1UyY3B0b3l1akdXcWN0WE5ONldQYUZkU2piaXNROUUtN19XUWZybUJZTU5pVkJZbEpmbWhaZlI1aGt5eVZiMUdrTWxWOGtVZk9DSktyWm5qVXEtYVcxd01tUDl4YnpLUE9mc21GaWphTjlHdEVramg5Tlp6VEFUcEl6dVhWbnQ4eG1DWmtsWkhLN201ZDZyVDNGTUd5WkRROUpmMXA0b3FLWURlRmVza2FIcWFSajFwUFk?oc=5"
+  }
+ ],
+ "synopsis": "The promoters of Oseaspre Consultants Ltd have entered into a Share Purchase Agreement to sell their entire 73.52 percent stake, consisting of 1,47,043 equity shares, to Mr. Nimesh Sahadeo Singh for a cash consideration of ₹70.58 lakh. The deal results in a change of control of the company, with the acquirer assuming promoter status and the existing promoters seeking reclassification as public shareholders. Because the acquisition crosses the prescribed threshold under SEBI regulations, it triggers a mandatory open offer to public shareholders. Completion of the transaction is subject to regulatory compliance and the execution of the open offer.",
+ "ticker": "509782.BO",
+ "updatedAt": "2026-09-21T01:37:02.396061+00:00"
+}

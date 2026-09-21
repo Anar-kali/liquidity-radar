@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Kuku Technologies",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-21T01:36:15.211511+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": "failed",
+ "id": 915,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Sebi clears Kuku Technologies' proposed IPO.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQUzRUVGhtSmQyZnFSdlIzcXVJN0FZVVNzWUtCSWZ1aHExVzRJUUtRN1AxbFdEdUkzWWNsSmdjTlVOeFFGM2VVRGZpQWRaSmlFTGNzak9heWFIcU1sTlJlR2hhRVpDZXU5YzIzTWYxTTIxeVZBZkZ4b0RFNjg1aGFUc003QmJQWWdPYllR?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-21T01:36:15.214317+00:00",
+   "outlet": "BW Disrupt",
+   "resolvable": false,
+   "title": "Sebi Clears Kuku Technologies’ Proposed IPO",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQUzRUVGhtSmQyZnFSdlIzcXVJN0FZVVNzWUtCSWZ1aHExVzRJUUtRN1AxbFdEdUkzWWNsSmdjTlVOeFFGM2VVRGZpQWRaSmlFTGNzak9heWFIcU1sTlJlR2hhRVpDZXU5YzIzTWYxTTIxeVZBZkZ4b0RFNjg1aGFUc003QmJQWWdPYllR?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-09-21T01:36:15.211511+00:00"
+}
