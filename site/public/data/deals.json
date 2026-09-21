@@ -1,9 +1,31 @@
 {
- "dealCount": 754,
+ "dealCount": 755,
  "deals": [
   {
+   "amountCr": 500.0,
+   "amountRaw": "Rs 500 crore",
+   "company": "Rotary Connectors",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-21T05:31:19.220505+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 925,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Samvardhana Motherson to acquire a 50.1% stake in Rotary Connectors at a Rs 500 crore enterprise value.",
+   "primaryOutlet": "businessupturn.com",
+   "seller": "Rotary Connectors Private Limited existing promoters",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-21T05:31:23.098586+00:00",
+   "updates": []
+  },
+  {
    "amountCr": 2468.0,
-   "amountRaw": "₹2,468 crore",
+   "amountRaw": "₹2,468 Crore",
    "company": "Lenskart",
    "confidence": "medium",
    "confirmed": false,
@@ -15,13 +37,26 @@
    "listed": true,
    "oneLine": "Lenskart equity worth ₹2,468 crore changes hands in block deals.",
    "primaryOutlet": "CNBC TV18",
-   "seller": null,
+   "seller": "Platinum Jasmine",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 4,
    "ticker": "LENSKART.NS",
-   "updatedAt": "2026-09-21T04:31:15.519926+00:00",
-   "updates": []
+   "updatedAt": "2026-09-21T05:31:19.226989+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-09-21T05:31:19.211726+00:00",
+     "title": "Lenskart shares drop 3% after 3 crore shares change hands in block deal, Platinum Jasmine likely seller"
+    },
+    {
+     "attachedAt": "2026-09-21T05:31:19.214896+00:00",
+     "title": "Lenskart Block Deal Buzz: Platinum Jasmine may sell 1.7% stake for Rs 2,047 crore"
+    },
+    {
+     "attachedAt": "2026-09-21T05:31:19.225864+00:00",
+     "title": "Lenskart Shares Fall 2% After ₹2,468 Crore Block Deal"
+    }
+   ]
   },
   {
    "amountCr": 1200.0,
@@ -21885,6 +21920,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-21T04:31:15.519926+00:00",
- "totalDeals": 754
+ "generatedAt": "2026-09-21T05:31:23.098586+00:00",
+ "totalDeals": 755
 }
