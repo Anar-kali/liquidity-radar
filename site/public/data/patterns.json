@@ -1,13 +1,41 @@
 {
  "alerts": [
   {
+   "alertedAt": "2026-09-21T19:18:09.378229+00:00",
+   "company": "Tata Sons",
+   "firstTrade": "2026-09-17",
+   "id": 18,
+   "lastTrade": "2026-09-21",
+   "person": "Noel Tata",
+   "saleCount": 2,
+   "sales": [
+    {
+     "date": "2026-09-17",
+     "sources": [
+      "news"
+     ],
+     "valueCr": 25000.0
+    },
+    {
+     "date": "2026-09-21",
+     "sources": [
+      "news"
+     ],
+     "valueCr": 25000.0
+    }
+   ],
+   "storedTotalCr": 50000.0,
+   "totalCr": 50000.0,
+   "weeks": 1
+  },
+  {
    "alertedAt": "2026-09-18T17:38:33.162361+00:00",
    "company": "Glass Wall System (I) Ltd",
    "firstTrade": "16-Sep-2026",
    "id": 17,
-   "lastTrade": "18-Sep-2026",
+   "lastTrade": "21-Sep-2026",
    "person": "JUNOMONETA FINSOL PRIVATE LIMITED",
-   "saleCount": 3,
+   "saleCount": 4,
    "sales": [
     {
      "date": "16-Sep-2026",
@@ -29,10 +57,17 @@
       "bulk"
      ],
      "valueCr": 118.71
+    },
+    {
+     "date": "21-Sep-2026",
+     "sources": [
+      "bulk"
+     ],
+     "valueCr": 45.64
     }
    ],
    "storedTotalCr": 268.68,
-   "totalCr": 268.68,
+   "totalCr": 314.32,
    "weeks": 1
   },
   {
@@ -376,6 +411,6 @@
    "weeks": 1
   }
  ],
- "count": 10,
+ "count": 11,
  "generatedAt": "2026-09-21T13:31:09.973369+00:00"
 }
