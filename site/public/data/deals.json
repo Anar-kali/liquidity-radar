@@ -1273,10 +1273,19 @@
    "seller": "GAIL Gas",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-09-17T04:31:08.229973+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-09-21T08:31:16.268922+00:00",
+     "title": "GAIL Gas begins process to appoint bankers for up to ₹3,100 crore IPO"
+    },
+    {
+     "attachedAt": "2026-09-21T08:31:16.272100+00:00",
+     "title": "GAIL Gas hires bankers for ₹3,100cr IPO bids expected October"
+    }
+   ]
   },
   {
    "amountCr": null,
@@ -2179,13 +2188,17 @@
    "seller": "Reliance Industries",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": "JIOFIN.NS",
    "updatedAt": "2026-09-15T11:31:48.266423+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-16T08:31:17.530843+00:00",
      "title": "Jio IPO 2026: Expected Timeline, IPO Size, Valuation And Key Details"
+    },
+    {
+     "attachedAt": "2026-09-21T08:31:16.260474+00:00",
+     "title": "Jio Platforms IPO enters final lap: ₹37,700 crore issue, November launch in sight; price band still under wraps"
     }
    ]
   },
