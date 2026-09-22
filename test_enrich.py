@@ -376,7 +376,7 @@ def test_synopsis_stays_out_of_the_feed_slice():
 # --------------------------------------------------------------------------
 def gated(**over):
     d = {"id": 1, "amount_cr": None, "individuals": "[]", "seller": None,
-         "seller_type": None, "synopsis": None}
+         "seller_type": None, "seller_stake_pct": None, "synopsis": None}
     d.update(over)
     return enrich.post_gate(d)
 
@@ -400,22 +400,54 @@ def test_an_unknown_amount_is_not_a_reason_to_drop():
     assert gated(amount_cr=None) is None
 
 
-def test_a_fund_owned_sale_with_nobody_named_is_dropped():
-    """Athena Renewables sold by Actis for Rs 2,500cr: a real transaction that
-    pays a fund's investors, not a person."""
-    r = gated(amount_cr=2500.0, seller_type="fund", seller="Actis")
-    assert r is not None and "fund-owned" in r, r
+def test_a_wholly_fund_owned_sale_is_dropped():
+    """Athena Renewables sold by Actis outright: a real transaction that pays
+    a fund's investors, not a person."""
+    r = gated(amount_cr=2500.0, seller_type="fund", seller="Actis",
+              seller_stake_pct=100.0)
+    assert r is not None and "wholly fund-owned" in r, r
+
+
+def test_a_minority_stake_sale_by_a_fund_is_kept():
+    """PE-BACKED is not PE-OWNED, and conflating them was wrong about 40 of 43
+    real deals. A fund trimming a stake leaves the promoters holding the rest,
+    so there is still somebody to call."""
+    for pct, seller, company in ((1.0, "Capital Group", "D-Mart"),
+                                 (1.6, "Peak XV Partners", "Groww"),
+                                 (25.0, "Tata Capital Healthcare Fund", "Linux Labs"),
+                                 (53.98, "PAG", "Nuvama Wealth")):
+        assert gated(amount_cr=2000.0, seller_type="fund", seller=seller,
+                     seller_stake_pct=pct) is None, f"{seller} {pct}% wrongly dropped"
+
+
+def test_an_unstated_stake_keeps_the_deal():
+    """25 of 43 articles never said what share changed hands. Showing one too
+    many beats hiding a real one."""
+    assert gated(amount_cr=900.0, seller_type="fund", seller="Blackstone",
+                 seller_stake_pct=None) is None
+
+
+def test_promoters_in_the_seller_string_protect_the_deal():
+    """RSB Transmissions, Rs 17,600cr, sold by "RSB Transmissions
+    promoters/Bain Capital" — the promoters are selling alongside the fund, so
+    the promoter is the lead. `individuals` was empty because the article
+    described them rather than naming them."""
+    assert gated(amount_cr=17600.0, seller_type="fund", seller_stake_pct=100.0,
+                 seller="RSB Transmissions promoters/Bain Capital") is None
+    for s in ("the founders and Advent", "promoter family and KKR", "Mr. Shah and TPG"):
+        assert gated(amount_cr=900.0, seller_type="fund", seller=s,
+                     seller_stake_pct=100.0) is None, s
 
 
 def test_a_named_individual_rescues_a_fund_sale():
     """If a promoter sells alongside the fund, the promoter IS the lead."""
     assert gated(amount_cr=2500.0, seller_type="fund", seller="Actis",
-                 individuals='["Ajay Piramal"]') is None
+                 seller_stake_pct=100.0, individuals='["Ajay Piramal"]') is None
 
 
 def test_other_seller_types_are_untouched():
     for t in ("individual", "family", "company", "government", "unclear", None):
-        assert gated(amount_cr=900.0, seller_type=t) is None, t
+        assert gated(amount_cr=900.0, seller_type=t, seller_stake_pct=100.0) is None, t
 
 
 def test_the_gate_costs_no_api_call():
@@ -432,6 +464,13 @@ def test_seller_type_is_asked_for_in_the_schema():
     assert "fund" in prop["enum"] and "individual" in prop["enum"]
     assert "seller_type" in enrich.SCHEMA["required"]
     assert "Actis" in enrich.PROMPT, "name real funds so the model has anchors"
+
+
+def test_the_stake_is_asked_for_too():
+    """Without it the gate cannot tell PE-backed from PE-owned."""
+    assert "seller_stake_pct" in enrich.SCHEMA["properties"]
+    assert "seller_stake_pct" in enrich.SCHEMA["required"]
+    assert "share of the COMPANY" in enrich.PROMPT
 
 
 if __name__ == "__main__":

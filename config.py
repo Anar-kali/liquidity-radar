@@ -287,6 +287,29 @@ ENRICH_RETRY_PER_RUN = 8
 # retries once internally), so 2 means: tried this run, tried the next, done.
 # That is exactly what the alert wording promises the banker.
 ENRICH_MAX_ATTEMPTS = 2
+
+# --------------------------------------------------------------------------
+# WHOLLY FUND-OWNED — the only shape of fund sale that is not a lead.
+#
+# Being PE-BACKED and being PE-OWNED are different things, and the first
+# version of this gate conflated them. It dropped any sale where the seller
+# was a fund, which on real data was wrong about 40 times out of 43:
+#
+#   Actis selling Athena Renewables outright        correct to drop
+#   Capital Group selling 1% of D-Mart              a real lead, dropped
+#   Peak XV selling 1.6% of Groww                   a real lead, dropped
+#   Tata Capital Healthcare selling 25% of Linux    a real lead, dropped
+#
+# A fund trimming a minority stake leaves the promoters holding the rest, so
+# there is still a person in the chain — which is the whole point of the
+# product. Only a company the fund owns outright pays nobody but its own
+# investors.
+#
+# So the gate now needs the STAKE, not just the seller's identity, and it
+# fires only at or above this share. An unstated stake keeps the deal: the
+# safe direction is showing one too many, not hiding a real one.
+# --------------------------------------------------------------------------
+FUND_WHOLE_OWNERSHIP_PCT = 90.0
 ENRICH_RECENT_PER_RUN = 8
 
 # Requests per minute to stay under, per provider. Gemini's free tier allows

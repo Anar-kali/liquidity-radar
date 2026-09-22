@@ -99,9 +99,10 @@ SCHEMA = {
             "type": "STRING",
             "enum": ["individual", "family", "fund", "company", "government", "unclear"],
         },
+        "seller_stake_pct": {"type": "NUMBER", "nullable": True},
     },
     "required": ["individuals", "amount_cr", "amount_raw", "seller", "buyer",
-                 "advisers", "synopsis", "seller_type"],
+                 "advisers", "synopsis", "seller_type", "seller_stake_pct"],
 }
 
 PROMPT = """You are reading one Indian M&A / stake-sale / IPO article for a \
@@ -129,6 +130,12 @@ seller_type — what KIND of party the seller is, which decides whether a person
     government  a state or central government, or a PSU divesting
     unclear     the article does not say
   Judge the SELLER, not the buyer, and not the company being sold.
+seller_stake_pct — the percentage of the company this sale covers, as a number.
+  "acquires Athena Renewables from Actis" with no figure but clearly the whole
+  business is 100. "sells a 1.6% stake" is 1.6. "sells its entire 25% holding"
+  is 25 — the ENTIRE holding is still a quarter of the company, and that is
+  what this field means: the share of the COMPANY changing hands, not the
+  share of the seller's own position. Null if the article does not say.
 amount_cr — the DEAL value in crore INR. Not revenue, not valuation, not market
   cap, not a fund size, not a share price. A valuation alone means null.
 amount_raw — the exact phrase the figure came from, quoted from the article,
@@ -245,6 +252,12 @@ def _merge(deal, found):
     st = (found.get("seller_type") or "").strip().lower()
     if st and st != "unclear" and not (deal.get("seller_type") or "").strip():
         fields["seller_type"] = st
+    pct = found.get("seller_stake_pct")
+    if pct is not None and deal.get("seller_stake_pct") is None:
+        try:
+            fields["seller_stake_pct"] = max(0.0, min(100.0, float(pct)))
+        except (TypeError, ValueError):
+            pass
 
     for key in ("seller", "buyer"):
         val = " ".join((found.get(key) or "").split())
@@ -417,6 +430,20 @@ def retry_failed(limit=None, path=None, dry=False):
     return recovered
 
 
+_PEOPLE_IN_SELLER = re.compile(
+    r"promoter|founder|family|\bheir|\bmr\.?\b|\bmrs\.?\b|\bshri\b|"
+    r"individual|personal|huf\b", re.I)
+
+
+def _mentions_people(seller):
+    """Does the seller string name or describe actual people?
+
+    An article routinely says "the promoters" without listing them, which
+    `individuals` cannot capture — but a promoter selling IS the lead.
+    """
+    return bool(_PEOPLE_IN_SELLER.search(seller or ""))
+
+
 def post_gate(deal):
     """Why this deal should be dropped now that the article has been read, or
     None to keep it.
@@ -442,13 +469,26 @@ def post_gate(deal):
         return f"below threshold: Rs {amount:,.2f}cr < Rs {config.THRESHOLD_CR}cr"
 
     if (deal.get("seller_type") or "").strip().lower() == "fund":
+        seller = (deal.get("seller") or "the seller").strip()
         try:
             named = bool(json.loads(deal.get("individuals") or "[]"))
         except (TypeError, ValueError):
             named = False
-        if not named:
-            seller = (deal.get("seller") or "the seller").strip()
-            return f"fund-owned, no individual paid: {seller[:60]}"
+        # A seller described as promoters, founders or a family is a person in
+        # the chain even when the article never lists names. RSB Transmissions,
+        # at Rs 17,600cr, was sold by "RSB Transmissions promoters/Bain
+        # Capital" and the first version of this gate dropped it — the largest
+        # single loss it caused.
+        if _mentions_people(seller):
+            return None
+        pct = deal.get("seller_stake_pct")
+        # Being PE-backed is not being PE-owned. A fund trimming a minority
+        # stake leaves the promoters holding the rest, so there is still
+        # somebody to call. Only a company owned outright pays nobody but the
+        # fund's own investors. An unstated stake keeps the deal.
+        if not named and pct is not None and pct >= config.FUND_WHOLE_OWNERSHIP_PCT:
+            return (f"wholly fund-owned ({pct:.0f}% sold), no individual paid: "
+                    f"{seller[:50]}")
     return None
 
 

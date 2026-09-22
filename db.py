@@ -327,6 +327,11 @@ def init_db(path=DB_PATH):
         # individual | family | fund | company | government | unclear.
         # Written by stage 3 from the article, and the basis of the fund gate.
         conn.execute("ALTER TABLE deals ADD COLUMN seller_type TEXT")
+    if "seller_stake_pct" not in existing:
+        # Share of the COMPANY this sale covers, 0-100. The fund gate needs it:
+        # a fund trimming 1.6% is a different thing from a fund selling the
+        # business outright, and only the second one pays nobody.
+        conn.execute("ALTER TABLE deals ADD COLUMN seller_stake_pct REAL")
     if "dropped_reason" not in existing:
         # Set when a gate AFTER stage 3 rejects a deal that was already
         # created. The row stays — deleting it would lose the audit trail and
