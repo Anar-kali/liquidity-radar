@@ -1,6 +1,125 @@
 {
- "dealCount": 629,
+ "dealCount": 634,
  "deals": [
+  {
+   "amountCr": 711.0,
+   "amountRaw": "₹711 cr",
+   "company": "Embassy Juhu residential tower",
+   "confidence": "high",
+   "confirmed": false,
+   "createdAt": "2026-09-22T08:46:04.627156+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 957,
+   "individuals": [
+    "Dinesh Thakkar"
+   ],
+   "listed": false,
+   "oneLine": "Embassy sells its entire Juhu residential tower to Dinesh Thakkar for Rs 711 cr.",
+   "primaryOutlet": "Business Standard",
+   "seller": "Embassy",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-22T08:46:24.779672+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Abakkus Asset Manager",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-22T08:46:04.622999+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 956,
+   "individuals": [
+    "Sunil Singhania"
+   ],
+   "listed": false,
+   "oneLine": "Sunil Singhania-led Abakkus Asset Manager files IPO papers with SEBI.",
+   "primaryOutlet": "CNBC TV18",
+   "seller": "Sunil Singhania",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-22T08:46:20.535068+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 200.0,
+   "amountRaw": "₹200 crore",
+   "company": "Iris Global Services",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-22T08:46:04.610662+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 955,
+   "individuals": [
+    "Sanjiv Krishen",
+    "Kamini Talwar"
+   ],
+   "listed": false,
+   "oneLine": "Iris Global Services files IPO papers to raise Rs 200 crore via fresh issue.",
+   "primaryOutlet": "BusinessLine",
+   "seller": "Sanjiv Krishen and Kamini Talwar",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-22T08:46:16.802922+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": "1.5 crore shares",
+   "company": "Abakkus AMC",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-22T08:46:04.598499+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 954,
+   "individuals": [
+    "Sunil Singhania"
+   ],
+   "listed": false,
+   "oneLine": "Abakkus AMC filed IPO papers with SEBI consisting of an OFS of 1.5 crore shares.",
+   "primaryOutlet": "Moneycontrol.com",
+   "seller": "Sunil Singhania",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-22T08:46:12.748027+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Amtech Esters Limited",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-22T08:46:04.558342+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 953,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Amtech Esters filed a draft offer document with SEBI for an IPO.",
+   "primaryOutlet": "Prospectus",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-22T08:46:04.558342+00:00",
+   "updates": []
+  },
   {
    "amountCr": 3000.0,
    "amountRaw": "Rs 3,000 crore (from article)",
@@ -19660,6 +19779,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-22T07:16:16.928762+00:00",
- "totalDeals": 629
+ "generatedAt": "2026-09-22T08:46:24.779672+00:00",
+ "totalDeals": 634
 }

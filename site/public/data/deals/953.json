@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Amtech Esters Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-22T08:46:04.558342+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": "failed",
+ "id": 953,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Amtech Esters filed a draft offer document with SEBI for an IPO.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/amtech-esters-limited-prospectus_104640.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-22T08:46:04.585482+00:00",
+   "outlet": "Prospectus",
+   "resolvable": true,
+   "title": "Amtech Esters Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/amtech-esters-limited-prospectus_104640.html"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-09-22T08:46:04.558342+00:00"
+}

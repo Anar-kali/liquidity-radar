@@ -1,0 +1,35 @@
+{
+ "advisers": [],
+ "amountCr": 200.0,
+ "amountRaw": "₹200 crore",
+ "buyer": null,
+ "company": "Iris Global Services",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-22T08:46:04.610662+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": null,
+ "id": 955,
+ "individuals": [
+  "Sanjiv Krishen",
+  "Kamini Talwar"
+ ],
+ "listed": false,
+ "oneLine": "Iris Global Services files IPO papers to raise Rs 200 crore via fresh issue.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPOXdjTTFyLXRvNUs2cUhyRXE3Z2FfZUFlVGJKRmc4UzNHZHZWemRWOW1nMDdhVnB2Z1N4MHpLSnd2MTNxcFoxWnR1b3MybFlIcnJ5eHUzbnpXNXhTYjFKeUFzOUY5T0d3R3pEWXRiNWxOYldVa1NKY0txaDNUem5QMllXckpGWC11VGsxZFpKeGRfRHk0WGV1R29JYXdPMTRXVXZsX2tNQkxuRTRPeERlYXVwbGw4SFBISktYLVVaOUVkOVRlS2dNU2FqZzFadmJma3VmaEdjR0xhOGvSAeIBQVVfeXFMT25SamptRnZOZ1JVQU1rSG1uaTlVMVJRQjhGY0JYczZHTk9lTWxndDl4azRPdnAzNUpBMTFScDdwbFZnMWRoR1UtaDZlNEc4dUNVMDhoV1VOc1hfMm9JaGJCdE44TF9CQUJMNjZZT2hpaC13dFp1bmVtQUFsYTRLZGsxQVN2VjZwUFFGUDFvWFNnVjN2VHNyTVpoU1JjamFkUW1KOC1ET3V2SmwxZ2lJQmFlcmpteV9DWVhNTWtnQTF6YjBMcVVmWUItZHpwWXpndENydHNtVXE5RktMZmM1V2wxZw?oc=5",
+ "seller": "Sanjiv Krishen and Kamini Talwar",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-22T08:46:04.612039+00:00",
+   "outlet": "BusinessLine",
+   "resolvable": false,
+   "title": "Iris Global Services files IPO papers with SEBI; eyes ₹200 crore via fresh issue",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPOXdjTTFyLXRvNUs2cUhyRXE3Z2FfZUFlVGJKRmc4UzNHZHZWemRWOW1nMDdhVnB2Z1N4MHpLSnd2MTNxcFoxWnR1b3MybFlIcnJ5eHUzbnpXNXhTYjFKeUFzOUY5T0d3R3pEWXRiNWxOYldVa1NKY0txaDNUem5QMllXckpGWC11VGsxZFpKeGRfRHk0WGV1R29JYXdPMTRXVXZsX2tNQkxuRTRPeERlYXVwbGw4SFBISktYLVVaOUVkOVRlS2dNU2FqZzFadmJma3VmaEdjR0xhOGvSAeIBQVVfeXFMT25SamptRnZOZ1JVQU1rSG1uaTlVMVJRQjhGY0JYczZHTk9lTWxndDl4azRPdnAzNUpBMTFScDdwbFZnMWRoR1UtaDZlNEc4dUNVMDhoV1VOc1hfMm9JaGJCdE44TF9CQUJMNjZZT2hpaC13dFp1bmVtQUFsYTRLZGsxQVN2VjZwUFFGUDFvWFNnVjN2VHNyTVpoU1JjamFkUW1KOC1ET3V2SmwxZ2lJQmFlcmpteV9DWVhNTWtnQTF6YjBMcVVmWUItZHpwWXpndENydHNtVXE5RktMZmM1V2wxZw?oc=5"
+  }
+ ],
+ "synopsis": "Iris Global Services Ltd has filed draft papers with SEBI for an initial public offering to raise up to ₹200 crore via a fresh issue of equity shares. The IPO also includes an offer for sale of up to 5 crore equity shares by promoter selling shareholders Sanjiv Krishen and Kamini Talwar, who currently hold over 98 per cent stake in the company. Additionally, the New Delhi-based technology and IT distribution services provider plans to mobilise ₹40 crore through a pre-IPO placement, which would reduce the fresh issue size accordingly. Pantomath Capital Advisors is acting as the sole book running lead manager to the issue, and KFin Technologies is the registrar.",
+ "ticker": null,
+ "updatedAt": "2026-09-22T08:46:16.802922+00:00"
+}
