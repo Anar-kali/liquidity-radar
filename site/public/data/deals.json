@@ -1,6 +1,28 @@
 {
- "dealCount": 642,
+ "dealCount": 643,
  "deals": [
+  {
+   "amountCr": 826.0,
+   "amountRaw": "Rs 826 crore",
+   "company": "RHI Magnesita India",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-22T16:18:49.997269+00:00",
+   "dealType": "block deal",
+   "enrichmentState": null,
+   "id": 966,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Dalmia Bharat Refractories divests an 11.11% stake in RHI Magnesita for Rs 826 crore.",
+   "primaryOutlet": "The Economic Times",
+   "seller": "Dalmia Bharat Refractories",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "RHIM.NS",
+   "updatedAt": "2026-09-22T16:19:21.940294+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -20046,6 +20068,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-22T15:48:33.147528+00:00",
- "totalDeals": 642
+ "generatedAt": "2026-09-22T16:19:21.940294+00:00",
+ "totalDeals": 643
 }
