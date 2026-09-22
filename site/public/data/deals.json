@@ -1,6 +1,28 @@
 {
- "dealCount": 634,
+ "dealCount": 635,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "S D International",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-22T09:46:00.747257+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 958,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "S D International files IPO papers with SEBI for fundraising.",
+   "primaryOutlet": "Rediff MoneyWiz",
+   "seller": "a promoter",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-22T09:46:05.117391+00:00",
+   "updates": []
+  },
   {
    "amountCr": 711.0,
    "amountRaw": "₹711 cr",
@@ -19794,6 +19816,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-22T09:31:03.897422+00:00",
- "totalDeals": 634
+ "generatedAt": "2026-09-22T09:46:05.117391+00:00",
+ "totalDeals": 635
 }

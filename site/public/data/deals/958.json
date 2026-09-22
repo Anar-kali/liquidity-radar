@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "S D International",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-22T09:46:00.747257+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": null,
+ "id": 958,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "S D International files IPO papers with SEBI for fundraising.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOM1AwY3NLY2N5b24zWDloRENjMVR0SkVUNGhUZmM5SzVYcW5DV19OTzRmM0NsbUJBak5nQ05CWFRTVzU3VTdNY01ZQ0NON2dmRTlDZTVBV3ZvLU82cnlTM29ITjJMcUlXT2s0MlVnd3gxNFVZV3ByTXZQSWZmei1NeEhkcVViQnF5eFlUUmdDV1dBRXdONXZTa3E1eFliUmstOVNOTlB0dGhIZE03LVdfZDBR0gG3AUFVX3lxTE9XVFY3cllEVGprMGpUQkZ3RE5heHRHY01wYlV5TnJud3JIMGdzaVlYbndFV2dJbVpaN0xjLW9DcTZ0SFEwb1p0cjF6RkRZWkpRenFnb29jZE1IWEZ5aDJ2WXBJdTVlUHJvTWRUa3VVSkw4MnY3U2dMSTFFeTRaaHhqVDZ0XzAySF80ZFVsTWsxWEJTOGFnUjhoSDRiWlJteDg4Uk5ZMXhWakpQRWpzblBjXzlyeUlyaw?oc=5",
+ "seller": "a promoter",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-22T09:46:00.749968+00:00",
+   "outlet": "Rediff MoneyWiz",
+   "resolvable": false,
+   "title": "S D International Files IPO Papers with Sebi for Fundraising",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOM1AwY3NLY2N5b24zWDloRENjMVR0SkVUNGhUZmM5SzVYcW5DV19OTzRmM0NsbUJBak5nQ05CWFRTVzU3VTdNY01ZQ0NON2dmRTlDZTVBV3ZvLU82cnlTM29ITjJMcUlXT2s0MlVnd3gxNFVZV3ByTXZQSWZmei1NeEhkcVViQnF5eFlUUmdDV1dBRXdONXZTa3E1eFliUmstOVNOTlB0dGhIZE03LVdfZDBR0gG3AUFVX3lxTE9XVFY3cllEVGprMGpUQkZ3RE5heHRHY01wYlV5TnJud3JIMGdzaVlYbndFV2dJbVpaN0xjLW9DcTZ0SFEwb1p0cjF6RkRZWkpRenFnb29jZE1IWEZ5aDJ2WXBJdTVlUHJvTWRUa3VVSkw4MnY3U2dMSTFFeTRaaHhqVDZ0XzAySF80ZFVsTWsxWEJTOGFnUjhoSDRiWlJteDg4Uk5ZMXhWakpQRWpzblBjXzlyeUlyaw?oc=5"
+  }
+ ],
+ "synopsis": "Food packaging solutions provider S D International Ltd has filed preliminary draft papers with capital markets regulator Sebi to raise funds through an initial public offering. The proposed public issue comprises a fresh issue of up to 1.30 crore equity shares and an offer-for-sale of up to 35 lakh equity shares by a promoter, bringing the total offer size to up to 1.65 crore shares. Proceeds from the fresh issue are earmarked for debt payment, purchasing equipment and machinery, and general corporate purposes. Based in Gorakhpur, Uttar Pradesh, the company manufactures semi-rigid and rigid food packaging products for various end-use segments. Valmiki Leela Capital serves as the sole book-running lead manager for the issue, and KFIN Technologies is the registrar. The company's shares are proposed to be listed on the NSE and BSE.",
+ "ticker": null,
+ "updatedAt": "2026-09-22T09:46:05.117391+00:00"
+}
