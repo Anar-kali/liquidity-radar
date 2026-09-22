@@ -1,0 +1,36 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "L’Oreal India",
+ "company": "Onesto Labs",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-22T17:32:34.227138+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 967,
+ "individuals": [
+  "Rohit Chawla",
+  "Sifat Khurana",
+  "Vimal Bhola"
+ ],
+ "listed": false,
+ "oneLine": "L’Oreal India acquires personal care firm Onesto Labs.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOQ0ZOYXBxZ25FYVh1ZEZxUC14MF9tWTlXTEFqYWxBNmZZbTV6NXRkSEE4RUt2di03V3JXQ2YxLVpaSDljTGZRY3k4LUdTdjBQZkw5SzQ5Tm1TS2JTUGZrZkVhTFEzb0Z0bG5TS1NPYmFqOWNGVm4tUHJ5bjhtSnc3YzBGRTVzSlVoTlRESzc3TXJBQjdnX0lNMnh3dWNVZXg3U1RFUHUyckJKQmdScG53cXU1WmRNaG1NSlM4SGF5aGhEMWR1djU0N1JmY3ZnRk1IMWZQQlR0aUU0Y2paWHpvTWZaZ0J2RkxpdzIwTVhSbkkyUdIB8gFBVV95cUxOQ0ZOYXBxZ25FYVh1ZEZxUC14MF9tWTlXTEFqYWxBNmZZbTV6NXRkSEE4RUt2di03V3JXQ2YxLVpaSDljTGZRY3k4LUdTdjBQZkw5SzQ5Tm1TS2JTUGZrZkVhTFEzb0Z0bG5TS1NPYmFqOWNGVm4tUHJ5bjhtSnc3YzBGRTVzSlVoTlRESzc3TXJBQjdnX0lNMnh3dWNVZXg3U1RFUHUyckJKQmdScG53cXU1WmRNaG1NSlM4SGF5aGhEMWR1djU0N1JmY3ZnRk1IMWZQQlR0aUU0Y2paWHpvTWZaZ0J2RkxpdzIwTVhSbkkyUQ?oc=5",
+ "seller": "Onesto Labs Pvt Ltd",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-22T17:32:34.228662+00:00",
+   "outlet": "economictimes.com",
+   "resolvable": false,
+   "title": "CCI approves L’Oreal India’s acquisition of personal care firm Onesto Labs",
+   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOQ0ZOYXBxZ25FYVh1ZEZxUC14MF9tWTlXTEFqYWxBNmZZbTV6NXRkSEE4RUt2di03V3JXQ2YxLVpaSDljTGZRY3k4LUdTdjBQZkw5SzQ5Tm1TS2JTUGZrZkVhTFEzb0Z0bG5TS1NPYmFqOWNGVm4tUHJ5bjhtSnc3YzBGRTVzSlVoTlRESzc3TXJBQjdnX0lNMnh3dWNVZXg3U1RFUHUyckJKQmdScG53cXU1WmRNaG1NSlM4SGF5aGhEMWR1djU0N1JmY3ZnRk1IMWZQQlR0aUU0Y2paWHpvTWZaZ0J2RkxpdzIwTVhSbkkyUdIB8gFBVV95cUxOQ0ZOYXBxZ25FYVh1ZEZxUC14MF9tWTlXTEFqYWxBNmZZbTV6NXRkSEE4RUt2di03V3JXQ2YxLVpaSDljTGZRY3k4LUdTdjBQZkw5SzQ5Tm1TS2JTUGZrZkVhTFEzb0Z0bG5TS1NPYmFqOWNGVm4tUHJ5bjhtSnc3YzBGRTVzSlVoTlRESzc3TXJBQjdnX0lNMnh3dWNVZXg3U1RFUHUyckJKQmdScG53cXU1WmRNaG1NSlM4SGF5aGhEMWR1djU0N1JmY3ZnRk1IMWZQQlR0aUU0Y2paWHpvTWZaZ0J2RkxpdzIwTVhSbkkyUQ?oc=5"
+  }
+ ],
+ "synopsis": "The Competition Commission of India has approved L’Oréal India’s proposal to acquire a 100 per cent shareholding in personal care firm Onesto Labs, the parent company of digital-first platform Innovist. Innovist was founded in 2019 by Rohit Chawla, Sifat Khurana, and Vimal Bhola, and its brand portfolio includes Bare Anatomy, Chemist at Play, SunScoop, and Anecdote. Financial details of the transaction were not disclosed by the companies. Under the agreement, the founding team will continue to run the business as the brands join L'Oréal's Consumer Products Division portfolio.",
+ "ticker": null,
+ "updatedAt": "2026-09-22T17:33:15.144870+00:00"
+}
