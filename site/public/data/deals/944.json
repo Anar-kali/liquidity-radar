@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 2500.0,
+ "amountRaw": "Rs 2,500 crore",
+ "buyer": "Inox Clean Energy",
+ "company": "Athena Renewables",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-22T01:31:23.727889+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 944,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Inox Clean Energy nears Rs 2,500 crore acquisition of Actis-owned Athena Renewables.",
+ "primaryUrl": "https://economictimes.indiatimes.com/industry/renewables/inox-clean-energy-nears-rs-2500-crore-acquisition-of-actis-owned-athena-renewables/articleshow/134396656.cms",
+ "seller": "Actis",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-22T01:31:23.728931+00:00",
+   "outlet": "ET Corporate",
+   "resolvable": true,
+   "title": "Inox Clean Energy nears Rs 2,500 crore acquisition of Actis-owned Athena Renewables",
+   "url": "https://economictimes.indiatimes.com/industry/renewables/inox-clean-energy-nears-rs-2500-crore-acquisition-of-actis-owned-athena-renewables/articleshow/134396656.cms"
+  }
+ ],
+ "synopsis": "Inox Clean Energy is close to acquiring Athena Renewables from the UK-based fund Actis for an enterprise value of 2,500 crore rupees. An in-principle agreement has been reached between the parties. Athena Renewables operates four solar power plants with a combined capacity of more than 554 megawatts, including assets at the Rewa Ultra Mega Solar Park in Madhya Pradesh and the Ananthapuramu Ultra Mega Solar Park in Andhra Pradesh. The acquisition would increase Inox Clean Energy's total operational renewable energy generation capacity to nearly 5 gigawatts as the company prepares for a planned initial public offering. Actis previously appointed Kotak Mahindra Capital to manage the transaction.",
+ "ticker": null,
+ "updatedAt": "2026-09-22T01:31:51.947356+00:00"
+}

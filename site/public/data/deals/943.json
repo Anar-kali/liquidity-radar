@@ -1,0 +1,34 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Bharat Biotech",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-22T01:31:23.724629+00:00",
+ "dealType": "IPO-OFS",
+ "enrichmentState": null,
+ "id": 943,
+ "individuals": [
+  "Krishna Ella"
+ ],
+ "listed": false,
+ "oneLine": "Bharat Biotech founder Krishna Ella states the vaccine maker is exploring an IPO.",
+ "primaryUrl": "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/bharat-biotech-is-back-in-action-after-covid-reset-krishna-ella-on-tb-vaccine-nipah-ebola-shots-gene-therapy-ipo-plans-whats-next/articleshow/134397339.cms",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-22T01:31:23.725616+00:00",
+   "outlet": "ET Corporate",
+   "resolvable": true,
+   "title": "Bharat Biotech is 'back in action' after Covid reset: Krishna Ella on TB vaccine, Nipah-Ebola shots, gene therapy, IPO plans &amp; what’s next",
+   "url": "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/bharat-biotech-is-back-in-action-after-covid-reset-krishna-ella-on-tb-vaccine-nipah-ebola-shots-gene-therapy-ipo-plans-whats-next/articleshow/134397339.cms"
+  }
+ ],
+ "synopsis": "Bharat Biotech founder Krishna Ella stated that the vaccine maker is exploring an initial public offering to fund new therapies, such as monoclonal antibodies and cell and gene therapy, and potential acquisitions. Ella noted that the debt-free company currently has around Rs 2,000 crore in revenue. The company recently completed a two-year post-Covid reset and is advancing programs for tuberculosis, Nipah, Ebola, chikungunya, malaria, Zika, and antimicrobial resistance. Raches Ella is looking after human vaccines and gene therapy, while Jalachari Ella is managing the veterinary side.",
+ "ticker": null,
+ "updatedAt": "2026-09-22T01:31:47.911213+00:00"
+}

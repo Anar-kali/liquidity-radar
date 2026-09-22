@@ -1,0 +1,34 @@
+{
+ "advisers": [],
+ "amountCr": 155.92,
+ "amountRaw": "Rs 155.92 crore (from article)",
+ "buyer": "Goldman Sachs Investments Mauritius I and AT Trade Overseas",
+ "company": "Lords Mark Industries",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-22T01:31:23.678399+00:00",
+ "dealType": "promoter sale",
+ "enrichmentState": null,
+ "id": 938,
+ "individuals": [
+  "Sachidanand Hariram Upadhyay"
+ ],
+ "listed": true,
+ "oneLine": "Promoter sale of shares in Lords Mark Industries.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMWY5N3Azdk9TS0JQa2VJOFJUd1ZmLWdlcm1IUmhKZW5uLU9BOXhicWp5b0RueVFsSW9EOHdYY3FMUDRsWkVNUUZycW5YbmpCQlhuaHBnV01nUUd6X0hLbG54WE9fVzBRU0tmSldITVphYm42ZHRuZk5kTl9oUVpZLWZBSzI?oc=5",
+ "seller": "Sachidanand Hariram Upadhyay",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-22T01:31:23.679672+00:00",
+   "outlet": "Univest",
+   "resolvable": false,
+   "title": "Lords Mark Industries Share Price: Promoter Sale",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMWY5N3Azdk9TS0JQa2VJOFJUd1ZmLWdlcm1IUmhKZW5uLU9BOXhicWp5b0RueVFsSW9EOHdYY3FMUDRsWkVNUUZycW5YbmpCQlhuaHBnV01nUUd6X0hLbG54WE9fVzBRU0tmSldITVphYm42ZHRuZk5kTl9oUVpZLWZBSzI?oc=5"
+  }
+ ],
+ "synopsis": "Lords Mark Industries promoter Sachidanand Hariram Upadhyay sold a 4.32 percent stake in the company, amounting to 1.84 crore shares across two tranches for a combined Rs 155.92 crore. The shares were sold at prices ranging between Rs 84 and Rs 84.86 per share. On the buying side, Goldman Sachs Investments Mauritius I acquired 51 lakh shares for Rs 42.84 crore, and Hisaria Group-owned AT Trade Overseas bought 30 lakh shares for Rs 25.2 crore, with both buyers purchasing their allotments at Rs 84 apiece. The transaction was updated on September 21, 2026.",
+ "ticker": "501261.BO",
+ "updatedAt": "2026-09-22T01:31:27.930797+00:00"
+}

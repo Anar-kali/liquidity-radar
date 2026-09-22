@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Bandhan Bank",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-22T01:31:23.684726+00:00",
+ "dealType": "promoter sale",
+ "enrichmentState": null,
+ "id": 939,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Bandhan Bank promoter to gradually reduce stake to meet RBI norms.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPamplMnZCWUJYMTVEUTEydUxlcVhfNnBieEpqZ1FSRXV1d3VLS3dZc1ExanUyYzNoemFUdGo2VkRJd25fb0t0VUxsLUwyOFFMdURwLWZCYnhqMjVtT0tKY0d3MlN4VDV4ckJuc1RkRDE1UHRiLVBEQzZNdGV2MlQ3MVo1bzdFVmJNeHBQZjFvWlFwd3FJdWZOWkRlLWtVRFNBckx6b0RlZnlybmFjMzluRUNVZkZyUG1rWS1sdWJmRGlVVmRIdy1VV2JUdjlwckliTm9icm1pRF9sV05WRWh3SE13NW9kY2V5MWNMd9IB7AFBVV95cUxPamplMnZCWUJYMTVEUTEydUxlcVhfNnBieEpqZ1FSRXV1d3VLS3dZc1ExanUyYzNoemFUdGo2VkRJd25fb0t0VUxsLUwyOFFMdURwLWZCYnhqMjVtT0tKY0d3MlN4VDV4ckJuc1RkRDE1UHRiLVBEQzZNdGV2MlQ3MVo1bzdFVmJNeHBQZjFvWlFwd3FJdWZOWkRlLWtVRFNBckx6b0RlZnlybmFjMzluRUNVZkZyUG1rWS1sdWJmRGlVVmRIdy1VV2JUdjlwckliTm9icm1pRF9sV05WRWh3SE13NW9kY2V5MWNMdw?oc=5",
+ "seller": "Bandhan Financial Services",
+ "sizeBand": null,
+ "sizeSource": "mcap_plausible",
+ "sources": [
+  {
+   "attachedAt": "2026-09-22T01:31:23.685782+00:00",
+   "outlet": "economictimes.com",
+   "resolvable": false,
+   "title": "Bandhan Bank promoter to gradually reduce stake to meet RBI norms",
+   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPamplMnZCWUJYMTVEUTEydUxlcVhfNnBieEpqZ1FSRXV1d3VLS3dZc1ExanUyYzNoemFUdGo2VkRJd25fb0t0VUxsLUwyOFFMdURwLWZCYnhqMjVtT0tKY0d3MlN4VDV4ckJuc1RkRDE1UHRiLVBEQzZNdGV2MlQ3MVo1bzdFVmJNeHBQZjFvWlFwd3FJdWZOWkRlLWtVRFNBckx6b0RlZnlybmFjMzluRUNVZkZyUG1rWS1sdWJmRGlVVmRIdy1VV2JUdjlwckliTm9icm1pRF9sV05WRWh3SE13NW9kY2V5MWNMd9IB7AFBVV95cUxPamplMnZCWUJYMTVEUTEydUxlcVhfNnBieEpqZ1FSRXV1d3VLS3dZc1ExanUyYzNoemFUdGo2VkRJd25fb0t0VUxsLUwyOFFMdURwLWZCYnhqMjVtT0tKY0d3MlN4VDV4ckJuc1RkRDE1UHRiLVBEQzZNdGV2MlQ3MVo1bzdFVmJNeHBQZjFvWlFwd3FJdWZOWkRlLWtVRFNBckx6b0RlZnlybmFjMzluRUNVZkZyUG1rWS1sdWJmRGlVVmRIdy1VV2JUdjlwckliTm9icm1pRF9sV05WRWh3SE13NW9kY2V5MWNMdw?oc=5"
+  }
+ ],
+ "synopsis": "Bandhan Financial Services, the promoter of Bandhan Bank, plans to gradually reduce its stake in the bank to conform to RBI regulations requiring a shareholding of 26% by 2030. Chairman Chandra Shekhar Ghosh stated that there are no plans for a bulk offloading in one go, with recent share sales having occurred on the open market to lower holdings from 39.74% at the end of 2025 down to 37.54% by the end of June. Additionally, the promoter has proposed a stock split dividing each equity share of face value 10 INR into five shares of face value 2 INR each, which shareholders are set to review at the annual general meeting scheduled for September 22.",
+ "ticker": "BANDHANBNK.NS",
+ "updatedAt": "2026-09-22T01:31:31.896968+00:00"
+}

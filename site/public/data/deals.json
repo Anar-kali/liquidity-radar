@@ -1,6 +1,174 @@
 {
- "dealCount": 767,
+ "dealCount": 774,
  "deals": [
+  {
+   "amountCr": 2500.0,
+   "amountRaw": "Rs 2,500 crore",
+   "company": "Athena Renewables",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-22T01:31:23.727889+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 944,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Inox Clean Energy nears Rs 2,500 crore acquisition of Actis-owned Athena Renewables.",
+   "primaryOutlet": "ET Corporate",
+   "seller": "Actis",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-22T01:31:51.947356+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Bharat Biotech",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-22T01:31:23.724629+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 943,
+   "individuals": [
+    "Krishna Ella"
+   ],
+   "listed": false,
+   "oneLine": "Bharat Biotech founder Krishna Ella states the vaccine maker is exploring an IPO.",
+   "primaryOutlet": "ET Corporate",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-22T01:31:47.911213+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "DFM Foods",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-22T01:31:23.700868+00:00",
+   "dealType": "PE secondary",
+   "enrichmentState": null,
+   "id": 942,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Advent International launches sale of DFM Foods.",
+   "primaryOutlet": "Moneycontrol.com",
+   "seller": "Advent International",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-22T01:31:43.654417+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 290.0,
+   "amountRaw": "Rs 280-295 crore",
+   "company": "National Stock Exchange",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-22T01:31:23.697263+00:00",
+   "dealType": "PE secondary",
+   "enrichmentState": null,
+   "id": 941,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Soach Global set for gains in partial exit from National Stock Exchange.",
+   "primaryOutlet": "indiagazette.com",
+   "seller": "Soach Global",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 2,
+   "ticker": null,
+   "updatedAt": "2026-09-22T01:31:40.011248+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-09-22T01:31:23.719269+00:00",
+     "title": "Soach Global to partially exit NSE after decade-long investment"
+    }
+   ]
+  },
+  {
+   "amountCr": 287.0,
+   "amountRaw": "Rs 287 Cr",
+   "company": "AceVector",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-22T01:31:23.691846+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 940,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "AceVector files RHP for Rs 287 Cr fresh issue and IPO.",
+   "primaryOutlet": "Entrackr",
+   "seller": "Starfish I Pte. Ltd., Nexus India Direct Investments II, Nexus Opportunity Fund, Nexus Ventures III, SoftBank, Foxconn",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 2,
+   "ticker": null,
+   "updatedAt": "2026-09-22T01:31:36.081701+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-09-22T01:31:23.694893+00:00",
+     "title": "Snapdeal parent AceVector to launch IPO on September 25, cuts offer size; fresh issue at Rs 287 crore"
+    }
+   ]
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Bandhan Bank",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-22T01:31:23.684726+00:00",
+   "dealType": "promoter sale",
+   "enrichmentState": null,
+   "id": 939,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Bandhan Bank promoter to gradually reduce stake to meet RBI norms.",
+   "primaryOutlet": "economictimes.com",
+   "seller": "Bandhan Financial Services",
+   "sizeBand": null,
+   "sizeSource": "mcap_plausible",
+   "sourceCount": 1,
+   "ticker": "BANDHANBNK.NS",
+   "updatedAt": "2026-09-22T01:31:31.896968+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 155.92,
+   "amountRaw": "Rs 155.92 crore (from article)",
+   "company": "Lords Mark Industries",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-22T01:31:23.678399+00:00",
+   "dealType": "promoter sale",
+   "enrichmentState": null,
+   "id": 938,
+   "individuals": [
+    "Sachidanand Hariram Upadhyay"
+   ],
+   "listed": true,
+   "oneLine": "Promoter sale of shares in Lords Mark Industries.",
+   "primaryOutlet": "Univest",
+   "seller": "Sachidanand Hariram Upadhyay",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "501261.BO",
+   "updatedAt": "2026-09-22T01:31:27.930797+00:00",
+   "updates": []
+  },
   {
    "amountCr": 3520.0,
    "amountRaw": "$400 Million",
@@ -106,13 +274,17 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-09-21T09:31:29.188273+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-21T11:31:22.960310+00:00",
      "title": "Varmora Granito IPO: From Issue Details to Financials, Here’s What You Need to Know"
+    },
+    {
+     "attachedAt": "2026-09-22T01:31:23.681739+00:00",
+     "title": "Can Varmora Granito IPO deliver long-term growth for high-risk investors?"
     }
    ]
   },
@@ -212,8 +384,8 @@
    "updates": []
   },
   {
-   "amountCr": 1092.0,
-   "amountRaw": "Rs 1,092 Cr",
+   "amountCr": 5985.0,
+   "amountRaw": "Rs 5,985 cr",
    "company": "Moneyview Limited",
    "confidence": "medium",
    "confirmed": false,
@@ -230,9 +402,9 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 6,
+   "sourceCount": 7,
    "ticker": null,
-   "updatedAt": "2026-09-21T13:31:09.973369+00:00",
+   "updatedAt": "2026-09-22T01:31:23.710253+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-21T07:31:19.194983+00:00",
@@ -253,6 +425,10 @@
     {
      "attachedAt": "2026-09-21T13:31:09.972234+00:00",
      "title": "Moneyview Cuts IPO Size to Rs 1,092 Cr Amid Strong Profits"
+    },
+    {
+     "attachedAt": "2026-09-22T01:31:23.709307+00:00",
+     "title": "Moneyview targets Rs 5,985 cr IPO valuation, 20% below 2022 round"
     }
    ]
   },
@@ -348,7 +524,7 @@
    "seller": "Platinum Jasmine",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 5,
+   "sourceCount": 6,
    "ticker": "LENSKART.NS",
    "updatedAt": "2026-09-21T05:31:19.226989+00:00",
    "updates": [
@@ -367,6 +543,10 @@
     {
      "attachedAt": "2026-09-21T13:31:09.965935+00:00",
      "title": "Lenskart Solutions Block Deal Puts Shareholding Changes in Focus"
+    },
+    {
+     "attachedAt": "2026-09-22T01:31:23.717306+00:00",
+     "title": "ADIA Sells Lenskart Shares Worth ₹2,390.6 Cr"
     }
    ]
   },
@@ -1072,7 +1252,7 @@
    "seller": "Elevate Campuses",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 4,
+   "sourceCount": 5,
    "ticker": null,
    "updatedAt": "2026-09-18T01:31:45.277901+00:00",
    "updates": [
@@ -1087,6 +1267,10 @@
     {
      "attachedAt": "2026-09-21T01:36:16.386286+00:00",
      "title": "Elevate Campuses Rs 2100 Crore IPO From Sept.23"
+    },
+    {
+     "attachedAt": "2026-09-22T01:31:23.704229+00:00",
+     "title": "Student housing platform Elevate Campuses to raise ₹2,100 crore via IPO"
     }
    ]
   },
@@ -22253,6 +22437,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-21T13:31:09.973369+00:00",
- "totalDeals": 767
+ "generatedAt": "2026-09-22T01:31:51.947356+00:00",
+ "totalDeals": 774
 }
