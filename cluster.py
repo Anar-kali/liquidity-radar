@@ -47,10 +47,29 @@ def normalise_company(name):
 
 
 def _strip_name(name):
-    """Drop parentheticals, anything after a comma, and descriptive suffixes."""
+    """Drop descriptive parentheticals, anything after a comma, and suffixes.
+
+    A ONE-WORD parenthetical is kept, because it is an alias rather than a
+    description: "National Stock Exchange (NSE)" and "NSE (National Stock
+    Exchange)" are the same company written two ways, and dropping the bracket
+    in both directions left them with disjoint token sets —
+
+        "National Stock Exchange (NSE)"  -> {exchange, national, stock}
+        "NSE (National Stock Exchange)"  -> {nse}
+
+    which can never match, so NSE's single IPO spread across 16 separate
+    cards. Keeping the one-word form gives the first name the token {nse} as
+    well, and containment does the rest.
+
+    Multi-word parentheticals are still dropped, which is what this was for:
+    "(a unit of Ashok Iron Works)" describes a DIFFERENT entity and folding
+    its tokens in would merge a subsidiary's deal into its parent's.
+    """
     if not name:
         return ""
-    s = re.sub(r"\([^)]*\)", " ", name)   # remove "(Ashok Iron Works ...)"
+    # Keep a one-word alias, drop anything longer.
+    s = re.sub(r"\(\s*([^)\s]+)\s*\)", r" \1 ", name)   # "(NSE)" -> " NSE "
+    s = re.sub(r"\([^)]*\)", " ", s)      # "(a unit of Ashok Iron Works)" -> " "
     s = s.split(",")[0]                     # remove ", a unit of ..."
     m = _TRAIL_MARKERS.search(s)
     if m:
@@ -151,11 +170,37 @@ def _age_hours(created_at_iso):
     return (datetime.now(timezone.utc) - dt).total_seconds() / 3600.0
 
 
-def _find_match(new_tokens, new_amount):
+def is_ipo_type(deal_type):
+    """Is this the kind of deal whose story runs for months?
+
+    DRHP, RHP, IPO-OFS and the rest are one listing covered in stages over one
+    to three months. Everything else — a block deal, a promoter sale — is a
+    single event, and must keep the short window.
+    """
+    t = (deal_type or "").strip().lower()
+    return any(k in t for k in config.IPO_DEAL_TYPES)
+
+
+def _find_match(new_tokens, new_amount, new_type=None):
     """Return the first open deal this item belongs to, or None."""
-    for cand in db.deals_in_window(config.AMOUNT_WINDOW_HOURS):  # newest first
+    new_is_ipo = is_ipo_type(new_type)
+    # Look back as far as the longest window any path might use.
+    lookback = max(config.AMOUNT_WINDOW_HOURS,
+                   config.IPO_WINDOW_HOURS if new_is_ipo else 0)
+    for cand in db.deals_in_window(lookback):  # newest first
         age = _age_hours(cand.get("created_at"))
         cand_tokens = tokens(cand.get("company", ""))
+        # IPO path — the same listing, covered again weeks later. Requires BOTH
+        # sides to be IPO-type: a block deal by the same company is a different
+        # event with different people getting paid, and folding it in would
+        # hide a real lead inside a stale listing card.
+        if (
+            new_is_ipo
+            and age <= config.IPO_WINDOW_HOURS
+            and is_ipo_type(cand.get("deal_type"))
+            and token_subset_match(new_tokens, cand_tokens)
+        ):
+            return cand
         # Name path — containment, within the 72h window.
         if age <= config.DEAL_WINDOW_HOURS and token_subset_match(new_tokens, cand_tokens):
             return cand
@@ -284,7 +329,7 @@ def process(item, result, confirmed=False):
     title = item.get("title", "")
     url = item.get("url", "")
 
-    match = _find_match(new_tokens, new_amount)
+    match = _find_match(new_tokens, new_amount, result.get("deal_type"))
 
     if match is None:
         deal = {

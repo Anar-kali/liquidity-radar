@@ -499,12 +499,48 @@ DEAL_WINDOW_HOURS = 72
 AMOUNT_WINDOW_HOURS = 168      # 7 days
 AMOUNT_MATCH_TOL = 0.05        # 5%
 
+# --------------------------------------------------------------------------
+# IPO CONSOLIDATION — one company's listing is ONE story, not eight cards.
+#
+# An IPO runs DRHP -> SEBI nod -> RHP -> price band -> listing over one to
+# three months, and each step is covered separately. Against a 72-hour window
+# every step became a new card: 43% of all deals are IPO-type, 74 companies had
+# more than one card, and 107 cards were the same story repeating. NSE alone
+# had 16 (helped by the parenthesis bug fixed in cluster._strip_name).
+#
+# Measured on the real gaps between consecutive cards for the same IPO
+# (n=107): median 6 days, p75 11, p90 21, max 47. 81% of them exceeded the
+# 72-hour window, which is why they split.
+#
+#   a 30-day window joins  97% of those gaps
+#   a 45-day window joins  99%
+#   a 60-day window joins 100%
+#
+# 60 days it is: it covers every gap observed and matches the real filing
+# lifecycle, and a company that withdraws and refiles months later still gets
+# a fresh card rather than being folded into a stale one.
+#
+# Applies ONLY when BOTH sides are IPO-type (see cluster._is_ipo). A block deal
+# or promoter sale by the same company must never be swallowed into its IPO
+# cluster — those are different events with different people getting paid, and
+# an over-long window is only safe because it is this narrow.
+# --------------------------------------------------------------------------
+IPO_WINDOW_HOURS = 1440        # 60 days
+IPO_DEAL_TYPES = ("drhp filing", "ipo-ofs", "ipo-drhp", "ipo")
+
 # Corporate stopwords dropped when tokenising company names for clustering.
 CLUSTER_STOPWORDS = {
     "private", "limited", "ltd", "pvt", "inc", "corp", "corporation",
     "technologies", "technology", "industries", "enterprises", "group",
     "holdings", "india", "company", "co", "and", "the", "engineering",
     "services", "solutions",
+    # Placeholder, not an identifier. Stage 2 writes names like "Auto Ancillary
+    # (unnamed)" and "Fintech Company (unnamed)" when an article withholds the
+    # company. Since one-word parentheticals became aliases, a deal named only
+    # "(unnamed)" would reduce to {unnamed} and, by containment, match every
+    # other unnamed one. Nothing in the database does that today; this is here
+    # so nothing ever can.
+    "unnamed",
 }
 
 # A browser-like User-Agent, needed by BSE and NSE.
