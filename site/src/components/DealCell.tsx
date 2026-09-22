@@ -49,6 +49,7 @@ export function DealCell({
   now: number;
 }) {
   const [hover, setHover] = useState(false);
+  const [pressed, setPressed] = useState(false);
   const prov = provenanceOf(deal);
   const people = peopleLabel(deal.individuals);
 
@@ -60,8 +61,21 @@ export function DealCell({
         onClick={onOpen}
         onKeyDown={(e) => (e.key === "Enter" || e.key === " ") && (e.preventDefault(), onOpen())}
         onMouseEnter={() => setHover(true)}
-        onMouseLeave={() => setHover(false)}
-        style={{ padding: "17px 16px", cursor: "pointer", background: hover ? "var(--lr-hover)" : "transparent" }}
+        onMouseLeave={() => {
+          setHover(false);
+          setPressed(false);
+        }}
+        onMouseDown={() => setPressed(true)}
+        onMouseUp={() => setPressed(false)}
+        onTouchStart={() => setPressed(true)}
+        onTouchEnd={() => setPressed(false)}
+        style={{
+          padding: "17px 16px",
+          cursor: "pointer",
+          background: pressed || hover ? "var(--lr-hover)" : "transparent",
+          transform: pressed ? "scale(0.99)" : "scale(1)",
+          transition: "background 120ms ease, transform 120ms ease",
+        }}
       >
         <div style={{ display: "flex", alignItems: "center", gap: 9 }}>
           <span
@@ -114,6 +128,7 @@ export function DealCell({
         <div style={{ marginTop: 12, display: "flex", alignItems: "flex-end", gap: 12 }}>
           <div style={amtStyle(prov, 20)}>{amountLabel(deal)}</div>
           <div
+            title={provenanceNote(deal, deal.primaryOutlet)}
             style={{
               marginLeft: "auto",
               textAlign: "right",
@@ -122,8 +137,9 @@ export function DealCell({
               letterSpacing: "0.08em",
               textTransform: "uppercase",
               color: "var(--lr-faint)",
-              lineHeight: 1.4,
+              lineHeight: 1.5,
               maxWidth: "44%",
+              fontVariantNumeric: "tabular-nums",
             }}
           >
             {provenanceNote(deal, deal.primaryOutlet)}
@@ -160,6 +176,7 @@ export function DealCell({
         >
           {people && (
             <span
+              title={people}
               style={{
                 color: "var(--lr-accent-text)",
                 letterSpacing: 0,

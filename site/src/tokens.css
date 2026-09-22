@@ -108,7 +108,7 @@ body,
   --lr-inset: color-mix(in srgb, var(--color-neutral-100) 9%, #201e1d);
   --lr-text: var(--color-neutral-100);
   --lr-muted: var(--color-neutral-300);
-  --lr-faint: var(--color-neutral-500);
+  --lr-faint: var(--color-neutral-400);
   --lr-line: color-mix(in srgb, var(--color-neutral-100) 32%, transparent);
   --lr-line-soft: color-mix(in srgb, var(--color-neutral-100) 15%, transparent);
   --lr-hover: color-mix(in srgb, var(--color-neutral-100) 6%, transparent);

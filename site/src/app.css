@@ -48,6 +48,13 @@
   outline-offset: 2px;
 }
 
+/* Chips / sort stay keyboard-accessible even though they use inline active styles */
+.lr-chips button:focus-visible,
+.lr-sort button:focus-visible {
+  outline: 2px solid var(--lr-accent);
+  outline-offset: 2px;
+}
+
 /* The generic link colour must not out-specify the coverage-row reset — the
    handoff flags this as a gotcha. Scoped so a.lr-src keeps `inherit`. */
 .lr a:not(.lr-src) {
@@ -111,6 +118,13 @@
   border-bottom: 1px solid var(--lr-line-soft);
 }
 
+/* Hover feels smoother with a short background fade — no layout shift */
+.lr-cell,
+.lr-src,
+.lr-digest [role="button"] {
+  transition: background-color 120ms ease;
+}
+
 /* ── controls ─────────────────────────────────────────────────────────── */
 
 /* One continuous strip: outer border, each button divided by a left border,
@@ -120,6 +134,8 @@
   padding: 0 16px;
   overflow-x: auto;
   scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: contain;
 }
 .lr-chips::-webkit-scrollbar {
   width: 0;
@@ -161,6 +177,8 @@
   overflow: auto;
   background: var(--lr-bg);
   animation: lrpanel 0.2s ease-out;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
 }
 
 /* A full-screen panel has nothing to dim, so the scrim is desktop-only. */
@@ -251,5 +269,19 @@
 
   .lr-scrim {
     display: block;
+  }
+}
+
+/* ── reduced motion ─────────────────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  .lr-sheet {
+    animation: none !important;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
 }

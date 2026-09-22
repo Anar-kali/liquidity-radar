@@ -72,6 +72,7 @@ export function PatternSection({
             key={a.id}
             role="button"
             tabIndex={0}
+            title={a.person}
             onClick={() => onOpen(a)}
             onKeyDown={(e) => (e.key === "Enter" || e.key === " ") && (e.preventDefault(), onOpen(a))}
             onMouseEnter={(e) => (e.currentTarget.style.background = "var(--lr-hover)")}

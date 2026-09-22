@@ -490,6 +490,13 @@ export default function App({
               onChange={(e) => setQ(e.target.value)}
               placeholder="Company, person, entity"
               aria-label="Search deals"
+              onFocus={(e) => {
+                e.currentTarget.style.borderColor = "var(--lr-accent)";
+                e.currentTarget.style.outline = "none";
+              }}
+              onBlur={(e) => {
+                e.currentTarget.style.borderColor = "var(--lr-line-soft)";
+              }}
               style={{
                 width: "100%",
                 minHeight: 46,
@@ -501,6 +508,7 @@ export default function App({
                 background: "var(--lr-inset)",
                 border: "1px solid var(--lr-line-soft)",
                 borderRadius: 0,
+                outline: "none",
               }}
             />
             <div
@@ -550,6 +558,8 @@ export default function App({
               <button
                 key={o.k}
                 type="button"
+                aria-pressed={sort === o.k}
+                title={`Sort by ${o.label.toLowerCase()}`}
                 onClick={() => setSort(o.k)}
                 style={{
                   fontFamily: "var(--font-heading)",
@@ -901,6 +911,8 @@ export default function App({
         <button
           type="button"
           onClick={openFilters}
+          aria-label="Open filters"
+          title={nFilters ? `${nFilters} filters active — open filter sheet` : "Open filters"}
           style={{
             flex: 1,
             minHeight: 56,

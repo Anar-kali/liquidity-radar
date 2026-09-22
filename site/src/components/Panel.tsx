@@ -21,13 +21,6 @@ import {
 } from "../data/view";
 import { X } from "./icons";
 
-const GATED_PLACEHOLDER = [
-  { name: "Promoter family trust", stake: "41.20%", pledged: "0.00%", qoq: "−1.4" },
-  { name: "Founder (individual)", stake: "12.80%", pledged: "2.10%", qoq: "−0.6" },
-  { name: "Family holding vehicle", stake: "7.35%", pledged: "0.00%", qoq: "0.0" },
-  { name: "Promoter group — others", stake: "3.90%", pledged: "0.00%", qoq: "+0.2" },
-];
-
 const sectionLabel: React.CSSProperties = {
   fontSize: 10.5,
   fontWeight: 600,
@@ -64,6 +57,7 @@ export function Panel({ deal, onClose, now }: { deal: Deal; onClose: () => void;
 
   return (
     <>
+      <style>{`.lr-src:focus-visible{outline:2px solid var(--lr-accent);outline-offset:2px;background:var(--lr-hover)}.lr-src:focus{outline:none}.lr-sheet button:focus-visible{outline:2px solid var(--lr-accent);outline-offset:2px}`}</style>
       <div
         className="lr-scrim"
         onClick={onClose}
@@ -302,7 +296,7 @@ export function Panel({ deal, onClose, now }: { deal: Deal; onClose: () => void;
             </div>
           )}
 
-          <div style={{ marginTop: 8 }}>
+          <div style={{ marginTop: 14 }}>
             {shown.map((s, i) => {
               const link = linkFor(s);
               return (
@@ -398,91 +392,6 @@ export function Panel({ deal, onClose, now }: { deal: Deal; onClose: () => void;
             interstitial. Marked accordingly rather than promising a page we can't deliver.
           </div>
 
-          <div style={rule} />
-
-          {/* ── gated company profile ───────────────────────────────── */}
-          <div style={{ border: "1px solid var(--lr-line-soft)", padding: 16 }}>
-            <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
-              <div style={{ ...sectionLabel, color: "var(--lr-text)", fontFamily: "var(--font-heading)", fontWeight: 800 }}>
-                Company profile
-              </div>
-              <span
-                style={{
-                  marginLeft: "auto",
-                  fontSize: 10,
-                  fontWeight: 800,
-                  letterSpacing: "0.1em",
-                  textTransform: "uppercase",
-                  padding: "3px 7px",
-                  background: "var(--lr-accent)",
-                  color: "var(--lr-on-accent)",
-                }}
-              >
-                Locked
-              </span>
-            </div>
-            <div style={{ marginTop: 12, fontSize: 13.5, lineHeight: 1.5, color: "var(--lr-muted)" }}>
-              Promoter shareholding, pledges and quarter-on-quarter change
-            </div>
-            <div
-              style={{
-                marginTop: 14,
-                display: "grid",
-                gridTemplateColumns: "minmax(0,1fr) 64px 64px 56px",
-                gap: 8,
-                paddingBottom: 8,
-                borderBottom: "2px solid var(--lr-line)",
-                ...microLabel,
-              }}
-            >
-              <div>Holder</div>
-              <div style={{ textAlign: "right" }}>Stake</div>
-              <div style={{ textAlign: "right" }}>Pledged</div>
-              <div style={{ textAlign: "right" }}>QoQ</div>
-            </div>
-            <div aria-hidden style={{ filter: "blur(4.5px)", opacity: 0.5, userSelect: "none", pointerEvents: "none" }}>
-              {GATED_PLACEHOLDER.map((g) => (
-                <div
-                  key={g.name}
-                  style={{
-                    display: "grid",
-                    gridTemplateColumns: "minmax(0,1fr) 64px 64px 56px",
-                    gap: 8,
-                    fontSize: 12.5,
-                    padding: "7px 0",
-                    fontVariantNumeric: "tabular-nums",
-                  }}
-                >
-                  <div>{g.name}</div>
-                  <div style={{ textAlign: "right" }}>{g.stake}</div>
-                  <div style={{ textAlign: "right" }}>{g.pledged}</div>
-                  <div style={{ textAlign: "right" }}>{g.qoq}</div>
-                </div>
-              ))}
-            </div>
-            <button
-              type="button"
-              style={{
-                marginTop: 14,
-                width: "100%",
-                minHeight: 46,
-                fontFamily: "var(--font-heading)",
-                fontWeight: 800,
-                fontSize: 12,
-                letterSpacing: "0.08em",
-                textTransform: "uppercase",
-                cursor: "pointer",
-                border: 0,
-                background: "var(--lr-accent)",
-                color: "var(--lr-on-accent)",
-              }}
-            >
-              Unlock company profile
-            </button>
-            <div style={{ marginTop: 10, fontSize: 11, color: "var(--lr-faint)" }}>
-              Shareholding data is not wired yet — this is a placeholder.
-            </div>
-          </div>
         </div>
       </div>
     </>

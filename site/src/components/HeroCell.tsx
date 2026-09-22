@@ -30,6 +30,7 @@ export function HeroCell({
   now: number;
 }) {
   const [hover, setHover] = useState(false);
+  const [pressed, setPressed] = useState(false);
   const prov = provenanceOf(deal);
   const raw = rawPhrase(deal);
   const people = peopleLabel(deal.individuals);
@@ -41,12 +42,21 @@ export function HeroCell({
       onClick={onOpen}
       onKeyDown={(e) => (e.key === "Enter" || e.key === " ") && (e.preventDefault(), onOpen())}
       onMouseEnter={() => setHover(true)}
-      onMouseLeave={() => setHover(false)}
+      onMouseLeave={() => {
+        setHover(false);
+        setPressed(false);
+      }}
+      onMouseDown={() => setPressed(true)}
+      onMouseUp={() => setPressed(false)}
+      onTouchStart={() => setPressed(true)}
+      onTouchEnd={() => setPressed(false)}
       style={{
         padding: "20px 16px 22px",
-        background: hover ? "var(--lr-hover)" : "var(--lr-panel)",
+        background: pressed || hover ? "var(--lr-hover)" : "var(--lr-panel)",
         borderBottom: "2px solid var(--lr-line)",
         cursor: "pointer",
+        transform: pressed ? "scale(0.99)" : "scale(1)",
+        transition: "background 120ms ease, transform 120ms ease",
       }}
     >
       <div style={{ display: "flex", alignItems: "center", gap: 10, flexWrap: "wrap" }}>
@@ -147,6 +157,7 @@ export function HeroCell({
 
       {raw && (
         <div
+          title={raw}
           style={{
             marginTop: 16,
             padding: "10px 12px",
@@ -180,6 +191,7 @@ export function HeroCell({
         }}
       >
         <div
+          title={people}
           style={{
             minWidth: 0,
             fontSize: 12.5,
