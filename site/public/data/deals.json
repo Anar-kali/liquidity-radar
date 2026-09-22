@@ -86,10 +86,15 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-09-22T11:01:30.217699+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-09-22T12:46:19.469381+00:00",
+     "title": "Gujarat-Based Rudra Cottex Files DRHP With SEBI for Proposed IPO"
+    }
+   ]
   },
   {
    "amountCr": 552.0,
