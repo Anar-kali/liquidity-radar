@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 552.0,
+ "amountRaw": "₹552 Cr",
+ "buyer": null,
+ "company": "Orient Cables (India)",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-22T10:01:21.527607+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": "failed",
+ "id": 960,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Orient Cables (India) files DRHP for an IPO worth 552 crores.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWnZ6R2E4UXdQbDNmc0VBLXZBdHh4Uy1VakdmcUE1Z3FLdzdsNnkxdnFJeU5qY2h1TDdLNDZGYmZiYlZOZUN5UWFPaFNWMVNocGkteGhEVlVaYWlja0JuY2k4QlZlTGg4SmNLTXFXd1RvaGpuVXBoZ3MtMzBueTZ1X2VVYVVua1RwZnEwaXNSeVZPTTVFVkVVVS1sZEhoNFBDZ0M1SmtuS1Bob0ZIamVxUTExYW5RQ2FWNmc?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-22T10:01:21.529477+00:00",
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "Orient Cables (India) IPO DRHP: ₹552 Cr issue; revenue CAGR at 33.45%; market share 22.9%",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWnZ6R2E4UXdQbDNmc0VBLXZBdHh4Uy1VakdmcUE1Z3FLdzdsNnkxdnFJeU5qY2h1TDdLNDZGYmZiYlZOZUN5UWFPaFNWMVNocGkteGhEVlVaYWlja0JuY2k4QlZlTGg4SmNLTXFXd1RvaGpuVXBoZ3MtMzBueTZ1X2VVYVVua1RwZnEwaXNSeVZPTTVFVkVVVS1sZEhoNFBDZ0M1SmtuS1Bob0ZIamVxUTExYW5RQ2FWNmc?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-09-22T10:01:21.527607+00:00"
+}

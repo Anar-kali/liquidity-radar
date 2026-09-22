@@ -1,6 +1,50 @@
 {
- "dealCount": 635,
+ "dealCount": 637,
  "deals": [
+  {
+   "amountCr": 552.0,
+   "amountRaw": "₹552 Cr",
+   "company": "Orient Cables (India)",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-22T10:01:21.527607+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 960,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Orient Cables (India) files DRHP for an IPO worth 552 crores.",
+   "primaryOutlet": "scanx.trade",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-22T10:01:21.527607+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 356.6,
+   "amountRaw": "1.97% x mcap ~Rs 18103cr = ~Rs 357cr",
+   "company": "Allied Blenders",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-22T10:01:21.513489+00:00",
+   "dealType": "promoter sale",
+   "enrichmentState": "failed",
+   "id": 959,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Allied Blenders promoter proposes 1.97% stake sale for minimum public shareholding compliance.",
+   "primaryOutlet": "scanx.trade",
+   "seller": "Allied Blenders promoter",
+   "sizeBand": null,
+   "sizeSource": "computed",
+   "sourceCount": 1,
+   "ticker": "ABDL.NS",
+   "updatedAt": "2026-09-22T10:01:21.513489+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -19816,6 +19860,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-22T09:46:05.117391+00:00",
- "totalDeals": 635
+ "generatedAt": "2026-09-22T10:01:21.527607+00:00",
+ "totalDeals": 637
 }

@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 356.6,
+ "amountRaw": "1.97% x mcap ~Rs 18103cr = ~Rs 357cr",
+ "buyer": null,
+ "company": "Allied Blenders",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-22T10:01:21.513489+00:00",
+ "dealType": "promoter sale",
+ "enrichmentState": "failed",
+ "id": 959,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Allied Blenders promoter proposes 1.97% stake sale for minimum public shareholding compliance.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPOHVZQ3hsWDcwQldtajlCR2gxcm44V3FIdkpNNTZuMmtZT1NGTU9GaW9JcjJNSHV6SVZ2V3RjT0Y2eDFrTTM0NE41MHFScThjVjFWbk05cWc5MW5yOE1lNndBRXBZdXV2aDI2V3hHLUtodnBpUnEwY1hkYjUxcnlEb0RSRXQ4NEdTbWNmay1Bc3BWZjUzR1prRE5Ma0tCU0M5aHRscHowNTAyVS1yY29GTGo5SjBXMlM0RC0wTEZn?oc=5",
+ "seller": "Allied Blenders promoter",
+ "sizeBand": null,
+ "sizeSource": "computed",
+ "sources": [
+  {
+   "attachedAt": "2026-09-22T10:01:21.514539+00:00",
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "Allied Blenders promoter proposes 1.97% stake sale for MPS compliance",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPOHVZQ3hsWDcwQldtajlCR2gxcm44V3FIdkpNNTZuMmtZT1NGTU9GaW9JcjJNSHV6SVZ2V3RjT0Y2eDFrTTM0NE41MHFScThjVjFWbk05cWc5MW5yOE1lNndBRXBZdXV2aDI2V3hHLUtodnBpUnEwY1hkYjUxcnlEb0RSRXQ4NEdTbWNmay1Bc3BWZjUzR1prRE5Ma0tCU0M5aHRscHowNTAyVS1yY29GTGo5SjBXMlM0RC0wTEZn?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": "ABDL.NS",
+ "updatedAt": "2026-09-22T10:01:21.513489+00:00"
+}
