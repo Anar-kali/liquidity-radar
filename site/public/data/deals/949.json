@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 300.0,
+ "amountRaw": "₹300 Crore",
+ "buyer": "Fredun Pharmaceuticals",
+ "company": "Goodman Vetcare",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-22T05:31:27.870260+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 949,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Fredun Pharmaceuticals acquired a 26% stake in Goodman Vetcare for ₹300 Crore.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSENuZHN6azhEX0l4eVFld3lHZEZtNWRfNHJockdvUHRxa2dRejNMOHJOY1NqWmRvM2NaVndVVzBQR05KNWZ6NXdTVV8yTElXdmx4aFF3aFcwM2xndGgtQVhxSUVrS3dWT1NwclFjMTdBdVFsenF2bUVXNFYtSEl1VEttTWtMT3ZSdldpUGZzOUsyQ29WeDNPT0lSNHdEZldVMlB3?oc=5",
+ "seller": "Goodman Vetcare Private Limited",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-22T05:31:27.871406+00:00",
+   "outlet": "sahi.com",
+   "resolvable": false,
+   "title": "Fredun Pharmaceuticals Acquires 26% Stake In Goodman Vetcare Worth ₹300 Crore",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSENuZHN6azhEX0l4eVFld3lHZEZtNWRfNHJockdvUHRxa2dRejNMOHJOY1NqWmRvM2NaVndVVzBQR05KNWZ6NXdTVV8yTElXdmx4aFF3aFcwM2xndGgtQVhxSUVrS3dWT1NwclFjMTdBdVFsenF2bUVXNFYtSEl1VEttTWtMT3ZSdldpUGZzOUsyQ29WeDNPT0lSNHdEZldVMlB3?oc=5"
+  }
+ ],
+ "synopsis": "Fredun Pharmaceuticals has acquired a 26% equity stake in pet-care retailer Goodman Vetcare Private Limited, in a transaction valuing the retailer at approximately ₹300 crore. The strategic partnership aims to scale Goodman Vetcare's retail footprint from a three-store network in Mumbai to an eleven-store chain across three cities, targeting an annual revenue of ~₹40 crore by FY27 and ~₹100 crore by FY31. Goodman Vetcare grew its revenue from ₹14.1 crore in FY24 to ₹23.6 crore in FY26 without prior institutional backing. The acquisition allows Fredun Pharmaceuticals to establish a direct-to-consumer retail presence to verticalize its veterinary product segment, Freossi, utilizing Goodman's retail network as a captive channel for product testing and consumer feedback.",
+ "ticker": null,
+ "updatedAt": "2026-09-22T05:31:36.615930+00:00"
+}

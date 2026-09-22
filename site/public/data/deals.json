@@ -1,6 +1,55 @@
 {
- "dealCount": 578,
+ "dealCount": 580,
  "deals": [
+  {
+   "amountCr": 300.0,
+   "amountRaw": "₹300 Crore",
+   "company": "Goodman Vetcare",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-22T05:31:27.870260+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 949,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Fredun Pharmaceuticals acquired a 26% stake in Goodman Vetcare for ₹300 Crore.",
+   "primaryOutlet": "sahi.com",
+   "seller": "Goodman Vetcare Private Limited",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-22T05:31:36.615930+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "A One Steel Limited",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-22T05:31:27.821363+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 948,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "A One Steel Limited filed draft offer documents with SEBI for an IPO.",
+   "primaryOutlet": "Abridged Prospectus",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 2,
+   "ticker": null,
+   "updatedAt": "2026-09-22T05:31:27.821363+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-09-22T05:31:27.832014+00:00",
+     "title": "A One Steel Limited"
+    }
+   ]
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -18086,6 +18135,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-22T05:25:45.837915+00:00",
- "totalDeals": 578
+ "generatedAt": "2026-09-22T05:31:36.615930+00:00",
+ "totalDeals": 580
 }
