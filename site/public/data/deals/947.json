@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Spinny",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-22T04:31:14.268862+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": null,
+ "id": 947,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Spinny pre-files draft IPO papers with SEBI",
+ "primaryUrl": "https://entrackr.com/news/spinny-confidentially-pre-files-ipo-appoints-bharti-cfo-akhil-gupta-info-edges-geeta-mathur-to-board-12562576",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-22T04:31:14.269768+00:00",
+   "outlet": "Entrackr",
+   "resolvable": true,
+   "title": "Spinny confidentially pre-files IPO; appoints Bharti CFO Akhil Gupta, Info Edge’s Geeta Mathur to board",
+   "url": "https://entrackr.com/news/spinny-confidentially-pre-files-ipo-appoints-bharti-cfo-akhil-gupta-info-edges-geeta-mathur-to-board-12562576"
+  }
+ ],
+ "synopsis": "Used-car retailing platform Spinny has confidentially pre-filed its draft IPO papers with SEBI. The company is looking to raise around Rs 2,500-3,000 crore through an issue that is likely to include both a fresh issue of shares and an offer for sale. Spinny is targeting a 2027 public market debut and is working with Kotak Mahindra Capital, Morgan Stanley, and Citigroup as advisers on the proposed IPO. Ahead of the listing, Spinny converted its parent entity into Valuedrive Technologies Limited and appointed former Bharti Group CFO Akhil Gupta and Info Edge board member Geeta Mathur to its board as independent directors. In FY25, Spinny reported revenue from operations of Rs 4,657 crore, up from Rs 3,730 crore in FY24.",
+ "ticker": null,
+ "updatedAt": "2026-09-22T04:31:21.863352+00:00"
+}

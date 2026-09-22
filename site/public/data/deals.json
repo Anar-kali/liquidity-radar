@@ -1,6 +1,53 @@
 {
- "dealCount": 775,
+ "dealCount": 777,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Spinny",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-22T04:31:14.268862+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 947,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Spinny pre-files draft IPO papers with SEBI",
+   "primaryOutlet": "Entrackr",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-22T04:31:21.863352+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Furlenco",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-22T04:31:14.260864+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 946,
+   "individuals": [
+    "Puneet Agarwal",
+    "Sanjay Aggarwal"
+   ],
+   "listed": false,
+   "oneLine": "Furlenco plans IPO providing investor liquidity",
+   "primaryOutlet": "The Economic Times",
+   "seller": "Moneyview existing shareholders and promoters Puneet Agarwal and Sanjay Aggarwal",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-22T04:31:17.880128+00:00",
+   "updates": []
+  },
   {
    "amountCr": 892.0,
    "amountRaw": "Rs 892 crore",
@@ -119,8 +166,8 @@
    ]
   },
   {
-   "amountCr": 287.0,
-   "amountRaw": "Rs 287 Cr",
+   "amountCr": 420.0,
+   "amountRaw": "₹420 crore",
    "company": "AceVector",
    "confidence": "medium",
    "confirmed": false,
@@ -135,13 +182,17 @@
    "seller": "Starfish I Pte. Ltd., Nexus India Direct Investments II, Nexus Opportunity Fund, Nexus Ventures III, SoftBank, Foxconn",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
-   "updatedAt": "2026-09-22T01:31:36.081701+00:00",
+   "updatedAt": "2026-09-22T04:31:14.265345+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-22T01:31:23.694893+00:00",
      "title": "Snapdeal parent AceVector to launch IPO on September 25, cuts offer size; fresh issue at Rs 287 crore"
+    },
+    {
+     "attachedAt": "2026-09-22T04:31:14.264503+00:00",
+     "title": "AceVector IPO: Snapdeal parent cuts issue size to ₹420 crore; price band fixed at ₹30-₹32"
     }
    ]
   },
@@ -22463,6 +22514,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-22T03:31:26.564111+00:00",
- "totalDeals": 775
+ "generatedAt": "2026-09-22T04:31:21.863352+00:00",
+ "totalDeals": 777
 }
