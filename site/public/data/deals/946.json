@@ -1,7 +1,7 @@
 {
  "advisers": [],
- "amountCr": null,
- "amountRaw": null,
+ "amountCr": 1200.0,
+ "amountRaw": "₹1,200 Cr",
  "buyer": "Public market investors via IPO",
  "company": "Furlenco",
  "confidence": "medium",
@@ -19,7 +19,7 @@
  "primaryUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOQmlSSU9TRUJiVE9GOEw0OGRLR1Y4ZjZ0N0FuS3g4S3BhcWdHYjhQeUtPM0tYZ0ZfXzlzZGR4UlBaTTNZYkN2V29waV9lNW91SkxfdlRmYmdZeXNidS1VYl9FbDZLaEJWbzhKdTFNSGdnR1NfVWxsVVc1ZWUtUnFNM2hGTWdMNGtUWXpBOGtTZFBhZmF5dEE0UXJnUENjSDhMY01hRHVIRGRQWkszOVdJWnhHekt0bEdmVHVEdHFscDZUbElCcnZlYVh0N1FqNEl2NGs2MllUSlZRQdIB2gFBVV95cUxOQmlSSU9TRUJiVE9GOEw0OGRLR1Y4ZjZ0N0FuS3g4S3BhcWdHYjhQeUtPM0tYZ0ZfXzlzZGR4UlBaTTNZYkN2V29waV9lNW91SkxfdlRmYmdZeXNidS1VYl9FbDZLaEJWbzhKdTFNSGdnR1NfVWxsVVc1ZWUtUnFNM2hGTWdMNGtUWXpBOGtTZFBhZmF5dEE0UXJnUENjSDhMY01hRHVIRGRQWkszOVdJWnhHekt0bEdmVHVEdHFscDZUbElCcnZlYVh0N1FqNEl2NGs2MllUSlZRQQ?oc=5",
  "seller": "Moneyview existing shareholders and promoters Puneet Agarwal and Sanjay Aggarwal",
  "sizeBand": null,
- "sizeSource": "unknown",
+ "sizeSource": "stated",
  "sources": [
   {
    "attachedAt": "2026-09-22T04:31:14.262204+00:00",
@@ -27,9 +27,16 @@
    "resolvable": false,
    "title": "Inside Furlenco’s IPO; Moneyview investors make bank",
    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOQmlSSU9TRUJiVE9GOEw0OGRLR1Y4ZjZ0N0FuS3g4S3BhcWdHYjhQeUtPM0tYZ0ZfXzlzZGR4UlBaTTNZYkN2V29waV9lNW91SkxfdlRmYmdZeXNidS1VYl9FbDZLaEJWbzhKdTFNSGdnR1NfVWxsVVc1ZWUtUnFNM2hGTWdMNGtUWXpBOGtTZFBhZmF5dEE0UXJnUENjSDhMY01hRHVIRGRQWkszOVdJWnhHekt0bEdmVHVEdHFscDZUbElCcnZlYVh0N1FqNEl2NGs2MllUSlZRQdIB2gFBVV95cUxOQmlSSU9TRUJiVE9GOEw0OGRLR1Y4ZjZ0N0FuS3g4S3BhcWdHYjhQeUtPM0tYZ0ZfXzlzZGR4UlBaTTNZYkN2V29waV9lNW91SkxfdlRmYmdZeXNidS1VYl9FbDZLaEJWbzhKdTFNSGdnR1NfVWxsVVc1ZWUtUnFNM2hGTWdMNGtUWXpBOGtTZFBhZmF5dEE0UXJnUENjSDhMY01hRHVIRGRQWkszOVdJWnhHekt0bEdmVHVEdHFscDZUbElCcnZlYVh0N1FqNEl2NGs2MllUSlZRQQ?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-22T09:31:03.896396+00:00",
+   "outlet": "Google News",
+   "resolvable": true,
+   "title": "Furlenco Eyes ₹1,200 Cr IPO At ₹7,000 Cr Valuation: Report",
+   "url": "https://inc42.com/buzz/furlenco-eyes-%e2%82%b91200-cr-ipo-at-%e2%82%b97000-cr-valuation-report/"
   }
  ],
  "synopsis": "Furniture rental company Furlenco is planning a potential Rs 1,000-1,200 crore initial public offering seeking a valuation of around Rs 7,000 crore, with the launch expected next fiscal year, and is soon expected to finalise ICICI Securities as an advisor. Additionally, digital lending platform Moneyview is eyeing an IPO valuation of Rs 5,985 crore at the upper end of its price band, with an offer-for-sale component involving existing shareholders such as Accel, Tiger Global, and Ribbit Capital, alongside promoters Puneet Agarwal and Sanjay Aggarwal. The Moneyview IPO opens for subscription on September 24 and closes on September 28. Meanwhile, Snapdeal parent AceVector has slashed its IPO size and its offer-for-sale component, with founders Kunal Bahl and Rohit Bansal not selling any stake.",
  "ticker": null,
- "updatedAt": "2026-09-22T04:31:17.880128+00:00"
+ "updatedAt": "2026-09-22T09:31:03.897422+00:00"
 }

@@ -251,8 +251,8 @@
    ]
   },
   {
-   "amountCr": null,
-   "amountRaw": null,
+   "amountCr": 1200.0,
+   "amountRaw": "₹1,200 Cr",
    "company": "Furlenco",
    "confidence": "medium",
    "confirmed": false,
@@ -269,11 +269,16 @@
    "primaryOutlet": "The Economic Times",
    "seller": "Moneyview existing shareholders and promoters Puneet Agarwal and Sanjay Aggarwal",
    "sizeBand": null,
-   "sizeSource": "unknown",
-   "sourceCount": 1,
+   "sizeSource": "stated",
+   "sourceCount": 2,
    "ticker": null,
-   "updatedAt": "2026-09-22T04:31:17.880128+00:00",
-   "updates": []
+   "updatedAt": "2026-09-22T09:31:03.897422+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-09-22T09:31:03.896396+00:00",
+     "title": "Furlenco Eyes ₹1,200 Cr IPO At ₹7,000 Cr Valuation: Report"
+    }
+   ]
   },
   {
    "amountCr": 892.0,
@@ -19789,6 +19794,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-22T08:46:24.779672+00:00",
+ "generatedAt": "2026-09-22T09:31:03.897422+00:00",
  "totalDeals": 634
 }
