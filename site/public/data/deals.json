@@ -1,6 +1,50 @@
 {
- "dealCount": 637,
+ "dealCount": 639,
  "deals": [
+  {
+   "amountCr": 420.0,
+   "amountRaw": "₹287 crore plus ₹133 crore (from article)",
+   "company": "Snapdeal",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-22T11:01:26.119681+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 962,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Snapdeal shifts focus to value fashion ahead of its planned IPO.",
+   "primaryOutlet": "Free Press Journal",
+   "seller": "AceVector",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-22T11:01:56.669546+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Rudra Cottex",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-22T11:01:26.102730+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 961,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Rudra Cottex has filed its DRHP with SEBI for a proposed IPO.",
+   "primaryOutlet": "theblunttimes.in",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-22T11:01:30.217699+00:00",
+   "updates": []
+  },
   {
    "amountCr": 552.0,
    "amountRaw": "₹552 Cr",
@@ -19873,6 +19917,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-22T10:01:21.527607+00:00",
- "totalDeals": 637
+ "generatedAt": "2026-09-22T11:01:56.669546+00:00",
+ "totalDeals": 639
 }

@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Rudra Cottex",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-22T11:01:26.102730+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": null,
+ "id": 961,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Rudra Cottex has filed its DRHP with SEBI for a proposed IPO.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORU9kZnNGXy1kbWdTa1hFSnNVOFlwSGdYODgzbk80NHlMX0dzYmhsOC1jeHRSNlQwNUR1ZzJfVkNXMFBZc3IwVGZRNTVCVDhzRUN4alNCX2ZzNU9Xb2lha0IzM1NlQUNjajBYeDRVbFdvQ2FIWmlWdFdnQkV1cHdRRWd3Qk9JSlVvSXg3TVZBS08zV0phSUpNRXVJX2ZSTXNvSzNrZHE1NkFKdjdaempqSmtCcGdWRHJ1WmtfcndIMGkwZUd3NzRXXzRn?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-22T11:01:26.106614+00:00",
+   "outlet": "theblunttimes.in",
+   "resolvable": false,
+   "title": "Rudra Cottex Files DRHP With SEBI for Proposed IPO, Fresh Issue to Comprise Up to 1.25 Crore Shares",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORU9kZnNGXy1kbWdTa1hFSnNVOFlwSGdYODgzbk80NHlMX0dzYmhsOC1jeHRSNlQwNUR1ZzJfVkNXMFBZc3IwVGZRNTVCVDhzRUN4alNCX2ZzNU9Xb2lha0IzM1NlQUNjajBYeDRVbFdvQ2FIWmlWdFdnQkV1cHdRRWd3Qk9JSlVvSXg3TVZBS08zV0phSUpNRXVJX2ZSTXNvSzNrZHE1NkFKdjdaempqSmtCcGdWRHJ1WmtfcndIMGkwZUd3NzRXXzRn?oc=5"
+  }
+ ],
+ "synopsis": "Gujarat-based cotton yarn manufacturer Rudra Cottex Limited has filed its Draft Red Herring Prospectus with SEBI for a proposed initial public offering. The IPO comprises a fresh issue of up to 12,500,000 equity shares with a face value of ten rupees each, with no offer for sale component. The shares are proposed to be listed on BSE Limited and the National Stock Exchange of India Limited. The company intends to use the proceeds to fund capital expenditure requirements for civil construction and equipment purchase for its manufacturing facility expansion, to repay certain outstanding borrowings, and for general corporate purposes. Beeline Capital Advisors Private Limited is acting as the Book Running Lead Manager to the issue, while KFin Technologies Limited serves as the Registrar.",
+ "ticker": null,
+ "updatedAt": "2026-09-22T11:01:30.217699+00:00"
+}
