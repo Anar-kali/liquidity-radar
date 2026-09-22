@@ -221,7 +221,7 @@
    "seller": "Sunil Singhania",
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 9,
+   "sourceCount": 10,
    "ticker": null,
    "updatedAt": "2026-09-22T08:46:20.535068+00:00",
    "updates": [
@@ -256,6 +256,10 @@
     {
      "attachedAt": "2026-09-22T13:46:12.410937+00:00",
      "title": "Abakkus Asset Manager files IPO papers: OFS, financials and key details"
+    },
+    {
+     "attachedAt": "2026-09-22T14:33:10.859479+00:00",
+     "title": "Sunil Singhania-led Abakkus Asset Manager files draft papers for IPO"
     }
    ]
   },
@@ -279,7 +283,7 @@
    "seller": "Sanjiv Krishen and Kamini Talwar",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-09-22T08:46:16.802922+00:00",
    "updates": [
@@ -290,6 +294,10 @@
     {
      "attachedAt": "2026-09-22T10:31:12.390911+00:00",
      "title": "Iris Global Services Opens The Door To An IPO, ₹200-Crore Fresh Issue Planned After SEBI Filing"
+    },
+    {
+     "attachedAt": "2026-09-22T14:33:10.861557+00:00",
+     "title": "Iris Global Services IPO Plans: IT Distribution Business and Issue Details Explained"
     }
    ]
   },
