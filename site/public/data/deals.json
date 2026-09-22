@@ -44,10 +44,15 @@
    "seller": "Sunil Singhania",
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-09-22T08:46:20.535068+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-09-22T09:15:58.440086+00:00",
+     "title": "Abakkus Asset Manager IPO: Sunil Singhania-promoted firm files DRHP with SEBI; check key details"
+    }
+   ]
   },
   {
    "amountCr": 200.0,
