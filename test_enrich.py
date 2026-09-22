@@ -371,6 +371,69 @@ def test_synopsis_stays_out_of_the_feed_slice():
     assert '"synopsis"' in src, "but it must still be exported per deal"
 
 
+# --------------------------------------------------------------------------
+# Gates that can only run once the article has been read.
+# --------------------------------------------------------------------------
+def gated(**over):
+    d = {"id": 1, "amount_cr": None, "individuals": "[]", "seller": None,
+         "seller_type": None, "synopsis": None}
+    d.update(over)
+    return enrich.post_gate(d)
+
+
+def test_a_small_deal_is_dropped_however_well_we_know_the_seller():
+    """Stage 2 passes a deal as 'size undisclosed'; stage 3 finds the figure.
+    Size wins over a named individual, exactly as stage 2's own Rule 8 works —
+    a Rs 1cr sale is not a lead however well we know who is selling."""
+    assert gated(amount_cr=1.12) is not None
+    assert gated(amount_cr=155.92, individuals='["Sachidanand Upadhyay"]') is not None
+    assert "below threshold" in gated(amount_cr=0.07)
+
+
+def test_a_deal_at_or_above_the_floor_survives():
+    assert gated(amount_cr=config.THRESHOLD_CR) is None
+    assert gated(amount_cr=2500.0) is None
+
+
+def test_an_unknown_amount_is_not_a_reason_to_drop():
+    """Most deals never state a figure. Dropping them would empty the feed."""
+    assert gated(amount_cr=None) is None
+
+
+def test_a_fund_owned_sale_with_nobody_named_is_dropped():
+    """Athena Renewables sold by Actis for Rs 2,500cr: a real transaction that
+    pays a fund's investors, not a person."""
+    r = gated(amount_cr=2500.0, seller_type="fund", seller="Actis")
+    assert r is not None and "fund-owned" in r, r
+
+
+def test_a_named_individual_rescues_a_fund_sale():
+    """If a promoter sells alongside the fund, the promoter IS the lead."""
+    assert gated(amount_cr=2500.0, seller_type="fund", seller="Actis",
+                 individuals='["Ajay Piramal"]') is None
+
+
+def test_other_seller_types_are_untouched():
+    for t in ("individual", "family", "company", "government", "unclear", None):
+        assert gated(amount_cr=900.0, seller_type=t) is None, t
+
+
+def test_the_gate_costs_no_api_call():
+    """It judges facts stage 3 has already produced. If this ever starts
+    calling a model it belongs somewhere else in the pipeline."""
+    import inspect
+    body = inspect.getsource(enrich.post_gate)
+    for forbidden in ("llm.", "complete(", "extract(", "requests"):
+        assert forbidden not in body, f"post_gate must not {forbidden}"
+
+
+def test_seller_type_is_asked_for_in_the_schema():
+    prop = enrich.SCHEMA["properties"]["seller_type"]
+    assert "fund" in prop["enum"] and "individual" in prop["enum"]
+    assert "seller_type" in enrich.SCHEMA["required"]
+    assert "Actis" in enrich.PROMPT, "name real funds so the model has anchors"
+
+
 if __name__ == "__main__":
     print("stage-3 enrichment safety tests\n")
     for name, fn in sorted(globals().items()):

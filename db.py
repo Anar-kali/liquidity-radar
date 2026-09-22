@@ -323,6 +323,16 @@ def init_db(path=DB_PATH):
         # deal stage 3 never read — most of the archive, and any deal whose
         # publisher blocked the fetch.
         conn.execute("ALTER TABLE deals ADD COLUMN synopsis TEXT")
+    if "seller_type" not in existing:
+        # individual | family | fund | company | government | unclear.
+        # Written by stage 3 from the article, and the basis of the fund gate.
+        conn.execute("ALTER TABLE deals ADD COLUMN seller_type TEXT")
+    if "dropped_reason" not in existing:
+        # Set when a gate AFTER stage 3 rejects a deal that was already
+        # created. The row stays — deleting it would lose the audit trail and
+        # let the same articles recreate it — but it is excluded from the site
+        # and its alert is never sent. NULL means live.
+        conn.execute("ALTER TABLE deals ADD COLUMN dropped_reason TEXT")
 
     existing_items = {r[1] for r in conn.execute("PRAGMA table_info(items)")}
     if "title_norm" not in existing_items:
@@ -887,6 +897,20 @@ def create_deal(deal, path=DB_PATH):
     deal_id = cur.lastrowid
     conn.close()
     return deal_id
+
+
+def drop_deal(deal_id, reason, path=DB_PATH):
+    """Reject a deal that a post-stage-3 gate has failed.
+
+    The row is kept rather than deleted: it holds the audit trail, and a
+    deleted row would simply be recreated by the next article about the same
+    story. Exports and alerts filter on dropped_reason instead.
+    """
+    conn = _conn(path)
+    conn.execute("UPDATE deals SET dropped_reason = ?, updated_at = ? WHERE id = ?",
+                 (reason, now_iso(), deal_id))
+    conn.commit()
+    conn.close()
 
 
 def get_deal(deal_id, path=DB_PATH):

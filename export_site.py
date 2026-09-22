@@ -164,6 +164,15 @@ def _sources(deal_id, row, path):
     }]
 
 
+def is_dropped(row):
+    """A deal a post-stage-3 gate rejected. The row is kept for the audit
+    trail but must never reach the site — see db.drop_deal."""
+    try:
+        return bool((row["dropped_reason"] or "").strip())
+    except (KeyError, IndexError):
+        return False          # database predates the column
+
+
 def build_deal(row, path):
     """One row of `deals` (plus its members) as the contract's Deal object."""
     amount, size_source, size_band = _size(row)
@@ -268,6 +277,14 @@ def run(path, out_dir, days, dry):
     if not rows:
         print("[export] no deals in the database — nothing to write")
         return 0
+
+    # Deals a post-stage-3 gate rejected stay in the database for the audit
+    # trail but must never reach the site. Filtered here rather than in
+    # load_deals so the count below can report how many were held back.
+    live = [r for r in rows if not is_dropped(r)]
+    if len(live) != len(rows):
+        print(f"[export] {len(rows) - len(live)} deal(s) held back by a post-stage-3 gate")
+    rows = live
 
     deals = [build_deal(r, path) for r in rows]
 

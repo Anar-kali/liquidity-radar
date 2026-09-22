@@ -95,9 +95,13 @@ SCHEMA = {
         "buyer": {"type": "STRING", "nullable": True},
         "advisers": {"type": "ARRAY", "items": {"type": "STRING"}},
         "synopsis": {"type": "STRING", "nullable": True},
+        "seller_type": {
+            "type": "STRING",
+            "enum": ["individual", "family", "fund", "company", "government", "unclear"],
+        },
     },
     "required": ["individuals", "amount_cr", "amount_raw", "seller", "buyer",
-                 "advisers", "synopsis"],
+                 "advisers", "synopsis", "seller_type"],
 }
 
 PROMPT = """You are reading one Indian M&A / stake-sale / IPO article for a \
@@ -111,6 +115,20 @@ individuals — named people who PERSONALLY receive money: promoters, founders,
   people named only as buyers' representatives. An empty list is the correct
   and common answer.
 seller — the party RECEIVING the money. buyer — the party PAYING.
+seller_type — what KIND of party the seller is, which decides whether a person
+  is being paid at all:
+    individual  a named person selling their own holding
+    family      a promoter family, family office or family trust
+    fund        a private equity, venture capital or buyout fund, a sovereign
+                wealth fund, or a holding vehicle whose owner is one of those.
+                Actis, Blackstone, KKR, TPG, Peak XV, Temasek and their peers
+                are funds however the article words it. Choose this when the
+                company being sold is owned by such a fund, since the proceeds
+                go to the fund's investors and not to any individual.
+    company     an operating business selling a subsidiary or a stake
+    government  a state or central government, or a PSU divesting
+    unclear     the article does not say
+  Judge the SELLER, not the buyer, and not the company being sold.
 amount_cr — the DEAL value in crore INR. Not revenue, not valuation, not market
   cap, not a fund size, not a share price. A valuation alone means null.
 amount_raw — the exact phrase the figure came from, quoted from the article,
@@ -223,6 +241,10 @@ def _merge(deal, found):
             print(f"[enrich] deal {deal['id']} synopsis only {words} words, dropped")
         else:
             fields["synopsis"] = synopsis
+
+    st = (found.get("seller_type") or "").strip().lower()
+    if st and st != "unclear" and not (deal.get("seller_type") or "").strip():
+        fields["seller_type"] = st
 
     for key in ("seller", "buyer"):
         val = " ".join((found.get(key) or "").split())
@@ -393,6 +415,41 @@ def retry_failed(limit=None, path=None, dry=False):
     except Exception as exc:  # noqa: BLE001
         print(f"[enrich] retry pass failed: {type(exc).__name__}: {exc}")
     return recovered
+
+
+def post_gate(deal):
+    """Why this deal should be dropped now that the article has been read, or
+    None to keep it.
+
+    Both gates are pure judgement on facts stage 3 has ALREADY produced — no
+    API call, no extra latency. They exist because every earlier gate ran
+    before those facts existed: stage 2 saw a headline and 400 characters, so
+    it had no amount to measure and no seller to judge.
+
+    SIZE. Stage 2 lets a deal through as "size undisclosed" and stage 3 then
+    finds the figure in the article. Eight deals reached the site that way,
+    including one at Rs 0.07cr against a Rs 250cr floor. Size wins over a named
+    individual, the same way stage 2's own Rule 8 already works — a Rs 1cr sale
+    is not a lead however well we know the seller.
+
+    FUND. A company owned outright by a fund pays its investors, not a person.
+    Athena Renewables sold by Actis for Rs 2,500cr is a real transaction and a
+    useless lead. Only fires when NOBODY is named: if a promoter is selling
+    alongside the fund, the promoter is the lead and the deal stays.
+    """
+    amount = deal.get("amount_cr")
+    if amount is not None and amount < config.THRESHOLD_CR:
+        return f"below threshold: Rs {amount:,.2f}cr < Rs {config.THRESHOLD_CR}cr"
+
+    if (deal.get("seller_type") or "").strip().lower() == "fund":
+        try:
+            named = bool(json.loads(deal.get("individuals") or "[]"))
+        except (TypeError, ValueError):
+            named = False
+        if not named:
+            seller = (deal.get("seller") or "the seller").strip()
+            return f"fund-owned, no individual paid: {seller[:60]}"
+    return None
 
 
 def enrich_new(deal_ids, limit=None, path=None, dry=False):

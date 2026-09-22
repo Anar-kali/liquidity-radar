@@ -564,6 +564,26 @@ def run(mode, dry, limit=None):
             print(f"[main] stage 3 enriched {len(applied)} of {len(alerts)} "
                   f"new deals before alerting")
 
+        # ---- gates that could only run once the article had been read ----
+        # Stage 2 judged a headline and 400 characters: it had no amount to
+        # measure and no seller to weigh. Now it does. See enrich.post_gate.
+        kept = []
+        for alert in alerts:
+            fresh = db.get_deal(alert["deal_id"])
+            reason = enrich.post_gate(fresh) if fresh else None
+            if reason:
+                db.drop_deal(alert["deal_id"], reason)
+                suppress({"title": alert.get("company") or "", "url": alert.get("url") or ""},
+                         "Rule G", {"amount_cr": alert.get("amount_cr"), "amount_raw": reason})
+                print(f"[main] stage-3 gate dropped #{alert['deal_id']} "
+                      f"{(alert.get('company') or '')[:28]}: {reason}")
+                continue
+            kept.append(alert)
+        if len(kept) != len(alerts):
+            print(f"[main] {len(alerts) - len(kept)} deal(s) dropped after reading "
+                  f"the article, {len(kept)} alert(s) remain")
+        alerts = kept
+
         # Tell the banker, once, when stage 3 could not read the article. Only
         # the "retrying" state reaches Telegram — see db.enrichment_state.
         for alert in alerts:
