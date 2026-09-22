@@ -11,8 +11,16 @@ import os
 # THE MONEY THRESHOLD
 # Deals that convert to LESS than this many crore INR are suppressed (rule 8).
 # Raise it to get fewer, bigger deals; lower it to catch smaller ones.
+#
+# 2026-09-22: 250 -> 150 (user request). Measured against the suppression log,
+# 101 items had been rejected in the 150-250cr band, about 2.7 a day, which is
+# what now reaches stage 2 instead. Not all become alerts — stage 2 still has
+# to qualify them and clustering still collapses repeats.
+#
+# AGGREGATION_MIN_CR follows this number, so the salami-slice rule also fires
+# on smaller running totals now.
 # --------------------------------------------------------------------------
-THRESHOLD_CR = 250
+THRESHOLD_CR = 150
 
 # --------------------------------------------------------------------------
 # v5 Change 2 — company-size floor. ONE number across the whole pipeline: a
@@ -32,7 +40,13 @@ MCAP_MIN_CR = 1000
 # judged on company size: stake x market cap must clear this. Lower than
 # MCAP_MIN_CR on purpose — a 40% stake in a 900cr company is a real payout
 # even though the company is under the size floor.
-STAKE_VALUE_MIN_CR = 300
+#
+# 2026-09-22: 300 -> 150, matching THRESHOLD_CR. It used to sit higher because
+# stake x market cap is an ESTIMATE rather than a figure an article states,
+# and a higher bar absorbed that uncertainty. One floor was asked for, so the
+# estimate now clears the same bar as a stated number; expect a few more
+# computed-size deals, and they are still marked as computed on the site.
+STAKE_VALUE_MIN_CR = 150
 
 # v5 Change 4 — the rarity guard on subset name matching. A subset match may
 # only stand on a token appearing in at most this many master-list names.

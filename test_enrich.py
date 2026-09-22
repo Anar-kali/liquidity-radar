@@ -386,8 +386,10 @@ def test_a_small_deal_is_dropped_however_well_we_know_the_seller():
     Size wins over a named individual, exactly as stage 2's own Rule 8 works —
     a Rs 1cr sale is not a lead however well we know who is selling."""
     assert gated(amount_cr=1.12) is not None
-    assert gated(amount_cr=155.92, individuals='["Sachidanand Upadhyay"]') is not None
     assert "below threshold" in gated(amount_cr=0.07)
+    # A hair under the floor, with a promoter named, still goes.
+    assert gated(amount_cr=config.THRESHOLD_CR - 1,
+                 individuals='["Sachidanand Upadhyay"]') is not None
 
 
 def test_a_deal_at_or_above_the_floor_survives():

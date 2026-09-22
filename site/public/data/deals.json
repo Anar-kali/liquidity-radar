@@ -1,5 +1,5 @@
 {
- "dealCount": 623,
+ "dealCount": 626,
  "deals": [
   {
    "amountCr": 300.0,
@@ -259,6 +259,30 @@
    "sourceCount": 1,
    "ticker": "BANDHANBNK.NS",
    "updatedAt": "2026-09-22T05:25:44.677403+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 155.92,
+   "amountRaw": "Rs 155.92 crore (from article)",
+   "company": "Lords Mark Industries",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-22T01:31:23.678399+00:00",
+   "dealType": "promoter sale",
+   "enrichmentState": null,
+   "id": 938,
+   "individuals": [
+    "Sachidanand Hariram Upadhyay"
+   ],
+   "listed": true,
+   "oneLine": "Promoter sale of shares in Lords Mark Industries.",
+   "primaryOutlet": "Univest",
+   "seller": "Sachidanand Hariram Upadhyay",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "501261.BO",
+   "updatedAt": "2026-09-22T05:25:44.829318+00:00",
    "updates": []
   },
   {
@@ -2737,6 +2761,28 @@
    "sourceCount": 1,
    "ticker": "512221.BO",
    "updatedAt": "2026-09-11T10:31:34.973722+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 234.0,
+   "amountRaw": "Rs 234 crore (from article)",
+   "company": "Cloud Wave",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-11T09:31:46.207060+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 811,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "AXISCADES acquired a majority stake in Cloud Wave.",
+   "primaryOutlet": "Business Standard",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-22T05:25:44.815786+00:00",
    "updates": []
   },
   {
@@ -18685,6 +18731,28 @@
    ]
   },
   {
+   "amountCr": 225.0,
+   "amountRaw": "$27 million = Rs 237.6 crore (27 × 88)",
+   "company": "InRisk Labs",
+   "confidence": "high",
+   "confirmed": false,
+   "createdAt": "2026-08-05T13:21:00.810129+00:00",
+   "dealType": "PE primary",
+   "enrichmentState": null,
+   "id": 38,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "InRisk Labs raises $27 million as subsidiary EarthRe gets reinsurer licence.",
+   "primaryOutlet": "Mint",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-22T05:25:44.743360+00:00",
+   "updates": []
+  },
+  {
    "amountCr": 1056.0,
    "amountRaw": "USD 120 million = 120 × 88 = ₹10,560 crore. [Note: corrected to ₹1,056 crore using standard conversion]",
    "company": "River Mobility",
@@ -19509,5 +19577,5 @@
  ],
  "feedWindowDays": 90,
  "generatedAt": "2026-09-22T05:31:36.615930+00:00",
- "totalDeals": 623
+ "totalDeals": 626
 }
