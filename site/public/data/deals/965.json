@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "L’Oréal India",
+ "company": "Innovist",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-22T15:47:43.249437+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 965,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "L'Oreal India acquired Bare Anatomy maker Innovist.",
+ "primaryUrl": "https://www.livemint.com/companies/news/cci-clears-l-or-al-indias-acquisition-of-bare-anatomy-maker-innovist-all-you-need-to-know-11790081555179.html",
+ "seller": "Onesto Labs Pvt Ltd",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-22T15:47:43.250650+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "CCI clears L’Oréal India's acquisition of Bare Anatomy maker Innovist: All you need to know",
+   "url": "https://www.livemint.com/companies/news/cci-clears-l-or-al-indias-acquisition-of-bare-anatomy-maker-innovist-all-you-need-to-know-11790081555179.html"
+  }
+ ],
+ "synopsis": "The Competition Commission of India has approved L'Oreal India's proposal to acquire a 100 per cent shareholding in Onesto Labs Private Limited, which makes Bare Anatomy and other personal care brands. Onesto Labs was founded in 2019 and rebranded in 2022. Financial terms of the transaction were not disclosed. Innovist's founding team will remain responsible for running the business as part of the transaction, and its brands will be brought under L'Oreal's Consumer Products Division.",
+ "ticker": null,
+ "updatedAt": "2026-09-22T15:48:33.147528+00:00"
+}
