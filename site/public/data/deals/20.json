@@ -16,17 +16,17 @@
  "primaryUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE93U19uSmd0YVBMMzRTU2dwNzRVQ2xad3lUUE92ejltNmwwaVR0MlI0Q0tScmlrdXQzV3Z4XzFnOWNFMENZdGZ5UUJpcm1tVl9nNGtpR29SYkY5MDNrQ2VUSHJpbmd5aWl3dzFVWWItM0o?oc=5",
  "seller": null,
  "sizeBand": null,
- "sizeSource": null,
+ "sizeSource": "unknown",
  "sources": [
   {
-   "attachedAt": "2026-08-05T13:21:00.712991+00:00",
-   "outlet": "Google News",
+   "attachedAt": "2026-08-20T15:54:34.853825+00:00",
+   "outlet": "Whalesbook",
    "resolvable": false,
-   "title": "",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE93U19uSmd0YVBMMzRTU2dwNzRVQ2xad3lUUE92ejltNmwwaVR0MlI0Q0tScmlrdXQzV3Z4XzFnOWNFMENZdGZ5UUJpcm1tVl9nNGtpR29SYkY5MDNrQ2VUSHJpbmd5aWl3dzFVWWItM0o?oc=5"
+   "title": "Aavishkaar Group Hits $1.3 Billion AUM; Arohan IPO Awaited",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPSXg4b3hRdTB6YjVMRS1OOHIzbFZ3QWJ2ckpSSkdGNkJSbVlPQzFRcDU4WlhLS3pRcFFyNDhNZDF3RHE5MkprRGJmaFpFQ2xnUE9naW5RRWRmV3ZPaVpRN082QkdNcXZUcmVJM3JQeWEtcVpIbkJvTmowdExxQVcxWVZKT0E1UGxaV1djRWpuMW1LQ3o0emV5S083TFlFVG1DOW4tY3VXQVJsejgwNk5SbmVOa1JfOWk0QjAybEJxazNkZ1FidkRvNlFsUzEtYURaU0xELUpYLUQ?oc=5"
   }
  ],
  "synopsis": null,
  "ticker": null,
- "updatedAt": "2026-08-05T13:21:00.712991+00:00"
+ "updatedAt": "2026-09-22T05:25:45.000347+00:00"
 }

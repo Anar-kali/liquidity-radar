@@ -10,11 +10,15 @@
  "dealType": "DRHP filing",
  "enrichmentState": null,
  "id": 770,
- "individuals": [],
+ "individuals": [
+  "Lal Chand Bisu",
+  "Vinod Kumar Meena",
+  "Vikas Goyal"
+ ],
  "listed": false,
  "oneLine": "Kuku Technologies files confidential IPO papers for ₹3,500 crore.",
  "primaryUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOWGo2NUxWdlY5NmVjVVRNVm5rVkhyMHVwRWtmdGRVMl95UkNWQVVkazYxSzFhMDVQNDZsQnd2UzRpUmZJenBWUFNnWDVFaDdNU1Nac2hmT3ROUl9jXy1NNEpRRzBsSm1uUHBxRDFIbnMwSkRwSXRNQ2wzbkRBcEpaUEZIakVrQ09JRmJ4dGE0U0puNjZ3dXlVM2FPRjFvMHhwX1A3SENNU1Y2QVdKbTZ0TVlaQzJiZ3V5a2tjY0Jsbll1Z9IBwgFBVV95cUxOWGo2NUxWdlY5NmVjVVRNVm5rVkhyMHVwRWtmdGRVMl95UkNWQVVkazYxSzFhMDVQNDZsQnd2UzRpUmZJenBWUFNnWDVFaDdNU1Nac2hmT3ROUl9jXy1NNEpRRzBsSm1uUHBxRDFIbnMwSkRwSXRNQ2wzbkRBcEpaUEZIakVrQ09JRmJ4dGE0U0puNjZ3dXlVM2FPRjFvMHhwX1A3SENNU1Y2QVdKbTZ0TVlaQzJiZ3V5a2tjY0Jsbll1Zw?oc=5",
- "seller": null,
+ "seller": "Kuku Technologies",
  "sizeBand": null,
  "sizeSource": "stated",
  "sources": [
@@ -52,9 +56,58 @@
    "resolvable": false,
    "title": "Kuku plans Rs 3,500 crore IPO, to build 1,000-member AI content team",
    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQTkFYd0lINVB0N0xKNDJtUml3NFBHN1hlTTFqMzk0TzJRQTRVTmtqS3dodEgxai15MHBoSkt0NWhoSHdiNHQwQjVFenFxdEhDX1JBSEJjWm9ENUZVcHNvOFlWcEtBRURMOVlDaFQ5ak03UnBPMWJhLXRCUllxUlFQa0ZmUHNrRmVYaTVCRzNTTm1yTHc?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-16T13:31:32.169372+00:00",
+   "outlet": "Moneycontrol.com",
+   "resolvable": false,
+   "title": "Kuku Technologies IPO receives SEBI approval, allowed to file UDRHP",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaDNLRU1QTXlUeUp5YVRQVFFYZDd5S3RKSHd0dWk2NGwtV2lldFUwSHBpM3pSSmY2N0paQWpRaFhNMWRVa1BmaC1sZDhORmIxRUdkb3NCVTMxSGZuSDhkcjFEdzNHUWNBNXdGaEEwNjh0bTcwa2RnckVNVkpOM05kUjY2eXF0R1EzT1p5NTJqbmF5WFFKdTRpT0dDR3hONnVuZ3hCT05vRU1IN09Ua0R0VkJ6NERyQWw2eW9PdU1OekNub3kyUHfSAcsBQVVfeXFMTWJGUUNyVjBJYlQweld2c3RCQ0c1NnNaa2hwOEJmTkU1c3BhTlZidEpoTlJmcTdwWkE1VHc0Ukc0UERzZkdzdjl1LWIteXpxSlVMQndwckRXRFlIc3MycDVRMWtUMk52TFlHVFB0SWYzbkV0WWttV0N3X0xFYVZmUkU1YmdLSG1IcThKdTg2aW1aRTdXTEIyZVNFaGhLT3lPNExKTmszVzFZa0xZbGFnQzMyeWpETDdldXNEY20yblRmcGwydG5BcEo5b1U?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-18T01:31:32.029258+00:00",
+   "outlet": "Inc42",
+   "resolvable": false,
+   "title": "SEBI Greenlights Kuku Technologies’ ₹3,500 Cr IPO",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPc0RDMDlkaFBRNzBnbFZ5QVpCaTZaUk1rclB4eXZLY0NXN3FaUDBjRkxEOUI5ei0tY29ESkNSSUlxbncyVjhFaVJWNlltU1AzY0gxeHdBWWxHdGZMLUpCNnBta0dKVnExS0I0d29aRTNOenlIRUJ0RmxOMHROanVxUkw5cE9tdw?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-18T04:31:06.839857+00:00",
+   "outlet": "Storyboard18",
+   "resolvable": false,
+   "title": "Kuku Technologies gets SEBI's green light for confidential IPO filing",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPRnp6bWx1dThXWXF4elc5anJETWlpZUE0MC1fbXNDeDRGTmpzcmsxQTBKN2NaUi0wSld4MFpQSTEwR2JTSEFnSk5BNzV5UmRYOU0teWJzaEFGQmk4aFEtOU1RRkNuWXlUT3U2enJoOXU1bGxLRzZER3dBSnFrdk1pUm4tMl83djdVR1FnVDEzcE9TUXIzVXBVRjgxZUdOSjd3aUQtdHM3cTZCWFhzQkgzak96eUpvTEdmTnFoa2tWRFJFUnpHOWNlSlNmZmUyQUJtb1HSAdIBQVVfeXFMT0Z6em1sdXU4V1lxeHpXOWpyRE1paWVBNDAtX21zQ3g0Rk5qc3JrMUEwSjdjWlItMEpXeDBaUEkxMEdiU0hBZ0pOQTc1eVJkWDlNLXlic2hBRkJpOGhRLTlNUUZDbll5VE91NnpyaDl1NWxsS0c2REd3QUpxa3ZNaVJuLTJfN3Y3VUdRZ1QxM3BPU1FyM1VwVUY4MWVHTko3d2lELXRzN3E2QlhYc0JIM2pPenlKb0xHZk5xaGtrVkRSRVJ6RzljZUpTZmZlMkFCbW9R?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-18T06:31:15.375963+00:00",
+   "outlet": "Adgully.com",
+   "resolvable": false,
+   "title": "Kuku Technologies secures SEBI clearance for confidential IPO filing",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUmhCZGpBSUl6eUZ6OTI0aDYtWkdpSG9CU1J0dEdXVmtzWjE0cTZEbUY0RUp2Nm1yeEJ4Tk4xUjBnUjlhS1RXUnhUOWt2NERmSnotaDhoTTNKcVF5bzRYOWZ2Njhic2dtbmtKN1lEc0tUOXdVSTNZalFJNVhCUS1WOG9iNGtwemZyeVhoQmd0M2NFU2ZwLXo0MW9BdEpubFpvVk51ZWV3?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-18T09:31:14.016943+00:00",
+   "outlet": "Indian Television Dot Com",
+   "resolvable": false,
+   "title": "Kuku Technologies gets SEBI approval to proceed with confidential IPO filing",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQVJ5aDdzRThGMHBxRHFOSjFSUFhhcjd5NnVBazY3WWZiUW5sbmRXcnJSRnF2U0VPQVdmZF9kOERPQmpQTTFaZmRhUEFpa0p3OGxHelNtZW1laEJOb3liR0xXbDhPWGdqSHlmOHdWUVFGRF9DX01FT3VsWloxVTV5bXB5VFh3a29nVE1MalhUX1lvbXNRWTFfaVVCRnNWd0w2RGo1X2NKTUl0eFZmcEU1MmFPNA?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-18T09:31:14.019259+00:00",
+   "outlet": "ciol.com",
+   "resolvable": false,
+   "title": "Kuku Technologies Eyes ₹3,500 Cr IPO As SEBI Clears Filing",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUUxPVUdLSEUzZE9jd1MtX0N4TWZaNC1wNXM2bXdQVFVKaURHOU43WURHeGx5Z013NmNWMlZuR2lYYU1fRVdld1Ftc25JZDFxR3hBNm53bHBsSGZkdE1nNkl2WVFoZ3FMa0EyNVlLeFhvcUg2R2RpeC1WMnoyQ0hTcXZJSWU1SnhlRVI2ZWJlX3dTdFdpLVHSAZYBQVVfeXFMT1FMT1VHS0hFM2RPY3dTLV9DeE1mWjQtcDVzNm13UFRVSmlERzlON1lER3hseWdNdzZjVjJWbkdpWGFNX0VXZXdRbXNuSWQxcUd4QTZud2xwbEhmZHRNZzZJdllRaGdxTGtBMjVZS3hYb3FINkdkaXgtVjJ6MkNIU3F2SUllNUp4ZUVSNmViZV93U3RXaS1R?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-21T01:36:15.214317+00:00",
+   "outlet": "BW Disrupt",
+   "resolvable": false,
+   "title": "Sebi Clears Kuku Technologies’ Proposed IPO",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQUzRUVGhtSmQyZnFSdlIzcXVJN0FZVVNzWUtCSWZ1aHExVzRJUUtRN1AxbFdEdUkzWWNsSmdjTlVOeFFGM2VVRGZpQWRaSmlFTGNzak9heWFIcU1sTlJlR2hhRVpDZXU5YzIzTWYxTTIxeVZBZkZ4b0RFNjg1aGFUc003QmJQWWdPYllR?oc=5"
   }
  ],
- "synopsis": null,
+ "synopsis": "Kuku Technologies, a digital content and entertainment company founded in 2018 by Lal Chand Bisu, Vinod Kumar Meena, and Vikas Goyal, has received SEBI approval to proceed with its IPO plans following a confidential draft filing in June 2026. The public issue is expected to raise between Rs 2,500 and 3,500 crore, comprising both a fresh issue of shares and an offer-for-sale (OFS) component. Following the approval, the company has an 18-month window to launch the IPO, which will begin with the filing of an updated draft red herring prospectus (UDRHP). The company previously appointed Kotak Mahindra Capital Company, Jefferies India, JM Financial, and Axis Capital as bankers for the IPO.",
  "ticker": null,
- "updatedAt": "2026-09-08T12:31:38.400161+00:00"
+ "updatedAt": "2026-09-22T05:25:45.783281+00:00"
 }

@@ -1,7 +1,7 @@
 {
  "advisers": [],
- "amountCr": null,
- "amountRaw": null,
+ "amountCr": 1000.0,
+ "amountRaw": "INR 1,000 Cr IPO size",
  "buyer": null,
  "company": "Hero Motors Limited",
  "confidence": "medium",
@@ -14,7 +14,7 @@
  "listed": false,
  "oneLine": "Hero Motors filed DRHP corrigendum; promoters planning IPO liquidity event.",
  "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/aug-2026/hero-motors-limited-corrigendum-to-drhp_103180.html",
- "seller": null,
+ "seller": "Hero Motors promoter",
  "sizeBand": null,
  "sizeSource": "unknown",
  "sources": [
@@ -24,9 +24,100 @@
    "resolvable": true,
    "title": "Hero Motors Limited",
    "url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/hero-motors-limited-corrigendum-to-drhp_103180.html"
+  },
+  {
+   "attachedAt": "2026-08-31T06:31:50.135574+00:00",
+   "outlet": "Addendum to DRHP",
+   "resolvable": true,
+   "title": "HERO MOTORS LIMITED",
+   "url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/hero-motors-limited-addendum-to-drhp_104121.html"
+  },
+  {
+   "attachedAt": "2026-08-31T13:31:24.172580+00:00",
+   "outlet": "Entrepreneur India",
+   "resolvable": false,
+   "title": "Hero Motors Cuts IPO Size to INR 1,000 Cr",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNa0d3NW1VLVpEUnVCMTU2Y3lhMjZxb1V3cVNJVUNNYVRmTE1sLTc3cGM3ZzhaUGZDNnRRdHA0NXkyR0dSQjI0WUp5NUNZcHB0aFpkTm4yTGcxUTdJUjlNZUtLNFRMZm9MNm5fY1dJWEJ0OW55SVpVbDEwaHRTU1llS21nb2RvLTNocElUMS0tQkRVYlpuWmlJSQ?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-10T04:31:22.332641+00:00",
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "HERO MOTORS LIMITED - RHPHERO MOTORS LIMITED",
+   "url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/hero-motors-limited-rhp_104395.html"
+  },
+  {
+   "attachedAt": "2026-09-10T04:31:22.334893+00:00",
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "HERO MOTORS LIMITED",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/sep-2026/HERO%20MOTORS%20LIMITED%20-%20AP_p.pdf"
+  },
+  {
+   "attachedAt": "2026-09-10T10:31:16.262953+00:00",
+   "outlet": "Univest",
+   "resolvable": false,
+   "title": "Hero Motors IPO 2026: Price and Full Review",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1GVGQtVVAxaDNsZmtXanhYOXdtZlg1aDRsd3ZubThtVFRSamt5N0hCU3FiWDJRQi1uMy1Xb3RTMmpPcFpuTElKUlV3ckY2RFZEWF9jY0ViTEIzcVR4bXZzc1llU0VlYnZkZktNb3Q3ZTNjZEdfRUhiNTlqSzVRZw?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-10T10:31:16.265244+00:00",
+   "outlet": "Free Press Journal",
+   "resolvable": false,
+   "title": "Hero Motors Charts IPO Roadmap, Management Details Debt Reduction, EV And Global Expansion Plans",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWFdISFY2TWtMRU51N2dxSUduWFUxQW9kOG5WSllQMldQWXF1eXVrd2pXdTM2c0lmdkNDS1l2ZzFuMHF3dFZ0UGZjbUNUTExXYUhhckt5YWZoSDl2NnBOMlV5RHV0Sjg5empsMWljWWVKMnc1aGVCRXhKSDN5QUZkVFotUmt0RmIwblFrQi0xNE5oS0VCNjBZUnhCbGl0eVZjQ3ZXaUJyY0tqaFc2QnBpQmVZUHdHYWdmQkxoem5vSFhkODMxN2U1YXI4ZVRnUEpy0gHWAUFVX3lxTFBEZkktcEt5eHRKcjV0RkktSWk2SVVnd0tkLXdFSUhrTUtkcW5pYnI0VDRQWnQxaE5RUjlVUHRQTWZHSGstdTdMTDZjdVAxUUYyaDcwMzdnYkpMNFFId0pmZHJ2MmNvNFZYNUd4cDd6QjlwREZmM0FHc1NGZ3AzMnJ1R0dna1dvRTBFSEx0VlJSdjI1a2x6MWk5X01jTXZoenhHUHRYbU9UZ0ZkYmxRQi03UUc5RWhXbVNORU8yS1V2cHc0Z2VnU0EtR3VVN1NDeHNpTzdzaUE?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-10T11:31:35.263243+00:00",
+   "outlet": "Free Press Journal",
+   "resolvable": false,
+   "title": "Hero Motors Charts IPO Growth Roadmap, ₹1,000-Crore Issue To Fund Debt Reduction And Expansion",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbUJTeDBJVEdraklqWFhzeDA2b0RzWVhUWjh2THdZZDFWQ2g2SlNZd095cVY2Wjk1OUllZWYwQU1NY2FuRFJzOEVBMktvb0k3UDlxRUpNUF9rLVdpZURrSVBTMEhObXdNZmpLNFVEdVZnTFFldkxPeVZ4dFF0MzF0amtKOXJUaXdUelA4ZUREWk9vVFNRVDFQZHcwZ19YTDdYeUNlU05SRlBScmtOV2U5dVRGRmwzc1l1ZkdYbE5OT1IteF9CRmI4QXhwX3fSAdIBQVVfeXFMTnFZN2NHUXFhcUU2SzllU1VsQ2lfSk1sT1JvcGlEc3VmSFNwV29uM0lCbFEyXzhuaFpHT2RGOEN2T2YxM1g3YWprcEJZSXd0ZGxFMG83TERPY1VsQXIwb0xaaU9lRWhHbm5KX2ZQNmV2RXF4ZzRONmhxYklWcExUXy1KcmI1ZjRoTmxBTHAtUXBKQm9rcFlNcmt1SFpqVWdKVFVGZTEwT0FNQzhQR25pcmVLeUtvUk9NZGlnalozdHk1Ql9ueHZxYUxzOUZSV21PZVpR?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-11T01:31:20.769356+00:00",
+   "outlet": "financialexpress.com",
+   "resolvable": false,
+   "title": "Hero Motors IPO: 5 key risks investors should know about Rs 1,000 crore issue",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOalNvc24wYzREeTlsYTQwR0w3SXhubldrTnJBdUR3NUZtbXpXUS1VVlBGcjh6bDh1TEJtR2FWM0VSNkIwM2wycXdRUzE5WUZsV0hjR1lORy1makc5YXpQVEk3X2ZHd1pHczZOcU1QVE9MUWpZRkZ1d3oweldkZ3B0cXRiZ1JtR3JKb0xJX0NKbHdMSU1YYkViN2NrME5WQTEwVTZDaV9DeEVaZ0QyMFUtNEtUUy1tYThkT05NQ0tLeGRPcDRqTnhQQmljSHE4UdIB1AFBVV95cUxNVzcxYkJWY3ZkZXhsV1o3dWhwUmxzNXh6SF9iT2lVUDhldUJmd0RoMGlrcHpJUE4wVDFCSm0zeUpwSElZbVhEM2ktdGRPeXVmd3hqOGJJeU44cEpJSFJ6NVZXeDhXbENKTWRRMlJBVzI1VEV3YWhCTWZKWkRRRW95azVZcHpWTjRGd24tSnJLSVozSlQ0eHZDR2taWGRuQ2dMYmpSb3hfS3BUaE5BdWhPSDFDbDdHLXIxcUtvck95Tkc2Y3IyMndETnVQNnZsYm5rbjZLLQ?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-15T07:31:28.178345+00:00",
+   "outlet": "Livemint",
+   "resolvable": false,
+   "title": "Hero Motors IPO: Can EV momentum offset muted revenue growth and capacity drag?",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZUQwMVhGQmNVTEh4TGYzZGxkSUlzS0FxTFViSV9PNVhyWUlsandQWFE5TWZHcFpkWXhJc0drRUJZNHJpaXU5ajBuU2Y2SHdnTzkzLW4xcDVUVmF6MkZUbnZ4TG94UlRTNjlhMzJsSXM0OVZzR1hYOXV3WVAwOWZiZTZaMFJrZkJueEN3Zk1TZW1pSEpiRjQzMnJjVUpsWTFyVzhfazktZmRySWJZM2F2ZG96NC1SQjV4Xzg4MUZtdWl0c3ljUkhjLTY2OEdZQdIB0wFBVV95cUxQRzhsbTIxNkpLS1JpaHVzWDVXV0hlbkVqOHBjVTdUSnh0dDJoOEplODdDalhtMUVXdnM2d0F6OXI3cGRuVWUyN2NTX1cycjhoMlV1Mmtsa2hPNl9Fb3ZsV2ZtLTY1SEhZZ0lUeUFoLUYzSmlxbWE3ZHZKN2F3T2dIZHVSUFpVbUxIeG1jNzl3cnpOdDJpdE9xbDdjaGRfRXJWU3FhdlViZWxBSzZTbmhmN0w5cXNXMnJIdXZyVkdubEpGc05FTXdoYlpXS3JzRjZ0SVVN?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-15T07:31:28.184163+00:00",
+   "outlet": "Analytics Insight",
+   "resolvable": false,
+   "title": "IPO Watch: Hero Motors, NSE, SS Retail and 2 IPOs to Track this Week",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQnk0NlRYUHphdzVlUmxmelF1TWg4dFhLRTR4TWpYQ0R3RGZfbXhTSnVBM2xwV2xrRHpYY2xMODNqR1BXSk5VcEVudU91VHR2RHJiU0Rma3JudWhqOTlEM1BWRWtvZzMxczI0eVFMRWVXd3JPeGxkSEZCT0c3SkExeFJvLU1temFVNzlrbEx0cVJxbjdYbEswelhtQVhzdmJOU254anRB0gGzAUFVX3lxTE9TVnEyOE4zTlNrTm9yTzdXZHpkYkp5cnpvNUN0aWxudTVIcmFRd3pDWnhJUk9hdVNFYXdDeGpxVUR3RjFsQUxXUFp6TWxxV0pOR1dEQkoxd0R1TkxfRnJzaGlFeUZ4ZlFQTnJtM0dEZkUtc1BGUG9OYURNMGNKT3ktaUVCeDFpNzJvaHN1elFqdEFiWTBpaXlOcTZFeHhRM1YzYUlQY1RkUVJkbG1CSzA4Z0dZ?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-16T02:31:33.970896+00:00",
+   "outlet": "The Economic Times",
+   "resolvable": false,
+   "title": "Can Hero Motors IPO deliver long-term growth for high-risk investors?",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNRTVwNkd1MXFkaFZySzZlNVV2X1Y5NG53bTJqM29tQUxGZmhxcUFCazA1Tnd4NmlYVGM1bXFBZ1BNcGU3Ylg5NmVsX3lGY1VXVkJ4MkFwc0ZLb1kzLUxxdU14djVBVnhyVGFsWVJpaVRsNVNXeVZuMndBclJtTDIzV0ZqMWU5X0YtSUF3WEJud09Pa0FiY1ZTVXkySkNoemxGSkNqaDdYMWF2ckQ1Qmg0cGJfS0M3TmlHOXplZEJwSlJiYmFPN3dQaU5hekNfVzlEV3F0VDBKQdIB3AFBVV95cUxPMzh6cWM0N0NQamRRbHNZYWxlQm11Z211VllCWU9Ka2NVTVFrWEZyXzJGd1RaUXdTYVlRbVVHUVVXXzlmQmZDTlZrcUt3UnVfb1pvX3V4cDVSdmVzd1FSNm9WVHpZRHJLS1NUQW1jVjhscE5xa200eHFRbUw3UFdoN0N4X3dOeThNdFp3T2RvU3lodWctcVU3b0stSnhCMEZuUjc0R1E1Y2JZQUtEMnlRWnV3bDRHWWdqYUxpdHpaNl9ESHNSWXYwV2FPdTl6SVk3RjBiVVJXY1N4ZU53?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-16T08:31:17.524953+00:00",
+   "outlet": "Bhaskar English",
+   "resolvable": false,
+   "title": "Chance to invest in company manufacturing auto parts for BMW: Hero Motors IPO requires a minimum investment...",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZlU4aXg3QnVuVE5qSWFieVg1Vnk3Q2JCa201MTRtM1NpbkctQWJLdnJYcjdiNkhHYWRaOVJ6Q0h3dzdHbGkyajBFZU1ad2F6S2N0c1ZsaTRWVTh3OGlSdDhWV251UW01cVZpVURSYjlGOHBSSXZKRmdqWVdkam55bDdHN0lPejZvcG5RQTdrWHAzYUFWWVZhVUNyWlQtS3hPSWNDcEN1UWtzZHlrVkVYdG5zUE1kbG4wUXo0WFNjWUlsV3Q4bXFSVUdlTjhmd9IBzgFBVV95cUxNZlU4aXg3QnVuVE5qSWFieVg1Vnk3Q2JCa201MTRtM1NpbkctQWJLdnJYcjdiNkhHYWRaOVJ6Q0h3dzdHbGkyajBFZU1ad2F6S2N0c1ZsaTRWVTh3OGlSdDhWV251UW01cVZpVURSYjlGOHBSSXZKRmdqWVdkam55bDdHN0lPejZvcG5RQTdrWHAzYUFWWVZhVUNyWlQtS3hPSWNDcEN1UWtzZHlrVkVYdG5zUE1kbG4wUXo0WFNjWUlsV3Q4bXFSVUdlTjhmdw?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-21T07:31:19.198626+00:00",
+   "outlet": "Prospectus",
+   "resolvable": true,
+   "title": "Hero Motors Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/hero-motors-limited-prospectus_104589.html"
   }
  ],
  "synopsis": null,
  "ticker": null,
- "updatedAt": "2026-08-08T09:49:06.947381+00:00"
+ "updatedAt": "2026-09-22T05:25:45.090914+00:00"
 }

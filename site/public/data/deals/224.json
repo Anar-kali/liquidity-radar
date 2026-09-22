@@ -2,7 +2,7 @@
  "advisers": [],
  "amountCr": 3000.0,
  "amountRaw": "Rs 3,000 crore IPO",
- "buyer": null,
+ "buyer": "Prosus",
  "company": "Navi",
  "confidence": "high",
  "confirmed": false,
@@ -82,9 +82,30 @@
    "resolvable": false,
    "title": "Navi mulls for Rs 3,000 crore IPO; Sachin Bansal's fintech firm eyes $2 billion valuation",
    "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPbTluWEdvYk9Kbk9fcVJHSjhRRTFDbHdqSlJMVWZCbmRkb2F4RzZGbkNhUVl3SzBJR2hpUnZxQ3B6TUVLS1VUdVBRUXFoMnRKQlpIRVZxQVBiZDl1d3lXR1Z6LUpXUlB5VGxpYVNMXzBaLWpENU5uLW8wNTdNeGNvVm4wYVI2WEVGX0pnWHRJQmtmZ0lQS3FuNmdKYnFHaGxGazlZQ21GLUQxSHV3QVhwcHVIUlVmbTN5b3d1cTBwTklZNnN3U3JQbzF2Z0ZoSGJGd04zSWFaN0ZHV3FqNGZLRURUN2hOWERlcFR1a1VvajB6UWvSAfMBQVVfeXFMT205blhHb2JPSm5PX3FSR0o4UUUxQ2x3akpSTFVmQm5kZG9heEc2Rm5DYVFZd0swSUdoaVJ2cUNwek1FS0tVVHVQUVFxaDJ0SkJaSEVWcUFQYmQ5dXd5V0dWei1KV1JQeVRsaWFTTF8wWi1qRDVObi1vMDU3TXhjb1ZuMGFSNlhFRl9KZ1h0SUJrZmdJUEtxbjZnSmJxR2hsRms5WUNtRi1EMUh1d0FYcHB1SFJVZm0zeW93dXEwcE5JWTZzd1NyUG8xdmdGaEhiRndOM0lhWjdGR1dxajRmS0VEVDdoTlhEZXBUdWtVb2owelFr?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-18T01:31:21.965472+00:00",
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "Navi Technologies FY26 Loss Widens to Rs 466 Cr as IPO Plans Return",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPN3dqaHNtWXZ4a3ppTmttdnBCbmVxWC1Ya1JIWGp5YjdJZk1KQmhzdF9qOWhURDBPcW9LajFHN3BMb3UxQzN3UkVsVEk0T0Z1ZUtDX0NNRUpHSnFpMG9VUnJZRlJvUFFXdHZPMTNFX3ZTdmkySlVMNkktZGxsMFoyT0N4Qlp4TWNXSDVUZUJtZkRVQ28xMUFudktZVlBVY0htSzlxVldLVXl1SDBSOUt1TncyS1M5VjZ1N0prWTJxRzZUR0VOU1FkVU9Xb3QwWHdiVEFFd25lNXcycEk?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-19T15:52:47.550615+00:00",
+   "outlet": "livemint.com",
+   "resolvable": false,
+   "title": "Navi raises $100 million from Prosus ahead of FY27 IPO filing",
+   "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNdEFxU0FwRHZHdDA0cHl6U1ByX3ZidnFvOHNFTkRvdlljYkhQd0NUeWVYZWJQWE80Nm9oa1dzcEJNMGhOX0FVY3lqanF2QjVSN1VXcmRRS085NHFrR1pHVzV1aVExVENhNVNtS01kQ0Yyc0tkQUlVT3ZHenVYd3ctU0JhaDBJZHFUbjBuX3Y4QlNBRy1YZE51VXQ5LUpBdGdFejh0NnQxZ2hVdkJlTS1CSXVVVGVvVGYxZjVhNUtLWHpObldySXBWTHRab0VaSVdYTlZ4VUgxNVVTTzRBcGhXVnQzaE1VUXhCSTQ4cklCV2RFTkpCa09EOEc2Z3JYUdIBgwJBVV95cUxPVnlVLVpZUkdOTldQd05KRjFzbS10Q2h2b3piaktMTDlaaDkwTkxQWWVfbm0xbk9EOWd6ZjhfSVd5TEhZZy03ZnhtOVhJRVAyU2NVWEo1TjAzb2xlanFBcXV6OXJ6bUFjd3NPdFVFUndBdU5hR3VsLWltU0pzQmVSZDN1b1QyajZFa1g4RncwV3pFM1RVMWZWMnhSREFvTGtLSi01T1pNN2ZIRVh6TVdlSlNEMk9hRHRvbjhWamFOcXRSaTAweVFzVV9ubEFxbTdkN2ota1BscHhiSWY5Tk92cnlldndzdHRCSEJESXlkaXQyNFRONVhWTDFkUmtyMnEyZFdn?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-19T15:52:47.565260+00:00",
+   "outlet": "Google News",
+   "resolvable": true,
+   "title": "IPO-Bound Navi Raises $100 Mn From Prosus In Maiden Institutional Round",
+   "url": "https://inc42.com/buzz/ipo-bound-navi-raises-100-mn-from-prosus-in-maiden-institutional-round/"
   }
  ],
  "synopsis": null,
  "ticker": null,
- "updatedAt": "2026-08-13T09:01:29.013496+00:00"
+ "updatedAt": "2026-09-22T05:25:45.339490+00:00"
 }

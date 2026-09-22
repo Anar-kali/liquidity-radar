@@ -1,8 +1,8 @@
 {
  "advisers": [],
- "amountCr": null,
- "amountRaw": null,
- "buyer": null,
+ "amountCr": 880000.0,
+ "amountRaw": "$100 billion",
+ "buyer": "Nvidia",
  "company": "Anthropic",
  "confidence": "medium",
  "confirmed": false,
@@ -31,9 +31,37 @@
    "resolvable": true,
    "title": "Anthropic may expand credit line beyond $10 billion as it gears up for IPO",
    "url": "https://www.livemint.com/companies/news/anthropic-may-expand-credit-line-beyond-10-billion-as-it-gears-up-for-ipo-11787135173217.html"
+  },
+  {
+   "attachedAt": "2026-08-24T01:33:24.569394+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "Anthropic IPO faces AI, data centre backlash: Can it still beat SpaceX record?",
+   "url": "https://www.livemint.com/companies/news/anthropic-ipo-faces-ai-data-centre-backlash-can-it-still-beat-spacex-record-11787390267883.html"
+  },
+  {
+   "attachedAt": "2026-09-14T01:32:10.631254+00:00",
+   "outlet": "The Times of India",
+   "resolvable": false,
+   "title": "Nvidia weighs $10 billion investment in Anthropic’s mega IPO: Report",
+   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNaWQtT2pVQkZUOHFIZDZoaHE1N0dkSVNTbzhGMGVHNHp3YnFxRU40YnQzcWdONGkxc0lnOW05aDFYdndLV21rRmpDemtLVm4wdUFPYTV0eUNMdjhCN3ZKeF9LQk9Ja1BmZ191Nk9NcWtObHdmaW4yVmNBTlk3dFpPaXJMdGU1Y0hzVmcyVXNFSkdWM0YyWll5czByX0hRUmc5MmlJMzlUMUVvSnJaeFNkYnU1QmNlQnRFbTJ1ajgtaWFoejhicWU1TWlTdzQ3VDdsNnFfTU9FSzFZNS14UHBya3BUZEVaNFp1ZFdDSkRmU1TSAfYBQVVfeXFMTjBsTHhOczFTRmpjX19DRHBaU0t0Y1lyb2FJdndXdTBvNmxTcG1vSzNKUnB3SktkLWZ0TmwtQ2R3SXVSeHh2UTlHWU05TGM5emZyS1lHVUR2YU5sSVo3ODUyR3VHT2lJelBJRFpNY1BwU25JZ3pzcXl5d2FGdFlhR2lYNHhvT0x2a0pNMVRQdjJGWm8xZ2d3bGloN29XMDBjLV9uXzN5NzR1UmpGek5VcjdQZnJWZ29fZE8yWEN1WFhUUlg5TW5iSVI1RTlKUVE4aEZXS2xoX294aExQd3FjRTd2NWNGaXd5emtoLThZQTlrVlFseHln?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-14T01:32:10.968104+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "Anthropic picks Nasdaq for potential IPO, report says; October listing in focus",
+   "url": "https://www.livemint.com/companies/news/anthropic-picks-nasdaq-for-potential-ipo-report-says-october-listing-in-focus-11789316902621.html"
+  },
+  {
+   "attachedAt": "2026-09-14T01:32:10.988266+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "Anthropic in talks to bring Nvidia as anchor investor in potential $100 billion IPO: Report",
+   "url": "https://www.livemint.com/companies/news/anthropic-in-talks-to-bring-nvidia-as-anchor-investor-in-potential-100-billion-ipo-report-11789183097696.html"
   }
  ],
  "synopsis": null,
  "ticker": null,
- "updatedAt": "2026-08-17T07:31:05.229216+00:00"
+ "updatedAt": "2026-09-22T05:25:45.412293+00:00"
 }

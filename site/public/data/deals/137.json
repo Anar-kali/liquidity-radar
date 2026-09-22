@@ -1,8 +1,8 @@
 {
  "advisers": [],
- "amountCr": null,
- "amountRaw": null,
- "buyer": null,
+ "amountCr": 230000.0,
+ "amountRaw": "Rs 2.3 lakh crore",
+ "buyer": "Farallon Capital Management, Davidson Kempner Capital Management and Cerberus Capital",
  "company": "Tata Sons",
  "confidence": "medium",
  "confirmed": false,
@@ -10,11 +10,13 @@
  "dealType": "IPO-OFS",
  "enrichmentState": null,
  "id": 137,
- "individuals": [],
+ "individuals": [
+  "Noel Tata"
+ ],
  "listed": false,
  "oneLine": "Tata Sons considering listing; RBI de-registration decision pending",
  "primaryUrl": "https://www.thehindubusinessline.com/news/tata-sons-listing-question-hinges-on-rbis-de-registration-call/article71314245.ece",
- "seller": null,
+ "seller": "Shapoorji Pallonji Group",
  "sizeBand": null,
  "sizeSource": "unknown",
  "sources": [
@@ -24,9 +26,212 @@
    "resolvable": true,
    "title": "Tata Sons listing question hinges on RBI’s de-registration call",
    "url": "https://www.thehindubusinessline.com/news/tata-sons-listing-question-hinges-on-rbis-de-registration-call/article71314245.ece"
+  },
+  {
+   "attachedAt": "2026-09-14T01:32:10.615584+00:00",
+   "outlet": "Fortune India",
+   "resolvable": false,
+   "title": "Tata Sons listing will come as a big breather to the Mistry family",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRWZQTnl2N2hET0VSMkFLTTdvWllPaC1MU2Y2eG5jTjNadTZpcXI5X0Y4TGVaMGNVVnpiLUdDZ1ZNTlZDTjRoNlJtZm0wakxQWDJxcjhzb0NjSEN1NkozNXBVbDVOdnRNWVpSSk8wcDFzOFlIRVhvTXl1M0pQNmdqNnVfUG04R1F4NS1JckVpaG5FRG9NY0VrRVFaeGhqTVRkQnREVkVydFNTM1lreFh4MXM0Qzd5X0XSAcQBQVVfeXFMUEdQTnE5UEhFSzZqSC12STd2NmgySnhjd1F6SDlrQTVvVTF3TEdXWnRyZHpvVC1pNEVfdFBfOVZWSzU0dWNScUE3bDhMSVQydnhhMHFzaXRoN2pGQ2E2T2l1eWFxR09xUllBUUxBUy1ybnRJWUJ2V3R3aFV2R2ZMeU5TSVlwTURxelhNbURKYjMtZzJucnNBc1BfSkpyUzR6UV80dzJQTEZvOG9IOGw2SFhMTVk0ekF3SGdQcW5paDMxbTZWdA?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-14T01:32:10.963632+00:00",
+   "outlet": "Business Line",
+   "resolvable": true,
+   "title": "RBI's Tata Sons listing push may be a lifeline for SP Group — if it comes in time",
+   "url": "https://www.livemint.com/companies/rbi-tata-sons-ipo-listing-impact-on-shapoorji-pallonji-group-debt-11789296937772.html"
+  },
+  {
+   "attachedAt": "2026-09-14T01:32:10.965887+00:00",
+   "outlet": "Business Line",
+   "resolvable": true,
+   "title": "Test looms for Tata Sons board meet amid division in Tata Trusts",
+   "url": "https://www.livemint.com/companies/news/tata-sons-board-meeting-ipo-listing-discussion-tata-trusts-noel-tata-11789307136577.html"
+  },
+  {
+   "attachedAt": "2026-09-14T01:32:10.972524+00:00",
+   "outlet": "Business Line",
+   "resolvable": true,
+   "title": "Tata Sons faces IPO deadline with RBI decision. What happens next?",
+   "url": "https://www.livemint.com/companies/news/rbi-tata-sons-ipo-listing-tata-trusts-noel-tata-11789227983193.html"
+  },
+  {
+   "attachedAt": "2026-09-14T01:32:10.983812+00:00",
+   "outlet": "Know how it will impact Shapoorji Pallonji group",
+   "resolvable": true,
+   "title": "Suspense ends! Tata Sons to go for public listing, directs RBI",
+   "url": "https://www.livemint.com/companies/news/rbi-rejects-tata-sons-deregistration-bid-listing-requirement-stays-11789218797955.html"
+  },
+  {
+   "attachedAt": "2026-09-14T01:32:11.024565+00:00",
+   "outlet": "Business Line",
+   "resolvable": true,
+   "title": "India’s central bank tells Tata Sons to take conglomerate public",
+   "url": "https://www.ft.com/content/6a173e7c-cfe8-4ab8-8c8f-b90871cc907e?syn-25a6b1a6=1"
+  },
+  {
+   "attachedAt": "2026-09-14T08:31:05.993019+00:00",
+   "outlet": "The Economic Times",
+   "resolvable": false,
+   "title": "Shapoorji Pallonji Group rethinks 18.37% Tata stake sale, valued at Rs 2.3 lakh crore",
+   "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNTlFLTTNjQ05CMmE4ZmpMWnM0QktZTFd1aE9PazBNM1JNcEZXaGlaNkcyQWZVTzBkNG9yZnZXSWV5dXlKQmFWTFBXenV5QXZ5eE5kaHBpUDUtUEVval9fMGkxUno3RXZJdUhYZjBIY3BqeXF2WGZIUUNmaDZFRnU2Tm9LYWE0dy1Sb3JDdTJIVjNVV0xTbFdxY2NKWnY3V0ZicE9BaGpGQWFWd28zSV93WTZHWW9ITDBDczg0bDk0QWlpUGFnQ19XUHdZWlhQUy03NWMxWERJbUhtaTZhcVBONmRCdkJIV2RHdGFOaTEwZ2Jhb0xQeTJV?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-14T10:31:06.264740+00:00",
+   "outlet": "Business Line",
+   "resolvable": true,
+   "title": "Tata Sons under IPO pressure: Noel faces biggest crisis amid RBI's regulatory push for public listing",
+   "url": "https://www.livemint.com/companies/news/tata-sons-under-ipo-pressure-noel-faces-biggest-crisis-amid-rbis-regulatory-push-for-public-listing-11789377205627.html"
+  },
+  {
+   "attachedAt": "2026-09-15T08:31:14.482948+00:00",
+   "outlet": "Business Today",
+   "resolvable": false,
+   "title": "Tata Sons Board Meeting: Mega IPO, Valuation And Value Unlocking In Focus",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPLUZKVmV6VFM5WU1oUjVOYXkxRHJMTkVLb3ljQXpOa0U1UVR4ZTljUjJ2VGNROEgyb1kwdm0yNmlLeThfQmhnanpKaDJjd1lLY3czMm5MODNfRFQwWlRQUU9UQjlPXzhrQm53UkxvODVVRS03R01FMWJFNk16UEp0NC11amxpZm10OXAzUUtlTUZyNVRhclJCUUtNWHhvcTE1bUxaa2RNMWNoTzFQQWZJVGx5UWxYMnQwc1B1Q05XWXFIZ3dhMzFJNUlOMjZRbFZQXzRDWjUydE5XWTDSAeABQVVfeXFMTVd6U2ZDUTlPM2luNHdPcFQySHJfWkUwN0MteWJtYTJMTUdvS2hCODRZcUFxUW9mSnpPeHFSTEdDUlFJQlNrUlROdFZOTUhIWFRTSlFoVDNjQWZFN29YMzNtYm1iVm13bGZOc0hBZVNvdG96S1FCZnoteDZJejFBQ2ZaVjhGX2pSN3JqWDVzMmd0QXo1VWxqSGJ2UXJZU1B6MDduYW05RHJCaXBMWDBmTUZVR09MeEhaRE5FR0xzTl90eDFNVEd1aEY5aW1mbVBVRVpVOVdnYWxicUhBZzNURE0?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-15T11:31:18.917416+00:00",
+   "outlet": "outlookbusiness.com",
+   "resolvable": false,
+   "title": "Tata Sons Listing Could Give SP Group A New Way Out Of Its Debt Burden",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTlpJUWVKVU1DaU5sb0lLVVVCMnNSM01vTUV5VkkzUHBVOUFrSUdkVzE2b0pNSXMwNkU0TTFia0FFNVJscTBXR0h6eHlHTWtvd3RNcFREajZ4VGdra1hoV1BYWWloTHFHYW5PM1BWcXR3SDdIMzFRRldLRG1lbTFhSkp2am1uVklFWm5PMTR5VXFUWThUWkhZYUczdXU5NXFhTWRkNHBoMmF1d3hoVzlOTmlB0gG_AUFVX3lxTE9OMGFnR0dnV1B4YUlTaU1uaWw0dnlmTVNXMjM5S2JTdVptc2t0cktFMjlUM2tvQ1ZkVml6SkZYbkdtR1YtSVVMM2pjRTVvY1FzQlJMcG9JeHNoRDhDYTNaYUFCYzFoclJzUUdxcXlpMlo4alliSFNlZ1N1TDZWSDY5OHJjNGtSUTJONnNkLWU2NUtBM1hSWS1zZXZXUXQzLUI3dzVxOGxvanlBZFBySHlnVU9xem92cVRMMkJiQmx3?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-16T03:32:16.163132+00:00",
+   "outlet": "Business Line",
+   "resolvable": true,
+   "title": "The Indian business empire being forced to list against its will",
+   "url": "https://www.ft.com/content/bbc9d181-9cce-4b5f-af4a-bf87f3dfca93?syn-25a6b1a6=1"
+  },
+  {
+   "attachedAt": "2026-09-16T13:31:32.173839+00:00",
+   "outlet": "Business Line",
+   "resolvable": true,
+   "title": "Tata Sons board to discuss keeping Chandra as chairman post RBI's IPO push",
+   "url": "https://www.livemint.com/companies/news/tata-sons-board-meeting-chairman-natarajan-chandrasekaran-tata-sons-ipo-listing-tata-trusts-11789559737967.html"
+  },
+  {
+   "attachedAt": "2026-09-17T05:31:22.119024+00:00",
+   "outlet": "Business Line",
+   "resolvable": true,
+   "title": "Tata Sons IPO order backs Shapoorji Pallonji's long-running ask",
+   "url": "https://www.livemint.com/companies/news/tata-sons-ipo-listing-shapoorji-pallonji-noel-tata-tata-trusts-11789619645756.html"
+  },
+  {
+   "attachedAt": "2026-09-17T05:31:22.121898+00:00",
+   "outlet": "Business Line",
+   "resolvable": true,
+   "title": "RBI listing, N Chandrasekaran's decision on agenda: What's in store as Tata Sons meet today?",
+   "url": "https://www.livemint.com/companies/news/rbi-listing-n-chandrasekarans-decision-on-agenda-whats-in-store-as-tata-sons-meet-today-11789621258784.html"
+  },
+  {
+   "attachedAt": "2026-09-17T05:31:22.124360+00:00",
+   "outlet": "Business Line",
+   "resolvable": true,
+   "title": "Tata Board may ask Chandrasekaran to stay on amid RBI’s IPO push",
+   "url": "https://www.thehindubusinessline.com/companies/tata-board-may-ask-chandrasekaran-to-stay-on-amid-rbis-ipo-push/article71475252.ece"
+  },
+  {
+   "attachedAt": "2026-09-17T09:31:27.778831+00:00",
+   "outlet": "Business Line",
+   "resolvable": true,
+   "title": "Noel Tata tables a mega offer from SP Group to avoid Tata Sons listing",
+   "url": "https://www.livemint.com/companies/news/tata-sons-ipo-listing-noel-tata-sp-group-tata-trusts-11789620405503.html"
+  },
+  {
+   "attachedAt": "2026-09-17T13:31:05.476159+00:00",
+   "outlet": "National Herald",
+   "resolvable": false,
+   "title": "Noel Tata presents SP Group's Rs 25,000-cr Tata Sons stake sale proposal as RBI pushes listing",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPZ19LYWh4Zk94ZU1GYVItUGE5aE5CV01xR2t1M2tjaUhaNVU2dEJ6OVE4QVIxY3FCSUxyNW1yd1dVOE15OTNxd2pCYlBCYkpTQW1KM2ktbEtBZm41Nl84RUR2VkVwWEhsMV9CUmFDLUs5MExiR2RxUlM3YkM1QW9HUUZteWpUOWt3TExna1hrbVJnZEQtMGh2R0Q3OHZQVFVqSjRDa1FzWDRtOXpwRUJjYk9VTC1wdTFVOFl3ZGJDWDR1bW4xU2R4VzNYVUdrMDJIMDFlODNqWlpIRGRra0t4bdIB4AFBVV95cUxPZ19LYWh4Zk94ZU1GYVItUGE5aE5CV01xR2t1M2tjaUhaNVU2dEJ6OVE4QVIxY3FCSUxyNW1yd1dVOE15OTNxd2pCYlBCYkpTQW1KM2ktbEtBZm41Nl84RUR2VkVwWEhsMV9CUmFDLUs5MExiR2RxUlM3YkM1QW9HUUZteWpUOWt3TExna1hrbVJnZEQtMGh2R0Q3OHZQVFVqSjRDa1FzWDRtOXpwRUJjYk9VTC1wdTFVOFl3ZGJDWDR1bW4xU2R4VzNYVUdrMDJIMDFlODNqWlpIRGRra0t4bQ?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-18T01:31:33.052582+00:00",
+   "outlet": "Business Line",
+   "resolvable": true,
+   "title": "Turmoil at Tata deepens as board reverses executive chair’s exit",
+   "url": "https://www.ft.com/content/c34d492b-1468-47cb-8036-12a4a0627ea0?syn-25a6b1a6=1"
+  },
+  {
+   "attachedAt": "2026-09-18T05:31:22.185153+00:00",
+   "outlet": "Business Line",
+   "resolvable": true,
+   "title": "Tata Group stocks fall after SP Group unveils ₹25,000 crore stake sale plan",
+   "url": "https://www.thehindubusinessline.com/markets/tata-group-stocks-fall-after-sp-group-unveils-25000-crore-stake-sale-plan/article71479408.ece"
+  },
+  {
+   "attachedAt": "2026-09-18T06:31:15.370107+00:00",
+   "outlet": "zeebiz.com",
+   "resolvable": false,
+   "title": "Tata Sons vs Tata Trusts: What’s behind row over Chandrasekaran, listing and Rs 25,000 crore SP Group proposal?",
+   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNQTZhYzZ2Wk1abTBRT0g4XzUzYU9HQVRhV2tJemZyWTMwckswU2ZjYWxzLTNWZGtVVmhHQnA3LXJpYVAxc0d2ZFVxTFIyTVRWbUhJdmZxaWJwYkROeG15SDJIV1lqVUF1NUJDUlRjVjVHSmdhYjJ3Q3pnRUxocW5mMjd5d09zZnU4Ymk5VXNhaUgwdTJRcFc1NFFqMEhVaXlrTTh3REVQd0xRREZxcFFZRnBqUVFORUNOUXU4Vm9YUVBxQ2ZjRFRqaEEzbXg5MkNnZDY4MEV1cjZCTFdiT0xZMEZsc0xKNDJoRkdSeA?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-18T06:31:15.635518+00:00",
+   "outlet": "Business Line",
+   "resolvable": true,
+   "title": "Listing of Tata Sons shares an imperative, says Shapoorji Pallonji group",
+   "url": "https://www.thehindubusinessline.com/companies/listing-of-tata-sons-shares-an-imperative-says-shapoorji-pallonji-group/article71479537.ece"
+  },
+  {
+   "attachedAt": "2026-09-18T06:31:15.638001+00:00",
+   "outlet": "Business Line",
+   "resolvable": true,
+   "title": "Shapoor Mistry backs Tata Sons listing, calls it opportunity for greater accountability",
+   "url": "https://www.thehindubusinessline.com/companies/shapoor-mistry-backs-tata-sons-listing-calls-it-opportunity-for-greater-accountability/article71479511.ece"
+  },
+  {
+   "attachedAt": "2026-09-18T07:31:24.972576+00:00",
+   "outlet": "Business Line",
+   "resolvable": true,
+   "title": "Shapoorji Mistry urges Tata Trusts to back Tata Sons listing",
+   "url": "https://www.livemint.com/companies/news/shapoorji-pallonji-tata-sons-listing-11789711001205.html"
+  },
+  {
+   "attachedAt": "2026-09-18T09:31:14.030591+00:00",
+   "outlet": "Business Line",
+   "resolvable": true,
+   "title": "Shapoorji Pallonji Group for public listing of Tata Sons",
+   "url": "https://yourstory.com/2026/09/shapoorji-pallonji-group-for-public-listing-of-tata-sons"
+  },
+  {
+   "attachedAt": "2026-09-18T10:31:21.732689+00:00",
+   "outlet": "Business Line",
+   "resolvable": true,
+   "title": "Tata Group’s boardroom tussle: All you need to know",
+   "url": "https://www.thehindubusinessline.com/companies/tata-groups-boardroom-tussle-all-you-need-to-know/article71480141.ece"
+  },
+  {
+   "attachedAt": "2026-09-18T12:31:14.956547+00:00",
+   "outlet": "The Tribune",
+   "resolvable": false,
+   "title": "SP Group backs Tata Sons IPO plan, proposes stake sale to raise Rs 25,000 crore",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNV2tpdVQtMjF3dDJJU0ZYNDVwTjVyTFVTc1kwdUY1Wl9iRl9wVlh1MmNjcmpWcEMzNVdRbTNEYm1Ib1E0VF9DX0hKWkIwWDg4blNkb1lRTVFuTjdadE1DV2V4eXROektvR3djdG9fQ1dDQUFDMjQxVzY2OVI3b3dqRFZGdmU3X3VPVDQ4TEM0akVDbnNDUlhxNWtsc25fVzFSN1o0amE3ZEVrN1lKT01KYXhwRml1bjN2MjltXy130gHCAUFVX3lxTE8wekRRZV9YbTFpa3RXYkxRVkM0aWVYMXBmTHdER3VubXdleS1pSXozVGg5YVRHZkZSVjR0dVpqeUhfUUJPd0FMUlZJRjlFTzM1R0p1TmxFcVFtQm5RTTlPODZNWjViZmlkZUg2QlpEQ2lBaDRXQnQycUJ1TkJvd2hLWjFpRjVBRmVSSVYtSXNZSXhiY2p1Q1Q2UGxIM1MxbWE3Vk9qdFI2RG12RFN2RjYtM2FEY1psNFRVOVR2MDM2OFZ3?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-21T01:36:16.356690+00:00",
+   "outlet": "The Economic Times",
+   "resolvable": false,
+   "title": "Tata Sons IPO may spotlight some low-key crorepatis",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOWnFDVTJEU0ZRTzBYMl92a0tDRVhKbG1zWmRfM2VxZ3BMb2RHNFREWENPSEM3bEp5RTJEM2FXWGVfY0lzYmVWMHBFWlhaWEFPVlE3dE9rUjhSYzY0TEh5LUZLWWxNX2NDWjE3azhCTFZUTXRhX1BYS1YwMUROQVBtN1JTTUZ2UWJVb0dHTzJUVHIyYVFBbmEyUTZodTVvSEYtQ3d3RF9IUWowVV85X19fUjdydEozUV9rcHhOemRoQzIzal81RTZnb0NzT1A1QnQ0TFBMZThR0gHWAUFVX3lxTE5acUNVMkRTRlFPMFgyX3ZrS0NFWEpsbXNaZF8zZXFncExvZEc0VERYQ09IQzdsSnlFMkQzYVdYZV9jSXNiZVYwcEVaWFpYQU9WUTd0T2tSOFJjNjRMSHktRktZbE1fY0NaMTdrOEJMVlRNdGFfUFhLVjAxRE5BUG03UlNNRnZRYlVvR0dPMlRUcjJhUUFuYTJRNmh1NW9IRi1Dd3dEX0hRajBVXzlfX19SN3J0SjNRX2tweE56ZGhDMjNqXzVFNmdvQ3NPUDVCdDRMUExlOFE?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-21T01:36:16.397741+00:00",
+   "outlet": "News9live",
+   "resolvable": false,
+   "title": "Tata Sons IPO: Work quietly begins on the listing process; when can it take place",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZFN2MUFSV2hxQUxNUjZOcnBBNGpFVFNiQmJlNTBxXzVESUJLVF9abFJkT29rR1hFV0NfRDI0NHFaVlJLQTVsS1Y2anNRLUFveUhZOFh0ZjJBZV9qaWtURHlyUHRmZEVJUTd1aHk5TXZYbDlFYVJzS1FsTjQ1NWx1MXlrRmFlbGJ5M1d1NG1ydi1TcVFfUkEtUDRGendoY0NMMU42YVg2NVJqREh5MHBSQVB4MzY4Y280SkQ3Z2ZwZmR5cEtUUU5YNFNaTdIB0AFBVV95cUxQZHk1QzlUaFdHTjQ1U2lTb3NpblNTNlVtbnBoUUNQbWVpd3RJYWU2M0xNSWZzaVJHcmM0S3EyNjB0Nm9wWUR4ZUZrTklMaGFlRDA1dkRYMVQyR0dqb0JRbkJ1U2VZWHdxb1NQZzg3S1FWaVBzNUw4RnF6cjlUNzRfWkJJOFZoYjQwTTF2dWVJRDh1cEQwQVl0S1Rna2sxZjFiMzdzRWZoa2R5SXJmaElsQ2ppM09aMDl5NTctbFFBeGRrR3VzV3BYMEdyNWRDQ25N?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-21T09:31:21.258609+00:00",
+   "outlet": "Business Today",
+   "resolvable": false,
+   "title": "Tata Sons Listing Row: Shapoor Mistry Backs IPO As Noel Tata Pushes ₹25,000-Crore Plan",
+   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOM1laQ3VmangxUTVuSTFXbkhIQ3dVdm5rbDlfUkl3Tm9TLTkxd05XWDY2RVprS2N1ZVJqMDdrUDJ4UE1RY0hFMVJoVWVUTl84MXlpYmY0NVdLMk5zekc3a3RLTC1xSzJTOU1ybUpWZ2ZGaE41ZWxMcUFubWR3NTZiN1M5QUd6dmtiaFhFWFpXamlyVjRXMzJ4Ml9YWXFYWHJnWXNseWlaTUdOZExRcUFQaWxiVDFSOFZMaEU0U1plMGtKNEhqblhMLXBEQXc4SGlOS3hvWFRlTFFtVFZVYTNIWFFFZzRrZzh5VWfSAe8BQVVfeXFMTWlYazZGSGNVY3BuZEtzYWZzSVBtcV9VelVhLVJOV3BlRXpYZWF6TnhaY1pZRm9JM2xybV9rRW9SYzJ5OUk0TXExN3M2Y2c5MFE2TGtHVkNybENtN0tLQUY3ellvOWI1S3pKdjROLWdUMHktVXpFNDZ2ZGZTdjZ0WmUwYkdUMmZnc3RUR1pKVmxqMHRpY1Nob0FpWUxJSEtDQk9McTJ5emJGdXJBRnhuMmo1WnZLVjdLbGp3LVNVbUd1bjVnUEszcmJYWXJvY3JRbFBzNTFjWmF1a2Rrc1R1eGlnMnZLVmFTMVlySzI0Nk0?oc=5"
   }
  ],
- "synopsis": null,
+ "synopsis": "The Reserve Bank of India has refused to relax listing rules for Tata Sons Pvt. Ltd., supporting the Shapoorji Pallonji Group's long-running push to list the holding company and unlock value from its 18.4% stake. Shapoor Mistry, who heads the debt-laden Shapoorji Pallonji Group, has been seeking a public listing to help resolve the conglomerate's financial challenges. The construction giant recently raised about ₹ 15,100 crore in a private credit transaction involving global investors including Farallon Capital Management, Davidson Kempner Capital Management, and Cerberus Capital, with an 18-month timeline to monetize the Tata Sons stake. The timeline for the eventual Tata Sons IPO remains uncertain amid potential legal wrangling between Tata and the RBI.",
  "ticker": null,
- "updatedAt": "2026-08-08T10:50:11.380587+00:00"
+ "updatedAt": "2026-09-22T05:25:45.119090+00:00"
 }

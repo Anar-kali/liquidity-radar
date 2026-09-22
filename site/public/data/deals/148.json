@@ -2,7 +2,7 @@
  "advisers": [],
  "amountCr": 30000.0,
  "amountRaw": "Rs 30,000 crore (stated in headline)",
- "buyer": null,
+ "buyer": "investors",
  "company": "National Stock Exchange (NSE)",
  "confidence": "high",
  "confirmed": false,
@@ -14,7 +14,7 @@
  "listed": false,
  "oneLine": "NSE files DRHP for India's largest IPO; promoters to cash out via primary and secondary.",
  "primaryUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRGdXQVBQcHZMd010bEJVWUpQdlB2VXJ4MVFaSWU5a2VGNmZycDRxQ1ZVNTBpU2NBLWt5MHhyR2JxWkc4cEtmazJoYjJja1dWYldfWXFrZjVaR3FqQ0VsajRHbnp2UGhQSUhETW9HbDZJX2NZTVRielJZWXZLZmJoRUJBOHlJa2k1YWJ1WGZQY3M2aGs0bVdMb2VFajNDUQ?oc=5",
- "seller": null,
+ "seller": "SBI, SBI Capital Markets",
  "sizeBand": null,
  "sizeSource": "stated",
  "sources": [
@@ -24,9 +24,772 @@
    "resolvable": false,
    "title": "NSE files draft papers for India’s largest IPO worth over Rs 30,000 crore",
    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRGdXQVBQcHZMd010bEJVWUpQdlB2VXJ4MVFaSWU5a2VGNmZycDRxQ1ZVNTBpU2NBLWt5MHhyR2JxWkc4cEtmazJoYjJja1dWYldfWXFrZjVaR3FqQ0VsajRHbnp2UGhQSUhETW9HbDZJX2NZTVRielJZWXZLZmJoRUJBOHlJa2k1YWJ1WGZQY3M2aGs0bVdMb2VFajNDUQ?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-12T04:31:08.999810+00:00",
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "NSE IPO: SBI Group Realigns Stake Sale in ₹30,000 Cr Issue",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOSUpxLWZIOXdSZFlGSkFrREV6UDhiUWtodlc4UUg5QnV2ZlJVQU1iRG1lazlrS2lfRmRCbURuOVhxUENYeElUWURyaXFKUnE4VG55Z3VXME50TF9NTTdDd1N0U2luNjlOZVVZS0JHeXNZb3UzNmt3QzJsbE03ZDBTZFVMUXg3REN0TWlZSGt4S0F0XzVMdjZhSE94V05TUThNQkpSSlZ1LWd0bWZodjlZVEwtcmcwYVZvMzlfWXNqTW1pLXBDNnNpall5ZW5QZzVKSTRmWkNVc0t2azlFcmFsWA?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-12T04:31:09.001955+00:00",
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "NSE IPO: SBI Group Realigns Stake Sale in ₹30,000 Cr Issue",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOSUpxLWZIOXdSZFlGSkFrREV6UDhiUWtodlc4UUg5QnV2ZlJVQU1iRG1lazlrS2lfRmRCbURuOVhxUENYeElUWURyaXFKUnE4VG55Z3VXME50TF9NTTdDd1N0U2luNjlOZVVZS0JHeXNZb3UzNmt3QzJsbE03ZDBTZFVMUXg3REN0TWlZSGt4S0F0XzVMdjZhSE94V05TUThNQkpSSlZ1LWd0bWZodjlZVEwtcmcwYVZvMzlfWXNqTW1pLXBDNnNpall5ZW5QZzVKSTRmWkNVc0t2azlFcmFsWA?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-12T04:31:09.004016+00:00",
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "NSE IPO: SBI Group Realigns Stake Sale in ₹30,000 Cr Issue",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOSUpxLWZIOXdSZFlGSkFrREV6UDhiUWtodlc4UUg5QnV2ZlJVQU1iRG1lazlrS2lfRmRCbURuOVhxUENYeElUWURyaXFKUnE4VG55Z3VXME50TF9NTTdDd1N0U2luNjlOZVVZS0JHeXNZb3UzNmt3QzJsbE03ZDBTZFVMUXg3REN0TWlZSGt4S0F0XzVMdjZhSE94V05TUThNQkpSSlZ1LWd0bWZodjlZVEwtcmcwYVZvMzlfWXNqTW1pLXBDNnNpall5ZW5QZzVKSTRmWkNVc0t2azlFcmFsWA?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-14T14:31:00.066519+00:00",
+   "outlet": "TradingView",
+   "resolvable": false,
+   "title": "NSE aims to launch IPO in mid-September, list by end of month",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMC1PLThfbHBUUFd3NUt6SFNKUWJ3dGRQYzQtaGNoTWYyUGJmb1VFSHoyek5KNWJCNVFVT21CTi01LU5DRGlaWWdJVnMzOC1pN2VLekRZeGdyNVNnLXJ3eUEwcjQ2ZXJURXdhdzIwYURJMnJoUUJUT1A4MXpraHVxMFg5bmc3LURqa1dHNEFvM2pVX0NXT3dWNENjeVlOV2JIaEhpRThXRUZiYk4wYlo3ZkVIS2xrY3FR?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-16T07:46:32.397117+00:00",
+   "outlet": "livemint.com",
+   "resolvable": false,
+   "title": "NSE aims to launch IPO in mid-September, list by end of month",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZG5pbGV6TFl3WnRPVDMxTjlwMDNjcXhHbjJOYlRmN1JXRFJfX1lYTkpoLUdfYUpYMGd5SjBsaTR5ODJSQllQX1VQSlFvb1hkd0RPU3IyQ3BycS1xOVlMdllRazNUM3F4NERiaE9idzNHRUpXNk5ic2ZQb1drS0lRMjB2djJTMEtVWUdKa3hjTmRPS1BGY3U1MdIBmAFBVV95cUxPZG5pbGV6TFl3WnRPVDMxTjlwMDNjcXhHbjJOYlRmN1JXRFJfX1lYTkpoLUdfYUpYMGd5SjBsaTR5ODJSQllQX1VQSlFvb1hkd0RPU3IyQ3BycS1xOVlMdllRazNUM3F4NERiaE9idzNHRUpXNk5ic2ZQb1drS0lRMjB2djJTMEtVWUdKa3hjTmRPS1BGY3U1MQ?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-18T01:31:21.961464+00:00",
+   "outlet": "Goodreturns",
+   "resolvable": false,
+   "title": "NSE IPO Within 3 Months? India's Largest Stock Exchange Set for Rs 30,000-Crore Market Debut in September 2026",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQYS1PV1RSbjRfVlYwR0F3Q0xHTHg0Vm8yWmplMmhBNVA0ay1ENE1TWjBTYVI2cGk3MXZTNXNsLVp4M2NTWnE3VE9uazQ3V0dzVW1zeVBLQWVackdnYU5ZYTN3dWlsZnZ2NkdoNHVCLWRHNGVJZy1INkJYTmVIWkxDMnhGWGVhZkFQMWxqY2xFbEpNc3c5TzdXeXJQMDdvVnlWbkJOdXJjQnNJNXpiZUNVb1dGekRraS1yWlU4UnBkamN3eS04MW9ObGdyVDNJOE5qUWZnd1RlUWdKQ0daSXc?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-18T07:31:17.135095+00:00",
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "NSE IPO Progresses Toward Late September Launch",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNd3JzbHlReDd5VDN2RWFwZk8xeFY3ZjB6SFQyVGxXZVBLdzRTTlk3TVZvNkV3UF9ncUwxWVlnYWkyMlJsVjdNQ1VfQzZhUnJ4N2x6aUtsVHBTdmlOajd4SU1GNlVfQXpPYXZHVy1oRkVjMWZqamM5UnU1OUhuSnR0eWtQa2dnaENzaXZZeGhlY2xKTzRyNnd3bl82VU4zR3NKblIwenc2bVA3MDc2WXVJRk91T1RhTjVLZjgxUDRaU0RzeVpqVGhITThZejBGZ0Vo?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-18T11:31:20.087182+00:00",
+   "outlet": "Outlook Money",
+   "resolvable": false,
+   "title": "NSE IPO: Exchange Seeks Rs 5.26 Lakh Crore Valuation For Upcoming Public Issue",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWElySnF0VDdkcDdyQ28tdktvU0VVQmlVSG1TR0FYMVlUMkxLQVNHWk1qTDl3M3g3RFZxYW9FM0QzNE5wZXRmRk1RNERyY2dNWUxlM3lMeEpUVFlCVGgwOGo3dnJYaXdhaXdXWmlQM2xqU01SLXhURm9FU2hKaVcyT1hhMTFCaC1FRW1uMWdwUmVXVlR5V1czZVFpSUlkbHV3bTFEc0FfZC1iY1dWR3E0MlhR0gG_AUFVX3lxTE9aRG1HTmd2a0Mydmk3aG9vaGxsb21rSW1BT3lnMEgwcG52NmRUR1Mwa3VYQnRWbURPb0l6QUl2NWtySkdWamU1RkVuTHR2R3luX0t1c0IwMllGOC0xRWlGWXFpSTA1MEl3ZG1TNWV5UmJyWGN4bE0yR0ZZbnA0LVhFejZlSi1PTnhfUUNzc213N0poMkZoR2ttNENvcHlDUE54OVJudUtvcUNxZXZ3QjRqTHo3U3M1cFZVc190VlAw?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-18T13:31:08.135177+00:00",
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "NSE Plans September IPO at $55 Billion Valuation",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPaWJrc1lxOTZkM1RRczdDUVg4NV9aWGV4THBNUmtlc09DUE50SHZjVHZxbUt5eDFlUzc2cWp1ZjFuM1pRQTNTeHZSYzdqNzM3NGd2SUFBb1RfWDBzTS0xQlR5RXAxZTlHVG9VU0RFd1IzLUNGMzBTRkxaVUljODB6Ykg0MFB0VV91ZHFyQVpRXzJzakF0cGpsWHlXYVBDUG9aSWxqcFBWMDVySzctNkNibnpqb2gyT0xxQjI1bG9oT19VcjQtYnRfVEhPNUszVXNMTTVGcWJSRjQ?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-19T04:22:16.592430+00:00",
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "NSE IPO: ఇష్యూ ధర ఖరారు.. సెప్టెంబర్ 2026లో లిస్టింగ్!",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOZnpBOEx2eWlKWm1jTm1wQktjT1RmeVRKTDRoS1BCZy1WdjBiRzNwQkxoVFZHYmlXcmpqNzd6OTI0T212SkhTUWcwUHJ0NmlzWHpaTGhsNzRHeDZIZXkycURSY3hCcUZGMWxWVHpqR1RmaENxakpKY2xKVVo1a0hrRW9Yb2EtdGo0YzM4V2xtNkJ4SHNkWlMxQUlzMkM2OXV0dENVWGJhWHY5LXRLTWFBTnFjbWVxMUFiUjk4UXdvOFE1TFBGNHZvTV9jQmFyQlE?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-19T08:05:04.604625+00:00",
+   "outlet": "Free Press Journal",
+   "resolvable": false,
+   "title": "NSE IPO Gets SEBI Approval; ₹30,000 Crore Issue Could Become India’s Biggest IPO",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOUFrUWY3Z2NLZkZWR0xleHBtYjkxUGxRRGprdFRPVXQ1VEQ0Yzk0N0liY2RMTlYzTEFTZTRocE9UbXdLdVgwRTZJUllrWHNBSlBqOGZXVFVObXhOTHI4cERZaXUzSWJaOHk3MEs1LUlfSncxR3RiTldRWGpmdTVscndUa04xd1VoUDlqT29hWjlqNXRKdDc0cWIwTkRQb2tkOFc4VEpncFpsRXJsSkV3TzU2WHNWcW1h?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-19T08:33:31.685382+00:00",
+   "outlet": "Sahi",
+   "resolvable": false,
+   "title": "NSE IPO Gets SEBI NOC: September 2026 Listing in Focus",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB3ZlJQV0VjRVhubk1hdmlLMWtmVHJtTVZhT2Fyc19aYjRFN3VQa2ltVWZMcnhCcDZ3TGxKSU5BM1hwQVVEbDFkRFNkbzlpbHNlZmZNQ3hPS0lUb0pXV3ZyQXRaQUFralRIYjg5T0VR?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-19T08:33:31.689736+00:00",
+   "outlet": "Moneycontrol.com",
+   "resolvable": false,
+   "title": "NSE said to seek up to Rs 5.26 lakh crore valuation in record India IPO",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPb0s1N092ekxLR19Hc1Nld1JZbjhkVXRQcFUyM3JGc3hacS1zVGpSZlJ1T2J2M3d4OHB4M3hmZEZxQWpSS0JmMU5OMVNxNjRJUUNoSDdkaUxzdDZ6a3RWaVVVemFlNTd5eDNHRy0wUU5KVE84RUgta2VNUTNPMzB5VE5wUzZzNENabG1LNWI0SnBWYm5Tdm9Fc29uc0ljNmhGaTZQQ0QzUEV6dUxYTWVqRVFWY19nQ0ZHbjVFWmRCZTZ5d9IBxwFBVV95cUxOc1BwaU84MjlyX3o1TDdNd0JFalkzc2drWWpZeU80ekNsUzJ5ZXJoYkFLYUxmOFgxM2RTd2dSczZOZkhEN0NUUVdTdXdGUXJYUTZwcXJtYnlsQWVYNnlTXzRvWjJtTUdtTlFnOUt4NGNGb1RRS0tOVXp1ZnFFT0hLSnBLRGVxZXN4clVEeXB4SktvMks3Ry1JNDAySTFvRWdGZTA0TF9pVEFkSVQ5QzFiZ2tmck5mOTlEeWtsd2VCVG5KMWdMcFA4?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-19T09:32:35.000291+00:00",
+   "outlet": "NDTV Profit",
+   "resolvable": false,
+   "title": "NSE IPO: Exchange Receives NOC From SEBI To List On Dalal Street, Approval Soon",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSlRlZm9IUi1DYXh0MlBkMmVWNWRPelRsMVVMZjUtbzZ6UnB3T2l3c2pRV0EzeFh1X0dDT0J0WUxJYlk3LUp1OEZoREFlTFMtbmdVeUdRelNtRldwQ29WYUVBT3g4LTlCX0FROE11Sll0bHlnMThJWEhMOXZSV2hPVVRrQnZLbGFxVzhobUI5b21CTVM2YTZPV3ZLRXdpeld0aV9NNEYyMnNqUdIBsgFBVV95cUxQaUt6N21KUXZyNHVBSXlRSUg3WTIxUXVKSmdpNm5wNW9GM1AwM3QwMXZ1Z0EyMGYta09aZHlkRl96Tk8xX0tKSTM1Q0p0a3dJeDhpcmROUnVURFRXU014WlVoQzVldFdRY3lQOVljalhjSmIzc3Q3VkpWUElRa1RxRVdQX1pyeGFVYUs4OW5WcXdYWlFuZUltUkxwS2psNFgtU2tsN2E1LVFVTURGdU5WZ0lB?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-19T09:54:49.820698+00:00",
+   "outlet": "outlookbusiness.com",
+   "resolvable": false,
+   "title": "NSE IPO Likely To Launch In Second Half Of September As SEBI Approval Expected Soon",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOEFFWlFoMWgyUHJ3S2VQTlZpVWNfbFhEdGlKTTduWTVaS1hHeFFLNmxwNzF1R1d2MTdweWo4LUdvdVdQRWpzSFMyT042cFA4OHVVMWlYY3FBWGo2SnlDaENGMnZrR1dWcmF0cjhpa1dXelRvTUVNYU5xQ2ZlQnN1YWRMZkl5Mlp0VTFTMFNvamR0VzRCWmtDeWVHOGVZN2ZCeVU5cU9nSi1KRnNLMnd1VTU5YWMzSFpoV2Y0blhNZWrSAc4BQVVfeXFMUGdBSUQ0eS1wcjFmUVlVNktBNlBEVXpqOEpSOEhSenJZY3dhTzQ0U1Q2YzVkWXlLSnduVVJnOWZSZThoMXNQMTRMR2JqSmhSd1Q0T1ZTM3NzV1VsXzEyR0NjRW42anlDaWs4S3Z1QUhZWERDbjVMMllVSC05dWNWQ0RQQnJReUdLX1l0ZjJ5UjNSN3ozbE5rY1ZBMzIzN1Z4NDcxSDZtNFFNSEoxcjFBNG5Rb2tpN2FoUmtfY2lJSFhtVGktWF9mY29qaV9xSEE?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-19T09:54:49.826382+00:00",
+   "outlet": "Business Standard",
+   "resolvable": false,
+   "title": "NSE seeking valuation of as much as ₹5.26 trillion in planned IPO",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNOWxGam9qX2NCSm1XN1RvNkg5TU9OMHVNRDY4YmlNVEhxTmo4T1E1MGUtNEdPTTBiUG15dk9sZW1qMVMyQVUyUmdoV1JjUk1NZWd0bGtjTW9BRUhUaWhCRWFmZGhYZ2RMYUVYQ1JmcXJJcGMxQ1ZsUEJmdmtxcmdjaXpfNE9IdlJxSFduYzFhaHA1czVuZkwwX1ExdDN2b29TMG04a2NfTmFtR2JwMDc4OHE2YUcyeDgxc0ZwazNYMm85M3VYWTduQjNRMGc0UG9iSzBqc0Vn0gHbAUFVX3lxTFBLWC1JUEZRYkVCMVV1Z3ZFQWlEN0h2NnZ5TVFROU9iaHB4OEw3RFcyYlpvREdpR01Cd1FQVlJGZUYtMVgzS19nWDB0b2FXdUJKS0xfWFpXajZmOC1sMW5vUGdDYmVzRU9ScEsyQUh4cWdiODF3elFqendsWHlrMElrVEV2R3kyX0VGMUZPUUZCckNPOVRaNFZuYmNrTVZyNEdWemN4OHhfN2N0SWNKLURpS3VXbUlqRTZLVWg5SEtWcUdzZDZILUJmODNiVnRmN2pqUDhtYlVDV21XVQ?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-19T10:31:13.616159+00:00",
+   "outlet": "CNBC TV18",
+   "resolvable": false,
+   "title": "NSE IPO DRHP may get SEBI nod in two weeks: Sources — Check likely timeline, price band",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOdXd1YnlDZnQ5OU9pUkpCWGtBb29zMHpnSWhxaUIyeGRDS19nOEs5Zl9ZVm5OQ0lUT2d3SE1TUW9mRDZBamhTMVlwLUh6RnQzYlhGaEpUWDlJQXd6UzgxNXVXTUQwbkZrMllQUHE2bEh1R2lxc3UwTmJObW1SeTNzUnY2dDR5MDlpTnBFU1FXelRtNGhIVUZqMkxlNVZqN1ZGY1dadXNFWk1FZTllNWhrNU02UjZUV2ROVndpdEVmLWtXd9IBxwFBVV95cUxNa3dOeGlWam5GQlBuVHN4emlvek1Oc2twMzNteS1NYVBHSDBvcHlpblJVSS1xU3FGWkI3ZXpQX1dTWnpLZkJGbVU1U1BZZ2tKMmhWSUpwcTgtVHdTRFV3elE4TEIzbTZWQ2xYR284Q1VKZHY0M1Axd1Y1Z3lFaERhWUVQOUZ0RnFBSE5CLXdwU1ItUzRzSWg0aldjY1JzWVZLNnM3cTk3SWRhZ1duNkI0alBuOTNON3U2QWFJNWRfbkdXYTZCQ2FN?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-19T11:02:58.994655+00:00",
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "NSE IPO: ભારતીય શેરબજારમાં આવશે મોટો ખેલાડી! સપ્ટેમ્બર 2026 સુધીમાં લિસ્ટિંગની તૈયારી",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNTTZ5blFlSkx0T0J1VlNMTF9YQW1DdmJEbHhkcFVwdWZUeDIwcHpPUy1MaG5kVEtlSjRuM3NNcnQ3VTI3d1NSSEh4Mll0S3Y0UDNKeF8yS1JpNWw3b1lkdmY3cjhyaWZBdUNMbXkta2tzTl8wbU9aelk2ZUNTS2ROWVZNRXBpRTNlcUt1RFpfMVpMSTZray05cDdmSXlNT3pDMS1oMEFhZDduaWhxNU10bUR0YWNsSUhsczZTcGNFUklYa1BLTEh2T0Q3d01VcXdYQXc?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-19T12:00:27.513707+00:00",
+   "outlet": "India Infoline",
+   "resolvable": false,
+   "title": "NSE IPO 2026: Will it be the biggest IPO in India?",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWEtleU9WN3VRenYxLUVYYXppQ0xkelRSY1lfVTQtQ0haZ2E3TXp4R0d0V2ktSk1kX2l3cDhOclRIUURsNWNLcVFyTDlpUHZnbUIwRzB0VGVUdHV2RkZsMW5UWWVVZmxuMGNETXhvT19Zd3BSOU5DOC1jUGNPWGdXN1l4cjhDX3JSOWdJc1NkdmQ?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-19T13:31:06.543113+00:00",
+   "outlet": "economictimes.com",
+   "resolvable": false,
+   "title": "NSE to seek up to Rs 5.26 lakh crore valuation in record IPO: Report",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPcGlGUkg1S3NnelFFQUgxWGpOcWoyUU1lNmEycE41aldZS2tJa3luekk0WWVyMUU4T3FqOUpOZ0xRTVhRSGI3emtvRlhEb1hxTVlHYk9RV3JRM09EZllPaHZYWjQ2U00xWTdfckRscXdRQlRWZ3BSZ3d6WVlOMTVETlZyX0o4aXZ6Qnc2cnY1ZlVzM3dkUEJWQ3l3RGVjQzBIXzBpMlJ4MXRWT1Y4QkwybGRJWERVZTNHU2M0aE8xUERMY3VGUUpialFIVWQzS1VYc0x2bHdR0gHbAUFVX3lxTE5wQjJnTEoyZFNESF9lYXdnX09pTi1MU3F4Q3UwVWo4c0VMYm1pY1llZmYzd21pclI0WXFHZkEydHhJb0Jmckk0QVVOWVNvNE5ZSmlBQ3dfWGYtR3dBWlZXNGU4NkJxejVHRTVkbDdabE9aMm8zTWhKNDY2LXVmRGJETnVUTktpczEwNHVTZzdBRUFwRUNESkowdndZY3VHRHFZOTZMVGR3S2ZQSmtoWFJ4NDgxVWpYRVRCVmJZN0tTMGtZWjFTSWdCREgxc3JycF9ZY1Q1cVRtejJ1dw?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-19T14:09:19.518187+00:00",
+   "outlet": "Univest",
+   "resolvable": false,
+   "title": "NSE Initial Public Offering: SEBI DRHP Approval Expected in 2 Weeks",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOS1RzV1JEX0NPbXJZYjBTNXNBVWc3MmhocDg2WV83TFJYT1pidWtuNHNKZFZEakxUQVRhUXF4aHVzTUQ1UWktOUlyM2NoR0p4bUhZRXhzQThBQkQydkFPNUpTRlgtMXNtcUlWR1dXZW5xcDJhT2tXOWlhemE3UFAxa013VUx0YkhBdGRZMXY3NA?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-20T01:31:20.812943+00:00",
+   "outlet": "Moneycontrol.com",
+   "resolvable": false,
+   "title": "NSE IPO launch likely in second half of September, reports CNBC-TV18",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNaU9Obk1wUmFYem5wWEIzRWpmWW5jenVRclZoQlRnNTNlT0FxbVJZOHY2b2theFkyY2gwdjZCTXhScEl3N3VVRm0xa2FSRW9ta1MtcmdYX3hTc29EV3FaMUtEZ2N3aExrVy0xdmRLM2I1dnhIS2xieWlMdTdGYnZxbUZvbURKalZ4SUxqNTBMZ0E0ZF9XekRISDlwNGo3NVRBeFNhenpIY1BZZzNCaG1yZFphSllhR2lwZjZpVElXTlFtdldZTGk40gHMAUFVX3lxTFAtdXFEUUFCbUVTTkhocmtMQThHVERXWHA5UEZvcmpBY09pMjhrSFd1MVRmQ0FBRlotbEl3ZFpRamtfVHVfSGtpNnkxU251cEx4d2k2VWVJUFVhdmkwTTVFUXR0b1NTV3kzTzRPcFgyOE5xeVlUbThmMUJ4TFQyNlRxYWVWMjlfNE5MdUk4Z1lHc3R3ZTF2RHdiMUtYQzBUNTJMYWNtTFZMODZxZTZlcGw1UnYtN2R6bGZyejMyeWhFNkJDZ1hFWGlGYVlhVQ?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-20T01:31:20.818749+00:00",
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "NSE Gets IPO Nod: CEO Thanks SEBI Amid Record Domestic Inflows",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOcHplRVNuZWR4OFlDWDBpclhfTlp4LVdsc1hmRGFnWG5RbXJfSHlDTDl0RkxGV1dpbnd2ZUhDRjR1aTZCTEtzUnlSY3JtZmlyUXNwVXRpSVdqLUVXYmhnQU1LVEVZR0NtT29kUHNUYmI5U1dfVmJhdnlZYnpYZTBHX01YcEE0d0NyN3k5SElXakczai1JS2JUeUpVbkVBODZ4NDlRa0pwQzJ1WFB2azgtbm4zMnl0WmZ6YmZOUUgzS3JDUDhrdmE2WmJlU1JBUDN6TWV1VnJn?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-20T11:31:21.246029+00:00",
+   "outlet": "Free Press Journal",
+   "resolvable": false,
+   "title": "NSE IPO Moves Closer After SEBI NOC, Ashish Chauhan Says Long-Pending Issues Have Been Resolved",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNcW1qR3lDa0FzMjhNMlBjaVZFYzdnVEhkRWRVYS03Qkh2YUMtZnlNUER2el9rdEFLS0NMTHBJc1BUTVJ6bUtDaG50NG9Rd0hnRGVyNGVLZTlQWHZTSURIal9WcWJ4UW5SbXZlV0lwSkFRa1U4YUh5WkN4MG5kMjNWTjctR0NaNlBNbDFvR0N6R0FrSDMzU3dncHUwYjg1bVUtS0g1anBfdkpFVm5URG4zZlVqanc5bG9QTElIaE5OZDlnZnB5cHpOMFQtMFd3UVZJakloaVNB0gHWAUFVX3lxTE1xbWpHeUNrQXMyOE0yUGNpVkVjN2dUSGRFZFVhLTdCSHZhQy1meU1QRHZ6X2t0QUtLQ0xMcElzUFRNUnptS0NobnQ0b1F3SGdEZXI0ZUtlOVBYdlNJREhqX1ZxYnhRblJtdmVXSXBKQVFrVThhSHlaQ3gwbmQyM1ZONy1HQ1o2UE1sMW9HQ3pHQWtIMzNTd2dwdTBiODVtVS1LSDVqcF92SkVWblREbjNmVWpqdzlsb1BMSUhoTk5kOWdmcHlwek4wVC0wV3dRVklqSWhpU0E?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-21T04:24:05.824171+00:00",
+   "outlet": "Vinanet",
+   "resolvable": false,
+   "title": "Madhur Knit Crafts IPO to Raise ₹53 Crore via NSE Emerge Listing - Earnings Analysis",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVHBTcFJCNkN5V0cyYUZYMTEwcTFJdVVqYlA4aTF6dnJNOGhjMDBHQnhBWmhiY01US3BaWEJZYzZEeW9DTkF6dlpSUkdablBSS2VETzdOX1BpT0VWYm5rU2tLaDlkTThubEJIQXVWX0tnZlNIMTY1Y2dBLWZfSmIxR1Joa3VzbjJnaEhiWWxWTjBfeGwyRFpjd0wyZkdHaklDMXdLTE9CVHo?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-25T08:31:17.921254+00:00",
+   "outlet": "Sahi",
+   "resolvable": false,
+   "title": "Why NSE Has to List on BSE: The Conflicts Behind India's Biggest IPO",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1fWXNJZGJTZlVIRnNnQS1YQ04xa2tqTHhSUGhVVWxCd2ZYcU5lZGIxb3hYSlNDY0YtdWx4TGdxV3ViRElIOEpZLWlMWU82eEhfYkk2RjRPOXN2RVZPSnlZeWtNdWNKcmVSM3ZfeVE2ZkEtdi1MNFZN?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-28T01:32:28.006330+00:00",
+   "outlet": "The Economic Times",
+   "resolvable": false,
+   "title": "NSE IPO: Sebi approval likely soon, says chairman Tuhin Kanta Pandey",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPbk80VjE0cUs5dFBOY1Vydm1pNm5sb19NS3Fncy1oWmd0T0VHdE1oTEs3eEdEWGRlZVdWRllqNHBkSDlDMzNFOHpfcE9vRjQwYUNXV0dwRWN3S2xhNEhRTG1LVGNyV2VjQk9Rajl1bHo0ZEo2X09CVi1YbG1pREhxbEJzN2dIMVJRZFJKLUpfY2w2clozS3FYZGhpMG9xSkZKTGVUWGNiQ2ZPZVNZOVVrZGZoSEdTSUxvd0dTdDJBUU85eWJlS2VwYVltY1JpWkJlWDY5adIB2gFBVV95cUxOdE1YUWRKRXZLR0FjS2tqcC1idXFBVzFvZ05DYWdZdXpCSjNpazJ1Y1hGZHFodnlDU1lDc051ZUF5S2lkUG5fODdyM01xMEJWRENYaklGb1hJUEs0N0FOYzRDRWZzclAxVnotdXRjRDhUUWl1MGIwRXJzYVRCdk1ON0s1ZlpHdkJEMEozVUh3THFsU1Q0TFRkWDRSQm9FdFM1UEE3dHhHLU1IQVlLWXlTTU5fT0hHcWVjN2JkSFpMcm5OT1h1WHBZT0JfMWF2eHFhbXNMU0gzTkVTUQ?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-28T01:32:28.010598+00:00",
+   "outlet": "Livemint",
+   "resolvable": false,
+   "title": "Sebi ‘close’ to approving NSE IPO: Tuhin Kanta Pandey",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOUHY5MDhCS1JQTllwSThKVzJKVkNoQVAxeWRJRmp4d2hOVVA1Y2Q5NEE2emFleWN2SGxSM0toY0U3ZVZSNTlleThqaGlybE1LenlPRGFiTGp0Q3M3LUNLRHJQZDJ4blltUDNWeXVrbGFReldKYlFVRWV6dDZxdi1HVGFMamtJMVFtSzY3SVpCdm15dmxJNWRnSDJReXZmRVFKeVlvT1ZSdnhXdndlN2pMVkdYWWhmWk1LSlZmMVZCMWNxTGctdmM3cWRka9IB0AFBVV95cUxNdGdHVGoyN0QyZnRJTVZuR19TOERaNElqUDlIM0tQdnJPRTYteXJSOGFWWlZpR1pBYTZ2NmpKbkZCaTZxVC14V2JtU0xOT1hvOExRd1B2dWZ6ekM0YmNoNG5IZENjZUh0cWdiYjdoN0Y4eWlkWmJlX3ZVdzJNa0ViQ1pYWmdaWTJXT2E1QjFGdkFCcmNzRDRxbC1HaUlobmRpVEZUd1c2RVZFczN5THFGM0cwUjhtS3NpQmZXRXY0SkxIOXlFNzczRnIzcTIxWl9m?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-28T01:32:28.012760+00:00",
+   "outlet": "Moneycontrol.com",
+   "resolvable": false,
+   "title": "NSE IPO close to approval, says SEBI Chairman Tuhin Kanta Pandey",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNnBDbHBjVnlhVGUtUmxZRmRVaExUMHRzTlpFWnRoVUFxWmtJbnQ5NEFXaEJaQ1RDR1FUTThJQkZEUkFQS0hCQlRkcDF0cUtURUtsVkFaNDlILWlfUUg5bWFZY1M4YnFseDlOc0JNYlA4NzlrdElpSUtObjNnV0NHOUQtZUh1aUtGY25zV1h1MVU4VkNvLUJTMWFXSHZoYndhbUJNa2prdUdBT1VOTjRKaG9TdTNtc0RoYlN2b3lmVC1GSDhDaUtrZWlB0gHPAUFVX3lxTFB2ZV9mWlp5amNTMnJMODVkOXIwWFdEdm9pNDhZOFM0MjFySERmWkEtd2Zia01VZ0oyTmVtLWRydEo4bTBtSExrNHNjTHFZTVg3enQtWmxFWGZ0SC1LbnBDT0pMUENRTXRuaWlfZC1vQ09UazB5dmFQMGxxLW1ad2haNkIyQTB3NDY1NklxdGxlRlc1SlRuUDFEMlJRNDAwSlVRbG5MT08yT3JPTjIyUndXc1l3RU9mWUQwYzQtVnRIV1pqSVhOZ0ZfTWtRem03bw?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-28T01:32:28.651006+00:00",
+   "outlet": "The Eastern Herald",
+   "resolvable": false,
+   "title": "BSE Hits 14th Straight Record Quarter as NSE Prepares for India’s Largest-Ever IPO",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVmtaZzNocTBNSDM3X0hQTUJjQ1ZPWUJ5Z28wT2pHS1BZSDZ3dFVLRUhkRXBVN2NwN1duLTJjNmxpV1g4alNRdExOVW1KdnYzejFXZFE3Mk14Zk1WZHotQmhJeEdRWDNpWEc5ajRXYVBfRm1OT3pyVFlxTnNFOFdZby1Tb1VwazZLZ3ZVeXJHTC1xUHJKQ1E?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-28T01:32:28.653487+00:00",
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "NSE IPO Moves Closer as SEBI Reviews Draft Plans",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNRGhocllGUU93RzRrbjEzZHFKdjh2QUd4SXVjQ28tMnhOYzc4bW1TbXNmTmdfX0RKUjFpU29KeGhsTGtNNHlRTWltSnVTeFJ5MTlkcEVVY3BydWVkcFlvOEU2OUxBdVR4dXE0cmt1U0lPWFd6UjFJQ19ZVklZX2FwcWxkWXliSTl3RmpDZnV4MERKc1hxSG5uSW1RTzZLSUIyWm5obHBwbS0zc3p3aGVMZUx6U0s0aHhRbjFHeEdHYVVPVklW?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-28T01:32:28.657137+00:00",
+   "outlet": "Business Standard",
+   "resolvable": false,
+   "title": "Sebi close to approving NSE public offer, says chairman Tuhin Kanta Pandey",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNaFhOTW5LZ2liTGhNb3h4TGdpV3lOaGJMR2hLVThuWE9EQ09xVk9rSWlkZUp0ZnpEY3k2WExRc2s0MEFSU0k5WGxXVnFSeGFscTB3ekRvbm9PUzRGRzc1RDlaZ3ZFUHhrZEtKM2RIVFY4UTIwcURkSFNTMVhMb2lTenJwRk1YZXY0UnpkV2hoOGZsOWRsUXAxNlNTYmh3b1BqanZ3Zm10ZXZ6ZUVjVE8zaGhKNjN3OGFUX2prOWJqVGpwaFJWZFVrYlkxTGpjVGlqeUR30gHYAUFVX3lxTE5jV19PelhqVGVySXZ5dW13ZURSdTdlWVJoOFp5aHlBVnFjTlZKb0Z5NUJpZXl3aXV1c0g1UHlLWXFxbVpFTDdRYTV6VUloS0VIWnJzcGdrSEhyV0haMkluaG1Ib3dJd3p2S2IxVElIRVNCVllGRmhuQlhXZWxaSFE2aHB5cFF3Z0RKRjEzU3lTTkpwMFhobTN6T1ljN0RlTjJfRENQeG45S05heWQzNFpfSl81YUhjeW9Cd0Q4RzdzYmpDRDdVaVdNZXN5WWVkSTRCVDl3UWlZQg?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-31T01:34:53.437852+00:00",
+   "outlet": "The Economic Times",
+   "resolvable": false,
+   "title": "SBI, SBI Capital Markets plan 1% NSE stake sale via IPO: Bank Chairman C S Setty",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQVjNxTUs2NTFHUzF6V3c4RTJpMVNwcUlaQnljU2ViRjVQeHVydWp3RUliYXIwRHpmRXhudmVEeWQ2VENvaEZsYVpKT2hlVTNjaEdJbG13cjZTYTN3YzhQSl9NQ1k0Mk9ibDZSRU43YTg2Tk50NjY5cXVzOXVmWTJDRnI3VlRMbmtGUzJJdDlmUVI5a3pIdnNjUzJqaWJ3a0RCbUlPX3lOeGFVVTVpbkhOTm9yeXhPT1dSLU1TcTJqcXY1TER6UGfSAcsBQVVfeXFMTlJvVEhHeGpQeHFmMkI4RExNQWZVRWhEakk0Ti1qaWZSQ1VTd0dkdGtSZWg3cmZfZzhjOUhRa2ZDTy1KYi1rQURqWjVyczZ1ckQ3TlZmSXNmM1hGNUtLR3daTTFJU2NoTUdrMlhFUmI5cWFnbTA0Q1RPaGZTTUdTcUFrc1NrTTFtUjJBWGgySVpyM1h1QnBzWndyOWNKc0JabGdZWTZpbUc3YzdCd0kwTm5LZXdJWVpxU2JMaHA3RFFmZ1ZpVVlveFItdVU?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-31T01:34:53.442262+00:00",
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "SBI, SBICAPS to Offload 1% NSE Stake in ₹30,000 Cr IPO",
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxORXRBNHlOMmZXaF9Gellvam5CMTV3QUJPV2NCVWZzWHpESHBJSmFib0ZTUGJJcEFaZkppcnlsS0kwZHhnQkVQU2Rld05DOElMMWdrUXJaYWlTeTlxeTRIQ0JFaVdZeFlHV3NnTWIxWEdwVnhreE9ucklZbGNMVzVlSk16QlhnSXZRSjk4cTBHUVBlUklmT25Ic3d4SF9rLWtGNk1RMXRUY29IMnFDUHB5TXJVRG5jVzVVWVQwWUNSX3NIRlhhcEhTZzVRT3JrQ0JTM0pHNUFFQ1VxaWtDV0FmZnhiaw?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-31T01:34:53.739860+00:00",
+   "outlet": "Fortune India",
+   "resolvable": false,
+   "title": "SBI group to offload 1% stake in NSE via ₹30,000-crore IPO, rules out wider subsidiary monetisation for now",
+   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOYlF3bng4cjBBeGhnRVY1UnFTNjhHUW04N2NuV0JPdXdQcEw2Mm5oalVtZ1dtOGROMldWT1RvTHQ5SXhsTXJaME9TaXRaVzZSVldodWxCQXFUZktCUlF3MHB1U3IxdS1RUDZYbkFlRUlIaXlhaTY5aHZKcFdtbkQ3dGx5MzJGaFJiLWNRMnEwUjJzV0ZPNDBhQl95ZWNMeEo1RWdzT3M2M2VwNUR5QkdUNjhuOU94MDVseEFDSkw3cnBiaHMzcXBodmd6NW5ZSGJtM2Y4alhwdGs4ZmpXZ2I2Qm9DZDFkaWVpVXhLOGx30gHuAUFVX3lxTE5iUXdueDhyMEF4aGdFVjVScVM2OEdRbTg3Y25XQk91d1BwTDYybmhqVW1nV204ZE4yV1ZPVG9MdDlJeGxNclowT1NpdFpXNlJWV2h1bEJBcVRmS0JSUXcwcHVTcjF1LVFQNlhuQWVFSUhpeWFpNjlodkpwV21uRDd0bHkzMkZoUmItY1EycTBSMnNXRk80MGFCX3llY0x4SjVFZ3NPczYzZXA1RHlCR1Q2OG45T3gwNWx4QUNKTDdycGJoczNxcGh2Z3o1bllIYm0zZjhqWHB0azhmaldnYjZCb0NkMWRpZWlVeEs4bHc?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-31T01:34:53.770667+00:00",
+   "outlet": "ET Now",
+   "resolvable": false,
+   "title": "SBI to dilute NSE stake: Up to 1% sale planned ahead of Rs 30,000 cr IPO",
+   "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxORGd6c2dkUzdBUmJqSVBkeGs2RktOZ3ZNVGhyZC1pT2ZTeUhIV3hTbGtNRDVla3FZQzg4aDdUeXBUNV8zb0c4MTM4LWZyT3BiWmRiS1RkRmNpS0F1Y0tBcVFmdU5GdDBUbmdKVEJYYWZCQ205S3BldTB1Y09KT04zZWVyN1p0WVh4a1NCMnRFMU16TXZRSG9hd054RkMwWVBkVlBwZjIxdDVBQ0U2bVJHTWRGTXhQRzk3WHlwUXpENV85Ml9KdDBfSlA1d21kMGR5SmYtajZHQ3p1ODVxSGVkSjh0SXM5MjdEc25MWm1HVk11UUhqNzBSQUF5SWZGNHBOMkxHaEdHY9IBjAJBVV95cUxOMDZWYzZGUU1qc3ZxMUd3TzlxcmhoU3ZtTXdzcUo5c2NCazRSUDhhWTlLVUxwZ3Q5Z09OZGo4TDJqb1g3ZTZaZmM1ZndBSGR6bkF0MDYzc0cweV81dXpnc29yZVJNWUlNRkFaVi1JNGJvU25HekE1ZTZLSjY5QThRU1E1aEZCb192SUgxZmp6SG9UY2NSZnZna0VsWUNLaVJxVUVuU2VMZ3E0Z0FjMzMteE1GanlUdWh2MEp0WEQ3MWNqbGRTSzBMLWFnaTAtTFBwdDVMQVRJanl5aGp3QkZ6Tmp6WEJldXUxVjhDQ0JNbDhSWDRSWjZEN183d0U3aThLSDlHZS0tN3YxR1l1?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-31T01:34:53.778597+00:00",
+   "outlet": "Dailyhunt",
+   "resolvable": false,
+   "title": "NSE IPO: SBI, arm to dilute up to 1% stake in bourse's proposed ₹30,000 crore public offer",
+   "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQMWdlenNiN3pBeko4MkRsZUpRMEhzbU5SVjJzbHlMQWlqQ2xrcFQ2d0hsdTd4Z2p2OHFXWlpuSkFZdHhkTWZCSGRSaTZVMG9IUzB4bjhjOElidWVvVUdrU1kwRldIVU5SbzJQSGtMXzRTZGExQUlPSnpxeVFiSUpEN3gtbkVoTE1iLU1zMExtUXRFUlkwc1paaUkxaFhlT1VMeDY3TVNnYzZhRTZEM3RyX0x4SmMxcDJTeTNNNmpzeHJKTzdtUzdFcy1HRTZEMVlKdjlDRWlSNHZaN0tOd1RCbXk3MGhuVFItTG5MQ2FEd3VISXJMMXRpMg?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-31T01:34:53.780590+00:00",
+   "outlet": "NewsBytes",
+   "resolvable": false,
+   "title": "SBI, subsidiary to divest up to 1% stake in NSE",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNeWUzQzJ3eDBROERPUGJJZDBZd0s3amJPZEZzWERWbGg4Wkt0ald6dU1QcjlncXQycXViZjl4OV9VNGpheGpyckhUYlFrOU5mRDNhSTA5eUt3LVlwRjZ1azEyT1VRb282YWEySlpjTW42bDA0NVFtZDJCMXQ0SWFSOXU1MFpmQ3E1b29XZWdrMkxqby15ZHoxM2F5TQ?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-31T04:31:49.892633+00:00",
+   "outlet": "LatestLY",
+   "resolvable": false,
+   "title": "State Bank of India Opening Bell Updates: NSE Stake Sale in Focus",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVTRYX2xYc2kxdHBUNkRGcFExclZjN0plRHFQdnNlN21vRkpOTkd1ajRoSVhDV1YxeXlMeHpnTXgyeXFBYXpKLUpUck81b0w2THpDNXBlYVYyNU1fR1pfNTIzSDhNS21naTBMV0VLUkVkMHdpR2JXWGlvaW5kUm1xRkxQRFctUmNoQkJRM05hTERuOF80c2s1YzUzWUVNSm5jOUhmVUQ0T25VVy05T19qNNIBtgFBVV95cUxQdC1uTHZmd2FTMkdMd0FCQm5UMHVJS1dKdVpsUlNPVUZsNFY0blc1aFA1eTdkSmVTcUFFaXhSVUtKNFk2Q2pxblZGZEJCcUxsWHU0bktOdTdxODFkbzRTM2ZyUFkxS3JOWXRmWC10VEIyNXFHRGNYYkMzbXFRajM0eGloWE81X2hVc1JNMkZjTlpydjdpVkhhUVFIeFJINUh2ZE5XQTlMc2hWa1pTRWtMdHF1NVBhZw?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-31T07:31:23.088840+00:00",
+   "outlet": "The Daily Jagran",
+   "resolvable": false,
+   "title": "NSE IPO 2026 Update: SBI Chairman Confirms 1% Stake Sale Plan Through Rs 30,000 Mega IPO; Key Inputs",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNk4xRlBoSXBCNjNWVGszQkhqVVI5aVBMR3Fzb1JzcE1HOG5SVktmM0dfYS1jT1M5VjByem52UHVpckRodWRkd3lqS0llbFZZemJKSy14eEI5djM0MTFVcFptcWJsRkNNcjFjQ2FlUEJIQ3o5X25FNkV2VGUxazdwMjhZTWgyLTMzaTJwSEJSVldrV29jSWE2N2JMc3FGNmI2OV9fOGtJdXRYcU96M3FvVmsxUXlPaU1UV1BLZnNjUDMzRVhDcFViSVEwQWFoQQ?oc=5"
+  },
+  {
+   "attachedAt": "2026-08-31T07:31:23.093037+00:00",
+   "outlet": "Times Now",
+   "resolvable": false,
+   "title": "SBI, SBI Capital Markets To Dilute Up To 1% Stake In NSE via IPO: Chairman C S Setty",
+   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNRFFPQmJVTGF6ZHgzOXE1VE12dDBJT1dIUzJhb0VhRzF5cDUxb1pXZDBxMURCS1hmWVlOa2NLME4zNFBRYlhFQXhJeDVBMDJMNjZWZjQza3RnUGhGTmZZLWltU215dXRuOUpnbUlDVUt2cUhNVXFsNnMtT3R6ZlJJUzFubVB4aXdJRkN0ZTBNemFDalBZcmhXb29ROEluUmZWNzY3ZFFCWnVPU3ZtLWU0UTJSRlNGczVvV3h2WVB2Unp6OUF1a3BZcC0yVjhjWFJiQVFEcXJjZG5sbmRoS3AwOXVsaEVuV1QtUEFr0gHwAUFVX3lxTE43V0pDaWpveVNlSzhXWTZZYW5rSWExWk15elFqeGJucHJwNWxxT0o1bU9adUxPOUw2R3lpVDhkQUYyekUyQlM2STVYTEduTVNiRm9fbjd1YV8yZWpGVVFxV2tnY0xja0hwSmJWTWdwc1Fqb0xHdUQ0bDhLNWJqVm4zYnhhUV9MSkZRSEpFSV9ROGl4dG1NTkRiSHVTRktMeVhQNnhqbVFfNHFYeDRuQV9uVTJSWVl4S0lkVWRPc1VVNHQ3UW9wQnk1MkJPU2lLTURudktrUWtMcDEwZ3NGb291OC1SaWczTUZXc2h2Qmcxcw?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-04T01:33:10.119014+00:00",
+   "outlet": "The Economic Times",
+   "resolvable": false,
+   "title": "SC clears NSE settlement, paving way for mega IPO",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPLVVhV3RBSUVNcTJZTkkzSW15SXRWdmVtNENSa21hRl9tbEhIRmNjcWhxVDFMeHFIcEZCQjNPb0QzaWVCRTR3SjQ0TjBfSlNRMXVQQTNBODdvck50ZlBxVE8tVFZzUUlsWGVWT2dKcUtQaERaN21UeTFhNVJGV2xyMmNxTnoyOFJGNlZoczVxakJ2b0FnYVpsSkVhMUtWckF4c2ZRejYxbmphOG1wMS13UU43c2hSZmdEMnhaVnpwNNIBxAFBVV95cUxQZlRObHlZMzV6MTkzdS1KV0hvWlUySEVndl82OW9JempocFJ1RVczYXlVdk5PNHZ2UERFRWViT2V6blZaNXFTd3NzcklXVHg3QmhFS3I3ZVpxOWZSekx4RllUVGtYeGZ4RnFQdnROb05rTGhUb3ZkQnllSzdoTjN6OVdULWtWLWc1OEZrcnNrdGN1aGxwdnl2R3FKVGNnUDk0R3huVl9sUE9zV1k3U2d6ZHp6eW1yUlpHWjFNS3dKMzR4VUZX?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-04T11:31:12.634482+00:00",
+   "outlet": "NiftyTrader",
+   "resolvable": false,
+   "title": "NSE IPO Set for SEBI Approval Next Week; IFCI, NIACL Shares Soar",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB5N1RuUExZck93bzloNHp4eVh2RjNJZmxKQ1RkTzBZSWxWRDRZZ2xNMkpQODRfbWt3WFRzRFdrLTdwQTVZR01MWGJGRzFnT2lzV1paRldn?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-04T12:31:20.465008+00:00",
+   "outlet": "Fortune India",
+   "resolvable": false,
+   "title": "NSE gets Sebi green light to launch IPO; exchange eyes ₹30,000 crore issue",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQT2QwOU9QeU14OHYtdlBtZWpHN1dVdUp4RmhMb0dlX1JFOV93d1pwanNENFZ5dEhZV0NfdlU5MGRHYmlvdzc3Zm5uVnhVa3lMdmdvTlhpRlFVYkRTTU0xWmtGRm82ekxEQlo0STl2cGVXRGs1UHl1d056TEZobk5DNmRIb2Nydjd6ZUFPaEdXWFQ3ZHhvT3loY3dzYTdHdzRuZW1pZG9hc1lhWFhmR2JQYlVnSnNVWXdRd1FR0gHIAUFVX3lxTE5PMjMzOVk1WVpXbGFoZGxuMkV1NnlMVW9TRTh4b2lXNUNKVThESkFBcGZiY2Q3eE5XNm5Bb0tPaGZ1LXVfdlVxSTJLR3FKeGx2YmxTX0FfYVZTMGFQMzlzWFJKbm9maGFhX0tlNG40TUlDT0tPRFBfVmY2ZEFRQ05MbFBOMnE4cjNXWEZoSmVIaFVFR1pWNE5INVVZSzRjTnRjVzdabmt6SW12OURoN1BEZHpCOUU1d0FvTmFWd1RVMTdiVzN1aWFp?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-04T12:31:20.468015+00:00",
+   "outlet": "Moneycontrol.com",
+   "resolvable": false,
+   "title": "SEBI clears NSE IPO, observation letter issued; listing likely this month",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNbGFCWmxud1o1YzZseElwc0gxd3BnTTJkMThCR1F0NEFKcGtSakpiRlpuTVAyWi10YVFMOE5EeksyX3hJWFlRT05fclI0NGl6UGFxUzJ1b2V0dEpCM284eFBBSElYNHJRRHNQM0JFZmIxdS05MmlEV2RJYVJMaGlJNU1wakdldWE0NUFXLWNiS0JSd19ud1V6anpNWW41cWtKdUxURkd4cDljNko1SDlnRVJ0S09GQlEwOTlPc0c0d1NTOFZXRzRxY2ZOWTJ3bjl3a2fSAdcBQVVfeXFMTVFDYkM3SDFycWFyNjR3dkItZHFpNXZzRmhvSlU3LW5sNUdLUkZOSXFsUFNTSXYxOFdESWZlYzBqZnRCRjRtVFdRamh2eXpDV25FMXgxRlQ3bk91YnZZbFBNUVgzM2d3bUdQekZQMi1UMm1jLWxkeEh3NjdJWTBiYjQwakRydzRuVkdfd05rVEZmVlVHUTBWUUtTdmdfUDVyakpwSEsxYWNYbFQ1aE11NE1QUEszLWtwRFY2Rk5DNkFGenJSQ3E1SFB2czlLVDVXbV8yRnBfbW8?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-04T12:31:20.471059+00:00",
+   "outlet": "CNBC TV18",
+   "resolvable": false,
+   "title": "SEBI greenlights the much-awaited NSE IPO",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNFNGZi1USEFCbGJwR2dra05GT3pnc2dLNExPZ0FERnBvZlVmTVBDN1BTblRlQkxHNWFsd2IzSnVSZ0pvZWYwWnd1Y0g4c2hBMUt0OGt3NEI1WS1SZ2Z0NTZlbkZaNGRzcXo2QmFlRnlCWDBhR1hrc3JQVXNXWjk1UFNoWHZreDFRYV9XZGRabWJsQ1VsR0NPQUdRWW9BSTRucHZaNUhWYWdXU0FxWEU2OXZ30gG3AUFVX3lxTFBVU0Jyc3J5Wk10ZE0zUDBrRXViMkJ3M3lfSDZrbGZibkptZHE5UUJYVXNDWkZXMjBuejMzbVhIYXBZLUFaQk5CVVZBZ3Y5dHI1RUgtcGVoektuVEtFRUxxM3lZQWxULVNCYmQ0SldabzBLLU9VT2lmeGRoRG1uOUVLWS1rM1BqbHlUVUkzMlVTazhnd0xjdnZyMWZPbElNdWtKaXBqeDVldlV6a2hKWXVHa2o3eHVRMA?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-04T12:31:20.472937+00:00",
+   "outlet": "economictimes.com",
+   "resolvable": false,
+   "title": "Mega NSE IPO coming as Sebi approves Rs 30,000 crore public offer",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOOEcxTmhlNDI4TkZhSWhwWS1aS1ZGV3lQbjFoVFZOemp3bkJ4V05HVFRtY0V0RUlPcjZyWUJ5RHQzMlJiMFM2c3lOTTFibUd5NU40ZzBrZWwxazVJTmlNYTFrSnk2NU1BaVFRVG41ekkxZ2NpYW4xWjI4bXhnRGxWdzRwRVRiWkt6aGxmWUpFR2JaNzBhNjk3LXFjNS1ZQzBUYVo5WnRoU0g3MmMwYnRIZWVFZWtiRHJkbHQxXzZxMmFmUDVRb282N1F1bzFMR00tOXVPUTRhQdIB1wFBVV95cUxOOEcxTmhlNDI4TkZhSWhwWS1aS1ZGV3lQbjFoVFZOemp3bkJ4V05HVFRtY0V0RUlPcjZyWUJ5RHQzMlJiMFM2c3lOTTFibUd5NU40ZzBrZWwxazVJTmlNYTFrSnk2NU1BaVFRVG41ekkxZ2NpYW4xWjI4bXhnRGxWdzRwRVRiWkt6aGxmWUpFR2JaNzBhNjk3LXFjNS1ZQzBUYVo5WnRoU0g3MmMwYnRIZWVFZWtiRHJkbHQxXzZxMmFmUDVRb282N1F1bzFMR00tOXVPUTRhQQ?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-04T12:31:20.474953+00:00",
+   "outlet": "The Tribune",
+   "resolvable": false,
+   "title": "NSE gets SEBI nod for IPO, clears key hurdle for mega listing",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdG5fZ25IV0F0bG5TWHRZd2VkUTZYWTAydXhNMHZsV3RQMWY5akJFNU0xTkxYT2Jsa1gxRFdfMmVDYVFzUXIzYnc1bnZYaHFUMWlEV3JxbmlVSXFpZ1VJZ3JJX2RZSXJvaTNfcWl5MVgzZEFpMjViT1FDRUxFMW9XRlNBMFRpTzNiNUpWV1IxVjFfekhlZW1tMWJfQnN6eHRsRXQwd0JWZ9IBqwFBVV95cUxQdE9jX3F1X3FnQXA2aE9SaXB3SEI2WkEydjBzdW5kaHlwRlRPazFSSGlmMi1QQjJGM1FKWmFjYzhSYzhldks2WVVqRHZtVWtVMzllZXJlQkdSa1FmYlRNQnl4UklOeURVSmNIN0xuTTNwV1JuMVplNFRWZ082eE5QN3NtdXpXM0YzbW1XWEV1MUtCMXk3WWpyRWZqQmxvN2ZFNTZxMVhWN281aUE?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-04T12:31:20.476847+00:00",
+   "outlet": "NewsBytes",
+   "resolvable": false,
+   "title": "NSE's ₹30,000cr IPO gets SEBI nod",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNT1ZZOS03cXRCbHJIc0JNa3M4cmp2em56WnZSUFo1ZG5vYi1xR2ZlUEZNUE4yNDJ2NmEzRjNpX1g5N1JQa1FCaDh2MnJFOEZZeW0zWnpucy1pRFN0eFROcENpcnRCbUR6UmJNb0NYdzFnRjBRTkdnMm1SbVMxc19pLVFmVVJleTh3VVl1QllqZ2R5bXp0Z1dEaXV3RmY3RWZtSU1Ub2x3Rl91OFU?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-04T12:31:20.478712+00:00",
+   "outlet": "ET Now",
+   "resolvable": false,
+   "title": "SEBI approves NSE DRHP for IPO",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQ2NURFdMb0l2OXBmc2MydFJDSmxEdnkyLXB0OXBnOXZsQWdvRHVadVlWbGZzbHppLUpnaHM3a2UwbUpXdGppTVByWVVTaGxlcHEzRWRJdUNWd1l2dHd5NUpOd2ZEWkZUWUFWQjhTZnRIQWRVM1Q0WUl6Nlc2R1NxdXdWT3hKSjE3VGfSAY8BQVVfeXFMTV82N1VxSnNRM2Z1bEZOcThrNm9pNlVlVzZtem5helZWNHBoVnN5dlNCY2dIcjVIc2pCcGd4T3BBaTRvMWpKT0ppTzZFREJITzM1cHVJbUpoSFVRdU91dTNWYjlDbFlIams3OE5YSWlYdVREVTdUcjRQN2piUDZNQUNzQ19VUUhackFjNXRZNEk?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-04T12:31:20.501016+00:00",
+   "outlet": "NDTV Profit",
+   "resolvable": false,
+   "title": "NSE IPO Gets Much-Awaited Approval From SEBI",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdm5KMnJ3bnFRa0NLWHRFQ2E0c01vZWdRbFFuQ0t0ZzZPQXhWeGlCbHdBWWRmd243a2dobU1WNVlmZUp5R3dVS0xlU2R1ekY0SkxoZElTLUNkZmYxZGp6RGZQSGNPUmFnMGtidEhYYkdzRWZ5a3NoVjBsVnd4R1cyZmV1VDVMejFoX25ya0FTUHRKd9IBmgFBVV95cUxNR2h0eWVueFhTQkJBRkhXQzg1TmxUTE05aUx2NFNMY3Rxb3BOcFExc0hzbXdxRlllMFYwQjZSQkhLVnNrSnRhVW1nWVZzLWkwYTFQRVozbTU3RVFnM1ZCeDFyZzNkam42QjJpZFpTVHRwNTVqX0pHQ3hxYjJ0c21JUWJaR3VWMnNXd0FQOTQ4WmlHay1RYU5YeXFR?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-04T12:31:20.503846+00:00",
+   "outlet": "Free Press Journal",
+   "resolvable": false,
+   "title": "NSE Gets Sebi Nod For ₹30,000 Crore IPO, Set To Become Indias Largest Public Issue",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNaVo1ZTVXR25ranVqUkx3RnRKVzBjT3BYSlNTLVhfR1p3VUxDbVFxVVk3LWR0NzRURlpMeUk3S19KakhZTHJNUlAzbEN4SjcyYy13N1Y0UFI5S3hoRmVKaWZZb1g0eE1ubFNLWWFjUGtmblB2bThnZ2dmN1FSLVl3R280bWl2NjRvTmpzc1UyYkt0N1h0N3Z2VG9UTm5UYTl5VFE4dkxRT2o0c2JRb0R3ODViT2JoOThCUmx5MNIBwgFBVV95cUxQd2QteUFKSWQ5akp1MTNnWjV1OW9HNEVzajlBQXJxSFhrelZTZkVvcnVBNG9oY0R4VmNYZzBlOUJ6WnJKc29IZ2dKa3Z2VXpKYUVzRnNuWkhvbDZwT0s1QTVfZTJzU0t0bk9MdVUyOFV3SlZabGhzZW4yZHlGVlBjWFFiWWRrQ3VNN0JqUDV5ZHAydUNMV1dZbDdDT3ZFZDlYd3dKU1pVbS1MNll6T0EtQWJLdHZmd1U3Y0psdzdaYjltUQ?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-04T13:31:15.595601+00:00",
+   "outlet": "Upstox",
+   "resolvable": false,
+   "title": "NSE IPO: Stock exchange receives SEBI approval for ₹30,000-crore issue; all you need to know",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQc0RfajM1VUFSV1J2ei1KUVhQLWFDUkRQM3lJQ19fV0dDeFpoT2tSRlNPZjY3VnU3S0xnbmNIR2l5cUhHaUMta0RSbG4weWREeVZQazBGU3RiXzZhVVBnZzBSN2NIMkhrRzAxMXAwWnViQTBYTjNqUmZMNVU3WG91bUFZZEVDOGRpRDFsX0NCNnJ1OGdNYmZVWFY3bmc0UlhtZEZtVW9zcGx1RkRyMzlqSWdmVENra2lMV09NeXFWN2Jmc2p6ME8tNmxNb2NHQlQ5OXR6RWdDNVFpYjlNUUE?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-04T13:31:15.599059+00:00",
+   "outlet": "Moneylife",
+   "resolvable": false,
+   "title": "NSE IPO Gets SEBI Nod; ₹30,000 Crore Issue Could Challenge India’s IPO Record",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNWVIZzQzdUtYZnlidElnSWhzRGxSUkU1c1BRVWozRnlKYXN1NnlrbnFHQkVVUkJ3STJ4ZjN3UWdSYjNJZ0FHcS1wMW0tb0xyMjRwMElUTmt5UjV0TExvVXd3a2Q4S3lkZ0NFM2Z3WlRjeEQwSXNBOGV6WVJ5a2lMT2NSclVpSVVmaEdCX0UxVF9uSlRmYWVYeXlYeEpRQ2ZFRHI2WTdWcXlsb1BTX09RUjl0Tzhwd0JL?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-04T13:31:15.622308+00:00",
+   "outlet": "NDTV Profit",
+   "resolvable": false,
+   "title": "NSE IPO Timeline: From Draft Papers In 2016 To Co-Location Scandal And SEBI Approval In 2026",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPV29UTUtnMUFsOXMwSVVKZmdHWWlmZFRDSGtPaTVTNlFuRG1oeXVZNVZ2dVpXb0w3LVBfTEJqOUp6MzNXVjFtOFBWSjVRSUxyRVBCVk5GQ1pLc2dhOXhBVVlFdzVBaV9pZ1c0RUFSbXc3YVhVSHpJLVFMSDMweTg5V192MzB6a24zS2h1b3RRX0owNVc4WGN6eHFIZk43SjBWQ0xLR3NiU3VkR1pZNFVUblI2MDN1dWc4U1NielM2ckJtSzZSVTRzZXFObmVlOHdq0gHYAUFVX3lxTE44OTJWRnBVWkpEeFR4OVNGVm9KOW0zTU41TklsazQ3ZG5VRkQxZHhzNW9YS1d6VExNdDExbTZ2Yl9BR2M4MjJqVmt0VENoYk1QM3dqX2t6QW05eHJpWXNWVGhRcUdDOGw4MHRhRnl2Q2pxblVwNzI2cGo5QlhHQldZMHVwb3RHQVU1enN4N0NmalZ6S0VzcjhJQk1NOVNSX2V4Zkp0M0dUZnpfTlAwUlFraHRvaWlmN3Jkd0VfZGs5bWRwbXZldjFveUxCel9pV3lCVWdNMXdGNg?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-04T13:31:15.623786+00:00",
+   "outlet": "Livemint",
+   "resolvable": false,
+   "title": "SEBI approves ₹30,000 crore NSE IPO | Details here",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQczV2OU5vbnZBY2JDQTd6YV9hakY2Z0VBendiQ25VdlBkOFNHclVveVRfNXc4VmozbXF1VkFUSGlhV3lpTEhuYzFTWnNyeWJNaWJXMVhCZnJhOGZGaXhZZFA2Z3Z2amJHYzRHdnhzTWwxY3YxNUx0SzZYRi1UcXl0Z0hNZFdyWE43TUU1RUxaSGJkQmtjdDY0THk5bGltT1NWQVl0R0hB0gGrAUFVX3lxTE9EdFVQSVk4VTFFT0dYVElRRHBFbnJwaFh5WkxyTDhiNUExdE1oN0FjakozQkxXYUNWTV9wSGZEbFdjTmQ3UWh0ZFRZbmFwb0NIb2I0RnJ2N2EybG1yV0FJM3VKaERJSmFobm9XTGVBSWNINzl1NVNOSENTcjNNdHJBUFN1Zmg3a3huNF9yd2VVZEVVQm9Tby1PR2loV3BtR3lEUFRLMXJjVWZVYw?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-04T13:31:15.625286+00:00",
+   "outlet": "India Infoline",
+   "resolvable": false,
+   "title": "NSE IPO: SEBI Clears IPO papers; Issue likely to open this month",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQU0t1YmhqbEEweTZNNkZCbnNySVNSWlNseEZaaGxjNGs1cFNCck8zRUMwN2VwV1pHVUJNNlVQSzRhUWltRDNlWUlxbGl2bENYM0EtTElXRUFEMk1sQ0pISjlvR3plbDBFb1ZFMXRGeWRGUTBZdTF2Ul81OFBuVFUzY0dKX0YyUnFwN2FKRDBEcnlNaFNHSVp0T3RFRjhfLWxVcDQw?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-04T13:31:15.626817+00:00",
+   "outlet": "ETV Bharat",
+   "resolvable": false,
+   "title": "NSE Gets Regulatory Nod For Rs 30,000 Cr IPO, The Biggest So Far",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcWgxekdqNE93YUJkRzdaMGFCM1FJT0VHck9LQzZ2UU05bUl5TmVLenNlcEhUMkhFUVFzeWhUS3dsSUZMVEFmQV9iTVFqeXpQZEtBSmRzbWowejI5LVdfa3piSXQ1ZXAwczB2TGhPb2sxbEprZWR3NmdZRDJUdGZkRjZXRTY0Zk03czE0dGNfaEU3TW9IUUIxYXd4ZnVrWVhvcU02S3JrZFRYbDZfa0dBanJmVko0UdIBuwFBVV95cUxONVdybXpIcXBOQjZHejdzZkVhS3lMREV6NTZTck9abi1heVZlYVRaUXhkVWt2b2k1bkpDZHQxMktHTU5FRFhMNDgxWnduTlpVNEpJOTV2NlFXSXFsaERNa2sxanM0UUtXb1Ezd0R0bjEtMUlHcG03U3N0SnRCR1hHYk9CMHFxa2ZXUlBod0REbDFONkhIdF9aRUFLenpCVncwQUg0bFVIRG1UQjlLeFNOSUl5dFlBMk9RUERv?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-04T13:31:15.628323+00:00",
+   "outlet": "outlookbusiness.com",
+   "resolvable": false,
+   "title": "NSE IPO Gets SEBI Nod: India’s Biggest Listing Could Be Just Weeks Away",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVl8zclVhNnFTWkpMVFRzYnZrWjdDM25MSE52anNKRmNacmsxdUhtc2JuSXl4LU1WTGVZUGlqTVJTenJuUXJJMzB1SW9iZTM1YVVGWTEzcFRzWUVhYXJkZG5Ddkt2dF9sYUxibnEyMkZicWZwcWZvWktuYU5HV2phWkxCVDJBWU1uNkt1MHNENjEtS0dKY1lkZ1c0dzFNMTlkTC1jaTN2QXRscnZVc1HSAbsBQVVfeXFMT3cwMXl1dGFWV1ZnZ1FJNnBmZGM2U0pwY2ZXU3VMemVGYjQwZ2l0RGZQV3k2a2J1RWxsY19sUDJ0dXlwbkFWTWROaEMzY3laQ3JuREY1eGVyXzZfbFpvdU5pVFJrMkdxbXdmQXVfWDlPRHowVFdSQUl6QTR2Mmtjd2hqUFI1bHhrNHBpU1dEVThQN014ZmtMNmFHVWhkOURzb1p3c25Cd0dGX3BOeTZNMU5LdzMyR21Bb2lHNA?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-04T13:31:15.632282+00:00",
+   "outlet": "LatestLY",
+   "resolvable": false,
+   "title": "Business News | NSE Gets SEBI Nod for IPO, Clears Key Hurdle for Mega Listing",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPb2Jlb1o5V0F0M0NTSGJaTmdXOHh1VmlxWnJuMFdlSEJFa0F4WnlhQTFmWm8wMlFUOHRYbThwaktJQlVKc1hsRTNHYTVxbDNKcEYtaHJ5RTFRMXQyaGFqdmhnRFAxYkpTRlVXSjdGMUUyalYxZ01xU2U4RmZfQk1tWVN1U3BDRE5IeHJBMVM4MkxYdEVpVnJhQXZkVkVhQkFSR1Q3NS1SZ2tROVBkOEFPRVFkR1hZWmVQVmZVRjhNNW5UQdIBxwFBVV95cUxONkhBRGRiNDlTYUhicFVsZTNObTVDR2ZDbXcwcmZnUjBtUTYtVS1VdlduU1FUZHlxc2RPMlVFLW0xaHlTdWlwX1Vad1VvNDk2czM1RlpQM19od1cyRDV4dHh4clBMR0hueVpyWXlvYXBiTmdoY2NXMDdfNTQ0VndRUDNlQUx3MG9ybDJOVmFYLXV6bFdPN1M5STdwOWFaTkhRSVJPdFhoWkNjUVNZYS0zMXEzSTRQYUcwcS0wTWZNaEtTQVdRTWl3?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-04T13:31:15.695345+00:00",
+   "outlet": "newsdrum.in",
+   "resolvable": false,
+   "title": "NSE IPO finally gets SEBI nod: India's biggest exchange is finally heading to Dalal Street",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPYWdyNnMteng3dmZiTVpjTU8yUHJ0Vy1lWWpUMjdRLVY4MnJhS3BUcHRXTTdtRXh4Z0drY3lKTG1aLWg0Y2FLYTJncTVTZnF1MkxJOXUtRFI3c0pYRndaYzFVVDd1TnR5c1FOMkhJbGczQ3Z1Q0JIbWZKSkFGWXRlZkRZNzNpWDA2akZ1V0V2a3VnNmV1ZlFuU19mWHFmZVUyQ3RaNURlSHZiY1cwYzhCQ2VvU1JNTmhzdXlnRVRrcjU2Zm04WkFqV2xR0gHKAUFVX3lxTE9hZ3I2cy16eDd2ZmJNWmNNTzJQcnRXLWVZalQyN1EtVjgycmFLcFRwdFdNN21FeHhnR2tjeUpMbVotaDRjYUthMmdxNVNmcXUyTEk5dS1EUjdzSlhGd1pjMVVUN3VOdHlzUU4ySElsZzNDdnVDQkhtZkpKQUZZdGVmRFk3M2lYMDZqRnVXRXZrdWc2ZXVmUW5TX2ZYcWZlVTJDdFo1RGVIdmJjVzBjOEJDZW9TUk1OaHN1eWdFVGtyNTZmbThaQWpXbFE?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-07T05:34:54.108129+00:00",
+   "outlet": "Deccan Chronicle",
+   "resolvable": false,
+   "title": "NSE Mega IPO Gets Sebi Approval, Second Biggest IPO After Jio Platforms",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRVJpejMwMjNLSWFDT3Z2X1ZaZ0l4RXFtX0pHUVg0Vm9yWmh3cWpEWWtVMGdhbHNRZjVMdVpkbGo3OWQxZFNHVjlqMnE5SFRVVFh2ZGlOb1hneVVkZXdXbGUxcTlzQ0REdHVkTXlzNWwzWW1pdV9lRWNueUVnMjNVRWdhd3h3SHctX25XMWVTZl9VTGE0NUVVMUVKRWpYc2Z0QUx6N2l4SmFVdFE2ZUxRZmNyR254bGtPbUVzb0RXWDhJSEVC0gHKAUFVX3lxTFBWa0FwYmpGcDBiVERrMUhQTTNoUEdzTk1VelN2ZTZpSlcxTm5fMGdpZ0RGbHBfY1VRVmpSMXFseTY4cy0yN1RCMDVXS3owTEMtRFZrc1JXY3hMcXlkMHdsMDl4eVhWUmJNU21Kb0g5Ti1zTWNxRUlvZW1VNGp1WE10aTV0czExNThoaTBUa0VpNGNRTFVMdU9YdENZNWh2N2VLakl5VmR4UTlVOHFPR3NXSk1RaEtxdE1kNzhrTV9aS3pjcUx6X21WT0E?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-07T05:34:54.110419+00:00",
+   "outlet": "The Economic Times",
+   "resolvable": false,
+   "title": "NSE IPO gets Sebi approval: 10 important points investors should know as D-Street debut inches closer",
+   "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQUnY2bnVLNXVocTJNMzJlWkRMYl9xWWE3MG5QNDQ5WVhHUFhSdWFvS3VfZWlydUpydFNyVXdxNVZzdDJWZm9GMU50Q0JJU2duV2ItcjM1clJNNWV5Z0NYX0E5Rmo2MENDMlRSOWRFNndldzJSZmp0QzNFQTRJVEZsOUJPNGdGaHZ5TlMzczl2MmVtYVhYaS1zYmFtMFAwOEk1N0QzUjA3c2RTUWI0Q2d1SmpqTmlrcjZTLTZIdm4wNHE4V016UVdNbVR4eWN6NTFTNTBpRXFzU3dzNjV5NlR2SWx5YzFwTE9iLXFINjRlOWN3aC0wUjl3MUhzWmRfNFYwdTBfNNIBigJBVV95cUxNdHNIMUJkMEJiNEtoWnhCLUUtMG53U0RrdjJwdjU0VGZEd0VzdzFZMnpNX2EyTTVVQkhiVVdndWxfMEVXb3hhVC1fMkZNQm1aS0cwV2VyeS1YVnA1ZTk3U3hFVnRPUUp6RC1CQVVYbU50a0tnWWJocDNCbXZleVpwczB5NTc4N05pR0NhTW1hdGNkZ2tLSFFuNHk2REJVUkE1R0VKaFA2QXVxQzhYY2NjQ1l5R2FtZl9aejJQU3B5SnVHb1BtYVVackxCaHlvdno0YlJ5dkktdThFTW1rTUg2cUlhWHZvMU9aZzRYX25FOTM5Xy1SVkpMRDN1YzRRdU9qbDAzUWZBZ1hvQQ?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-07T05:34:54.114906+00:00",
+   "outlet": "sarkaritel.com",
+   "resolvable": false,
+   "title": "NSE IPO Gets SEBI Observation Letter For Rs 30,000 Crore Issue",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB5cDFpX3FFUFBYR2lyNEMyeUFNekRpc0Z6YXktdzVvSHpjUmFCYlItOFNuUG91ZEVpbmZodGUySWxoNVlWSmJ6alNLeEdJRVptN3ZsRUpFajBCUnIyR2h3cE15dDNMbGwwZlJha05teEh3S0Z5UC1RVFZDd1Y2Ulk?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-07T05:34:54.117085+00:00",
+   "outlet": "thehitavada.com",
+   "resolvable": false,
+   "title": "biggest so far: NSE gets SEBI nod for Rs 30K cr IPO",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeEJIZGZQU2RJaGgxRDk5YmVqNFVUVnV5T2tHQjFLSFBJN0RiS3A1MG1SVmFpWndFOXJCSGc0TWZrUUFwSUxndElsZjFaRVlYQXZlc2l5TDZ0aTRSTEo3aUQ0S0dWdzBqRXZrX1QySDBhMVBTT0k4cWY1Yk9ZN0QtbXN1dkpuRlZQcGJTUzkzWFBMMkpfazI0ZUlxcXMxbGs?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-07T05:34:54.119271+00:00",
+   "outlet": "BW Businessworld",
+   "resolvable": false,
+   "title": "NSE IPO Gets Sebi Clearance; Listing Likely In September",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUlEzSzA2dmh1eFlIWjlaSEE0ZEhkX0tzc3VRNXpZbGFDSGtrN00zS0dyRFdlOFJhclVfeXF1SGdCWlZtYUtCTzNySW02N2FsdzJJajk1dDBFQ1dBbzlYMXdObVhEZk1fS2twbXR6czdYOU1oM2kxWE5EZkxUcU4wcXFtSG5qWFl1SExXS2N1S0E3VDVGaHV6UnAtQ0FsX2t4?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-07T05:34:54.123698+00:00",
+   "outlet": "Times Bull",
+   "resolvable": false,
+   "title": "NSE IPO Receives SEBI Approval – Price Band Expected on September 11",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOanU5T0QzNWRJaE1tcEluLVVNYmxPSUMwRDBwRFQtZzd2elkwcVB6enhmOVhhcFhfcUd5WG13dVo1OWhzZ19lV3B4T3A2Yzgydm5KMlAzSG01ZXdZNUZNb0NmbW5XRElxeGJKQng1N05uN0NNUjZKSUpDRXJ5dEQxNWwtemdoTGNxc3ZXS1poQkN5TTgtd0xPMGJuOWNjd9IBngFBVV95cUxOanU5T0QzNWRJaE1tcEluLVVNYmxPSUMwRDBwRFQtZzd2elkwcVB6enhmOVhhcFhfcUd5WG13dVo1OWhzZ19lV3B4T3A2Yzgydm5KMlAzSG01ZXdZNUZNb0NmbW5XRElxeGJKQng1N05uN0NNUjZKSUpDRXJ5dEQxNWwtemdoTGNxc3ZXS1poQkN5TTgtd0xPMGJuOWNjdw?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-07T07:31:17.906234+00:00",
+   "outlet": "EBC Financial Group",
+   "resolvable": false,
+   "title": "NSE IPO Could Top ₹30,000 Crore After SEBI Approval. Will It Beat Hyundai?",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9aUjBHSVBJakxFZ0dEM003dFZVa1lwUmxURkhIYjZKenRlbm1GQUwydVV2QjhkUjBzM1FVdDFJSk04SEphTVhBajJiZzZRcjVuRENiSXd0bTNNeEI0WDJMa3JLampUVnR6Z1BCLQ?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-07T07:31:17.912098+00:00",
+   "outlet": "newsbytesapp.com",
+   "resolvable": false,
+   "title": "NSE plans ₹30,000cr IPO selling 6% stake, SEBI approves",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNekRxZ2hFQ2RDME1GWGViaWtWZVFQelkxaVdZSnJPWGp2ajJfU3VxNlYwREJoVWdlNERJQS10bEY1Wi0yREpoVVU1UHp6Y2E0NUQwaUI5ODkxRGxLNXFQeXhYaFRxaUdIY0k4SnNhNU53RUxzcmxvS0V3Y3pmazFMUTY1V0YzMDMtakFfLTJrWDVxMkdrdmZWdDNVSkFFVE5kcUg0?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-08T05:31:25.255541+00:00",
+   "outlet": "Free Press Journal",
+   "resolvable": false,
+   "title": "SBI Plans 12,000 Hires, 250 New Branches In FY27; To Dilute 1% Stake In NSE IPO",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQeVRXUWhjMUFRTkg3TGlYWnI3UExrU2ZORW9LSEdLSlp1OHZPZXVkaXV4TDNuckNBVHo3a1R6cld4b21zNkkxQS1iU1hVOGN6ZGxLZG5NRF93ZV9fNWlhUXJPWTFHZmlNSGFoYjYxRW5oT0FrcEszMFVHclBsa01VaFRlQzdfMEFibUM4eGZKVldnN3JaMzc0S29PdGVpV2NaU3dBYTU0OS1BbVo4a3pid05ySmFCT0XSAbwBQVVfeXFMUHotNTdqa3EzZWZzU2U5dnpFSUZvak1WOWF1WThTN1pKRm9ITTg2d2FMV0c5UXhHWVJaZ0ZHLU5Rb1VYeDJ6M1hEUnhoR0IzZnp0bjFGYjBjbDlxNXNKLXRWeUxmYjlDclJzcGRtdGZBZ0tnRzlBWGpIM0FqS1FhYkh2UFV0cW82MWxzZDdpSXp1ZjZsbmJGbFNLMWt4RkpQZWNkazNBR0k3M1E4eGJRcjRDYWc0dVdsdUdKZk0?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-08T09:31:22.538090+00:00",
+   "outlet": "Outlook Money",
+   "resolvable": false,
+   "title": "Winner Takes It All: Who Gets The Biggest Slice of the Rs 30,000-Crore Plus NSE IPO Pie?",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVXZUSHdHNE5rVi1VX05NWnJKXzg3ZS1YTzUtVVRYbzFHZWJ1NVNReUtWMEpQclV5SjE3akRTNm9IRmJhdEhrNEtpYlZfWWFlQlpOWU1pdjc3NzFLMHpBVEEzVWtsdnRheUVPdzZubndNZGhIVUNqNFdycHYwRmo0aWx4Tmg2d1lRUGRDOUpUQW1YcGM5UFhiMW1xaFh2MGdjcWRDUkRhWTY4aWVyeDdCWnVlR1RJZjNKSkR2TUlR0gHLAUFVX3lxTE8yQTNVQVlXaE9vdE0ySGZNalEtMDl3amhwbWFvQ1p3VUdHbjdEUHAzWXNJbmE5aG9qRXlSOTRYbmhWcVN3Ml9LRE5Bcm8wN2FfeTJMdkxIM2dBY3RZVGprSjNScDY0M1o4WDdvWjBKb0FTREhzanpCVzVwbW01azlFeDhDNUdJck9PNWc1U09VaHU3Tzd3ZGU3am9SWWtvM2tGRzlCY3FZUlQ3dzNCdDVkcTE1ZXRMdmZpRkV2MXNfTnNYOEJhNUVQLW9v?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-09T07:31:37.259150+00:00",
+   "outlet": "NewsBytes",
+   "resolvable": false,
+   "title": "NSE IPO to raise ₹30,000cr, valuation could touch ₹5 trillion",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPcVMxMm5RUFM0OW5pRkN4U3lLZXdWNXpYNmxwc3BENVNEYzNuTUNDVEtidWY4UHplN0xESWxmamJ5S0xqNFRyX3dYSFFhLTFlUm1HYzlOSFNYX0dEQ3FmRHdjcWlRR0ZrOEdHOWYxY29KblZzSlJXcW9ubFR5R3I0YTNzcDJvYkQ2OUhUZ2tn?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-10T01:32:19.918699+00:00",
+   "outlet": "Univest",
+   "resolvable": false,
+   "title": "NSE IPO 2026: Price Band and Full Review",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1zcEI0VTVGaDRCVTdVenpyY1ZBTTNGMW1QRUpleFdWSkhQMWJDUTl6MmI4VzBTNHEtb2ppcVhfc3hzMW94OEFzV0dnR0N1aW1iVmVaM2hHV21HcURQbExIWlU5WnVYaW4xZWlN?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-10T01:32:19.921742+00:00",
+   "outlet": "ICICI Direct",
+   "resolvable": false,
+   "title": "NSE IPO - What is NSE IPO and Why NSE is Listing?",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPalUxbHJQVE1iQzlDUGhvLW9ZMHBLTlBISk5kODhEUnJ2STRGTjNEWjlZendfWS1WTUN3aDYxRUJSLUtIZzFjR0lsdjFWNU56SXl2U1pwTG1KSG1EUFpCb0kyaHZ4VDg3LXY1UWQ2d3M5Y3E0TlJGeU94V2t4ck9iZWVDakMxaWVOd2p3?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-10T03:31:22.696842+00:00",
+   "outlet": "Fortune India",
+   "resolvable": false,
+   "title": "NSE files UDRHP with Sebi; IPO size likely to be cut to ₹23,000 cr as shareholders trim OFS: Sources",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQY0xqU3NOZXZ2UWFsZUZwVTZpaGVUakw2SmdiSXFWUEd5d1FYQkpUbFkwRGw3NEdjZnpBN2c4bkdyVGhIWmFCNENld2NXMUZiWFVFc1VzWllCRmp0Sl9uSzdRZ1NBLXVZeThaMl9mWGNhcFBXTGRRRUdrU0IwblVmQzJzWnp5TlpwTTh3UkJtRFpnZG5GRV81dFJxMWlseFo5ZjlrODg1cHR3WmtXazZaMHd0N2FIeWFrQlY2dE9PZzZJWTZrYXhjbmJCbzBGZVEzTnhJN0lYNDFQRTYt0gHqAUFVX3lxTFBKaWpjNUQzd2xGTkJxSWtxQ2NZN1RkWlVwMTdObng1T2lhZm9VVnR2OTI1RUxTZ1JvN1ZBR21zQWF0d2FLSEJnc2cxSG9KYXdWcnhQeFBIWHRxSmEzYm4zLXJlaW1rS2JjZmhtQUNXX0V2OS1lRUlaUlpPcFd3QjNpRFJUQzhfNTBoRWhVdXRZYWNvcDZHNFY5eXFnM1NXbkp2SE5ReFlHOFpGVVRiWDFjOEhZZEJSdlU2WmxsUzRxc0RWRnJqMXAzYVRfMkVsRXB5SExGREpLakJVbXV2RFBMZ2FUaXpwUFdxUQ?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-10T04:31:22.341957+00:00",
+   "outlet": "financialexpress.com",
+   "resolvable": false,
+   "title": "NSE IPO: UDRHP filed, price band and issue size likely this week",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOOUhkY0FJbnRjSmhYS3J3cEtqSDh0T0FJVF9DVjB3elk2b3VaWGNVX1JTYWo1YU9GbklVd0l5ZXFUYUt4V0xyUHVfdHRYTXJlYS1oQXJhSXA3a2tONlFyQTJURE1VNFZmN09XRlBTMDdERmgtcWR0dUVZbTRHbkFaNUZ4ZFhIT1plRnd4dHFDdnl6YzJ6aXA5bkQtbDZOZDNBYUxLN1ozSGY2QWpUNVk1Q9IBtwFBVV95cUxONzBaLS1EOXlJNUtqQkM3Rl9qcU5mazVGd1dETmRITmhZUnk0Y3JhUnNFdWZONDdtNmZyT1V2d0lseVZjcUt4NnR1cHZkSGlSbGxPUmFQZFRHM19WZERXYzdlcDREcEVlT2Q1WHdYdTViSzNtTndzQ0lQeDFrNDNaaDhscWY0YTZjTlJ2OEZ1UTZBb2p4YlQzdzNZR3hHNzF4cmN5YzlYT2ROdFkwWWJQWHB0b2xpaWc?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-10T04:31:22.512611+00:00",
+   "outlet": "Telegraph India",
+   "resolvable": false,
+   "title": "NSE offer may shrink as shareholders back out of planned IPO offer for sale size",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOU0J3YW9UOEpQMlR4dXVhbFhCcVRwZEdJN0NVZFktSGRFWkp5aGVOcTdGdHJDcF9jV2ktc0czY1p0X2xrR0hkX0tjLUoyZGpoMmwxT09wdlpsdHhBNDZjSTFCTEZXVnM3ZDhQdEQ0YzctWU1janFCeVZZV1BFOXlhYW12cU5uVmk4STJ5WU1RTXFjR3Y0WnBUZ1BMSlU0cFluVFd5bzBmbzFqY3lTQkx0NHQtbnEydU5XZWlwYXRHM2Qtb0NKUUpDaWJsSllSbGplNUpiUmttZmVnZ9IB2gFBVV95cUxOU0J3YW9UOEpQMlR4dXVhbFhCcVRwZEdJN0NVZFktSGRFWkp5aGVOcTdGdHJDcF9jV2ktc0czY1p0X2xrR0hkX0tjLUoyZGpoMmwxT09wdlpsdHhBNDZjSTFCTEZXVnM3ZDhQdEQ0YzctWU1janFCeVZZV1BFOXlhYW12cU5uVmk4STJ5WU1RTXFjR3Y0WnBUZ1BMSlU0cFluVFd5bzBmbzFqY3lTQkx0NHQtbnEydU5XZWlwYXRHM2Qtb0NKUUpDaWJsSllSbGplNUpiUmttZmVnZw?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-10T06:31:20.329045+00:00",
+   "outlet": "Business Today",
+   "resolvable": false,
+   "title": "NSE files UDRHP for its mega IPO; check key changes in issue size, OFS stake and other details",
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPaWZrS2RWUWZPM1BsdkVJVU5KUDFuVEgtMlloTGJqb2pRLXpieDRGWkN2blUxX3JLWVdUbnE0VUN1bGIyWDU1c0xsMDFHTjZDOFZ6dVVNV1QzVlAwSU5HSmozSl9SbzJQMnJWNk95MXE2cnNUTXhaV2VNaks4VG15d1A2dUlYMlVaaUI2cUFQU2dtWnprRjljaVZQek9JbVpkUzlYckVnaWpiQlVMZ2FERWhVeHNBdV9Na3hOcElvSWY4cHdFV05DRVhmTjBUY3VKU0NreW9OTjM3WFVaTUY0VUZzbjNaRVR0dDRZSkpNa9IB_AFBVV95cUxQT0RCanQ4RW9wVUVlUFJzbEFEUmxJY3gtZHNZX3hRRVJSUkotTmVFUVpXRHZWUkNfTXNRcl8yeVJUUnY5aWtKenR6YUhLWTRtTTlWN3NIcTR0TmxxY1QyRXFocFJqeHl0bmI4MnpNMklNMjFtbFFmN0YtMC1oVHV1b1BPYWRqbmp0MElFUFdScmxlQ0JzbWZkWkdma21aV29XVFhjMXZ3dDZYbldCZEd4bUszMUdQWjl6bi1BOWpzM0hYVTNJNGpiUHdvMmZJMXdaSTRKYmFtQlphU2ZRbGxsM3FQXzAtSndWQW9Eb0JnM2Jaekg2WkRHWDJWWVc?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-10T13:31:09.231669+00:00",
+   "outlet": "financialexpress.com",
+   "resolvable": false,
+   "title": "NSE IPO: From SBI to Bank of Baroda, 5 listed stocks positioned for stake monetisation",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPcU5lQUZ1ZzFEOE10STBYMXp5TW1oVF9HNEQ1VF9hNG1ReDlrbGNNaFhKQkNSOFB3cWZqeEtXc3NRdlI2LUV5eVY5OGNnekpSWVFiVmJYMzlLVl9hQll2dlBsaDRpeU1vaWlJTDM2NzFJSDAtZ2NYeE4zUTdPZzFJRUkzNjQ5ME9RZHN4a1VJbVYtOFkwVW5iYTBvME9QdDhlVEZtRW5SeUNVLTNtOWZsNHQwRVRRSWNwbjVGLXFaZjBmaVhrSlR6czg1a3l0djVtYjZydDZWZFpLUQ?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-11T01:31:18.775194+00:00",
+   "outlet": "The New Indian Express",
+   "resolvable": false,
+   "title": "NSE likely to slash IPO size to Rs 23,000 crore",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaExVb05VZTdKWW1PMzhqT1M1cXA1M0EzelJGQldpV19Dam9tLVVQQ1FTQ0M2V1IxaWhnSE11MEVfVEVuTlNDdzZsVkQxakhQZjlaYkI2eFRBZ01SRFFWNUc1NmdrckNQRUl5WGR0dncyWlBBZGpXME1fazIybF9SSWNPbTBkaUY4VFg4RVRlbGczb0p1emViV2hYeWVXWEQxcEHSAa8BQVVfeXFMTzF2WEZOeXA2XzJPTllaVkFkZWVkMVVIcEtkZk9YSEZwLVhaZzNrWWJfVkFYc1Nfak1RRmk1bmhscTY5U2drTkVtRUozcjEyTW92dGZZX3pzV1Y1ZEx3LUpKU2ZXWVBoYUNHbElSNkkzcmkxZ1BpUmRGQW43MDVsVW90TkEwcWZBb050RWMxN2ZYd1o3cEZ4dmE5TDJCX3M0cVNQSk9xYTdydWNyWDN6Yw?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-11T01:31:18.778637+00:00",
+   "outlet": "Moneycontrol.com",
+   "resolvable": false,
+   "title": "NSE IPO to list on September 24; price band likely at Rs 1,700-1,785: Sources",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPemdVN2hUSlB0WVNzZDJIUlpxdllzZVJSLS1oRjNZcm9RQ0puZnJXTE9semxRYTh2TXhLZURuVnJ1Mm5uXy1sQWZBT2VWbmZhcUVzZkJ4ekVzaHhBZlh4cVdpalJ0d0ZZZUhqQVlTRVlnU1Jkb0dhLTVsbkhBZW1uWTJuWkNscG50SlQwcVEtSHFod2JQSVllcF9VZGFpclktS3JhajMzYll4NUo5UFdhaGRwUXoybDJIU3lCZldIZFY1U1ZibVZvajI5WDM0ZmRDNFFPctIB2gFBVV95cUxNbmlUX09jU3JqNkg2b29DaG5lWnMxR1FWVjNfQXlUMVFvd081RUtRdVowdjdBNTZmaE1NTm5pb1hPLUV1WnQ5VHhYWWluVGNMbGpzMjl2OWdWWmV4MlNzYUxWcEVrVFlZMzVScFpHRlhXbzRfR25FNWxGNzNLZ2lteE4yLWhYRXdDMkxtdDQyR0RtTVJJQXFjd1Mzb180YjdQeDZ0bTlDN1N1Wk9YWWJNbzhXanlVdVpOWlU4V2hmTko2ckNmRG5Cel94dDZQS0VncE5kN1RmN1JvZw?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-11T01:31:21.078361+00:00",
+   "outlet": "IndiaIPO",
+   "resolvable": false,
+   "title": "Exclusive | NSE files IPO papers with RoC; price band likely on Sept 11, issue opens Sept 17, say sources",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQLXdXNzdZTXM4elhsX0NDRDRkb2hHSG1CS3gxdUk3eGwxZ0NQdlVnX2c3Qkh5WGY2UGFKVG40N2NSVG5GOWliMDRsTWtPVGszMHJOTzdrM1pfcXBmMnFVRURQNWpzSmZVQUNia28wWERXdTNhTTJzYkEyNjl6ZDNSeVVlVU95SjNlS0tFcDdkNjAwLXR6dHhNX1hjWnBEZ3RxRWN3NHIzWmJ2c3Z3SXhxcVpUSGxVQ1JLdFZoQk1fd042NE9FV3VTSGNkODdITXVnZ1E?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-11T01:31:21.084322+00:00",
+   "outlet": "ABP Live English",
+   "resolvable": false,
+   "title": "NSE IPO to open on Sep 17 OFS reduced ahead of much-awaited issue",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYVpDSVhoVC1CRVZ6QkhXekExb29USl9BZnZ2U0RCdG5jOFZCTzlRZW4tMzBmeXF0NEZCV3VsdVZwNnk3VWh6eVl5dmhad3l0WEdYcmV6M0xwbURvLS1pWjF4a05ZeXQ4NFFPWFBEX2lkdzFsNkVqdHVNLVJmM3VzdFpQenpnOFFFNVZHOGg3M3EtTlpCbGNFa3NObFBtdGd4a1VIRk85bW13TTDSAbABQVVfeXFMTy11WkVoVWVWRTNBWXNDX2dIMGNnTXExX2lPVE5fOXJYWlVIZU1OX2dTbVJ5OWZFOENwOGN1dEJ2aTRtTFBUazE1NnJ3RGU4VWRmOGdhd0EtX1Z5eDVVT0FoRllXTnVZVFFkaGNsblNxaUR4MWxPR2xYdUN3aWhUaTB5bnNUUlV2anZoUk5ZTFFGUml0R0FYa2IteXQ4RmpCbkM0WHQzR1NvTlpQbk5vN3E?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-11T01:31:21.086967+00:00",
+   "outlet": "Google News",
+   "resolvable": true,
+   "title": "NSE Downsizes India IPO, Showing Mounting Valuation Concern",
+   "url": "https://www.livemint.com/companies/nse-downsizes-india-ipo-showing-mounting-valuation-concern-11789065021652.html"
+  },
+  {
+   "attachedAt": "2026-09-11T07:31:48.680279+00:00",
+   "outlet": "Draft Abridged Prospectus",
+   "resolvable": true,
+   "title": "NATIONAL STOCK EXCHANGE OF INDIA LIMITED - RHPNATIONAL STOCK EXCHANGE OF INDIA LIMITED",
+   "url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/national-stock-exchange-of-india-limited-rhp_104428.html"
+  },
+  {
+   "attachedAt": "2026-09-11T07:31:48.690469+00:00",
+   "outlet": "Draft Abridged Prospectus",
+   "resolvable": true,
+   "title": "NATIONAL STOCK EXCHANGE OF INDIA LIMITED",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/sep-2026/NATIONAL%20STOCK%20EXCHANGE%20OF%20INDIA%20LIMITED%20-%20AP_p.pdf"
+  },
+  {
+   "attachedAt": "2026-09-11T07:31:48.748620+00:00",
+   "outlet": "The New Indian Express",
+   "resolvable": false,
+   "title": "NSE sets IPO price band at Rs 1,700-1,785; issue to raise up to Rs 22,562 crore",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSk0xT3cyZ2I1Ry1DR0MzWnJHYmQwVmozNzRTOFNKcVo4YVMyN1NHN1dVV0szSkR3blhwd0JPcnFKdnEteXRJdkt4M2gyeHFOOWVhMTdDbjE1cU55QUJ4eDlqRGtzRXhwby1PN0lQbnhCeGZMUHFxLVBKYVlfSFBCeVRkdkc5bFo3cEN1V2pxa0dRbXAtOEZxbmF6QS1vaF9PcjBxV05WYXVsQUxaZUtRVTRPQm5sT255dHUxZVB0RTRlV2d0MllXWNIB1gFBVV95cUxQUkxaekYyakJuVXp4c0xScmpHLXIwVzFQMWwyOXUwTEkzVUhKeDBMMnBNR1E4dVByVWpYMmN6NEFZcXZCM0RuOEI2bjFyVldnNDhuWFhxY2RsWFpFRjRJczNDQlVuVW9LaWJHTHFxcjVUaVhaTnB1dHNlM2pQQ0h1NmRRV1JyQnJGOHJDLWNFM3pUSHgwNlgyd0E5cUhlVnBQRVZMMl8wWmdnZFNWcFFuYV8wMjVFVmFNWVdQVFNPUXRDd0szTWdpanhERzJoZUo3ZzFOMWtR?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-11T08:31:13.956042+00:00",
+   "outlet": "The Economic Times",
+   "resolvable": false,
+   "title": "SBI's 80 paise masterstroke: How NSE IPO could deliver Rs 2,850 crore jackpot and 2,23,025% return",
+   "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNWkNxY0EwUmhmejNabmxTcnVTNHJKNC1oR1pfdGV3cFltRXVTM2hSZXV2MGFtalhQTXE5YlZ6MlR1ZVVuaXlxTHBpX05SMGRQRkR3bWUwaFZ0dFU5NFBuWkNsYUtzZzRKT21xNVpMQXFBeXJFaWVTZWUxbG5HbDRYYU0wT2dBNDhad2VtcElvRVFqTXl3TlFPVmt5TXNkeUFnQTZkd0U3LVpydGh2VVRGWjNqRVk5Z2c4NWRwT2pTZ1Ztb0ZXZ3Fxc2NaM2wtMFRKM3pFN0pqUS1TVFh0bjM5TmQ4alViREZVWTJJYlhQTlZybjB1T2gwRHdB0gH_AUFVX3lxTFBBbUUydGFUT0c4ZGd3c05Sc0Y3RG9ETU01Nm5LVmhvNWNRX1ZhYi1jMHN1ODNvOXF1VnRjSW84NHRzZEpwWDJMeWxWeVBvRUprU1dwMjJhRUJXZ25qS05CeFFuYk5QZmZpQTBseUdqREhuRjRWUGtQN1JFNld4TUdzTE9YYzJUMDZHcGVxdDVMeUZwZm5adlR3d1ktSndqR19qaGxpLUlYeExLTDVaZmh2UmJtMXM5Y21xaHNESmJaU1RZRmtnXzA5TVlZTS01by1jaEkwa3lVVlVETkxKWjBMMXBhc2RjdWVwY2c4YVlLMThPNmptWDBuejhpZ3Q2RQ?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-11T10:31:34.979572+00:00",
+   "outlet": "Rediff MoneyWiz",
+   "resolvable": false,
+   "title": "NSE IPO: Key Changes from DRHP to RHP Revealed",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdnc5ZDd0V19scTZaeVlBM0tRZFlFTUxmcC1NWks1Z3FkbWZGeXBwX01jUWJZeXFYaVFPUkhmZU5VUVQxQkNxRWZQTnQ1bTMxTTJTeE0ya2FvVS1Vam02M3U2VHdhN185OU5Sb1BhMkE5VHJPZE43aWY1YWRXSGRoUUtPNzdhdkZQNkpMTDdPb2xVUjR4b1U1OVRTcEo3dlR5U05F0gGjAUFVX3lxTFB2dzlkN3RXX2xxNlp5WUEzS1FkWUVNTGZwLU1aSzVncWRtZkZ5cHBfTWNRYll5cVhpUU9SSGZlTlVRVDFCQ3FFZlBOdDVtMzFNMlN4TTJrYW9VLVVqbTYzdTZUd2E3Xzk5TlJvUGEyQTlUck9kTjdpZjVhZFdIZGhRS083N2F2RlA2SkxMN09vbFVSNHhvVTU5VFNwSjd2VHlTTkU?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-14T01:32:08.453584+00:00",
+   "outlet": "Prop News Time",
+   "resolvable": false,
+   "title": "NSE cuts IPO price band by 15% amid plans to trim stake sale",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWm1BMUt5S3MzQVo4MjY2OUVROWlLQ2d3Q0xNVDVSa2R0aEJpMEo3d19zUlNuRUk0SHJMM3FGWU9FdzRDTkdhOThtZ3JXWDlOaDBnLVV3WWtXSy0tR3Y0d1ZaM0hIby1KcUhCYmRTRXo1UzZHU08wQ0U4cmEzRTFCR1MxbDdJSmFQT3VkYWdXcFR2OU5Dak5NUjZUa1hMLXU2YVl6amtfb0JKQTY2VXFmUlB3?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-14T01:32:09.972780+00:00",
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "Oriental Insurance Targets FY27 Profitability With NSE IPO Stake Sale",
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOTmp2MUJLZ3lreEpFMjYyS3VHTmZuUTZDanY3QkV1eFd0LXFZT3phNTdhTy10MWRpU1JSMVB4RUQ3LXp3bHZER19MM2ZTVlRZNEhlTVJSLVBjY29hbmtqeFN6WXlwVThLeUtpVWlRaS1aMUZlOFhpdTl1SlBTTzYtSVdpZWNLUG9jRTR6WlpQMGxCWVQwcUVLTlprNTBWa2pYUVE2VEQtTl9rbi1tZmpUQ3V6VHliRHdYOGxyZkNTQmoyY0pKRDlldVJFU3dhMFFZeXJrZzltQkdsdWF0Mzg2ekhNbw?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-14T01:32:10.591568+00:00",
+   "outlet": "India Infoline",
+   "resolvable": false,
+   "title": "National Stock Exchange (NSE) IPO Details",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9CLUFGM3BQOW1icF9QZXRFWDJfT0ZtclV1U2QzMEFuQnNMNlJQbWJ3b00zUjd4N19LeEtGbzU2ZE4zZHlXM3MwajlDT0JFYm1nOEhGSklBMTEta1pxX05DWDZjeEFncTE1Y2dJbHRn?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-14T01:32:10.593791+00:00",
+   "outlet": "BBN Times",
+   "resolvable": false,
+   "title": "When Is the NSE IPO Coming, and How Does the IPO Process Work?",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQS2g1TkRoQ0otbGRnamw1MXdIYVluRVN5bnNqNTNVODNKRDhDTS0xRk15UGZraXNDMl8wZzluOXgxMFJFc0RZN3I3cEplTWxIMk83akw2ZzBicklxbjJqNGVtWDRVUnM0a3lFVGdyaXlXbG5MOTRUeTVWQ2htTmVWYThlUUh0b1VHcDFJM0NCTEhEQmExcnBJTzNn?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-14T01:32:10.618321+00:00",
+   "outlet": "ET Now",
+   "resolvable": false,
+   "title": "NSE IPO: SBI, Bank of Baroda, GIC Re, New India Assurance shares in focus amid stake sale - What it means for stocks",
+   "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPT0p0ZjRTcVJzaDc3VmE1aXBsUk5RMzg3OWtnNFIzV1dENWxFaGYwQ2czMmZxNmQ3UmN5bWNqQnZ5VW91b2t4RkNJUEpSMUkwZW80dUZXamV1ckpNT0FoczZ2bi0tV1ZWTkxGbWVYcUNOY2JZdDBES20zc0J1VG1Bc1pkU1p3RGd0VU9DU3NJUW9xMmZuTnoyd0tHRzBFTlBmUlEzd1Fja3diTVFJUXlOZHBDUjFGcFYyR3hrMEJXbXRGTXI4NHZjbV82YmlRUndWQmpmeXpEYVdNazFIdkxxVmVySFJzMDBBbEhwSmFvQS1DOHA1d2xsSGJB0gH_AUFVX3lxTE41Mm1rYmFDUEt0VDRsSnpSNHBWblpkRXVVNjdSVzd1aUJ3Z3dlYTBCUVZVNkJmRFJ0eWk1MVpXU0ljNE1hNFJCd0trd0Y4VmdieklPRmpjTDV0RWhGb19uR1Zkbzg3MmdqZ0ZacmNRQVhvT0JqODdyVDMteGZuREh5bDB4T0RyVW9taVlvbHpjWG16ZVNFNXRIUzZ1Q19sRWV1aTN5MjNSOEFZSEluVkhyYnFzaF9aS2M1Q1p4dmp4OS1nMjFVR0laQVI1d2VvTWtQVlU5V2VtS3FEUTNOVTVYY0xkUDVpVUNucE5zYkxVNXBFdG1zem82ZHh5bGI1QQ?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-14T01:32:10.626780+00:00",
+   "outlet": "The Economic Times",
+   "resolvable": false,
+   "title": "Oriental Insurance hopes to turn corner in FY27 assisted by NSE stake dilution",
+   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQNGpCcmtPXzVGUnYtVENmbGNNOGJTemhxTUQ5NXJUMENMZ244aTR6OFVWeG5ZOXFFS1NqNTdSLThENWlNUE5nRTlMUjktcGtOTnNYbkxCSkhRejV2dEYyQ0dDQ2JjQVBlbWpsUjZGZXgtazN3SHBCMWVFVWdfbFRPR3FVUkFhZ0gwNzJxWmZfTDhwaVhCV3dFUEJLMFgwUTRjY0QxSjRJcW1veTBLQ2VTMV8yd1lpeWxreUVNMFdqQzFhVDdnN2N5SGc3b1FqSHhTQ19PZjRSNW0wODRVMVREMEdud3BFeHlXNGNhadIB7AFBVV95cUxQNGpCcmtPXzVGUnYtVENmbGNNOGJTemhxTUQ5NXJUMENMZ244aTR6OFVWeG5ZOXFFS1NqNTdSLThENWlNUE5nRTlMUjktcGtOTnNYbkxCSkhRejV2dEYyQ0dDQ2JjQVBlbWpsUjZGZXgtazN3SHBCMWVFVWdfbFRPR3FVUkFhZ0gwNzJxWmZfTDhwaVhCV3dFUEJLMFgwUTRjY0QxSjRJcW1veTBLQ2VTMV8yd1lpeWxreUVNMFdqQzFhVDdnN2N5SGc3b1FqSHhTQ19PZjRSNW0wODRVMVREMEdud3BFeHlXNGNhaQ?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-14T01:32:10.633474+00:00",
+   "outlet": "Rediff MoneyWiz",
+   "resolvable": false,
+   "title": "Oriental Insurance Targets FY27 Profit with NSE IPO Sale",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQR1RIQS1uWlk0c0ZYb29aQW03Q3FrUWdLLXdZY3lCbVBBemJWbi1jeTVrTHkyNkhuNHpGTXhVYkxxS0VjRm9vRDVWdC1vUkR2OWR2aUEwNnBCT29ZWURWSk1fUVRKX0FKOUp1SHRIeXdITm5jcE1yWWI4ZXVzd1dUNTlnMDFsZFJwcWNyNmZTLWdMdE1hN3RxcEg0aVRBc21vdmF1ajRRWm5Wa1M30gGyAUFVX3lxTE1GX1ZJREtBVUFkZ2oxamtrN1U5b3doakgxcVRSTnlDQmhEblRvRkVTUVJiQnRQNHFtMFBOZFJwTDhQekdpYVNmcGJLOGpYdUlqXzFZVFpmbWhxV1c0SjdEa3RpU3dGUnVVd3hfZ0dGUjlhUU41aHBDYXM5SWNQeUhxNzdBZXUxNk1WSnZQVDV5b0FxVlFSZmZya1JjaGExS05neE42WGJsOEl4a0FUVm5MYWc?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-14T08:31:05.995584+00:00",
+   "outlet": "Zee Business",
+   "resolvable": false,
+   "title": "NSE IPO: SBI, GIC, Bank of Baroda cut stake sale; why are shareholders holding back?",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQ09wZVo0Y1JpckdFT29xQ0RfRGFuX2wwV3RlYlRHN3BLV0R2enI3enFDS04zSWgxdHJRZlQ5NHEwcUNmS3Z2bzB1S2NFLVdFbWVDMGVFd1N6S2wxaFdzWnJheUc4RnpnTFFrdG1LaHhibUNLcnhhWDlvNXVoMzRsdDZqbTJVUENkZFJTa2lKSE1pX21hSU9BZ0JRZTZlMDN2VHRWZzBORzFaNm5keU1kMjBsSkZnQTQySDUwbWhWcW9Uclhv?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-15T03:31:07.120382+00:00",
+   "outlet": "Crypto Briefing",
+   "resolvable": false,
+   "title": "National Stock Exchange of India set for landmark IPO, impacting unlisted shares",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA4M2x4N0Q3ZHhpeEl4Qk55bmlMYmF2aUktNExkWF9JTWJYbExsTEdIc0g0RGFiSFNHci00N0JnNl8wYzZQLXJjU25mVGNQOS12eVJ2UVFJYy1aMmh4dDF5LXhOanpLVjZScGdSV3lWQ1U4cW4y?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-15T06:31:15.822539+00:00",
+   "outlet": "Upstox",
+   "resolvable": false,
+   "title": "What NSE's Monopoly Numbers Actually Mean For Its IPO",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZ3UwaU9lOXRGSWZ5WnBEbFBpOGJMN0tKX01sRF8zOFl5T0k2TVlNc3BKcVJkd1Z3UVh5c1ltb09CWjA4TEFhZzMzbmotZWhVSG5IX3plbmFjRng1aWNCclFHb0N4VWFPOWx3QnJaRngxNTlIbWpqWGJVaHlzcEJTSnBRTE5DOUlCXzVMbm9OMU82ZGxrQnc4cGJTSkFBR3JJYTV2S0dNRGxRRWZuRmRLN0N2SW9saHVOcUE?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-15T06:31:15.831398+00:00",
+   "outlet": "economictimes.com",
+   "resolvable": false,
+   "title": "Goldman, Templeton, Fidelity said to plan buying into NSE IPO",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQbWNuM05GZ3IxaVhJVlVpZ0NhUzMyaUttM21Gdi00dHc1MWVNOVBJZDVPeXZVYjNzVUJaVkdmQUdtR2ctSUtoSzRQaU9paU5PYk03SFZKLVlqMFBoQld0RjJkcm5lbzZCWDRTYXVHbjJxSksyaEhGYV9IcFIwTjFYQ1FqcU94eGhpWkN0ejhfSXdFZ3E3N1lRMnp4QThmSHI4SXBBU09KNlNTMm54YzRfdE5ZamFXYjNqUXo2VEhVamNXNHV1TjF3WDlUONIB0AFBVV95cUxNSVpPZHJ3SE1HbVF3QWFkS0I1eTJTUm9VcUgtNmpyWU5idGF0SkxoVTFxS0xpem40VUNKMFJZVExxWUNtM003bzBHaVZBcGZkbHZ3MnNSZW1IOEg1eUZ1YXBKWEZ4VzJXamszVW5yVXp3ZENWX0ttQ19nX0JEOFI5TlpuOHp4NU92SU5qaE91UnVuTVVqUWk3OWhpUHhRUnljVjkwU1c0UjdSOG8wR1BObnI3YW9lWm1ybnB2S2dZb2JDRjhDd2R0eklWU2xnSlNO?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-15T08:31:14.473150+00:00",
+   "outlet": "HDFC Sky",
+   "resolvable": false,
+   "title": "NSE Shareholding: LIC Leads With 10.72% Stake Ahead of IPO",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSTl5cmdPT2M3WVdTUmF2M2pTQ3lsNUx3YkxyM3hqcEsyeFFBMGhuVW1sWTVza0FPeWJYUDNzbmtUVXZVZVZIb2ZPeFFxeGZZSzdLZ3prUGJ5S0RpOWEycGRLdnl4LVNBckg0NlZnV041ZGZxQ3dhMWdxYVIxMkVXYm9jY1luQlBDRlRuOHhFTTdZbWxRcDdCYWJ3?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-15T09:31:32.749092+00:00",
+   "outlet": "The Economic Times",
+   "resolvable": false,
+   "title": "NSE IPO: Everything investors need to know about the National Stock Exchange IPO",
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOWmtNamNqVFVuQmJySHE1Z1p4R1hGb250Snc3YUlPWE9hbUhUT213MWg1dV9jVWNDdWE2bXNEaThyZ1hsSzFJMWRDTFF5Q3cyOW50NWV0aUFFS2ZSVXlBeFVXd3ZaYUdCTHFjQnYwT1RDVmo4VlZlRDVMNHB3ZU5CdThRdDVMcWpLTXlPLU5VVEZneGdMOUczVkpSNERKZDAybldwazZsQ3VxR1p1b0lncC1nWWpKLWFpYmx2U3pIaEV3RVk2UXNpS25vRXdIbmRkbUZYYnZHX3RZelZzb1NKbnhNZVBaTmNOOWdma3hMMNIB9AFBVV95cUxPYXFtdmVqN3c5QnJVM0ZqWjBXb3IyajhPRklVQWNwZHNiX01KaDM0RndsdG1wQmttdEY1aWVKNFVCVnJvUjFRbWxEaXlZY2ZPLTN2UXZWVldrMExqcHpYUlNKQWdTZWhzMjJackJVU3NMVXRTanFKVG5sQjYxYTV2c0RpWDhkVlVrZVhmX3hVQTlHZDFrMU85bmhCXzZZTGV5akwyZFByM1BQQ055WWw1ZEFsR1B6WXI1TURHOVRiUGhRQ3BtS0VMUGdLRkVqS3NlTUx6Tzg2ci15MXBqeEFhTFFsejNMRDV2N3JNQmxFUHBwRXZK?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-16T04:31:11.100794+00:00",
+   "outlet": "Livemint",
+   "resolvable": false,
+   "title": "NSE IPO: What it means for India’s stock market",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOalVscG1SYVdGb1FrUnAwcVlBMUlFa0RCSzR3bWtSSjUtN2hRMU14SnJiY05jMlExUURHbVRtLWFDVlNTbWV0SllwcEh1WklOUHROZjc0aXFCcDJLNXZBT1NGcGhtN1J6dVI3Zk81WDEtbjFpQmFFM3NhSGR2aEtyVU5TSkNkUHpEMmRkOVhpT0dickZDcC1raG9vZG1uUQ?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-16T06:31:19.410169+00:00",
+   "outlet": "Indiatimes",
+   "resolvable": false,
+   "title": "NSE IPO 2026: Expected Timeline, Valuation And Key Details",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOckdWbFBVVXhXaEp6SHNRenozTHpaTlJUMVVzdDhUaXNzY1BrUnB3VnY4UE5RMHVieWd1Z0p6cGZ6YXdPZGVHM2MxaXlqSmZrNlY4cnZSS2ZVUThZZ1JocGZzellzOG4wMjhicXROdUNpeXZoRTA0YjdJMDRnQ2wxUjlsa0lOU05vUUtFczJ4X1czNXYtVGNPemd0UWtXanFCVWI0MTY0c0IzV3hMVmpSajZ0VUhpenh1RFFKMtIBwgFBVV95cUxORGExS2NzYmwyaFp2YmI5bER5MHQ0VkRrd21NNW9aNXJTd1FBekJYOTRCQjZ5RGN5b1JHSEx2WEF5bUtoZ2tHU1U2ajY0QmdwMVhFdU1IZmxENUFDekQ3MFVYZ19ZRjR6eUZ2ZU5veWVvZ2YyZ1pKQjEtUEdJaXU4alhaYkpxY2lSdGg1S09CRW9kUkFRWWw1SFNSUGJpekJLQU5Mb3FiVkZuSThPWFkxUFphVFdibFFwV3diY1MtZVVoQQ?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-16T10:31:34.478535+00:00",
+   "outlet": "Free Press Journal",
+   "resolvable": false,
+   "title": "NSE IPO: SBI, CPP Investments And Other Shareholders Set To Earn ₹16,500 Crore Windfall Gains",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZUNzYW9DRXZ3bUtiUGdyb21DRVNQSk85NDA4OVdscHhhYjlUZnI5V2Ezbk1iZjg3YzItRmluQzhXSS03aFRhWXdaR3ZFRmFkSHBFNlNBMjdGUktpcjRfeDBIaFdfaGpNQXJVbUF2QU0yYnFPZy1NOU5Tam03aUNiUmJHb3UxMHZvbGNpc2NJVGZoMW9qa3Y1QTdPb3FTczRPLUJIVUlDRm1Fa2dOal9BTE1LRWMyd1hmbEJ4OXlMSHhaV1Rhc1ZyRG01SFhCSmfSAc8BQVVfeXFMTWVDc2FvQ0V2d21LYlBncm9tQ0VTUEpPOTQwODlXbHB4YWI5VGZyOVdhM25NYmY4N2MyLUZpbkM4V0ktN2hUYVl3Wkd2RUZhZEhwRTZTQTI3RlJLaXI0X3gwSGhXX2hqTUFyVW1BdkFNMmJxT2ctTTlOU2ptN2lDYlJiR291MTB2b2xjaXNjSVRmaDFvamt2NUE3T29xU3M0Ty1CSFVJQ0ZtRWtnTmpfQUxNS0VjMndYZmxCeDl5TEh4WldUYXNWckRtNUhYQkpn?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-16T12:31:36.232560+00:00",
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "NSE IPO: பங்குச்சந்தை முதலீட்டாளர்களுக்கு மெகா வாய்ப்பு! ₹22,569 கோடியில் ஐபிஓ களமிறங்குகிறது",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPV2FXTDFNV3h0WXV6eDl4aDlHME1uLU8wUXY3LUc3QU5KbklVcFhsUDNnZ2txRkh0d05PaGZpSl80c0o1Z0JUVjU0M2F3X0pzYy1IOUxDWE9NUy1vOFAwb3E0MkVpaGhhelRxNV9ET2ZMNl9Kb2trQ2JjUzNmQ2MyVW0wWDdacnN4Wl9BU3B3TnhlWVFGakpPcGVvN1pKVmFwakczSTZuWmhtNnlGMXg1SFo0blliNnA4ZmxmZjdGUTJPc1Fv?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-17T01:31:25.675096+00:00",
+   "outlet": "Moneycontrol.com",
+   "resolvable": false,
+   "title": "NSE's selling shareholders set to make gains of Rs 16,500 crore from upcoming IPO",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPNWlnX2hPY3NVUGRLTjltRmR4eXNTWUxDVVM2WGtxSmVZYTdiRWNlYV9TcVJmQjRXaVNnMTZZUlRWRXdWei1nMVdsZldfT1FQaFBYTFp0cjZIX1dBVUNXaGEtTGRNZzJMZXM4N2RVMjgyZmlOT2hjLTViMnZSaWVEVE85dlJHcUVoMWp4NU1sdjdGWXV6VEpJVkZPa3hiTUlYVHQxbXJnQ1hKT3JucVhlajlxY1djaHJJZWFydzRTbi16S2w3a2F4RzdpMHVpbFc1b2Y1VkJaa3QydURyZnRj0gHkAUFVX3lxTE1QdlRpVW1VRy02Q0laZmdHaVpGOWZMQzJvMlNDbGNjOGRDMExWUjRhUnVqRGJadW5PUjY3UHM5NVpWT0hjRWIydDFMLVhOeTRQakVaZVpobEF1QjRmSFZNQ3FMR0h2NGUxOXlqUlpWeTNPa3p1MER4ZGdRNHFER3VGTDhibmtjdTlwY1ZtaXM1ZHdlNnBwME96cUZrY3JHQWhmdFpYbHJzOF9UakRJYzgyRFI2VzJsTjdla3NIZFp2cVJldFY5VHI2dXl1LUlKdDR5SDlnYlNmSWdkWGRKUWRmZXVpUQ?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-17T01:31:25.678344+00:00",
+   "outlet": "NiftyTrader",
+   "resolvable": false,
+   "title": "NSE IPO Set to Hand Selling Shareholders a Rs 16,500 Crore Windfall",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxORVRaMTljVTJTTnpxVmJaNmtPWlFPZkhDRnVMNXBVU1ZVTUVLVV9Sa1ZTcWVnWkFJMXJhQUNLclM5ZVFxTmZ0anh3TjlCazdTcEZvMHNxa0wzQjdKM1hxd3dIQnRFSUdFejk0TkZEQ0FEUUZhTGNORHFpSHNOeGRvOHhn?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-18T04:31:06.866557+00:00",
+   "outlet": "economictimes.com",
+   "resolvable": false,
+   "title": "NSE IPO: Can the large supply of shares and all-OFS structure limit listing gains?",
+   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNR2tDNVRXUHRwUG5PV0hkN2t2Yno3dDZxZTFvbG1PQTJtcy1qQjFHQ01Hb1hnOTdfal9tTzRmM0NPNHRsLUpSSXh0a0NsZHpXRW9tdVVyZnhBX2xLSkM2bjh2Z1NTa2VkaWJzSTFic3JUdlhVaElrb3Y3RmUxZ0VFc1Y1OU5YTFJkd2t3R2tvb0x6bEF6bWkzRU9vVkttZzU5TkdXbjZRamJjSkhVT2xoV3g5VF8wZkpjODUxcHEwNWVhNHJfTk1jU1dpUHYxWEdHNXZRWnVZbUhuYlMwdmVjYmUtbVY3cjBQd3hTcdIB7AFBVV95cUxNR2tDNVRXUHRwUG5PV0hkN2t2Yno3dDZxZTFvbG1PQTJtcy1qQjFHQ01Hb1hnOTdfal9tTzRmM0NPNHRsLUpSSXh0a0NsZHpXRW9tdVVyZnhBX2xLSkM2bjh2Z1NTa2VkaWJzSTFic3JUdlhVaElrb3Y3RmUxZ0VFc1Y1OU5YTFJkd2t3R2tvb0x6bEF6bWkzRU9vVkttZzU5TkdXbjZRamJjSkhVT2xoV3g5VF8wZkpjODUxcHEwNWVhNHJfTk1jU1dpUHYxWEdHNXZRWnVZbUhuYlMwdmVjYmUtbVY3cjBQd3hTcQ?oc=5"
   }
  ],
- "synopsis": null,
+ "synopsis": "The National Stock Exchange of India is preparing for an initial public offering via an offer for sale of up to 14.89 crore equity shares, with existing shareholders selling their holdings. Because the offering is an offer for sale, the exchange itself will not receive any proceeds. The Draft Red Herring Prospectus was filed on June 17, 2026, with the launch potentially slated for September 2026 and listing anticipated by September 25, 2026, subject to regulatory approvals. Institutional investors have been targeted around ₹2,000 to ₹2,100 per share, implying a valuation of up to roughly ₹5.26 lakh crore. The exchange reports declining profits for Fiscal 2026 alongside ongoing regulatory and market risks affecting derivatives volumes.",
  "ticker": null,
- "updatedAt": "2026-08-09T11:45:51.768761+00:00"
+ "updatedAt": "2026-09-22T05:25:45.174684+00:00"
 }
