@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 892.0,
+ "amountRaw": "Rs 892 crore",
+ "buyer": null,
+ "company": "Pine Labs",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-22T03:31:22.198279+00:00",
+ "dealType": "block deal",
+ "enrichmentState": null,
+ "id": 945,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Mastercard likely to sell a stake in Pine Labs via a block deal worth Rs 892 crore.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQLUdZMXZUZ1dxRjhBRjBBTFZGQmpWa1JJbXFBOUtRN2ZFMTVyMmRKR3ctbGFEc1g3Qjg2MlZaM2tsZUQ5MkczQnF4eHFxeVBQM29POE9pTU5QeW81TXNBSnZXazIwc29nbG13SzdEV2I1SktuVVpzZjV1cFBPNGc1cWpWRU1Vd0ZUanpKYUt5TzNja3RKRmhpam10LXVZejhTUlRFc1FDSTZuVl9IdTZnZVVESVhCUnlmbE9oMmRzVEVqaVJ2RUtfYXhPVWFHX1hOLWdOb1o1al9jVmF4SWd4cHpGZS1aRWdySXlXVkRWajk4YVnSAfgBQVVfeXFMUFp5dHRaUV93Ym90YmplSGNmd21pVk9TV1AzUFRfSDAzbnF1a2pHd1hBYWg5TUdqblVJd0IyYXNxT1I4RG0xc0p2TEx5RzJkdFVUejdFVHZtbVZONVg3MWJmLXhFT0VKV01EMTRqUUdjNkotSDZOMHdSNjZYYXIxdXd3amV1U09RSjhabHEwV0ZnWWphQ2JmcnVYZ1dFallDZGEyMjFwTktGa3ZOMHR4SnpRMWFJRnNEZGhaT3ZNa1Q5bWRfeURxNjEyNHRYQ2pxQVp2NnZlOTFUY2RIOFBOek5MUGZjclZrek5RUTljQmEzVk5NdENSbmQ?oc=5",
+ "seller": "Mastercard",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-22T03:31:22.394442+00:00",
+   "outlet": "The Economic Times",
+   "resolvable": false,
+   "title": "Pine Labs shares in focus as Mastercard likely to sell stake in Rs 892 crore block deal",
+   "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQLUdZMXZUZ1dxRjhBRjBBTFZGQmpWa1JJbXFBOUtRN2ZFMTVyMmRKR3ctbGFEc1g3Qjg2MlZaM2tsZUQ5MkczQnF4eHFxeVBQM29POE9pTU5QeW81TXNBSnZXazIwc29nbG13SzdEV2I1SktuVVpzZjV1cFBPNGc1cWpWRU1Vd0ZUanpKYUt5TzNja3RKRmhpam10LXVZejhTUlRFc1FDSTZuVl9IdTZnZVVESVhCUnlmbE9oMmRzVEVqaVJ2RUtfYXhPVWFHX1hOLWdOb1o1al9jVmF4SWd4cHpGZS1aRWdySXlXVkRWajk4YVnSAfgBQVVfeXFMUFp5dHRaUV93Ym90YmplSGNmd21pVk9TV1AzUFRfSDAzbnF1a2pHd1hBYWg5TUdqblVJd0IyYXNxT1I4RG0xc0p2TEx5RzJkdFVUejdFVHZtbVZONVg3MWJmLXhFT0VKV01EMTRqUUdjNkotSDZOMHdSNjZYYXIxdXd3amV1U09RSjhabHEwV0ZnWWphQ2JmcnVYZ1dFallDZGEyMjFwTktGa3ZOMHR4SnpRMWFJRnNEZGhaT3ZNa1Q5bWRfeURxNjEyNHRYQ2pxQVp2NnZlOTFUY2RIOFBOek5MUGZjclZrek5RUTljQmEzVk5NdENSbmQ?oc=5"
+  }
+ ],
+ "synopsis": "Mastercard Asia Pacific is likely to sell up to 49.7 million shares, representing a 4.3% stake in fintech company Pine Labs, via a block deal valued at up to Rs 892.5 crore. The floor price for the transaction is fixed at Rs 179.50 per share. The deal is a 100% secondary sale with Mastercard Asia Pacific as the selling shareholder, and Citigroup Global Markets India Private Limited is acting as the sole placement agent. The books opened on September 21 and are scheduled to close on September 22, with the trade expected to take place on September 22 and settlement on September 23.",
+ "ticker": "PINELABS.NS",
+ "updatedAt": "2026-09-22T03:31:26.564111+00:00"
+}

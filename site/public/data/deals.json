@@ -1,6 +1,28 @@
 {
- "dealCount": 774,
+ "dealCount": 775,
  "deals": [
+  {
+   "amountCr": 892.0,
+   "amountRaw": "Rs 892 crore",
+   "company": "Pine Labs",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-22T03:31:22.198279+00:00",
+   "dealType": "block deal",
+   "enrichmentState": null,
+   "id": 945,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Mastercard likely to sell a stake in Pine Labs via a block deal worth Rs 892 crore.",
+   "primaryOutlet": "The Economic Times",
+   "seller": "Mastercard",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "PINELABS.NS",
+   "updatedAt": "2026-09-22T03:31:26.564111+00:00",
+   "updates": []
+  },
   {
    "amountCr": 2500.0,
    "amountRaw": "Rs 2,500 crore",
@@ -402,7 +424,7 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 7,
+   "sourceCount": 8,
    "ticker": null,
    "updatedAt": "2026-09-22T01:31:23.710253+00:00",
    "updates": [
@@ -429,6 +451,10 @@
     {
      "attachedAt": "2026-09-22T01:31:23.709307+00:00",
      "title": "Moneyview targets Rs 5,985 cr IPO valuation, 20% below 2022 round"
+    },
+    {
+     "attachedAt": "2026-09-22T03:31:22.397189+00:00",
+     "title": "Nothing Bets On India, Moneyview’s IPO & More"
     }
    ]
   },
@@ -22437,6 +22463,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-22T01:31:51.947356+00:00",
- "totalDeals": 774
+ "generatedAt": "2026-09-22T03:31:26.564111+00:00",
+ "totalDeals": 775
 }
