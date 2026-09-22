@@ -1,0 +1,34 @@
+{
+ "advisers": [],
+ "amountCr": 498.7,
+ "amountRaw": "₹498.7 crore",
+ "buyer": null,
+ "company": "Mindspace REIT",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-09-22T07:16:03.230816+00:00",
+ "dealType": "block deal",
+ "enrichmentState": "failed",
+ "id": 951,
+ "individuals": [
+  "Chandru Raheja"
+ ],
+ "listed": false,
+ "oneLine": "Chandru Raheja sold 9.9 million Mindspace REIT units for ₹498.7 crore.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORm1nWE9nN1hoZEFTWkFHTEZYQUx1azVTUFJ0aFZCYXQ0OEYyU3dkOGtmQWUtb0lTT3FlQ21OckZ1N1JhQ3p6c0U1WjNfNEkyYUNDVERfNUJDRXI4eWdyQmJDQU94MWdWOTFVMnBkMVhic1FqM1FqREI2TmVNcWNKT2lXQjRCT2JzWlZfeXhIRjhHanFvTXFxTXdqdUZPOWZ1U1F1TWM0T0J6VFhFNVoxQ25EeEYxUHlNaWVBNGFwYUxodw?oc=5",
+ "seller": "Chandru Raheja",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-22T07:16:03.231919+00:00",
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "Chandru Raheja sells 9.9 million Mindspace REIT units for ₹498.7 crore",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORm1nWE9nN1hoZEFTWkFHTEZYQUx1azVTUFJ0aFZCYXQ0OEYyU3dkOGtmQWUtb0lTT3FlQ21OckZ1N1JhQ3p6c0U1WjNfNEkyYUNDVERfNUJDRXI4eWdyQmJDQU94MWdWOTFVMnBkMVhic1FqM1FqREI2TmVNcWNKT2lXQjRCT2JzWlZfeXhIRjhHanFvTXFxTXdqdUZPOWZ1U1F1TWM0T0J6VFhFNVoxQ25EeEYxUHlNaWVBNGFwYUxodw?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-09-22T07:16:03.230816+00:00"
+}

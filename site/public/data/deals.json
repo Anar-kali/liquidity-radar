@@ -1,6 +1,77 @@
 {
- "dealCount": 626,
+ "dealCount": 629,
  "deals": [
+  {
+   "amountCr": 3000.0,
+   "amountRaw": "Rs 3,000 crore (from article)",
+   "company": "CarDekho Group",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-22T07:16:03.245259+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 952,
+   "individuals": [
+    "Amit Jain",
+    "Anurag Jain"
+   ],
+   "listed": false,
+   "oneLine": "CarDekho parent is converting into a public company ahead of an IPO.",
+   "primaryOutlet": "Entrackr",
+   "seller": "Girnar Software Private Limited",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-22T07:16:16.928762+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 498.7,
+   "amountRaw": "₹498.7 crore",
+   "company": "Mindspace REIT",
+   "confidence": "high",
+   "confirmed": false,
+   "createdAt": "2026-09-22T07:16:03.230816+00:00",
+   "dealType": "block deal",
+   "enrichmentState": "failed",
+   "id": 951,
+   "individuals": [
+    "Chandru Raheja"
+   ],
+   "listed": false,
+   "oneLine": "Chandru Raheja sold 9.9 million Mindspace REIT units for ₹498.7 crore.",
+   "primaryOutlet": "scanx.trade",
+   "seller": "Chandru Raheja",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-22T07:16:03.230816+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Entero Healthcare",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-22T07:16:03.226981+00:00",
+   "dealType": "block deal",
+   "enrichmentState": "failed",
+   "id": 950,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Prasad Uno Family Trust sold 2.13 million shares in Entero Healthcare.",
+   "primaryOutlet": "scanx.trade",
+   "seller": "Prasad Uno Family Trust",
+   "sizeBand": null,
+   "sizeSource": "mcap_plausible",
+   "sourceCount": 1,
+   "ticker": "ENTERO.NS",
+   "updatedAt": "2026-09-22T07:16:03.226981+00:00",
+   "updates": []
+  },
   {
    "amountCr": 300.0,
    "amountRaw": "₹300 Crore",
@@ -182,13 +253,17 @@
    "seller": "Soach Global",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-09-22T05:25:44.683077+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-22T01:31:23.719269+00:00",
      "title": "Soach Global to partially exit NSE after decade-long investment"
+    },
+    {
+     "attachedAt": "2026-09-22T07:16:03.207449+00:00",
+     "title": "National Stock Exchange of India Ltd"
     }
    ]
   },
@@ -538,10 +613,19 @@
    "seller": "Ajay Kumar Bansal, Vipul Bansal, and The Wealth Company Alternates Trust – India Inflection Opportunity Fund",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-09-21T01:36:53.510858+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-09-22T07:16:03.214271+00:00",
+     "title": "Hi-Tech Flow Solutions Limited - DRHPHi-Tech Flow Solutions Limited"
+    },
+    {
+     "attachedAt": "2026-09-22T07:16:03.221744+00:00",
+     "title": "Hi-Tech Flow Solutions Limited"
+    }
+   ]
   },
   {
    "amountCr": 12642.6,
@@ -19576,6 +19660,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-22T05:31:36.615930+00:00",
- "totalDeals": 626
+ "generatedAt": "2026-09-22T07:16:16.928762+00:00",
+ "totalDeals": 629
 }

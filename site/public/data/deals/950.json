@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Entero Healthcare",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-22T07:16:03.226981+00:00",
+ "dealType": "block deal",
+ "enrichmentState": "failed",
+ "id": 950,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Prasad Uno Family Trust sold 2.13 million shares in Entero Healthcare.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNVZ1NTdUWWtJN0tpWnBMdkJSbkV4c2Y0TGgydk5KdHdZaG9rdkc1TVlORGFNakliRXZ1Q19OXzFTY2s4Q0FSOVZQNkVuaERjLUhnYWtnQzNjRnBEcnZTbVRlT0tZTTY0WElrOUEzcDV1U2JkTTN2UGlmbUN6b19nbnktcXBrN2cwYXZUNVMzekN4Tm5qWTVCQkpDYUFmdmg1bUJ2T3pObjJDMmY2VHk1bFZaNkpHRHIteGJ5SWkwZ2xMb3djTGNn?oc=5",
+ "seller": "Prasad Uno Family Trust",
+ "sizeBand": null,
+ "sizeSource": "mcap_plausible",
+ "sources": [
+  {
+   "attachedAt": "2026-09-22T07:16:03.228003+00:00",
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "Prasad Uno Family Trust sells 2.13m Entero Healthcare shares",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNVZ1NTdUWWtJN0tpWnBMdkJSbkV4c2Y0TGgydk5KdHdZaG9rdkc1TVlORGFNakliRXZ1Q19OXzFTY2s4Q0FSOVZQNkVuaERjLUhnYWtnQzNjRnBEcnZTbVRlT0tZTTY0WElrOUEzcDV1U2JkTTN2UGlmbUN6b19nbnktcXBrN2cwYXZUNVMzekN4Tm5qWTVCQkpDYUFmdmg1bUJ2T3pObjJDMmY2VHk1bFZaNkpHRHIteGJ5SWkwZ2xMb3djTGNn?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": "ENTERO.NS",
+ "updatedAt": "2026-09-22T07:16:03.226981+00:00"
+}
