@@ -28,26 +28,37 @@
    "updates": []
   },
   {
-   "amountCr": 826.0,
-   "amountRaw": "Rs 826 crore",
+   "amountCr": 825.88,
+   "amountRaw": "825.88cr confirmed via NSE block deal",
    "company": "RHI Magnesita India",
    "confidence": "medium",
-   "confirmed": false,
+   "confirmed": true,
    "createdAt": "2026-09-22T16:18:49.997269+00:00",
    "dealType": "block deal",
    "enrichmentState": null,
    "id": 966,
-   "individuals": [],
+   "individuals": [
+    "DALMIA BHARAT REFRACTORIES LIMITED"
+   ],
    "listed": true,
    "oneLine": "Dalmia Bharat Refractories divests an 11.11% stake in RHI Magnesita for Rs 826 crore.",
    "primaryOutlet": "The Economic Times",
    "seller": "Dalmia Bharat Refractories",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 3,
    "ticker": "RHIM.NS",
-   "updatedAt": "2026-09-22T16:19:21.940294+00:00",
-   "updates": []
+   "updatedAt": "2026-09-22T18:04:11.490630+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-09-22T18:04:11.448926+00:00",
+     "title": "RHI MAGNESITA INDIA LTD: bulk deal"
+    },
+    {
+     "attachedAt": "2026-09-22T18:04:11.489685+00:00",
+     "title": "RHI MAGNESITA INDIA LTD: block deal"
+    }
+   ]
   },
   {
    "amountCr": null,
@@ -20103,6 +20114,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-22T17:33:15.144870+00:00",
+ "generatedAt": "2026-09-22T18:04:11.490630+00:00",
  "totalDeals": 644
 }
