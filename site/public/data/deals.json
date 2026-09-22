@@ -40,10 +40,15 @@
    "seller": "Allied Blenders promoter",
    "sizeBand": null,
    "sizeSource": "computed",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": "ABDL.NS",
    "updatedAt": "2026-09-22T10:01:21.513489+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-09-22T10:16:07.551595+00:00",
+     "title": "Allied Blenders Co-Promoter To Sell 55 Lakh Shares To Meet Public Shareholding Rules"
+    }
+   ]
   },
   {
    "amountCr": null,
