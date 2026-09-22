@@ -8,6 +8,32 @@ likely to want to change lives here, near the top, with comments.
 import os
 
 # --------------------------------------------------------------------------
+# SILENT HOURS — when Telegram stays quiet.
+#
+# The pipeline runs FULLY during these hours. Items are fetched, classified,
+# clustered, enriched and written to the site exactly as always; the only
+# thing that changes is that a deal alert is not sent. The website is the
+# monitoring surface, Telegram is the interruption, and an interruption at
+# 3am is not wanted.
+#
+# A deal found inside the window is NOT queued for later — it lands on the
+# site and that is where it is read. Nothing re-alerts once a deal exists, so
+# a Saturday afternoon deal is a website deal. That is deliberate: about half
+# of all deals are created inside this window, and delivering them in a burst
+# at 08:00 on Monday would be its own kind of noise.
+#
+# Times are IST and the window wraps midnight. QUIET_DAYS uses Python's
+# weekday numbering, Monday = 0, so (5, 6) is Saturday and Sunday.
+# --------------------------------------------------------------------------
+QUIET_START_HOUR = 18          # 18:00 IST, inclusive
+QUIET_END_HOUR = 8             # 08:00 IST, exclusive
+QUIET_DAYS = (5, 6)            # Saturday, Sunday — silent all day
+
+# Operational messages ignore all of the above: a classifier outage or a
+# failed run is about the system being broken, not about a deal, and finding
+# out twelve hours late is worse than being interrupted.
+
+# --------------------------------------------------------------------------
 # THE MONEY THRESHOLD
 # Deals that convert to LESS than this many crore INR are suppressed (rule 8).
 # Raise it to get fewer, bigger deals; lower it to catch smaller ones.

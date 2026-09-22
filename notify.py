@@ -16,8 +16,11 @@ existing deal are prefixed "UPDATE ·".
 """
 
 import os
+from datetime import datetime, timedelta, timezone
 
 import requests
+
+import config
 
 TELEGRAM_API = "https://api.telegram.org/bot{token}/sendMessage"
 
@@ -160,7 +163,39 @@ def feedback_keyboard(deal_id):
     ]]}
 
 
+IST = timezone(timedelta(hours=5, minutes=30))
+
+
+def in_quiet_hours(now=None):
+    """Is Telegram meant to stay quiet right now?
+
+    Deal alerts only — see send_alert / send_confirmed_alert /
+    send_pattern_alert. Operational messages go through send() directly and
+    are never silenced.
+    """
+    now = now or datetime.now(IST)
+    if now.weekday() in config.QUIET_DAYS:
+        return True
+    start, end = config.QUIET_START_HOUR, config.QUIET_END_HOUR
+    if start == end:
+        return False
+    if start > end:                 # window wraps midnight, e.g. 18:00 -> 08:00
+        return now.hour >= start or now.hour < end
+    return start <= now.hour < end
+
+
+def _quiet(kind, what):
+    """Log the suppression so a silent night is visibly deliberate rather than
+    looking like a broken bot."""
+    now = datetime.now(IST)
+    print(f"[notify] quiet hours ({now:%a %H:%M} IST) — {kind} not sent, "
+          f"on the site only: {what}")
+    return False
+
+
 def send_alert(alert):
+    if in_quiet_hours():
+        return _quiet("deal alert", (alert.get("company") or "")[:40])
     markup = feedback_keyboard(alert["deal_id"]) if alert.get("deal_id") else None
     return send(format_alert(alert), reply_markup=markup)
 
@@ -208,6 +243,8 @@ def format_confirmed_alert(row):
 
 
 def send_confirmed_alert(row, deal_id=None):
+    if in_quiet_hours():
+        return _quiet("confirmed alert", str(row.get("company") or row.get("security") or "")[:40])
     markup = feedback_keyboard(deal_id) if deal_id else None
     return send(format_confirmed_alert(row), reply_markup=markup)
 
@@ -248,6 +285,8 @@ def format_pattern_alert(person_name, company, total_cr, transactions, weeks):
 
 
 def send_pattern_alert(person_name, company, total_cr, transactions, weeks):
+    if in_quiet_hours():
+        return _quiet("pattern alert", f"{person_name} / {company}"[:40])
     return send(format_pattern_alert(person_name, company, total_cr, transactions, weeks))
 
 
