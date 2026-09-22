@@ -187,6 +187,37 @@ export function minutesAgo(iso: string, now = Date.now()): number {
  * "12m", "1h 10m", "4h", "3d". The design's dataset never exceeded 9h; days
  * are an extension for a feed that actually spans a month.
  */
+/**
+ * Deal types whose story runs for months rather than landing in one day —
+ * kept in step with config.IPO_DEAL_TYPES on the pipeline side.
+ */
+const IPO_DEAL_TYPES = ["drhp filing", "ipo-ofs", "ipo-drhp", "ipo"];
+
+export function isIpoType(dealType: string | null | undefined): boolean {
+  const t = (dealType ?? "").trim().toLowerCase();
+  return IPO_DEAL_TYPES.some((k) => t.includes(k));
+}
+
+/**
+ * The timestamp a deal should be judged "recent" by.
+ *
+ * For most deals that is when it was created: a block deal happens once. An
+ * IPO does not — one listing is now a single card that collects coverage over
+ * up to 60 days, so judging it by its creation date would sink a card into the
+ * archive on the very day fresh news landed on it. Those are judged by when
+ * they were last updated instead.
+ *
+ * Deliberately scoped to IPO types rather than applied to everything: a
+ * three-week-old block deal picking up one late article should NOT jump back
+ * onto the front page as though it were new.
+ */
+export function recencyDate(deal: { dealType?: string | null; createdAt: string; updatedAt?: string | null }): string {
+  if (isIpoType(deal.dealType) && deal.updatedAt) {
+    return deal.updatedAt > deal.createdAt ? deal.updatedAt : deal.createdAt;
+  }
+  return deal.createdAt;
+}
+
 export function timeLabel(iso: string, now = Date.now()): string {
   const m = minutesAgo(iso, now);
   if (m === Number.MAX_SAFE_INTEGER) return "—";

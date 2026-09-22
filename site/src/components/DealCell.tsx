@@ -7,15 +7,7 @@
  */
 import { useState } from "react";
 import type { FeedDeal } from "../data/types";
-import {
-  amtStyle,
-  amountLabel,
-  peopleLabel,
-  provenanceNote,
-  provenanceOf,
-  sourceLabel,
-  timeLabel,
-} from "../data/view";
+import { amountLabel, amtStyle, peopleLabel, provenanceNote, provenanceOf, recencyDate, sourceLabel, timeLabel } from "../data/view";
 
 export interface CellUpdate {
   time: string;
@@ -93,7 +85,11 @@ export function DealCell({
               fontVariantNumeric: "tabular-nums",
             }}
           >
-            {timeLabel(deal.createdAt, now)}
+            {/* An IPO card gathers coverage for up to 60 days, so it shows
+                when it last moved rather than when it was opened — "6w" on a
+                listing that made news this morning is just wrong. Other deals
+                are unchanged. */}
+            {timeLabel(recencyDate(deal), now)}
           </span>
         </div>
 

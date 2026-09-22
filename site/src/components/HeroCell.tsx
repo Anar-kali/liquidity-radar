@@ -13,6 +13,7 @@ import {
   provenanceOf,
   rawPhrase,
   sourceLabel,
+  recencyDate,
   timeLabel,
 } from "../data/view";
 import { confidenceMark } from "./DealCell";
@@ -86,7 +87,8 @@ export function HeroCell({
             fontVariantNumeric: "tabular-nums",
           }}
         >
-          {timeLabel(deal.createdAt, now)}
+          {/* Same as DealCell: an IPO card shows when it last moved. */}
+          {timeLabel(recencyDate(deal), now)}
         </span>
       </div>
 

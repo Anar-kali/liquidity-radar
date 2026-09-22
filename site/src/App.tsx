@@ -2,17 +2,18 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import { data } from "./data/adapter";
 import type { Deal, Feed, FeedDeal, PatternAlert } from "./data/types";
 import {
-  type Band,
-  amtStyle,
   amountLabel,
+  amtStyle,
   bandOf,
   dateLine,
   matchesQuery,
   minutesAgo,
   provenanceOf,
+  recencyDate,
   sortValue,
   standfirst,
   timeLabel,
+  type Band,
 } from "./data/view";
 import { DealCell } from "./components/DealCell";
 import { HeroCell } from "./components/HeroCell";
@@ -241,7 +242,11 @@ export default function App({
     const cut = new Date(now - RECENT_HOURS * 3600 * 1000).toISOString();
     const a: FeedDeal[] = [];
     const b: FeedDeal[] = [];
-    for (const d of allDeals) ((d.createdAt ?? "") >= cut ? a : b).push(d);
+    // An IPO card collects coverage for up to 60 days, so it is judged by
+    // when it was last updated — otherwise a listing that made news this
+    // morning would sit in the archive because its card was opened in August.
+    // Everything else still goes by creation date. See view.recencyDate.
+    for (const d of allDeals) ((recencyDate(d) ?? "") >= cut ? a : b).push(d);
     return [a, b];
   }, [allDeals, now]);
 
