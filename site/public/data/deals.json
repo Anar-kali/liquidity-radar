@@ -1,6 +1,28 @@
 {
- "dealCount": 640,
+ "dealCount": 641,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "PhonePe",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-22T12:31:46.002428+00:00",
+   "dealType": "unknown",
+   "enrichmentState": null,
+   "id": 964,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "IPO-bound PhonePe secures approval for UAE business.",
+   "primaryOutlet": "Inc42",
+   "seller": null,
+   "sizeBand": "OVER_2000",
+   "sizeSource": "band",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-22T12:32:03.097222+00:00",
+   "updates": []
+  },
   {
    "amountCr": 500.0,
    "amountRaw": "₹500-crore",
@@ -19955,6 +19977,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-22T12:02:12.776131+00:00",
- "totalDeals": 640
+ "generatedAt": "2026-09-22T12:32:03.097222+00:00",
+ "totalDeals": 641
 }

@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "PhonePe",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-22T12:31:46.002428+00:00",
+ "dealType": "unknown",
+ "enrichmentState": null,
+ "id": 964,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "IPO-bound PhonePe secures approval for UAE business.",
+ "primaryUrl": "https://inc42.com/buzz/ipo-bound-phonepe-secures-in-principle-nod-for-uae-payments-business/",
+ "seller": null,
+ "sizeBand": "OVER_2000",
+ "sizeSource": "band",
+ "sources": [
+  {
+   "attachedAt": "2026-09-22T12:31:46.003738+00:00",
+   "outlet": "Inc42",
+   "resolvable": true,
+   "title": "IPO-Bound PhonePe Secures In-Principle Nod For UAE Payments Business",
+   "url": "https://inc42.com/buzz/ipo-bound-phonepe-secures-in-principle-nod-for-uae-payments-business/"
+  }
+ ],
+ "synopsis": "IPO-bound fintech major PhonePe has received in-principle approval from the Central Bank of the UAE for two payment licences covering Retail Payment Services and Card Schemes, and Stored Value Facilities. The approvals bring the Walmart-backed company closer to launching its first locally regulated payments operations outside India, though it must still fulfil remaining requirements and secure final approval. Following the final nod, PhonePe plans to collaborate with regional banks, payment service providers, and local technology vendors, and explore supporting the UAE's Aani and Jaywan payment networks. PhonePe is targeting a public listing between February and March 2027.",
+ "ticker": null,
+ "updatedAt": "2026-09-22T12:32:03.097222+00:00"
+}
