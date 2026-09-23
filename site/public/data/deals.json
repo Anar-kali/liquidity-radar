@@ -62,7 +62,7 @@
    "seller": "RPS Ventures",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": "MEESHO.NS",
    "updatedAt": "2026-09-23T15:18:12.537022+00:00",
    "updates": [
@@ -73,6 +73,10 @@
     {
      "attachedAt": "2026-09-23T17:03:05.245620+00:00",
      "title": "Bulk and Block deals: RPS Ventures sells 0.9% in Meesho for Rs 900 cr; large stake sales in Escorts,..."
+    },
+    {
+     "attachedAt": "2026-09-23T17:32:39.217588+00:00",
+     "title": "RPS Ventures Offloads Meesho Stake Worth About ₹900 Cr"
     }
    ]
   },
