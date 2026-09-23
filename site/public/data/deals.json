@@ -1,6 +1,28 @@
 {
- "dealCount": 649,
+ "dealCount": 650,
  "deals": [
+  {
+   "amountCr": 7040.0,
+   "amountRaw": "$800 million",
+   "company": "Airtel Money",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-23T11:31:38.023558+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 974,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Airtel Money plans a London listing aiming to raise $800 million via an OFS.",
+   "primaryOutlet": "Mint",
+   "seller": "current shareholders",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-23T11:31:56.190336+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -97,8 +119,8 @@
    "updates": []
   },
   {
-   "amountCr": 1050.0,
-   "amountRaw": "Rs. 1,500 Crore valuation, 70% stake",
+   "amountCr": 1500.0,
+   "amountRaw": "Rs. 1,500 Crore",
    "company": "Fintech Cloud",
    "confidence": "high",
    "confirmed": false,
@@ -115,10 +137,15 @@
    "seller": "Sachin Mittal",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
-   "updatedAt": "2026-09-23T01:31:15.904670+00:00",
-   "updates": []
+   "updatedAt": "2026-09-23T11:31:38.008859+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-09-23T11:31:38.006149+00:00",
+     "title": "Sachin Mittals Fintech Cloud Valued at Rs. 1,500 Crore As Indiabulls Moves to Acquire 70% Stake"
+    }
+   ]
   },
   {
    "amountCr": null,
@@ -20304,6 +20331,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-23T10:31:08.109025+00:00",
- "totalDeals": 649
+ "generatedAt": "2026-09-23T11:31:56.190336+00:00",
+ "totalDeals": 650
 }
