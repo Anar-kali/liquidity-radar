@@ -1,0 +1,34 @@
+{
+ "advisers": [],
+ "amountCr": 162.32,
+ "amountRaw": "162.32cr confirmed via NSE bulk deal",
+ "buyer": null,
+ "company": "Marine Electrical (I) Ltd",
+ "confidence": "high",
+ "confirmed": true,
+ "createdAt": "2026-09-23T18:22:16.139437+00:00",
+ "dealType": "bulk deal",
+ "enrichmentState": null,
+ "id": 983,
+ "individuals": [
+  "KDU ENTERPRISES PRIVATE LIMITED"
+ ],
+ "listed": false,
+ "oneLine": "KDU ENTERPRISES PRIVATE LIMITED sold shares in Marine Electrical (I) Ltd (confirmed, NSE bulk deal)",
+ "primaryUrl": "",
+ "seller": "KDU ENTERPRISES PRIVATE LIMITED",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-23T18:22:16.140408+00:00",
+   "outlet": "NSE",
+   "resolvable": true,
+   "title": "Marine Electrical (I) Ltd: bulk deal",
+   "url": ""
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-09-23T18:22:16.139437+00:00"
+}

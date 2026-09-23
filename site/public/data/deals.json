@@ -1,6 +1,59 @@
 {
- "dealCount": 657,
+ "dealCount": 659,
  "deals": [
+  {
+   "amountCr": 525.88,
+   "amountRaw": "525.88cr confirmed via NSE block deal",
+   "company": "Welspun Living Limited",
+   "confidence": "high",
+   "confirmed": true,
+   "createdAt": "2026-09-23T18:22:16.168534+00:00",
+   "dealType": "bulk deal",
+   "enrichmentState": null,
+   "id": 984,
+   "individuals": [
+    "WELSPUN GROUP MASTER TRUST"
+   ],
+   "listed": true,
+   "oneLine": "WELSPUN GROUP MASTER TRUST sold shares in Welspun Living Limited (confirmed, NSE bulk deal)",
+   "primaryOutlet": "NSE",
+   "seller": "WELSPUN GROUP MASTER TRUST",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 2,
+   "ticker": "WELSPUNLIV.NS",
+   "updatedAt": "2026-09-23T18:22:16.175306+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-09-23T18:22:16.174419+00:00",
+     "title": "Welspun Living Limited: block deal"
+    }
+   ]
+  },
+  {
+   "amountCr": 162.32,
+   "amountRaw": "162.32cr confirmed via NSE bulk deal",
+   "company": "Marine Electrical (I) Ltd",
+   "confidence": "high",
+   "confirmed": true,
+   "createdAt": "2026-09-23T18:22:16.139437+00:00",
+   "dealType": "bulk deal",
+   "enrichmentState": null,
+   "id": 983,
+   "individuals": [
+    "KDU ENTERPRISES PRIVATE LIMITED"
+   ],
+   "listed": false,
+   "oneLine": "KDU ENTERPRISES PRIVATE LIMITED sold shares in Marine Electrical (I) Ltd (confirmed, NSE bulk deal)",
+   "primaryOutlet": "NSE",
+   "seller": "KDU ENTERPRISES PRIVATE LIMITED",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-23T18:22:16.139437+00:00",
+   "updates": []
+  },
   {
    "amountCr": 1200.0,
    "amountRaw": "₹1,200 crore",
@@ -20518,6 +20571,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-23T17:17:51.425729+00:00",
- "totalDeals": 657
+ "generatedAt": "2026-09-23T18:22:16.175306+00:00",
+ "totalDeals": 659
 }

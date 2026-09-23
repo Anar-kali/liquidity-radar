@@ -1,0 +1,41 @@
+{
+ "advisers": [],
+ "amountCr": 525.88,
+ "amountRaw": "525.88cr confirmed via NSE block deal",
+ "buyer": null,
+ "company": "Welspun Living Limited",
+ "confidence": "high",
+ "confirmed": true,
+ "createdAt": "2026-09-23T18:22:16.168534+00:00",
+ "dealType": "bulk deal",
+ "enrichmentState": null,
+ "id": 984,
+ "individuals": [
+  "WELSPUN GROUP MASTER TRUST"
+ ],
+ "listed": true,
+ "oneLine": "WELSPUN GROUP MASTER TRUST sold shares in Welspun Living Limited (confirmed, NSE bulk deal)",
+ "primaryUrl": "",
+ "seller": "WELSPUN GROUP MASTER TRUST",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-23T18:22:16.169504+00:00",
+   "outlet": "NSE",
+   "resolvable": true,
+   "title": "Welspun Living Limited: bulk deal",
+   "url": ""
+  },
+  {
+   "attachedAt": "2026-09-23T18:22:16.174419+00:00",
+   "outlet": "NSE",
+   "resolvable": true,
+   "title": "Welspun Living Limited: block deal",
+   "url": ""
+  }
+ ],
+ "synopsis": null,
+ "ticker": "WELSPUNLIV.NS",
+ "updatedAt": "2026-09-23T18:22:16.175306+00:00"
+}
