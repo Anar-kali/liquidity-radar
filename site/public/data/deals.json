@@ -1,6 +1,28 @@
 {
- "dealCount": 647,
+ "dealCount": 648,
  "deals": [
+  {
+   "amountCr": 268.1,
+   "amountRaw": "3.2% x mcap ~Rs 8379cr = ~Rs 268cr",
+   "company": "Aarti Pharmalabs",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-23T06:16:09.012231+00:00",
+   "dealType": "promoter sale",
+   "enrichmentState": "failed",
+   "id": 971,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Aarti Pharmalabs promoter group cuts stake by 3.20% to cash out.",
+   "primaryOutlet": "scanx.trade",
+   "seller": "Aarti Pharmalabs promoter group",
+   "sizeBand": null,
+   "sizeSource": "computed",
+   "sourceCount": 1,
+   "ticker": "AARTIPHARM.NS",
+   "updatedAt": "2026-09-23T06:16:09.012231+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -299,10 +321,15 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-09-22T10:01:21.527607+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-09-23T06:16:09.025165+00:00",
+     "title": "Orient Cables to raise ₹552 crore through IPO"
+    }
+   ]
   },
   {
    "amountCr": 356.6,
@@ -20235,6 +20262,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-23T05:31:09.670327+00:00",
- "totalDeals": 647
+ "generatedAt": "2026-09-23T06:16:09.012231+00:00",
+ "totalDeals": 648
 }

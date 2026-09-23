@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 268.1,
+ "amountRaw": "3.2% x mcap ~Rs 8379cr = ~Rs 268cr",
+ "buyer": null,
+ "company": "Aarti Pharmalabs",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-23T06:16:09.012231+00:00",
+ "dealType": "promoter sale",
+ "enrichmentState": "failed",
+ "id": 971,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Aarti Pharmalabs promoter group cuts stake by 3.20% to cash out.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWG1WRGNOMGpmVGwyRElVb1BvZFVsNVh1VGlTUWVnWXVETmdCTUQ5WktiakNkbThTaXFkdDI2S0dtUElUZnlQYkRmNW12RHA2S1NOUkV0b1ZUbXpmQ1RGbmFNZjBDV1gyRXZGbTRydGNBQzYtLWZia2psaEFxQkczRTlVeXdzZ0RZT1pBTXZ1YmpzOEVQUFMyY0RweHp6TEFvX3J6NkJxLXU3T2N2NkJZ?oc=5",
+ "seller": "Aarti Pharmalabs promoter group",
+ "sizeBand": null,
+ "sizeSource": "computed",
+ "sources": [
+  {
+   "attachedAt": "2026-09-23T06:16:09.014193+00:00",
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "Aarti Pharmalabs promoter group cuts stake by 3.20% to 39.66%",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWG1WRGNOMGpmVGwyRElVb1BvZFVsNVh1VGlTUWVnWXVETmdCTUQ5WktiakNkbThTaXFkdDI2S0dtUElUZnlQYkRmNW12RHA2S1NOUkV0b1ZUbXpmQ1RGbmFNZjBDV1gyRXZGbTRydGNBQzYtLWZia2psaEFxQkczRTlVeXdzZ0RZT1pBTXZ1YmpzOEVQUFMyY0RweHp6TEFvX3J6NkJxLXU3T2N2NkJZ?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": "AARTIPHARM.NS",
+ "updatedAt": "2026-09-23T06:16:09.012231+00:00"
+}
