@@ -1,6 +1,54 @@
 {
- "dealCount": 644,
+ "dealCount": 646,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Bira 91",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-23T01:31:12.553938+00:00",
+   "dealType": "PE secondary",
+   "enrichmentState": null,
+   "id": 969,
+   "individuals": [
+    "Ankur Jain"
+   ],
+   "listed": false,
+   "oneLine": "Anicut-led board offers to buy out key investors in Bira 91.",
+   "primaryOutlet": "The Economic Times",
+   "seller": "key investors",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-23T01:31:20.057723+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 1050.0,
+   "amountRaw": "Rs. 1,500 Crore valuation, 70% stake",
+   "company": "Fintech Cloud",
+   "confidence": "high",
+   "confirmed": false,
+   "createdAt": "2026-09-23T01:31:12.537142+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 968,
+   "individuals": [
+    "Sachin Mittal"
+   ],
+   "listed": false,
+   "oneLine": "Indiabulls acquires a 70% stake in Sachin Mittal's Fintech Cloud.",
+   "primaryOutlet": "Business Standard",
+   "seller": "Sachin Mittal",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-23T01:31:15.904670+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -46,7 +94,7 @@
    "seller": "Dalmia Bharat Refractories",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": "RHIM.NS",
    "updatedAt": "2026-09-22T18:04:11.490630+00:00",
    "updates": [
@@ -57,6 +105,10 @@
     {
      "attachedAt": "2026-09-22T18:04:11.489685+00:00",
      "title": "RHI MAGNESITA INDIA LTD: block deal"
+    },
+    {
+     "attachedAt": "2026-09-23T01:31:12.531761+00:00",
+     "title": "Dalmia Bharat Refractories sells 11.1% stake in RHI Magnesita to Clarus Capital, Bandhan MF, SBI MF,..."
     }
    ]
   },
@@ -134,8 +186,8 @@
    ]
   },
   {
-   "amountCr": 420.0,
-   "amountRaw": "₹287 crore plus ₹133 crore (from article)",
+   "amountCr": 1741.0,
+   "amountRaw": "₹1,741-crore valuation",
    "company": "Snapdeal",
    "confidence": "medium",
    "confirmed": false,
@@ -150,10 +202,15 @@
    "seller": "AceVector",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
-   "updatedAt": "2026-09-22T11:01:56.669546+00:00",
-   "updates": []
+   "updatedAt": "2026-09-23T01:31:12.564553+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-09-23T01:31:12.563535+00:00",
+     "title": "Snapdeal banks on Gen Z to leave its old image behind"
+    }
+   ]
   },
   {
    "amountCr": null,
@@ -691,8 +748,8 @@
    "updates": []
   },
   {
-   "amountCr": 290.0,
-   "amountRaw": "Rs 280-295 crore",
+   "amountCr": 18775.0,
+   "amountRaw": "Rs 18,775 cr",
    "company": "National Stock Exchange",
    "confidence": "medium",
    "confirmed": false,
@@ -707,9 +764,9 @@
    "seller": "Soach Global",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": null,
-   "updatedAt": "2026-09-22T05:25:44.683077+00:00",
+   "updatedAt": "2026-09-23T01:31:12.550787+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-22T01:31:23.719269+00:00",
@@ -718,6 +775,10 @@
     {
      "attachedAt": "2026-09-22T07:16:03.207449+00:00",
      "title": "National Stock Exchange of India Ltd"
+    },
+    {
+     "attachedAt": "2026-09-23T01:31:12.549467+00:00",
+     "title": "NSE IPO: Premji Invest, Damani, Tiger Global, Catamaran hold Rs 18,775 cr"
     }
    ]
   },
@@ -20114,6 +20175,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-22T18:04:11.490630+00:00",
- "totalDeals": 644
+ "generatedAt": "2026-09-23T01:31:20.057723+00:00",
+ "totalDeals": 646
 }

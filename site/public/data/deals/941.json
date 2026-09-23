@@ -1,7 +1,7 @@
 {
  "advisers": [],
- "amountCr": 290.0,
- "amountRaw": "Rs 280-295 crore",
+ "amountCr": 18775.0,
+ "amountRaw": "Rs 18,775 cr",
  "buyer": "National Stock Exchange of India Limited IPO investors",
  "company": "National Stock Exchange",
  "confidence": "medium",
@@ -38,9 +38,16 @@
    "resolvable": true,
    "title": "National Stock Exchange of India Ltd",
    "url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/national-stock-exchange-of-india-ltd-prospectus_104637.html"
+  },
+  {
+   "attachedAt": "2026-09-23T01:31:12.549467+00:00",
+   "outlet": "timesofindia.indiatimes.com",
+   "resolvable": false,
+   "title": "NSE IPO: Premji Invest, Damani, Tiger Global, Catamaran hold Rs 18,775 cr",
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQVVcxbE9Va3lJUHpLNDlpQXY2cjg0TE41WHBoeFliUWZmNmgyNW10dDFndFNDeWJBVldKNTZWdzZFX1RBTjBQei1tMVVmRkdQSW05R1ktZ2JNcWlmMnZUVVBhejNoeFhNRDVlcG53WHZZU3ZLeHRST05zd0w5NXd0Ti1fRTk4dlpnYzQxVUlFVy1qUkJKcjZtNmltV3J5dDNvUFY4d19XaEl1SHhoS3dQNXg3QlVkeXpBUVROdHJlWHVaUnJEQmIzM1hMdng4V1ZGTzd3WXBidDZVUXFtUTFUakgwTng4SEE4bWNNWmppc9IB7wFBVV95cUxQVVcxbE9Va3lJUHpLNDlpQXY2cjg0TE41WHBoeFliUWZmNmgyNW10dDFndFNDeWJBVldKNTZWdzZFX1RBTjBQei1tMVVmRkdQSW05R1ktZ2JNcWlmMnZUVVBhejNoeFhNRDVlcG53WHZZU3ZLeHRST05zd0w5NXd0Ti1fRTk4dlpnYzQxVUlFVy1qUkJKcjZtNmltV3J5dDNvUFY4d19XaEl1SHhoS3dQNXg3QlVkeXpBUVROdHJlWHVaUnJEQmIzM1hMdng4V1ZGTzd3WXBidDZVUXFtUTFUakgwTng4SEE4bWNNWmppcw?oc=5"
   }
  ],
  "synopsis": "Soach Global Strategic Holdings Limited, a Mauritius-based subsidiary of Soach Global Opportunities Fund, is executing a partial exit from its decade-long investment in the National Stock Exchange of India Limited (NSE) through an offer for sale in the NSE initial public offering. The fund is selling 16,50,000 equity shares, representing 20 percent of its holding, at an IPO price band of 1,700 to 1,785 per share. This sale is valued at approximately 280 to 295 crore, realizing nearly five times the fund's entire original investment and delivering a return of roughly 25x. Following the transaction, the fund will retain 66,00,000 shares, representing 80 percent of its position, valued at approximately 1,120 to 1,180 crore at the price band. The fund has stated it has no plans of re-entering.",
  "ticker": null,
- "updatedAt": "2026-09-22T05:25:44.683077+00:00"
+ "updatedAt": "2026-09-23T01:31:12.550787+00:00"
 }
