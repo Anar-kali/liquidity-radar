@@ -206,13 +206,17 @@
    "seller": "AceVector",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-09-23T01:31:12.564553+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-23T01:31:12.563535+00:00",
      "title": "Snapdeal banks on Gen Z to leave its old image behind"
+    },
+    {
+     "attachedAt": "2026-09-23T03:31:06.718926+00:00",
+     "title": "Indian Startup IPO Sprint, Zetwerk-Ayr Settle Dispute & More"
     }
    ]
   },
