@@ -18,10 +18,15 @@
    "seller": "RPS Ventures",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": "MEESHO.NS",
    "updatedAt": "2026-09-23T15:18:12.537022+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-09-23T15:47:14.915840+00:00",
+     "title": "Meesho Block Deal: Goldman Sachs, Morgan Stanley Among Buyers As Rs 900-Crore Stake Change Hands"
+    }
+   ]
   },
   {
    "amountCr": 1330.0,
