@@ -18,13 +18,17 @@
    "seller": "RPS Ventures",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": "MEESHO.NS",
    "updatedAt": "2026-09-23T15:18:12.537022+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-23T15:47:14.915840+00:00",
      "title": "Meesho Block Deal: Goldman Sachs, Morgan Stanley Among Buyers As Rs 900-Crore Stake Change Hands"
+    },
+    {
+     "attachedAt": "2026-09-23T17:03:05.245620+00:00",
+     "title": "Bulk and Block deals: RPS Ventures sells 0.9% in Meesho for Rs 900 cr; large stake sales in Escorts,..."
     }
    ]
   },
