@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 1200.0,
+ "amountRaw": "₹1,200 crore",
+ "buyer": null,
+ "company": "Kamarajar Port",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-23T17:17:51.425729+00:00",
+ "dealType": "unknown",
+ "enrichmentState": "failed",
+ "id": 982,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Kamarajar Port is planning an IPO worth 1,200 crore INR.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQM25mZzRuWlZNMFJPUXlrdFR5Z2w2SkxJWVQ2OUwwb0ZyY1M5Rk9wVkltNnF4MXB5WUw4WW5XazlWOUpZcFgtOURRZHk2OTNRem4zSXhSRHJoVVRkdmVSQmtOc19oN2EyZVBhVFFVajNKWEpZaGlLcnFqMXNXbWNqSjRrSm1QQ3JRWVlzQ0VsbmVXX0Z0NnREQUdwUGh6XzJrTmhhVjlkenpER3F1Z0ZxcVRWMkTSAboBQVVfeXFMT0syOUY5Y19NdWR6NnhlWFlLZVdIZDZEM2JRbGxSYlJEUWgwQmRpZ0M5eFY0bk52N3M3Q296cjBueWRIeHJuVkxtQi1yRkZjQWpMQTVpZDRWYzhrQXgxeUk1MGpISWZIMnM0dE1iSDIzNGFwMG1Ja1RzRndSbkh1UFRXbHBUa0pPaVdvRVZzZThNemhtVGJteGxRQVIxM2tqMWZVX3ptRE1qRko2V1Z1WmRKS21uVUFRdWt3?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-23T17:17:51.426825+00:00",
+   "outlet": "theweek.in",
+   "resolvable": false,
+   "title": "Kamarajar Port’s ₹1,200 crore IPO plan | The Port Report #31",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQM25mZzRuWlZNMFJPUXlrdFR5Z2w2SkxJWVQ2OUwwb0ZyY1M5Rk9wVkltNnF4MXB5WUw4WW5XazlWOUpZcFgtOURRZHk2OTNRem4zSXhSRHJoVVRkdmVSQmtOc19oN2EyZVBhVFFVajNKWEpZaGlLcnFqMXNXbWNqSjRrSm1QQ3JRWVlzQ0VsbmVXX0Z0NnREQUdwUGh6XzJrTmhhVjlkenpER3F1Z0ZxcVRWMkTSAboBQVVfeXFMT0syOUY5Y19NdWR6NnhlWFlLZVdIZDZEM2JRbGxSYlJEUWgwQmRpZ0M5eFY0bk52N3M3Q296cjBueWRIeHJuVkxtQi1yRkZjQWpMQTVpZDRWYzhrQXgxeUk1MGpISWZIMnM0dE1iSDIzNGFwMG1Ja1RzRndSbkh1UFRXbHBUa0pPaVdvRVZzZThNemhtVGJteGxRQVIxM2tqMWZVX3ptRE1qRko2V1Z1WmRKS21uVUFRdWt3?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-09-23T17:17:51.425729+00:00"
+}

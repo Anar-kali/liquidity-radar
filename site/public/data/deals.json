@@ -1,6 +1,50 @@
 {
- "dealCount": 655,
+ "dealCount": 657,
  "deals": [
+  {
+   "amountCr": 1200.0,
+   "amountRaw": "₹1,200 crore",
+   "company": "Kamarajar Port",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-23T17:17:51.425729+00:00",
+   "dealType": "unknown",
+   "enrichmentState": "failed",
+   "id": 982,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Kamarajar Port is planning an IPO worth 1,200 crore INR.",
+   "primaryOutlet": "theweek.in",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-23T17:17:51.425729+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Premier Explosives",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-23T17:17:51.421507+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": "failed",
+   "id": 981,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "CCI clears Apollo Micro's acquisition deal for Premier Explosives.",
+   "primaryOutlet": "scanx.trade",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "mcap_plausible",
+   "sourceCount": 1,
+   "ticker": "PREMEXPLN.NS",
+   "updatedAt": "2026-09-23T17:17:51.421507+00:00",
+   "updates": []
+  },
   {
    "amountCr": 900.0,
    "amountRaw": "Rs 900 Cr",
@@ -20470,6 +20514,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-23T15:18:12.537022+00:00",
- "totalDeals": 655
+ "generatedAt": "2026-09-23T17:17:51.425729+00:00",
+ "totalDeals": 657
 }
