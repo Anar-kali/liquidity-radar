@@ -1,0 +1,34 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "Goldman Sachs Investments Mauritius I",
+ "company": "Lord’s Mark Industries Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-23T13:16:13.813602+00:00",
+ "dealType": "promoter sale",
+ "enrichmentState": null,
+ "id": 977,
+ "individuals": [
+  "Dr. Sachidanand Hariram Upadhyay"
+ ],
+ "listed": false,
+ "oneLine": "Promoter of Lord's Mark Industries sells shares to meet norms, bought by Goldman Sachs.",
+ "primaryUrl": "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/goldman-sachs-picks-up-stake-in-lords-mark-industries-limited/articleshow/134438650.cms",
+ "seller": "Promoter",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-23T13:16:13.814780+00:00",
+   "outlet": "ET Corporate",
+   "resolvable": true,
+   "title": "Goldman Sachs picks up stake in Lord’s Mark Industries Limited",
+   "url": "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/goldman-sachs-picks-up-stake-in-lords-mark-industries-limited/articleshow/134438650.cms"
+  }
+ ],
+ "synopsis": "Dr. Sachidanand Hariram Upadhyay, promoter of Lord's Mark Industries Limited, sold approximately 1 crore shares through open-market transactions to meet SEBI's Minimum Public Shareholding norms. Prominent institutional and corporate investors, including Goldman Sachs Investments Mauritius I and AT Trade Overseas, participated in these transactions, acquiring stakes in the diversified company which operates across healthcare, diagnostics, renewable energy, and LED solutions. Despite the sale, the promoter group maintains a substantial holding in the company. No deal value amount was disclosed in the article.",
+ "ticker": null,
+ "updatedAt": "2026-09-23T13:16:33.730905+00:00"
+}

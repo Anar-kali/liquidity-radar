@@ -1,6 +1,52 @@
 {
- "dealCount": 651,
+ "dealCount": 653,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Lord’s Mark Industries Limited",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-23T13:16:13.813602+00:00",
+   "dealType": "promoter sale",
+   "enrichmentState": null,
+   "id": 977,
+   "individuals": [
+    "Dr. Sachidanand Hariram Upadhyay"
+   ],
+   "listed": false,
+   "oneLine": "Promoter of Lord's Mark Industries sells shares to meet norms, bought by Goldman Sachs.",
+   "primaryOutlet": "ET Corporate",
+   "seller": "Promoter",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-23T13:16:33.730905+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Claroid Pharmaceuticals",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-23T13:16:13.807653+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 976,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Claroid Pharmaceuticals files IPO papers with SEBI for expansion.",
+   "primaryOutlet": "Free Press Journal",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-23T13:16:18.342619+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -20358,6 +20404,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-23T12:46:06.300506+00:00",
- "totalDeals": 651
+ "generatedAt": "2026-09-23T13:16:33.730905+00:00",
+ "totalDeals": 653
 }
