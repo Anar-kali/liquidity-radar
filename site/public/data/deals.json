@@ -94,7 +94,7 @@
    "seller": "Dalmia Bharat Refractories",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 5,
+   "sourceCount": 6,
    "ticker": "RHIM.NS",
    "updatedAt": "2026-09-22T18:04:11.490630+00:00",
    "updates": [
@@ -113,6 +113,10 @@
     {
      "attachedAt": "2026-09-23T01:45:53.305170+00:00",
      "title": "Dalmia Bharat Refractories sells 11.11% stake in RHI Magnesita India for ₹826 crore"
+    },
+    {
+     "attachedAt": "2026-09-23T04:31:32.828103+00:00",
+     "title": "RHI Magnesita block deal: Dalmia Bharat Refractories sells 11% stake; check buyers, deal size"
     }
    ]
   },
