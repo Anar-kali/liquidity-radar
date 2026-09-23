@@ -717,7 +717,7 @@
    "seller": "Mastercard",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": "PINELABS.NS",
    "updatedAt": "2026-09-22T05:25:44.692397+00:00",
    "updates": [
@@ -728,6 +728,10 @@
     {
      "attachedAt": "2026-09-22T17:32:34.212972+00:00",
      "title": "Mastercard Exits Pine Labs, Sells 4.31% Stake for Rs 933 Cr"
+    },
+    {
+     "attachedAt": "2026-09-23T06:01:52.836347+00:00",
+     "title": "Mastercard sells entire 4.31% Pine Labs stake for Rs 934 Cr"
     }
    ]
   },
