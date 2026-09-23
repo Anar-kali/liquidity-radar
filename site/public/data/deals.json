@@ -321,13 +321,21 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-09-22T10:01:21.527607+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-23T06:16:09.025165+00:00",
      "title": "Orient Cables to raise ₹552 crore through IPO"
+    },
+    {
+     "attachedAt": "2026-09-23T06:31:33.256916+00:00",
+     "title": "Orient Cables (India) Limited - RHPOrient Cables (India) Limited"
+    },
+    {
+     "attachedAt": "2026-09-23T06:31:33.265217+00:00",
+     "title": "Orient Cables (India) Limited"
     }
    ]
   },
@@ -616,13 +624,17 @@
    "seller": "Chandru Raheja",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-09-22T07:16:03.230816+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-22T17:02:57.815829+00:00",
      "title": "Chandru Raheja sells 1.49% stake in Mindspace REIT for ₹500 crore"
+    },
+    {
+     "attachedAt": "2026-09-23T06:31:33.268894+00:00",
+     "title": "Mindspace Business Parks REIT: Sponsor Group Member Sells Units Worth Rs 498 Crore"
     }
    ]
   },
