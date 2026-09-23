@@ -1,6 +1,28 @@
 {
- "dealCount": 648,
+ "dealCount": 649,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Whirlpool of India",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-23T10:16:47.648054+00:00",
+   "dealType": "promoter sale",
+   "enrichmentState": null,
+   "id": 972,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Whirlpool of India stock surges on reports of an impending promoter stake sale.",
+   "primaryOutlet": "The Economic Times",
+   "seller": "Promoters",
+   "sizeBand": null,
+   "sizeSource": "mcap_plausible",
+   "sourceCount": 1,
+   "ticker": "WHIRLPOOL.NS",
+   "updatedAt": "2026-09-23T10:16:51.863633+00:00",
+   "updates": []
+  },
   {
    "amountCr": 268.1,
    "amountRaw": "3.2% x mcap ~Rs 8379cr = ~Rs 268cr",
@@ -20278,6 +20300,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-23T06:16:09.012231+00:00",
- "totalDeals": 648
+ "generatedAt": "2026-09-23T10:16:51.863633+00:00",
+ "totalDeals": 649
 }
