@@ -1,6 +1,28 @@
 {
- "dealCount": 650,
+ "dealCount": 651,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Claroid Pharma",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-23T12:46:06.300506+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 975,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Claroid Pharma files IPO draft papers for share offering.",
+   "primaryOutlet": "NDTV Profit",
+   "seller": "Promoters",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-23T12:46:06.300506+00:00",
+   "updates": []
+  },
   {
    "amountCr": 7040.0,
    "amountRaw": "$800 million",
@@ -24,8 +46,8 @@
    "updates": []
   },
   {
-   "amountCr": null,
-   "amountRaw": null,
+   "amountCr": 2196.4,
+   "amountRaw": "20% x mcap ~Rs 10982cr = ~Rs 2196cr",
    "company": "Whirlpool of India",
    "confidence": "medium",
    "confirmed": false,
@@ -39,11 +61,16 @@
    "primaryOutlet": "The Economic Times",
    "seller": "Promoters",
    "sizeBand": null,
-   "sizeSource": "mcap_plausible",
-   "sourceCount": 1,
+   "sizeSource": "stated",
+   "sourceCount": 2,
    "ticker": "WHIRLPOOL.NS",
-   "updatedAt": "2026-09-23T10:16:51.863633+00:00",
-   "updates": []
+   "updatedAt": "2026-09-23T12:46:06.285863+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-09-23T12:46:06.284059+00:00",
+     "title": "Whirlpool of India promoter set to sell entire stake, reports CNBC-Awaaz; shares hit 20% upper circuit"
+    }
+   ]
   },
   {
    "amountCr": 268.1,
@@ -20331,6 +20358,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-23T11:31:56.190336+00:00",
- "totalDeals": 650
+ "generatedAt": "2026-09-23T12:46:06.300506+00:00",
+ "totalDeals": 651
 }

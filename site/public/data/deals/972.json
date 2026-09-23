@@ -1,7 +1,7 @@
 {
  "advisers": [],
- "amountCr": null,
- "amountRaw": null,
+ "amountCr": 2196.4,
+ "amountRaw": "20% x mcap ~Rs 10982cr = ~Rs 2196cr",
  "buyer": null,
  "company": "Whirlpool of India",
  "confidence": "medium",
@@ -16,7 +16,7 @@
  "primaryUrl": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQNUFIZTlWYWU4YWZsX3JjVDVSc2FfNjVrZXlwWXJHcVhKakRzYl9QTVZQTWNzS3dpZ3c5NFVKcVhFcW1TYS1wYzgzME04THBjV3pEUzJxYlF2OFA2MnkwQURYRFgxMGI0MjhLTGEyaktYcUFzZW9PZFY3ekZEVGplTXZ1Z3ZzSXpYaWNpRVRfLUdia3FidV82ZjQzcWx1M3pLekh4ZWFjd182ZE11MTBsc2xnc2ZGTU5Xd29xNC1RMmV3ZGxXenRaR3ZHUG94LW80NzBLcUdCdW84aXJCRmtOSWJGUXZOTlpmYmtkS1ZRc3dUWFZSWEJ3QtIB8gFBVV95cUxNMjM1NmFxTVF1YlJpeEpkSUVST0VOa1psaVhoeXRHUHNoQ0FwaDRScVJKMVByTDEtbWc4SHllUW9iT3JZT2JmeFRQczdBTzNZSk9pclFUeHlIYlEtYU42UUNpcUJjRm1KYzhtdC1Ed2xmYmpwb3hwUmJDY3o4bENGZEZnSzgtclF4b0FTd2pDdDNoY25wc2IxRVQ4M3ZJYkgwSERFWFFBeTFpcENMS3hJU1pJZlZ1ejZJazE5NWFrbm5YQVBpaHRpbXRUVWJNNjlOZ2FPRnROUWtXcjBFUU9JekRpV0hrOGF5eXZScnVQYjV3UQ?oc=5",
  "seller": "Promoters",
  "sizeBand": null,
- "sizeSource": "mcap_plausible",
+ "sizeSource": "stated",
  "sources": [
   {
    "attachedAt": "2026-09-23T10:16:47.651861+00:00",
@@ -24,9 +24,16 @@
    "resolvable": false,
    "title": "Whirlpool of India stock soars 20% to hit upper circuit on promoter stake sale buzz",
    "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQNUFIZTlWYWU4YWZsX3JjVDVSc2FfNjVrZXlwWXJHcVhKakRzYl9QTVZQTWNzS3dpZ3c5NFVKcVhFcW1TYS1wYzgzME04THBjV3pEUzJxYlF2OFA2MnkwQURYRFgxMGI0MjhLTGEyaktYcUFzZW9PZFY3ekZEVGplTXZ1Z3ZzSXpYaWNpRVRfLUdia3FidV82ZjQzcWx1M3pLekh4ZWFjd182ZE11MTBsc2xnc2ZGTU5Xd29xNC1RMmV3ZGxXenRaR3ZHUG94LW80NzBLcUdCdW84aXJCRmtOSWJGUXZOTlpmYmtkS1ZRc3dUWFZSWEJ3QtIB8gFBVV95cUxNMjM1NmFxTVF1YlJpeEpkSUVST0VOa1psaVhoeXRHUHNoQ0FwaDRScVJKMVByTDEtbWc4SHllUW9iT3JZT2JmeFRQczdBTzNZSk9pclFUeHlIYlEtYU42UUNpcUJjRm1KYzhtdC1Ed2xmYmpwb3hwUmJDY3o4bENGZEZnSzgtclF4b0FTd2pDdDNoY25wc2IxRVQ4M3ZJYkgwSERFWFFBeTFpcENMS3hJU1pJZlZ1ejZJazE5NWFrbm5YQVBpaHRpbXRUVWJNNjlOZ2FPRnROUWtXcjBFUU9JekRpV0hrOGF5eXZScnVQYjV3UQ?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-23T12:46:06.284059+00:00",
+   "outlet": "Moneycontrol.com",
+   "resolvable": false,
+   "title": "Whirlpool of India promoter set to sell entire stake, reports CNBC-Awaaz; shares hit 20% upper circuit",
+   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOdy1aU1dyMW1FWlZjWjJRa3d5ZGRhcVZXemh6ejFudDJuc25vSDEtYVFWU3lwSS1aVU5GWTdUR3E4cy1KQVdGNzBUOGZQTDFoWHpPZFdpZ0hYclV6OUt0VFpBSWUxNkdERXpSc3pqUXBJSTJvRVFaM1hTR1cwNjlhQko0di1rSVZCdmczZkF2TDhkdHdSd3NPcHhQVVMtYkVqZUN3bUxPWlc2clRyRHFfczdUUHBpNi1xeXNXaHJPX0dZRDlKOE9NSlN4UHhpRzVYUDljZGhtX0hxaUZHT2xsTHNfWEtOUGPSAewBQVVfeXFMUHZPY3M4SU5fR01QZnFlZmpwYjdNMzVwSF9xanJBaWt0Tm9lQUF1b1FtZjZkNDJ2S0xQTFUtbjhVVVluWEFSdlhQOTlXQ0xpSjEtWVJpTVEwMTc1aGcxVWRaNVZYWWR2dW9wQ3dhd1NsQk44QkpGVm8zUnFpcGFfWG90dUh0eGdOVDAtM1VBR2RHWXRRS3pwRXFVMERZYUphSUhQWmhjMVRQYmRoamx0TGsySm55NEtISjhRZHNxWEREX0wzQzBlZFFfdmQzTzN3b1owOGJHNWJCZ3lhVnJnaFMzTUVhUGJzTXRkTXo?oc=5"
   }
  ],
  "synopsis": "Whirlpool of India shares surged 20% to hit the upper circuit at Rs 865.35 on the BSE following reports that promoter Whirlpool Mauritius is mulling the sale of its entire remaining 39.76% stake in the household appliances maker. The deal is reportedly in its final stages with an announcement expected in coming weeks, and potential buyers include large investors and a major multinational consumer durables company. The promoter has been reducing its holding from 75% down to 39.76% over the past three years, including an 11.24% stake sale last year.",
  "ticker": "WHIRLPOOL.NS",
- "updatedAt": "2026-09-23T10:16:51.863633+00:00"
+ "updatedAt": "2026-09-23T12:46:06.285863+00:00"
 }
