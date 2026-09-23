@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 900.0,
+ "amountRaw": "Rs 900 Cr",
+ "buyer": "Multiple block deal buyers",
+ "company": "Meesho",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-23T15:17:15.878832+00:00",
+ "dealType": "block deal",
+ "enrichmentState": null,
+ "id": 980,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "RPS Ventures sells a stake in Meesho for Rs 900 crore via block deals.",
+ "primaryUrl": "https://entrackr.com/news/rps-ventures-sells-083-stake-in-meesho-for-rs-900-cr-through-block-deals-12568769",
+ "seller": "RPS Ventures",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-23T15:17:15.880449+00:00",
+   "outlet": "Entrackr",
+   "resolvable": true,
+   "title": "RPS Ventures sells 0.83% stake in Meesho for Rs 900 Cr through block deals",
+   "url": "https://entrackr.com/news/rps-ventures-sells-083-stake-in-meesho-for-rs-900-cr-through-block-deals-12568769"
+  }
+ ],
+ "synopsis": "RPS Ventures sold a 0.83% stake in e-commerce platform Meesho for approximately Rs 900 crore through multiple block deals on the BSE on Wednesday. RPS Ventures offloaded 3,86,13,960 equity shares via RPS WOS II LLC at Rs 233 per share, reducing its holding from 1.12% to around 0.29%. The shares were acquired by a mix of domestic and foreign institutional investors, with the Government of Singapore emerging as the largest buyer with a 1.32 crore share acquisition worth Rs 307.5 crore, followed by Mirae Asset Mutual Fund and several other institutional entities. The transaction follows recent stake sales by other early investors including SoftBank, Peak XV Partners, Elevation Capital, and Y Combinator.",
+ "ticker": "MEESHO.NS",
+ "updatedAt": "2026-09-23T15:18:12.537022+00:00"
+}

@@ -1,6 +1,28 @@
 {
- "dealCount": 654,
+ "dealCount": 655,
  "deals": [
+  {
+   "amountCr": 900.0,
+   "amountRaw": "Rs 900 Cr",
+   "company": "Meesho",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-23T15:17:15.878832+00:00",
+   "dealType": "block deal",
+   "enrichmentState": null,
+   "id": 980,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "RPS Ventures sells a stake in Meesho for Rs 900 crore via block deals.",
+   "primaryOutlet": "Entrackr",
+   "seller": "RPS Ventures",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "MEESHO.NS",
+   "updatedAt": "2026-09-23T15:18:12.537022+00:00",
+   "updates": []
+  },
   {
    "amountCr": 1330.0,
    "amountRaw": "Rs 1,330-Crore",
@@ -18,10 +40,15 @@
    "seller": "HDFC Life and other holders",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": "SEDEMAC.NS",
    "updatedAt": "2026-09-23T14:32:22.226772+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-09-23T15:17:15.883044+00:00",
+     "title": "Sedemac Mechatronics block deal: HDFC Life, A91 to offload 10% stake worth Rs 1,329 crore"
+    }
+   ]
   },
   {
    "amountCr": null,
@@ -20434,6 +20461,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-23T14:32:22.226772+00:00",
- "totalDeals": 654
+ "generatedAt": "2026-09-23T15:18:12.537022+00:00",
+ "totalDeals": 655
 }
