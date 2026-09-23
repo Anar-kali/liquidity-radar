@@ -1,0 +1,39 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Shah Investor's Home Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-23T05:31:09.670327+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": "failed",
+ "id": 970,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Shah Investor's Home Limited filed a draft offer document with SEBI for an IPO.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/shah-investor-s-home-limited-rhp_104660.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-23T05:31:09.671694+00:00",
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "Shah Investor's Home Limited - RHPShah Investor's Home Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/shah-investor-s-home-limited-rhp_104660.html"
+  },
+  {
+   "attachedAt": "2026-09-23T05:31:09.679640+00:00",
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "Shah Investor's Home Limited",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/sep-2026/SIHL_Abrigde%20Prospectus_p.pdf"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-09-23T05:31:09.670327+00:00"
+}
