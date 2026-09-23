@@ -354,13 +354,17 @@
    "seller": "Runwal Enterprises",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-09-22T12:02:12.776131+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-22T13:02:31.047747+00:00",
      "title": "Runwal Enterprises Cuts IPO To ₹500 Crore, Can Mumbai Growth Power Its Next Chapter?"
+    },
+    {
+     "attachedAt": "2026-09-23T14:16:41.232829+00:00",
+     "title": "Runwal Enterprises targets 2:1 debt-equity ratio after IPO: Chairman"
     }
    ]
   },
