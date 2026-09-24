@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 168.0,
+ "amountRaw": "Rs 168 crore",
+ "buyer": "Dr Lal PathLabs",
+ "company": "SN Genelab",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-24T15:34:58.225359+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1000,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Dr Lal PathLabs to acquire 70% stake in SN Genelab for Rs 168 crore.",
+ "primaryUrl": "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/dr-lal-pathlabs-to-acquire-70-pc-stake-in-sn-genelab-for-rs-168-crore/articleshow/134465323.cms",
+ "seller": "SN Genelab",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-24T15:34:58.226313+00:00",
+   "outlet": "ET Corporate",
+   "resolvable": true,
+   "title": "Dr Lal PathLabs to acquire 70 pc stake in SN Genelab for Rs 168 crore",
+   "url": "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/dr-lal-pathlabs-to-acquire-70-pc-stake-in-sn-genelab-for-rs-168-crore/articleshow/134465323.cms"
+  }
+ ],
+ "synopsis": "Diagnostic services provider Dr Lal PathLabs Ltd has announced that its board of directors approved the acquisition of a 70 per cent stake in Gujarat-based SN Genelab for approximately Rs 168 crore. The transaction includes an additional performance-linked earn-out capped at Rs 31.5 crore. Upon completion of the deal, which is expected by November 30, 2026, SN Genelab will become a subsidiary of Dr Lal PathLabs. The acquisition is intended to strengthen expertise in genomics and broaden the buyer's portfolio of advanced diagnostic services. SN Genelab previously posted a turnover of Rs 57.96 crore in FY26. The transaction does not fall within related-party transactions and requires no governmental or regulatory approvals.",
+ "ticker": null,
+ "updatedAt": "2026-09-24T15:43:13.566795+00:00"
+}

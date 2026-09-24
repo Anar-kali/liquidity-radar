@@ -1,6 +1,96 @@
 {
- "dealCount": 672,
+ "dealCount": 676,
  "deals": [
+  {
+   "amountCr": 326.0,
+   "amountRaw": "Rs 326 crore",
+   "company": "Electromech Infraprojects",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-24T15:34:58.236183+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 1001,
+   "individuals": [
+    "Shreyas Shibulal"
+   ],
+   "listed": false,
+   "oneLine": "Electromech Infraprojects files IPO papers to raise Rs 326 crore via fresh issue.",
+   "primaryOutlet": "Moneycontrol.com",
+   "seller": "Maniar family (promoters) and investor AIG Direct LLC",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-24T15:48:24.531324+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 168.0,
+   "amountRaw": "Rs 168 crore",
+   "company": "SN Genelab",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-24T15:34:58.225359+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1000,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Dr Lal PathLabs to acquire 70% stake in SN Genelab for Rs 168 crore.",
+   "primaryOutlet": "ET Corporate",
+   "seller": "SN Genelab",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-24T15:43:13.566795+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 450.12,
+   "amountRaw": "₹450.12 Crore",
+   "company": "Godrej Consumer Products",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-24T15:34:58.215871+00:00",
+   "dealType": "block deal",
+   "enrichmentState": null,
+   "id": 999,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Godrej Industries sold a stake in Godrej Consumer for ₹450.12 Crore.",
+   "primaryOutlet": "Sahi",
+   "seller": "Godrej Industries",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "GODREJCP.NS",
+   "updatedAt": "2026-09-24T15:36:04.274121+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 3100.0,
+   "amountRaw": "INR 3,100-crore",
+   "company": "GAIL Gas",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-24T15:34:58.186899+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": "failed",
+   "id": 998,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "GAIL Gas is looking for bankers to manage its INR 3,100-crore IPO.",
+   "primaryOutlet": "Prop News Time",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-24T15:34:58.186899+00:00",
+   "updates": []
+  },
   {
    "amountCr": 250.0,
    "amountRaw": "Rs 250 crore",
@@ -472,7 +562,7 @@
    "seller": "HDFC Life and other holders",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 4,
+   "sourceCount": 5,
    "ticker": "SEDEMAC.NS",
    "updatedAt": "2026-09-23T14:32:22.226772+00:00",
    "updates": [
@@ -487,6 +577,10 @@
     {
      "attachedAt": "2026-09-24T03:45:49.817854+00:00",
      "title": "Sedemac block deal: 48.79 lakh shares changed hands at Rs 3,010 on NSE; here are likely sellers"
+    },
+    {
+     "attachedAt": "2026-09-24T15:34:58.257171+00:00",
+     "title": "A91 Partners, Xponentia Sell SEDEMAC Shares Via ₹1,456.4 Cr Bulk Deals"
     }
    ]
   },
@@ -870,7 +964,7 @@
    "seller": "Runwal Enterprises",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 5,
+   "sourceCount": 6,
    "ticker": null,
    "updatedAt": "2026-09-22T12:02:12.776131+00:00",
    "updates": [
@@ -889,6 +983,10 @@
     {
      "attachedAt": "2026-09-24T06:31:03.876587+00:00",
      "title": "Runwal Enterprises Limitedd"
+    },
+    {
+     "attachedAt": "2026-09-24T15:34:58.255326+00:00",
+     "title": "Runwal Enterprises Targets Lower Debt After ₹500 Crore IPO as Mumbai Expansion Plans Grow"
     }
    ]
   },
@@ -940,7 +1038,7 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-09-22T11:01:30.217699+00:00",
    "updates": [
@@ -951,6 +1049,10 @@
     {
      "attachedAt": "2026-09-22T15:47:43.245739+00:00",
      "title": "Rudra Cottex Limited Filed DRHP With SEBI"
+    },
+    {
+     "attachedAt": "2026-09-24T15:34:58.174057+00:00",
+     "title": "Rudra Cottex Files DRHP With SEBI for IPO of Up to 1.25 Crore Equity Shares"
     }
    ]
   },
@@ -1178,7 +1280,7 @@
    "seller": "Sanjiv Krishen and Kamini Talwar",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 4,
+   "sourceCount": 5,
    "ticker": null,
    "updatedAt": "2026-09-22T08:46:16.802922+00:00",
    "updates": [
@@ -1193,6 +1295,10 @@
     {
      "attachedAt": "2026-09-22T14:33:10.861557+00:00",
      "title": "Iris Global Services IPO Plans: IT Distribution Business and Issue Details Explained"
+    },
+    {
+     "attachedAt": "2026-09-24T15:34:58.222435+00:00",
+     "title": "Iris Global Services files draft papers for INR 200 crore IPO"
     }
    ]
   },
@@ -20961,6 +21067,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-24T13:37:59.280993+00:00",
- "totalDeals": 672
+ "generatedAt": "2026-09-24T15:48:24.531324+00:00",
+ "totalDeals": 676
 }

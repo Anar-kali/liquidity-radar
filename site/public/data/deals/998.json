@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 3100.0,
+ "amountRaw": "INR 3,100-crore",
+ "buyer": null,
+ "company": "GAIL Gas",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-24T15:34:58.186899+00:00",
+ "dealType": "IPO-OFS",
+ "enrichmentState": "failed",
+ "id": 998,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "GAIL Gas is looking for bankers to manage its INR 3,100-crore IPO.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUTNDQzdtWWtzWWJodEJUSHpkQWw2UjZOMFZhd0RibUtIVW5UajdrUllyRm9Rb3JxWEFIUFlpVHZwa3JyVzZLYWtOcXhXMG93RlJRSndBTThOOUU0VGlKUHZsbzdielJLWGpGNXFjREF5OE9Md2EtSWJ5aVRQR0lfbktzNjRZVUtWQkpLQTVFUUhLam5JX0Z4SVJ4T1lPdEx5VUR6ZDlKckNXdzhqdEpuZXF3?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-24T15:34:58.187908+00:00",
+   "outlet": "Prop News Time",
+   "resolvable": false,
+   "title": "GAIL Gas looks for bankers to manage its INR 3,100-crore IPO",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUTNDQzdtWWtzWWJodEJUSHpkQWw2UjZOMFZhd0RibUtIVW5UajdrUllyRm9Rb3JxWEFIUFlpVHZwa3JyVzZLYWtOcXhXMG93RlJRSndBTThOOUU0VGlKUHZsbzdielJLWGpGNXFjREF5OE9Md2EtSWJ5aVRQR0lfbktzNjRZVUtWQkpLQTVFUUhLam5JX0Z4SVJ4T1lPdEx5VUR6ZDlKckNXdzhqdEpuZXF3?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-09-24T15:34:58.186899+00:00"
+}

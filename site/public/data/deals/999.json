@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 450.12,
+ "amountRaw": "₹450.12 Crore",
+ "buyer": "family promoter members",
+ "company": "Godrej Consumer Products",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-24T15:34:58.215871+00:00",
+ "dealType": "block deal",
+ "enrichmentState": null,
+ "id": 999,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Godrej Industries sold a stake in Godrej Consumer for ₹450.12 Crore.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQnZsRjhEc3d1M1JwVC1Yb291bXd6SDItTHFjUWdYUW5GWW9Fbk8xS0w5OFVwQnV0TFJGcUJNM0ZvbDRPbGRLaXJMOVNFaGplRzhDM1dIek1wMGFYQjVSVGg1MGR4dVhfMFY5R3h6VTNaVzhRcXF1aDNrb0lXS1JaZXhEbV84SWRselV3T3ppaUdyaDhicjhnRzBybnQ?oc=5",
+ "seller": "Godrej Industries",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-24T15:34:58.216837+00:00",
+   "outlet": "Sahi",
+   "resolvable": false,
+   "title": "Godrej Industries Sells 0.50% Stake In Godrej Consumer For ₹450.12 Crore",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQnZsRjhEc3d1M1JwVC1Yb291bXd6SDItTHFjUWdYUW5GWW9Fbk8xS0w5OFVwQnV0TFJGcUJNM0ZvbDRPbGRLaXJMOVNFaGplRzhDM1dIek1wMGFYQjVSVGg1MGR4dVhfMFY5R3h6VTNaVzhRcXF1aDNrb0lXS1JaZXhEbV84SWRselV3T3ppaUdyaDhicjhnRzBybnQ?oc=5"
+  }
+ ],
+ "synopsis": "Godrej Industries divested a 0.50% equity stake, comprising 51.15 lakh shares, in Godrej Consumer Products to family promoter members through a block deal on the open market. The transaction was valued at ₹450.12 crore, executed at a price of ₹880 per share on September 24, 2026. Following the share sale, Godrej Industries' direct holding in the FMCG firm stands reduced from 23.73% to 23.23%, while the overall promoter group shareholding remains unchanged as part of an internal asset realignment.",
+ "ticker": "GODREJCP.NS",
+ "updatedAt": "2026-09-24T15:36:04.274121+00:00"
+}
