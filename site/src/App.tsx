@@ -52,7 +52,7 @@ const microLabel: React.CSSProperties = {
 export default function App({
   defaultTheme = "light",
   heroCard = true,
-  showProvenanceLegend = true,
+  showProvenanceLegend = false,
 }: {
   defaultTheme?: "light" | "dark";
   heroCard?: boolean;
@@ -81,41 +81,25 @@ export default function App({
      that costs across devices. */
   const [review, setReview] = useState<ReviewMap>(() => loadReview());
   const [reviewFilter, setReviewFilter] = useState<ReviewFilter>("all");
-  /* Ids mid-exit. A cell that has just been passed stays mounted for one
-     animation so it can collapse out of the grid instead of vanishing, then
-     is dropped and reappears in the strip below. */
-  const [exiting, setExiting] = useState<number[]>([]);
-  const [passedOpen, setPassedOpen] = useState(false);
-
   /* A deal passed while its panel is open, waiting to animate out. The exit
      is deferred to panel CLOSE on purpose: run it at the moment of the click
      and the card collapses behind the open sheet, where nobody can see it.
      Closing on top of a card that then folds away is what makes the action
      feel like it did something. */
-  const [pendingExit, setPendingExit] = useState<number | null>(null);
+  /* Which deal was passed just now. Only that one folds — without this every
+     already-passed card would replay the animation on each render, and on a
+     reload the whole feed would twitch. */
+  const [justPassed, setJustPassed] = useState<number | null>(null);
 
   const markVerdict = useCallback((id: number, v: Verdict) => {
     setReview((prev) => {
       const next = setVerdict(prev, id, v);
       saveReview(next);
+      if (next[id] === "reject") {
+        setJustPassed(id);
+        window.setTimeout(() => setJustPassed((c) => (c === id ? null : c)), 400);
+      }
       return next;
-    });
-    // State, not a ref: the filter below has to KEEP this card mounted while
-    // its panel is open, or it unmounts the instant it is marked and there is
-    // nothing left to animate when the sheet closes.
-    setPendingExit((cur) => {
-      const nowPassed = review[id] !== "reject" && v === "reject";
-      if (nowPassed) return id;
-      return cur === id ? null : cur;
-    });
-  }, [review]);
-
-  const runPendingExit = useCallback(() => {
-    setPendingExit((id) => {
-      if (id === null) return null;
-      setExiting((e) => (e.includes(id) ? e : [...e, id]));
-      window.setTimeout(() => setExiting((e) => e.filter((x) => x !== id)), 320);
-      return null;
     });
   }, []);
 
@@ -249,10 +233,7 @@ export default function App({
     setOpenId(id);
     openOverlay("deal", String(id));
   };
-  const closePanel = () => {
-    runPendingExit();
-    closeOverlay("deal");
-  };
+  const closePanel = () => closeOverlay("deal");
 
   /* Derived, not stored: the URL holds the id, so a back/forward step or a
      shared ?pattern=4 link resolves to the same alert without a second copy of
@@ -327,16 +308,8 @@ export default function App({
       (conf === "all" || d.confidence === conf) &&
       (listed === "all" || (listed === "listed" ? d.listed : !d.listed)) &&
       (outlet === ALL_OUTLETS || d.primaryOutlet === outlet) &&
-      matchesReview(review, d.id, reviewFilter) &&
-      // Passed deals leave the grid entirely — a grid row sizes to its
-      // tallest cell, so keeping a shrunken one there held open a
-      // full-card hole. They live in the strip at the foot instead, and
-      // only rejoin the list when explicitly filtered to.
-      (reviewFilter === "reject" ||
-        review[d.id] !== "reject" ||
-        d.id === pendingExit ||
-        exiting.includes(d.id)),
-    [q, types, band, conf, listed, outlet, review, reviewFilter, exiting, pendingExit],
+      matchesReview(review, d.id, reviewFilter),
+    [q, types, band, conf, listed, outlet, review, reviewFilter],
   );
 
   const nFilters =
@@ -373,10 +346,10 @@ export default function App({
   const wantHero = view === "today" && heroCard && rows.length > 2;
   const hero = wantHero ? rows[0] : null;
   const body = wantHero ? rows.slice(1) : rows;
-  const rowsA = body.slice(0, 4);
+  const rowsA = body.slice(0, 6);
   // The archive has no hero or digest, so everything after the first four
   // cells is one grid, capped at `shown`.
-  const rowsB = body.slice(4, view === "archive" ? shown : body.length);
+  const rowsB = body.slice(6, view === "archive" ? shown : body.length);
   const more = view === "archive" ? Math.max(0, body.length - shown) : 0;
   const digest = useMemo(
     () => [...rows].sort((a, b) => b.sourceCount - a.sourceCount).slice(0, 5),
@@ -390,15 +363,6 @@ export default function App({
     : view === "archive"
       ? `${scope.length} earlier ${scope.length === 1 ? "deal" : "deals"}`
       : `${scope.length} ${scope.length === 1 ? "deal" : "deals"} in ${RECENT_LABEL} · ~18 a day is normal`;
-
-  /* Passed deals, newest first, for the strip at the foot. Drawn from the
-     whole window rather than the filtered rows: the point of the strip is
-     "everything I have already dismissed", which a size or outlet filter
-     should not quietly shorten. */
-  const passedDeals = useMemo(
-    () => allDeals.filter((d) => review[d.id] === "reject"),
-    [allDeals, review],
-  );
 
   const reviewTally = useMemo(
     () => reviewCounts(review, allDeals.map((d) => d.id)),
@@ -426,7 +390,7 @@ export default function App({
     onToggle: () => setExpanded({ ...expanded, [d.id]: !expanded[d.id] }),
     onOpen: () => openPanel(d.id),
     verdict: review[d.id] ?? null,
-    exiting: exiting.includes(d.id),
+    justPassed: justPassed === d.id,
   });
 
   return (
@@ -918,86 +882,7 @@ export default function App({
             <PatternSection alerts={patterns} onOpen={openPatternPanel} />
           )}
 
-            {/*
-              Everything already dismissed, out of the grid and out of the way.
-              Collapsed by default: it is a record, not a reading list, and the
-              only reason to open it is to change your mind about something.
-            */}
-            {passedDeals.length > 0 && reviewFilter !== "reject" && (
-              <div className="lr-passed" data-open={passedOpen}>
-                <button
-                  type="button"
-                  onClick={() => setPassedOpen((o) => !o)}
-                  aria-expanded={passedOpen}
-                  style={{
-                    display: "flex",
-                    alignItems: "baseline",
-                    gap: 10,
-                    width: "100%",
-                    border: 0,
-                    background: "transparent",
-                    padding: "2px 0 10px",
-                    cursor: "pointer",
-                    font: "inherit",
-                    color: "var(--lr-faint)",
-                  }}
-                >
-                  <span
-                    style={{
-                      fontFamily: "var(--font-heading)",
-                      fontWeight: 800,
-                      fontSize: 11,
-                      letterSpacing: "0.1em",
-                      textTransform: "uppercase",
-                      color: "var(--lr-text)",
-                    }}
-                  >
-                    Passed over
-                  </span>
-                  <span style={{ fontSize: 12, fontVariantNumeric: "tabular-nums" }}>
-                    {passedDeals.length}
-                  </span>
-                  <span style={{ marginLeft: "auto", fontSize: 11.5, letterSpacing: "0.04em" }}>
-                    {passedOpen ? "Hide" : "Show"}
-                  </span>
-                </button>
-                <div className="lr-passed-body">
-                  <div>
-                    {passedDeals.map((d) => (
-                      <button
-                        key={d.id}
-                        type="button"
-                        className="lr-passed-row"
-                        onClick={() => openPanel(d.id)}
-                        title="Open to change your mind"
-                      >
-                        <span
-                          style={{
-                            fontSize: 13,
-                            overflow: "hidden",
-                            textOverflow: "ellipsis",
-                            whiteSpace: "nowrap",
-                            minWidth: 0,
-                            flex: 1,
-                          }}
-                        >
-                          {d.company}
-                        </span>
-                        <span
-                          style={{
-                            fontSize: 12,
-                            fontVariantNumeric: "tabular-nums",
-                            flex: "none",
-                          }}
-                        >
-                          {amountLabel(d)}
-                        </span>
-                      </button>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            )}
+
 
 
           {!loading && !error && rowsB.length > 0 && (

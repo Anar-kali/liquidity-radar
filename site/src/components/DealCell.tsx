@@ -5,7 +5,7 @@
  * 20px/800. The figure matters, but the name is what a banker scans for, and
  * the handoff calls this out as load-bearing rather than stylistic.
  */
-import { useLayoutEffect, useRef, useState } from "react";
+import { useState } from "react";
 import type { FeedDeal } from "../data/types";
 import type { Verdict } from "../data/review";
 import { amountLabel, amtStyle, peopleLabel, provenanceNote, provenanceOf, recencyDate, sourceLabel, timeLabel } from "../data/view";
@@ -42,7 +42,7 @@ export function DealCell({
   onOpen,
   now,
   verdict = null,
-  exiting = false,
+  justPassed = false,
 }: {
   deal: FeedDeal;
   updates: CellUpdate[];
@@ -51,50 +51,63 @@ export function DealCell({
   onOpen: () => void;
   now: number;
   verdict?: Verdict | null;
-  exiting?: boolean;
+  justPassed?: boolean;
 }) {
   const [hover, setHover] = useState(false);
   const [pressed, setPressed] = useState(false);
 
-  /* Fold this cell away once it has been passed over.
-     Two things make this work, and both were learned the hard way:
-
-     The CHILD animates, not the cell. .lr-cell is a grid item, so its height
-     comes from the grid row (measured: row 207.703px, item stretched to fit)
-     and setting height on it is simply ignored. The child is an ordinary
-     block and animates freely; .lr-exiting clips the overflow and spans the
-     cell across every column so the row can follow the content down.
-
-     It is driven with element.animate() rather than a CSS transition or
-     keyframe. A transition needs a start state painted on a previous render,
-     and a keyframe restarts from 0% whenever a re-render reapplies the class;
-     an imperative animation starts once from a measured height and owns the
-     element until it finishes. */
-  const box = useRef<HTMLDivElement | null>(null);
-  useLayoutEffect(() => {
-    const inner = box.current?.firstElementChild as HTMLElement | undefined;
-    if (!exiting || !inner) return;
-    const from = inner.getBoundingClientRect().height;
-    const reduce = window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
-    const anim = inner.animate(
-      [
-        { height: `${from}px`, opacity: 1 },
-        { height: "0px", opacity: 0 },
-      ],
-      { duration: reduce ? 1 : 240, easing: "cubic-bezier(0.4, 0, 0.2, 1)", fill: "forwards" },
+  /* Passed: a thin full-width bar, left exactly where the deal already was.
+     .lr-passed spans every column so it owns its row and can be as short as
+     its contents — the earlier version shrank a cell inside a shared row,
+     which left a full-card hole beside it. Staying in place also means the
+     deal never appears to vanish. */
+  if (verdict === "reject") {
+    return (
+      <div className={"lr-cell lr-passed" + (justPassed ? " lr-just-passed" : "")}>
+        <div
+          role="button"
+          tabIndex={0}
+          className="lr-passed-row"
+          onClick={onOpen}
+          onKeyDown={(e) => (e.key === "Enter" || e.key === " ") && (e.preventDefault(), onOpen())}
+          title="Passed over — open it to change your mind"
+        >
+          <span
+            style={{
+              fontSize: 10,
+              fontWeight: 700,
+              letterSpacing: "0.09em",
+              textTransform: "uppercase",
+              flex: "none",
+            }}
+          >
+            Passed
+          </span>
+          <span
+            style={{
+              fontSize: 13,
+              flex: 1,
+              minWidth: 0,
+              overflow: "hidden",
+              textOverflow: "ellipsis",
+              whiteSpace: "nowrap",
+            }}
+          >
+            {deal.company}
+          </span>
+          <span style={{ fontSize: 12, fontVariantNumeric: "tabular-nums", flex: "none" }}>
+            {amountLabel(deal)}
+          </span>
+        </div>
+      </div>
     );
-    return () => anim.cancel();
-  }, [exiting]);
+  }
 
   const prov = provenanceOf(deal);
   const people = peopleLabel(deal.individuals);
 
   return (
-    <div
-      ref={box}
-      className={"lr-cell" + (exiting ? " lr-exiting" : "")}
-      aria-hidden={exiting || undefined}
-    >
+    <div className="lr-cell">
       <div
         role="button"
         tabIndex={0}

@@ -130,53 +130,21 @@
  * column open while it animates.
  */
 /*
- * The collapse is driven from JS with the Web Animations API — see
- * DealCell's useLayoutEffect. There is no CSS transition or keyframe here on
- * purpose.
+ * A passed deal stays exactly where it is and becomes a thin full-width bar.
  *
- * Two CSS-only attempts failed the same way. max-height needed a concrete
- * start value, so it wanted a paint-then-change across two renders;
- * grid-template-rows animates from auto but still needed the second class.
- * Both left the card at full height and then blinked out, because the second
- * render never arrived in the frame it was needed. A keyframe animation
- * removed the two-render problem and still froze, since any re-render that
- * reapplies the class restarts it from 0%.
+ * grid-column: 1 / -1 is what makes this work. .lr-grid is
+ * repeat(auto-fill, minmax(304px, 1fr)) and a grid row sizes to its tallest
+ * cell, so a merely shorter cell left a full-card hole beside its neighbour.
+ * Spanning every column gives the passed card its own row, which is then free
+ * to be as short as its contents — no hole, and the deal never moves, so it
+ * cannot get lost.
  *
- * element.animate() is immune to all of that: it is started once, from a
- * measured pixel height, and it owns the element until it finishes.
+ * The height transition works here for the same reason: the row follows this
+ * one cell rather than a taller sibling.
  */
-.lr-cell.lr-exiting {
-  overflow: hidden;
-  /* Its own full-width row while it folds, so no taller neighbour holds the
-     row open and no column is left half-empty mid-animation. */
+.lr-cell.lr-passed {
   grid-column: 1 / -1;
-  align-self: start;
-  border-bottom-width: 0;
-}
-
-.lr-cell.lr-exiting > * {
   overflow: hidden;
-}
-
-/* The passed strip: dense rows, one line each, no card chrome. */
-.lr-passed {
-  margin-top: 26px;
-  padding-top: 13px;
-  border-top: 2px solid var(--lr-line);
-}
-
-.lr-passed-body {
-  display: grid;
-  grid-template-rows: 0fr;
-  transition: grid-template-rows 260ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.lr-passed-body > div {
-  overflow: hidden;
-}
-
-.lr-passed[data-open="true"] .lr-passed-body {
-  grid-template-rows: 1fr;
 }
 
 .lr-passed-row {
@@ -184,9 +152,8 @@
   align-items: baseline;
   gap: 10px;
   width: 100%;
-  padding: 8px 2px;
+  padding: 10px 16px;
   border: 0;
-  border-bottom: 1px solid var(--lr-line-soft);
   background: transparent;
   cursor: pointer;
   text-align: left;
@@ -200,9 +167,26 @@
   color: var(--lr-muted);
 }
 
+/* Fold: the card's own height carries it from full card to one line. The
+   grid row follows because the cell owns the row outright. */
+@keyframes lr-fold {
+  from {
+    max-height: 340px;
+    opacity: 0.55;
+  }
+  to {
+    max-height: 46px;
+    opacity: 1;
+  }
+}
+
+.lr-cell.lr-passed.lr-just-passed {
+  animation: lr-fold 260ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 @media (prefers-reduced-motion: reduce) {
-  .lr-passed-body {
-    transition: none;
+  .lr-cell.lr-passed.lr-just-passed {
+    animation-duration: 1ms;
   }
 }
 
