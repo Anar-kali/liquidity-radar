@@ -1,6 +1,35 @@
 {
- "dealCount": 668,
+ "dealCount": 669,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Quality Enviro Engineers",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-24T10:16:05.924776+00:00",
+   "dealType": "unknown",
+   "enrichmentState": null,
+   "id": 994,
+   "individuals": [
+    "Ashwani Srivastava",
+    "Neha Srivastava",
+    "Rajiv Kumar",
+    "Devendra Singh",
+    "Amit Kumar Gupta",
+    "Puneet Singh Marwah"
+   ],
+   "listed": false,
+   "oneLine": "Quality Enviro Engineers plans an SME IPO.",
+   "primaryOutlet": "UnlistedZone",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-24T10:16:20.028833+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -20846,6 +20875,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-24T10:01:18.071609+00:00",
- "totalDeals": 668
+ "generatedAt": "2026-09-24T10:16:20.028833+00:00",
+ "totalDeals": 669
 }
