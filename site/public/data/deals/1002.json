@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 513.0,
+ "amountRaw": "₹513 Cr",
+ "buyer": "domestic mutual funds and insurance companies",
+ "company": "BlueStone",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-24T16:31:58.191150+00:00",
+ "dealType": "block deal",
+ "enrichmentState": null,
+ "id": 1002,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Accel and 360 ONE offloaded BlueStone shares via block deals worth Rs 513 cr.",
+ "primaryUrl": "https://inc42.com/buzz/accel-360-one-offload-bluestone-shares-via-%e2%82%b9513-cr-block-deals/",
+ "seller": "Accel and 360 ONE",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-24T16:31:58.192454+00:00",
+   "outlet": "Inc42",
+   "resolvable": true,
+   "title": "Accel, 360 ONE Offload BlueStone Shares Via ₹513 Cr Block Deals",
+   "url": "https://inc42.com/buzz/accel-360-one-offload-bluestone-shares-via-%e2%82%b9513-cr-block-deals/"
+  }
+ ],
+ "synopsis": "Institutional investors Accel and 360 ONE offloaded a cumulative 61.98 lakh shares of omnichannel jewellery retailer BlueStone through multiple bulk and block deals on the BSE. Accel India III (Mauritius) sold 28 lakh shares for Rs 231.7 crore, while four funds of 360 ONE sold nearly 34 lakh shares combined for Rs 281.3 crore, totaling a combined deal value of Rs 513 crore. The transactions were executed at Rs 827.60 per share, representing approximately 4 percent of BlueStone's equity. The shares were acquired by buyers including Mirae Asset Mutual Fund, Bajaj Life Insurance, SBI Life Insurance, Nippon India Mutual Fund, Kuwait Investment Authority, Goldman Sachs, and Citigroup Global Markets Singapore. This marks the second time these investors have offloaded stakes in BlueStone this year.",
+ "ticker": "BLUESTONE.NS",
+ "updatedAt": "2026-09-24T16:32:53.187667+00:00"
+}

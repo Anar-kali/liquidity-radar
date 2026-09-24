@@ -1,6 +1,28 @@
 {
- "dealCount": 676,
+ "dealCount": 677,
  "deals": [
+  {
+   "amountCr": 513.0,
+   "amountRaw": "₹513 Cr",
+   "company": "BlueStone",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-24T16:31:58.191150+00:00",
+   "dealType": "block deal",
+   "enrichmentState": null,
+   "id": 1002,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Accel and 360 ONE offloaded BlueStone shares via block deals worth Rs 513 cr.",
+   "primaryOutlet": "Inc42",
+   "seller": "Accel and 360 ONE",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "BLUESTONE.NS",
+   "updatedAt": "2026-09-24T16:32:53.187667+00:00",
+   "updates": []
+  },
   {
    "amountCr": 326.0,
    "amountRaw": "Rs 326 crore",
@@ -21067,6 +21089,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-24T15:48:24.531324+00:00",
- "totalDeals": 676
+ "generatedAt": "2026-09-24T16:32:53.187667+00:00",
+ "totalDeals": 677
 }
