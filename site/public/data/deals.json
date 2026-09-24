@@ -379,10 +379,15 @@
    "seller": "Promoter",
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-09-23T13:16:33.730905+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-09-24T07:16:00.689891+00:00",
+     "title": "Lord’s Mark Industries Promoter Proposes Reinvestment of Share-Sale Proceeds in Medical Device Unit"
+    }
+   ]
   },
   {
    "amountCr": 168.0,
