@@ -1,6 +1,28 @@
 {
- "dealCount": 665,
+ "dealCount": 666,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Sammaan Capital",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-24T05:01:10.657918+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": "failed",
+   "id": 991,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Avenir Investment acquires control of Sammaan Capital",
+   "primaryOutlet": "scanx.trade",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "mcap_plausible",
+   "sourceCount": 1,
+   "ticker": "SAMMAANCAP.NS",
+   "updatedAt": "2026-09-24T05:01:10.657918+00:00",
+   "updates": []
+  },
   {
    "amountCr": 300.0,
    "amountRaw": "Rs 300 crore",
@@ -20743,6 +20765,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-24T04:46:02.298277+00:00",
- "totalDeals": 665
+ "generatedAt": "2026-09-24T05:01:10.657918+00:00",
+ "totalDeals": 666
 }

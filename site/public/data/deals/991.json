@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "Avenir Investment",
+ "company": "Sammaan Capital",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-24T05:01:10.657918+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": "failed",
+ "id": 991,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Avenir Investment acquires control of Sammaan Capital",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQYi1kdGY4ZWs1YUtxMEs5cGhoNjRwanlsU0U2WkVLaTlnYVc3YTF6VVM5NWlWd21CY081d0ptZHFhc3pWbzVkWktMWUdlUGQ1cmFDai1iclBjVzdMY2cyWjRoa1VHVWU0T3FtZFBGZDlKdkZ4WFlobzhZc2ZUVVRKbk9Ld1pyaG15SEc5ODg0ekpUbDZiZUpyZ1VfMUJ6c0g0NHpBY2FwUEQ2Rm05cnM2X2NOcnZzZU1IdWxqS0FhTjN2RDVrWFRDb1RhV2J0SW43bTZZZDgwYnJHQTN1a2FpaU5kTmZadw?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "mcap_plausible",
+ "sources": [
+  {
+   "attachedAt": "2026-09-24T05:01:10.660200+00:00",
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "Avenir Investment acquires control of Sammaan Capital",
+   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQYi1kdGY4ZWs1YUtxMEs5cGhoNjRwanlsU0U2WkVLaTlnYVc3YTF6VVM5NWlWd21CY081d0ptZHFhc3pWbzVkWktMWUdlUGQ1cmFDai1iclBjVzdMY2cyWjRoa1VHVWU0T3FtZFBGZDlKdkZ4WFlobzhZc2ZUVVRKbk9Ld1pyaG15SEc5ODg0ekpUbDZiZUpyZ1VfMUJ6c0g0NHpBY2FwUEQ2Rm05cnM2X2NOcnZzZU1IdWxqS0FhTjN2RDVrWFRDb1RhV2J0SW43bTZZZDgwYnJHQTN1a2FpaU5kTmZadw?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": "SAMMAANCAP.NS",
+ "updatedAt": "2026-09-24T05:01:10.657918+00:00"
+}
