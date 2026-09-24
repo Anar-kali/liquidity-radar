@@ -1,0 +1,34 @@
+{
+ "advisers": [],
+ "amountCr": 357.0,
+ "amountRaw": "₹357 Crore",
+ "buyer": "SBI Mutual Fund and Abu Dhabi Investment Authority",
+ "company": "ABD",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-24T04:01:14.252395+00:00",
+ "dealType": "promoter sale",
+ "enrichmentState": null,
+ "id": 989,
+ "individuals": [
+  "Bina Kishore Chhabria"
+ ],
+ "listed": false,
+ "oneLine": "ABD promoter sells a 1.96% stake for ₹357 crore, receiving a cash payout.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNaVNVc3lfaUJsY0dra242MkJiS2lVSEs5UVhza1ZBdlBvOTY3azdwUV8xcEhzQzRnb0NyQnJfSmdMQ1VTazh2MVQyM1JMd1FKeGpXd1A5RlBXRjY1dVpsSVBoMEFNblNmdXQ0TFA2R0pBdEh6YXgwaWVvbUtaczFPUTdRNnFUWUVoVVFhZkxwMkd1ZGpqWHludThYclpON1U?oc=5",
+ "seller": "ABD Promoter",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-24T04:01:14.253757+00:00",
+   "outlet": "HDFC Sky",
+   "resolvable": false,
+   "title": "ABD Promoter Sells 1.96% Stake for ₹357 Crore",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNaVNVc3lfaUJsY0dra242MkJiS2lVSEs5UVhza1ZBdlBvOTY3azdwUV8xcEhzQzRnb0NyQnJfSmdMQ1VTazh2MVQyM1JMd1FKeGpXd1A5RlBXRjY1dVpsSVBoMEFNblNmdXQ0TFA2R0pBdEh6YXgwaWVvbUtaczFPUTdRNnFUWUVoVVFhZkxwMkd1ZGpqWHludThYclpON1U?oc=5"
+  }
+ ],
+ "synopsis": "Bina Kishore Chhabria, a promoter of Allied Blenders and Distillers, divested a 1.96 per cent stake in the company through an open market transaction. Chhabria sold 55 lakh shares at an average price of Rs 650.17 apiece, bringing the total deal value to Rs 357.59 crore. The transaction was conducted to comply with minimum public shareholding norms. Following the sale, Chhabria's holding dropped from 58.20 per cent to 56.24 per cent, while the combined promoter and promoter group shareholding decreased to 78.95 per cent. SBI Mutual Fund and the Abu Dhabi Investment Authority participated as buyers in the transaction, purchasing portions of the shares.",
+ "ticker": null,
+ "updatedAt": "2026-09-24T04:01:29.666504+00:00"
+}

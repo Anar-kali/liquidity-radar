@@ -1,6 +1,30 @@
 {
- "dealCount": 663,
+ "dealCount": 664,
  "deals": [
+  {
+   "amountCr": 357.0,
+   "amountRaw": "₹357 Crore",
+   "company": "ABD",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-24T04:01:14.252395+00:00",
+   "dealType": "promoter sale",
+   "enrichmentState": null,
+   "id": 989,
+   "individuals": [
+    "Bina Kishore Chhabria"
+   ],
+   "listed": false,
+   "oneLine": "ABD promoter sells a 1.96% stake for ₹357 crore, receiving a cash payout.",
+   "primaryOutlet": "HDFC Sky",
+   "seller": "ABD Promoter",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-24T04:01:29.666504+00:00",
+   "updates": []
+  },
   {
    "amountCr": 2000.0,
    "amountRaw": "Rs 2,000-2,500 crore",
@@ -20693,6 +20717,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-24T01:31:31.432175+00:00",
- "totalDeals": 663
+ "generatedAt": "2026-09-24T04:01:29.666504+00:00",
+ "totalDeals": 664
 }
