@@ -42,7 +42,6 @@ export function DealCell({
   onOpen,
   now,
   verdict = null,
-  justPassed = false,
 }: {
   deal: FeedDeal;
   updates: CellUpdate[];
@@ -51,10 +50,15 @@ export function DealCell({
   onOpen: () => void;
   now: number;
   verdict?: Verdict | null;
-  justPassed?: boolean;
 }) {
   const [hover, setHover] = useState(false);
   const [pressed, setPressed] = useState(false);
+
+  /* Both shapes of this cell carry the same view-transition-name, which is
+     what lets the browser tween one into the other when a verdict lands:
+     the card squashes into the bar while its neighbours slide into the row
+     it gave up. Without the name the change is a cut. */
+  const morph = { viewTransitionName: `lr-deal-${deal.id}` } as React.CSSProperties;
 
   /* Passed: a thin full-width bar, left exactly where the deal already was.
      .lr-passed spans every column so it owns its row and can be as short as
@@ -63,7 +67,7 @@ export function DealCell({
      deal never appears to vanish. */
   if (verdict === "reject") {
     return (
-      <div className={"lr-cell lr-passed" + (justPassed ? " lr-just-passed" : "")}>
+      <div className="lr-cell lr-passed" style={morph}>
         <div
           role="button"
           tabIndex={0}
@@ -107,7 +111,7 @@ export function DealCell({
   const people = peopleLabel(deal.individuals);
 
   return (
-    <div className="lr-cell">
+    <div className="lr-cell" style={morph}>
       <div
         role="button"
         tabIndex={0}

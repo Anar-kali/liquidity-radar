@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
+import { flushSync } from "react-dom";
 import { data } from "./data/adapter";
 import type { Deal, Feed, FeedDeal, PatternAlert } from "./data/types";
 import {
@@ -49,6 +50,31 @@ const microLabel: React.CSSProperties = {
   color: "var(--lr-faint)",
 };
 
+/**
+ * Apply a state change as one animated layout change.
+ *
+ * Passing a deal is not a colour change: the card collapses into a bar and
+ * the cards beside it repack into the row it gave up. Animating that by hand
+ * means measuring every cell before and after and driving each one — the
+ * browser already holds both layouts, so let it tween them.
+ *
+ * flushSync is not optional. startViewTransition snapshots the DOM the moment
+ * its callback returns, and React would otherwise still be holding the update
+ * for a later render — the transition would capture no change at all.
+ *
+ * Where the API is missing the change simply lands, unanimated.
+ */
+function withTransition(apply: () => void) {
+  const doc = document as Document & {
+    startViewTransition?: (cb: () => void) => unknown;
+  };
+  if (typeof doc.startViewTransition !== "function") {
+    apply();
+    return;
+  }
+  doc.startViewTransition(() => flushSync(apply));
+}
+
 export default function App({
   defaultTheme = "light",
   heroCard = true,
@@ -81,29 +107,38 @@ export default function App({
      that costs across devices. */
   const [review, setReview] = useState<ReviewMap>(() => loadReview());
   const [reviewFilter, setReviewFilter] = useState<ReviewFilter>("all");
-  /* A deal passed while its panel is open, waiting to animate out. The exit
-     is deferred to panel CLOSE on purpose: run it at the moment of the click
-     and the card collapses behind the open sheet, where nobody can see it.
-     Closing on top of a card that then folds away is what makes the action
-     feel like it did something. */
-  /* Which deal was passed just now. Only that one folds — without this every
-     already-passed card would replay the animation on each render, and on a
-     reload the whole feed would twitch. */
-  const [justPassed, setJustPassed] = useState<number | null>(null);
+  /* A verdict reached in the panel, held back until the panel is out of the
+     way. Applying it on the click would fold the card behind the open sheet,
+     where nobody can see it happen — the deal would simply already be a bar
+     by the time the panel closed. Saved to storage at once all the same, so
+     a reload mid-panel loses nothing. */
+  const [pending, setPending] = useState<{ id: number; v: Verdict; next: ReviewMap } | null>(null);
 
-  const markVerdict = useCallback((id: number, v: Verdict) => {
-    setReview((prev) => {
-      const next = setVerdict(prev, id, v);
+  const markVerdict = useCallback(
+    (id: number, v: Verdict) => {
+      const next = setVerdict(review, id, v);
       saveReview(next);
-      if (next[id] === "reject") {
-        setJustPassed(id);
-        window.setTimeout(() => setJustPassed((c) => (c === id ? null : c)), 400);
-      }
-      return next;
-    });
-  }, []);
+      setPending({ id, v, next });
+    },
+    [review],
+  );
 
   const [openId, setOpenId] = useState<number | null>(null);
+
+  /* Once the panel is gone, land the verdict as one motion. This runs in the
+     commit after the panel unmounts, so what the transition captures is the
+     feed on its own — startViewTransition reads the DOM as it stands now, not
+     the last frame the browser painted, which is why no extra frame is needed
+     here. (An earlier version waited on requestAnimationFrame and simply
+     never fired in a background tab.) */
+  useEffect(() => {
+    if (!pending || openId === pending.id) return;
+    withTransition(() => {
+      setReview(pending.next);
+      setPending(null);
+    });
+  }, [pending, openId]);
+
   const [openDeal, setOpenDeal] = useState<Deal | null>(null);
   const [patterns, setPatterns] = useState<PatternAlert[]>([]);
   const [openPatternId, setOpenPatternId] = useState<number | null>(null);
@@ -390,7 +425,6 @@ export default function App({
     onToggle: () => setExpanded({ ...expanded, [d.id]: !expanded[d.id] }),
     onOpen: () => openPanel(d.id),
     verdict: review[d.id] ?? null,
-    justPassed: justPassed === d.id,
   });
 
   return (
@@ -1079,7 +1113,7 @@ export default function App({
           deal={openDeal}
           onClose={closePanel}
           now={now}
-          verdict={review[openDeal.id] ?? null}
+          verdict={(pending?.id === openDeal.id ? pending.v : review[openDeal.id]) ?? null}
           onVerdict={(v) => markVerdict(openDeal.id, v)}
         />
       )}

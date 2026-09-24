@@ -119,32 +119,22 @@
 }
 
 /*
- * Passing a deal takes it OUT of the grid rather than shrinking it in place.
- *
- * .lr-grid is repeat(auto-fill, minmax(304px, 1fr)) and a grid row sizes to
- * its tallest item, so a cell that merely got shorter still reserved a
- * full-card hole beside its neighbours. The cell collapses to nothing and is
- * then removed; the deal reappears in the "Passed over" strip at the foot.
- *
- * grid-column: 1 / -1 during the exit stops a collapsing cell from holding a
- * column open while it animates.
- */
-/*
  * A passed deal stays exactly where it is and becomes a thin full-width bar.
  *
- * grid-column: 1 / -1 is what makes this work. .lr-grid is
+ * grid-column: 1 / -1 is what makes the bar possible. .lr-grid is
  * repeat(auto-fill, minmax(304px, 1fr)) and a grid row sizes to its tallest
  * cell, so a merely shorter cell left a full-card hole beside its neighbour.
- * Spanning every column gives the passed card its own row, which is then free
- * to be as short as its contents — no hole, and the deal never moves, so it
- * cannot get lost.
+ * Spanning every column gives the passed card a row of its own, free to be as
+ * short as its contents.
  *
- * The height transition works here for the same reason: the row follows this
- * one cell rather than a taller sibling.
+ * Spanning has a cost, paid for by grid-auto-flow: dense on .lr-grid: a bar
+ * ends the row it lands in, which used to strand the one or two cards sitting
+ * beside it in a ragged half-row. Dense packing backfills that gap with the
+ * cards that follow, so every row above a bar is full and the bars read as
+ * rules drawn between complete rows rather than as breaks in the grid.
  */
 .lr-cell.lr-passed {
   grid-column: 1 / -1;
-  overflow: hidden;
 }
 
 .lr-passed-row {
@@ -167,25 +157,36 @@
   color: var(--lr-muted);
 }
 
-/* Fold: the card's own height carries it from full card to one line. The
-   grid row follows because the cell owns the row outright. */
-@keyframes lr-fold {
-  from {
-    max-height: 340px;
-    opacity: 0.55;
-  }
-  to {
-    max-height: 46px;
-    opacity: 1;
-  }
+/* ── the fold ─────────────────────────────────────────────────────────── */
+/*
+ * Passing a deal is a layout change, so it is animated as one: every cell
+ * carries a view-transition-name and the browser tweens the whole grid from
+ * the old arrangement to the new. The card squashing into its bar and the
+ * neighbours sliding across to close the row are the same motion.
+ *
+ * An earlier attempt keyframed max-height on the cell and appeared to do
+ * nothing: React had already swapped in the one-line bar, so there was never
+ * anything tall to clip. Animating the layout rather than the box is what
+ * makes the difference.
+ *
+ * The group carries the movement, so it runs longest; the cross-fade between
+ * the two contents is shorter and lands first, which keeps the bar readable
+ * while the row is still settling.
+ */
+::view-transition-group(*) {
+  animation-duration: 340ms;
+  animation-timing-function: cubic-bezier(0.32, 0.72, 0, 1);
 }
 
-.lr-cell.lr-passed.lr-just-passed {
-  animation: lr-fold 260ms cubic-bezier(0.4, 0, 0.2, 1);
+::view-transition-old(*),
+::view-transition-new(*) {
+  animation-duration: 200ms;
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .lr-cell.lr-passed.lr-just-passed {
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*) {
     animation-duration: 1ms;
   }
 }
@@ -299,6 +300,9 @@
   .lr-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(304px, 1fr));
+    /* See .lr-cell.lr-passed — dense is what stops a full-width passed bar
+       from stranding its former row-mates in a half-empty row. */
+    grid-auto-flow: row dense;
     border-left: 1px solid var(--lr-line-soft);
   }
 
