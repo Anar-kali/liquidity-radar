@@ -1,6 +1,28 @@
 {
- "dealCount": 664,
+ "dealCount": 665,
  "deals": [
+  {
+   "amountCr": 300.0,
+   "amountRaw": "Rs 300 crore",
+   "company": "Koolking Industries",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-24T04:45:58.336754+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 990,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Koolking Industries files IPO papers to raise Rs 300 crore.",
+   "primaryOutlet": "Moneycontrol.com",
+   "seller": "promoters",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-24T04:46:02.298277+00:00",
+   "updates": []
+  },
   {
    "amountCr": 357.0,
    "amountRaw": "₹357 Crore",
@@ -136,13 +158,17 @@
    "seller": "WELSPUN GROUP MASTER TRUST",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": "WELSPUNLIV.NS",
    "updatedAt": "2026-09-23T18:22:16.175306+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-23T18:22:16.174419+00:00",
      "title": "Welspun Living Limited: block deal"
+    },
+    {
+     "attachedAt": "2026-09-24T04:45:58.322842+00:00",
+     "title": "Welspun Living promoter group sells 2.59% stake via block deal"
     }
    ]
   },
@@ -20717,6 +20743,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-24T04:01:29.666504+00:00",
- "totalDeals": 664
+ "generatedAt": "2026-09-24T04:46:02.298277+00:00",
+ "totalDeals": 665
 }
