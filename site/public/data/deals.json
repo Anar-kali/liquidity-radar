@@ -1,6 +1,28 @@
 {
- "dealCount": 670,
+ "dealCount": 671,
  "deals": [
+  {
+   "amountCr": 218.0,
+   "amountRaw": "₹218 crore",
+   "company": "SRIT India",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-24T12:02:12.836026+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 996,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "SRIT India plans to raise ₹218 crore via an IPO.",
+   "primaryOutlet": "TradingView",
+   "seller": "SRIT India",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-24T12:02:16.975989+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -20905,6 +20927,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-24T11:31:07.410385+00:00",
- "totalDeals": 670
+ "generatedAt": "2026-09-24T12:02:16.975989+00:00",
+ "totalDeals": 671
 }

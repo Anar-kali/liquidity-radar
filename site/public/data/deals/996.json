@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 218.0,
+ "amountRaw": "₹218 crore",
+ "buyer": null,
+ "company": "SRIT India",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-24T12:02:12.836026+00:00",
+ "dealType": "IPO-OFS",
+ "enrichmentState": null,
+ "id": 996,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "SRIT India plans to raise ₹218 crore via an IPO.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNM0otRE1zR0o1ZGtzTlhucGctVk04UXB5WUVOVWExQnhhX3JNa0g0R2xGUVZ4cGlXT2ExRW52QTlfSFI2akUzOFM1MERRSW11cEZLRDV2RWhYb01DTkZhMEltOVBpTm1oWHpoN1ZUQ2FYN19CR2FIUVNyXzhodXhaUTBJbm0ya2MtQVEyWUNCTGJxaHFnLXpHbWRwT2t0U1VQeWdsT0tzVGlXenM?oc=5",
+ "seller": "SRIT India",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-24T12:02:12.838270+00:00",
+   "outlet": "TradingView",
+   "resolvable": false,
+   "title": "SRIT India to raise ₹218 crore via IPO on mainboard",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNM0otRE1zR0o1ZGtzTlhucGctVk04UXB5WUVOVWExQnhhX3JNa0g0R2xGUVZ4cGlXT2ExRW52QTlfSFI2akUzOFM1MERRSW11cEZLRDV2RWhYb01DTkZhMEltOVBpTm1oWHpoN1ZUQ2FYN19CR2FIUVNyXzhodXhaUTBJbm0ya2MtQVEyWUNCTGJxaHFnLXpHbWRwT2t0U1VQeWdsT0tzVGlXenM?oc=5"
+  }
+ ],
+ "synopsis": "SRIT India, an Information Technology and Information Technology-enabled services solutions company, plans to raise ₹218 crore through an initial public offering on the mainboard. The issue opens on Monday and is priced at ₹123 to ₹130 per equity share, with the company offering 1.68 crore equity shares. The net proceeds will fund capital expenditure for modernising existing product development, working capital requirements, inorganic growth, strategic initiatives, and general corporate purposes. Choice Capital Advisors acts as the book-running lead manager, while Kfin Technologies serves as the registrar.",
+ "ticker": null,
+ "updatedAt": "2026-09-24T12:02:16.975989+00:00"
+}
