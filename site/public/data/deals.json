@@ -384,13 +384,17 @@
    "seller": "Promoter",
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-09-23T13:16:33.730905+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-24T07:16:00.689891+00:00",
      "title": "Lord’s Mark Industries Promoter Proposes Reinvestment of Share-Sale Proceeds in Medical Device Unit"
+    },
+    {
+     "attachedAt": "2026-09-24T09:15:57.976701+00:00",
+     "title": "Lord’s Mark Industries Promoter Plans to Reinvest Share-Sale Proceeds in Medical Device Unit"
     }
    ]
   },
