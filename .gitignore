@@ -30,3 +30,7 @@ eval_disagreements.json
 
 # eval_classifier --dump output, regenerate by re-running the eval
 eval_stage2_valid.json
+
+# opencode's local agent setup, QA scripts and task ledger. Machine-local
+# tooling rather than project source — another clone gets its own.
+.opencode/
