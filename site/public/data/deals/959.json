@@ -2,7 +2,7 @@
  "advisers": [],
  "amountCr": 356.6,
  "amountRaw": "1.97% x mcap ~Rs 18103cr = ~Rs 357cr",
- "buyer": null,
+ "buyer": "Abu Dhabi Investment Authority and SBI Mutual Fund",
  "company": "Allied Blenders",
  "confidence": "medium",
  "confirmed": false,
@@ -47,9 +47,16 @@
    "resolvable": false,
    "title": "Allied Blenders Promoter Sells 2% Stake for Rs 357 Cr",
    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMng1Vi1Jdzc4TDBkbk1wUzNpc3FsRDk1STlEc2JMUldubXQ2b2JBcUR5ZUpNWGlWN2xHc3hoNndybGRwQUVzeFIzaW5RbDVJTHZUdVpEZzBOUFEtbzhPaWdORHVWMm1PTmNCOHRVeUprSnJEdmgwMlZqV29OSUloWmNWMWVhYktkYzZGdDZ6aUo5THozTGZYNmpPX0xtcktnNlRvTFNmNNIBrAFBVV95cUxPcXQ5MEhoUzlVZEdvRllkNmFoOWN3eEloMjNhSExfT01FS2V4VFltdDg4TzV6VU5TTWtNYnhNM2drWGdYWlkyMXhjWXdSbW5CM2FFeXZEQnRwM1RuN0pTNW1OYUljdExfX29WS2JLY0lEdnJScWFBTVZGWFEyY3ljLUl2ZElkRFVBcXp3bHlLNGh4SVBUdVR2NHZlNi1LMEgyOE9MWXRkTkNaOUts?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-24T08:31:11.410347+00:00",
+   "outlet": "Google News",
+   "resolvable": true,
+   "title": "Allied Blenders stock surges 6% as promoter offloads 55 lakh shares to meet MPS norms",
+   "url": "https://www.thehindubusinessline.com/markets/stock-markets/allied-blenders-stock-surges-6-as-promoter-offloads-55-lakh-shares-to-meet-mps-norms/article71503326.ece"
   }
  ],
  "synopsis": null,
  "ticker": "ABDL.NS",
- "updatedAt": "2026-09-22T12:02:09.589637+00:00"
+ "updatedAt": "2026-09-24T08:31:11.411618+00:00"
 }
