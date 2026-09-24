@@ -1,0 +1,34 @@
+{
+ "advisers": [],
+ "amountCr": 1500.0,
+ "amountRaw": "Rs 1,500 crore",
+ "buyer": "Public",
+ "company": "WhiteOak Capital",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-24T01:31:13.335545+00:00",
+ "dealType": "IPO-OFS",
+ "enrichmentState": null,
+ "id": 987,
+ "individuals": [
+  "Prashant Khemka"
+ ],
+ "listed": false,
+ "oneLine": "WhiteOak Capital plans D-Street foray with a Rs 1,500 crore IPO.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNNnFWeWF3aTVJX3RGYXI1OHR6S3NMNTAwVjVKTFB2VWF2bE1URkdWc1MwS1FuOXdrdjNwUGpnRnM1LU9YaVZzZ295S3F0TTNFODNpUEh4VFE4MnRTWEtsSjJsdzZlY1R4ZW1RTm5ENnVja3RjNmZaSFRmZ1FJTjB3cDNDbVN6MzZranVpUS1lUU1SRHFoOVlpa29IbEFiOVFfVWNGMHlGSVRUaGZaM3N2d3E3dGxyellrU0I2WmZMTHVNQU9mNm5LWGlaSVXSAdIBQVVfeXFMTnRXc3pja2M0Uk12NlJNNTFHUFJLbEFpcjc2UDROZzJpVHVfbngwcGhTX1I1RlBHdUJNaHBwUWJiRTBHd3ZwakYxd0VzanVYMEYyOTIwYzlmNnJuZlNWM09SVmVnNmJJZ1RXUnBnZ0F1Y3VDQmw4a2lQZ3NhYUhEc0R3V0lRcmFlTEllSm5WSWVzV1FXRHdPa3hLSXcyWG53YmNBbDlrQ3N3NUQwQkZJaHB5cG1aQkg2QURJbFBvejlLVWtPdS1jTERLTnE4ZjRsRkVR?oc=5",
+ "seller": "WhiteOak Capital",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-24T01:31:13.337072+00:00",
+   "outlet": "The Economic Times",
+   "resolvable": false,
+   "title": "WhiteOak Capital plans D-Street foray with Rs 1,500 crore IPO",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNNnFWeWF3aTVJX3RGYXI1OHR6S3NMNTAwVjVKTFB2VWF2bE1URkdWc1MwS1FuOXdrdjNwUGpnRnM1LU9YaVZzZ295S3F0TTNFODNpUEh4VFE4MnRTWEtsSjJsdzZlY1R4ZW1RTm5ENnVja3RjNmZaSFRmZ1FJTjB3cDNDbVN6MzZranVpUS1lUU1SRHFoOVlpa29IbEFiOVFfVWNGMHlGSVRUaGZaM3N2d3E3dGxyellrU0I2WmZMTHVNQU9mNm5LWGlaSVXSAdIBQVVfeXFMTnRXc3pja2M0Uk12NlJNNTFHUFJLbEFpcjc2UDROZzJpVHVfbngwcGhTX1I1RlBHdUJNaHBwUWJiRTBHd3ZwakYxd0VzanVYMEYyOTIwYzlmNnJuZlNWM09SVmVnNmJJZ1RXUnBnZ0F1Y3VDQmw4a2lQZ3NhYUhEc0R3V0lRcmFlTEllSm5WSWVzV1FXRHdPa3hLSXcyWG53YmNBbDlrQ3N3NUQwQkZJaHB5cG1aQkg2QURJbFBvejlLVWtPdS1jTERLTnE4ZjRsRkVR?oc=5"
+  }
+ ],
+ "synopsis": "WhiteOak Capital is preparing for an initial public offering to raise up to Rs 1,500 crore, with a targeted valuation of Rs 9,000 crore. Founded in 2017 by former Goldman Sachs executive Prashant Khemka, the firm manages around $13 billion in assets. Khemka confirmed the public listing plan to attract and retain talent and perpetuate its position as a multinational asset manager, though no definite timelines have been disclosed. Ministry of corporate affairs records indicate the company passed board resolutions to increase its authorised share capital to Rs 1,275 crore from Rs 275 crore, and an employee stock option pool was previously created. The move follows similar steps by alternative investment managers such as Gaja Capital and Abakkus Asset Manager tapping public markets.",
+ "ticker": null,
+ "updatedAt": "2026-09-24T01:31:27.344877+00:00"
+}

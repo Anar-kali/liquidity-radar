@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 2000.0,
+ "amountRaw": "Rs 2,000-2,500 crore",
+ "buyer": "public",
+ "company": "AssetGro Fintech",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-24T01:31:13.350409+00:00",
+ "dealType": "IPO-OFS",
+ "enrichmentState": null,
+ "id": 988,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "AssetGro Fintech plans an IPO filing with Sebi targeting Rs 2,000-2,500 crore.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQa1kzZkIyR2VpUVR4dXZ0VXk3SUhQQ3ZyOU9EVzJCNDJvRDl3czgwMHhjMzZ1Skt3YUlwbnJpQk5NaF9iN1M2Z1VZdGw4WlFJZXlvcy1UNDJnVnNzVVU4cEQ3cUduckNWTjhsM2JtaWhuSk82VXNuUjZUcjZrV2VwRDBlTDQzeFlROTlvd2tWNWdoenZtZU83N3gwbjdzdTdhdVVaOG4xZnNGRHdXSkNRM0tLNVEtZXBRYS14WFhZQkt0WW16WXkxSEpsZWw5X03SAdQBQVVfeXFMT1lEcmMwQW9VWDBZUFlkcW5nN0JzaERVdUMzTWc3VGQ2MXVBNHJmeDVtRC1QeHZUN2xSZld2NlZRX1RRTkR3YkZIYW9JR0NHU1lveHpGV2FISjR4dFBTWmlyblB3Q3h6LTlBSFJLbDZyOXAwU3R5a0hIUFktWDhIdloxRnJxRVBaOG82aTdUN29IcWV1VUR5WTVRLTY5eUd4cF9PdC1ONXRzVEdmNmdCSkxGb3EyWVNuS3hnOGJ0cE9TRmdpaUVMSmVMZGVhUEpWNlhsQlc?oc=5",
+ "seller": "existing shareholders",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-24T01:31:13.352346+00:00",
+   "outlet": "The Economic Times",
+   "resolvable": false,
+   "title": "AssetGro Fintech plans Rs 2,000-2,500 crore IPO filing with Sebi",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQa1kzZkIyR2VpUVR4dXZ0VXk3SUhQQ3ZyOU9EVzJCNDJvRDl3czgwMHhjMzZ1Skt3YUlwbnJpQk5NaF9iN1M2Z1VZdGw4WlFJZXlvcy1UNDJnVnNzVVU4cEQ3cUduckNWTjhsM2JtaWhuSk82VXNuUjZUcjZrV2VwRDBlTDQzeFlROTlvd2tWNWdoenZtZU83N3gwbjdzdTdhdVVaOG4xZnNGRHdXSkNRM0tLNVEtZXBRYS14WFhZQkt0WW16WXkxSEpsZWw5X03SAdQBQVVfeXFMT1lEcmMwQW9VWDBZUFlkcW5nN0JzaERVdUMzTWc3VGQ2MXVBNHJmeDVtRC1QeHZUN2xSZld2NlZRX1RRTkR3YkZIYW9JR0NHU1lveHpGV2FISjR4dFBTWmlyblB3Q3h6LTlBSFJLbDZyOXAwU3R5a0hIUFktWDhIdloxRnJxRVBaOG82aTdUN29IcWV1VUR5WTVRLTY5eUd4cF9PdC1ONXRzVEdmNmdCSkxGb3EyWVNuS3hnOGJ0cE9TRmdpaUVMSmVMZGVhUEpWNlhsQlc?oc=5"
+  }
+ ],
+ "synopsis": "AssetGro Fintech, operating the stock market research and advisory platform StockGro, is planning to file draft IPO papers with Sebi through the confidential route. The initial public offering is expected to raise between ₹2,000 and ₹2,500 crore, consisting of a fresh issue of approximately ₹800 crore and a remainder comprising an offer for sale by existing shareholders. The Bengaluru-based fintech startup could file the DRHP before the end of September. Emirates NBD Capital has been appointed as the book-running lead manager for the issue. Founded in 2020, StockGro offers stock analysis, strategy-building, and portfolio-tracking tools.",
+ "ticker": null,
+ "updatedAt": "2026-09-24T01:31:31.432175+00:00"
+}
