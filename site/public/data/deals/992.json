@@ -1,0 +1,34 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "JBCG Advisory",
+ "company": "Oscar Global",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-24T07:01:13.993187+00:00",
+ "dealType": "open offer",
+ "enrichmentState": null,
+ "id": 992,
+ "individuals": [
+  "Gopal Bhatter"
+ ],
+ "listed": false,
+ "oneLine": "JBCG Advisory announces an open offer following a control change in Oscar Global.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxONmk1QTdQMVBDRl9JRGxTeUYzTDk1MjU1cnB6ZzFWTTlEMC1zVmllYy1BU3JzaFFrUU5LMjJNanlEcnEydFI0RU5jaTdoWHFkQ3RVRGlacThFaVMxTzlzbXVYZHRHelBKVlJzZ0lHLTQ1Ums4SExLWnlVOUpxd3MtSkNHV08tNmVzTXBBdUx2VlE0dUh5RmhSWG9KQXI3bzFYSzJ0anlCSzdxMFdoMHA0SzVJTWRWMzk0QXJDR0hpVE9UUFVGZGg3Z2dGcnpEN2F1THFMYnNSc29JOU9SVF9wcFQtZjNFYnRoN2N3ZW16SlRTb0lt?oc=5",
+ "seller": "Gopal Bhatter and Gopal Bhatter HUF",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-24T07:01:13.994578+00:00",
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "Oscar Global: JBCG Advisory Announces Open Offer Following Control Change",
+   "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxONmk1QTdQMVBDRl9JRGxTeUYzTDk1MjU1cnB6ZzFWTTlEMC1zVmllYy1BU3JzaFFrUU5LMjJNanlEcnEydFI0RU5jaTdoWHFkQ3RVRGlacThFaVMxTzlzbXVYZHRHelBKVlJzZ0lHLTQ1Ums4SExLWnlVOUpxd3MtSkNHV08tNmVzTXBBdUx2VlE0dUh5RmhSWG9KQXI3bzFYSzJ0anlCSzdxMFdoMHA0SzVJTWRWMzk0QXJDR0hpVE9UUFVGZGg3Z2dGcnpEN2F1THFMYnNSc29JOU9SVF9wcFQtZjNFYnRoN2N3ZW16SlRTb0lt?oc=5"
+  }
+ ],
+ "synopsis": "JBCG Advisory Services Private Limited has announced an open offer for Oscar Global following a board-approved transaction involving a preferential allotment and a Share Purchase Agreement to acquire 14,46,904 shares from current promoters Gopal Bhatter and Gopal Bhatter HUF. The acquirer will gain a 70.50% stake in the company, triggering a mandatory open offer for public shareholders to tender up to 3.60% of the emerging equity at Rs 10 per share. The transaction results in a complete change in management and ownership structure, with existing promoters reclassifying as public shareholders upon completion while the company maintains its current stock market listing. The transaction is subject to the publication of a Detailed Public Statement scheduled for release on or before September 30, 2026.",
+ "ticker": null,
+ "updatedAt": "2026-09-24T07:01:18.328881+00:00"
+}

@@ -1,6 +1,30 @@
 {
- "dealCount": 666,
+ "dealCount": 667,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Oscar Global",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-24T07:01:13.993187+00:00",
+   "dealType": "open offer",
+   "enrichmentState": null,
+   "id": 992,
+   "individuals": [
+    "Gopal Bhatter"
+   ],
+   "listed": false,
+   "oneLine": "JBCG Advisory announces an open offer following a control change in Oscar Global.",
+   "primaryOutlet": "Whalesbook",
+   "seller": "Gopal Bhatter and Gopal Bhatter HUF",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-24T07:01:18.328881+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -20777,6 +20801,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-24T05:01:10.657918+00:00",
- "totalDeals": 666
+ "generatedAt": "2026-09-24T07:01:18.328881+00:00",
+ "totalDeals": 667
 }
