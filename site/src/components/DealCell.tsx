@@ -7,6 +7,7 @@
  */
 import { useState } from "react";
 import type { FeedDeal } from "../data/types";
+import type { Verdict } from "../data/review";
 import { amountLabel, amtStyle, peopleLabel, provenanceNote, provenanceOf, recencyDate, sourceLabel, timeLabel } from "../data/view";
 
 export interface CellUpdate {
@@ -40,6 +41,7 @@ export function DealCell({
   onToggle,
   onOpen,
   now,
+  verdict = null,
 }: {
   deal: FeedDeal;
   updates: CellUpdate[];
@@ -47,9 +49,77 @@ export function DealCell({
   onToggle: () => void;
   onOpen: () => void;
   now: number;
+  verdict?: Verdict | null;
 }) {
   const [hover, setHover] = useState(false);
   const [pressed, setPressed] = useState(false);
+
+  /*
+    A rejected deal collapses to one line rather than disappearing. Hiding it
+    would make the decision irreversible and leave a silent hole in the feed;
+    a single muted row says "read, passed over" and is still one click from
+    being reopened and un-rejected.
+  */
+  if (verdict === "reject") {
+    return (
+      <div className="lr-cell">
+        <div
+          role="button"
+          tabIndex={0}
+          onClick={onOpen}
+          onKeyDown={(e) => (e.key === "Enter" || e.key === " ") && (e.preventDefault(), onOpen())}
+          onMouseEnter={() => setHover(true)}
+          onMouseLeave={() => setHover(false)}
+          title="Passed over — open to change your mind"
+          style={{
+            display: "flex",
+            alignItems: "baseline",
+            gap: 10,
+            padding: "9px 16px",
+            cursor: "pointer",
+            background: hover ? "var(--lr-hover)" : "transparent",
+            transition: "background 120ms ease",
+          }}
+        >
+          <span
+            style={{
+              fontSize: 10.5,
+              fontWeight: 700,
+              letterSpacing: "0.07em",
+              textTransform: "uppercase",
+              color: "var(--lr-faint)",
+              flex: "none",
+            }}
+          >
+            Passed
+          </span>
+          <span
+            style={{
+              fontSize: 13,
+              color: "var(--lr-faint)",
+              overflow: "hidden",
+              textOverflow: "ellipsis",
+              whiteSpace: "nowrap",
+              minWidth: 0,
+              flex: 1,
+            }}
+          >
+            {deal.company}
+          </span>
+          <span
+            style={{
+              fontSize: 12,
+              color: "var(--lr-faint)",
+              fontVariantNumeric: "tabular-nums",
+              flex: "none",
+            }}
+          >
+            {amountLabel(deal)}
+          </span>
+        </div>
+      </div>
+    );
+  }
   const prov = provenanceOf(deal);
   const people = peopleLabel(deal.individuals);
 
@@ -72,7 +142,17 @@ export function DealCell({
         style={{
           padding: "17px 16px",
           cursor: "pointer",
-          background: pressed || hover ? "var(--lr-hover)" : "transparent",
+          // Shortlisted: an accent rail and an inset ground. The system marks
+          // emphasis with alignment and divider strength, not colour washes,
+          // so this borrows the vocabulary already in use rather than adding
+          // a badge or a new hue.
+          borderLeft: verdict === "shortlist" ? "3px solid var(--lr-accent)" : "3px solid transparent",
+          background:
+            pressed || hover
+              ? "var(--lr-hover)"
+              : verdict === "shortlist"
+                ? "var(--lr-inset)"
+                : "transparent",
           transform: pressed ? "scale(0.99)" : "scale(1)",
           transition: "background 120ms ease, transform 120ms ease",
         }}

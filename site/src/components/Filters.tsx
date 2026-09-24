@@ -5,6 +5,7 @@
  * screen.
  */
 import type { Band } from "../data/view";
+import type { ReviewFilter } from "../data/review";
 
 export type Conf = "all" | "high" | "medium";
 export type Listed = "all" | "listed" | "unlisted";
@@ -77,11 +78,50 @@ export interface FilterState {
   setConf: (c: Conf) => void;
   setListed: (l: Listed) => void;
   setOutlet: (o: string) => void;
+  reviewFilter: ReviewFilter;
+  setReviewFilter: (r: ReviewFilter) => void;
+  reviewCounts: { shortlist: number; reject: number; unreviewed: number };
 }
 
 export function FilterGroups({ s, rail }: { s: FilterState; rail?: boolean }) {
+  /* Review sits FIRST. Once a feed is being triaged, "what have I not looked
+     at yet" is asked more often than size or confidence, and it is the filter
+     that makes a second pass through the day finite. */
+  const REVIEW: { k: ReviewFilter; label: string; count?: number }[] = [
+    { k: "all", label: "All" },
+    { k: "shortlist", label: "Shortlisted", count: s.reviewCounts.shortlist },
+    { k: "unreviewed", label: "Not read", count: s.reviewCounts.unreviewed },
+    { k: "reject", label: "Passed", count: s.reviewCounts.reject },
+  ];
   return (
     <>
+      <div>
+        <div style={groupLabel}>Review</div>
+        <div style={{ marginTop: rail ? 10 : 11, display: "flex", flexDirection: "column" }}>
+          {REVIEW.map((r) => (
+            <button
+              key={r.k}
+              type="button"
+              onClick={() => s.setReviewFilter(r.k)}
+              style={wideChipStyle(s.reviewFilter === r.k, rail)}
+            >
+              <span>{r.label}</span>
+              {r.count !== undefined && (
+                <span
+                  style={{
+                    marginLeft: "auto",
+                    color: "var(--lr-faint)",
+                    fontVariantNumeric: "tabular-nums",
+                  }}
+                >
+                  {r.count}
+                </span>
+              )}
+            </button>
+          ))}
+        </div>
+      </div>
+
       <div>
         <div style={groupLabel}>Size</div>
         <div style={{ marginTop: rail ? 10 : 11, display: "flex", flexDirection: "column" }}>

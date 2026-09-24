@@ -10,6 +10,7 @@
  */
 import { useEffect, useState } from "react";
 import type { Deal } from "../data/types";
+import type { Verdict } from "../data/review";
 import {
   PROV_SENTENCE,
   amtStyle,
@@ -40,7 +41,19 @@ const microLabel: React.CSSProperties = {
 /** 2px full-width rule, the system's section separator. */
 const rule: React.CSSProperties = { height: 2, background: "var(--lr-line)", margin: "26px 0" };
 
-export function Panel({ deal, onClose, now }: { deal: Deal; onClose: () => void; now: number }) {
+export function Panel({
+  deal,
+  onClose,
+  now,
+  verdict,
+  onVerdict,
+}: {
+  deal: Deal;
+  onClose: () => void;
+  now: number;
+  verdict: Verdict | null;
+  onVerdict: (v: Verdict) => void;
+}) {
   const [allSources, setAllSources] = useState(false);
   const prov = provenanceOf(deal);
   const raw = rawPhrase(deal);
@@ -128,6 +141,65 @@ export function Panel({ deal, onClose, now }: { deal: Deal; onClose: () => void;
           >
             {deal.company}
           </div>
+        </div>
+
+        {/*
+          Triage sits directly under the header, before the deal itself.
+
+          It is here rather than on the feed card because the decision is made
+          after READING — putting it outside would invite marking a deal off
+          its headline, which is the judgement the panel exists to improve.
+          Above the fold so a verdict never needs a scroll, and both buttons
+          toggle, so a misclick is undone by clicking again.
+        */}
+        <div
+          style={{
+            display: "flex",
+            gap: 0,
+            borderBottom: "1px solid var(--lr-line-soft)",
+            background: "var(--lr-bg)",
+          }}
+        >
+          {([
+            ["shortlist", "Shortlist", "Worth a call"],
+            ["reject", "Not worth it", "Read and passed over"],
+          ] as const).map(([v, labelText, hint]) => {
+            const on = verdict === v;
+            return (
+              <button
+                key={v}
+                type="button"
+                onClick={() => onVerdict(v)}
+                aria-pressed={on}
+                title={hint}
+                style={{
+                  flex: 1,
+                  padding: "13px 12px",
+                  cursor: "pointer",
+                  border: 0,
+                  borderRight: v === "shortlist" ? "1px solid var(--lr-line-soft)" : 0,
+                  background: on
+                    ? v === "shortlist"
+                      ? "var(--lr-accent)"
+                      : "var(--lr-inset)"
+                    : "transparent",
+                  color: on
+                    ? v === "shortlist"
+                      ? "var(--lr-on-accent)"
+                      : "var(--lr-muted)"
+                    : "var(--lr-muted)",
+                  fontFamily: "var(--font-heading)",
+                  fontWeight: on ? 800 : 600,
+                  fontSize: 12,
+                  letterSpacing: "0.06em",
+                  textTransform: "uppercase",
+                  transition: "background 120ms ease, color 120ms ease",
+                }}
+              >
+                {on ? `\u2713 ${labelText}` : labelText}
+              </button>
+            );
+          })}
         </div>
 
         <div style={{ padding: "22px 18px 48px" }}>

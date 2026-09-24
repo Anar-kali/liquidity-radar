@@ -15,6 +15,14 @@ import {
   timeLabel,
   type Band,
 } from "./data/view";
+import {
+  loadReview,
+  matchesReview,
+  reviewCounts,
+  saveReview,
+  setVerdict,
+} from "./data/review";
+import type { ReviewFilter, ReviewMap, Verdict } from "./data/review";
 import { DealCell } from "./components/DealCell";
 import { HeroCell } from "./components/HeroCell";
 import { Panel } from "./components/Panel";
@@ -68,6 +76,18 @@ export default function App({
      ~6,000 DOM nodes. Render a screenful at a time instead. */
   const PAGE = 60;
   const [shown, setShown] = useState(PAGE);
+
+  /* Triage, kept in this browser — see data/review.ts for why, and for what
+     that costs across devices. */
+  const [review, setReview] = useState<ReviewMap>(() => loadReview());
+  const [reviewFilter, setReviewFilter] = useState<ReviewFilter>("all");
+  const markVerdict = useCallback((id: number, v: Verdict) => {
+    setReview((prev) => {
+      const next = setVerdict(prev, id, v);
+      saveReview(next);
+      return next;
+    });
+  }, []);
 
   const [openId, setOpenId] = useState<number | null>(null);
   const [openDeal, setOpenDeal] = useState<Deal | null>(null);
@@ -273,13 +293,15 @@ export default function App({
       (band === "all" || bandOf(d) === band) &&
       (conf === "all" || d.confidence === conf) &&
       (listed === "all" || (listed === "listed" ? d.listed : !d.listed)) &&
-      (outlet === ALL_OUTLETS || d.primaryOutlet === outlet),
-    [q, types, band, conf, listed, outlet],
+      (outlet === ALL_OUTLETS || d.primaryOutlet === outlet) &&
+      matchesReview(review, d.id, reviewFilter),
+    [q, types, band, conf, listed, outlet, review, reviewFilter],
   );
 
   const nFilters =
     (q ? 1 : 0) + types.length + (band !== "all" ? 1 : 0) + (conf !== "all" ? 1 : 0) +
-    (listed !== "all" ? 1 : 0) + (outlet !== ALL_OUTLETS ? 1 : 0);
+    (listed !== "all" ? 1 : 0) + (outlet !== ALL_OUTLETS ? 1 : 0) +
+    (reviewFilter !== "all" ? 1 : 0);
   const anyFilter = nFilters > 0;
 
   const rows = useMemo(() => {
@@ -302,6 +324,7 @@ export default function App({
 
   const clearAll = () => {
     setQ(""); setTypes([]); setBand("all"); setConf("all"); setListed("all"); setOutlet(ALL_OUTLETS);
+    setReviewFilter("all");
   };
 
   // Derived page shape: hero is the first row, the body splits 4 / rest
@@ -327,9 +350,15 @@ export default function App({
       ? `${scope.length} earlier ${scope.length === 1 ? "deal" : "deals"}`
       : `${scope.length} ${scope.length === 1 ? "deal" : "deals"} in ${RECENT_LABEL} · ~18 a day is normal`;
 
+  const reviewTally = useMemo(
+    () => reviewCounts(review, allDeals.map((d) => d.id)),
+    [review, allDeals],
+  );
+
   const filterState = {
     band, conf, listed, outlet, bandCounts, outlets,
     setBand, setConf, setListed, setOutlet,
+    reviewFilter, setReviewFilter, reviewCounts: reviewTally,
   };
 
   const updatesFor = (d: FeedDeal) =>
@@ -346,6 +375,7 @@ export default function App({
     expanded: !!expanded[d.id],
     onToggle: () => setExpanded({ ...expanded, [d.id]: !expanded[d.id] }),
     onOpen: () => openPanel(d.id),
+    verdict: review[d.id] ?? null,
   });
 
   return (
@@ -1026,7 +1056,15 @@ export default function App({
         </>
       )}
 
-      {openDeal && <Panel deal={openDeal} onClose={closePanel} now={now} />}
+      {openDeal && (
+        <Panel
+          deal={openDeal}
+          onClose={closePanel}
+          now={now}
+          verdict={review[openDeal.id] ?? null}
+          onVerdict={(v) => markVerdict(openDeal.id, v)}
+        />
+      )}
       {openPattern && <PatternPanel alert={openPattern} onClose={closePatternPanel} />}
     </div>
   );
