@@ -698,7 +698,7 @@
    "seller": "Runwal Enterprises",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 5,
    "ticker": null,
    "updatedAt": "2026-09-22T12:02:12.776131+00:00",
    "updates": [
@@ -709,6 +709,14 @@
     {
      "attachedAt": "2026-09-23T14:16:41.232829+00:00",
      "title": "Runwal Enterprises targets 2:1 debt-equity ratio after IPO: Chairman"
+    },
+    {
+     "attachedAt": "2026-09-24T06:31:03.868185+00:00",
+     "title": "Runwal Enterprises Limited - RHPRunwal Enterprises Limitedd"
+    },
+    {
+     "attachedAt": "2026-09-24T06:31:03.876587+00:00",
+     "title": "Runwal Enterprises Limitedd"
     }
    ]
   },
