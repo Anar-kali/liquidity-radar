@@ -1515,7 +1515,7 @@
    "seller": "Platinum Jasmine",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 6,
+   "sourceCount": 7,
    "ticker": "LENSKART.NS",
    "updatedAt": "2026-09-22T05:25:44.932734+00:00",
    "updates": [
@@ -1538,6 +1538,10 @@
     {
      "attachedAt": "2026-09-22T01:31:23.717306+00:00",
      "title": "ADIA Sells Lenskart Shares Worth ₹2,390.6 Cr"
+    },
+    {
+     "attachedAt": "2026-09-24T03:31:07.357523+00:00",
+     "title": "LENSKART: Acquisition"
     }
    ]
   },
