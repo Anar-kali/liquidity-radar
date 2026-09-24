@@ -515,13 +515,17 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-09-24T01:31:13.313290+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-24T01:31:13.312270+00:00",
      "title": "Claroid Pharmaceuticals Files DRHP With Sebi For IPO To Fund ₹168-Crore Ahmedabad Manufacturing Facility"
+    },
+    {
+     "attachedAt": "2026-09-24T13:16:25.418922+00:00",
+     "title": "Claroid Pharmaceuticals files draft papers with SEBI to raise funds through IPO"
     }
    ]
   },
