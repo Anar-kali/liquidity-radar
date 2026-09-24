@@ -118,6 +118,94 @@
   border-bottom: 1px solid var(--lr-line-soft);
 }
 
+/*
+ * Passing a deal takes it OUT of the grid rather than shrinking it in place.
+ *
+ * .lr-grid is repeat(auto-fill, minmax(304px, 1fr)) and a grid row sizes to
+ * its tallest item, so a cell that merely got shorter still reserved a
+ * full-card hole beside its neighbours. The cell collapses to nothing and is
+ * then removed; the deal reappears in the "Passed over" strip at the foot.
+ *
+ * grid-column: 1 / -1 during the exit stops a collapsing cell from holding a
+ * column open while it animates.
+ */
+/*
+ * The collapse is driven from JS with the Web Animations API — see
+ * DealCell's useLayoutEffect. There is no CSS transition or keyframe here on
+ * purpose.
+ *
+ * Two CSS-only attempts failed the same way. max-height needed a concrete
+ * start value, so it wanted a paint-then-change across two renders;
+ * grid-template-rows animates from auto but still needed the second class.
+ * Both left the card at full height and then blinked out, because the second
+ * render never arrived in the frame it was needed. A keyframe animation
+ * removed the two-render problem and still froze, since any re-render that
+ * reapplies the class restarts it from 0%.
+ *
+ * element.animate() is immune to all of that: it is started once, from a
+ * measured pixel height, and it owns the element until it finishes.
+ */
+.lr-cell.lr-exiting {
+  overflow: hidden;
+  /* Its own full-width row while it folds, so no taller neighbour holds the
+     row open and no column is left half-empty mid-animation. */
+  grid-column: 1 / -1;
+  align-self: start;
+  border-bottom-width: 0;
+}
+
+.lr-cell.lr-exiting > * {
+  overflow: hidden;
+}
+
+/* The passed strip: dense rows, one line each, no card chrome. */
+.lr-passed {
+  margin-top: 26px;
+  padding-top: 13px;
+  border-top: 2px solid var(--lr-line);
+}
+
+.lr-passed-body {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 260ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.lr-passed-body > div {
+  overflow: hidden;
+}
+
+.lr-passed[data-open="true"] .lr-passed-body {
+  grid-template-rows: 1fr;
+}
+
+.lr-passed-row {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  width: 100%;
+  padding: 8px 2px;
+  border: 0;
+  border-bottom: 1px solid var(--lr-line-soft);
+  background: transparent;
+  cursor: pointer;
+  text-align: left;
+  font: inherit;
+  color: var(--lr-faint);
+  transition: background-color 120ms ease, color 120ms ease;
+}
+
+.lr-passed-row:hover {
+  background: var(--lr-hover);
+  color: var(--lr-muted);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lr-passed-body {
+    transition: none;
+  }
+}
+
 /* Hover feels smoother with a short background fade — no layout shift */
 .lr-cell,
 .lr-src,

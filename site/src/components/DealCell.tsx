@@ -5,7 +5,7 @@
  * 20px/800. The figure matters, but the name is what a banker scans for, and
  * the handoff calls this out as load-bearing rather than stylistic.
  */
-import { useState } from "react";
+import { useLayoutEffect, useRef, useState } from "react";
 import type { FeedDeal } from "../data/types";
 import type { Verdict } from "../data/review";
 import { amountLabel, amtStyle, peopleLabel, provenanceNote, provenanceOf, recencyDate, sourceLabel, timeLabel } from "../data/view";
@@ -42,6 +42,7 @@ export function DealCell({
   onOpen,
   now,
   verdict = null,
+  exiting = false,
 }: {
   deal: FeedDeal;
   updates: CellUpdate[];
@@ -50,81 +51,50 @@ export function DealCell({
   onOpen: () => void;
   now: number;
   verdict?: Verdict | null;
+  exiting?: boolean;
 }) {
   const [hover, setHover] = useState(false);
   const [pressed, setPressed] = useState(false);
 
-  /*
-    A rejected deal collapses to one line rather than disappearing. Hiding it
-    would make the decision irreversible and leave a silent hole in the feed;
-    a single muted row says "read, passed over" and is still one click from
-    being reopened and un-rejected.
-  */
-  if (verdict === "reject") {
-    return (
-      <div className="lr-cell">
-        <div
-          role="button"
-          tabIndex={0}
-          onClick={onOpen}
-          onKeyDown={(e) => (e.key === "Enter" || e.key === " ") && (e.preventDefault(), onOpen())}
-          onMouseEnter={() => setHover(true)}
-          onMouseLeave={() => setHover(false)}
-          title="Passed over — open to change your mind"
-          style={{
-            display: "flex",
-            alignItems: "baseline",
-            gap: 10,
-            padding: "9px 16px",
-            cursor: "pointer",
-            background: hover ? "var(--lr-hover)" : "transparent",
-            transition: "background 120ms ease",
-          }}
-        >
-          <span
-            style={{
-              fontSize: 10.5,
-              fontWeight: 700,
-              letterSpacing: "0.07em",
-              textTransform: "uppercase",
-              color: "var(--lr-faint)",
-              flex: "none",
-            }}
-          >
-            Passed
-          </span>
-          <span
-            style={{
-              fontSize: 13,
-              color: "var(--lr-faint)",
-              overflow: "hidden",
-              textOverflow: "ellipsis",
-              whiteSpace: "nowrap",
-              minWidth: 0,
-              flex: 1,
-            }}
-          >
-            {deal.company}
-          </span>
-          <span
-            style={{
-              fontSize: 12,
-              color: "var(--lr-faint)",
-              fontVariantNumeric: "tabular-nums",
-              flex: "none",
-            }}
-          >
-            {amountLabel(deal)}
-          </span>
-        </div>
-      </div>
+  /* Fold this cell away once it has been passed over.
+     Two things make this work, and both were learned the hard way:
+
+     The CHILD animates, not the cell. .lr-cell is a grid item, so its height
+     comes from the grid row (measured: row 207.703px, item stretched to fit)
+     and setting height on it is simply ignored. The child is an ordinary
+     block and animates freely; .lr-exiting clips the overflow and spans the
+     cell across every column so the row can follow the content down.
+
+     It is driven with element.animate() rather than a CSS transition or
+     keyframe. A transition needs a start state painted on a previous render,
+     and a keyframe restarts from 0% whenever a re-render reapplies the class;
+     an imperative animation starts once from a measured height and owns the
+     element until it finishes. */
+  const box = useRef<HTMLDivElement | null>(null);
+  useLayoutEffect(() => {
+    const inner = box.current?.firstElementChild as HTMLElement | undefined;
+    if (!exiting || !inner) return;
+    const from = inner.getBoundingClientRect().height;
+    const reduce = window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
+    const anim = inner.animate(
+      [
+        { height: `${from}px`, opacity: 1 },
+        { height: "0px", opacity: 0 },
+      ],
+      { duration: reduce ? 1 : 240, easing: "cubic-bezier(0.4, 0, 0.2, 1)", fill: "forwards" },
     );
-  }
+    return () => anim.cancel();
+  }, [exiting]);
+
   const prov = provenanceOf(deal);
   const people = peopleLabel(deal.individuals);
 
   return (
-    <div className="lr-cell">
+    <div
+      ref={box}
+      className={"lr-cell" + (exiting ? " lr-exiting" : "")}
+      aria-hidden={exiting || undefined}
+    >
       <div
         role="button"
         tabIndex={0}
