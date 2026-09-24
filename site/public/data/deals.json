@@ -281,10 +281,15 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "mcap_plausible",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": "PREMEXPLN.NS",
    "updatedAt": "2026-09-23T17:17:51.421507+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-09-24T08:46:00.627786+00:00",
+     "title": "Apollo Micro Systems Receives CCI Clearance for Premier Explosives Acquisition"
+    }
+   ]
   },
   {
    "amountCr": 900.0,
