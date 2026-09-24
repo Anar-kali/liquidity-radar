@@ -1,6 +1,31 @@
 {
- "dealCount": 671,
+ "dealCount": 672,
  "deals": [
+  {
+   "amountCr": 250.0,
+   "amountRaw": "Rs 250 crore",
+   "company": "DSP Design Associates",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-24T13:37:39.203377+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 997,
+   "individuals": [
+    "Bimal Desai",
+    "Anuj Puri"
+   ],
+   "listed": false,
+   "oneLine": "Anarock acquires a 51% stake in DSP Design Associates for Rs 250 crore, cashing out founders.",
+   "primaryOutlet": "ET Corporate",
+   "seller": "Founding leadership of DSP Design Associates",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-24T13:37:59.280993+00:00",
+   "updates": []
+  },
   {
    "amountCr": 218.0,
    "amountRaw": "₹218 crore",
@@ -546,10 +571,15 @@
    "seller": "Promoters",
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-09-23T12:46:06.300506+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-09-24T13:37:39.200215+00:00",
+     "title": "Claroid Pharma Files IPO Papers with Sebi for Fundraise"
+    }
+   ]
   },
   {
    "amountCr": 7040.0,
@@ -20931,6 +20961,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-24T12:02:16.975989+00:00",
- "totalDeals": 671
+ "generatedAt": "2026-09-24T13:37:59.280993+00:00",
+ "totalDeals": 672
 }

@@ -1,0 +1,35 @@
+{
+ "advisers": [],
+ "amountCr": 250.0,
+ "amountRaw": "Rs 250 crore",
+ "buyer": "Anarock",
+ "company": "DSP Design Associates",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-24T13:37:39.203377+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 997,
+ "individuals": [
+  "Bimal Desai",
+  "Anuj Puri"
+ ],
+ "listed": false,
+ "oneLine": "Anarock acquires a 51% stake in DSP Design Associates for Rs 250 crore, cashing out founders.",
+ "primaryUrl": "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/anarock-acquires-51-stake-in-dsp-design-associates-for-nearly-rs-250-crore/articleshow/134463335.cms",
+ "seller": "Founding leadership of DSP Design Associates",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-24T13:37:39.204928+00:00",
+   "outlet": "ET Corporate",
+   "resolvable": true,
+   "title": "Anarock acquires 51% stake in DSP Design Associates for nearly Rs 250 crore",
+   "url": "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/anarock-acquires-51-stake-in-dsp-design-associates-for-nearly-rs-250-crore/articleshow/134463335.cms"
+  }
+ ],
+ "synopsis": "Property consultant Anarock has acquired a 51% stake in architecture and interior design firm DSP Design Associates for close to Rs 250 crore. The transaction involves cashing out founders, while DSP will continue to be led by its founding leadership, including Co-Founder and Principal Bimal Desai. Anuj Puri serves as the Founder and Chairman of Anarock Group. DSP operates across Mumbai, Bengaluru, Pune, NCR, and Hyderabad with 320 professionals, delivering projects across commercial, residential, retail, and hospitality sectors.",
+ "ticker": null,
+ "updatedAt": "2026-09-24T13:37:59.280993+00:00"
+}
