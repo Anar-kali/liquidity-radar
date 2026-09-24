@@ -77,7 +77,7 @@ function withTransition(apply: () => void) {
 
 export default function App({
   defaultTheme = "light",
-  heroCard = true,
+  heroCard = false,
   showProvenanceLegend = false,
 }: {
   defaultTheme?: "light" | "dark";
@@ -376,13 +376,16 @@ export default function App({
     setReviewFilter("all");
   };
 
-  // Derived page shape: hero is the first row, the body splits 4 / rest
-  // around the digest, and the digest is the top 5 by coverage.
+  // Derived page shape: the body splits 6 / rest around the digest, and the
+  // digest is the top 5 by coverage. heroCard now defaults off — one deal
+  // blown up to full width claimed the top of the page on the strength of
+  // being newest, which is not the same as being the one worth reading first.
+  // Six equal cells let the feed be scanned instead of led.
   const wantHero = view === "today" && heroCard && rows.length > 2;
   const hero = wantHero ? rows[0] : null;
   const body = wantHero ? rows.slice(1) : rows;
   const rowsA = body.slice(0, 6);
-  // The archive has no hero or digest, so everything after the first four
+  // The archive has no hero or digest, so everything after the first six
   // cells is one grid, capped at `shown`.
   const rowsB = body.slice(6, view === "archive" ? shown : body.length);
   const more = view === "archive" ? Math.max(0, body.length - shown) : 0;
