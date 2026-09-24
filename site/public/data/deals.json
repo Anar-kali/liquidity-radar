@@ -1,6 +1,28 @@
 {
- "dealCount": 669,
+ "dealCount": 670,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Skoda Auto Volkswagen India Pvt",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-24T11:31:03.532073+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 995,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "JSW seeks a majority stake in Skoda Auto Volkswagen India",
+   "primaryOutlet": "Mint",
+   "seller": "Volkswagen AG",
+   "sizeBand": "OVER_2000",
+   "sizeSource": "band",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-24T11:31:07.410385+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -20879,6 +20901,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-24T10:16:20.028833+00:00",
- "totalDeals": 669
+ "generatedAt": "2026-09-24T11:31:07.410385+00:00",
+ "totalDeals": 670
 }

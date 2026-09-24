@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "JSW",
+ "company": "Skoda Auto Volkswagen India Pvt",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-24T11:31:03.532073+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 995,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "JSW seeks a majority stake in Skoda Auto Volkswagen India",
+ "primaryUrl": "https://www.livemint.com/companies/news/jsw-wants-volkswagen-to-cover-india-tax-bill-as-deal-condition-11790249144684.html",
+ "seller": "Volkswagen AG",
+ "sizeBand": "OVER_2000",
+ "sizeSource": "band",
+ "sources": [
+  {
+   "attachedAt": "2026-09-24T11:31:03.533631+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "JSW wants Volkswagen to cover India tax bill as deal condition",
+   "url": "https://www.livemint.com/companies/news/jsw-wants-volkswagen-to-cover-india-tax-bill-as-deal-condition-11790249144684.html"
+  }
+ ],
+ "synopsis": "JSW Group is seeking a majority stake through an investment in Skoda Auto Volkswagen India Pvt., with negotiations currently facing a potential sticking point over a $1.4 billion local tax liability. JSW wants Volkswagen to cover this tax bill stemming from an Indian government allegation that VW misclassified imported vehicle assembly kits. A preliminary agreement on a joint venture structure has been reached, but financial due diligence and the treatment of the tax liability remain unresolved. The proposed partnership aims to develop, build, and market passenger vehicles in India and for export. The two sides previously targeted signing a binding agreement by December.",
+ "ticker": null,
+ "updatedAt": "2026-09-24T11:31:07.410385+00:00"
+}
