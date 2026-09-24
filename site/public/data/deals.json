@@ -1,6 +1,28 @@
 {
- "dealCount": 677,
+ "dealCount": 678,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "FirstCry",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-24T17:31:14.007478+00:00",
+   "dealType": "block deal",
+   "enrichmentState": null,
+   "id": 1004,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Private equity investors exit FirstCry in bulk and block deals.",
+   "primaryOutlet": "Moneycontrol.com",
+   "seller": "PE investors",
+   "sizeBand": null,
+   "sizeSource": "mcap_plausible",
+   "sourceCount": 1,
+   "ticker": "FIRSTCRY.NS",
+   "updatedAt": "2026-09-24T17:31:25.210603+00:00",
+   "updates": []
+  },
   {
    "amountCr": 513.0,
    "amountRaw": "₹513 Cr",
@@ -21089,6 +21111,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-24T16:32:53.187667+00:00",
- "totalDeals": 677
+ "generatedAt": "2026-09-24T17:31:25.210603+00:00",
+ "totalDeals": 678
 }

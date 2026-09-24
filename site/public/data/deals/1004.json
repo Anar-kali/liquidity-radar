@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "Goldman",
+ "company": "FirstCry",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-24T17:31:14.007478+00:00",
+ "dealType": "block deal",
+ "enrichmentState": null,
+ "id": 1004,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Private equity investors exit FirstCry in bulk and block deals.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiogJBVV95cUxNdWZtdHhmdW9HOHV6Mkd5bHZYUDUwS2tIdG1xVFlMOUx2RkpkaXk5NWRaU09RcnVGMy1fZmxmS0Z5RnhyM2RLWElhSVcxUjJWR2xuSy1aVkUxLXRORnBESEdWM25tcG5XT3M5VXdhMEpmMXhBb3JsQXZqbmJ5Y25sVmhDYXZWcGhncW5rY1dSanY3TnZVNUtldFZrenRBOWFCZGhNLU00cDFYTzFRSFlZTzB4VWpZNWYzYWRyQ0h5eE5URGpHSWppTTRNMXI5YkdnQ29nNEI1V3R1RGhnZ3llbDBrdE8wYlNUX0YzZnNVZUtYM1hfRlIzRFZNcXBmc0FBTkNLY2FMNmV4SV9ad0dmNGZ0TTk1Zk1NaUkySmhJejJCZ9IBpwJBVV95cUxPVS1qYjB3Q1E4cERjRGN5SFRwRlJ6SlBpWHlwTWlsdDRoWFlxcFZqRVpaVGxlTmZxTkY1U2V0WG14bW9IZzBSby1NNVNabTRGUzZmemctN0dmRDdwSl92d3otX2FhYXk3S0hLb3ZhTG41Wk54S05jUWpNeldsdTZxVl80SGxldm9FQzZ2aThNNlhQUTFJaU5vbXd4azZobVozYU8waDRnR3VpcnJMdUpRcXpRdFZvdndmNWVsZnlxYzc1bXZUdzN3NkJuZF96VjBjdTZ4VkpQZF9YVHpPTVdxWjRHT3FvS2MyZ3Z5eVpmemVwUk9WbEtwSDU3RklKVTh6WFRaMzFuUDBUUWZTQ29pV0VIeXdNRHdwNUxFSjFhMGV5NDY2UEZn?oc=5",
+ "seller": "PE investors",
+ "sizeBand": null,
+ "sizeSource": "mcap_plausible",
+ "sources": [
+  {
+   "attachedAt": "2026-09-24T17:31:14.008728+00:00",
+   "outlet": "Moneycontrol.com",
+   "resolvable": false,
+   "title": "Bulk and block deals on Sep 24: Sedemac sees Rs 1,469-crore action, PE investors exit FirstCry and...",
+   "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxNdWZtdHhmdW9HOHV6Mkd5bHZYUDUwS2tIdG1xVFlMOUx2RkpkaXk5NWRaU09RcnVGMy1fZmxmS0Z5RnhyM2RLWElhSVcxUjJWR2xuSy1aVkUxLXRORnBESEdWM25tcG5XT3M5VXdhMEpmMXhBb3JsQXZqbmJ5Y25sVmhDYXZWcGhncW5rY1dSanY3TnZVNUtldFZrenRBOWFCZGhNLU00cDFYTzFRSFlZTzB4VWpZNWYzYWRyQ0h5eE5URGpHSWppTTRNMXI5YkdnQ29nNEI1V3R1RGhnZ3llbDBrdE8wYlNUX0YzZnNVZUtYM1hfRlIzRFZNcXBmc0FBTkNLY2FMNmV4SV9ad0dmNGZ0TTk1Zk1NaUkySmhJejJCZ9IBpwJBVV95cUxPVS1qYjB3Q1E4cERjRGN5SFRwRlJ6SlBpWHlwTWlsdDRoWFlxcFZqRVpaVGxlTmZxTkY1U2V0WG14bW9IZzBSby1NNVNabTRGUzZmemctN0dmRDdwSl92d3otX2FhYXk3S0hLb3ZhTG41Wk54S05jUWpNeldsdTZxVl80SGxldm9FQzZ2aThNNlhQUTFJaU5vbXd4azZobVozYU8waDRnR3VpcnJMdUpRcXpRdFZvdndmNWVsZnlxYzc1bXZUdzN3NkJuZF96VjBjdTZ4VkpQZF9YVHpPTVdxWjRHT3FvS2MyZ3Z5eVpmemVwUk9WbEtwSDU3RklKVTh6WFRaMzFuUDBUUWZTQ29pV0VIeXdNRHdwNUxFSjFhMGV5NDY2UEZn?oc=5"
+  }
+ ],
+ "synopsis": "Private equity investors exited FirstCry through bulk and block deals, with Goldman buying shares in the company. The transactions took place alongside other market activity including deals in Sedemac Mechatronics, NephroPlus, PB Fintech, and Aventis Pharma. The article provides no specific deal values or stake percentages for the FirstCry transaction.",
+ "ticker": "FIRSTCRY.NS",
+ "updatedAt": "2026-09-24T17:31:25.210603+00:00"
+}
