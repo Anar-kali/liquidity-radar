@@ -1381,7 +1381,7 @@
    "seller": "Starfish I Pte. Ltd., Nexus India Direct Investments II, Nexus Opportunity Fund, Nexus Ventures III, SoftBank, Foxconn",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 7,
+   "sourceCount": 8,
    "ticker": null,
    "updatedAt": "2026-09-22T05:25:44.938300+00:00",
    "updates": [
@@ -1408,6 +1408,10 @@
     {
      "attachedAt": "2026-09-22T05:31:27.894878+00:00",
      "title": "Snapdeal parent AceVector seeks up to $182 million valuation in India IPO"
+    },
+    {
+     "attachedAt": "2026-09-24T06:16:00.830333+00:00",
+     "title": "SoftBank-backed AceVector to raise Rs 420 crore through IPO"
     }
    ]
   },
