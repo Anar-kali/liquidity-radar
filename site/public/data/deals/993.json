@@ -1,0 +1,39 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Vardaan Biotech Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-24T10:01:18.071609+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": "failed",
+ "id": 993,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Vardaan Biotech Limited files DRHP with SEBI for an upcoming IPO.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/vardaan-biotech-limited-drhp_104652.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-24T10:01:18.074447+00:00",
+   "outlet": "Draft Abridged Prospectus",
+   "resolvable": true,
+   "title": "VARDAAN BIOTECH LIMITED - DRHPVARDAAN BIOTECH LIMITED",
+   "url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/vardaan-biotech-limited-drhp_104652.html"
+  },
+  {
+   "attachedAt": "2026-09-24T10:01:18.082222+00:00",
+   "outlet": "Draft Abridged Prospectus",
+   "resolvable": true,
+   "title": "VARDAAN BIOTECH LIMITED",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/sep-2026/VARDAAN%20BIOTECH%20LIMITED_p.pdf"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-09-24T10:01:18.071609+00:00"
+}
