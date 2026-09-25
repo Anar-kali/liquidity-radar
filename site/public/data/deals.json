@@ -1,6 +1,28 @@
 {
- "dealCount": 684,
+ "dealCount": 685,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "PMI Electro Mobility",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-25T09:46:03.099698+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 1011,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "PMI Electro Mobility filed confidential IPO papers with SEBI.",
+   "primaryOutlet": "HDFC Sky",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-25T09:46:07.449638+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -21360,6 +21382,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-25T09:16:02.541733+00:00",
- "totalDeals": 684
+ "generatedAt": "2026-09-25T09:46:07.449638+00:00",
+ "totalDeals": 685
 }

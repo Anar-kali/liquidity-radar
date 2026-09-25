@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "PMI Electro Mobility",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-25T09:46:03.099698+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": null,
+ "id": 1011,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "PMI Electro Mobility filed confidential IPO papers with SEBI.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeXIxT19SV2ZQcVNPTmpuVi1LNlkxeHlYM19lRFhQaXd1YkJIQmVnNkFZU2xrQjFWcEtmOU0wUC1oZEk3T2l5S3VnX3JtTmVrU1NvM1puODZtUVQ4OHBZWGdRSjFpVDlIa01WNFB4R0tSeXhYUi1fQzV4SXdUc1hZRVMtNU9JUS1pWGRJSkdnRGU5NDlPNXVCdlJ3SQ?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-25T09:46:03.101454+00:00",
+   "outlet": "HDFC Sky",
+   "resolvable": false,
+   "title": "PMI Electro Mobility Files IPO Papers With Sebi via Confidential Route",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeXIxT19SV2ZQcVNPTmpuVi1LNlkxeHlYM19lRFhQaXd1YkJIQmVnNkFZU2xrQjFWcEtmOU0wUC1oZEk3T2l5S3VnX3JtTmVrU1NvM1puODZtUVQ4OHBZWGdRSjFpVDlIa01WNFB4R0tSeXhYUi1fQzV4SXdUc1hZRVMtNU9JUS1pWGRJSkdnRGU5NDlPNXVCdlJ3SQ?oc=5"
+  }
+ ],
+ "synopsis": "Electric bus maker PMI Electro Mobility Solutions Ltd has filed preliminary papers with capital markets regulator Sebi for an initial public offering through the confidential pre-filing route. Under this mechanism, the company has submitted draft offer documents to Sebi and stock exchanges without immediately making them public. Consequently, details regarding the offer size, structure, financial performance, valuation, and timeline for the share sale are currently unavailable. PMI Electro Mobility operates as a bus original equipment manufacturer focusing on electric buses, with over 3,300 electric buses operating across more than 34 cities in India.",
+ "ticker": null,
+ "updatedAt": "2026-09-25T09:46:07.449638+00:00"
+}
