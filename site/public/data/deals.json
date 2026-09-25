@@ -871,7 +871,7 @@
    "seller": "HDFC Life and other holders",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 5,
+   "sourceCount": 6,
    "ticker": "SEDEMAC.NS",
    "updatedAt": "2026-09-23T14:32:22.226772+00:00",
    "updates": [
@@ -890,6 +890,10 @@
     {
      "attachedAt": "2026-09-24T15:34:58.257171+00:00",
      "title": "A91 Partners, Xponentia Sell SEDEMAC Shares Via ₹1,456.4 Cr Bulk Deals"
+    },
+    {
+     "attachedAt": "2026-09-25T15:31:10.106502+00:00",
+     "title": "Xponentia Group cuts Sedemac Mechatronics stake to 9.33% via open market sale"
     }
    ]
   },
