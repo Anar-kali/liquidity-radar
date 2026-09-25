@@ -67,7 +67,7 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-09-25T11:46:03.403521+00:00",
    "updates": [
@@ -78,6 +78,10 @@
     {
      "attachedAt": "2026-09-25T11:46:03.402172+00:00",
      "title": "Anjali LabTech Files Updated Papers for Rs 1,225 Cr Lab-Grown Diamond IPO"
+    },
+    {
+     "attachedAt": "2026-09-25T12:01:24.438389+00:00",
+     "title": "Anjali Labtech files papers for ₹1,225 crore IPO to expand lab-grown diamond production"
     }
    ]
   },
@@ -2671,7 +2675,7 @@
    "seller": "JSW One Platforms",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 13,
+   "sourceCount": 14,
    "ticker": null,
    "updatedAt": "2026-09-25T04:01:13.056838+00:00",
    "updates": [
@@ -2722,6 +2726,10 @@
     {
      "attachedAt": "2026-09-25T10:16:09.722968+00:00",
      "title": "JSW One Platforms IPO: INR 3,054 Crore DRHP Filed With SEBI"
+    },
+    {
+     "attachedAt": "2026-09-25T12:01:24.448878+00:00",
+     "title": "JSW One Platforms files draft papers with SEBI; plans to raise Rs 3,054 crore via IPO - Mid-Day"
     }
    ]
   },
