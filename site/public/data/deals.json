@@ -165,10 +165,15 @@
    "seller": "SN Genelab",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-09-24T15:43:13.566795+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-09-25T06:31:13.835822+00:00",
+     "title": "Dr Lal PathLabs to acquire 70% stake in Gujarat-based SN Genelab for up to ₹199.5 Cr"
+    }
+   ]
   },
   {
    "amountCr": 450.12,
