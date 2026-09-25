@@ -1,6 +1,28 @@
 {
- "dealCount": 687,
+ "dealCount": 688,
  "deals": [
+  {
+   "amountCr": 500.0,
+   "amountRaw": "₹ 500 crore (from article)",
+   "company": "Kian-M Export",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-25T16:31:39.439420+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 1014,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Kian-M Export files DRHP with SEBI for an upcoming IPO.",
+   "primaryOutlet": "Livemint",
+   "seller": "existing shareholders",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-25T16:31:43.765714+00:00",
+   "updates": []
+  },
   {
    "amountCr": 2498.0,
    "amountRaw": "Rs 2,498 crore",
@@ -21470,6 +21492,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-25T15:16:02.308529+00:00",
- "totalDeals": 687
+ "generatedAt": "2026-09-25T16:31:43.765714+00:00",
+ "totalDeals": 688
 }
