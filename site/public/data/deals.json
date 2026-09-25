@@ -88,13 +88,17 @@
    "seller": "PE investors",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": "FIRSTCRY.NS",
    "updatedAt": "2026-09-25T01:31:14.083256+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-25T01:31:14.082353+00:00",
      "title": "TPG Exits FirstCry With ₹202 Cr Bulk Deal"
+    },
+    {
+     "attachedAt": "2026-09-25T04:46:07.482237+00:00",
+     "title": "TPG Exits FirstCry Through Rs 202 Cr Bulk Deal"
     }
    ]
   },
