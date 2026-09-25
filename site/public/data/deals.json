@@ -1,6 +1,28 @@
 {
- "dealCount": 685,
+ "dealCount": 686,
  "deals": [
+  {
+   "amountCr": 2050.0,
+   "amountRaw": "over ₹2,000 crore (₹1,450 crore primary capital infusion and about ₹600 crore secondary share purchase) (from article)",
+   "company": "Nido Home Finance",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-25T14:16:01.273922+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1012,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Carlyle acquires a strategic majority stake in Nido Home Finance.",
+   "primaryOutlet": "BusinessLine",
+   "seller": "Edelweiss",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-25T14:16:05.471360+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -21414,6 +21436,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-25T11:46:03.403521+00:00",
- "totalDeals": 685
+ "generatedAt": "2026-09-25T14:16:05.471360+00:00",
+ "totalDeals": 686
 }
