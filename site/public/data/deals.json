@@ -192,8 +192,8 @@
    ]
   },
   {
-   "amountCr": 303.5,
-   "amountRaw": "2.5% x mcap ~Rs 12140cr = ~Rs 304cr",
+   "amountCr": 513.0,
+   "amountRaw": "₹513 cr",
    "company": "BlueStone",
    "confidence": "medium",
    "confirmed": false,
@@ -208,13 +208,17 @@
    "seller": "Accel and 360 ONE",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": "BLUESTONE.NS",
-   "updatedAt": "2026-09-25T07:01:12.616127+00:00",
+   "updatedAt": "2026-09-25T09:16:02.541733+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-25T07:01:12.614937+00:00",
      "title": "Accel India sells 2.5% stake in Bluestone Jewellery"
+    },
+    {
+     "attachedAt": "2026-09-25T09:16:02.540689+00:00",
+     "title": "Accel India, 360 ONE Group sell over 4% stake in BlueStone for ₹513 cr"
     }
    ]
   },
@@ -2633,7 +2637,7 @@
    "seller": "JSW One Platforms",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 11,
+   "sourceCount": 12,
    "ticker": null,
    "updatedAt": "2026-09-25T04:01:13.056838+00:00",
    "updates": [
@@ -2676,6 +2680,10 @@
     {
      "attachedAt": "2026-09-25T08:46:12.457939+00:00",
      "title": "JSW One Platforms files DRHP, plans to raise Rs 3,054 crore; JSW Steel and JSW Cement to sell stake"
+    },
+    {
+     "attachedAt": "2026-09-25T09:16:02.537628+00:00",
+     "title": "Sajjan Jindal-backed JSW One Platforms filed DRHP with SEBI to launch IPO; key details"
     }
    ]
   },
@@ -21352,6 +21360,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-25T08:01:19.231728+00:00",
+ "generatedAt": "2026-09-25T09:16:02.541733+00:00",
  "totalDeals": 684
 }
