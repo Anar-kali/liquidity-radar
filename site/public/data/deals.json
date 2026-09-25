@@ -24,26 +24,37 @@
    "updates": []
   },
   {
-   "amountCr": 2498.0,
-   "amountRaw": "Rs 2,498 crore",
+   "amountCr": 2498.3,
+   "amountRaw": "2498.3cr confirmed via NSE block deal",
    "company": "Adani Enterprises",
    "confidence": "medium",
-   "confirmed": false,
+   "confirmed": true,
    "createdAt": "2026-09-25T15:15:58.525026+00:00",
    "dealType": "promoter sale",
    "enrichmentState": null,
    "id": 1013,
-   "individuals": [],
+   "individuals": [
+    "INFINITE TRADE AND INVESTMENT LTD"
+   ],
    "listed": true,
    "oneLine": "Promoter group executes a share deal worth Rs 2,498 crore.",
    "primaryOutlet": "The Federal",
    "seller": "promoter group",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 3,
    "ticker": "ADANIENT.NS",
-   "updatedAt": "2026-09-25T15:16:02.308529+00:00",
-   "updates": []
+   "updatedAt": "2026-09-25T18:30:03.464812+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-09-25T18:30:03.166475+00:00",
+     "title": "Adani Enterprises Limited: bulk deal"
+    },
+    {
+     "attachedAt": "2026-09-25T18:30:03.452394+00:00",
+     "title": "Adani Enterprises Limited: block deal"
+    }
+   ]
   },
   {
    "amountCr": 2050.0,
@@ -1046,25 +1057,27 @@
    "updates": []
   },
   {
-   "amountCr": 2196.4,
-   "amountRaw": "20% x mcap ~Rs 10982cr = ~Rs 2196cr",
+   "amountCr": 151.58,
+   "amountRaw": "151.58cr confirmed via NSE bulk deal",
    "company": "Whirlpool of India",
    "confidence": "medium",
-   "confirmed": false,
+   "confirmed": true,
    "createdAt": "2026-09-23T10:16:47.648054+00:00",
    "dealType": "promoter sale",
    "enrichmentState": null,
    "id": 972,
-   "individuals": [],
+   "individuals": [
+    "MICROCURVES TRADING PRIVATE LIMITED"
+   ],
    "listed": true,
    "oneLine": "Whirlpool of India stock surges on reports of an impending promoter stake sale.",
    "primaryOutlet": "The Economic Times",
    "seller": "Promoters",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": "WHIRLPOOL.NS",
-   "updatedAt": "2026-09-23T12:46:06.285863+00:00",
+   "updatedAt": "2026-09-25T18:30:03.408275+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-23T12:46:06.284059+00:00",
@@ -1073,6 +1086,10 @@
     {
      "attachedAt": "2026-09-23T14:32:22.223112+00:00",
      "title": "Whirlpool Shares Spike 20% On Report Of Promoter Stake Sale Plan"
+    },
+    {
+     "attachedAt": "2026-09-25T18:30:03.407300+00:00",
+     "title": "Whirlpool of India Ltd: bulk deal"
     }
    ]
   },
@@ -21497,6 +21514,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-25T16:31:43.765714+00:00",
+ "generatedAt": "2026-09-25T18:30:03.464812+00:00",
  "totalDeals": 688
 }

@@ -1,16 +1,18 @@
 {
  "advisers": [],
- "amountCr": 2498.0,
- "amountRaw": "Rs 2,498 crore",
+ "amountCr": 2498.3,
+ "amountRaw": "2498.3cr confirmed via NSE block deal",
  "buyer": "Adani Properties and Adani Infra (India) Ltd",
  "company": "Adani Enterprises",
  "confidence": "medium",
- "confirmed": false,
+ "confirmed": true,
  "createdAt": "2026-09-25T15:15:58.525026+00:00",
  "dealType": "promoter sale",
  "enrichmentState": null,
  "id": 1013,
- "individuals": [],
+ "individuals": [
+  "INFINITE TRADE AND INVESTMENT LTD"
+ ],
  "listed": true,
  "oneLine": "Promoter group executes a share deal worth Rs 2,498 crore.",
  "primaryUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSkZEV3VmWUVmSzlxM2oxUERzY0tnVkxJZmFNWnVzelR6MG11d1pYMmNLbWRJMFBPZEdUX0VISTJoOWR4QTlXQlg0ZmdiTHpqcFh2aTlmSFFmZGNsdDVaaXdSYWVVemVCcUh5MkRUbnJpNGp5Mnc5SUNUcm16TDdZbkJxV1RJLUFRRXF0Y01CSE03YlVIeEdaazVqOS05TzBVUmdHYXp3WmxJcUZ4MVVJ?oc=5",
@@ -24,9 +26,23 @@
    "resolvable": false,
    "title": "Adani Enterprises sees Rs 2,498 crore promoter group share deal",
    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSkZEV3VmWUVmSzlxM2oxUERzY0tnVkxJZmFNWnVzelR6MG11d1pYMmNLbWRJMFBPZEdUX0VISTJoOWR4QTlXQlg0ZmdiTHpqcFh2aTlmSFFmZGNsdDVaaXdSYWVVemVCcUh5MkRUbnJpNGp5Mnc5SUNUcm16TDdZbkJxV1RJLUFRRXF0Y01CSE03YlVIeEdaazVqOS05TzBVUmdHYXp3WmxJcUZ4MVVJ?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-25T18:30:03.166475+00:00",
+   "outlet": "Google News",
+   "resolvable": true,
+   "title": "Adani Enterprises Limited: bulk deal",
+   "url": ""
+  },
+  {
+   "attachedAt": "2026-09-25T18:30:03.452394+00:00",
+   "outlet": "Google News",
+   "resolvable": true,
+   "title": "Adani Enterprises Limited: block deal",
+   "url": ""
   }
  ],
  "synopsis": "A promoter group share deal involving Adani Enterprises saw shares worth Rs 2,498.30 crore change hands through block deals on Friday. Infinite Trade And Investment Ltd sold a 0.63 per cent stake, representing around 86 lakh shares, at an average price of Rs 2,905 apiece. The shares were acquired by fellow promoter group entities Adani Properties and Adani Infra (India) Ltd. Adani Properties bought 51.50 lakh shares and Adani Infra acquired 34.50 lakh shares. Following the transaction, Infinite Trade And Investment's holding in Adani Enterprises dropped from 2.01 per cent to 1.38 per cent, though the combined promoter shareholding in the company remained unchanged.",
  "ticker": "ADANIENT.NS",
- "updatedAt": "2026-09-25T15:16:02.308529+00:00"
+ "updatedAt": "2026-09-25T18:30:03.464812+00:00"
 }

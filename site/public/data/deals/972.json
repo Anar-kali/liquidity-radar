@@ -1,16 +1,18 @@
 {
  "advisers": [],
- "amountCr": 2196.4,
- "amountRaw": "20% x mcap ~Rs 10982cr = ~Rs 2196cr",
+ "amountCr": 151.58,
+ "amountRaw": "151.58cr confirmed via NSE bulk deal",
  "buyer": null,
  "company": "Whirlpool of India",
  "confidence": "medium",
- "confirmed": false,
+ "confirmed": true,
  "createdAt": "2026-09-23T10:16:47.648054+00:00",
  "dealType": "promoter sale",
  "enrichmentState": null,
  "id": 972,
- "individuals": [],
+ "individuals": [
+  "MICROCURVES TRADING PRIVATE LIMITED"
+ ],
  "listed": true,
  "oneLine": "Whirlpool of India stock surges on reports of an impending promoter stake sale.",
  "primaryUrl": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQNUFIZTlWYWU4YWZsX3JjVDVSc2FfNjVrZXlwWXJHcVhKakRzYl9QTVZQTWNzS3dpZ3c5NFVKcVhFcW1TYS1wYzgzME04THBjV3pEUzJxYlF2OFA2MnkwQURYRFgxMGI0MjhLTGEyaktYcUFzZW9PZFY3ekZEVGplTXZ1Z3ZzSXpYaWNpRVRfLUdia3FidV82ZjQzcWx1M3pLekh4ZWFjd182ZE11MTBsc2xnc2ZGTU5Xd29xNC1RMmV3ZGxXenRaR3ZHUG94LW80NzBLcUdCdW84aXJCRmtOSWJGUXZOTlpmYmtkS1ZRc3dUWFZSWEJ3QtIB8gFBVV95cUxNMjM1NmFxTVF1YlJpeEpkSUVST0VOa1psaVhoeXRHUHNoQ0FwaDRScVJKMVByTDEtbWc4SHllUW9iT3JZT2JmeFRQczdBTzNZSk9pclFUeHlIYlEtYU42UUNpcUJjRm1KYzhtdC1Ed2xmYmpwb3hwUmJDY3o4bENGZEZnSzgtclF4b0FTd2pDdDNoY25wc2IxRVQ4M3ZJYkgwSERFWFFBeTFpcENMS3hJU1pJZlZ1ejZJazE5NWFrbm5YQVBpaHRpbXRUVWJNNjlOZ2FPRnROUWtXcjBFUU9JekRpV0hrOGF5eXZScnVQYjV3UQ?oc=5",
@@ -38,9 +40,16 @@
    "resolvable": false,
    "title": "Whirlpool Shares Spike 20% On Report Of Promoter Stake Sale Plan",
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPS1JGQXFwcERMYnNVdDNFUmtqMmJ4LTJ1MERmYld3NnVrSGxES3NFRHJfSWhwMzB1NzNkbFlscUJXcVEtTG52Qllnd0NRMU5IUTlHbkdQZjVoYUFNbXpMM1NtU2JkVHlQUkZLU2JSdTVNSEFzSG5jZ2RKZEgwMTlRbnpabzdLQnhSTHRlTXZ2VnU5a3JrLU5CeG83S3NkaS0xUDJBdjBIYWh3dm_SAbMBQVVfeXFMT2pMZmhURzdjTi1GNDc2bUExTEFqMmptSmdpeDRxYnppcld6QkptNTdXTmFoZG9PWVptSTVWdlJtT1c5alQtbjJ4YTdPa2N2emEzQWsyX0xsWXRlYUFTM2c2V1FwaFk2dE55TEg5Z1RnVGRzaC01Y1dVQUtWQnZWVHhGVzJaaFFhUXlRdUtlbmtLY0pyOUFIR0JyMHBxVEo2MHNLUkJuYjdlU1Z1WVlrUDJWNDg?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-25T18:30:03.407300+00:00",
+   "outlet": "Google News",
+   "resolvable": true,
+   "title": "Whirlpool of India Ltd: bulk deal",
+   "url": ""
   }
  ],
  "synopsis": "Whirlpool of India shares surged 20% to hit the upper circuit at Rs 865.35 on the BSE following reports that promoter Whirlpool Mauritius is mulling the sale of its entire remaining 39.76% stake in the household appliances maker. The deal is reportedly in its final stages with an announcement expected in coming weeks, and potential buyers include large investors and a major multinational consumer durables company. The promoter has been reducing its holding from 75% down to 39.76% over the past three years, including an 11.24% stake sale last year.",
  "ticker": "WHIRLPOOL.NS",
- "updatedAt": "2026-09-23T12:46:06.285863+00:00"
+ "updatedAt": "2026-09-25T18:30:03.408275+00:00"
 }
