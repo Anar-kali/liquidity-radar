@@ -1,7 +1,7 @@
 {
  "advisers": [],
- "amountCr": null,
- "amountRaw": null,
+ "amountCr": 1225.0,
+ "amountRaw": "Rs 1,225 Cr",
  "buyer": null,
  "company": "Anjali Labtech Limited",
  "confidence": "medium",
@@ -16,7 +16,7 @@
  "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/anjali-labtech-limited-udrhp-i_104737.html",
  "seller": null,
  "sizeBand": null,
- "sizeSource": "unknown",
+ "sizeSource": "stated",
  "sources": [
   {
    "attachedAt": "2026-09-25T07:31:05.974506+00:00",
@@ -31,9 +31,16 @@
    "resolvable": true,
    "title": "Anjali Labtech Limited",
    "url": "https://www.sebi.gov.in/sebi_data/commondocs/sep-2026/Anjali%20Labtech%20Limited%20-%20DAP_p.pdf"
+  },
+  {
+   "attachedAt": "2026-09-25T11:46:03.402172+00:00",
+   "outlet": "Rediff MoneyWiz",
+   "resolvable": false,
+   "title": "Anjali LabTech Files Updated Papers for Rs 1,225 Cr Lab-Grown Diamond IPO",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOV01BYmpkMjNWWXRsZ1ZPLTEwUGRBX3VJbUFRd0dwSTg1UzAyQ0d4c1dKdTRwOXFYTU5wZU93akxROU5ZQkhzQWZQYkJmQXRfM0VCSE5zcU5aTWRPSC14aVJfY19Qc3VFWkdvUVF0Rkt2TG9DeXBCbXk5amJVM0xFZXNmMHcxOWE0MjBZWXdpSlZSdkp0RmljWTFmZjhkNDdXUE01TDE2OVMzNlBOcTEtUktZNVVqMmpjRTh4WG1neEFDZ1XSAcgBQVVfeXFMUGRmd3J1eUFDZ181UFNvV3N2R29fMVlHeVJuTTI0eElwSjh2cnY2YWpick1wRzFwOXJmS29KYS1GdUx0d1pkWXEzRUx0eTVIVjRrVTBWSG5IS1M2cTFrbjZmckNQUi0ycDlFQjlmcUdmTnFmU2ZKTXRscmktNnJLX0J1ZEhrck1lcWRBT0NZU1ZDU0s0WGRWaHZuYXBLdVgyWnViQ0kwMXY1Nmg5V1JDeTFzNHBGUHcxNDRISWd0Q1NIMHFna0RQamg?oc=5"
   }
  ],
  "synopsis": null,
  "ticker": null,
- "updatedAt": "2026-09-25T07:31:05.973093+00:00"
+ "updatedAt": "2026-09-25T11:46:03.403521+00:00"
 }

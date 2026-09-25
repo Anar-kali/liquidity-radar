@@ -51,8 +51,8 @@
    ]
   },
   {
-   "amountCr": null,
-   "amountRaw": null,
+   "amountCr": 1225.0,
+   "amountRaw": "Rs 1,225 Cr",
    "company": "Anjali Labtech Limited",
    "confidence": "medium",
    "confirmed": false,
@@ -66,14 +66,18 @@
    "primaryOutlet": "Draft Abridged Prospectus",
    "seller": null,
    "sizeBand": null,
-   "sizeSource": "unknown",
-   "sourceCount": 2,
+   "sizeSource": "stated",
+   "sourceCount": 3,
    "ticker": null,
-   "updatedAt": "2026-09-25T07:31:05.973093+00:00",
+   "updatedAt": "2026-09-25T11:46:03.403521+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-25T07:31:05.983829+00:00",
      "title": "Anjali Labtech Limited"
+    },
+    {
+     "attachedAt": "2026-09-25T11:46:03.402172+00:00",
+     "title": "Anjali LabTech Files Updated Papers for Rs 1,225 Cr Lab-Grown Diamond IPO"
     }
    ]
   },
@@ -21394,6 +21398,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-25T09:46:07.449638+00:00",
+ "generatedAt": "2026-09-25T11:46:03.403521+00:00",
  "totalDeals": 685
 }
