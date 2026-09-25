@@ -1,6 +1,32 @@
 {
- "dealCount": 680,
+ "dealCount": 681,
  "deals": [
+  {
+   "amountCr": 725.0,
+   "amountRaw": "Rs 725 crore",
+   "company": "Ekkaa Electronics",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-25T04:15:55.985180+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 1007,
+   "individuals": [
+    "Chandra Prakash Gupta",
+    "Madhuri Gupta",
+    "Mukul Agrawal"
+   ],
+   "listed": false,
+   "oneLine": "Ekkaa Electronics files for Rs 725 crore IPO.",
+   "primaryOutlet": "Moneycontrol.com",
+   "seller": "Chandra Prakash Gupta and his wife, Madhuri Gupta",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-25T04:15:59.995349+00:00",
+   "updates": []
+  },
   {
    "amountCr": 7806.7,
    "amountRaw": "26% x mcap ~Rs 30026cr = ~Rs 7807cr",
@@ -21191,6 +21217,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-25T04:01:13.056838+00:00",
- "totalDeals": 680
+ "generatedAt": "2026-09-25T04:15:59.995349+00:00",
+ "totalDeals": 681
 }
