@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Clarid Pharmaceuticals Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-25T01:31:14.049046+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": null,
+ "id": 1005,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Clarid Pharmaceuticals filed a DRHP with SEBI for an upcoming IPO.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOR2xNekdiWXg3aTdRZDlUY0ZHYVJZd0RKSnZhbkIydTZQNWJCYW5MM2NmcGdadW11T3FBMm1HX0xmZ3lTQlJENXUtMjFqMjA2RWhVSm9HUGVxM2NMN2tpNVZKMHVvZnBtRTZDRXBZMkd5a1duRmxBWDRNREtRUTNPNUZDZEx6SU5UcUpLOHd3YWxpU0k?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-25T01:31:14.050629+00:00",
+   "outlet": "Business Remedies",
+   "resolvable": false,
+   "title": "Clarid Pharmaceuticals Limited ने SEBI के पास DRHP दाखिल किया",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOR2xNekdiWXg3aTdRZDlUY0ZHYVJZd0RKSnZhbkIydTZQNWJCYW5MM2NmcGdadW11T3FBMm1HX0xmZ3lTQlJENXUtMjFqMjA2RWhVSm9HUGVxM2NMN2tpNVZKMHVvZnBtRTZDRXBZMkd5a1duRmxBWDRNREtRUTNPNUZDZEx6SU5UcUpLOHd3YWxpU0k?oc=5"
+  }
+ ],
+ "synopsis": "Claroid Pharmaceuticals Limited has filed a Draft Red Herring Prospectus with the Securities and Exchange Board of India to raise funds through an initial public offering. The proposed IPO consists of a fresh issue of up to 74,50,000 equity shares and an offer for sale of up to 51,50,000 equity shares, totaling up to 1,26,00,000 equity shares with a face value of Rs. 10 each. The proceeds from the fresh issue will be utilized to fund capital expenditure for establishing a new manufacturing unit on existing land for products such as injections, ampoules, vials, dry powders, pre-filled syringes, and eye drops. OneView Corporate Advisors Private Limited and Valmiki Leela Capital Private Limited are acting as the book running lead managers for the offer.",
+ "ticker": null,
+ "updatedAt": "2026-09-25T01:31:20.776265+00:00"
+}

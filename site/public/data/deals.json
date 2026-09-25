@@ -1,9 +1,53 @@
 {
- "dealCount": 678,
+ "dealCount": 680,
  "deals": [
+  {
+   "amountCr": 7806.7,
+   "amountRaw": "26% x mcap ~Rs 30026cr = ~Rs 7807cr",
+   "company": "Manappuram Finance",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-25T01:31:14.064141+00:00",
+   "dealType": "open offer",
+   "enrichmentState": "failed",
+   "id": 1006,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "BC Asia launched an open offer for a 26% stake acquisition in Manappuram Finance.",
+   "primaryOutlet": "scanx.trade",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "computed",
+   "sourceCount": 1,
+   "ticker": "MANAPPURAM.NS",
+   "updatedAt": "2026-09-25T01:31:14.064141+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
+   "company": "Clarid Pharmaceuticals Limited",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-25T01:31:14.049046+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 1005,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Clarid Pharmaceuticals filed a DRHP with SEBI for an upcoming IPO.",
+   "primaryOutlet": "Business Remedies",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-25T01:31:20.776265+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 202.0,
+   "amountRaw": "₹202 Cr",
    "company": "FirstCry",
    "confidence": "medium",
    "confirmed": false,
@@ -17,11 +61,16 @@
    "primaryOutlet": "Moneycontrol.com",
    "seller": "PE investors",
    "sizeBand": null,
-   "sizeSource": "mcap_plausible",
-   "sourceCount": 1,
+   "sizeSource": "stated",
+   "sourceCount": 2,
    "ticker": "FIRSTCRY.NS",
-   "updatedAt": "2026-09-24T17:31:25.210603+00:00",
-   "updates": []
+   "updatedAt": "2026-09-25T01:31:14.083256+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-09-25T01:31:14.082353+00:00",
+     "title": "TPG Exits FirstCry With ₹202 Cr Bulk Deal"
+    }
+   ]
   },
   {
    "amountCr": 513.0,
@@ -1581,7 +1630,7 @@
    "seller": "Mastercard",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 4,
+   "sourceCount": 5,
    "ticker": "PINELABS.NS",
    "updatedAt": "2026-09-22T05:25:44.692397+00:00",
    "updates": [
@@ -1596,6 +1645,10 @@
     {
      "attachedAt": "2026-09-23T06:01:52.836347+00:00",
      "title": "Mastercard sells entire 4.31% Pine Labs stake for Rs 934 Cr"
+    },
+    {
+     "attachedAt": "2026-09-25T01:31:14.077204+00:00",
+     "title": "Mastercard Exits Pine Labs, Sells 4.31% Stake for Rs 933C"
     }
    ]
   },
@@ -2440,13 +2493,17 @@
    "seller": "JSW One Platforms",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-09-22T05:25:44.632961+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-18T03:31:30.269576+00:00",
      "title": "ETSA winner Theranautilus heads to human trials; JSW One’s IPO plans"
+    },
+    {
+     "attachedAt": "2026-09-25T01:31:14.074215+00:00",
+     "title": "JSW One files IPO papers to raise over ₹3,000 crore"
     }
    ]
   },
@@ -5582,7 +5639,7 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 4,
+   "sourceCount": 5,
    "ticker": null,
    "updatedAt": "2026-09-07T06:31:24.186936+00:00",
    "updates": [
@@ -5597,6 +5654,10 @@
     {
      "attachedAt": "2026-09-07T11:31:19.295089+00:00",
      "title": "Inox Clean Energy Readies ₹10,000 Crore IPO After Fresh Funding"
+    },
+    {
+     "attachedAt": "2026-09-25T01:31:14.060604+00:00",
+     "title": "Inox Clean Energy set to file Rs 10,000 crore IPO with SEBI"
     }
    ]
   },
@@ -21111,6 +21172,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-24T17:31:25.210603+00:00",
- "totalDeals": 678
+ "generatedAt": "2026-09-25T01:31:20.776265+00:00",
+ "totalDeals": 680
 }

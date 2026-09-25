@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 7806.7,
+ "amountRaw": "26% x mcap ~Rs 30026cr = ~Rs 7807cr",
+ "buyer": "BC Asia",
+ "company": "Manappuram Finance",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-25T01:31:14.064141+00:00",
+ "dealType": "open offer",
+ "enrichmentState": "failed",
+ "id": 1006,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "BC Asia launched an open offer for a 26% stake acquisition in Manappuram Finance.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNdmVyWkl3VXZITnVDMTB4YmtlenNBNk1HZE1wSzFGc2d2bGh2RHl1ZVBJR3h1YzRlR1lCYXI1VjBhNVJZZC1UbjUtanJjQ1FPTzNFZi00aENSd2FFT1ktNmduQm5VekZ2bkF2VlVVX3BxQVVaN21JMnpoRjRNenVOUVUzYWFKWDZFYmRrTXFDcGhaMWxDWFVqeGJUcXZJakdiZWtUQjBaNEFicVZQQ0w5T3VhZWp2amtOSkloR3JDVmhFTll5S0wzYjRqRlhuUHpZZGM1SFFR?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "computed",
+ "sources": [
+  {
+   "attachedAt": "2026-09-25T01:31:14.065457+00:00",
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "Manappuram Finance Open Offer Launched for 26% Stake Acquisition by BC Asia",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNdmVyWkl3VXZITnVDMTB4YmtlenNBNk1HZE1wSzFGc2d2bGh2RHl1ZVBJR3h1YzRlR1lCYXI1VjBhNVJZZC1UbjUtanJjQ1FPTzNFZi00aENSd2FFT1ktNmduQm5VekZ2bkF2VlVVX3BxQVVaN21JMnpoRjRNenVOUVUzYWFKWDZFYmRrTXFDcGhaMWxDWFVqeGJUcXZJakdiZWtUQjBaNEFicVZQQ0w5T3VhZWp2amtOSkloR3JDVmhFTll5S0wzYjRqRlhuUHpZZGM1SFFR?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": "MANAPPURAM.NS",
+ "updatedAt": "2026-09-25T01:31:14.064141+00:00"
+}
