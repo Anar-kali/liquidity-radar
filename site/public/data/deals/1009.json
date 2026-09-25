@@ -1,0 +1,39 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Anjali Labtech Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-25T07:31:05.973093+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": "failed",
+ "id": 1009,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Anjali Labtech filed a draft offer document with SEBI for an IPO.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/anjali-labtech-limited-udrhp-i_104737.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-25T07:31:05.974506+00:00",
+   "outlet": "Draft Abridged Prospectus",
+   "resolvable": true,
+   "title": "Anjali Labtech Limited - UDRHP-IAnjali Labtech Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/anjali-labtech-limited-udrhp-i_104737.html"
+  },
+  {
+   "attachedAt": "2026-09-25T07:31:05.983829+00:00",
+   "outlet": "Draft Abridged Prospectus",
+   "resolvable": true,
+   "title": "Anjali Labtech Limited",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/sep-2026/Anjali%20Labtech%20Limited%20-%20DAP_p.pdf"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-09-25T07:31:05.973093+00:00"
+}

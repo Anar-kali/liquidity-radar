@@ -1,6 +1,33 @@
 {
- "dealCount": 682,
+ "dealCount": 683,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Anjali Labtech Limited",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-25T07:31:05.973093+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 1009,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Anjali Labtech filed a draft offer document with SEBI for an IPO.",
+   "primaryOutlet": "Draft Abridged Prospectus",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 2,
+   "ticker": null,
+   "updatedAt": "2026-09-25T07:31:05.973093+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-09-25T07:31:05.983829+00:00",
+     "title": "Anjali Labtech Limited"
+    }
+   ]
+  },
   {
    "amountCr": 1000.0,
    "amountRaw": "Rs 1,000 crore",
@@ -44,7 +71,7 @@
    "seller": "Chandra Prakash Gupta and his wife, Madhuri Gupta",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-09-25T04:15:59.995349+00:00",
    "updates": [
@@ -55,6 +82,10 @@
     {
      "attachedAt": "2026-09-25T07:16:02.222078+00:00",
      "title": "Ekkaa Electronics Files DRHP With Sebi For ₹725 Crore IPO To Repay Debt And Fund Working Capital"
+    },
+    {
+     "attachedAt": "2026-09-25T07:31:06.001600+00:00",
+     "title": "Ekkaa Electronics Files Rs 725 Cr IPO with Sebi"
     }
    ]
   },
@@ -2575,7 +2606,7 @@
    "seller": "JSW One Platforms",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 8,
+   "sourceCount": 10,
    "ticker": null,
    "updatedAt": "2026-09-25T04:01:13.056838+00:00",
    "updates": [
@@ -2606,6 +2637,14 @@
     {
      "attachedAt": "2026-09-25T06:16:01.746548+00:00",
      "title": "JSW One Platforms Files DRHP, Plans Rs 3,054 Crore IPO"
+    },
+    {
+     "attachedAt": "2026-09-25T07:31:05.993341+00:00",
+     "title": "JSW One Platforms files IPO papers with SEBI to raise ₹3,054 crore"
+    },
+    {
+     "attachedAt": "2026-09-25T07:31:06.010692+00:00",
+     "title": "JSW One Platforms files draft papers with SEBI for ₹3,054 crore IPO"
     }
    ]
   },
@@ -5741,7 +5780,7 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 6,
+   "sourceCount": 7,
    "ticker": null,
    "updatedAt": "2026-09-07T06:31:24.186936+00:00",
    "updates": [
@@ -5764,6 +5803,10 @@
     {
      "attachedAt": "2026-09-25T06:16:01.758668+00:00",
      "title": "Inox Clean Energy IPO: ₹10,000 Cr Issue, ₹1 Lakh Cr Valuation Plan"
+    },
+    {
+     "attachedAt": "2026-09-25T07:31:06.020767+00:00",
+     "title": "Inox Clean Energy IPO: INR 10,000 Crore Issue, Business and Growth Plans"
     }
    ]
   },
@@ -21278,6 +21321,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-25T07:01:12.616127+00:00",
- "totalDeals": 682
+ "generatedAt": "2026-09-25T07:31:05.973093+00:00",
+ "totalDeals": 683
 }
