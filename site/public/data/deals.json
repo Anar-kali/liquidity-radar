@@ -238,7 +238,7 @@
    "seller": "Accel and 360 ONE",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": "BLUESTONE.NS",
    "updatedAt": "2026-09-25T09:16:02.541733+00:00",
    "updates": [
@@ -249,6 +249,10 @@
     {
      "attachedAt": "2026-09-25T09:16:02.540689+00:00",
      "title": "Accel India, 360 ONE Group sell over 4% stake in BlueStone for ₹513 cr"
+    },
+    {
+     "attachedAt": "2026-09-25T12:16:01.753417+00:00",
+     "title": "Accel, 360 ONE offload 4.07% stake in BlueStone for Rs 513 Cr via bulk deals"
     }
    ]
   },
