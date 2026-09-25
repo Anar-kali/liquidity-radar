@@ -2633,7 +2633,7 @@
    "seller": "JSW One Platforms",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 10,
+   "sourceCount": 11,
    "ticker": null,
    "updatedAt": "2026-09-25T04:01:13.056838+00:00",
    "updates": [
@@ -2672,6 +2672,10 @@
     {
      "attachedAt": "2026-09-25T07:31:06.010692+00:00",
      "title": "JSW One Platforms files draft papers with SEBI for ₹3,054 crore IPO"
+    },
+    {
+     "attachedAt": "2026-09-25T08:46:12.457939+00:00",
+     "title": "JSW One Platforms files DRHP, plans to raise Rs 3,054 crore; JSW Steel and JSW Cement to sell stake"
     }
    ]
   },
