@@ -2495,16 +2495,18 @@
    "dealType": "DRHP filing",
    "enrichmentState": null,
    "id": 898,
-   "individuals": [],
+   "individuals": [
+    "Sajjan Jindal"
+   ],
    "listed": false,
    "oneLine": "JSW One plans to file Rs 3,000-crore IPO papers.",
    "primaryOutlet": "The Economic Times",
    "seller": "JSW One Platforms",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 5,
    "ticker": null,
-   "updatedAt": "2026-09-22T05:25:44.632961+00:00",
+   "updatedAt": "2026-09-25T04:01:13.056838+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-18T03:31:30.269576+00:00",
@@ -2513,6 +2515,14 @@
     {
      "attachedAt": "2026-09-25T01:31:14.074215+00:00",
      "title": "JSW One files IPO papers to raise over ₹3,000 crore"
+    },
+    {
+     "attachedAt": "2026-09-25T04:01:13.054965+00:00",
+     "title": "Sajjan Jindal's B2B commerce player JSW One Platforms files draft papers for Rs 3,054-crore IPO"
+    },
+    {
+     "attachedAt": "2026-09-25T04:01:13.066313+00:00",
+     "title": "JSW One Platforms Files DRHP With SEBI To Raise Up To Rs 3,054 Crore In IPO"
     }
    ]
   },
@@ -21181,6 +21191,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-25T01:31:20.776265+00:00",
+ "generatedAt": "2026-09-25T04:01:13.056838+00:00",
  "totalDeals": 680
 }
