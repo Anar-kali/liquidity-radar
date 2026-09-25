@@ -887,7 +887,7 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-09-24T01:31:13.313290+00:00",
    "updates": [
@@ -898,6 +898,10 @@
     {
      "attachedAt": "2026-09-24T13:16:25.418922+00:00",
      "title": "Claroid Pharmaceuticals files draft papers with SEBI to raise funds through IPO"
+    },
+    {
+     "attachedAt": "2026-09-25T10:01:10.097654+00:00",
+     "title": "Claroid Pharmaceuticals Limited files DRHP with SEBI"
     }
    ]
   },
