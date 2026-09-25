@@ -282,7 +282,7 @@
    "seller": "Accel and 360 ONE",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 4,
+   "sourceCount": 5,
    "ticker": "BLUESTONE.NS",
    "updatedAt": "2026-09-25T09:16:02.541733+00:00",
    "updates": [
@@ -297,6 +297,10 @@
     {
      "attachedAt": "2026-09-25T12:16:01.753417+00:00",
      "title": "Accel, 360 ONE offload 4.07% stake in BlueStone for Rs 513 Cr via bulk deals"
+    },
+    {
+     "attachedAt": "2026-09-25T16:01:25.012131+00:00",
+     "title": "Accel, 360 ONE sell Rs 513 cr BlueStone stake"
     }
    ]
   },
@@ -2727,7 +2731,7 @@
    "seller": "JSW One Platforms",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 15,
+   "sourceCount": 16,
    "ticker": null,
    "updatedAt": "2026-09-25T04:01:13.056838+00:00",
    "updates": [
@@ -2786,6 +2790,10 @@
     {
      "attachedAt": "2026-09-25T12:46:04.164340+00:00",
      "title": "JSW One IPO: JSW Group arm files DRHP for Rs 3,054 crore issue; check offer size, risks"
+    },
+    {
+     "attachedAt": "2026-09-25T16:01:25.009055+00:00",
+     "title": "JSW One Platforms moves SEBI for ₹3,054-cr IPO"
     }
    ]
   },
