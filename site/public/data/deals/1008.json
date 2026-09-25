@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 1000.0,
+ "amountRaw": "Rs 1,000 crore",
+ "buyer": "Public investors",
+ "company": "Air IQ",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-25T06:46:05.963646+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": null,
+ "id": 1008,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Air IQ files confidential DRHP for an IPO worth Rs 1,000 crore, creating upcoming promoter liquidity.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSXBhMTVPVS05Rm5Dbm1QcDZROFdzZHVxaExKOTNIeEIxamV0SVBmZ0JPY2U5YktwQ0ExeDVQdy1RRlphRmV3YVYyREZLUTlvQ2JJRmx3NG5sSk1TaEY2RWw4YU1TdWhwUklBVVE2Yk81ZHpCa2drLXRNTklSOXdFaDRvSk1kRDlOWm5LVVdKbjRUS3hEdkdpWmtxY3VUMjh2dTJKY3Jvc1FwMzNJTGVoTUNvSXbSAboBQVVfeXFMT0dLVHM1Q0RJYnE0YVVxMGlkWUEwNlBrLTNUenhKM0diU3g2dmtpVHJXTkExdHp4dWNhbDlNaUNWSzBxR3lJZEV5dGt5U2RfRE1ZUzhOZVI5eUN3Q2NUMjctUl9lZTNhZ2hGTENvb0R0a1dvMUdfZ1dub1RScjZYLU5xYnBGWU0tdjBlRWRndmwxOUowdU1TUGVpWHNnNGg4YW5BNjBCNElmZUhoUEZsd1lfaU42TmFGX3Vn?oc=5",
+ "seller": "Promoters and promoter family",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-25T06:46:05.965040+00:00",
+   "outlet": "Moneycontrol.com",
+   "resolvable": false,
+   "title": "Air IQ files confidential DRHP for Rs 1,000 crore IPO",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSXBhMTVPVS05Rm5Dbm1QcDZROFdzZHVxaExKOTNIeEIxamV0SVBmZ0JPY2U5YktwQ0ExeDVQdy1RRlphRmV3YVYyREZLUTlvQ2JJRmx3NG5sSk1TaEY2RWw4YU1TdWhwUklBVVE2Yk81ZHpCa2drLXRNTklSOXdFaDRvSk1kRDlOWm5LVVdKbjRUS3hEdkdpWmtxY3VUMjh2dTJKY3Jvc1FwMzNJTGVoTUNvSXbSAboBQVVfeXFMT0dLVHM1Q0RJYnE0YVVxMGlkWUEwNlBrLTNUenhKM0diU3g2dmtpVHJXTkExdHp4dWNhbDlNaUNWSzBxR3lJZEV5dGt5U2RfRE1ZUzhOZVI5eUN3Q2NUMjctUl9lZTNhZ2hGTENvb0R0a1dvMUdfZ1dub1RScjZYLU5xYnBGWU0tdjBlRWRndmwxOUowdU1TUGVpWHNnNGg4YW5BNjBCNElmZUhoUEZsd1lfaU42TmFGX3Vn?oc=5"
+  }
+ ],
+ "synopsis": "Travel tech firm Air IQ has confidentially filed draft papers with SEBI for an initial public offering to raise around Rs 1,000 crore. The offering comprises a mix of a fresh issue and an offer for sale, with the OFS accounting for roughly 60 percent of the issue. The promoters and promoter family will be selling a portion of their shares in the OFS, creating upcoming promoter liquidity. Pantomath Capital Advisors is acting as the sole book running lead manager for the IPO.",
+ "ticker": null,
+ "updatedAt": "2026-09-25T06:46:09.669753+00:00"
+}

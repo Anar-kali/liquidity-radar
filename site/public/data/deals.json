@@ -1,6 +1,28 @@
 {
- "dealCount": 681,
+ "dealCount": 682,
  "deals": [
+  {
+   "amountCr": 1000.0,
+   "amountRaw": "Rs 1,000 crore",
+   "company": "Air IQ",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-25T06:46:05.963646+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 1008,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Air IQ files confidential DRHP for an IPO worth Rs 1,000 crore, creating upcoming promoter liquidity.",
+   "primaryOutlet": "Moneycontrol.com",
+   "seller": "Promoters and promoter family",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-25T06:46:09.669753+00:00",
+   "updates": []
+  },
   {
    "amountCr": 725.0,
    "amountRaw": "Rs 725 crore",
@@ -22,10 +44,15 @@
    "seller": "Chandra Prakash Gupta and his wife, Madhuri Gupta",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-09-25T04:15:59.995349+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-09-25T06:46:05.948677+00:00",
+     "title": "Ekkaa Electronics files papers for Rs 725 crore IPO"
+    }
+   ]
   },
   {
    "amountCr": 7806.7,
@@ -21242,6 +21269,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-25T04:15:59.995349+00:00",
- "totalDeals": 681
+ "generatedAt": "2026-09-25T06:46:09.669753+00:00",
+ "totalDeals": 682
 }
