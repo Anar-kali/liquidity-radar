@@ -2534,7 +2534,7 @@
    "seller": "JSW One Platforms",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 7,
+   "sourceCount": 8,
    "ticker": null,
    "updatedAt": "2026-09-25T04:01:13.056838+00:00",
    "updates": [
@@ -2561,6 +2561,10 @@
     {
      "attachedAt": "2026-09-25T05:46:04.377748+00:00",
      "title": "JSW One Platforms Files Draft Papers for Rs 3,054 Crore IPO"
+    },
+    {
+     "attachedAt": "2026-09-25T06:16:01.746548+00:00",
+     "title": "JSW One Platforms Files DRHP, Plans Rs 3,054 Crore IPO"
     }
    ]
   },
@@ -5696,7 +5700,7 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 5,
+   "sourceCount": 6,
    "ticker": null,
    "updatedAt": "2026-09-07T06:31:24.186936+00:00",
    "updates": [
@@ -5715,6 +5719,10 @@
     {
      "attachedAt": "2026-09-25T01:31:14.060604+00:00",
      "title": "Inox Clean Energy set to file Rs 10,000 crore IPO with SEBI"
+    },
+    {
+     "attachedAt": "2026-09-25T06:16:01.758668+00:00",
+     "title": "Inox Clean Energy IPO: ₹10,000 Cr Issue, ₹1 Lakh Cr Valuation Plan"
     }
    ]
   },
