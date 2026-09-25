@@ -1221,7 +1221,7 @@
    "seller": "Runwal Enterprises",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 6,
+   "sourceCount": 7,
    "ticker": null,
    "updatedAt": "2026-09-22T12:02:12.776131+00:00",
    "updates": [
@@ -1244,6 +1244,10 @@
     {
      "attachedAt": "2026-09-24T15:34:58.255326+00:00",
      "title": "Runwal Enterprises Targets Lower Debt After ₹500 Crore IPO as Mumbai Expansion Plans Grow"
+    },
+    {
+     "attachedAt": "2026-09-25T10:16:09.733785+00:00",
+     "title": "Runwal Enterprises plans to cut debt and shift focus to luxury housing after ₹500 crore IPO"
     }
    ]
   },
@@ -2663,7 +2667,7 @@
    "seller": "JSW One Platforms",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 12,
+   "sourceCount": 13,
    "ticker": null,
    "updatedAt": "2026-09-25T04:01:13.056838+00:00",
    "updates": [
@@ -2710,6 +2714,10 @@
     {
      "attachedAt": "2026-09-25T09:16:02.537628+00:00",
      "title": "Sajjan Jindal-backed JSW One Platforms filed DRHP with SEBI to launch IPO; key details"
+    },
+    {
+     "attachedAt": "2026-09-25T10:16:09.722968+00:00",
+     "title": "JSW One Platforms IPO: INR 3,054 Crore DRHP Filed With SEBI"
     }
    ]
   },
