@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Integrum Energy Infrastructure",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-25T08:01:14.792069+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": null,
+ "id": 1010,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Integrum Energy Infrastructure filed papers with SEBI for an IPO to raise funds.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOVExxemRVaHJKeW9VbGtPQ0Z1V1JiYTMyWWtIM1I0QXVCMTRsTzZMb2J6NVJsQWNtdVlScnJQVERHSUs1QVIzVU4zcFFjeUs3bEFVVUtOMXBqa2kxZFZMOW5NWTRKOEl3UGJzM1l3QmVleXJhaFRNSTdpelo1cWNZNGV0TWVpSGxIa0c4c040aDl3Z2lJTWZyQldBSmxIU2k4d1Q3VG9MODhPdzJycXppbVhTcUp2WmZlTjdTNUFHSHpQb1dSOUxPdDlibGRjN21nVlJoNWZMeTgzbW5uRENGbGZlR2gyTnPSAecBQVVfeXFMTlRMcXpkVWhySnlvVWxrT0NGdVdSYmEzMllrSDNSNEF1QjE0bE82TG9iejVSbEFjbXVZUnJyUFRER0lLNUFSM1VOM3BRY3lLN2xBVVVLTjFwamtpMWRWTDluTVk0SjhJd1BiczNZd0JlZXlyYWhUTUk3aXpaNXFjWTRldE1laUhsSGtHOHNONGg5d2dpSU1mckJXQUpsSFNpOHdUN1RvTDg4T3cycnF6aW1YU3FKdlpmZU43UzVBR0h6UG9XUjlMT3Q5YmxkYzdtZ1ZSaDVmTHk4M21ubkRDRmxmZUdoMk5z?oc=5",
+ "seller": "promoters and existing shareholders",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-25T08:01:14.808631+00:00",
+   "outlet": "The Economic Times",
+   "resolvable": false,
+   "title": "Integrum Energy Infrastructure files papers with Sebi to raise funds via IPO",
+   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOVExxemRVaHJKeW9VbGtPQ0Z1V1JiYTMyWWtIM1I0QXVCMTRsTzZMb2J6NVJsQWNtdVlScnJQVERHSUs1QVIzVU4zcFFjeUs3bEFVVUtOMXBqa2kxZFZMOW5NWTRKOEl3UGJzM1l3QmVleXJhaFRNSTdpelo1cWNZNGV0TWVpSGxIa0c4c040aDl3Z2lJTWZyQldBSmxIU2k4d1Q3VG9MODhPdzJycXppbVhTcUp2WmZlTjdTNUFHSHpQb1dSOUxPdDlibGRjN21nVlJoNWZMeTgzbW5uRENGbGZlR2gyTnPSAecBQVVfeXFMTlRMcXpkVWhySnlvVWxrT0NGdVdSYmEzMllrSDNSNEF1QjE0bE82TG9iejVSbEFjbXVZUnJyUFRER0lLNUFSM1VOM3BRY3lLN2xBVVVLTjFwamtpMWRWTDluTVk0SjhJd1BiczNZd0JlZXlyYWhUTUk3aXpaNXFjWTRldE1laUhsSGtHOHNONGg5d2dpSU1mckJXQUpsSFNpOHdUN1RvTDg4T3cycnF6aW1YU3FKdlpmZU43UzVBR0h6UG9XUjlMT3Q5YmxkYzdtZ1ZSaDVmTHk4M21ubkRDRmxmZUdoMk5z?oc=5"
+  }
+ ],
+ "synopsis": "Integrum Energy Infrastructure has filed preliminary papers with SEBI for an initial public offering to raise funds. The proposed IPO comprises a fresh issue of 1.58 crore equity shares and an Offer for Sale of 82.42 lakh equity shares by promoters and existing shareholders, totaling 2.41 crore equity shares. The proceeds are intended for working capital requirements, investment in subsidiary Integrum Green Assets for wind turbine procurement, debt repayment, and acquiring a controlling interest in Stactiv Energy Services. The book-running lead managers for the offering are Mefcom Capital Markets, Centrum Broking, and Beeline Capital Advisors.",
+ "ticker": null,
+ "updatedAt": "2026-09-25T08:01:19.231728+00:00"
+}

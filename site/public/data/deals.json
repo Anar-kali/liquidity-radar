@@ -1,6 +1,28 @@
 {
- "dealCount": 683,
+ "dealCount": 684,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Integrum Energy Infrastructure",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-25T08:01:14.792069+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 1010,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Integrum Energy Infrastructure filed papers with SEBI for an IPO to raise funds.",
+   "primaryOutlet": "The Economic Times",
+   "seller": "promoters and existing shareholders",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-25T08:01:19.231728+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -21321,6 +21343,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-25T07:31:05.973093+00:00",
- "totalDeals": 683
+ "generatedAt": "2026-09-25T08:01:19.231728+00:00",
+ "totalDeals": 684
 }
