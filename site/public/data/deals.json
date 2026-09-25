@@ -130,8 +130,8 @@
    ]
   },
   {
-   "amountCr": 513.0,
-   "amountRaw": "₹513 Cr",
+   "amountCr": 303.5,
+   "amountRaw": "2.5% x mcap ~Rs 12140cr = ~Rs 304cr",
    "company": "BlueStone",
    "confidence": "medium",
    "confirmed": false,
@@ -146,10 +146,15 @@
    "seller": "Accel and 360 ONE",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": "BLUESTONE.NS",
-   "updatedAt": "2026-09-24T16:32:53.187667+00:00",
-   "updates": []
+   "updatedAt": "2026-09-25T07:01:12.616127+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-09-25T07:01:12.614937+00:00",
+     "title": "Accel India sells 2.5% stake in Bluestone Jewellery"
+    }
+   ]
   },
   {
    "amountCr": 326.0,
@@ -21269,6 +21274,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-25T06:46:09.669753+00:00",
+ "generatedAt": "2026-09-25T07:01:12.616127+00:00",
  "totalDeals": 682
 }
