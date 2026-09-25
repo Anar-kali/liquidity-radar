@@ -466,10 +466,15 @@
    "seller": "Investors",
    "sizeBand": null,
    "sizeSource": "computed",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": "NEPHROPLUS.NS",
    "updatedAt": "2026-09-24T01:31:23.428351+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-09-25T02:46:00.337543+00:00",
+     "title": "Nephrocare investors to sell 9% stake for Rs 650 crore under block deal"
+    }
+   ]
   },
   {
    "amountCr": 650.0,
