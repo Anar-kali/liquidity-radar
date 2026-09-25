@@ -1,6 +1,28 @@
 {
- "dealCount": 686,
+ "dealCount": 687,
  "deals": [
+  {
+   "amountCr": 2498.0,
+   "amountRaw": "Rs 2,498 crore",
+   "company": "Adani Enterprises",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-25T15:15:58.525026+00:00",
+   "dealType": "promoter sale",
+   "enrichmentState": null,
+   "id": 1013,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Promoter group executes a share deal worth Rs 2,498 crore.",
+   "primaryOutlet": "The Federal",
+   "seller": "promoter group",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "ADANIENT.NS",
+   "updatedAt": "2026-09-25T15:16:02.308529+00:00",
+   "updates": []
+  },
   {
    "amountCr": 2050.0,
    "amountRaw": "over ₹2,000 crore (₹1,450 crore primary capital infusion and about ₹600 crore secondary share purchase) (from article)",
@@ -21436,6 +21458,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-25T14:16:05.471360+00:00",
- "totalDeals": 686
+ "generatedAt": "2026-09-25T15:16:02.308529+00:00",
+ "totalDeals": 687
 }
