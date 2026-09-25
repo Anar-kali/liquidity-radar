@@ -1131,7 +1131,7 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 4,
+   "sourceCount": 5,
    "ticker": null,
    "updatedAt": "2026-09-22T11:01:30.217699+00:00",
    "updates": [
@@ -1146,6 +1146,10 @@
     {
      "attachedAt": "2026-09-24T15:34:58.174057+00:00",
      "title": "Rudra Cottex Files DRHP With SEBI for IPO of Up to 1.25 Crore Equity Shares"
+    },
+    {
+     "attachedAt": "2026-09-25T02:15:54.165865+00:00",
+     "title": "Rudra Cottex Files Draft IPO Papers With SEBI, Proposes Fresh Issue Of Up To 1.25 Crore Shares"
     }
    ]
   },
