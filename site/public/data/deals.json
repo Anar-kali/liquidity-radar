@@ -18,10 +18,15 @@
    "seller": "promoters",
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-09-26T07:16:15.605421+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-09-26T08:01:36.029778+00:00",
+     "title": "Deon Energy Sets Its IPO Plans In Motion, Submits Draft Fundraising Papers To SEBI"
+    }
+   ]
   },
   {
    "amountCr": 720.0,
@@ -43,13 +48,17 @@
    "seller": "Navratanmal Jeetmal Ganna and Jinesh Navratanmal Ganna",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-09-26T07:16:11.764258+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-26T07:16:07.123857+00:00",
      "title": "Baanganga Gold & Diamond Sets Sights On ₹720-Crore IPO, Jewellery Firm Files Draft Papers With SEBI"
+    },
+    {
+     "attachedAt": "2026-09-26T08:01:36.020025+00:00",
+     "title": "Baanganga Gold & Diamond files DRHP for Rs 720 crore IPO, fresh issue pegged at Rs 540 crore"
     }
    ]
   },
