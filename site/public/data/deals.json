@@ -53,10 +53,15 @@
    "seller": "Baijnath Choudhary & Family Trust",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": "ANMOL.NS",
    "updatedAt": "2026-09-26T09:45:55.083938+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-09-26T12:15:57.944972+00:00",
+     "title": "Anmol Industries Files DRHP for Rs 1,800 Cr IPO"
+    }
+   ]
   },
   {
    "amountCr": null,
