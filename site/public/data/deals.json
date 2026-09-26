@@ -1,6 +1,28 @@
 {
- "dealCount": 692,
+ "dealCount": 693,
  "deals": [
+  {
+   "amountCr": 600.0,
+   "amountRaw": "₹600 Crore",
+   "company": "J Infratech",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-26T10:15:53.421810+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 1019,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "J Infratech files for an IPO with a Rs 600 crore fresh issue.",
+   "primaryOutlet": "Free Press Journal",
+   "seller": "Promoters",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-26T10:15:57.118076+00:00",
+   "updates": []
+  },
   {
    "amountCr": 1800.0,
    "amountRaw": "₹1,800-crore",
@@ -70,7 +92,7 @@
    "seller": "Navratanmal Jeetmal Ganna and Jinesh Navratanmal Ganna",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-09-26T07:16:11.764258+00:00",
    "updates": [
@@ -81,6 +103,10 @@
     {
      "attachedAt": "2026-09-26T08:01:36.020025+00:00",
      "title": "Baanganga Gold & Diamond files DRHP for Rs 720 crore IPO, fresh issue pegged at Rs 540 crore"
+    },
+    {
+     "attachedAt": "2026-09-26T10:15:53.431647+00:00",
+     "title": "Baanganga Gold & Diamonds Files DRHP For Rs 720 Crore IPO Comprising Of Fresh Issue And Offer For Sale"
     }
    ]
   },
@@ -21648,6 +21674,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-26T09:45:55.083938+00:00",
- "totalDeals": 692
+ "generatedAt": "2026-09-26T10:15:57.118076+00:00",
+ "totalDeals": 693
 }
