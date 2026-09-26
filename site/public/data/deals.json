@@ -1,6 +1,58 @@
 {
- "dealCount": 689,
+ "dealCount": 691,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Deon Energy",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-26T07:16:06.932914+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 1017,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Deon Energy files draft papers for an IPO.",
+   "primaryOutlet": "Daily Excelsior",
+   "seller": "promoters",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-26T07:16:15.605421+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 720.0,
+   "amountRaw": "Rs 720-crore",
+   "company": "Baanganga Gold & Diamond",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-26T07:16:06.799815+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 1016,
+   "individuals": [
+    "Navratanmal Jeetmal Ganna",
+    "Jinesh Navratanmal Ganna"
+   ],
+   "listed": false,
+   "oneLine": "Baanganga Gold & Diamond filed draft papers for a Rs 720 crore IPO.",
+   "primaryOutlet": "Daily Excelsior",
+   "seller": "Navratanmal Jeetmal Ganna and Jinesh Navratanmal Ganna",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 2,
+   "ticker": null,
+   "updatedAt": "2026-09-26T07:16:11.764258+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-09-26T07:16:07.123857+00:00",
+     "title": "Baanganga Gold & Diamond Sets Sights On ₹720-Crore IPO, Jewellery Firm Files Draft Papers With SEBI"
+    }
+   ]
+  },
   {
    "amountCr": 3050.0,
    "amountRaw": "₹3,050 crore",
@@ -21561,6 +21613,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-26T04:31:01.285933+00:00",
- "totalDeals": 689
+ "generatedAt": "2026-09-26T07:16:15.605421+00:00",
+ "totalDeals": 691
 }
