@@ -1278,7 +1278,7 @@
    "seller": "Dalmia Bharat Refractories",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 6,
+   "sourceCount": 7,
    "ticker": "RHIM.NS",
    "updatedAt": "2026-09-22T18:04:11.490630+00:00",
    "updates": [
@@ -1301,6 +1301,10 @@
     {
      "attachedAt": "2026-09-23T04:31:32.828103+00:00",
      "title": "RHI Magnesita block deal: Dalmia Bharat Refractories sells 11% stake; check buyers, deal size"
+    },
+    {
+     "attachedAt": "2026-09-26T04:31:01.288786+00:00",
+     "title": "Dalmia Bharat Refractories sells over 11% stake in RHI Magnesita for INR 826 crore"
     }
    ]
   },
@@ -4763,13 +4767,18 @@
    "listed": false,
    "oneLine": "Runwal Enterprises submitted an addendum to its DRHP with SEBI.",
    "primaryOutlet": "Addendum to DRHP",
-   "seller": null,
+   "seller": "Runwal family",
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
-   "updatedAt": "2026-09-11T04:31:21.769845+00:00",
-   "updates": []
+   "updatedAt": "2026-09-26T04:31:01.285933+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-09-26T04:31:01.284369+00:00",
+     "title": "Can Runwal Enterprises IPO deliver long-term growth for high-risk investors?"
+    }
+   ]
   },
   {
    "amountCr": 1256.0,
@@ -21552,6 +21561,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-26T04:01:04.507972+00:00",
+ "generatedAt": "2026-09-26T04:31:01.285933+00:00",
  "totalDeals": 689
 }
