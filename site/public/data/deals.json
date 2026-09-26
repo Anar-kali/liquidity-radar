@@ -1,6 +1,28 @@
 {
- "dealCount": 688,
+ "dealCount": 689,
  "deals": [
+  {
+   "amountCr": 3050.0,
+   "amountRaw": "₹3,050 crore",
+   "company": "IntelliSmart Infrastructure",
+   "confidence": "high",
+   "confirmed": false,
+   "createdAt": "2026-09-26T01:31:08.784960+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1015,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Adani Energy Solutions proposes acquisition of IntelliSmart Infrastructure for Rs 3,050 crore.",
+   "primaryOutlet": "ET Corporate",
+   "seller": "National Investment and Infrastructure Fund and Energy Efficiency Services Ltd",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-26T01:31:10.303198+00:00",
+   "updates": []
+  },
   {
    "amountCr": 500.0,
    "amountRaw": "₹ 500 crore (from article)",
@@ -57,8 +79,8 @@
    ]
   },
   {
-   "amountCr": 2050.0,
-   "amountRaw": "over ₹2,000 crore (₹1,450 crore primary capital infusion and about ₹600 crore secondary share purchase) (from article)",
+   "amountCr": 600.0,
+   "amountRaw": "₹600 crore",
    "company": "Nido Home Finance",
    "confidence": "medium",
    "confirmed": false,
@@ -73,13 +95,17 @@
    "seller": "Edelweiss",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
-   "updatedAt": "2026-09-25T14:16:05.471360+00:00",
+   "updatedAt": "2026-09-26T01:31:08.781033+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-25T16:45:54.221399+00:00",
      "title": "Carlyle-led investors take control of Edelweiss’ Nido for over ₹2,000 crore"
+    },
+    {
+     "attachedAt": "2026-09-26T01:31:08.780151+00:00",
+     "title": "Edelweiss Financial Services sells 45% Nido Home Finance stake to Carlyle for ₹600 crore"
     }
    ]
   },
@@ -122,13 +148,17 @@
    "seller": "promoters and existing shareholders",
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-09-25T08:01:19.231728+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-25T08:31:02.050050+00:00",
      "title": "Integrum Energy Files for IPO to Boost Renewable Energy"
+    },
+    {
+     "attachedAt": "2026-09-26T01:31:08.777272+00:00",
+     "title": "Integrum Energy files DRHP"
     }
    ]
   },
@@ -1075,7 +1105,7 @@
    "seller": "Promoters",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 4,
+   "sourceCount": 5,
    "ticker": "WHIRLPOOL.NS",
    "updatedAt": "2026-09-25T18:30:03.408275+00:00",
    "updates": [
@@ -1090,6 +1120,10 @@
     {
      "attachedAt": "2026-09-25T18:30:03.407300+00:00",
      "title": "Whirlpool of India Ltd: bulk deal"
+    },
+    {
+     "attachedAt": "2026-09-26T01:31:08.768088+00:00",
+     "title": "Whirlpool shares surge as promoter stake sale sparks investor interest"
     }
    ]
   },
@@ -21514,6 +21548,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-25T18:30:03.464812+00:00",
- "totalDeals": 688
+ "generatedAt": "2026-09-26T01:31:10.303198+00:00",
+ "totalDeals": 689
 }

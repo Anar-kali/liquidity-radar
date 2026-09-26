@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 3050.0,
+ "amountRaw": "₹3,050 crore",
+ "buyer": "Adani Energy Solutions",
+ "company": "IntelliSmart Infrastructure",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-09-26T01:31:08.784960+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1015,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Adani Energy Solutions proposes acquisition of IntelliSmart Infrastructure for Rs 3,050 crore.",
+ "primaryUrl": "https://economictimes.indiatimes.com/industry/energy/power/cci-seeks-more-info-on-adani-energys-intellismart-deal/articleshow/134491830.cms",
+ "seller": "National Investment and Infrastructure Fund and Energy Efficiency Services Ltd",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-26T01:31:08.785916+00:00",
+   "outlet": "ET Corporate",
+   "resolvable": true,
+   "title": "CCI seeks more info on Adani Energy's IntelliSmart deal",
+   "url": "https://economictimes.indiatimes.com/industry/energy/power/cci-seeks-more-info-on-adani-energys-intellismart-deal/articleshow/134491830.cms"
+  }
+ ],
+ "synopsis": "Adani Energy Solutions Ltd has proposed the outright acquisition of IntelliSmart Infrastructure for Rs 3,050 crore. IntelliSmart is currently a joint venture between the state-controlled National Investment and Infrastructure Fund and Energy Efficiency Services Ltd. The transaction aims to establish Adani Energy Solutions as India's largest smart metering platform, with a total portfolio of more than 4.7 crore smart meters. IntelliSmart provides over 2.2 crore smart meters across five states. The Competition Commission of India has sought more information on the proposed combination, deeming the status as information incomplete two months after the notice was filed on July 27. The agreement was signed on June 9, with completion subject to antitrust approval and indicatively expected within 180 days.",
+ "ticker": null,
+ "updatedAt": "2026-09-26T01:31:10.303198+00:00"
+}
