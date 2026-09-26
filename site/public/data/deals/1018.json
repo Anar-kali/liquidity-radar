@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 1800.0,
+ "amountRaw": "₹1,800-crore",
+ "buyer": null,
+ "company": "Anmol Industries",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-26T09:45:51.588699+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": null,
+ "id": 1018,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Anmol Industries filed for a Rs 1,800-crore IPO.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQLW9UUExsSjFPZEZMTDVPZlZnNDhhdUgxM1hRaHpqY2tRWlZKOF9laEtwclFoSUtnZXJUMzgzVkZtM2t3YXExRURpUm5PX2g4XzRsYk9yT1R4dXBiaUtkelFzLWxseXYtWlVUMFNYbGdVZmFpSGtiSE9WRi1pR3UxUGFabUdUZG1LSFpxLWVaSm5EWlFoNGswQVBxVnQ4RVVyTEJybFQ5X01yd2tydTVrS3BEbHA5TkR1cWw4RVI5aWhNTUhjYm1JVnEzSdIB2AFBVV95cUxOVk1sU25CVUVXMFNHN1g4cnJZQTV2eUc5Yl9wd2ZLeGVGcmJjVnIxNUZGNUNOU1NhZ0RDc3FCMkU5NTRRb1JjVC1wdjJacVpJdVpjMkN0alE1N0FoUmhqaGJ4S3czeTktSS1ucHp6UXRFdnJLWmJrZU9tbVZuMGFaRGswSHFRUVZNdGJTbDdzeUlVUXVTU3FxeW02bUo1QzlIVWRNVEVmbGFRalVsVXA5Y1F5c29KcjZ1dEFUeWxzREJqT0JoWFlfYW5wMEVjc1VaYkFSYXZibFM?oc=5",
+ "seller": "Baijnath Choudhary & Family Trust",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-26T09:45:51.590663+00:00",
+   "outlet": "fortuneindia.com",
+   "resolvable": false,
+   "title": "Biscuit maker Anmol Industries files ₹1,800-crore IPO; makes second attempt after 2018",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQLW9UUExsSjFPZEZMTDVPZlZnNDhhdUgxM1hRaHpqY2tRWlZKOF9laEtwclFoSUtnZXJUMzgzVkZtM2t3YXExRURpUm5PX2g4XzRsYk9yT1R4dXBiaUtkelFzLWxseXYtWlVUMFNYbGdVZmFpSGtiSE9WRi1pR3UxUGFabUdUZG1LSFpxLWVaSm5EWlFoNGswQVBxVnQ4RVVyTEJybFQ5X01yd2tydTVrS3BEbHA5TkR1cWw4RVI5aWhNTUhjYm1JVnEzSdIB2AFBVV95cUxOVk1sU25CVUVXMFNHN1g4cnJZQTV2eUc5Yl9wd2ZLeGVGcmJjVnIxNUZGNUNOU1NhZ0RDc3FCMkU5NTRRb1JjVC1wdjJacVpJdVpjMkN0alE1N0FoUmhqaGJ4S3czeTktSS1ucHp6UXRFdnJLWmJrZU9tbVZuMGFaRGswSHFRUVZNdGJTbDdzeUlVUXVTU3FxeW02bUo1QzlIVWRNVEVmbGFRalVsVXA5Y1F5c29KcjZ1dEFUeWxzREJqT0JoWFlfYW5wMEVjc1VaYkFSYXZibFM?oc=5"
+  }
+ ],
+ "synopsis": "Kolkata-based packaged foods maker Anmol Industries has filed its draft red herring prospectus with SEBI to raise up to Rs 1,800 crore through an initial public offering. The proposed IPO will be entirely an offer for sale of equity shares by promoter Baijnath Choudhary & Family Trust. This marks the company's second attempt to tap public markets following a shelved attempt in 2018 for a Rs 750-crore issue. The share issue reserves 50% for qualified institutional buyers, 15% for non-institutional bidders, and 35% for retail individual bidders. Anmol Industries manufactures biscuits, cakes, bakery products, and other items across seven facilities, reporting an operational revenue of Rs 2,101.8 crore and a net profit of Rs 190.9 crore in FY26.",
+ "ticker": "ANMOL.NS",
+ "updatedAt": "2026-09-26T09:45:55.083938+00:00"
+}
