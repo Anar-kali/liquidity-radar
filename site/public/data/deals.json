@@ -53,13 +53,17 @@
    "seller": "Baijnath Choudhary & Family Trust",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": "ANMOL.NS",
    "updatedAt": "2026-09-26T09:45:55.083938+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-26T12:15:57.944972+00:00",
      "title": "Anmol Industries Files DRHP for Rs 1,800 Cr IPO"
+    },
+    {
+     "attachedAt": "2026-09-26T13:01:07.751011+00:00",
+     "title": "Anmol Industries Sets Its Sights On A ₹1,800-Crore IPO, Biscuit Maker Files Draft Papers"
     }
    ]
   },
@@ -2952,7 +2956,7 @@
    "seller": "JSW One Platforms",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 17,
+   "sourceCount": 18,
    "ticker": null,
    "updatedAt": "2026-09-25T04:01:13.056838+00:00",
    "updates": [
@@ -3019,6 +3023,10 @@
     {
      "attachedAt": "2026-09-26T09:45:51.600700+00:00",
      "title": "JSW One Platforms Files for ₹3,054 Crore IPO to Expand Technology and B2B Operations"
+    },
+    {
+     "attachedAt": "2026-09-26T13:01:07.761360+00:00",
+     "title": "JSW One Platforms Seeks ₹3,054 Crore IPO to Boost B2B Services"
     }
    ]
   },
