@@ -1,6 +1,28 @@
 {
- "dealCount": 696,
+ "dealCount": 697,
  "deals": [
+  {
+   "amountCr": 7040.0,
+   "amountRaw": "USD 800 Mn",
+   "company": "SECL",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-27T10:01:05.357144+00:00",
+   "dealType": "unknown",
+   "enrichmentState": "failed",
+   "id": 1023,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "SECL plans an USD 800 Mn IPO and hires top banks.",
+   "primaryOutlet": "BW Businessworld",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-27T10:01:05.357144+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -21804,6 +21826,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-27T05:31:04.177808+00:00",
- "totalDeals": 696
+ "generatedAt": "2026-09-27T10:01:05.357144+00:00",
+ "totalDeals": 697
 }

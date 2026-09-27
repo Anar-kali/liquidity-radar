@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 7040.0,
+ "amountRaw": "USD 800 Mn",
+ "buyer": null,
+ "company": "SECL",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-27T10:01:05.357144+00:00",
+ "dealType": "unknown",
+ "enrichmentState": "failed",
+ "id": 1023,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "SECL plans an USD 800 Mn IPO and hires top banks.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWDBMa2FhczZzNDhqUGRPcWxLb2pmRjlVRWlDVXlDelR1SUFQNlMzaDlicnh3YXVPcWRzMXhVM0VJNUlFZUlDdmtSOVo0NGltWloxd3FVTnQtVU1FNnBILVpRWll2d0hzT2xpZEFBOXdVWHFjVE1mMUxESnMyVjM2VkVuY09naHBk?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-27T10:01:05.358398+00:00",
+   "outlet": "BW Businessworld",
+   "resolvable": false,
+   "title": "SECL Plans USD 800 Mn IPO, Hires Top Banks",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWDBMa2FhczZzNDhqUGRPcWxLb2pmRjlVRWlDVXlDelR1SUFQNlMzaDlicnh3YXVPcWRzMXhVM0VJNUlFZUlDdmtSOVo0NGltWloxd3FVTnQtVU1FNnBILVpRWll2d0hzT2xpZEFBOXdVWHFjVE1mMUxESnMyVjM2VkVuY09naHBk?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-09-27T10:01:05.357144+00:00"
+}
