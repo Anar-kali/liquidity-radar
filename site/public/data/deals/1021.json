@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 851.0,
+ "amountRaw": "3.42% x mcap ~Rs 24884cr = ~Rs 851cr",
+ "buyer": null,
+ "company": "Urban Company",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-27T02:30:55.979678+00:00",
+ "dealType": "PE secondary",
+ "enrichmentState": "failed",
+ "id": 1021,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Bessemer India Capital sells a stake in Urban Company, cashing out.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPOWlhYjdBdjlabmhSYkxaVWJud1dFM19iWDRZUXFpZWNLUy1yU0FtcjBTa05xQVhJaTVzQzNtenN3eFFhZmQtal8yNm5SdkRHdHJpc1dpTXdkejdEVGxObXYyZ19CTmppdXpVUHNUN091Zi1UUXB5SWZaMkM5el9JZXBObXVWSDhmR3QzQklWd3dJZVBLZWU2TXhOQVB3T254eE5TdTBXN01fNXdPem9lZjlrZmZLU0RWNlA5dVVSVQ?oc=5",
+ "seller": "Bessemer India Capital",
+ "sizeBand": null,
+ "sizeSource": "computed",
+ "sources": [
+  {
+   "attachedAt": "2026-09-27T02:30:55.982867+00:00",
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "Bessemer India Capital cuts Urban Company stake to 3.42% after selling 2.12%",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPOWlhYjdBdjlabmhSYkxaVWJud1dFM19iWDRZUXFpZWNLUy1yU0FtcjBTa05xQVhJaTVzQzNtenN3eFFhZmQtal8yNm5SdkRHdHJpc1dpTXdkejdEVGxObXYyZ19CTmppdXpVUHNUN091Zi1UUXB5SWZaMkM5el9JZXBObXVWSDhmR3QzQklWd3dJZVBLZWU2TXhOQVB3T254eE5TdTBXN01fNXdPem9lZjlrZmZLU0RWNlA5dVVSVQ?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": "URBANCO.NS",
+ "updatedAt": "2026-09-27T02:30:55.979678+00:00"
+}
