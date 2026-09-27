@@ -1,0 +1,39 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Trans ACNR",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-27T12:01:18.743449+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": null,
+ "id": 1025,
+ "individuals": [
+  "Jagatjit Singh",
+  "Suman Chauhan",
+  "Rajiv Gandhi",
+  "Pankaj Setia",
+  "Ishu Bansal",
+  "Rajeshwar Singh"
+ ],
+ "listed": false,
+ "oneLine": "Trans ACNR filed IPO papers with SEBI, setting up a promoter liquidity event.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQ3VwbVpiaFF4cDZKbzM5QjJSTERNSWpKbUR6Vm1QSDlEZjdIUjB1X1BzWThsYjlObEdNaEpMVjExWmk2SEM1dV9HVHlzVm90YTJTU0lNWGI1TTY1TS1wQkxKWnFadHh2dkVHYVFsbDFqMjlWVHN1aS1UcXVNUDBnMTc3dEhHcG5IMjJkS0RQck12b0IyRnNJcFlfaTBXeWNhN1RhT0hqeUtyOEVMNjBjcDFYMmnSAbQBQVVfeXFMT0N1cG1aYmhReHA2Sm8zOUIyUkxETUlqSm1EelZtUEg5RGY3SFIwdV9Qc1k4bGI5TmxHTWhKTFYxMVppNkhDNXVfR1R5c1ZvdGEyU1NJTVhiNU02NU0tcEJMSlpxWnR4dnZFR2FRbGwxajI5VlRzdWktVHF1TVAwZzE3N3RIR3BuSDIyZEtEUHJNdm9CMkZzSXBZX2kwV3ljYTdUYU9IanlLcjhFTDYwY3AxWDJp?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-27T12:01:18.770530+00:00",
+   "outlet": "Rediff MoneyWiz",
+   "resolvable": false,
+   "title": "9 Companies File IPO Papers with Sebi, Including Trans ACNR",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQ3VwbVpiaFF4cDZKbzM5QjJSTERNSWpKbUR6Vm1QSDlEZjdIUjB1X1BzWThsYjlObEdNaEpMVjExWmk2SEM1dV9HVHlzVm90YTJTU0lNWGI1TTY1TS1wQkxKWnFadHh2dkVHYVFsbDFqMjlWVHN1aS1UcXVNUDBnMTc3dEhHcG5IMjJkS0RQck12b0IyRnNJcFlfaTBXeWNhN1RhT0hqeUtyOEVMNjBjcDFYMmnSAbQBQVVfeXFMT0N1cG1aYmhReHA2Sm8zOUIyUkxETUlqSm1EelZtUEg5RGY3SFIwdV9Qc1k4bGI5TmxHTWhKTFYxMVppNkhDNXVfR1R5c1ZvdGEyU1NJTVhiNU02NU0tcEJMSlpxWnR4dnZFR2FRbGwxajI5VlRzdWktVHF1TVAwZzE3N3RIR3BuSDIyZEtEUHJNdm9CMkZzSXBZX2kwV3ljYTdUYU9IanlLcjhFTDYwY3AxWDJp?oc=5"
+  }
+ ],
+ "synopsis": "Nine companies, including Trans ACNR Solutions and Maharashtra Oil Extractions, have filed preliminary IPO papers with Sebi between September 21 and September 26 to raise capital for expansion, debt repayment, and other corporate requirements. Trans ACNR Solutions used a confidential pre-filing route, keeping its offer size and financial details private for now. Other firms detailed public offer sizes and offer for sale components. Maharashtra Oil Extractions proposed a fresh issue of up to Rs 370 crore alongside an offer for sale. Jagatjit Agri Engineering proposed a fresh issue up to Rs 300 crore and an offer for sale by promoter Jagatjit Singh. Jai Parvati Forge proposed a fresh issue up to Rs 300 crore and an offer for sale by promoter Suman Chauhan. Koolking Industries India and SG Encon also filed papers featuring promoter offers for sale by named individuals including Rajiv Gandhi and Pankaj Setia. Mount Everest Breweries, Sai Infinium, and Ultravibrant Integrated Energy also submitted draft papers for initial public offerings.",
+ "ticker": null,
+ "updatedAt": "2026-09-27T12:01:23.449717+00:00"
+}

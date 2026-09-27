@@ -1,6 +1,35 @@
 {
- "dealCount": 698,
+ "dealCount": 699,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Trans ACNR",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-27T12:01:18.743449+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 1025,
+   "individuals": [
+    "Jagatjit Singh",
+    "Suman Chauhan",
+    "Rajiv Gandhi",
+    "Pankaj Setia",
+    "Ishu Bansal",
+    "Rajeshwar Singh"
+   ],
+   "listed": false,
+   "oneLine": "Trans ACNR filed IPO papers with SEBI, setting up a promoter liquidity event.",
+   "primaryOutlet": "Rediff MoneyWiz",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-27T12:01:23.449717+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -21848,6 +21877,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-27T11:45:58.288142+00:00",
- "totalDeals": 698
+ "generatedAt": "2026-09-27T12:01:23.449717+00:00",
+ "totalDeals": 699
 }
