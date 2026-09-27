@@ -1,6 +1,30 @@
 {
- "dealCount": 695,
+ "dealCount": 696,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "SwiftSeed Ventures",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-27T05:31:00.544745+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1022,
+   "individuals": [
+    "Amar Dixit"
+   ],
+   "listed": false,
+   "oneLine": "WOI India acquires SwiftSeed Ventures, providing an exit for its founders and investors.",
+   "primaryOutlet": "Business Line",
+   "seller": "SwiftSeed Ventures shareholders",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-27T05:31:04.177808+00:00",
+   "updates": []
+  },
   {
    "amountCr": 851.0,
    "amountRaw": "3.42% x mcap ~Rs 24884cr = ~Rs 851cr",
@@ -21780,6 +21804,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-27T02:30:55.979678+00:00",
- "totalDeals": 695
+ "generatedAt": "2026-09-27T05:31:04.177808+00:00",
+ "totalDeals": 696
 }

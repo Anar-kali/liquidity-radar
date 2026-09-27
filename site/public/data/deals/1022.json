@@ -1,0 +1,34 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "WOI India",
+ "company": "SwiftSeed Ventures",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-27T05:31:00.544745+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1022,
+ "individuals": [
+  "Amar Dixit"
+ ],
+ "listed": false,
+ "oneLine": "WOI India acquires SwiftSeed Ventures, providing an exit for its founders and investors.",
+ "primaryUrl": "https://www.thehindubusinessline.com/companies/woi-india-acquires-swiftseed-ventures-appoints-founder-amar-dixit-as-ceo/article71515191.ece",
+ "seller": "SwiftSeed Ventures shareholders",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-27T05:31:00.547000+00:00",
+   "outlet": "Business Line",
+   "resolvable": true,
+   "title": "WOI India acquires SwiftSeed Ventures; appoints founder Amar Dixit as CEO",
+   "url": "https://www.thehindubusinessline.com/companies/woi-india-acquires-swiftseed-ventures-appoints-founder-amar-dixit-as-ceo/article71515191.ece"
+  }
+ ],
+ "synopsis": "WOI India, the Indian chapter of Dubai-based WOI.ECO, has acquired early-stage investment and startup ecosystem platform SwiftSeed Ventures, providing an exit for its founders and investors. Following the transaction, SwiftSeed will continue to operate as an entity under WOI India. Founder Amar Dixit has been appointed as the chief executive officer of WOI India to lead the platform and oversee engagement with founders, investors, institutions, and global partners. Financial details of the transaction were not disclosed in the report.",
+ "ticker": null,
+ "updatedAt": "2026-09-27T05:31:04.177808+00:00"
+}
