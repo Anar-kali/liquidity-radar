@@ -1,7 +1,7 @@
 {
  "advisers": [],
- "amountCr": 2198.0,
- "amountRaw": "₹2,198 crore",
+ "amountCr": 3541.4,
+ "amountRaw": "47.95% x mcap ~Rs 7386cr = ~Rs 3541cr",
  "buyer": "Anupam Rasayan",
  "company": "Bliss GVS",
  "confidence": "medium",
@@ -14,7 +14,7 @@
  "listed": true,
  "oneLine": "Anupam Rasayan to acquire up to 74.20% in Bliss GVS for ₹2,198 crore.",
  "primaryUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOc3BJZ2Z6VzBCT3ppdktNRFFROE9tTFNCR0VQZjJGRXBjNVdpbzZFSmVHS3NGR05UWUxnNzdOMm1xM3p6UTFqNFYwRlY4NGdoWU5WN0hHOFV5V0hmdjlrenA3UFMtOFFGd0Zpbkx4SXgyMlEwTC1MOGZYUzRoaDhVaTRUVlN1ZlI4WmdqOVRKaTRTWnhuTGZQa3prOFNJNXM1SG5mb1kwNE1PbEVYYXdxbXg1ZEU?oc=5",
- "seller": null,
+ "seller": "Existing promoters/shareholders of Bliss GVS Pharma",
  "sizeBand": null,
  "sizeSource": "stated",
  "sources": [
@@ -24,9 +24,16 @@
    "resolvable": false,
    "title": "Anupam Rasayan to acquire up to 74.20% in Bliss GVS for ₹2,198 crore",
    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOc3BJZ2Z6VzBCT3ppdktNRFFROE9tTFNCR0VQZjJGRXBjNVdpbzZFSmVHS3NGR05UWUxnNzdOMm1xM3p6UTFqNFYwRlY4NGdoWU5WN0hHOFV5V0hmdjlrenA3UFMtOFFGd0Zpbkx4SXgyMlEwTC1MOGZYUzRoaDhVaTRUVlN1ZlI4WmdqOVRKaTRTWnhuTGZQa3prOFNJNXM1SG5mb1kwNE1PbEVYYXdxbXg1ZEU?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-28T17:21:24.172300+00:00",
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "Anupam Rasayan takes control of Bliss GVS Pharma with 47.95% stake",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPYkdUWlA3QUUyajZGaHZDTHQtb1BVMWxMWFRQSlFyc2tGUEFoTld3bmo1ckEycURXNnAtNGVQcTI2ZzlwRmlPRjI0TS1aSTE0SFJTLXNXaHNNcm5hSWpRemd6eElNTWE0MHg1S3VuUVN4aGh1a1E2Q0RFd2xqbU9PWEx5MzJpeVVUcFRid0NHQTUtRXlXV0lwT09VX0V2LXViQ3pMMldYMURUTGpJcHFRd0tzSjI?oc=5"
   }
  ],
  "synopsis": null,
  "ticker": "BLISSGVS.NS",
- "updatedAt": "2026-09-28T01:31:01.351955+00:00"
+ "updatedAt": "2026-09-28T17:21:24.173258+00:00"
 }

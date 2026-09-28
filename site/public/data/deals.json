@@ -146,13 +146,17 @@
    "seller": "unclear",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": "CLEANMAX.NS",
    "updatedAt": "2026-09-28T04:01:13.602126+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-28T06:31:31.431847+00:00",
      "title": "Clean Max shares worth ₹1,199 crore change hands in block deal; Stock gains - CNBC TV18"
+    },
+    {
+     "attachedAt": "2026-09-28T17:21:24.167796+00:00",
+     "title": "Augment Infrastructure Partners offloads Rs 1,096 crore Clean Max stake; Belgrave Investment Fund sells..."
     }
    ]
   },
@@ -187,8 +191,8 @@
    ]
   },
   {
-   "amountCr": 2198.0,
-   "amountRaw": "₹2,198 crore",
+   "amountCr": 3541.4,
+   "amountRaw": "47.95% x mcap ~Rs 7386cr = ~Rs 3541cr",
    "company": "Bliss GVS",
    "confidence": "medium",
    "confirmed": false,
@@ -200,13 +204,18 @@
    "listed": true,
    "oneLine": "Anupam Rasayan to acquire up to 74.20% in Bliss GVS for ₹2,198 crore.",
    "primaryOutlet": "scanx.trade",
-   "seller": null,
+   "seller": "Existing promoters/shareholders of Bliss GVS Pharma",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": "BLISSGVS.NS",
-   "updatedAt": "2026-09-28T01:31:01.351955+00:00",
-   "updates": []
+   "updatedAt": "2026-09-28T17:21:24.173258+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-09-28T17:21:24.172300+00:00",
+     "title": "Anupam Rasayan takes control of Bliss GVS Pharma with 47.95% stake"
+    }
+   ]
   },
   {
    "amountCr": null,
@@ -22199,6 +22208,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-28T10:31:16.293051+00:00",
+ "generatedAt": "2026-09-28T17:21:24.173258+00:00",
  "totalDeals": 707
 }
