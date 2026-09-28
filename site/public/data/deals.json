@@ -4400,7 +4400,7 @@
    "seller": "Promoters of Maharashtra Oil Extractions",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 4,
+   "sourceCount": 5,
    "ticker": null,
    "updatedAt": "2026-09-22T05:25:44.593983+00:00",
    "updates": [
@@ -4415,6 +4415,10 @@
     {
      "attachedAt": "2026-09-16T04:31:10.839201+00:00",
      "title": "Maharashtra Oil Extractions Limited"
+    },
+    {
+     "attachedAt": "2026-09-28T11:16:06.605583+00:00",
+     "title": "Maharashtra Oil Extractions Limited files DHRP for IPO"
     }
    ]
   },
