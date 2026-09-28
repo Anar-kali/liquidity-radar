@@ -1,6 +1,33 @@
 {
- "dealCount": 704,
+ "dealCount": 705,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Giorgio Armani",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-28T06:16:09.442816+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1031,
+   "individuals": [
+    "Giuseppe Marsocci",
+    "Giorgio Armani",
+    "Pantaleo \"Leo\" Dell'Orco",
+    "Andrea Camerana"
+   ],
+   "listed": false,
+   "oneLine": "Italian fashion house Armani plans to sell a 15% stake to strategic partners.",
+   "primaryOutlet": "What Giorgio Armani's will said about fashion house's future",
+   "seller": "Armani family estate",
+   "sizeBand": "OVER_2000",
+   "sizeSource": "band",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-28T06:16:13.531645+00:00",
+   "updates": []
+  },
   {
    "amountCr": 6000.0,
    "amountRaw": "₹6,000-crore",
@@ -89,10 +116,15 @@
    "seller": "Promoters of Allied Blenders and Distillers",
    "sizeBand": null,
    "sizeSource": "computed",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": "ABDL.NS",
    "updatedAt": "2026-09-28T01:31:10.048303+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-09-28T06:16:09.438030+00:00",
+     "title": "Allied Blenders In Talks For Up To 15% Stake Buy By Suntory"
+    }
+   ]
   },
   {
    "amountCr": 2198.0,
@@ -22017,6 +22049,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-28T05:01:14.240964+00:00",
- "totalDeals": 704
+ "generatedAt": "2026-09-28T06:16:13.531645+00:00",
+ "totalDeals": 705
 }

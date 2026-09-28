@@ -1,0 +1,37 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "LVMH, L'Oréal, EssilorLuxottica",
+ "company": "Giorgio Armani",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-28T06:16:09.442816+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1031,
+ "individuals": [
+  "Giuseppe Marsocci",
+  "Giorgio Armani",
+  "Pantaleo \"Leo\" Dell'Orco",
+  "Andrea Camerana"
+ ],
+ "listed": false,
+ "oneLine": "Italian fashion house Armani plans to sell a 15% stake to strategic partners.",
+ "primaryUrl": "https://www.livemint.com/companies/news/armani-may-sell-15-stake-to-different-partners-says-ceo-what-giorgio-armanis-will-said-about-fashion-houses-future-11790574698952.html",
+ "seller": "Armani family estate",
+ "sizeBand": "OVER_2000",
+ "sizeSource": "band",
+ "sources": [
+  {
+   "attachedAt": "2026-09-28T06:16:09.443952+00:00",
+   "outlet": "What Giorgio Armani's will said about fashion house's future",
+   "resolvable": true,
+   "title": "Armani may sell 15% stake to different partners, says CEO",
+   "url": "https://www.livemint.com/companies/news/armani-may-sell-15-stake-to-different-partners-says-ceo-what-giorgio-armanis-will-said-about-fashion-houses-future-11790574698952.html"
+  }
+ ],
+ "synopsis": "Italian luxury fashion house Giorgio Armani plans to sell an initial 15 per cent stake to strategic partners within 18 months of the late founder Giorgio Armani's death, following a timeline and succession plan outlined in his will. CEO Giuseppe Marsocci stated that the stake could be distributed among more than one partner. Preferred bidders for the initial stake include French luxury group LVMH, L'Oréal, and eyewear group EssilorLuxottica, with the stake potentially increasing to roughly 70 per cent within five years. The founder's will directs heirs and the Giorgio Armani Foundation on future ownership structure, voting rights, and potential public listing on the Milan bourse.",
+ "ticker": null,
+ "updatedAt": "2026-09-28T06:16:13.531645+00:00"
+}
