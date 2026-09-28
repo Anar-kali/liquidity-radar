@@ -91,10 +91,15 @@
    "seller": "unclear",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": "CLEANMAX.NS",
    "updatedAt": "2026-09-28T04:01:13.602126+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-09-28T06:31:31.431847+00:00",
+     "title": "Clean Max shares worth ₹1,199 crore change hands in block deal; Stock gains - CNBC TV18"
+    }
+   ]
   },
   {
    "amountCr": 2715.4,
