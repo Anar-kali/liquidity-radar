@@ -20,13 +20,17 @@
    "seller": "Pioneer Facor IT Infradevelopers, Aztech India, and Senthil Kumar Chinnusamy",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-09-28T08:01:24.110879+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-28T08:16:02.898879+00:00",
      "title": "Pioneer Fil-Med, Tonbo Imaging, Functional & Innovative Foods get Sebi nod for IPOs"
+    },
+    {
+     "attachedAt": "2026-09-28T09:16:00.189764+00:00",
+     "title": "Pioneer Fil-Med, Tonbo Imaging among 3 firms to get Sebi nod for IPOs"
     }
    ]
   },
@@ -14753,7 +14757,7 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 5,
+   "sourceCount": 6,
    "ticker": null,
    "updatedAt": "2026-08-17T05:31:02.142139+00:00",
    "updates": [
@@ -14772,6 +14776,10 @@
     {
      "attachedAt": "2026-09-28T08:16:02.912001+00:00",
      "title": "Tonbo Imaging India gets SEBI nod for IPO; defence electronics maker offers over 1.8 crore shares"
+    },
+    {
+     "attachedAt": "2026-09-28T09:16:00.202307+00:00",
+     "title": "Sebi Approves IPOs for Pioneer Fil-Med, Tonbo, Functional Foods"
     }
    ]
   },
