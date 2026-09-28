@@ -1,6 +1,28 @@
 {
- "dealCount": 706,
+ "dealCount": 707,
  "deals": [
+  {
+   "amountCr": 500.0,
+   "amountRaw": "Rs 500 crore (from article)",
+   "company": "Three Companies Get Sebi’s Green Light for Major IPOs: What You Need to Know",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-28T10:31:12.437224+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 1033,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Three unnamed companies received SEBI approval for major IPOs.",
+   "primaryOutlet": "The Daily Jagran",
+   "seller": "Pioneer Facor IT Infradevelopers, Aztech India, and Senthil Kumar Chinnusamy",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-28T10:31:16.293051+00:00",
+   "updates": []
+  },
   {
    "amountCr": 500.0,
    "amountRaw": "₹500 crore (from article)",
@@ -422,7 +444,7 @@
    "seller": "Baijnath Choudhary & Family Trust",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 8,
+   "sourceCount": 9,
    "ticker": "ANMOL.NS",
    "updatedAt": "2026-09-26T09:45:55.083938+00:00",
    "updates": [
@@ -453,6 +475,10 @@
     {
      "attachedAt": "2026-09-27T16:31:29.004148+00:00",
      "title": "Biscuit maker Anmol Industries files for ₹1,800 cr IPO, draft papers show"
+    },
+    {
+     "attachedAt": "2026-09-28T10:31:12.446927+00:00",
+     "title": "Biscuit maker Anmol Industries files draft papers for Rs 1,800-crore IPO - Mid-Day"
     }
    ]
   },
@@ -22142,6 +22168,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-28T08:01:24.110879+00:00",
- "totalDeals": 706
+ "generatedAt": "2026-09-28T10:31:16.293051+00:00",
+ "totalDeals": 707
 }
