@@ -1,6 +1,28 @@
 {
- "dealCount": 703,
+ "dealCount": 704,
  "deals": [
+  {
+   "amountCr": 6000.0,
+   "amountRaw": "₹6,000-crore",
+   "company": "Man Infraconstruction",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-28T05:01:10.378198+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1030,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "MICL transfers Marine Lines development rights to Godrej Properties in a Rs 6000-crore deal.",
+   "primaryOutlet": "Business Line",
+   "seller": "MICL",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "MANINFRA.NS",
+   "updatedAt": "2026-09-28T05:01:14.240964+00:00",
+   "updates": []
+  },
   {
    "amountCr": 800.0,
    "amountRaw": "Rs 800 crore (from article)",
@@ -21991,6 +22013,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-28T04:01:35.315325+00:00",
- "totalDeals": 703
+ "generatedAt": "2026-09-28T05:01:14.240964+00:00",
+ "totalDeals": 704
 }

@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 6000.0,
+ "amountRaw": "₹6,000-crore",
+ "buyer": "Godrej Properties",
+ "company": "Man Infraconstruction",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-28T05:01:10.378198+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1030,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "MICL transfers Marine Lines development rights to Godrej Properties in a Rs 6000-crore deal.",
+ "primaryUrl": "https://www.thehindubusinessline.com/companies/micl-transfers-marine-lines-development-rights-to-godrej-properties-in-6000-crore-revenue-deal/article71518363.ece",
+ "seller": "MICL",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-28T05:01:10.380910+00:00",
+   "outlet": "Business Line",
+   "resolvable": true,
+   "title": "MICL transfers Marine Lines development rights to Godrej Properties in ₹6,000-crore revenue deal",
+   "url": "https://www.thehindubusinessline.com/companies/micl-transfers-marine-lines-development-rights-to-godrej-properties-in-6000-crore-revenue-deal/article71518363.ece"
+  }
+ ],
+ "synopsis": "Man Infraconstruction Limited (MICL), along with Shreepati Group, has transferred the development rights for a sea-facing luxury residential project at Marine Lines in South Mumbai to Godrej Properties in a deal pegged at over ₹6,000 crore in overall revenue potential. MICL, which previously served as the Development Manager, has entered into a revenue-sharing arrangement and will fully recoup its investment of over ₹300 crore. Managing Director Manan Shah noted that the arrangement provides MICL with early cash realization and financial flexibility. The approximately 2.5-acre project will be jointly branded by both parties.",
+ "ticker": "MANINFRA.NS",
+ "updatedAt": "2026-09-28T05:01:14.240964+00:00"
+}
