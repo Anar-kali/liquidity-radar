@@ -206,7 +206,7 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 6,
+   "sourceCount": 7,
    "ticker": null,
    "updatedAt": "2026-09-27T12:01:23.449717+00:00",
    "updates": [
@@ -229,6 +229,10 @@
     {
      "attachedAt": "2026-09-28T07:16:01.000998+00:00",
      "title": "IPO rush: 9 companies, including Trans ACNR Solutions, submit draft IPO papers to SEBI | Check list"
+    },
+    {
+     "attachedAt": "2026-09-28T09:01:14.199536+00:00",
+     "title": "New IPOs Alert: Trans ACNR Solutions, Arete 22, JB Ecotex, Anmol Industries, 10 others file draft papers with SEBI"
     }
    ]
   },
@@ -344,13 +348,17 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-09-26T15:01:10.172942+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-28T08:31:06.301554+00:00",
      "title": "Arete 22 Files For Rs 440 Crore-IPO: Key Risks, Financials, Objectives, And More"
+    },
+    {
+     "attachedAt": "2026-09-28T09:01:14.213548+00:00",
+     "title": "Arete 22 Files For Rs 440 Crore IPO, Funds To Support Working Capital And Debt Repayment"
     }
    ]
   },
@@ -3337,7 +3345,7 @@
    "seller": "JSW One Platforms",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 21,
+   "sourceCount": 23,
    "ticker": null,
    "updatedAt": "2026-09-25T04:01:13.056838+00:00",
    "updates": [
@@ -3420,6 +3428,14 @@
     {
      "attachedAt": "2026-09-27T14:31:17.356749+00:00",
      "title": "JSW One Platforms IPO: Digital Marketplace Platform Files DRHP For Rs 3,054 Crore Issue: Check Size, Financials And Key Details"
+    },
+    {
+     "attachedAt": "2026-09-28T09:01:14.147689+00:00",
+     "title": "JSW One Platforms Limited - DRHPJSW One Platforms Limited"
+    },
+    {
+     "attachedAt": "2026-09-28T09:01:14.164476+00:00",
+     "title": "JSW One Platforms Limited"
     }
    ]
   },
