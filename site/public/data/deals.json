@@ -14703,13 +14703,21 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 2,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-08-17T05:31:02.142139+00:00",
    "updates": [
     {
      "attachedAt": "2026-08-17T05:31:02.147301+00:00",
      "title": "Tonbo Imaging India Limited- Draft Abridged Prospectus"
+    },
+    {
+     "attachedAt": "2026-09-28T07:46:03.801441+00:00",
+     "title": "Sebi Opens The IPO Door For Three Companies, Pioneer Fil-Med, Tonbo Imaging And Functional & Innovative Foods"
+    },
+    {
+     "attachedAt": "2026-09-28T07:46:03.816045+00:00",
+     "title": "Tonbo Imaging Secures IPO Nod After Refiling Draft Papers"
     }
    ]
   },
