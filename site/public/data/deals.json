@@ -1,6 +1,52 @@
 {
- "dealCount": 701,
+ "dealCount": 703,
  "deals": [
+  {
+   "amountCr": 800.0,
+   "amountRaw": "Rs 800 crore (from article)",
+   "company": "HRV",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-28T04:01:09.547363+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 1029,
+   "individuals": [
+    "Hari Kiran Chereddi"
+   ],
+   "listed": false,
+   "oneLine": "Virtual pharma API firm HRV preparing for IPO with DRHP likely in H1 2027.",
+   "primaryOutlet": "ETPharma.com",
+   "seller": "HRV Pharma",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-28T04:01:35.315325+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 1199.0,
+   "amountRaw": "₹1,199 crore",
+   "company": "Clean Max",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-28T04:01:09.528963+00:00",
+   "dealType": "block deal",
+   "enrichmentState": null,
+   "id": 1028,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Clean Max shares worth Rs 1,199 crore change hands in block deal.",
+   "primaryOutlet": "CNBC TV18",
+   "seller": "unclear",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "CLEANMAX.NS",
+   "updatedAt": "2026-09-28T04:01:13.602126+00:00",
+   "updates": []
+  },
   {
    "amountCr": 2715.4,
    "amountRaw": "15% x mcap ~Rs 18103cr = ~Rs 2715cr",
@@ -21945,6 +21991,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-28T01:31:10.048303+00:00",
- "totalDeals": 701
+ "generatedAt": "2026-09-28T04:01:35.315325+00:00",
+ "totalDeals": 703
 }
