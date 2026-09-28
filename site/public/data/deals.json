@@ -1,6 +1,53 @@
 {
- "dealCount": 699,
+ "dealCount": 701,
  "deals": [
+  {
+   "amountCr": 2715.4,
+   "amountRaw": "15% x mcap ~Rs 18103cr = ~Rs 2715cr",
+   "company": "Allied Blenders and Distillers",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-28T01:31:01.359911+00:00",
+   "dealType": "promoter sale",
+   "enrichmentState": null,
+   "id": 1027,
+   "individuals": [
+    "Kishore Chhabria",
+    "Bina Kishore Chhabria"
+   ],
+   "listed": true,
+   "oneLine": "Suntory Holdings in discussions to acquire a 10-15% promoter stake in Allied Blenders & Distillers.",
+   "primaryOutlet": "ET Corporate",
+   "seller": "Promoters of Allied Blenders and Distillers",
+   "sizeBand": null,
+   "sizeSource": "computed",
+   "sourceCount": 1,
+   "ticker": "ABDL.NS",
+   "updatedAt": "2026-09-28T01:31:10.048303+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 2198.0,
+   "amountRaw": "₹2,198 crore",
+   "company": "Bliss GVS",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-28T01:31:01.351955+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": "failed",
+   "id": 1026,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Anupam Rasayan to acquire up to 74.20% in Bliss GVS for ₹2,198 crore.",
+   "primaryOutlet": "scanx.trade",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "BLISSGVS.NS",
+   "updatedAt": "2026-09-28T01:31:01.351955+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -21898,6 +21945,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-27T12:01:23.449717+00:00",
- "totalDeals": 699
+ "generatedAt": "2026-09-28T01:31:10.048303+00:00",
+ "totalDeals": 701
 }

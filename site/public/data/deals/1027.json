@@ -1,0 +1,35 @@
+{
+ "advisers": [],
+ "amountCr": 2715.4,
+ "amountRaw": "15% x mcap ~Rs 18103cr = ~Rs 2715cr",
+ "buyer": "Suntory Holdings",
+ "company": "Allied Blenders and Distillers",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-28T01:31:01.359911+00:00",
+ "dealType": "promoter sale",
+ "enrichmentState": null,
+ "id": 1027,
+ "individuals": [
+  "Kishore Chhabria",
+  "Bina Kishore Chhabria"
+ ],
+ "listed": true,
+ "oneLine": "Suntory Holdings in discussions to acquire a 10-15% promoter stake in Allied Blenders & Distillers.",
+ "primaryUrl": "https://economictimes.indiatimes.com/industry/cons-products/liquor/eye-on-india-cocktail-suntory-eyes-10-15-stake-in-allied-blenders-distillers/articleshow/134525427.cms",
+ "seller": "Promoters of Allied Blenders and Distillers",
+ "sizeBand": null,
+ "sizeSource": "computed",
+ "sources": [
+  {
+   "attachedAt": "2026-09-28T01:31:01.361170+00:00",
+   "outlet": "ET Corporate",
+   "resolvable": true,
+   "title": "Eye on India cocktail, Suntory eyes 10-15% stake in Allied Blenders &amp; Distillers",
+   "url": "https://economictimes.indiatimes.com/industry/cons-products/liquor/eye-on-india-cocktail-suntory-eyes-10-15-stake-in-allied-blenders-distillers/articleshow/134525427.cms"
+  }
+ ],
+ "synopsis": "Suntory Holdings is in early discussions to acquire a 10-15% promoter stake in Allied Blenders and Distillers through a largely primary transaction to form a strategic partnership in India's whisky market. Allied Blenders is controlled by promoter Kishore Chhabria and is India's third-largest listed spirits maker. Separately, promoter Bina Kishore Chhabria sold a 1.96% stake in the spirits maker for Rs 357.6 crore through an open-market transaction, reducing her holding to 56.24%. Allied Blenders declined to comment on market rumours, and Suntory Holdings did not comment.",
+ "ticker": "ABDL.NS",
+ "updatedAt": "2026-09-28T01:31:10.048303+00:00"
+}

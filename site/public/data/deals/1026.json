@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 2198.0,
+ "amountRaw": "₹2,198 crore",
+ "buyer": "Anupam Rasayan",
+ "company": "Bliss GVS",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-28T01:31:01.351955+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": "failed",
+ "id": 1026,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Anupam Rasayan to acquire up to 74.20% in Bliss GVS for ₹2,198 crore.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOc3BJZ2Z6VzBCT3ppdktNRFFROE9tTFNCR0VQZjJGRXBjNVdpbzZFSmVHS3NGR05UWUxnNzdOMm1xM3p6UTFqNFYwRlY4NGdoWU5WN0hHOFV5V0hmdjlrenA3UFMtOFFGd0Zpbkx4SXgyMlEwTC1MOGZYUzRoaDhVaTRUVlN1ZlI4WmdqOVRKaTRTWnhuTGZQa3prOFNJNXM1SG5mb1kwNE1PbEVYYXdxbXg1ZEU?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-28T01:31:01.353684+00:00",
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "Anupam Rasayan to acquire up to 74.20% in Bliss GVS for ₹2,198 crore",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOc3BJZ2Z6VzBCT3ppdktNRFFROE9tTFNCR0VQZjJGRXBjNVdpbzZFSmVHS3NGR05UWUxnNzdOMm1xM3p6UTFqNFYwRlY4NGdoWU5WN0hHOFV5V0hmdjlrenA3UFMtOFFGd0Zpbkx4SXgyMlEwTC1MOGZYUzRoaDhVaTRUVlN1ZlI4WmdqOVRKaTRTWnhuTGZQa3prOFNJNXM1SG5mb1kwNE1PbEVYYXdxbXg1ZEU?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": "BLISSGVS.NS",
+ "updatedAt": "2026-09-28T01:31:01.351955+00:00"
+}
