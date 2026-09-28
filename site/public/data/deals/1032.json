@@ -1,0 +1,34 @@
+{
+ "advisers": [],
+ "amountCr": 500.0,
+ "amountRaw": "₹500 crore (from article)",
+ "buyer": "Public",
+ "company": "Pioneer Fil-Med",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-28T08:01:20.218972+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": null,
+ "id": 1032,
+ "individuals": [
+  "Senthil Kumar Chinnusamy"
+ ],
+ "listed": false,
+ "oneLine": "Pioneer Fil-Med receives SEBI approval for an upcoming IPO, creating future liquidity.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPRk40d0ZNaVpBNTRndTJHU3lvR3BxWlczcTJtOFZ3ay03anJ4ejd5dDJnbEhMaElXY0dUNFl6WHhwWXdfOGdiQTYzMklWbHc1Z0Vaa3NkTkM2X0YzMGpUNlQtcDRfOWMyUXFRcDNIZURHbXplanI2eXZZY1dubEVGcko1bXdja1JZWkVhYTZxdm9vNUxMVHJYNUhYZE5ZRnFienNueGg3UUloNWoyX2NpVkJycWR5M3JxNW1oeXE1dGFYRnZVRGVMOHU0Y3RfdW1mU3hoRXVxV3dqRGQyMUh6Ul9qTzg?oc=5",
+ "seller": "Pioneer Facor IT Infradevelopers, Aztech India, and Senthil Kumar Chinnusamy",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-28T08:01:20.221844+00:00",
+   "outlet": "Upstox",
+   "resolvable": false,
+   "title": "Upcoming IPOs: Pioneer Fil-Med, Tonbo Imaging, Functional & Innovative Foods get SEBI approval",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPRk40d0ZNaVpBNTRndTJHU3lvR3BxWlczcTJtOFZ3ay03anJ4ejd5dDJnbEhMaElXY0dUNFl6WHhwWXdfOGdiQTYzMklWbHc1Z0Vaa3NkTkM2X0YzMGpUNlQtcDRfOWMyUXFRcDNIZURHbXplanI2eXZZY1dubEVGcko1bXdja1JZWkVhYTZxdm9vNUxMVHJYNUhYZE5ZRnFienNueGg3UUloNWoyX2NpVkJycWR5M3JxNW1oeXE1dGFYRnZVRGVMOHU0Y3RfdW1mU3hoRXVxV3dqRGQyMUh6Ul9qTzg?oc=5"
+  }
+ ],
+ "synopsis": "Capital markets regulator SEBI has approved proposed initial public offerings for Pioneer Fil-Med, Tonbo Imaging India, and Functional & Innovative Foods. Railway components maker Pioneer Fil-Med's ₹500 crore IPO includes a fresh issue of ₹250 crore and an Offer for Sale (OFS) of ₹250 crore, with promoter Pioneer Facor IT Infradevelopers and promoter group entity Aztech India each selling shares worth up to ₹125 crore. Tonbo Imaging India's IPO comprises an OFS of up to 18,085,246 equity shares. Functional & Innovative Foods' IPO combines a fresh issue of up to 60 lakh equity shares and an OFS of up to 25 lakh equity shares by promoter Senthil Kumar Chinnusamy. SEBI issued its observations between September 21-25 following the submission of draft offer documents between April and August.",
+ "ticker": null,
+ "updatedAt": "2026-09-28T08:01:24.110879+00:00"
+}

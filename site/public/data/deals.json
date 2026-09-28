@@ -1,6 +1,30 @@
 {
- "dealCount": 705,
+ "dealCount": 706,
  "deals": [
+  {
+   "amountCr": 500.0,
+   "amountRaw": "₹500 crore (from article)",
+   "company": "Pioneer Fil-Med",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-28T08:01:20.218972+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 1032,
+   "individuals": [
+    "Senthil Kumar Chinnusamy"
+   ],
+   "listed": false,
+   "oneLine": "Pioneer Fil-Med receives SEBI approval for an upcoming IPO, creating future liquidity.",
+   "primaryOutlet": "Upstox",
+   "seller": "Pioneer Facor IT Infradevelopers, Aztech India, and Senthil Kumar Chinnusamy",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-28T08:01:24.110879+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -22075,6 +22099,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-28T06:16:13.531645+00:00",
- "totalDeals": 705
+ "generatedAt": "2026-09-28T08:01:24.110879+00:00",
+ "totalDeals": 706
 }
