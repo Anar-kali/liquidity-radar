@@ -1,6 +1,28 @@
 {
- "dealCount": 716,
+ "dealCount": 717,
  "deals": [
+  {
+   "amountCr": 400.0,
+   "amountRaw": "₹400 Crore",
+   "company": "J B Ecotex",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-29T08:01:21.299201+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 1043,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "J B Ecotex submits draft IPO documents to SEBI targeting 400 crore.",
+   "primaryOutlet": "Free Press Journal",
+   "seller": "promoters",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-29T08:01:25.021812+00:00",
+   "updates": []
+  },
   {
    "amountCr": 1000.0,
    "amountRaw": "₹1,000cr",
@@ -22469,6 +22491,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-29T07:45:58.937942+00:00",
- "totalDeals": 716
+ "generatedAt": "2026-09-29T08:01:25.021812+00:00",
+ "totalDeals": 717
 }
