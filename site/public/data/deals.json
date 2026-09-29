@@ -226,7 +226,7 @@
    "seller": "EverBrands India",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 5,
+   "sourceCount": 6,
    "ticker": null,
    "updatedAt": "2026-09-29T05:02:16.730834+00:00",
    "updates": [
@@ -245,6 +245,10 @@
     {
      "attachedAt": "2026-09-29T11:31:46.607915+00:00",
      "title": "Subway India operator EverBrands plans ₹600 crore IPO despite widening losses - CNBC TV18"
+    },
+    {
+     "attachedAt": "2026-09-29T11:46:04.258597+00:00",
+     "title": "EverBrands India IPO: Subway Master Franchisee Files DRHP For Rs 600-Crore Public Issue"
     }
    ]
   },
@@ -545,13 +549,17 @@
    "seller": "Promoters of Allied Blenders and Distillers",
    "sizeBand": null,
    "sizeSource": "computed",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": "ABDL.NS",
    "updatedAt": "2026-09-28T01:31:10.048303+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-28T06:16:09.438030+00:00",
      "title": "Allied Blenders In Talks For Up To 15% Stake Buy By Suntory"
+    },
+    {
+     "attachedAt": "2026-09-29T11:46:04.248657+00:00",
+     "title": "Allied Blenders Founders Reportedly Consider Stake Sale"
     }
    ]
   },
