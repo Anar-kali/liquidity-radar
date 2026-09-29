@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 1000.0,
+ "amountRaw": "₹1,000cr",
+ "buyer": null,
+ "company": "This B2B jewelry manufacturer is planning ₹1,000cr IPO in India",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-29T07:45:58.937942+00:00",
+ "dealType": "unknown",
+ "enrichmentState": "failed",
+ "id": 1042,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "A B2B jewelry manufacturer is planning a 1000 crore IPO in India.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNDFVa1I1b3BpeXY4aG8xVXNRbTM4c0Q4OVNoS2VxdWdZdXc4R1p0bW5DX3JhUzA4ODVzaVBFVkF0U2daTEFvekFLOVhBZUpZNjBTU2JZeUZPT2lVVlhacTI2UzdPMFU4X2NCNV9UeWxjU0hVRDN2c0xEcXQ0RFdvUmlYQjlCaXU2VXJnMTh3MDRtcWpqLU9KVV9OUQ?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-29T07:45:58.939599+00:00",
+   "outlet": "newsbytesapp.com",
+   "resolvable": false,
+   "title": "This B2B jewelry manufacturer is planning ₹1,000cr IPO in India",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNDFVa1I1b3BpeXY4aG8xVXNRbTM4c0Q4OVNoS2VxdWdZdXc4R1p0bW5DX3JhUzA4ODVzaVBFVkF0U2daTEFvekFLOVhBZUpZNjBTU2JZeUZPT2lVVlhacTI2UzdPMFU4X2NCNV9UeWxjU0hVRDN2c0xEcXQ0RFdvUmlYQjlCaXU2VXJnMTh3MDRtcWpqLU9KVV9OUQ?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-09-29T07:45:58.937942+00:00"
+}

@@ -1,6 +1,28 @@
 {
- "dealCount": 715,
+ "dealCount": 716,
  "deals": [
+  {
+   "amountCr": 1000.0,
+   "amountRaw": "₹1,000cr",
+   "company": "This B2B jewelry manufacturer is planning ₹1,000cr IPO in India",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-29T07:45:58.937942+00:00",
+   "dealType": "unknown",
+   "enrichmentState": "failed",
+   "id": 1042,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "A B2B jewelry manufacturer is planning a 1000 crore IPO in India.",
+   "primaryOutlet": "newsbytesapp.com",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-29T07:45:58.937942+00:00",
+   "updates": []
+  },
   {
    "amountCr": 39600.0,
    "amountRaw": "$450 million",
@@ -22447,6 +22469,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-29T07:01:18.490502+00:00",
- "totalDeals": 715
+ "generatedAt": "2026-09-29T07:45:58.937942+00:00",
+ "totalDeals": 716
 }
