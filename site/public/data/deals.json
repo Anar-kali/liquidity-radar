@@ -1,6 +1,28 @@
 {
- "dealCount": 709,
+ "dealCount": 710,
  "deals": [
+  {
+   "amountCr": 741.0,
+   "amountRaw": "₹741 crore",
+   "company": "Axiscades Technologies",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-29T04:16:03.200718+00:00",
+   "dealType": "block deal",
+   "enrichmentState": null,
+   "id": 1036,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Axiscades Technologies shares worth ₹741 crore traded in a block deal.",
+   "primaryOutlet": "CNBC TV18",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "AXISCADES.NS",
+   "updatedAt": "2026-09-29T04:16:06.455227+00:00",
+   "updates": []
+  },
   {
    "amountCr": 643.0,
    "amountRaw": "₹643 crore",
@@ -22269,6 +22291,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-29T04:01:26.546623+00:00",
- "totalDeals": 709
+ "generatedAt": "2026-09-29T04:16:06.455227+00:00",
+ "totalDeals": 710
 }
