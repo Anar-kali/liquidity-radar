@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "BNP Paribas Cardif",
+ "company": "IndiaFirst Life Insurance Company Ltd",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-29T16:45:51.064534+00:00",
+ "dealType": "PE secondary",
+ "enrichmentState": null,
+ "id": 1051,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "BNP Paribas Cardif to acquire 26% stake in IndiaFirst Life Insurance from Warburg Pincus.",
+ "primaryUrl": "https://economictimes.indiatimes.com/industry/banking/finance/insure/competition-commission-okays-bnp-paribas-indiafirst-life-insurance-deal/articleshow/134569989.cms",
+ "seller": "Warburg Pincus",
+ "sizeBand": "OVER_2000",
+ "sizeSource": "band",
+ "sources": [
+  {
+   "attachedAt": "2026-09-29T16:45:51.065413+00:00",
+   "outlet": "ET Corporate",
+   "resolvable": true,
+   "title": "Competition Commission okays BNP Paribas-IndiaFirst Life Insurance deal",
+   "url": "https://economictimes.indiatimes.com/industry/banking/finance/insure/competition-commission-okays-bnp-paribas-indiafirst-life-insurance-deal/articleshow/134569989.cms"
+  }
+ ],
+ "synopsis": "The Competition Commission of India approved BNP Paribas Cardif's proposal to acquire a 26% stake in IndiaFirst Life Insurance Company Ltd from private equity company Warburg Pincus. Following the completion of the transaction, IndiaFirst Life's shareholding will comprise Bank of Baroda holding 65 per cent, BNP Paribas Cardif holding 26 per cent, and Union Bank of India holding 9 per cent equity. The transaction marks a step in BNP Paribas Cardif's international growth and diversification strategy and strengthens its presence in India. In a separate deal, the CCI authorized Crystal Crop Protection Ltd to acquire a 100% shareholding in FMC India Pvt Ltd from FMC Netherlands Holdings II BV and its affiliates for a consideration of USD 252 million.",
+ "ticker": null,
+ "updatedAt": "2026-09-29T16:45:58.370281+00:00"
+}

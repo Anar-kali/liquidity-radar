@@ -1,6 +1,50 @@
 {
- "dealCount": 722,
+ "dealCount": 724,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "IndiaFirst Life Insurance Company Ltd",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-29T16:45:51.064534+00:00",
+   "dealType": "PE secondary",
+   "enrichmentState": null,
+   "id": 1051,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "BNP Paribas Cardif to acquire 26% stake in IndiaFirst Life Insurance from Warburg Pincus.",
+   "primaryOutlet": "ET Corporate",
+   "seller": "Warburg Pincus",
+   "sizeBand": "OVER_2000",
+   "sizeSource": "band",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-29T16:45:58.370281+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Yatharth Hospital",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-29T16:45:51.061288+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1050,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Advent International seeks approval to acquire a stake in Yatharth Hospitals.",
+   "primaryOutlet": "ET Corporate",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "mcap_plausible",
+   "sourceCount": 1,
+   "ticker": "YATHARTH.NS",
+   "updatedAt": "2026-09-29T16:45:54.265217+00:00",
+   "updates": []
+  },
   {
    "amountCr": 500.0,
    "amountRaw": "Rs 500-crore",
@@ -22709,6 +22753,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-29T14:46:08.383955+00:00",
- "totalDeals": 722
+ "generatedAt": "2026-09-29T16:45:58.370281+00:00",
+ "totalDeals": 724
 }

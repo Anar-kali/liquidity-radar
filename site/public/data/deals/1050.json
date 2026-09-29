@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "Advent International",
+ "company": "Yatharth Hospital",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-29T16:45:51.061288+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1050,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Advent International seeks approval to acquire a stake in Yatharth Hospitals.",
+ "primaryUrl": "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/advent-international-seeks-cci-green-channel-clearances-for-yatharth-hospital-stake-buy/articleshow/134570563.cms",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "mcap_plausible",
+ "sources": [
+  {
+   "attachedAt": "2026-09-29T16:45:51.062384+00:00",
+   "outlet": "ET Corporate",
+   "resolvable": true,
+   "title": "Advent International seeks CCI green channel clearances for Yatharth Hospital stake buy",
+   "url": "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/advent-international-seeks-cci-green-channel-clearances-for-yatharth-hospital-stake-buy/articleshow/134570563.cms"
+  }
+ ],
+ "synopsis": "Advent International's Cyprus-incorporated vehicle, Rasmalai Limited, has sought approval from the Competition Commission of India through green channel clearances to acquire a stake in Yatharth Hospital & Trauma Care Services, an Indian super-specialty hospital chain. The transaction is currently awaiting regulatory approval, and no financial details or specific stake percentages have been disclosed in the report.",
+ "ticker": "YATHARTH.NS",
+ "updatedAt": "2026-09-29T16:45:54.265217+00:00"
+}
