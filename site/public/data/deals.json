@@ -62,10 +62,15 @@
    "seller": "promoters",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-09-29T05:02:24.339708+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-09-29T07:31:07.150421+00:00",
+     "title": "Royal Chain Files DRHP For Rs 1,000 Cr IPO, Plans Rs 650 Cr Debt Repayment"
+    }
+   ]
   },
   {
    "amountCr": 600.0,
