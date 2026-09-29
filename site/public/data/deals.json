@@ -1,6 +1,28 @@
 {
- "dealCount": 708,
+ "dealCount": 709,
  "deals": [
+  {
+   "amountCr": 643.0,
+   "amountRaw": "₹643 crore",
+   "company": "Honasa Consumer",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-29T04:01:21.530675+00:00",
+   "dealType": "block deal",
+   "enrichmentState": null,
+   "id": 1035,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Honasa Consumer shares change hands in an upsized block deal worth Rs 643 crore.",
+   "primaryOutlet": "CNBC TV18",
+   "seller": "Peak XV Partners Investments VI, Sequoia Capital Global Growth Fund III - US/India Annex Fund, Redwood Trust",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "HONASA.NS",
+   "updatedAt": "2026-09-29T04:01:26.546623+00:00",
+   "updates": []
+  },
   {
    "amountCr": 645.0,
    "amountRaw": "₹645 crore (from article)",
@@ -22247,6 +22269,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-29T01:31:13.250813+00:00",
- "totalDeals": 708
+ "generatedAt": "2026-09-29T04:01:26.546623+00:00",
+ "totalDeals": 709
 }
