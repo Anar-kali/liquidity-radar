@@ -200,10 +200,15 @@
    "seller": "EverBrands India",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-09-29T05:02:16.730834+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-09-29T10:31:11.909660+00:00",
+     "title": "Subway restaurants operator EverBrands India files papers for ₹600 cr IPO"
+    }
+   ]
   },
   {
    "amountCr": 300.0,
@@ -305,7 +310,7 @@
    "seller": "Sproutlife Foods shareholders",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-09-29T01:31:13.250813+00:00",
    "updates": [
@@ -316,6 +321,10 @@
     {
      "attachedAt": "2026-09-29T06:46:06.016260+00:00",
      "title": "ITC Completes Yoga Bar Acquisition For ₹645 Cr"
+    },
+    {
+     "attachedAt": "2026-09-29T10:31:11.897755+00:00",
+     "title": "ITC completes 100pc acquisition in Sproutlife Foods for Rs 645 crore"
     }
    ]
   },
