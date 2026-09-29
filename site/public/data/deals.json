@@ -1,6 +1,30 @@
 {
- "dealCount": 718,
+ "dealCount": 719,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Chamundi Die Cast",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-29T09:16:09.839431+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1045,
+   "individuals": [
+    "Yasin Khan"
+   ],
+   "listed": false,
+   "oneLine": "Highway Roop acquires Chamundi Die Cast to build a scaled precision manufacturing platform.",
+   "primaryOutlet": "Mint",
+   "seller": "Chamundi Die Cast Pvt. Ltd",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-29T09:16:15.104750+00:00",
+   "updates": []
+  },
   {
    "amountCr": 500.0,
    "amountRaw": "₹500 Crore",
@@ -22533,6 +22557,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-29T09:01:29.173167+00:00",
- "totalDeals": 718
+ "generatedAt": "2026-09-29T09:16:15.104750+00:00",
+ "totalDeals": 719
 }

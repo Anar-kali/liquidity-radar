@@ -1,0 +1,34 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "Highway Roop",
+ "company": "Chamundi Die Cast",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-29T09:16:09.839431+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1045,
+ "individuals": [
+  "Yasin Khan"
+ ],
+ "listed": false,
+ "oneLine": "Highway Roop acquires Chamundi Die Cast to build a scaled precision manufacturing platform.",
+ "primaryUrl": "https://www.livemint.com/companies/news/highway-roop-chamundi-die-cast-acquisition-carlyle-group-11790666681405.html",
+ "seller": "Chamundi Die Cast Pvt. Ltd",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-29T09:16:09.842451+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "Carlyle-backed Highway Roop acquires Chamundi Die Cast to diversify auto components platform",
+   "url": "https://www.livemint.com/companies/news/highway-roop-chamundi-die-cast-acquisition-carlyle-group-11790666681405.html"
+  }
+ ],
+ "synopsis": "The Carlyle Group-backed Highway Roop Precision Technologies Ltd has acquired Chamundi Die Cast Pvt. Ltd to build a scaled, diversified precision manufacturing platform and advance its journey towards an initial public offering. Chamundi manufactures complex, precision-machined aluminium die-cast components for automotive and industrial applications. The financial details of the transaction were not disclosed by the companies. Chamundi's promoters, including managing director Yasin Khan, will continue to hold a stake in the combined entity.",
+ "ticker": null,
+ "updatedAt": "2026-09-29T09:16:15.104750+00:00"
+}
