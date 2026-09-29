@@ -1,6 +1,28 @@
 {
- "dealCount": 707,
+ "dealCount": 708,
  "deals": [
+  {
+   "amountCr": 645.0,
+   "amountRaw": "₹645 crore (from article)",
+   "company": "Sproutlife Foods",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-29T01:31:10.836118+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1034,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "ITC acquires 100% ownership of Sproutlife Foods, maker of Yoga Bar.",
+   "primaryOutlet": "Business Line",
+   "seller": "Sproutlife Foods shareholders",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-29T01:31:13.250813+00:00",
+   "updates": []
+  },
   {
    "amountCr": 500.0,
    "amountRaw": "Rs 500 crore (from article)",
@@ -191,8 +213,8 @@
    ]
   },
   {
-   "amountCr": 3541.4,
-   "amountRaw": "47.95% x mcap ~Rs 7386cr = ~Rs 3541cr",
+   "amountCr": 162.73,
+   "amountRaw": "₹162.73 crore",
    "company": "Bliss GVS",
    "confidence": "medium",
    "confirmed": false,
@@ -207,13 +229,21 @@
    "seller": "Existing promoters/shareholders of Bliss GVS Pharma",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 4,
    "ticker": "BLISSGVS.NS",
-   "updatedAt": "2026-09-28T17:21:24.173258+00:00",
+   "updatedAt": "2026-09-29T01:31:10.794199+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-28T17:21:24.172300+00:00",
      "title": "Anupam Rasayan takes control of Bliss GVS Pharma with 47.95% stake"
+    },
+    {
+     "attachedAt": "2026-09-29T01:31:10.783945+00:00",
+     "title": "Anupam Rasayan ANURAS acquires 50.07% in Bliss GVS Pharma"
+    },
+    {
+     "attachedAt": "2026-09-29T01:31:10.787865+00:00",
+     "title": "Anupam Rasayan India acquires ₹162.73 crore stake in Bliss GVS Pharma"
     }
    ]
   },
@@ -414,7 +444,7 @@
    "seller": "Promoters",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 5,
+   "sourceCount": 6,
    "ticker": null,
    "updatedAt": "2026-09-26T10:15:57.118076+00:00",
    "updates": [
@@ -433,6 +463,10 @@
     {
      "attachedAt": "2026-09-27T05:15:55.646302+00:00",
      "title": "J Infratech files IPO papers; eyes Rs 600 cr via fresh issue"
+    },
+    {
+     "attachedAt": "2026-09-29T01:31:10.742575+00:00",
+     "title": "J Infratech Limited ने SEBI के पास दाखिल किया DRHP"
     }
    ]
   },
@@ -22208,6 +22242,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-28T17:21:24.173258+00:00",
- "totalDeals": 707
+ "generatedAt": "2026-09-29T01:31:13.250813+00:00",
+ "totalDeals": 708
 }

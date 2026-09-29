@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 645.0,
+ "amountRaw": "₹645 crore (from article)",
+ "buyer": "ITC",
+ "company": "Sproutlife Foods",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-29T01:31:10.836118+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1034,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "ITC acquires 100% ownership of Sproutlife Foods, maker of Yoga Bar.",
+ "primaryUrl": "https://www.thehindubusinessline.com/companies/itc-acquires-100-of-sproutlife-foods-maker-of-yoga-bar-products/article71521253.ece",
+ "seller": "Sproutlife Foods shareholders",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-29T01:31:10.851387+00:00",
+   "outlet": "Business Line",
+   "resolvable": true,
+   "title": "ITC acquires 100% of Sproutlife Foods, maker of Yoga Bar products",
+   "url": "https://www.thehindubusinessline.com/companies/itc-acquires-100-of-sproutlife-foods-maker-of-yoga-bar-products/article71521253.ece"
+  }
+ ],
+ "synopsis": "Diversified conglomerate ITC Ltd acquired the remaining 52.5 per cent stake in Sproutlife Foods, the maker of Yoga Bar products, for approximately ₹645 crore. The transaction was conducted through a secondary purchase of 13,445 equity shares, giving ITC 100 per cent ownership and making Sproutlife a wholly owned subsidiary. Prior to this acquisition, ITC held a 47.5 per cent stake on a fully diluted basis with a cumulative investment of ₹255 crore. The move aligns with ITC's strategy to strengthen its future-ready foods portfolio as Yoga Bar maintains momentum across Bars, Muesli, Oats, and protein products.",
+ "ticker": null,
+ "updatedAt": "2026-09-29T01:31:13.250813+00:00"
+}
