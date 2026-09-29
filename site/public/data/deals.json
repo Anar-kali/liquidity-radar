@@ -1,6 +1,35 @@
 {
- "dealCount": 724,
+ "dealCount": 725,
  "deals": [
+  {
+   "amountCr": 862.0,
+   "amountRaw": "₹862 crore",
+   "company": "Avalon Technologies",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-29T17:01:11.209055+00:00",
+   "dealType": "block deal",
+   "enrichmentState": null,
+   "id": 1052,
+   "individuals": [
+    "Bhaskar Srinivasan"
+   ],
+   "listed": true,
+   "oneLine": "Promoters of Avalon Technologies to sell up to 6% stake in a block deal for ₹862 crore.",
+   "primaryOutlet": "CNBC TV18",
+   "seller": "Promoters",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 2,
+   "ticker": "AVALON.NS",
+   "updatedAt": "2026-09-29T17:01:14.462797+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-09-29T17:01:11.213064+00:00",
+     "title": "Avalon Technologies Block Deal: Promoters likely to sell up to 6% stake for ₹862 crore - CNBC TV18"
+    }
+   ]
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -22753,6 +22782,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-29T16:45:58.370281+00:00",
- "totalDeals": 724
+ "generatedAt": "2026-09-29T17:01:14.462797+00:00",
+ "totalDeals": 725
 }

@@ -1,0 +1,41 @@
+{
+ "advisers": [],
+ "amountCr": 862.0,
+ "amountRaw": "₹862 crore",
+ "buyer": null,
+ "company": "Avalon Technologies",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-29T17:01:11.209055+00:00",
+ "dealType": "block deal",
+ "enrichmentState": null,
+ "id": 1052,
+ "individuals": [
+  "Bhaskar Srinivasan"
+ ],
+ "listed": true,
+ "oneLine": "Promoters of Avalon Technologies to sell up to 6% stake in a block deal for ₹862 crore.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNZ21iMF9qU1ozZEUtN2dVWE81NnI5U3pHUmY4WXFUUlBlbnJKX0tnbGEtZ1VPN2hlZ0FyVlQxdlNiMVpUaFZ6Rm0wYWFzNmRnaEpqLW14clRCUnYxZThvYXJfZzJta1czTWdWVndjQ3Qta3phcDI5Y0VzbHc4UTVuMDAzazdpQzlmVzhOb01Ub093SGlvUkFabkxvNWNBc1ZKcnROVmd5NW45SjlLNjQwb1d1S2kzZThaVkQ4WVRBRm5tZ05CWGpzbV9wX0JZRFI0cDRSaWxxUmhieUVXbjBjSFl1RHnSAeoBQVVfeXFMUEpBVFBTSVdZSzFfbTlHVXJ4RWR2UVU4NHRGT3NtbnVHZEoyTjhSN1RWQXVYeFp1NnZkazMzUm0tdXRlWk5DcHdfbGh5WU5rOXM3T3RUNXl5VDgzZHJFT19JUmpwSjhaWGRQTkZoai1xaEFzenNBSm9yNklONG1va3F6VUp5YVJCWkJ1Y2luN2RwOFQxdGJESHluNWNHa0Y5VjZfMS05Wkt2bGFnR0ZJYS1HWUk3c0R3WWgyUGhwb25iNzdVQzhfOHBEMVhrcmpXcEMxVXdjNk42dWQtTmdGQTZPNFp4am5CTVp3?oc=5",
+ "seller": "Promoters",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-29T17:01:11.210373+00:00",
+   "outlet": "CNBC TV18",
+   "resolvable": false,
+   "title": "Avalon Technologies Block Deal: Promoters likely to sell up to 6% stake for ₹862 crore",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNZ21iMF9qU1ozZEUtN2dVWE81NnI5U3pHUmY4WXFUUlBlbnJKX0tnbGEtZ1VPN2hlZ0FyVlQxdlNiMVpUaFZ6Rm0wYWFzNmRnaEpqLW14clRCUnYxZThvYXJfZzJta1czTWdWVndjQ3Qta3phcDI5Y0VzbHc4UTVuMDAzazdpQzlmVzhOb01Ub093SGlvUkFabkxvNWNBc1ZKcnROVmd5NW45SjlLNjQwb1d1S2kzZThaVkQ4WVRBRm5tZ05CWGpzbV9wX0JZRFI0cDRSaWxxUmhieUVXbjBjSFl1RHnSAeoBQVVfeXFMUEpBVFBTSVdZSzFfbTlHVXJ4RWR2UVU4NHRGT3NtbnVHZEoyTjhSN1RWQXVYeFp1NnZkazMzUm0tdXRlWk5DcHdfbGh5WU5rOXM3T3RUNXl5VDgzZHJFT19JUmpwSjhaWGRQTkZoai1xaEFzenNBSm9yNklONG1va3F6VUp5YVJCWkJ1Y2luN2RwOFQxdGJESHluNWNHa0Y5VjZfMS05Wkt2bGFnR0ZJYS1HWUk3c0R3WWgyUGhwb25iNzdVQzhfOHBEMVhrcmpXcEMxVXdjNk42dWQtTmdGQTZPNFp4am5CTVp3?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-29T17:01:11.213064+00:00",
+   "outlet": "LinkedIn",
+   "resolvable": false,
+   "title": "Avalon Technologies Block Deal: Promoters likely to sell up to 6% stake for ₹862 crore - CNBC TV18",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUGlFNEp4eUxQbmtHTk4yXzlldG13TERvVGhDdmlmcHhHSEhibEJyWmhqRFV4VkZfbzRtcThmbGdOb0Z4aHU0X2thaS01bXNsNURzVDNzQ2x6TVZtT2dyMEptU2lPaExlajRVVVlCSy1iYXFzNHUwSVM5eGFoTDB3a1pNbm96Tm5MUEFSYzdnbF9ycXNYVHdzSEdEVEMtZm1LRDJKQXpIX09sYkQ3cjZqTmJ1bGFEUQ?oc=5"
+  }
+ ],
+ "synopsis": "Promoter groups Bhaskar Srinivasan, BBS Family Trust, and KBS Family Trust are likely to sell up to a 6% stake in Avalon Technologies Ltd through a block deal valued at around ₹861.9 crore. The indicative price range for the transaction is set between ₹2,150 and ₹2,302 per share, featuring an offer discount of up to 6.6% to the market price and a 180-day lock-up period on further share sales by the sellers.",
+ "ticker": "AVALON.NS",
+ "updatedAt": "2026-09-29T17:01:14.462797+00:00"
+}
