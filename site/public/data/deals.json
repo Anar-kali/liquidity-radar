@@ -1,6 +1,31 @@
 {
- "dealCount": 721,
+ "dealCount": 722,
  "deals": [
+  {
+   "amountCr": 500.0,
+   "amountRaw": "Rs 500-crore",
+   "company": "Techno Paints",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-29T14:02:44.824166+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 1049,
+   "individuals": [
+    "Akuri Srinivasa Reddy",
+    "A Sandhya"
+   ],
+   "listed": false,
+   "oneLine": "Techno Paints files draft papers with SEBI for a Rs 500-crore IPO.",
+   "primaryOutlet": "Moneycontrol.com",
+   "seller": "existing shareholders, including promoters",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-29T14:03:00.729830+00:00",
+   "updates": []
+  },
   {
    "amountCr": 2500.0,
    "amountRaw": "₹2,500 Cr",
@@ -225,13 +250,17 @@
    "seller": "promoters",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-09-29T05:02:24.339708+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-29T07:31:07.150421+00:00",
      "title": "Royal Chain Files DRHP For Rs 1,000 Cr IPO, Plans Rs 650 Cr Debt Repayment"
+    },
+    {
+     "attachedAt": "2026-09-29T14:02:44.834832+00:00",
+     "title": "Royal Chain, Technopaints File IPO Papers With Sebi To Raise Combined ₹1,500 Crore"
     }
    ]
   },
@@ -22671,6 +22700,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-29T12:46:13.249776+00:00",
- "totalDeals": 721
+ "generatedAt": "2026-09-29T14:03:00.729830+00:00",
+ "totalDeals": 722
 }
