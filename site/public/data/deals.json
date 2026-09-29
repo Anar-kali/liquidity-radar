@@ -40,10 +40,15 @@
    "seller": "Peak XV Partners Investments VI, Sequoia Capital Global Growth Fund III - US/India Annex Fund, Redwood Trust",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": "HONASA.NS",
    "updatedAt": "2026-09-29T04:01:26.546623+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-09-29T04:31:04.579726+00:00",
+     "title": "Honasa Consumer shares fall 3% after Rs 643-crore block deal; 4.4% equity changes hands"
+    }
+   ]
   },
   {
    "amountCr": 645.0,
