@@ -1,6 +1,54 @@
 {
- "dealCount": 725,
+ "dealCount": 727,
  "deals": [
+  {
+   "amountCr": 1424.34,
+   "amountRaw": "1424.34cr confirmed via NSE bulk deal",
+   "company": "BSE Limited",
+   "confidence": "high",
+   "confirmed": true,
+   "createdAt": "2026-09-29T19:19:08.345444+00:00",
+   "dealType": "bulk deal",
+   "enrichmentState": null,
+   "id": 1054,
+   "individuals": [
+    "BNP PARIBAS FINANCIAL MARKETS"
+   ],
+   "listed": true,
+   "oneLine": "BNP PARIBAS FINANCIAL MARKETS sold shares in BSE Limited (confirmed, NSE bulk deal)",
+   "primaryOutlet": "NSE",
+   "seller": "BNP PARIBAS FINANCIAL MARKETS",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "BSE.NS",
+   "updatedAt": "2026-09-29T19:19:08.345444+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 214.2,
+   "amountRaw": "214.2cr confirmed via NSE bulk deal",
+   "company": "Kajaria Ceramics Ltd",
+   "confidence": "high",
+   "confirmed": true,
+   "createdAt": "2026-09-29T19:19:08.292250+00:00",
+   "dealType": "bulk deal",
+   "enrichmentState": null,
+   "id": 1053,
+   "individuals": [
+    "CHETAN KAJARIA FAMILY PRIVATE TRUST"
+   ],
+   "listed": true,
+   "oneLine": "CHETAN KAJARIA FAMILY PRIVATE TRUST sold shares in Kajaria Ceramics Ltd (confirmed, NSE bulk deal)",
+   "primaryOutlet": "NSE",
+   "seller": "CHETAN KAJARIA FAMILY PRIVATE TRUST",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "KAJARIACER.NS",
+   "updatedAt": "2026-09-29T19:19:08.292250+00:00",
+   "updates": []
+  },
   {
    "amountCr": 862.0,
    "amountRaw": "₹862 crore",
@@ -22786,6 +22834,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-29T17:01:14.462797+00:00",
- "totalDeals": 725
+ "generatedAt": "2026-09-29T19:19:08.345444+00:00",
+ "totalDeals": 727
 }
