@@ -350,8 +350,8 @@
    "updates": []
   },
   {
-   "amountCr": 741.0,
-   "amountRaw": "₹741 crore",
+   "amountCr": 903.5,
+   "amountRaw": "10.86% x mcap ~Rs 8320cr = ~Rs 904cr",
    "company": "Axiscades Technologies",
    "confidence": "medium",
    "confirmed": false,
@@ -363,13 +363,18 @@
    "listed": true,
    "oneLine": "Axiscades Technologies shares worth ₹741 crore traded in a block deal.",
    "primaryOutlet": "CNBC TV18",
-   "seller": null,
+   "seller": "Jupiter Capital",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": "AXISCADES.NS",
-   "updatedAt": "2026-09-29T04:16:06.455227+00:00",
-   "updates": []
+   "updatedAt": "2026-09-29T14:46:08.383955+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-09-29T14:46:08.382367+00:00",
+     "title": "Jupiter Capital sells 10.86% stake in Axiscades Technologies"
+    }
+   ]
   },
   {
    "amountCr": 643.0,
@@ -22704,6 +22709,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-29T14:03:00.729830+00:00",
+ "generatedAt": "2026-09-29T14:46:08.383955+00:00",
  "totalDeals": 722
 }
