@@ -466,7 +466,7 @@
    "seller": "Peak XV Partners Investments VI, Sequoia Capital Global Growth Fund III - US/India Annex Fund, Redwood Trust",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 5,
+   "sourceCount": 6,
    "ticker": "HONASA.NS",
    "updatedAt": "2026-09-29T04:01:26.546623+00:00",
    "updates": [
@@ -485,6 +485,10 @@
     {
      "attachedAt": "2026-09-29T06:01:14.440474+00:00",
      "title": "Block deal alert: Honasa Consumer shares tumble 5% after equity worth ₹643 crore changes hands - Should investors buy?"
+    },
+    {
+     "attachedAt": "2026-09-29T17:15:56.416318+00:00",
+     "title": "Sequoia Capital, Peak XV Partners sell over 4% stake in Mamaearth parent; Goldman Sachs, BNP Paribas offload 1.67% stake in BSE"
     }
    ]
   },
