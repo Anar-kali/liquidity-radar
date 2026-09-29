@@ -1,6 +1,28 @@
 {
- "dealCount": 720,
+ "dealCount": 721,
  "deals": [
+  {
+   "amountCr": 2500.0,
+   "amountRaw": "₹2,500 Cr",
+   "company": "StockGro",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-29T12:46:09.810136+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 1048,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "StockGro confidentially files IPO papers and eyes up to a Rs 2,500 crore issue.",
+   "primaryOutlet": "Inc42",
+   "seller": "existing shareholders",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-29T12:46:13.249776+00:00",
+   "updates": []
+  },
   {
    "amountCr": 517.5,
    "amountRaw": "64.26% x mcap ~Rs 805cr = ~Rs 518cr",
@@ -1711,13 +1733,17 @@
    "seller": "existing shareholders",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-09-24T01:31:31.432175+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-28T12:17:22.526041+00:00",
      "title": "StockGro parent AssetGro Fintech prepares confidential IPO filing"
+    },
+    {
+     "attachedAt": "2026-09-29T12:46:09.795342+00:00",
+     "title": "StockGro parent AssetGro Fintech files confidential pre-filed IPO papers with Sebi"
     }
    ]
   },
@@ -22633,6 +22659,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-29T10:46:03.514835+00:00",
- "totalDeals": 720
+ "generatedAt": "2026-09-29T12:46:13.249776+00:00",
+ "totalDeals": 721
 }

@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 2500.0,
+ "amountRaw": "₹2,500 Cr",
+ "buyer": null,
+ "company": "StockGro",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-29T12:46:09.810136+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": null,
+ "id": 1048,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "StockGro confidentially files IPO papers and eyes up to a Rs 2,500 crore issue.",
+ "primaryUrl": "https://inc42.com/buzz/stockgro-confidentially-files-ipo-papers-eyes-up-to-%e2%82%b92500-cr-issue/",
+ "seller": "existing shareholders",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-29T12:46:09.812321+00:00",
+   "outlet": "Inc42",
+   "resolvable": true,
+   "title": "StockGro Confidentially Files IPO Papers, Eyes Up To ₹2,500 Cr Issue",
+   "url": "https://inc42.com/buzz/stockgro-confidentially-files-ipo-papers-eyes-up-to-%e2%82%b92500-cr-issue/"
+  }
+ ],
+ "synopsis": "Investment advisory startup StockGro's parent AssetGro Fintech Ltd pre-filed its draft red herring prospectus with SEBI, BSE, and NSE under the confidential pre-filing route on September 26. StockGro is looking to raise up to Rs 2,000 Cr to Rs 2,500 Cr via the IPO, which includes a fresh issue of around Rs 800 Cr and an offer for sale by existing shareholders. The final issue size and structure could change during the IPO process.",
+ "ticker": null,
+ "updatedAt": "2026-09-29T12:46:13.249776+00:00"
+}
