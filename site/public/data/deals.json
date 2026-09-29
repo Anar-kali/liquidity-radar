@@ -394,7 +394,7 @@
    "seller": "Sproutlife Foods shareholders",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 4,
+   "sourceCount": 5,
    "ticker": null,
    "updatedAt": "2026-09-29T01:31:13.250813+00:00",
    "updates": [
@@ -409,6 +409,10 @@
     {
      "attachedAt": "2026-09-29T10:31:11.897755+00:00",
      "title": "ITC completes 100pc acquisition in Sproutlife Foods for Rs 645 crore"
+    },
+    {
+     "attachedAt": "2026-09-29T13:45:54.086384+00:00",
+     "title": "ITC Acquires Sproutlife For ₹645 Crore And Targets Eastern India Dairy Growth"
     }
    ]
   },
