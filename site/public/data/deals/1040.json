@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 645.0,
+ "amountRaw": "₹645 Crore",
+ "buyer": "ITC",
+ "company": "Yoga Bar",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-29T05:02:06.623044+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1040,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "ITC acquired the remaining stake in Yoga Bar for ₹645 Crore.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSzQtdXNYQm01ZzY1T2k2dldZX0t2b3g3bXVENFFjVXhKTEdSTm8tYmJwcy1VX2VjTTFteW5WY3A1amxqSlpmczlJQUExR0pWUjJiYmRuSjlmam1wbG8yX2xWMmhLM0QtY2pIYUQ4SnkyNmJJZlUtTVdWS0lqcnNKODJzWldLMHZxMXVZZE9BRXFuR1J1N081cA?oc=5",
+ "seller": "Sproutlife Foods Private Ltd shareholders",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-29T05:02:06.624376+00:00",
+   "outlet": "HDFC Sky",
+   "resolvable": false,
+   "title": "ITC Acquires Remaining Yoga Bar Stake for ₹645 Crore",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSzQtdXNYQm01ZzY1T2k2dldZX0t2b3g3bXVENFFjVXhKTEdSTm8tYmJwcy1VX2VjTTFteW5WY3A1amxqSlpmczlJQUExR0pWUjJiYmRuSjlmam1wbG8yX2xWMmhLM0QtY2pIYUQ4SnkyNmJJZlUtTVdWS0lqcnNKODJzWldLMHZxMXVZZE9BRXFuR1J1N081cA?oc=5"
+  }
+ ],
+ "synopsis": "ITC Ltd has acquired the remaining 52.5 per cent stake in Sproutlife Foods Private Ltd, the company behind the Yoga Bar brand, for approximately Rs 645 crore through a secondary purchase for cash consideration. This transaction increases ITC's shareholding from 47.5 per cent to 100 per cent, making Sproutlife Foods a wholly owned subsidiary. The acquisition was completed on September 28, with no regulatory approvals required for the deal. Sproutlife Foods manufactures and sells products under the Yoga Bar trademark and reported a turnover of Rs 452 crore in 2025-26.",
+ "ticker": null,
+ "updatedAt": "2026-09-29T05:02:27.672291+00:00"
+}

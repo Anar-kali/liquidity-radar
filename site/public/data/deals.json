@@ -1,6 +1,94 @@
 {
- "dealCount": 710,
+ "dealCount": 714,
  "deals": [
+  {
+   "amountCr": 645.0,
+   "amountRaw": "₹645 Crore",
+   "company": "Yoga Bar",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-29T05:02:06.623044+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1040,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "ITC acquired the remaining stake in Yoga Bar for ₹645 Crore.",
+   "primaryOutlet": "HDFC Sky",
+   "seller": "Sproutlife Foods Private Ltd shareholders",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-29T05:02:27.672291+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 1000.0,
+   "amountRaw": "Rs 1,000-crore",
+   "company": "Royal Chain",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-29T05:02:06.619930+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 1039,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Royal Chain filed draft papers for a Rs 1,000-crore IPO.",
+   "primaryOutlet": "Moneycontrol.com",
+   "seller": "promoters",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-29T05:02:24.339708+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 600.0,
+   "amountRaw": "Rs 600 Cr",
+   "company": "EverBrands",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-29T05:02:06.610150+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 1038,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Subway India operator EverBrands filed a DRHP to raise Rs 600 Cr via fresh issue.",
+   "primaryOutlet": "entrackr.com",
+   "seller": "EverBrands India",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-29T05:02:16.730834+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 300.0,
+   "amountRaw": "₹300 crore",
+   "company": "PVR Inox",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-29T05:02:06.598286+00:00",
+   "dealType": "promoter sale",
+   "enrichmentState": "failed",
+   "id": 1037,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "PVR Inox promoter group sold 5.02 lakh shares in a Rs 300 crore buyback.",
+   "primaryOutlet": "scanx.trade",
+   "seller": "PVR Inox promoter group",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "PVRINOX.NS",
+   "updatedAt": "2026-09-29T05:02:06.598286+00:00",
+   "updates": []
+  },
   {
    "amountCr": 741.0,
    "amountRaw": "₹741 crore",
@@ -40,13 +128,17 @@
    "seller": "Peak XV Partners Investments VI, Sequoia Capital Global Growth Fund III - US/India Annex Fund, Redwood Trust",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": "HONASA.NS",
    "updatedAt": "2026-09-29T04:01:26.546623+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-29T04:31:04.579726+00:00",
      "title": "Honasa Consumer shares fall 3% after Rs 643-crore block deal; 4.4% equity changes hands"
+    },
+    {
+     "attachedAt": "2026-09-29T05:02:06.601054+00:00",
+     "title": "Honasa Consumer shares fall 5% after Rs 643 crore block deal; Peak XV, Sequoia likely sellers"
     }
    ]
   },
@@ -283,7 +375,7 @@
    "seller": "Existing promoters/shareholders of Bliss GVS Pharma",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 4,
+   "sourceCount": 5,
    "ticker": "BLISSGVS.NS",
    "updatedAt": "2026-09-29T01:31:10.794199+00:00",
    "updates": [
@@ -298,6 +390,10 @@
     {
      "attachedAt": "2026-09-29T01:31:10.787865+00:00",
      "title": "Anupam Rasayan India acquires ₹162.73 crore stake in Bliss GVS Pharma"
+    },
+    {
+     "attachedAt": "2026-09-29T05:02:06.626304+00:00",
+     "title": "Anupam Rasayan Acquires 22.5 Lakh Shares Of Bliss GVS Pharma For ₹162.74 Crore"
     }
    ]
   },
@@ -3370,7 +3466,7 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-09-18T05:31:22.171346+00:00",
    "updates": [
@@ -3381,6 +3477,10 @@
     {
      "attachedAt": "2026-09-18T06:31:15.363248+00:00",
      "title": "EPC firm Swastika Infra to open IPO on September 23, sets price band at Rs 175-185 per share"
+    },
+    {
+     "attachedAt": "2026-09-29T05:02:06.595081+00:00",
+     "title": "Swastika Infra Limited"
     }
    ]
   },
@@ -22296,6 +22396,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-29T04:16:06.455227+00:00",
- "totalDeals": 710
+ "generatedAt": "2026-09-29T05:02:27.672291+00:00",
+ "totalDeals": 714
 }

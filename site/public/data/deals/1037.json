@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 300.0,
+ "amountRaw": "₹300 crore",
+ "buyer": "PVR Inox",
+ "company": "PVR Inox",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-29T05:02:06.598286+00:00",
+ "dealType": "promoter sale",
+ "enrichmentState": "failed",
+ "id": 1037,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "PVR Inox promoter group sold 5.02 lakh shares in a Rs 300 crore buyback.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdUppSEotRHJuc2F5TFFJd1g0THJER0tBN3UyNHFZQUFKSkwxOFczVjFWcG1GOEdUVlR2RlVIX0UwQldnSEc4UWRXWUJqR0kzVDgxQVdab3EzSUp2MzZjU1BobGVoTHo1RE9mRzVmYXdVTUFWckhrUHNzbWtfMmV3NjBjSFZvU2k1X2M1Z05NQ2plMnJFbkQ3OHZQdVI0cEJBWDFRa2ZJcFhKRUFBMTdRRA?oc=5",
+ "seller": "PVR Inox promoter group",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-29T05:02:06.599298+00:00",
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "PVR Inox promoter group sells 5.02 lakh shares in ₹300 crore buyback",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdUppSEotRHJuc2F5TFFJd1g0THJER0tBN3UyNHFZQUFKSkwxOFczVjFWcG1GOEdUVlR2RlVIX0UwQldnSEc4UWRXWUJqR0kzVDgxQVdab3EzSUp2MzZjU1BobGVoTHo1RE9mRzVmYXdVTUFWckhrUHNzbWtfMmV3NjBjSFZvU2k1X2M1Z05NQ2plMnJFbkQ3OHZQdVI0cEJBWDFRa2ZJcFhKRUFBMTdRRA?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": "PVRINOX.NS",
+ "updatedAt": "2026-09-29T05:02:06.598286+00:00"
+}
