@@ -862,13 +862,17 @@
    "seller": "promoters",
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-09-26T07:16:15.605421+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-26T08:01:36.029778+00:00",
      "title": "Deon Energy Sets Its IPO Plans In Motion, Submits Draft Fundraising Papers To SEBI"
+    },
+    {
+     "attachedAt": "2026-09-29T10:01:18.085263+00:00",
+     "title": "Deon Energy Files IPO Draft Papers With SEBI - energetica-india.net"
     }
    ]
   },
