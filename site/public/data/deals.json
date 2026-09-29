@@ -1,6 +1,32 @@
 {
- "dealCount": 719,
+ "dealCount": 720,
  "deals": [
+  {
+   "amountCr": 517.5,
+   "amountRaw": "64.26% x mcap ~Rs 805cr = ~Rs 518cr",
+   "company": "Kronox Lab Sciences",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-29T10:46:00.171367+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1046,
+   "individuals": [
+    "Ketan Vinodchandra Ramani",
+    "Pritesh Vinodchandra Ramani",
+    "Jogindersingh Gianchand Jaswal"
+   ],
+   "listed": true,
+   "oneLine": "Indo Borax acquired a 64.26% stake in Kronox Lab Sciences.",
+   "primaryOutlet": "Free Press Journal",
+   "seller": "Ketan Vinodchandra Ramani, Pritesh Vinodchandra Ramani, and Jogindersingh Gianchand Jaswal",
+   "sizeBand": null,
+   "sizeSource": "computed",
+   "sourceCount": 1,
+   "ticker": "KRONOX.NS",
+   "updatedAt": "2026-09-29T10:46:03.514835+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -200,13 +226,17 @@
    "seller": "EverBrands India",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-09-29T05:02:16.730834+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-29T10:31:11.909660+00:00",
      "title": "Subway restaurants operator EverBrands India files papers for ₹600 cr IPO"
+    },
+    {
+     "attachedAt": "2026-09-29T10:46:00.181131+00:00",
+     "title": "Subway India operator EverBrands plans ₹600 crore IPO despite widening losses"
     }
    ]
   },
@@ -22575,6 +22605,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-29T09:16:15.104750+00:00",
- "totalDeals": 719
+ "generatedAt": "2026-09-29T10:46:03.514835+00:00",
+ "totalDeals": 720
 }

@@ -1,0 +1,36 @@
+{
+ "advisers": [],
+ "amountCr": 517.5,
+ "amountRaw": "64.26% x mcap ~Rs 805cr = ~Rs 518cr",
+ "buyer": "Indo Borax",
+ "company": "Kronox Lab Sciences",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-29T10:46:00.171367+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1046,
+ "individuals": [
+  "Ketan Vinodchandra Ramani",
+  "Pritesh Vinodchandra Ramani",
+  "Jogindersingh Gianchand Jaswal"
+ ],
+ "listed": true,
+ "oneLine": "Indo Borax acquired a 64.26% stake in Kronox Lab Sciences.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOOHB1T1ZOUm1XWWplRjRmbjlzdWduVHJWbDdNNU55SXQ4R3BhMXVvamllY3F5TlR6cHBBNGF5U2lzLVI1T2MwbENqQ2luaUZrSG1saUlQYVlsem5kZWxzem91T2tTOG5rYjJ2V1k0R3ZyNG9rcDZQQ1A2eWNnUmJjU3oxaVN6ZW1oZnp0NkNtTE9KMkVfYmRwRk1odW1MUG1kTFdzWUptMFFucm4tM2lF0gG0AUFVX3lxTFBjMXIwclA0RDR1c3NHcEVZUS1ERjdyVXlMTG5KRTl6cmVkYWtzLW52RzdEc3Z5aWZ3UzJ4RmNRYUpjOE9ZSXFXcGJNWlBIM3Nkc3owVjFWUkVveHJKYTVjUEx4a2prcTN5YUF4aF9icy0yVE83eTZJOGlaVTlpMXAzbHJNckZ3blhydkNrenFKOXl1UDhQUXAwSlpKSks1WmkyS0JsenhxeF9oY0lReXRyZ3dubw?oc=5",
+ "seller": "Ketan Vinodchandra Ramani, Pritesh Vinodchandra Ramani, and Jogindersingh Gianchand Jaswal",
+ "sizeBand": null,
+ "sizeSource": "computed",
+ "sources": [
+  {
+   "attachedAt": "2026-09-29T10:46:00.172466+00:00",
+   "outlet": "Free Press Journal",
+   "resolvable": false,
+   "title": "Indo Borax Completes Acquisition Of 64.26% Stake In Kronox Lab Sciences",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOOHB1T1ZOUm1XWWplRjRmbjlzdWduVHJWbDdNNU55SXQ4R3BhMXVvamllY3F5TlR6cHBBNGF5U2lzLVI1T2MwbENqQ2luaUZrSG1saUlQYVlsem5kZWxzem91T2tTOG5rYjJ2V1k0R3ZyNG9rcDZQQ1A2eWNnUmJjU3oxaVN6ZW1oZnp0NkNtTE9KMkVfYmRwRk1odW1MUG1kTFdzWUptMFFucm4tM2lF0gG0AUFVX3lxTFBjMXIwclA0RDR1c3NHcEVZUS1ERjdyVXlMTG5KRTl6cmVkYWtzLW52RzdEc3Z5aWZ3UzJ4RmNRYUpjOE9ZSXFXcGJNWlBIM3Nkc3owVjFWUkVveHJKYTVjUEx4a2prcTN5YUF4aF9icy0yVE83eTZJOGlaVTlpMXAzbHJNckZ3blhydkNrenFKOXl1UDhQUXAwSlpKSks1WmkyS0JsenhxeF9oY0lReXRyZ3dubw?oc=5"
+  }
+ ],
+ "synopsis": "Indo Borax & Chemicals Ltd has completed the acquisition of a 64.26 per cent stake in Kronox Lab Sciences Ltd, securing 2,38,44,000 equity shares and becoming the majority shareholder. The share purchase agreement was entered into on August 20, 2026, and finalised on September 29, 2026. The sellers in the transaction are Ketan Vinodchandra Ramani, Pritesh Vinodchandra Ramani, and Jogindersingh Gianchand Jaswal. Sunil Malhotra, Director at Indo Borax & Chemicals Ltd, signed the disclosure confirming the completion of the acquisition.",
+ "ticker": "KRONOX.NS",
+ "updatedAt": "2026-09-29T10:46:03.514835+00:00"
+}
