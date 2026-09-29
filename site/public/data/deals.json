@@ -409,7 +409,7 @@
    "seller": "Existing promoters/shareholders of Bliss GVS Pharma",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 6,
+   "sourceCount": 8,
    "ticker": "BLISSGVS.NS",
    "updatedAt": "2026-09-29T07:01:18.490502+00:00",
    "updates": [
@@ -432,6 +432,14 @@
     {
      "attachedAt": "2026-09-29T07:01:18.488574+00:00",
      "title": "Anupam Rasayan acquires 50.07% stake in Bliss GVS Pharma For ₹1,600 Crore"
+    },
+    {
+     "attachedAt": "2026-09-29T07:15:59.033447+00:00",
+     "title": "Anupam Rasayan Buys 48.2% in Bliss GVS for ₹1,750 Cr"
+    },
+    {
+     "attachedAt": "2026-09-29T07:15:59.035985+00:00",
+     "title": "Anupam Rasayan completes purchase of 48.2% stake in Bliss GVS Pharma for ₹1,750 cr"
     }
    ]
   },
