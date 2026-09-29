@@ -1,6 +1,28 @@
 {
- "dealCount": 714,
+ "dealCount": 715,
  "deals": [
+  {
+   "amountCr": 39600.0,
+   "amountRaw": "$450 million",
+   "company": "Cloudnine Hospitals",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-29T06:46:06.012276+00:00",
+   "dealType": "PE secondary",
+   "enrichmentState": null,
+   "id": 1041,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Permira and TPG Capital acquire stakes in Cloudnine Hospitals for $450 million.",
+   "primaryOutlet": "Mint",
+   "seller": "True North and TPG NewQuest",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-29T06:46:11.188895+00:00",
+   "updates": []
+  },
   {
    "amountCr": 645.0,
    "amountRaw": "₹645 Crore",
@@ -167,13 +189,17 @@
    "seller": "Sproutlife Foods shareholders",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-09-29T01:31:13.250813+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-29T03:01:11.606288+00:00",
      "title": "ITC Acquires Remaining Stake in Sproutlife Foods, Makes 'Yoga Bar' Subsidiary"
+    },
+    {
+     "attachedAt": "2026-09-29T06:46:06.016260+00:00",
+     "title": "ITC Completes Yoga Bar Acquisition For ₹645 Cr"
     }
    ]
   },
@@ -22404,6 +22430,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-29T05:02:27.672291+00:00",
- "totalDeals": 714
+ "generatedAt": "2026-09-29T06:46:11.188895+00:00",
+ "totalDeals": 715
 }
