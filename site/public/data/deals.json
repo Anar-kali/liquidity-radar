@@ -111,10 +111,15 @@
    "seller": "Alfanar Energy and Netra Wind",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-09-30T06:31:20.154407+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-09-30T10:16:14.060030+00:00",
+     "title": "KPI Green Energy to acquire 507.9 MW operational wind assets in Gujarat for Rs 2,410 crore"
+    }
+   ]
   },
   {
    "amountCr": 1350.0,
