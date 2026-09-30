@@ -1,6 +1,28 @@
 {
- "dealCount": 735,
+ "dealCount": 736,
  "deals": [
+  {
+   "amountCr": 25000.0,
+   "amountRaw": "₹25,000-crore",
+   "company": "Tata Sons",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-30T07:31:08.330654+00:00",
+   "dealType": "other",
+   "enrichmentState": null,
+   "id": 1063,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "SP Group pursues a ₹25,000-crore liquidity plan.",
+   "primaryOutlet": "Business Today",
+   "seller": "SP Group",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-30T07:31:11.702307+00:00",
+   "updates": []
+  },
   {
    "amountCr": 2410.0,
    "amountRaw": "₹2,410 Crore",
@@ -187,8 +209,8 @@
    "updates": []
   },
   {
-   "amountCr": 2186.0,
-   "amountRaw": "Rs 2,186 Crore",
+   "amountCr": 5012.8,
+   "amountRaw": "4% x mcap ~Rs 125319cr = ~Rs 5013cr",
    "company": "BSE Limited",
    "confidence": "high",
    "confirmed": true,
@@ -205,13 +227,17 @@
    "seller": "BNP PARIBAS FINANCIAL MARKETS",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": "BSE.NS",
-   "updatedAt": "2026-09-30T07:01:18.950172+00:00",
+   "updatedAt": "2026-09-30T07:31:08.327471+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-30T07:01:18.949169+00:00",
      "title": "BNP Paribas And Goldman Sachs Sell Nearly 1.7% Stake In BSE For Rs 2,186 Crore, Shares Slide Almost 4%"
+    },
+    {
+     "attachedAt": "2026-09-30T07:31:08.325175+00:00",
+     "title": "BNP Paribas, Goldman Sachs Sell BSE Stake; Stock Drops 4%"
     }
    ]
   },
@@ -23096,6 +23122,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-30T07:01:18.963172+00:00",
- "totalDeals": 735
+ "generatedAt": "2026-09-30T07:31:11.702307+00:00",
+ "totalDeals": 736
 }

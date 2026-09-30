@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 25000.0,
+ "amountRaw": "₹25,000-crore",
+ "buyer": "Tata Sons",
+ "company": "Tata Sons",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-30T07:31:08.330654+00:00",
+ "dealType": "other",
+ "enrichmentState": null,
+ "id": 1063,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "SP Group pursues a ₹25,000-crore liquidity plan.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOSndJREk2eW1sc2R2cjlPRnJHdjQ0MjRhV09Wb2hJSldYbUVCYWMyc1p6LUZVNUh0U3M5R2FFdjloa2NYMHpzYWFmR2wyTGg0Rm91RHpoQmhsUnZGakg4WTRGdzg0UGxidGp4OWFia2tHTVhmZ0s4UTFLZDFWT3Q3MHlfTnRKNUh4T0NjclplTnBNOTBrTW1TRDRHY05ka0Z0QWpYbWxIYVBWLXhHSE5QbklHLWQ5SzFaUGlmb1FBUkNFNHdQM2xtSl9aRjBNSzFnMW1vRmd6cjg3LXpqaUR6aHN5d3g1TWVteVFyYnZR0gHzAUFVX3lxTE53dEtlYVVtV0lyeUl2ZGlZbjVKQkFyclhYM182SWJYNE9vZmtuV3RuRlM0Q2R5N045aWFpRGxQUkxQdklnMWFXWDlZNVpwbi1SVVlaQnJrWmN5R1F4T1JiYTI3blhDTXc5NjU1NWpjcnE4UGF6R2c3amlYcjl0OHlTeVZJcDhYQWg1QWFSeU4zaUZ5ck1KYTN0VGtyVWxRQ255TmpEUzZRcExKQUFaMzJLZ0h3bDEwMTBvdGJnTG9tZVJuM29BMm50TEtDc3pnbjR1ZVBSRkdzanFWYXBOb05VdW9ZZEotR2xJWnhuRmVEYVVVWQ?oc=5",
+ "seller": "SP Group",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-30T07:31:08.332115+00:00",
+   "outlet": "Business Today",
+   "resolvable": false,
+   "title": "₹25,000-crore SP Group liquidity plan separate from Tata Sons listing, says Tata Trusts",
+   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOSndJREk2eW1sc2R2cjlPRnJHdjQ0MjRhV09Wb2hJSldYbUVCYWMyc1p6LUZVNUh0U3M5R2FFdjloa2NYMHpzYWFmR2wyTGg0Rm91RHpoQmhsUnZGakg4WTRGdzg0UGxidGp4OWFia2tHTVhmZ0s4UTFLZDFWT3Q3MHlfTnRKNUh4T0NjclplTnBNOTBrTW1TRDRHY05ka0Z0QWpYbWxIYVBWLXhHSE5QbklHLWQ5SzFaUGlmb1FBUkNFNHdQM2xtSl9aRjBNSzFnMW1vRmd6cjg3LXpqaUR6aHN5d3g1TWVteVFyYnZR0gHzAUFVX3lxTE53dEtlYVVtV0lyeUl2ZGlZbjVKQkFyclhYM182SWJYNE9vZmtuV3RuRlM0Q2R5N045aWFpRGxQUkxQdklnMWFXWDlZNVpwbi1SVVlaQnJrWmN5R1F4T1JiYTI3blhDTXc5NjU1NWpjcnE4UGF6R2c3amlYcjl0OHlTeVZJcDhYQWg1QWFSeU4zaUZ5ck1KYTN0VGtyVWxRQ255TmpEUzZRcExKQUFaMzJLZ0h3bDEwMTBvdGJnTG9tZVJuM29BMm50TEtDc3pnbjR1ZVBSRkdzanFWYXBOb05VdW9ZZEotR2xJWnhuRmVEYVVVWQ?oc=5"
+  }
+ ],
+ "synopsis": "Tata Trusts is working with Tata Sons and the Shapoorji Pallonji Group on a liquidity solution of approximately ₹25,000 crore to address a substantial part of the SP Group's debt. The plan involves unlocking liquidity for the debt-laden SP Group—equivalent to about half its debt—while resulting in only a marginal reduction in its 18.37 per cent holding in Tata Sons. Tata Trusts consultant Farokh Subedar clarified that this proposed liquidity transaction is separate from discussions regarding Tata Sons' ownership structure, regulatory status, or a potential public listing.",
+ "ticker": null,
+ "updatedAt": "2026-09-30T07:31:11.702307+00:00"
+}
