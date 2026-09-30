@@ -1,6 +1,28 @@
 {
- "dealCount": 739,
+ "dealCount": 740,
  "deals": [
+  {
+   "amountCr": 616000.0,
+   "amountRaw": "$7B (approx Rs 616,000 crore)",
+   "company": "This IT services provider is planning $7B IPO in India",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-30T10:46:02.429490+00:00",
+   "dealType": "unknown",
+   "enrichmentState": "failed",
+   "id": 1067,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "An unnamed IT services provider is planning a $7 billion IPO in India.",
+   "primaryOutlet": "NewsBytes",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-30T10:46:02.429490+00:00",
+   "updates": []
+  },
   {
    "amountCr": 2000.0,
    "amountRaw": "Rs 2,000 cr",
@@ -23255,6 +23277,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-30T09:31:08.763046+00:00",
- "totalDeals": 739
+ "generatedAt": "2026-09-30T10:46:02.429490+00:00",
+ "totalDeals": 740
 }

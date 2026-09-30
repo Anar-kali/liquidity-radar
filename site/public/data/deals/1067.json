@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 616000.0,
+ "amountRaw": "$7B (approx Rs 616,000 crore)",
+ "buyer": null,
+ "company": "This IT services provider is planning $7B IPO in India",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-30T10:46:02.429490+00:00",
+ "dealType": "unknown",
+ "enrichmentState": "failed",
+ "id": 1067,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "An unnamed IT services provider is planning a $7 billion IPO in India.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQanBra0VjWDVoTms1d1RyaVhmYmxkVm5hRzZhclJCb3JiQzM5Y2syb09mQUxrQnNvUVdhaExyQ0JMOU5GRFRhOHhXbEhJYXhreVRXQnFYZ056MW5vdm1tZGNlTWdqTkNBQVZHaGZXVzJacEY4Sko3NThZbU40UVdONmlMRXlYUTUwZEtVR0ppMlVqZmpMcXhsdFFR?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-30T10:46:02.431282+00:00",
+   "outlet": "NewsBytes",
+   "resolvable": false,
+   "title": "This IT services provider is planning $7B IPO in India",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQanBra0VjWDVoTms1d1RyaVhmYmxkVm5hRzZhclJCb3JiQzM5Y2syb09mQUxrQnNvUVdhaExyQ0JMOU5GRFRhOHhXbEhJYXhreVRXQnFYZ056MW5vdm1tZGNlTWdqTkNBQVZHaGZXVzJacEY4Sko3NThZbU40UVdONmlMRXlYUTUwZEtVR0ppMlVqZmpMcXhsdFFR?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-09-30T10:46:02.429490+00:00"
+}
