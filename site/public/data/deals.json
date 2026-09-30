@@ -18,10 +18,15 @@
    "seller": "promoters and existing investor The Wealth Company Alternates Trust, India Inflection Opportunity Fund",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-09-30T08:16:12.707608+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-09-30T08:31:04.865797+00:00",
+     "title": "Vardhman Appliances, Shreejikrupa Project File IPO Papers"
+    }
+   ]
   },
   {
    "amountCr": 25000.0,
@@ -150,10 +155,15 @@
    "seller": "Prestige Hospitality Ventures",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-09-30T01:31:26.880793+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-09-30T08:31:05.139949+00:00",
+     "title": "Prestige Estates shares in focus as CPP Investments to acquire 27% stake in hospitality arm for ₹3,000 crore"
+    }
+   ]
   },
   {
    "amountCr": 616.0,
