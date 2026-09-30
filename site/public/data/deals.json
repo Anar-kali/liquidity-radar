@@ -453,7 +453,7 @@
    "seller": "Promoters",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 6,
+   "sourceCount": 7,
    "ticker": "AVALON.NS",
    "updatedAt": "2026-09-29T17:01:14.462797+00:00",
    "updates": [
@@ -476,6 +476,10 @@
     {
      "attachedAt": "2026-09-30T15:46:08.351553+00:00",
      "title": "Promoters dilute 6% stake in Avalon Technologies for Rs 871 crore"
+    },
+    {
+     "attachedAt": "2026-09-30T16:16:06.857939+00:00",
+     "title": "Avalon Tech block deal: Promoters divest 6% stake worth Rs 871 crore"
     }
    ]
   },
