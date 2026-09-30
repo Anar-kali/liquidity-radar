@@ -1,6 +1,28 @@
 {
- "dealCount": 736,
+ "dealCount": 737,
  "deals": [
+  {
+   "amountCr": 250.0,
+   "amountRaw": "Rs 250 crore (from article)",
+   "company": "Vardhman Appliances",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-30T08:16:09.668628+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 1064,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Vardhman Appliances filed IPO papers with SEBI.",
+   "primaryOutlet": "HDFC Sky",
+   "seller": "promoters and existing investor The Wealth Company Alternates Trust, India Inflection Opportunity Fund",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-30T08:16:12.707608+00:00",
+   "updates": []
+  },
   {
    "amountCr": 25000.0,
    "amountRaw": "₹25,000-crore",
@@ -727,7 +749,7 @@
    "seller": "Jupiter Capital",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 4,
+   "sourceCount": 5,
    "ticker": "AXISCADES.NS",
    "updatedAt": "2026-09-30T01:31:11.256437+00:00",
    "updates": [
@@ -742,6 +764,10 @@
     {
      "attachedAt": "2026-09-30T07:01:18.946008+00:00",
      "title": "Axiscades shares extend gains to 52-week high after big names buy promoter stake in block deal"
+    },
+    {
+     "attachedAt": "2026-09-30T08:16:09.653303+00:00",
+     "title": "Kotak MF, Abakkus Lead Rs 830-Cr Buying in Axiscades Stake Sale; Stock Jumps Over 7%"
     }
    ]
   },
@@ -23142,6 +23168,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-30T07:31:11.702307+00:00",
- "totalDeals": 736
+ "generatedAt": "2026-09-30T08:16:12.707608+00:00",
+ "totalDeals": 737
 }

@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 250.0,
+ "amountRaw": "Rs 250 crore (from article)",
+ "buyer": null,
+ "company": "Vardhman Appliances",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-30T08:16:09.668628+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": null,
+ "id": 1064,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Vardhman Appliances filed IPO papers with SEBI.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUU94cGFYYm1MRXJxZHV2TENfaVlUR1VUamNIcE9EY0dqLU9KV1N6NS1icnFzSUtva1BBeGJWUUFReUNPY2l5RUN0OHdZVElneHdvNjV3RDJOYUN1ZFk4Y2hWb2szLUlFb3JWaFhZOHA3M0lLSm5jTHZYcjQwUHhMVmZ6dFF3bjBhUldUNFNPNng5cGNUeVE?oc=5",
+ "seller": "promoters and existing investor The Wealth Company Alternates Trust, India Inflection Opportunity Fund",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-30T08:16:09.670569+00:00",
+   "outlet": "HDFC Sky",
+   "resolvable": false,
+   "title": "Vardhman Appliances, Shreejikrupa Project File IPO Papers With Sebi",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUU94cGFYYm1MRXJxZHV2TENfaVlUR1VUamNIcE9EY0dqLU9KV1N6NS1icnFzSUtva1BBeGJWUUFReUNPY2l5RUN0OHdZVElneHdvNjV3RDJOYUN1ZFk4Y2hWb2szLUlFb3JWaFhZOHA3M0lLSm5jTHZYcjQwUHhMVmZ6dFF3bjBhUldUNFNPNng5cGNUeVE?oc=5"
+  }
+ ],
+ "synopsis": "Consumer appliances company Vardhman Appliances Ltd has filed preliminary papers with SEBI to raise funds through an Initial Public Offering. The proposed IPO comprises a fresh issue of equity shares aggregating up to Rs 250 crore and an Offer for Sale of up to 2.50 crore equity shares. Promoters and existing investors including The Wealth Company Alternates Trust and India Inflection Opportunity Fund are selling shares under the OFS component. The net proceeds from the fresh issue are planned to be used for setting up a new project in Baghpat, Uttar Pradesh, and for the repayment or prepayment of certain outstanding borrowings, alongside investment in its wholly owned subsidiary Lazer India.",
+ "ticker": null,
+ "updatedAt": "2026-09-30T08:16:12.707608+00:00"
+}
