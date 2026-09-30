@@ -7390,7 +7390,7 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 7,
+   "sourceCount": 8,
    "ticker": null,
    "updatedAt": "2026-09-07T06:31:24.186936+00:00",
    "updates": [
@@ -7417,6 +7417,10 @@
     {
      "attachedAt": "2026-09-25T07:31:06.020767+00:00",
      "title": "Inox Clean Energy IPO: INR 10,000 Crore Issue, Business and Growth Plans"
+    },
+    {
+     "attachedAt": "2026-09-30T01:45:54.689071+00:00",
+     "title": "Renewable energy platform Inox Clean Energy files draft papers for Rs 10,000-crore IPO"
     }
    ]
   },
