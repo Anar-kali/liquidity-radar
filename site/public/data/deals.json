@@ -1,6 +1,28 @@
 {
- "dealCount": 732,
+ "dealCount": 733,
  "deals": [
+  {
+   "amountCr": 600.0,
+   "amountRaw": "Rs 600 crore",
+   "company": "Ever Brands",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-30T04:31:07.507341+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 1060,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Ever Brands files DRHP for a Rs 600 crore IPO.",
+   "primaryOutlet": "financialexpress.com",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-30T04:31:07.507341+00:00",
+   "updates": []
+  },
   {
    "amountCr": 230.8,
    "amountRaw": "₹230.8 crore",
@@ -7412,7 +7434,7 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 9,
+   "sourceCount": 10,
    "ticker": null,
    "updatedAt": "2026-09-07T06:31:24.186936+00:00",
    "updates": [
@@ -7447,6 +7469,10 @@
     {
      "attachedAt": "2026-09-30T02:45:54.735870+00:00",
      "title": "Inox Clean Energy Files DRHP For Rs 10,000 Crore IPO; Rs 8,000 Crore Fresh Issue"
+    },
+    {
+     "attachedAt": "2026-09-30T04:31:07.545324+00:00",
+     "title": "Renewable energy firm Inox Clean Energy files for ₹10,000 crore IPO"
     }
    ]
   },
@@ -22977,6 +23003,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-30T03:45:57.953024+00:00",
- "totalDeals": 732
+ "generatedAt": "2026-09-30T04:31:07.507341+00:00",
+ "totalDeals": 733
 }

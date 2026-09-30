@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 600.0,
+ "amountRaw": "Rs 600 crore",
+ "buyer": null,
+ "company": "Ever Brands",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-30T04:31:07.507341+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": "failed",
+ "id": 1060,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Ever Brands files DRHP for a Rs 600 crore IPO.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQZm5MM3l3YnBpY1NycjlnbFVuVW1hc0lYVDFQbklQM19WMzcycUM5Ui1KQ2JZT0EwX0h4LUI4WC0tRUJDZ2pEVTRuQ084el92WUJQYWgwZlRnRS1peGtyT1Q5bF9zQlplal85WWZPbVdPMm9ncFpVZnFEM2hEMWhaUUtTeG1sSlhZRjZHanlSNkpVQkhPa09mOXVUMkRpa1E5QlpaenN6blpGc3NyUTREaHJqS0tIbUFKWm4wTnBCUERWVTV2ck1PRFV5Q0c5bzV4VXpiZ0ExejQ0NkdtUkZR0gHfAUFVX3lxTFBmbkwzeXdicGljU3JyOWdsVW5VbWFzSVhUMVBuSVAzX1YzNzJxQzlSLUpDYllPQTBfSHgtQjhYLS1FQkNnakRVNG5DTzh6X3ZZQlBhaDBmVGdFLWl4a3JPVDlsX3NCWmVqXzlZZk9tV08yb2dwWlVmcUQzaEQxaFpRS1N4bWxKWFlGNkdqeVI2SlVCSE9rT2Y5dVQyRGlrUTlCWlp6c3puWkZzc3JRNERocmpLS0htQUpabjBOcEJQRFZVNXZyTU9EVXlDRzlvNXhVemJnQTF6NDQ2R21SRlE?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-30T04:31:07.535797+00:00",
+   "outlet": "financialexpress.com",
+   "resolvable": false,
+   "title": "Ever Brands IPO: Subway operator files DRHP for Rs 600 crore issue- Check key details",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQZm5MM3l3YnBpY1NycjlnbFVuVW1hc0lYVDFQbklQM19WMzcycUM5Ui1KQ2JZT0EwX0h4LUI4WC0tRUJDZ2pEVTRuQ084el92WUJQYWgwZlRnRS1peGtyT1Q5bF9zQlplal85WWZPbVdPMm9ncFpVZnFEM2hEMWhaUUtTeG1sSlhZRjZHanlSNkpVQkhPa09mOXVUMkRpa1E5QlpaenN6blpGc3NyUTREaHJqS0tIbUFKWm4wTnBCUERWVTV2ck1PRFV5Q0c5bzV4VXpiZ0ExejQ0NkdtUkZR0gHfAUFVX3lxTFBmbkwzeXdicGljU3JyOWdsVW5VbWFzSVhUMVBuSVAzX1YzNzJxQzlSLUpDYllPQTBfSHgtQjhYLS1FQkNnakRVNG5DTzh6X3ZZQlBhaDBmVGdFLWl4a3JPVDlsX3NCWmVqXzlZZk9tV08yb2dwWlVmcUQzaEQxaFpRS1N4bWxKWFlGNkdqeVI2SlVCSE9rT2Y5dVQyRGlrUTlCWlp6c3puWkZzc3JRNERocmpLS0htQUpabjBOcEJQRFZVNXZyTU9EVXlDRzlvNXhVemJnQTF6NDQ2R21SRlE?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-09-30T04:31:07.507341+00:00"
+}
