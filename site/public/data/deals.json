@@ -576,13 +576,17 @@
    "seller": "Sproutlife Foods Private Ltd shareholders",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-09-29T05:02:27.672291+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-29T09:31:20.314761+00:00",
      "title": "ITC completes Yoga Bar acquisition with Rs 645 crore buyout of minority stake"
+    },
+    {
+     "attachedAt": "2026-09-30T08:01:14.101234+00:00",
+     "title": "ITC Takes Full Control of Yoga Bar Brand with Rs 645 Cr Buyout"
     }
    ]
   },
