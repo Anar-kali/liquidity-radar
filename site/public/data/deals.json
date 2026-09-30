@@ -2,8 +2,8 @@
  "dealCount": 741,
  "deals": [
   {
-   "amountCr": 2000.0,
-   "amountRaw": "₹2,000 crore valuation",
+   "amountCr": 750.0,
+   "amountRaw": "Rs 500-1,000 crore",
    "company": "Cremica Foods",
    "confidence": "medium",
    "confirmed": false,
@@ -20,10 +20,15 @@
    "seller": "Kroll",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
-   "updatedAt": "2026-09-30T11:01:40.761871+00:00",
-   "updates": []
+   "updatedAt": "2026-09-30T12:01:17.188368+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-09-30T12:01:17.187178+00:00",
+     "title": "Cremica plans Rs 500-1,000 crore IPO, eyes acquisitions and overseas expansion"
+    }
+   ]
   },
   {
    "amountCr": 616000.0,
@@ -341,8 +346,8 @@
    "updates": []
   },
   {
-   "amountCr": 5012.8,
-   "amountRaw": "4% x mcap ~Rs 125319cr = ~Rs 5013cr",
+   "amountCr": 2186.0,
+   "amountRaw": "Rs 2,186 crore",
    "company": "BSE Limited",
    "confidence": "high",
    "confirmed": true,
@@ -359,9 +364,9 @@
    "seller": "BNP PARIBAS FINANCIAL MARKETS",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": "BSE.NS",
-   "updatedAt": "2026-09-30T07:31:08.327471+00:00",
+   "updatedAt": "2026-09-30T12:01:17.176989+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-30T07:01:18.949169+00:00",
@@ -370,6 +375,10 @@
     {
      "attachedAt": "2026-09-30T07:31:08.325175+00:00",
      "title": "BNP Paribas, Goldman Sachs Sell BSE Stake; Stock Drops 4%"
+    },
+    {
+     "attachedAt": "2026-09-30T12:01:17.175523+00:00",
+     "title": "BNP Paribas, Goldman Sachs sell stake in BSE for Rs 2,186 crore; stock falls nearly 4 per cent - Mid-Day"
     }
    ]
   },
@@ -23324,6 +23333,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-30T11:01:40.761871+00:00",
+ "generatedAt": "2026-09-30T12:01:17.188368+00:00",
  "totalDeals": 741
 }
