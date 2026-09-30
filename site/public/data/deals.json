@@ -1,6 +1,30 @@
 {
- "dealCount": 740,
+ "dealCount": 741,
  "deals": [
+  {
+   "amountCr": 2000.0,
+   "amountRaw": "₹2,000 crore valuation",
+   "company": "Cremica Foods",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-30T11:01:30.822650+00:00",
+   "dealType": "unknown",
+   "enrichmentState": null,
+   "id": 1068,
+   "individuals": [
+    "Akshay Bector"
+   ],
+   "listed": false,
+   "oneLine": "Cremica Foods buys back stake and plans an IPO at a Rs 2,000 crore valuation.",
+   "primaryOutlet": "Livemint",
+   "seller": "Kroll",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-30T11:01:40.761871+00:00",
+   "updates": []
+  },
   {
    "amountCr": 616000.0,
    "amountRaw": "$7B (approx Rs 616,000 crore)",
@@ -23277,6 +23301,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-30T10:46:02.429490+00:00",
- "totalDeals": 740
+ "generatedAt": "2026-09-30T11:01:40.761871+00:00",
+ "totalDeals": 741
 }

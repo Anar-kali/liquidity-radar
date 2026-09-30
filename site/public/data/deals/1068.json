@@ -1,0 +1,34 @@
+{
+ "advisers": [],
+ "amountCr": 2000.0,
+ "amountRaw": "₹2,000 crore valuation",
+ "buyer": "Cremica Foods Industries",
+ "company": "Cremica Foods",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-30T11:01:30.822650+00:00",
+ "dealType": "unknown",
+ "enrichmentState": null,
+ "id": 1068,
+ "individuals": [
+  "Akshay Bector"
+ ],
+ "listed": false,
+ "oneLine": "Cremica Foods buys back stake and plans an IPO at a Rs 2,000 crore valuation.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOT2xvQVZrSEZuYXNmTFdQaEpncDZkNmhHNTV4dFdUcDhRN1N4T3o0MG85akxkSjg2b0Y5UFdwcEJpX21XQTc0cktWcndqVUFPUk1WcUoyeHpKNDR1ZlRoeDZyWVBodmhCOTVmZVdIZzRSdjAtMEJqUWhfWlJhU0VVazNPNFpueDlmaVFCaGY3WjR3X1RubjBJaVFCMUNtUkJrLUFDeXNvaklIc0ZUR0sxRS0xZXFMZ3lsV0xmbmxyY1JUQUlya3JUNUlDTHhlQdIB0wFBVV95cUxNdmR5MDJuNGJTLXFlWVljQVR1M2hfVjlDczdzdUl5VHgxQ1VkTkp4UVM0S3V3Zzh0MzJrTERBS2k2S1NpdzhGVTgtNGtWbmljelRIdjR1ZFVBOG9tWFZzR1ZuTlRpaTBnYTF2TmlhVWRPdDRUU2JZRXBldUNndVd1MEE4UzlSRnNyUFN5bEdtb1dLdjg5TzR0bnVyckpfTkNnbnpxbmhKajIzLURVZWNfbkYzNFZDaTBkcGR6MVhibTducWhpUXNnS01pVGYwWDVSZGtj?oc=5",
+ "seller": "Kroll",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-30T11:01:30.823851+00:00",
+   "outlet": "Livemint",
+   "resolvable": false,
+   "title": "Cremica Foods buys back Kroll stake, plans IPO at ₹2,000 crore valuation",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOT2xvQVZrSEZuYXNmTFdQaEpncDZkNmhHNTV4dFdUcDhRN1N4T3o0MG85akxkSjg2b0Y5UFdwcEJpX21XQTc0cktWcndqVUFPUk1WcUoyeHpKNDR1ZlRoeDZyWVBodmhCOTVmZVdIZzRSdjAtMEJqUWhfWlJhU0VVazNPNFpueDlmaVFCaGY3WjR3X1RubjBJaVFCMUNtUkJrLUFDeXNvaklIc0ZUR0sxRS0xZXFMZ3lsV0xmbmxyY1JUQUlya3JUNUlDTHhlQdIB0wFBVV95cUxNdmR5MDJuNGJTLXFlWVljQVR1M2hfVjlDczdzdUl5VHgxQ1VkTkp4UVM0S3V3Zzh0MzJrTERBS2k2S1NpdzhGVTgtNGtWbmljelRIdjR1ZFVBOG9tWFZzR1ZuTlRpaTBnYTF2TmlhVWRPdDRUU2JZRXBldUNndVd1MEE4UzlSRnNyUFN5bEdtb1dLdjg5TzR0bnVyckpfTkNnbnpxbmhKajIzLURVZWNfbkYzNFZDaTBkcGR6MVhibTducWhpUXNnS01pVGYwWDVSZGtj?oc=5"
+  }
+ ],
+ "synopsis": "Cremica Foods Industries has bought back a 35% stake from institutional investor Kroll in a secondary transaction, moving away from a previously planned private fundraise. Following the buyback, the Bector family and angel investors own the company, with the family holding about 90%. Chairman and managing director Akshay Bector stated that the company is preparing for an initial public offering scheduled for next financial year, which could value Cremica Foods between ₹1,500 crore and ₹2,000 crore. The transaction value of Kroll's exit was not disclosed. The company anticipates achieving sales of about ₹450 crore and an EBITDA of ₹65 to 70 crore in the ongoing fiscal year as it expands its branded foods business and overseas operations.",
+ "ticker": null,
+ "updatedAt": "2026-09-30T11:01:40.761871+00:00"
+}
