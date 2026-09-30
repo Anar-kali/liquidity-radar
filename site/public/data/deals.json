@@ -1,6 +1,28 @@
 {
- "dealCount": 737,
+ "dealCount": 738,
  "deals": [
+  {
+   "amountCr": 616000.0,
+   "amountRaw": "USD 7 Billion (~ Rs 616,000 crore)",
+   "company": "Virtusa India",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-30T09:01:20.322038+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 1065,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "EQT explores a USD 7 billion Indian listing for Virtusa.",
+   "primaryOutlet": "univest.in",
+   "seller": "EQT",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-30T09:01:24.719289+00:00",
+   "updates": []
+  },
   {
    "amountCr": 250.0,
    "amountRaw": "Rs 250 crore (from article)",
@@ -7577,7 +7599,7 @@
    "seller": "Inox Clean Energy",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 19,
+   "sourceCount": 20,
    "ticker": null,
    "updatedAt": "2026-09-30T07:01:18.963172+00:00",
    "updates": [
@@ -7652,6 +7674,10 @@
     {
      "attachedAt": "2026-09-30T08:46:00.171231+00:00",
      "title": "Inox Clean Energy IPO: DRHP Filed for ₹10,000 Cr; ₹6,000 Cr to Cut Debt"
+    },
+    {
+     "attachedAt": "2026-09-30T09:01:20.306228+00:00",
+     "title": "Inox Clean Energy plans ₹10,000 crore IPO, files papers with Sebi"
     }
    ]
   },
@@ -23182,6 +23208,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-30T08:16:12.707608+00:00",
- "totalDeals": 737
+ "generatedAt": "2026-09-30T09:01:24.719289+00:00",
+ "totalDeals": 738
 }

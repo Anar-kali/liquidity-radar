@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 616000.0,
+ "amountRaw": "USD 7 Billion (~ Rs 616,000 crore)",
+ "buyer": null,
+ "company": "Virtusa India",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-30T09:01:20.322038+00:00",
+ "dealType": "IPO-OFS",
+ "enrichmentState": null,
+ "id": 1065,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "EQT explores a USD 7 billion Indian listing for Virtusa.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE02WjZJWWJGcE1mOG96ZXdDa2FLaUhDcTlPNF9BME0tYVdNU2Q4RTdvd0hqNU9KSlpHNWdZSUJjcnk3OFRYZVFDVnFReU5rMzZXYkkybjZZZ3R6ZnQ4VjF3X1dtS3l0WXNTUlNnUUpHZjM4NmwtdjBlMlZB?oc=5",
+ "seller": "EQT",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-30T09:01:20.324303+00:00",
+   "outlet": "univest.in",
+   "resolvable": false,
+   "title": "Virtusa IPO: EQT Eyes USD 7 Billion Virtusa India Listing",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE02WjZJWWJGcE1mOG96ZXdDa2FLaUhDcTlPNF9BME0tYVdNU2Q4RTdvd0hqNU9KSlpHNWdZSUJjcnk3OFRYZVFDVnFReU5rMzZXYkkybjZZZ3R6ZnQ4VjF3X1dtS3l0WXNTUlNnUUpHZjM4NmwtdjBlMlZB?oc=5"
+  }
+ ],
+ "synopsis": "EQT-owned IT services firm Virtusa Corporation is exploring an initial public offering in India to raise at least USD 1 billion at a targeted valuation of USD 7 billion or more. Virtusa is currently seeking Indian investment banks to manage the planned listing alongside global banks Citigroup, JPMorgan, and Morgan Stanley. EQT gained control of Virtusa in 2022 following its acquisition of Baring Private Equity Asia and is looking for an exit route through the market debut. No draft red herring prospectus has been filed yet, and the exact issue structure, pricing, and timeline remain open, with potential placement anticipated in late 2026 or 2027.",
+ "ticker": null,
+ "updatedAt": "2026-09-30T09:01:24.719289+00:00"
+}
