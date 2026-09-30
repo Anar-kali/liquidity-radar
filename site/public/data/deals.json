@@ -1,6 +1,34 @@
 {
- "dealCount": 741,
+ "dealCount": 742,
  "deals": [
+  {
+   "amountCr": 1250.0,
+   "amountRaw": "Rs 1,250-crore",
+   "company": "Vishakha Renewables",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-30T15:01:30.850526+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 1069,
+   "individuals": [
+    "Jigish Nagindas Doshi",
+    "Akshat Doshi",
+    "Gautam Adani",
+    "Rajesh Adani",
+    "Vinod Adani"
+   ],
+   "listed": false,
+   "oneLine": "Vishakha Renewables files DRHP for an IPO worth Rs 1,250 crore.",
+   "primaryOutlet": "Moneycontrol.com",
+   "seller": "Existing shareholders, including promoters",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-30T15:01:35.528884+00:00",
+   "updates": []
+  },
   {
    "amountCr": 750.0,
    "amountRaw": "Rs 500-1,000 crore",
@@ -23345,6 +23373,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-30T12:15:59.146467+00:00",
- "totalDeals": 741
+ "generatedAt": "2026-09-30T15:01:35.528884+00:00",
+ "totalDeals": 742
 }
