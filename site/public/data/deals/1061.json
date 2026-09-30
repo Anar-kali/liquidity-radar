@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 1350.0,
+ "amountRaw": "₹1,200-1,500 crore",
+ "buyer": "General Atlantic and Renova Hospitals",
+ "company": "American Oncology Institute",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-30T05:31:21.989338+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1061,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "General Atlantic and Renova Hospitals to acquire American Oncology Institute for Rs 1,200-1,500 crore.",
+ "primaryUrl": "https://www.livemint.com/companies/ga-renova-hospitals-general-atlantic-american-oncology-institute-aoi-acquisition-11790740064426.html",
+ "seller": "Siemens Healthineers",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-30T05:31:21.990248+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "GA-Renova Hospitals may lead race to buy American Oncology Institute",
+   "url": "https://www.livemint.com/companies/ga-renova-hospitals-general-atlantic-american-oncology-institute-aoi-acquisition-11790740064426.html"
+  }
+ ],
+ "synopsis": "A consortium of General Atlantic and Renova Hospitals is nearing a deal to acquire the Indian cancer-care network American Oncology Institute from Siemens Healthineers. The transaction could potentially value American Oncology Institute at ₹ 1,200-1,500 crore. Siemens Healthineers has roped in Alvarez & Marsal to advise on the process as it divests its Indian cancer care network. Other private equity and strategic firms have also evaluated the asset over recent months, while Renova is moving ahead with General Atlantic helping finance the deal. American Oncology Institute, operated by Cancer Treatment Services Hyderabad Pvt Ltd, is a multi-disciplinary oncology network with 18 hospitals in South Asia. Representatives for General Atlantic, Renova Hospitals, American Oncology Institute, and Alvarez & Marsal did not respond to requests for comment, and Siemens Healthineers declined to comment.",
+ "ticker": null,
+ "updatedAt": "2026-09-30T05:31:31.649136+00:00"
+}

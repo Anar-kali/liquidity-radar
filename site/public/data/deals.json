@@ -1,6 +1,28 @@
 {
- "dealCount": 733,
+ "dealCount": 734,
  "deals": [
+  {
+   "amountCr": 1350.0,
+   "amountRaw": "₹1,200-1,500 crore",
+   "company": "American Oncology Institute",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-30T05:31:21.989338+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1061,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "General Atlantic and Renova Hospitals to acquire American Oncology Institute for Rs 1,200-1,500 crore.",
+   "primaryOutlet": "Mint",
+   "seller": "Siemens Healthineers",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-30T05:31:31.649136+00:00",
+   "updates": []
+  },
   {
    "amountCr": 600.0,
    "amountRaw": "Rs 600 crore",
@@ -551,7 +573,7 @@
    "seller": "EverBrands India",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 10,
+   "sourceCount": 11,
    "ticker": null,
    "updatedAt": "2026-09-29T05:02:16.730834+00:00",
    "updates": [
@@ -590,6 +612,10 @@
     {
      "attachedAt": "2026-09-29T13:15:59.453452+00:00",
      "title": "EverBrands India plans ₹600 cr IPO: What investors need to know"
+    },
+    {
+     "attachedAt": "2026-09-30T05:31:21.976836+00:00",
+     "title": "EverBrands India, which operates Subway restaurants across India, has filed a draft red herring prospectus (DRHP) with SEBI to raise up to Rs 600 crore through an IPO. The Norwest Capital-backed company filed the DRHP on September 28. The proposed I"
     }
    ]
   },
@@ -7442,7 +7468,7 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 10,
+   "sourceCount": 11,
    "ticker": null,
    "updatedAt": "2026-09-07T06:31:24.186936+00:00",
    "updates": [
@@ -7481,6 +7507,10 @@
     {
      "attachedAt": "2026-09-30T04:31:07.545324+00:00",
      "title": "Renewable energy firm Inox Clean Energy files for ₹10,000 crore IPO"
+    },
+    {
+     "attachedAt": "2026-09-30T05:31:21.985082+00:00",
+     "title": "Inox Clean Energy files ₹10,000 crore IPO with Sebi; set to be largest private renewable energy offering"
     }
    ]
   },
@@ -23011,6 +23041,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-30T04:31:07.507341+00:00",
- "totalDeals": 733
+ "generatedAt": "2026-09-30T05:31:31.649136+00:00",
+ "totalDeals": 734
 }
