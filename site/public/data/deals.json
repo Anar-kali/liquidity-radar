@@ -251,25 +251,36 @@
   },
   {
    "amountCr": 230.8,
-   "amountRaw": "₹230.8 crore",
+   "amountRaw": "230.8cr confirmed via NSE block deal",
    "company": "GNG Electronics",
    "confidence": "medium",
-   "confirmed": false,
+   "confirmed": true,
    "createdAt": "2026-09-30T03:45:53.981481+00:00",
    "dealType": "block deal",
    "enrichmentState": null,
    "id": 1059,
-   "individuals": [],
+   "individuals": [
+    "VIDHI S KHANDELWAL"
+   ],
    "listed": true,
    "oneLine": "GNG Electronics shares worth Rs 230.8 crore traded in a block deal.",
    "primaryOutlet": "Business Upturn",
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 3,
    "ticker": "EBGNG.NS",
-   "updatedAt": "2026-09-30T03:45:57.953024+00:00",
-   "updates": []
+   "updatedAt": "2026-09-30T19:06:57.177378+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-09-30T19:06:57.158878+00:00",
+     "title": "GNG Electronics Limited: bulk deal"
+    },
+    {
+     "attachedAt": "2026-09-30T19:06:57.176432+00:00",
+     "title": "GNG Electronics Limited: block deal"
+    }
+   ]
   },
   {
    "amountCr": 3000.0,
@@ -23385,6 +23396,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-30T15:01:35.528884+00:00",
+ "generatedAt": "2026-09-30T19:06:57.177378+00:00",
  "totalDeals": 742
 }

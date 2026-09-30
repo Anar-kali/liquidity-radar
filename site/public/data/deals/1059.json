@@ -1,16 +1,18 @@
 {
  "advisers": [],
  "amountCr": 230.8,
- "amountRaw": "₹230.8 crore",
+ "amountRaw": "230.8cr confirmed via NSE block deal",
  "buyer": null,
  "company": "GNG Electronics",
  "confidence": "medium",
- "confirmed": false,
+ "confirmed": true,
  "createdAt": "2026-09-30T03:45:53.981481+00:00",
  "dealType": "block deal",
  "enrichmentState": null,
  "id": 1059,
- "individuals": [],
+ "individuals": [
+  "VIDHI S KHANDELWAL"
+ ],
  "listed": true,
  "oneLine": "GNG Electronics shares worth Rs 230.8 crore traded in a block deal.",
  "primaryUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPb0JIMHBDckhCTk9rNkxjUUVWYklZVHgyVm8tNFQwX0JVWXFLV3hPdmdmSHF5QlJDM0E1QkdVZm4yVTQ5MjJuNnQwZU1XZVhkUnhORTNVTm1kOUZOb0gyX3NNTVFIQ1V1bHg5Nnl1bURFSEM1MXl3SHd6TW1aaDFSR0Zpd015ZkRIbVg5S195aGdvYTVydG8ydnZQWDFvcTJHV0NNcU1kWjEwZTg1d1hMU0RlQmVjcGs4a0FPUDh0OURpQ0I0Zmc?oc=5",
@@ -24,9 +26,23 @@
    "resolvable": false,
    "title": "GNG Electronics block deal: 34.2 lakh shares worth ₹230.8 crore traded at ₹674.80 apiece",
    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPb0JIMHBDckhCTk9rNkxjUUVWYklZVHgyVm8tNFQwX0JVWXFLV3hPdmdmSHF5QlJDM0E1QkdVZm4yVTQ5MjJuNnQwZU1XZVhkUnhORTNVTm1kOUZOb0gyX3NNTVFIQ1V1bHg5Nnl1bURFSEM1MXl3SHd6TW1aaDFSR0Zpd015ZkRIbVg5S195aGdvYTVydG8ydnZQWDFvcTJHV0NNcU1kWjEwZTg1d1hMU0RlQmVjcGs4a0FPUDh0OURpQ0I0Zmc?oc=5"
+  },
+  {
+   "attachedAt": "2026-09-30T19:06:57.158878+00:00",
+   "outlet": "Google News",
+   "resolvable": true,
+   "title": "GNG Electronics Limited: bulk deal",
+   "url": ""
+  },
+  {
+   "attachedAt": "2026-09-30T19:06:57.176432+00:00",
+   "outlet": "Google News",
+   "resolvable": true,
+   "title": "GNG Electronics Limited: block deal",
+   "url": ""
   }
  ],
  "synopsis": "GNG Electronics saw a large block deal involving 34,20,345 shares changing hands in the morning block-deal window on September 30, 2026. The transaction value reached approximately Rs 230.80 crore, executed at a price of Rs 674.80 per share, which was flat compared to the previous close. The identities of the buyer and seller were not immediately known from exchange data at the time of the report.",
  "ticker": "EBGNG.NS",
- "updatedAt": "2026-09-30T03:45:57.953024+00:00"
+ "updatedAt": "2026-09-30T19:06:57.177378+00:00"
 }
