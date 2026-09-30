@@ -187,8 +187,8 @@
    "updates": []
   },
   {
-   "amountCr": 1424.34,
-   "amountRaw": "1424.34cr confirmed via NSE bulk deal",
+   "amountCr": 2186.0,
+   "amountRaw": "Rs 2,186 Crore",
    "company": "BSE Limited",
    "confidence": "high",
    "confirmed": true,
@@ -205,10 +205,15 @@
    "seller": "BNP PARIBAS FINANCIAL MARKETS",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": "BSE.NS",
-   "updatedAt": "2026-09-29T19:19:08.345444+00:00",
-   "updates": []
+   "updatedAt": "2026-09-30T07:01:18.950172+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-09-30T07:01:18.949169+00:00",
+     "title": "BNP Paribas And Goldman Sachs Sell Nearly 1.7% Stake In BSE For Rs 2,186 Crore, Shares Slide Almost 4%"
+    }
+   ]
   },
   {
    "amountCr": 214.2,
@@ -684,7 +689,7 @@
    "seller": "Jupiter Capital",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": "AXISCADES.NS",
    "updatedAt": "2026-09-30T01:31:11.256437+00:00",
    "updates": [
@@ -695,6 +700,10 @@
     {
      "attachedAt": "2026-09-30T01:31:11.255276+00:00",
      "title": "Block Deals: Jupiter Capital sells 10.69% Axiscades stake; Abakkus, Kotak AMC among buyers"
+    },
+    {
+     "attachedAt": "2026-09-30T07:01:18.946008+00:00",
+     "title": "Axiscades shares extend gains to 52-week high after big names buy promoter stake in block deal"
     }
    ]
   },
@@ -7491,12 +7500,12 @@
    "listed": false,
    "oneLine": "Inox Clean Energy likely to file DRHP for ₹10,000 crore IPO.",
    "primaryOutlet": "Moneycontrol.com",
-   "seller": null,
+   "seller": "Inox Clean Energy",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 15,
+   "sourceCount": 16,
    "ticker": null,
-   "updatedAt": "2026-09-07T06:31:24.186936+00:00",
+   "updatedAt": "2026-09-30T07:01:18.963172+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-07T08:31:15.789591+00:00",
@@ -7553,6 +7562,10 @@
     {
      "attachedAt": "2026-09-30T06:46:02.044759+00:00",
      "title": "Inox Clean Energy files DRHP for Rs 10,000 crore IPO, largest in Indian private sector renewable energy sp"
+    },
+    {
+     "attachedAt": "2026-09-30T07:01:18.961610+00:00",
+     "title": "Renewable energy player Inox Clean Energy files draft papers with SEBI for ₹10,000 crore IPO"
     }
    ]
   },
@@ -23083,6 +23096,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-30T06:31:20.154407+00:00",
+ "generatedAt": "2026-09-30T07:01:18.963172+00:00",
  "totalDeals": 735
 }

@@ -1,7 +1,7 @@
 {
  "advisers": [],
- "amountCr": 1424.34,
- "amountRaw": "1424.34cr confirmed via NSE bulk deal",
+ "amountCr": 2186.0,
+ "amountRaw": "Rs 2,186 Crore",
  "buyer": null,
  "company": "BSE Limited",
  "confidence": "high",
@@ -26,9 +26,16 @@
    "resolvable": true,
    "title": "BSE Limited: bulk deal",
    "url": ""
+  },
+  {
+   "attachedAt": "2026-09-30T07:01:18.949169+00:00",
+   "outlet": "Free Press Journal",
+   "resolvable": false,
+   "title": "BNP Paribas And Goldman Sachs Sell Nearly 1.7% Stake In BSE For Rs 2,186 Crore, Shares Slide Almost 4%",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPdnJPNWZmR3NyZFRyLW1MRXExSm5XVDdOWEVWbkloNGxKd3g3eXVFdlNqMjlmZWhkRmlqSWdwYkZuUWRpeWVyY1dVTlZBQ21iR0Nza0JkTjU2d05MME5OQmtxUE5kd0dyb0dKUVR5OUxidE5DWW03UlBDZ2hVUHNncmJIdG1WMEx5U1dKQVY0VklfS05YQjA5Z2RnVm5NVGlPd0VrYm4zUVl3MmxDaDVGbnpiYW5GcnEtaW1tUzBoNk8xMEJMWENmaS03VXBMaHJGSFE0QtIB2gFBVV95cUxOanNHdHRIR2JHbWlNWW9ROTBhTlVzWFJtMGlFellrSzZETG9FLXJRWnEwaEdubDFoY0otNXg1S3h3cFR0c3U3ZWcyNUNrSGk2VFV3TEZPYmFjNnUyREFGVnlMOGlSOTJCRE91dEdzNVkzV0xtMHo0a1hIVDZ2QTVKbXI2RmxnMHozX1dvSlI2OHZEZWt5aEEwUjJIN3VydlBEN0lvSU9wSV9aRndZeGNCMFlZbnlPYVJiWGE2RU9DS2dpMndNNkIzX1pTWXE3UTNjRm9WOUc3eVY3QQ?oc=5"
   }
  ],
  "synopsis": null,
  "ticker": "BSE.NS",
- "updatedAt": "2026-09-29T19:19:08.345444+00:00"
+ "updatedAt": "2026-09-30T07:01:18.950172+00:00"
 }
