@@ -524,10 +524,15 @@
    "seller": "existing shareholders",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-09-29T12:46:13.249776+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-09-30T11:31:05.179727+00:00",
+     "title": "StockGro Parent Files Confidential IPO Papers for Rs 2,500 Crore"
+    }
+   ]
   },
   {
    "amountCr": 517.5,
@@ -599,10 +604,15 @@
    "seller": "existing shareholders including promoters Akuri Srinivasa Reddy and A. Sandhya",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-09-29T09:01:29.173167+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-09-30T11:31:05.190152+00:00",
+     "title": "Technopaints Files DRHP With SEBI For Rs 500 Crore IPO"
+    }
+   ]
   },
   {
    "amountCr": 400.0,
@@ -949,7 +959,7 @@
    "seller": "Sproutlife Foods shareholders",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 5,
+   "sourceCount": 6,
    "ticker": null,
    "updatedAt": "2026-09-29T01:31:13.250813+00:00",
    "updates": [
@@ -968,6 +978,10 @@
     {
      "attachedAt": "2026-09-29T13:45:54.086384+00:00",
      "title": "ITC Acquires Sproutlife For ₹645 Crore And Targets Eastern India Dairy Growth"
+    },
+    {
+     "attachedAt": "2026-09-30T11:31:05.193064+00:00",
+     "title": "From cigarettes to protein bars: ITC's ₹900 cr Yoga Bar bet as FMCG giant taps India's health-food boom"
     }
    ]
   },
