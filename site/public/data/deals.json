@@ -231,13 +231,17 @@
    "seller": "Promoters",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": "AVALON.NS",
    "updatedAt": "2026-09-29T17:01:14.462797+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-29T17:01:11.213064+00:00",
      "title": "Avalon Technologies Block Deal: Promoters likely to sell up to 6% stake for ₹862 crore - CNBC TV18"
+    },
+    {
+     "attachedAt": "2026-09-30T06:15:57.790846+00:00",
+     "title": "Avalon Tech shares fall 6% after Rs 883 crore block deal; 3 promoter entities likely sellers"
     }
    ]
   },
