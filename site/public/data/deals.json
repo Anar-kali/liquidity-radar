@@ -926,7 +926,7 @@
    "seller": "Jupiter Capital",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 5,
+   "sourceCount": 6,
    "ticker": "AXISCADES.NS",
    "updatedAt": "2026-09-30T01:31:11.256437+00:00",
    "updates": [
@@ -945,6 +945,10 @@
     {
      "attachedAt": "2026-09-30T08:16:09.653303+00:00",
      "title": "Kotak MF, Abakkus Lead Rs 830-Cr Buying in Axiscades Stake Sale; Stock Jumps Over 7%"
+    },
+    {
+     "attachedAt": "2026-09-30T17:01:24.676353+00:00",
+     "title": "Jupiter Capital Sells 10.69% Stake in Axiscades (NSE: AXISCADES)"
     }
    ]
   },
