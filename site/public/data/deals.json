@@ -1,6 +1,103 @@
 {
- "dealCount": 727,
+ "dealCount": 731,
  "deals": [
+  {
+   "amountCr": 3000.0,
+   "amountRaw": "₹3,000 cr",
+   "company": "Prestige Hospitality Ventures",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-30T01:31:12.243009+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1058,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "CPP Investments acquires a 27% stake in Prestige Hospitality Ventures for ₹3,000 crore.",
+   "primaryOutlet": "Mint",
+   "seller": "Prestige Hospitality Ventures",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-30T01:31:26.880793+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 616.0,
+   "amountRaw": "$70 mn",
+   "company": "Linux Laboratories",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-30T01:31:12.238960+00:00",
+   "dealType": "PE secondary",
+   "enrichmentState": null,
+   "id": 1057,
+   "individuals": [
+    "P. Hariharan",
+    "K. Keerthivasan",
+    "S. Ananda Kumar"
+   ],
+   "listed": false,
+   "oneLine": "Linux Laboratories raises $70 million via primary and secondary transactions with full exit for Tata Capital Healthcare Fund II.",
+   "primaryOutlet": "Mint",
+   "seller": "Tata Capital Healthcare Fund II",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 2,
+   "ticker": null,
+   "updatedAt": "2026-09-30T01:31:23.386732+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-09-30T01:31:12.246373+00:00",
+     "title": "ChrysCapital to take minority stake in Linux laboratories"
+    }
+   ]
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Exactspace",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-30T01:31:11.278309+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": "failed",
+   "id": 1056,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Thermax acquires an additional 35.83% stake in Exactspace to gain majority control.",
+   "primaryOutlet": "Alice Blue",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-09-30T01:31:11.278309+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 1154.0,
+   "amountRaw": "₹1,154 crore",
+   "company": "Ganesh Benzoplast",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-09-30T01:31:11.250633+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1055,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Ganesh Benzoplast sells liquid storage and rail logistics businesses for ₹1,154 crore.",
+   "primaryOutlet": "CNBC TV18",
+   "seller": "Ganesh Benzoplast",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "GANESHBE.NS",
+   "updatedAt": "2026-09-30T01:31:15.559693+00:00",
+   "updates": []
+  },
   {
    "amountCr": 1424.34,
    "amountRaw": "1424.34cr confirmed via NSE bulk deal",
@@ -359,8 +456,8 @@
    ]
   },
   {
-   "amountCr": 1000.0,
-   "amountRaw": "Rs 1,000-crore",
+   "amountCr": 1500.0,
+   "amountRaw": "Rs 1,500 crore",
    "company": "Royal Chain",
    "confidence": "medium",
    "confirmed": false,
@@ -375,9 +472,9 @@
    "seller": "promoters",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": null,
-   "updatedAt": "2026-09-29T05:02:24.339708+00:00",
+   "updatedAt": "2026-09-30T01:31:11.290099+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-29T07:31:07.150421+00:00",
@@ -386,6 +483,10 @@
     {
      "attachedAt": "2026-09-29T14:02:44.834832+00:00",
      "title": "Royal Chain, Technopaints File IPO Papers With Sebi To Raise Combined ₹1,500 Crore"
+    },
+    {
+     "attachedAt": "2026-09-30T01:31:11.288960+00:00",
+     "title": "Upcoming IPOs: Royal Chain, Technopaints file DRHPs with SEBI to raise Rs 1,500 crore via public issue"
     }
    ]
   },
@@ -487,13 +588,17 @@
    "seller": "Jupiter Capital",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": "AXISCADES.NS",
-   "updatedAt": "2026-09-29T14:46:08.383955+00:00",
+   "updatedAt": "2026-09-30T01:31:11.256437+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-29T14:46:08.382367+00:00",
      "title": "Jupiter Capital sells 10.86% stake in Axiscades Technologies"
+    },
+    {
+     "attachedAt": "2026-09-30T01:31:11.255276+00:00",
+     "title": "Block Deals: Jupiter Capital sells 10.69% Axiscades stake; Abakkus, Kotak AMC among buyers"
     }
    ]
   },
@@ -1341,7 +1446,7 @@
    "seller": "promoters and existing shareholders",
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-09-25T08:01:19.231728+00:00",
    "updates": [
@@ -1352,6 +1457,10 @@
     {
      "attachedAt": "2026-09-26T01:31:08.777272+00:00",
      "title": "Integrum Energy files DRHP"
+    },
+    {
+     "attachedAt": "2026-09-30T01:31:11.265887+00:00",
+     "title": "Integrum Energy Infrastructure Limited ने SEBI के पास DRHP दाखिल किया"
     }
    ]
   },
@@ -1433,7 +1542,7 @@
    "seller": "Chandra Prakash Gupta and his wife, Madhuri Gupta",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 4,
+   "sourceCount": 5,
    "ticker": null,
    "updatedAt": "2026-09-25T04:15:59.995349+00:00",
    "updates": [
@@ -1448,6 +1557,10 @@
     {
      "attachedAt": "2026-09-25T07:31:06.001600+00:00",
      "title": "Ekkaa Electronics Files Rs 725 Cr IPO with Sebi"
+    },
+    {
+     "attachedAt": "2026-09-30T01:31:11.275060+00:00",
+     "title": "Ekkaa Electronics (India) Limited ने SEBI के पास DRHP दाखिल किया"
     }
    ]
   },
@@ -22834,6 +22947,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-29T19:19:08.345444+00:00",
- "totalDeals": 727
+ "generatedAt": "2026-09-30T01:31:26.880793+00:00",
+ "totalDeals": 731
 }

@@ -1,0 +1,43 @@
+{
+ "advisers": [],
+ "amountCr": 616.0,
+ "amountRaw": "$70 mn",
+ "buyer": "ChrysCapital, Tata Capital Healthcare Fund III",
+ "company": "Linux Laboratories",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-30T01:31:12.238960+00:00",
+ "dealType": "PE secondary",
+ "enrichmentState": null,
+ "id": 1057,
+ "individuals": [
+  "P. Hariharan",
+  "K. Keerthivasan",
+  "S. Ananda Kumar"
+ ],
+ "listed": false,
+ "oneLine": "Linux Laboratories raises $70 million via primary and secondary transactions with full exit for Tata Capital Healthcare Fund II.",
+ "primaryUrl": "https://www.livemint.com/companies/news/linux-laboratories-raises-70-mn-led-by-chryscapital-and-tata-capital-11790692739434.html",
+ "seller": "Tata Capital Healthcare Fund II",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-30T01:31:12.240023+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "Linux Laboratories raises $70 mn led by ChrysCapital and Tata Capital",
+   "url": "https://www.livemint.com/companies/news/linux-laboratories-raises-70-mn-led-by-chryscapital-and-tata-capital-11790692739434.html"
+  },
+  {
+   "attachedAt": "2026-09-30T01:31:12.246373+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "ChrysCapital to take minority stake in Linux laboratories",
+   "url": "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/chryscapital-to-take-minority-stake-in-linux-laboratories/articleshow/134573591.cms"
+  }
+ ],
+ "synopsis": "Linux Laboratories Pvt. Ltd., a Chennai-based domestic formulations company founded in 2007, has raised $70 million through primary capital and secondary transactions led by ChrysCapital and Tata Capital Healthcare Fund III. The deal provides a full exit for Tata Capital Healthcare Fund II, which generated about 4x returns, while Tata Capital Healthcare Fund III reinvested. ChrysCapital acquired a significant minority stake in the company. The transaction was advised by Avendus. Proceeds will support Linux's next growth phase, including core speciality expansion, adjacent therapeutic areas, brand acquisitions, and R&D capabilities.",
+ "ticker": null,
+ "updatedAt": "2026-09-30T01:31:23.386732+00:00"
+}

@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 3000.0,
+ "amountRaw": "₹3,000 cr",
+ "buyer": "CPP Investments",
+ "company": "Prestige Hospitality Ventures",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-30T01:31:12.243009+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1058,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "CPP Investments acquires a 27% stake in Prestige Hospitality Ventures for ₹3,000 crore.",
+ "primaryUrl": "https://www.livemint.com/companies/cpp-investments-invests-3-000-cr-prestige-hospitality-ventures-11790701463810.html",
+ "seller": "Prestige Hospitality Ventures",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-09-30T01:31:12.244036+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "CPP Investments invests ₹3,000 cr in Prestige Hospitality Ventures",
+   "url": "https://www.livemint.com/companies/cpp-investments-invests-3-000-cr-prestige-hospitality-ventures-11790701463810.html"
+  }
+ ],
+ "synopsis": "Canada Pension Plan Investment Board has acquired a 27% stake in Prestige Hospitality Ventures Ltd, the hospitality platform of Prestige Estates Projects Ltd, for 3,000 crore. The transaction marks the Canadian investor's first direct investment in India's hospitality sector. The majority of the capital will support the expansion of the platform, which owns a portfolio of luxury and premium hotels and has a development pipeline across multiple Indian cities. The deal follows Prestige Hospitality's withdrawal of its proposed initial public offering, for which it had previously filed a draft red herring prospectus to raise up to 2,700 crore.",
+ "ticker": null,
+ "updatedAt": "2026-09-30T01:31:26.880793+00:00"
+}

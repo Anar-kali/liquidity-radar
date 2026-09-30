@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "Thermax Ltd",
+ "company": "Exactspace",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-09-30T01:31:11.278309+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": "failed",
+ "id": 1056,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Thermax acquires an additional 35.83% stake in Exactspace to gain majority control.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQ3MyUFU3c1lXWEM2SE1acHFnaVFaUGozb1NfbktvVmVZaW05YmJQWTlWcWc0Y0E3Wl9kRVZITTBhRnpVejZQUmpvU0JoRk4zTDBDd0I5Q1c0R1RSX21aVHJfZ25fbzJpc25SMzFHNnBsaGhKbjlGd0xNN1NrNE9IbW85T3VYLVZzTEdTYUdyZXNLVjJlMjY5dENHVEFLTE1Cekd3OHRTS0RpSDN6dElyQjdyRWNvRVh2Y2VNWVdIRQ?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-09-30T01:31:11.279383+00:00",
+   "outlet": "Alice Blue",
+   "resolvable": false,
+   "title": "Thermax Ltd gains 3.5% after additional 35.83% stake in Exactspace, gains majority control",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQ3MyUFU3c1lXWEM2SE1acHFnaVFaUGozb1NfbktvVmVZaW05YmJQWTlWcWc0Y0E3Wl9kRVZITTBhRnpVejZQUmpvU0JoRk4zTDBDd0I5Q1c0R1RSX21aVHJfZ25fbzJpc25SMzFHNnBsaGhKbjlGd0xNN1NrNE9IbW85T3VYLVZzTEdTYUdyZXNLVjJlMjY5dENHVEFLTE1Cekd3OHRTS0RpSDN6dElyQjdyRWNvRVh2Y2VNWVdIRQ?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-09-30T01:31:11.278309+00:00"
+}
