@@ -372,7 +372,7 @@
    "seller": "Promoters",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 7,
+   "sourceCount": 8,
    "ticker": null,
    "updatedAt": "2026-10-01T11:15:57.482399+00:00",
    "updates": [
@@ -399,6 +399,10 @@
     {
      "attachedAt": "2026-10-01T13:31:06.596638+00:00",
      "title": "Sebi Puts Inox Clean Energy's Rs 10,000 Cr IPO in Abeyance"
+    },
+    {
+     "attachedAt": "2026-10-01T14:31:08.079269+00:00",
+     "title": "Inox Air Products files draft papers with Sebi for Rs 10,000-11,000 cr IPO"
     }
    ]
   },
