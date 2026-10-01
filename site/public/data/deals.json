@@ -92,7 +92,7 @@
    "seller": "Peter Properties Ltd, Khushi Trust, 360 ONE managed funds, Om Sai Trust, and Colared Consultants and Traders LLP",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 6,
+   "sourceCount": 7,
    "ticker": null,
    "updatedAt": "2026-10-01T04:46:06.920272+00:00",
    "updates": [
@@ -115,6 +115,10 @@
     {
      "attachedAt": "2026-10-01T06:01:15.715666+00:00",
      "title": "Anarock Property Consultants Limited files DRHP for ₹1,000 crore IPO; AI, tech investments among key plans | Real Estate News"
+    },
+    {
+     "attachedAt": "2026-10-01T07:19:08.694306+00:00",
+     "title": "Mumbai-based Anarock files ₹1,000cr IPO DRHP with SEBI for tech"
     }
    ]
   },
@@ -691,7 +695,7 @@
    "seller": "Promoters",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 8,
+   "sourceCount": 9,
    "ticker": "AVALON.NS",
    "updatedAt": "2026-09-29T17:01:14.462797+00:00",
    "updates": [
@@ -722,6 +726,10 @@
     {
      "attachedAt": "2026-10-01T01:31:11.292306+00:00",
      "title": "Avalon Technologies stock drops over 5% on reports of promoter stake sale; firm issues clarification"
+    },
+    {
+     "attachedAt": "2026-10-01T07:19:08.652596+00:00",
+     "title": "Avalon Technologies promoter sells 6% stake via block deals"
     }
    ]
   },
