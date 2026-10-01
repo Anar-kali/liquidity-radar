@@ -294,7 +294,7 @@
    "seller": "GNG Electronics promoter",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 4,
+   "sourceCount": 5,
    "ticker": "EBGNG.NS",
    "updatedAt": "2026-10-01T01:31:11.289498+00:00",
    "updates": [
@@ -309,6 +309,10 @@
     {
      "attachedAt": "2026-10-01T01:31:11.255661+00:00",
      "title": "GNG Electronics promoter sells 34 lakh shares worth ₹230 crore"
+    },
+    {
+     "attachedAt": "2026-10-01T03:01:24.751809+00:00",
+     "title": "GNG Electronics Promoter Vidhi Khandelwal Sells 3% Stake for Rs 231 Crore"
     }
    ]
   },
