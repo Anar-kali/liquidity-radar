@@ -1,6 +1,30 @@
 {
- "dealCount": 750,
+ "dealCount": 751,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Sarva Foam Industries",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-01T08:01:07.213943+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 1078,
+   "individuals": [
+    "Kunal Giani"
+   ],
+   "listed": false,
+   "oneLine": "Sarva Foam Industries files DRHP for an IPO to fund expansion and debt reduction.",
+   "primaryOutlet": "Free Press Journal",
+   "seller": "Kunal Giani",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-01T08:01:11.011211+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -23663,6 +23687,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-01T06:16:09.647400+00:00",
- "totalDeals": 750
+ "generatedAt": "2026-10-01T08:01:11.011211+00:00",
+ "totalDeals": 751
 }
