@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 6600.0,
+ "amountRaw": "₹6,600 crore (from article)",
+ "buyer": "Public",
+ "company": "Carlsberg India",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-01T14:46:05.110430+00:00",
+ "dealType": "IPO-OFS",
+ "enrichmentState": null,
+ "id": 1086,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Carlsberg gets SEBI approval for an IPO.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQbmZqNGhnNjZuWVJQYjJuZ1JVZzN3Q2xGRExZSWZjZGF0ZGdsQkJTV2VuYlBGQ3pxaTRzRFFqTUdjWG1YcHBXWmw5RVJta0ZMSDJUZW1pWmFYMlg3Y1MyUFZzZG5YMk16cENlTVdVTF95NXpBWTREWFJxN2NwNnBLYW5IR2wxVlhKY25WU3ZFSl9iZ1pRYVlTWUtwODJ5Z3RCeGhpWk5jX2NZZmZtV1l0RFp6ZWZqOC1yREVoYVcxWF9xVUJEd01SRUZEbVhJajVsMnBZTtIB2gFBVV95cUxQNUV4ZTdsTzFocXVzS2UyZVRqbUMzMlFSUEQwWEszYkFWUl9kd1VzZzJTV1kySmdNTEMycUZiOVJrVW85SzczbHFlUE8xY2U5M1h0WFdWbjFmS1FweW1hSnVEQkVaZktCcXgzOV9Ublh3VGd1UG51eEFfQXBBWjhfQkxtbS1jZkZjcFRHV3paZG9LVkNPbnFhLThRenpkMGctMWNzVlFiZnBEYjUyZkFfaW0xZ0dUQWRHSU1LQkFDem8xSzZwQzBSZy1BejF2dDc3aUlqQm5Tam5uQQ?oc=5",
+ "seller": "Carlsberg Group",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-01T14:46:05.111958+00:00",
+   "outlet": "Business Standard",
+   "resolvable": false,
+   "title": "Sindhuja raises ₹100 crore via NCDs; Carlsberg gets Sebi approval for IPO",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQbmZqNGhnNjZuWVJQYjJuZ1JVZzN3Q2xGRExZSWZjZGF0ZGdsQkJTV2VuYlBGQ3pxaTRzRFFqTUdjWG1YcHBXWmw5RVJta0ZMSDJUZW1pWmFYMlg3Y1MyUFZzZG5YMk16cENlTVdVTF95NXpBWTREWFJxN2NwNnBLYW5IR2wxVlhKY25WU3ZFSl9iZ1pRYVlTWUtwODJ5Z3RCeGhpWk5jX2NZZmZtV1l0RFp6ZWZqOC1yREVoYVcxWF9xVUJEd01SRUZEbVhJajVsMnBZTtIB2gFBVV95cUxQNUV4ZTdsTzFocXVzS2UyZVRqbUMzMlFSUEQwWEszYkFWUl9kd1VzZzJTV1kySmdNTEMycUZiOVJrVW85SzczbHFlUE8xY2U5M1h0WFdWbjFmS1FweW1hSnVEQkVaZktCcXgzOV9Ublh3VGd1UG51eEFfQXBBWjhfQkxtbS1jZkZjcFRHV3paZG9LVkNPbnFhLThRenpkMGctMWNzVlFiZnBEYjUyZkFfaW0xZ0dUQWRHSU1LQkFDem8xSzZwQzBSZy1BejF2dDc3aUlqQm5Tam5uQQ?oc=5"
+  }
+ ],
+ "synopsis": "Carlsberg India has received Securities and Exchange Board of India observations for an initial public offering of approximately $700 million, amounting to about ₹6,600 crore. The IPO will involve a stake sale by its parent entity, the Carlsberg Group, which filed a confidential draft red herring prospectus in July. The company joins other multinational corporations seeking to list in India's active IPO market.",
+ "ticker": null,
+ "updatedAt": "2026-10-01T14:46:08.546312+00:00"
+}

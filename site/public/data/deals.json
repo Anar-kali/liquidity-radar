@@ -1,6 +1,28 @@
 {
- "dealCount": 757,
+ "dealCount": 758,
  "deals": [
+  {
+   "amountCr": 6600.0,
+   "amountRaw": "₹6,600 crore (from article)",
+   "company": "Carlsberg India",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-01T14:46:05.110430+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 1086,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Carlsberg gets SEBI approval for an IPO.",
+   "primaryOutlet": "Business Standard",
+   "seller": "Carlsberg Group",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-01T14:46:08.546312+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -23959,6 +23981,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-01T13:01:32.566577+00:00",
- "totalDeals": 757
+ "generatedAt": "2026-10-01T14:46:08.546312+00:00",
+ "totalDeals": 758
 }
