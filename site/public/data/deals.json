@@ -1,6 +1,52 @@
 {
- "dealCount": 744,
+ "dealCount": 746,
  "deals": [
+  {
+   "amountCr": 306.0,
+   "amountRaw": "₹306 cr",
+   "company": "Molbio Diagnostics",
+   "confidence": "high",
+   "confirmed": false,
+   "createdAt": "2026-10-01T04:16:00.980490+00:00",
+   "dealType": "block deal",
+   "enrichmentState": null,
+   "id": 1073,
+   "individuals": [
+    "Gian Parkash Aggarwal"
+   ],
+   "listed": true,
+   "oneLine": "Motilal Oswal Alternates sells a stake in Molbio Diagnostics via block deal for Rs 306 cr.",
+   "primaryOutlet": "Business Line",
+   "seller": "Motilal Oswal Alternates",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "MOLBIO.NS",
+   "updatedAt": "2026-10-01T04:16:08.301438+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Inox Air Products",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-01T04:16:00.975601+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 1072,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Inox Air Products files IPO papers for an offer-for-sale, providing liquidity to selling shareholders.",
+   "primaryOutlet": "Moneycontrol.com",
+   "seller": "Promoters",
+   "sizeBand": "OVER_2000",
+   "sizeSource": "band",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-01T04:16:04.307756+00:00",
+   "updates": []
+  },
   {
    "amountCr": 900.0,
    "amountRaw": "₹800-900 crore",
@@ -23472,6 +23518,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-01T03:45:58.369808+00:00",
- "totalDeals": 744
+ "generatedAt": "2026-10-01T04:16:08.301438+00:00",
+ "totalDeals": 746
 }

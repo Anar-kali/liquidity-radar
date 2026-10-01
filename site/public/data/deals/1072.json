@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Inox Air Products",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-01T04:16:00.975601+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": null,
+ "id": 1072,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Inox Air Products files IPO papers for an offer-for-sale, providing liquidity to selling shareholders.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWVNtMEI0UzJ2QnJDZTlEWERXa2c2d0tXSFV6M2NrS242V0hWWDZaMVNQb0dqNm9xaTJtclFTU2o1LVpVTnJONmlJd3hRTUNmMTFwRG1TUDhhLVVKMmhpNU9mSktvVTh1LTBaWld4NFNFa2dDU3p6SnVmTV9xRjRVdE85Y0pCcncyZWtsOE1vZk5xWTE2My0zU2dMUjBDMkp5SENXM1U2V0FpeEhfVkF4WGwwR3BtVUNzMFlWeVRiX1ZERkNEeUhYbnBOONIB0AFBVV95cUxQQkREaklRUENoQU9pQjJHb1lGQUQxUkNpcnFiQmsyejY1c0JGOGRObXVFbjBDR09icHBtVnZKdmN3a2FWV1pMbHJzdTdhQkQ3Y1VJNnZpdGpoYktoc3V1RXY0NlBDcHd5MFhJMUJ3TGlXcktnUXZaOEZWN204YWozcEJKYzY1MVlUZkQycDNuczd6OElPcGROZVVEWjc4OHBhcmxUYy0zUjNMOU1oMWF6cmFrcWZGWVc1dm5rWUh5OTl1aEF2TG02dFNpbWRGTFl2?oc=5",
+ "seller": "Promoters",
+ "sizeBand": "OVER_2000",
+ "sizeSource": "band",
+ "sources": [
+  {
+   "attachedAt": "2026-10-01T04:16:00.977595+00:00",
+   "outlet": "Moneycontrol.com",
+   "resolvable": false,
+   "title": "Inox Air Products files IPO papers for 7.71-crore share offer-for-sale",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWVNtMEI0UzJ2QnJDZTlEWERXa2c2d0tXSFV6M2NrS242V0hWWDZaMVNQb0dqNm9xaTJtclFTU2o1LVpVTnJONmlJd3hRTUNmMTFwRG1TUDhhLVVKMmhpNU9mSktvVTh1LTBaWld4NFNFa2dDU3p6SnVmTV9xRjRVdE85Y0pCcncyZWtsOE1vZk5xWTE2My0zU2dMUjBDMkp5SENXM1U2V0FpeEhfVkF4WGwwR3BtVUNzMFlWeVRiX1ZERkNEeUhYbnBOONIB0AFBVV95cUxQQkREaklRUENoQU9pQjJHb1lGQUQxUkNpcnFiQmsyejY1c0JGOGRObXVFbjBDR09icHBtVnZKdmN3a2FWV1pMbHJzdTdhQkQ3Y1VJNnZpdGpoYktoc3V1RXY0NlBDcHd5MFhJMUJ3TGlXcktnUXZaOEZWN204YWozcEJKYzY1MVlUZkQycDNuczd6OElPcGROZVVEWjc4OHBhcmxUYy0zUjNMOU1oMWF6cmFrcWZGWVc1dm5rWUh5OTl1aEF2TG02dFNpbWRGTFl2?oc=5"
+  }
+ ],
+ "synopsis": "Inox Air Products has filed a draft red herring prospectus with SEBI to launch an initial public offering consisting entirely of an offer-for-sale of 7.71 crore equity shares. The selling shareholders include promoters INOX Chemicals, Prodair Corporation, Siddhomal Air Products, and Sitashri Trading and Finance. Because the offering is solely an OFS, the company will not receive any proceeds, with all net proceeds accruing to the selling shareholders. The company is jointly owned by the INOX Group and the US-headquartered Air Products Group. Kotak Mahindra Capital Company, Citigroup Global Markets India, ICICI Securities, and JP Morgan India are managing the IPO as merchant bankers.",
+ "ticker": null,
+ "updatedAt": "2026-10-01T04:16:04.307756+00:00"
+}
