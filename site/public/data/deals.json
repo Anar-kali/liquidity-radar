@@ -1,6 +1,28 @@
 {
- "dealCount": 743,
+ "dealCount": 744,
  "deals": [
+  {
+   "amountCr": 900.0,
+   "amountRaw": "₹800-900 crore",
+   "company": "Alliance Insurance Brokers",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-01T03:45:54.037449+00:00",
+   "dealType": "PE secondary",
+   "enrichmentState": null,
+   "id": 1071,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Alliance Insurance Brokers plans to raise up to Rs 900 crore via primary and secondary share sales.",
+   "primaryOutlet": "Mint",
+   "seller": "Alliance Insurance Brokers and Access Asset Managers",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-01T03:45:58.369808+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -23450,6 +23472,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-01T01:31:11.307422+00:00",
- "totalDeals": 743
+ "generatedAt": "2026-10-01T03:45:58.369808+00:00",
+ "totalDeals": 744
 }

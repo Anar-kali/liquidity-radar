@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 900.0,
+ "amountRaw": "₹800-900 crore",
+ "buyer": "Unnamed investors",
+ "company": "Alliance Insurance Brokers",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-01T03:45:54.037449+00:00",
+ "dealType": "PE secondary",
+ "enrichmentState": null,
+ "id": 1071,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Alliance Insurance Brokers plans to raise up to Rs 900 crore via primary and secondary share sales.",
+ "primaryUrl": "https://www.livemint.com/companies/alliance-insurance-brokers-stake-sale-access-asset-managers-o3-capital-insurance-brokers-insurance-sector-11790820276188.html",
+ "seller": "Alliance Insurance Brokers and Access Asset Managers",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-01T03:45:54.038832+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "Alliance Insurance Brokers looks to raise up to ₹900 crore in minority stake sale",
+   "url": "https://www.livemint.com/companies/alliance-insurance-brokers-stake-sale-access-asset-managers-o3-capital-insurance-brokers-insurance-sector-11790820276188.html"
+  }
+ ],
+ "synopsis": "Alliance Insurance Brokers has initiated a process to sell a minority stake of about 30% through a mix of primary and secondary share sales to raise between ₹800 and ₹900 crore from institutional investors. Existing investor Access Asset Managers will fully exit its decade-old stake as part of the transaction. The company plans to use fresh primary proceeds to expand its footprint across tier 2 and tier 3 cities in India as well as in global reinsurance markets such as West Asia and Africa. O3 Capital has been appointed as an adviser to manage the process. The final deal contours remain subject to the nature of the incoming investor.",
+ "ticker": null,
+ "updatedAt": "2026-10-01T03:45:58.369808+00:00"
+}
