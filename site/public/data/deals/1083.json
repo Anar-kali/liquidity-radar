@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Whirlpool of India",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-01T12:46:05.869816+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1083,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Stake talks surrounding Whirlpool of India involving potential buyers or sellers.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQekxjWElnS1phTExmc0x4YXdYSTBPTXZfaUx0c1k4M1p6V0FzejNZX2FNUEpmM2VudnFmSHpFQ1ZpU25zMUplU21GVFJET0Y2SVdPSHQ3RVRrUWxGYThaYXFCTjVnMkU5Q3FHOW9nTXU5eGlzTVBaeUhZZU5aXzJhOGd0aWozYTZfUXIxZ3NLRTZqNkp1SGljaUFvQmowcWxNYmtCMGlsbkM3QXljb24yLWZJQXh2VTJVeG5lREJnS2M2LVU?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "mcap_plausible",
+ "sources": [
+  {
+   "attachedAt": "2026-10-01T12:46:05.870779+00:00",
+   "outlet": "Google News",
+   "resolvable": false,
+   "title": "Whirlpool India clarifies stake talks behind Whirlpool India stock - ad-hoc-news.de",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQekxjWElnS1phTExmc0x4YXdYSTBPTXZfaUx0c1k4M1p6V0FzejNZX2FNUEpmM2VudnFmSHpFQ1ZpU25zMUplU21GVFJET0Y2SVdPSHQ3RVRrUWxGYThaYXFCTjVnMkU5Q3FHOW9nTXU5eGlzTVBaeUhZZU5aXzJhOGd0aWozYTZfUXIxZ3NLRTZqNkp1SGljaUFvQmowcWxNYmtCMGlsbkM3QXljb24yLWZJQXh2VTJVeG5lREJnS2M2LVU?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": "WHIRLPOOL.NS",
+ "updatedAt": "2026-10-01T12:46:05.869816+00:00"
+}

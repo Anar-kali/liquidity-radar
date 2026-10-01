@@ -1,6 +1,28 @@
 {
- "dealCount": 754,
+ "dealCount": 755,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Whirlpool of India",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-01T12:46:05.869816+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1083,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Stake talks surrounding Whirlpool of India involving potential buyers or sellers.",
+   "primaryOutlet": "Google News",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "mcap_plausible",
+   "sourceCount": 1,
+   "ticker": "WHIRLPOOL.NS",
+   "updatedAt": "2026-10-01T12:46:05.869816+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -296,7 +318,7 @@
    "seller": "Promoters",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 5,
+   "sourceCount": 6,
    "ticker": null,
    "updatedAt": "2026-10-01T11:15:57.482399+00:00",
    "updates": [
@@ -315,6 +337,10 @@
     {
      "attachedAt": "2026-10-01T12:31:18.031746+00:00",
      "title": "INOX Air Products files DRHP for IPO; existing shareholders to sell up to 7.72 cr shares"
+    },
+    {
+     "attachedAt": "2026-10-01T12:46:05.881781+00:00",
+     "title": "Inox Air Products files DRHP with SEBI for IPO; sources say issue size estimated at Rs 11,000 crore"
     }
    ]
   },
@@ -3205,10 +3231,15 @@
    "seller": "current shareholders",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-09-23T11:31:56.190336+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-10-01T12:46:05.889509+00:00",
+     "title": "Airtel Money targets $7 billion valuation, plans $703 million London IPO"
+    }
+   ]
   },
   {
    "amountCr": 151.58,
@@ -23850,6 +23881,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-01T11:15:57.482399+00:00",
- "totalDeals": 754
+ "generatedAt": "2026-10-01T12:46:05.869816+00:00",
+ "totalDeals": 755
 }
