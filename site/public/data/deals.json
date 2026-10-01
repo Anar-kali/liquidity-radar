@@ -92,7 +92,7 @@
    "seller": "Peter Properties Ltd, Khushi Trust, 360 ONE managed funds, Om Sai Trust, and Colared Consultants and Traders LLP",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 7,
+   "sourceCount": 8,
    "ticker": null,
    "updatedAt": "2026-10-01T04:46:06.920272+00:00",
    "updates": [
@@ -119,6 +119,10 @@
     {
      "attachedAt": "2026-10-01T07:19:08.694306+00:00",
      "title": "Mumbai-based Anarock files ₹1,000cr IPO DRHP with SEBI for tech"
+    },
+    {
+     "attachedAt": "2026-10-01T07:45:57.455964+00:00",
+     "title": "Anarock Property Consultants Files DRHP for Rs 1,000 Crore IPO"
     }
    ]
   },
