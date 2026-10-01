@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Katalin",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-01T09:01:20.250040+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": "failed",
+ "id": 1079,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Katalin filed its DRHP with SEBI for an OFS and fresh shares IPO.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOemdvZkJjNEdVVWpUYzdvY0t3ejhwc05wMUtXWFJ6MkROZGtqS3hNYnJ3QjNNZXlyTnluRjhnNEtBZW1CZDZFdVU0enN6ekFnVlZHa1VxNDVuQ19MYkJtRVZTVlE0WnFreDZPYlNMVk9RdjZ4TG1xWk5lUFg2OTJZeEpqSmp4M0pfWl9uSVg1M1NTLTcwb3BqbWxKYzV2aUxvZS1v?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-10-01T09:01:20.251349+00:00",
+   "outlet": "BW Businessworld",
+   "resolvable": false,
+   "title": "Katalin Files DRHP With Sebi For OFS Cum Fresh Shares IPO",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOemdvZkJjNEdVVWpUYzdvY0t3ejhwc05wMUtXWFJ6MkROZGtqS3hNYnJ3QjNNZXlyTnluRjhnNEtBZW1CZDZFdVU0enN6ekFnVlZHa1VxNDVuQ19MYkJtRVZTVlE0WnFreDZPYlNMVk9RdjZ4TG1xWk5lUFg2OTJZeEpqSmp4M0pfWl9uSVg1M1NTLTcwb3BqbWxKYzV2aUxvZS1v?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-10-01T09:01:20.250040+00:00"
+}

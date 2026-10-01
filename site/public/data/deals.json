@@ -1,6 +1,50 @@
 {
- "dealCount": 751,
+ "dealCount": 753,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Dosti Realty",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-01T09:01:20.275469+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 1080,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Dosti Realty and Moneytree Realty submitted confidential IPO papers to SEBI.",
+   "primaryOutlet": "Free Press Journal",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-01T09:01:29.625300+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Katalin",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-01T09:01:20.250040+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 1079,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Katalin filed its DRHP with SEBI for an OFS and fresh shares IPO.",
+   "primaryOutlet": "BW Businessworld",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-01T09:01:20.250040+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -50,10 +94,15 @@
    "seller": "Amit Arvind Thatte and Ketaki Amit Thatte",
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-10-01T06:16:09.647400+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-10-01T09:01:20.259814+00:00",
+     "title": "Traffic Safety Solutions Provider Kataline Files IPO Papers With Sebi"
+    }
+   ]
   },
   {
    "amountCr": 1000.0,
@@ -1089,7 +1138,7 @@
    "seller": "promoters",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 5,
+   "sourceCount": 7,
    "ticker": null,
    "updatedAt": "2026-09-30T12:15:59.146467+00:00",
    "updates": [
@@ -1108,6 +1157,14 @@
     {
      "attachedAt": "2026-09-30T12:15:59.145387+00:00",
      "title": "Royal Chain IPO: Jewellery Maker Eyes Rs 1,000 Crore Public Issue; High Debt Repayment Among Key Risks"
+    },
+    {
+     "attachedAt": "2026-10-01T09:01:20.223584+00:00",
+     "title": "Royal Chain Limited – DRHPRoyal Chain Limited – Draft Abridged Prospectus"
+    },
+    {
+     "attachedAt": "2026-10-01T09:01:20.234818+00:00",
+     "title": "Royal Chain Limited – Draft Abridged Prospectus"
     }
    ]
   },
@@ -23704,6 +23761,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-01T08:01:11.011211+00:00",
- "totalDeals": 751
+ "generatedAt": "2026-10-01T09:01:29.625300+00:00",
+ "totalDeals": 753
 }
