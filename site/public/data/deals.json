@@ -40,7 +40,7 @@
    "seller": "Peter Properties Ltd, Khushi Trust, 360 ONE managed funds, Om Sai Trust, and Colared Consultants and Traders LLP",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 5,
+   "sourceCount": 6,
    "ticker": null,
    "updatedAt": "2026-10-01T04:46:06.920272+00:00",
    "updates": [
@@ -59,6 +59,10 @@
     {
      "attachedAt": "2026-10-01T05:45:59.940979+00:00",
      "title": "Anarock Property Consultants Limited files DRHP for ₹1,000 crore IPO; AI, tech investments among key plans"
+    },
+    {
+     "attachedAt": "2026-10-01T06:01:15.715666+00:00",
+     "title": "Anarock Property Consultants Limited files DRHP for ₹1,000 crore IPO; AI, tech investments among key plans | Real Estate News"
     }
    ]
   },
@@ -3441,13 +3445,21 @@
    "seller": "a promoter",
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 2,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-09-22T09:46:05.117391+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-24T01:31:13.303542+00:00",
      "title": "SD International files draft papers with SEBI to raise funds via IPO"
+    },
+    {
+     "attachedAt": "2026-10-01T06:01:15.696153+00:00",
+     "title": "S. D. INTERNATIONAL LIMITEDS. D. INTERNATIONAL LIMITED"
+    },
+    {
+     "attachedAt": "2026-10-01T06:01:15.706415+00:00",
+     "title": "S. D. INTERNATIONAL LIMITED"
     }
    ]
   },
