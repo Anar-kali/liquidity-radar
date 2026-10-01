@@ -1,6 +1,28 @@
 {
- "dealCount": 747,
+ "dealCount": 748,
  "deals": [
+  {
+   "amountCr": 1250.0,
+   "amountRaw": "₹1,250 Cr",
+   "company": "Adani Group Affiliate",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-01T05:45:59.956073+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": "failed",
+   "id": 1075,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "An Adani Group affiliate plans a Rs 1,250 crore IPO for solar manufacturing.",
+   "primaryOutlet": "Indianweb2.com",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-01T05:45:59.956073+00:00",
+   "updates": []
+  },
   {
    "amountCr": 1000.0,
    "amountRaw": "₹1,000 Cr",
@@ -18,7 +40,7 @@
    "seller": "Peter Properties Ltd, Khushi Trust, 360 ONE managed funds, Om Sai Trust, and Colared Consultants and Traders LLP",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 4,
+   "sourceCount": 5,
    "ticker": null,
    "updatedAt": "2026-10-01T04:46:06.920272+00:00",
    "updates": [
@@ -33,6 +55,10 @@
     {
      "attachedAt": "2026-10-01T05:01:07.815571+00:00",
      "title": "Anarock Property Consultants plans Rs 1,000-crore IPO, files draft document with SEBI"
+    },
+    {
+     "attachedAt": "2026-10-01T05:45:59.940979+00:00",
+     "title": "Anarock Property Consultants Limited files DRHP for ₹1,000 crore IPO; AI, tech investments among key plans"
     }
    ]
   },
@@ -23557,6 +23583,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-01T04:46:06.920272+00:00",
- "totalDeals": 747
+ "generatedAt": "2026-10-01T05:45:59.956073+00:00",
+ "totalDeals": 748
 }

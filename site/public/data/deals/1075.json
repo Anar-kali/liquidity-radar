@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 1250.0,
+ "amountRaw": "₹1,250 Cr",
+ "buyer": null,
+ "company": "Adani Group Affiliate",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-01T05:45:59.956073+00:00",
+ "dealType": "IPO-OFS",
+ "enrichmentState": "failed",
+ "id": 1075,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "An Adani Group affiliate plans a Rs 1,250 crore IPO for solar manufacturing.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNZFN4SW1CZGx6QklQdzctdndJWVR2Z3FhWHV0VzlWQmlMYjFhRTBwODZLMVlWYkhYUWM4OXhIVEFTQjd1RUJsa0R1NHBNNHZrREtyaWZJNjNMSmZqX2ZKX0NpS1JITzhuWlpnbFA0UU45OVBBMEhQN0N2TXNXczhteTNZaU9vdw?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-01T05:45:59.957611+00:00",
+   "outlet": "Indianweb2.com",
+   "resolvable": false,
+   "title": "Adani Group Affiliate Plans ₹1,250 Cr IPO to Boost Solar Manufacturing",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNZFN4SW1CZGx6QklQdzctdndJWVR2Z3FhWHV0VzlWQmlMYjFhRTBwODZLMVlWYkhYUWM4OXhIVEFTQjd1RUJsa0R1NHBNNHZrREtyaWZJNjNMSmZqX2ZKX0NpS1JITzhuWlpnbFA0UU45OVBBMEhQN0N2TXNXczhteTNZaU9vdw?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-10-01T05:45:59.956073+00:00"
+}
