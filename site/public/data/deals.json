@@ -2533,7 +2533,7 @@
    "seller": "SRIT India",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-09-24T12:02:16.975989+00:00",
    "updates": [
@@ -2543,6 +2543,10 @@
     },
     {
      "attachedAt": "2026-09-28T11:31:13.191018+00:00",
+     "title": "SRIT India Limited"
+    },
+    {
+     "attachedAt": "2026-10-01T09:16:02.929413+00:00",
      "title": "SRIT India Limited"
     }
    ]
@@ -4158,7 +4162,7 @@
    "seller": "Starfish I Pte. Ltd., Nexus India Direct Investments II, Nexus Opportunity Fund, Nexus Ventures III, SoftBank, Foxconn",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 8,
+   "sourceCount": 9,
    "ticker": null,
    "updatedAt": "2026-09-22T05:25:44.938300+00:00",
    "updates": [
@@ -4189,6 +4193,10 @@
     {
      "attachedAt": "2026-09-24T06:16:00.830333+00:00",
      "title": "SoftBank-backed AceVector to raise Rs 420 crore through IPO"
+    },
+    {
+     "attachedAt": "2026-10-01T09:16:02.940139+00:00",
+     "title": "Acevector Limited"
     }
    ]
   },
