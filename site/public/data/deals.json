@@ -1,6 +1,28 @@
 {
- "dealCount": 742,
+ "dealCount": 743,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Subway India",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-01T01:31:11.307422+00:00",
+   "dealType": "other",
+   "enrichmentState": "failed",
+   "id": 1070,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "IPO-bound Subway India makes a big ownership shift.",
+   "primaryOutlet": "financialexpress.com",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-01T01:31:11.307422+00:00",
+   "updates": []
+  },
   {
    "amountCr": 1250.0,
    "amountRaw": "Rs 1,250-crore",
@@ -265,12 +287,12 @@
    "listed": true,
    "oneLine": "GNG Electronics shares worth Rs 230.8 crore traded in a block deal.",
    "primaryOutlet": "Business Upturn",
-   "seller": null,
+   "seller": "GNG Electronics promoter",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": "EBGNG.NS",
-   "updatedAt": "2026-09-30T19:06:57.177378+00:00",
+   "updatedAt": "2026-10-01T01:31:11.289498+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-30T19:06:57.158878+00:00",
@@ -279,6 +301,10 @@
     {
      "attachedAt": "2026-09-30T19:06:57.176432+00:00",
      "title": "GNG Electronics Limited: block deal"
+    },
+    {
+     "attachedAt": "2026-10-01T01:31:11.255661+00:00",
+     "title": "GNG Electronics promoter sells 34 lakh shares worth ₹230 crore"
     }
    ]
   },
@@ -403,7 +429,7 @@
    "seller": "BNP PARIBAS FINANCIAL MARKETS",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 4,
+   "sourceCount": 5,
    "ticker": "BSE.NS",
    "updatedAt": "2026-09-30T12:01:17.176989+00:00",
    "updates": [
@@ -418,6 +444,10 @@
     {
      "attachedAt": "2026-09-30T12:01:17.175523+00:00",
      "title": "BNP Paribas, Goldman Sachs sell stake in BSE for Rs 2,186 crore; stock falls nearly 4 per cent - Mid-Day"
+    },
+    {
+     "attachedAt": "2026-10-01T01:31:11.295063+00:00",
+     "title": "Goldman Sachs, BNP Paribas divest over 68 lakh BSE shares worth Rs 2,186 crore ahead of Nifty 50 inclusion"
     }
    ]
   },
@@ -464,7 +494,7 @@
    "seller": "Promoters",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 7,
+   "sourceCount": 8,
    "ticker": "AVALON.NS",
    "updatedAt": "2026-09-29T17:01:14.462797+00:00",
    "updates": [
@@ -491,6 +521,10 @@
     {
      "attachedAt": "2026-09-30T16:16:06.857939+00:00",
      "title": "Avalon Tech block deal: Promoters divest 6% stake worth Rs 871 crore"
+    },
+    {
+     "attachedAt": "2026-10-01T01:31:11.292306+00:00",
+     "title": "Avalon Technologies stock drops over 5% on reports of promoter stake sale; firm issues clarification"
     }
    ]
   },
@@ -7771,7 +7805,7 @@
    "seller": "Inox Clean Energy",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 24,
+   "sourceCount": 25,
    "ticker": null,
    "updatedAt": "2026-09-30T07:01:18.963172+00:00",
    "updates": [
@@ -7866,6 +7900,10 @@
     {
      "attachedAt": "2026-09-30T12:15:59.135417+00:00",
      "title": "India’s Inox Clean Energy Plans INR 10,000 Crore IPO"
+    },
+    {
+     "attachedAt": "2026-10-01T01:31:11.304653+00:00",
+     "title": "Inox IPO: Clean Energy Company Files Mega Issue Papers With SEBI - Newz Daddy"
     }
    ]
   },
@@ -23396,6 +23434,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-09-30T19:06:57.177378+00:00",
- "totalDeals": 742
+ "generatedAt": "2026-10-01T01:31:11.307422+00:00",
+ "totalDeals": 743
 }

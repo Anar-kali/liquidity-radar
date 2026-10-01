@@ -16,7 +16,7 @@
  "listed": true,
  "oneLine": "GNG Electronics shares worth Rs 230.8 crore traded in a block deal.",
  "primaryUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPb0JIMHBDckhCTk9rNkxjUUVWYklZVHgyVm8tNFQwX0JVWXFLV3hPdmdmSHF5QlJDM0E1QkdVZm4yVTQ5MjJuNnQwZU1XZVhkUnhORTNVTm1kOUZOb0gyX3NNTVFIQ1V1bHg5Nnl1bURFSEM1MXl3SHd6TW1aaDFSR0Zpd015ZkRIbVg5S195aGdvYTVydG8ydnZQWDFvcTJHV0NNcU1kWjEwZTg1d1hMU0RlQmVjcGs4a0FPUDh0OURpQ0I0Zmc?oc=5",
- "seller": null,
+ "seller": "GNG Electronics promoter",
  "sizeBand": null,
  "sizeSource": "stated",
  "sources": [
@@ -40,9 +40,16 @@
    "resolvable": true,
    "title": "GNG Electronics Limited: block deal",
    "url": ""
+  },
+  {
+   "attachedAt": "2026-10-01T01:31:11.255661+00:00",
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "GNG Electronics promoter sells 34 lakh shares worth ₹230 crore",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUV9pMjhpLTZVVFhXbVFfdVhfUkE2UC1vZFFucl9mMk84N3RpWnJhUFN5RU9Mam1ya083Z3RySjU3Y2ozWjZWUUIyVy1DRzJHZC0xajMwZkQ4bWlPUjJvQkZfb1U4T1FLMktWRWdybzJtMkFjdk11a3NKSTh2bjZTTzJxQmxkZ09WMkNteVo1aEJyRVF0Q3NRazd5bkh6TDlBeHcySXQ2eVVCM2JVOTBsMU1tR0RSbHhGaGc?oc=5"
   }
  ],
  "synopsis": "GNG Electronics saw a large block deal involving 34,20,345 shares changing hands in the morning block-deal window on September 30, 2026. The transaction value reached approximately Rs 230.80 crore, executed at a price of Rs 674.80 per share, which was flat compared to the previous close. The identities of the buyer and seller were not immediately known from exchange data at the time of the report.",
  "ticker": "EBGNG.NS",
- "updatedAt": "2026-09-30T19:06:57.177378+00:00"
+ "updatedAt": "2026-10-01T01:31:11.289498+00:00"
 }

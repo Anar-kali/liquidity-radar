@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Subway India",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-01T01:31:11.307422+00:00",
+ "dealType": "other",
+ "enrichmentState": "failed",
+ "id": 1070,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "IPO-bound Subway India makes a big ownership shift.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTkZwN2JXVzd0V0k2SlFuRkJ4OFpoZDlERkJwNFdfWXgySzBObUNEaGkxRUJ3TkZuXzF1b093NGU2dVliX1VJTlVpNDQxUkRjZ0NOV2lBVkJXNndzT2Q5Z3lxa3o3RTZwZlp2NjBhWEt0TGl2UWkxRVV6cWgyZDVoRjNIcnRtb0owOVJicTV2dVpTS3FieUMtT0RxaTJvLW9ZZlF0VGh2aHFZVGVy0gGzAUFVX3lxTFAxQ2pDa3dYUEMwUElOeUhmQTdrMXNmT3JjMzdsN21XT2xmRVRWZTluS1Z0Z09WRV85c21LUU1nUkI4b0wwQVhxaWZwQVYzaWtxeG12MWJVaUhFNm83SHkwbUQ5ZFdhOHZncFlKdkhMQVQ2Z1pieTJBbFV6Q1NJQzgwaVNaNmhLVmNzdHFtUE14Q01HM3huX1JnNmp3ZHlTVkRscEdITWZuVkJud1Jmb0hsYnRj?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-10-01T01:31:11.308405+00:00",
+   "outlet": "financialexpress.com",
+   "resolvable": false,
+   "title": "IPO-bound Subway India makes a big ownership shift",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTkZwN2JXVzd0V0k2SlFuRkJ4OFpoZDlERkJwNFdfWXgySzBObUNEaGkxRUJ3TkZuXzF1b093NGU2dVliX1VJTlVpNDQxUkRjZ0NOV2lBVkJXNndzT2Q5Z3lxa3o3RTZwZlp2NjBhWEt0TGl2UWkxRVV6cWgyZDVoRjNIcnRtb0owOVJicTV2dVpTS3FieUMtT0RxaTJvLW9ZZlF0VGh2aHFZVGVy0gGzAUFVX3lxTFAxQ2pDa3dYUEMwUElOeUhmQTdrMXNmT3JjMzdsN21XT2xmRVRWZTluS1Z0Z09WRV85c21LUU1nUkI4b0wwQVhxaWZwQVYzaWtxeG12MWJVaUhFNm83SHkwbUQ5ZFdhOHZncFlKdkhMQVQ2Z1pieTJBbFV6Q1NJQzgwaVNaNmhLVmNzdHFtUE14Q01HM3huX1JnNmp3ZHlTVkRscEdITWZuVkJud1Jmb0hsYnRj?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-10-01T01:31:11.307422+00:00"
+}
