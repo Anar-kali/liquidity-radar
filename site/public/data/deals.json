@@ -1,6 +1,53 @@
 {
- "dealCount": 748,
+ "dealCount": 750,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Kataline",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-01T06:16:01.265152+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 1077,
+   "individuals": [
+    "Amit Arvind Thatte",
+    "Ketaki Amit Thatte"
+   ],
+   "listed": false,
+   "oneLine": "Kataline filed its DRHP for an IPO.",
+   "primaryOutlet": "Autocar Professional",
+   "seller": "Amit Arvind Thatte and Ketaki Amit Thatte",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-01T06:16:09.647400+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 1000.0,
+   "amountRaw": "Rs 1,000 Cr",
+   "company": "B.S. Sponge",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-01T06:16:01.247961+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 1076,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "B.S. Sponge filed its DRHP for a Rs 1,000 crore IPO.",
+   "primaryOutlet": "Rediff MoneyWiz",
+   "seller": "promoters",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "500058.BO",
+   "updatedAt": "2026-10-01T06:16:05.565767+00:00",
+   "updates": []
+  },
   {
    "amountCr": 1250.0,
    "amountRaw": "₹1,250 Cr",
@@ -23595,6 +23642,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-01T05:45:59.956073+00:00",
- "totalDeals": 748
+ "generatedAt": "2026-10-01T06:16:09.647400+00:00",
+ "totalDeals": 750
 }

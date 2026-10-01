@@ -1,0 +1,35 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Kataline",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-01T06:16:01.265152+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": null,
+ "id": 1077,
+ "individuals": [
+  "Amit Arvind Thatte",
+  "Ketaki Amit Thatte"
+ ],
+ "listed": false,
+ "oneLine": "Kataline filed its DRHP for an IPO.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxNckxIcXdpcGlaZjNiOTV2ZERMQm8ybUhTMTVkUEdxZnRwLUlUeUNqa19BZFQ4NVFMQTVVSzRYVHBEcURwRmNTX1ZQN2R2SW56RFhKcXVyMDJ5X0JPdC1UX09ZbVZwWHo3OUpaTnhsWGpNR3RkU1JST0pwZlhBU0lTZ1NTclV0WFFORUExazd4TVZkcEgwdEw0akkxYm5Vd9IBpgFBVV95cUxNeVE2SV9kMmdsWDdVbmk1VlVMRlcwR3dOc2kxT01EcXJwMjdERlI2UHRBMGNVQVRvcU5tOENyU0VKdVowU0xCaFloLUdFWVlpX1g3dzJ0NG03SzgycmM3RlF4Rks2RW1RRnRSdHlUcmlCSHk2NkVEaW5DLVZKOUViYU9DUTZzcTZkc3VISTg4aFpRZXN0VFh1aGNDNUstd3ZYaVg3QXhn?oc=5",
+ "seller": "Amit Arvind Thatte and Ketaki Amit Thatte",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-10-01T06:16:01.266360+00:00",
+   "outlet": "Autocar Professional",
+   "resolvable": false,
+   "title": "Kataline Files DRHP For IPO, Flags FIA-Listed F1 Track Paint",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNckxIcXdpcGlaZjNiOTV2ZERMQm8ybUhTMTVkUEdxZnRwLUlUeUNqa19BZFQ4NVFMQTVVSzRYVHBEcURwRmNTX1ZQN2R2SW56RFhKcXVyMDJ5X0JPdC1UX09ZbVZwWHo3OUpaTnhsWGpNR3RkU1JST0pwZlhBU0lTZ1NTclV0WFFORUExazd4TVZkcEgwdEw0akkxYm5Vd9IBpgFBVV95cUxNeVE2SV9kMmdsWDdVbmk1VlVMRlcwR3dOc2kxT01EcXJwMjdERlI2UHRBMGNVQVRvcU5tOENyU0VKdVowU0xCaFloLUdFWVlpX1g3dzJ0NG03SzgycmM3RlF4Rks2RW1RRnRSdHlUcmlCSHk2NkVEaW5DLVZKOUViYU9DUTZzcTZkc3VISTg4aFpRZXN0VFh1aGNDNUstd3ZYaVg3QXhn?oc=5"
+  }
+ ],
+ "synopsis": "Nagpur-based Kataline Limited has filed its Draft Red Herring Prospectus with the Securities and Exchange Board of India to launch an initial public offering. The proposed public issue comprises a fresh issue of up to 43,00,000 equity shares and an offer for sale of up to 43,00,000 equity shares by promoter selling shareholders Amit Arvind Thatte and Ketaki Amit Thatte. The company may also consider a pre-IPO placement of up to 6,70,000 equity shares. Net proceeds from the fresh issue are earmarked for working capital requirements, upgrading manufacturing facilities, purchasing project execution equipment, and general corporate purposes. InCred Capital Financial Services and Ashika Capital are the book-running lead managers to the issue.",
+ "ticker": null,
+ "updatedAt": "2026-10-01T06:16:09.647400+00:00"
+}

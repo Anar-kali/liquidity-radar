@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 1000.0,
+ "amountRaw": "Rs 1,000 Cr",
+ "buyer": null,
+ "company": "B.S. Sponge",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-01T06:16:01.247961+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": null,
+ "id": 1076,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "B.S. Sponge filed its DRHP for a Rs 1,000 crore IPO.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOM2pLT0FfV1NNLVRydW5wOHgyN2FsanhkSXhZWUI3aHVKRnRJbDU1ZGFGMkVSSGx3bG1vV25qLTlsMGJySHFPU2F1Q3o2NWJEQm9hQkZFS2d5QU9vR2JqQWZCaGVydVZnYWxQVlF5eW1wRjl3TDlua3ZfNm55NnU2bnYwMVVKWDNqUkZkSDRKU2NSRW4xbjdjMdIBngFBVV95cUxNMDBZUkliZXExemo0bVEteWN0dVVPNFZDRklGRFpLMk9hVXdsUjFpRmVRMmtNZFV0WlFrRjVDd0F5NGlpNzNYLTM5Um5ISWd6NDlEeUwyeVlCbmFmamFmRU96NFQwUjdpLTB1eXJnMy1wb3EzMzFXODVFckw0SmhvMVZIdTUyNTAwMk1XNkgxOGdOWFV3dk5zaHp1c1pFZw?oc=5",
+ "seller": "promoters",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-01T06:16:01.249121+00:00",
+   "outlet": "Rediff MoneyWiz",
+   "resolvable": false,
+   "title": "B.S. Sponge Files DRHP for Rs 1,000 Cr IPO",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOM2pLT0FfV1NNLVRydW5wOHgyN2FsanhkSXhZWUI3aHVKRnRJbDU1ZGFGMkVSSGx3bG1vV25qLTlsMGJySHFPU2F1Q3o2NWJEQm9hQkZFS2d5QU9vR2JqQWZCaGVydVZnYWxQVlF5eW1wRjl3TDlua3ZfNm55NnU2bnYwMVVKWDNqUkZkSDRKU2NSRW4xbjdjMdIBngFBVV95cUxNMDBZUkliZXExemo0bVEteWN0dVVPNFZDRklGRFpLMk9hVXdsUjFpRmVRMmtNZFV0WlFrRjVDd0F5NGlpNzNYLTM5Um5ISWd6NDlEeUwyeVlCbmFmamFmRU96NFQwUjdpLTB1eXJnMy1wb3EzMzFXODVFckw0SmhvMVZIdTUyNTAwMk1XNkgxOGdOWFV3dk5zaHp1c1pFZw?oc=5"
+  }
+ ],
+ "synopsis": "Steel products manufacturer B.S. Sponge Ltd has filed draft papers with Sebi for an initial public offering (IPO) to raise Rs 1,000 crore. The proposed public issue includes a fresh issue of equity shares worth up to Rs 800 crore and an offer for sale (OFS) worth up to Rs 200 crore by the company's promoters. The company intends to allocate Rs 650 crore from the net proceeds of the fresh issue towards the repayment or pre-payment of certain outstanding borrowings and accrued interest, with the remainder designated for general corporate purposes. ICICI Securities and Motilal Oswal Investment Advisors are acting as merchant bankers to the issue.",
+ "ticker": "500058.BO",
+ "updatedAt": "2026-10-01T06:16:05.565767+00:00"
+}
