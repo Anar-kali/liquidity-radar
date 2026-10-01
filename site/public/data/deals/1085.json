@@ -1,0 +1,39 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "AITMC Ventures Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-01T13:01:32.566577+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": "failed",
+ "id": 1085,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Company filed a draft red herring prospectus for an IPO.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/aitmc-ventures-limited-udrhp-i_104864.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-10-01T13:01:32.567777+00:00",
+   "outlet": "Draft Abridged Prospectus",
+   "resolvable": true,
+   "title": "AITMC Ventures Limited – UDRHP-IAITMC Ventures Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/aitmc-ventures-limited-udrhp-i_104864.html"
+  },
+  {
+   "attachedAt": "2026-10-01T13:01:32.576187+00:00",
+   "outlet": "Draft Abridged Prospectus",
+   "resolvable": true,
+   "title": "AITMC Ventures Limited",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/oct-2026/AITMC%20Ventures%20Limited%20-%20Draft%20Abridged%20Prospectus_p.pdf"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-10-01T13:01:32.566577+00:00"
+}

@@ -1,6 +1,60 @@
 {
- "dealCount": 755,
+ "dealCount": 757,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "AITMC Ventures Limited",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-01T13:01:32.566577+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 1085,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Company filed a draft red herring prospectus for an IPO.",
+   "primaryOutlet": "Draft Abridged Prospectus",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 2,
+   "ticker": null,
+   "updatedAt": "2026-10-01T13:01:32.566577+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-10-01T13:01:32.576187+00:00",
+     "title": "AITMC Ventures Limited"
+    }
+   ]
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Jagatjit Agri Engineering Limited",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-01T13:01:32.521545+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 1084,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Company filed a draft red herring prospectus for an IPO.",
+   "primaryOutlet": "Draft Abridged Prospectus",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 2,
+   "ticker": null,
+   "updatedAt": "2026-10-01T13:01:32.521545+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-10-01T13:01:32.533813+00:00",
+     "title": "JAGATJIT AGRI ENGINEERING LIMITED"
+    }
+   ]
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -1088,7 +1142,7 @@
    "seller": "existing shareholders including promoters Akuri Srinivasa Reddy and A. Sandhya",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-09-29T09:01:29.173167+00:00",
    "updates": [
@@ -1099,6 +1153,10 @@
     {
      "attachedAt": "2026-09-30T13:01:16.827408+00:00",
      "title": "Technopaints And Chemicals Files DRHP For Rs 500 Crore IPO; Plans To Fund New Plant, Working Capital"
+    },
+    {
+     "attachedAt": "2026-10-01T13:01:32.584879+00:00",
+     "title": "Upcoming IPO: Technopaints And Chemicals Files Papers; Where Will Rs 500 Crore IPO Proceeds Go"
     }
    ]
   },
@@ -2359,7 +2417,7 @@
    "seller": "Chandra Prakash Gupta and his wife, Madhuri Gupta",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 5,
+   "sourceCount": 7,
    "ticker": null,
    "updatedAt": "2026-09-25T04:15:59.995349+00:00",
    "updates": [
@@ -2378,6 +2436,14 @@
     {
      "attachedAt": "2026-09-30T01:31:11.275060+00:00",
      "title": "Ekkaa Electronics (India) Limited ने SEBI के पास DRHP दाखिल किया"
+    },
+    {
+     "attachedAt": "2026-10-01T13:01:32.543037+00:00",
+     "title": "EKKAA ELECTRONICS (INDIA) LIMITED - DRHPEKKAA ELECTRONICS (INDIA) LIMITED"
+    },
+    {
+     "attachedAt": "2026-10-01T13:01:32.552183+00:00",
+     "title": "EKKAA ELECTRONICS (INDIA) LIMITED"
     }
    ]
   },
@@ -23881,6 +23947,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-01T12:46:05.869816+00:00",
- "totalDeals": 755
+ "generatedAt": "2026-10-01T13:01:32.566577+00:00",
+ "totalDeals": 757
 }
