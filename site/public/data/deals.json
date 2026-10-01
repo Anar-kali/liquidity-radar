@@ -372,7 +372,7 @@
    "seller": "Promoters",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 6,
+   "sourceCount": 7,
    "ticker": null,
    "updatedAt": "2026-10-01T11:15:57.482399+00:00",
    "updates": [
@@ -395,6 +395,10 @@
     {
      "attachedAt": "2026-10-01T12:46:05.881781+00:00",
      "title": "Inox Air Products files DRHP with SEBI for IPO; sources say issue size estimated at Rs 11,000 crore"
+    },
+    {
+     "attachedAt": "2026-10-01T13:31:06.596638+00:00",
+     "title": "Sebi Puts Inox Clean Energy's Rs 10,000 Cr IPO in Abeyance"
     }
    ]
   },
