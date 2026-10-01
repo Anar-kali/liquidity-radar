@@ -1,7 +1,7 @@
 {
  "advisers": [],
- "amountCr": null,
- "amountRaw": null,
+ "amountCr": 10500.0,
+ "amountRaw": "Rs 10,000–11,000 Crore",
  "buyer": null,
  "company": "Inox Air Products",
  "confidence": "medium",
@@ -15,8 +15,8 @@
  "oneLine": "Inox Air Products files IPO papers for an offer-for-sale, providing liquidity to selling shareholders.",
  "primaryUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWVNtMEI0UzJ2QnJDZTlEWERXa2c2d0tXSFV6M2NrS242V0hWWDZaMVNQb0dqNm9xaTJtclFTU2o1LVpVTnJONmlJd3hRTUNmMTFwRG1TUDhhLVVKMmhpNU9mSktvVTh1LTBaWld4NFNFa2dDU3p6SnVmTV9xRjRVdE85Y0pCcncyZWtsOE1vZk5xWTE2My0zU2dMUjBDMkp5SENXM1U2V0FpeEhfVkF4WGwwR3BtVUNzMFlWeVRiX1ZERkNEeUhYbnBOONIB0AFBVV95cUxQQkREaklRUENoQU9pQjJHb1lGQUQxUkNpcnFiQmsyejY1c0JGOGRObXVFbjBDR09icHBtVnZKdmN3a2FWV1pMbHJzdTdhQkQ3Y1VJNnZpdGpoYktoc3V1RXY0NlBDcHd5MFhJMUJ3TGlXcktnUXZaOEZWN204YWozcEJKYzY1MVlUZkQycDNuczd6OElPcGROZVVEWjc4OHBhcmxUYy0zUjNMOU1oMWF6cmFrcWZGWVc1dm5rWUh5OTl1aEF2TG02dFNpbWRGTFl2?oc=5",
  "seller": "Promoters",
- "sizeBand": "OVER_2000",
- "sizeSource": "band",
+ "sizeBand": null,
+ "sizeSource": "stated",
  "sources": [
   {
    "attachedAt": "2026-10-01T04:16:00.977595+00:00",
@@ -31,9 +31,16 @@
    "resolvable": false,
    "title": "Gas maker Inox Air Products files IPO papers with Sebi, public issue to entirely comprise OFS",
    "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPOFduZ0lNR0l2QTlWYXNKV1FacmR1M1VOMldYT1VjQjZJeFdvZ1pmVkI2dHJmN2dGcGVXZW1sQVB6ZUNBdThIRGg4VFpYMlI0QjhfOXlPRklpZGZYaUxtNVAyWTdaZHVIa0F3T3VaYk9SeW1YMjAxVV9oNzlTRC1HR0pFekZYb05wekJYdU1zQ3BfSW5pYTNJTURNT3ZlZUdydktrSEFRVzFmanVUSTVkVWd2aWlkOURHOER4SnJJVURKcldMb2h0eTF2WXJDTG1hVndoR3VyZEJTejZvT1pyYkVJeTZ5NHdrbHVuUktGYzhkcHFaX2E3Ukt0NkPSAfwBQVVfeXFMTzhXbmdJTUdJdkE5VmFzSldRWnJkdTNVTjJXWE9VY0I2SXhXb2daZlZCNnRyZjdnRnBlV2VtbEFQemVDQXU4SERoOFRaWDJSNEI4Xzl5T0ZJaWRmWGlMbTVQMlk3WmR1SGtBd091WmJPUnltWDIwMVVfaDc5U0QtR0dKRXpGWG9OcHpCWHVNc0NwX0luaWEzSU1ETU92ZWVHcnZLa0hBUVcxZmp1VEk1ZFVndmlpZDlERzhEeEpySVVESnJXTG9odHkxdllyQ0xtYVZ3aEd1cmRCU3o2b09acmJFSXk2eTR3a2x1blJLRmM4ZHBxWl9hN1JLdDZD?oc=5"
+  },
+  {
+   "attachedAt": "2026-10-01T11:15:57.480433+00:00",
+   "outlet": "Free Press Journal",
+   "resolvable": false,
+   "title": "Inox Air Products Files Draft Papers With Sebi, Plans Rs 10,000–11,000 Crore Initial Public Offering",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQZHAweEJvS0JqYXhUUVRKUmp6WXBjQjRacGN4OUQ5NmhOaE4zcnYzQUxNQ0FoYWE0czBraFZpSnRSa0tONGVmOWl2LU1oTEhFdG1UNlNVd3V2OUJ1amtOcHFrOFd6cGVyN1JHNXR6Q05CcGVTci1lRDZ4N3RhTWxrWFBVNkQ2SFdkMHFNczJELVRqeGNXdC1VMEEwM2Q2VE1YRkF3UGZMcmJlU3BPeFY1WHhyUWdoN1k5bThSellTTFlVWlI4UFpLOHZFUEtvX0pIMGxj0gHYAUFVX3lxTE5Ocy1iTnJLdVhtOS1ZQkNXN2NDY0dDUEROVlVsbHFVMXFKV2RfN002bmd0dHh1TWJCVjFRTVRwOWNLd3lxc3JKVm9STHo5dXh1Zk5vQUNzVnI3bkYzcWtXNDdEaGdxSVpXMDVNT0s1TzZWQkZ3dUJsNTd0V2dIR3hKTmktMGVna0VmNV83b3VkbEhSbTk2aFl3bXFkWVVlelAwZDUtVm12SG9FYm53VVNsUHdWWlJSYTQ5STlfeEFXaks4MU9yc0k1WV8wTlpoRE9Sd2JhdUd0Uw?oc=5"
   }
  ],
  "synopsis": "Inox Air Products has filed a draft red herring prospectus with SEBI to launch an initial public offering consisting entirely of an offer-for-sale of 7.71 crore equity shares. The selling shareholders include promoters INOX Chemicals, Prodair Corporation, Siddhomal Air Products, and Sitashri Trading and Finance. Because the offering is solely an OFS, the company will not receive any proceeds, with all net proceeds accruing to the selling shareholders. The company is jointly owned by the INOX Group and the US-headquartered Air Products Group. Kotak Mahindra Capital Company, Citigroup Global Markets India, ICICI Securities, and JP Morgan India are managing the IPO as merchant bankers.",
  "ticker": null,
- "updatedAt": "2026-10-01T04:16:04.307756+00:00"
+ "updatedAt": "2026-10-01T11:15:57.482399+00:00"
 }

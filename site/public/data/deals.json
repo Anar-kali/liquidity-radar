@@ -272,8 +272,8 @@
    "updates": []
   },
   {
-   "amountCr": null,
-   "amountRaw": null,
+   "amountCr": 10500.0,
+   "amountRaw": "Rs 10,000–11,000 Crore",
    "company": "Inox Air Products",
    "confidence": "medium",
    "confirmed": false,
@@ -286,15 +286,19 @@
    "oneLine": "Inox Air Products files IPO papers for an offer-for-sale, providing liquidity to selling shareholders.",
    "primaryOutlet": "Moneycontrol.com",
    "seller": "Promoters",
-   "sizeBand": "OVER_2000",
-   "sizeSource": "band",
-   "sourceCount": 2,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 3,
    "ticker": null,
-   "updatedAt": "2026-10-01T04:16:04.307756+00:00",
+   "updatedAt": "2026-10-01T11:15:57.482399+00:00",
    "updates": [
     {
      "attachedAt": "2026-10-01T09:31:16.435589+00:00",
      "title": "Gas maker Inox Air Products files IPO papers with Sebi, public issue to entirely comprise OFS"
+    },
+    {
+     "attachedAt": "2026-10-01T11:15:57.480433+00:00",
+     "title": "Inox Air Products Files Draft Papers With Sebi, Plans Rs 10,000–11,000 Crore Initial Public Offering"
     }
    ]
   },
@@ -23821,6 +23825,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-01T10:01:14.824442+00:00",
+ "generatedAt": "2026-10-01T11:15:57.482399+00:00",
  "totalDeals": 754
 }
