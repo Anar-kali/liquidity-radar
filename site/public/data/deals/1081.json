@@ -1,0 +1,39 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "ULTRAVIBRANT INTEGRATED ENERGY LIMITED",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-01T10:01:14.800008+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": "failed",
+ "id": 1081,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Ultravibrant Integrated Energy Limited filed its DRHP with SEBI for an upcoming IPO.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/ultravibrant-integrated-energy-limited-drhp_104809.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-10-01T10:01:14.801351+00:00",
+   "outlet": "DRHPULTRAVIBRANT INTEGRATED ENERGY LIMITED – Draft Abridged Prospectus",
+   "resolvable": true,
+   "title": "ULTRAVIBRANT INTEGRATED ENERGY LIMITED",
+   "url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/ultravibrant-integrated-energy-limited-drhp_104809.html"
+  },
+  {
+   "attachedAt": "2026-10-01T10:01:14.810490+00:00",
+   "outlet": "SEBI",
+   "resolvable": true,
+   "title": "ULTRAVIBRANT INTEGRATED ENERGY LIMITED – Draft Abridged Prospectus",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/oct-2026/ULTRAVIBRANT%20INTEGRATED%20ENERGY%20LIMITED_Draft%20Abridged%20Prospectus_p.pdf"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-10-01T10:01:14.800008+00:00"
+}
