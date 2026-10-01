@@ -1,6 +1,37 @@
 {
- "dealCount": 746,
+ "dealCount": 747,
  "deals": [
+  {
+   "amountCr": 1000.0,
+   "amountRaw": "₹1,000 Cr",
+   "company": "Anarock",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-01T04:46:00.512512+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 1074,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Anarock files IPO papers to raise Rs 1,000 cr",
+   "primaryOutlet": "hdfcsky.com",
+   "seller": "Peter Properties Ltd, Khushi Trust, 360 ONE managed funds, Om Sai Trust, and Colared Consultants and Traders LLP",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 3,
+   "ticker": null,
+   "updatedAt": "2026-10-01T04:46:06.920272+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-10-01T04:46:00.520314+00:00",
+     "title": "Anarock Files for Rs 1,000 Cr IPO to Fund Tech & Expansion"
+    },
+    {
+     "attachedAt": "2026-10-01T04:46:00.534936+00:00",
+     "title": "Anarock Property Consultants files draft papers for ₹1,000 crore IPO"
+    }
+   ]
+  },
   {
    "amountCr": 306.0,
    "amountRaw": "₹306 cr",
@@ -23518,6 +23549,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-01T04:16:08.301438+00:00",
- "totalDeals": 746
+ "generatedAt": "2026-10-01T04:46:06.920272+00:00",
+ "totalDeals": 747
 }
