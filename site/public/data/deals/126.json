@@ -11,7 +11,7 @@
  "enrichmentState": null,
  "id": 126,
  "individuals": [],
- "listed": false,
+ "listed": true,
  "oneLine": "Hero Motors filed DRHP corrigendum; promoters planning IPO liquidity event.",
  "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/aug-2026/hero-motors-limited-corrigendum-to-drhp_103180.html",
  "seller": "Hero Motors promoter",
@@ -118,6 +118,6 @@
   }
  ],
  "synopsis": null,
- "ticker": null,
+ "ticker": "HEROMOTORS.NS",
  "updatedAt": "2026-09-22T05:25:45.090914+00:00"
 }

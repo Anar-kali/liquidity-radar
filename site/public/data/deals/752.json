@@ -11,7 +11,7 @@
  "enrichmentState": null,
  "id": 752,
  "individuals": [],
- "listed": false,
+ "listed": true,
  "oneLine": "Manika Plastech files RHP; promoters planning IPO liquidity event.",
  "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/manika-plastech-limited-rhp_104296.html",
  "seller": null,
@@ -48,6 +48,6 @@
   }
  ],
  "synopsis": null,
- "ticker": null,
+ "ticker": "MANIKA.NS",
  "updatedAt": "2026-09-22T05:25:45.754642+00:00"
 }

@@ -11,7 +11,7 @@
  "enrichmentState": null,
  "id": 672,
  "individuals": [],
- "listed": false,
+ "listed": true,
  "oneLine": "Veegaland Developers files RHP for IPO; promoters likely to have liquidity event.",
  "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/aug-2026/veegaland-developers-ltd-rhp_104160.html",
  "seller": null,
@@ -41,6 +41,6 @@
   }
  ],
  "synopsis": null,
- "ticker": null,
+ "ticker": "VEEGALAND.NS",
  "updatedAt": "2026-09-22T05:25:45.622793+00:00"
 }

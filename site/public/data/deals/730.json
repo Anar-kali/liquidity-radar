@@ -11,7 +11,7 @@
  "enrichmentState": null,
  "id": 730,
  "individuals": [],
- "listed": false,
+ "listed": true,
  "oneLine": "LCC Projects Limited files RHP for IPO; promoters likely to cash out.",
  "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/lcc-projects-limited-rhp_104283.html",
  "seller": null,
@@ -41,6 +41,6 @@
   }
  ],
  "synopsis": null,
- "ticker": null,
+ "ticker": "LCCPROJECT.NS",
  "updatedAt": "2026-09-22T05:25:45.706920+00:00"
 }

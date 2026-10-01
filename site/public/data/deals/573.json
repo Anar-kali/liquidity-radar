@@ -11,7 +11,7 @@
  "enrichmentState": null,
  "id": 573,
  "individuals": [],
- "listed": false,
+ "listed": true,
  "oneLine": "ESDS Software files RHP for IPO; promoters likely to cash out.",
  "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/aug-2026/esds-software-solution-limited-rhp_103893.html",
  "seller": "ESDS promoter(s)",
@@ -48,6 +48,6 @@
   }
  ],
  "synopsis": null,
- "ticker": null,
+ "ticker": "ESDS.NS",
  "updatedAt": "2026-09-22T05:25:44.331875+00:00"
 }

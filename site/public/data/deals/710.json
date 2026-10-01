@@ -11,7 +11,7 @@
  "enrichmentState": null,
  "id": 710,
  "individuals": [],
- "listed": false,
+ "listed": true,
  "oneLine": "Glass Wall Systems files RHP for IPO; promoters likely to cash out.",
  "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/glass-wall-systems-india-limited-rhp_104226.html",
  "seller": "Glass Wall Systems (India)",
@@ -48,6 +48,6 @@
   }
  ],
  "synopsis": null,
- "ticker": null,
+ "ticker": "GLASSWALL.NS",
  "updatedAt": "2026-09-22T05:25:45.675165+00:00"
 }

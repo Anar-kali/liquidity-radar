@@ -13,7 +13,7 @@
  "individuals": [
   "Siddharth Gunvant Shah"
  ],
- "listed": false,
+ "listed": true,
  "oneLine": "Mobile chain SS Retail plans ₹500 crore IPO; promoters to cash out via OFS.",
  "primaryUrl": "https://www.thehindubusinessline.com/markets/mobile-chain-ss-retail-to-raise-500-crore-via-ipo/article71451519.ece",
  "seller": "promoters",
@@ -43,6 +43,6 @@
   }
  ],
  "synopsis": null,
- "ticker": null,
+ "ticker": "SSRETAIL.NS",
  "updatedAt": "2026-09-22T05:25:45.795039+00:00"
 }

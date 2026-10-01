@@ -11,7 +11,7 @@
  "enrichmentState": null,
  "id": 764,
  "individuals": [],
- "listed": false,
+ "listed": true,
  "oneLine": "Jindal Supreme files RHP for IPO; promoters likely to have liquidity event.",
  "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/jindal-supreme-india-limited-rhp_104328.html",
  "seller": null,
@@ -41,6 +41,6 @@
   }
  ],
  "synopsis": null,
- "ticker": null,
+ "ticker": "JSIPL.NS",
  "updatedAt": "2026-09-22T05:25:45.763655+00:00"
 }

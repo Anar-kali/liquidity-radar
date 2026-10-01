@@ -11,7 +11,7 @@
  "enrichmentState": null,
  "id": 380,
  "individuals": [],
- "listed": false,
+ "listed": true,
  "oneLine": "Lumino Industries files DRHP corrigendum; IPO prospecting lead.",
  "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/aug-2026/lumino-industries-limited-corrigendum-to-drhp_103755.html",
  "seller": null,
@@ -55,6 +55,6 @@
   }
  ],
  "synopsis": null,
- "ticker": null,
+ "ticker": "LUMINO.NS",
  "updatedAt": "2026-08-19T07:32:14.060466+00:00"
 }

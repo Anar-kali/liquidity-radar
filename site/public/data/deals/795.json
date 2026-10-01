@@ -11,7 +11,7 @@
  "enrichmentState": "failed",
  "id": 795,
  "individuals": [],
- "listed": false,
+ "listed": true,
  "oneLine": "Sonaselection India Limited files RHP with SEBI for IPO.",
  "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/sonaselection-india-limited-rhp_104393.html",
  "seller": null,
@@ -34,6 +34,6 @@
   }
  ],
  "synopsis": null,
- "ticker": null,
+ "ticker": "SONA.NS",
  "updatedAt": "2026-09-10T04:31:22.337099+00:00"
 }

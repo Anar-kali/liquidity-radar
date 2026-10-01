@@ -11,7 +11,7 @@
  "enrichmentState": null,
  "id": 598,
  "individuals": [],
- "listed": false,
+ "listed": true,
  "oneLine": "Deepa Jewellers files RHP; IPO prospecting lead.",
  "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/aug-2026/deepa-jewellers-limited-rhp_104030.html",
  "seller": null,
@@ -34,6 +34,6 @@
   }
  ],
  "synopsis": null,
- "ticker": null,
+ "ticker": "DEEPA.NS",
  "updatedAt": "2026-08-27T05:32:16.478836+00:00"
 }

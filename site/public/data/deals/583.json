@@ -11,7 +11,7 @@
  "enrichmentState": null,
  "id": 583,
  "individuals": [],
- "listed": false,
+ "listed": true,
  "oneLine": "Karamtara Engineering halves IPO size to Rs 875 crore",
  "primaryUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNQTExbWt4SWhLdV9QTGVNaUdtVHFjUkNfdjhFTEVkOGowYnBvZlJnZ253TXNaR015cmRwSmx1V0RhZXc1ZVJvaUtNdUtwdUlXMmRIM0tlS2Z4UkhiVGpoVVNybkt0LU9hVGpBbGxVZWFMX3d0VEVSeENlaGo4WGI4WGFuV0xqWDZaOGZGZ29sZGpGTndvYnRkWmdGMWNMSkNsdzVvNF9RRkZDN2N5SFRJNHJsYXMtalhrcVNZY3BLQQ?oc=5",
  "seller": "Karamtara Engineering promoter(s)",
@@ -62,6 +62,6 @@
   }
  ],
  "synopsis": null,
- "ticker": null,
+ "ticker": "KARAMTARA.NS",
  "updatedAt": "2026-09-22T05:25:45.558868+00:00"
 }

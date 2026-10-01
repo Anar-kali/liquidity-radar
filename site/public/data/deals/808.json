@@ -11,7 +11,7 @@
  "enrichmentState": null,
  "id": 808,
  "individuals": [],
- "listed": false,
+ "listed": true,
  "oneLine": "RentoMojo is planning an upcoming IPO, opening up founder liquidity.",
  "primaryUrl": "https://inc42.com/buzz/gff-2026-day-2-unpacked-rentomojos-ipo-more/",
  "seller": "RentoMojo",
@@ -27,6 +27,6 @@
   }
  ],
  "synopsis": null,
- "ticker": null,
+ "ticker": "RENTOMOJO.NS",
  "updatedAt": "2026-09-22T05:25:44.558533+00:00"
 }

@@ -11,7 +11,7 @@
  "enrichmentState": null,
  "id": 394,
  "individuals": [],
- "listed": false,
+ "listed": true,
  "oneLine": "Rays of Belief Limited filed RHP for IPO; promoters likely to have liquidity event.",
  "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/aug-2026/rays-of-belief-limited-rhp_103782.html",
  "seller": "Mom's Belief operator / promoter",
@@ -55,6 +55,6 @@
   }
  ],
  "synopsis": null,
- "ticker": null,
+ "ticker": "MOMSBELIEF.NS",
  "updatedAt": "2026-09-22T05:25:45.483087+00:00"
 }

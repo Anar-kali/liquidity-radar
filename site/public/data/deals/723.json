@@ -11,7 +11,7 @@
  "enrichmentState": null,
  "id": 723,
  "individuals": [],
- "listed": false,
+ "listed": true,
  "oneLine": "Steamhouse India Limited filed RHP for IPO; promoters likely to cash out.",
  "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/steamhouse-india-limited-rhp_104262.html",
  "seller": null,
@@ -41,6 +41,6 @@
   }
  ],
  "synopsis": null,
- "ticker": null,
+ "ticker": "STEAMHOUSE.NS",
  "updatedAt": "2026-09-22T05:25:45.697664+00:00"
 }

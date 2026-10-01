@@ -11,7 +11,7 @@
  "enrichmentState": null,
  "id": 680,
  "individuals": [],
- "listed": false,
+ "listed": true,
  "oneLine": "Pranav Constructions files RHP for IPO; promoters likely to cash out.",
  "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/pranav-constructions-limited-rhp_104168.html",
  "seller": null,
@@ -41,6 +41,6 @@
   }
  ],
  "synopsis": null,
- "ticker": null,
+ "ticker": "PRANAV.NS",
  "updatedAt": "2026-09-22T05:25:45.642427+00:00"
 }

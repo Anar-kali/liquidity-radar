@@ -11,7 +11,7 @@
  "enrichmentState": null,
  "id": 384,
  "individuals": [],
- "listed": false,
+ "listed": true,
  "oneLine": "Annu Projects Ltd. files RHP for IPO; promoters likely to cash out.",
  "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/aug-2026/annu-projects-ltd-rhp_103758.html",
  "seller": null,
@@ -34,6 +34,6 @@
   }
  ],
  "synopsis": null,
- "ticker": null,
+ "ticker": "ANNU.NS",
  "updatedAt": "2026-08-19T09:32:34.987394+00:00"
 }

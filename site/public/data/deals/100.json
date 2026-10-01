@@ -13,7 +13,7 @@
  "individuals": [
   "Nitish Mittersain"
  ],
- "listed": false,
+ "listed": true,
  "oneLine": "Rentomojo Limited IPO date, lot size, price details",
  "primaryUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1waTNpRU1xalNkN3RiOHFGRS1wLU9UYUttWFdvdWxsWE55ay0yTHZOdVZidUtQelpnaGEtdDBiT0RvMzN5REJPUklNaF9lY3dhUlNXYXdtdmg?oc=5",
  "seller": "Rentomojo promoters / existing shareholders",
@@ -99,6 +99,6 @@
   }
  ],
  "synopsis": null,
- "ticker": null,
+ "ticker": "RENTOMOJO.NS",
  "updatedAt": "2026-09-22T05:25:45.068248+00:00"
 }

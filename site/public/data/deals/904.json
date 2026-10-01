@@ -11,7 +11,7 @@
  "enrichmentState": "failed",
  "id": 904,
  "individuals": [],
- "listed": false,
+ "listed": true,
  "oneLine": "Swastika Infra Ltd. filed its draft offer document with SEBI for an IPO.",
  "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/swastika-infra-ltd-rhp_104573.html",
  "seller": null,
@@ -48,6 +48,6 @@
   }
  ],
  "synopsis": null,
- "ticker": null,
+ "ticker": "SWASTIKAIN.NS",
  "updatedAt": "2026-09-18T05:31:22.171346+00:00"
 }
