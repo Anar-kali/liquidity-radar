@@ -429,7 +429,7 @@
    "seller": "BNP PARIBAS FINANCIAL MARKETS",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 5,
+   "sourceCount": 6,
    "ticker": "BSE.NS",
    "updatedAt": "2026-09-30T12:01:17.176989+00:00",
    "updates": [
@@ -448,6 +448,10 @@
     {
      "attachedAt": "2026-10-01T01:31:11.295063+00:00",
      "title": "Goldman Sachs, BNP Paribas divest over 68 lakh BSE shares worth Rs 2,186 crore ahead of Nifty 50 inclusion"
+    },
+    {
+     "attachedAt": "2026-10-01T01:45:52.358915+00:00",
+     "title": "BNP Paribas, Goldman Sachs offload 1.7% stake in BSE"
     }
    ]
   },
@@ -882,7 +886,7 @@
    "seller": "EverBrands India",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 12,
+   "sourceCount": 13,
    "ticker": null,
    "updatedAt": "2026-09-29T05:02:16.730834+00:00",
    "updates": [
@@ -929,6 +933,10 @@
     {
      "attachedAt": "2026-09-30T09:31:08.775276+00:00",
      "title": "Subway brand parent owner in India EverBrands files DRHP for raising ₹600 crore via IPO"
+    },
+    {
+     "attachedAt": "2026-10-01T01:45:52.369285+00:00",
+     "title": "Subway India Operator EverBrands Files DRHP to Raise INR 600 Cr"
     }
    ]
   },
