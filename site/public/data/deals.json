@@ -131,7 +131,7 @@
    "seller": "Carlsberg Group",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-10-01T14:46:08.546312+00:00",
    "updates": [
@@ -142,6 +142,10 @@
     {
      "attachedAt": "2026-10-02T08:16:00.322835+00:00",
      "title": "Carlsberg India unit, 3 other firms get Sebi nod to proceed with IPO plans"
+    },
+    {
+     "attachedAt": "2026-10-02T10:31:03.393667+00:00",
+     "title": "IPO News: 4 companies, including Carlsberg beer, get nod from SEBI —what is the issue size for each?"
     }
    ]
   },
