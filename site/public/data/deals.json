@@ -1,6 +1,28 @@
 {
- "dealCount": 761,
+ "dealCount": 762,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Shreeji Shipping",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-02T06:31:30.009136+00:00",
+   "dealType": "promoter sale",
+   "enrichmentState": "failed",
+   "id": 1090,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Shreeji Shipping promoters sell 32.5 lakh shares to meet MPS norms.",
+   "primaryOutlet": "scanx.trade",
+   "seller": "Promoters of Shreeji Shipping",
+   "sizeBand": null,
+   "sizeSource": "mcap_plausible",
+   "sourceCount": 1,
+   "ticker": "SHREEJISPG.NS",
+   "updatedAt": "2026-10-02T06:31:30.009136+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -1059,7 +1081,7 @@
    "seller": "Promoters",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 11,
+   "sourceCount": 12,
    "ticker": "AVALON.NS",
    "updatedAt": "2026-09-29T17:01:14.462797+00:00",
    "updates": [
@@ -1102,6 +1124,10 @@
     {
      "attachedAt": "2026-10-01T17:01:13.048794+00:00",
      "title": "Avalon Technologies AVALON promoter stake sale September 2026"
+    },
+    {
+     "attachedAt": "2026-10-02T06:31:30.013392+00:00",
+     "title": "Bhaskar Srinivasan and family trusts reduce stake in Avalon Technologies"
     }
    ]
   },
@@ -24080,6 +24106,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-02T04:45:59.276875+00:00",
- "totalDeals": 761
+ "generatedAt": "2026-10-02T06:31:30.009136+00:00",
+ "totalDeals": 762
 }

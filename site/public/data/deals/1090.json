@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Shreeji Shipping",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-02T06:31:30.009136+00:00",
+ "dealType": "promoter sale",
+ "enrichmentState": "failed",
+ "id": 1090,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Shreeji Shipping promoters sell 32.5 lakh shares to meet MPS norms.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOYnVKRUNfS3g0Y1ltUkZ4OHFqYTlxLWtFRlRGV1RxN0gyUUtnZ2tRdDJLM1lGc1ZleWZyZzFnU2hrYkQ4YUYzYU1PYWt6Mm5yc0pWbExGMDRxSUVNdS1XSnVydkViT2xhMVA3NEFGMmpaR0FYSDNlU2dGdFhxc0Z1ZHJ5VEl1WENiTmYyUXhxSTZvLUhFWTFBeS15ZWtpQ0VMX2hvRkJoa3pqQmRzcldhRm1keVRmX1lPYVdlRg?oc=5",
+ "seller": "Promoters of Shreeji Shipping",
+ "sizeBand": null,
+ "sizeSource": "mcap_plausible",
+ "sources": [
+  {
+   "attachedAt": "2026-10-02T06:31:30.010335+00:00",
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "Shreeji Shipping promoters sell 32.5 lakh shares to meet MPS norms",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOYnVKRUNfS3g0Y1ltUkZ4OHFqYTlxLWtFRlRGV1RxN0gyUUtnZ2tRdDJLM1lGc1ZleWZyZzFnU2hrYkQ4YUYzYU1PYWt6Mm5yc0pWbExGMDRxSUVNdS1XSnVydkViT2xhMVA3NEFGMmpaR0FYSDNlU2dGdFhxc0Z1ZHJ5VEl1WENiTmYyUXhxSTZvLUhFWTFBeS15ZWtpQ0VMX2hvRkJoa3pqQmRzcldhRm1keVRmX1lPYVdlRg?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": "SHREEJISPG.NS",
+ "updatedAt": "2026-10-02T06:31:30.009136+00:00"
+}
