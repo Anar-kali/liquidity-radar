@@ -1,6 +1,28 @@
 {
- "dealCount": 760,
+ "dealCount": 761,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Maxivision Eye Hospital",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-02T04:45:55.424314+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 1089,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Maxivision files confidentially for an IPO, enabling early investor liquidity.",
+   "primaryOutlet": "SRN News",
+   "seller": "Quadria Capital",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-02T04:45:59.276875+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -24058,6 +24080,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-02T02:31:17.852476+00:00",
- "totalDeals": 760
+ "generatedAt": "2026-10-02T04:45:59.276875+00:00",
+ "totalDeals": 761
 }

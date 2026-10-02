@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "Public",
+ "company": "Maxivision Eye Hospital",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-02T04:45:55.424314+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": null,
+ "id": 1089,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Maxivision files confidentially for an IPO, enabling early investor liquidity.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVC1DeXRPbTNaRVRUUEhVektLcGxtSnczVGpmejBhMTc3RU11VUpyNGRucVR3RWJ0LUxXZzl0VG5MQUlGTDFpbjllSUVHeE9Tam1YWGhzcDBsVkVEUW41Y2t4LWpsakVHdldJa294TFNuTEk2amVSX0xHYW5HRlFiRF9CZ2FkZFE2?oc=5",
+ "seller": "Quadria Capital",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-10-02T04:45:55.427212+00:00",
+   "outlet": "SRN News",
+   "resolvable": false,
+   "title": "Quadria-backed Maxivision confidentially files for India IPO",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVC1DeXRPbTNaRVRUUEhVektLcGxtSnczVGpmejBhMTc3RU11VUpyNGRucVR3RWJ0LUxXZzl0VG5MQUlGTDFpbjllSUVHeE9Tam1YWGhzcDBsVkVEUW41Y2t4LWpsakVHdldJa294TFNuTEk2amVSX0xHYW5HRlFiRF9CZ2FkZFE2?oc=5"
+  }
+ ],
+ "synopsis": "Maxivision Super Specialty Eye Hospitals, backed by healthcare-focused buyout firm Quadria Capital, has confidentially filed for an initial public offering in India. The IPO will include a mix of newly issued shares and stock sold by existing investors. ICICI Securities and IIFL Capital have been appointed as bankers for the offering.",
+ "ticker": null,
+ "updatedAt": "2026-10-02T04:45:59.276875+00:00"
+}
