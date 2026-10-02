@@ -1,6 +1,28 @@
 {
- "dealCount": 762,
+ "dealCount": 763,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Axiscades",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-02T06:45:59.540556+00:00",
+   "dealType": "block deal",
+   "enrichmentState": null,
+   "id": 1091,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Promoters sold a stake in Axiscades via block deal.",
+   "primaryOutlet": "LinkedIn",
+   "seller": "Promoters",
+   "sizeBand": null,
+   "sizeSource": "mcap_plausible",
+   "sourceCount": 1,
+   "ticker": "AXISCADES.NS",
+   "updatedAt": "2026-10-02T06:46:02.674522+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -212,13 +234,17 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-10-01T10:01:14.800008+00:00",
    "updates": [
     {
      "attachedAt": "2026-10-01T10:01:14.810490+00:00",
      "title": "ULTRAVIBRANT INTEGRATED ENERGY LIMITED – Draft Abridged Prospectus"
+    },
+    {
+     "attachedAt": "2026-10-02T06:45:59.554116+00:00",
+     "title": "Ultravibrant Integrated Energy Limited Filed DRHP With SEBI"
     }
    ]
   },
@@ -24106,6 +24132,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-02T06:31:30.009136+00:00",
- "totalDeals": 762
+ "generatedAt": "2026-10-02T06:46:02.674522+00:00",
+ "totalDeals": 763
 }

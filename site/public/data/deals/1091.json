@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "Kotak MF, Abakkus and others",
+ "company": "Axiscades",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-02T06:45:59.540556+00:00",
+ "dealType": "block deal",
+ "enrichmentState": null,
+ "id": 1091,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Promoters sold a stake in Axiscades via block deal.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNE9IaENuSXJkeGtTVk9xSElNNWdIZFFGbjhOTDdNQjlRNFB5cFY5Z2E1MjVBTU5tQmZ3aF9PUjRWb1kzQ2lGeEZMX0NaakJIOHBUcVRFX1kwRHJaS05POTBpSnEtb1F4QnE3cnhIOTNNbWxVcWVkdzN2NmpTY0ZkdWNtanpSYkxRbVRQSkRqQ25VbTNfdW9FcWJiR09VYURQclZQY3doMGFSU2dFY1BpVDFscEY0Zw?oc=5",
+ "seller": "Promoters",
+ "sizeBand": null,
+ "sizeSource": "mcap_plausible",
+ "sources": [
+  {
+   "attachedAt": "2026-10-02T06:45:59.541596+00:00",
+   "outlet": "LinkedIn",
+   "resolvable": false,
+   "title": "Axiscades shares extend gains to 52-week high after big names buy promoter stake in block deal - CNBC TV18",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNE9IaENuSXJkeGtTVk9xSElNNWdIZFFGbjhOTDdNQjlRNFB5cFY5Z2E1MjVBTU5tQmZ3aF9PUjRWb1kzQ2lGeEZMX0NaakJIOHBUcVRFX1kwRHJaS05POTBpSnEtb1F4QnE3cnhIOTNNbWxVcWVkdzN2NmpTY0ZkdWNtanpSYkxRbVRQSkRqQ25VbTNfdW9FcWJiR09VYURQclZQY3doMGFSU2dFY1BpVDFscEY0Zw?oc=5"
+  }
+ ],
+ "synopsis": "Promoters of Axiscades sold a stake in the company via a block deal, prompting shares to extend gains to a 52-week high. Major investors including Kotak MF and Abakkus were among the disclosed buyers. The stock gained 10 percent on Tuesday and 8 percent on Wednesday following the transaction.",
+ "ticker": "AXISCADES.NS",
+ "updatedAt": "2026-10-02T06:46:02.674522+00:00"
+}
