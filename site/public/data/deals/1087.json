@@ -1,0 +1,35 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Slurrp Farm",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-02T01:31:10.599914+00:00",
+ "dealType": "PE secondary",
+ "enrichmentState": null,
+ "id": 1087,
+ "individuals": [
+  "Meghana Narayan",
+  "Shauravi Malik"
+ ],
+ "listed": false,
+ "oneLine": "Slurrp Farm explores fresh fundraise as existing investors eye exit.",
+ "primaryUrl": "https://economictimes.indiatimes.com/industry/cons-products/fmcg/anushka-sharma-backed-slurrp-farm-explores-fresh-fundraise-as-existing-investors-eye-exit/articleshow/134625662.cms",
+ "seller": "existing investors",
+ "sizeBand": "500_TO_2000",
+ "sizeSource": "band",
+ "sources": [
+  {
+   "attachedAt": "2026-10-02T01:31:10.601051+00:00",
+   "outlet": "ET Corporate",
+   "resolvable": true,
+   "title": "Anushka Sharma-backed Slurrp Farm explores fresh fundraise as existing investors eye exit",
+   "url": "https://economictimes.indiatimes.com/industry/cons-products/fmcg/anushka-sharma-backed-slurrp-farm-explores-fresh-fundraise-as-existing-investors-eye-exit/articleshow/134625662.cms"
+  }
+ ],
+ "synopsis": "Slurrp Farm, a snacking and breakfast cereal maker co-founded by Meghana Narayan and Shauravi Malik, is exploring a fresh fundraise as existing investors eye exits from their holdings. Talks with potential investors are at an early stage, with the deal size, structure, and potential stake sale yet to be finalised. A large fundraise may include offloading a significant minority stake or potentially a majority stake sale depending on valuation. Angel investors including Anushka Sharma, Aditya Ghosh, and Ashish Dhawan collectively hold about a 4.2% stake in the company. The brand was previously valued at ₹827 crore during a Series C5 funding round.",
+ "ticker": null,
+ "updatedAt": "2026-10-02T01:31:16.788654+00:00"
+}
