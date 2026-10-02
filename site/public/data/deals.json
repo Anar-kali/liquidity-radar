@@ -1,6 +1,28 @@
 {
- "dealCount": 759,
+ "dealCount": 760,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Maxivision Eye Hospitals",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-02T02:31:14.198204+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 1088,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Maxivision Eye Hospitals files confidentially for an IPO.",
+   "primaryOutlet": "Moneycontrol.com",
+   "seller": "existing investors and Maxivision Eye Hospitals",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-02T02:31:17.852476+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -24026,6 +24048,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-02T01:31:16.788654+00:00",
- "totalDeals": 759
+ "generatedAt": "2026-10-02T02:31:17.852476+00:00",
+ "totalDeals": 760
 }
