@@ -1,6 +1,28 @@
 {
- "dealCount": 764,
+ "dealCount": 765,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Tanvi Exports",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-02T12:46:00.027223+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 1093,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Gold jewellery maker Tanvi Exports files DRHP for an IPO including a fresh issue and OFS.",
+   "primaryOutlet": "Zee Business",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-02T12:46:03.471210+00:00",
+   "updates": []
+  },
   {
    "amountCr": 4000.0,
    "amountRaw": "₹4,000 crore",
@@ -24184,6 +24206,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-02T11:01:15.240719+00:00",
- "totalDeals": 764
+ "generatedAt": "2026-10-02T12:46:03.471210+00:00",
+ "totalDeals": 765
 }
