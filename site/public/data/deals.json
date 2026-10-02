@@ -1143,8 +1143,8 @@
    ]
   },
   {
-   "amountCr": 214.2,
-   "amountRaw": "214.2cr confirmed via NSE bulk deal",
+   "amountCr": 715.2,
+   "amountRaw": "3.7% x mcap ~Rs 19329cr = ~Rs 715cr",
    "company": "Kajaria Ceramics Ltd",
    "confidence": "high",
    "confirmed": true,
@@ -1161,10 +1161,15 @@
    "seller": "CHETAN KAJARIA FAMILY PRIVATE TRUST",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": "KAJARIACER.NS",
-   "updatedAt": "2026-09-29T19:19:08.292250+00:00",
-   "updates": []
+   "updatedAt": "2026-10-02T16:16:03.443274+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-10-02T16:16:03.442241+00:00",
+     "title": "Kajaria Ceramics promoter group sells 3.7% stake in open market"
+    }
+   ]
   },
   {
    "amountCr": 862.0,
@@ -24210,6 +24215,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-02T12:46:03.471210+00:00",
+ "generatedAt": "2026-10-02T16:16:03.443274+00:00",
  "totalDeals": 765
 }

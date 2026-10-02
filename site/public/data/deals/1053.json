@@ -1,7 +1,7 @@
 {
  "advisers": [],
- "amountCr": 214.2,
- "amountRaw": "214.2cr confirmed via NSE bulk deal",
+ "amountCr": 715.2,
+ "amountRaw": "3.7% x mcap ~Rs 19329cr = ~Rs 715cr",
  "buyer": null,
  "company": "Kajaria Ceramics Ltd",
  "confidence": "high",
@@ -26,9 +26,16 @@
    "resolvable": true,
    "title": "Kajaria Ceramics Ltd: bulk deal",
    "url": ""
+  },
+  {
+   "attachedAt": "2026-10-02T16:16:03.442241+00:00",
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "Kajaria Ceramics promoter group sells 3.7% stake in open market",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOX3Vtd2V1cHRUVVBuOVBjR0RjLURvSTZubWpoQmM1RTg4aWVMc1VTZTlYeEVsT25oTFB4YnN5REUzb3FjVGkyOTFGTlRsZURaU2R0b0puWjJHNW9UeVdZcmU4NTNGeXFKTjd4dUQ4bVRsVW1EVHlLZFZJdWozM3E3Y0JkTEJjSndINHdvckZpb1NhUTlpZDF1eXltQS1yVWQ4TE9QMVh6UkVrSXdjamJqT1M3UEtLX1k?oc=5"
   }
  ],
  "synopsis": null,
  "ticker": "KAJARIACER.NS",
- "updatedAt": "2026-09-29T19:19:08.292250+00:00"
+ "updatedAt": "2026-10-02T16:16:03.443274+00:00"
 }
