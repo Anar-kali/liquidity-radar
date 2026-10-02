@@ -131,13 +131,17 @@
    "seller": "Carlsberg Group",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-10-01T14:46:08.546312+00:00",
    "updates": [
     {
      "attachedAt": "2026-10-02T02:45:54.113124+00:00",
      "title": "Carlsberg India, Matangi Rubber, Ujin Pharma and TMC Transformers get Sebi nod for IPOs"
+    },
+    {
+     "attachedAt": "2026-10-02T08:16:00.322835+00:00",
+     "title": "Carlsberg India unit, 3 other firms get Sebi nod to proceed with IPO plans"
     }
    ]
   },
