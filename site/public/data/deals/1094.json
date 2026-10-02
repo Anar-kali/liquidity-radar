@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 997.3,
+ "amountRaw": "3.01% x mcap ~Rs 33132cr = ~Rs 997cr",
+ "buyer": null,
+ "company": "Syrma SGS",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-02T16:31:06.350054+00:00",
+ "dealType": "block deal",
+ "enrichmentState": "failed",
+ "id": 1094,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Franklin Templeton cuts stake in Syrma SGS via open market sale, receiving proceeds.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNUDUtWVJoMmF1Mk1EWDBpQkcyNk5VbEdZekozVWIyVXI5U1FBc0NqNDJlRW5nZzByazlldUNiYWtqMkM5eEQ2NXdhd2VjOHNCQzRIVllpdGU5ZThZQ0xjRTdWU1hiTEhXMEJyRWFTZjFZb0xGWU1lYm1TZjVUdDQyZ1JTOUcwY0NDd1pxcFpmbmNDOXBoWnpFVmhPQm0xWVRBcFdVWjBXYmFyMkdXelhMbngxMVJ6OV9WdEF3TjdDbHdzRkJJMlE?oc=5",
+ "seller": "Franklin Templeton",
+ "sizeBand": null,
+ "sizeSource": "computed",
+ "sources": [
+  {
+   "attachedAt": "2026-10-02T16:31:06.351209+00:00",
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "Franklin Templeton cuts Syrma SGS stake to 3.01% via open market sale",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNUDUtWVJoMmF1Mk1EWDBpQkcyNk5VbEdZekozVWIyVXI5U1FBc0NqNDJlRW5nZzByazlldUNiYWtqMkM5eEQ2NXdhd2VjOHNCQzRIVllpdGU5ZThZQ0xjRTdWU1hiTEhXMEJyRWFTZjFZb0xGWU1lYm1TZjVUdDQyZ1JTOUcwY0NDd1pxcFpmbmNDOXBoWnpFVmhPQm0xWVRBcFdVWjBXYmFyMkdXelhMbngxMVJ6OV9WdEF3TjdDbHdzRkJJMlE?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": "SYRMA.NS",
+ "updatedAt": "2026-10-02T16:31:06.350054+00:00"
+}

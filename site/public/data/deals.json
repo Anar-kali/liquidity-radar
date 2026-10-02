@@ -1,6 +1,28 @@
 {
- "dealCount": 765,
+ "dealCount": 766,
  "deals": [
+  {
+   "amountCr": 997.3,
+   "amountRaw": "3.01% x mcap ~Rs 33132cr = ~Rs 997cr",
+   "company": "Syrma SGS",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-02T16:31:06.350054+00:00",
+   "dealType": "block deal",
+   "enrichmentState": "failed",
+   "id": 1094,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Franklin Templeton cuts stake in Syrma SGS via open market sale, receiving proceeds.",
+   "primaryOutlet": "scanx.trade",
+   "seller": "Franklin Templeton",
+   "sizeBand": null,
+   "sizeSource": "computed",
+   "sourceCount": 1,
+   "ticker": "SYRMA.NS",
+   "updatedAt": "2026-10-02T16:31:06.350054+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -24215,6 +24237,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-02T16:16:03.443274+00:00",
- "totalDeals": 765
+ "generatedAt": "2026-10-02T16:31:06.350054+00:00",
+ "totalDeals": 766
 }
