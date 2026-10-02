@@ -533,7 +533,7 @@
    "seller": "Promoters",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 11,
+   "sourceCount": 12,
    "ticker": null,
    "updatedAt": "2026-10-01T11:15:57.482399+00:00",
    "updates": [
@@ -576,6 +576,10 @@
     {
      "attachedAt": "2026-10-02T08:45:58.002280+00:00",
      "title": "Inox Air Products IPO details 2026 - 7.71 Crore Share OFS Tests Appetite"
+    },
+    {
+     "attachedAt": "2026-10-02T09:01:09.191029+00:00",
+     "title": "Inox Air Products files draft papers for initial offer"
     }
    ]
   },
