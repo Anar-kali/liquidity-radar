@@ -1,0 +1,34 @@
+{
+ "advisers": [],
+ "amountCr": 4000.0,
+ "amountRaw": "₹4,000 crore",
+ "buyer": "Public",
+ "company": "Sun Drops Energia",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-02T11:01:10.730633+00:00",
+ "dealType": "IPO-OFS",
+ "enrichmentState": null,
+ "id": 1092,
+ "individuals": [
+  "Faruk G Patel"
+ ],
+ "listed": false,
+ "oneLine": "KP Group plans Rs 4,000 crore IPO for Sun Drops Energia, providing promoter liquidity.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOVDNrNzNEYTh4RlNoQkxCdWRnSHJ1MEh3MEtTRmZKcnRmLUVUTlpSYVhRY2J5Wkpid3BQUlNKTTVnWG9GWWZhb1Q4WHZERWw5Z2ZwUVpqdGtwN1VwYUZPTUFhNnExb1YzWThtdFdHcWJiekNfTFFkVlhveXloaXNqTHZFUzFZVkZmc0QzLWNHbWhROUE2bGJrRkY0WlN3RkE5YS03X3BsMDd2M2ZFQlFzTXNLeFFrS054ZFNyQkpraFpvQlQ3VXFVNTZRcEt3LWJ4bmgwUjkxajNzdlltSGdaWNIB5wFBVV95cUxQWlduMGRONUVxa3hHUEtRRDR0eU9jOF9tSUZDUURFZ2VJTzJHVUNSVXpFNEM1UGxzRVFfUDNxalhGS2JncG1zSWE0U25pTEM3LUNUU0VWZlo5cVkyYWlnMVBRdXdjQWRETmlSVTBNdV96Qng5YjBoOEFDLWNRUG9OejM2Ty1rYS05Q2ZTbkJhejQ2TG84VHU4YkZFYS1POFFsZWFZWTB0Y1dGNUlXRTJoY0g2YWJEVUdKMGloYnlzVE81Um44V3NUb1BGVU9DLV9sSGYtV0d6elpXYmtZekd4WldfTFlaQWc?oc=5",
+ "seller": "KP Group",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-02T11:01:10.796182+00:00",
+   "outlet": "BusinessLine",
+   "resolvable": false,
+   "title": "KP Group plans ₹4,000 crore Sun Drops Energia IPO as storage becomes core growth bet",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOVDNrNzNEYTh4RlNoQkxCdWRnSHJ1MEh3MEtTRmZKcnRmLUVUTlpSYVhRY2J5Wkpid3BQUlNKTTVnWG9GWWZhb1Q4WHZERWw5Z2ZwUVpqdGtwN1VwYUZPTUFhNnExb1YzWThtdFdHcWJiekNfTFFkVlhveXloaXNqTHZFUzFZVkZmc0QzLWNHbWhROUE2bGJrRkY0WlN3RkE5YS03X3BsMDd2M2ZFQlFzTXNLeFFrS054ZFNyQkpraFpvQlQ3VXFVNTZRcEt3LWJ4bmgwUjkxajNzdlltSGdaWNIB5wFBVV95cUxQWlduMGRONUVxa3hHUEtRRDR0eU9jOF9tSUZDUURFZ2VJTzJHVUNSVXpFNEM1UGxzRVFfUDNxalhGS2JncG1zSWE0U25pTEM3LUNUU0VWZlo5cVkyYWlnMVBRdXdjQWRETmlSVTBNdV96Qng5YjBoOEFDLWNRUG9OejM2Ty1rYS05Q2ZTbkJhejQ2TG84VHU4YkZFYS1POFFsZWFZWTB0Y1dGNUlXRTJoY0g2YWJEVUdKMGloYnlzVE81Um44V3NUb1BGVU9DLV9sSGYtV0d6elpXYmtZekd4WldfTFlaQWc?oc=5"
+  }
+ ],
+ "synopsis": "KP Group is planning an initial public offering of ₹4,000 crore for its subsidiary, Sun Drops Energia, expected within the next 10 to 12 months. The proposed listing will serve as the group's fourth public-market platform and provide promoter liquidity while financing capital-intensive expansion into battery energy storage systems, battery manufacturing, and group-captive renewable projects. Sun Drops is a subsidiary of KPI Green Energy and will house storage and smaller renewable projects under the group's FY32 roadmap.",
+ "ticker": null,
+ "updatedAt": "2026-10-02T11:01:15.240719+00:00"
+}
