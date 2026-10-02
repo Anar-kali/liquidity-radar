@@ -199,7 +199,7 @@
    "seller": "Carlsberg Group",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 4,
+   "sourceCount": 5,
    "ticker": null,
    "updatedAt": "2026-10-01T14:46:08.546312+00:00",
    "updates": [
@@ -214,6 +214,10 @@
     {
      "attachedAt": "2026-10-02T10:31:03.393667+00:00",
      "title": "IPO News: 4 companies, including Carlsberg beer, get nod from SEBI —what is the issue size for each?"
+    },
+    {
+     "attachedAt": "2026-10-02T16:46:02.240750+00:00",
+     "title": "Danish brewing giant Carlsberg’s India arm, 3 others get Sebi nod to float IPOs"
     }
    ]
   },
@@ -609,7 +613,7 @@
    "seller": "Promoters",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 12,
+   "sourceCount": 13,
    "ticker": null,
    "updatedAt": "2026-10-01T11:15:57.482399+00:00",
    "updates": [
@@ -656,6 +660,10 @@
     {
      "attachedAt": "2026-10-02T09:01:09.191029+00:00",
      "title": "Inox Air Products files draft papers for initial offer"
+    },
+    {
+     "attachedAt": "2026-10-02T16:46:02.232666+00:00",
+     "title": "Inox Air Products files IPO papers; issue size not disclosed"
     }
    ]
   },
