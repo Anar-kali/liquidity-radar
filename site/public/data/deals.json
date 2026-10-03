@@ -646,7 +646,7 @@
    "seller": "Peter Properties Ltd, Khushi Trust, 360 ONE managed funds, Om Sai Trust, and Colared Consultants and Traders LLP",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 15,
+   "sourceCount": 16,
    "ticker": null,
    "updatedAt": "2026-10-01T04:46:06.920272+00:00",
    "updates": [
@@ -705,6 +705,10 @@
     {
      "attachedAt": "2026-10-03T07:01:11.953137+00:00",
      "title": "Anarock files draft papers for INR 1,000 crore IPO"
+    },
+    {
+     "attachedAt": "2026-10-03T10:45:59.670181+00:00",
+     "title": "Anarock Property Consultants submits its DRHP for a ₹1,000 crore IPO"
     }
    ]
   },
@@ -757,7 +761,7 @@
    "seller": "Promoters",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 19,
+   "sourceCount": 20,
    "ticker": null,
    "updatedAt": "2026-10-03T02:31:03.346156+00:00",
    "updates": [
@@ -832,6 +836,10 @@
     {
      "attachedAt": "2026-10-03T10:16:03.027416+00:00",
      "title": "Inox Air Products files draft papers for IPO"
+    },
+    {
+     "attachedAt": "2026-10-03T10:45:59.679479+00:00",
+     "title": "Inox Air Products Files Draft Papers For IPO; 7.7 Crore Shares To Be Offloaded Via OFS"
     }
    ]
   },
