@@ -272,7 +272,7 @@
    "seller": "Carlsberg Group",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 5,
+   "sourceCount": 6,
    "ticker": null,
    "updatedAt": "2026-10-01T14:46:08.546312+00:00",
    "updates": [
@@ -291,6 +291,10 @@
     {
      "attachedAt": "2026-10-02T16:46:02.240750+00:00",
      "title": "Danish brewing giant Carlsberg’s India arm, 3 others get Sebi nod to float IPOs"
+    },
+    {
+     "attachedAt": "2026-10-03T02:45:51.888365+00:00",
+     "title": "Carlsberg India, 3 Others Get Sebi Nod for IPOs"
     }
    ]
   },
