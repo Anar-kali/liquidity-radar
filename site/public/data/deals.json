@@ -943,7 +943,7 @@
    "seller": "Kroll",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-09-30T12:01:17.188368+00:00",
    "updates": [
@@ -954,6 +954,10 @@
     {
      "attachedAt": "2026-10-01T02:45:57.289354+00:00",
      "title": "Cremica Foods plans ₹600-700 crore IPO; targets global expansion, new products beyond condiments"
+    },
+    {
+     "attachedAt": "2026-10-03T09:45:56.815247+00:00",
+     "title": "Cremica Foods plans US$72.82M IPO to fund international expansion, new products"
     }
    ]
   },
