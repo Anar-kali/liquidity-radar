@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Anthropic",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-03T12:01:11.569983+00:00",
+ "dealType": "other",
+ "enrichmentState": null,
+ "id": 1101,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Anthropic is reportedly eyeing a mid-November IPO targeting a massive valuation.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNZFBvR3lIRmNzaFc5RndkVTh5NEtUTURRNzJ1WW1aaHRaTGxEZTg0bkNLaU1yNmE4WDZ0am05N0U5U0lxOWVSQTNrbWRoRWQ0UlBHVlI5U3ZUSTFDSHZETFRqblg0VjZ0WGktSzZPZHBqWndDcHFqdGdNV0FpWG1Hb1VyMUlqdDU4MWhQZDE4RDdLMEUtRk9fQ1FialBWS3c2SGpQNERmNEtxamhMZ2hvWTFsa0R6cmVMR3B5bUNXSDRSUnlqMmpEOHFTUkp2Nk4xQUx4SjRVMG5FVHN0bG95btIB5gFBVV95cUxPRlQzWV94ejdteFhycklZd1B3MkYyR1p5cVNXQUdrcGlKbjdaNFRBN0ZKdlVLYTRhdXdtMm1tU3BqUUQ0WjFyY1pDOHFETExFS3hWblRrTUtJM2VqNkNWcEtWOHBTblh6bGk3QlYxVmJHQmw1VzBCM3VTbFBLTXZ0TXFYalN3UkNIbERhWVZuU0p0dUJTYTVjYzV4UU02VnZyVVFPTkxlaUhzbmIyYmFqOFBGRkFrUmwwR2FXMlJGS29qM28xZWhxOGRNLXgtOTJmcVI0S1lETkR0dFNyX2xzUlBhWUE3UQ?oc=5",
+ "seller": null,
+ "sizeBand": "OVER_2000",
+ "sizeSource": "band",
+ "sources": [
+  {
+   "attachedAt": "2026-10-03T12:01:11.572252+00:00",
+   "outlet": "ET Enterprise AI",
+   "resolvable": false,
+   "title": "Anthropic eyes mid-November IPO, targets up to $2 trillion valuation: Report",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNZFBvR3lIRmNzaFc5RndkVTh5NEtUTURRNzJ1WW1aaHRaTGxEZTg0bkNLaU1yNmE4WDZ0am05N0U5U0lxOWVSQTNrbWRoRWQ0UlBHVlI5U3ZUSTFDSHZETFRqblg0VjZ0WGktSzZPZHBqWndDcHFqdGdNV0FpWG1Hb1VyMUlqdDU4MWhQZDE4RDdLMEUtRk9fQ1FialBWS3c2SGpQNERmNEtxamhMZ2hvWTFsa0R6cmVMR3B5bUNXSDRSUnlqMmpEOHFTUkp2Nk4xQUx4SjRVMG5FVHN0bG95btIB5gFBVV95cUxPRlQzWV94ejdteFhycklZd1B3MkYyR1p5cVNXQUdrcGlKbjdaNFRBN0ZKdlVLYTRhdXdtMm1tU3BqUUQ0WjFyY1pDOHFETExFS3hWblRrTUtJM2VqNkNWcEtWOHBTblh6bGk3QlYxVmJHQmw1VzBCM3VTbFBLTXZ0TXFYalN3UkNIbERhWVZuU0p0dUJTYTVjYzV4UU02VnZyVVFPTkxlaUhzbmIyYmFqOFBGRkFrUmwwR2FXMlJGS29qM28xZWhxOGRNLXgtOTJmcVI0S1lETkR0dFNyX2xzUlBhWUE3UQ?oc=5"
+  }
+ ],
+ "synopsis": "Anthropic is reportedly eyeing an initial public offering as early as mid-November, with formal marketing potentially starting in the week of November 9. The artificial intelligence company is targeting a valuation of about $1.8 trillion to $2 trillion. Prospective investors are scheduled to meet the company on October 14 at its San Francisco headquarters. The timing remains subject to change, though the company is expected to go public by the end of the year.",
+ "ticker": null,
+ "updatedAt": "2026-10-03T12:01:15.491586+00:00"
+}

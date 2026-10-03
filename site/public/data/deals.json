@@ -1,6 +1,28 @@
 {
- "dealCount": 772,
+ "dealCount": 773,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Anthropic",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-03T12:01:11.569983+00:00",
+   "dealType": "other",
+   "enrichmentState": null,
+   "id": 1101,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Anthropic is reportedly eyeing a mid-November IPO targeting a massive valuation.",
+   "primaryOutlet": "ET Enterprise AI",
+   "seller": null,
+   "sizeBand": "OVER_2000",
+   "sizeSource": "band",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-03T12:01:15.491586+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -24459,6 +24481,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-03T11:45:51.100767+00:00",
- "totalDeals": 772
+ "generatedAt": "2026-10-03T12:01:15.491586+00:00",
+ "totalDeals": 773
 }
