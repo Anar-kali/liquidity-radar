@@ -715,7 +715,7 @@
    "seller": "Promoters",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 14,
+   "sourceCount": 15,
    "ticker": null,
    "updatedAt": "2026-10-03T02:31:03.346156+00:00",
    "updates": [
@@ -770,6 +770,10 @@
     {
      "attachedAt": "2026-10-03T02:31:03.344284+00:00",
      "title": "Pavan Jain and Vivek Jain each plan ₹10,000cr INOX IPOs"
+    },
+    {
+     "attachedAt": "2026-10-03T05:01:07.823467+00:00",
+     "title": "INOX Air Products IPO: Promoters cash out as gas maker returns to public markets"
     }
    ]
   },
