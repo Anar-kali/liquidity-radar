@@ -679,16 +679,19 @@
    "dealType": "DRHP filing",
    "enrichmentState": null,
    "id": 1072,
-   "individuals": [],
+   "individuals": [
+    "Pavan Jain",
+    "Vivek Jain"
+   ],
    "listed": false,
    "oneLine": "Inox Air Products files IPO papers for an offer-for-sale, providing liquidity to selling shareholders.",
    "primaryOutlet": "Moneycontrol.com",
    "seller": "Promoters",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 13,
+   "sourceCount": 14,
    "ticker": null,
-   "updatedAt": "2026-10-01T11:15:57.482399+00:00",
+   "updatedAt": "2026-10-03T02:31:03.346156+00:00",
    "updates": [
     {
      "attachedAt": "2026-10-01T09:31:16.435589+00:00",
@@ -737,6 +740,10 @@
     {
      "attachedAt": "2026-10-02T16:46:02.232666+00:00",
      "title": "Inox Air Products files IPO papers; issue size not disclosed"
+    },
+    {
+     "attachedAt": "2026-10-03T02:31:03.344284+00:00",
+     "title": "Pavan Jain and Vivek Jain each plan ₹10,000cr INOX IPOs"
     }
    ]
   },
@@ -24318,6 +24325,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-03T02:01:14.074537+00:00",
+ "generatedAt": "2026-10-03T02:31:03.346156+00:00",
  "totalDeals": 769
 }

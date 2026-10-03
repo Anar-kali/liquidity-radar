@@ -10,7 +10,10 @@
  "dealType": "DRHP filing",
  "enrichmentState": null,
  "id": 1072,
- "individuals": [],
+ "individuals": [
+  "Pavan Jain",
+  "Vivek Jain"
+ ],
  "listed": false,
  "oneLine": "Inox Air Products files IPO papers for an offer-for-sale, providing liquidity to selling shareholders.",
  "primaryUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWVNtMEI0UzJ2QnJDZTlEWERXa2c2d0tXSFV6M2NrS242V0hWWDZaMVNQb0dqNm9xaTJtclFTU2o1LVpVTnJONmlJd3hRTUNmMTFwRG1TUDhhLVVKMmhpNU9mSktvVTh1LTBaWld4NFNFa2dDU3p6SnVmTV9xRjRVdE85Y0pCcncyZWtsOE1vZk5xWTE2My0zU2dMUjBDMkp5SENXM1U2V0FpeEhfVkF4WGwwR3BtVUNzMFlWeVRiX1ZERkNEeUhYbnBOONIB0AFBVV95cUxQQkREaklRUENoQU9pQjJHb1lGQUQxUkNpcnFiQmsyejY1c0JGOGRObXVFbjBDR09icHBtVnZKdmN3a2FWV1pMbHJzdTdhQkQ3Y1VJNnZpdGpoYktoc3V1RXY0NlBDcHd5MFhJMUJ3TGlXcktnUXZaOEZWN204YWozcEJKYzY1MVlUZkQycDNuczd6OElPcGROZVVEWjc4OHBhcmxUYy0zUjNMOU1oMWF6cmFrcWZGWVc1dm5rWUh5OTl1aEF2TG02dFNpbWRGTFl2?oc=5",
@@ -108,9 +111,16 @@
    "resolvable": false,
    "title": "Inox Air Products files IPO papers; issue size not disclosed",
    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRkpGTVpfOG9JMTRrcUx3dE9XN3l1YTFXRWdCWnp6cGtoUFVEMUJhS1RpaWpoWk5ONXVOXzlhakVleDFNSWJDeTcyZFl2UWpNMktaaGhxcjN2VHJBelRjYlpkU29EUkJib1RaNklPRnVuWEhaaW5vbTFTU1Q4S3pmWDlrWlZ3YjFhUXpZQzFwM290bEN1dTRBMm5WbmdHWTE0dF9UWW9wZ3g5WHJQNnFhQVRFNjZpUjV2VTdDeWdWZklxVlRXNGgxWUtwdnR2YlpH0gHQAUFVX3lxTE1GSkZNWl84b0kxNGtxTHd0T1c3eXVhMVdFZ0Jaenpwa2hQVUQxQmFLVGlpamhaTk41dU5fOWFqRWV4MU1JYkN5NzJkWXZRak0yS1poaHFyM3ZUckF6VGNiWmRTb0RSQmJvVFo2SU9GdW5YSFppbm9tMVNTVDhLemZYOWtaVndiMWFRellDMXAzb3RsQ3V1NEEyblZuZ0dZMTR0X1RZb3BneDlYclA2cWFBVEU2NmlSNXZVN0N5Z1ZmSXFWVFc0aDFZS3B2dHZiWkc?oc=5"
+  },
+  {
+   "attachedAt": "2026-10-03T02:31:03.344284+00:00",
+   "outlet": "NewsBytes",
+   "resolvable": false,
+   "title": "Pavan Jain and Vivek Jain each plan ₹10,000cr INOX IPOs",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPT1k4WEtqLVVrMTJEZFYzb0czeXd5amZRNEpveUFDRF9PWThJd3Y2R0xqNm4zUXl4VWI2YnBCLVYzbDhYUDd0QTlUa21pYWpGTVlwYXpLbHhrUzQtLTh2STZqMFpuNkZOYkVyRHVYSU05VGZVYzk1SWFfN2xncnVKNkU5cVp6ZGh3dTRFSFViR2U2N1JtVl9PY0ZuN0toMTFGeTlIdjVn?oc=5"
   }
  ],
  "synopsis": "Inox Air Products has filed a draft red herring prospectus with SEBI to launch an initial public offering consisting entirely of an offer-for-sale of 7.71 crore equity shares. The selling shareholders include promoters INOX Chemicals, Prodair Corporation, Siddhomal Air Products, and Sitashri Trading and Finance. Because the offering is solely an OFS, the company will not receive any proceeds, with all net proceeds accruing to the selling shareholders. The company is jointly owned by the INOX Group and the US-headquartered Air Products Group. Kotak Mahindra Capital Company, Citigroup Global Markets India, ICICI Securities, and JP Morgan India are managing the IPO as merchant bankers.",
  "ticker": null,
- "updatedAt": "2026-10-01T11:15:57.482399+00:00"
+ "updatedAt": "2026-10-03T02:31:03.346156+00:00"
 }
