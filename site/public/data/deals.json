@@ -1,6 +1,50 @@
 {
- "dealCount": 766,
+ "dealCount": 768,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "GSL Securities",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-03T01:31:11.645626+00:00",
+   "dealType": "open offer",
+   "enrichmentState": "failed",
+   "id": 1096,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Bhangdiya Group files draft letter of offer for GSL Securities.",
+   "primaryOutlet": "Kalkine India",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": "530469.BO",
+   "updatedAt": "2026-10-03T01:31:11.645626+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 598.7,
+   "amountRaw": "60.09% x mcap ~Rs 996cr = ~Rs 599cr",
+   "company": "Mamata Machinery",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-03T01:31:10.943097+00:00",
+   "dealType": "promoter sale",
+   "enrichmentState": "failed",
+   "id": 1095,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Mamata Machinery promoter group stake drops to 60.09% after sell-off.",
+   "primaryOutlet": "scanx.trade",
+   "seller": "Promoter Group",
+   "sizeBand": null,
+   "sizeSource": "computed",
+   "sourceCount": 1,
+   "ticker": "MAMATA.NS",
+   "updatedAt": "2026-10-03T01:31:10.943097+00:00",
+   "updates": []
+  },
   {
    "amountCr": 997.3,
    "amountRaw": "3.01% x mcap ~Rs 33132cr = ~Rs 997cr",
@@ -40,10 +84,15 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-10-02T12:46:03.471210+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-10-03T01:31:11.313622+00:00",
+     "title": "Tanvi Exports India Files DRHP with SEBI"
+    }
+   ]
   },
   {
    "amountCr": 4000.0,
@@ -24245,6 +24294,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-02T16:31:06.350054+00:00",
- "totalDeals": 766
+ "generatedAt": "2026-10-03T01:31:11.645626+00:00",
+ "totalDeals": 768
 }

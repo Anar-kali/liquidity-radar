@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "Bhangdiya Group",
+ "company": "GSL Securities",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-03T01:31:11.645626+00:00",
+ "dealType": "open offer",
+ "enrichmentState": "failed",
+ "id": 1096,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Bhangdiya Group files draft letter of offer for GSL Securities.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQODBxM0I1STZUdGlwdTFfRkJQalVhU2NRY20wUXRjTG9iQkdjNDNZZFZHcHU5MTFydmlCZjloNmVhUk9ibEJQU0xObDVIenFJNGd4MmNKWmpOSDAxS3I2Nmx3al9GS0hfZHY5T1NmLTFtYXQ2SXd5c1QwcnV6ZGJKWmRnSnhlOGh5eTllTnJoMG01b3lxN2wtSm5ZVGZzeEFpb0sySjItZjFZUjRwUm85UVB6aHBSOUJCM0hHUEYtcUZBd0J1eFNERjFnN1o1WjkzaDROVw?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-10-03T01:31:11.647113+00:00",
+   "outlet": "Kalkine India",
+   "resolvable": false,
+   "title": "GSL Securities (BSE: 530469) Open Offer: Bhangdiya Group Files Draft Letter of Offer at ₹42 per Share",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQODBxM0I1STZUdGlwdTFfRkJQalVhU2NRY20wUXRjTG9iQkdjNDNZZFZHcHU5MTFydmlCZjloNmVhUk9ibEJQU0xObDVIenFJNGd4MmNKWmpOSDAxS3I2Nmx3al9GS0hfZHY5T1NmLTFtYXQ2SXd5c1QwcnV6ZGJKWmRnSnhlOGh5eTllTnJoMG01b3lxN2wtSm5ZVGZzeEFpb0sySjItZjFZUjRwUm85UVB6aHBSOUJCM0hHUEYtcUZBd0J1eFNERjFnN1o1WjkzaDROVw?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": "530469.BO",
+ "updatedAt": "2026-10-03T01:31:11.645626+00:00"
+}

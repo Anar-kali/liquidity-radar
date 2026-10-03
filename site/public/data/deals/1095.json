@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 598.7,
+ "amountRaw": "60.09% x mcap ~Rs 996cr = ~Rs 599cr",
+ "buyer": null,
+ "company": "Mamata Machinery",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-03T01:31:10.943097+00:00",
+ "dealType": "promoter sale",
+ "enrichmentState": "failed",
+ "id": 1095,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Mamata Machinery promoter group stake drops to 60.09% after sell-off.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNanhQSUQzSkJIenVqdHJJTkdrSEt5X3RWMUFwVGNOZ0hjUXBYenN3OGZuZmxKMUdNMEpwNUpVRWFfUnR6S3M0Y1ZCWVJBUTRGbGNqZVdJQWxDQ2FXaUY3TnJBSGF1Slc0RGhZMl81TFlFRTU3LWZhZThSTXRRd2w4UzRMOTRoZTdlb0xjcDZ1YWxPRm5IU0tvbEszV1ZaR1JpVFdyNWd6SjlWUUxxZi1LRi1iYkp5QQ?oc=5",
+ "seller": "Promoter Group",
+ "sizeBand": null,
+ "sizeSource": "computed",
+ "sources": [
+  {
+   "attachedAt": "2026-10-03T01:31:10.945117+00:00",
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "Mamata Machinery promoter group stake drops to 60.09% after sell-off",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNanhQSUQzSkJIenVqdHJJTkdrSEt5X3RWMUFwVGNOZ0hjUXBYenN3OGZuZmxKMUdNMEpwNUpVRWFfUnR6S3M0Y1ZCWVJBUTRGbGNqZVdJQWxDQ2FXaUY3TnJBSGF1Slc0RGhZMl81TFlFRTU3LWZhZThSTXRRd2w4UzRMOTRoZTdlb0xjcDZ1YWxPRm5IU0tvbEszV1ZaR1JpVFdyNWd6SjlWUUxxZi1LRi1iYkp5QQ?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": "MAMATA.NS",
+ "updatedAt": "2026-10-03T01:31:10.943097+00:00"
+}
