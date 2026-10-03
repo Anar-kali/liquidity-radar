@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 37700.0,
+ "amountRaw": "₹37,700 crore (from article)",
+ "buyer": null,
+ "company": "Jio Platforms",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-03T03:31:02.181935+00:00",
+ "dealType": "unknown",
+ "enrichmentState": null,
+ "id": 1098,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Jio Platforms is reported to prepare for an IPO.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOX1lsNDdDXzBCVFVBNlNiVERBRXN3ZmtmTUJfUUpISnRsV2pUbFFVcHVpNmo1dXEyQTNZZWRmcmdFWVVnV1dGQUw5ZHJXaDNrU09jUFU0YTR3WHdYUjI3OVpKWlNHOEg2Zkx4Y2h4Q25RajVXdnlFYXN0NWxQdmxFdUZwc0xVYXJjR2QtVk1hZ1hKN3ZXd0lzMXB5ZGxXMWZSYUVncjBZLVJMTHBhdlp3YVM5ZVNGWkZvVlduUNIBygFBVV95cUxPUVc0T0cwWUNjTGcxMHFNTWdMMnpxcllfT0RCTVZpT0RXdXhuRkR4eDB2NWRZR1RMYXhRNEJneE1qdG5oX19qUGEtU055dDdDYXFvTm9QXzl1QnZNdktMd3ZXRUp6OXN5dG5rSWpib0l6ZVZKRHRnSEhEYW9tTTlORlhMYTZHamhSZTdFZWg2b3JWV0o2MlVOOTFUSnYtSUpnZXI4QjAzNHo1S0N4S2FKQTltcjBmSHRTUVo5NlIwOWZpblItSEZoMXRR?oc=5",
+ "seller": "Jio Platforms",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-03T03:31:02.185468+00:00",
+   "outlet": "Fortune India",
+   "resolvable": false,
+   "title": "Jio Platforms IPO likely to open on October 21, list on October 28: Report",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOX1lsNDdDXzBCVFVBNlNiVERBRXN3ZmtmTUJfUUpISnRsV2pUbFFVcHVpNmo1dXEyQTNZZWRmcmdFWVVnV1dGQUw5ZHJXaDNrU09jUFU0YTR3WHdYUjI3OVpKWlNHOEg2Zkx4Y2h4Q25RajVXdnlFYXN0NWxQdmxFdUZwc0xVYXJjR2QtVk1hZ1hKN3ZXd0lzMXB5ZGxXMWZSYUVncjBZLVJMTHBhdlp3YVM5ZVNGWkZvVlduUNIBygFBVV95cUxPUVc0T0cwWUNjTGcxMHFNTWdMMnpxcllfT0RCTVZpT0RXdXhuRkR4eDB2NWRZR1RMYXhRNEJneE1qdG5oX19qUGEtU055dDdDYXFvTm9QXzl1QnZNdktMd3ZXRUp6OXN5dG5rSWpib0l6ZVZKRHRnSEhEYW9tTTlORlhMYTZHamhSZTdFZWg2b3JWV0o2MlVOOTFUSnYtSUpnZXI4QjAzNHo1S0N4S2FKQTltcjBmSHRTUVo5NlIwOWZpblItSEZoMXRR?oc=5"
+  }
+ ],
+ "synopsis": "Jio Platforms is preparing to launch its initial public offering, expected to open for subscription from October 21 to 23, with the anchor book likely opening on October 19 and shares listing on October 28. The offering comprises entirely a fresh issue of up to 27 crore equity shares, with market estimates pegging the deal size at around ₹37,700 crore. The bulk of the proceeds is earmarked for deleveraging, specifically to repay or prepay outstanding borrowings of its telecom subsidiary, Reliance Jio Infocomm. The company concluded global roadshows led by Managing Director Akash Ambani and Executive Director Isha Ambani. Sebi issued its final observations clearing the way for the public listing on August 28 following a draft prospectus filed in June.",
+ "ticker": null,
+ "updatedAt": "2026-10-03T03:31:06.317452+00:00"
+}
