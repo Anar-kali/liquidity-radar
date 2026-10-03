@@ -1117,13 +1117,17 @@
    "seller": "promoters and existing investor The Wealth Company Alternates Trust, India Inflection Opportunity Fund",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-09-30T08:16:12.707608+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-30T08:31:04.865797+00:00",
      "title": "Vardhman Appliances, Shreejikrupa Project File IPO Papers"
+    },
+    {
+     "attachedAt": "2026-10-03T15:15:56.051312+00:00",
+     "title": "Vardhman Appliances, Shreejikrupa Project File DRHPs With SEBI"
     }
    ]
   },
@@ -2063,7 +2067,7 @@
    "seller": "Sproutlife Foods shareholders",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 6,
+   "sourceCount": 7,
    "ticker": null,
    "updatedAt": "2026-09-29T01:31:13.250813+00:00",
    "updates": [
@@ -2086,6 +2090,10 @@
     {
      "attachedAt": "2026-09-30T11:31:05.193064+00:00",
      "title": "From cigarettes to protein bars: ITC's ₹900 cr Yoga Bar bet as FMCG giant taps India's health-food boom"
+    },
+    {
+     "attachedAt": "2026-10-03T15:15:56.057901+00:00",
+     "title": "FMC giant ITC takes full control of Yoga Bar parent Sproutlife in Rs 645 crore deal"
     }
    ]
   },
@@ -21487,10 +21495,15 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-08-08T17:01:04.385366+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-10-03T15:15:56.071462+00:00",
+     "title": "Fusion CX Eyes Major Growth With AI, Prepares For IPO"
+    }
+   ]
   },
   {
    "amountCr": 2500.0,
