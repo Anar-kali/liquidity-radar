@@ -1,0 +1,35 @@
+{
+ "advisers": [],
+ "amountCr": 31540.0,
+ "amountRaw": "3.8 Billion USD converted to INR approx 31540 cr",
+ "buyer": "Public investors",
+ "company": "Reliance Jio Infocomm",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-03T09:31:01.208634+00:00",
+ "dealType": "unknown",
+ "enrichmentState": null,
+ "id": 1099,
+ "individuals": [
+  "Akash Ambani",
+  "Isha Ambani"
+ ],
+ "listed": false,
+ "oneLine": "Reliance Jio moves closer to a major public offering after global roadshows.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOT1ktZG1heEdFZVg2cHluaGVONkNKTDhJek5zX0lJcWwybTRHY1BLY0JLVDlza2R6Vi03ZnZUZEpMQWZtMDZVSGpXMHhNZDRkcUNPblVLTGVWOWF5bUNURGRZQWJvdWtJQzZVdkR4a0hHRDVYUGhMa3VXeHlIOS00WHJkRnNNQndicHlfbVE5TnBoTGFyS3BEZmlWNjI4c25kN2M2ZnRONWtjRDFoNTJ3dGVuYWVJUmVfMFHSAboBQVVfeXFMTk9ZLWRtYXhHRWVYNnB5bmhlTjZDSkw4SXpOc19JSXFsMm00R2NQS2NCS1Q5c2tkelYtN2Z2VGRKTEFmbTA2VUhqVzB4TWQ0ZHFDT25VS0xlVjlheW1DVERkWUFib3VrSUM2VXZEeGtIR0Q1WFBoTGt1V3h5SDktNFhyZEZzTUJ3YnB5X21ROU5waExhcktwRGZpVjYyOHNuZDdjNmZ0TjVrY0QxaDUyd3RlbmFlSVJlXzBR?oc=5",
+ "seller": "Reliance Industries",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-03T09:31:01.210298+00:00",
+   "outlet": "Free Press Journal",
+   "resolvable": false,
+   "title": "Jios $3.8 Billion Public Offer Moves Closer After Global Investor Roadshows",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOT1ktZG1heEdFZVg2cHluaGVONkNKTDhJek5zX0lJcWwybTRHY1BLY0JLVDlza2R6Vi03ZnZUZEpMQWZtMDZVSGpXMHhNZDRkcUNPblVLTGVWOWF5bUNURGRZQWJvdWtJQzZVdkR4a0hHRDVYUGhMa3VXeHlIOS00WHJkRnNNQndicHlfbVE5TnBoTGFyS3BEZmlWNjI4c25kN2M2ZnRONWtjRDFoNTJ3dGVuYWVJUmVfMFHSAboBQVVfeXFMTk9ZLWRtYXhHRWVYNnB5bmhlTjZDSkw4SXpOc19JSXFsMm00R2NQS2NCS1Q5c2tkelYtN2Z2VGRKTEFmbTA2VUhqVzB4TWQ0ZHFDT25VS0xlVjlheW1DVERkWUFib3VrSUM2VXZEeGtIR0Q1WFBoTGt1V3h5SDktNFhyZEZzTUJ3YnB5X21ROU5waExhcktwRGZpVjYyOHNuZDdjNmZ0TjVrY0QxaDUyd3RlbmFlSVJlXzBR?oc=5"
+  }
+ ],
+ "synopsis": "Jio Platforms is preparing to file its red herring prospectus for a proposed initial public offering estimated at $3.8 billion following global investor roadshows in the US, UK, Dubai, Singapore, and Hong Kong. The overseas meetings were led by Jio Platforms Managing Director and Reliance Jio Chairman Akash Ambani, alongside Reliance Retail Ventures Executive Director Isha Ambani. The digital services arm received Sebi approval with final observations issued on August 28. The offering involves issuing up to 27 crore fresh equity shares representing about 2.9% of the post-issue equity base. A substantial portion of the proceeds will be used to repay or prepay around ₹27,500 crore of borrowings held by Reliance Jio Infocomm, while the remaining funds will be allocated towards general corporate purposes.",
+ "ticker": null,
+ "updatedAt": "2026-10-03T09:31:05.550266+00:00"
+}

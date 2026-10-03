@@ -1,6 +1,31 @@
 {
- "dealCount": 770,
+ "dealCount": 771,
  "deals": [
+  {
+   "amountCr": 31540.0,
+   "amountRaw": "3.8 Billion USD converted to INR approx 31540 cr",
+   "company": "Reliance Jio Infocomm",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-03T09:31:01.208634+00:00",
+   "dealType": "unknown",
+   "enrichmentState": null,
+   "id": 1099,
+   "individuals": [
+    "Akash Ambani",
+    "Isha Ambani"
+   ],
+   "listed": false,
+   "oneLine": "Reliance Jio moves closer to a major public offering after global roadshows.",
+   "primaryOutlet": "Free Press Journal",
+   "seller": "Reliance Industries",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-03T09:31:05.550266+00:00",
+   "updates": []
+  },
   {
    "amountCr": 37700.0,
    "amountRaw": "₹37,700 crore (from article)",
@@ -24392,6 +24417,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-03T03:31:06.317452+00:00",
- "totalDeals": 770
+ "generatedAt": "2026-10-03T09:31:05.550266+00:00",
+ "totalDeals": 771
 }
