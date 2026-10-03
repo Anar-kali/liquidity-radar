@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "PCI Infraprojects",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-03T11:45:51.100767+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": "failed",
+ "id": 1100,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "PCI Infraprojects files DRHP for proposed IPO, creating promoter liquidity.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZXplZmZXSmg5Z3RjdjhUSmI1LUplb3phclNWSE5fNHIyUThIYzZYSUluR1c5UU9iOWxfMkNRV2Q0RzZrQlhXZFZ1RGhyWEdvaGR5dVRpWXVsNlIxVlNzSXB0N1Z0WVBtSGFXUzV4S3RwcTV0aVhoQUlLZ2Q3S3RURmQ2akV0dw?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-10-03T11:45:51.383589+00:00",
+   "outlet": "themachinemaker.com",
+   "resolvable": false,
+   "title": "PCI Infraprojects Files DRHP for Proposed IPO",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZXplZmZXSmg5Z3RjdjhUSmI1LUplb3phclNWSE5fNHIyUThIYzZYSUluR1c5UU9iOWxfMkNRV2Q0RzZrQlhXZFZ1RGhyWEdvaGR5dVRpWXVsNlIxVlNzSXB0N1Z0WVBtSGFXUzV4S3RwcTV0aVhoQUlLZ2Q3S3RURmQ2akV0dw?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-10-03T11:45:51.100767+00:00"
+}
