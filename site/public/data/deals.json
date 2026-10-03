@@ -87,13 +87,17 @@
    "seller": "Jio Platforms",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-10-03T03:31:06.317452+00:00",
    "updates": [
     {
      "attachedAt": "2026-10-03T08:01:10.683953+00:00",
      "title": "SEBI Approval, Global Roadshows Clear Way: Latest Update On Jio Platforms' Historic Rs 36,000 Cr IPO"
+    },
+    {
+     "attachedAt": "2026-10-03T13:45:54.568336+00:00",
+     "title": "Jio Platforms IPO may launch on October 21"
     }
    ]
   },
