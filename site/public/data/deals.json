@@ -1,6 +1,30 @@
 {
- "dealCount": 768,
+ "dealCount": 769,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Enbee Trade & Finance",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-03T02:01:10.813977+00:00",
+   "dealType": "promoter sale",
+   "enrichmentState": null,
+   "id": 1097,
+   "individuals": [
+    "Amarr Narendra Galla"
+   ],
+   "listed": true,
+   "oneLine": "Promoter Amarr Narendra Galla sells 16 lakh shares, receiving liquidity.",
+   "primaryOutlet": "Whalesbook",
+   "seller": "Amarr Narendra Galla",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": "512441.BO",
+   "updatedAt": "2026-10-03T02:01:14.074537+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -24294,6 +24318,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-03T01:31:11.645626+00:00",
- "totalDeals": 768
+ "generatedAt": "2026-10-03T02:01:14.074537+00:00",
+ "totalDeals": 769
 }

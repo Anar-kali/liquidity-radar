@@ -1,0 +1,34 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Enbee Trade & Finance",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-03T02:01:10.813977+00:00",
+ "dealType": "promoter sale",
+ "enrichmentState": null,
+ "id": 1097,
+ "individuals": [
+  "Amarr Narendra Galla"
+ ],
+ "listed": true,
+ "oneLine": "Promoter Amarr Narendra Galla sells 16 lakh shares, receiving liquidity.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPbjgtUXZnVlpadjlpdHl5YzR4YXF0VUZaNkxQYWRERVppY2N0NFNIRnZVaUJVVEo4LWJTX0Z2OWZhbVgyY21NVE1YaEpzbFg0MUhkNTh3TmxadndIU2gzRWlWRVdOVThTZUFRUVhzWFpJSkVhcGdHalNUODBWUWYxMFdYaUltZFZwVExuenhsb2ZKUlZUdVdka1NQdmdhZWlsMjRPN01mRzBSWHhCV2lPdVE1VmpqZlpfZWVHaXdvMXFZcFB3UnJCX0hQZXVsVkY1Rm1NZ2oxMHlUYlU0UHNnMVZYY3p4Zk14bHV4Q3Z1cVMyR1BV?oc=5",
+ "seller": "Amarr Narendra Galla",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-10-03T02:01:10.815278+00:00",
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "Enbee Trade & Finance: Promoter Amarr Narendra Galla Sells 16 Lakh Shares",
+   "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPbjgtUXZnVlpadjlpdHl5YzR4YXF0VUZaNkxQYWRERVppY2N0NFNIRnZVaUJVVEo4LWJTX0Z2OWZhbVgyY21NVE1YaEpzbFg0MUhkNTh3TmxadndIU2gzRWlWRVdOVThTZUFRUVhzWFpJSkVhcGdHalNUODBWUWYxMFdYaUltZFZwVExuenhsb2ZKUlZUdVdka1NQdmdhZWlsMjRPN01mRzBSWHhCV2lPdVE1VmpqZlpfZWVHaXdvMXFZcFB3UnJCX0hQZXVsVkY1Rm1NZ2oxMHlUYlU0UHNnMVZYY3p4Zk14bHV4Q3Z1cVMyR1BV?oc=5"
+  }
+ ],
+ "synopsis": "Promoter Amarr Narendra Galla sold 16,04,225 shares of Enbee Trade & Finance Ltd through open market transactions conducted between September 29 and September 30, 2026. This divestment reduced his shareholding in the company from 2.58% to 1.66%, amounting to a sale of a 0.92% stake. No specific reason for the divestment was disclosed in the filing.",
+ "ticker": "512441.BO",
+ "updatedAt": "2026-10-03T02:01:14.074537+00:00"
+}
