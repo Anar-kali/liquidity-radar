@@ -608,7 +608,7 @@
    "seller": "Peter Properties Ltd, Khushi Trust, 360 ONE managed funds, Om Sai Trust, and Colared Consultants and Traders LLP",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 14,
+   "sourceCount": 15,
    "ticker": null,
    "updatedAt": "2026-10-01T04:46:06.920272+00:00",
    "updates": [
@@ -663,6 +663,10 @@
     {
      "attachedAt": "2026-10-02T16:01:15.327044+00:00",
      "title": "16 Firms File IPO Papers with Sebi: Anarock, Inox Air Lead"
+    },
+    {
+     "attachedAt": "2026-10-03T07:01:11.953137+00:00",
+     "title": "Anarock files draft papers for INR 1,000 crore IPO"
     }
    ]
   },
