@@ -22759,10 +22759,15 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": null,
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-08-07T01:47:18.245252+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-10-04T12:15:52.958981+00:00",
+     "title": "Matangi Rubber Gets SEBI Nod for IPO: Business and Process Explained"
+    }
+   ]
   },
   {
    "amountCr": null,
