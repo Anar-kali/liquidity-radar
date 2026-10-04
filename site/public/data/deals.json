@@ -87,7 +87,7 @@
    "seller": "Jio Platforms",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 4,
+   "sourceCount": 5,
    "ticker": null,
    "updatedAt": "2026-10-03T17:01:17.671642+00:00",
    "updates": [
@@ -102,6 +102,10 @@
     {
      "attachedAt": "2026-10-03T17:01:17.669181+00:00",
      "title": "Jio Platforms IPO may open on October 21, issue estimated at $3.8 billion: Report"
+    },
+    {
+     "attachedAt": "2026-10-04T03:31:02.367598+00:00",
+     "title": "Jio Platforms IPO likely to open in October, potentially India’s biggest public issue"
     }
    ]
   },
