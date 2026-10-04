@@ -520,7 +520,7 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-10-01T10:01:14.800008+00:00",
    "updates": [
@@ -531,6 +531,10 @@
     {
      "attachedAt": "2026-10-02T06:45:59.554116+00:00",
      "title": "Ultravibrant Integrated Energy Limited Filed DRHP With SEBI"
+    },
+    {
+     "attachedAt": "2026-10-04T10:31:02.053792+00:00",
+     "title": "Ultravibrant Files Draft IPO Papers For Solar And Battery Business"
     }
    ]
   },
