@@ -225,13 +225,17 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-10-02T12:46:03.471210+00:00",
    "updates": [
     {
      "attachedAt": "2026-10-03T01:31:11.313622+00:00",
      "title": "Tanvi Exports India Files DRHP with SEBI"
+    },
+    {
+     "attachedAt": "2026-10-04T08:15:50.515479+00:00",
+     "title": "Tanvi Exports files for IPO: 5 key highlights from gold jewellery maker’s DRHP"
     }
    ]
   },
