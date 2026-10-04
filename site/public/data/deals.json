@@ -22211,7 +22211,7 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-08-08T09:45:51.490437+00:00",
    "updates": [
@@ -22222,6 +22222,10 @@
     {
      "attachedAt": "2026-08-09T15:31:01.326081+00:00",
      "title": "OfBusiness Revives IPO Plans, Eyes Up To $800 Mn Public Issue"
+    },
+    {
+     "attachedAt": "2026-10-04T08:31:03.412784+00:00",
+     "title": "B2B commerce firm OfBusiness plan IPO next year, DRHP likely in Nov"
     }
    ]
   },
