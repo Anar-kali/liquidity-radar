@@ -966,7 +966,7 @@
    "seller": "Existing shareholders, including promoters",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 6,
+   "sourceCount": 8,
    "ticker": null,
    "updatedAt": "2026-09-30T15:01:35.528884+00:00",
    "updates": [
@@ -989,6 +989,14 @@
     {
      "attachedAt": "2026-10-03T08:01:10.655985+00:00",
      "title": "Vishakha Renewables Files DRHP for INR 1,250 Cr IPO"
+    },
+    {
+     "attachedAt": "2026-10-04T01:30:59.327381+00:00",
+     "title": "Adani-Backed Vishakha Renewables Files DRHP for IPO With SEBI"
+    },
+    {
+     "attachedAt": "2026-10-04T01:30:59.334375+00:00",
+     "title": "Adani-backed Vishakha Renewables files papers for INR 1,250 crore IPO"
     }
    ]
   },
