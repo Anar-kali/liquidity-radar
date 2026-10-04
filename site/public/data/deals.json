@@ -1,6 +1,28 @@
 {
- "dealCount": 773,
+ "dealCount": 774,
  "deals": [
+  {
+   "amountCr": 271.2,
+   "amountRaw": "₹271.2 crore",
+   "company": "Innovcare Lifesciences",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-04T17:31:16.972621+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": "failed",
+   "id": 1103,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Sun Pharma acquires Innovcare Lifesciences for ₹271.2 crore, providing a cash exit.",
+   "primaryOutlet": "scanx.trade",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-04T17:31:16.972621+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -24560,6 +24582,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-03T17:01:17.671642+00:00",
- "totalDeals": 773
+ "generatedAt": "2026-10-04T17:31:16.972621+00:00",
+ "totalDeals": 774
 }

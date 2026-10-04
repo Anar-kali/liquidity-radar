@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 271.2,
+ "amountRaw": "₹271.2 crore",
+ "buyer": "Sun Pharma",
+ "company": "Innovcare Lifesciences",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-04T17:31:16.972621+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": "failed",
+ "id": 1103,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Sun Pharma acquires Innovcare Lifesciences for ₹271.2 crore, providing a cash exit.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbThvckRfRFlWMFdkblB2ZFppLVo3R1Bnb2VKNnp2ZERjbWRoR29FNGtweWp3WWticWJHcHhnNnRQbEFLak1zTFI0MkVDZGFrSkJrNmpzWDBxM2pwTU5RQUhnT09TekNvX1Z6Z2ZxdnhBR3d6ZzBvWTlwNHNfUjJZVnVQR2pxNHhDRkFzWU51Y2VIZDBrVFlxODVhU2xFWTdFcXpkaVkza0N2dnZ0SXFSUXYtdkhNUQ?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-04T17:31:16.975341+00:00",
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "Sun Pharma to acquire Innovcare Lifesciences for ₹271.2 crore",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbThvckRfRFlWMFdkblB2ZFppLVo3R1Bnb2VKNnp2ZERjbWRoR29FNGtweWp3WWticWJHcHhnNnRQbEFLak1zTFI0MkVDZGFrSkJrNmpzWDBxM2pwTU5RQUhnT09TekNvX1Z6Z2ZxdnhBR3d6ZzBvWTlwNHNfUjJZVnVQR2pxNHhDRkFzWU51Y2VIZDBrVFlxODVhU2xFWTdFcXpkaVkza0N2dnZ0SXFSUXYtdkhNUQ?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-10-04T17:31:16.972621+00:00"
+}
