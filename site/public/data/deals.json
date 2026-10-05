@@ -734,13 +734,17 @@
    "seller": "promoters",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": "500058.BO",
    "updatedAt": "2026-10-01T06:16:05.565767+00:00",
    "updates": [
     {
      "attachedAt": "2026-10-01T06:31:04.966962+00:00",
      "title": "B.S. Sponge Files For ₹1,000 Crore IPO, Plans ₹650 Crore Debt Repayment From Fresh Issue Proceeds"
+    },
+    {
+     "attachedAt": "2026-10-05T01:45:54.187433+00:00",
+     "title": "B.S. Sponge files draft papers for INR 1,000 crore IPO"
     }
    ]
   },
