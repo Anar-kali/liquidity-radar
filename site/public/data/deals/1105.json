@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Prestige Estates Projects",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-05T04:31:10.548445+00:00",
+ "dealType": "block deal",
+ "enrichmentState": "failed",
+ "id": 1105,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "GIC Private Limited reduces its stake in Prestige Estates via open market sale.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPcFR1WXBPRXpwdW1sekszUlV4Y2VYVi02THJYVk13TU5UdVhDaDZxWFNKZGJYQ1p1bWl6X0Y5R19qM1hsdDFmMEZ5ZjVKZC1jTVpDMVU1QW5aN3A3b2x4dUQ4VHNqN1hKWjM1bktoQjFZaXNJTVpvdWI5NzlPVmNOMFh4dFF5MjRWTHE5N2dHbnpTbGRJbkR0cEZKMUlUaXY2R2hhQVJ6MERZRlA4S1NoX29Bd0dFdmptMVdXU1RwMjlxQlhFX0ZMZTdwWmpmdUcxdGsxMnc5MEJXX1Qt?oc=5",
+ "seller": "GIC Private Limited",
+ "sizeBand": null,
+ "sizeSource": "mcap_plausible",
+ "sources": [
+  {
+   "attachedAt": "2026-10-05T04:31:10.549784+00:00",
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "GIC Private Limited Reduces Stake in Prestige Estates Projects Through Open Market Sale",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPcFR1WXBPRXpwdW1sekszUlV4Y2VYVi02THJYVk13TU5UdVhDaDZxWFNKZGJYQ1p1bWl6X0Y5R19qM1hsdDFmMEZ5ZjVKZC1jTVpDMVU1QW5aN3A3b2x4dUQ4VHNqN1hKWjM1bktoQjFZaXNJTVpvdWI5NzlPVmNOMFh4dFF5MjRWTHE5N2dHbnpTbGRJbkR0cEZKMUlUaXY2R2hhQVJ6MERZRlA4S1NoX29Bd0dFdmptMVdXU1RwMjlxQlhFX0ZMZTdwWmpmdUcxdGsxMnc5MEJXX1Qt?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": "PRESTIGE.NS",
+ "updatedAt": "2026-10-05T04:31:10.548445+00:00"
+}

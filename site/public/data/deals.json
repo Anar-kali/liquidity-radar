@@ -1,6 +1,28 @@
 {
- "dealCount": 775,
+ "dealCount": 776,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Prestige Estates Projects",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-05T04:31:10.548445+00:00",
+   "dealType": "block deal",
+   "enrichmentState": "failed",
+   "id": 1105,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "GIC Private Limited reduces its stake in Prestige Estates via open market sale.",
+   "primaryOutlet": "scanx.trade",
+   "seller": "GIC Private Limited",
+   "sizeBand": null,
+   "sizeSource": "mcap_plausible",
+   "sourceCount": 1,
+   "ticker": "PRESTIGE.NS",
+   "updatedAt": "2026-10-05T04:31:10.548445+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -24624,6 +24646,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-05T01:31:05.394070+00:00",
- "totalDeals": 775
+ "generatedAt": "2026-10-05T04:31:10.548445+00:00",
+ "totalDeals": 776
 }
