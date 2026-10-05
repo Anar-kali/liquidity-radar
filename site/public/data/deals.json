@@ -22616,8 +22616,8 @@
    ]
   },
   {
-   "amountCr": 58000.0,
-   "amountRaw": "$600-800 million",
+   "amountCr": 7000.0,
+   "amountRaw": "Rs 7,000 Cr",
    "company": "OfBusiness",
    "confidence": "medium",
    "confirmed": false,
@@ -22632,9 +22632,9 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 5,
+   "sourceCount": 6,
    "ticker": null,
-   "updatedAt": "2026-10-05T07:01:13.747986+00:00",
+   "updatedAt": "2026-10-05T12:31:18.879751+00:00",
    "updates": [
     {
      "attachedAt": "2026-08-09T03:01:04.912234+00:00",
@@ -22651,6 +22651,10 @@
     {
      "attachedAt": "2026-10-05T07:01:13.746843+00:00",
      "title": "OfBusiness plans $600-800 million IPO next year"
+    },
+    {
+     "attachedAt": "2026-10-05T12:31:18.878528+00:00",
+     "title": "OfBusiness Eyes Rs 7,000 Cr IPO, DRHP Expected By Mid-November"
     }
    ]
   },
@@ -24961,6 +24965,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-05T11:46:05.635418+00:00",
+ "generatedAt": "2026-10-05T12:31:18.879751+00:00",
  "totalDeals": 783
 }
