@@ -1,6 +1,28 @@
 {
- "dealCount": 785,
+ "dealCount": 786,
  "deals": [
+  {
+   "amountCr": 1012.0,
+   "amountRaw": "₹1,012 crore",
+   "company": "Satiya Nutraceuticals",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-05T15:15:59.492476+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": "failed",
+   "id": 1116,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Marico acquires a stake in Satiya Nutraceuticals for 1012 crore, providing liquidity to existing shareholders.",
+   "primaryOutlet": "scanx.trade",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-05T15:15:59.492476+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -25021,6 +25043,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-05T13:16:03.311803+00:00",
- "totalDeals": 785
+ "generatedAt": "2026-10-05T15:15:59.492476+00:00",
+ "totalDeals": 786
 }

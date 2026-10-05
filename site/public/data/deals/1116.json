@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 1012.0,
+ "amountRaw": "₹1,012 crore",
+ "buyer": "Marico",
+ "company": "Satiya Nutraceuticals",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-05T15:15:59.492476+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": "failed",
+ "id": 1116,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Marico acquires a stake in Satiya Nutraceuticals for 1012 crore, providing liquidity to existing shareholders.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdC1hakx2Mk9TTWgxUWpOLU1iUUFsVnhrRzczY0xLUl9hb3RCc0FuN1NfX1JWNTNWRDg5eFZMQTdUN3I2Ni1TaFFiQ0kycmpSc0dFNGJNaTl6ekFyYmJoNERCem1WZC00S1Y5TS1oOG5uYlZxbUd4ZklQYWV6RzM3NDQ3ZFBUNXlhTFkyd1Nqci1iT09jaThFaGlnTzh1X1pPZnQyWWtFM3ptUlRBQzZacFpKQTBJa3FicGc?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-05T15:15:59.494518+00:00",
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "Marico acquires 24.09% stake in Satiya Nutraceuticals for ₹1,012 crore",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdC1hakx2Mk9TTWgxUWpOLU1iUUFsVnhrRzczY0xLUl9hb3RCc0FuN1NfX1JWNTNWRDg5eFZMQTdUN3I2Ni1TaFFiQ0kycmpSc0dFNGJNaTl6ekFyYmJoNERCem1WZC00S1Y5TS1oOG5uYlZxbUd4ZklQYWV6RzM3NDQ3ZFBUNXlhTFkyd1Nqci1iT09jaThFaGlnTzh1X1pPZnQyWWtFM3ptUlRBQzZacFpKQTBJa3FicGc?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-10-05T15:15:59.492476+00:00"
+}
