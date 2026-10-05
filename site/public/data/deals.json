@@ -1,6 +1,28 @@
 {
- "dealCount": 778,
+ "dealCount": 779,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Vinir Engineering",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-05T07:31:05.186917+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 1108,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Vinir Engineering files DRHP with SEBI to launch its IPO.",
+   "primaryOutlet": "Business Today",
+   "seller": "Vinir Engineering",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-05T07:31:08.597900+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -18,13 +40,17 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-10-05T06:31:14.779726+00:00",
    "updates": [
     {
      "attachedAt": "2026-10-05T06:31:14.793416+00:00",
      "title": "Biocon Electric Limited"
+    },
+    {
+     "attachedAt": "2026-10-05T07:31:05.175836+00:00",
+     "title": "Electrical products maker Biocon Electric files DRHP with SEBI to launch IPO; key details"
     }
    ]
   },
@@ -550,7 +576,7 @@
    "seller": "Carlsberg Group",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 8,
+   "sourceCount": 9,
    "ticker": null,
    "updatedAt": "2026-10-01T14:46:08.546312+00:00",
    "updates": [
@@ -581,6 +607,10 @@
     {
      "attachedAt": "2026-10-03T08:45:56.433757+00:00",
      "title": "Carlsberg India IPO gets Sebi approval along with three other public offers. Check details"
+    },
+    {
+     "attachedAt": "2026-10-05T07:31:05.200252+00:00",
+     "title": "Carlsberg India Gets SEBI Approval for Proposed IPO"
     }
    ]
   },
@@ -24757,6 +24787,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-05T07:01:13.747986+00:00",
- "totalDeals": 778
+ "generatedAt": "2026-10-05T07:31:08.597900+00:00",
+ "totalDeals": 779
 }
