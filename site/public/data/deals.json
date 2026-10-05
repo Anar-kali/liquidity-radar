@@ -1,6 +1,28 @@
 {
- "dealCount": 779,
+ "dealCount": 780,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Sanghvi Housing",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-05T08:46:03.148555+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 1109,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Sanghvi Housing files DRHP with SEBI for an IPO involving a fresh issue of shares.",
+   "primaryOutlet": "Realty Plus Magazine",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-05T08:46:03.148555+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -24791,6 +24813,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-05T07:31:08.597900+00:00",
- "totalDeals": 779
+ "generatedAt": "2026-10-05T08:46:03.148555+00:00",
+ "totalDeals": 780
 }
