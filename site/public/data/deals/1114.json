@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Honasa Consumer",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-05T12:46:02.406876+00:00",
+ "dealType": "block deal",
+ "enrichmentState": "failed",
+ "id": 1114,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Peak XV Partners sells 1.07 crore shares in Honasa Consumer via block deal.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOejB2SFVJcjBJRThXelJnTGl1NXF0UUZmQVNTczBxRDhXQ0RTbEpPV3RON0w0NFByTnF0X0FfdWJSTVM3dlo1ZzVIZWNQUWQxeTV3dFJyV2w0R0FPWXVBNjN3VG1kZHBQSHdOUDNuLTkxTEkwZ1VYdldZZ0d2eTNoaXFVR1hVR3Z6eXd2cmZtVnR0N3NsMmxtcVg1NGNZa2tQRzdXSktham93LTlaYUE?oc=5",
+ "seller": "Peak XV Partners",
+ "sizeBand": null,
+ "sizeSource": "mcap_plausible",
+ "sources": [
+  {
+   "attachedAt": "2026-10-05T12:46:02.408332+00:00",
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "Peak XV Partners sells 1.07 crore shares in Honasa Consumer",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOejB2SFVJcjBJRThXelJnTGl1NXF0UUZmQVNTczBxRDhXQ0RTbEpPV3RON0w0NFByTnF0X0FfdWJSTVM3dlo1ZzVIZWNQUWQxeTV3dFJyV2w0R0FPWXVBNjN3VG1kZHBQSHdOUDNuLTkxTEkwZ1VYdldZZ0d2eTNoaXFVR1hVR3Z6eXd2cmZtVnR0N3NsMmxtcVg1NGNZa2tQRzdXSktham93LTlaYUE?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": "HONASA.NS",
+ "updatedAt": "2026-10-05T12:46:02.406876+00:00"
+}

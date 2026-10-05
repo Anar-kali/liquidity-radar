@@ -1,6 +1,28 @@
 {
- "dealCount": 783,
+ "dealCount": 784,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Honasa Consumer",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-05T12:46:02.406876+00:00",
+   "dealType": "block deal",
+   "enrichmentState": "failed",
+   "id": 1114,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Peak XV Partners sells 1.07 crore shares in Honasa Consumer via block deal.",
+   "primaryOutlet": "scanx.trade",
+   "seller": "Peak XV Partners",
+   "sizeBand": null,
+   "sizeSource": "mcap_plausible",
+   "sourceCount": 1,
+   "ticker": "HONASA.NS",
+   "updatedAt": "2026-10-05T12:46:02.406876+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -24965,6 +24987,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-05T12:31:18.879751+00:00",
- "totalDeals": 783
+ "generatedAt": "2026-10-05T12:46:02.406876+00:00",
+ "totalDeals": 784
 }
