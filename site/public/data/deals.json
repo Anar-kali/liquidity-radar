@@ -1,6 +1,60 @@
 {
- "dealCount": 776,
+ "dealCount": 778,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Biocon Electric Limited",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-05T06:31:14.779726+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 1107,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Biocon Electric Limited filed its DRHP with SEBI for an IPO.",
+   "primaryOutlet": "Draft Abridged Prospectus",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 2,
+   "ticker": null,
+   "updatedAt": "2026-10-05T06:31:14.779726+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-10-05T06:31:14.793416+00:00",
+     "title": "Biocon Electric Limited"
+    }
+   ]
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Shreejikrupa Project Limited",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-05T06:31:14.739880+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 1106,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Shreejikrupa Project Limited filed its DRHP with SEBI for an IPO.",
+   "primaryOutlet": "SEBI",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 2,
+   "ticker": null,
+   "updatedAt": "2026-10-05T06:31:14.739880+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-10-05T06:31:14.749154+00:00",
+     "title": "SHREEJIKRUPA PROJECT LIMITED – Draft Abridged Prospectus"
+    }
+   ]
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -106,10 +160,19 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 1,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-10-03T11:45:51.100767+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-10-05T06:31:14.757740+00:00",
+     "title": "PCI INFRAPROJECTS LIMITED – DRHPPCI INFRAPROJECTS LIMITED – Draft Abridged Prospectus"
+    },
+    {
+     "attachedAt": "2026-10-05T06:31:14.765937+00:00",
+     "title": "PCI INFRAPROJECTS LIMITED – Draft Abridged Prospectus"
+    }
+   ]
   },
   {
    "amountCr": 31540.0,
@@ -729,7 +792,7 @@
    "seller": "Amit Arvind Thatte and Ketaki Amit Thatte",
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 5,
+   "sourceCount": 7,
    "ticker": null,
    "updatedAt": "2026-10-01T06:16:09.647400+00:00",
    "updates": [
@@ -748,6 +811,14 @@
     {
      "attachedAt": "2026-10-04T14:15:57.693578+00:00",
      "title": "Traffic safety solutions provider Kataline files IPO papers with Sebi"
+    },
+    {
+     "attachedAt": "2026-10-05T06:31:14.716224+00:00",
+     "title": "KATALINE LIMITED – DRHPKATALINE LIMITED – Draft Abridged Prospectus"
+    },
+    {
+     "attachedAt": "2026-10-05T06:31:14.725783+00:00",
+     "title": "KATALINE LIMITED – Draft Abridged Prospectus"
     }
    ]
   },
@@ -24670,6 +24741,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-05T04:31:10.548445+00:00",
- "totalDeals": 776
+ "generatedAt": "2026-10-05T06:31:14.779726+00:00",
+ "totalDeals": 778
 }
