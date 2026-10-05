@@ -1,6 +1,28 @@
 {
- "dealCount": 784,
+ "dealCount": 785,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Kuku",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-05T13:16:03.311803+00:00",
+   "dealType": "unknown",
+   "enrichmentState": "failed",
+   "id": 1115,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Kuku is planning an IPO with revenue nearing Rs 1,500 crore.",
+   "primaryOutlet": "MediaNama",
+   "seller": null,
+   "sizeBand": "OVER_2000",
+   "sizeSource": "band",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-05T13:16:03.311803+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -24991,6 +25013,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-05T12:46:02.406876+00:00",
- "totalDeals": 784
+ "generatedAt": "2026-10-05T13:16:03.311803+00:00",
+ "totalDeals": 785
 }

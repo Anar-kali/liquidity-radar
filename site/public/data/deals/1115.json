@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Kuku",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-05T13:16:03.311803+00:00",
+ "dealType": "unknown",
+ "enrichmentState": "failed",
+ "id": 1115,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Kuku is planning an IPO with revenue nearing Rs 1,500 crore.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE11TFpEVXptQlBEdS1YZDVRQzB0VHczZkFMaW04MXVvZEhELU9tVFhmNXFBbC1tOXlVb3FuZk5KSjhCOFp1akIyR2xEbmtBbTI2QTNFTkNaUHoweUhaVjdXM3hUcDBZYWEtMkxMbFBPMA?oc=5",
+ "seller": null,
+ "sizeBand": "OVER_2000",
+ "sizeSource": "band",
+ "sources": [
+  {
+   "attachedAt": "2026-10-05T13:16:03.313947+00:00",
+   "outlet": "MediaNama",
+   "resolvable": false,
+   "title": "Kuku turns profitable ahead of IPO, revenue nears Rs 1,500 cr",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE11TFpEVXptQlBEdS1YZDVRQzB0VHczZkFMaW04MXVvZEhELU9tVFhmNXFBbC1tOXlVb3FuZk5KSjhCOFp1akIyR2xEbmtBbTI2QTNFTkNaUHoweUhaVjdXM3hUcDBZYWEtMkxMbFBPMA?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-10-05T13:16:03.311803+00:00"
+}
