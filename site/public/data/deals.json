@@ -1,6 +1,28 @@
 {
- "dealCount": 774,
+ "dealCount": 775,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Banca Monte dei Paschi di Siena",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-05T01:31:02.934812+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1104,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Intesa Sanpaolo's takeover bid for Banca Monte dei Paschi backed by top shareholder",
+   "primaryOutlet": "Mint",
+   "seller": "Delfin Sarl",
+   "sizeBand": "OVER_2000",
+   "sizeSource": "band",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-05T01:31:05.394070+00:00",
+   "updates": []
+  },
   {
    "amountCr": 271.2,
    "amountRaw": "₹271.2 crore",
@@ -4252,7 +4274,7 @@
    "seller": "AceVector",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-09-23T01:31:12.564553+00:00",
    "updates": [
@@ -4263,6 +4285,10 @@
     {
      "attachedAt": "2026-09-23T03:31:06.718926+00:00",
      "title": "Indian Startup IPO Sprint, Zetwerk-Ayr Settle Dispute & More"
+    },
+    {
+     "attachedAt": "2026-10-05T01:31:02.929597+00:00",
+     "title": "Nvidia-Yotta’s GPU money trail, Snapdeal’s IPO plan, Go Digit’s silver lining, India’s $12B startup fund, and more"
     }
    ]
   },
@@ -24582,6 +24608,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-04T17:31:16.972621+00:00",
- "totalDeals": 774
+ "generatedAt": "2026-10-05T01:31:05.394070+00:00",
+ "totalDeals": 775
 }

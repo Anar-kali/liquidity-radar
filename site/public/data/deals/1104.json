@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "Intesa Sanpaolo",
+ "company": "Banca Monte dei Paschi di Siena",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-05T01:31:02.934812+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1104,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Intesa Sanpaolo's takeover bid for Banca Monte dei Paschi backed by top shareholder",
+ "primaryUrl": "https://www.livemint.com/companies/intesa-says-its-paschi-bid-backed-by-top-shareholder-delfin-11791146849159.html",
+ "seller": "Delfin Sarl",
+ "sizeBand": "OVER_2000",
+ "sizeSource": "band",
+ "sources": [
+  {
+   "attachedAt": "2026-10-05T01:31:02.935971+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "Intesa Says Its Paschi Bid Backed by Top Shareholder Delfin",
+   "url": "https://www.livemint.com/companies/intesa-says-its-paschi-bid-backed-by-top-shareholder-delfin-11791146849159.html"
+  }
+ ],
+ "synopsis": "Intesa Sanpaolo has received backing from Banca Monte dei Paschi di Siena's top shareholder, Delfin Sarl, for its sweetened takeover bid. Delfin, the holding company for the Del Vecchio family, agreed to support Intesa's tender offer with its 17.6 percent stake in Paschi. This development deals a blow to Monte Paschi Chief Executive Officer Luigi Lovaglio, who is fighting for an alternative strategy involving the acquisition of Banco BPM SpA and Banca Generali SpA. The upcoming October 29 vote will determine the outcome. Intesa increased the cash component of its offer by 25 cents per share, subject to Paschi shareholders rejecting Lovaglio's alternative plan. Meanwhile, the Italian government holds about a 5 percent stake and has indicated it will not intervene, while investor Francesco Gaetano Caltagirone reportedly opposes the merger with Banco BPM.",
+ "ticker": null,
+ "updatedAt": "2026-10-05T01:31:05.394070+00:00"
+}
