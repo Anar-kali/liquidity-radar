@@ -1,0 +1,39 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Tenty Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-05T11:31:35.719425+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": "failed",
+ "id": 1112,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Tenty Limited filed its draft offer document with SEBI for an IPO.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/oct-2026/tenty-limited-drhp_105006.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-10-05T11:31:35.720674+00:00",
+   "outlet": "Draft Abridged Prospectus",
+   "resolvable": true,
+   "title": "Tenty Limited- DRHPTenty Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/tenty-limited-drhp_105006.html"
+  },
+  {
+   "attachedAt": "2026-10-05T11:31:35.728693+00:00",
+   "outlet": "Draft Abridged Prospectus",
+   "resolvable": true,
+   "title": "Tenty Limited",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/oct-2026/Tenty%20Limited-%20Draft%20Abridged%20Prospectus_p.pdf"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-10-05T11:31:35.719425+00:00"
+}
