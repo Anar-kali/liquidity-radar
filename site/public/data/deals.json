@@ -936,7 +936,7 @@
    "seller": "promoters",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 5,
    "ticker": "500058.BO",
    "updatedAt": "2026-10-01T06:16:05.565767+00:00",
    "updates": [
@@ -947,6 +947,14 @@
     {
      "attachedAt": "2026-10-05T01:45:54.187433+00:00",
      "title": "B.S. Sponge files draft papers for INR 1,000 crore IPO"
+    },
+    {
+     "attachedAt": "2026-10-05T11:01:27.801428+00:00",
+     "title": "B S Sponge Limited- DRHPB S Sponge Limited"
+    },
+    {
+     "attachedAt": "2026-10-05T11:01:27.822997+00:00",
+     "title": "B S Sponge Limited"
     }
    ]
   },
@@ -1112,7 +1120,7 @@
    "seller": "Promoters",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 22,
+   "sourceCount": 24,
    "ticker": null,
    "updatedAt": "2026-10-03T02:31:03.346156+00:00",
    "updates": [
@@ -1199,6 +1207,14 @@
     {
      "attachedAt": "2026-10-05T07:01:13.732967+00:00",
      "title": "Inox Clean Energy Files Papers for Rs. 100 bn IPO"
+    },
+    {
+     "attachedAt": "2026-10-05T11:01:27.367092+00:00",
+     "title": "Inox Air Products Limited- DRHPInox Air Products Limited"
+    },
+    {
+     "attachedAt": "2026-10-05T11:01:27.377281+00:00",
+     "title": "Inox Air Products Limited"
     }
    ]
   },
