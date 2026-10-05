@@ -355,7 +355,7 @@
    "seller": "Reliance Industries",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 6,
+   "sourceCount": 7,
    "ticker": null,
    "updatedAt": "2026-10-03T09:31:05.550266+00:00",
    "updates": [
@@ -378,6 +378,10 @@
     {
      "attachedAt": "2026-10-05T11:31:35.737237+00:00",
      "title": "'Reliance to launch Jio IPO on Dashami on 21 Oct': India's largest telecom company's shares to list on stoc..."
+    },
+    {
+     "attachedAt": "2026-10-05T13:01:41.389872+00:00",
+     "title": "Jio IPO: Complete Guide To The Expected Public Offering"
     }
    ]
   },
