@@ -424,7 +424,7 @@
    "seller": "Jio Platforms",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 12,
+   "sourceCount": 13,
    "ticker": null,
    "updatedAt": "2026-10-03T17:01:17.671642+00:00",
    "updates": [
@@ -471,6 +471,10 @@
     {
      "attachedAt": "2026-10-05T12:01:43.117996+00:00",
      "title": "Jio Platforms IPO Likely After Dussehra, May List Before October 23"
+    },
+    {
+     "attachedAt": "2026-10-05T13:45:54.380938+00:00",
+     "title": "Jio Platforms plans to launch India IPO on Oct 21: report"
     }
    ]
   },
