@@ -1,6 +1,30 @@
 {
- "dealCount": 780,
+ "dealCount": 781,
  "deals": [
+  {
+   "amountCr": 1750.0,
+   "amountRaw": "Rs 1,500-2,000 Crore",
+   "company": "SageOne Investment Managers",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-05T09:01:22.924113+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1110,
+   "individuals": [
+    "Samit Vartak"
+   ],
+   "listed": false,
+   "oneLine": "Blackstone-backed ASK acquires SageOne Investment Managers for up to Rs 2,000 crore.",
+   "primaryOutlet": "CNBC TV18",
+   "seller": "SageOne Investment Managers shareholders",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-05T09:01:26.255078+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -24813,6 +24837,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-05T08:46:03.148555+00:00",
- "totalDeals": 780
+ "generatedAt": "2026-10-05T09:01:26.255078+00:00",
+ "totalDeals": 781
 }

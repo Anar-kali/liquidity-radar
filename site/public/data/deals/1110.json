@@ -1,0 +1,34 @@
+{
+ "advisers": [],
+ "amountCr": 1750.0,
+ "amountRaw": "Rs 1,500-2,000 Crore",
+ "buyer": "ASK Investment Managers",
+ "company": "SageOne Investment Managers",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-05T09:01:22.924113+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1110,
+ "individuals": [
+  "Samit Vartak"
+ ],
+ "listed": false,
+ "oneLine": "Blackstone-backed ASK acquires SageOne Investment Managers for up to Rs 2,000 crore.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPVGc4MVRKUWJEdGxBV0FDaUYwR0U0THRjRWlWRzNaeldLVUd0b0RiVWMwMV8waU5lNHFfLUU0RHFYZTd1OXNTZ3ZudkQ0SWY5UzV0Nzd5SDNILVBZc2VfNndZb2Rza0JTREpKdDBYRHJJWkJyUGdYbmRjVHp6TjVoZG5yVzFubXIwdVp1dWctcjZMSHRySTBGdjNndnVHNGFxY1JidHlndWtfbFJSb0R5T042MkZHbFhwczlSa1lsaUdXYkxMUnM2VEFTYzBRLURBRHfSAdIBQVVfeXFMT1RnODFUSlFiRHRsQVdBQ2lGMEdFNEx0Y0VpVkczWnpXS1VHdG9EYlVjMDFfMGlOZTRxXy1FNERxWGU3dTlzU2d2bnZENElmOVM1dDc3eUgzSC1QWXNlXzZ3WW9kc2tCU0RKSnQwWERySVpCclBnWG5kY1R6ek41aGRuclcxbm1yMHVadXVnLXI2TEh0ckkwRnYzZ3Z1RzRhcWNSYnR5Z3VrX2xSUm9EeU9ONjJGR2xYcHM5UmtZbGlHV2JMTFJzNlRBU2MwUS1EQUR3?oc=5",
+ "seller": "SageOne Investment Managers shareholders",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-05T09:01:22.925325+00:00",
+   "outlet": "CNBC TV18",
+   "resolvable": false,
+   "title": "Blackstone-backed ASK Investment Managers Acquires SageOne Investment Managers for Rs 1,500-2,000 Crore",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPVGc4MVRKUWJEdGxBV0FDaUYwR0U0THRjRWlWRzNaeldLVUd0b0RiVWMwMV8waU5lNHFfLUU0RHFYZTd1OXNTZ3ZudkQ0SWY5UzV0Nzd5SDNILVBZc2VfNndZb2Rza0JTREpKdDBYRHJJWkJyUGdYbmRjVHp6TjVoZG5yVzFubXIwdVp1dWctcjZMSHRySTBGdjNndnVHNGFxY1JidHlndWtfbFJSb0R5T042MkZHbFhwczlSa1lsaUdXYkxMUnM2VEFTYzBRLURBRHfSAdIBQVVfeXFMT1RnODFUSlFiRHRsQVdBQ2lGMEdFNEx0Y0VpVkczWnpXS1VHdG9EYlVjMDFfMGlOZTRxXy1FNERxWGU3dTlzU2d2bnZENElmOVM1dDc3eUgzSC1QWXNlXzZ3WW9kc2tCU0RKSnQwWERySVpCclBnWG5kY1R6ek41aGRuclcxbm1yMHVadXVnLXI2TEh0ckkwRnYzZ3Z1RzRhcWNSYnR5Z3VrX2xSUm9EeU9ONjJGR2xYcHM5UmtZbGlHV2JMTFJzNlRBU2MwUS1EQUR3?oc=5"
+  }
+ ],
+ "synopsis": "Blackstone-backed ASK Investment Managers has entered into definitive agreements to acquire SageOne Investment Managers in a deal valued between Rs 1,500 crore and Rs 2,000 crore. As part of the transaction, SageOne founder and Chief Investment Officer Samit Vartak will reinvest in ASK and assume the role of Chief Investment Officer (Equities) for the combined asset management business. Blackstone will remain the majority shareholder of the combined platform, which will manage over Rs 85,000 crore in assets. SageOne manages nearly Rs 9,000 crore in equity assets across portfolio management services and alternative investment funds. The transaction is subject to customary regulatory and investor approvals, with The Rainmaker Group acting as the exclusive financial adviser.",
+ "ticker": null,
+ "updatedAt": "2026-10-05T09:01:26.255078+00:00"
+}
