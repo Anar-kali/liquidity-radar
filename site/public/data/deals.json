@@ -1,6 +1,33 @@
 {
- "dealCount": 782,
+ "dealCount": 783,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "PES Installations Limited",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-05T11:46:05.635418+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 1113,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "PES Installations filed its DRHP with SEBI for an upcoming IPO.",
+   "primaryOutlet": "Draft Abridged Prospectus",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 2,
+   "ticker": null,
+   "updatedAt": "2026-10-05T11:46:05.635418+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-10-05T11:46:05.644813+00:00",
+     "title": "PES Installations Limited"
+    }
+   ]
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -122,7 +149,7 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-10-05T06:31:14.779726+00:00",
    "updates": [
@@ -133,6 +160,10 @@
     {
      "attachedAt": "2026-10-05T07:31:05.175836+00:00",
      "title": "Electrical products maker Biocon Electric files DRHP with SEBI to launch IPO; key details"
+    },
+    {
+     "attachedAt": "2026-10-05T11:46:05.652407+00:00",
+     "title": "IPO Ahead! Electrical products maker Biocon Electric files draft papers with Sebi"
     }
    ]
   },
@@ -24926,6 +24957,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-05T11:31:35.719425+00:00",
- "totalDeals": 782
+ "generatedAt": "2026-10-05T11:46:05.635418+00:00",
+ "totalDeals": 783
 }
