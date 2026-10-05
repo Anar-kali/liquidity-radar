@@ -1015,7 +1015,7 @@
    "seller": "Promoters",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 21,
+   "sourceCount": 22,
    "ticker": null,
    "updatedAt": "2026-10-03T02:31:03.346156+00:00",
    "updates": [
@@ -1098,6 +1098,10 @@
     {
      "attachedAt": "2026-10-03T11:45:51.467009+00:00",
      "title": "Inox Clean Energy ने SEBI के पास दाखिल किया Rs. 10,000 करोड़ के IPO का DRHP"
+    },
+    {
+     "attachedAt": "2026-10-05T07:01:13.732967+00:00",
+     "title": "Inox Clean Energy Files Papers for Rs. 100 bn IPO"
     }
    ]
   },
@@ -22408,8 +22412,8 @@
    ]
   },
   {
-   "amountCr": 7040.0,
-   "amountRaw": "$800 million = 800 × 88 = 70,400 million INR = 7,040 crore INR",
+   "amountCr": 58000.0,
+   "amountRaw": "$600-800 million",
    "company": "OfBusiness",
    "confidence": "medium",
    "confirmed": false,
@@ -22424,9 +22428,9 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 4,
+   "sourceCount": 5,
    "ticker": null,
-   "updatedAt": "2026-08-08T09:45:51.490437+00:00",
+   "updatedAt": "2026-10-05T07:01:13.747986+00:00",
    "updates": [
     {
      "attachedAt": "2026-08-09T03:01:04.912234+00:00",
@@ -22439,6 +22443,10 @@
     {
      "attachedAt": "2026-10-04T08:31:03.412784+00:00",
      "title": "B2B commerce firm OfBusiness plan IPO next year, DRHP likely in Nov"
+    },
+    {
+     "attachedAt": "2026-10-05T07:01:13.746843+00:00",
+     "title": "OfBusiness plans $600-800 million IPO next year"
     }
    ]
   },
@@ -24749,6 +24757,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-05T06:31:14.779726+00:00",
+ "generatedAt": "2026-10-05T07:01:13.747986+00:00",
  "totalDeals": 778
 }
