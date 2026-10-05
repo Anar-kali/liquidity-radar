@@ -1331,7 +1331,7 @@
    "seller": "promoters and existing investor The Wealth Company Alternates Trust, India Inflection Opportunity Fund",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 5,
    "ticker": null,
    "updatedAt": "2026-09-30T08:16:12.707608+00:00",
    "updates": [
@@ -1342,6 +1342,14 @@
     {
      "attachedAt": "2026-10-03T15:15:56.051312+00:00",
      "title": "Vardhman Appliances, Shreejikrupa Project File DRHPs With SEBI"
+    },
+    {
+     "attachedAt": "2026-10-05T06:46:05.159060+00:00",
+     "title": "Vardhman Appliances Limited - DRHPVardhman Appliances Limited"
+    },
+    {
+     "attachedAt": "2026-10-05T06:46:05.170039+00:00",
+     "title": "Vardhman Appliances Limited"
     }
    ]
   },
