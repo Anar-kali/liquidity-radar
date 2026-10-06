@@ -129,7 +129,7 @@
    "seller": "HyFun Foods",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 7,
+   "sourceCount": 8,
    "ticker": null,
    "updatedAt": "2026-10-06T03:31:18.900159+00:00",
    "updates": [
@@ -156,6 +156,10 @@
     {
      "attachedAt": "2026-10-06T09:16:06.520400+00:00",
      "title": "McDonald’s, KFC supplier HyFun Foods plans Rs 2,000 crore IPO as India demand grows"
+    },
+    {
+     "attachedAt": "2026-10-06T09:46:04.286090+00:00",
+     "title": "HyFun Foods IPO Details - QSR Giant Eyes 2,000 Crore on Revenue Leap"
     }
    ]
   },
