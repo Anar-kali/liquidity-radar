@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 2390.0,
+ "amountRaw": "INR 2,390 crore",
+ "buyer": "Kotak Mahindra Asset Management, Integrated Core Strategies (Asia), Morgan Stanley Asia Singapore, Societe Generale +others",
+ "company": "Lenskart",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-06T14:15:59.461793+00:00",
+ "dealType": "block deal",
+ "enrichmentState": null,
+ "id": 1127,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "ADIA affiliate sells Lenskart shares in a block deal worth INR 2,390 crore.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNclRvUXdrbmRsWnAwZlBVTUVWRHduSGRXUFNPYXBYN3NtXzE3eHVZX2FGMENmVG55bzZ6TXc4M09sVTVKOURac2dqSEdEV0lUbVBzaGt2ZUNoVkNYS2JYYmY1V0ltUUNlUXZiSkRFRFJBS1phZ3FiN0h1d0prWjhza3JtZ0plc2FobVRxVm00aDJ2TklLQk5lSmdUYXdaQXozbTMzVTdsYThFU29IZlhWWUJxalBmRnVGZUJJeks4Smd2NkJDQ0lnQjhxN2IyeUJ0OElSR1NsMUdrMWvSAdsBQVVfeXFMTXJUb1F3a25kbFpwMGZQVU1FVkR3bkhkV1BTT2FwWDdzbV8xN3h1WV9hRjBDZlRueW82ek13ODNPbFU1SjlEWnNnakhHRFdJVG1Qc2hrdmVDaFZDWEtiWGJmNVdJbVFDZVF2YkpERURSQUtaYWdxYjdIdXdKa1o4c2tybWdKZXNhaG1UcVZtNGgydk5JS0JOZUpnVGF3WkF6M20zM1U3bGE4RVNvSGZYVllCcWpQZkZ1RmVCSXpLOEpndjZCQ0NJZ0I4cTdiMnlCdDhJUkdTbDFHazFr?oc=5",
+ "seller": "ADIA affiliate",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-06T14:15:59.464204+00:00",
+   "outlet": "ETLegalWorld.com",
+   "resolvable": false,
+   "title": "CAM, Linklaters act on ADIA affiliate’s INR 2,390 crore Lenskart share sale",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNclRvUXdrbmRsWnAwZlBVTUVWRHduSGRXUFNPYXBYN3NtXzE3eHVZX2FGMENmVG55bzZ6TXc4M09sVTVKOURac2dqSEdEV0lUbVBzaGt2ZUNoVkNYS2JYYmY1V0ltUUNlUXZiSkRFRFJBS1phZ3FiN0h1d0prWjhza3JtZ0plc2FobVRxVm00aDJ2TklLQk5lSmdUYXdaQXozbTMzVTdsYThFU29IZlhWWUJxalBmRnVGZUJJeks4Smd2NkJDQ0lnQjhxN2IyeUJ0OElSR1NsMUdrMWvSAdsBQVVfeXFMTXJUb1F3a25kbFpwMGZQVU1FVkR3bkhkV1BTT2FwWDdzbV8xN3h1WV9hRjBDZlRueW82ek13ODNPbFU1SjlEWnNnakhHRFdJVG1Qc2hrdmVDaFZDWEtiWGJmNVdJbVFDZVF2YkpERURSQUtaYWdxYjdIdXdKa1o4c2tybWdKZXNhaG1UcVZtNGgydk5JS0JOZUpnVGF3WkF6M20zM1U3bGE4RVNvSGZYVllCcWpQZkZ1RmVCSXpLOEpndjZCQ0NJZ0I4cTdiMnlCdDhJUkdTbDFHazFr?oc=5"
+  }
+ ],
+ "synopsis": "An affiliate of the Abu Dhabi Investment Authority, Platinum Jasmine A 2018 Trust, sold 35 million equity shares of Lenskart Solutions representing a 2.3% stake through a block deal on the National Stock Exchange of India and BSE. The aggregate consideration for the transaction was INR 2,390 crore. A total of 19 global and domestic investors acquired the stake, with Kotak Mahindra Asset Management acting as the largest buyer by acquiring a 0.7% stake for Rs 626 crore. Other institutional buyers included Morgan Stanley Asia Singapore, Societe Generale, Goldman Sachs Investments Mauritius, and Franklin Templeton Mutual Fund. Cyril Amarchand Mangaldas and Linklaters advised on the transaction, which was executed on September 21, 2026.",
+ "ticker": "LENSKART.NS",
+ "updatedAt": "2026-10-06T14:16:03.769932+00:00"
+}

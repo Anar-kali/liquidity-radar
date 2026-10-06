@@ -1,6 +1,28 @@
 {
- "dealCount": 796,
+ "dealCount": 797,
  "deals": [
+  {
+   "amountCr": 2390.0,
+   "amountRaw": "INR 2,390 crore",
+   "company": "Lenskart",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-06T14:15:59.461793+00:00",
+   "dealType": "block deal",
+   "enrichmentState": null,
+   "id": 1127,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "ADIA affiliate sells Lenskart shares in a block deal worth INR 2,390 crore.",
+   "primaryOutlet": "ETLegalWorld.com",
+   "seller": "ADIA affiliate",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "LENSKART.NS",
+   "updatedAt": "2026-10-06T14:16:03.769932+00:00",
+   "updates": []
+  },
   {
    "amountCr": 750.0,
    "amountRaw": "Rs 700-800 Cr",
@@ -25427,6 +25449,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-06T13:04:51.340125+00:00",
- "totalDeals": 796
+ "generatedAt": "2026-10-06T14:16:03.769932+00:00",
+ "totalDeals": 797
 }
