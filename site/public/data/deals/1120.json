@@ -1,0 +1,39 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Pentacle Consultants (I) Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-06T04:15:56.924875+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": "failed",
+ "id": 1120,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Pentacle Consultants (I) Limited filed a draft prospectus with SEBI for an IPO.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/oct-2026/pentacle-consultants-i-limited-drhp_105036.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-10-06T04:15:56.926549+00:00",
+   "outlet": "Draft Abridged Prospectus",
+   "resolvable": true,
+   "title": "Pentacle Consultants (I) Limited - DRHPPentacle Consultants (I) Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/pentacle-consultants-i-limited-drhp_105036.html"
+  },
+  {
+   "attachedAt": "2026-10-06T04:15:56.932120+00:00",
+   "outlet": "Draft Abridged Prospectus",
+   "resolvable": true,
+   "title": "Pentacle Consultants (I) Limited",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/oct-2026/Pentacle%20Consultants%20(I)%20Limited-%20Draft%20Abridged%20Prospectus_p.pdf"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-10-06T04:15:56.924875+00:00"
+}

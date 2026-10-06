@@ -1,6 +1,33 @@
 {
- "dealCount": 789,
+ "dealCount": 790,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Pentacle Consultants (I) Limited",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-06T04:15:56.924875+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 1120,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Pentacle Consultants (I) Limited filed a draft prospectus with SEBI for an IPO.",
+   "primaryOutlet": "Draft Abridged Prospectus",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 2,
+   "ticker": null,
+   "updatedAt": "2026-10-06T04:15:56.924875+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-10-06T04:15:56.932120+00:00",
+     "title": "Pentacle Consultants (I) Limited"
+    }
+   ]
+  },
   {
    "amountCr": 2000.0,
    "amountRaw": "Rs 2,000-crore",
@@ -18,10 +45,15 @@
    "seller": "HyFun Foods",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-10-06T03:31:18.900159+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-10-06T04:15:56.944621+00:00",
+     "title": "McDonald's supplier HyFun plans $208 million India IPO"
+    }
+   ]
   },
   {
    "amountCr": 1012.0,
@@ -292,7 +324,7 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 4,
+   "sourceCount": 5,
    "ticker": null,
    "updatedAt": "2026-10-05T06:31:14.779726+00:00",
    "updates": [
@@ -307,6 +339,10 @@
     {
      "attachedAt": "2026-10-05T11:46:05.652407+00:00",
      "title": "IPO Ahead! Electrical products maker Biocon Electric files draft papers with Sebi"
+    },
+    {
+     "attachedAt": "2026-10-06T04:15:56.938333+00:00",
+     "title": "Upcoming IPO: Electrical products maker Biocon Electric files DRHP with SEBI"
     }
    ]
   },
@@ -25144,6 +25180,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-06T03:31:18.900159+00:00",
- "totalDeals": 789
+ "generatedAt": "2026-10-06T04:15:56.924875+00:00",
+ "totalDeals": 790
 }
