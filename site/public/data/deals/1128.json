@@ -1,7 +1,7 @@
 {
  "advisers": [],
- "amountCr": null,
- "amountRaw": null,
+ "amountCr": 10000.0,
+ "amountRaw": "₹10,000 Cr",
  "buyer": "Sazerac",
  "company": "John Distilleries",
  "confidence": "medium",
@@ -15,8 +15,8 @@
  "oneLine": "Sazerac acquires a 66 percent majority stake in John Distilleries, replacing Paul John Fund LLC.",
  "primaryUrl": "https://economictimes.indiatimes.com/industry/cons-products/liquor/john-distilleries-surpasses-rs-10000-crore-revenue-in-fy26-sazerac-become-majority-shareholder/articleshow/134743235.cms",
  "seller": "Paul John Fund LLC",
- "sizeBand": "OVER_2000",
- "sizeSource": "band",
+ "sizeBand": null,
+ "sizeSource": "stated",
  "sources": [
   {
    "attachedAt": "2026-10-06T14:46:13.232787+00:00",
@@ -24,9 +24,16 @@
    "resolvable": true,
    "title": "John Distilleries surpasses Rs 10,000 crore revenue in FY26; Sazerac become majority shareholder",
    "url": "https://economictimes.indiatimes.com/industry/cons-products/liquor/john-distilleries-surpasses-rs-10000-crore-revenue-in-fy26-sazerac-become-majority-shareholder/articleshow/134743235.cms"
+  },
+  {
+   "attachedAt": "2026-10-06T15:31:17.089017+00:00",
+   "outlet": "Rediff MoneyWiz",
+   "resolvable": false,
+   "title": "John Distilleries Hits ₹10,000 Cr; Sazerac Becomes Majority Owner",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNY04tekRZUGE2SkFVcmNzcW15NFUtc1FtYkVneHN2UUx1eVU4SzZMV1RfeVNqb2VZdExGd1IwcGdWWHltZzBfTDJDWkRnR3VCQkZkZlk2cHpaOGxGOVlZNkNoaUlTaDZMTFJXNnBKM0cwazlzenQ4MVRveDNpV2NRRzREUGVkOXJGSmpGZmdGWDNoYnlWTVJUWkNSTVp1bk9jLVdpNXIwSkhKNEVQMzZvNE5sZHhfUXppVUZZ0gG7AUFVX3lxTE1jTi16RFlQYTZKQVVyY3NxbXk0VS1zUW1iRWd4c3ZRTHV5VThLNkxXVF95U2pvZVl0TEZ3UjBwZ1ZYeW1nMF9MMkNaRGdHdUJCRmRmWTZwelo4bEY5WVk2Q2hpSVNoNkxMUlc2cEozRzBrOXN6dDgxVG94M2lXY1FHNERQZWQ5ckZKakZmZ0ZYM2hieVZNUlRaQ1JNWnVuT2MtV2k1cjBKSEo0RVAzNm80TmxkeF9RemlVRlk?oc=5"
   }
  ],
  "synopsis": "Global spirits major Sazerac has acquired a 66 percent majority stake in Bengaluru-based liquor maker John Distilleries Ltd, replacing Paul John Fund LLC as the controlling shareholder. Paul John Fund LLC, an entity owned by founder and promoter Paul P John, now holds the remaining 34 percent shareholding. The transaction represents a complete reversal of the previous ownership structure, where Paul John Fund LLC held 66 percent and Sazerac held 34 percent. Meanwhile, John Distilleries reported a revenue of Rs 10,820.10 crore and a net profit of Rs 11.6 crore for FY26.",
  "ticker": null,
- "updatedAt": "2026-10-06T14:46:17.434384+00:00"
+ "updatedAt": "2026-10-06T15:31:17.092254+00:00"
 }
