@@ -133,7 +133,7 @@
    "seller": "Jio Platforms",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 4,
+   "sourceCount": 5,
    "ticker": null,
    "updatedAt": "2026-10-06T05:16:06.239347+00:00",
    "updates": [
@@ -148,6 +148,10 @@
     {
      "attachedAt": "2026-10-06T09:16:06.530336+00:00",
      "title": "Jio IPO Could Reach ₹37,700 Crore. Hyundai and LIC Show Why Record Size Is Not the Real Test"
+    },
+    {
+     "attachedAt": "2026-10-06T13:16:01.808937+00:00",
+     "title": "Jio Platforms IPO set to be India's largest, may list among top 3 stocks"
     }
    ]
   },
@@ -14530,7 +14534,7 @@
    "seller": "promoters of Swara Baby (implied)",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 10,
+   "sourceCount": 11,
    "ticker": null,
    "updatedAt": "2026-10-06T10:16:08.931499+00:00",
    "updates": [
@@ -14569,6 +14573,10 @@
     {
      "attachedAt": "2026-10-06T12:01:24.857262+00:00",
      "title": "Upcoming IPO: FirstCry Parent-Backed Swara Baby Gets SEBI Nod For Rs 1,000-Crore Public Issue"
+    },
+    {
+     "attachedAt": "2026-10-06T13:16:01.799483+00:00",
+     "title": "From Babyhug diapers to Rs 1,000 crore IPO: FirstCry-backed Swara Baby gets SEBI approval"
     }
    ]
   },
