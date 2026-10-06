@@ -1,6 +1,28 @@
 {
- "dealCount": 788,
+ "dealCount": 789,
  "deals": [
+  {
+   "amountCr": 2000.0,
+   "amountRaw": "Rs 2,000-crore",
+   "company": "HyFun Foods",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-06T03:31:14.417632+00:00",
+   "dealType": "unknown",
+   "enrichmentState": null,
+   "id": 1119,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "HyFun Foods is exploring an IPO to raise Rs 2,000 crore.",
+   "primaryOutlet": "Moneycontrol.com",
+   "seller": "HyFun Foods",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-06T03:31:18.900159+00:00",
+   "updates": []
+  },
   {
    "amountCr": 1012.0,
    "amountRaw": "Rs 1,012 crore",
@@ -25118,6 +25140,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-06T01:31:20.865818+00:00",
- "totalDeals": 788
+ "generatedAt": "2026-10-06T03:31:18.900159+00:00",
+ "totalDeals": 789
 }
