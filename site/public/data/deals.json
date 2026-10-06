@@ -459,7 +459,7 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 5,
+   "sourceCount": 6,
    "ticker": null,
    "updatedAt": "2026-10-05T06:31:14.779726+00:00",
    "updates": [
@@ -478,6 +478,10 @@
     {
      "attachedAt": "2026-10-06T04:15:56.938333+00:00",
      "title": "Upcoming IPO: Electrical products maker Biocon Electric files DRHP with SEBI"
+    },
+    {
+     "attachedAt": "2026-10-06T10:16:08.917314+00:00",
+     "title": "Biocon Electric IPO DRHP Filing - 59 lakh Share Issue Targets Listing"
     }
    ]
   },
@@ -14458,8 +14462,8 @@
    "updates": []
   },
   {
-   "amountCr": null,
-   "amountRaw": null,
+   "amountCr": 1000.0,
+   "amountRaw": "Rs 1,000 Cr",
    "company": "Swara Baby",
    "confidence": "medium",
    "confirmed": false,
@@ -14473,10 +14477,10 @@
    "primaryOutlet": "ET Retail",
    "seller": "promoters of Swara Baby (implied)",
    "sizeBand": null,
-   "sizeSource": "unknown",
-   "sourceCount": 5,
+   "sizeSource": "stated",
+   "sourceCount": 6,
    "ticker": null,
-   "updatedAt": "2026-09-22T05:25:44.309314+00:00",
+   "updatedAt": "2026-10-06T10:16:08.931499+00:00",
    "updates": [
     {
      "attachedAt": "2026-08-24T12:31:21.151948+00:00",
@@ -14493,6 +14497,10 @@
     {
      "attachedAt": "2026-08-25T01:32:00.493254+00:00",
      "title": "IPO bound Swara Baby plans Rs 558.47 Cr capacity expansion"
+    },
+    {
+     "attachedAt": "2026-10-06T10:16:08.930060+00:00",
+     "title": "FirstCry-backed Swara Baby Products gets SEBI nod for Rs 1,000 Cr IPO"
     }
    ]
   },
@@ -25339,6 +25347,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-06T10:01:21.809991+00:00",
+ "generatedAt": "2026-10-06T10:16:08.931499+00:00",
  "totalDeals": 794
 }
