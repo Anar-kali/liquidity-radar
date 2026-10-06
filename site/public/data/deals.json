@@ -67,7 +67,7 @@
    "seller": "Jio Platforms",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-10-06T05:16:06.239347+00:00",
    "updates": [
@@ -78,6 +78,10 @@
     {
      "attachedAt": "2026-10-06T08:01:16.752868+00:00",
      "title": "October 2026 IPO Pipeline: Jio, Paras, Tonbo and 3 More Big Issues to Watch"
+    },
+    {
+     "attachedAt": "2026-10-06T09:16:06.530336+00:00",
+     "title": "Jio IPO Could Reach ₹37,700 Crore. Hyundai and LIC Show Why Record Size Is Not the Real Test"
     }
    ]
   },
@@ -125,7 +129,7 @@
    "seller": "HyFun Foods",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 6,
+   "sourceCount": 7,
    "ticker": null,
    "updatedAt": "2026-10-06T03:31:18.900159+00:00",
    "updates": [
@@ -148,6 +152,10 @@
     {
      "attachedAt": "2026-10-06T09:01:25.547004+00:00",
      "title": "HyFun Foods IPO: McDonald’s, KFC supplier plans Rs 2,000 crore issue by 2028"
+    },
+    {
+     "attachedAt": "2026-10-06T09:16:06.520400+00:00",
+     "title": "McDonald’s, KFC supplier HyFun Foods plans Rs 2,000 crore IPO as India demand grows"
     }
    ]
   },
