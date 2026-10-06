@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Vishal Nirmiti Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-06T11:46:09.972199+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": "failed",
+ "id": 1125,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Vishal Nirmiti Limited files draft offer document with SEBI for potential IPO.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/oct-2026/vishal-nirmiti-limited-prospectus_105057.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-10-06T11:46:09.973767+00:00",
+   "outlet": "Prospectus",
+   "resolvable": true,
+   "title": "Vishal Nirmiti Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/vishal-nirmiti-limited-prospectus_105057.html"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-10-06T11:46:09.972199+00:00"
+}
