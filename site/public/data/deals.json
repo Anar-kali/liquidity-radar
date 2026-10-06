@@ -173,7 +173,7 @@
    "seller": "HyFun Foods",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 8,
+   "sourceCount": 9,
    "ticker": null,
    "updatedAt": "2026-10-06T03:31:18.900159+00:00",
    "updates": [
@@ -204,6 +204,10 @@
     {
      "attachedAt": "2026-10-06T09:46:04.286090+00:00",
      "title": "HyFun Foods IPO Details - QSR Giant Eyes 2,000 Crore on Revenue Leap"
+    },
+    {
+     "attachedAt": "2026-10-06T12:01:24.868486+00:00",
+     "title": "McDonald’s, KFC Supplier HyFun Foods Plans ₹2,000 Crore IPO By 2028 As India’s Frozen Food Demand Surges"
     }
    ]
   },
@@ -14500,7 +14504,7 @@
    "seller": "promoters of Swara Baby (implied)",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 9,
+   "sourceCount": 10,
    "ticker": null,
    "updatedAt": "2026-10-06T10:16:08.931499+00:00",
    "updates": [
@@ -14535,6 +14539,10 @@
     {
      "attachedAt": "2026-10-06T11:31:44.399365+00:00",
      "title": "Swara Baby Products Secures SEBI Nod For ₹1,000 Cr IPO"
+    },
+    {
+     "attachedAt": "2026-10-06T12:01:24.857262+00:00",
+     "title": "Upcoming IPO: FirstCry Parent-Backed Swara Baby Gets SEBI Nod For Rs 1,000-Crore Public Issue"
     }
    ]
   },
