@@ -1,0 +1,34 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "Healthium",
+ "company": "BL Lifesciences",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-06T01:31:13.538774+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1117,
+ "individuals": [
+  "Sunil Aggarwal"
+ ],
+ "listed": false,
+ "oneLine": "Healthium and Romsons are in a race to buy a 70-80% stake in BL Lifesciences.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNbk03VDVpZGJZcEFTblFxdkdlcG1VaTVFSUJPN09iWEo5VDFfQ2c3bkpEMGZ5YWt4UExzRnJOdGJ0SS1qSFNmZzJ3aUJfaHJ4ckVBWmtkaHg0b3RYMDNKb2VxZjJXVE1QaXFKNXpfLTk2em5aQW8xaTV3akJ0WDJPdVd6dXpBWk96SnJaaVpOSkNORFZxS2JsVWt3TjFzU3VJTXJ4WUZHWmxCY0R6LUxsVVp2OHA3WTlCWGcySjl4OWpueGg5QVQ3ZkdiaXZlYUM5N0dqSEpTV3FPeE9LdUxxdFJJNE42S0N6SnJfem13b2VZOVBPbTREejJzeGc2Tkx6ck9KQmxXSdIBhwJBVV95cUxNbk03VDVpZGJZcEFTblFxdkdlcG1VaTVFSUJPN09iWEo5VDFfQ2c3bkpEMGZ5YWt4UExzRnJOdGJ0SS1qSFNmZzJ3aUJfaHJ4ckVBWmtkaHg0b3RYMDNKb2VxZjJXVE1QaXFKNXpfLTk2em5aQW8xaTV3akJ0WDJPdVd6dXpBWk96SnJaaVpOSkNORFZxS2JsVWt3TjFzU3VJTXJ4WUZHWmxCY0R6LUxsVVp2OHA3WTlCWGcySjl4OWpueGg5QVQ3ZkdiaXZlYUM5N0dqSEpTV3FPeE9LdUxxdFJJNE42S0N6SnJfem13b2VZOVBPbTREejJzeGc2Tkx6ck9KQmxXSQ?oc=5",
+ "seller": "BL Lifesciences promoters",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-10-06T01:31:13.540526+00:00",
+   "outlet": "The Economic Times",
+   "resolvable": false,
+   "title": "KKR-owned Healthium, Temasek-backed Romsons in race to buy 70-80% stake in BL Lifesciences",
+   "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNbk03VDVpZGJZcEFTblFxdkdlcG1VaTVFSUJPN09iWEo5VDFfQ2c3bkpEMGZ5YWt4UExzRnJOdGJ0SS1qSFNmZzJ3aUJfaHJ4ckVBWmtkaHg0b3RYMDNKb2VxZjJXVE1QaXFKNXpfLTk2em5aQW8xaTV3akJ0WDJPdVd6dXpBWk96SnJaaVpOSkNORFZxS2JsVWt3TjFzU3VJTXJ4WUZHWmxCY0R6LUxsVVp2OHA3WTlCWGcySjl4OWpueGg5QVQ3ZkdiaXZlYUM5N0dqSEpTV3FPeE9LdUxxdFJJNE42S0N6SnJfem13b2VZOVBPbTREejJzeGc2Tkx6ck9KQmxXSdIBhwJBVV95cUxNbk03VDVpZGJZcEFTblFxdkdlcG1VaTVFSUJPN09iWEo5VDFfQ2c3bkpEMGZ5YWt4UExzRnJOdGJ0SS1qSFNmZzJ3aUJfaHJ4ckVBWmtkaHg0b3RYMDNKb2VxZjJXVE1QaXFKNXpfLTk2em5aQW8xaTV3akJ0WDJPdVd6dXpBWk96SnJaaVpOSkNORFZxS2JsVWt3TjFzU3VJTXJ4WUZHWmxCY0R6LUxsVVp2OHA3WTlCWGcySjl4OWpueGg5QVQ3ZkdiaXZlYUM5N0dqSEpTV3FPeE9LdUxxdFJJNE42S0N6SnJfem13b2VZOVBPbTREejJzeGc2Tkx6ck9KQmxXSQ?oc=5"
+  }
+ ],
+ "synopsis": "KKR-owned Healthium Medtech and Temasek-backed Romsons Group are competing to acquire a 70% to 80% stake in BL Lifesciences, a fourth-generation family-owned medical devices manufacturer and distributor based in Delhi. The company is expected to be valued between 1,800 crore and 2,000 crore in this transaction. KPMG is advising the promoters on the stake sale. BL Lifesciences managing director Sunil Aggarwal did not respond to queries regarding the development. Spokespersons for KKR and Temasek declined to comment.",
+ "ticker": null,
+ "updatedAt": "2026-10-06T01:31:16.766911+00:00"
+}
