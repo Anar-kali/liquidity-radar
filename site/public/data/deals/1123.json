@@ -1,0 +1,39 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "NNT DEVELOPERS LIMITED",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-06T05:31:23.515377+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": "failed",
+ "id": 1123,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "NNT Developers files DRHP with SEBI for an upcoming public issue.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/oct-2026/nnt-developers-limited-drhp_105000.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-10-06T05:31:23.516779+00:00",
+   "outlet": "Draft Abridged Prospectus",
+   "resolvable": true,
+   "title": "NNT DEVELOPERS LIMITED - DRHPNNT DEVELOPERS LIMITED",
+   "url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/nnt-developers-limited-drhp_105000.html"
+  },
+  {
+   "attachedAt": "2026-10-06T05:31:23.523397+00:00",
+   "outlet": "Draft Abridged Prospectus",
+   "resolvable": true,
+   "title": "NNT DEVELOPERS LIMITED",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/oct-2026/NNT%20DEVELOPERS%20LIMITED%20-%20%20Draft%20Abridged%20Prospectus_p.pdf"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-10-06T05:31:23.515377+00:00"
+}
