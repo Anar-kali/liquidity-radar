@@ -241,16 +241,18 @@
    "dealType": "unknown",
    "enrichmentState": null,
    "id": 1119,
-   "individuals": [],
+   "individuals": [
+    "Haresh Karamchandani"
+   ],
    "listed": false,
    "oneLine": "HyFun Foods is exploring an IPO to raise Rs 2,000 crore.",
    "primaryOutlet": "Moneycontrol.com",
    "seller": "HyFun Foods",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 10,
+   "sourceCount": 11,
    "ticker": null,
-   "updatedAt": "2026-10-06T03:31:18.900159+00:00",
+   "updatedAt": "2026-10-06T16:31:08.520989+00:00",
    "updates": [
     {
      "attachedAt": "2026-10-06T04:15:56.944621+00:00",
@@ -287,6 +289,10 @@
     {
      "attachedAt": "2026-10-06T12:46:06.858095+00:00",
      "title": "McDonald’s Supplier HyFun Plans Rs 2,000 Cr IPO By 2028"
+    },
+    {
+     "attachedAt": "2026-10-06T16:31:08.519714+00:00",
+     "title": "HyFun Foods, an Ahmedabad-based maker of frozen French fries and potato snacks that supplies McDonald's and KFC, plans to raise up to Rs 2,000 crore ($207.7 million) through an initial public offering (IPO) by late 2028. Haresh Karamchandani, MD and G"
     }
    ]
   },
@@ -25476,6 +25482,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-06T15:31:17.092254+00:00",
+ "generatedAt": "2026-10-06T16:31:08.520989+00:00",
  "totalDeals": 798
 }
