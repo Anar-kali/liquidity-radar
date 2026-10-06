@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Laser Technologies",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-06T05:16:03.062476+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": "failed",
+ "id": 1122,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Laser Technologies files DRHP with NSE Emerge for an IPO.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdHNDXzJoTVlKZ05tSFZwR0FodzVXcmVqWWowZWVfTGh1QjMyLVlHNWpXTzV2alZnYzZWTjlxaW0tYkxaaTd0T0ItR3lTcmphd2xWQWpsU0Nhb2JoOFVRUGtjSUZUeUw2cXVQRkYyYXZPazQxMXdNQnJGNDk0elZHTWI1Zk5McVVPM0oxSlZ0R1dNdWRsbjRFbk02RFRxZ2dQcHRkTHlWellza1RQd2hwd3BOODNmOFU?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-10-06T05:16:03.063961+00:00",
+   "outlet": "Machine Maker",
+   "resolvable": false,
+   "title": "Laser Technologies Files DRHP with NSE Emerge, Plans IPO of up to 1.07 Crore Shares",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdHNDXzJoTVlKZ05tSFZwR0FodzVXcmVqWWowZWVfTGh1QjMyLVlHNWpXTzV2alZnYzZWTjlxaW0tYkxaaTd0T0ItR3lTcmphd2xWQWpsU0Nhb2JoOFVRUGtjSUZUeUw2cXVQRkYyYXZPazQxMXdNQnJGNDk0elZHTWI1Zk5McVVPM0oxSlZ0R1dNdWRsbjRFbk02RFRxZ2dQcHRkTHlWellza1RQd2hwd3BOODNmOFU?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-10-06T05:16:03.062476+00:00"
+}

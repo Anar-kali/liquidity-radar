@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 37700.0,
+ "amountRaw": "$4 billion, or 37,700 crore (from article)",
+ "buyer": null,
+ "company": "Jio Platforms",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-06T05:16:03.046481+00:00",
+ "dealType": "unknown",
+ "enrichmentState": null,
+ "id": 1121,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Jio Platforms is planning an IPO/listing event.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdnJKVmhpcTFGV0dmWnpHQWZ2dVJ3dDk5UnpMUEY5bjRzODRvb1F3ODVzYU5FZTBEOXh4TDZBbGU0V2U4bUtSM3pLZzc3ZHRfZGVOaG9VQXRBRnlMQmZqTm9nSU9EaU1qbDkwdXE4Z2htQ0cxV05iaDlOOWpmMWE2YVFFVUVJMi1nX19lWnQ3djRCYThGcXVPWTAxMnBUZWJDdE5GZ2hPY2x4ODlJVEFEeFI0OA?oc=5",
+ "seller": "Jio Platforms",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-06T05:16:03.047639+00:00",
+   "outlet": "tradingview.com",
+   "resolvable": false,
+   "title": "Jio Platforms Plans to Light Up the Street Post Dussehra",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdnJKVmhpcTFGV0dmWnpHQWZ2dVJ3dDk5UnpMUEY5bjRzODRvb1F3ODVzYU5FZTBEOXh4TDZBbGU0V2U4bUtSM3pLZzc3ZHRfZGVOaG9VQXRBRnlMQmZqTm9nSU9EaU1qbDkwdXE4Z2htQ0cxV05iaDlOOWpmMWE2YVFFVUVJMi1nX19lWnQ3djRCYThGcXVPWTAxMnBUZWJDdE5GZ2hPY2x4ODlJVEFEeFI0OA?oc=5"
+  }
+ ],
+ "synopsis": "Jio Platforms is planning an initial public offering estimated at $4 billion, or 37,700 crore, slated around Dussehra. The company plans to file its red herring prospectus after October 12, with the public issue expected to open for subscription on October 21 and list on October 28. The IPO comprises a fresh issue of up to 270 million new equity shares, accounting for about 2.9% of the company's post-issue equity capital, with no offer-for-sale component. The proceeds will be deployed towards the prepayment of up to 27,500 crore of borrowings at its operating subsidiary, Reliance Jio Infocomm Ltd, and for general corporate purposes.",
+ "ticker": null,
+ "updatedAt": "2026-10-06T05:16:06.239347+00:00"
+}

@@ -1,6 +1,50 @@
 {
- "dealCount": 790,
+ "dealCount": 792,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Laser Technologies",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-06T05:16:03.062476+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 1122,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Laser Technologies files DRHP with NSE Emerge for an IPO.",
+   "primaryOutlet": "Machine Maker",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-06T05:16:03.062476+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 37700.0,
+   "amountRaw": "$4 billion, or 37,700 crore (from article)",
+   "company": "Jio Platforms",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-06T05:16:03.046481+00:00",
+   "dealType": "unknown",
+   "enrichmentState": null,
+   "id": 1121,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Jio Platforms is planning an IPO/listing event.",
+   "primaryOutlet": "tradingview.com",
+   "seller": "Jio Platforms",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-06T05:16:06.239347+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -306,10 +350,15 @@
    "seller": "Vinir Engineering",
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-10-05T07:31:08.597900+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-10-06T05:16:03.043154+00:00",
+     "title": "Vinir Engineering files DRHP with SEBI for fresh issue of up to 7.1 crore shares"
+    }
+   ]
   },
   {
    "amountCr": null,
@@ -25192,6 +25241,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-06T04:15:56.924875+00:00",
- "totalDeals": 790
+ "generatedAt": "2026-10-06T05:16:06.239347+00:00",
+ "totalDeals": 792
 }
