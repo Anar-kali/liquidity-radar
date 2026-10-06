@@ -45,13 +45,17 @@
    "seller": "HyFun Foods",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-10-06T03:31:18.900159+00:00",
    "updates": [
     {
      "attachedAt": "2026-10-06T04:15:56.944621+00:00",
      "title": "McDonald's supplier HyFun plans $208 million India IPO"
+    },
+    {
+     "attachedAt": "2026-10-06T04:31:09.389612+00:00",
+     "title": "McDonald's supplier HyFun plans ₹2,000 crore IPO by 2028 as demand rises"
     }
    ]
   },
