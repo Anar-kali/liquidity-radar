@@ -1,6 +1,28 @@
 {
- "dealCount": 806,
+ "dealCount": 807,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Selzer Polymers Limited",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-07T09:31:16.105083+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 1138,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Selzer Polymers Limited files DRHP with NSE Emerge for an IPO, offering future liquidity to promoters.",
+   "primaryOutlet": "NewsX",
+   "seller": "Selzer Polymers Limited",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-07T09:31:23.274666+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -25693,6 +25715,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-07T08:46:02.416304+00:00",
- "totalDeals": 806
+ "generatedAt": "2026-10-07T09:31:23.274666+00:00",
+ "totalDeals": 807
 }
