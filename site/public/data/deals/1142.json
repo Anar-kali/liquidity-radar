@@ -1,0 +1,34 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": "56.13%",
+ "buyer": "SAR Televenture Limited",
+ "company": "Tikona Communication",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-07T12:31:15.453834+00:00",
+ "dealType": "promoter sale",
+ "enrichmentState": null,
+ "id": 1142,
+ "individuals": [
+  "गौरव गोयल"
+ ],
+ "listed": false,
+ "oneLine": "Promoter Gaurav Goyal sells his entire 56.13% stake in Tikona Communication.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNZWdXYW1BVlc4cDF3Q0pZSThsLXRBVUMxaEg0MXZ5a19zRG1YWElmazZ5Z24yMDhiTzdUb1JxbkFJVEhJUW5HbUVTZ2ktcVEwM0dHZ0J5U2FOS1VjU0U2N3RNVFJqQURMRjExdXdRV2ZSb0ROMmVzbGhzSHY5cU4tRS00TlJHdFZuOUtfN2NfUUVhTE8xckFvelB5OVdKcUxMbzZyVE5aVk5hQ2FvVlFXS1BJX2E1R05BY04wX0F6cC1zTjh1Z09MSG5OdXIzSXl1SDFRLTRLanFVNVNVOTVhZWQ3M3pmTTIwaVJF?oc=5",
+ "seller": "गौरव गोयल",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-10-07T12:31:15.454765+00:00",
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "Tikona Communication: प्रमोटर गौरव गोयल ने बेची पूरी हिस्सेदारी, **56.13%** स्टेक के साथ बदला मालिक",
+   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNZWdXYW1BVlc4cDF3Q0pZSThsLXRBVUMxaEg0MXZ5a19zRG1YWElmazZ5Z24yMDhiTzdUb1JxbkFJVEhJUW5HbUVTZ2ktcVEwM0dHZ0J5U2FOS1VjU0U2N3RNVFJqQURMRjExdXdRV2ZSb0ROMmVzbGhzSHY5cU4tRS00TlJHdFZuOUtfN2NfUUVhTE8xckFvelB5OVdKcUxMbzZyVE5aVk5hQ2FvVlFXS1BJX2E1R05BY04wX0F6cC1zTjh1Z09MSG5OdXIzSXl1SDFRLTRLanFVNVNVOTVhZWQ3M3pmTTIwaVJF?oc=5"
+  }
+ ],
+ "synopsis": "Promoter Gaurav Goyal has sold his entire 56.13% stake in Tikona Communication Limited, comprising 1,70,80,288 equity shares, to SAR Televenture Limited. The transaction represents a complete transfer of control, making SAR Televenture Limited the new main promoter of the company. The deal was completed as an off-market transaction on September 28, 2026, following a share purchase agreement dated March 3, 2026, and in compliance with SEBI open offer regulations.",
+ "ticker": null,
+ "updatedAt": "2026-10-07T12:31:18.595604+00:00"
+}

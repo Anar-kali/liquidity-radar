@@ -1,6 +1,30 @@
 {
- "dealCount": 810,
+ "dealCount": 811,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": "56.13%",
+   "company": "Tikona Communication",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-07T12:31:15.453834+00:00",
+   "dealType": "promoter sale",
+   "enrichmentState": null,
+   "id": 1142,
+   "individuals": [
+    "गौरव गोयल"
+   ],
+   "listed": false,
+   "oneLine": "Promoter Gaurav Goyal sells his entire 56.13% stake in Tikona Communication.",
+   "primaryOutlet": "Whalesbook",
+   "seller": "गौरव गोयल",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-07T12:31:18.595604+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -25801,6 +25825,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-07T12:16:27.893534+00:00",
- "totalDeals": 810
+ "generatedAt": "2026-10-07T12:31:18.595604+00:00",
+ "totalDeals": 811
 }
