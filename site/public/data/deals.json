@@ -1,6 +1,28 @@
 {
- "dealCount": 804,
+ "dealCount": 805,
  "deals": [
+  {
+   "amountCr": 3168.0,
+   "amountRaw": "$400 million valuation (~3,168 crore INR)",
+   "company": "Veeda Lifesciences",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-07T06:01:19.938606+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1136,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "CX Partners-backed Veeda Lifesciences eyes majority stake sale at up to $400 million valuation.",
+   "primaryOutlet": "Mint",
+   "seller": "CX Partners",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-07T06:01:23.310929+00:00",
+   "updates": []
+  },
   {
    "amountCr": 1200.0,
    "amountRaw": "₹1,200 cr",
@@ -14740,7 +14762,7 @@
    "seller": "promoters of Swara Baby (implied)",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 11,
+   "sourceCount": 13,
    "ticker": null,
    "updatedAt": "2026-10-06T10:16:08.931499+00:00",
    "updates": [
@@ -14783,6 +14805,14 @@
     {
      "attachedAt": "2026-10-06T13:16:01.799483+00:00",
      "title": "From Babyhug diapers to Rs 1,000 crore IPO: FirstCry-backed Swara Baby gets SEBI approval"
+    },
+    {
+     "attachedAt": "2026-10-07T06:01:19.921977+00:00",
+     "title": "Swara Baby Products, a Madhya Pradesh-based contract manufacturer of diapers and sanitary napkins owned by FirstCry parent Brainbees Solutions, has received approval from the Securities and Exchange Board of India (SEBI) for its proposed Rs 1,000 cro"
+    },
+    {
+     "attachedAt": "2026-10-07T06:01:19.935442+00:00",
+     "title": "Swara Baby Products IPO: FirstCry subsidiary gets SEBI approval for Rs 1,000 cr issue"
     }
    ]
   },
@@ -25629,6 +25659,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-07T05:32:23.829846+00:00",
- "totalDeals": 804
+ "generatedAt": "2026-10-07T06:01:23.310929+00:00",
+ "totalDeals": 805
 }

@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 3168.0,
+ "amountRaw": "$400 million valuation (~3,168 crore INR)",
+ "buyer": null,
+ "company": "Veeda Lifesciences",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-07T06:01:19.938606+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1136,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "CX Partners-backed Veeda Lifesciences eyes majority stake sale at up to $400 million valuation.",
+ "primaryUrl": "https://www.livemint.com/companies/news/veeda-lifesciences-majority-stake-sale-400-million-11791341283212.html",
+ "seller": "CX Partners",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-07T06:01:19.939789+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "CX Partners-backed Veeda Lifesciences eyes majority stake sale at upto $400 million valuation",
+   "url": "https://www.livemint.com/companies/news/veeda-lifesciences-majority-stake-sale-400-million-11791341283212.html"
+  }
+ ],
+ "synopsis": "Veeda Lifesciences has restarted a process to sell a majority stake, expected to be in the range of 51% and potentially leading to a full sale, at a valuation of $300-400 million. The transaction will involve a mix of primary and secondary share sales, facilitating a complete exit for existing investor CX Partners after an eight-year-old stake. Both private equity firms and strategic buyers have been tapped, and JP Morgan has been engaged as an adviser. The private deal follows two unsuccessful public listing attempts by Veeda in 2021 and 2025, and aims to fund expansion plans and distribution network growth.",
+ "ticker": null,
+ "updatedAt": "2026-10-07T06:01:23.310929+00:00"
+}
