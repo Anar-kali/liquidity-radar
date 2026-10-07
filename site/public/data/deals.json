@@ -69,13 +69,17 @@
    "seller": "ESR group entities",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-10-07T12:02:11.830783+00:00",
    "updates": [
     {
      "attachedAt": "2026-10-07T13:31:11.262876+00:00",
      "title": "Brookfield enters Indian logistics with 10.5 million sq ft ESR portfolio buyout"
+    },
+    {
+     "attachedAt": "2026-10-07T15:46:14.183393+00:00",
+     "title": "Brookfield to acquire ESR India’s industrial and logistics portfolio"
     }
    ]
   },
