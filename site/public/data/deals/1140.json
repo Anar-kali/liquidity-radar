@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 4300.0,
+ "amountRaw": "Rs 4,300-cr",
+ "buyer": "Brookfield",
+ "company": "ESR",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-07T12:01:53.989218+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1140,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Brookfield acquires ESR India logistics portfolio for Rs 4,300 crore.",
+ "primaryUrl": "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/brookfield-enters-india-logistics-realty-market-with-rs-4300-cr-esr-portfolio-deal/articleshow/134764839.cms",
+ "seller": "ESR group entities",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-07T12:01:53.990500+00:00",
+   "outlet": "ET Corporate",
+   "resolvable": true,
+   "title": "Brookfield enters India logistics realty market with Rs 4,300-cr ESR portfolio deal",
+   "url": "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/brookfield-enters-india-logistics-realty-market-with-rs-4300-cr-esr-portfolio-deal/articleshow/134764839.cms"
+  }
+ ],
+ "synopsis": "Global alternative investment major Brookfield has acquired a 10.5 million sq ft logistics portfolio from ESR India for Rs 4,300 crore or $450 million, committing funds towards the transaction and future development of the portfolio. This marks Brookfield's foray into India's industrial and logistics real estate market by acquiring a 100% interest in the portfolio. ESR will continue to manage the properties in the near term. Spread across more than 400 acres in six metro clusters, the portfolio comprises eight Grade A parks across major gateway cities including Mumbai, Pune, Delhi NCR, Chennai and Kolkata, with the operating portfolio being 98% leased.",
+ "ticker": null,
+ "updatedAt": "2026-10-07T12:02:11.830783+00:00"
+}

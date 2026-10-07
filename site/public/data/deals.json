@@ -1,6 +1,28 @@
 {
- "dealCount": 808,
+ "dealCount": 809,
  "deals": [
+  {
+   "amountCr": 4300.0,
+   "amountRaw": "Rs 4,300-cr",
+   "company": "ESR",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-07T12:01:53.989218+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1140,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Brookfield acquires ESR India logistics portfolio for Rs 4,300 crore.",
+   "primaryOutlet": "ET Corporate",
+   "seller": "ESR group entities",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-07T12:02:11.830783+00:00",
+   "updates": []
+  },
   {
    "amountCr": 38000.0,
    "amountRaw": "₹38,000 crore",
@@ -25753,6 +25775,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-07T11:16:01.412804+00:00",
- "totalDeals": 808
+ "generatedAt": "2026-10-07T12:02:11.830783+00:00",
+ "totalDeals": 809
 }
