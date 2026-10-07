@@ -1,6 +1,28 @@
 {
- "dealCount": 809,
+ "dealCount": 810,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Solitario Lab Grown Limited",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-07T12:16:24.265674+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 1141,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Solitario Lab Grown files DRHP for an IPO on BSE SME.",
+   "primaryOutlet": "Outlook Business",
+   "seller": "Yashodhara Consultive LLP",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-07T12:16:27.893534+00:00",
+   "updates": []
+  },
   {
    "amountCr": 4300.0,
    "amountRaw": "Rs 4,300-cr",
@@ -827,7 +849,7 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 7,
+   "sourceCount": 8,
    "ticker": null,
    "updatedAt": "2026-10-05T06:31:14.779726+00:00",
    "updates": [
@@ -854,6 +876,10 @@
     {
      "attachedAt": "2026-10-07T06:16:03.594775+00:00",
      "title": "Electrical Products Maker Biocon Electric Limited Files DRHP with SEBI for IPO of up to 59,00,000 Equity Shares; Proposes Listing on the Main Board of BSE Limited and National Stock Exchange of India Limited"
+    },
+    {
+     "attachedAt": "2026-10-07T12:16:24.277235+00:00",
+     "title": "Electrical Products Maker Biocon Electric Limited Files DRHP with SEBI for IPO of up to 59,00,000 Equity..."
     }
    ]
   },
@@ -25775,6 +25801,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-07T12:02:11.830783+00:00",
- "totalDeals": 809
+ "generatedAt": "2026-10-07T12:16:27.893534+00:00",
+ "totalDeals": 810
 }
