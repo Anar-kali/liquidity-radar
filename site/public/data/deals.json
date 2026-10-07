@@ -1,6 +1,28 @@
 {
- "dealCount": 807,
+ "dealCount": 808,
  "deals": [
+  {
+   "amountCr": 38000.0,
+   "amountRaw": "₹38,000 crore",
+   "company": "Flipkart",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-07T11:15:57.272797+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 1139,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Flipkart employees seek fair ESOP treatment ahead of IPO, with potential buybacks worth Rs 38,000 crore.",
+   "primaryOutlet": "Mint",
+   "seller": "Flipkart employees",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-07T11:16:01.412804+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -25715,6 +25737,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-07T09:31:23.274666+00:00",
- "totalDeals": 807
+ "generatedAt": "2026-10-07T11:16:01.412804+00:00",
+ "totalDeals": 808
 }
