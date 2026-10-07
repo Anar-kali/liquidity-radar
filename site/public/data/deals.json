@@ -1,6 +1,28 @@
 {
- "dealCount": 805,
+ "dealCount": 806,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Twamev Construction TICL",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-07T08:46:02.416304+00:00",
+   "dealType": "promoter sale",
+   "enrichmentState": "failed",
+   "id": 1137,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Promoters of Twamev Construction TICL sell shares via market disclosure.",
+   "primaryOutlet": "Kalkine India",
+   "seller": "Promoters of Twamev Construction TICL",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-07T08:46:02.416304+00:00",
+   "updates": []
+  },
   {
    "amountCr": 3168.0,
    "amountRaw": "$400 million valuation (~3,168 crore INR)",
@@ -25663,6 +25685,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-07T06:01:23.310929+00:00",
- "totalDeals": 805
+ "generatedAt": "2026-10-07T08:46:02.416304+00:00",
+ "totalDeals": 806
 }
