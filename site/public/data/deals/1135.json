@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 1200.0,
+ "amountRaw": "₹1,200 cr",
+ "buyer": "EQT, Carlyle, Blackstone and ChrysCapital",
+ "company": "Gemsons",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-07T05:32:20.183446+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1135,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Global PE funds are eyeing a controlling stake in Gemsons at a 1,200 cr valuation.",
+ "primaryUrl": "https://www.livemint.com/companies/news/gemsons-precision-engineering-valuation-stake-sale-rs-1200-crore-global-pe-funds-11791341425128.html",
+ "seller": "Gemsons Precision Engineering promoters",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-07T05:32:20.184843+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "Global PE Funds eye controlling stake in Gemsons at ₹1,200 cr valuation",
+   "url": "https://www.livemint.com/companies/news/gemsons-precision-engineering-valuation-stake-sale-rs-1200-crore-global-pe-funds-11791341425128.html"
+  }
+ ],
+ "synopsis": "Gemsons Precision Engineering's promoters are looking to sell a controlling stake ranging from 80% to 100% in a transaction that may value the company between ₹1,000 crore and ₹1,200 crore. Initial feelers for the deal have been sent to private equity firms, including EQT, Carlyle, Blackstone, and ChrysCapital, with the objective of creating a platform for bolt-on acquisitions and expanding capabilities. The Mumbai-based precision engineering company was established in 1982 and is currently led by the second generation of the founding family.",
+ "ticker": null,
+ "updatedAt": "2026-10-07T05:32:23.829846+00:00"
+}
