@@ -1,0 +1,39 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "HD Fire Protect Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-07T04:31:08.230120+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": "failed",
+ "id": 1134,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "HD Fire Protect files draft offer document with SEBI for an IPO.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/oct-2026/hd-fire-protect-limited-rhp_105058.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-10-07T04:31:08.231676+00:00",
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "HD Fire Protect Limited - RHPHD Fire Protect Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/hd-fire-protect-limited-rhp_105058.html"
+  },
+  {
+   "attachedAt": "2026-10-07T04:31:08.238952+00:00",
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "HD Fire Protect Limited",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/oct-2026/HD%20Fire%20Protect%20Limited-Abridged%20Prospectus_p.pdf"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-10-07T04:31:08.230120+00:00"
+}
