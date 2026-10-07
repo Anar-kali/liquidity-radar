@@ -2817,7 +2817,7 @@
    "seller": "existing shareholders including promoters Akuri Srinivasa Reddy and A. Sandhya",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 4,
+   "sourceCount": 5,
    "ticker": null,
    "updatedAt": "2026-09-29T09:01:29.173167+00:00",
    "updates": [
@@ -2832,6 +2832,10 @@
     {
      "attachedAt": "2026-10-01T13:01:32.584879+00:00",
      "title": "Upcoming IPO: Technopaints And Chemicals Files Papers; Where Will Rs 500 Crore IPO Proceeds Go"
+    },
+    {
+     "attachedAt": "2026-10-07T11:31:48.631577+00:00",
+     "title": "Technopaints And Chemicals Filed DRHP For ₹500 Crore IPO"
     }
    ]
   },
@@ -4024,7 +4028,7 @@
    "seller": "promoters and existing shareholders",
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 4,
+   "sourceCount": 6,
    "ticker": null,
    "updatedAt": "2026-09-25T08:01:19.231728+00:00",
    "updates": [
@@ -4039,6 +4043,14 @@
     {
      "attachedAt": "2026-09-30T01:31:11.265887+00:00",
      "title": "Integrum Energy Infrastructure Limited ने SEBI के पास DRHP दाखिल किया"
+    },
+    {
+     "attachedAt": "2026-10-07T11:31:48.609182+00:00",
+     "title": "INTEGRUM ENERGY INFRASTRUCTURE LIMITED - DRHPINTEGRUM ENERGY INFRASTRUCTURE LIMITED"
+    },
+    {
+     "attachedAt": "2026-10-07T11:31:48.619956+00:00",
+     "title": "INTEGRUM ENERGY INFRASTRUCTURE LIMITED"
     }
    ]
   },
@@ -14840,7 +14852,7 @@
    "seller": "promoters of Swara Baby (implied)",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 13,
+   "sourceCount": 14,
    "ticker": null,
    "updatedAt": "2026-10-06T10:16:08.931499+00:00",
    "updates": [
@@ -14891,6 +14903,10 @@
     {
      "attachedAt": "2026-10-07T06:01:19.935442+00:00",
      "title": "Swara Baby Products IPO: FirstCry subsidiary gets SEBI approval for Rs 1,000 cr issue"
+    },
+    {
+     "attachedAt": "2026-10-07T11:31:48.643365+00:00",
+     "title": "Upcoming IPO: FirstCry-backed Swara Baby gets SEBI approval for Rs 1,000 crore issue; key details"
     }
    ]
   },
