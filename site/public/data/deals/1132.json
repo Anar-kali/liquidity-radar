@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Alliance Insurance Brokers",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-07T01:31:12.991787+00:00",
+ "dealType": "promoter sale",
+ "enrichmentState": null,
+ "id": 1132,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Alliance Insurance Brokers contemplates stake sale amid regulatory overhaul.",
+ "primaryUrl": "https://economictimes.indiatimes.com/industry/banking/finance/insure/irdai-overhaul-may-force-insurance-brokers-to-rethink-deal-valuations/articleshow/134748954.cms",
+ "seller": "Alliance Insurance Brokers",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-10-07T01:31:12.992700+00:00",
+   "outlet": "ET Corporate",
+   "resolvable": true,
+   "title": "IRDAI overhaul may force insurance brokers to rethink deal valuations",
+   "url": "https://economictimes.indiatimes.com/industry/banking/finance/insure/irdai-overhaul-may-force-insurance-brokers-to-rethink-deal-valuations/articleshow/134748954.cms"
+  }
+ ],
+ "synopsis": "Alliance Insurance Brokers has roped in O3 Capital to sell a third of the stake in the company to a strategic investor. The proposed stake sale comes amid a potential regulatory overhaul by the Insurance Regulatory and Development Authority of India, which has suggested changes including commission limits and higher compliance costs. Industry executives note that ongoing strategic sale plans may be reassessed once greater clarity emerges on the final regulations.",
+ "ticker": null,
+ "updatedAt": "2026-10-07T01:31:28.573374+00:00"
+}

@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Wizz Financial",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-07T01:31:12.985144+00:00",
+ "dealType": "IPO-OFS",
+ "enrichmentState": null,
+ "id": 1131,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Wizz Financial eyes 2029 IPO as part of India push.",
+ "primaryUrl": "https://www.livemint.com/companies/news/wizz-financial-bets-on-india-with-cross-border-fintech-push-eyes-2029-ipo-11791284761761.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-10-07T01:31:12.986292+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "Wizz Financial bets on India with cross-border fintech push, eyes 2029 IPO",
+   "url": "https://www.livemint.com/companies/news/wizz-financial-bets-on-india-with-cross-border-fintech-push-eyes-2029-ipo-11791284761761.html"
+  }
+ ],
+ "synopsis": "Fintech group Wizz Financial is building an India-focused cross-border financial platform and preparing to raise capital in 2027 ahead of an initial public offering in 2029. The company operates under the Wizzmoni brand in India, offering remittances, payments, lending, and newly introduced wealth management services including mutual funds and insurance. Wizz Financial is part of Switzerland-headquartered Prism Group AG. Its India operations recorded disbursements of 623 crore rupees in financial year 2025 and 484 crore rupees in the first half of financial year 2026, with a net profit of 9 crore rupees in financial year 2025.",
+ "ticker": null,
+ "updatedAt": "2026-10-07T01:31:24.580939+00:00"
+}
