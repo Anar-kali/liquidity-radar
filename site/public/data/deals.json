@@ -1,6 +1,50 @@
 {
- "dealCount": 819,
+ "dealCount": 821,
  "deals": [
+  {
+   "amountCr": 440.0,
+   "amountRaw": "Rs 440 crore",
+   "company": "Auto parts maker",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-08T14:01:43.116545+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 1152,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Auto parts maker files DRHP for a Rs 440 crore IPO issue.",
+   "primaryOutlet": "Zee Business",
+   "seller": "Arete 22 Limited",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-08T14:02:00.956658+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Sabari Constructions Technologies Limited",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-08T14:01:43.101074+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 1151,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Sabari Constructions Technologies Limited files DRHP for an IPO on NSE Emerge.",
+   "primaryOutlet": "Outlook Business",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-08T14:01:47.087382+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -26102,6 +26146,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-08T11:01:20.368736+00:00",
- "totalDeals": 819
+ "generatedAt": "2026-10-08T14:02:00.956658+00:00",
+ "totalDeals": 821
 }
