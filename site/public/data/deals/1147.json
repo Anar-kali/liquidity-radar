@@ -1,0 +1,39 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Rathod Jewellery Manufacturing Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-08T05:46:04.848178+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": "failed",
+ "id": 1147,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Rathod Jewellery Manufacturing Limited filed a draft prospectus for an IPO.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/oct-2026/rathod-jewellery-manufacturing-limited-drhp_105014.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-10-08T05:46:05.042346+00:00",
+   "outlet": "Draft Abridged Prospectus",
+   "resolvable": true,
+   "title": "Rathod Jewellery Manufacturing Limited - DRHPRathod Jewellery Manufacturing Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/rathod-jewellery-manufacturing-limited-drhp_105014.html"
+  },
+  {
+   "attachedAt": "2026-10-08T05:46:05.050413+00:00",
+   "outlet": "Draft Abridged Prospectus",
+   "resolvable": true,
+   "title": "Rathod Jewellery Manufacturing Limited",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/oct-2026/Rathod%20Jewellery%20Manufacturing%20Limited%20dap_p.pdf"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-10-08T05:46:04.848178+00:00"
+}

@@ -1,6 +1,55 @@
 {
- "dealCount": 815,
+ "dealCount": 817,
  "deals": [
+  {
+   "amountCr": 1830.4,
+   "amountRaw": "$208M",
+   "company": "Unidentified Supplier",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-08T05:46:05.052841+00:00",
+   "dealType": "unknown",
+   "enrichmentState": "failed",
+   "id": 1148,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "A McDonald's and KFC supplier is planning a $208M IPO in India.",
+   "primaryOutlet": "NewsBytes",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-08T05:46:05.052841+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Rathod Jewellery Manufacturing Limited",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-08T05:46:04.848178+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 1147,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Rathod Jewellery Manufacturing Limited filed a draft prospectus for an IPO.",
+   "primaryOutlet": "Draft Abridged Prospectus",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 2,
+   "ticker": null,
+   "updatedAt": "2026-10-08T05:46:04.848178+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-10-08T05:46:05.050413+00:00",
+     "title": "Rathod Jewellery Manufacturing Limited"
+    }
+   ]
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -25970,6 +26019,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-08T05:16:28.207795+00:00",
- "totalDeals": 815
+ "generatedAt": "2026-10-08T05:46:05.052841+00:00",
+ "totalDeals": 817
 }

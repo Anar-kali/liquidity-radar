@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 1830.4,
+ "amountRaw": "$208M",
+ "buyer": null,
+ "company": "Unidentified Supplier",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-08T05:46:05.052841+00:00",
+ "dealType": "unknown",
+ "enrichmentState": "failed",
+ "id": 1148,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "A McDonald's and KFC supplier is planning a $208M IPO in India.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWVhsODQxOG1KaU1TM1N2bm1PRzhhLTNpN1htSW8tR3lLVkJLVmc4c2RwZXRZVk9GaFQzZEJMTDhsOFI5cG9Mb1Fqb0JCRzBsMEdqTHNlcEhCT0ZZclh5ZjFfekxlanRNXzZVZ3BOSzRBTTlzMTNGMmFyZm82N2s1ekZPc25DeklLWWk3amJKNkl4NU5BUG9KNGRGNDJBU21PMFpTWFdB?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-08T05:46:05.053949+00:00",
+   "outlet": "NewsBytes",
+   "resolvable": false,
+   "title": "This McDonald's, KFC supplier is planning $208M IPO in India",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWVhsODQxOG1KaU1TM1N2bm1PRzhhLTNpN1htSW8tR3lLVkJLVmc4c2RwZXRZVk9GaFQzZEJMTDhsOFI5cG9Mb1Fqb0JCRzBsMEdqTHNlcEhCT0ZZclh5ZjFfekxlanRNXzZVZ3BOSzRBTTlzMTNGMmFyZm82N2s1ekZPc25DeklLWWk3amJKNkl4NU5BUG9KNGRGNDJBU21PMFpTWFdB?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-10-08T05:46:05.052841+00:00"
+}
