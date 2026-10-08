@@ -1,6 +1,33 @@
 {
- "dealCount": 818,
+ "dealCount": 819,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Grace Renewable Energy Limited",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-08T08:46:04.443297+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 1150,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Grace Renewable Energy filed a draft offer document with SEBI for an IPO.",
+   "primaryOutlet": "Draft Abridged Prospectus",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 2,
+   "ticker": null,
+   "updatedAt": "2026-10-08T08:46:04.443297+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-10-08T08:46:04.453292+00:00",
+     "title": "Grace Renewable Energy Limited"
+    }
+   ]
+  },
   {
    "amountCr": 400.0,
    "amountRaw": "₹400 crore",
@@ -118,10 +145,15 @@
    "seller": "Reliance Industries",
    "sizeBand": "OVER_2000",
    "sizeSource": "band",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-10-08T04:46:09.742020+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-10-08T08:46:04.473156+00:00",
+     "title": "Reliance Jio IPO Nears, Akash Ambani Reveals Big Plans- Know What Awaits Shareholders After Listing?"
+    }
+   ]
   },
   {
    "amountCr": 958.4,
@@ -26053,6 +26085,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-08T08:16:03.483526+00:00",
- "totalDeals": 818
+ "generatedAt": "2026-10-08T08:46:04.443297+00:00",
+ "totalDeals": 819
 }
