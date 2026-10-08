@@ -639,7 +639,7 @@
    "seller": "Jio Platforms",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 7,
+   "sourceCount": 9,
    "ticker": null,
    "updatedAt": "2026-10-06T05:16:06.239347+00:00",
    "updates": [
@@ -666,6 +666,14 @@
     {
      "attachedAt": "2026-10-08T04:31:03.387537+00:00",
      "title": "Jio Platforms IPO Likely To Hit Markets by October-End At $143-146 Billion Valuation"
+    },
+    {
+     "attachedAt": "2026-10-08T07:31:14.269729+00:00",
+     "title": "Jio Platforms Plans $3.8 Bn IPO On October 21, Set To Be India’s Biggest Listing"
+    },
+    {
+     "attachedAt": "2026-10-08T07:31:14.278166+00:00",
+     "title": "India's Biggest IPO Can Launch On October 21: Rs 37,000 Crore JIO IPO"
     }
    ]
   },
@@ -15114,7 +15122,7 @@
    "seller": "promoters of Swara Baby (implied)",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 15,
+   "sourceCount": 16,
    "ticker": null,
    "updatedAt": "2026-10-06T10:16:08.931499+00:00",
    "updates": [
@@ -15173,6 +15181,10 @@
     {
      "attachedAt": "2026-10-07T13:16:02.232641+00:00",
      "title": "Swara Baby Products Gets SEBI Approval for IPO"
+    },
+    {
+     "attachedAt": "2026-10-08T07:31:14.260153+00:00",
+     "title": "Swara Baby Products Gets SEBI Nod for About Rs 1,000 Crore IPO"
     }
    ]
   },
