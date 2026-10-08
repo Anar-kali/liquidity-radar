@@ -1,6 +1,28 @@
 {
- "dealCount": 811,
+ "dealCount": 812,
  "deals": [
+  {
+   "amountCr": 400.0,
+   "amountRaw": "Rs 4,000.00 million (Rs 400 crore) (from article)",
+   "company": "Pragyawan Technologies",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-08T01:31:22.974444+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 1143,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Pragyawan Technologies files DRHP with SEBI for an upcoming IPO.",
+   "primaryOutlet": "https://www.fintechbiznews.com/",
+   "seller": "Pragyawan Technologies Limited",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-08T01:31:45.799825+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": "56.13%",
@@ -25847,6 +25869,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-07T12:31:18.595604+00:00",
- "totalDeals": 811
+ "generatedAt": "2026-10-08T01:31:45.799825+00:00",
+ "totalDeals": 812
 }

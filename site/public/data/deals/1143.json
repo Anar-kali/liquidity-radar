@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 400.0,
+ "amountRaw": "Rs 4,000.00 million (Rs 400 crore) (from article)",
+ "buyer": null,
+ "company": "Pragyawan Technologies",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-08T01:31:22.974444+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": null,
+ "id": 1143,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Pragyawan Technologies files DRHP with SEBI for an upcoming IPO.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTERMWWFXLThWX0hMZ3RkbHVXZ3QxQk1qOWFlUk9DVWlud254X0pTQUN4LWt5cGhfWVV6eXg1QWNOSnl6T2wzYlpydm1PS0xTV2RUSEVHQmxkYzhmZEVjSFF5OXB3cGJJRHV4MHotZ0pmaHNXZG9pTmlhMU04U0tvQldwakdTbERxNlNNTDg4WkxaVC03Y0FZekZB?oc=5",
+ "seller": "Pragyawan Technologies Limited",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-08T01:31:22.976893+00:00",
+   "outlet": "https://www.fintechbiznews.com/",
+   "resolvable": false,
+   "title": "Pragyawan Technologies Files DRHP With SEBI",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTERMWWFXLThWX0hMZ3RkbHVXZ3QxQk1qOWFlUk9DVWlud254X0pTQUN4LWt5cGhfWVV6eXg1QWNOSnl6T2wzYlpydm1PS0xTV2RUSEVHQmxkYzhmZEVjSFF5OXB3cGJJRHV4MHotZ0pmaHNXZG9pTmlhMU04U0tvQldwakdTbERxNlNNTDg4WkxaVC03Y0FZekZB?oc=5"
+  }
+ ],
+ "synopsis": "Pragyawan Technologies Limited has filed its Draft Red Herring Prospectus with the Securities and Exchange Board of India to raise funds through an initial public offering. The public offer includes a fresh issue aggregating up to Rs 400 crore and an offer for sale of up to 15,000,000 equity shares with a face value of Rs 2 each. The net proceeds are intended to fund working capital requirements and general corporate purposes. Pantomath Capital Advisors Limited acts as the sole book running lead manager to the issue.",
+ "ticker": null,
+ "updatedAt": "2026-10-08T01:31:45.799825+00:00"
+}
