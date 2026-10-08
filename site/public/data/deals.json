@@ -1,6 +1,28 @@
 {
- "dealCount": 812,
+ "dealCount": 813,
  "deals": [
+  {
+   "amountCr": 958.4,
+   "amountRaw": "5.35% x mcap ~Rs 17914cr = ~Rs 958cr",
+   "company": "Aequs",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-08T04:31:03.384646+00:00",
+   "dealType": "block deal",
+   "enrichmentState": "failed",
+   "id": 1144,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "AmanSA Investments sells 934,000 shares in Aequs, cashing out part of its stake.",
+   "primaryOutlet": "scanx.trade",
+   "seller": "AmanSA Investments",
+   "sizeBand": null,
+   "sizeSource": "computed",
+   "sourceCount": 1,
+   "ticker": "AEQUS.NS",
+   "updatedAt": "2026-10-08T04:31:03.384646+00:00",
+   "updates": []
+  },
   {
    "amountCr": 400.0,
    "amountRaw": "Rs 4,000.00 million (Rs 400 crore) (from article)",
@@ -517,7 +539,7 @@
    "seller": "Jio Platforms",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 6,
+   "sourceCount": 7,
    "ticker": null,
    "updatedAt": "2026-10-06T05:16:06.239347+00:00",
    "updates": [
@@ -540,6 +562,10 @@
     {
      "attachedAt": "2026-10-07T05:16:06.736598+00:00",
      "title": "Jio Platforms IPO: No OFS as investors opt against stake sale, issue may raise $3.8 billion"
+    },
+    {
+     "attachedAt": "2026-10-08T04:31:03.387537+00:00",
+     "title": "Jio Platforms IPO Likely To Hit Markets by October-End At $143-146 Billion Valuation"
     }
    ]
   },
@@ -25877,6 +25903,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-08T01:31:45.799825+00:00",
- "totalDeals": 812
+ "generatedAt": "2026-10-08T04:31:03.384646+00:00",
+ "totalDeals": 813
 }

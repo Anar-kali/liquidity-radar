@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 958.4,
+ "amountRaw": "5.35% x mcap ~Rs 17914cr = ~Rs 958cr",
+ "buyer": null,
+ "company": "Aequs",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-08T04:31:03.384646+00:00",
+ "dealType": "block deal",
+ "enrichmentState": "failed",
+ "id": 1144,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "AmanSA Investments sells 934,000 shares in Aequs, cashing out part of its stake.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNVC1uWVNjR19QUTh4cklxWktZSXJ4MkJHTmpZNnNqMmZ6SWczTE5URkhBc1hIU3EzOHVEYUJjZW94V0M1TEJsWFJid0dsR3VkZks5bU92anNQMnotcDU0UkkxTFlXWjZyX2NQcjl2VlNqUXV4Um9QVFZSUnpjOTBOTU56OEJvWWc3WGt4YUdjMlQxVVB6ZnZDaFdqdmpuaGIyVFoxU0J5UlBzSGhGVXAwYlJValhSMUI0V3Judg?oc=5",
+ "seller": "AmanSA Investments",
+ "sizeBand": null,
+ "sizeSource": "computed",
+ "sources": [
+  {
+   "attachedAt": "2026-10-08T04:31:03.385607+00:00",
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "AmanSA Investments cuts stake in Aequs to 5.35% after selling 934,000 shares",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNVC1uWVNjR19QUTh4cklxWktZSXJ4MkJHTmpZNnNqMmZ6SWczTE5URkhBc1hIU3EzOHVEYUJjZW94V0M1TEJsWFJid0dsR3VkZks5bU92anNQMnotcDU0UkkxTFlXWjZyX2NQcjl2VlNqUXV4Um9QVFZSUnpjOTBOTU56OEJvWWc3WGt4YUdjMlQxVVB6ZnZDaFdqdmpuaGIyVFoxU0J5UlBzSGhGVXAwYlJValhSMUI0V3Judg?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": "AEQUS.NS",
+ "updatedAt": "2026-10-08T04:31:03.384646+00:00"
+}
