@@ -1,6 +1,33 @@
 {
- "dealCount": 814,
+ "dealCount": 815,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Rudra Green Ship Recycling Limited",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-08T05:16:28.207795+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 1146,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Rudra Green Ship Recycling filed its DRHP with SEBI for an IPO.",
+   "primaryOutlet": "Draft Abridged Prospectus",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 2,
+   "ticker": null,
+   "updatedAt": "2026-10-08T05:16:28.207795+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-10-08T05:16:28.218191+00:00",
+     "title": "Rudra Green Ship Recycling Limited"
+    }
+   ]
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -25943,6 +25970,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-08T04:46:09.742020+00:00",
- "totalDeals": 814
+ "generatedAt": "2026-10-08T05:16:28.207795+00:00",
+ "totalDeals": 815
 }

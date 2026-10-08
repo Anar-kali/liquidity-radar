@@ -1,0 +1,39 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Rudra Green Ship Recycling Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-08T05:16:28.207795+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": "failed",
+ "id": 1146,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Rudra Green Ship Recycling filed its DRHP with SEBI for an IPO.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/oct-2026/rudra-green-ship-recycling-limited-drhp_105008.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-10-08T05:16:28.209248+00:00",
+   "outlet": "Draft Abridged Prospectus",
+   "resolvable": true,
+   "title": "Rudra Green Ship Recycling Limited - DRHPRudra Green Ship Recycling Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/rudra-green-ship-recycling-limited-drhp_105008.html"
+  },
+  {
+   "attachedAt": "2026-10-08T05:16:28.218191+00:00",
+   "outlet": "Draft Abridged Prospectus",
+   "resolvable": true,
+   "title": "Rudra Green Ship Recycling Limited",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/oct-2026/Rudra%20Green%20Ship%20Recycling%20Limited_Draft%20Abridged%20Prospectus_p.pdf"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-10-08T05:16:28.207795+00:00"
+}
