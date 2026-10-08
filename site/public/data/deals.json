@@ -1,6 +1,28 @@
 {
- "dealCount": 817,
+ "dealCount": 818,
  "deals": [
+  {
+   "amountCr": 400.0,
+   "amountRaw": "₹400 crore",
+   "company": "SK Finance",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-08T08:15:59.609118+00:00",
+   "dealType": "PE secondary",
+   "enrichmentState": null,
+   "id": 1149,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "TPG and Norwest explore partial exits in a ₹400 crore deal with Neo Secondaries and Kenro Capital.",
+   "primaryOutlet": "Mint",
+   "seller": "TPG and Norwest",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-08T08:16:03.483526+00:00",
+   "updates": []
+  },
   {
    "amountCr": 1830.4,
    "amountRaw": "$208M",
@@ -26031,6 +26053,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-08T05:46:05.052841+00:00",
- "totalDeals": 817
+ "generatedAt": "2026-10-08T08:16:03.483526+00:00",
+ "totalDeals": 818
 }

@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 400.0,
+ "amountRaw": "₹400 crore",
+ "buyer": "Neo Secondaries Fund and Kenro Capital",
+ "company": "SK Finance",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-08T08:15:59.609118+00:00",
+ "dealType": "PE secondary",
+ "enrichmentState": null,
+ "id": 1149,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "TPG and Norwest explore partial exits in a ₹400 crore deal with Neo Secondaries and Kenro Capital.",
+ "primaryUrl": "https://www.livemint.com/companies/news/sk-finance-neo-kenro-capital-stake-sale-11791429483423.html",
+ "seller": "TPG and Norwest",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-08T08:15:59.610319+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "SK Finance’s early backers eye part exits to Neo, Kenro in ₹400 crore deal",
+   "url": "https://www.livemint.com/companies/news/sk-finance-neo-kenro-capital-stake-sale-11791429483423.html"
+  }
+ ],
+ "synopsis": "Long-term private equity backers TPG and Norwest Venture Partners are exploring partial exits from Jaipur-based non-banking financial company SK Finance in a deal valued at ₹ 400 crore. Neo Secondaries Fund and Kenro Capital are expected to acquire the combined stake in the lender. Conversations regarding the transaction are currently underway. This comes more than a year after SK Finance shelved its plans for an initial public offering of about ₹ 2,200 crore, which had received regulatory approval. As of December 2025, Norwest, TPG, Baring Private Equity India, Evolvence and 360 ONE’s Special Opportunities Fund collectively held a 62.34% stake in the company. Emails sent to SK Finance, Norwest, and Kenro did not elicit a response, while TPG and Neo declined to comment.",
+ "ticker": null,
+ "updatedAt": "2026-10-08T08:16:03.483526+00:00"
+}
