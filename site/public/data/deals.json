@@ -145,13 +145,17 @@
    "seller": "Reliance Industries",
    "sizeBand": "OVER_2000",
    "sizeSource": "band",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-10-08T04:46:09.742020+00:00",
    "updates": [
     {
      "attachedAt": "2026-10-08T08:46:04.473156+00:00",
      "title": "Reliance Jio IPO Nears, Akash Ambani Reveals Big Plans- Know What Awaits Shareholders After Listing?"
+    },
+    {
+     "attachedAt": "2026-10-08T09:31:18.031984+00:00",
+     "title": "Jio IPO: Key details, timeline and important updates"
     }
    ]
   },
