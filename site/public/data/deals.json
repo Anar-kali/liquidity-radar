@@ -1354,7 +1354,7 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 9,
+   "sourceCount": 10,
    "ticker": null,
    "updatedAt": "2026-10-05T06:31:14.779726+00:00",
    "updates": [
@@ -1389,6 +1389,10 @@
     {
      "attachedAt": "2026-10-09T05:01:12.757595+00:00",
      "title": "Biocon Electric Files DRHP for IPO of Up to 59 Lakh Equity Shares"
+    },
+    {
+     "attachedAt": "2026-10-09T14:46:00.528653+00:00",
+     "title": "Biocon Electric Files DRHP With SEBI For Proposed IPO Of 59 Lakh Shares"
     }
    ]
   },
