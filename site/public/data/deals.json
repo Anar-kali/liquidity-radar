@@ -1,6 +1,28 @@
 {
- "dealCount": 828,
+ "dealCount": 829,
  "deals": [
+  {
+   "amountCr": 250.0,
+   "amountRaw": "Rs 250 crore",
+   "company": "Anthem Biosciences",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-09T16:31:16.854825+00:00",
+   "dealType": "block deal",
+   "enrichmentState": null,
+   "id": 1161,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Portsmouth Technologies sells 30 lakh shares in Anthem Biosciences for Rs 250 crore via block deal.",
+   "primaryOutlet": "The Economic Times",
+   "seller": "Portsmouth Technologies",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "ANTHEM.NS",
+   "updatedAt": "2026-10-09T16:31:21.077533+00:00",
+   "updates": []
+  },
   {
    "amountCr": 30200.0,
    "amountRaw": "₹ 30,200 crore (from article)",
@@ -26358,6 +26380,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-09T14:02:03.846198+00:00",
- "totalDeals": 828
+ "generatedAt": "2026-10-09T16:31:21.077533+00:00",
+ "totalDeals": 829
 }
