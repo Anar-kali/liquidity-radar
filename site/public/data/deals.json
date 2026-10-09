@@ -1,6 +1,28 @@
 {
- "dealCount": 826,
+ "dealCount": 827,
  "deals": [
+  {
+   "amountCr": 300.0,
+   "amountRaw": "₹300 Crore - ₹300 Crore",
+   "company": "Mount Everest Breweries",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-09T11:46:02.336773+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 1159,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Mount Everest Breweries files DRHP for a 300 crore IPO.",
+   "primaryOutlet": "Aabkari Times",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-09T11:46:02.336773+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -26297,6 +26319,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-09T10:31:15.751030+00:00",
- "totalDeals": 826
+ "generatedAt": "2026-10-09T11:46:02.336773+00:00",
+ "totalDeals": 827
 }

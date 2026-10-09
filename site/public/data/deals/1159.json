@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 300.0,
+ "amountRaw": "₹300 Crore - ₹300 Crore",
+ "buyer": null,
+ "company": "Mount Everest Breweries",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-09T11:46:02.336773+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": "failed",
+ "id": 1159,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Mount Everest Breweries files DRHP for a 300 crore IPO.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTXhkWDdUOUl6UDBpRmVhZkt1WHhIZkxPTkdnR256QjJqUVBiQnBnTEN3N0k4MXNtdk8xVDhyVXF5ZkdqN2QtRzhyaGU5SVQ1VHZJUGNUV2hYTHg1Q0dqaml1akRIdXpES1dOb0pkTEE5ZUdScVpna1A1S213WEVnLTc3Rkx3bXFVdl9pUDA3NmZsa2d0c3hUdU9uRU9zWTlGYmdNRHBsVU1pN3c?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-09T11:46:02.338648+00:00",
+   "outlet": "Aabkari Times",
+   "resolvable": false,
+   "title": "Mount Everest Breweries Files DRHP for ₹300 Crore IPO to Fund Expansion and Debt Repayment",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTXhkWDdUOUl6UDBpRmVhZkt1WHhIZkxPTkdnR256QjJqUVBiQnBnTEN3N0k4MXNtdk8xVDhyVXF5ZkdqN2QtRzhyaGU5SVQ1VHZJUGNUV2hYTHg1Q0dqaml1akRIdXpES1dOb0pkTEE5ZUdScVpna1A1S213WEVnLTc3Rkx3bXFVdl9pUDA3NmZsa2d0c3hUdU9uRU9zWTlGYmdNRHBsVU1pN3c?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-10-09T11:46:02.336773+00:00"
+}
