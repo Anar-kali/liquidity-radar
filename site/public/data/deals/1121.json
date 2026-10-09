@@ -10,7 +10,9 @@
  "dealType": "unknown",
  "enrichmentState": null,
  "id": 1121,
- "individuals": [],
+ "individuals": [
+  "Akash Ambani"
+ ],
  "listed": false,
  "oneLine": "Jio Platforms is planning an IPO/listing event.",
  "primaryUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdnJKVmhpcTFGV0dmWnpHQWZ2dVJ3dDk5UnpMUEY5bjRzODRvb1F3ODVzYU5FZTBEOXh4TDZBbGU0V2U4bUtSM3pLZzc3ZHRfZGVOaG9VQXRBRnlMQmZqTm9nSU9EaU1qbDkwdXE4Z2htQ0cxV05iaDlOOWpmMWE2YVFFVUVJMi1nX19lWnQ3djRCYThGcXVPWTAxMnBUZWJDdE5GZ2hPY2x4ODlJVEFEeFI0OA?oc=5",
@@ -87,9 +89,16 @@
    "resolvable": false,
    "title": "Jio Platforms IPO may come without OFS, valuation could cross INR 12 lakh crore",
    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPYmp2NllBUFU0SkR0dWhKVEF4aUZkTElKZnotbEJzZVVtU1ByTXFUaDNHS3RBQW5IUHcwTzNETW9UbGN1dnlXVjVvSDZNcE9KRXBjMDFocDktVGdTQnVkQ3ByNGV0YnRBMnJwUnBtaWV2SFRDYmpfdjFBVUhUcWVERlhRWFNpRGtXOEc2b25sYVF0WVZNWFllOGRXc1oyZWozYkdRWmdDZ3l0VFJ0bm5tUG11bklCcGZxNXFNREZfaHFiRWJOaXNlZ2pR?oc=5"
+  },
+  {
+   "attachedAt": "2026-10-09T01:31:05.781468+00:00",
+   "outlet": "NewsBytes",
+   "resolvable": false,
+   "title": "Jio Platforms announces ₹35,000cr IPO, Akash Ambani cites shareholder value",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQM19rR3ZURjM0Vld4T2ptdmtuZzZJbW5oSG0xMTFYUVMwU05sOVRFRUdjN25IelBXamJBbWpLQm01X0Vib1BCVUtqYUVXaDctVmlSLVFtVTBPbHdhbXREalQtejMxV3NqNVQxT0ZKc1ZKVVNQQnU2dGI3Y21rRDBJS1FPTjVzVk5DbFV5YlhkeVFkOUlaN0hOMDlvRmd0OEQ1WmpvQzI0YjQ2eG1hTHZfTDB0T2FPdmtLR1N6akFtVQ?oc=5"
   }
  ],
  "synopsis": "Jio Platforms is planning an initial public offering estimated at $4 billion, or 37,700 crore, slated around Dussehra. The company plans to file its red herring prospectus after October 12, with the public issue expected to open for subscription on October 21 and list on October 28. The IPO comprises a fresh issue of up to 270 million new equity shares, accounting for about 2.9% of the company's post-issue equity capital, with no offer-for-sale component. The proceeds will be deployed towards the prepayment of up to 27,500 crore of borrowings at its operating subsidiary, Reliance Jio Infocomm Ltd, and for general corporate purposes.",
  "ticker": null,
- "updatedAt": "2026-10-06T05:16:06.239347+00:00"
+ "updatedAt": "2026-10-09T01:31:05.782532+00:00"
 }
