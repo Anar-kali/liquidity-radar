@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 986.35,
+ "amountRaw": "Rs 986.35 crore (from article)",
+ "buyer": "Apollo Micro Systems",
+ "company": "Premier Explosives",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-09T09:16:04.880811+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1157,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Apollo Micro Systems sets offer price to acquire stake in Premier Explosives.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPeVBSSWhQckhwLUFJNWswR2g4OW9sWVRaUnk3R1gwcWI5OUpnWlg2TGN0VFpiNllVRmhFS3ZycmUwSFBTdTB0RXMya3dJSW4xT1ZoT2tMVkNOZ0FIRUdYeUxxdlc0bW1aaU5oRlozNVdqc216VFVHWEtTZm5YclJqeHpwUVRZckNxeUtwcGZKSmp6RVotQ2l5MVZLZHRISzYyaFhHVUFzeGxfUWZXSWFGVWFhcnh2aUJzRWFoMjMxWjFVcVY2ellQYjA5UnRKb3YtMUMtYlpwWDh5M2xHS0Rsc19hbGh4YVlXYjlVT05zRms2U0p4bVYtcExn?oc=5",
+ "seller": "Premier Explosives Ltd shareholders",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-09T09:16:04.881874+00:00",
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "Apollo Micro Systems Sets Rs 698 Offer Price for Premier Explosives Stake",
+   "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPeVBSSWhQckhwLUFJNWswR2g4OW9sWVRaUnk3R1gwcWI5OUpnWlg2TGN0VFpiNllVRmhFS3ZycmUwSFBTdTB0RXMya3dJSW4xT1ZoT2tMVkNOZ0FIRUdYeUxxdlc0bW1aaU5oRlozNVdqc216VFVHWEtTZm5YclJqeHpwUVRZckNxeUtwcGZKSmp6RVotQ2l5MVZLZHRISzYyaFhHVUFzeGxfUWZXSWFGVWFhcnh2aUJzRWFoMjMxWjFVcVY2ellQYjA5UnRKb3YtMUMtYlpwWDh5M2xHS0Rsc19hbGh4YVlXYjlVT05zRms2U0p4bVYtcExn?oc=5"
+  }
+ ],
+ "synopsis": "Apollo Micro Systems Limited has issued the mandatory Pre-Offer Advertisement-cum-Corrigendum for its open offer to acquire a 26% stake in Premier Explosives Ltd. The open offer values the transaction at approximately Rs 986.35 crore, with an offer price of Rs 698 per share for 1,39,77,911 equity shares. The tendering period for investors is scheduled to run from October 12 to October 26, 2026. Cumulative Capital Pvt Ltd is acting as the manager to the offer, ensuring compliance with SEBI regulations.",
+ "ticker": "PREMEXPLN.NS",
+ "updatedAt": "2026-10-09T09:16:08.203725+00:00"
+}

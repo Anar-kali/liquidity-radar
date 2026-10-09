@@ -1,6 +1,28 @@
 {
- "dealCount": 824,
+ "dealCount": 825,
  "deals": [
+  {
+   "amountCr": 986.35,
+   "amountRaw": "Rs 986.35 crore (from article)",
+   "company": "Premier Explosives",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-09T09:16:04.880811+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1157,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Apollo Micro Systems sets offer price to acquire stake in Premier Explosives.",
+   "primaryOutlet": "Whalesbook",
+   "seller": "Premier Explosives Ltd shareholders",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "PREMEXPLN.NS",
+   "updatedAt": "2026-10-09T09:16:08.203725+00:00",
+   "updates": []
+  },
   {
    "amountCr": 2500.0,
    "amountRaw": "₹2,500-crore",
@@ -26247,6 +26269,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-09T08:15:57.796232+00:00",
- "totalDeals": 824
+ "generatedAt": "2026-10-09T09:16:08.203725+00:00",
+ "totalDeals": 825
 }
