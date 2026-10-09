@@ -1,6 +1,28 @@
 {
- "dealCount": 827,
+ "dealCount": 828,
  "deals": [
+  {
+   "amountCr": 30200.0,
+   "amountRaw": "₹ 30,200 crore (from article)",
+   "company": "Jio Platforms",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-09T14:02:00.633725+00:00",
+   "dealType": "unknown",
+   "enrichmentState": null,
+   "id": 1160,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Jio Platforms is reported to set an IPO price band with listing expected in October.",
+   "primaryOutlet": "Livemint",
+   "seller": "Jio Platforms Ltd.",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-09T14:02:03.846198+00:00",
+   "updates": []
+  },
   {
    "amountCr": 300.0,
    "amountRaw": "₹300 Crore - ₹300 Crore",
@@ -26328,6 +26350,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-09T11:46:02.336773+00:00",
- "totalDeals": 827
+ "generatedAt": "2026-10-09T14:02:03.846198+00:00",
+ "totalDeals": 828
 }
