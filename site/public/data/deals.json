@@ -1,6 +1,32 @@
 {
- "dealCount": 822,
+ "dealCount": 823,
  "deals": [
+  {
+   "amountCr": 375.0,
+   "amountRaw": "₹375-Crore IPO",
+   "company": "WOG Technologies",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-09T06:45:57.557090+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 1155,
+   "individuals": [
+    "Satyapal Singh",
+    "Sunil Kumar",
+    "Amrita Panwar"
+   ],
+   "listed": false,
+   "oneLine": "WOG Technologies filed for a Rs 375 crore IPO, bringing promoter liquidity.",
+   "primaryOutlet": "LinkedIn",
+   "seller": "WOG Technologies Limited",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-09T06:46:01.833431+00:00",
+   "updates": []
+  },
   {
    "amountCr": 511.0,
    "amountRaw": "Rs 511 Crore",
@@ -26186,6 +26212,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-09T02:46:03.294719+00:00",
- "totalDeals": 822
+ "generatedAt": "2026-10-09T06:46:01.833431+00:00",
+ "totalDeals": 823
 }

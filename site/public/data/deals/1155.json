@@ -1,0 +1,36 @@
+{
+ "advisers": [],
+ "amountCr": 375.0,
+ "amountRaw": "₹375-Crore IPO",
+ "buyer": "Public",
+ "company": "WOG Technologies",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-09T06:45:57.557090+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": null,
+ "id": 1155,
+ "individuals": [
+  "Satyapal Singh",
+  "Sunil Kumar",
+  "Amrita Panwar"
+ ],
+ "listed": false,
+ "oneLine": "WOG Technologies filed for a Rs 375 crore IPO, bringing promoter liquidity.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQXdfd3E5OFlDZDNGeWR1NzVOTWVrZU1jdGw1SENaZWNyaXIzNjNvYkZvOC0yNXQ5eGRKQW9pdGtZVm4zdkp3b2RTbW1NR21KYjhwYmpta2Ffd3BrUkZDaDJwZVJvYlpmeElRQkJkVXpDMllDVC1NblFYd2FsRkk4Y2E0eU0yWHZvTFFSTDRkSjVpeUx5NEpKZw?oc=5",
+ "seller": "WOG Technologies Limited",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-09T06:45:57.559144+00:00",
+   "outlet": "LinkedIn",
+   "resolvable": false,
+   "title": "WOG Technologies: The ₹316-Crore Water Company That Filed for a ₹375-Crore IPO",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQXdfd3E5OFlDZDNGeWR1NzVOTWVrZU1jdGw1SENaZWNyaXIzNjNvYkZvOC0yNXQ5eGRKQW9pdGtZVm4zdkp3b2RTbW1NR21KYjhwYmpta2Ffd3BrUkZDaDJwZVJvYlpmeElRQkJkVXpDMllDVC1NblFYd2FsRkk4Y2E0eU0yWHZvTFFSTDRkSjVpeUx5NEpKZw?oc=5"
+  }
+ ],
+ "synopsis": "WOG Technologies Limited, a Delhi-headquartered environmental engineering and industrial water infrastructure company, filed its draft red herring prospectus (DRHP) with SEBI for an initial public offering (IPO) consisting of a fresh issue of Rs 375 crore alongside a 43.28 lakh share offer for sale (OFS). The company is led by promoters Satyapal Singh, Sunil Kumar, and Amrita Panwar. The business reported consolidated annual revenue of Rs 315.8 crore for FY26 with strong export exposure and a robust order book. The IPO proceeds are earmarked in part to buy out the remaining 50% stake in Bell Cooling Towers.",
+ "ticker": null,
+ "updatedAt": "2026-10-09T06:46:01.833431+00:00"
+}
