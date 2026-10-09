@@ -1,6 +1,30 @@
 {
- "dealCount": 825,
+ "dealCount": 826,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Veeba Foods",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-09T10:31:11.714840+00:00",
+   "dealType": "unknown",
+   "enrichmentState": null,
+   "id": 1158,
+   "individuals": [
+    "Viraj Bahl"
+   ],
+   "listed": false,
+   "oneLine": "Verlinvest-backed Veeba Foods is preparing for an IPO targeting over Rs 8,000 crore valuation.",
+   "primaryOutlet": "Moneycontrol.com",
+   "seller": "Veeba Foods",
+   "sizeBand": "OVER_2000",
+   "sizeSource": "band",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-09T10:31:15.751030+00:00",
+   "updates": []
+  },
   {
    "amountCr": 986.35,
    "amountRaw": "Rs 986.35 crore (from article)",
@@ -26269,6 +26293,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-09T09:16:08.203725+00:00",
- "totalDeals": 825
+ "generatedAt": "2026-10-09T10:31:15.751030+00:00",
+ "totalDeals": 826
 }
