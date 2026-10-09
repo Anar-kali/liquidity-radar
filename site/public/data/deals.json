@@ -2145,7 +2145,7 @@
    "seller": "promoters",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 5,
+   "sourceCount": 6,
    "ticker": "500058.BO",
    "updatedAt": "2026-10-01T06:16:05.565767+00:00",
    "updates": [
@@ -2164,6 +2164,10 @@
     {
      "attachedAt": "2026-10-05T11:01:27.822997+00:00",
      "title": "B S Sponge Limited"
+    },
+    {
+     "attachedAt": "2026-10-09T07:01:38.559676+00:00",
+     "title": "B.S. Sponge Files DRHP for INR 1,000 Crore IPO"
     }
    ]
   },
