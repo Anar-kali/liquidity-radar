@@ -1,6 +1,28 @@
 {
- "dealCount": 821,
+ "dealCount": 822,
  "deals": [
+  {
+   "amountCr": 511.0,
+   "amountRaw": "Rs 511 Crore",
+   "company": "Popees Baby Care",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-09T02:45:59.306541+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1154,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Popees Baby Care approves Rs 511 crore acquisition and capital expansion plan.",
+   "primaryOutlet": "Whalesbook",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-09T02:46:03.294719+00:00",
+   "updates": []
+  },
   {
    "amountCr": 440.0,
    "amountRaw": "Rs 440 crore",
@@ -26156,6 +26178,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-09T01:31:05.782532+00:00",
- "totalDeals": 821
+ "generatedAt": "2026-10-09T02:46:03.294719+00:00",
+ "totalDeals": 822
 }
