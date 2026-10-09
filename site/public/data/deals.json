@@ -19692,7 +19692,7 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 7,
+   "sourceCount": 8,
    "ticker": null,
    "updatedAt": "2026-08-16T07:46:32.444685+00:00",
    "updates": [
@@ -19719,6 +19719,10 @@
     {
      "attachedAt": "2026-08-16T07:46:32.443775+00:00",
      "title": "Quest Global: ਭਾਰਤ ਵਿੱਚ ₹7,000 ਕਰੋੜ ਦਾ IPO ਲਿਆਉਣ ਦੀ ਤਿਆਰੀ, ਹੈੱਡਕੁਆਰਟਰ ਵੀ ਹੋਵੇਗਾ ਬਦਲਿਆ"
+    },
+    {
+     "attachedAt": "2026-10-09T14:15:53.851155+00:00",
+     "title": "Quest Global shifts domicile to India ahead of IPO"
     }
    ]
   },
