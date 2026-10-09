@@ -404,8 +404,8 @@
    ]
   },
   {
-   "amountCr": 38000.0,
-   "amountRaw": "₹38,000 crore",
+   "amountCr": 16600.0,
+   "amountRaw": "$2 bn",
    "company": "Flipkart",
    "confidence": "medium",
    "confirmed": false,
@@ -420,13 +420,17 @@
    "seller": "Flipkart employees",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
-   "updatedAt": "2026-10-07T11:16:01.412804+00:00",
+   "updatedAt": "2026-10-09T08:15:57.796232+00:00",
    "updates": [
     {
      "attachedAt": "2026-10-08T11:46:05.366217+00:00",
      "title": "Ex-Flipkart Executives press Walmart to buy out their stock options"
+    },
+    {
+     "attachedAt": "2026-10-09T08:15:57.795275+00:00",
+     "title": "Flipkart said to weigh $2 bn Esop buyout for current employees in early 2027 amid IPO uncertainty"
     }
    ]
   },
@@ -705,10 +709,15 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-10-06T13:04:51.340125+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-10-09T08:15:57.791150+00:00",
+     "title": "Fusion CX cuts IPO size to ₹702 crore; eyes ₹120-crore pre-IPO placement"
+    }
+   ]
   },
   {
    "amountCr": null,
@@ -26238,6 +26247,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-09T08:01:20.494517+00:00",
+ "generatedAt": "2026-10-09T08:15:57.796232+00:00",
  "totalDeals": 824
 }
