@@ -1,6 +1,28 @@
 {
- "dealCount": 823,
+ "dealCount": 824,
  "deals": [
+  {
+   "amountCr": 2500.0,
+   "amountRaw": "₹2,500-crore",
+   "company": "Bonfiglioli",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-09T08:01:16.720581+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 1156,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Bonfiglioli plans a Rs 2,500 crore IPO for its India arm.",
+   "primaryOutlet": "BusinessLine",
+   "seller": "Bonfiglioli Group",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-09T08:01:20.494517+00:00",
+   "updates": []
+  },
   {
    "amountCr": 375.0,
    "amountRaw": "₹375-Crore IPO",
@@ -26216,6 +26238,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-09T06:46:01.833431+00:00",
- "totalDeals": 823
+ "generatedAt": "2026-10-09T08:01:20.494517+00:00",
+ "totalDeals": 824
 }

@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 2500.0,
+ "amountRaw": "₹2,500-crore",
+ "buyer": null,
+ "company": "Bonfiglioli",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-09T08:01:16.720581+00:00",
+ "dealType": "IPO-OFS",
+ "enrichmentState": null,
+ "id": 1156,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Bonfiglioli plans a Rs 2,500 crore IPO for its India arm.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNOFhMaS1ZZmx3NFhBMHU3QnZxc2wxdDUwY0xSek9JT19KR21wdkxUZ21tVHBlQ2hVRTNrVDJpUkJaV2UtZUZPcEZub2trQ2lkQVF1VUVXYnBNNDBtOUV4WDc4eW15TGpKaVN2VWh5d0VoTHViay1pODNyTElxNTg1NG9lazBhWXd2M2hFdHQzc0hkQlNUUTdoQVpWLUxUU095cUVlTXlycUg0WTV4SE1JSEhBUF8zZTJrZWRlY1IwdzZ5SThhOGlYU1doNTJTSVZl0gHXAUFVX3lxTFBmSkhiNHJKYzdKOU1rVVFieUpwVXFreVVhM1lNQlVyU1ltVjdKRl90bmtHdnFBaklId3JKSS1sVFZZTW5MbDFRS0pROEJPWkJTb2RKRjVXelp4bTgwdk9FSnBMUnhqMDJoQl9HR1phWkQySGdlaFhFcXl2TGZFT0hQQ0VybG9IYjA4c1NYcFR6MjNjZHdmYmFQdUMtRVlWRTljZnlmbGYzSUhNZjRJM2xLNUl6b1o0eTN0MVBjdE5iNE1YOGFVdl81UUQ2N0ZyallNeE5DbERV?oc=5",
+ "seller": "Bonfiglioli Group",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-09T08:01:16.721947+00:00",
+   "outlet": "BusinessLine",
+   "resolvable": false,
+   "title": "Bonfiglioli eyes ₹2,500-crore IPO as India arm powers 31% of group EBITDA",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNOFhMaS1ZZmx3NFhBMHU3QnZxc2wxdDUwY0xSek9JT19KR21wdkxUZ21tVHBlQ2hVRTNrVDJpUkJaV2UtZUZPcEZub2trQ2lkQVF1VUVXYnBNNDBtOUV4WDc4eW15TGpKaVN2VWh5d0VoTHViay1pODNyTElxNTg1NG9lazBhWXd2M2hFdHQzc0hkQlNUUTdoQVpWLUxUU095cUVlTXlycUg0WTV4SE1JSEhBUF8zZTJrZWRlY1IwdzZ5SThhOGlYU1doNTJTSVZl0gHXAUFVX3lxTFBmSkhiNHJKYzdKOU1rVVFieUpwVXFreVVhM1lNQlVyU1ltVjdKRl90bmtHdnFBaklId3JKSS1sVFZZTW5MbDFRS0pROEJPWkJTb2RKRjVXelp4bTgwdk9FSnBMUnhqMDJoQl9HR1phWkQySGdlaFhFcXl2TGZFT0hQQ0VybG9IYjA4c1NYcFR6MjNjZHdmYmFQdUMtRVlWRTljZnlmbGYzSUhNZjRJM2xLNUl6b1o0eTN0MVBjdE5iNE1YOGFVdl81UUQ2N0ZyallNeE5DbERV?oc=5"
+  }
+ ],
+ "synopsis": "Bonfiglioli India, a wholly owned subsidiary of Italy’s Bonfiglioli Group, is planning an initial public offering of over 2,500 crore rupees through an offer-for-sale by its parent company. The subsidiary manufactures gearboxes and drive systems for wind turbines, construction equipment, and industrial machinery, contributing 31 percent of the global group's EBITDA and 17.6 percent of its revenue. Managing Director Kennady V Kaippally noted that the Indian business has reached maturity and can stand on its own, with the proposed offer-for-sale bringing no fresh capital into the company while potentially valuing the entity at over $1 billion.",
+ "ticker": null,
+ "updatedAt": "2026-10-09T08:01:20.494517+00:00"
+}
