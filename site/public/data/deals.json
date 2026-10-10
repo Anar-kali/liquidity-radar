@@ -1,6 +1,28 @@
 {
- "dealCount": 829,
+ "dealCount": 830,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Nagarro",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-10T11:31:06.233383+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1162,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Persistent Systems crosses 90% ownership in Nagarro, executing a squeeze-out buyout of minority shareholders.",
+   "primaryOutlet": "Mint",
+   "seller": "minority shareholders",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-10T11:31:10.555559+00:00",
+   "updates": []
+  },
   {
    "amountCr": 250.0,
    "amountRaw": "Rs 250 crore",
@@ -26392,6 +26414,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-10T06:46:00.921986+00:00",
- "totalDeals": 829
+ "generatedAt": "2026-10-10T11:31:10.555559+00:00",
+ "totalDeals": 830
 }

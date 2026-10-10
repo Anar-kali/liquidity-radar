@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "Persistent Systems",
+ "company": "Nagarro",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-10T11:31:06.233383+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1162,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Persistent Systems crosses 90% ownership in Nagarro, executing a squeeze-out buyout of minority shareholders.",
+ "primaryUrl": "https://www.livemint.com/companies/persistent-to-squeeze-out-existing-nagarro-shareholders-en-route-to-become-seventhlargest-11791620781979.html",
+ "seller": "minority shareholders",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-10-10T11:31:06.234839+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "Persistent to squeeze out existing Nagarro shareholders en route to become seventh-largest",
+   "url": "https://www.livemint.com/companies/persistent-to-squeeze-out-existing-nagarro-shareholders-en-route-to-become-seventhlargest-11791620781979.html"
+  }
+ ],
+ "synopsis": "Persistent Systems has increased its stake in German software engineering firm Nagarro to 94%, crossing the 90% threshold required under German regulations to execute a squeeze-out buyout of remaining minority shareholders and merge Nagarro into a German subsidiary. The acquisition, valued at $1.3 billion with $1.1 billion paid for shares including a stake sale by Lantano, is partially funded by a €1.4 billion ($1.6 billion) loan from Barclays that must be repaid within 18 months. The transaction is expected to be completed by March next year, creating a combined entity with at least $2.7 billion in revenue and propelling Persistent to become the seventh-largest tech services firm in India.",
+ "ticker": null,
+ "updatedAt": "2026-10-10T11:31:10.555559+00:00"
+}
