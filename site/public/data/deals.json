@@ -3603,7 +3603,7 @@
    "seller": "promoters",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 7,
+   "sourceCount": 8,
    "ticker": null,
    "updatedAt": "2026-09-30T12:15:59.146467+00:00",
    "updates": [
@@ -3630,6 +3630,10 @@
     {
      "attachedAt": "2026-10-01T09:01:20.234818+00:00",
      "title": "Royal Chain Limited – Draft Abridged Prospectus"
+    },
+    {
+     "attachedAt": "2026-10-10T13:31:03.499988+00:00",
+     "title": "Royal Chain moves towards Rs 1,000 crore IPO as B2B jewellery business scales up"
     }
    ]
   },
