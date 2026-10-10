@@ -1,6 +1,31 @@
 {
- "dealCount": 832,
+ "dealCount": 833,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Swyom Advisors",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-10T16:16:02.732011+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 1165,
+   "individuals": [
+    "Radha Raman Agarwal",
+    "Sweta Agarwal"
+   ],
+   "listed": false,
+   "oneLine": "Swyom Advisors files DRHP for IPO with fresh issue of shares.",
+   "primaryOutlet": "First India",
+   "seller": "Mr. Radha Raman Agarwal and Mrs. Sweta Agarwal",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-10T16:16:08.835435+00:00",
+   "updates": []
+  },
   {
    "amountCr": 5100.0,
    "amountRaw": "Rs 5,100 crore",
@@ -26462,6 +26487,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-10T15:01:17.155479+00:00",
- "totalDeals": 832
+ "generatedAt": "2026-10-10T16:16:08.835435+00:00",
+ "totalDeals": 833
 }

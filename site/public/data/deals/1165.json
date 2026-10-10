@@ -1,0 +1,35 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Swyom Advisors",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-10T16:16:02.732011+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": null,
+ "id": 1165,
+ "individuals": [
+  "Radha Raman Agarwal",
+  "Sweta Agarwal"
+ ],
+ "listed": false,
+ "oneLine": "Swyom Advisors files DRHP for IPO with fresh issue of shares.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNR3NINWVia3BhV2FjMHM5OHBLSURJaUlkNDdSTmlPcEZxMmp6bnFqWlJqMU00eGhyem5fbEdVMW5BemhwRXMyVElSQ0ZNZ0wtdnRRdnVOd1Nwb2FzbW8zblFnYmpPQXdWVkxJVFZNY0dTOHNfd016R3pSZVB6QjJtb280SWZ1d0NZMHN5T3hleGtBNDJpdHhiZFFKdHJKSXBWb3poNlhmNGJNUnREMF81blRuM1BTYm1obVYteUlWYVliaFk?oc=5",
+ "seller": "Mr. Radha Raman Agarwal and Mrs. Sweta Agarwal",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-10-10T16:16:02.733626+00:00",
+   "outlet": "First India",
+   "resolvable": false,
+   "title": "Swyom Advisors Files DRHP for IPO, Plans Fresh Issue of 40 Lakh Shares",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNR3NINWVia3BhV2FjMHM5OHBLSURJaUlkNDdSTmlPcEZxMmp6bnFqWlJqMU00eGhyem5fbEdVMW5BemhwRXMyVElSQ0ZNZ0wtdnRRdnVOd1Nwb2FzbW8zblFnYmpPQXdWVkxJVFZNY0dTOHNfd016R3pSZVB6QjJtb280SWZ1d0NZMHN5T3hleGtBNDJpdHhiZFFKdHJKSXBWb3poNlhmNGJNUnREMF81blRuM1BTYm1obVYteUlWYVliaFk?oc=5"
+  }
+ ],
+ "synopsis": "Swyom Advisors Limited has filed its Draft Red Herring Prospectus with the SME Platform of BSE Limited to launch an Initial Public Offering. The proposed IPO consists of a fresh issue of up to 40,00,000 equity shares and an Offer for Sale of up to 10,00,000 equity shares by promoter selling shareholders Mr. Radha Raman Agarwal and Mrs. Sweta Agarwal. The face value of the equity shares is ₹10 each. The company intends to use the proceeds to fund capital expenditure for purchasing additional office premises, hire manpower for its Sales and Research Division, repay or prepay certain borrowings, meet general corporate purposes, and fund offer expenses. GYR Capital Advisors Private Limited serves as the Book Running Lead Manager to the Offer, and KFin Technologies Limited acts as the registrar.",
+ "ticker": null,
+ "updatedAt": "2026-10-10T16:16:08.835435+00:00"
+}
