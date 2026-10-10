@@ -1,6 +1,28 @@
 {
- "dealCount": 830,
+ "dealCount": 831,
  "deals": [
+  {
+   "amountCr": 702.0,
+   "amountRaw": "₹702 Crore",
+   "company": "Fusion CX",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-10T14:01:09.813298+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 1163,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Fusion CX plans an IPO worth Rs 702 crore, providing promoter liquidity.",
+   "primaryOutlet": "TRIPURA STAR NEWS",
+   "seller": "Fusion CX Limited promoters",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-10T14:01:14.101894+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -26418,6 +26440,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-10T11:31:10.555559+00:00",
- "totalDeals": 830
+ "generatedAt": "2026-10-10T14:01:14.101894+00:00",
+ "totalDeals": 831
 }
