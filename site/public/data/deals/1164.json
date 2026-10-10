@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 5100.0,
+ "amountRaw": "Rs 5,100 crore",
+ "buyer": "Embraer SA",
+ "company": "Novavaayu Aerospace Ltd",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-10T15:01:12.897603+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1164,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Mahindra sells majority stake in Novavaayu Aerospace to Embraer for Rs 5,100 crore",
+ "primaryUrl": "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/mahindra-to-sell-51-stake-in-aerospace-subsidiary-to-brazils-embraer-for-rs-5100-crore/articleshow/134856278.cms",
+ "seller": "Mahindra & Mahindra Ltd",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-10T15:01:12.899252+00:00",
+   "outlet": "ET Corporate",
+   "resolvable": true,
+   "title": "Mahindra to sell majority stake in aerospace subsidiary to Brazil's Embraer for Rs 5,100 crore",
+   "url": "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/mahindra-to-sell-51-stake-in-aerospace-subsidiary-to-brazils-embraer-for-rs-5100-crore/articleshow/134856278.cms"
+  }
+ ],
+ "synopsis": "Mahindra & Mahindra Ltd has entered into an agreement to sell a 51% equity stake in its aerospace subsidiary, Novavaayu Aerospace Ltd, to Brazil-based Embraer SA for approximately Rs 5,100 crore. Following the acquisition, Novavaayu Aerospace will cease to be a wholly owned subsidiary of Mahindra and will become an associate of Mahindra Defence Systems Ltd. The transaction is expected to be completed on or before December 1, 2026.",
+ "ticker": null,
+ "updatedAt": "2026-10-10T15:01:17.155479+00:00"
+}

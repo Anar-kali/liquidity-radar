@@ -1,6 +1,28 @@
 {
- "dealCount": 831,
+ "dealCount": 832,
  "deals": [
+  {
+   "amountCr": 5100.0,
+   "amountRaw": "Rs 5,100 crore",
+   "company": "Novavaayu Aerospace Ltd",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-10T15:01:12.897603+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1164,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Mahindra sells majority stake in Novavaayu Aerospace to Embraer for Rs 5,100 crore",
+   "primaryOutlet": "ET Corporate",
+   "seller": "Mahindra & Mahindra Ltd",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-10T15:01:17.155479+00:00",
+   "updates": []
+  },
   {
    "amountCr": 702.0,
    "amountRaw": "₹702 Crore",
@@ -26440,6 +26462,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-10T14:01:14.101894+00:00",
- "totalDeals": 831
+ "generatedAt": "2026-10-10T15:01:17.155479+00:00",
+ "totalDeals": 832
 }
