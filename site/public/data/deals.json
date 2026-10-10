@@ -33,17 +33,25 @@
    "dealType": "unknown",
    "enrichmentState": null,
    "id": 1160,
-   "individuals": [],
+   "individuals": [
+    "Akash Ambani",
+    "Isha Ambani"
+   ],
    "listed": false,
    "oneLine": "Jio Platforms is reported to set an IPO price band with listing expected in October.",
    "primaryOutlet": "Livemint",
    "seller": "Jio Platforms Ltd.",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
-   "updatedAt": "2026-10-09T14:02:03.846198+00:00",
-   "updates": []
+   "updatedAt": "2026-10-10T06:46:00.921986+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-10-10T06:46:00.920437+00:00",
+     "title": "Exclusive | Akash, Isha Ambani take Rs 30,000 crore Jio IPO pitch global; marquee investors seek bigger st"
+    }
+   ]
   },
   {
    "amountCr": 300.0,
@@ -26380,6 +26388,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-09T16:31:21.077533+00:00",
+ "generatedAt": "2026-10-10T06:46:00.921986+00:00",
  "totalDeals": 829
 }
