@@ -1,6 +1,31 @@
 {
- "dealCount": 837,
+ "dealCount": 838,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Sahajanand Medical Technologies",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-11T13:15:57.239285+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 1170,
+   "individuals": [
+    "Dhirajlal Kotadia",
+    "Ashish Kacholia"
+   ],
+   "listed": false,
+   "oneLine": "Sahajanand Medical Technologies plans an IPO with a 1.38-crore-share offer for sale, providing exit to backers.",
+   "primaryOutlet": "Moneycontrol.com",
+   "seller": "Samara Capital and Morgan Stanley",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-11T13:16:01.142768+00:00",
+   "updates": []
+  },
   {
    "amountCr": 30000.0,
    "amountRaw": "$3.1 billion share sale (from article)",
@@ -26605,6 +26630,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-11T11:15:53.560383+00:00",
- "totalDeals": 837
+ "generatedAt": "2026-10-11T13:16:01.142768+00:00",
+ "totalDeals": 838
 }
