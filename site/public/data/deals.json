@@ -24,8 +24,8 @@
    "updates": []
   },
   {
-   "amountCr": 5000.0,
-   "amountRaw": "₹5,000 crore (from article)",
+   "amountCr": 2830.0,
+   "amountRaw": "Rs 2,830 crore",
    "company": "Zetwerk",
    "confidence": "medium",
    "confirmed": false,
@@ -40,10 +40,15 @@
    "seller": "Zetwerk Manufacturing Business",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
-   "updatedAt": "2026-10-11T07:01:14.339074+00:00",
-   "updates": []
+   "updatedAt": "2026-10-11T10:46:00.879928+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-10-11T10:46:00.858156+00:00",
+     "title": "Zetwerk IPO: Fresh issue size raised to Rs 2,830 crore, OFS grows 49%"
+    }
+   ]
   },
   {
    "amountCr": null,
@@ -26570,6 +26575,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-11T07:45:55.172415+00:00",
+ "generatedAt": "2026-10-11T10:46:00.879928+00:00",
  "totalDeals": 836
 }
