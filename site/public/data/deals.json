@@ -265,7 +265,7 @@
    "seller": "Jio Platforms Ltd.",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 6,
+   "sourceCount": 7,
    "ticker": null,
    "updatedAt": "2026-10-10T06:46:00.921986+00:00",
    "updates": [
@@ -288,6 +288,10 @@
     {
      "attachedAt": "2026-10-11T10:31:06.414812+00:00",
      "title": "Twelve companies plan October IPOs with Jio Platforms seeking record"
+    },
+    {
+     "attachedAt": "2026-10-11T15:01:11.950573+00:00",
+     "title": "Jio Platforms Targets India Largest IPO at 10.3 Lakh Crore Valuation"
     }
    ]
   },
