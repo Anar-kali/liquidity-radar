@@ -1,6 +1,32 @@
 {
- "dealCount": 836,
+ "dealCount": 837,
  "deals": [
+  {
+   "amountCr": 30000.0,
+   "amountRaw": "$3.1 billion share sale (from article)",
+   "company": "Reliance Jio",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-11T11:15:49.323107+00:00",
+   "dealType": "unknown",
+   "enrichmentState": null,
+   "id": 1169,
+   "individuals": [
+    "Akash Ambani",
+    "Isha Ambani",
+    "Anant Ambani"
+   ],
+   "listed": false,
+   "oneLine": "Ambani children pitch potential mega IPO to global investors.",
+   "primaryOutlet": "Billionaires.Africa",
+   "seller": "Reliance Industries",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-11T11:15:53.560383+00:00",
+   "updates": []
+  },
   {
    "amountCr": 6916.8,
    "amountRaw": "USD 786 million, converted to ~6,916.8 cr INR",
@@ -26575,6 +26601,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-11T10:46:00.879928+00:00",
- "totalDeals": 836
+ "generatedAt": "2026-10-11T11:15:53.560383+00:00",
+ "totalDeals": 837
 }
