@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "CPP Investments",
+ "company": "Prestige Hospitality Ventures",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-11T01:31:08.775918+00:00",
+ "dealType": "PE primary",
+ "enrichmentState": "failed",
+ "id": 1166,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "CPP Investments to acquire a 27 per cent stake in Prestige Hospitality Ventures.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcVg5SmxveFFkTnV6XzRLTU5JaHI1ZmFUZFJWeTZEY3RxU2NSVWtGYmt0OHlMV3VILTAtM184RUlIMk9RMmdibkE2SzBzekJPUHM0dG9iazA1LWdPSTNfYXNVd0t4OXlpTHctOXUyakgwNG84R3NZaG01V1JTRGgwM19EY1hSblQ3QzRZckRrVU9xU0VIb3pxMjA0Tk9XdjI5RDd2T01KQVkyc1ZXV2RjcnJNenA3SmZvM3o3akJ3blotRXhy?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-10-11T01:31:08.777704+00:00",
+   "outlet": "Prop News Time",
+   "resolvable": false,
+   "title": "CPP Investments to take 27 per cent stake in Prestige Hospitality Ventures",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcVg5SmxveFFkTnV6XzRLTU5JaHI1ZmFUZFJWeTZEY3RxU2NSVWtGYmt0OHlMV3VILTAtM184RUlIMk9RMmdibkE2SzBzekJPUHM0dG9iazA1LWdPSTNfYXNVd0t4OXlpTHctOXUyakgwNG84R3NZaG01V1JTRGgwM19EY1hSblQ3QzRZckRrVU9xU0VIb3pxMjA0Tk9XdjI5RDd2T01KQVkyc1ZXV2RjcnJNenA3SmZvM3o3akJ3blotRXhy?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-10-11T01:31:08.775918+00:00"
+}

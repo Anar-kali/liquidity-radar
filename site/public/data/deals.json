@@ -1,6 +1,28 @@
 {
- "dealCount": 833,
+ "dealCount": 834,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Prestige Hospitality Ventures",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-11T01:31:08.775918+00:00",
+   "dealType": "PE primary",
+   "enrichmentState": "failed",
+   "id": 1166,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "CPP Investments to acquire a 27 per cent stake in Prestige Hospitality Ventures.",
+   "primaryOutlet": "Prop News Time",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-11T01:31:08.775918+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -134,7 +156,7 @@
    "seller": "Jio Platforms Ltd.",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-10-10T06:46:00.921986+00:00",
    "updates": [
@@ -145,6 +167,10 @@
     {
      "attachedAt": "2026-10-10T08:45:58.705791+00:00",
      "title": "Jio Platforms Targets Rs 30,200 Cr In India’s Biggest IPO"
+    },
+    {
+     "attachedAt": "2026-10-11T01:31:08.786140+00:00",
+     "title": "Jio Platforms IPO: How Reliance boss Mukesh Ambani's mega issue compares with India's 5 biggest IPOs; price band, size"
     }
    ]
   },
@@ -26487,6 +26513,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-10T16:16:08.835435+00:00",
- "totalDeals": 833
+ "generatedAt": "2026-10-11T01:31:08.775918+00:00",
+ "totalDeals": 834
 }
