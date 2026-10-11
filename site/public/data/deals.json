@@ -1,6 +1,30 @@
 {
- "dealCount": 838,
+ "dealCount": 839,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Siddha Group",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-11T15:31:06.584875+00:00",
+   "dealType": "other",
+   "enrichmentState": null,
+   "id": 1171,
+   "individuals": [
+    "Sanjay Jain"
+   ],
+   "listed": true,
+   "oneLine": "Siddha Group plans an IPO listing by March 2028, creating potential promoter liquidity.",
+   "primaryOutlet": "ET Realty",
+   "seller": "Siddha Group",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": "530439.BO",
+   "updatedAt": "2026-10-11T15:31:10.091626+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -26634,6 +26658,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-11T13:16:01.142768+00:00",
- "totalDeals": 838
+ "generatedAt": "2026-10-11T15:31:10.091626+00:00",
+ "totalDeals": 839
 }
