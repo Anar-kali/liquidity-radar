@@ -208,20 +208,27 @@
    "dealType": "IPO-OFS",
    "enrichmentState": null,
    "id": 1163,
-   "individuals": [],
+   "individuals": [
+    "Mukul Agrawal",
+    "Ashish Kacholia"
+   ],
    "listed": false,
    "oneLine": "Fusion CX plans an IPO worth Rs 702 crore, providing promoter liquidity.",
    "primaryOutlet": "TRIPURA STAR NEWS",
    "seller": "Fusion CX Limited promoters",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
-   "updatedAt": "2026-10-10T14:01:14.101894+00:00",
+   "updatedAt": "2026-10-11T16:45:54.139527+00:00",
    "updates": [
     {
      "attachedAt": "2026-10-11T04:30:59.438833+00:00",
      "title": "Fusion CX to raise ₹702 crore via IPO"
+    },
+    {
+     "attachedAt": "2026-10-11T16:45:54.137957+00:00",
+     "title": "Kotak Life, investors Mukul Agrawal, Ashish Kacholia acquire shares in Fusion CX ahead of IPO"
     }
    ]
   },
@@ -26662,6 +26669,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-11T15:31:10.091626+00:00",
+ "generatedAt": "2026-10-11T16:45:54.139527+00:00",
  "totalDeals": 839
 }
