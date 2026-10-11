@@ -1,6 +1,28 @@
 {
- "dealCount": 835,
+ "dealCount": 836,
  "deals": [
+  {
+   "amountCr": 6916.8,
+   "amountRaw": "USD 786 million, converted to ~6,916.8 cr INR",
+   "company": "Avaada Electro",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-11T07:45:55.172415+00:00",
+   "dealType": "unknown",
+   "enrichmentState": "failed",
+   "id": 1168,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Avaada Electro targets a November IPO to raise USD 786 million for solar manufacturing.",
+   "primaryOutlet": "Prop News Time",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-11T07:45:55.172415+00:00",
+   "updates": []
+  },
   {
    "amountCr": 5000.0,
    "amountRaw": "₹5,000 crore (from article)",
@@ -26540,6 +26562,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-11T07:01:14.339074+00:00",
- "totalDeals": 835
+ "generatedAt": "2026-10-11T07:45:55.172415+00:00",
+ "totalDeals": 836
 }

@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 6916.8,
+ "amountRaw": "USD 786 million, converted to ~6,916.8 cr INR",
+ "buyer": null,
+ "company": "Avaada Electro",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-11T07:45:55.172415+00:00",
+ "dealType": "unknown",
+ "enrichmentState": "failed",
+ "id": 1168,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Avaada Electro targets a November IPO to raise USD 786 million for solar manufacturing.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQTUlvTXdtRlE0UlIxcjVtaExyanJLdzhIVzdZOUVsWXBTY2NhdFh3RkVOeFBEV0xEYzNDNmZ0cnFPWWJzckFwUnhIX3FqYlR2WlBmTFZSOVREUFdWY2xGcnlZX2pxRFNEbnpuVm5MY0RFcmtua2lwanQtamc2ZHc4MWlsRHFiZnU0VTBqVkFVV2ZNeWUwQXQtN0Y3ZzRtWndEWmdKN194RDlaZTJjUHF1QklPcmhQZFF5Vi1HM1RlU2djSEY4YkExdUNFZnhxc1BUZ2FfcnZXZXg3bGVMNHJn?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-11T07:45:55.174084+00:00",
+   "outlet": "Prop News Time",
+   "resolvable": false,
+   "title": "Avaada Electro targets November IPO to raise USD 786 million for solar manufacturing expansion",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQTUlvTXdtRlE0UlIxcjVtaExyanJLdzhIVzdZOUVsWXBTY2NhdFh3RkVOeFBEV0xEYzNDNmZ0cnFPWWJzckFwUnhIX3FqYlR2WlBmTFZSOVREUFdWY2xGcnlZX2pxRFNEbnpuVm5MY0RFcmtua2lwanQtamc2ZHc4MWlsRHFiZnU0VTBqVkFVV2ZNeWUwQXQtN0Y3ZzRtWndEWmdKN194RDlaZTJjUHF1QklPcmhQZFF5Vi1HM1RlU2djSEY4YkExdUNFZnhxc1BUZ2FfcnZXZXg3bGVMNHJn?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-10-11T07:45:55.172415+00:00"
+}
