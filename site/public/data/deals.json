@@ -1,6 +1,28 @@
 {
- "dealCount": 834,
+ "dealCount": 835,
  "deals": [
+  {
+   "amountCr": 5000.0,
+   "amountRaw": "₹5,000 crore (from article)",
+   "company": "Zetwerk",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-11T07:01:10.292157+00:00",
+   "dealType": "unknown",
+   "enrichmentState": null,
+   "id": 1167,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Zetwerk is exploring an upcoming IPO, providing future liquidity to shareholders.",
+   "primaryOutlet": "Business Standard",
+   "seller": "Zetwerk Manufacturing Business",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-11T07:01:14.339074+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -26518,6 +26540,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-11T01:31:08.775918+00:00",
- "totalDeals": 834
+ "generatedAt": "2026-10-11T07:01:14.339074+00:00",
+ "totalDeals": 835
 }
