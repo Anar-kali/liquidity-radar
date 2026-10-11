@@ -205,7 +205,7 @@
    "seller": "Jio Platforms Ltd.",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 5,
+   "sourceCount": 6,
    "ticker": null,
    "updatedAt": "2026-10-10T06:46:00.921986+00:00",
    "updates": [
@@ -224,6 +224,10 @@
     {
      "attachedAt": "2026-10-11T08:45:53.599524+00:00",
      "title": "IPO Boom Continues, Jio Platforms And 11 Others Set To Hit Market In October"
+    },
+    {
+     "attachedAt": "2026-10-11T10:31:06.414812+00:00",
+     "title": "Twelve companies plan October IPOs with Jio Platforms seeking record"
     }
    ]
   },
