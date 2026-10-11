@@ -810,7 +810,7 @@
    "seller": "Flipkart employees",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-10-09T08:15:57.796232+00:00",
    "updates": [
@@ -821,6 +821,10 @@
     {
      "attachedAt": "2026-10-09T08:15:57.795275+00:00",
      "title": "Flipkart said to weigh $2 bn Esop buyout for current employees in early 2027 amid IPO uncertainty"
+    },
+    {
+     "attachedAt": "2026-10-11T15:45:59.413623+00:00",
+     "title": "Flipkart's former employees petition to include 20,000-30,000 of group's ex-staff in ESOP buyout: Report"
     }
    ]
   },
