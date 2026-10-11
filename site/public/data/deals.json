@@ -87,10 +87,15 @@
    "seller": "Fusion CX Limited promoters",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-10-10T14:01:14.101894+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-10-11T04:30:59.438833+00:00",
+     "title": "Fusion CX to raise ₹702 crore via IPO"
+    }
+   ]
   },
   {
    "amountCr": null,
