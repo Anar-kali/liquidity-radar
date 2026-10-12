@@ -18,10 +18,15 @@
    "seller": "Indian Energy Exchange",
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-10-12T12:16:04.175065+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-10-12T13:46:00.390749+00:00",
+     "title": "Indian Gas Exchange (IGX) Gets Sebi Nod for IPO"
+    }
+   ]
   },
   {
    "amountCr": 200.0,
@@ -383,7 +388,7 @@
    "seller": "Zetwerk Manufacturing Business",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 8,
+   "sourceCount": 9,
    "ticker": null,
    "updatedAt": "2026-10-12T09:45:59.542545+00:00",
    "updates": [
@@ -414,6 +419,10 @@
     {
      "attachedAt": "2026-10-12T09:45:59.540123+00:00",
      "title": "Zetwerk IPO 2026: Rs. 5,012 Crore Issue, Price Band, Key Dates"
+    },
+    {
+     "attachedAt": "2026-10-12T13:46:00.380806+00:00",
+     "title": "Zetwerk targets ₹25,583 crore valuation in ₹5,012 crore IPO"
     }
    ]
   },
