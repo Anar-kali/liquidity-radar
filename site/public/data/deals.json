@@ -1,6 +1,28 @@
 {
- "dealCount": 846,
+ "dealCount": 847,
  "deals": [
+  {
+   "amountCr": 6600.0,
+   "amountRaw": "₹6,600 cr",
+   "company": "Carlsberg India",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-12T10:16:18.816873+00:00",
+   "dealType": "unknown",
+   "enrichmentState": null,
+   "id": 1179,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Carlsberg considers a massive IPO with plans facing risks due to unit shutdowns.",
+   "primaryOutlet": "Inshorts",
+   "seller": "Carlsberg India",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-12T10:16:22.707899+00:00",
+   "updates": []
+  },
   {
    "amountCr": 3150.0,
    "amountRaw": "Rs 3,150-crore (from article)",
@@ -26911,6 +26933,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-12T10:01:22.640689+00:00",
- "totalDeals": 846
+ "generatedAt": "2026-10-12T10:16:22.707899+00:00",
+ "totalDeals": 847
 }

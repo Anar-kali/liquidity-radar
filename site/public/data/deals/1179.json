@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 6600.0,
+ "amountRaw": "₹6,600 cr",
+ "buyer": null,
+ "company": "Carlsberg India",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-12T10:16:18.816873+00:00",
+ "dealType": "unknown",
+ "enrichmentState": null,
+ "id": 1179,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Carlsberg considers a massive IPO with plans facing risks due to unit shutdowns.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPTnRkQ2pMN2ZrSkZYbFpOTFdHOUs3aVV1dXdBbGh0Q0VYTE5lSENkME1jdXVUcUx3QTgyQnF2TTJjVTZ6eW1BMm1hR2QyVzBvWmNCTkNBUjJiVzFNRVpYd3Y1c3RZYUx3eDJkVVlpNjFwUy1RekNDOGFnSWlZYUJoNk1lVUZ3cDlaZ3kyd2JCX3BUbGJyejAxQy1qbnk0d2FFM3ZqaEpXV1dtOHFHYVHSAbMBQVVfeXFMTjR6c2luV1plLTVONzFnZDExWUdtVEFmbFBQY3lPeHdjT1EzcGxRclNtcXUybzFIT2M0UzlLeEdfVmkyeFdHSnhQcFlIRTJMS041RmtjSWpxS1NUWHRXd0pvQnV4SjdPM2EtQ25BWDRJZVh5cGZhQURmVVVBU2U0NUdneHY4eVNCTVp3Z0pmM0kwbVhEMFg4UHJEY3dpRHdhcVZxZWZUVnZ4YlhQQjdmWHg5QzA?oc=5",
+ "seller": "Carlsberg India",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-12T10:16:18.818061+00:00",
+   "outlet": "Inshorts",
+   "resolvable": false,
+   "title": "Carlsberg's ₹6,600 cr-IPO plans at risk as Raj unit faces shutdown | The closure will affect supplies in Rajasthan | Inshorts",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPTnRkQ2pMN2ZrSkZYbFpOTFdHOUs3aVV1dXdBbGh0Q0VYTE5lSENkME1jdXVUcUx3QTgyQnF2TTJjVTZ6eW1BMm1hR2QyVzBvWmNCTkNBUjJiVzFNRVpYd3Y1c3RZYUx3eDJkVVlpNjFwUy1RekNDOGFnSWlZYUJoNk1lVUZ3cDlaZ3kyd2JCX3BUbGJyejAxQy1qbnk0d2FFM3ZqaEpXV1dtOHFHYVHSAbMBQVVfeXFMTjR6c2luV1plLTVONzFnZDExWUdtVEFmbFBQY3lPeHdjT1EzcGxRclNtcXUybzFIT2M0UzlLeEdfVmkyeFdHSnhQcFlIRTJMS041RmtjSWpxS1NUWHRXd0pvQnV4SjdPM2EtQ25BWDRJZVh5cGZhQURmVVVBU2U0NUdneHY4eVNCTVp3Z0pmM0kwbVhEMFg4UHJEY3dpRHdhcVZxZWZUVnZ4YlhQQjdmWHg5QzA?oc=5"
+  }
+ ],
+ "synopsis": "Carlsberg India's plans for an initial public offering valued at approximately ₹6,600 crore face risks after Rajasthan's pollution control board revoked the operating consent for its Alwar brewery and ordered its closure. The regulatory action comes after findings showed the facility's particulate emissions were nearly eight times above permissible limits.",
+ "ticker": null,
+ "updatedAt": "2026-10-12T10:16:22.707899+00:00"
+}
