@@ -309,7 +309,7 @@
    "seller": "Zetwerk Manufacturing Business",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 6,
+   "sourceCount": 7,
    "ticker": null,
    "updatedAt": "2026-10-12T07:46:00.184903+00:00",
    "updates": [
@@ -332,6 +332,10 @@
     {
      "attachedAt": "2026-10-12T07:46:00.183344+00:00",
      "title": "Zetwerk Raises Fresh IPO Issue to Rs 2,830 Crore, Increases OFS by 49%"
+    },
+    {
+     "attachedAt": "2026-10-12T08:31:17.043168+00:00",
+     "title": "Zetwerk IPO: Early investors set for up to 38X returns through OFS"
     }
    ]
   },
