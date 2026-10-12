@@ -1,6 +1,28 @@
 {
- "dealCount": 845,
+ "dealCount": 846,
  "deals": [
+  {
+   "amountCr": 3150.0,
+   "amountRaw": "Rs 3,150-crore (from article)",
+   "company": "Yatharth Hospital",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-12T08:16:01.376366+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1178,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Advent explores a control deal and buyout for Yatharth Hospital.",
+   "primaryOutlet": "Moneycontrol.com",
+   "seller": "Yatharth Hospital & Trauma Care Services",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "YATHARTH.NS",
+   "updatedAt": "2026-10-12T08:16:07.746761+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -2465,7 +2487,7 @@
    "seller": "Carlsberg Group",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 12,
+   "sourceCount": 13,
    "ticker": null,
    "updatedAt": "2026-10-01T14:46:08.546312+00:00",
    "updates": [
@@ -2512,6 +2534,10 @@
     {
      "attachedAt": "2026-10-12T01:31:12.513113+00:00",
      "title": "Carlsberg India told to close Alwar unit over pollution breach ahead of $700 million IPO plans"
+    },
+    {
+     "attachedAt": "2026-10-12T08:16:01.383655+00:00",
+     "title": "Carlsberg's $700M IPO at risk as brewery ordered to shut"
     }
    ]
   },
@@ -26873,6 +26899,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-12T07:46:00.184903+00:00",
- "totalDeals": 845
+ "generatedAt": "2026-10-12T08:16:07.746761+00:00",
+ "totalDeals": 846
 }

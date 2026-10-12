@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 3150.0,
+ "amountRaw": "Rs 3,150-crore (from article)",
+ "buyer": "Advent",
+ "company": "Yatharth Hospital",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-12T08:16:01.376366+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1178,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Advent explores a control deal and buyout for Yatharth Hospital.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOSjhsTnFuZFlFTzk0NzNVZ3lCS2UwSWV5bHlPQW9NdGs3V1c3ZFdabHVaWEpZRm5jOExQanVKNjd1WHR5cHYyUmF1dl9IODJ1ZUs1czZzbEVaT003MjNrcU4ycTJmcWZ0WkRLLWZKeVUxTkRsQk91a1htTnNRNWlNZDhOUUExSmRFVXExNHU0VHRSZk5USlM5VjdDTmdPM3lPcE1HVlFZeXBwc3ZLZGllUVJVb3BPZkRSbVcwb3I0eTRrdExSaUtzZzNwLUU2STdiYVJoctIB2gFBVV95cUxNREhvRjhOUmd1bTRHNDRxOWc0a2ZfcEl4RkV4dTluWmdWb0syczdjdHZSUmQ2bWlvZDhad1hKdncwV1VkUHd1RWxRU0hQWXhGUEcwRGdOU04wX0JqNExVdmRqY1dtM2x2Tm1JeVo3amdJTGtOOTNOLTVqeXoxUHVFSUZEbzk2aThuWXQ1cUtxMmU5WC03QURsc01PdjZNdXpMa3EzVXBjcDJPa1c0eGd0TGVDelNjSDdXdjFOSC1fcjludzJ4Q2FwTVdaMW13VUx4cl8xdXhZVEI3dw?oc=5",
+ "seller": "Yatharth Hospital & Trauma Care Services",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-12T08:16:01.377289+00:00",
+   "outlet": "Moneycontrol.com",
+   "resolvable": false,
+   "title": "Advent’s Yatharth Hospital deal may test the boundaries of India’s ‘control’ regime",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOSjhsTnFuZFlFTzk0NzNVZ3lCS2UwSWV5bHlPQW9NdGs3V1c3ZFdabHVaWEpZRm5jOExQanVKNjd1WHR5cHYyUmF1dl9IODJ1ZUs1czZzbEVaT003MjNrcU4ycTJmcWZ0WkRLLWZKeVUxTkRsQk91a1htTnNRNWlNZDhOUUExSmRFVXExNHU0VHRSZk5USlM5VjdDTmdPM3lPcE1HVlFZeXBwc3ZLZGllUVJVb3BPZkRSbVcwb3I0eTRrdExSaUtzZzNwLUU2STdiYVJoctIB2gFBVV95cUxNREhvRjhOUmd1bTRHNDRxOWc0a2ZfcEl4RkV4dTluWmdWb0syczdjdHZSUmQ2bWlvZDhad1hKdncwV1VkUHd1RWxRU0hQWXhGUEcwRGdOU04wX0JqNExVdmRqY1dtM2x2Tm1JeVo3amdJTGtOOTNOLTVqeXoxUHVFSUZEbzk2aThuWXQ1cUtxMmU5WC03QURsc01PdjZNdXpMa3EzVXBjcDJPa1c0eGd0TGVDelNjSDdXdjFOSC1fcjludzJ4Q2FwTVdaMW13VUx4cl8xdXhZVEI3dw?oc=5"
+  }
+ ],
+ "synopsis": "Advent International plans a Rs 3,150-crore investment in Yatharth Hospital & Trauma Care Services through equity shares and warrants. The proposed transaction will give Advent a fully diluted stake of approximately 24.87 percent, keeping it just below the 25 percent threshold that automatically triggers an open offer under Indian takeover regulations. However, the proposed amended articles of association grant Advent governance and veto rights over borrowing, capital expenditure, acquisitions, asset sales, related-party transactions, and equity issuances. The central regulatory question is whether these rights constitute control under SEBI regulations, which could potentially trigger a mandatory open offer for an additional 26 percent from public shareholders.",
+ "ticker": "YATHARTH.NS",
+ "updatedAt": "2026-10-12T08:16:07.746761+00:00"
+}
