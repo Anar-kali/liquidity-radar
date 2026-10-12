@@ -588,7 +588,7 @@
    "seller": "Jio Platforms Ltd.",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 8,
+   "sourceCount": 9,
    "ticker": null,
    "updatedAt": "2026-10-10T06:46:00.921986+00:00",
    "updates": [
@@ -619,6 +619,10 @@
     {
      "attachedAt": "2026-10-12T07:46:00.193823+00:00",
      "title": "Upcoming IPOs In October 2026: Jio Platforms, Zetwerk, Avaada Electro And Many More"
+    },
+    {
+     "attachedAt": "2026-10-12T12:46:03.381931+00:00",
+     "title": "Jio Platforms among dozen companies set to tap primary market in Oct"
     }
    ]
   },
