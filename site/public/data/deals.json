@@ -1,6 +1,28 @@
 {
- "dealCount": 848,
+ "dealCount": 849,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Indian Gas Exchange",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-12T12:16:00.003314+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 1181,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "SEBI approved Indian Gas Exchange's IPO involving 1.67 crore shares.",
+   "primaryOutlet": "Moneycontrol.com",
+   "seller": "Indian Energy Exchange",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-12T12:16:04.175065+00:00",
+   "updates": []
+  },
   {
    "amountCr": 200.0,
    "amountRaw": "₹200 crore",
@@ -26963,6 +26985,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-12T12:01:19.425483+00:00",
- "totalDeals": 848
+ "generatedAt": "2026-10-12T12:16:04.175065+00:00",
+ "totalDeals": 849
 }
