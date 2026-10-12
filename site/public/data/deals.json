@@ -62,14 +62,19 @@
    "seller": "Alphawave",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": "LENSKART.NS",
    "updatedAt": "2026-10-12T04:01:17.265293+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-10-12T05:46:09.350461+00:00",
+     "title": "Lenskart Solutions shares crack 5% after Rs 1,985-crore block deal; Alpha Wave likely sells take"
+    }
+   ]
   },
   {
-   "amountCr": null,
-   "amountRaw": null,
+   "amountCr": 2000.0,
+   "amountRaw": "₹2,000 Crore",
    "company": "Farmley",
    "confidence": "medium",
    "confirmed": false,
@@ -86,11 +91,16 @@
    "primaryOutlet": "ET Corporate",
    "seller": "early investors",
    "sizeBand": null,
-   "sizeSource": "unknown",
-   "sourceCount": 1,
+   "sizeSource": "stated",
+   "sourceCount": 2,
    "ticker": null,
-   "updatedAt": "2026-10-12T01:31:20.088734+00:00",
-   "updates": []
+   "updatedAt": "2026-10-12T05:46:09.354314+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-10-12T05:46:09.353296+00:00",
+     "title": "Emami and FMCG Peers Eye Farmley Stake in ₹2,000 Crore Deal as Investors Exit"
+    }
+   ]
   },
   {
    "amountCr": null,
@@ -26803,6 +26813,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-12T04:46:02.065350+00:00",
+ "generatedAt": "2026-10-12T05:46:09.354314+00:00",
  "totalDeals": 844
 }
