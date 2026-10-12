@@ -234,13 +234,17 @@
    "seller": "Reliance Industries",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-10-11T11:15:53.560383+00:00",
    "updates": [
     {
      "attachedAt": "2026-10-12T07:01:36.510148+00:00",
      "title": "Jio Platforms IPO: ₹30,000-Crore Share Sale Could Become India’s Biggest Public Issue At ₹10.3 Lakh Crore Valuation"
+    },
+    {
+     "attachedAt": "2026-10-12T07:31:08.190825+00:00",
+     "title": "Jio IPO may be valued at Rs 11 lakh crore: What it means for RIL, Bharti Airtel and telecom stocks"
     }
    ]
   },
@@ -19427,8 +19431,8 @@
    ]
   },
   {
-   "amountCr": null,
-   "amountRaw": null,
+   "amountCr": 852.0,
+   "amountRaw": "Rs 852 Cr",
    "company": "Tonbo Imaging India Limited",
    "confidence": "medium",
    "confirmed": false,
@@ -19440,12 +19444,12 @@
    "listed": false,
    "oneLine": "Tonbo Imaging files DRHP for IPO; promoters likely to cash out.",
    "primaryOutlet": "SEBI",
-   "seller": null,
+   "seller": "Early investors",
    "sizeBand": null,
-   "sizeSource": "unknown",
-   "sourceCount": 8,
+   "sizeSource": "stated",
+   "sourceCount": 9,
    "ticker": null,
-   "updatedAt": "2026-08-17T05:31:02.142139+00:00",
+   "updatedAt": "2026-10-12T07:31:08.208210+00:00",
    "updates": [
     {
      "attachedAt": "2026-08-17T05:31:02.147301+00:00",
@@ -19474,6 +19478,10 @@
     {
      "attachedAt": "2026-10-12T04:31:11.963405+00:00",
      "title": "Tonbo Imaging India Limited"
+    },
+    {
+     "attachedAt": "2026-10-12T07:31:08.206729+00:00",
+     "title": "Tonbo Imaging’s Rs 852 Cr IPO offers investor exit"
     }
    ]
   },
@@ -26857,6 +26865,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-12T07:16:18.754374+00:00",
+ "generatedAt": "2026-10-12T07:31:08.208210+00:00",
  "totalDeals": 845
 }
