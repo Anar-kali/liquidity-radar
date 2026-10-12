@@ -1,0 +1,35 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "FMCG majors",
+ "company": "Farmley",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-12T01:31:12.520235+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1173,
+ "individuals": [
+  "Akash Sharma",
+  "Abhishek Agarwal"
+ ],
+ "listed": false,
+ "oneLine": "Early investors look to sell their 31% stake in Farmley to FMCG majors.",
+ "primaryUrl": "https://economictimes.indiatimes.com/industry/cons-products/fmcg/fmcg-majors-in-race-for-big-bite-of-snacks-brand-farmley-emami-itc-brtiannia/articleshow/134876847.cms",
+ "seller": "early investors",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-10-12T01:31:12.521272+00:00",
+   "outlet": "ET Corporate",
+   "resolvable": true,
+   "title": "FMCG majors in race for big bite of snacks brand Farmley",
+   "url": "https://economictimes.indiatimes.com/industry/cons-products/fmcg/fmcg-majors-in-race-for-big-bite-of-snacks-brand-farmley-emami-itc-brtiannia/articleshow/134876847.cms"
+  }
+ ],
+ "synopsis": "A group of early investors holding a combined 31% stake in healthy snacking brand Farmley have put their shares on the block, with multiple FMCG majors including Emami, ITC, Britannia, and Orkla India expressing interest in acquiring stakes. The potential deal may value Farmley at ₹2,000 crore. Farmley is exploring a dual-track sale process ranging from a minority stake divestment to a majority stake sale, depending on whether founders Akash Sharma and Abhishek Agarwal also sell their 32% holding. Preliminary bids are due by the end of October. KPMG is advising the initial investors on the transaction.",
+ "ticker": null,
+ "updatedAt": "2026-10-12T01:31:20.088734+00:00"
+}

@@ -1,6 +1,53 @@
 {
- "dealCount": 839,
+ "dealCount": 841,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Farmley",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-12T01:31:12.520235+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1173,
+   "individuals": [
+    "Akash Sharma",
+    "Abhishek Agarwal"
+   ],
+   "listed": false,
+   "oneLine": "Early investors look to sell their 31% stake in Farmley to FMCG majors.",
+   "primaryOutlet": "ET Corporate",
+   "seller": "early investors",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-12T01:31:20.088734+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Jupiter",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-12T01:31:12.495359+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 1172,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Jupiter plans an IPO by mid-2027.",
+   "primaryOutlet": "The New Indian Express",
+   "seller": null,
+   "sizeBand": "OVER_2000",
+   "sizeSource": "band",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-12T01:31:15.961858+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -45,10 +92,15 @@
    "seller": "Samara Capital and Morgan Stanley",
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-10-11T13:16:01.142768+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-10-12T01:31:12.504938+00:00",
+     "title": "Sahajanand Medical Technologies plans 1.38-crore-share IPO with Samara, Morgan"
+    }
+   ]
   },
   {
    "amountCr": 30000.0,
@@ -2277,7 +2329,7 @@
    "seller": "Carlsberg Group",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 11,
+   "sourceCount": 12,
    "ticker": null,
    "updatedAt": "2026-10-01T14:46:08.546312+00:00",
    "updates": [
@@ -2320,6 +2372,10 @@
     {
      "attachedAt": "2026-10-06T01:31:13.567383+00:00",
      "title": "Carlsberg India, three other companies receive SEBI clearance to proceed with IPOs"
+    },
+    {
+     "attachedAt": "2026-10-12T01:31:12.513113+00:00",
+     "title": "Carlsberg India told to close Alwar unit over pollution breach ahead of $700 million IPO plans"
     }
    ]
   },
@@ -26669,6 +26725,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-11T16:45:54.139527+00:00",
- "totalDeals": 839
+ "generatedAt": "2026-10-12T01:31:20.088734+00:00",
+ "totalDeals": 841
 }
