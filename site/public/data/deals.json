@@ -1,6 +1,28 @@
 {
- "dealCount": 842,
+ "dealCount": 843,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Matangi Rubber Limited",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-12T04:31:11.977910+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 1175,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Matangi Rubber Limited issued an addendum to its DRHP for a planned IPO.",
+   "primaryOutlet": "Addendum to the DRHP",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-12T04:31:11.977910+00:00",
+   "updates": []
+  },
   {
    "amountCr": 1895.0,
    "amountRaw": "₹1,895 crore",
@@ -19341,7 +19363,7 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 6,
+   "sourceCount": 8,
    "ticker": null,
    "updatedAt": "2026-08-17T05:31:02.142139+00:00",
    "updates": [
@@ -19364,6 +19386,14 @@
     {
      "attachedAt": "2026-09-28T09:16:00.202307+00:00",
      "title": "Sebi Approves IPOs for Pioneer Fil-Med, Tonbo, Functional Foods"
+    },
+    {
+     "attachedAt": "2026-10-12T04:31:11.949435+00:00",
+     "title": "Tonbo Imaging India Limited- RHPTonbo Imaging India Limited"
+    },
+    {
+     "attachedAt": "2026-10-12T04:31:11.963405+00:00",
+     "title": "Tonbo Imaging India Limited"
     }
    ]
   },
@@ -26747,6 +26777,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-12T04:01:17.265293+00:00",
- "totalDeals": 842
+ "generatedAt": "2026-10-12T04:31:11.977910+00:00",
+ "totalDeals": 843
 }
