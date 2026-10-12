@@ -168,13 +168,21 @@
    "seller": "Samara Capital and Morgan Stanley",
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 2,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-10-11T13:16:01.142768+00:00",
    "updates": [
     {
      "attachedAt": "2026-10-12T01:31:12.504938+00:00",
      "title": "Sahajanand Medical Technologies plans 1.38-crore-share IPO with Samara, Morgan"
+    },
+    {
+     "attachedAt": "2026-10-12T06:16:00.132727+00:00",
+     "title": "Sahajanand Medical technologies Limited – RHPSahajanand Medical technologies Limited"
+    },
+    {
+     "attachedAt": "2026-10-12T06:16:00.139481+00:00",
+     "title": "Sahajanand Medical technologies Limited"
     }
    ]
   },
