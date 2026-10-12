@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "McCain Foods",
+ "company": "Falcon Agrifriz Foods",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-12T07:16:16.676257+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1177,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "McCain Foods acquires Falcon Agrifriz Foods' potato processing business.",
+ "primaryUrl": "https://www.thehindubusinessline.com/companies/mccain-foods-to-scquire-falcon-agrifriz-foods-potato-processing-business-in-gujarat/article71574025.ece",
+ "seller": "Falcon Agrifriz Foods",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-10-12T07:16:16.677274+00:00",
+   "outlet": "Business Line",
+   "resolvable": true,
+   "title": "McCain Foods to acquire Falcon Agrifriz Foods’ potato processing business in Gujarat",
+   "url": "https://www.thehindubusinessline.com/companies/mccain-foods-to-scquire-falcon-agrifriz-foods-potato-processing-business-in-gujarat/article71574025.ece"
+  }
+ ],
+ "synopsis": "McCain Foods has entered into an agreement to acquire Falcon Agrifriz Foods' frozen potato processing business located in Gujarat, India. The transaction aims to complement McCain's existing operations in Mehsana and strengthen its manufacturing footprint in the region. The commercials of the transaction were not disclosed by the companies. The closing of the deal remains subject to the satisfaction of customary closing conditions. Falcon Agrifriz operates a modern potato processing facility in Gujarat and works with over 450 employees and 1,000 farmers, relationships that McCain plans to build upon following the transaction's completion.",
+ "ticker": null,
+ "updatedAt": "2026-10-12T07:16:18.754374+00:00"
+}
