@@ -458,7 +458,7 @@
    "seller": "Fusion CX Limited promoters",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-10-11T16:45:54.139527+00:00",
    "updates": [
@@ -469,6 +469,10 @@
     {
      "attachedAt": "2026-10-11T16:45:54.137957+00:00",
      "title": "Kotak Life, investors Mukul Agrawal, Ashish Kacholia acquire shares in Fusion CX ahead of IPO"
+    },
+    {
+     "attachedAt": "2026-10-12T10:31:24.825262+00:00",
+     "title": "Fusion CX Pre-IPO Round Brings In Kotak Life, Kacholia"
     }
    ]
   },
