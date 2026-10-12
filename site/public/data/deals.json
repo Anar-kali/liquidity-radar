@@ -388,7 +388,7 @@
    "seller": "Zetwerk Manufacturing Business",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 9,
+   "sourceCount": 10,
    "ticker": null,
    "updatedAt": "2026-10-12T09:45:59.542545+00:00",
    "updates": [
@@ -423,6 +423,10 @@
     {
      "attachedAt": "2026-10-12T13:46:00.380806+00:00",
      "title": "Zetwerk targets ₹25,583 crore valuation in ₹5,012 crore IPO"
+    },
+    {
+     "attachedAt": "2026-10-12T14:31:09.184390+00:00",
+     "title": "Zetwerk IPO promises big returns; Flipkart alumni seek Esop buyback"
     }
    ]
   },
