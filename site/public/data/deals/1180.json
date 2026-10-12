@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 200.0,
+ "amountRaw": "₹200 crore",
+ "buyer": null,
+ "company": "SMT",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-12T12:01:19.425483+00:00",
+ "dealType": "IPO-OFS",
+ "enrichmentState": "failed",
+ "id": 1180,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "SMT plans to raise funds in a pre-IPO round.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQUlhnWF95Nk50ekhWLXJobGNhTnVGQUdRbWlfNjlFdmcyMC1FWVFjMndJNjZTWGRMZDJKTjVhN3BZN1RkVDg0eTR0dUU0YnRCbllHXzRVQWhuSEhhMndWb3VqMnc1OTNFb0w2VENxR3FuNHduYnVzRHZRVGl0Ym9FRUtnTXdJQTRyVEE?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-12T12:01:19.427310+00:00",
+   "outlet": "Medical Buyer",
+   "resolvable": false,
+   "title": "SMT plans to raise ₹200 crore in pre-IPO round",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQUlhnWF95Nk50ekhWLXJobGNhTnVGQUdRbWlfNjlFdmcyMC1FWVFjMndJNjZTWGRMZDJKTjVhN3BZN1RkVDg0eTR0dUU0YnRCbllHXzRVQWhuSEhhMndWb3VqMnc1OTNFb0w2VENxR3FuNHduYnVzRHZRVGl0Ym9FRUtnTXdJQTRyVEE?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": "538563.BO",
+ "updatedAt": "2026-10-12T12:01:19.425483+00:00"
+}

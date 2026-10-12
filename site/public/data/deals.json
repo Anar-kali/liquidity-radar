@@ -1,6 +1,28 @@
 {
- "dealCount": 847,
+ "dealCount": 848,
  "deals": [
+  {
+   "amountCr": 200.0,
+   "amountRaw": "₹200 crore",
+   "company": "SMT",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-12T12:01:19.425483+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": "failed",
+   "id": 1180,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "SMT plans to raise funds in a pre-IPO round.",
+   "primaryOutlet": "Medical Buyer",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "538563.BO",
+   "updatedAt": "2026-10-12T12:01:19.425483+00:00",
+   "updates": []
+  },
   {
    "amountCr": 6600.0,
    "amountRaw": "₹6,600 cr",
@@ -26941,6 +26963,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-12T10:16:22.707899+00:00",
- "totalDeals": 847
+ "generatedAt": "2026-10-12T12:01:19.425483+00:00",
+ "totalDeals": 848
 }
