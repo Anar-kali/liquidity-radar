@@ -1,6 +1,28 @@
 {
- "dealCount": 849,
+ "dealCount": 850,
  "deals": [
+  {
+   "amountCr": 190.0,
+   "amountRaw": "Rs 190 crore",
+   "company": "Jubilant Pharmova",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-12T16:01:21.341050+00:00",
+   "dealType": "block deal",
+   "enrichmentState": null,
+   "id": 1182,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Quant Mutual Fund offloaded a stake worth Rs 190 crore via a block deal.",
+   "primaryOutlet": "The Economic Times",
+   "seller": "Quant Mutual Fund",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "JUBLPHARMA.NS",
+   "updatedAt": "2026-10-12T16:01:25.760912+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -18,7 +40,7 @@
    "seller": "Indian Energy Exchange",
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-10-12T12:16:04.175065+00:00",
    "updates": [
@@ -29,6 +51,10 @@
     {
      "attachedAt": "2026-10-12T15:01:17.334854+00:00",
      "title": "IGX Gets Sebi Nod For IPO; IEX To Sell Up To 1.67 Cr Shares"
+    },
+    {
+     "attachedAt": "2026-10-12T16:01:21.337884+00:00",
+     "title": "Indian Gas Exchange secures Sebi's nod to float IPO"
     }
    ]
   },
@@ -27006,6 +27032,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-12T12:16:04.175065+00:00",
- "totalDeals": 849
+ "generatedAt": "2026-10-12T16:01:25.760912+00:00",
+ "totalDeals": 850
 }
