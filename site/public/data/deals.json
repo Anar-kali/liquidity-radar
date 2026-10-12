@@ -293,8 +293,8 @@
    "updates": []
   },
   {
-   "amountCr": 2830.0,
-   "amountRaw": "Rs 2,830 Crore",
+   "amountCr": 5012.0,
+   "amountRaw": "Rs. 5,012 Crore",
    "company": "Zetwerk",
    "confidence": "medium",
    "confirmed": false,
@@ -309,9 +309,9 @@
    "seller": "Zetwerk Manufacturing Business",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 7,
+   "sourceCount": 8,
    "ticker": null,
-   "updatedAt": "2026-10-12T07:46:00.184903+00:00",
+   "updatedAt": "2026-10-12T09:45:59.542545+00:00",
    "updates": [
     {
      "attachedAt": "2026-10-11T10:46:00.858156+00:00",
@@ -336,6 +336,10 @@
     {
      "attachedAt": "2026-10-12T08:31:17.043168+00:00",
      "title": "Zetwerk IPO: Early investors set for up to 38X returns through OFS"
+    },
+    {
+     "attachedAt": "2026-10-12T09:45:59.540123+00:00",
+     "title": "Zetwerk IPO 2026: Rs. 5,012 Crore Issue, Price Band, Key Dates"
     }
    ]
   },
@@ -26903,6 +26907,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-12T08:16:07.746761+00:00",
+ "generatedAt": "2026-10-12T09:45:59.542545+00:00",
  "totalDeals": 846
 }
