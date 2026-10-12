@@ -1,6 +1,28 @@
 {
- "dealCount": 843,
+ "dealCount": 844,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Polaris Smart Metering",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-12T04:45:57.824997+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1176,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "JSW, Gemstar, and Actis compete to acquire Polaris Smart Metering.",
+   "primaryOutlet": "TradingView",
+   "seller": "I Squared Capital",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-12T04:46:02.065350+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -26777,6 +26799,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-12T04:31:11.977910+00:00",
- "totalDeals": 843
+ "generatedAt": "2026-10-12T04:46:02.065350+00:00",
+ "totalDeals": 844
 }
