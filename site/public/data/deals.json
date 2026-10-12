@@ -128,7 +128,7 @@
    "seller": "Alphawave",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": "LENSKART.NS",
    "updatedAt": "2026-10-12T10:01:22.640689+00:00",
    "updates": [
@@ -139,6 +139,10 @@
     {
      "attachedAt": "2026-10-12T10:01:22.639765+00:00",
      "title": "Lenskart Share Price Falls 5% on Block Deal: What Should You Do?"
+    },
+    {
+     "attachedAt": "2026-10-12T11:31:23.780179+00:00",
+     "title": "Lenskart shares fall 5% amid reports of block deal by Alpha Wave Ventures; here’s what we know"
     }
    ]
   },
