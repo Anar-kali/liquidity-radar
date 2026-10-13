@@ -1,6 +1,55 @@
 {
- "dealCount": 860,
+ "dealCount": 862,
  "deals": [
+  {
+   "amountCr": 550.0,
+   "amountRaw": "₹550 crore",
+   "company": "DASNAC",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-13T15:48:43.956109+00:00",
+   "dealType": "PE secondary",
+   "enrichmentState": null,
+   "id": 1194,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Investor exits DASNAC generating 550 crore in cash proceeds",
+   "primaryOutlet": "Mint",
+   "seller": "WSIB-backed investor",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-13T15:51:04.090323+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 1034.0,
+   "amountRaw": "₹1,034 crore",
+   "company": "Tribhovandas Bhimji Zaveri",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-13T15:48:43.004223+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1193,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "GRT Jewellers acquires 74.12% stake in TBZ for 1,034 crore",
+   "primaryOutlet": "CNBC TV18",
+   "seller": "TBZ's promoters",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 2,
+   "ticker": "TBZ.NS",
+   "updatedAt": "2026-10-13T15:50:28.645205+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-10-13T15:48:43.953362+00:00",
+     "title": "CCI clears GRT Jewellers’ acquisition of Tribhovandas Bhimji Zaveri"
+    }
+   ]
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -27302,6 +27351,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-13T12:31:28.987334+00:00",
- "totalDeals": 860
+ "generatedAt": "2026-10-13T15:51:04.090323+00:00",
+ "totalDeals": 862
 }

@@ -1,0 +1,39 @@
+{
+ "advisers": [],
+ "amountCr": 1034.0,
+ "amountRaw": "₹1,034 crore",
+ "buyer": "GRT Jewellers",
+ "company": "Tribhovandas Bhimji Zaveri",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-13T15:48:43.004223+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1193,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "GRT Jewellers acquires 74.12% stake in TBZ for 1,034 crore",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOS0pVeXJrMzRCTWlENGp5bVdLSzdtdzNGeVQ4ZS1GTkdMVDdlQ1l2R1htdzZHVVFQQmpSY0NtVVdfb21hQlkyRVFmUFlENGtReUI5cE9DV1NZOERXRFh3OEtveU96V04tdGdVaHQ4UlM5OGtqbnJ1Z3VDMXQ2bWxzWVBBTHNTR2c1ajdub2Q4MEF5UG5IbmYwUHhZR3l5Qy05eldzVmMxZTYxTHE2cEgySm82U2tYcERoQnplMW5zb2w3Mldp0gHEAUFVX3lxTE5LSlV5cmszNEJNaUQ0anltV0tLN213M0Z5VDhlLUZOR0xUN2VDWXZHWG13NkdVUVBCalJjQ21VV19vbWFCWTJFUWZQWUQ0a1F5QjlwT0NXU1k4RFdEWHc4S295T3pXTi10Z1VodDhSUzk4a2pucnVndUMxdDZtbHNZUEFMc1NHZzVqN25vZDgwQXlQbkhuZjBQeFlHeXlDLTl6V3NWYzFlNjFMcTZwSDJKbzZTa1hwRGhCemUxbnNvbDcyV2k?oc=5",
+ "seller": "TBZ's promoters",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-13T15:48:43.005686+00:00",
+   "outlet": "CNBC TV18",
+   "resolvable": false,
+   "title": "CCI clears GRT Jewellers' ₹1,034 crore deal for 74.12% stake in TBZ",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOS0pVeXJrMzRCTWlENGp5bVdLSzdtdzNGeVQ4ZS1GTkdMVDdlQ1l2R1htdzZHVVFQQmpSY0NtVVdfb21hQlkyRVFmUFlENGtReUI5cE9DV1NZOERXRFh3OEtveU96V04tdGdVaHQ4UlM5OGtqbnJ1Z3VDMXQ2bWxzWVBBTHNTR2c1ajdub2Q4MEF5UG5IbmYwUHhZR3l5Qy05eldzVmMxZTYxTHE2cEgySm82U2tYcERoQnplMW5zb2w3Mldp0gHEAUFVX3lxTE5LSlV5cmszNEJNaUQ0anltV0tLN213M0Z5VDhlLUZOR0xUN2VDWXZHWG13NkdVUVBCalJjQ21VV19vbWFCWTJFUWZQWUQ0a1F5QjlwT0NXU1k4RFdEWHc4S295T3pXTi10Z1VodDhSUzk4a2pucnVndUMxdDZtbHNZUEFMc1NHZzVqN25vZDgwQXlQbkhuZjBQeFlHeXlDLTl6V3NWYzFlNjFMcTZwSDJKbzZTa1hwRGhCemUxbnNvbDcyV2k?oc=5"
+  },
+  {
+   "attachedAt": "2026-10-13T15:48:43.953362+00:00",
+   "outlet": "Google News",
+   "resolvable": true,
+   "title": "CCI clears GRT Jewellers’ acquisition of Tribhovandas Bhimji Zaveri",
+   "url": "https://www.thehindubusinessline.com/companies/cci-clears-grt-jewellers-acquisition-of-tribhovandas-bhimji-zaveri/article71580219.ece"
+  }
+ ],
+ "synopsis": "The Competition Commission of India has approved GRT Jewellers (India) Private Limited's proposed acquisition of a 74.12% stake in Tribhovandas Bhimji Zaveri Limited from its promoters for a consideration of up to 1,033.71 crore rupees. Under a share purchase agreement announced on August 31, GRT Jewellers is set to acquire 4,94,59,775 equity shares. GRT has also proposed an open offer to acquire an additional stake of around 26% in TBZ under SEBI regulations. The approval clears a key regulatory hurdle, though the transaction is not yet complete and remains subject to applicable closing conditions.",
+ "ticker": "TBZ.NS",
+ "updatedAt": "2026-10-13T15:50:28.645205+00:00"
+}

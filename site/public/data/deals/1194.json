@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 550.0,
+ "amountRaw": "₹550 crore",
+ "buyer": "DASNAC",
+ "company": "DASNAC",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-13T15:48:43.956109+00:00",
+ "dealType": "PE secondary",
+ "enrichmentState": null,
+ "id": 1194,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Investor exits DASNAC generating 550 crore in cash proceeds",
+ "primaryUrl": "https://www.livemint.com/companies/from-rs-201-crore-invested-in-2017-to-rs-550-crore-realised-wsib-backed-investor-exits-dasnac-11791902391985.html",
+ "seller": "WSIB-backed investor",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-13T15:48:43.957194+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "From ₹201 crore invested in 2017 to ₹550 crore realised: WSIB-backed investor exits DASNAC",
+   "url": "https://www.livemint.com/companies/from-rs-201-crore-invested-in-2017-to-rs-550-crore-realised-wsib-backed-investor-exits-dasnac-11791902391985.html"
+  }
+ ],
+ "synopsis": "Kautilya Finance, a real estate investment platform backed by the Washington State Investment Board, has exited its non-convertible debenture investments in Delhi-based developer DASNAC. The exit generated aggregate cash proceeds of around 550 crore rupees in FY26, concluding a multi-year investment relationship that began in 2017 when Kautilya Finance BV committed 201 crore rupees to listed NCDs issued by DASNAC's special-purpose vehicle, E-Homes Infrastructure. The proceeds include repayments of invested principal and contractual interest. Additionally, DASNAC and Aevitas have held preliminary discussions on a potential equity investment, though no final agreement has been reached.",
+ "ticker": null,
+ "updatedAt": "2026-10-13T15:51:04.090323+00:00"
+}
