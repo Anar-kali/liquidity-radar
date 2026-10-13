@@ -602,7 +602,7 @@
    "seller": "Zetwerk Manufacturing Business",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 11,
+   "sourceCount": 13,
    "ticker": null,
    "updatedAt": "2026-10-12T09:45:59.542545+00:00",
    "updates": [
@@ -645,6 +645,14 @@
     {
      "attachedAt": "2026-10-13T02:01:11.275514+00:00",
      "title": "TechSparks 2026 is here; Zetwerk targets Rs 5,012 Cr IPO"
+    },
+    {
+     "attachedAt": "2026-10-13T09:46:10.885634+00:00",
+     "title": "Zetwerk Manufacturing Businesses Limited – RHPZetwerk Manufacturing Businesses Limited"
+    },
+    {
+     "attachedAt": "2026-10-13T09:46:10.892659+00:00",
+     "title": "Zetwerk Manufacturing Businesses Limited"
     }
    ]
   },
