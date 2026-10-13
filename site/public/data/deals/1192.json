@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Oswal Cables Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-13T12:31:28.987334+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": "failed",
+ "id": 1192,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Oswal Cables Limited submitted an addendum to its draft red herring prospectus for an IPO.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/oct-2026/oswal-cables-limited-addendum-to-drhp_105234.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-10-13T12:31:29.034354+00:00",
+   "outlet": "Addendum to DRHP",
+   "resolvable": true,
+   "title": "OSWAL CABLES LIMITED",
+   "url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/oswal-cables-limited-addendum-to-drhp_105234.html"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-10-13T12:31:28.987334+00:00"
+}
