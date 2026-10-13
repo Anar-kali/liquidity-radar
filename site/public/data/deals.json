@@ -4192,8 +4192,8 @@
    "updates": []
   },
   {
-   "amountCr": 2500.0,
-   "amountRaw": "₹2,500 Cr",
+   "amountCr": 536.0,
+   "amountRaw": "Rs 536 Cr",
    "company": "StockGro",
    "confidence": "medium",
    "confirmed": false,
@@ -4208,13 +4208,17 @@
    "seller": "existing shareholders",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
-   "updatedAt": "2026-09-29T12:46:13.249776+00:00",
+   "updatedAt": "2026-10-13T12:18:38.697705+00:00",
    "updates": [
     {
      "attachedAt": "2026-09-30T11:31:05.179727+00:00",
      "title": "StockGro Parent Files Confidential IPO Papers for Rs 2,500 Crore"
+    },
+    {
+     "attachedAt": "2026-10-13T12:18:38.696441+00:00",
+     "title": "Exclusive: StockGro plans Rs 536 Cr IPO fresh issue, to appoint independent directors"
     }
    ]
   },
@@ -27276,6 +27280,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-13T11:31:08.834277+00:00",
+ "generatedAt": "2026-10-13T12:18:38.697705+00:00",
  "totalDeals": 859
 }
