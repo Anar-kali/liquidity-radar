@@ -1,6 +1,28 @@
 {
- "dealCount": 854,
+ "dealCount": 855,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Bandhan Financial Services",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-13T05:16:07.850848+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1187,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Abu Dhabi's IHC explores stake purchase in Bandhan Financial Services",
+   "primaryOutlet": "The Economic Times",
+   "seller": "Bandhan Financial Services promoters",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-13T05:16:11.808545+00:00",
+   "updates": []
+  },
   {
    "amountCr": 157.0,
    "amountRaw": "₹157 Cr",
@@ -27134,6 +27156,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-13T01:32:34.563073+00:00",
- "totalDeals": 854
+ "generatedAt": "2026-10-13T05:16:11.808545+00:00",
+ "totalDeals": 855
 }
