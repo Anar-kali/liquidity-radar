@@ -1,7 +1,7 @@
 {
  "advisers": [],
- "amountCr": null,
- "amountRaw": null,
+ "amountCr": 5280.0,
+ "amountRaw": "$600 Million (~5280 crore INR)",
  "buyer": "IHC, First Abu Dhabi",
  "company": "Bandhan Bank",
  "confidence": "medium",
@@ -18,7 +18,7 @@
  "primaryUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQSzI3dnJIa1dqXzljT19KQU9yTFhyMU9pbUx3NlNuc2RvYlJQYV9IUVpOcndFUm9HRko0dF9fVVY3OFJ1N09sUS16ajB4QmFpelBiWlhBRENlNUQ0Zkdfbi1ZMUpwbTQ5dTI4dWJPcjUtclVhMjBCd1V0dmRJc0JaMUdEM3JKOC1ZOUM4eHUxMG4zbng0UEpCRGVQNlhPd09BMjJXVXp4MGdKSDRHOUxuWE5JYklvMG05NlZZTGJoaWI0TDVhWWs3S3l3Z3AtNDczd1dycE4tRTJ2WjR1ZE42NUV1VkZEWThWWGIw?oc=5",
  "seller": "Bandhan Bank promoter",
  "sizeBand": null,
- "sizeSource": "mcap_plausible",
+ "sizeSource": "stated",
  "sources": [
   {
    "attachedAt": "2026-10-13T01:31:52.403211+00:00",
@@ -33,9 +33,16 @@
    "resolvable": false,
    "title": "Bandhan Bank stock jumps 7% on reports of Abu Dhabi's IHC exploring promoter stake acquisition",
    "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOTk43TWhIWml6MUlUOGtDY2xGdDQ3WENLTW1yaWFKalFIcXBzYTdad1pPMm5CWVFBU1o2QTFtLTJNSjhVbHFqaHQ0T1Z4S3AxYW8wSnFMclQzUXRvejU5U1ZOWUlIMkVwdHVCQTdsb3BWaWt5ZEpxNWJtWlpMM1ptLW5MdWdxcW1xcEpPRWlOOE9IMjNHUWd5dGM2d0lVUFBPaC1acjVucjZUV0stc19ETExqcUlpdG1ldEt2em9Xd21ld0dyd2FSZHNuODFuWXpSNkFKeDFwLWlsQ1FZY196XzNtdWk3VDNVU0QtWDZDSdIB9AFBVV95cUxPWm9oUG9xNjZMVnNUTzJCVm5jTS02X0djSVpFakExdFJHX2xNcnhQLTVNTlZsLWMwTVBWMElJUHBqN2tJQVE4TU9SS1R3OWhJVjVpdmdwSDBKNFpuc2w2ZGg3SmZsZjR3WVpOUF85akgzV2NiTVpuWmpKaGdsNS1rVkRpbEZndUZmOVIyM2N2b1U4bzNUbVVubjFKVHdFQ21zNHFFazh6TXdmN1hSeTd4dmtjbXRDVm1WekZRSTRUWlJaVGJSTVMwdkJOSkJST1pWYmpTTWRnaDNSVE81cjFwTHdpZ1ptc0hhd3Qwam9aZDBfbmhW?oc=5"
+  },
+  {
+   "attachedAt": "2026-10-13T08:01:20.710897+00:00",
+   "outlet": "BW Businessworld",
+   "resolvable": false,
+   "title": "Bandhan Bank Jumps 8% On $600 Million Stake Talks",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTU52VllTTFIzUmdYSmd3NHYzTXpMWkMxalVfVkhwM1AtZ1hJMHgtall1eWJkQ0lGZU9KUmdyNlI3NUVCUDNNZGdvZ19pR2t0bnlMaEpjNUJ1ZVI0Q1JxbzZBUGVISHlOZXp0UVBZcjBLWDFVS181NnU1ZmFiZUpRam43bjdNUTFuNDRjNGJDLUx6UG16M3NYT2FFRGZvSXlCMHE4?oc=5"
   }
  ],
  "synopsis": "International Holding Company (IHC) and First Abu Dhabi Bank are in early-stage discussions to acquire a stake in Bandhan Financial Services (BFSL), the promoter of Bandhan Bank. The transaction aims to provide an exit for early investors including GIC and the International Finance Corporation, who jointly hold 30 percent in BFSL. BFSL, led by founder Chandra Shekhar Ghosh, is working with advisers Jefferies to find strategic investors for a 25 to 32 percent stake. Other potential bidders mentioned include Qatar Investment Authority and private equity funds like Carlyle and EQT. The talks are currently at an early stage with no guaranteed final transaction.",
  "ticker": "BANDHANBNK.NS",
- "updatedAt": "2026-10-13T01:32:02.768678+00:00"
+ "updatedAt": "2026-10-13T08:01:20.713086+00:00"
 }
