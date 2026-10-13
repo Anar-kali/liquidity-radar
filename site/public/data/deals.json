@@ -116,10 +116,15 @@
    "seller": "Bandhan Bank promoter",
    "sizeBand": null,
    "sizeSource": "mcap_plausible",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": "BANDHANBNK.NS",
    "updatedAt": "2026-10-13T01:32:02.768678+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-10-13T05:46:02.122540+00:00",
+     "title": "Bandhan Bank stock jumps 7% on reports of Abu Dhabi's IHC exploring promoter stake acquisition"
+    }
+   ]
   },
   {
    "amountCr": 190.0,
