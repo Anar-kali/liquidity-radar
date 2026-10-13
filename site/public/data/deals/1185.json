@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Moonshot",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-13T01:31:52.423694+00:00",
+ "dealType": "IPO-OFS",
+ "enrichmentState": null,
+ "id": 1185,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Moonshot executives settling dispute with shareholder ahead of planned IPO",
+ "primaryUrl": "https://www.livemint.com/companies/exclusivemoonshot-execs-in-talks-to-settle-dispute-with-shareholder-ahead-of-planned-ipo-people-say-11791838614126.html",
+ "seller": "shareholder",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-10-13T01:31:52.424898+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "Exclusive-Moonshot execs in talks to settle dispute with shareholder ahead of planned IPO, people say",
+   "url": "https://www.livemint.com/companies/exclusivemoonshot-execs-in-talks-to-settle-dispute-with-shareholder-ahead-of-planned-ipo-people-say-11791838614126.html"
+  }
+ ],
+ "synopsis": "Top executives of Chinese AI startup Moonshot are in talks to settle a legal dispute with a shareholder ahead of a planned Hong Kong listing. Recurrent.ai and some of its investors have accused Moonshot CEO Yang Zhilin and Chief Technology Officer Zhang Yutao of making false representations and enriching themselves at Recurrent's expense. The dispute involves arbitration in Hong Kong concerning allegations that servers and vital data were transferred from Recurrent to a Moonshot subsidiary without board authorisation. Recurrent and its investors are seeking compensation equal to 10.5% of Moonshot's original shares, which could be worth more than $700 million based on Moonshot's $30 billion valuation.",
+ "ticker": null,
+ "updatedAt": "2026-10-13T01:32:27.091857+00:00"
+}

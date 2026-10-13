@@ -1,0 +1,34 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "IHC, First Abu Dhabi",
+ "company": "Bandhan Bank",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-13T01:31:52.401346+00:00",
+ "dealType": "promoter sale",
+ "enrichmentState": null,
+ "id": 1183,
+ "individuals": [
+  "Chandra Shekhar Ghosh"
+ ],
+ "listed": true,
+ "oneLine": "IHC and First Abu Dhabi in talks to buy a stake in Bandhan Bank promoter",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQSzI3dnJIa1dqXzljT19KQU9yTFhyMU9pbUx3NlNuc2RvYlJQYV9IUVpOcndFUm9HRko0dF9fVVY3OFJ1N09sUS16ajB4QmFpelBiWlhBRENlNUQ0Zkdfbi1ZMUpwbTQ5dTI4dWJPcjUtclVhMjBCd1V0dmRJc0JaMUdEM3JKOC1ZOUM4eHUxMG4zbng0UEpCRGVQNlhPd09BMjJXVXp4MGdKSDRHOUxuWE5JYklvMG05NlZZTGJoaWI0TDVhWWs3S3l3Z3AtNDczd1dycE4tRTJ2WjR1ZE42NUV1VkZEWThWWGIw?oc=5",
+ "seller": "Bandhan Bank promoter",
+ "sizeBand": null,
+ "sizeSource": "mcap_plausible",
+ "sources": [
+  {
+   "attachedAt": "2026-10-13T01:31:52.403211+00:00",
+   "outlet": "The Economic Times",
+   "resolvable": false,
+   "title": "IHC, First Abu Dhabi eye stake in Bandhan Bank promoter",
+   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQSzI3dnJIa1dqXzljT19KQU9yTFhyMU9pbUx3NlNuc2RvYlJQYV9IUVpOcndFUm9HRko0dF9fVVY3OFJ1N09sUS16ajB4QmFpelBiWlhBRENlNUQ0Zkdfbi1ZMUpwbTQ5dTI4dWJPcjUtclVhMjBCd1V0dmRJc0JaMUdEM3JKOC1ZOUM4eHUxMG4zbng0UEpCRGVQNlhPd09BMjJXVXp4MGdKSDRHOUxuWE5JYklvMG05NlZZTGJoaWI0TDVhWWs3S3l3Z3AtNDczd1dycE4tRTJ2WjR1ZE42NUV1VkZEWThWWGIw?oc=5"
+  }
+ ],
+ "synopsis": "International Holding Company (IHC) and First Abu Dhabi Bank are in early-stage discussions to acquire a stake in Bandhan Financial Services (BFSL), the promoter of Bandhan Bank. The transaction aims to provide an exit for early investors including GIC and the International Finance Corporation, who jointly hold 30 percent in BFSL. BFSL, led by founder Chandra Shekhar Ghosh, is working with advisers Jefferies to find strategic investors for a 25 to 32 percent stake. Other potential bidders mentioned include Qatar Investment Authority and private equity funds like Carlyle and EQT. The talks are currently at an early stage with no guaranteed final transaction.",
+ "ticker": "BANDHANBNK.NS",
+ "updatedAt": "2026-10-13T01:32:02.768678+00:00"
+}

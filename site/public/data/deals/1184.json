@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 150.0,
+ "amountRaw": "₹150 Crore",
+ "buyer": "Transport Corporation Of India",
+ "company": "Transport Corporation Of India",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-13T01:31:52.407111+00:00",
+ "dealType": "other",
+ "enrichmentState": null,
+ "id": 1184,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Transport Corporation Of India announces Rs 150 crore share buyback",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSjdhNGRnbHBEM2VySk1mU3Q2eXdsUFl2aVFSYzZnOHZNY0MySXlEOFEwZmtuVnpzRGZwVi1HMDZDbUxDanJlVUU5ZEFCVlhkR0pnb0R4UzJtZEtndUlla2E3amFlQzdUWHRUSHpRVGdfaWg3MUhvczQtNkdoR2F1T1dlZ05peHQ1SXhfNlEtcUlhRm1ZVlJDbDFKMk5BYTFFLWZiaTJHRmVtVWVaZ19wWA?oc=5",
+ "seller": "shareholders",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-13T01:31:52.408096+00:00",
+   "outlet": "Sahi",
+   "resolvable": false,
+   "title": "Transport Corporation Of India Announces ₹150 Crore Buyback Of 1,562,500 Shares At ₹960",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSjdhNGRnbHBEM2VySk1mU3Q2eXdsUFl2aVFSYzZnOHZNY0MySXlEOFEwZmtuVnpzRGZwVi1HMDZDbUxDanJlVUU5ZEFCVlhkR0pnb0R4UzJtZEtndUlla2E3amFlQzdUWHRUSHpRVGdfaWg3MUhvczQtNkdoR2F1T1dlZ05peHQ1SXhfNlEtcUlhRm1ZVlJDbDFKMk5BYTFFLWZiaTJHRmVtVWVaZ19wWA?oc=5"
+  }
+ ],
+ "synopsis": "Transport Corporation Of India is executing a share buyback program via a tender offer to repurchase up to 1,562,500 equity shares at a price of ₹960 per share, with total capital outlay capped at ₹150 crore. The buyback represents up to 2.03 percent of the total equity share capital of the company. The tender window is scheduled to run from October 15 to October 22, 2026. The promoter group, which holds a 68.86 percent stake, has confirmed they will not participate in the offer, concentrating the tender opportunity exclusively among public equity holders.",
+ "ticker": "TCI.NS",
+ "updatedAt": "2026-10-13T01:32:16.184710+00:00"
+}
