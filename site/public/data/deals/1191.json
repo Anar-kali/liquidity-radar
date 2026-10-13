@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 4823.0,
+ "amountRaw": "24% x mcap ~Rs 20096cr = ~Rs 4823cr",
+ "buyer": "Strategic Investor",
+ "company": "Allied Blenders and Distillers",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-13T11:31:04.150244+00:00",
+ "dealType": "promoter sale",
+ "enrichmentState": null,
+ "id": 1191,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Promoters of Allied Blenders plan up to 24% stake sale to a strategic investor.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdnVFRDZmYnBRRjBVRzBQYlA3MHcyNXR2QmJQM2QzRUlTOVh2bzdkLUJYaGJ5elNjZkdhOXZrdndqcXVJeXZQWm1oUWlnN09pNXNBa1N3cldMam5TN1Y4b3dTMjAxR2lnZ2VkRmpSNzd5SkI1dFlhSVVFd1F4LWxnVVBSWXBVOUViQS1ybXQtSGVyUXRGRjJLRk54eVhlSTg?oc=5",
+ "seller": "Promoters of Allied Blenders",
+ "sizeBand": null,
+ "sizeSource": "computed",
+ "sources": [
+  {
+   "attachedAt": "2026-10-13T11:31:04.151288+00:00",
+   "outlet": "Sahi",
+   "resolvable": false,
+   "title": "Allied Blenders Promoters Plan Up To 24% Stake Sale To Strategic Investor",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdnVFRDZmYnBRRjBVRzBQYlA3MHcyNXR2QmJQM2QzRUlTOVh2bzdkLUJYaGJ5elNjZkdhOXZrdndqcXVJeXZQWm1oUWlnN09pNXNBa1N3cldMam5TN1Y4b3dTMjAxR2lnZ2VkRmpSNzd5SkI1dFlhSVVFd1F4LWxnVVBSWXBVOUViQS1ybXQtSGVyUXRGRjJLRk54eVhlSTg?oc=5"
+  }
+ ],
+ "synopsis": "Promoters of Allied Blenders and Distillers plan to sell up to a 24 percent equity stake from their current 80.91 percent holding to a strategic investor. The transaction aims to bring strategic capital, distribution scale, and global alliance opportunities across premium spirits segments while allowing the founding group to retain over 56 percent majority operational control. The company reported FY26 revenue of 3,949 crore rupees, EBITDA of 568 crore rupees, and net profit of 220 crore rupees. Additionally, Japanese beverage major Suntory Holdings was noted in recent reports to be in preliminary discussions regarding a potential 10 to 15 percent minority investment.",
+ "ticker": "ABDL.NS",
+ "updatedAt": "2026-10-13T11:31:08.834277+00:00"
+}

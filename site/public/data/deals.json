@@ -1,6 +1,28 @@
 {
- "dealCount": 858,
+ "dealCount": 859,
  "deals": [
+  {
+   "amountCr": 4823.0,
+   "amountRaw": "24% x mcap ~Rs 20096cr = ~Rs 4823cr",
+   "company": "Allied Blenders and Distillers",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-13T11:31:04.150244+00:00",
+   "dealType": "promoter sale",
+   "enrichmentState": null,
+   "id": 1191,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Promoters of Allied Blenders plan up to 24% stake sale to a strategic investor.",
+   "primaryOutlet": "Sahi",
+   "seller": "Promoters of Allied Blenders",
+   "sizeBand": null,
+   "sizeSource": "computed",
+   "sourceCount": 1,
+   "ticker": "ABDL.NS",
+   "updatedAt": "2026-10-13T11:31:08.834277+00:00",
+   "updates": []
+  },
   {
    "amountCr": 88000.0,
    "amountRaw": "$10 billion-plus (approx Rs 88,000 crore)",
@@ -27254,6 +27276,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-13T10:31:11.294722+00:00",
- "totalDeals": 858
+ "generatedAt": "2026-10-13T11:31:08.834277+00:00",
+ "totalDeals": 859
 }
