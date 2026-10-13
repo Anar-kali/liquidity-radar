@@ -174,7 +174,7 @@
    "seller": "Indian Energy Exchange",
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 4,
+   "sourceCount": 5,
    "ticker": null,
    "updatedAt": "2026-10-12T12:16:04.175065+00:00",
    "updates": [
@@ -189,6 +189,10 @@
     {
      "attachedAt": "2026-10-12T16:01:21.337884+00:00",
      "title": "Indian Gas Exchange secures Sebi's nod to float IPO"
+    },
+    {
+     "attachedAt": "2026-10-13T08:45:59.150825+00:00",
+     "title": "Indian Gas Exchange Gets SEBI Nod for Its IPO"
     }
    ]
   },
