@@ -1,6 +1,28 @@
 {
- "dealCount": 857,
+ "dealCount": 858,
  "deals": [
+  {
+   "amountCr": 88000.0,
+   "amountRaw": "$10 billion-plus (approx Rs 88,000 crore)",
+   "company": "Shriram Finance",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-13T10:31:07.176315+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1190,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "MUFG considers majority buyout of Shriram Finance, potentially paying out existing shareholders.",
+   "primaryOutlet": "Mint",
+   "seller": "existing shareholders",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "SHRIRAMFIN.NS",
+   "updatedAt": "2026-10-13T10:31:11.294722+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -27232,6 +27254,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-13T09:31:13.048585+00:00",
- "totalDeals": 857
+ "generatedAt": "2026-10-13T10:31:11.294722+00:00",
+ "totalDeals": 858
 }

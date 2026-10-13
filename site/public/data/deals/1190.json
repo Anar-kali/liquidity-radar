@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 88000.0,
+ "amountRaw": "$10 billion-plus (approx Rs 88,000 crore)",
+ "buyer": "MUFG",
+ "company": "Shriram Finance",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-13T10:31:07.176315+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1190,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "MUFG considers majority buyout of Shriram Finance, potentially paying out existing shareholders.",
+ "primaryUrl": "https://www.livemint.com/companies/news/japans-largest-bank-mufg-weighs-10-billion-plus-investment-to-take-majority-control-of-shriram-finance-11791886620773.html",
+ "seller": "existing shareholders",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-13T10:31:07.178615+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "Japan's largest bank MUFG weighs $10 billion-plus investment to take majority control of Shriram Finance",
+   "url": "https://www.livemint.com/companies/news/japans-largest-bank-mufg-weighs-10-billion-plus-investment-to-take-majority-control-of-shriram-finance-11791886620773.html"
+  }
+ ],
+ "synopsis": "Japan's largest bank, Mitsubishi UFJ Financial Group Inc. (MUFG), is exploring a potential $10 billion-plus investment to increase its stake in Shriram Finance Ltd. to more than 50% from its current approximately 20% holding. The transaction could potentially become the largest foreign investment in India's financial sector. Discussions are currently in the early stages and remain private, with MUFG considering ways to secure majority control by potentially paying out existing shareholders.",
+ "ticker": "SHRIRAMFIN.NS",
+ "updatedAt": "2026-10-13T10:31:11.294722+00:00"
+}
