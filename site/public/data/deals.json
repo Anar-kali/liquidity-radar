@@ -1,6 +1,30 @@
 {
- "dealCount": 856,
+ "dealCount": 857,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "DealShare",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-13T09:31:08.728943+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1189,
+   "individuals": [
+    "Kamaldeep Singh"
+   ],
+   "listed": false,
+   "oneLine": "DealShare CEO steps down as the e-commerce unicorn enters acquisition talks.",
+   "primaryOutlet": "Inc42",
+   "seller": null,
+   "sizeBand": "OVER_2000",
+   "sizeSource": "band",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-13T09:31:13.048585+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -27200,6 +27224,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-13T09:16:16.324861+00:00",
- "totalDeals": 856
+ "generatedAt": "2026-10-13T09:31:13.048585+00:00",
+ "totalDeals": 857
 }

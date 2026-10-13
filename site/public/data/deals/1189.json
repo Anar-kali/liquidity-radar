@@ -1,0 +1,34 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "Truemeds",
+ "company": "DealShare",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-13T09:31:08.728943+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1189,
+ "individuals": [
+  "Kamaldeep Singh"
+ ],
+ "listed": false,
+ "oneLine": "DealShare CEO steps down as the e-commerce unicorn enters acquisition talks.",
+ "primaryUrl": "https://inc42.com/buzz/dealshare-ceo-kamaldeep-singh-steps-down-amid-acquisition-talks/",
+ "seller": null,
+ "sizeBand": "OVER_2000",
+ "sizeSource": "band",
+ "sources": [
+  {
+   "attachedAt": "2026-10-13T09:31:08.730400+00:00",
+   "outlet": "Inc42",
+   "resolvable": true,
+   "title": "DealShare CEO Kamaldeep Singh Steps Down Amid Acquisition Talks",
+   "url": "https://inc42.com/buzz/dealshare-ceo-kamaldeep-singh-steps-down-amid-acquisition-talks/"
+  }
+ ],
+ "synopsis": "Ecommerce unicorn DealShare is in advanced discussions with online pharmacy Truemeds for a potential acquisition via a share-swap transaction. The proposed deal could value DealShare at just over $90 Mn, marking a 95% drop from its peak valuation of $1.7 Bn achieved in 2022. DealShare is also reportedly exploring talks with other potential buyers amid leadership departures, including CEO Kamaldeep Singh stepping down to join Indofast Energy, and a scaled-down online business. WestBridge holds roughly 18.4% of DealShare, which has raised nearly $400 Mn to date from investors including WestBridge Capital, Z47, Tiger Global, and Alpha Wave Global. The transaction is not yet finalized, with Truemeds' existing investors not necessarily aligned.",
+ "ticker": null,
+ "updatedAt": "2026-10-13T09:31:13.048585+00:00"
+}
