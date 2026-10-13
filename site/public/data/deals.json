@@ -1,6 +1,28 @@
 {
- "dealCount": 855,
+ "dealCount": 856,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Duke Offshore",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-13T09:16:16.324861+00:00",
+   "dealType": "open offer",
+   "enrichmentState": "failed",
+   "id": 1188,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Aspect Global takes control of Duke Offshore via open offer.",
+   "primaryOutlet": "Kalkine India",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": "531471.BO",
+   "updatedAt": "2026-10-13T09:16:16.324861+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -27178,6 +27200,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-13T08:31:05.903694+00:00",
- "totalDeals": 855
+ "generatedAt": "2026-10-13T09:16:16.324861+00:00",
+ "totalDeals": 856
 }

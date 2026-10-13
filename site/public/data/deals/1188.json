@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "Aspect Global",
+ "company": "Duke Offshore",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-13T09:16:16.324861+00:00",
+ "dealType": "open offer",
+ "enrichmentState": "failed",
+ "id": 1188,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Aspect Global takes control of Duke Offshore via open offer.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPVkNmMnNacS14MEg3cHA1cFRoaWRxTDZsaWNsRjBtV0o4LWg3alRkcjVCRWcycFdENlRIUGxKdi01elM4dlA3SnlTOEVsUGRWS0g4ZlE0Y3hQeU4yQ3AyV2FZVHBGMzJZQUlPRUZDZktDZjk4VmYtTWRGM29LUUpoZjBobUx4bDlfbkVGVmlmLVRTSjRpVjNNbGF5TGhvTHJpSFVlWU5mM0MzUHpEWVVuTWItejlGLUdDVS1jcm02cUxqdERIM0kyZjBYOXRidy1hU0VCRmxPeUNxazJLMFU3UQ?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-10-13T09:16:16.326634+00:00",
+   "outlet": "Kalkine India",
+   "resolvable": false,
+   "title": "Duke Offshore: Aspect Global Takes Control, Open Offer Gets No Shares",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPVkNmMnNacS14MEg3cHA1cFRoaWRxTDZsaWNsRjBtV0o4LWg3alRkcjVCRWcycFdENlRIUGxKdi01elM4dlA3SnlTOEVsUGRWS0g4ZlE0Y3hQeU4yQ3AyV2FZVHBGMzJZQUlPRUZDZktDZjk4VmYtTWRGM29LUUpoZjBobUx4bDlfbkVGVmlmLVRTSjRpVjNNbGF5TGhvTHJpSFVlWU5mM0MzUHpEWVVuTWItejlGLUdDVS1jcm02cUxqdERIM0kyZjBYOXRidy1hU0VCRmxPeUNxazJLMFU3UQ?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": "531471.BO",
+ "updatedAt": "2026-10-13T09:16:16.324861+00:00"
+}
