@@ -1,8 +1,8 @@
 {
  "advisers": [],
- "amountCr": 852.0,
- "amountRaw": "Rs 852 Cr",
- "buyer": null,
+ "amountCr": 413.0,
+ "amountRaw": "Rs 413 cr",
+ "buyer": "Amansa Investments, SBI Mutual Fund",
  "company": "Tonbo Imaging India Limited",
  "confidence": "medium",
  "confirmed": false,
@@ -80,9 +80,16 @@
    "resolvable": true,
    "title": "Tonbo Imaging’s Rs 852 Cr IPO offers investor exit",
    "url": "https://yourstory.com/2026/10/tonbo-imagings-rs-852-crore-ipo-offers-investor-exit"
+  },
+  {
+   "attachedAt": "2026-10-13T08:31:05.902078+00:00",
+   "outlet": "Daily Excelsior",
+   "resolvable": false,
+   "title": "Amansa Investments, SBI Mutual Fund, others invest Rs 413 cr in Tonbo Imaging ahead of IPO",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQzZCSnpZWThyV1U3VXJBT2NGeFlBQWFmVjFTSWlNNW9iSzdCWjl5SmdDMHFpU0ZoTlhRdnJWYWpzeFF0M0k3T19QSE9ITTNfVVUwQVpjQldJa0t2aWlHWXdDMFIwQklwb3VOd1c3em4teWRLX3A2XzQ5Sk5YclBZREx3RzJsWXhEcTV5MTMzQ0xZamtGaURQTE52WDBMODJ5bm1vRUtVOGRfOHh6ajRXc01wSWVjM0JfNUN1QXFHdUNTQdIBwgFBVV95cUxNQzZCSnpZWThyV1U3VXJBT2NGeFlBQWFmVjFTSWlNNW9iSzdCWjl5SmdDMHFpU0ZoTlhRdnJWYWpzeFF0M0k3T19QSE9ITTNfVVUwQVpjQldJa0t2aWlHWXdDMFIwQklwb3VOd1c3em4teWRLX3A2XzQ5Sk5YclBZREx3RzJsWXhEcTV5MTMzQ0xZamtGaURQTE52WDBMODJ5bm1vRUtVOGRfOHh6ajRXc01wSWVjM0JfNUN1QXFHdUNTQQ?oc=5"
   }
  ],
  "synopsis": null,
  "ticker": null,
- "updatedAt": "2026-10-12T07:31:08.208210+00:00"
+ "updatedAt": "2026-10-13T08:31:05.903694+00:00"
 }

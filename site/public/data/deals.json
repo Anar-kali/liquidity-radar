@@ -19736,8 +19736,8 @@
    ]
   },
   {
-   "amountCr": 852.0,
-   "amountRaw": "Rs 852 Cr",
+   "amountCr": 413.0,
+   "amountRaw": "Rs 413 cr",
    "company": "Tonbo Imaging India Limited",
    "confidence": "medium",
    "confirmed": false,
@@ -19752,9 +19752,9 @@
    "seller": "Early investors",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 9,
+   "sourceCount": 10,
    "ticker": null,
-   "updatedAt": "2026-10-12T07:31:08.208210+00:00",
+   "updatedAt": "2026-10-13T08:31:05.903694+00:00",
    "updates": [
     {
      "attachedAt": "2026-08-17T05:31:02.147301+00:00",
@@ -19787,6 +19787,10 @@
     {
      "attachedAt": "2026-10-12T07:31:08.206729+00:00",
      "title": "Tonbo Imaging’s Rs 852 Cr IPO offers investor exit"
+    },
+    {
+     "attachedAt": "2026-10-13T08:31:05.902078+00:00",
+     "title": "Amansa Investments, SBI Mutual Fund, others invest Rs 413 cr in Tonbo Imaging ahead of IPO"
     }
    ]
   },
@@ -27170,6 +27174,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-13T08:01:20.713086+00:00",
+ "generatedAt": "2026-10-13T08:31:05.903694+00:00",
  "totalDeals": 855
 }
