@@ -64,10 +64,15 @@
    "seller": "Agility Tristar Holdings Ltd, Gulf Investment Corporation and Diamond Holdings Ltd",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-10-14T10:16:29.502835+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-10-14T11:46:03.399392+00:00",
+     "title": "Aegis Logistics approves USD 809 million Tristar stake acquisition to expand global liquid logistics footprint"
+    }
+   ]
   },
   {
    "amountCr": 500.0,
@@ -1035,7 +1040,7 @@
    "seller": "Fusion CX Limited promoters",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 4,
+   "sourceCount": 6,
    "ticker": null,
    "updatedAt": "2026-10-11T16:45:54.139527+00:00",
    "updates": [
@@ -1050,6 +1055,14 @@
     {
      "attachedAt": "2026-10-12T10:31:24.825262+00:00",
      "title": "Fusion CX Pre-IPO Round Brings In Kotak Life, Kacholia"
+    },
+    {
+     "attachedAt": "2026-10-14T11:46:02.957686+00:00",
+     "title": "Fusion CX Limited – RHPFusion CX Limited"
+    },
+    {
+     "attachedAt": "2026-10-14T11:46:02.968547+00:00",
+     "title": "Fusion CX Limited"
     }
    ]
   },
