@@ -482,7 +482,7 @@
    "seller": "Indian Energy Exchange",
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 5,
+   "sourceCount": 6,
    "ticker": null,
    "updatedAt": "2026-10-12T12:16:04.175065+00:00",
    "updates": [
@@ -501,6 +501,10 @@
     {
      "attachedAt": "2026-10-13T08:45:59.150825+00:00",
      "title": "Indian Gas Exchange Gets SEBI Nod for Its IPO"
+    },
+    {
+     "attachedAt": "2026-10-14T14:31:25.462854+00:00",
+     "title": "IEX Associate IGX Gets SEBI Observation Letter for IPO"
     }
    ]
   },
