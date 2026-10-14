@@ -1,6 +1,28 @@
 {
- "dealCount": 864,
+ "dealCount": 865,
  "deals": [
+  {
+   "amountCr": 500.0,
+   "amountRaw": "Rs 500 crore (from article)",
+   "company": "Udaan",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-14T09:31:07.825513+00:00",
+   "dealType": "unknown",
+   "enrichmentState": null,
+   "id": 1197,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Udaan targets an IPO by early 2028 as its losses narrow.",
+   "primaryOutlet": "Indian Retailer",
+   "seller": "Swiggy",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-14T09:31:14.880180+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -27440,6 +27462,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-14T08:01:22.372272+00:00",
- "totalDeals": 864
+ "generatedAt": "2026-10-14T09:31:14.880180+00:00",
+ "totalDeals": 865
 }

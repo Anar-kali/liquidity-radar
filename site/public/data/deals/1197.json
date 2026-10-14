@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 500.0,
+ "amountRaw": "Rs 500 crore (from article)",
+ "buyer": "Udaan",
+ "company": "Udaan",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-14T09:31:07.825513+00:00",
+ "dealType": "unknown",
+ "enrichmentState": null,
+ "id": 1197,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Udaan targets an IPO by early 2028 as its losses narrow.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQV2tlY2dLVnNMNEhDSlVVb2NJVUlqdlZhUGFqQS1KcGRGTXRMUm9sc3pTMHNxTm1JNDRnSnJlMWdBOXBYNjQxeG5vSE1ydmg2dHo0Sm5Ca0pZZW82clE4Ykc0NE5EVm9PUl9qdGcyVzFMTGFwNGtMLXVGNGRqOG1PZFYyakl5YWVlVURIUVR6RHpGMXlDNnZlRUZnbk4?oc=5",
+ "seller": "Swiggy",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-14T09:31:07.827307+00:00",
+   "outlet": "Indian Retailer",
+   "resolvable": false,
+   "title": "Retail India News: Udaan Targets IPO by Early 2028 as Losses Narrow",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQV2tlY2dLVnNMNEhDSlVVb2NJVUlqdlZhUGFqQS1KcGRGTXRMUm9sc3pTMHNxTm1JNDRnSnJlMWdBOXBYNjQxeG5vSE1ydmg2dHo0Sm5Ca0pZZW82clE4Ykc0NE5EVm9PUl9qdGcyVzFMTGFwNGtMLXVGNGRqOG1PZFYyakl5YWVlVURIUVR6RHpGMXlDNnZlRUZnbk4?oc=5"
+  }
+ ],
+ "synopsis": "B2B e-commerce platform Udaan is targeting an initial public offering by late 2027 or early 2028 as it works toward profitability and strengthens its financial performance. Co-founder and CEO Vaibhav Gupta expects full profitability by the end of 2027. In a recent transaction, Udaan expanded its distribution network by acquiring LYNK Logistics from Swiggy in an all-share transaction valued at Rs 500 crore, under which Swiggy received an approximately 2.8 percent stake in Udaan and invested an additional Rs 75 crore. The company expects revenue to grow by 10 to 12 percent in FY26, with losses projected to decline by around 20 percent, following a narrowed net loss of Rs 1,055 crore in FY25.",
+ "ticker": null,
+ "updatedAt": "2026-10-14T09:31:14.880180+00:00"
+}
