@@ -1,6 +1,28 @@
 {
- "dealCount": 867,
+ "dealCount": 868,
  "deals": [
+  {
+   "amountCr": 500.0,
+   "amountRaw": "Rs 500 crore",
+   "company": "Eswari Global Metal Industries",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-14T11:16:06.108316+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 1200,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Eswari Global Metal Industries receives SEBI approval for an IPO.",
+   "primaryOutlet": "Moneycontrol.com",
+   "seller": "promoters and existing shareholders",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-14T11:16:10.014830+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -27512,6 +27534,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-14T10:16:35.963983+00:00",
- "totalDeals": 867
+ "generatedAt": "2026-10-14T11:16:10.014830+00:00",
+ "totalDeals": 868
 }
