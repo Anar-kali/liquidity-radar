@@ -88,13 +88,17 @@
    "seller": "TBZ's promoters",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": "TBZ.NS",
    "updatedAt": "2026-10-13T15:50:28.645205+00:00",
    "updates": [
     {
      "attachedAt": "2026-10-13T15:48:43.953362+00:00",
      "title": "CCI clears GRT Jewellers’ acquisition of Tribhovandas Bhimji Zaveri"
+    },
+    {
+     "attachedAt": "2026-10-14T09:16:01.565934+00:00",
+     "title": "GRT Jewellers gets CCI nod for proposed majority stake acquisition in TBZ"
     }
    ]
   },
