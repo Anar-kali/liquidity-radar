@@ -596,13 +596,17 @@
    "seller": "early investors",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-10-12T05:46:09.354314+00:00",
    "updates": [
     {
      "attachedAt": "2026-10-12T05:46:09.353296+00:00",
      "title": "Emami and FMCG Peers Eye Farmley Stake in ₹2,000 Crore Deal as Investors Exit"
+    },
+    {
+     "attachedAt": "2026-10-14T07:16:10.726331+00:00",
+     "title": "FMCG majors eye stake in Farmley at potential ₹2,000 crore valuation"
     }
    ]
   },
@@ -696,8 +700,8 @@
    ]
   },
   {
-   "amountCr": 30000.0,
-   "amountRaw": "$3.1 billion share sale (from article)",
+   "amountCr": 1100000.0,
+   "amountRaw": "₹11 lakh crore",
    "company": "Reliance Jio",
    "confidence": "medium",
    "confirmed": false,
@@ -716,9 +720,9 @@
    "seller": "Reliance Industries",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 5,
+   "sourceCount": 6,
    "ticker": null,
-   "updatedAt": "2026-10-11T11:15:53.560383+00:00",
+   "updatedAt": "2026-10-14T07:16:10.831018+00:00",
    "updates": [
     {
      "attachedAt": "2026-10-12T07:01:36.510148+00:00",
@@ -735,6 +739,10 @@
     {
      "attachedAt": "2026-10-14T05:46:00.745229+00:00",
      "title": "Exclusive | Countdown begins for the mother of all IPOs: Jio likely to file RHP today for record Rs 30,000"
+    },
+    {
+     "attachedAt": "2026-10-14T07:16:10.830088+00:00",
+     "title": "Jio's ₹11 lakh crore IPO: Mukesh Ambani's telecom giant set to make stock market history | Business News"
     }
    ]
   },
@@ -27415,6 +27423,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-14T06:31:38.384615+00:00",
+ "generatedAt": "2026-10-14T07:16:10.831018+00:00",
  "totalDeals": 864
 }
