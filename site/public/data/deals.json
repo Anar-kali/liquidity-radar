@@ -15351,7 +15351,7 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 4,
+   "sourceCount": 5,
    "ticker": null,
    "updatedAt": "2026-08-27T11:31:20.199178+00:00",
    "updates": [
@@ -15366,6 +15366,10 @@
     {
      "attachedAt": "2026-10-14T12:16:12.745586+00:00",
      "title": "Paramotor Digital Technology Limited"
+    },
+    {
+     "attachedAt": "2026-10-14T12:46:02.630999+00:00",
+     "title": "Paramotor Digital Technology Limited – UDRHP-IParamotor Digital Technology Limited - Draft Abridged Prospectus(UDRHP-I)"
     }
    ]
   },
