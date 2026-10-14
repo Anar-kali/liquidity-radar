@@ -15351,13 +15351,21 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 2,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-08-27T11:31:20.199178+00:00",
    "updates": [
     {
      "attachedAt": "2026-08-27T13:31:30.019526+00:00",
      "title": "Fintech firm Paramotor Digital Technology secures Sebi's nod for IPO"
+    },
+    {
+     "attachedAt": "2026-10-14T12:16:12.732738+00:00",
+     "title": "Paramotor Digital Technology Limited – DRHPParamotor Digital Technology Limited"
+    },
+    {
+     "attachedAt": "2026-10-14T12:16:12.745586+00:00",
+     "title": "Paramotor Digital Technology Limited"
     }
    ]
   },
