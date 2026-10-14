@@ -1,7 +1,7 @@
 {
  "advisers": [],
- "amountCr": null,
- "amountRaw": null,
+ "amountCr": 1000.0,
+ "amountRaw": "Rs 1,000 crore",
  "buyer": null,
  "company": "Paramotor Digital Tech",
  "confidence": "medium",
@@ -16,7 +16,7 @@
  "primaryUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVWVMbFB4bG5HNmhGRzU5WU9kSVl2aFdvWDBQc2dIWWFoYkc0Y0w5enFKUlRKd2J3LTNDZ3lSYkkzRnpzS0J4UlZTMHFlWmJPQlg5QU85ekVmUkJjUmQ1TmJNa1dyRkRUNHRTV1M4LXZFQkpYS0dsQ2ZOZDNfbTZXQnVRd2h6aHh2R2tEWnhuZ3pWUHV1bVJZY09BaXZQdUJvWWgwRkF1RzhkZEQ2bi1EUGNmTDNBSFVuTTJzWkRHUQ?oc=5",
  "seller": null,
  "sizeBand": null,
- "sizeSource": "unknown",
+ "sizeSource": "stated",
  "sources": [
   {
    "attachedAt": "2026-08-27T11:31:20.200129+00:00",
@@ -52,9 +52,16 @@
    "resolvable": true,
    "title": "Paramotor Digital Technology Limited – UDRHP-IParamotor Digital Technology Limited - Draft Abridged Prospectus(UDRHP-I)",
    "url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/paramotor-digital-technology-limited-udrhp-i_105258.html"
+  },
+  {
+   "attachedAt": "2026-10-14T13:15:54.052914+00:00",
+   "outlet": "Moneycontrol.com",
+   "resolvable": false,
+   "title": "Paramotor Digital Technology files UDRHP, plans to raise Rs 1,000 crore via IPO",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPOGhWVHc5RmNVRVNyTEFKLU9Ca0ZqLVQ4RGIzSDkxNHdieW1ndjBucHhwcnVseGJfaXNCaU1YZHRORTFENGFYZU95WHg3QjFvQTVjTmNRcEJYUXdOaFJWaFJ4V051OUI4em9rOUpxLVVkT1BGSFZlZlY0azFoQk40YlhUTG5EWHc1ek0zZS01OXptSFB0aDBoX2Q4cUh6ZFREMVhHbF9qZ2NfaWtBZ3lNTkNmUkxMeUVHRmtYR01NRFZzN1pWdFpTQ2tNaHJ6SW5ZZ0s4YkhQVUpOck3SAdsBQVVfeXFMTzhoVlR3OUZjVUVTckxBSi1PQmtGai1UOERiM0g5MTR3YnltZ3YwbnB4cHJ1bHhiX2lzQmlNWGR0TkUxRDRhWGVPeVh4N0Ixb0E1Y05jUXBCWFF3TmhSVmhSeFdOdTlCOHpvazlKcS1VZE9QRkhWZWZWNGsxaEJONGJYVExuRFh3NXpNM2UtNTl6bUhQdGgwaF9kOHFIemRURDFYR2xfamdjX2lrQWd5TU5DZlJMTHlFR0ZrWEdNTURWczdaVnRaU0NrTWhyekluWWdLOGJIUFVKTnJN?oc=5"
   }
  ],
  "synopsis": null,
  "ticker": null,
- "updatedAt": "2026-08-27T11:31:20.199178+00:00"
+ "updatedAt": "2026-10-14T13:15:54.054092+00:00"
 }
