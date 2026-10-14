@@ -1,6 +1,28 @@
 {
- "dealCount": 870,
+ "dealCount": 871,
  "deals": [
+  {
+   "amountCr": 2410.6,
+   "amountRaw": "19.01% x mcap ~Rs 12681cr = ~Rs 2411cr",
+   "company": "DOMS Industries",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-14T16:15:57.743742+00:00",
+   "dealType": "promoter sale",
+   "enrichmentState": "failed",
+   "id": 1204,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "FILA reduces stake in DOMS via on-market sale, cashing out.",
+   "primaryOutlet": "scanx.trade",
+   "seller": "FILA",
+   "sizeBand": null,
+   "sizeSource": "computed",
+   "sourceCount": 1,
+   "ticker": "DOMS.NS",
+   "updatedAt": "2026-10-14T16:15:57.743742+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -15412,7 +15434,7 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 6,
+   "sourceCount": 7,
    "ticker": null,
    "updatedAt": "2026-10-14T13:15:54.054092+00:00",
    "updates": [
@@ -15435,6 +15457,10 @@
     {
      "attachedAt": "2026-10-14T13:15:54.052914+00:00",
      "title": "Paramotor Digital Technology files UDRHP, plans to raise Rs 1,000 crore via IPO"
+    },
+    {
+     "attachedAt": "2026-10-14T16:15:57.754923+00:00",
+     "title": "IPO ahead! Paramotor Digital Technology files updated draft papers with Sebi for Rs 1,000 crore issue"
     }
    ]
   },
@@ -27624,6 +27650,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-14T15:46:03.522595+00:00",
- "totalDeals": 870
+ "generatedAt": "2026-10-14T16:15:57.743742+00:00",
+ "totalDeals": 871
 }

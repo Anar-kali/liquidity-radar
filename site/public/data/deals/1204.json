@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 2410.6,
+ "amountRaw": "19.01% x mcap ~Rs 12681cr = ~Rs 2411cr",
+ "buyer": null,
+ "company": "DOMS Industries",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-14T16:15:57.743742+00:00",
+ "dealType": "promoter sale",
+ "enrichmentState": "failed",
+ "id": 1204,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "FILA reduces stake in DOMS via on-market sale, cashing out.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZHhSSmhLTUJHSC1tTDlNN0gxMUo0dWc0NlFuendQLTFFSk1GeDhmUFMwdDVJQWhiQWhNZmEwd05wbU1kbmZ3U3NKZG42eU1FQ3MydEhHYkoxU3UtSlEzZFBoX2pjRlJLTzd1VFJkdjBpcF9BQ3Z2aERqOHZ2ZExoenpTWHVjVTRSSjNBOXlxQVFoem9GbEUyX3Q5WkpOckQ5NER3RzdnSmk1VGQwR0RFNVhMRnNpSG11QkZfTnRrdWY4NHBSRVlRcHo3WHlGWExrNUxfeQ?oc=5",
+ "seller": "FILA",
+ "sizeBand": null,
+ "sizeSource": "computed",
+ "sources": [
+  {
+   "attachedAt": "2026-10-14T16:15:57.744786+00:00",
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "FILA reduces stake in DOMS to 19.01% via on-market sale",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZHhSSmhLTUJHSC1tTDlNN0gxMUo0dWc0NlFuendQLTFFSk1GeDhmUFMwdDVJQWhiQWhNZmEwd05wbU1kbmZ3U3NKZG42eU1FQ3MydEhHYkoxU3UtSlEzZFBoX2pjRlJLTzd1VFJkdjBpcF9BQ3Z2aERqOHZ2ZExoenpTWHVjVTRSSjNBOXlxQVFoem9GbEUyX3Q5WkpOckQ5NER3RzdnSmk1VGQwR0RFNVhMRnNpSG11QkZfTnRrdWY4NHBSRVlRcHo3WHlGWExrNUxfeQ?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": "DOMS.NS",
+ "updatedAt": "2026-10-14T16:15:57.743742+00:00"
+}
