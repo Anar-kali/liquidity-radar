@@ -692,7 +692,7 @@
    "seller": "Reliance Industries",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-10-11T11:15:53.560383+00:00",
    "updates": [
@@ -703,6 +703,10 @@
     {
      "attachedAt": "2026-10-12T07:31:08.190825+00:00",
      "title": "Jio IPO may be valued at Rs 11 lakh crore: What it means for RIL, Bharti Airtel and telecom stocks"
+    },
+    {
+     "attachedAt": "2026-10-14T04:31:04.731668+00:00",
+     "title": "Jio IPO Plan Gets Strong Signals from Investors"
     }
    ]
   },
