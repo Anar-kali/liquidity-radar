@@ -1,8 +1,8 @@
 {
  "advisers": [],
- "amountCr": null,
- "amountRaw": null,
- "buyer": null,
+ "amountCr": 2000.0,
+ "amountRaw": "INR 1,800–2,000 crore",
+ "buyer": "JSW Energy, Gemstar Infra and Actis",
  "company": "Polaris Smart Metering",
  "confidence": "medium",
  "confirmed": false,
@@ -16,7 +16,7 @@
  "primaryUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNOWtraS0zcGNZbWN3TmFaUHNqNVRDOHdJQVpncXYzZU5VNkJrN0k2d0lGU1RRZTQ3bzVqLTJtbXhkanF0aG96bW00a05DY0JXV1VUUE9ieWZVc1pnRm9LUVJrRFFrQmxYb2Vra3UtMEJseWczbER6LU5HMkgxQUFMUGI0NUVQdVNWSXl4cHJwREZwcUZFc2VYbU9UNU1rMDVmVWx2dU1FcXpma05UYXhhNXZPNEpTM0h5UWc?oc=5",
  "seller": "I Squared Capital",
  "sizeBand": null,
- "sizeSource": "unknown",
+ "sizeSource": "stated",
  "sources": [
   {
    "attachedAt": "2026-10-12T04:45:57.826230+00:00",
@@ -24,9 +24,16 @@
    "resolvable": false,
    "title": "JSW, Gemstar, Actis in Final Race to Buy Polaris Smart Metering",
    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNOWtraS0zcGNZbWN3TmFaUHNqNVRDOHdJQVpncXYzZU5VNkJrN0k2d0lGU1RRZTQ3bzVqLTJtbXhkanF0aG96bW00a05DY0JXV1VUUE9ieWZVc1pnRm9LUVJrRFFrQmxYb2Vra3UtMEJseWczbER6LU5HMkgxQUFMUGI0NUVQdVNWSXl4cHJwREZwcUZFc2VYbU9UNU1rMDVmVWx2dU1FcXpma05UYXhhNXZPNEpTM0h5UWc?oc=5"
+  },
+  {
+   "attachedAt": "2026-10-14T08:01:22.370714+00:00",
+   "outlet": "Prop News Time",
+   "resolvable": false,
+   "title": "JSW Energy, Gemstar Infra and Actis shortlisted for Polaris Smart Metering acquisition valued at INR 1,800–2,000 crore",
+   "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNOG56Q3VPT0xXOVZBbDdOV2d6clA3QUdDUTlrS0xzR25zNmlITXRhcUdTLWVnZW1qMUZfN1Z2RnR0TkxhVnZxWmFOMS1hc0hkclpDaDZpb2VJLUJqOWh0QjFmSDROVGZYNHN0UFVzcHJESlE2REp3MmwyTHpicVJ1cGtGR09DSXpFeEE0S0JiNkk0ZVk5bFBLOG53SkQ0NGVtMk9sOEpsUHRMNGNaLTIwc2pBb2puUWxEVW1fZjFMQlJBTzZhSmVOYTBfTktwWU9EUTlrcHg0YVFRSGJqd0NpVVFhLXM2MUFyZ0NvRXp3SnNwdEVNSFF4U19ncl9qZw?oc=5"
   }
  ],
  "synopsis": "I Squared Capital is exploring an exit from its investment in Polaris Smart Metering, with JSW Energy, Gemstar Infra, and Actis shortlisted for the second round of negotiations in the sale process. Binding bids are expected by the end of October, and the deal may value the company at about 1,800 to 2,000 crore. I Squared Capital previously acquired a controlling stake in the company in February 2023 through its ISQ Growth Markets Infrastructure Fund. Impact Infracap is running the sale process.",
  "ticker": null,
- "updatedAt": "2026-10-12T04:46:02.065350+00:00"
+ "updatedAt": "2026-10-14T08:01:22.372272+00:00"
 }

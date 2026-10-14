@@ -494,8 +494,8 @@
    "updates": []
   },
   {
-   "amountCr": null,
-   "amountRaw": null,
+   "amountCr": 2000.0,
+   "amountRaw": "INR 1,800–2,000 crore",
    "company": "Polaris Smart Metering",
    "confidence": "medium",
    "confirmed": false,
@@ -509,11 +509,16 @@
    "primaryOutlet": "TradingView",
    "seller": "I Squared Capital",
    "sizeBand": null,
-   "sizeSource": "unknown",
-   "sourceCount": 1,
+   "sizeSource": "stated",
+   "sourceCount": 2,
    "ticker": null,
-   "updatedAt": "2026-10-12T04:46:02.065350+00:00",
-   "updates": []
+   "updatedAt": "2026-10-14T08:01:22.372272+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-10-14T08:01:22.370714+00:00",
+     "title": "JSW Energy, Gemstar Infra and Actis shortlisted for Polaris Smart Metering acquisition valued at INR 1,800–2,000 crore"
+    }
+   ]
   },
   {
    "amountCr": null,
@@ -720,7 +725,7 @@
    "seller": "Reliance Industries",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 6,
+   "sourceCount": 7,
    "ticker": null,
    "updatedAt": "2026-10-14T07:16:10.831018+00:00",
    "updates": [
@@ -743,6 +748,10 @@
     {
      "attachedAt": "2026-10-14T07:16:10.830088+00:00",
      "title": "Jio's ₹11 lakh crore IPO: Mukesh Ambani's telecom giant set to make stock market history | Business News"
+    },
+    {
+     "attachedAt": "2026-10-14T08:01:22.367410+00:00",
+     "title": "Reliance Jio IPO RHP Filing Likely Today: Check Expected Share Price Band, Size, Valuation"
     }
    ]
   },
@@ -27423,6 +27432,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-14T07:16:10.831018+00:00",
+ "generatedAt": "2026-10-14T08:01:22.372272+00:00",
  "totalDeals": 864
 }
