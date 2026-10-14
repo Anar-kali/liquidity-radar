@@ -15434,7 +15434,7 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 7,
+   "sourceCount": 8,
    "ticker": null,
    "updatedAt": "2026-10-14T13:15:54.054092+00:00",
    "updates": [
@@ -15461,6 +15461,10 @@
     {
      "attachedAt": "2026-10-14T16:15:57.754923+00:00",
      "title": "IPO ahead! Paramotor Digital Technology files updated draft papers with Sebi for Rs 1,000 crore issue"
+    },
+    {
+     "attachedAt": "2026-10-14T17:01:13.261889+00:00",
+     "title": "Paramotor Digital Tech Files Updated Rs 1,000 Cr IPO Papers"
     }
    ]
   },
