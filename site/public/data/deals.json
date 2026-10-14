@@ -1,6 +1,30 @@
 {
- "dealCount": 863,
+ "dealCount": 864,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "ABAD Group",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-14T06:31:21.231816+00:00",
+   "dealType": "unknown",
+   "enrichmentState": null,
+   "id": 1196,
+   "individuals": [
+    "Anwar Hussain"
+   ],
+   "listed": false,
+   "oneLine": "ABAD Group plans an IPO with a target turnover of Rs 3,000 crore.",
+   "primaryOutlet": "BusinessLine",
+   "seller": null,
+   "sizeBand": "OVER_2000",
+   "sizeSource": "band",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-14T06:31:38.384615+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -27391,6 +27415,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-14T06:16:00.789354+00:00",
- "totalDeals": 863
+ "generatedAt": "2026-10-14T06:31:38.384615+00:00",
+ "totalDeals": 864
 }

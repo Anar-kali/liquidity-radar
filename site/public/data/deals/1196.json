@@ -1,0 +1,34 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "ABAD Group",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-14T06:31:21.231816+00:00",
+ "dealType": "unknown",
+ "enrichmentState": null,
+ "id": 1196,
+ "individuals": [
+  "Anwar Hussain"
+ ],
+ "listed": false,
+ "oneLine": "ABAD Group plans an IPO with a target turnover of Rs 3,000 crore.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZDF1NjdDRmlvT2plUEpKN183aFZZS3MwX3dKcjhJTmxXTXZBbUhSUHlFWUxRZDJuemQ4SmhYemFTOTFzZ18yU09LZmE5YzNnbG1SUDJ1OTluZ1BiMDJZWjBRdFluRGdZSm5NZi1zVFRNaGhucUZNUFEyTWR3N2l6MDk0MVFhVXh1U0pUQ0ZYS1lZNk80UzNjelFrel9MQi1qaThNOThidEpsbE9Qelh3RERXOS1jY0taTTVJbGNyTWZHeEdm0gHLAUFVX3lxTE1WMUdvYjZKeDF1Y0E1cDNfWXh4OXNFMnZsQjNZdy1WVFR1SGdka1ZDUnA3WXNXeDdZZGVHdzdidW96czFNMUlTRm9UN3piTWJsbUZoNmJhUFJUbUd1U245S2RqbFUxNFQzSlY5bXMzVGY3V0huTjM5QXk1LWZlZ1FJTV81dGUzdVJTbHpXZ1pxNUx5Tnc2RFV1MGFZMENlQWpLd2pRYlVRd2VNTkpaNGJKakRFRFJSdHpIOGV4TEJBVVpwYUU4VUtPbkJJ?oc=5",
+ "seller": null,
+ "sizeBand": "OVER_2000",
+ "sizeSource": "band",
+ "sources": [
+  {
+   "attachedAt": "2026-10-14T06:31:21.233237+00:00",
+   "outlet": "BusinessLine",
+   "resolvable": false,
+   "title": "ABAD Group targets ₹3,000 crore turnover in 3 years, plans IPO",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZDF1NjdDRmlvT2plUEpKN183aFZZS3MwX3dKcjhJTmxXTXZBbUhSUHlFWUxRZDJuemQ4SmhYemFTOTFzZ18yU09LZmE5YzNnbG1SUDJ1OTluZ1BiMDJZWjBRdFluRGdZSm5NZi1zVFRNaGhucUZNUFEyTWR3N2l6MDk0MVFhVXh1U0pUQ0ZYS1lZNk80UzNjelFrel9MQi1qaThNOThidEpsbE9Qelh3RERXOS1jY0taTTVJbGNyTWZHeEdm0gHLAUFVX3lxTE1WMUdvYjZKeDF1Y0E1cDNfWXh4OXNFMnZsQjNZdy1WVFR1SGdka1ZDUnA3WXNXeDdZZGVHdzdidW96czFNMUlTRm9UN3piTWJsbUZoNmJhUFJUbUd1U245S2RqbFUxNFQzSlY5bXMzVGY3V0huTjM5QXk1LWZlZ1FJTV81dGUzdVJTbHpXZ1pxNUx5Tnc2RFV1MGFZMENlQWpLd2pRYlVRd2VNTkpaNGJKakRFRFJSdHpIOGV4TEJBVVpwYUU4VUtPbkJJ?oc=5"
+  }
+ ],
+ "synopsis": "ABAD Group, a Kerala-based diversified business conglomerate founded in Kochi in 1931, is exploring plans to launch an initial public offering within the next three years. The group is targeting a turnover of Rs 3,000 crore over the next three years, doubling from its current Rs 1,500 crore, alongside expanding its presence across South Indian markets. Chairman Anwar Hussain announced the group's new unified corporate identity and growth roadmap during a press briefing, detailing expansions across its business verticals including seafood exports, hospitality, real estate development, frozen foods, interiors, and property management. No specific deal value, financial intermediaries, or stake-sale percentages were mentioned in connection with the planned IPO.",
+ "ticker": null,
+ "updatedAt": "2026-10-14T06:31:38.384615+00:00"
+}
