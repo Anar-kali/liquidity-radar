@@ -737,8 +737,8 @@
    "updates": []
   },
   {
-   "amountCr": 5012.0,
-   "amountRaw": "Rs. 5,012 Crore",
+   "amountCr": 2830.0,
+   "amountRaw": "Rs 2,830 crore",
    "company": "Zetwerk",
    "confidence": "medium",
    "confirmed": false,
@@ -753,9 +753,9 @@
    "seller": "Zetwerk Manufacturing Business",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 13,
+   "sourceCount": 14,
    "ticker": null,
-   "updatedAt": "2026-10-12T09:45:59.542545+00:00",
+   "updatedAt": "2026-10-14T06:16:00.789354+00:00",
    "updates": [
     {
      "attachedAt": "2026-10-11T10:46:00.858156+00:00",
@@ -804,6 +804,10 @@
     {
      "attachedAt": "2026-10-13T09:46:10.892659+00:00",
      "title": "Zetwerk Manufacturing Businesses Limited"
+    },
+    {
+     "attachedAt": "2026-10-14T06:16:00.787573+00:00",
+     "title": "Zetwerk eyes Rs 2,830 crore fresh issue, boasts Rs 12,500 crore order book"
     }
    ]
   },
@@ -27387,6 +27391,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-14T02:03:48.405437+00:00",
+ "generatedAt": "2026-10-14T06:16:00.789354+00:00",
  "totalDeals": 863
 }
