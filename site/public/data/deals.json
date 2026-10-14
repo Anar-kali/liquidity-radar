@@ -1,6 +1,52 @@
 {
- "dealCount": 865,
+ "dealCount": 867,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Pathways School Gurugram",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-14T10:16:22.284336+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1199,
+   "individuals": [
+    "Prashant Jain"
+   ],
+   "listed": false,
+   "oneLine": "Lighthouse Learning takes ownership of Pathways School Gurugram.",
+   "primaryOutlet": "ET Corporate",
+   "seller": "Prashant Jain",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-14T10:16:35.963983+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 7119.2,
+   "amountRaw": "$809 million (approx Rs 7,119.2 crore)",
+   "company": "Tristar Holdings",
+   "confidence": "high",
+   "confirmed": false,
+   "createdAt": "2026-10-14T10:16:22.280845+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1198,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Aegis Logistics to acquire 89.8% stake in Tristar Holdings for $809 million.",
+   "primaryOutlet": "ET Corporate",
+   "seller": "Agility Tristar Holdings Ltd, Gulf Investment Corporation and Diamond Holdings Ltd",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-14T10:16:29.502835+00:00",
+   "updates": []
+  },
   {
    "amountCr": 500.0,
    "amountRaw": "Rs 500 crore (from article)",
@@ -9271,7 +9317,7 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 7,
+   "sourceCount": 8,
    "ticker": null,
    "updatedAt": "2026-10-01T10:01:14.824442+00:00",
    "updates": [
@@ -9298,6 +9344,10 @@
     {
      "attachedAt": "2026-10-01T10:01:14.823147+00:00",
      "title": "Fintech IPO pipeline crosses ₹30,000 crore as PhonePe, Razorpay, Navi line up for public markets"
+    },
+    {
+     "attachedAt": "2026-10-14T10:16:22.275504+00:00",
+     "title": "'Govern yourself like HDFC or SBI, build like Google or Amazon': PhonePe's Sameer Nigam"
     }
    ]
   },
@@ -27462,6 +27512,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-14T09:31:14.880180+00:00",
- "totalDeals": 865
+ "generatedAt": "2026-10-14T10:16:35.963983+00:00",
+ "totalDeals": 867
 }

@@ -1,0 +1,34 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "Lighthouse Learning",
+ "company": "Pathways School Gurugram",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-14T10:16:22.284336+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1199,
+ "individuals": [
+  "Prashant Jain"
+ ],
+ "listed": false,
+ "oneLine": "Lighthouse Learning takes ownership of Pathways School Gurugram.",
+ "primaryUrl": "https://economictimes.indiatimes.com/industry/services/education/pathways-school-gurugram-rebranded-as-psg-clifton-international-school-under-lighthouse-learning-ownership/articleshow/134918215.cms",
+ "seller": "Prashant Jain",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-10-14T10:16:22.285534+00:00",
+   "outlet": "ET Corporate",
+   "resolvable": true,
+   "title": "Pathways School Gurugram rebranded as PSG Clifton International School under Lighthouse Learning ownership",
+   "url": "https://economictimes.indiatimes.com/industry/services/education/pathways-school-gurugram-rebranded-as-psg-clifton-international-school-under-lighthouse-learning-ownership/articleshow/134918215.cms"
+  }
+ ],
+ "synopsis": "Lighthouse Learning has taken ownership of Pathways School Gurugram, which has been renamed PSG Clifton International School. The transition follows a partnership established between Lighthouse Learning and the UK-based Clifton College, marking the latter's first international collaboration in its 164-year history. Prashant Jain, founder of Pathways School Gurugram, departs as part of the change in ownership, while Captain Rohit Sen Bajaj continues as the school director. The article does not disclose the financial deal value or the exact stake percentage transferred in the transaction.",
+ "ticker": null,
+ "updatedAt": "2026-10-14T10:16:35.963983+00:00"
+}
