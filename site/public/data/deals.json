@@ -1,6 +1,30 @@
 {
- "dealCount": 862,
+ "dealCount": 863,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Veeba Foods",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-14T01:34:55.585152+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 1195,
+   "individuals": [
+    "Viraj Bahl"
+   ],
+   "listed": false,
+   "oneLine": "Veeba Foods kicks off pre-IPO fundraise targeting valuation over Rs 8,000 crore",
+   "primaryOutlet": "Moneycontrol.com",
+   "seller": "Veeba Foods",
+   "sizeBand": "OVER_2000",
+   "sizeSource": "band",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-14T01:35:56.247671+00:00",
+   "updates": []
+  },
   {
    "amountCr": 550.0,
    "amountRaw": "₹550 crore",
@@ -27351,6 +27375,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-13T15:51:04.090323+00:00",
- "totalDeals": 862
+ "generatedAt": "2026-10-14T01:35:56.247671+00:00",
+ "totalDeals": 863
 }
