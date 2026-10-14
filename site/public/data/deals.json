@@ -1,6 +1,32 @@
 {
- "dealCount": 869,
+ "dealCount": 870,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Zluri",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-14T15:45:59.281623+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1203,
+   "individuals": [
+    "Ritish Reddy",
+    "Chaithanya Yambari",
+    "Sethu Meenakshisundaram"
+   ],
+   "listed": false,
+   "oneLine": "Infotech acquires SaaS startup Zluri, providing an exit to its investors and founders.",
+   "primaryOutlet": "Inc42",
+   "seller": "Lightspeed and existing investors",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-14T15:46:03.522595+00:00",
+   "updates": []
+  },
   {
    "amountCr": 4118.4,
    "amountRaw": "$468 million",
@@ -27598,6 +27624,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-14T15:31:13.256534+00:00",
- "totalDeals": 869
+ "generatedAt": "2026-10-14T15:46:03.522595+00:00",
+ "totalDeals": 870
 }

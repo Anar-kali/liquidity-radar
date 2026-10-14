@@ -1,0 +1,36 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "Infotech",
+ "company": "Zluri",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-14T15:45:59.281623+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1203,
+ "individuals": [
+  "Ritish Reddy",
+  "Chaithanya Yambari",
+  "Sethu Meenakshisundaram"
+ ],
+ "listed": false,
+ "oneLine": "Infotech acquires SaaS startup Zluri, providing an exit to its investors and founders.",
+ "primaryUrl": "https://inc42.com/buzz/infotech-acquires-lightspeed-backed-saas-startup-zluri/",
+ "seller": "Lightspeed and existing investors",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-10-14T15:45:59.283043+00:00",
+   "outlet": "Inc42",
+   "resolvable": true,
+   "title": "Infotech Acquires Lightspeed-Backed SaaS Startup Zluri",
+   "url": "https://inc42.com/buzz/infotech-acquires-lightspeed-backed-saas-startup-zluri/"
+  }
+ ],
+ "synopsis": "IT advisory firm Infotech has acquired Bengaluru-based SaaS startup Zluri in Infotech's first acquisition in 30 years. The transaction provides an exit to Zluri's founders, Ritish Reddy, Chaithanya Yambari, and Sethu Meenakshisundaram, along with its investors including Lightspeed, MassMutual Ventures, Endiya Partners, and Kalaari Capital. Zluri will operate as a standalone division within Infotech in Bengaluru, retaining its core engineering and product teams while contributing to Infotech's CIO Analytics platform. The terms and financial details of the transaction were not disclosed by the companies.",
+ "ticker": null,
+ "updatedAt": "2026-10-14T15:46:03.522595+00:00"
+}
