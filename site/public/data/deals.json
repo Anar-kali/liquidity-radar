@@ -1,6 +1,32 @@
 {
- "dealCount": 868,
+ "dealCount": 869,
  "deals": [
+  {
+   "amountCr": 4118.4,
+   "amountRaw": "$468 million",
+   "company": "TBO Tek",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-14T15:31:09.109326+00:00",
+   "dealType": "PE secondary",
+   "enrichmentState": null,
+   "id": 1202,
+   "individuals": [
+    "Ankush Nijhawan",
+    "Udai Dhawan",
+    "Kennady V. Kaippally"
+   ],
+   "listed": true,
+   "oneLine": "Affirma Capital exits TBO Tek generating $468 million in capital gains",
+   "primaryOutlet": "Fortune India",
+   "seller": "Affirma Capital",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "TBOTEK.NS",
+   "updatedAt": "2026-10-14T15:31:13.256534+00:00",
+   "updates": []
+  },
   {
    "amountCr": 500.0,
    "amountRaw": "Rs 500 crore",
@@ -27572,6 +27598,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-14T13:15:54.054092+00:00",
- "totalDeals": 868
+ "generatedAt": "2026-10-14T15:31:13.256534+00:00",
+ "totalDeals": 869
 }

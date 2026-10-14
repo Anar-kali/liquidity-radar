@@ -1,0 +1,36 @@
+{
+ "advisers": [],
+ "amountCr": 4118.4,
+ "amountRaw": "$468 million",
+ "buyer": "General Atlantic",
+ "company": "TBO Tek",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-14T15:31:09.109326+00:00",
+ "dealType": "PE secondary",
+ "enrichmentState": null,
+ "id": 1202,
+ "individuals": [
+  "Ankush Nijhawan",
+  "Udai Dhawan",
+  "Kennady V. Kaippally"
+ ],
+ "listed": true,
+ "oneLine": "Affirma Capital exits TBO Tek generating $468 million in capital gains",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPaVVxNHBrbTF1NzZIUFlrZGg4ZDgtcWRCeEdZdl92NXdqd1ItRVBsYjZCN1htSTFqSmhOdUpJYUhuMUkxeHVFbFJBd1dla1BrOXp5VXRhVldwME9fNXdBbzFMQzBDOFJhaDFaeVlkeENMZHo3TDZ1RTVCV2pyS3o5am1FWFJ3RXJRTmZJelg0SWlCdVZYODJHbzg2RktoVkxNclVTZUJTZzJvVjJTbWw5clFkUC1JcGhvVWUxR2hnWUJjTFlmdnRJTGo5WUhVVWRpeWRsaHFPUC1kWllMOFHSAd4BQVVfeXFMT2lVcTRwa20xdTc2SFBZa2RoOGQ4LXFkQnhHWXZfdjV3andSLUVQbGI2QjdYbUkxakpoTnVKSWFIbjFJMXh1RWxSQXdXZWtQazl6eVV0YVZXcDBPXzV3QW8xTEMwQzhSYWgxWnlZZHhDTGR6N0w2dUU1Qldqckt6OWptRVhSd0VyUU5mSXpYNElpQnVWWDgyR284NkZLaFZMTXJVU2VCU2cyb1YyU21sOXJRZFAtSXBob1VlMUdoZ1lCY0xZZnZ0SUxqOVlIVVVkaXlkbGhxT1AtZFpZTDhR?oc=5",
+ "seller": "Affirma Capital",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-14T15:31:09.112781+00:00",
+   "outlet": "Fortune India",
+   "resolvable": false,
+   "title": "Affirma Capital exits TBO Tek with 12x returns, generates $468 million in capital gains",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPaVVxNHBrbTF1NzZIUFlrZGg4ZDgtcWRCeEdZdl92NXdqd1ItRVBsYjZCN1htSTFqSmhOdUpJYUhuMUkxeHVFbFJBd1dla1BrOXp5VXRhVldwME9fNXdBbzFMQzBDOFJhaDFaeVlkeENMZHo3TDZ1RTVCV2pyS3o5am1FWFJ3RXJRTmZJelg0SWlCdVZYODJHbzg2RktoVkxNclVTZUJTZzJvVjJTbWw5clFkUC1JcGhvVWUxR2hnWUJjTFlmdnRJTGo5WUhVVWRpeWRsaHFPUC1kWllMOFHSAd4BQVVfeXFMT2lVcTRwa20xdTc2SFBZa2RoOGQ4LXFkQnhHWXZfdjV3andSLUVQbGI2QjdYbUkxakpoTnVKSWFIbjFJMXh1RWxSQXdXZWtQazl6eVV0YVZXcDBPXzV3QW8xTEMwQzhSYWgxWnlZZHhDTGR6N0w2dUU1Qldqckt6OWptRVhSd0VyUU5mSXpYNElpQnVWWDgyR284NkZLaFZMTXJVU2VCU2cyb1YyU21sOXJRZFAtSXBob1VlMUdoZ1lCY0xZZnZ0SUxqOVlIVVVkaXlkbGhxT1AtZFpZTDhR?oc=5"
+  }
+ ],
+ "synopsis": "Affirma Capital has completed its full exit from travel technology platform TBO Tek Ltd., generating $468 million in capital gains. Affirma Capital originally invested around ₹300 crore in 2018 through a secondary transaction, acquiring a 49.9% stake in TBO before its spin-off from Standard Chartered Bank. Affirma monetised its investment across multiple tranches, including selling a portion to General Atlantic in 2023-24, divestments through TBO's IPO in May 2024, and subsequent block deals and open-market transactions, finishing its final exit between July and October 2026. The investment delivered a 12x multiple on invested capital and a 49% internal rate of return in US dollar terms.",
+ "ticker": "TBOTEK.NS",
+ "updatedAt": "2026-10-14T15:31:13.256534+00:00"
+}
