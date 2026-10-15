@@ -131,9 +131,9 @@
    "company": "MV Electrosystems Limited",
    "firstTrade": "28-Aug-2026",
    "id": 15,
-   "lastTrade": "09-Sep-2026",
+   "lastTrade": "15-Oct-2026",
    "person": "HRTI PRIVATE LIMITED",
-   "saleCount": 7,
+   "saleCount": 8,
    "sales": [
     {
      "date": "28-Aug-2026",
@@ -183,11 +183,18 @@
       "bulk"
      ],
      "valueCr": 62.23
+    },
+    {
+     "date": "15-Oct-2026",
+     "sources": [
+      "bulk"
+     ],
+     "valueCr": 44.74
     }
    ],
    "storedTotalCr": 296.5,
-   "totalCr": 296.5,
-   "weeks": 2
+   "totalCr": 341.24,
+   "weeks": 7
   },
   {
    "alertedAt": "2026-09-08T17:52:47.860214+00:00",
