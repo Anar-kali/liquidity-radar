@@ -1,6 +1,53 @@
 {
- "dealCount": 871,
+ "dealCount": 873,
  "deals": [
+  {
+   "amountCr": 24000.0,
+   "amountRaw": "Rs 24,000 cr v",
+   "company": "AIG Hospitals",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-15T01:31:15.143519+00:00",
+   "dealType": "promoter sale",
+   "enrichmentState": null,
+   "id": 1206,
+   "individuals": [
+    "Duvvur Nageshwar Reddy",
+    "Penmetsa Venkata Subbaraju"
+   ],
+   "listed": false,
+   "oneLine": "Founders aim to pare 10-12% stake at Rs 24,000 crore valuation.",
+   "primaryOutlet": "The Economic Times",
+   "seller": "Founders",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-15T01:31:22.695849+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 2830.0,
+   "amountRaw": "₹2,830 crore (from article)",
+   "company": "Zetwerk Manufacturing",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-15T01:31:15.128936+00:00",
+   "dealType": "unknown",
+   "enrichmentState": null,
+   "id": 1205,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Zetwerk Manufacturing explores an IPO.",
+   "primaryOutlet": "The Economic Times",
+   "seller": "promoter group",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-15T01:31:18.668015+00:00",
+   "updates": []
+  },
   {
    "amountCr": 2410.6,
    "amountRaw": "19.01% x mcap ~Rs 12681cr = ~Rs 2411cr",
@@ -20216,8 +20263,8 @@
    ]
   },
   {
-   "amountCr": 413.0,
-   "amountRaw": "Rs 413 cr",
+   "amountCr": 852.0,
+   "amountRaw": "Rs 852 crore",
    "company": "Tonbo Imaging India Limited",
    "confidence": "medium",
    "confirmed": false,
@@ -20232,9 +20279,9 @@
    "seller": "Early investors",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 10,
+   "sourceCount": 11,
    "ticker": null,
-   "updatedAt": "2026-10-13T08:31:05.903694+00:00",
+   "updatedAt": "2026-10-15T01:31:15.126221+00:00",
    "updates": [
     {
      "attachedAt": "2026-08-17T05:31:02.147301+00:00",
@@ -20271,6 +20318,10 @@
     {
      "attachedAt": "2026-10-13T08:31:05.902078+00:00",
      "title": "Amansa Investments, SBI Mutual Fund, others invest Rs 413 cr in Tonbo Imaging ahead of IPO"
+    },
+    {
+     "attachedAt": "2026-10-15T01:31:15.123423+00:00",
+     "title": "IPO rush continues: Tonbo Imaging eyes Rs 852 crore"
     }
    ]
   },
@@ -27654,6 +27705,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-14T16:15:57.743742+00:00",
- "totalDeals": 871
+ "generatedAt": "2026-10-15T01:31:22.695849+00:00",
+ "totalDeals": 873
 }
