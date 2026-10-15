@@ -1255,7 +1255,7 @@
    "seller": "Jio Platforms Ltd.",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 9,
+   "sourceCount": 10,
    "ticker": null,
    "updatedAt": "2026-10-10T06:46:00.921986+00:00",
    "updates": [
@@ -1290,6 +1290,10 @@
     {
      "attachedAt": "2026-10-12T12:46:03.381931+00:00",
      "title": "Jio Platforms among dozen companies set to tap primary market in Oct"
+    },
+    {
+     "attachedAt": "2026-10-15T07:01:19.434130+00:00",
+     "title": "Jio's ₹30,000-crore IPO is a referendum on who pays for India's digital infrastructure"
     }
    ]
   },
