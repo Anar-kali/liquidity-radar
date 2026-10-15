@@ -66,13 +66,17 @@
    "seller": "Government of India and Life Insurance Corporation",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": "IDBI.NS",
    "updatedAt": "2026-10-15T08:46:07.713269+00:00",
    "updates": [
     {
      "attachedAt": "2026-10-15T08:46:07.711731+00:00",
      "title": "Canada's Warren Buffett bets his billions on India. What does he see?"
+    },
+    {
+     "attachedAt": "2026-10-15T17:16:03.733970+00:00",
+     "title": "In largest FDI deal, Fairfax to buy 60.72% in IDBI for Rs 53,000 crore"
     }
    ]
   },
