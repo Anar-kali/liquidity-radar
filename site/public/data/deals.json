@@ -1,6 +1,28 @@
 {
- "dealCount": 873,
+ "dealCount": 874,
  "deals": [
+  {
+   "amountCr": 49280.0,
+   "amountRaw": "$5.6bn (approx Rs 49,280 crore)",
+   "company": "IDBI Bank",
+   "confidence": "high",
+   "confirmed": false,
+   "createdAt": "2026-10-15T07:46:09.099747+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": "failed",
+   "id": 1207,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Fairfax Financial Holdings buys 61% stake in IDBI Bank for $5.6bn, paying out large stakeholders.",
+   "primaryOutlet": "FT India",
+   "seller": "Government of India and Life Insurance Corporation",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "IDBI.NS",
+   "updatedAt": "2026-10-15T07:46:09.099747+00:00",
+   "updates": []
+  },
   {
    "amountCr": 24000.0,
    "amountRaw": "Rs 24,000 cr v",
@@ -27717,6 +27739,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-15T01:31:22.695849+00:00",
- "totalDeals": 873
+ "generatedAt": "2026-10-15T07:46:09.099747+00:00",
+ "totalDeals": 874
 }
