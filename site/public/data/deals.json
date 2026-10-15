@@ -1284,7 +1284,7 @@
    "seller": "Jio Platforms Ltd.",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 11,
+   "sourceCount": 12,
    "ticker": null,
    "updatedAt": "2026-10-10T06:46:00.921986+00:00",
    "updates": [
@@ -1327,6 +1327,10 @@
     {
      "attachedAt": "2026-10-15T11:01:21.938655+00:00",
      "title": "Jio Platforms IPO press conference: Reliance to launch India's biggest IPO of ₹30,000 crore on 21 Oct"
+    },
+    {
+     "attachedAt": "2026-10-15T12:01:26.820264+00:00",
+     "title": "Rs 30,213 crore. One IPO. And a record waiting to be broken! Mukesh Ambani's Jio Platforms is preparing for what could become India's biggest-ever IPO, surpassing Hyundai Motor India's Rs 27,859 crore public issue. But here's where the story gets interestin"
     }
    ]
   },
