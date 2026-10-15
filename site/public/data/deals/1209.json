@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Pernod Ricard India",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-15T16:15:59.800508+00:00",
+ "dealType": "unknown",
+ "enrichmentState": null,
+ "id": 1209,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Pernod Ricard India's IPO plan awaits board approval.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOOWFZUzV2aHljaUlnQzIwdXdfczlOcVV5WlJjX05qdUFtNDQ1WFQtaEN1QVItNlEzVkNGdUNKLXdsd0oza1BsNy1qdWFyTEJhcm45TFhUbzBkTk1VWklMYkZwT1paR1pRcUZHdjNZQ3hRMHU1aENvaGc5Rm1TOTQ4aUw3UnJjQjRmaVVFaU9wNWZrWjY3dzY4czA1dGtSMV9QT0wxNG45YTMxMUw5cjlFYmMyc19yQmpIbWRhaWZKOFlSZWUzNWhKVmdpS01FWTZLdXBnZUFxM21wNnRuR0kycTB30gHnAUFVX3lxTFA5cXhBbXVPd0wyTkwzZ1NucS04QUlybHZXV2RqaVJGUzBDVFJIWjh5a0lvSkR6Qllsc1dNdVhUR1BKVURMcGZFdlFaQ3dpbkktRUx3OEtKNl9id2VwNnY5aS0zTGMza3k5WHRZMzByWmZNemFDU19RYmp4SDkxa2JaTldaR2swc1hMdFNFZXNJSEV6V0RZQXVzb2RXWG9YaHpFNzNHcEZ0cHdrOHN1bFFuR3QzR3ZDMGU1RTNBRnpJTV9lajZNVkdsYzBKRUlqdVo1V29XLWNyeGk4X29GOVk0a3ZPMlBqOA?oc=5",
+ "seller": null,
+ "sizeBand": "OVER_2000",
+ "sizeSource": "band",
+ "sources": [
+  {
+   "attachedAt": "2026-10-15T16:15:59.802196+00:00",
+   "outlet": "The Economic Times",
+   "resolvable": false,
+   "title": "Pernod Ricard India sales grow 19% in Sept qtr; IPO plan awaits board approval",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOOWFZUzV2aHljaUlnQzIwdXdfczlOcVV5WlJjX05qdUFtNDQ1WFQtaEN1QVItNlEzVkNGdUNKLXdsd0oza1BsNy1qdWFyTEJhcm45TFhUbzBkTk1VWklMYkZwT1paR1pRcUZHdjNZQ3hRMHU1aENvaGc5Rm1TOTQ4aUw3UnJjQjRmaVVFaU9wNWZrWjY3dzY4czA1dGtSMV9QT0wxNG45YTMxMUw5cjlFYmMyc19yQmpIbWRhaWZKOFlSZWUzNWhKVmdpS01FWTZLdXBnZUFxM21wNnRuR0kycTB30gHnAUFVX3lxTFA5cXhBbXVPd0wyTkwzZ1NucS04QUlybHZXV2RqaVJGUzBDVFJIWjh5a0lvSkR6Qllsc1dNdVhUR1BKVURMcGZFdlFaQ3dpbkktRUx3OEtKNl9id2VwNnY5aS0zTGMza3k5WHRZMzByWmZNemFDU19RYmp4SDkxa2JaTldaR2swc1hMdFNFZXNJSEV6V0RZQXVzb2RXWG9YaHpFNzNHcEZ0cHdrOHN1bFFuR3QzR3ZDMGU1RTNBRnpJTV9lajZNVkdsYzBKRUlqdVo1V29XLWNyeGk4X29GOVk0a3ZPMlBqOA?oc=5"
+  }
+ ],
+ "synopsis": "French spirits maker Pernod Ricard reported a 19 percent sales growth in India for the September quarter, driven by strong market demand, ongoing premiumisation trends, and preparatory measures for a potential initial public offering. The company brought forward some shipments to ensure uninterrupted supplies during a transition involving a name change and product relabelling, creating a favourable pipe-fill effect that benefited Q1 sales. While the board has instructed management to continue taking preparatory steps for a potential IPO, the final decision to proceed remains subject to board approval.",
+ "ticker": null,
+ "updatedAt": "2026-10-15T16:16:05.368091+00:00"
+}

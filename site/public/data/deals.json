@@ -1,6 +1,28 @@
 {
- "dealCount": 875,
+ "dealCount": 876,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Pernod Ricard India",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-15T16:15:59.800508+00:00",
+   "dealType": "unknown",
+   "enrichmentState": null,
+   "id": 1209,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Pernod Ricard India's IPO plan awaits board approval.",
+   "primaryOutlet": "The Economic Times",
+   "seller": null,
+   "sizeBand": "OVER_2000",
+   "sizeSource": "band",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-15T16:16:05.368091+00:00",
+   "updates": []
+  },
   {
    "amountCr": 375.0,
    "amountRaw": "₹375 cr",
@@ -27794,6 +27816,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-15T14:31:14.029930+00:00",
- "totalDeals": 875
+ "generatedAt": "2026-10-15T16:16:05.368091+00:00",
+ "totalDeals": 876
 }
