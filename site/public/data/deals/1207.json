@@ -10,7 +10,9 @@
  "dealType": "strategic buyout",
  "enrichmentState": "failed",
  "id": 1207,
- "individuals": [],
+ "individuals": [
+  "Prem Watsa"
+ ],
  "listed": true,
  "oneLine": "Fairfax Financial Holdings buys 61% stake in IDBI Bank for $5.6bn, paying out large stakeholders.",
  "primaryUrl": "https://www.ft.com/content/bbffeec4-c491-45a3-8df9-7339ddb020e3?syn-25a6b1a6=1",
@@ -24,9 +26,16 @@
    "resolvable": true,
    "title": "India approves biggest foreign takeover of domestic bank",
    "url": "https://www.ft.com/content/bbffeec4-c491-45a3-8df9-7339ddb020e3?syn-25a6b1a6=1"
+  },
+  {
+   "attachedAt": "2026-10-15T08:46:07.711731+00:00",
+   "outlet": "FT India",
+   "resolvable": true,
+   "title": "Canada's Warren Buffett bets his billions on India. What does he see?",
+   "url": "https://economictimes.indiatimes.com/industry/banking/finance/banking/prem-watsa-idbi-bank-acquisition-by-fairfax-indian-banking-industry-merger-canadas-warren-buffett-bets-his-billions-on-india-what-does-he-see/articleshow/134961977.cms"
   }
  ],
  "synopsis": null,
  "ticker": "IDBI.NS",
- "updatedAt": "2026-10-15T07:46:09.099747+00:00"
+ "updatedAt": "2026-10-15T08:46:07.713269+00:00"
 }

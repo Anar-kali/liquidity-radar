@@ -11,17 +11,24 @@
    "dealType": "strategic buyout",
    "enrichmentState": "failed",
    "id": 1207,
-   "individuals": [],
+   "individuals": [
+    "Prem Watsa"
+   ],
    "listed": true,
    "oneLine": "Fairfax Financial Holdings buys 61% stake in IDBI Bank for $5.6bn, paying out large stakeholders.",
    "primaryOutlet": "FT India",
    "seller": "Government of India and Life Insurance Corporation",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": "IDBI.NS",
-   "updatedAt": "2026-10-15T07:46:09.099747+00:00",
-   "updates": []
+   "updatedAt": "2026-10-15T08:46:07.713269+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-10-15T08:46:07.711731+00:00",
+     "title": "Canada's Warren Buffett bets his billions on India. What does he see?"
+    }
+   ]
   },
   {
    "amountCr": 24000.0,
@@ -27739,6 +27746,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-15T07:46:09.099747+00:00",
+ "generatedAt": "2026-10-15T08:46:07.713269+00:00",
  "totalDeals": 874
 }
