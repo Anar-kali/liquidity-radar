@@ -1,6 +1,30 @@
 {
- "dealCount": 874,
+ "dealCount": 875,
  "deals": [
+  {
+   "amountCr": 375.0,
+   "amountRaw": "₹375 cr",
+   "company": "Paras Health",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-15T14:31:09.530389+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 1208,
+   "individuals": [
+    "Dharminder Kumar Nagar"
+   ],
+   "listed": false,
+   "oneLine": "Paras Health plans an IPO to raise funds, indicating upcoming liquidity events for promoters.",
+   "primaryOutlet": "Business Standard",
+   "seller": "Dharminder Nagar and Commelina Limited",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-15T14:31:14.029930+00:00",
+   "updates": []
+  },
   {
    "amountCr": 49280.0,
    "amountRaw": "$5.6bn (approx Rs 49,280 crore)",
@@ -27770,6 +27794,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-15T08:46:07.713269+00:00",
- "totalDeals": 874
+ "generatedAt": "2026-10-15T14:31:14.029930+00:00",
+ "totalDeals": 875
 }
