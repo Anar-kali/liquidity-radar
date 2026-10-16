@@ -1,0 +1,34 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Reliance Jio Infocomm",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-16T06:31:12.768150+00:00",
+ "dealType": "unknown",
+ "enrichmentState": "failed",
+ "id": 1212,
+ "individuals": [
+  "Akash Ambani"
+ ],
+ "listed": false,
+ "oneLine": "Jio plans a mega IPO ahead of 6G rollout.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVGtoRkVlV0w5QzdpXzFlX25SRXlrYXEzRFZRdE5NSlJjcFNRM2VUcVVYbUhLZWJvdGdJd1pDODRCYUZzeXVzTXZCUkFEdkNwcmp3UW9STmFERVY2YXNyZGI4dzdOeUo3N05LZjdlYnBBbTNhNUxvclNSSFEtSnFJMGJIX2lvcnBfenQzWFdhZDhFTEVCR0duSFY1dw?oc=5",
+ "seller": null,
+ "sizeBand": "OVER_2000",
+ "sizeSource": "band",
+ "sources": [
+  {
+   "attachedAt": "2026-10-16T06:31:12.770174+00:00",
+   "outlet": "The Earth News",
+   "resolvable": false,
+   "title": "Jio Plans 6G Rollout, Eyes Global Expansion Ahead of Mega IPO: Akash Ambani",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVGtoRkVlV0w5QzdpXzFlX25SRXlrYXEzRFZRdE5NSlJjcFNRM2VUcVVYbUhLZWJvdGdJd1pDODRCYUZzeXVzTXZCUkFEdkNwcmp3UW9STmFERVY2YXNyZGI4dzdOeUo3N05LZjdlYnBBbTNhNUxvclNSSFEtSnFJMGJIX2lvcnBfenQzWFdhZDhFTEVCR0duSFY1dw?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-10-16T06:31:12.768150+00:00"
+}

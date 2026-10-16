@@ -1,6 +1,30 @@
 {
- "dealCount": 878,
+ "dealCount": 879,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Reliance Jio Infocomm",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-16T06:31:12.768150+00:00",
+   "dealType": "unknown",
+   "enrichmentState": "failed",
+   "id": 1212,
+   "individuals": [
+    "Akash Ambani"
+   ],
+   "listed": false,
+   "oneLine": "Jio plans a mega IPO ahead of 6G rollout.",
+   "primaryOutlet": "The Earth News",
+   "seller": null,
+   "sizeBand": "OVER_2000",
+   "sizeSource": "band",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-16T06:31:12.768150+00:00",
+   "updates": []
+  },
   {
    "amountCr": 169.0,
    "amountRaw": "₹169 Cr",
@@ -27881,6 +27905,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-16T01:31:25.014274+00:00",
- "totalDeals": 878
+ "generatedAt": "2026-10-16T06:31:12.768150+00:00",
+ "totalDeals": 879
 }
