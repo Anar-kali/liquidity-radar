@@ -183,7 +183,7 @@
    "seller": "Government of India and Life Insurance Corporation",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 4,
+   "sourceCount": 5,
    "ticker": "IDBI.NS",
    "updatedAt": "2026-10-15T08:46:07.713269+00:00",
    "updates": [
@@ -198,6 +198,10 @@
     {
      "attachedAt": "2026-10-16T01:46:00.553009+00:00",
      "title": "Fairfax to pick 60.72% stake in IDBI Bank: Can the Canadian firm own 2 Indian lenders? What RBI rules say"
+    },
+    {
+     "attachedAt": "2026-10-16T14:01:38.367005+00:00",
+     "title": "Fairfax Plans to Build a Financial Services Group Around IDBI Bank After ₹52,878 Crore Deal"
     }
    ]
   },
