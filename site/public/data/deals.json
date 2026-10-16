@@ -1,6 +1,28 @@
 {
- "dealCount": 881,
+ "dealCount": 882,
  "deals": [
+  {
+   "amountCr": 38240.0,
+   "amountRaw": "Rs 38,240 crore (from article)",
+   "company": "Iveco Group",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-16T14:16:12.517508+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1215,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Iveco shareholders approve Tata Motors' takeover bid, cashing out existing shareholders.",
+   "primaryOutlet": "ET Corporate",
+   "seller": "Iveco Group shareholders",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-16T14:16:19.462959+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -27977,6 +27999,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-16T13:01:46.041766+00:00",
- "totalDeals": 881
+ "generatedAt": "2026-10-16T14:16:19.462959+00:00",
+ "totalDeals": 882
 }
