@@ -1,6 +1,30 @@
 {
- "dealCount": 883,
+ "dealCount": 884,
  "deals": [
+  {
+   "amountCr": 30213.0,
+   "amountRaw": "₹30,213 cr",
+   "company": "Jio Platforms",
+   "confidence": "high",
+   "confirmed": false,
+   "createdAt": "2026-10-16T17:16:12.740292+00:00",
+   "dealType": "unknown",
+   "enrichmentState": null,
+   "id": 1217,
+   "individuals": [
+    "Mukesh Ambani"
+   ],
+   "listed": false,
+   "oneLine": "Jio Platforms prepares a massive issue expected to bring multi-billion gains for early investors and promoters.",
+   "primaryOutlet": "Livemint",
+   "seller": "Reliance Industries and early investors",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-16T17:16:22.151743+00:00",
+   "updates": []
+  },
   {
    "amountCr": 852.0,
    "amountRaw": "₹852 crore (from article)",
@@ -28021,6 +28045,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-16T15:31:43.840836+00:00",
- "totalDeals": 883
+ "generatedAt": "2026-10-16T17:16:22.151743+00:00",
+ "totalDeals": 884
 }
