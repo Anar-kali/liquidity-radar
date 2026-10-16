@@ -110,7 +110,7 @@
    "seller": "Government of India and Life Insurance Corporation",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": "IDBI.NS",
    "updatedAt": "2026-10-15T08:46:07.713269+00:00",
    "updates": [
@@ -121,6 +121,10 @@
     {
      "attachedAt": "2026-10-15T17:16:03.733970+00:00",
      "title": "In largest FDI deal, Fairfax to buy 60.72% in IDBI for Rs 53,000 crore"
+    },
+    {
+     "attachedAt": "2026-10-16T01:46:00.553009+00:00",
+     "title": "Fairfax to pick 60.72% stake in IDBI Bank: Can the Canadian firm own 2 Indian lenders? What RBI rules say"
     }
    ]
   },
