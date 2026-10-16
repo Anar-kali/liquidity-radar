@@ -1,6 +1,28 @@
 {
- "dealCount": 880,
+ "dealCount": 881,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Novavayu Aerospace Limited",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-16T13:01:37.799545+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1214,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Embraer acquires a 51% stake in Novavayu Aerospace from Mahindra Group, providing a cash payout.",
+   "primaryOutlet": "Mint",
+   "seller": "Mahindra Group",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-16T13:01:46.041766+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -27951,6 +27973,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-16T10:46:16.492643+00:00",
- "totalDeals": 880
+ "generatedAt": "2026-10-16T13:01:46.041766+00:00",
+ "totalDeals": 881
 }

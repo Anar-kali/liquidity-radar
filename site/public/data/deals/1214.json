@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "Embraer",
+ "company": "Novavayu Aerospace Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-16T13:01:37.799545+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1214,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Embraer acquires a 51% stake in Novavayu Aerospace from Mahindra Group, providing a cash payout.",
+ "primaryUrl": "https://www.livemint.com/companies/news/embraer-announces-deal-to-acquire-51-stake-in-mahindra-groups-novavayu-aerospace-all-you-need-to-know-11792149310538.html",
+ "seller": "Mahindra Group",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-10-16T13:01:37.800977+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "Embraer announces deal to acquire 51% stake in Mahindra Group's Novavayu Aerospace: All you need to know",
+   "url": "https://www.livemint.com/companies/news/embraer-announces-deal-to-acquire-51-stake-in-mahindra-groups-novavayu-aerospace-all-you-need-to-know-11792149310538.html"
+  }
+ ],
+ "synopsis": "Brazilian aerospace major Embraer has entered into an agreement to acquire a 51% majority stake in Novavayu Aerospace Limited, an Indian firm owned by the Mahindra Group, providing a cash payout. The deal is expected to be finalised by December 1, 2026. The transaction aims to strengthen Embraer's footprint in India's commercial aviation and defence industries, establishing a local corporate base as the company looks to expand its business operations in the country amidst rising demand for air travel and ongoing military modernization efforts.",
+ "ticker": null,
+ "updatedAt": "2026-10-16T13:01:46.041766+00:00"
+}
