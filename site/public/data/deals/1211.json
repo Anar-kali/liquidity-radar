@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 169.0,
+ "amountRaw": "₹169 Cr",
+ "buyer": "Bank of America (BofA Securities Europe)",
+ "company": "Eternal",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-16T01:31:17.502879+00:00",
+ "dealType": "block deal",
+ "enrichmentState": null,
+ "id": 1211,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Goldman Sachs sells shares in Eternal via a block deal.",
+ "primaryUrl": "https://inc42.com/buzz/goldman-sachs-sells-eternal-shares-via-a-%e2%82%b9169-cr-block-deal/",
+ "seller": "Goldman Sachs",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-16T01:31:17.504267+00:00",
+   "outlet": "Inc42",
+   "resolvable": true,
+   "title": "Goldman Sachs Sells Eternal Shares Via A ₹169 Cr Block Deal",
+   "url": "https://inc42.com/buzz/goldman-sachs-sells-eternal-shares-via-a-%e2%82%b9169-cr-block-deal/"
+  }
+ ],
+ "synopsis": "Goldman Sachs, via its entity Goldman Sachs Bank Europe SE, has sold 53.4 lakh shares of foodtech giant Eternal in a block deal worth ₹168.7 Cr. The shares were sold at ₹316 apiece, representing a discount of more than 2.6% to the stock's previous closing price. The buyer was Bank of America through its affiliate BofA Securities Europe. The transaction allows the investment bank to book profits following a sharp uptick in Eternal's share price and improving financials driven by its quick commerce arm, Blinkit.",
+ "ticker": "ETERNAL.NS",
+ "updatedAt": "2026-10-16T01:31:25.014274+00:00"
+}
