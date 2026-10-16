@@ -1,6 +1,28 @@
 {
- "dealCount": 879,
+ "dealCount": 880,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Bliss GVS Pharma",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-16T10:46:16.492643+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": "failed",
+   "id": 1213,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Anupam Rasayan acquires control of Bliss GVS Pharma from its promoters.",
+   "primaryOutlet": "scanx.trade",
+   "seller": "promoters of Bliss GVS Pharma",
+   "sizeBand": null,
+   "sizeSource": "mcap_plausible",
+   "sourceCount": 1,
+   "ticker": "BLISSGVS.NS",
+   "updatedAt": "2026-10-16T10:46:16.492643+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -15669,7 +15691,7 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 11,
+   "sourceCount": 12,
    "ticker": null,
    "updatedAt": "2026-10-14T13:15:54.054092+00:00",
    "updates": [
@@ -15712,6 +15734,10 @@
     {
      "attachedAt": "2026-10-15T10:46:05.254015+00:00",
      "title": "Paramotor Digital to raise up to ₹1,000 crore via IPO; files updated draft with SEBI"
+    },
+    {
+     "attachedAt": "2026-10-16T10:46:16.487164+00:00",
+     "title": "Paramotor Digital Technology Files ₹1,000 Crore IPO Papers with SEBI"
     }
    ]
   },
@@ -27909,6 +27935,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-16T06:31:12.768150+00:00",
- "totalDeals": 879
+ "generatedAt": "2026-10-16T10:46:16.492643+00:00",
+ "totalDeals": 880
 }

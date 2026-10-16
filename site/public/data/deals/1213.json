@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "Anupam Rasayan",
+ "company": "Bliss GVS Pharma",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-16T10:46:16.492643+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": "failed",
+ "id": 1213,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Anupam Rasayan acquires control of Bliss GVS Pharma from its promoters.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNemgwSkZaUUpuc0xIckZiRWRDTS1jaExSOEFESlk1VkZIZExmQ0FpZ0VtWjVmeGFWU1FtUXY1c1VQZXg4dVdBYThlVVVCak9oSlVPUG0xZjlUVkVkZk85NnpsQi1DR0RXMzlUc0pEcUtYbnBUa2NGcjR2TFpfTW1jUnVOQ3hnVFcxZ05jZTJsVTlGaHhGc3JleTBBanNDWUluYmw0RlVXVFlnNW9YUzQ1YXRJZEd0RGQxWlJIcnRsNFlQS2c?oc=5",
+ "seller": "promoters of Bliss GVS Pharma",
+ "sizeBand": null,
+ "sizeSource": "mcap_plausible",
+ "sources": [
+  {
+   "attachedAt": "2026-10-16T10:46:16.493722+00:00",
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "Anupam Rasayan takes control of Bliss GVS Pharma; promoters reclassified",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNemgwSkZaUUpuc0xIckZiRWRDTS1jaExSOEFESlk1VkZIZExmQ0FpZ0VtWjVmeGFWU1FtUXY1c1VQZXg4dVdBYThlVVVCak9oSlVPUG0xZjlUVkVkZk85NnpsQi1DR0RXMzlUc0pEcUtYbnBUa2NGcjR2TFpfTW1jUnVOQ3hnVFcxZ05jZTJsVTlGaHhGc3JleTBBanNDWUluYmw0RlVXVFlnNW9YUzQ1YXRJZEd0RGQxWlJIcnRsNFlQS2c?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": "BLISSGVS.NS",
+ "updatedAt": "2026-10-16T10:46:16.492643+00:00"
+}
