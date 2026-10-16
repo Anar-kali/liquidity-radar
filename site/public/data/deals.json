@@ -1,6 +1,28 @@
 {
- "dealCount": 882,
+ "dealCount": 883,
  "deals": [
+  {
+   "amountCr": 852.0,
+   "amountRaw": "₹852 crore (from article)",
+   "company": "Tonbo Imaging",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-16T15:31:29.051330+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 1216,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Tonbo Imaging is preparing for a major IPO.",
+   "primaryOutlet": "Business Line",
+   "seller": "early investors, including Celesta Capital and Edelweiss",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-16T15:31:43.840836+00:00",
+   "updates": []
+  },
   {
    "amountCr": 38240.0,
    "amountRaw": "Rs 38,240 crore (from article)",
@@ -27999,6 +28021,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-16T14:16:19.462959+00:00",
- "totalDeals": 882
+ "generatedAt": "2026-10-16T15:31:43.840836+00:00",
+ "totalDeals": 883
 }
