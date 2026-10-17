@@ -173,7 +173,7 @@
    "seller": "Reliance Industries and early investors",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-10-16T17:16:22.151743+00:00",
    "updates": [
@@ -184,6 +184,10 @@
     {
      "attachedAt": "2026-10-17T10:15:54.737158+00:00",
      "title": "Jio unveils three growth engines ahead of mega IPO - BUSINESS - GENERAL"
+    },
+    {
+     "attachedAt": "2026-10-17T14:15:54.744377+00:00",
+     "title": "Jio Platforms pitches growth story ahead of India’s largest IPO"
     }
    ]
   },
