@@ -1,6 +1,36 @@
 {
- "dealCount": 886,
+ "dealCount": 887,
  "deals": [
+  {
+   "amountCr": 150.0,
+   "amountRaw": "Rs 150 crore (from article)",
+   "company": "Hunger Pangs",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-17T06:45:53.817324+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 1220,
+   "individuals": [
+    "Ankit Virendra Gupta",
+    "Chirag Narendra Chhajer"
+   ],
+   "listed": false,
+   "oneLine": "Burma Burma operator Hunger Pangs files DRHP for IPO.",
+   "primaryOutlet": "Daily Excelsior",
+   "seller": "Ankit Virendra Gupta, Chirag Narendra Chhajer, Bbigplas Poly Pvt Ltd, Negen Tech Opportunities Angel Fund +others",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 2,
+   "ticker": null,
+   "updatedAt": "2026-10-17T06:45:57.816302+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-10-17T06:45:53.823499+00:00",
+     "title": "Burma Burma Operator Hunger Pangs Files DRHP With Sebi For IPO"
+    }
+   ]
+  },
   {
    "amountCr": 150.0,
    "amountRaw": "₹150 Crore",
@@ -28106,6 +28136,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-17T06:31:08.501165+00:00",
- "totalDeals": 886
+ "generatedAt": "2026-10-17T06:45:57.816302+00:00",
+ "totalDeals": 887
 }

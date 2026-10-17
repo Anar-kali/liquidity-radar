@@ -1,0 +1,42 @@
+{
+ "advisers": [],
+ "amountCr": 150.0,
+ "amountRaw": "Rs 150 crore (from article)",
+ "buyer": null,
+ "company": "Hunger Pangs",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-17T06:45:53.817324+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": null,
+ "id": 1220,
+ "individuals": [
+  "Ankit Virendra Gupta",
+  "Chirag Narendra Chhajer"
+ ],
+ "listed": false,
+ "oneLine": "Burma Burma operator Hunger Pangs files DRHP for IPO.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSGpZbW9mWjZpd21YSXE0U3B1X3VMeTZMaWlrYXdWSUtiSjRzaV9BeHBfQ0hMTEZOdVlGOTVENERaRmpqUFJsT0hCREMwbWtGMjJUM0hidi1DQlJCUDJLa1ZWSGQyMGtPcjlGb1JETnhIN2xjMzdjbm9WellXWWNLR05sUWNCemRxbUFnRDR2SUI1aGZaaE9LZUtEa0RrUWPSAaMBQVVfeXFMTUZ5cGVsUU1mZFMwMWRzUEM3Rlh2eTBJZ3VGNkVqV0lRMUFfNlgxOFlZbTVmbHJmUS0zc2hZbXJCNXdyVks2aERzLVRUUjBuZVFLdkJWOUNiNVpnS0VBdWw1NktUeWNJUUFqbFE1aFJOSDNOb2hxOWNuTEZGLW9rXzlJS0liT1B6ZjRzQm5aZmIyMTgzRmNZRGx2S3B3TVFpdWRzNA?oc=5",
+ "seller": "Ankit Virendra Gupta, Chirag Narendra Chhajer, Bbigplas Poly Pvt Ltd, Negen Tech Opportunities Angel Fund +others",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-17T06:45:53.818387+00:00",
+   "outlet": "Daily Excelsior",
+   "resolvable": false,
+   "title": "Burma Burma operator Hunger Pangs files IPO draft papers with Sebi",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSGpZbW9mWjZpd21YSXE0U3B1X3VMeTZMaWlrYXdWSUtiSjRzaV9BeHBfQ0hMTEZOdVlGOTVENERaRmpqUFJsT0hCREMwbWtGMjJUM0hidi1DQlJCUDJLa1ZWSGQyMGtPcjlGb1JETnhIN2xjMzdjbm9WellXWWNLR05sUWNCemRxbUFnRDR2SUI1aGZaaE9LZUtEa0RrUWPSAaMBQVVfeXFMTUZ5cGVsUU1mZFMwMWRzUEM3Rlh2eTBJZ3VGNkVqV0lRMUFfNlgxOFlZbTVmbHJmUS0zc2hZbXJCNXdyVks2aERzLVRUUjBuZVFLdkJWOUNiNVpnS0VBdWw1NktUeWNJUUFqbFE1aFJOSDNOb2hxOWNuTEZGLW9rXzlJS0liT1B6ZjRzQm5aZmIyMTgzRmNZRGx2S3B3TVFpdWRzNA?oc=5"
+  },
+  {
+   "attachedAt": "2026-10-17T06:45:53.823499+00:00",
+   "outlet": "BW Businessworld",
+   "resolvable": false,
+   "title": "Burma Burma Operator Hunger Pangs Files DRHP With Sebi For IPO",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdGRaZHBqMGVfbG5VdXVod2lIR1duLVVlMFB5UUg3Z2ZxVDA1bzVfNmJTbVljTmRUcmNEcl9WTFVtenJjX2RFTzNfQzVaWjFfU1ktLWw4cm9icnVMamFFWmpLNHFnQnZ4cDBBRmVqXzFnbGYtcFlTMlJmd0xzbkxGX0FHeG1KSlRocWFYZmR0ZThqdGNzQXZWRUxacGR0WDdwelhFdS1yaFhOZw?oc=5"
+  }
+ ],
+ "synopsis": "Hunger Pangs Ltd, operator of the Burma Burma Restaurant & Tea Room chain, has filed preliminary IPO papers with Sebi consisting of a fresh issue worth up to Rs 150 crore and an offer for sale of up to 2.79 crore shares by existing shareholders. The selling shareholders include promoters Ankit Virendra Gupta and Chirag Narendra Chhajer, promoter group entity Bbigplas Poly Pvt Ltd, and investor shareholders Negen Tech Opportunities Angel Fund, Venture Catalysts Angel Growth Fund, and L V Angel Fund. Proceeds from the fresh issue will be used to fund the expansion of new Burma Burma restaurants across India and for general corporate purposes. Panthomath Capital Advisors is the sole book-running lead manager to the issue.",
+ "ticker": null,
+ "updatedAt": "2026-10-17T06:45:57.816302+00:00"
+}
