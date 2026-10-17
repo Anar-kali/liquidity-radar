@@ -1,0 +1,36 @@
+{
+ "advisers": [],
+ "amountCr": 600.0,
+ "amountRaw": "Rs 600 crore (from article)",
+ "buyer": "Public investors",
+ "company": "Sathya Agencies",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-17T13:01:09.989345+00:00",
+ "dealType": "unknown",
+ "enrichmentState": null,
+ "id": 1223,
+ "individuals": [
+  "Johnson Asaria",
+  "J John Sathya",
+  "Charles Packiaraj"
+ ],
+ "listed": false,
+ "oneLine": "IPO-bound Sathya Agencies plans to strengthen regional presence.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQLUN4LUlVUnQ4bDgxSGFndWJ6VVJKcnVVWi1EOUlseVhnYm4xdnlmSWV6aXhDcWQzV2RlUEE1dzBoYi1WR1ozTW5XSVNPOHRyWmkycDBfMTJsOVNIdjUzcVVIOGRHLUNXMjhVTzBwYklkMDZndktYaDdPU2YzQTVKQ3BfYUZsSEx2Q3J6RUJTZHBPVkdDalNYZm1pc2lOMmtfU3pYT2l4ZldYSUdZOEpKbjVpYkFST0ZjNDRMWWk5QUZKYzJrZlRQV2w1Q2XSAdIBQVVfeXFMUGtXcW4tZXhOQnBJWWpjWEJJdlF3aHFWeU1ubFV2azJ2OWEtU044QkxiT055Nlh6R1M2OVBOdjF5WTJxYmV3WlVaOXhLRTlOUEpqdDlUUUNCMXhqV2NaNXdCejJFTG44OG9GNVh5QWtzcVdOQUVBMF9Zbml6aTVhNlJmS2J5Qk5Uel9HMGpyamZNaE1SZ2g2ZS1XYkdDUnpoWnBleDVlb1hrUElrd1FWSzBPXzNYczMzU08zWWJ1VE9JRTlIQ3h6OTdWMzJ1bVVKMEFR?oc=5",
+ "seller": "Johnson Asaria, J John Sathya and Charles Packiaraj",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-17T13:01:09.991161+00:00",
+   "outlet": "Business Standard",
+   "resolvable": false,
+   "title": "IPO-bound Sathya Agencies plans to strengthen presence in Karnataka",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQLUN4LUlVUnQ4bDgxSGFndWJ6VVJKcnVVWi1EOUlseVhnYm4xdnlmSWV6aXhDcWQzV2RlUEE1dzBoYi1WR1ozTW5XSVNPOHRyWmkycDBfMTJsOVNIdjUzcVVIOGRHLUNXMjhVTzBwYklkMDZndktYaDdPU2YzQTVKQ3BfYUZsSEx2Q3J6RUJTZHBPVkdDalNYZm1pc2lOMmtfU3pYT2l4ZldYSUdZOEpKbjVpYkFST0ZjNDRMWWk5QUZKYzJrZlRQV2w1Q2XSAdIBQVVfeXFMUGtXcW4tZXhOQnBJWWpjWEJJdlF3aHFWeU1ubFV2azJ2OWEtU044QkxiT055Nlh6R1M2OVBOdjF5WTJxYmV3WlVaOXhLRTlOUEpqdDlUUUNCMXhqV2NaNXdCejJFTG44OG9GNVh5QWtzcVdOQUVBMF9Zbml6aTVhNlJmS2J5Qk5Uel9HMGpyamZNaE1SZ2g2ZS1XYkdDUnpoWnBleDVlb1hrUElrd1FWSzBPXzNYczMzU08zWWJ1VE9JRTlIQ3h6OTdWMzJ1bVVKMEFR?oc=5"
+  }
+ ],
+ "synopsis": "Chennai-based consumer durables and electronics retailer Sathya Agencies Ltd is preparing for an initial public offering of up to Rs 600 crore, which includes a fresh issue of up to Rs 300 crore and an offer for sale of up to Rs 300 crore by promoter-selling shareholders Johnson Asaria, J John Sathya, and Charles Packiaraj. The proceeds will be used to fund growth initiatives, repay borrowings, pay for the acquisition of subsidiary Unilet Appliances, and for general corporate purposes. The company received final observations from Sebi on June 25, 2026. Anand Rathi Advisors and Motilal Oswal Investment Advisors are the book-running lead managers to the offer.",
+ "ticker": null,
+ "updatedAt": "2026-10-17T13:01:16.732076+00:00"
+}

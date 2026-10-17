@@ -1,6 +1,32 @@
 {
- "dealCount": 888,
+ "dealCount": 889,
  "deals": [
+  {
+   "amountCr": 600.0,
+   "amountRaw": "Rs 600 crore (from article)",
+   "company": "Sathya Agencies",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-17T13:01:09.989345+00:00",
+   "dealType": "unknown",
+   "enrichmentState": null,
+   "id": 1223,
+   "individuals": [
+    "Johnson Asaria",
+    "J John Sathya",
+    "Charles Packiaraj"
+   ],
+   "listed": false,
+   "oneLine": "IPO-bound Sathya Agencies plans to strengthen regional presence.",
+   "primaryOutlet": "Business Standard",
+   "seller": "Johnson Asaria, J John Sathya and Charles Packiaraj",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-17T13:01:16.732076+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -28194,6 +28220,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-17T10:15:58.557067+00:00",
- "totalDeals": 888
+ "generatedAt": "2026-10-17T13:01:16.732076+00:00",
+ "totalDeals": 889
 }
