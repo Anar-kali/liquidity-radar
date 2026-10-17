@@ -1,0 +1,35 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "B.N. Rathi Securities",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-17T17:15:57.885345+00:00",
+ "dealType": "promoter sale",
+ "enrichmentState": null,
+ "id": 1225,
+ "individuals": [
+  "Darshan P Desai",
+  "Priyanka Darshan Desai"
+ ],
+ "listed": false,
+ "oneLine": "Promoter sells 545,163 shares of B.N. Rathi Securities, receiving liquidity.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZ0RoTVJLcWVuOHlTZnpyOHhNYnpJNEgzeFd1aEh3LUpEUnZYRXQ5d3M2OGlHYkpOX2hSV2Q4NWJLZTdSemZkN2YzMllwWWNkMTM4OU5LdmNDT2R2elAwa295cU5EdU0tdlA0UGZSZVAtYmxxQ3hTM09VVzZWODlPWXZfX2lReGNRcGc?oc=5",
+ "seller": "Promoters",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-10-17T17:15:57.888519+00:00",
+   "outlet": "InvestyWise",
+   "resolvable": false,
+   "title": "B.N. Rathi Securities: Promoter Sells 545,163 Shares",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZ0RoTVJLcWVuOHlTZnpyOHhNYnpJNEgzeFd1aEh3LUpEUnZYRXQ5d3M2OGlHYkpOX2hSV2Q4NWJLZTdSemZkN2YzMllwWWNkMTM4OU5LdmNDT2R2elAwa295cU5EdU0tdlA0UGZSZVAtYmxxQ3hTM09VVzZWODlPWXZfX2lReGNRcGc?oc=5"
+  }
+ ],
+ "synopsis": "Darshan P Desai, acting as Karta of Darshan P Desai HUF, disclosed the sale of 545,163 equity shares in B.N. Rathi Securities Limited through open market transactions. The sale occurred between October 10, 2025, and February 11, 2025. Following this transaction, the holding of Darshan P Desai HUF stands at 1,716,613 equity shares, representing 4.11% of the total share capital. Additionally, Priyanka Darshan Desai holds 1,419,000 equity shares, representing 3.40%, and the article notes a separate disclosure of Priyanka Darshan Desai selling 475,991 equity shares. The transactions resulted in a reduction of the combined holdings of the individuals and entities acting in concert.",
+ "ticker": null,
+ "updatedAt": "2026-10-17T17:16:02.482935+00:00"
+}

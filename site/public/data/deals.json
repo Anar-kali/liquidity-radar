@@ -1,6 +1,31 @@
 {
- "dealCount": 890,
+ "dealCount": 891,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "B.N. Rathi Securities",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-17T17:15:57.885345+00:00",
+   "dealType": "promoter sale",
+   "enrichmentState": null,
+   "id": 1225,
+   "individuals": [
+    "Darshan P Desai",
+    "Priyanka Darshan Desai"
+   ],
+   "listed": false,
+   "oneLine": "Promoter sells 545,163 shares of B.N. Rathi Securities, receiving liquidity.",
+   "primaryOutlet": "InvestyWise",
+   "seller": "Promoters",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-17T17:16:02.482935+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -28250,6 +28275,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-17T16:16:00.330517+00:00",
- "totalDeals": 890
+ "generatedAt": "2026-10-17T17:16:02.482935+00:00",
+ "totalDeals": 891
 }
