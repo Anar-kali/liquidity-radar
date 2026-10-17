@@ -1,6 +1,28 @@
 {
- "dealCount": 884,
+ "dealCount": 885,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "BD&P Hotels",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-17T01:31:10.437108+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1218,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Advent Hotels International completes the purchase of the final stake in BD&P Hotels.",
+   "primaryOutlet": "Sahi",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-17T01:31:14.512989+00:00",
+   "updates": []
+  },
   {
    "amountCr": 30213.0,
    "amountRaw": "₹30,213 cr",
@@ -20,10 +42,15 @@
    "seller": "Reliance Industries and early investors",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-10-16T17:16:22.151743+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-10-17T01:31:10.420835+00:00",
+     "title": "Jio Platforms IPO: How HFCL promoter Mahendra Nahata's investment could rise over 110 times"
+    }
+   ]
   },
   {
    "amountCr": 852.0,
@@ -132,10 +159,15 @@
    "seller": null,
    "sizeBand": "OVER_2000",
    "sizeSource": "band",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-10-16T06:31:12.768150+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-10-17T01:31:10.449662+00:00",
+     "title": "Jio IPO 2026: 'World's fastest 5G network outside China', Akash Ambani sets stage for Reliance Jio's mega IPO"
+    }
+   ]
   },
   {
    "amountCr": 169.0,
@@ -28045,6 +28077,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-16T17:16:22.151743+00:00",
- "totalDeals": 884
+ "generatedAt": "2026-10-17T01:31:14.512989+00:00",
+ "totalDeals": 885
 }

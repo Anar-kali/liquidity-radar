@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "Advent Hotels International",
+ "company": "BD&P Hotels",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-17T01:31:10.437108+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1218,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Advent Hotels International completes the purchase of the final stake in BD&P Hotels.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUVV0RnhkZ1phM3ZfcEpkUkx0WDhzbXRObGpIUFFYNDk5TWdWNjVYZEJ4Z2NrNllaLVJCSnV4SmFUbS1zNmVDbmhsZ1IyVy1yQjRfUEdWMWpkYlBqN0dSQm5UMnByWWU1QXphajltSXZ5aHBleE9rX0s1ZnBYclR0Z1hMNFNHYlYzQkxma2M3LUtMUU54ZjlvY3Z0bDRqcW54Z1M1eWJZbnk?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-10-17T01:31:10.438144+00:00",
+   "outlet": "Sahi",
+   "resolvable": false,
+   "title": "Advent Hotels International Completes Purchase of Final 25% Stake in BD&P Hotels",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUVV0RnhkZ1phM3ZfcEpkUkx0WDhzbXRObGpIUFFYNDk5TWdWNjVYZEJ4Z2NrNllaLVJCSnV4SmFUbS1zNmVDbmhsZ1IyVy1yQjRfUEdWMWpkYlBqN0dSQm5UMnByWWU1QXphajltSXZ5aHBleE9rX0s1ZnBYclR0Z1hMNFNHYlYzQkxma2M3LUtMUU54ZjlvY3Z0bDRqcW54Z1M1eWJZbnk?oc=5"
+  }
+ ],
+ "synopsis": "Advent Hotels International Limited has approved and executed a Share Purchase Agreement to acquire the remaining 25% equity stake in BD&P Hotels (India) Private Limited. Through this transaction, BD&P Hotels transitions from a 75% owned entity into a 100% wholly owned subsidiary, giving Advent Hotels full control over operational and strategic execution and removing non-controlling interest leakage. BD&P Hotels reported a revenue from operations of ₹102.37 crore for the financial year ended March 31, 2026, and holds a paid-up share capital of ₹39.31 crore. The article does not name the specific selling shareholders or disclose the monetary deal value for the 25% stake.",
+ "ticker": null,
+ "updatedAt": "2026-10-17T01:31:14.512989+00:00"
+}
