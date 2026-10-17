@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "Acutaas Chemicals",
+ "company": "Enchem Ami Organics",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-17T16:15:56.507801+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1224,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Acutaas Chemicals acquires Enchem Ami Organics, resulting in a buyout payout.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQ3dxM19iX0VjajRNQTdyUkpOdmxXX0xQcmlYQVNoV3ZaYTdCbms3cGtuNFpETmdaOWo2dEdVbGtyVEdLU1ctUmlLcGxKVHpoUDVKR3VqX3hHeE9nMGRaUVZ3eWd2MlJCNjNvM193QS1XS3VPMEpRNkdxMVpfSUtoX1NqRWhBcllzckdWeVF2Q2wxZTQ1Yjk4ZU1KU3J3eGgy?oc=5",
+ "seller": "Acutaas Chemicals Electrolytes Private Limited",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-10-17T16:15:56.510822+00:00",
+   "outlet": "Business Upturn",
+   "resolvable": false,
+   "title": "Acutaas Chemicals completes acquisition of Enchem Ami Organics",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQ3dxM19iX0VjajRNQTdyUkpOdmxXX0xQcmlYQVNoV3ZaYTdCbms3cGtuNFpETmdaOWo2dEdVbGtyVEdLU1ctUmlLcGxKVHpoUDVKR3VqX3hHeE9nMGRaUVZ3eWd2MlJCNjNvM193QS1XS3VPMEpRNkdxMVpfSUtoX1NqRWhBcllzckdWeVF2Q2wxZTQ1Yjk4ZU1KU3J3eGgy?oc=5"
+  }
+ ],
+ "synopsis": "Acutaas Chemicals Limited completed the acquisition of Enchem Ami Organics Private Limited on October 17, 2026, making it a direct wholly-owned subsidiary rather than a step-down subsidiary. The transaction involved the transfer of 10,000 equity shares with a face value of Rs. 10 each from Acutaas Chemicals Electrolytes Private Limited to Acutaas Chemicals Limited. The move aims to streamline the organizational structure, enhance operational control, and strengthen the company's portfolio in the chemical industry. The disclosure follows previous notifications made by Acutaas on September 24, 2026, in compliance with SEBI regulations.",
+ "ticker": null,
+ "updatedAt": "2026-10-17T16:16:00.330517+00:00"
+}

@@ -1,6 +1,28 @@
 {
- "dealCount": 889,
+ "dealCount": 890,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Enchem Ami Organics",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-17T16:15:56.507801+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1224,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Acutaas Chemicals acquires Enchem Ami Organics, resulting in a buyout payout.",
+   "primaryOutlet": "Business Upturn",
+   "seller": "Acutaas Chemicals Electrolytes Private Limited",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-17T16:16:00.330517+00:00",
+   "updates": []
+  },
   {
    "amountCr": 600.0,
    "amountRaw": "Rs 600 crore (from article)",
@@ -28224,6 +28246,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-17T13:01:16.732076+00:00",
- "totalDeals": 889
+ "generatedAt": "2026-10-17T16:16:00.330517+00:00",
+ "totalDeals": 890
 }
