@@ -1,6 +1,31 @@
 {
- "dealCount": 885,
+ "dealCount": 886,
  "deals": [
+  {
+   "amountCr": 150.0,
+   "amountRaw": "₹150 Crore",
+   "company": "Burma Burma",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-17T06:31:04.324475+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 1219,
+   "individuals": [
+    "Ankit Virendra Gupta",
+    "Chirag Narendra Chhajer"
+   ],
+   "listed": false,
+   "oneLine": "Burma Burma operator files IPO papers for a fresh issue to fund expansion.",
+   "primaryOutlet": "Free Press Journal",
+   "seller": "Ankit Virendra Gupta, Chirag Narendra Chhajer, Bbigplas Poly Pvt Ltd, Negen Tech Opportunities Angel Fund +others",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-17T06:31:08.501165+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -28081,6 +28106,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-17T01:31:14.512989+00:00",
- "totalDeals": 885
+ "generatedAt": "2026-10-17T06:31:08.501165+00:00",
+ "totalDeals": 886
 }
