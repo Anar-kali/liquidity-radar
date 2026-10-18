@@ -473,7 +473,7 @@
    "seller": "Government of India and Life Insurance Corporation",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 6,
+   "sourceCount": 7,
    "ticker": "IDBI.NS",
    "updatedAt": "2026-10-15T08:46:07.713269+00:00",
    "updates": [
@@ -496,6 +496,10 @@
     {
      "attachedAt": "2026-10-17T09:15:51.100854+00:00",
      "title": "Fairfax to leverage HDFC veterans Parekh, Sukthankar for IDBI Bank acquisition"
+    },
+    {
+     "attachedAt": "2026-10-18T01:31:06.843676+00:00",
+     "title": "Fairfax’s IDBI Bank Deal Proceeds without Major Investment Bankers"
     }
    ]
   },
