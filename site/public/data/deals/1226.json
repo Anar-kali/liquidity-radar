@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 6650.0,
+ "amountRaw": "Rs 6,650 crore (from article)",
+ "buyer": null,
+ "company": "Oyo",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-18T10:45:55.423841+00:00",
+ "dealType": "unknown",
+ "enrichmentState": null,
+ "id": 1226,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "IPO-bound Oyo parent Prism sees outlook revised to positive by Moody's.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNM1Bjb0c3ZDhvWFEzLUFNU0xJRFQxODBwbXg3Z3p6dTFyeDQzZzJVZkhiZDM4eUZJUXMxWUhaTnF0Rm4wMWxhLWpHVGdDbGUxelZmbEVEQTFsbG80MkFTcTFtckhPbE96MmtwMVFqRE01SGRHSmw1VXpabTNqLXNucDcyYS1NNEhtckwtTWVwWmd6WHNvUGkxdW5rbkItb0FtVXpwVXdtNEZybkdPZklPcUN1dzFzYWdvS1BjM2JJakJUeHNxY2VZM0J2SzFQZ9IB0wFBVV95cUxOUFJUVUFfS0NidVZOSlFwTVRYM2FWa1B2SUUxZVNzc0xlMzV5blV3N3lxaVhkd1NiOXJFQnNmZUJuSTllWUhNS3BoUWRzSkhHRXJMbUUtakJkcHkzWFZSaWN0TW1TZW9ZUlRaRXRHckU1VkxnNmpzUGF4c1hDYnFrcUxxMTJxRURzbm16cWM4VTFxZGgtbUQxenloUVRIVVpQWWdQajdPT1BqZWt2OTVGLWN4LW9hUUJTb3B3RWdNRnNZajBvYi1LUVpKbjBleWxEUFFn?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-18T10:45:55.486261+00:00",
+   "outlet": "Business Standard",
+   "resolvable": false,
+   "title": "Moody's revises IPO-bound Oyo parent Prism's outlook to 'positive'",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNM1Bjb0c3ZDhvWFEzLUFNU0xJRFQxODBwbXg3Z3p6dTFyeDQzZzJVZkhiZDM4eUZJUXMxWUhaTnF0Rm4wMWxhLWpHVGdDbGUxelZmbEVEQTFsbG80MkFTcTFtckhPbE96MmtwMVFqRE01SGRHSmw1VXpabTNqLXNucDcyYS1NNEhtckwtTWVwWmd6WHNvUGkxdW5rbkItb0FtVXpwVXdtNEZybkdPZklPcUN1dzFzYWdvS1BjM2JJakJUeHNxY2VZM0J2SzFQZ9IB0wFBVV95cUxOUFJUVUFfS0NidVZOSlFwTVRYM2FWa1B2SUUxZVNzc0xlMzV5blV3N3lxaVhkd1NiOXJFQnNmZUJuSTllWUhNS3BoUWRzSkhHRXJMbUUtakJkcHkzWFZSaWN0TW1TZW9ZUlRaRXRHckU1VkxnNmpzUGF4c1hDYnFrcUxxMTJxRURzbm16cWM4VTFxZGgtbUQxenloUVRIVVpQWWdQajdPT1BqZWt2OTVGLWN4LW9hUUJTb3B3RWdNRnNZajBvYi1LUVpKbjBleWxEUFFn?oc=5"
+  }
+ ],
+ "synopsis": "Moody's Ratings has revised the outlook on IPO-bound OYO parent Prism to 'positive' from 'stable' while reaffirming its B2 corporate family rating, citing expectations of stronger earnings and free cash flow generation. Oyo plans to raise approximately Rs 6,650 crore through an initial public offering, intending to use around Rs 5,000 crore of the proceeds to repay debt. The company's founder Ritesh Agarwal holds a 30.52 per cent stake, while SVF India Holdings (Cayman) Limited is the largest shareholder with a 40.04 per cent stake. Moody's noted that the timing and execution of the IPO remain subject to uncertainty.",
+ "ticker": null,
+ "updatedAt": "2026-10-18T10:45:59.419202+00:00"
+}
