@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "PC Jeweller",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-18T11:01:13.951454+00:00",
+ "dealType": "block deal",
+ "enrichmentState": "failed",
+ "id": 1227,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Asi Industries exits PC Jeweller via open market stake sale.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNGdJR2doYW5RNjE4NWJTU2oyWGo5MHo5U0tDbTZQbHRZMkVYRG9GQW14STlfN0dRU2NhRnpIUk1KVnROVVRuOVB6UXMzQjRJWExZLXVuemhQMi0weFh2MW9Ud0ZfR2hTOFBpVE1hM2JkUGNiUzYxLWQ1N2VzQUNsTWRuSDNTSjBWRW90b1F2THp5ZDBUdi1oWmJ5b2JmWFA1Q0ZpTTZ6RjhUN0lvVHR2LWJNazRQUQ?oc=5",
+ "seller": "Asi Industries",
+ "sizeBand": null,
+ "sizeSource": "mcap_plausible",
+ "sources": [
+  {
+   "attachedAt": "2026-10-18T11:01:13.953156+00:00",
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "Asi Industries exits PC Jeweller stake via open market sale",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNGdJR2doYW5RNjE4NWJTU2oyWGo5MHo5U0tDbTZQbHRZMkVYRG9GQW14STlfN0dRU2NhRnpIUk1KVnROVVRuOVB6UXMzQjRJWExZLXVuemhQMi0weFh2MW9Ud0ZfR2hTOFBpVE1hM2JkUGNiUzYxLWQ1N2VzQUNsTWRuSDNTSjBWRW90b1F2THp5ZDBUdi1oWmJ5b2JmWFA1Q0ZpTTZ6RjhUN0lvVHR2LWJNazRQUQ?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": "PCJEWELLER.NS",
+ "updatedAt": "2026-10-18T11:01:13.951454+00:00"
+}

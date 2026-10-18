@@ -1,6 +1,28 @@
 {
- "dealCount": 892,
+ "dealCount": 893,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "PC Jeweller",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-18T11:01:13.951454+00:00",
+   "dealType": "block deal",
+   "enrichmentState": "failed",
+   "id": 1227,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Asi Industries exits PC Jeweller via open market stake sale.",
+   "primaryOutlet": "scanx.trade",
+   "seller": "Asi Industries",
+   "sizeBand": null,
+   "sizeSource": "mcap_plausible",
+   "sourceCount": 1,
+   "ticker": "PCJEWELLER.NS",
+   "updatedAt": "2026-10-18T11:01:13.951454+00:00",
+   "updates": []
+  },
   {
    "amountCr": 6650.0,
    "amountRaw": "Rs 6,650 crore (from article)",
@@ -387,13 +409,17 @@
    "seller": null,
    "sizeBand": "OVER_2000",
    "sizeSource": "band",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-10-16T06:31:12.768150+00:00",
    "updates": [
     {
      "attachedAt": "2026-10-17T01:31:10.449662+00:00",
      "title": "Jio IPO 2026: 'World's fastest 5G network outside China', Akash Ambani sets stage for Reliance Jio's mega IPO"
+    },
+    {
+     "attachedAt": "2026-10-18T11:01:13.961859+00:00",
+     "title": "Reliance Jio IPO: How Dhirubhai Ambani made ordinary Indians shareholders in 1977, and why Jio’s mega issue could make history in 2026"
     }
    ]
   },
@@ -28317,6 +28343,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-18T10:45:59.419202+00:00",
- "totalDeals": 892
+ "generatedAt": "2026-10-18T11:01:13.951454+00:00",
+ "totalDeals": 893
 }
