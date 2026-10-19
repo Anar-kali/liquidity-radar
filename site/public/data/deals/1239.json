@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 800.0,
+ "amountRaw": "fresh issue of ₹800 Cr (from article)",
+ "buyer": null,
+ "company": "Curefoods",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-19T15:31:03.763917+00:00",
+ "dealType": "unknown",
+ "enrichmentState": null,
+ "id": 1239,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Curefoods gears up for an IPO and converts into a public company.",
+ "primaryUrl": "https://inc42.com/buzz/curefoods-pilots-budget-food-delivery-app-megabite/",
+ "seller": "Curefoods",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-19T15:31:03.765082+00:00",
+   "outlet": "Inc42",
+   "resolvable": true,
+   "title": "Curefoods Pilots Budget Food Delivery App MegaBite",
+   "url": "https://inc42.com/buzz/curefoods-pilots-budget-food-delivery-app-megabite/"
+  }
+ ],
+ "synopsis": "Cloud kitchen operator Curefoods is piloting a new budget food delivery app named MegaBite in Bengaluru's HSR Layout, featuring items from its brand portfolio without delivery charges or platform fees. The company previously secured SEBI approval for a proposed IPO that includes a fresh issue of 800 Cr and an offer for sale of up to 4.85 Cr equity shares, though the IPO plans were later put on hold due to valuation concerns amid market volatility. Curefoods was founded in 2020 by Ankit Nagori and has raised $150 Mn to date from investors including Accel, Iron Pillar, and 3State Ventures.",
+ "ticker": null,
+ "updatedAt": "2026-10-19T15:31:06.728995+00:00"
+}

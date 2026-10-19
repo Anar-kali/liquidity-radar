@@ -1,6 +1,28 @@
 {
- "dealCount": 903,
+ "dealCount": 904,
  "deals": [
+  {
+   "amountCr": 800.0,
+   "amountRaw": "fresh issue of ₹800 Cr (from article)",
+   "company": "Curefoods",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-19T15:31:03.763917+00:00",
+   "dealType": "unknown",
+   "enrichmentState": null,
+   "id": 1239,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Curefoods gears up for an IPO and converts into a public company.",
+   "primaryOutlet": "Inc42",
+   "seller": "Curefoods",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-19T15:31:06.728995+00:00",
+   "updates": []
+  },
   {
    "amountCr": 6650.0,
    "amountRaw": "Rs 6,650 crore (from article)",
@@ -28631,6 +28653,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-19T12:31:16.658031+00:00",
- "totalDeals": 903
+ "generatedAt": "2026-10-19T15:31:06.728995+00:00",
+ "totalDeals": 904
 }
