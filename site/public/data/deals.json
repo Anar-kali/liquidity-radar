@@ -1,6 +1,33 @@
 {
- "dealCount": 898,
+ "dealCount": 899,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "BLS Polymers Limited",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-19T05:46:07.492791+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 1234,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "BLS Polymers filed draft prospectus for an IPO, indicating upcoming promoter liquidity.",
+   "primaryOutlet": "Abridged Prospectus",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 2,
+   "ticker": null,
+   "updatedAt": "2026-10-19T05:46:07.492791+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-10-19T05:46:07.502663+00:00",
+     "title": "BLS Polymers Limited"
+    }
+   ]
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -28480,6 +28507,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-19T04:46:04.231328+00:00",
- "totalDeals": 898
+ "generatedAt": "2026-10-19T05:46:07.492791+00:00",
+ "totalDeals": 899
 }

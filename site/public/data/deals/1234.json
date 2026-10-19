@@ -1,0 +1,39 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "BLS Polymers Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-19T05:46:07.492791+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": "failed",
+ "id": 1234,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "BLS Polymers filed draft prospectus for an IPO, indicating upcoming promoter liquidity.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/oct-2026/bls-polymers-limited-rhp_105327.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-10-19T05:46:07.494365+00:00",
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "BLS Polymers Limited – RHPBLS Polymers Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/bls-polymers-limited-rhp_105327.html"
+  },
+  {
+   "attachedAt": "2026-10-19T05:46:07.502663+00:00",
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "BLS Polymers Limited",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/oct-2026/BLS%20Polymers%20Limited_p.pdf"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-10-19T05:46:07.492791+00:00"
+}
