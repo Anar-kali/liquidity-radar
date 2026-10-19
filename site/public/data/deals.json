@@ -1,6 +1,28 @@
 {
- "dealCount": 897,
+ "dealCount": 898,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Cogknit Semantics",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-19T04:46:04.231328+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": "failed",
+   "id": 1233,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Zen Technologies acquires majority stake in Cogknit Semantics.",
+   "primaryOutlet": "EquityBulls",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-19T04:46:04.231328+00:00",
+   "updates": []
+  },
   {
    "amountCr": 52878.0,
    "amountRaw": "₹52,878 crore",
@@ -363,7 +385,7 @@
    "seller": "Reliance Industries and early investors",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 11,
+   "sourceCount": 12,
    "ticker": null,
    "updatedAt": "2026-10-16T17:16:22.151743+00:00",
    "updates": [
@@ -406,6 +428,10 @@
     {
      "attachedAt": "2026-10-19T01:31:08.505918+00:00",
      "title": "Will The Jio Platforms IPO Live Up To Its Billing?"
+    },
+    {
+     "attachedAt": "2026-10-19T04:46:04.242132+00:00",
+     "title": "Jio IPO Worth 30000 Crore: Will the Ambani Magic Work on Gen Z and Young Investors?"
     }
    ]
   },
@@ -28450,6 +28476,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-19T01:31:27.420153+00:00",
- "totalDeals": 897
+ "generatedAt": "2026-10-19T04:46:04.231328+00:00",
+ "totalDeals": 898
 }

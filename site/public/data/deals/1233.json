@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "Zen Technologies",
+ "company": "Cogknit Semantics",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-19T04:46:04.231328+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": "failed",
+ "id": 1233,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Zen Technologies acquires majority stake in Cogknit Semantics.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbXVKV0FIbEtoZk93d0d2MkxNWnhZWjd4X2dCQ29RMzJENUpJT1BQX1hvYnNidU1Na1pZc3ZtNGJ4Y2duNjgwakpSN2R4NUVya2V5aW9lZWFROVdVdlB5Y3dodlNDbGNRcEVwdjExM1c3Tm9wckNUU080ODQ3cms5N3lWbWtYQ2RKRVI3VmZzUEwxaGxwRi1ENFJCN2ZYQ0ZDUDV4VlBBX2pSZEN1OFRhU1BBWmFpNXJVV1U4VA?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-10-19T04:46:04.233558+00:00",
+   "outlet": "EquityBulls",
+   "resolvable": false,
+   "title": "Zen Technologies to acquire majority stake in Cogknit Semantics, an indigenous developer of Battlefield Management Systems",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbXVKV0FIbEtoZk93d0d2MkxNWnhZWjd4X2dCQ29RMzJENUpJT1BQX1hvYnNidU1Na1pZc3ZtNGJ4Y2duNjgwakpSN2R4NUVya2V5aW9lZWFROVdVdlB5Y3dodlNDbGNRcEVwdjExM1c3Tm9wckNUU080ODQ3cms5N3lWbWtYQ2RKRVI3VmZzUEwxaGxwRi1ENFJCN2ZYQ0ZDUDV4VlBBX2pSZEN1OFRhU1BBWmFpNXJVV1U4VA?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-10-19T04:46:04.231328+00:00"
+}
