@@ -97,8 +97,8 @@
    "updates": []
   },
   {
-   "amountCr": null,
-   "amountRaw": null,
+   "amountCr": 167.06,
+   "amountRaw": "₹167.06 crore",
    "company": "BLS Polymers Limited",
    "confidence": "medium",
    "confirmed": false,
@@ -112,14 +112,18 @@
    "primaryOutlet": "Abridged Prospectus",
    "seller": null,
    "sizeBand": null,
-   "sizeSource": "unknown",
-   "sourceCount": 2,
+   "sizeSource": "stated",
+   "sourceCount": 3,
    "ticker": null,
-   "updatedAt": "2026-10-19T05:46:07.492791+00:00",
+   "updatedAt": "2026-10-19T12:31:16.658031+00:00",
    "updates": [
     {
      "attachedAt": "2026-10-19T05:46:07.502663+00:00",
      "title": "BLS Polymers Limited"
+    },
+    {
+     "attachedAt": "2026-10-19T12:31:16.656216+00:00",
+     "title": "BLS Polymers IPO DRHP: ₹167.06 crore fresh issue; revenue at ₹349.43 crore"
     }
    ]
   },
@@ -28618,6 +28622,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-19T12:16:10.761921+00:00",
+ "generatedAt": "2026-10-19T12:31:16.658031+00:00",
  "totalDeals": 903
 }
