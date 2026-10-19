@@ -279,10 +279,15 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-10-18T10:45:59.419202+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-10-19T14:31:44.264681+00:00",
+     "title": "OYO parent might launch its IPO in November"
+    }
+   ]
   },
   {
    "amountCr": null,
@@ -18863,13 +18868,17 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-08-21T06:31:30.304001+00:00",
    "updates": [
     {
      "attachedAt": "2026-08-21T06:31:30.306803+00:00",
      "title": "J PAN TUBULAR COMPONENTS LIMITED"
+    },
+    {
+     "attachedAt": "2026-10-19T14:31:44.261630+00:00",
+     "title": "J Pan Tubular Components gets SEBI nod to proceed with IPO plans"
     }
    ]
   },
