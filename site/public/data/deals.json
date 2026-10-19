@@ -1,6 +1,97 @@
 {
- "dealCount": 893,
+ "dealCount": 897,
  "deals": [
+  {
+   "amountCr": 52878.0,
+   "amountRaw": "₹52,878 crore",
+   "company": "IDBI Bank",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-19T01:31:08.507984+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1232,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Fairfax Financial acquires a 60.7% stake in IDBI Bank for ₹52,878 crore.",
+   "primaryOutlet": "ET Corporate",
+   "seller": "Government",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "IDBI.NS",
+   "updatedAt": "2026-10-19T01:31:27.420153+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 281.88,
+   "amountRaw": "Rs 281.88 crore (from article)",
+   "company": "Ventive Hospitality",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-19T01:31:08.491919+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1231,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Ventive Hospitality is in talks to acquire 2-3 luxury hotels.",
+   "primaryOutlet": "The Economic Times",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "VENTIVE.NS",
+   "updatedAt": "2026-10-19T01:31:23.323364+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 269.54,
+   "amountRaw": "$30.63 million",
+   "company": "AXISCADES",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-19T01:31:07.278304+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": "failed",
+   "id": 1230,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "AXISCADES sells its engineering business to Akkodis for $30.63 million.",
+   "primaryOutlet": "scanx.trade",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "AXISCADES.NS",
+   "updatedAt": "2026-10-19T01:31:07.278304+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 3750.0,
+   "amountRaw": "₹2,500-5,000 crore",
+   "company": "IIFL Finance",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-19T01:31:07.273667+00:00",
+   "dealType": "promoter sale",
+   "enrichmentState": null,
+   "id": 1229,
+   "individuals": [
+    "Nirmal Jain",
+    "R Venkataraman"
+   ],
+   "listed": true,
+   "oneLine": "IIFL Finance plans to raise ₹2,500-5,000 crore via stake sale amid Fairfax exit rumors.",
+   "primaryOutlet": "The Economic Times",
+   "seller": "Fairfax Financial Holdings",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "IIFL.NS",
+   "updatedAt": "2026-10-19T01:31:13.058474+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -268,7 +359,7 @@
    "seller": "Reliance Industries and early investors",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 10,
+   "sourceCount": 11,
    "ticker": null,
    "updatedAt": "2026-10-16T17:16:22.151743+00:00",
    "updates": [
@@ -307,6 +398,10 @@
     {
      "attachedAt": "2026-10-18T15:30:56.739088+00:00",
      "title": "Jio Platforms IPO: AI, Broadband, Tech Export Drive Growth"
+    },
+    {
+     "attachedAt": "2026-10-19T01:31:08.505918+00:00",
+     "title": "Will The Jio Platforms IPO Live Up To Its Billing?"
     }
    ]
   },
@@ -28351,6 +28446,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-18T11:01:13.951454+00:00",
- "totalDeals": 893
+ "generatedAt": "2026-10-19T01:31:27.420153+00:00",
+ "totalDeals": 897
 }

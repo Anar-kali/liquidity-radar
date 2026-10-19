@@ -1,0 +1,35 @@
+{
+ "advisers": [],
+ "amountCr": 3750.0,
+ "amountRaw": "₹2,500-5,000 crore",
+ "buyer": null,
+ "company": "IIFL Finance",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-19T01:31:07.273667+00:00",
+ "dealType": "promoter sale",
+ "enrichmentState": null,
+ "id": 1229,
+ "individuals": [
+  "Nirmal Jain",
+  "R Venkataraman"
+ ],
+ "listed": true,
+ "oneLine": "IIFL Finance plans to raise ₹2,500-5,000 crore via stake sale amid Fairfax exit rumors.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPVlNZU3NmQ1Q3Tk9IWk9OX2IxSkh4c0Z3aFVxaEJZUkpMbFhWUmFSb25ZY0JTQkVLWThxLXRvb2JSVzZTeWxrOElPVVA4dVFmOGRHc0plamtCcmpHc3A3U3AtazYyZ0s3MTd5NXFPZkhEbGhzd2ZsOG9YeHlrdlQxajQxUUxuMDJFZi1KcnFfU1kyanpCRzFHbThoeU80ekRIQVdtTlVHZWtmdUVnTFNUa3ljQTZDVXFlYXpGVG91cmhyNG1GYmpUWTh6dEdCdnJXRXgwYXJiUE1tTjZhUmI0djhTdzlHZTRxcHhxZjNMVXZuYlhRYzJ6WmUyeVFyd9IBgwJBVV95cUxQdmtsRnhiTllzcFpzSTFxV0I5NUV2dGxZTW1hYzhIOUxBdmRlSWZDQWVzOG5pZlRZZGFhSzV0TlNESWpUcFBLdGxmNGNqbE9zWE1XNW9mdTlYN0tOY2NmUlpWcVpyN2JZSkNFQ1oxQnNUdlpNb24xSkhIUXdPVnlCb2xBQWQwRVA4MThGMTVUY184bkhXaXFNelJxblBJazR2Q0R5dF9vTmxWMjJmN0R5Y2h6NVljN1VJSk9LTkM1V0hlZTItQW5VU1Uwb0xNRXM1VHl3STZCMjFYd19GTmxMRHF1NVN3Q0tnUUlmVzJtUHljU0dZbU1KNzM0YzRtb21mVFpz?oc=5",
+ "seller": "Fairfax Financial Holdings",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-19T01:31:07.275086+00:00",
+   "outlet": "The Economic Times",
+   "resolvable": false,
+   "title": "IIFL Finance plans to raise ₹2,500-5,000 crore by selling stake amid Fairfax exit rumors",
+   "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPVlNZU3NmQ1Q3Tk9IWk9OX2IxSkh4c0Z3aFVxaEJZUkpMbFhWUmFSb25ZY0JTQkVLWThxLXRvb2JSVzZTeWxrOElPVVA4dVFmOGRHc0plamtCcmpHc3A3U3AtazYyZ0s3MTd5NXFPZkhEbGhzd2ZsOG9YeHlrdlQxajQxUUxuMDJFZi1KcnFfU1kyanpCRzFHbThoeU80ekRIQVdtTlVHZWtmdUVnTFNUa3ljQTZDVXFlYXpGVG91cmhyNG1GYmpUWTh6dEdCdnJXRXgwYXJiUE1tTjZhUmI0djhTdzlHZTRxcHhxZjNMVXZuYlhRYzJ6WmUyeVFyd9IBgwJBVV95cUxQdmtsRnhiTllzcFpzSTFxV0I5NUV2dGxZTW1hYzhIOUxBdmRlSWZDQWVzOG5pZlRZZGFhSzV0TlNESWpUcFBLdGxmNGNqbE9zWE1XNW9mdTlYN0tOY2NmUlpWcVpyN2JZSkNFQ1oxQnNUdlpNb24xSkhIUXdPVnlCb2xBQWQwRVA4MThGMTVUY184bkhXaXFNelJxblBJazR2Q0R5dF9vTmxWMjJmN0R5Y2h6NVljN1VJSk9LTkM1V0hlZTItQW5VU1Uwb0xNRXM1VHl3STZCMjFYd19GTmxMRHF1NVN3Q0tnUUlmVzJtUHljU0dZbU1KNzM0YzRtb21mVFpz?oc=5"
+  }
+ ],
+ "synopsis": "IIFL Finance is planning to raise between ₹2,500 crore and ₹5,000 crore by selling a 10% to 20% minority stake to an incoming private equity or strategic investor. The transaction is prompted by Fairfax Financial Holdings likely reducing or exiting its investment in IIFL Finance due to regulatory norms following Fairfax's proposed acquisition of a 60% stake in IDBI Bank. Nirmal Jain, founder of IIFL Group, stated that promoters Nirmal Jain and R Venkataraman may also subscribe to warrants to limit dilution and maintain their stake. The timeline for Fairfax's exit is currently undecided, though a year is considered acceptable, and discussions with investors regarding the stake acquisition and primary equity capital infusion are ongoing.",
+ "ticker": "IIFL.NS",
+ "updatedAt": "2026-10-19T01:31:13.058474+00:00"
+}

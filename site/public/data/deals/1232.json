@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 52878.0,
+ "amountRaw": "₹52,878 crore",
+ "buyer": "Fairfax Financial",
+ "company": "IDBI Bank",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-19T01:31:08.507984+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1232,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Fairfax Financial acquires a 60.7% stake in IDBI Bank for ₹52,878 crore.",
+ "primaryUrl": "https://economictimes.indiatimes.com/industry/banking/finance/banking/challenges-ahead-for-fairfaxs-management-of-idbi-bank-post-52878-crore-stake-deal-approval/articleshow/135034899.cms",
+ "seller": "Government",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-19T01:31:08.508888+00:00",
+   "outlet": "ET Corporate",
+   "resolvable": true,
+   "title": "Challenges ahead for Fairfax's management of IDBI Bank post ₹52,878 crore stake deal approval",
+   "url": "https://economictimes.indiatimes.com/industry/banking/finance/banking/challenges-ahead-for-fairfaxs-management-of-idbi-bank-post-52878-crore-stake-deal-approval/articleshow/135034899.cms"
+  }
+ ],
+ "synopsis": "The Cabinet Committee on Economic Affairs approved the sale of a 60.7% stake in IDBI Bank to Canada-based Fairfax Financial's subsidiary for ₹52,878 crore. The deal will bring fresh capital and new management, but faces challenges including employee resistance from the United Forum of IDBI Officers & Employees, who demanded suspension of the sale. The new management will need to transform the public-sector legacy into an agile private-sector entity while improving asset quality, as IDBI Bank's gross non-performing asset ratio of 2.3% in FY26 remains higher than private peers despite strong profitability metrics like a 2.3% Return on Assets and 3.8% Net Interest Margin.",
+ "ticker": "IDBI.NS",
+ "updatedAt": "2026-10-19T01:31:27.420153+00:00"
+}

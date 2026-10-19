@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 269.54,
+ "amountRaw": "$30.63 million",
+ "buyer": "Akkodis",
+ "company": "AXISCADES",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-19T01:31:07.278304+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": "failed",
+ "id": 1230,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "AXISCADES sells its engineering business to Akkodis for $30.63 million.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNOGMybDBQcGltWGZYU3dRUFdSUkpMUXo2UTVkU25BZFVXc1FBTTEzOFE2MFFUb3RpOU9LaDVmaS1yMnFqZjNTZHJibG5GMXZoeHkxZTFnZTNQWjRUSEZFRnNvUGw2LXpraFh2MXFoSFZjaVBibDdfOWU2V29XRmtsMnZwOWl1TllZZHpwTmYxUGFzeUd0dVMzR1N5eW93VGQ0OHc0TThMdTNsYVdxQ0UwWGxRMm9nTWIz?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-19T01:31:07.279304+00:00",
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "AXISCADES sells engineering business to Akkodis for $30.63 million",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNOGMybDBQcGltWGZYU3dRUFdSUkpMUXo2UTVkU25BZFVXc1FBTTEzOFE2MFFUb3RpOU9LaDVmaS1yMnFqZjNTZHJibG5GMXZoeHkxZTFnZTNQWjRUSEZFRnNvUGw2LXpraFh2MXFoSFZjaVBibDdfOWU2V29XRmtsMnZwOWl1TllZZHpwTmYxUGFzeUd0dVMzR1N5eW93VGQ0OHc0TThMdTNsYVdxQ0UwWGxRMm9nTWIz?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": "AXISCADES.NS",
+ "updatedAt": "2026-10-19T01:31:07.278304+00:00"
+}
