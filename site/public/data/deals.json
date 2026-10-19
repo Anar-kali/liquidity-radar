@@ -1,6 +1,55 @@
 {
- "dealCount": 900,
+ "dealCount": 902,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Inani Securities",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-19T10:01:35.307480+00:00",
+   "dealType": "open offer",
+   "enrichmentState": null,
+   "id": 1237,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Aikyam Financial issues an open offer for Inani Securities at Rs 60.",
+   "primaryOutlet": "Whalesbook",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-19T10:01:42.331723+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "RR MetalMakers India",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-19T10:01:35.301846+00:00",
+   "dealType": "open offer",
+   "enrichmentState": null,
+   "id": 1236,
+   "individuals": [
+    "Virat Sevantilal Shah",
+    "Alok Virat Shah",
+    "Suyog Yogesh Desai",
+    "Nikita Suyog Desai"
+   ],
+   "listed": true,
+   "oneLine": "New promoters launch mandatory 26% open offer for RR MetalMakers India.",
+   "primaryOutlet": "Whalesbook",
+   "seller": "Virat Sevantilal Shah and Alok Virat Shah",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": "531667.BO",
+   "updatedAt": "2026-10-19T10:01:38.606573+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -28543,6 +28592,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-19T07:01:14.955415+00:00",
- "totalDeals": 900
+ "generatedAt": "2026-10-19T10:01:42.331723+00:00",
+ "totalDeals": 902
 }

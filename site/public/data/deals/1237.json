@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "Aikyam Financial",
+ "company": "Inani Securities",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-19T10:01:35.307480+00:00",
+ "dealType": "open offer",
+ "enrichmentState": null,
+ "id": 1237,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Aikyam Financial issues an open offer for Inani Securities at Rs 60.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPb0QyZkV6ZFF6MGkyQUg1MDRIRmszZ2FHYWpib0xZejRhYmtlRWVOZWdkQmo3dlFSaHRLUTFKUDJBejRkUVZPSG41OE5VU0ViM2pnUmVRT2dRNS1iZ2VmUDd0V0pqN2ZvWmY0a0Y2T2k2NzlOTGhnaWluRlVrZXRoWldiWVZvWnl2WFpWTVVQbEptQThETHVJUkJOd1VNWklKT1JpMENaYTFHTjFzVU5QRTRMN0p4eUlaRzNpamFOQ1BKajdCSzQ4X0xOa2FjV2FfMXdIX3J2STJqc2dSOThQVnJnYmZQbjUy?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-10-19T10:01:35.308644+00:00",
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "Inani Securities Sees Open Offer From Aikyam Financial at Rs 60",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPb0QyZkV6ZFF6MGkyQUg1MDRIRmszZ2FHYWpib0xZejRhYmtlRWVOZWdkQmo3dlFSaHRLUTFKUDJBejRkUVZPSG41OE5VU0ViM2pnUmVRT2dRNS1iZ2VmUDd0V0pqN2ZvWmY0a0Y2T2k2NzlOTGhnaWluRlVrZXRoWldiWVZvWnl2WFpWTVVQbEptQThETHVJUkJOd1VNWklKT1JpMENaYTFHTjFzVU5QRTRMN0p4eUlaRzNpamFOQ1BKajdCSzQ4X0xOa2FjV2FfMXdIX3J2STJqc2dSOThQVnJnYmZQbjUy?oc=5"
+  }
+ ],
+ "synopsis": "Aikyam Financial Services Private Limited has announced a mandatory open offer to acquire up to 26% of the voting capital of Inani Securities Ltd, representing 1,185,002 equity shares, at a price of Rs 60 per share. This open offer is triggered by Aikyam Financial Services entering into a share purchase agreement to acquire a 47.92% stake in Inani Securities. The offer window is scheduled to open on December 7, 2026, and close on December 18, 2026, providing an exit opportunity for public shareholders. Bonanza Portfolio Ltd is acting as the manager to the offer.",
+ "ticker": null,
+ "updatedAt": "2026-10-19T10:01:42.331723+00:00"
+}

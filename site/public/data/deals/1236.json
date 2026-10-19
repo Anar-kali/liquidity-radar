@@ -1,0 +1,37 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "New Promoters",
+ "company": "RR MetalMakers India",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-19T10:01:35.301846+00:00",
+ "dealType": "open offer",
+ "enrichmentState": null,
+ "id": 1236,
+ "individuals": [
+  "Virat Sevantilal Shah",
+  "Alok Virat Shah",
+  "Suyog Yogesh Desai",
+  "Nikita Suyog Desai"
+ ],
+ "listed": true,
+ "oneLine": "New promoters launch mandatory 26% open offer for RR MetalMakers India.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQMml5S3RicXM1YW9kcTlfTGVrUzFNTUdMWFFXeVRqXzRKX05PTHhmSGVzV1F2U3NfdnhYd2E4dnZNTHFjVDEwOVZFQlAzMHh6ZzVkcHJETWFmdzRRMWVYaWlaU2ZRQmNUSnRTWHRPZFlYUGNBVElENldfbEFGNVhYVFdNNlJheEVuaVUxaVlOSFV6c1VNYmlTTlBqWmJIclM5RGMzYXlhN1ljRlI3ZHdSajByZW1uQ0hLc19fa2dPekpMYTRZOXBIZlFwOW04X2hQWlRSTFduWXVxVUNybHJvVzk1ZzRKNmo5ZDhMNzZHalAzVWphNTJWRmZJVGhlME1TZGc?oc=5",
+ "seller": "Virat Sevantilal Shah and Alok Virat Shah",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-10-19T10:01:35.304628+00:00",
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "RR MetalMakers India: New Promoters Launch Mandatory 26% Open Offer",
+   "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQMml5S3RicXM1YW9kcTlfTGVrUzFNTUdMWFFXeVRqXzRKX05PTHhmSGVzV1F2U3NfdnhYd2E4dnZNTHFjVDEwOVZFQlAzMHh6ZzVkcHJETWFmdzRRMWVYaWlaU2ZRQmNUSnRTWHRPZFlYUGNBVElENldfbEFGNVhYVFdNNlJheEVuaVUxaVlOSFV6c1VNYmlTTlBqWmJIclM5RGMzYXlhN1ljRlI3ZHdSajByZW1uQ0hLc19fa2dPekpMYTRZOXBIZlFwOW04X2hQWlRSTFduWXVxVUNybHJvVzk1ZzRKNmo5ZDhMNzZHalAzVWphNTJWRmZJVGhlME1TZGc?oc=5"
+  }
+ ],
+ "synopsis": "RB International Holdings, Suyog Yogesh Desai, and Nikita Suyog Desai have acquired a 70.66% controlling stake in RR MetalMakers India from existing promoters Virat Sevantilal Shah and Alok Virat Shah via a Share Purchase Agreement dated July 30, 2026. Following this transaction, the new acquirers have launched a mandatory 26% open offer for public shareholders, offering Rs 36.83 per share which includes Rs 12.98 in compensatory interest mandated by SEBI. The tender period is scheduled to run from October 26 to November 6, 2026. The outgoing promoters are stepping down and re-classifying as public shareholders as management control shifts to the new team, subject to statutory and regulatory approvals.",
+ "ticker": "531667.BO",
+ "updatedAt": "2026-10-19T10:01:38.606573+00:00"
+}
