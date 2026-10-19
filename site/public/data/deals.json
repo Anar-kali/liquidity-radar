@@ -1,6 +1,30 @@
 {
- "dealCount": 899,
+ "dealCount": 900,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Quick Ride",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-19T06:16:18.521717+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1235,
+   "individuals": [
+    "KNM Rao"
+   ],
+   "listed": false,
+   "oneLine": "MakeMyTrip is in talks to acquire car and bike pooling platform Quick Ride.",
+   "primaryOutlet": "Entrackr",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-19T06:16:28.964050+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -28507,6 +28531,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-19T05:46:07.492791+00:00",
- "totalDeals": 899
+ "generatedAt": "2026-10-19T06:16:28.964050+00:00",
+ "totalDeals": 900
 }

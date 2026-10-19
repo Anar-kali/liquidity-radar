@@ -1,0 +1,34 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "MakeMyTrip",
+ "company": "Quick Ride",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-19T06:16:18.521717+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1235,
+ "individuals": [
+  "KNM Rao"
+ ],
+ "listed": false,
+ "oneLine": "MakeMyTrip is in talks to acquire car and bike pooling platform Quick Ride.",
+ "primaryUrl": "https://entrackr.com/exclusive/exclusive-makemytrip-in-talks-to-acquire-quick-ride-through-redbus-12688763",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-10-19T06:16:18.524377+00:00",
+   "outlet": "Entrackr",
+   "resolvable": true,
+   "title": "Exclusive: MakeMyTrip in talks to acquire Quick Ride through redBus",
+   "url": "https://entrackr.com/exclusive/exclusive-makemytrip-in-talks-to-acquire-quick-ride-through-redbus-12688763"
+  }
+ ],
+ "synopsis": "MakeMyTrip is in talks to acquire the car and bike pooling platform Quick Ride through its subsidiary redBus. The deal is currently in the due diligence stage and is expected to involve a mix of cash and equity. The potential acquisition aims to help MakeMyTrip expand its presence in urban mobility and strengthen its corporate commute offerings. Quick Ride was founded in 2015 by KNM Rao and has previously raised funding from investors including Sequoia Capital India, Naspers, and Venture Highway. Sequoia exited its stake in 2021, and regulatory filings indicate that other early backers have also reduced their stakes over time. MakeMyTrip declined to comment on the proposed transaction, and queries sent to Quick Ride's founder did not receive a response before publication. The timeline for completion remains unconfirmed, and terms may still change.",
+ "ticker": null,
+ "updatedAt": "2026-10-19T06:16:28.964050+00:00"
+}
