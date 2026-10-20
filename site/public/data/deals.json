@@ -69,10 +69,15 @@
    "seller": "Edelweiss",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-10-20T07:31:03.691524+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-10-20T09:01:11.067705+00:00",
+     "title": "EAAA India Alternatives IPO To Open On October 26, To Raise Rs 1,200 Crore Via OFS"
+    }
+   ]
   },
   {
    "amountCr": 30200.0,
