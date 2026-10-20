@@ -1,6 +1,30 @@
 {
- "dealCount": 904,
+ "dealCount": 905,
  "deals": [
+  {
+   "amountCr": 4500.0,
+   "amountRaw": "₹4,500 crore",
+   "company": "John Distilleries",
+   "confidence": "high",
+   "confirmed": false,
+   "createdAt": "2026-10-20T01:31:10.846850+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1240,
+   "individuals": [
+    "Paul John"
+   ],
+   "listed": false,
+   "oneLine": "Sazerac acquires John Distilleries valuing it at Rs 4500 crore, founder Paul John retains stake",
+   "primaryOutlet": "ET Corporate",
+   "seller": "Paul John",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-20T01:31:18.935684+00:00",
+   "updates": []
+  },
   {
    "amountCr": 800.0,
    "amountRaw": "fresh issue of ₹800 Cr (from article)",
@@ -301,13 +325,17 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-10-18T10:45:59.419202+00:00",
    "updates": [
     {
      "attachedAt": "2026-10-19T14:31:44.264681+00:00",
      "title": "OYO parent might launch its IPO in November"
+    },
+    {
+     "attachedAt": "2026-10-20T01:31:10.836134+00:00",
+     "title": "Oyo parent Prism likely to launch ₹6,650 crore IPO in November: Report"
     }
    ]
   },
@@ -546,7 +574,7 @@
    "seller": "Reliance Industries and early investors",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 14,
+   "sourceCount": 15,
    "ticker": null,
    "updatedAt": "2026-10-16T17:16:22.151743+00:00",
    "updates": [
@@ -601,6 +629,10 @@
     {
      "attachedAt": "2026-10-19T11:46:04.020403+00:00",
      "title": "Reliance-backed Jio Platforms IPO: Will investors prefer Jio shares over RIL stock? What shareholders should know"
+    },
+    {
+     "attachedAt": "2026-10-20T01:31:10.844272+00:00",
+     "title": "Jio Platforms IPO Gains Brokers' Backing for Rs. 30,200 Crore"
     }
    ]
   },
@@ -28653,6 +28685,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-19T15:31:06.728995+00:00",
- "totalDeals": 904
+ "generatedAt": "2026-10-20T01:31:18.935684+00:00",
+ "totalDeals": 905
 }
