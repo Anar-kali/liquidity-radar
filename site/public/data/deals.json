@@ -1,6 +1,30 @@
 {
- "dealCount": 908,
+ "dealCount": 909,
  "deals": [
+  {
+   "amountCr": 276.9,
+   "amountRaw": "3.22% x mcap ~Rs 8599cr = ~Rs 277cr",
+   "company": "Bombay Burmah",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-20T08:46:01.546999+00:00",
+   "dealType": "block deal",
+   "enrichmentState": "failed",
+   "id": 1244,
+   "individuals": [
+    "Nusli Wadia"
+   ],
+   "listed": true,
+   "oneLine": "Nusli Wadia sells a 3.22% stake in Bombay Burmah via block deal.",
+   "primaryOutlet": "scanx.trade",
+   "seller": "Nusli Wadia",
+   "sizeBand": null,
+   "sizeSource": "computed",
+   "sourceCount": 1,
+   "ticker": "BBTC.NS",
+   "updatedAt": "2026-10-20T08:46:01.546999+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -18,10 +42,15 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-10-20T08:16:06.029614+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-10-20T08:46:01.555060+00:00",
+     "title": "SLMG Beverages Aims for Rs 20,000 Cr Turnover, IPO in 5 Yrs"
+    }
+   ]
   },
   {
    "amountCr": 1200.0,
@@ -28756,6 +28785,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-20T08:16:06.029614+00:00",
- "totalDeals": 908
+ "generatedAt": "2026-10-20T08:46:01.546999+00:00",
+ "totalDeals": 909
 }

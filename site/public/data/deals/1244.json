@@ -1,0 +1,34 @@
+{
+ "advisers": [],
+ "amountCr": 276.9,
+ "amountRaw": "3.22% x mcap ~Rs 8599cr = ~Rs 277cr",
+ "buyer": null,
+ "company": "Bombay Burmah",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-20T08:46:01.546999+00:00",
+ "dealType": "block deal",
+ "enrichmentState": "failed",
+ "id": 1244,
+ "individuals": [
+  "Nusli Wadia"
+ ],
+ "listed": true,
+ "oneLine": "Nusli Wadia sells a 3.22% stake in Bombay Burmah via block deal.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdFJYQktaa0xRNTFYNzAtZmdDWmtfd2FtYzk2V3lROE9zV2ZGa3EtbkVmN2l0c3NWbzBQcXE2U1YtNlQ1T0Y3bC1tVFZjdFQ0U1JJTDUtQllKOHdiakF2ZkFLQnJwWm5xNW9DMHdRV3ludmlwaXJTTFd4V3VBWGh6dXRWcFM5UWI4c0E2RHBzbUNZNW0zMFNPMG1NSGl6X29TTGFlS2h0NjhlY2pUUkcyMXVuTFE4d0hVUW8wVzB6d3NnNVhJ?oc=5",
+ "seller": "Nusli Wadia",
+ "sizeBand": null,
+ "sizeSource": "computed",
+ "sources": [
+  {
+   "attachedAt": "2026-10-20T08:46:01.548409+00:00",
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "Nusli Wadia sells 3.22% stake in Bombay Burmah via block deal",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdFJYQktaa0xRNTFYNzAtZmdDWmtfd2FtYzk2V3lROE9zV2ZGa3EtbkVmN2l0c3NWbzBQcXE2U1YtNlQ1T0Y3bC1tVFZjdFQ0U1JJTDUtQllKOHdiakF2ZkFLQnJwWm5xNW9DMHdRV3ludmlwaXJTTFd4V3VBWGh6dXRWcFM5UWI4c0E2RHBzbUNZNW0zMFNPMG1NSGl6X29TTGFlS2h0NjhlY2pUUkcyMXVuTFE4d0hVUW8wVzB6d3NnNVhJ?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": "BBTC.NS",
+ "updatedAt": "2026-10-20T08:46:01.546999+00:00"
+}
