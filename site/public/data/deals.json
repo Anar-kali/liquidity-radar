@@ -1,6 +1,28 @@
 {
- "dealCount": 907,
+ "dealCount": 908,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "SLMG Beverages",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-20T08:16:02.140192+00:00",
+   "dealType": "unknown",
+   "enrichmentState": null,
+   "id": 1243,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "SLMG Beverages plans an IPO in 3-4 years, providing future liquidity for promoters.",
+   "primaryOutlet": "Moneycontrol.com",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-20T08:16:06.029614+00:00",
+   "updates": []
+  },
   {
    "amountCr": 1200.0,
    "amountRaw": "Rs 12,000 Million",
@@ -28734,6 +28756,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-20T07:31:03.691524+00:00",
- "totalDeals": 907
+ "generatedAt": "2026-10-20T08:16:06.029614+00:00",
+ "totalDeals": 908
 }
