@@ -77,13 +77,17 @@
    "seller": "Edelweiss",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-10-20T07:31:03.691524+00:00",
    "updates": [
     {
      "attachedAt": "2026-10-20T09:01:11.067705+00:00",
      "title": "EAAA India Alternatives IPO To Open On October 26, To Raise Rs 1,200 Crore Via OFS"
+    },
+    {
+     "attachedAt": "2026-10-20T11:31:21.136888+00:00",
+     "title": "Edelweiss Financial Services: Subsidiary EAAA India Alternatives Files Red Herring Prospectus for IPO"
     }
    ]
   },
