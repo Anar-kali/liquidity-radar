@@ -1,6 +1,30 @@
 {
- "dealCount": 909,
+ "dealCount": 910,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Jio Platforms",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-20T13:01:14.504876+00:00",
+   "dealType": "other",
+   "enrichmentState": null,
+   "id": 1245,
+   "individuals": [
+    "Akash Ambani"
+   ],
+   "listed": false,
+   "oneLine": "Jio Platforms prepares for an upcoming IPO with Akash Ambani leading strategy.",
+   "primaryOutlet": "ET Corporate",
+   "seller": null,
+   "sizeBand": "OVER_2000",
+   "sizeSource": "band",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-20T13:01:19.975358+00:00",
+   "updates": []
+  },
   {
    "amountCr": 276.9,
    "amountRaw": "3.22% x mcap ~Rs 8599cr = ~Rs 277cr",
@@ -666,10 +690,15 @@
    "seller": "Ankit Virendra Gupta, Chirag Narendra Chhajer, Bbigplas Poly Pvt Ltd, Negen Tech Opportunities Angel Fund +others",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-10-17T06:31:08.501165+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-10-20T13:01:14.501643+00:00",
+     "title": "Burma Burma DRHP: A Look At Shareholding Pattern & Key Executives"
+    }
+   ]
   },
   {
    "amountCr": null,
@@ -28823,6 +28852,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-20T12:01:22.642339+00:00",
- "totalDeals": 909
+ "generatedAt": "2026-10-20T13:01:19.975358+00:00",
+ "totalDeals": 910
 }
