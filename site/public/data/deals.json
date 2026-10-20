@@ -20,13 +20,17 @@
    "seller": null,
    "sizeBand": "OVER_2000",
    "sizeSource": "band",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-10-20T13:01:19.975358+00:00",
    "updates": [
     {
      "attachedAt": "2026-10-20T14:16:14.843578+00:00",
      "title": "Ahead of mega IPO, Jio Platforms bets on AI, cloud to drive growth beyond telecom"
+    },
+    {
+     "attachedAt": "2026-10-20T15:46:47.261573+00:00",
+     "title": "Jio Platforms: Tech Company, Not Just Telco, Ahead of Mega IPO"
     }
    ]
   },
@@ -139,7 +143,7 @@
    "seller": "Jio Platforms",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 5,
+   "sourceCount": 6,
    "ticker": null,
    "updatedAt": "2026-10-20T14:02:24.843702+00:00",
    "updates": [
@@ -158,6 +162,10 @@
     {
      "attachedAt": "2026-10-20T15:01:53.471731+00:00",
      "title": "The Network Is Our Technology: Akash Ambani Outlines Jios Growth Plans Ahead Of Indias Biggest IPO"
+    },
+    {
+     "attachedAt": "2026-10-20T15:46:47.270821+00:00",
+     "title": "Jio to Repay ₹27,500 Crore Debt from IPO Proceeds, AI and Cloud Key Growth Drivers: Akash Ambani"
     }
    ]
   },
