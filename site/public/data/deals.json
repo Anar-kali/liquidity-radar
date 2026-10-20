@@ -139,7 +139,7 @@
    "seller": "Jio Platforms",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 4,
+   "sourceCount": 5,
    "ticker": null,
    "updatedAt": "2026-10-20T14:02:24.843702+00:00",
    "updates": [
@@ -154,6 +154,10 @@
     {
      "attachedAt": "2026-10-20T14:02:24.852918+00:00",
      "title": "Akash Ambani: from building Jio to selling its story"
+    },
+    {
+     "attachedAt": "2026-10-20T15:01:53.471731+00:00",
+     "title": "The Network Is Our Technology: Akash Ambani Outlines Jios Growth Plans Ahead Of Indias Biggest IPO"
     }
    ]
   },
