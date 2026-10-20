@@ -1,6 +1,28 @@
 {
- "dealCount": 905,
+ "dealCount": 906,
  "deals": [
+  {
+   "amountCr": 30200.0,
+   "amountRaw": "₹30,200 crore (from article)",
+   "company": "Reliance Jio",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-20T05:01:12.016173+00:00",
+   "dealType": "unknown",
+   "enrichmentState": null,
+   "id": 1241,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Discussion on Jio's upcoming IPO and shareholder returns.",
+   "primaryOutlet": "Livemint",
+   "seller": "Jio Platforms",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-20T05:01:15.779269+00:00",
+   "updates": []
+  },
   {
    "amountCr": 4500.0,
    "amountRaw": "₹4,500 crore",
@@ -28685,6 +28707,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-20T01:31:18.935684+00:00",
- "totalDeals": 905
+ "generatedAt": "2026-10-20T05:01:15.779269+00:00",
+ "totalDeals": 906
 }
