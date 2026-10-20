@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 1200.0,
+ "amountRaw": "Rs 12,000 Million",
+ "buyer": null,
+ "company": "EAAA India Alternatives",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-20T07:31:03.691524+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": "failed",
+ "id": 1242,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "EAAA India Alternatives files DRHP for an IPO worth Rs 1,200 crore.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZnBMSmhOMUJSa3VVSlV0VVQxaEE4RjdNSGRfRk9rZWc2Q0dhM3Q4YThmTGd1aHdnNU5QNEhGOGJYUi02Y2dlcDVzTFcyRDRBdHktM240NlZZTWRuQ3JzdnQwalc3RHFoNmR2Z2YxMDNyYVhPcHJDWGljdERTLUlXTE8xLU5oaFN3dmVrbFRETnd5eDN2R3U2OE9yNXJiM3VJOUxXaGdtbnd1MVpRMl84TFFQVU9FaVdWdWY0Rw?oc=5",
+ "seller": "Edelweiss",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-20T07:31:03.692604+00:00",
+   "outlet": "EquityBulls",
+   "resolvable": false,
+   "title": "Edelweiss Subsidiary EAAA India Alternatives Files Red Herring Prospectus for Rs 12,000 Million IPO",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZnBMSmhOMUJSa3VVSlV0VVQxaEE4RjdNSGRfRk9rZWc2Q0dhM3Q4YThmTGd1aHdnNU5QNEhGOGJYUi02Y2dlcDVzTFcyRDRBdHktM240NlZZTWRuQ3JzdnQwalc3RHFoNmR2Z2YxMDNyYVhPcHJDWGljdERTLUlXTE8xLU5oaFN3dmVrbFRETnd5eDN2R3U2OE9yNXJiM3VJOUxXaGdtbnd1MVpRMl84TFFQVU9FaVdWdWY0Rw?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-10-20T07:31:03.691524+00:00"
+}

@@ -1,6 +1,28 @@
 {
- "dealCount": 906,
+ "dealCount": 907,
  "deals": [
+  {
+   "amountCr": 1200.0,
+   "amountRaw": "Rs 12,000 Million",
+   "company": "EAAA India Alternatives",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-20T07:31:03.691524+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 1242,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "EAAA India Alternatives files DRHP for an IPO worth Rs 1,200 crore.",
+   "primaryOutlet": "EquityBulls",
+   "seller": "Edelweiss",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-20T07:31:03.691524+00:00",
+   "updates": []
+  },
   {
    "amountCr": 30200.0,
    "amountRaw": "₹30,200 crore (from article)",
@@ -28712,6 +28734,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-20T05:01:15.779269+00:00",
- "totalDeals": 906
+ "generatedAt": "2026-10-20T07:31:03.691524+00:00",
+ "totalDeals": 907
 }
