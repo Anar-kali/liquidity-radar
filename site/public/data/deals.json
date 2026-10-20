@@ -125,20 +125,30 @@
    "dealType": "unknown",
    "enrichmentState": null,
    "id": 1241,
-   "individuals": [],
+   "individuals": [
+    "Akash Ambani"
+   ],
    "listed": false,
    "oneLine": "Discussion on Jio's upcoming IPO and shareholder returns.",
    "primaryOutlet": "Livemint",
    "seller": "Jio Platforms",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 4,
    "ticker": null,
-   "updatedAt": "2026-10-20T05:01:15.779269+00:00",
+   "updatedAt": "2026-10-20T14:02:24.843702+00:00",
    "updates": [
     {
      "attachedAt": "2026-10-20T07:01:14.544530+00:00",
      "title": "Jio IPO: Overseas expansion to unlock new revenue streams through telecom technology"
+    },
+    {
+     "attachedAt": "2026-10-20T14:02:24.842396+00:00",
+     "title": "Jio is a technology company, not just a telco, says Akash Ambani ahead of mega IPO"
+    },
+    {
+     "attachedAt": "2026-10-20T14:02:24.852918+00:00",
+     "title": "Akash Ambani: from building Jio to selling its story"
     }
    ]
   },
@@ -28852,6 +28862,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-20T13:01:19.975358+00:00",
+ "generatedAt": "2026-10-20T14:02:24.843702+00:00",
  "totalDeals": 910
 }

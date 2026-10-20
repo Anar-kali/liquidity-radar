@@ -2,7 +2,7 @@
  "advisers": [],
  "amountCr": 30200.0,
  "amountRaw": "₹30,200 crore (from article)",
- "buyer": null,
+ "buyer": "Public shareholders",
  "company": "Reliance Jio",
  "confidence": "medium",
  "confirmed": false,
@@ -10,7 +10,9 @@
  "dealType": "unknown",
  "enrichmentState": null,
  "id": 1241,
- "individuals": [],
+ "individuals": [
+  "Akash Ambani"
+ ],
  "listed": false,
  "oneLine": "Discussion on Jio's upcoming IPO and shareholder returns.",
  "primaryUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdmJYVUw5aExBVVdtRlJMQ2hTbDJYZ0Y5VXhWN1pmNkt1aW8yQTFVLWd2YWQ0bG5WdzhRXzJPNGpvanJsTUxTQzJuaXZWN3h5bWstXzhNWkRIY09pSDRIUnRPdm5oOGY1SkVPdEVSWVptQVNuWUFjMU9pLU1pMWtZMWcybmdPZFF5dG50TE9MUFNhS3g3T3hpc1NaWnlTclU4WHJsT2FKSUY1ZGtVb0dKMVE0VQ?oc=5",
@@ -31,9 +33,23 @@
    "resolvable": false,
    "title": "Jio IPO: Overseas expansion to unlock new revenue streams through telecom technology",
    "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOTDMyak1odmVxTm82TlB4dFZHRlpNQTZqb2pjYlhkZ2xPVS1tRktOUmdqaUowOWxwOFIteVlSTWc0VkpnWjFNSmxMVGxfaVRpWGxKbVdQUVo3VHpsaWVnT1dwc3FibVdwQVgxZ1NDLTBRSXBDNWZreDZPaFFFUVFQNnpEa0REQWZmam5Ob2Y0ajRIZmZTVXNkcGhsdnpHY2poa2dLd3R5TEpnWWp6M2d3d1pKOTRCbkRqeGltOTBtQWw5bFBob3dwZDgxTW5uTVJPVWJNc0Z3aHhrZzZnTVM4YlQtQm40TGNVbGhPcFlNTFRUWDh4N0lvTtIB_gFBVV95cUxQWmZjUDdXZGVGRTRoOUNoc0VyM2tYNENSRUVLVlB4cldDQS1KVVU1TWgtY0EtRGgyNzNDWjBJOVp2bzVZdlM2NUgzVnJIOGdDcDlwVWc4c3ZncEpUeTRJcGpKWUFBVVlkRVZNaG50VlFWQ1dOc1lwRUVaQk5UYjRYNk0zU3FpYl9DVWdHekdDZEpXNzUzendpNy1LanRzS0pzUzZrU0cteldEdThxU2x6NmtYcVhNZmxqd0lsdnFZbXZSNzNXdXNhUU00ZlBBUFpFZGtNWTlaQmkxckVCREJ1V3laTTIwckd3Wlg0QW5mRUZscTA5dFBHR09sel9aUQ?oc=5"
+  },
+  {
+   "attachedAt": "2026-10-20T14:02:24.842396+00:00",
+   "outlet": "MillenniumPost",
+   "resolvable": false,
+   "title": "Jio is a technology company, not just a telco, says Akash Ambani ahead of mega IPO",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZFkzRHprcEhCTkp2MUFvTTNIeGxYRExfTURLX1R0Ty1wN0Q5RTU2eFNLeklDVjA4VkxtOE9RSHdSRldwYVZSYXM3eFhNRjUtbXZMQURic1JiMFc4eEt5RmVtdzZYWWZIQlBLZG8ydkctNWp0MGJDbEFYTU5hOVhlWm5faWhuUklfeldlYWpDVlJ0WVNoT3h0Y1RzbVh6allFTVpHZ3dsWi1Eem9JT2NGazVsYUZsSFFGY2o0Zm9mRmNWdFJi0gHKAUFVX3lxTE9BU2RTNXE3UDBvaWo5b1hIVG04cDF6Ylk0LTBUVXB3Z08waTllX0czdlM2Zm5tUUt3RXc0cEZrcGFFMkpRbkt1dHppaFdhOFZVTzU2N3NNQWxEVHVQbUJSOGVrRUZyZWNhMzJKaGp2R2llb01NblRaUUEzajZadjBoMGJiZnhRTGx2b0wzdUdXWFg3Wkx6b0JZOHQ0YUwtTzI1WFBqaUZuVmRTZXhkeWd6XzE1WExnRUhQMG9tMExQVTlMX1ZWaU8xMnc?oc=5"
+  },
+  {
+   "attachedAt": "2026-10-20T14:02:24.852918+00:00",
+   "outlet": "Google News",
+   "resolvable": true,
+   "title": "Akash Ambani: from building Jio to selling its story",
+   "url": "https://www.livemint.com/companies/akash-ambani-from-building-jio-to-selling-its-story-11792500314399.html"
   }
  ],
  "synopsis": null,
  "ticker": null,
- "updatedAt": "2026-10-20T05:01:15.779269+00:00"
+ "updatedAt": "2026-10-20T14:02:24.843702+00:00"
 }
