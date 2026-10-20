@@ -42,13 +42,21 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 2,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-10-20T08:16:06.029614+00:00",
    "updates": [
     {
      "attachedAt": "2026-10-20T08:46:01.555060+00:00",
      "title": "SLMG Beverages Aims for Rs 20,000 Cr Turnover, IPO in 5 Yrs"
+    },
+    {
+     "attachedAt": "2026-10-20T11:16:02.303503+00:00",
+     "title": "SLMG Beverages eyes ₹20,000 cr turnover in 5 yrs, IPO in 3-4 years"
+    },
+    {
+     "attachedAt": "2026-10-20T11:16:02.305723+00:00",
+     "title": "SLMG Beverages eyes Rs 20,000 crore turnover in 5 years; IPO in 3-4 years - Mid-Day"
     }
    ]
   },
@@ -153,8 +161,8 @@
    "updates": []
   },
   {
-   "amountCr": 6650.0,
-   "amountRaw": "Rs 6,650 crore (from article)",
+   "amountCr": 3350.0,
+   "amountRaw": "₹3,350 crore",
    "company": "Prism",
    "confidence": "medium",
    "confirmed": false,
@@ -169,10 +177,19 @@
    "seller": "Prism",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 3,
    "ticker": null,
-   "updatedAt": "2026-10-19T12:16:10.761921+00:00",
-   "updates": []
+   "updatedAt": "2026-10-20T11:16:02.301151+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-10-20T11:16:02.299608+00:00",
+     "title": "OYO parent PRISM plans to halve IPO fresh issue to ₹3,350 crore as cash generation improves"
+    },
+    {
+     "attachedAt": "2026-10-20T11:16:02.313446+00:00",
+     "title": "OYO-parent PRISM to nearly halve IPO fresh issue size to up to Rs 3,350 cr: Sources"
+    }
+   ]
   },
   {
    "amountCr": null,
@@ -28794,6 +28811,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-20T08:46:01.546999+00:00",
+ "generatedAt": "2026-10-20T11:16:02.301151+00:00",
  "totalDeals": 909
 }
