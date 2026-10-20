@@ -435,8 +435,8 @@
    "updates": []
   },
   {
-   "amountCr": 6650.0,
-   "amountRaw": "Rs 6,650 crore (from article)",
+   "amountCr": 3350.0,
+   "amountRaw": "Rs 3,350 Cr",
    "company": "Oyo",
    "confidence": "medium",
    "confirmed": false,
@@ -451,9 +451,9 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": null,
-   "updatedAt": "2026-10-18T10:45:59.419202+00:00",
+   "updatedAt": "2026-10-20T12:01:22.642339+00:00",
    "updates": [
     {
      "attachedAt": "2026-10-19T14:31:44.264681+00:00",
@@ -462,6 +462,10 @@
     {
      "attachedAt": "2026-10-20T01:31:10.836134+00:00",
      "title": "Oyo parent Prism likely to launch ₹6,650 crore IPO in November: Report"
+    },
+    {
+     "attachedAt": "2026-10-20T12:01:22.640644+00:00",
+     "title": "OYO Parent PRISM Halves IPO Fresh Issue to Rs 3,350 Cr"
     }
    ]
   },
@@ -28815,6 +28819,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-20T11:16:02.301151+00:00",
+ "generatedAt": "2026-10-20T12:01:22.642339+00:00",
  "totalDeals": 909
 }
