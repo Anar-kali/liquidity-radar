@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Tablespace Technologies Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-21T05:31:05.427262+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": "failed",
+ "id": 1251,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Tablespace Technologies submits an addendum to its draft offer document for an IPO.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/oct-2026/tablespace-technologies-limited-addendum-to-drhp_105343.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-10-21T05:31:05.428681+00:00",
+   "outlet": "Addendum to DRHP",
+   "resolvable": true,
+   "title": "Tablespace Technologies Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/tablespace-technologies-limited-addendum-to-drhp_105343.html"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-10-21T05:31:05.427262+00:00"
+}

@@ -1,6 +1,28 @@
 {
- "dealCount": 915,
+ "dealCount": 916,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Tablespace Technologies Limited",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-21T05:31:05.427262+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 1251,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Tablespace Technologies submits an addendum to its draft offer document for an IPO.",
+   "primaryOutlet": "Addendum to DRHP",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-21T05:31:05.427262+00:00",
+   "updates": []
+  },
   {
    "amountCr": 9680.0,
    "amountRaw": "$1.1 bn",
@@ -220,7 +242,7 @@
    "seller": "Edelweiss",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 4,
+   "sourceCount": 5,
    "ticker": null,
    "updatedAt": "2026-10-20T07:31:03.691524+00:00",
    "updates": [
@@ -235,6 +257,10 @@
     {
      "attachedAt": "2026-10-21T03:15:59.530931+00:00",
      "title": "Edelweiss Subsidiary EAAA Alternatives Files RHP for Rs 1,200 Crore IPO"
+    },
+    {
+     "attachedAt": "2026-10-21T05:31:05.437288+00:00",
+     "title": "EAAA India Alternatives to float Rs.1,200-Cr OFS-IPO"
     }
    ]
   },
@@ -29010,6 +29036,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-21T05:01:31.013458+00:00",
- "totalDeals": 915
+ "generatedAt": "2026-10-21T05:31:05.427262+00:00",
+ "totalDeals": 916
 }
