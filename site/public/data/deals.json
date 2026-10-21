@@ -132,7 +132,7 @@
    "seller": "Edelweiss",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-10-20T07:31:03.691524+00:00",
    "updates": [
@@ -143,6 +143,10 @@
     {
      "attachedAt": "2026-10-20T11:31:21.136888+00:00",
      "title": "Edelweiss Financial Services: Subsidiary EAAA India Alternatives Files Red Herring Prospectus for IPO"
+    },
+    {
+     "attachedAt": "2026-10-21T03:15:59.530931+00:00",
+     "title": "Edelweiss Subsidiary EAAA Alternatives Files RHP for Rs 1,200 Crore IPO"
     }
    ]
   },
