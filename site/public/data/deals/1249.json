@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Crystal Corp Protection Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-21T05:01:15.133939+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": "failed",
+ "id": 1249,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Crystal Corp Protection updates its DRHP with SEBI for an upcoming IPO.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/oct-2026/crystal-corp-protection-limited-addendum-to-drhp-_105338.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-10-21T05:01:15.135242+00:00",
+   "outlet": "Addendum to DRHP.",
+   "resolvable": true,
+   "title": "Crystal Corp Protection Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/crystal-corp-protection-limited-addendum-to-drhp-_105338.html"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-10-21T05:01:15.133939+00:00"
+}

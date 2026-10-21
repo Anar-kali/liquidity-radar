@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 9680.0,
+ "amountRaw": "$1.1 bn",
+ "buyer": null,
+ "company": "EAAA India Alts",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-21T05:01:15.147248+00:00",
+ "dealType": "IPO-OFS",
+ "enrichmentState": null,
+ "id": 1250,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "EAAA India Alts targets a $1.1 billion valuation in an upcoming IPO.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE43WVlWODlpYnBoZVd2aDUxcFFEN2NoVnh6ZU1kNE45VjVfTEJlMWxPc0NacFg0Wjd5TXlmZEljdUIwdDZzWW5TTHZ6b1hmQUY0SWRnQXBuWFBGakNIMDZlY1MtcGR4RmZHMVA2VmthU2pLeVN3RWxvOGpTMNIBgwFBVV95cUxQTmNPd3JpN1FOYzdtRlhOS3R4V1VEQlBwT2VBQnRVcGJUSFRYd0VPQmNLOUx4WTVoSkFjcG1wenJrYkVWQ3pjV1NWSEhTMWRfOV9fclV5M3Ffd09UbGJEWFNwUzNQRHJuS2p4RGlYY1FHNWhzdUtMWlB3cjlfMXZwNlRscw?oc=5",
+ "seller": "Edelweiss Securities and Investments",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-21T05:01:15.148471+00:00",
+   "outlet": "VCCircle",
+   "resolvable": false,
+   "title": "EAAA India Alts targets $1.1 bn valuation in IPO",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE43WVlWODlpYnBoZVd2aDUxcFFEN2NoVnh6ZU1kNE45VjVfTEJlMWxPc0NacFg0Wjd5TXlmZEljdUIwdDZzWW5TTHZ6b1hmQUY0SWRnQXBuWFBGakNIMDZlY1MtcGR4RmZHMVA2VmthU2pLeVN3RWxvOGpTMNIBgwFBVV95cUxQTmNPd3JpN1FOYzdtRlhOS3R4V1VEQlBwT2VBQnRVcGJUSFRYd0VPQmNLOUx4WTVoSkFjcG1wenJrYkVWQ3pjV1NWSEhTMWRfOV9fclV5M3Ffd09UbGJEWFNwUzNQRHJuS2p4RGlYY1FHNWhzdUtMWlB3cjlfMXZwNlRscw?oc=5"
+  }
+ ],
+ "synopsis": "EAAA India Alternatives Ltd, the alternative investment arm of the Edelweiss group, is targeting a valuation of up to Rs 10,765 crore in an initial public offering opening next week. The IPO consists entirely of an offer for sale of Rs 1,200 crore by its promoter, Edelweiss Securities and Investments, with no fresh shares being issued. The company previously reduced its IPO size after its promoter group sold a 4.4% stake via private placements for Rs 375 crore in March. Currently, the promoter and promoter group hold around a 95% stake in the company. This is the firm's second attempt to list following a prior delay due to regulatory observations.",
+ "ticker": null,
+ "updatedAt": "2026-10-21T05:01:31.013458+00:00"
+}
