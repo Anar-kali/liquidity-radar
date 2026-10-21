@@ -1,6 +1,30 @@
 {
- "dealCount": 921,
+ "dealCount": 922,
  "deals": [
+  {
+   "amountCr": 660.8,
+   "amountRaw": "660.8cr confirmed via NSE block deal",
+   "company": "Adani Energy Solution Ltd",
+   "confidence": "high",
+   "confirmed": true,
+   "createdAt": "2026-10-21T18:33:57.813825+00:00",
+   "dealType": "block deal",
+   "enrichmentState": null,
+   "id": 1260,
+   "individuals": [
+    "PRAZIM TRADING AND INVESTMENT COMPANY PRIVATE LIMITED"
+   ],
+   "listed": false,
+   "oneLine": "PRAZIM TRADING AND INVESTMENT COMPANY PRIVATE LIMITED sold shares in Adani Energy Solution Ltd (confirmed, NSE block deal)",
+   "primaryOutlet": "NSE",
+   "seller": "PRAZIM TRADING AND INVESTMENT COMPANY PRIVATE LIMITED",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-21T18:33:57.813825+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -29178,6 +29202,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-21T13:01:21.584940+00:00",
- "totalDeals": 921
+ "generatedAt": "2026-10-21T18:33:57.813825+00:00",
+ "totalDeals": 922
 }
