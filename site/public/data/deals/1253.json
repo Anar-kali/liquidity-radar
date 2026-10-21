@@ -1,0 +1,35 @@
+{
+ "advisers": [],
+ "amountCr": 862.0,
+ "amountRaw": "Rs 862 crore (from article)",
+ "buyer": "Mehul Shah's family",
+ "company": "GreatWhite",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-21T10:31:12.928370+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1253,
+ "individuals": [
+  "Mehul Shah",
+  "Hemang Shah"
+ ],
+ "listed": false,
+ "oneLine": "Mehul Shah's family buys Hemang's 50% stake to settle dispute, cashing him out.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPelBFWkMySllWZmNEVExtNDlrbW1Rd3R5TTNnUUFacXJUdFRrcDlMRnBWYWRFd0hleGwzVTUwaDdpNFBraTFXYmMxamtKcEJGaHpvdkpCMnBQa3A4eDJ5Yk9PZjY1S3ZBeXhaV09KWkNwMUNiVGtlcXFkRTQtS09IUDA3dDNEUldiUHk0QVQtYVlOeVNMeWNuNXZSdE9YRG1XQzczQkxGWlNuU3VzMUJMZjFvZlRRcVVvNXVfUnV4VGZ2Yk9qMjNnTjlLT2RZR0N1a0ZrNzlzTDRvNDJFWGNKOVNhRGlVb2NpTjlRdmJCLTBpUHJhVEhkY29zSEMwU25S0gH6AUFVX3lxTE11SE51dGZqNTJnbjhqeHBDV3JrUmpyWG9BekJoRjBGUmxLN3IwSnpHbUZNOThobEhwNTB0NmRRR2xvbEVGbmZSdlR3ZVEtQlJORnAtZWdKUF9Zdk5zUUNiZ0dHSGlVRkUxNmtjdDZfc1ZraFNQcTE5dXYzME1HME9IcXBWX25uWEk4N3YzTngzdXUwYWNPQU1ZRk5Say16NHhwNk1Td01DOVBKVXJhdnhCMVFZbGNpY0tDanJIemhaSS1sLWpNVHJCUm5YTzc1SE5RaV92bXo1aFZOTW5HcF9LUEJyOEZiSl9KMmNpaEROUi1Ic0lyU3BsWWc?oc=5",
+ "seller": "Hemang Shah",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-21T10:31:12.929698+00:00",
+   "outlet": "The Economic Times",
+   "resolvable": false,
+   "title": "GreatWhite brothers settle dispute as Mehul Shah’s family buys Hemang’s 50% stake",
+   "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPelBFWkMySllWZmNEVExtNDlrbW1Rd3R5TTNnUUFacXJUdFRrcDlMRnBWYWRFd0hleGwzVTUwaDdpNFBraTFXYmMxamtKcEJGaHpvdkpCMnBQa3A4eDJ5Yk9PZjY1S3ZBeXhaV09KWkNwMUNiVGtlcXFkRTQtS09IUDA3dDNEUldiUHk0QVQtYVlOeVNMeWNuNXZSdE9YRG1XQzczQkxGWlNuU3VzMUJMZjFvZlRRcVVvNXVfUnV4VGZ2Yk9qMjNnTjlLT2RZR0N1a0ZrNzlzTDRvNDJFWGNKOVNhRGlVb2NpTjlRdmJCLTBpUHJhVEhkY29zSEMwU25S0gH6AUFVX3lxTE11SE51dGZqNTJnbjhqeHBDV3JrUmpyWG9BekJoRjBGUmxLN3IwSnpHbUZNOThobEhwNTB0NmRRR2xvbEVGbmZSdlR3ZVEtQlJORnAtZWdKUF9Zdk5zUUNiZ0dHSGlVRkUxNmtjdDZfc1ZraFNQcTE5dXYzME1HME9IcXBWX25uWEk4N3YzTngzdXUwYWNPQU1ZRk5Say16NHhwNk1Td01DOVBKVXJhdnhCMVFZbGNpY0tDanJIemhaSS1sLWpNVHJCUm5YTzc1SE5RaV92bXo1aFZOTW5HcF9LUEJyOEZiSl9KMmNpaEROUi1Ic0lyU3BsWWc?oc=5"
+  }
+ ],
+ "synopsis": "The ownership dispute at electrical goods maker GreatWhite Global Pvt. Ltd. has ended with Mehul Jadavji Shah’s family acquiring the 50% stake held by his younger brother Hemang Jadavji Shah’s family for about Rs 862 crore. The deal concludes Hemang Shah's 15-year entrepreneurial association with the business and resolves legal disputes brought before the National Company Law Tribunal in November 2024. Edelweiss Alternative Asset Advisors financed the transaction through a structured finance deal. The transaction places the company under a single ownership structure and follows an out-of-court settlement leading to the withdrawal of the company petition on October 9.",
+ "ticker": null,
+ "updatedAt": "2026-10-21T10:31:17.286177+00:00"
+}

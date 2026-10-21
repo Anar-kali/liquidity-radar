@@ -1,6 +1,31 @@
 {
- "dealCount": 917,
+ "dealCount": 918,
  "deals": [
+  {
+   "amountCr": 862.0,
+   "amountRaw": "Rs 862 crore (from article)",
+   "company": "GreatWhite",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-21T10:31:12.928370+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1253,
+   "individuals": [
+    "Mehul Shah",
+    "Hemang Shah"
+   ],
+   "listed": false,
+   "oneLine": "Mehul Shah's family buys Hemang's 50% stake to settle dispute, cashing him out.",
+   "primaryOutlet": "The Economic Times",
+   "seller": "Hemang Shah",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-21T10:31:17.286177+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -29066,6 +29091,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-21T07:01:18.196359+00:00",
- "totalDeals": 917
+ "generatedAt": "2026-10-21T10:31:17.286177+00:00",
+ "totalDeals": 918
 }
