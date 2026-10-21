@@ -175,13 +175,17 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-10-21T05:01:15.133939+00:00",
    "updates": [
     {
      "attachedAt": "2026-10-21T11:01:19.214468+00:00",
      "title": "Crystal Corp Protection Limited"
+    },
+    {
+     "attachedAt": "2026-10-21T14:17:00.755831+00:00",
+     "title": "International Finance Corporation-backed Crystal Crop Protection cuts IPO size"
     }
    ]
   },
