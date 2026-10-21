@@ -3076,7 +3076,7 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-10-08T11:01:20.368736+00:00",
    "updates": [
@@ -3087,6 +3087,10 @@
     {
      "attachedAt": "2026-10-08T11:01:20.367514+00:00",
      "title": "HD Fire Protect to raise ₹712 crore via IPO"
+    },
+    {
+     "attachedAt": "2026-10-21T04:01:14.120970+00:00",
+     "title": "HD Fire Protect Limited"
     }
    ]
   },
