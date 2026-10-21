@@ -1,6 +1,28 @@
 {
- "dealCount": 919,
+ "dealCount": 920,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Pine Labs",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-21T12:01:24.882193+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": "failed",
+   "id": 1255,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Pine Labs is involved in an acquisition deal.",
+   "primaryOutlet": "NSE",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "mcap_plausible",
+   "sourceCount": 1,
+   "ticker": "PINELABS.NS",
+   "updatedAt": "2026-10-21T12:01:24.882193+00:00",
+   "updates": []
+  },
   {
    "amountCr": 150.0,
    "amountRaw": "Rs 150 crore (from article)",
@@ -29126,6 +29148,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-21T10:46:29.523294+00:00",
- "totalDeals": 919
+ "generatedAt": "2026-10-21T12:01:24.882193+00:00",
+ "totalDeals": 920
 }
