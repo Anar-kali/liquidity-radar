@@ -1,6 +1,28 @@
 {
- "dealCount": 920,
+ "dealCount": 921,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Antala Industries",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-21T13:01:21.584940+00:00",
+   "dealType": "unknown",
+   "enrichmentState": "failed",
+   "id": 1257,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Antala Industries received BSE SME approval and is preparing for an IPO.",
+   "primaryOutlet": "LatestLY",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-21T13:01:21.584940+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -29148,6 +29170,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-21T12:01:24.882193+00:00",
- "totalDeals": 920
+ "generatedAt": "2026-10-21T13:01:21.584940+00:00",
+ "totalDeals": 921
 }
