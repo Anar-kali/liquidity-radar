@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "USV",
+ "company": "Wellbeing Nutrition",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-21T07:01:14.425078+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1252,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "USV acquired a 79% stake in Wellbeing Nutrition, providing a cash-out event for existing shareholders.",
+ "primaryUrl": "https://entrackr.com/fintrackr/wellbeing-nutritions-revenue-doubles-to-rs-244-cr-in-fy26-losses-widen-to-rs-92-cr-12694922",
+ "seller": "Existing shareholders",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-10-21T07:01:14.426147+00:00",
+   "outlet": "Entrackr",
+   "resolvable": true,
+   "title": "Wellbeing Nutrition’s revenue doubles to Rs 244 Cr in FY26, losses widen to Rs 92 Cr",
+   "url": "https://entrackr.com/fintrackr/wellbeing-nutritions-revenue-doubles-to-rs-244-cr-in-fy26-losses-widen-to-rs-92-cr-12694922"
+  }
+ ],
+ "synopsis": "Pharmaceutical major USV acquired a 79% stake in clean-label nutraceutical brand Wellbeing Nutrition at a valuation of Rs 1,583 crore. The transaction took place following an agreement in February 2026 and provided an exit, either partially or fully, to existing investors. Alongside the transaction details, financial statements reviewed for FY26 showed that Wellbeing Nutrition doubled its revenue from operations to Rs 244 crore from Rs 118 crore in FY25, while its losses widened 2.4 times to Rs 92 crore from Rs 38 crore. Total expenditure surged to Rs 338 crore, driven by increases in advertising expenses and the cost of materials consumed.",
+ "ticker": null,
+ "updatedAt": "2026-10-21T07:01:18.196359+00:00"
+}

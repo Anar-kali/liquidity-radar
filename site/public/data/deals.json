@@ -1,6 +1,28 @@
 {
- "dealCount": 916,
+ "dealCount": 917,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Wellbeing Nutrition",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-21T07:01:14.425078+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1252,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "USV acquired a 79% stake in Wellbeing Nutrition, providing a cash-out event for existing shareholders.",
+   "primaryOutlet": "Entrackr",
+   "seller": "Existing shareholders",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-21T07:01:18.196359+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -29040,6 +29062,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-21T05:31:05.427262+00:00",
- "totalDeals": 916
+ "generatedAt": "2026-10-21T07:01:18.196359+00:00",
+ "totalDeals": 917
 }
