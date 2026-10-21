@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 150.0,
+ "amountRaw": "Rs 150 crore (from article)",
+ "buyer": null,
+ "company": "SFC Environmental",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-21T10:46:16.077185+00:00",
+ "dealType": "other",
+ "enrichmentState": null,
+ "id": 1254,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "SFC Environmental and J Pan Tubular advance their fundraising and IPO plans.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQTVpIVkJzcnVCT1RsOHB4ZDJEMG5HMmdCOWRmLVY0NWl5eU5BV0x6RkNObFp5R3lKajduQ0JQQzIyeUtKNHk2SzVqakNaa1k4OG4wZ0xkMWVzdXpscW8xZ3RtYmRucUotRnlFSVlEd2FxbGdUWFRicHN1Z3hiZVVuZ2oxRjViLWVJa1pNV1hFUHRGaHJnZkJxcnJ6S25pV1NJRmlnNXZ0Yjh4NVp5NEtZWUY5R19vT2QtV21QTHlrYlliOVFqU3BIYXY0VFJXQ3hGWVlaNktwLURMTGI2cngzVA?oc=5",
+ "seller": "SFC Environmental Technologies",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-21T10:46:16.078220+00:00",
+   "outlet": "Kalkine India",
+   "resolvable": false,
+   "title": "IPO Pipeline Stays Active as SFC Environmental and J Pan Tubular Advance Their Fundraising Plans",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQTVpIVkJzcnVCT1RsOHB4ZDJEMG5HMmdCOWRmLVY0NWl5eU5BV0x6RkNObFp5R3lKajduQ0JQQzIyeUtKNHk2SzVqakNaa1k4OG4wZ0xkMWVzdXpscW8xZ3RtYmRucUotRnlFSVlEd2FxbGdUWFRicHN1Z3hiZVVuZ2oxRjViLWVJa1pNV1hFUHRGaHJnZkJxcnJ6S25pV1NJRmlnNXZ0Yjh4NVp5NEtZWUY5R19vT2QtV21QTHlrYlliOVFqU3BIYXY0VFJXQ3hGWVlaNktwLURMTGI2cngzVA?oc=5"
+  }
+ ],
+ "synopsis": "SFC Environmental Technologies plans to open its initial public offering on 27 October to raise approximately Rs 150 crore in fresh capital. Meanwhile, J Pan Tubular Components has received regulatory clearance from SEBI to proceed with its own IPO. These developments occur within an active primary market pipeline that also features an upcoming Rs 1,200-crore IPO from EAAA India Alternatives. The fundraising activity unfolds against a cautious secondary-market backdrop where benchmarks recently pulled back before the Dussehra holiday.",
+ "ticker": null,
+ "updatedAt": "2026-10-21T10:46:29.523294+00:00"
+}

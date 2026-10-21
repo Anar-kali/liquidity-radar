@@ -1,6 +1,28 @@
 {
- "dealCount": 918,
+ "dealCount": 919,
  "deals": [
+  {
+   "amountCr": 150.0,
+   "amountRaw": "Rs 150 crore (from article)",
+   "company": "SFC Environmental",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-21T10:46:16.077185+00:00",
+   "dealType": "other",
+   "enrichmentState": null,
+   "id": 1254,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "SFC Environmental and J Pan Tubular advance their fundraising and IPO plans.",
+   "primaryOutlet": "Kalkine India",
+   "seller": "SFC Environmental Technologies",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-21T10:46:29.523294+00:00",
+   "updates": []
+  },
   {
    "amountCr": 862.0,
    "amountRaw": "Rs 862 crore (from article)",
@@ -838,7 +860,7 @@
    "seller": "Ankit Virendra Gupta, Chirag Narendra Chhajer, Bbigplas Poly Pvt Ltd, Negen Tech Opportunities Angel Fund +others",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 14,
+   "sourceCount": 16,
    "ticker": null,
    "updatedAt": "2026-10-17T06:45:57.816302+00:00",
    "updates": [
@@ -893,6 +915,14 @@
     {
      "attachedAt": "2026-10-20T09:46:00.183628+00:00",
      "title": "Burma Burma operator Hunger Pangs files draft papers for INR 150 crore IPO to expand restaurant network"
+    },
+    {
+     "attachedAt": "2026-10-21T10:46:16.064883+00:00",
+     "title": "Hunger Pangs Limited – DRHPHunger Pangs Limited"
+    },
+    {
+     "attachedAt": "2026-10-21T10:46:16.074388+00:00",
+     "title": "Hunger Pangs Limited"
     }
    ]
   },
@@ -29091,6 +29121,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-21T10:31:17.286177+00:00",
- "totalDeals": 918
+ "generatedAt": "2026-10-21T10:46:29.523294+00:00",
+ "totalDeals": 919
 }
