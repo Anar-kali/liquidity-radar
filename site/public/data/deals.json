@@ -264,7 +264,7 @@
    "seller": "Edelweiss",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 5,
+   "sourceCount": 6,
    "ticker": null,
    "updatedAt": "2026-10-20T07:31:03.691524+00:00",
    "updates": [
@@ -283,6 +283,10 @@
     {
      "attachedAt": "2026-10-21T05:31:05.437288+00:00",
      "title": "EAAA India Alternatives to float Rs.1,200-Cr OFS-IPO"
+    },
+    {
+     "attachedAt": "2026-10-21T08:31:15.490721+00:00",
+     "title": "EAAA India Alternatives IPO DRHP: ₹1,200 crore offer for sale; no fresh issue component"
     }
    ]
   },
