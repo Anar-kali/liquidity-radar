@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 3350.0,
+ "amountRaw": "₹3,350 Cr",
+ "buyer": null,
+ "company": "Oravel Stays",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-22T17:16:21.101069+00:00",
+ "dealType": "IPO-OFS",
+ "enrichmentState": null,
+ "id": 1267,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "OYO parent plans an IPO with a fresh issue component.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOVUxzcy1fVnl2Tkg4dHVlOHlfYXNqMk84SUhZRzcxYWsyUXRGeUpXd052QTNEWWZQdTFIMVdGQW80Rk1oVnhNamhjTmJmY0hpU3BKdXZOUXIxeHh4bWZYd2R2R0tyckVXN19WRjhqZTZZR2ZDcTllSVdyWnV4N015aDBvWWw5NmNoWkE?oc=5",
+ "seller": "Prism",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-22T17:16:21.103469+00:00",
+   "outlet": "TechStory",
+   "resolvable": false,
+   "title": "OYO Parent Prism Slashes IPO Fresh Issue to ₹3,350 Cr",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOVUxzcy1fVnl2Tkg4dHVlOHlfYXNqMk84SUhZRzcxYWsyUXRGeUpXd052QTNEWWZQdTFIMVdGQW80Rk1oVnhNamhjTmJmY0hpU3BKdXZOUXIxeHh4bWZYd2R2R0tyckVXN19WRjhqZTZZR2ZDcTllSVdyWnV4N015aDBvWWw5NmNoWkE?oc=5"
+  }
+ ],
+ "synopsis": "Prism, the parent company of hospitality startup OYO, has reduced the proposed fresh issue component of its initial public offering from ₹6,650 crore to ₹3,350 crore. The 50 percent cut in the planned fresh capital raise marks a significant change in the company's approach to its long-delayed stock market debut, following initial listing plans that date back to 2021. The revised issue size lowers the amount of new equity capital the company intends to raise through the offering.",
+ "ticker": null,
+ "updatedAt": "2026-10-22T17:16:31.304068+00:00"
+}
