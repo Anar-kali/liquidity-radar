@@ -111,13 +111,17 @@
    "seller": "Prism",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-10-22T07:03:03.089615+00:00",
    "updates": [
     {
      "attachedAt": "2026-10-22T08:45:59.557082+00:00",
      "title": "OYO IPO: Parent Prism Slashes Fresh Issue By Nearly Half To Rs 3,350 Crore"
+    },
+    {
+     "attachedAt": "2026-10-22T10:45:59.487718+00:00",
+     "title": "OYO parent to nearly halve IPO fresh issue size to up to ₹3,350 crore"
     }
    ]
   },
