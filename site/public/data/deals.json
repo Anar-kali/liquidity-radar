@@ -1,6 +1,28 @@
 {
- "dealCount": 924,
+ "dealCount": 925,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Gamp Services",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-22T08:01:20.077305+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 1263,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Gamp Services files draft papers to raise funds via an IPO.",
+   "primaryOutlet": "Moneycontrol.com",
+   "seller": "Promoters",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-22T08:01:24.501517+00:00",
+   "updates": []
+  },
   {
    "amountCr": 3350.0,
    "amountRaw": "₹3,350 crore (from article)",
@@ -29270,6 +29292,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-22T07:03:03.089615+00:00",
- "totalDeals": 924
+ "generatedAt": "2026-10-22T08:01:24.501517+00:00",
+ "totalDeals": 925
 }
