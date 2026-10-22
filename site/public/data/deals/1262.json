@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 3350.0,
+ "amountRaw": "₹3,350 crore (from article)",
+ "buyer": null,
+ "company": "OYO",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-22T07:02:49.405361+00:00",
+ "dealType": "unknown",
+ "enrichmentState": null,
+ "id": 1262,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "OYO parent reduces IPO size to revive listing plans",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZ1pnMHlheWltZ3dGTTM2QWRUdXNQMWNuNmZhblNYN0RWUVpGQi04c2tzaVU1TG1uNk45WVlya0NHYmIwWk90RnNBRmh6XzBpcGk2ZmJmY0VJUU9rWmVER2ZlWmVuc0RobElmTGltdlVILV9namg3Y1JwT1Z0X01PdFdfWVFfVi1ZYzdyVmgtcVl1M3NBYXlzcFlMUGYwczFfT0FhXw?oc=5",
+ "seller": "Prism",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-22T07:02:49.407718+00:00",
+   "outlet": "boldnewsonline.com",
+   "resolvable": false,
+   "title": "OYO Parent Prism Nearly Halves IPO Size to Revive Long-Delayed Listing",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZ1pnMHlheWltZ3dGTTM2QWRUdXNQMWNuNmZhblNYN0RWUVpGQi04c2tzaVU1TG1uNk45WVlya0NHYmIwWk90RnNBRmh6XzBpcGk2ZmJmY0VJUU9rWmVER2ZlWmVuc0RobElmTGltdlVILV9namg3Y1JwT1Z0X01PdFdfWVFfVi1ZYzdyVmgtcVl1M3NBYXlzcFlMUGYwczFfT0FhXw?oc=5"
+  }
+ ],
+ "synopsis": "Prism, the parent company of budget hotel operator OYO, has reduced its proposed initial public offering size to raise 3,350 crore rupees through a fresh share issue, down from its earlier 6,650 crore rupee proposal. SoftBank-backed Prism is seeking to advance its long-pending stock market debut after several delays since its first filing in 2021. The revised fundraising target involves a fresh issue of shares, providing funds directly to the company. The article does not name any individual selling shareholders, specific advisers, or a finalized listing date.",
+ "ticker": null,
+ "updatedAt": "2026-10-22T07:03:03.089615+00:00"
+}

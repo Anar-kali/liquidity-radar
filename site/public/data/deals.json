@@ -1,6 +1,28 @@
 {
- "dealCount": 923,
+ "dealCount": 924,
  "deals": [
+  {
+   "amountCr": 3350.0,
+   "amountRaw": "₹3,350 crore (from article)",
+   "company": "OYO",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-22T07:02:49.405361+00:00",
+   "dealType": "unknown",
+   "enrichmentState": null,
+   "id": 1262,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "OYO parent reduces IPO size to revive listing plans",
+   "primaryOutlet": "boldnewsonline.com",
+   "seller": "Prism",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-22T07:03:03.089615+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -29243,6 +29265,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-22T05:46:05.370335+00:00",
- "totalDeals": 923
+ "generatedAt": "2026-10-22T07:03:03.089615+00:00",
+ "totalDeals": 924
 }
