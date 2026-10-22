@@ -12519,10 +12519,15 @@
    "seller": "Prism",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-09-22T05:25:44.540955+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-10-22T04:46:09.017112+00:00",
+     "title": "SoftBank-backed India's Oyo Hotels owner halves proposed IPO, filing shows"
+    }
+   ]
   },
   {
    "amountCr": null,
