@@ -1,6 +1,28 @@
 {
- "dealCount": 926,
+ "dealCount": 927,
  "deals": [
+  {
+   "amountCr": 2000.0,
+   "amountRaw": "over  ₹2,000 crore",
+   "company": "Vertis Infrastructure Trust",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-22T10:16:04.851282+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 1265,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Vertis plans an IPO with sponsors selling a 13-14% stake worth over Rs 2,000 crore.",
+   "primaryOutlet": "Mint",
+   "seller": "KKR and OTPP",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-22T10:16:08.581835+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": "1.62 Crore Share Offer",
@@ -29324,6 +29346,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-22T10:01:53.356047+00:00",
- "totalDeals": 926
+ "generatedAt": "2026-10-22T10:16:08.581835+00:00",
+ "totalDeals": 927
 }

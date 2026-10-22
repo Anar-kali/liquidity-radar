@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 2000.0,
+ "amountRaw": "over  ₹2,000 crore",
+ "buyer": "Public shareholders",
+ "company": "Vertis Infrastructure Trust",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-22T10:16:04.851282+00:00",
+ "dealType": "IPO-OFS",
+ "enrichmentState": null,
+ "id": 1265,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Vertis plans an IPO with sponsors selling a 13-14% stake worth over Rs 2,000 crore.",
+ "primaryUrl": "https://www.livemint.com/companies/kkr-otpp-backed-vertis-eyes-ipo-filing-by-january-public-listing-by-april-2027-11792660599016.html",
+ "seller": "KKR and OTPP",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-22T10:16:04.853308+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "KKR, OTPP-backed Vertis eyes IPO filing by January, public listing by April 2027",
+   "url": "https://www.livemint.com/companies/kkr-otpp-backed-vertis-eyes-ipo-filing-by-january-public-listing-by-april-2027-11792660599016.html"
+  }
+ ],
+ "synopsis": "KKR- and OTPP-backed infrastructure investment trust Vertis Infrastructure Trust plans to file a draft offer document by December to transition into a publicly traded trust, targeting a stock exchange listing by April or May 2027. Sponsors KKR and Ontario Teachers' Pension Plan intend to sell a combined 13-14% stake through an offer for sale, valued at over ₹2,000 crore based on the trust's market capitalization of ₹17,515 crore. Vertis Fund Advisors, the investment manager of the InvIT, constituted an IPO committee in April, and the trust is currently shortlisting investment banks including Ambit Capital, Avendus Capital, Axis Capital, and SBI Capital Markets to manage the transaction. Offer details remain under discussion.",
+ "ticker": null,
+ "updatedAt": "2026-10-22T10:16:08.581835+00:00"
+}
