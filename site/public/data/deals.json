@@ -1,6 +1,28 @@
 {
- "dealCount": 929,
+ "dealCount": 930,
  "deals": [
+  {
+   "amountCr": 150.0,
+   "amountRaw": "Rs 150-crore",
+   "company": "Gallantt Ispat",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-22T17:32:27.574017+00:00",
+   "dealType": "promoter sale",
+   "enrichmentState": null,
+   "id": 1268,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Gallantt Ispat promoter sells Rs 150-crore stake.",
+   "primaryOutlet": "Moneycontrol.com",
+   "seller": "Gallantt Ispat promoter",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "GALLANTT.NS",
+   "updatedAt": "2026-10-22T17:32:35.736946+00:00",
+   "updates": []
+  },
   {
    "amountCr": 3350.0,
    "amountRaw": "₹3,350 Cr",
@@ -29412,6 +29434,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-22T17:16:31.304068+00:00",
- "totalDeals": 929
+ "generatedAt": "2026-10-22T17:32:35.736946+00:00",
+ "totalDeals": 930
 }
