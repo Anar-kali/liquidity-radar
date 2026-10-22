@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 2112.0,
+ "amountRaw": "₹2,112 crore",
+ "buyer": "UBS",
+ "company": "360 One",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-22T10:31:04.040157+00:00",
+ "dealType": "other",
+ "enrichmentState": null,
+ "id": 1266,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "UBS converts warrants into equity in 360 One for Rs 2,112 crore.",
+ "primaryUrl": "https://www.livemint.com/companies/news/ubs-360-one-warrants-equity-stake-2025-deal-11792655941618.html",
+ "seller": "360 One",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-22T10:31:04.041359+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "UBS converts 360 One warrants into 4.8% equity stake after 2025 deal",
+   "url": "https://www.livemint.com/companies/news/ubs-360-one-warrants-equity-stake-2025-deal-11792655941618.html"
+  }
+ ],
+ "synopsis": "Swiss investment bank UBS AG acquired a 4.8% equity stake in Karan Bhagat's wealth manager 360 One Wam Ltd by converting 20.5 million warrants into equity shares. UBS paid the remaining 75% of the exercise price amounting to ₹1,584 crore ($190 million) on Thursday, having previously paid 25% when the warrants were allotted in July 2025. The total consideration for the warrant transaction reached ₹2,112 crore, with the latest tranche issued at ₹1,030 per share. This transaction follows a strategic alliance established in April 2025, under which UBS agreed to transfer its onshore wealth management business in India to 360 One for ₹307 crore and acquire warrants representing close to a 5% stake in the firm.",
+ "ticker": "360ONE.NS",
+ "updatedAt": "2026-10-22T10:31:07.977568+00:00"
+}

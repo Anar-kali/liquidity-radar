@@ -1,6 +1,28 @@
 {
- "dealCount": 927,
+ "dealCount": 928,
  "deals": [
+  {
+   "amountCr": 2112.0,
+   "amountRaw": "₹2,112 crore",
+   "company": "360 One",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-22T10:31:04.040157+00:00",
+   "dealType": "other",
+   "enrichmentState": null,
+   "id": 1266,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "UBS converts warrants into equity in 360 One for Rs 2,112 crore.",
+   "primaryOutlet": "Mint",
+   "seller": "360 One",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "360ONE.NS",
+   "updatedAt": "2026-10-22T10:31:07.977568+00:00",
+   "updates": []
+  },
   {
    "amountCr": 2000.0,
    "amountRaw": "over  ₹2,000 crore",
@@ -29346,6 +29368,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-22T10:16:08.581835+00:00",
- "totalDeals": 927
+ "generatedAt": "2026-10-22T10:31:07.977568+00:00",
+ "totalDeals": 928
 }
