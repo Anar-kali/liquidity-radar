@@ -1,6 +1,28 @@
 {
- "dealCount": 925,
+ "dealCount": 926,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": "1.62 Crore Share Offer",
+   "company": "Transline Technologies",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-22T10:01:50.292730+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 1264,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Transline Technologies gets SEBI nod for share offer IPO",
+   "primaryOutlet": "Free Press Journal",
+   "seller": "existing shareholders",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-22T10:01:53.356047+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -18,10 +40,15 @@
    "seller": "Promoters",
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-10-22T08:01:24.501517+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-10-22T10:01:50.282015+00:00",
+     "title": "Gamp Services Files IPO Papers with Sebi for Fundraise"
+    }
+   ]
   },
   {
    "amountCr": 3350.0,
@@ -29297,6 +29324,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-22T08:01:24.501517+00:00",
- "totalDeals": 925
+ "generatedAt": "2026-10-22T10:01:53.356047+00:00",
+ "totalDeals": 926
 }
