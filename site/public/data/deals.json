@@ -1,6 +1,30 @@
 {
- "dealCount": 922,
+ "dealCount": 923,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Readily Solutions",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-22T05:46:01.009709+00:00",
+   "dealType": "unknown",
+   "enrichmentState": null,
+   "id": 1261,
+   "individuals": [
+    "Hiteshh Sharma"
+   ],
+   "listed": false,
+   "oneLine": "Readily Solutions plans an IPO in FY28 after converting to a public company.",
+   "primaryOutlet": "Motorindia",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-22T05:46:05.370335+00:00",
+   "updates": []
+  },
   {
    "amountCr": 660.8,
    "amountRaw": "660.8cr confirmed via NSE block deal",
@@ -29215,6 +29239,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-21T18:33:57.813825+00:00",
- "totalDeals": 922
+ "generatedAt": "2026-10-22T05:46:05.370335+00:00",
+ "totalDeals": 923
 }
