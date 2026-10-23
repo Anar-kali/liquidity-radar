@@ -517,8 +517,8 @@
    "updates": []
   },
   {
-   "amountCr": null,
-   "amountRaw": null,
+   "amountCr": 600.0,
+   "amountRaw": "Rs 600 cr",
    "company": "Integris Medtech Limited",
    "confidence": "medium",
    "confirmed": false,
@@ -530,16 +530,20 @@
    "listed": false,
    "oneLine": "Integris Medtech updates its DRHP with SEBI for an upcoming IPO.",
    "primaryOutlet": "Addendum to DRHP",
-   "seller": null,
+   "seller": "Promoters / Existing Shareholders",
    "sizeBand": null,
-   "sizeSource": "unknown",
-   "sourceCount": 2,
+   "sizeSource": "stated",
+   "sourceCount": 3,
    "ticker": null,
-   "updatedAt": "2026-10-21T05:01:15.105519+00:00",
+   "updatedAt": "2026-10-23T07:16:09.614053+00:00",
    "updates": [
     {
      "attachedAt": "2026-10-22T11:46:02.746562+00:00",
      "title": "Integris Medtech Cuts IPO Size, Halves OFS in Revised Plan"
+    },
+    {
+     "attachedAt": "2026-10-23T07:16:09.612279+00:00",
+     "title": "Integris Medtech cuts fresh issue size to Rs 600 cr, halves OFS in revised IPO plan"
     }
    ]
   },
@@ -29514,6 +29518,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-23T06:16:02.919796+00:00",
+ "generatedAt": "2026-10-23T07:16:09.614053+00:00",
  "totalDeals": 933
 }
