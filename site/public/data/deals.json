@@ -588,7 +588,7 @@
    "seller": null,
    "sizeBand": "OVER_2000",
    "sizeSource": "band",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-10-20T13:01:19.975358+00:00",
    "updates": [
@@ -599,6 +599,10 @@
     {
      "attachedAt": "2026-10-20T15:46:47.261573+00:00",
      "title": "Jio Platforms: Tech Company, Not Just Telco, Ahead of Mega IPO"
+    },
+    {
+     "attachedAt": "2026-10-23T10:46:11.092478+00:00",
+     "title": "Jio Platforms IPO: Everything to Know About India’s Largest-Ever Public Offering"
     }
    ]
   },
