@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 2640.0,
+ "amountRaw": "$300-m",
+ "buyer": null,
+ "company": "Infinx Tech",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-23T06:15:59.012905+00:00",
+ "dealType": "unknown",
+ "enrichmentState": null,
+ "id": 1271,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Infinx Tech plans an IPO to raise $300 million and appoints three bankers.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPU2pObHdIT2UzZFIwSXZzWWRmRUoxX0w4eW5oYXlVbFhJcjRUamVLSHpGQ3Bfajc2c0dTcjZneGhfdHFNb2tmVFFKMVdsQ09PWjEza3VOel9hWHpRM0E1bC1DUmNFTFotZjNEMDhVU3dNSHlsT09YMjk2NkR4emlocVpZbkVqSlhHbjZKeld6N0VtdVNOY1g3bXFLeEhVWnJyQkxMbHRmRUxVRDctZGtjWFQzQ0VWTkE?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-23T06:15:59.030943+00:00",
+   "outlet": "TradingView",
+   "resolvable": false,
+   "title": "Infinx Tech Plans $300-m IPO in India, Appoints Three Bankers",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPU2pObHdIT2UzZFIwSXZzWWRmRUoxX0w4eW5oYXlVbFhJcjRUamVLSHpGQ3Bfajc2c0dTcjZneGhfdHFNb2tmVFFKMVdsQ09PWjEza3VOel9hWHpRM0E1bC1DUmNFTFotZjNEMDhVU3dNSHlsT09YMjk2NkR4emlocVpZbkVqSlhHbjZKeld6N0VtdVNOY1g3bXFLeEhVWnJyQkxMbHRmRUxVRDctZGtjWFQzQ0VWTkE?oc=5"
+  }
+ ],
+ "synopsis": "Healthcare IT platform firm Infinx Technology Solutions has appointed Kotak Mahindra Capital, Nomura, and Avendus to manage its proposed $300 million initial public offering in India. The company, which is backed by KKR and Norwest Venture Partners, is targeting a listing in FY28 and may potentially combine a fresh issue of shares with an offer for sale. Infinx was founded in 2012 by brothers Sandeep and Jaideep Tandon and provides AI-powered healthcare revenue cycle management solutions. KKR acquired a significant minority stake in the company in 2024 through its Asian Fund IV, with Norwest also participating.",
+ "ticker": null,
+ "updatedAt": "2026-10-23T06:16:02.919796+00:00"
+}
