@@ -555,7 +555,7 @@
    "seller": "Promoters / Existing Shareholders",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-10-23T07:16:09.614053+00:00",
    "updates": [
@@ -566,6 +566,10 @@
     {
      "attachedAt": "2026-10-23T07:16:09.612279+00:00",
      "title": "Integris Medtech cuts fresh issue size to Rs 600 cr, halves OFS in revised IPO plan"
+    },
+    {
+     "attachedAt": "2026-10-23T12:16:18.300598+00:00",
+     "title": "Everstone-backed Integris Medtech slashes fresh issue size to Rs.600-Cr"
     }
    ]
   },
