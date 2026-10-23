@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Bombay Coated and Special Steels Ltd.",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-23T12:01:26.737227+00:00",
+ "dealType": "unknown",
+ "enrichmentState": null,
+ "id": 1272,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Bombay Coated and Special Steels Ltd. announced an IPO.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUG5YNjROSExsNHUzVUFxOWtEWV8yWUU3SFgxVHg5MmhhZkItVXp4WWlyTkdWSmVwb09hWHhvX1g1MzRYNjhWSVp3ZEtlbzlHbHBqd0p4VDFyb2VRRUxoSW1nMl9JZWkzdVUyZklnb0Ztc0ZGMnY2NWp1N0JtWWg1MVJCcEZGYVdrMmduM3NYSUxFQTNPc0E?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-10-23T12:01:26.738754+00:00",
+   "outlet": "The Economic Times",
+   "resolvable": false,
+   "title": "Bombay Coated and Special Steels Ltd. IPO",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUG5YNjROSExsNHUzVUFxOWtEWV8yWUU3SFgxVHg5MmhhZkItVXp4WWlyTkdWSmVwb09hWHhvX1g1MzRYNjhWSVp3ZEtlbzlHbHBqd0p4VDFyb2VRRUxoSW1nMl9JZWkzdVUyZklnb0Ztc0ZGMnY2NWp1N0JtWWg1MVJCcEZGYVdrMmduM3NYSUxFQTNPc0E?oc=5"
+  }
+ ],
+ "synopsis": "Bombay Coated and Special Steels Ltd. has announced an upcoming mainboard IPO scheduled to open on October 29, 2026, and close on November 2, 2026. The article provides financial data, including a total income of Rs 1,269.83 Cr and a reported PAT of Rs 30.54 Cr for the period ending March 2026. Key management personnel are listed, including Chairman and Wholetime Director Mr. Vijaykumar Himatrai Gupta and Managing Director Mr. Nitin Vijaykumar Gupta.",
+ "ticker": null,
+ "updatedAt": "2026-10-23T12:01:32.139887+00:00"
+}
