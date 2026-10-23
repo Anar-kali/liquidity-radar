@@ -1,6 +1,28 @@
 {
- "dealCount": 934,
+ "dealCount": 935,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "M. K. Sons Fine Jewels Ltd.",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-23T17:16:21.719819+00:00",
+   "dealType": "unknown",
+   "enrichmentState": null,
+   "id": 1273,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "M. K. Sons Fine Jewels Ltd. is planning an IPO.",
+   "primaryOutlet": "The Economic Times",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-23T17:16:26.339990+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -29556,6 +29578,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-23T12:01:32.139887+00:00",
- "totalDeals": 934
+ "generatedAt": "2026-10-23T17:16:26.339990+00:00",
+ "totalDeals": 935
 }

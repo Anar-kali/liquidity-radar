@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "M. K. Sons Fine Jewels Ltd.",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-23T17:16:21.719819+00:00",
+ "dealType": "unknown",
+ "enrichmentState": null,
+ "id": 1273,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "M. K. Sons Fine Jewels Ltd. is planning an IPO.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPOEppd1ZtSHlRa3FCbTEwQmhXSUprWlRRbXIteW5KOGdnT09jYjRIbW5SQ0NnTXJMRTlDMFpocnJGX2RvS1dQbUtYOVNOUExZckFRMzZ2Tk1tOVpjVTJzZ1NCd19NYURtdHVLRU1yOHFhbFBoYUtXOHl4dUFBeUdjREMyOG5OZw?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-10-23T17:16:21.723149+00:00",
+   "outlet": "The Economic Times",
+   "resolvable": false,
+   "title": "M. K. Sons Fine Jewels Ltd. IPO",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPOEppd1ZtSHlRa3FCbTEwQmhXSUprWlRRbXIteW5KOGdnT09jYjRIbW5SQ0NnTXJMRTlDMFpocnJGX2RvS1dQbUtYOVNOUExZckFRMzZ2Tk1tOVpjVTJzZ1NCd19NYURtdHVLRU1yOHFhbFBoYUtXOHl4dUFBeUdjREMyOG5OZw?oc=5"
+  }
+ ],
+ "synopsis": "M. K. Sons Fine Jewels Ltd. is planning an upcoming mainboard IPO with dates scheduled from October 28 to October 30, 2026. The company lists its key leadership including Chairman and Managing Director Mr. Ramchand Murlidhar Raimalani, Whole Time Director Mr. Kush Ramchand Raimalani, and Whole Time Director Ms. Neelam Ramchand Raimalani. Promoters currently hold 100% of the shares with 4,26,90,660 shares. Financial data indicates a total income of Rs 538.86 crore and a reported PAT of Rs 51.80 crore for the 12 months ending March 2026.",
+ "ticker": null,
+ "updatedAt": "2026-10-23T17:16:26.339990+00:00"
+}
