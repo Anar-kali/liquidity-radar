@@ -1,6 +1,50 @@
 {
- "dealCount": 930,
+ "dealCount": 932,
  "deals": [
+  {
+   "amountCr": 6048.0,
+   "amountRaw": "€63 million gain / €288 million dividends",
+   "company": "Iveco",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-23T01:31:05.400212+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1270,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Tata Motors races to secure buyout of Iveco as investors stand to gain.",
+   "primaryOutlet": "Mint",
+   "seller": "Davidson Kempner, Syquant Capital and Petrus Advisers",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-23T01:31:11.868103+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 1760.0,
+   "amountRaw": "$200-300 million ($250m midpoint * 88 = 2200cr, but using lower bound range: $200m = 1760 cr)",
+   "company": "OmniActive Health Technologies",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-23T01:31:05.397206+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 1269,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "TA Associates-backed OmniActive explores $200-300 million IPO at $1 bn valuation.",
+   "primaryOutlet": "Mint",
+   "seller": "TA Associates",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-23T01:31:07.697665+00:00",
+   "updates": []
+  },
   {
    "amountCr": 150.0,
    "amountRaw": "Rs 150-crore",
@@ -155,7 +199,7 @@
    "seller": "Prism",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-10-22T07:03:03.089615+00:00",
    "updates": [
@@ -166,6 +210,10 @@
     {
      "attachedAt": "2026-10-22T10:45:59.487718+00:00",
      "title": "OYO parent to nearly halve IPO fresh issue size to up to ₹3,350 crore"
+    },
+    {
+     "attachedAt": "2026-10-23T01:31:05.389412+00:00",
+     "title": "OYO Parent PRISM Plans to Halve IPO Fresh Issue to ₹3,350 Crore"
     }
    ]
   },
@@ -29434,6 +29482,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-22T17:32:35.736946+00:00",
- "totalDeals": 930
+ "generatedAt": "2026-10-23T01:31:11.868103+00:00",
+ "totalDeals": 932
 }

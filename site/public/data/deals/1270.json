@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 6048.0,
+ "amountRaw": "€63 million gain / €288 million dividends",
+ "buyer": "Tata Motors",
+ "company": "Iveco",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-23T01:31:05.400212+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1270,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Tata Motors races to secure buyout of Iveco as investors stand to gain.",
+ "primaryUrl": "https://www.livemint.com/companies/tata-motors-iveco-acquisition-deal-status-shareholders-approval-11792650839298.html",
+ "seller": "Davidson Kempner, Syquant Capital and Petrus Advisers",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-23T01:31:05.401147+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "Three Iveco investors stand to gain €63 million as Tata Motors races to secure buyout",
+   "url": "https://www.livemint.com/companies/tata-motors-iveco-acquisition-deal-status-shareholders-approval-11792650839298.html"
+  }
+ ],
+ "synopsis": "Three Iveco investors, specifically hedge funds Davidson Kempner and Syquant Capital along with activist investor Petrus Advisers, hold a combined 20.4% stake in Italian truckmaker Iveco and stand to gain about 63 million euros from Tata Motors Ltd's revised buyout offer of 14.40 euros per share. Tata Motors is racing to secure enough shareholder support before the offer closes on 26 October to reach the 80% threshold required to take full control and delist Iveco. The three funds previously received an estimated 288 million euros in extraordinary dividends from Iveco following the sale of its defence business to Leonardo. Petrus has publicly opposed Tata's offer, valuing Iveco at about 18 euros per share, while Syquant and Davidson Kempner have held back from tendering their shares.",
+ "ticker": null,
+ "updatedAt": "2026-10-23T01:31:11.868103+00:00"
+}

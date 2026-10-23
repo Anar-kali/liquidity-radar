@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 1760.0,
+ "amountRaw": "$200-300 million ($250m midpoint * 88 = 2200cr, but using lower bound range: $200m = 1760 cr)",
+ "buyer": null,
+ "company": "OmniActive Health Technologies",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-23T01:31:05.397206+00:00",
+ "dealType": "IPO-OFS",
+ "enrichmentState": null,
+ "id": 1269,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "TA Associates-backed OmniActive explores $200-300 million IPO at $1 bn valuation.",
+ "primaryUrl": "https://www.livemint.com/companies/ta-associates-backed-omniactive-explores-200-300-million-ipo-at-1-bn-valuation-11792676392979.html",
+ "seller": "TA Associates",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-23T01:31:05.398209+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "TA Associates-backed OmniActive explores $200-300 million IPO at $1 bn valuation",
+   "url": "https://www.livemint.com/companies/ta-associates-backed-omniactive-explores-200-300-million-ipo-at-1-bn-valuation-11792676392979.html"
+  }
+ ],
+ "synopsis": "OmniActive Health Technologies Ltd, led by Sanjaya Mariwala, has begun discussions with bankers to explore an initial public offering to raise $200-300 million and value the company at nearly $1 billion. The planned public offering could involve a mix of fresh capital issuance and an offer for sale by existing majority investor TA Associates, which held about a 56% stake as of September 2025, and the Mariwala family, which owned a 40% stake. The IPO discussions are currently at an exploratory stage following unsuccessful attempts to raise private capital.",
+ "ticker": null,
+ "updatedAt": "2026-10-23T01:31:07.697665+00:00"
+}
