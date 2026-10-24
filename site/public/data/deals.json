@@ -1,6 +1,30 @@
 {
- "dealCount": 935,
+ "dealCount": 936,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Granules India",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-24T06:15:59.911539+00:00",
+   "dealType": "promoter sale",
+   "enrichmentState": null,
+   "id": 1274,
+   "individuals": [
+    "Dr Krishna Prasad Chigurupati"
+   ],
+   "listed": true,
+   "oneLine": "Granules India promoter sells 1.72 crore shares, receiving cash payout.",
+   "primaryOutlet": "InvestyWise",
+   "seller": "Promoter",
+   "sizeBand": null,
+   "sizeSource": "mcap_plausible",
+   "sourceCount": 1,
+   "ticker": "GRANULES.NS",
+   "updatedAt": "2026-10-24T06:16:05.962670+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -29592,6 +29616,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-23T17:16:26.339990+00:00",
- "totalDeals": 935
+ "generatedAt": "2026-10-24T06:16:05.962670+00:00",
+ "totalDeals": 936
 }

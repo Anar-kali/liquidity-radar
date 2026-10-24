@@ -1,0 +1,34 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Granules India",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-24T06:15:59.911539+00:00",
+ "dealType": "promoter sale",
+ "enrichmentState": null,
+ "id": 1274,
+ "individuals": [
+  "Dr Krishna Prasad Chigurupati"
+ ],
+ "listed": true,
+ "oneLine": "Granules India promoter sells 1.72 crore shares, receiving cash payout.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbW5QeEJDM0ZiRFo0NkpYbWlTaUk0cXZiVEpQUy1CR3cwckcyODUzNVhBTElfbUJ5WERja09CQXlqWGdXNzVQVlVQdjB3QlFFVC1PMEg4WWhodjd1Wk1jbVVrVUQ4VTRDcTFhTHF2WEloUHEtb0JCTE1BYXA4WnJkMk15bGdvWkJCV09oVw?oc=5",
+ "seller": "Promoter",
+ "sizeBand": null,
+ "sizeSource": "mcap_plausible",
+ "sources": [
+  {
+   "attachedAt": "2026-10-24T06:15:59.913897+00:00",
+   "outlet": "InvestyWise",
+   "resolvable": false,
+   "title": "Granules India: Promoter Sells 1.72 Cr Shares",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbW5QeEJDM0ZiRFo0NkpYbWlTaUk0cXZiVEpQUy1CR3cwckcyODUzNVhBTElfbUJ5WERja09CQXlqWGdXNzVQVlVQdjB3QlFFVC1PMEg4WWhodjd1Wk1jbVVrVUQ4VTRDcTFhTHF2WEloUHEtb0JCTE1BYXA4WnJkMk15bGdvWkJCV09oVw?oc=5"
+  }
+ ],
+ "synopsis": "Dr Krishna Prasad Chigurupati, promoter of Granules India Limited, sold 1,72,00,000 equity shares on September 11, 2026. Prior to the transaction, the collective holding of the promoter and persons acting in concert was 9,42,03,525 shares, representing 38.02% of the total share capital. Following the sale, their total holding dropped to 7,70,03,525 shares, equating to 31.08% of the total share capital. Dr. Chigurupati's direct holding reduced from 7,68,08,111 shares down to 5,96,08,111 shares post-sale. The transaction was detailed in a revised disclosure filed under SEBI regulations.",
+ "ticker": "GRANULES.NS",
+ "updatedAt": "2026-10-24T06:16:05.962670+00:00"
+}
