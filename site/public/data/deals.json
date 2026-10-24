@@ -1,6 +1,28 @@
 {
- "dealCount": 939,
+ "dealCount": 940,
  "deals": [
+  {
+   "amountCr": 1215.0,
+   "amountRaw": "Rs 1,215 crore",
+   "company": "Zetwerk",
+   "confidence": "high",
+   "confirmed": false,
+   "createdAt": "2026-10-24T15:16:01.158875+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 1278,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Zetwerk IPO features an OFS where early investors realise Rs 1,215 crore.",
+   "primaryOutlet": "Business Line",
+   "seller": "Kae Capital, Accel, Peak XV and Lightspeed",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-24T15:16:05.907726+00:00",
+   "updates": []
+  },
   {
    "amountCr": 2600.0,
    "amountRaw": "₹2600.00 Cr (from article)",
@@ -29698,6 +29720,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-24T14:16:16.346881+00:00",
- "totalDeals": 939
+ "generatedAt": "2026-10-24T15:16:05.907726+00:00",
+ "totalDeals": 940
 }
