@@ -1,6 +1,31 @@
 {
- "dealCount": 936,
+ "dealCount": 937,
  "deals": [
+  {
+   "amountCr": 5400.0,
+   "amountRaw": "₹5,400 crore",
+   "company": "ArcelorMittal South Africa",
+   "confidence": "high",
+   "confirmed": false,
+   "createdAt": "2026-10-24T07:31:12.125000+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1275,
+   "individuals": [
+    "Lakshmi Mittal",
+    "Aditya Mittal"
+   ],
+   "listed": false,
+   "oneLine": "South Africa is taking over Lakshmi and Aditya Mittal's steel business for ₹5,400 crore.",
+   "primaryOutlet": "Mint",
+   "seller": "Lakshmi and Aditya Mittal family",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-24T07:31:15.542967+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -29620,6 +29645,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-24T06:16:05.962670+00:00",
- "totalDeals": 936
+ "generatedAt": "2026-10-24T07:31:15.542967+00:00",
+ "totalDeals": 937
 }

@@ -1,0 +1,35 @@
+{
+ "advisers": [],
+ "amountCr": 5400.0,
+ "amountRaw": "₹5,400 crore",
+ "buyer": "South Africa government / state entity",
+ "company": "ArcelorMittal South Africa",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-10-24T07:31:12.125000+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1275,
+ "individuals": [
+  "Lakshmi Mittal",
+  "Aditya Mittal"
+ ],
+ "listed": false,
+ "oneLine": "South Africa is taking over Lakshmi and Aditya Mittal's steel business for ₹5,400 crore.",
+ "primaryUrl": "https://www.livemint.com/companies/news/south-africa-moves-towards-5-400-crore-takeover-of-lakshmi-mittal-s-struggling-steel-business-what-s-in-the-deal-11792823948118.html",
+ "seller": "Lakshmi and Aditya Mittal family",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-24T07:31:12.127817+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "South Africa moves towards ₹5,400 crore takeover of Lakshmi Mittal’s struggling steel business: What’s in the deal?",
+   "url": "https://www.livemint.com/companies/news/south-africa-moves-towards-5-400-crore-takeover-of-lakshmi-mittal-s-struggling-steel-business-what-s-in-the-deal-11792823948118.html"
+  }
+ ],
+ "synopsis": "South Africa's state-owned Industrial Development Corporation is moving toward a proposed ₹5,400 crore takeover of ArcelorMittal South Africa, controlled by Lakshmi Mittal and Aditya Mittal. The deal comprises approximately ₹1,620 crore in cash and the assumption of around ₹3,780 crore in debt. ArcelorMittal could exit its struggling South African steel business following years of financial difficulties, persistent losses, and operational pressures. The transaction remains subject to final agreements, definitive terms, and shareholder approval, with parties aiming to complete it before the end of 2026. The IDC currently holds an approximately 8.2% stake and has extended loans to the company.",
+ "ticker": null,
+ "updatedAt": "2026-10-24T07:31:15.542967+00:00"
+}
