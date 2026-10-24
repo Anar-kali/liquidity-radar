@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 2600.0,
+ "amountRaw": "₹2600.00 Cr (from article)",
+ "buyer": null,
+ "company": "Horizon Industrial Parks Ltd.",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-24T14:16:06.750287+00:00",
+ "dealType": "unknown",
+ "enrichmentState": null,
+ "id": 1277,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Horizon Industrial Parks is planning an IPO.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPYkJRaHVNYUhmYWhNSlZjMTNmSHVRRGQxRmJnUmV6QW1kVDczMS1hV3Naa3dCY3pzLWVfVi1aQmVtSEdEM0RIS3VtRHRnZlZWX1g5SWoxRmZBNUZwRmRKQ0RNWXgwdWU2dnJ4dF9aYWZFMEh0VkpuNjNZNFpaSE9sSjRCbUh6R2RtVlpWbkdrTV9LMDVmT2I4?oc=5",
+ "seller": "Horizon Industrial Parks Ltd",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-24T14:16:06.752377+00:00",
+   "outlet": "The Economic Times",
+   "resolvable": false,
+   "title": "Horizon Industrial Parks Ltd. IPO",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPYkJRaHVNYUhmYWhNSlZjMTNmSHVRRGQxRmJnUmV6QW1kVDczMS1hV3Naa3dCY3pzLWVfVi1aQmVtSEdEM0RIS3VtRHRnZlZWX1g5SWoxRmZBNUZwRmRKQ0RNWXgwdWU2dnJ4dF9aYWZFMEh0VkpuNjNZNFpaSE9sSjRCbUh6R2RtVlpWbkdrTV9LMDVmT2I4?oc=5"
+  }
+ ],
+ "synopsis": "Horizon Industrial Parks Limited executed a fresh issue IPO to raise Rs 2600.00 crore with a price band of Rs 57 to Rs 60 per share and a lot size of 250 shares. The issue opened on August 17, 2026, and closed on August 19, 2026, achieving a total subscription of 1.45 times, led by Qualified Institutional Buyers at 1.85 times. The company plans to use the proceeds primarily for investments in wholly owned subsidiaries such as Bagur Logistics Park Private Limited and Embassy Industrial Park Hosur Private Limited, alongside general corporate purposes. Book running lead managers for the IPO included SBI Capital Markets, JM Financial, IIFL Capital Services, Axis Capital, and 360 One Wam, with Cyril Amarchand Mangaldas acting as legal adviser and Kfin Technologies as registrar.",
+ "ticker": "HORIZONIND.NS",
+ "updatedAt": "2026-10-24T14:16:16.346881+00:00"
+}

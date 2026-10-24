@@ -1,6 +1,28 @@
 {
- "dealCount": 938,
+ "dealCount": 939,
  "deals": [
+  {
+   "amountCr": 2600.0,
+   "amountRaw": "₹2600.00 Cr (from article)",
+   "company": "Horizon Industrial Parks Ltd.",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-24T14:16:06.750287+00:00",
+   "dealType": "unknown",
+   "enrichmentState": null,
+   "id": 1277,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Horizon Industrial Parks is planning an IPO.",
+   "primaryOutlet": "The Economic Times",
+   "seller": "Horizon Industrial Parks Ltd",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "HORIZONIND.NS",
+   "updatedAt": "2026-10-24T14:16:16.346881+00:00",
+   "updates": []
+  },
   {
    "amountCr": 301.62,
    "amountRaw": "₹301.62 Cr (from article)",
@@ -29676,6 +29698,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-24T10:01:24.722415+00:00",
- "totalDeals": 938
+ "generatedAt": "2026-10-24T14:16:16.346881+00:00",
+ "totalDeals": 939
 }
