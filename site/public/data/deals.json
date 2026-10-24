@@ -1,6 +1,28 @@
 {
- "dealCount": 937,
+ "dealCount": 938,
  "deals": [
+  {
+   "amountCr": 301.62,
+   "amountRaw": "₹301.62 Cr (from article)",
+   "company": "Behari Lal Engineering Ltd.",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-24T10:01:18.586999+00:00",
+   "dealType": "unknown",
+   "enrichmentState": null,
+   "id": 1276,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Behari Lal Engineering Ltd. announced an IPO plan, creating promoter liquidity.",
+   "primaryOutlet": "The Economic Times",
+   "seller": "Promoters",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "BLEL.NS",
+   "updatedAt": "2026-10-24T10:01:24.722415+00:00",
+   "updates": []
+  },
   {
    "amountCr": 5400.0,
    "amountRaw": "₹5,400 crore",
@@ -29649,6 +29671,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-24T07:31:15.542967+00:00",
- "totalDeals": 937
+ "generatedAt": "2026-10-24T10:01:24.722415+00:00",
+ "totalDeals": 938
 }

@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 301.62,
+ "amountRaw": "₹301.62 Cr (from article)",
+ "buyer": null,
+ "company": "Behari Lal Engineering Ltd.",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-24T10:01:18.586999+00:00",
+ "dealType": "unknown",
+ "enrichmentState": null,
+ "id": 1276,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Behari Lal Engineering Ltd. announced an IPO plan, creating promoter liquidity.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPS2dobkZYUDN1R29nazlUVDlNNVRFWXpKVjhsTWE5RDJTdUtlQUg0d0lmR3MtSlpUR2xWMGMybUpqd1N5bG5fNTQ1WFQ4MWdjQUJZVjhvSFNkSk9OWTNpd0FuOTNhNFgyWGxueWhnZnJSWkNrS09TZ2NoUEVRYkhEc3FXSUR5QnE2SGM1WFlwMEZtdWpp?oc=5",
+ "seller": "Promoters",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-24T10:01:18.588153+00:00",
+   "outlet": "The Economic Times",
+   "resolvable": false,
+   "title": "Behari Lal Engineering Ltd. IPO",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPS2dobkZYUDN1R29nazlUVDlNNVRFWXpKVjhsTWE5RDJTdUtlQUg0d0lmR3MtSlpUR2xWMGMybUpqd1N5bG5fNTQ1WFQ4MWdjQUJZVjhvSFNkSk9OWTNpd0FuOTNhNFgyWGxueWhnZnJSWkNrS09TZ2NoUEVRYkhEc3FXSUR5QnE2SGM1WFlwMEZtdWpp?oc=5"
+  }
+ ],
+ "synopsis": "Behari Lal Engineering Ltd. launched its mainboard IPO with a total issue size of ₹301.62 crore, comprising a fresh issue of ₹93 crore and an offer for sale of ₹208.62 crore. The subscription period opened on August 12, 2026, and closed on August 14, 2026, with a price band of ₹271 to ₹285 per share and a lot size of 52 shares. The issue saw total subscription of 108.44x, led by heavy demand from qualified institutional buyers and non-institutional investors. The shares are scheduled to list on the NSE and BSE on August 19, 2026. Book running lead managers for the transaction include Systematix Corporate Services and Emkay Global Financial Services.",
+ "ticker": "BLEL.NS",
+ "updatedAt": "2026-10-24T10:01:24.722415+00:00"
+}
