@@ -89,10 +89,15 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-10-23T17:16:26.339990+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-10-24T10:45:56.566721+00:00",
+     "title": "M.K. Sons Fine Jewels Plans IPO Listing on BSE and NSE"
+    }
+   ]
   },
   {
    "amountCr": null,
