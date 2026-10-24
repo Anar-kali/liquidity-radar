@@ -187,13 +187,17 @@
    "seller": "Gallantt Ispat promoter",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": "GALLANTT.NS",
    "updatedAt": "2026-10-22T17:32:35.736946+00:00",
    "updates": [
     {
      "attachedAt": "2026-10-24T05:45:57.116169+00:00",
      "title": "Gallantt Ispat: Promoter Sells 2.65 Cr Shares in Block Deal"
+    },
+    {
+     "attachedAt": "2026-10-24T07:45:58.847172+00:00",
+     "title": "Gallantt Ispat promoter entity sells 26.5 lakh shares via block deal"
     }
    ]
   },
