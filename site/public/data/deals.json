@@ -209,13 +209,17 @@
    "seller": "Davidson Kempner, Syquant Capital and Petrus Advisers",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-10-23T01:31:11.868103+00:00",
    "updates": [
     {
      "attachedAt": "2026-10-23T17:45:47.073196+00:00",
      "title": "Tata Motors rules out raising Iveco bid, calls €14.40 offer ‘last and final’"
+    },
+    {
+     "attachedAt": "2026-10-25T01:31:03.014541+00:00",
+     "title": "Tata Motors stands firm on ₹1,531-per-share Iveco bid as investor questions valuation: All you need to know"
     }
    ]
   },
