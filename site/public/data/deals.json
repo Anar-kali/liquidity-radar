@@ -5214,7 +5214,7 @@
    "seller": "Carlsberg Group",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 14,
+   "sourceCount": 15,
    "ticker": null,
    "updatedAt": "2026-10-01T14:46:08.546312+00:00",
    "updates": [
@@ -5269,6 +5269,10 @@
     {
      "attachedAt": "2026-10-22T02:31:12.574052+00:00",
      "title": "Carlsberg prepares India business IPO worth up to $700 million, eyes December launch"
+    },
+    {
+     "attachedAt": "2026-10-25T07:15:54.632748+00:00",
+     "title": "Tuborg maker Carlsberg India’s FY26 revenue slips 2.2 pc ahead of IPO"
     }
    ]
   },
