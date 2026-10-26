@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "ITC Hotels",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-26T08:16:00.022347+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": "failed",
+ "id": 1287,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "ITC Hotels undergoing an acquisition.",
+ "primaryUrl": "https://nsearchives.nseindia.com/corporate/ITCHOTELS12_26102026133426_Outcome_A.pdf",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "mcap_plausible",
+ "sources": [
+  {
+   "attachedAt": "2026-10-26T08:16:00.023511+00:00",
+   "outlet": "NSE",
+   "resolvable": true,
+   "title": "ITCHOTELS: Acquisition",
+   "url": "https://nsearchives.nseindia.com/corporate/ITCHOTELS12_26102026133426_Outcome_A.pdf"
+  }
+ ],
+ "synopsis": null,
+ "ticker": "ITCHOTELS.NS",
+ "updatedAt": "2026-10-26T08:16:00.022347+00:00"
+}

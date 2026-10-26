@@ -1,6 +1,28 @@
 {
- "dealCount": 947,
+ "dealCount": 948,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "ITC Hotels",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-26T08:16:00.022347+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": "failed",
+   "id": 1287,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "ITC Hotels undergoing an acquisition.",
+   "primaryOutlet": "NSE",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "mcap_plausible",
+   "sourceCount": 1,
+   "ticker": "ITCHOTELS.NS",
+   "updatedAt": "2026-10-26T08:16:00.022347+00:00",
+   "updates": []
+  },
   {
    "amountCr": 8300.0,
    "amountRaw": "$1 billion",
@@ -29918,6 +29940,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-26T08:01:23.281668+00:00",
- "totalDeals": 947
+ "generatedAt": "2026-10-26T08:16:00.022347+00:00",
+ "totalDeals": 948
 }
