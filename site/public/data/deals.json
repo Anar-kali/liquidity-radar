@@ -1,6 +1,28 @@
 {
- "dealCount": 952,
+ "dealCount": 953,
  "deals": [
+  {
+   "amountCr": 816.4,
+   "amountRaw": "3.7% x mcap ~Rs 22065cr = ~Rs 816cr",
+   "company": "TVS Holdings",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-26T17:01:56.092079+00:00",
+   "dealType": "promoter sale",
+   "enrichmentState": null,
+   "id": 1292,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "TSF Investments board approves selling a 3.7% stake in TVS Holdings.",
+   "primaryOutlet": "BusinessLine",
+   "seller": "TSF Investments",
+   "sizeBand": null,
+   "sizeSource": "computed",
+   "sourceCount": 1,
+   "ticker": "TVSHLTD.NS",
+   "updatedAt": "2026-10-26T17:02:21.724637+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -30052,6 +30074,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-26T16:32:12.489466+00:00",
- "totalDeals": 952
+ "generatedAt": "2026-10-26T17:02:21.724637+00:00",
+ "totalDeals": 953
 }

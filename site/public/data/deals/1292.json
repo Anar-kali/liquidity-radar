@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 816.4,
+ "amountRaw": "3.7% x mcap ~Rs 22065cr = ~Rs 816cr",
+ "buyer": "existing members of the Promoter and Promoter Group of TVS Holdings Ltd",
+ "company": "TVS Holdings",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-26T17:01:56.092079+00:00",
+ "dealType": "promoter sale",
+ "enrichmentState": null,
+ "id": 1292,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "TSF Investments board approves selling a 3.7% stake in TVS Holdings.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPNXZZeXJNNGpwSmpWOWZmc0NHYWJ3VUVSWmp0aENxTXJ2R2tDTXdEYXVqOEV1bVNoRTE5MTlDLVk2eXpHd21iRVhJRVVTMzFqSVNHUm1EVkVRSzE1OG9qX1JHa3UzNUM0cnVjbmdCeEdEQVV2RE9pTHphS0tWckVlbUhLUm1xbng0Mkl3ZXhJbTl3Wm0wbEZRMjU1NldpbjZIWmpBMTJSV2NpVDVMQWNCY3NYTGd1Q04yQUFvekZrdHI2bVlXOXBnLWVpLWdRLXFtdVk1N29GamR4Z9IB4AFBVV95cUxPRjJraWdkVm1vUXF6WkNRRlVXQzY3UEMtczRQVkZyTml0dENHS1FBeGJmaFNFTjZYRTFlekc3aGJhY3JPSkxNa0htT0x1eC1NYmNxNTFJQ2lQRDNRTmR4Ynhhck16Uk01dlpBY1BoaENiRUVrYTR6Q0h6OGlLVVktZGpCRWZlZlByZzY0UmVXTXY0cWNrRjZIWmFLUnA5LTZieVBNOWZ5cHZ1NFJzVHhkVFBNZlVsQjZhenRRajA0VGIxb04tVlpDQ19MNnBmZnl5cmRTSDVRU3pIOWhDYjh5TA?oc=5",
+ "seller": "TSF Investments",
+ "sizeBand": null,
+ "sizeSource": "computed",
+ "sources": [
+  {
+   "attachedAt": "2026-10-26T17:01:56.093754+00:00",
+   "outlet": "BusinessLine",
+   "resolvable": false,
+   "title": "TSF Investments’ Board approves sale of 3.7% stake in TVS Holdings",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPNXZZeXJNNGpwSmpWOWZmc0NHYWJ3VUVSWmp0aENxTXJ2R2tDTXdEYXVqOEV1bVNoRTE5MTlDLVk2eXpHd21iRVhJRVVTMzFqSVNHUm1EVkVRSzE1OG9qX1JHa3UzNUM0cnVjbmdCeEdEQVV2RE9pTHphS0tWckVlbUhLUm1xbng0Mkl3ZXhJbTl3Wm0wbEZRMjU1NldpbjZIWmpBMTJSV2NpVDVMQWNCY3NYTGd1Q04yQUFvekZrdHI2bVlXOXBnLWVpLWdRLXFtdVk1N29GamR4Z9IB4AFBVV95cUxPRjJraWdkVm1vUXF6WkNRRlVXQzY3UEMtczRQVkZyTml0dENHS1FBeGJmaFNFTjZYRTFlekc3aGJhY3JPSkxNa0htT0x1eC1NYmNxNTFJQ2lQRDNRTmR4Ynhhck16Uk01dlpBY1BoaENiRUVrYTR6Q0h6OGlLVVktZGpCRWZlZlByZzY0UmVXTXY0cWNrRjZIWmFLUnA5LTZieVBNOWZ5cHZ1NFJzVHhkVFBNZlVsQjZhenRRajA0VGIxb04tVlpDQ19MNnBmZnl5cmRTSDVRU3pIOWhDYjh5TA?oc=5"
+  }
+ ],
+ "synopsis": "TSF Investments Ltd announced that its board of directors approved the sale of its entire holding of 7,55,682 equity shares, representing a 3.74 per cent stake, in TVS Holdings Ltd. The shares are to be sold to existing members of the Promoter and Promoter Group of TVS Holdings Ltd through a block deal window mechanism or another permitted regulatory framework. The transaction is not a related party transaction and is expected to be completed on or before November 2.",
+ "ticker": "TVSHLTD.NS",
+ "updatedAt": "2026-10-26T17:02:21.724637+00:00"
+}
