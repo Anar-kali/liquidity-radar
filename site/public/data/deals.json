@@ -1,6 +1,28 @@
 {
- "dealCount": 946,
+ "dealCount": 947,
  "deals": [
+  {
+   "amountCr": 8300.0,
+   "amountRaw": "$1 billion",
+   "company": "Hindustan Coca-Cola Beverages",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-26T08:01:13.689604+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 1286,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Coca-Cola India bottler plans to file DRHP for a $1 billion IPO.",
+   "primaryOutlet": "Moneycontrol.com",
+   "seller": "Promoters and shareholders",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-26T08:01:23.281668+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -29896,6 +29918,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-26T07:16:05.332951+00:00",
- "totalDeals": 946
+ "generatedAt": "2026-10-26T08:01:23.281668+00:00",
+ "totalDeals": 947
 }

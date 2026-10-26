@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 8300.0,
+ "amountRaw": "$1 billion",
+ "buyer": null,
+ "company": "Hindustan Coca-Cola Beverages",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-26T08:01:13.689604+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": null,
+ "id": 1286,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Coca-Cola India bottler plans to file DRHP for a $1 billion IPO.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNYmJ4ZkVhakctU3ZwSk9WM0FibmtxcE95WTFPdjExQlBYYWhzaHRNQ0hSaHBlWmpPcy1tYksyZmZ2aHpUU3BFc21nZk9XZnJzVjdibzI0ZHlFWXhrNkhMR0syaWY5ekZjR0oxWkFtYThydnJKUnZyNHp3VGZQcmhTb3NMQWlqWXJzU0wzQWVobWZNOVdiZjhYcy02Tk1XMTBwQ1JVMWpxbUNBSjZKOVRhSWVaMjFwc0xENmt6S2RVRXhKdWFRdEl1VzE1RUNPaFBZN3fSAdcBQVVfeXFMT1k0S0p0cVpHUGFXVXNacDRlN2pZSHpqRDZMckFIY015WmYycGZzaVA2cENaUnJlV3lTOFB2S1EtNVFxNkxBRnFRVF9LS2ZOck0tRzNwYWhuV2xEd19Xc0RpdVhTSE1KR1pXUEhrZ1lpdDFGbTdYbzlyWWJ1bzhYSUF4aWpvQzV5VEdFOFQzVWwtXzE0SllHeVZmRzg0WGdtdnJucnprMjJYNXFhMjdYTXc4cGp6Q19EcWttc0J5LXJoOHdJUHpJVjU2S19veVllakVJbjc3OXc?oc=5",
+ "seller": "Promoters and shareholders",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-26T08:01:13.694073+00:00",
+   "outlet": "Moneycontrol.com",
+   "resolvable": false,
+   "title": "Coca-Cola India bottler likely to file DRHP this week for $1 billion IPO",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNYmJ4ZkVhakctU3ZwSk9WM0FibmtxcE95WTFPdjExQlBYYWhzaHRNQ0hSaHBlWmpPcy1tYksyZmZ2aHpUU3BFc21nZk9XZnJzVjdibzI0ZHlFWXhrNkhMR0syaWY5ekZjR0oxWkFtYThydnJKUnZyNHp3VGZQcmhTb3NMQWlqWXJzU0wzQWVobWZNOVdiZjhYcy02Tk1XMTBwQ1JVMWpxbUNBSjZKOVRhSWVaMjFwc0xENmt6S2RVRXhKdWFRdEl1VzE1RUNPaFBZN3fSAdcBQVVfeXFMT1k0S0p0cVpHUGFXVXNacDRlN2pZSHpqRDZMckFIY015WmYycGZzaVA2cENaUnJlV3lTOFB2S1EtNVFxNkxBRnFRVF9LS2ZOck0tRzNwYWhuV2xEd19Xc0RpdVhTSE1KR1pXUEhrZ1lpdDFGbTdYbzlyWWJ1bzhYSUF4aWpvQzV5VEdFOFQzVWwtXzE0SllHeVZmRzg0WGdtdnJucnprMjJYNXFhMjdYTXc4cGp6Q19EcWttc0J5LXJoOHdJUHpJVjU2S19veVllakVJbjc3OXc?oc=5"
+  }
+ ],
+ "synopsis": "Hindustan Coca-Cola Holdings, the parent company for Indian Coca-Cola bottler Hindustan Coca-Cola Beverages, is likely to file its draft red herring prospectus with SEBI for a $1 billion initial public offering, expected to occur in 2027. The issue size is estimated around $1 billion for a stake sale, with the firm seeking a valuation of $10 billion. Rothschild & Co has been retained to advise on the listing, while Axis Capital and IIFL Capital Services are part of the issue's syndicate. The listing aims to complete the refranchising of HCCH. The Coca-Cola Company retains a 60% stake following a transaction with Jubilant Bhartia Group, which acquired a 40% stake in July 2025.",
+ "ticker": null,
+ "updatedAt": "2026-10-26T08:01:23.281668+00:00"
+}
