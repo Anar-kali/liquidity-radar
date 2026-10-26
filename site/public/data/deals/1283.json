@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Tata Sons",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-26T01:31:06.718390+00:00",
+ "dealType": "other",
+ "enrichmentState": "failed",
+ "id": 1283,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "SP Group seeks fair value for its Tata Sons stake.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNlNEeFNhWEIzcE1rVkJzUW9HcmEzeXUtZThFRkVYV2wtRnpfemtVeGU5cVpzbnRJZHRHVUZ6RTFTVUwtUW43ODk3OHd1YUc4WWN0Rl8yV2s0UDQzVElvbjlaOWtOV3JITUY1TmFRMEZudTRnY2stelpoNlNFU3haaU5vZ2kwNDBzVUJxV1lORTRtYkw5TmlKTnhrLWR4YmVUVDRKbV81OWpWUUlfUVB6LVJTOXFYajcycS1TSGNCNmtrdVdpa1dUd1hB0gHQAUFVX3lxTFB0ekdUcVJSUDJfa3R1VGJJYU14TG8xUGtmQ1QtajRPNkZlMmxjcnFaNHM2Qzh4Ni1iM18wdFFvRjlJTVIwRkVXM2RWYS1sUzBBRTlNdTNmR2dhek0zS2doZ3ROTWZqZ2RwV1BfaWxMRWJzdTJFbUpsWkcxQXYxUGI0NlN1TFhGNmotLU8waU10ZXdsUGlvT0lzTTRYejNGWWFXMnFrZFVPdTh3RVpzdHJBTXRjdlFYeW54VUdRMzZHLXd1cEJ3RExpSU5kYUdoTGo?oc=5",
+ "seller": "SP Group",
+ "sizeBand": "OVER_2000",
+ "sizeSource": "band",
+ "sources": [
+  {
+   "attachedAt": "2026-10-26T01:31:06.719567+00:00",
+   "outlet": "The Financial Express",
+   "resolvable": false,
+   "title": "SP Group seeks fair value for Tata Sons stake",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNlNEeFNhWEIzcE1rVkJzUW9HcmEzeXUtZThFRkVYV2wtRnpfemtVeGU5cVpzbnRJZHRHVUZ6RTFTVUwtUW43ODk3OHd1YUc4WWN0Rl8yV2s0UDQzVElvbjlaOWtOV3JITUY1TmFRMEZudTRnY2stelpoNlNFU3haaU5vZ2kwNDBzVUJxV1lORTRtYkw5TmlKTnhrLWR4YmVUVDRKbV81OWpWUUlfUVB6LVJTOXFYajcycS1TSGNCNmtrdVdpa1dUd1hB0gHQAUFVX3lxTFB0ekdUcVJSUDJfa3R1VGJJYU14TG8xUGtmQ1QtajRPNkZlMmxjcnFaNHM2Qzh4Ni1iM18wdFFvRjlJTVIwRkVXM2RWYS1sUzBBRTlNdTNmR2dhek0zS2doZ3ROTWZqZ2RwV1BfaWxMRWJzdTJFbUpsWkcxQXYxUGI0NlN1TFhGNmotLU8waU10ZXdsUGlvT0lzTTRYejNGWWFXMnFrZFVPdTh3RVpzdHJBTXRjdlFYeW54VUdRMzZHLXd1cEJ3RExpSU5kYUdoTGo?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-10-26T01:31:06.718390+00:00"
+}

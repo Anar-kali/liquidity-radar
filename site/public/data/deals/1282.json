@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 1530.0,
+ "amountRaw": "₹1,530 crore",
+ "buyer": "SEPC",
+ "company": "Avenir",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-26T01:31:06.706798+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": "failed",
+ "id": 1282,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "SEPC to acquire 90% stake in UAE's Avenir for 1,530 crore rupees.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOb00xeS04a0c2MV9fbTJLVUd6ZHljLTMtaEU4NmlfNjU5Z0k1X29PSllKUmNhS0E0ZFpyeXRIVl92Tk1hbHRmMjc4VXhYeDY1NVItdVZGZDdVMV9Tc3JrWE1TRWViQ0djWG1talNRQWNfVjVfZDNJRXNhWS1WVHhxZEJFeU1aQ0ZzOEpPdGM1TDJLdnZmOUc1MHI1VWxSaWNqNkYtVldJVHFzNUswRldCQjkzNTN0dU0?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-26T01:31:06.708013+00:00",
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "SEPC to acquire 90% stake in UAE's Avenir for ₹1,530 crore",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOb00xeS04a0c2MV9fbTJLVUd6ZHljLTMtaEU4NmlfNjU5Z0k1X29PSllKUmNhS0E0ZFpyeXRIVl92Tk1hbHRmMjc4VXhYeDY1NVItdVZGZDdVMV9Tc3JrWE1TRWViQ0djWG1talNRQWNfVjVfZDNJRXNhWS1WVHhxZEJFeU1aQ0ZzOEpPdGM1TDJLdnZmOUc1MHI1VWxSaWNqNkYtVldJVHFzNUswRldCQjkzNTN0dU0?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-10-26T01:31:06.706798+00:00"
+}

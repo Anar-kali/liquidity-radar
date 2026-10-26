@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Indo Tech Transformers",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-26T01:31:06.700273+00:00",
+ "dealType": "block deal",
+ "enrichmentState": "failed",
+ "id": 1280,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Shirdi Sai Electricals cuts stake in Indo Tech Transformers.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOaE5aYnpUR0ljYVVsTnNXZEQ0b1RqdUhUTHlDTzFWejd5enFic1gtMG1ZTHN2QU1TeXZiM3BFVGZhZWh3WFJFY1hUblB4REtNNG51SW9jSGZqUmRaT0JQZ2daREZOZEhmSkZPb2RCRGZoVGg0WFl2TDJSdDVLOGctV3pUT1FXekJlTTgzbk9pUUJYTmVBMnFtdWdVaWQwUlhZZVZtWnlVVF9PdGVndGVuVXplUlpoZldmbllRendvNF9RdTA?oc=5",
+ "seller": "Shirdi Sai Electricals",
+ "sizeBand": null,
+ "sizeSource": "mcap_plausible",
+ "sources": [
+  {
+   "attachedAt": "2026-10-26T01:31:06.701508+00:00",
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "Shirdi Sai Electricals cuts stake in Indo Tech Transformers",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOaE5aYnpUR0ljYVVsTnNXZEQ0b1RqdUhUTHlDTzFWejd5enFic1gtMG1ZTHN2QU1TeXZiM3BFVGZhZWh3WFJFY1hUblB4REtNNG51SW9jSGZqUmRaT0JQZ2daREZOZEhmSkZPb2RCRGZoVGg0WFl2TDJSdDVLOGctV3pUT1FXekJlTTgzbk9pUUJYTmVBMnFtdWdVaWQwUlhZZVZtWnlVVF9PdGVndGVuVXplUlpoZldmbllRendvNF9RdTA?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": "INDOTECH.NS",
+ "updatedAt": "2026-10-26T01:31:06.700273+00:00"
+}

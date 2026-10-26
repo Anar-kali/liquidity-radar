@@ -1,0 +1,34 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "360 ONE, TR Capital",
+ "company": "Paper Boat",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-26T01:31:06.703725+00:00",
+ "dealType": "PE secondary",
+ "enrichmentState": null,
+ "id": 1281,
+ "individuals": [
+  "Neeraj Kakkar"
+ ],
+ "listed": false,
+ "oneLine": "360 ONE and TR Capital eyeing early backers' stake in Paper Boat.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPNHJ2ZUFPZi1tNU52OEo4STZ6R2VZcFZCTkVIOEhiemtDeG8xb3lITjFLejVUZGhXaHpnNW91QUUxN3lXQ2ZRcUxmSGhheEZwbFlnbS1tNDhuVmFWaWszWlRHS1dNd1hMZ0VQdlpCbk8yYVBtd2NQdnNHUVNfMXhvSFlqZENlUjVFekZGZHdSZVBCMUk4ZllQVUtobFR6cW1LMjFEUXgxekJJbFd5bkpObEd3LWs5LXljbWpySFY5UjMyOXNkTTB6d0luUm8wc1d4cmJ2QzNSa2M1RUcta2g2cTdPcGNEa2g50gHuAUFVX3lxTFBwWHAyMzZZTUVaS0p5d0IwY0R0M1RLNHRsb0lmM29STkRQTFNleF8xM1UxVjFXMjVEb2R5bXZHbEMyZTlBMGhZR1ItaWo1YTZzYVdXSFp2S2JWcGV2S3RHTmtvV3RERzJYZGRMZUkwV1pYSXNGUHJCdkVQTGc5Y3IxdzhwRW0yQ3loUnFJZ2ZlMG9GTzJrbmQ2cnlOaWcxV1lsS3dQOGc4eGRXV1JKX2hKSTlQd25LS0VwaXduWmhsY3VZZ21lRWFLN05wd0FHRmkxYjdJOFA3cW8xNWFoa2o4Q3JPTU1ER0cwNHdFbUE?oc=5",
+ "seller": "early backers",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-10-26T01:31:06.704763+00:00",
+   "outlet": "The Economic Times",
+   "resolvable": false,
+   "title": "360 ONE, TR Capital among buyers eyeing Paper Boat early backers stake",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPNHJ2ZUFPZi1tNU52OEo4STZ6R2VZcFZCTkVIOEhiemtDeG8xb3lITjFLejVUZGhXaHpnNW91QUUxN3lXQ2ZRcUxmSGhheEZwbFlnbS1tNDhuVmFWaWszWlRHS1dNd1hMZ0VQdlpCbk8yYVBtd2NQdnNHUVNfMXhvSFlqZENlUjVFekZGZHdSZVBCMUk4ZllQVUtobFR6cW1LMjFEUXgxekJJbFd5bkpObEd3LWs5LXljbWpySFY5UjMyOXNkTTB6d0luUm8wc1d4cmJ2QzNSa2M1RUcta2g2cTdPcGNEa2g50gHuAUFVX3lxTFBwWHAyMzZZTUVaS0p5d0IwY0R0M1RLNHRsb0lmM29STkRQTFNleF8xM1UxVjFXMjVEb2R5bXZHbEMyZTlBMGhZR1ItaWo1YTZzYVdXSFp2S2JWcGV2S3RHTmtvV3RERzJYZGRMZUkwV1pYSXNGUHJCdkVQTGc5Y3IxdzhwRW0yQ3loUnFJZ2ZlMG9GTzJrbmQ2cnlOaWcxV1lsS3dQOGc4eGRXV1JKX2hKSTlQd25LS0VwaXduWmhsY3VZZ21lRWFLN05wd0FHRmkxYjdJOFA3cW8xNWFoa2o4Q3JPTU1ER0cwNHdFbUE?oc=5"
+  }
+ ],
+ "synopsis": "Private equity firms 360 ONE and TR Capital are in discussions to acquire a 20 to 22 percent stake in Hector Beverages, the owner of the Paper Boat brand, from early investors. Existing investors like A91 Partners and Sofina are considering partial exits, while others including Sequoia Capital, Footprint Ventures, Eudora Ventures, Mirabilis Investment Trust, Trifecta Capital, and Stride Ventures are looking to sell their entire stakes. The target company is valued around 2,700 to 3,000 crore rupees. The secondary stake sale aims to clean up the cap table and consolidate shareholding ahead of a planned IPO in 2027. Avendus Capital is advising on the transaction.",
+ "ticker": null,
+ "updatedAt": "2026-10-26T01:31:17.100948+00:00"
+}

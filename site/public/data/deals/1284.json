@@ -1,0 +1,36 @@
+{
+ "advisers": [],
+ "amountCr": 300.0,
+ "amountRaw": "₹300 crore",
+ "buyer": null,
+ "company": "Wow! Momo",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-26T01:31:06.727665+00:00",
+ "dealType": "IPO-OFS",
+ "enrichmentState": null,
+ "id": 1284,
+ "individuals": [
+  "Sagar Daryani",
+  "Sagar J. Daryani",
+  "Madhusudan Kela"
+ ],
+ "listed": false,
+ "oneLine": "Wow! Momo plans 300 crore fundraise ahead of proposed IPO.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRVNxSnpPVWhMZmtveDMzV21UNUE3cEVZYkJCQXJpSGZGODVWUG1nR0hKaTZnVXlDaXdSNGI4aDE5dnBoemw2eWwyajhVd2RhZUNOeWs0TFRxXzFicTFQby1ac1dLUlV1LTFpSjVnNGJxWExSLUIyVjcwS1NEclhuLUtGSThVLXNfMGUyMEg3SUQ5aHdzLW5PZDhhZ3dRR0FuRFl6aS1kWVBTTG_SAbABQVVfeXFMUDkwVDEzZTdiSnBCMDVYNGJxUTNGM19lZDFESzNrMUllU1QzQmFyYnlRXzJhX0dqUG1henlnaWo3U0FJRHF2MDZOVzlzZTNyMHNObFhfUnpDYmdlTUZ5aXpqTEpYZVlxVWxaUFZDY0FBaW1JUGFOb3dYUzRtM1R4cE9NQ1RLU1kzeE1CcnJ2dGI1VWpuUkdYT1hmQ1RIUnZ3bkM4Q3lPU1plRFdCaTZfUjI?oc=5",
+ "seller": "Wow! Momo Foods",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-26T01:31:06.728731+00:00",
+   "outlet": "Livemint",
+   "resolvable": false,
+   "title": "Wow! Momo plans ₹300 crore fundraise, eyes overseas expansion ahead of proposed IPO",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRVNxSnpPVWhMZmtveDMzV21UNUE3cEVZYkJCQXJpSGZGODVWUG1nR0hKaTZnVXlDaXdSNGI4aDE5dnBoemw2eWwyajhVd2RhZUNOeWs0TFRxXzFicTFQby1ac1dLUlV1LTFpSjVnNGJxWExSLUIyVjcwS1NEclhuLUtGSThVLXNfMGUyMEg3SUQ5aHdzLW5PZDhhZ3dRR0FuRFl6aS1kWVBTTG_SAbABQVVfeXFMUDkwVDEzZTdiSnBCMDVYNGJxUTNGM19lZDFESzNrMUllU1QzQmFyYnlRXzJhX0dqUG1henlnaWo3U0FJRHF2MDZOVzlzZTNyMHNObFhfUnpDYmdlTUZ5aXpqTEpYZVlxVWxaUFZDY0FBaW1JUGFOb3dYUzRtM1R4cE9NQ1RLU1kzeE1CcnJ2dGI1VWpuUkdYT1hmQ1RIUnZ3bkM4Q3lPU1plRFdCaTZfUjI?oc=5"
+  }
+ ],
+ "synopsis": "Quick-service restaurant chain Wow! Momo Foods is planning a fundraise of ₹250 to 300 crore to finance its restaurant expansion in India ahead of a potential initial public offering in the next 18 to 24 months. Co-founder Sagar Daryani stated that founders could participate in the round alongside incoming investors, with proceeds supporting new store openings, working capital, and debt repayment. The Kolkata-based company operates Wow! Momo, Wow! China, and Wow! Chicken, and is simultaneously pursuing international expansion including entry into Sri Lanka and the UAE, alongside scaling its packaged-food business. Tiger Global Management, Khazanah, Madhusudan Kela, 360 One, and the owner of Haldiram are listed as previous investors in the business.",
+ "ticker": null,
+ "updatedAt": "2026-10-26T01:31:30.158306+00:00"
+}

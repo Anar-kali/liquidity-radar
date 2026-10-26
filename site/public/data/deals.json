@@ -1,6 +1,122 @@
 {
- "dealCount": 940,
+ "dealCount": 945,
  "deals": [
+  {
+   "amountCr": 300.0,
+   "amountRaw": "₹300 crore",
+   "company": "Wow! Momo",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-26T01:31:06.727665+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 1284,
+   "individuals": [
+    "Sagar Daryani",
+    "Sagar J. Daryani",
+    "Madhusudan Kela"
+   ],
+   "listed": false,
+   "oneLine": "Wow! Momo plans 300 crore fundraise ahead of proposed IPO.",
+   "primaryOutlet": "Livemint",
+   "seller": "Wow! Momo Foods",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-26T01:31:30.158306+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Tata Sons",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-26T01:31:06.718390+00:00",
+   "dealType": "other",
+   "enrichmentState": "failed",
+   "id": 1283,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "SP Group seeks fair value for its Tata Sons stake.",
+   "primaryOutlet": "The Financial Express",
+   "seller": "SP Group",
+   "sizeBand": "OVER_2000",
+   "sizeSource": "band",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-26T01:31:06.718390+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 1530.0,
+   "amountRaw": "₹1,530 crore",
+   "company": "Avenir",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-26T01:31:06.706798+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": "failed",
+   "id": 1282,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "SEPC to acquire 90% stake in UAE's Avenir for 1,530 crore rupees.",
+   "primaryOutlet": "scanx.trade",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-26T01:31:06.706798+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Paper Boat",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-26T01:31:06.703725+00:00",
+   "dealType": "PE secondary",
+   "enrichmentState": null,
+   "id": 1281,
+   "individuals": [
+    "Neeraj Kakkar"
+   ],
+   "listed": false,
+   "oneLine": "360 ONE and TR Capital eyeing early backers' stake in Paper Boat.",
+   "primaryOutlet": "The Economic Times",
+   "seller": "early backers",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-26T01:31:17.100948+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Indo Tech Transformers",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-26T01:31:06.700273+00:00",
+   "dealType": "block deal",
+   "enrichmentState": "failed",
+   "id": 1280,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Shirdi Sai Electricals cuts stake in Indo Tech Transformers.",
+   "primaryOutlet": "scanx.trade",
+   "seller": "Shirdi Sai Electricals",
+   "sizeBand": null,
+   "sizeSource": "mcap_plausible",
+   "sourceCount": 1,
+   "ticker": "INDOTECH.NS",
+   "updatedAt": "2026-10-26T01:31:06.700273+00:00",
+   "updates": []
+  },
   {
    "amountCr": 1215.0,
    "amountRaw": "Rs 1,215 crore",
@@ -18,10 +134,15 @@
    "seller": "Kae Capital, Accel, Peak XV and Lightspeed",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-10-24T15:16:05.907726+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-10-26T01:31:06.714981+00:00",
+     "title": "Accel once rejected Zetwerk: Now it sells a slice of its stake in the IPO"
+    }
+   ]
   },
   {
    "amountCr": 2600.0,
@@ -29732,6 +29853,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-24T15:16:05.907726+00:00",
- "totalDeals": 940
+ "generatedAt": "2026-10-26T01:31:30.158306+00:00",
+ "totalDeals": 945
 }
