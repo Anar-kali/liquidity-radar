@@ -1,6 +1,28 @@
 {
- "dealCount": 951,
+ "dealCount": 952,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Ultraviolette",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-26T16:31:46.728397+00:00",
+   "dealType": "unknown",
+   "enrichmentState": null,
+   "id": 1291,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Ultraviolette CEO discusses future IPO plans and international expansion.",
+   "primaryOutlet": "CNBC TV18",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-26T16:32:12.489466+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -30030,6 +30052,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-26T15:32:40.053335+00:00",
- "totalDeals": 951
+ "generatedAt": "2026-10-26T16:32:12.489466+00:00",
+ "totalDeals": 952
 }
