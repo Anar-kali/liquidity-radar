@@ -534,7 +534,7 @@
    "seller": "Prism",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 5,
+   "sourceCount": 6,
    "ticker": null,
    "updatedAt": "2026-10-22T07:03:03.089615+00:00",
    "updates": [
@@ -553,6 +553,10 @@
     {
      "attachedAt": "2026-10-24T07:01:10.957471+00:00",
      "title": "OYO IPO Size Cut to ₹3,350 Cr: Red Flag or Smart Move?"
+    },
+    {
+     "attachedAt": "2026-10-26T01:45:56.090740+00:00",
+     "title": "OYO parent PRISM nearly halves proposed IPO size to INR 3,350 crore"
     }
    ]
   },
