@@ -1,6 +1,28 @@
 {
- "dealCount": 950,
+ "dealCount": 951,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Bigbloc Building Elements Ltd",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-26T15:32:19.862515+00:00",
+   "dealType": "other",
+   "enrichmentState": null,
+   "id": 1290,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Bigbloc Building Elements Ltd announced plans for an IPO, bringing future liquidity to promoters.",
+   "primaryOutlet": "EquityBulls",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-26T15:32:40.053335+00:00",
+   "updates": []
+  },
   {
    "amountCr": 3467.2,
    "amountRaw": "$394M converted to approx 3,467 crore INR at 88 INR/USD",
@@ -30004,6 +30026,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-26T13:16:32.159403+00:00",
- "totalDeals": 950
+ "generatedAt": "2026-10-26T15:32:40.053335+00:00",
+ "totalDeals": 951
 }

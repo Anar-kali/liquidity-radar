@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Bigbloc Building Elements Ltd",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-26T15:32:19.862515+00:00",
+ "dealType": "other",
+ "enrichmentState": null,
+ "id": 1290,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Bigbloc Building Elements Ltd announced plans for an IPO, bringing future liquidity to promoters.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTjNmQ3lmYXE1QTI5clhYcVpfcjIzbGZXckJ4YVdhZmpKdF9PMDUwRU5TZUx0YThBczRqanlJbW03c1VvTU9qWGxHRVRxMkVpcjJnNjlDTGZrMjVKUEFoVlFpeWNtVmZFY1oyUkpfWlRjd3Z2RVFZZy1NcVpJd0lfcHpaNHcteHEwc2JR?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-10-26T15:32:19.864118+00:00",
+   "outlet": "EquityBulls",
+   "resolvable": false,
+   "title": "Bigbloc Building Elements Ltd plans for IPO",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTjNmQ3lmYXE1QTI5clhYcVpfcjIzbGZXckJ4YVdhZmpKdF9PMDUwRU5TZUx0YThBczRqanlJbW03c1VvTU9qWGxHRVRxMkVpcjJnNjlDTGZrMjVKUEFoVlFpeWNtVmZFY1oyUkpfWlRjd3Z2RVFZZy1NcVpJd0lfcHpaNHcteHEwc2JR?oc=5"
+  }
+ ],
+ "synopsis": "Bigbloc Building Elements Limited, a material subsidiary of Bigbloc Construction Limited, has announced that its Board of Directors approved in principle the raising of funds through an Initial Public Offering of its equity shares on 26th October 2026. The proposed IPO is subject to shareholder, regulatory, and statutory approvals, including from SEBI and the stock exchanges, along with market conditions. The size, structure, price, timing, and other terms will be decided in due course. BBEL was previously converted from a private limited company into a public limited company and will remain a subsidiary of Bigbloc Construction Limited following the IPO.",
+ "ticker": null,
+ "updatedAt": "2026-10-26T15:32:40.053335+00:00"
+}
