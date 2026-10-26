@@ -1,6 +1,28 @@
 {
- "dealCount": 945,
+ "dealCount": 946,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Readily Solutions",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-26T07:16:05.332951+00:00",
+   "dealType": "unknown",
+   "enrichmentState": "failed",
+   "id": 1285,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Readily Solutions plans an IPO in FY28 following strong revenue growth.",
+   "primaryOutlet": "BW Auto World",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-26T07:16:05.332951+00:00",
+   "updates": []
+  },
   {
    "amountCr": 300.0,
    "amountRaw": "₹300 crore",
@@ -29874,6 +29896,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-26T01:31:30.158306+00:00",
- "totalDeals": 945
+ "generatedAt": "2026-10-26T07:16:05.332951+00:00",
+ "totalDeals": 946
 }

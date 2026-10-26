@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Readily Solutions",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-26T07:16:05.332951+00:00",
+ "dealType": "unknown",
+ "enrichmentState": "failed",
+ "id": 1285,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Readily Solutions plans an IPO in FY28 following strong revenue growth.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUThucDRtZGNtUmctdXB4dFdtSmhmY0Nra25wdzh6Yk1QV1M2MEVHR3ZIRjZ1b0lIVmRYWU1Ha1BlbE9RQW5SM0kteXJCVG1lX0dGMHFEZlE0ZGhWbFU2TTVxTTJOWlBjajVIYUMwYWNhQ0w0bzk4OW41LVcwU3VnQlRmZUtFRjd5azVuU3oyTmNJendVbUk1UlFkVGg5ZU8tZEdsSHcwRmo4LWVITVBzUWZn?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-10-26T07:16:05.336156+00:00",
+   "outlet": "BW Auto World",
+   "resolvable": false,
+   "title": "Readily Solutions Reports 157% Revenue Growth In H1 FY27, Plans IPO In FY28",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUThucDRtZGNtUmctdXB4dFdtSmhmY0Nra25wdzh6Yk1QV1M2MEVHR3ZIRjZ1b0lIVmRYWU1Ha1BlbE9RQW5SM0kteXJCVG1lX0dGMHFEZlE0ZGhWbFU2TTVxTTJOWlBjajVIYUMwYWNhQ0w0bzk4OW41LVcwU3VnQlRmZUtFRjd5azVuU3oyTmNJendVbUk1UlFkVGg5ZU8tZEdsSHcwRmo4LWVITVBzUWZn?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-10-26T07:16:05.332951+00:00"
+}
