@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 3467.2,
+ "amountRaw": "$394M converted to approx 3,467 crore INR at 88 INR/USD",
+ "buyer": null,
+ "company": "unknown",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-26T13:16:32.159403+00:00",
+ "dealType": "IPO-OFS",
+ "enrichmentState": "failed",
+ "id": 1289,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "An unnamed green energy firm is planning a $394M IPO in India, creating promoter liquidity.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxObU5SR3ZxTUJHMndIbmZScG5PcG1nWHF6R1RnenE5ZVVmR0htVmROQkt5djNleWRuN181SU91eHpxN0p2eENwVnVZVGNReWdnVE1GZ2NXb3NGOHdpcTZTWW9jWlpMVS1rVUFKY3N0b2lvTFlFUWtGcndqR0VMOEc0U3llSnBpbGxzYWJ4bjhIVlh2dmk2V2I0bmpPNXY?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-26T13:16:32.323144+00:00",
+   "outlet": "NewsBytes",
+   "resolvable": false,
+   "title": "This green energy firm is planning $394M IPO in India",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxObU5SR3ZxTUJHMndIbmZScG5PcG1nWHF6R1RnenE5ZVVmR0htVmROQkt5djNleWRuN181SU91eHpxN0p2eENwVnVZVGNReWdnVE1GZ2NXb3NGOHdpcTZTWW9jWlpMVS1rVUFKY3N0b2lvTFlFUWtGcndqR0VMOEc0U3llSnBpbGxzYWJ4bjhIVlh2dmk2V2I0bmpPNXY?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-10-26T13:16:32.159403+00:00"
+}
