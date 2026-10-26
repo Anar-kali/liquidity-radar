@@ -1,6 +1,31 @@
 {
- "dealCount": 948,
+ "dealCount": 949,
  "deals": [
+  {
+   "amountCr": 1000.0,
+   "amountRaw": "₹1,000 Cr",
+   "company": "Imarticus Learning",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-26T11:45:59.930666+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 1288,
+   "individuals": [
+    "Nikhil Barshikar",
+    "Sonya Hooja"
+   ],
+   "listed": false,
+   "oneLine": "Imarticus Learning plans to file for an IPO to raise ₹1,000 Cr, creating founder liquidity.",
+   "primaryOutlet": "Inc42",
+   "seller": "Imarticus Learning",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-26T11:46:04.080896+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -29953,6 +29978,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-26T10:31:11.530588+00:00",
- "totalDeals": 948
+ "generatedAt": "2026-10-26T11:46:04.080896+00:00",
+ "totalDeals": 949
 }

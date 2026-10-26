@@ -1,0 +1,35 @@
+{
+ "advisers": [],
+ "amountCr": 1000.0,
+ "amountRaw": "₹1,000 Cr",
+ "buyer": null,
+ "company": "Imarticus Learning",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-26T11:45:59.930666+00:00",
+ "dealType": "IPO-OFS",
+ "enrichmentState": null,
+ "id": 1288,
+ "individuals": [
+  "Nikhil Barshikar",
+  "Sonya Hooja"
+ ],
+ "listed": false,
+ "oneLine": "Imarticus Learning plans to file for an IPO to raise ₹1,000 Cr, creating founder liquidity.",
+ "primaryUrl": "https://inc42.com/buzz/exclusive-imarticus-eyes-confidential-filing-in-2-3-months-for-%e2%82%b91000-cr-ipo/",
+ "seller": "Imarticus Learning",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-26T11:45:59.934105+00:00",
+   "outlet": "Inc42",
+   "resolvable": true,
+   "title": "Exclusive: Imarticus Eyes Confidential Filing In 2-3 Months For ₹1,000 Cr IPO",
+   "url": "https://inc42.com/buzz/exclusive-imarticus-eyes-confidential-filing-in-2-3-months-for-%e2%82%b91000-cr-ipo/"
+  }
+ ],
+ "synopsis": "Edtech startup Imarticus Learning plans to file its DRHP with SEBI through the confidential route within the next two to three months to raise 1,000 Cr INR through an IPO, creating founder liquidity. The proposed issue size has increased from the previously planned 750 Cr INR, comprising a mix of fresh issue and an offer for sale. Proceeds will be used to expand its existing business, pursue acquisitions, set up more Centres of Excellence, expand offerings at the Imarticus School of Finance and Business, and strengthen its B2B business. The company was founded in 2012 by Nikhil Barshikar and Sonya Hooja.",
+ "ticker": null,
+ "updatedAt": "2026-10-26T11:46:04.080896+00:00"
+}
