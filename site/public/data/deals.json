@@ -229,7 +229,7 @@
    "seller": "Promoters and shareholders",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 4,
+   "sourceCount": 5,
    "ticker": null,
    "updatedAt": "2026-10-26T10:31:11.530588+00:00",
    "updates": [
@@ -244,6 +244,10 @@
     {
      "attachedAt": "2026-10-26T10:31:11.538530+00:00",
      "title": "Coca-Cola’s Indian bottling arm likely to file IPO papers on Oct 29; eyes $1 bn issue at $10 bn valuation"
+    },
+    {
+     "attachedAt": "2026-10-27T04:16:04.865380+00:00",
+     "title": "Coca-Cola India Bottler Aims To Raise $1 Billion Via IPO"
     }
    ]
   },
