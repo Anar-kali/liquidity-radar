@@ -1,6 +1,28 @@
 {
- "dealCount": 957,
+ "dealCount": 958,
  "deals": [
+  {
+   "amountCr": 1011.1,
+   "amountRaw": "4% x mcap ~Rs 25277cr = ~Rs 1011cr",
+   "company": "Bandhan Bank",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-27T06:31:10.329146+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1297,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "UAE's FAB is exploring a stake acquisition in Bandhan Bank.",
+   "primaryOutlet": "Fortune India",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "computed",
+   "sourceCount": 1,
+   "ticker": "BANDHANBNK.NS",
+   "updatedAt": "2026-10-27T06:31:13.960614+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -30181,6 +30203,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-27T05:46:06.682490+00:00",
- "totalDeals": 957
+ "generatedAt": "2026-10-27T06:31:13.960614+00:00",
+ "totalDeals": 958
 }

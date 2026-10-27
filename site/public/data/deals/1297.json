@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 1011.1,
+ "amountRaw": "4% x mcap ~Rs 25277cr = ~Rs 1011cr",
+ "buyer": "FAB",
+ "company": "Bandhan Bank",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-27T06:31:10.329146+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1297,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "UAE's FAB is exploring a stake acquisition in Bandhan Bank.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPeWhjUUxQTUk2aDNqS0hJMlhiSnRfdTFmN1d4Y1lmWHFINzZrNzlTbTBHTWpaRFFxeHBXVDhFRWNKS3F5dmwyRHN3RGUwNkYzcFpDMHFQd2JueUlDb29QblF4VXYyYXBMWlJZV2JvdXdyekJvUFBLOEhaQjFkXzdmNW9ZeGktT0xZQmhvQzJObVRXMDF4NTFYRnRtOUtIY2Fvc09IRGFaeFN0MDB5LVo0N2lQaWZsanpxbXFNVkln0gHLAUFVX3lxTE52c2tTTWtod1NPRnN5dXdmTndScEFRZTB2SWdkNmZhRGxkREszUTlXY3g1SjBzMUJwclZHMFJHcDZQS0dXeHJ2a1htcC1LclBfUnN2NzRRRnlvcHpHNURMbThNWUpSQ3VUUC14bFBiTWRuMmtkeEhfZTcwMWJ1RUlxVVF0dUptSmI3UnpxdGdrcmptczZXX3Z1WkZlcTVfNnp2X2djN3dtSHVlRjZkTEtCZnVuaFd0VUNtSGVyY0M4WFBVN1pPem82TFRR?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "computed",
+ "sources": [
+  {
+   "attachedAt": "2026-10-27T06:31:10.330294+00:00",
+   "outlet": "Fortune India",
+   "resolvable": false,
+   "title": "Bandhan Bank shares jump 4% on reports of UAE’s FAB exploring stake acquisition",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPeWhjUUxQTUk2aDNqS0hJMlhiSnRfdTFmN1d4Y1lmWHFINzZrNzlTbTBHTWpaRFFxeHBXVDhFRWNKS3F5dmwyRHN3RGUwNkYzcFpDMHFQd2JueUlDb29QblF4VXYyYXBMWlJZV2JvdXdyekJvUFBLOEhaQjFkXzdmNW9ZeGktT0xZQmhvQzJObVRXMDF4NTFYRnRtOUtIY2Fvc09IRGFaeFN0MDB5LVo0N2lQaWZsanpxbXFNVkln0gHLAUFVX3lxTE52c2tTTWtod1NPRnN5dXdmTndScEFRZTB2SWdkNmZhRGxkREszUTlXY3g1SjBzMUJwclZHMFJHcDZQS0dXeHJ2a1htcC1LclBfUnN2NzRRRnlvcHpHNURMbThNWUpSQ3VUUC14bFBiTWRuMmtkeEhfZTcwMWJ1RUlxVVF0dUptSmI3UnpxdGdrcmptczZXX3Z1WkZlcTVfNnp2X2djN3dtSHVlRjZkTEtCZnVuaFd0VUNtSGVyY0M4WFBVN1pPem82TFRR?oc=5"
+  }
+ ],
+ "synopsis": "First Abu Dhabi Bank (FAB), the UAE's largest lender, is reportedly exploring the acquisition of a 51% majority stake in Bandhan Bank as part of a broader diversification strategy. FAB's senior management has held discussions with Bandhan Bank and other potential candidates as it evaluates acquisition opportunities in India. The reports of potential stake acquisition caused Bandhan Bank shares to climb nearly 4% in early trade. However, the discussions do not confirm that an acquisition has been agreed upon. Bandhan Bank is also preparing to announce its September-quarter financial results.",
+ "ticker": "BANDHANBNK.NS",
+ "updatedAt": "2026-10-27T06:31:13.960614+00:00"
+}
