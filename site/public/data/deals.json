@@ -2,8 +2,8 @@
  "dealCount": 960,
  "deals": [
   {
-   "amountCr": null,
-   "amountRaw": null,
+   "amountCr": 41754.9,
+   "amountRaw": "74% x mcap ~Rs 56426cr = ~Rs 41755cr",
    "company": "Schaeffler India",
    "confidence": "medium",
    "confirmed": false,
@@ -17,11 +17,16 @@
    "primaryOutlet": "Business Upturn",
    "seller": "Promoter group",
    "sizeBand": null,
-   "sizeSource": "mcap_plausible",
-   "sourceCount": 1,
+   "sizeSource": "stated",
+   "sourceCount": 2,
    "ticker": "SCHAEFFLER.NS",
-   "updatedAt": "2026-10-27T09:01:23.072415+00:00",
-   "updates": []
+   "updatedAt": "2026-10-27T09:15:55.023004+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-10-27T09:15:55.020994+00:00",
+     "title": "Schaeffler India promoters signal intent to sell small part of 74% stake"
+    }
+   ]
   },
   {
    "amountCr": 180.6,
@@ -30247,6 +30252,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-27T09:01:23.072415+00:00",
+ "generatedAt": "2026-10-27T09:15:55.023004+00:00",
  "totalDeals": 960
 }
