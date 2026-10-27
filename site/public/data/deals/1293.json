@@ -1,0 +1,39 @@
+{
+ "advisers": [],
+ "amountCr": 39600.0,
+ "amountRaw": "$4.5 billion",
+ "buyer": "Tata Motors",
+ "company": "Iveco",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-27T01:31:12.227019+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1293,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Tata Motors acquired Iveco in a $4.5 billion deal.",
+ "primaryUrl": "https://www.livemint.com/companies/news/tata-motors-completes-iveco-acquisition-to-turbocharge-global-play-11793019547840.html",
+ "seller": "Iveco Group shareholders",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-27T01:31:12.228144+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "Tata Motors completes Iveco acquisition to turbocharge global play",
+   "url": "https://www.livemint.com/companies/news/tata-motors-completes-iveco-acquisition-to-turbocharge-global-play-11793019547840.html"
+  },
+  {
+   "attachedAt": "2026-10-27T01:31:12.232940+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "Tata Motors' Iveco takeover bid clears 80 pc acceptance threshold",
+   "url": "https://www.thehindubusinessline.com/companies/tata-motors-iveco-takeover-bid-clears-80-pc-acceptance-threshold/article71628654.ece"
+  }
+ ],
+ "synopsis": "Tata Motors Ltd has completed the acquisition of Italian truckmaker Iveco Group in a deal with an enterprise value of about $4.5 billion. The transaction follows a 15-month process and concluded after a tender offer closed with nearly 88% of Iveco shares tendered, allowing the deal to proceed toward full control and delisting. The combination brings together two commercial vehicle makers with annual sales exceeding 540,000 vehicles and revenues over $25 billion. Tata Motors raised its final offer to €14.40 a share from €14.10 following resistance from some minority shareholders and activist investor Petrus Advisers. Top executives including Natarajan Chandrasekaran, P.B. Balaji, and Girish Wagh are set to join Iveco’s board.",
+ "ticker": null,
+ "updatedAt": "2026-10-27T01:31:15.787852+00:00"
+}

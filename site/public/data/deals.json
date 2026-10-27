@@ -1,6 +1,55 @@
 {
- "dealCount": 953,
+ "dealCount": 955,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "AIShield",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-27T01:31:12.230212+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1294,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Protectt.ai plans to acquire a controlling stake in Bosch's AIShield.",
+   "primaryOutlet": "Inc42",
+   "seller": "Bosch",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-27T01:31:19.158108+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 39600.0,
+   "amountRaw": "$4.5 billion",
+   "company": "Iveco",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-27T01:31:12.227019+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1293,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Tata Motors acquired Iveco in a $4.5 billion deal.",
+   "primaryOutlet": "Mint",
+   "seller": "Iveco Group shareholders",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 2,
+   "ticker": null,
+   "updatedAt": "2026-10-27T01:31:15.787852+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-10-27T01:31:12.232940+00:00",
+     "title": "Tata Motors' Iveco takeover bid clears 80 pc acceptance threshold"
+    }
+   ]
+  },
   {
    "amountCr": 816.4,
    "amountRaw": "3.7% x mcap ~Rs 22065cr = ~Rs 816cr",
@@ -18,10 +67,15 @@
    "seller": "TSF Investments",
    "sizeBand": null,
    "sizeSource": "computed",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": "TVSHLTD.NS",
    "updatedAt": "2026-10-26T17:02:21.724637+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-10-27T01:31:12.223995+00:00",
+     "title": "TSF Investments (NSE:TSFINV): Why Is It Selling Its Entire Stake in TVS Holdings?"
+    }
+   ]
   },
   {
    "amountCr": null,
@@ -30074,6 +30128,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-26T17:02:21.724637+00:00",
- "totalDeals": 953
+ "generatedAt": "2026-10-27T01:31:19.158108+00:00",
+ "totalDeals": 955
 }
