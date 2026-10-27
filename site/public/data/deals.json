@@ -1,6 +1,28 @@
 {
- "dealCount": 959,
+ "dealCount": 960,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Schaeffler India",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-27T09:01:18.736947+00:00",
+   "dealType": "promoter sale",
+   "enrichmentState": null,
+   "id": 1299,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Schaeffler India promoter group is considering monetising a small part of their shareholding.",
+   "primaryOutlet": "Business Upturn",
+   "seller": "Promoter group",
+   "sizeBand": null,
+   "sizeSource": "mcap_plausible",
+   "sourceCount": 1,
+   "ticker": "SCHAEFFLER.NS",
+   "updatedAt": "2026-10-27T09:01:23.072415+00:00",
+   "updates": []
+  },
   {
    "amountCr": 180.6,
    "amountRaw": "1.2% x mcap ~Rs 15052cr = ~Rs 181cr",
@@ -30225,6 +30247,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-27T08:01:21.841421+00:00",
- "totalDeals": 959
+ "generatedAt": "2026-10-27T09:01:23.072415+00:00",
+ "totalDeals": 960
 }

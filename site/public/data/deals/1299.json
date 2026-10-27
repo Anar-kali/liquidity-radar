@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Schaeffler India",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-27T09:01:18.736947+00:00",
+ "dealType": "promoter sale",
+ "enrichmentState": null,
+ "id": 1299,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Schaeffler India promoter group is considering monetising a small part of their shareholding.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONkViRTJTMTZ2SVhWdTZKUmd0WEU0TGZENklJNTRveTZ4TUpvMndhN0hKTUVYZkJ3RDVqRkFIdU5qaWxSS0dtN0tZdXNrc1htU3Vqbm1yYnpqVXlXU3VHUnRoUUFsdWZEUWtpQ2JYNC1majNhQnZYWHlycVU4bFNFb3ZGbWtST3RWUDVaX3IteHZuaElzeDI4b1pNSm85Ty0xd01tSUszS0Z4LUV4OVNCbV90bjk?oc=5",
+ "seller": "Promoter group",
+ "sizeBand": null,
+ "sizeSource": "mcap_plausible",
+ "sources": [
+  {
+   "attachedAt": "2026-10-27T09:01:18.739285+00:00",
+   "outlet": "Business Upturn",
+   "resolvable": false,
+   "title": "Schaeffler India : Promoter group mulls monetising a small part of shareholding",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONkViRTJTMTZ2SVhWdTZKUmd0WEU0TGZENklJNTRveTZ4TUpvMndhN0hKTUVYZkJ3RDVqRkFIdU5qaWxSS0dtN0tZdXNrc1htU3Vqbm1yYnpqVXlXU3VHUnRoUUFsdWZEUWtpQ2JYNC1majNhQnZYWHlycVU4bFNFb3ZGbWtST3RWUDVaX3IteHZuaElzeDI4b1pNSm85Ty0xd01tSUszS0Z4LUV4OVNCbV90bjk?oc=5"
+  }
+ ],
+ "synopsis": "The promoter group of Schaeffler India Limited is considering monetising a small part of its shareholding, according to a regulatory filing with the National Stock Exchange. The promoter group currently holds 74.13 percent of the paid-up share capital. Despite the contemplated monetisation, the group stated it will remain the significant majority shareholder, maintaining at least two-thirds of the company's outstanding shares. The communication was described as an expression of intent rather than a definitive obligation, supported by Schaeffler AG's CEO Klaus Rosenfeld and Head of M&A Dr. Christopher Köth.",
+ "ticker": "SCHAEFFLER.NS",
+ "updatedAt": "2026-10-27T09:01:23.072415+00:00"
+}
