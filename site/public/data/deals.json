@@ -18,13 +18,17 @@
    "seller": "Promoter group",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": "SCHAEFFLER.NS",
    "updatedAt": "2026-10-27T09:15:55.023004+00:00",
    "updates": [
     {
      "attachedAt": "2026-10-27T09:15:55.020994+00:00",
      "title": "Schaeffler India promoters signal intent to sell small part of 74% stake"
+    },
+    {
+     "attachedAt": "2026-10-27T09:31:08.863603+00:00",
+     "title": "Schaeffler India promoter stake sale: German parent holds 74.13% and may monetise a small part, but intends to keep at least two-thirds"
     }
    ]
   },
