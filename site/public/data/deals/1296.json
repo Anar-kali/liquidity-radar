@@ -1,0 +1,39 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "BOMBAY COATED AND SPECIAL STEELS LIMITED",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-27T05:46:06.682490+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": "failed",
+ "id": 1296,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Company filed its draft offer document with SEBI for an IPO.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/oct-2026/bombay-coated-and-special-steels-limited-rhp_105447.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-10-27T05:46:06.683720+00:00",
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "BOMBAY COATED AND SPECIAL STEELS LIMITED- RHPBOMBAY COATED AND SPECIAL STEELS LIMITED",
+   "url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/bombay-coated-and-special-steels-limited-rhp_105447.html"
+  },
+  {
+   "attachedAt": "2026-10-27T05:46:06.691684+00:00",
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "BOMBAY COATED AND SPECIAL STEELS LIMITED",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/oct-2026/BOMBAY%20COATED%20AND%20SPECIAL%20STEELS%20LIMITED%20_Abridged%20Prospectus_p.pdf"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-10-27T05:46:06.682490+00:00"
+}

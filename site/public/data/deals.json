@@ -1,6 +1,33 @@
 {
- "dealCount": 956,
+ "dealCount": 957,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "BOMBAY COATED AND SPECIAL STEELS LIMITED",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-27T05:46:06.682490+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 1296,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Company filed its draft offer document with SEBI for an IPO.",
+   "primaryOutlet": "Abridged Prospectus",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 2,
+   "ticker": null,
+   "updatedAt": "2026-10-27T05:46:06.682490+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-10-27T05:46:06.691684+00:00",
+     "title": "BOMBAY COATED AND SPECIAL STEELS LIMITED"
+    }
+   ]
+  },
   {
    "amountCr": 2640.0,
    "amountRaw": "up to $300 million (~2,640 crore INR at 88 INR/USD)",
@@ -30154,6 +30181,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-27T04:01:18.422647+00:00",
- "totalDeals": 956
+ "generatedAt": "2026-10-27T05:46:06.682490+00:00",
+ "totalDeals": 957
 }
