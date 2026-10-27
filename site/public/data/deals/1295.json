@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 2640.0,
+ "amountRaw": "up to $300 million (~2,640 crore INR at 88 INR/USD)",
+ "buyer": null,
+ "company": "VVDN Technologies",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-27T04:01:14.520258+00:00",
+ "dealType": "unknown",
+ "enrichmentState": null,
+ "id": 1295,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "VVDN Technologies considers an IPO of up to $300 million.",
+ "primaryUrl": "https://www.thehindubusinessline.com/markets/vvdn-technologies-said-to-consider-up-to-300-million-ipo/article71629638.ece",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-27T04:01:14.521797+00:00",
+   "outlet": "Business Line",
+   "resolvable": true,
+   "title": "VVDN Technologies said to consider up to $300 million IPO",
+   "url": "https://www.thehindubusinessline.com/markets/vvdn-technologies-said-to-consider-up-to-300-million-ipo/article71629638.ece"
+  }
+ ],
+ "synopsis": "VVDN Technologies Pvt., a Gurugram-based technology and contract manufacturing company, is considering an initial public offering in India to raise as much as $300 million. The company has invited investment banks to pitch for roles on the potential share sale with pitches scheduled for later in the week, and it is expected to appoint advisers soon. Deliberations are currently at an early stage, meaning details such as the size and timing of the offering could change. Motilal Oswal Private Equity is listed as one of the investors in the company.",
+ "ticker": null,
+ "updatedAt": "2026-10-27T04:01:18.422647+00:00"
+}

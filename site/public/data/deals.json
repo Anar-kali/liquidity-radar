@@ -1,6 +1,28 @@
 {
- "dealCount": 955,
+ "dealCount": 956,
  "deals": [
+  {
+   "amountCr": 2640.0,
+   "amountRaw": "up to $300 million (~2,640 crore INR at 88 INR/USD)",
+   "company": "VVDN Technologies",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-27T04:01:14.520258+00:00",
+   "dealType": "unknown",
+   "enrichmentState": null,
+   "id": 1295,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "VVDN Technologies considers an IPO of up to $300 million.",
+   "primaryOutlet": "Business Line",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-27T04:01:18.422647+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -30128,6 +30150,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-27T01:31:19.158108+00:00",
- "totalDeals": 955
+ "generatedAt": "2026-10-27T04:01:18.422647+00:00",
+ "totalDeals": 956
 }
