@@ -1,6 +1,28 @@
 {
- "dealCount": 958,
+ "dealCount": 959,
  "deals": [
+  {
+   "amountCr": 180.6,
+   "amountRaw": "1.2% x mcap ~Rs 15052cr = ~Rs 181cr",
+   "company": "Ola Electric Mobility",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-27T08:01:18.841310+00:00",
+   "dealType": "block deal",
+   "enrichmentState": null,
+   "id": 1298,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "SoftBank sells a 1.2% stake in Ola Electric through open market transactions.",
+   "primaryOutlet": "Entrackr",
+   "seller": "SoftBank",
+   "sizeBand": null,
+   "sizeSource": "computed",
+   "sourceCount": 1,
+   "ticker": "OLAELEC.NS",
+   "updatedAt": "2026-10-27T08:01:21.841421+00:00",
+   "updates": []
+  },
   {
    "amountCr": 1011.1,
    "amountRaw": "4% x mcap ~Rs 25277cr = ~Rs 1011cr",
@@ -30203,6 +30225,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-27T06:31:13.960614+00:00",
- "totalDeals": 958
+ "generatedAt": "2026-10-27T08:01:21.841421+00:00",
+ "totalDeals": 959
 }

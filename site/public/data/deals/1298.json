@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 180.6,
+ "amountRaw": "1.2% x mcap ~Rs 15052cr = ~Rs 181cr",
+ "buyer": null,
+ "company": "Ola Electric Mobility",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-27T08:01:18.841310+00:00",
+ "dealType": "block deal",
+ "enrichmentState": null,
+ "id": 1298,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "SoftBank sells a 1.2% stake in Ola Electric through open market transactions.",
+ "primaryUrl": "https://entrackr.com/news/softbank-sells-12-stake-in-ola-electric-amid-rs-1000-cr-rights-issue-12757080",
+ "seller": "SoftBank",
+ "sizeBand": null,
+ "sizeSource": "computed",
+ "sources": [
+  {
+   "attachedAt": "2026-10-27T08:01:18.842590+00:00",
+   "outlet": "Entrackr",
+   "resolvable": true,
+   "title": "SoftBank sells 1.2% stake in Ola Electric amid Rs 1,000 Cr rights issue",
+   "url": "https://entrackr.com/news/softbank-sells-12-stake-in-ola-electric-amid-rs-1000-cr-rights-issue-12757080"
+  }
+ ],
+ "synopsis": "SVF II Ostrich (DE) LLC, an affiliate of SoftBank, sold a 1.2% stake in Ola Electric Mobility by disposing of 5.55 crore shares through open market transactions between January 6 and October 22, 2026. Its shareholding in the company declined from 12.9% to 11.7%. The stake sale occurred while Ola Electric sought to raise Rs 1,000 crore through a rights issue opening on October 22 and closing on October 30, which involves issuing 37.03 crore partly paid-up equity shares at Rs 27 apiece. Additionally, promoter group entities ANI Technologies and Indus Trust transferred rights entitlements to Motilal Oswal Financial Services and Calliope Capital Advisors, while founder Bhavish Aggarwal pledged a 4.32% stake to finance his participation in the rights issue.",
+ "ticker": "OLAELEC.NS",
+ "updatedAt": "2026-10-27T08:01:21.841421+00:00"
+}
