@@ -1,6 +1,30 @@
 {
- "dealCount": 960,
+ "dealCount": 961,
  "deals": [
+  {
+   "amountCr": 1300.0,
+   "amountRaw": "nearly Rs 1,300 crore",
+   "company": "Sabine",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-28T01:31:15.249221+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1301,
+   "individuals": [
+    "Dr Sabine Sivadasan"
+   ],
+   "listed": false,
+   "oneLine": "Indira IVF is in talks to acquire Sabine in a Rs 1,300 crore deal.",
+   "primaryOutlet": "The Economic Times",
+   "seller": "CX Partners and Dr Sabine Sivadasan",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-28T01:31:18.684250+00:00",
+   "updates": []
+  },
   {
    "amountCr": 41754.9,
    "amountRaw": "74% x mcap ~Rs 56426cr = ~Rs 41755cr",
@@ -164,13 +188,17 @@
    "seller": "Iveco Group shareholders",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-10-27T01:31:15.787852+00:00",
    "updates": [
     {
      "attachedAt": "2026-10-27T01:31:12.232940+00:00",
      "title": "Tata Motors' Iveco takeover bid clears 80 pc acceptance threshold"
+    },
+    {
+     "attachedAt": "2026-10-28T01:31:15.282348+00:00",
+     "title": "Tata Motors’ €3.43 bn Iveco bid sees 87.8% acceptance, paves way for biggest buyout since JLR: What exchange filing says"
     }
    ]
   },
@@ -30269,6 +30297,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-27T09:15:55.023004+00:00",
- "totalDeals": 960
+ "generatedAt": "2026-10-28T01:31:18.684250+00:00",
+ "totalDeals": 961
 }
