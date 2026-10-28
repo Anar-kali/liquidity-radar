@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "HealthKart",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-28T06:46:06.120750+00:00",
+ "dealType": "other",
+ "enrichmentState": null,
+ "id": 1303,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "HealthKart gears up for its IPO while reporting strong revenue growth and profitability.",
+ "primaryUrl": "https://entrackr.com/fintrackr/healthkart-crosses-rs-2000-cr-revenue-in-fy26-pbt-rises-30-12760330",
+ "seller": null,
+ "sizeBand": "OVER_2000",
+ "sizeSource": "band",
+ "sources": [
+  {
+   "attachedAt": "2026-10-28T06:46:06.189803+00:00",
+   "outlet": "Entrackr",
+   "resolvable": true,
+   "title": "HealthKart crosses Rs 2,000 Cr revenue in FY26, PBT rises 30%",
+   "url": "https://entrackr.com/fintrackr/healthkart-crosses-rs-2000-cr-revenue-in-fy26-pbt-rises-30-12760330"
+  }
+ ],
+ "synopsis": "HealthKart is reportedly gearing up for its initial public offering while reporting strong financial results for fiscal year 2026. According to consolidated annual statements sourced from the Registrar of Companies, the health supplement brand's revenue from operations rose 56.2% to Rs 2,052 crore in FY26 compared to Rs 1,313 crore in FY25. Total income reached Rs 2,106 crore, while total expenses increased 55.7% to Rs 1,982 crore, driven by higher procurement and advertising costs. Despite rising expenses, the company's profit before tax increased by 30% to Rs 124 crore from Rs 95 crore in the previous fiscal year. HealthKart has raised approximately $382 million in funding to date from investors including Peak XV Partners, Temasek, and Sofina.",
+ "ticker": null,
+ "updatedAt": "2026-10-28T06:46:10.277346+00:00"
+}

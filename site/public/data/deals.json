@@ -1,6 +1,28 @@
 {
- "dealCount": 961,
+ "dealCount": 962,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "HealthKart",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-28T06:46:06.120750+00:00",
+   "dealType": "other",
+   "enrichmentState": null,
+   "id": 1303,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "HealthKart gears up for its IPO while reporting strong revenue growth and profitability.",
+   "primaryOutlet": "Entrackr",
+   "seller": null,
+   "sizeBand": "OVER_2000",
+   "sizeSource": "band",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-28T06:46:10.277346+00:00",
+   "updates": []
+  },
   {
    "amountCr": 1300.0,
    "amountRaw": "nearly Rs 1,300 crore",
@@ -30297,6 +30319,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-28T01:31:18.684250+00:00",
- "totalDeals": 961
+ "generatedAt": "2026-10-28T06:46:10.277346+00:00",
+ "totalDeals": 962
 }
