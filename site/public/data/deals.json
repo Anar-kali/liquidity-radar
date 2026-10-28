@@ -1,6 +1,28 @@
 {
- "dealCount": 962,
+ "dealCount": 963,
  "deals": [
+  {
+   "amountCr": 1000.0,
+   "amountRaw": "₹1,000+ crore",
+   "company": "Fibe",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-28T12:01:18.328908+00:00",
+   "dealType": "other",
+   "enrichmentState": null,
+   "id": 1304,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Fibe prepares for an IPO exceeding ₹1,000 crore, bringing potential liquidity to shareholders.",
+   "primaryOutlet": "Mint",
+   "seller": "existing shareholders",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-28T12:01:22.305689+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -30323,6 +30345,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-28T06:46:10.277346+00:00",
- "totalDeals": 962
+ "generatedAt": "2026-10-28T12:01:22.305689+00:00",
+ "totalDeals": 963
 }

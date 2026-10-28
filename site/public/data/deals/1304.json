@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 1000.0,
+ "amountRaw": "₹1,000+ crore",
+ "buyer": "public investors",
+ "company": "Fibe",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-28T12:01:18.328908+00:00",
+ "dealType": "other",
+ "enrichmentState": null,
+ "id": 1304,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Fibe prepares for an IPO exceeding ₹1,000 crore, bringing potential liquidity to shareholders.",
+ "primaryUrl": "https://www.livemint.com/companies/news/fibe-bets-on-ai-as-profit-doubles-ahead-of-1000-crore-ipo-11793187673629.html",
+ "seller": "existing shareholders",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-28T12:01:18.330382+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "Fibe bets on AI as profit doubles ahead of ₹1000+ crore IPO",
+   "url": "https://www.livemint.com/companies/news/fibe-bets-on-ai-as-profit-doubles-ahead-of-1000-crore-ipo-11793187673629.html"
+  }
+ ],
+ "synopsis": "Digital consumer lending platform Fibe, run by Social Worth Technologies Ltd, is preparing for an initial public offering expected to exceed ₹1,000 crore. The proposed IPO comprises a fresh issue of up to ₹750 crore worth of equity shares and an offer-for-sale of more than 4 crore equity shares by existing shareholders. The company may also raise up to ₹150 crore in a pre-IPO placement, which would reduce the fresh issue size accordingly. Fibe has already received SEBI's observations on its draft red herring prospectus. The book-running lead managers for the transaction are Kotak Mahindra Capital, Axis Capital, DAM Capital Advisors, and JM Financial. The shares are planned to be listed on both the BSE and NSE.",
+ "ticker": null,
+ "updatedAt": "2026-10-28T12:01:22.305689+00:00"
+}
