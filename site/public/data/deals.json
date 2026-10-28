@@ -5815,7 +5815,7 @@
    "seller": "Carlsberg Group",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 16,
+   "sourceCount": 17,
    "ticker": null,
    "updatedAt": "2026-10-01T14:46:08.546312+00:00",
    "updates": [
@@ -5878,6 +5878,10 @@
     {
      "attachedAt": "2026-10-28T11:46:03.248041+00:00",
      "title": "Carlsberg India files UDRHP for IPO of 8.64 crore equity shares, entirely an offer for sale"
+    },
+    {
+     "attachedAt": "2026-10-28T12:46:11.382710+00:00",
+     "title": "Tuborg maker Carlsberg India moves closer to IPO, files updated DRHP for complete OFS issue"
     }
    ]
   },
