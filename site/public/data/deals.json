@@ -1,6 +1,28 @@
 {
- "dealCount": 963,
+ "dealCount": 964,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Bliss GVS Pharma",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-28T15:16:48.811835+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1305,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Anupam Rasayan acquires a controlling stake in Bliss GVS Pharma, cashing out promoters.",
+   "primaryOutlet": "Bar and Bench",
+   "seller": "Promoters of Bliss GVS Pharma",
+   "sizeBand": null,
+   "sizeSource": "mcap_plausible",
+   "sourceCount": 1,
+   "ticker": "BLISSGVS.NS",
+   "updatedAt": "2026-10-28T15:17:03.154909+00:00",
+   "updates": []
+  },
   {
    "amountCr": 1000.0,
    "amountRaw": "₹1,000+ crore",
@@ -30349,6 +30371,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-28T12:01:22.305689+00:00",
- "totalDeals": 963
+ "generatedAt": "2026-10-28T15:17:03.154909+00:00",
+ "totalDeals": 964
 }

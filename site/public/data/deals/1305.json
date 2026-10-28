@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "Anupam Rasayan India",
+ "company": "Bliss GVS Pharma",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-28T15:16:48.811835+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1305,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Anupam Rasayan acquires a controlling stake in Bliss GVS Pharma, cashing out promoters.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPdGVrYklaTExNWUdKTkhoTXROQXA4TkI4MHNnTU1KLWxzbkZja3lYVmx3X1BpR3BzejQzZmtWeXo4Z1F6cjU5dmFDQktFWVRMLVFYdnBqMVJpX3JRMkJxUE1ZT3N6NHlsQ0Y4akdyVS13RTNKWC1pUVBOZU10ZURXNWNfZW00cDFsbUFGQ1R6cEI2SzkyaFZaZ2ZjVjhPZWJmYlJIM1A2bnB2a0xrbDhod0IyemMxMzBjaktWcldGRklPT1FQbEZMMnROVDNXamdqUGVMNlZJd01hT1pFMTBLUW8wQURrd9IB5gFBVV95cUxPdGVrYklaTExNWUdKTkhoTXROQXA4TkI4MHNnTU1KLWxzbkZja3lYVmx3X1BpR3BzejQzZmtWeXo4Z1F6cjU5dmFDQktFWVRMLVFYdnBqMVJpX3JRMkJxUE1ZT3N6NHlsQ0Y4akdyVS13RTNKWC1pUVBOZU10ZURXNWNfZW00cDFsbUFGQ1R6cEI2SzkyaFZaZ2ZjVjhPZWJmYlJIM1A2bnB2a0xrbDhod0IyemMxMzBjaktWcldGRklPT1FQbEZMMnROVDNXamdqUGVMNlZJd01hT1pFMTBLUW8wQURrdw?oc=5",
+ "seller": "Promoters of Bliss GVS Pharma",
+ "sizeBand": null,
+ "sizeSource": "mcap_plausible",
+ "sources": [
+  {
+   "attachedAt": "2026-10-28T15:16:48.813492+00:00",
+   "outlet": "Bar and Bench",
+   "resolvable": false,
+   "title": "Anupam Rasayan India acquires controlling stake in Bliss GVS Pharma; Kanga & Co advises sellers",
+   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPdGVrYklaTExNWUdKTkhoTXROQXA4TkI4MHNnTU1KLWxzbkZja3lYVmx3X1BpR3BzejQzZmtWeXo4Z1F6cjU5dmFDQktFWVRMLVFYdnBqMVJpX3JRMkJxUE1ZT3N6NHlsQ0Y4akdyVS13RTNKWC1pUVBOZU10ZURXNWNfZW00cDFsbUFGQ1R6cEI2SzkyaFZaZ2ZjVjhPZWJmYlJIM1A2bnB2a0xrbDhod0IyemMxMzBjaktWcldGRklPT1FQbEZMMnROVDNXamdqUGVMNlZJd01hT1pFMTBLUW8wQURrd9IB5gFBVV95cUxPdGVrYklaTExNWUdKTkhoTXROQXA4TkI4MHNnTU1KLWxzbkZja3lYVmx3X1BpR3BzejQzZmtWeXo4Z1F6cjU5dmFDQktFWVRMLVFYdnBqMVJpX3JRMkJxUE1ZT3N6NHlsQ0Y4akdyVS13RTNKWC1pUVBOZU10ZURXNWNfZW00cDFsbUFGQ1R6cEI2SzkyaFZaZ2ZjVjhPZWJmYlJIM1A2bnB2a0xrbDhod0IyemMxMzBjaktWcldGRklPT1FQbEZMMnROVDNXamdqUGVMNlZJd01hT1pFMTBLUW8wQURrdw?oc=5"
+  }
+ ],
+ "synopsis": "Anupam Rasayan India Limited, through its wholly owned subsidiary Mates Visa Consultancy Private Limited, acquired a controlling stake of 47.95% in Bliss GVS Pharma Limited by purchasing 5,09,86,264 equity shares. The transaction was executed via a share purchase agreement and a subsequent mandatory open offer involving the promoters of Bliss GVS Pharma and certain other shareholders as sellers. Law firm Kanga & Co acted as the legal adviser to the sellers on the transaction, assisting with transaction documentation, the open offer process, and regulatory compliance.",
+ "ticker": "BLISSGVS.NS",
+ "updatedAt": "2026-10-28T15:17:03.154909+00:00"
+}
