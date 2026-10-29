@@ -18,10 +18,15 @@
    "seller": "Carlsberg India promoters",
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-10-29T08:16:08.911331+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-10-29T10:16:07.723643+00:00",
+     "title": "Carlsberg India files updated IPO papers with SEBI"
+    }
+   ]
   },
   {
    "amountCr": null,
