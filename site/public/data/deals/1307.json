@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 1073.4,
+ "amountRaw": "₹1,073.40 crore",
+ "buyer": "Lloyds Engineering",
+ "company": "SISCOL",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-29T01:45:59.029387+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": "failed",
+ "id": 1307,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Lloyds Engineering seeks to acquire a stake in SISCOL for 1,073.40 crore.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxObVFQU1dzcnk3WUlqNHoxNTQ3czk0MXhUTjd2U1lVV1pFTWNHd2JKaWpOSXBReEw3bXltcWtPcmx4VmZWdWZ5Zkc5X3FXY3Q4TTR4eHBpZzVXb09QOVZKRy1xMjlTcUhJUmRjSEd6aGRveEZYamdncXM0R1lmd3ZYeURQaEF1VS1nS2pmWTBlaGl6TFMyRUlXY05CX1JPb3FTbjhUZHVtTDFWbnNwU2NKS1hjc19uQi14N3NEQU1sX195Y3dPcGpKQzBLaFVmbGJTS1hTTzd4RFhGWWd3WTF2c3pzZWpqODc4NG41YlM0bmwweTFPZEE?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-29T01:45:59.030889+00:00",
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "Lloyds Engineering seeks SISCOL stake for ₹1,073.40 crore",
+   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxObVFQU1dzcnk3WUlqNHoxNTQ3czk0MXhUTjd2U1lVV1pFTWNHd2JKaWpOSXBReEw3bXltcWtPcmx4VmZWdWZ5Zkc5X3FXY3Q4TTR4eHBpZzVXb09QOVZKRy1xMjlTcUhJUmRjSEd6aGRveEZYamdncXM0R1lmd3ZYeURQaEF1VS1nS2pmWTBlaGl6TFMyRUlXY05CX1JPb3FTbjhUZHVtTDFWbnNwU2NKS1hjc19uQi14N3NEQU1sX195Y3dPcGpKQzBLaFVmbGJTS1hTTzd4RFhGWWd3WTF2c3pzZWpqODc4NG41YlM0bmwweTFPZEE?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-10-29T01:45:59.029387+00:00"
+}
