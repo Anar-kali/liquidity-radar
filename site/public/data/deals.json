@@ -134,13 +134,17 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-10-29T01:31:20.545689+00:00",
    "updates": [
     {
      "attachedAt": "2026-10-29T01:31:18.990662+00:00",
      "title": "Gautam Adani explores €3 billion acquisition of Dutch energy storage group VTTI"
+    },
+    {
+     "attachedAt": "2026-10-29T09:16:07.562534+00:00",
+     "title": "Why is Adani betting $3.4 billion on global energy trade chaos?"
     }
    ]
   },
