@@ -1,6 +1,31 @@
 {
- "dealCount": 972,
+ "dealCount": 973,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Avishkar Infra Realty",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-29T12:31:23.252499+00:00",
+   "dealType": "open offer",
+   "enrichmentState": null,
+   "id": 1314,
+   "individuals": [
+    "Kapil Jeetendra Kothari",
+    "Nalin Ramaniklal Shah"
+   ],
+   "listed": false,
+   "oneLine": "Mandatory open offer announced for Avishkar Infra Realty.",
+   "primaryOutlet": "Kalkine India",
+   "seller": "Kapil Jeetendra Kothari",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-29T12:31:29.843989+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -294,10 +319,15 @@
    "seller": "CX Partners and Dr Sabine Sivadasan",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-10-28T01:31:18.684250+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-10-29T12:31:23.223087+00:00",
+     "title": "Indira IVF in Talks to Acquire Sabine Hospital in INR 1,300 Cr Deal"
+    }
+   ]
   },
   {
    "amountCr": 41754.9,
@@ -30610,6 +30640,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-29T12:01:44.471807+00:00",
- "totalDeals": 972
+ "generatedAt": "2026-10-29T12:31:29.843989+00:00",
+ "totalDeals": 973
 }
