@@ -1,6 +1,32 @@
 {
- "dealCount": 967,
+ "dealCount": 968,
  "deals": [
+  {
+   "amountCr": 277.0,
+   "amountRaw": "₹277 Crore",
+   "company": "Suguna Hospital",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-29T07:01:20.833628+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1309,
+   "individuals": [
+    "Dr Ramaiah Ravindra",
+    "Suguna Ramaiah",
+    "Sujatha Ravindra"
+   ],
+   "listed": false,
+   "oneLine": "Fortis Healthcare acquires Suguna Hospital for Rs 277 crore, paying out the owners.",
+   "primaryOutlet": "Free Press Journal",
+   "seller": "Suguna Ramaiah Hospitals Private Limited and its promoters",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-29T07:01:27.922561+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -30471,6 +30497,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-29T06:31:05.920759+00:00",
- "totalDeals": 967
+ "generatedAt": "2026-10-29T07:01:27.922561+00:00",
+ "totalDeals": 968
 }
