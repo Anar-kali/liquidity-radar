@@ -857,13 +857,17 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-10-23T06:16:02.919796+00:00",
    "updates": [
     {
      "attachedAt": "2026-10-23T06:46:08.920979+00:00",
      "title": "Infinx plans $300 million IPO in India, appoints three bankers"
+    },
+    {
+     "attachedAt": "2026-10-29T03:16:07.139069+00:00",
+     "title": "Infinx appoints Kotak Mahindra, Nomura, Avendus for proposed USD 300M IPO"
     }
    ]
   },
