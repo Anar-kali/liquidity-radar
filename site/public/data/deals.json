@@ -857,16 +857,18 @@
    "dealType": "IPO-OFS",
    "enrichmentState": null,
    "id": 1278,
-   "individuals": [],
+   "individuals": [
+    "Amrit Acharya"
+   ],
    "listed": false,
    "oneLine": "Zetwerk IPO features an OFS where early investors realise Rs 1,215 crore.",
    "primaryOutlet": "Business Line",
    "seller": "Kae Capital, Accel, Peak XV and Lightspeed",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": null,
-   "updatedAt": "2026-10-29T11:16:09.890155+00:00",
+   "updatedAt": "2026-10-29T14:16:21.680731+00:00",
    "updates": [
     {
      "attachedAt": "2026-10-26T01:31:06.714981+00:00",
@@ -875,6 +877,10 @@
     {
      "attachedAt": "2026-10-29T11:16:09.883696+00:00",
      "title": "Trilegal, Shardul Amarchand Mangaldas act on Zetwerk ₹5,012 crore IPO"
+    },
+    {
+     "attachedAt": "2026-10-29T14:16:21.676322+00:00",
+     "title": "From US Return To NSE Bell: Zetwerk Co-Founder Amrit Acharya On His Father's Doubts And Rs 5,000 Crore IPO"
     }
    ]
   },
@@ -30644,6 +30650,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-29T12:31:29.843989+00:00",
+ "generatedAt": "2026-10-29T14:16:21.680731+00:00",
  "totalDeals": 973
 }
