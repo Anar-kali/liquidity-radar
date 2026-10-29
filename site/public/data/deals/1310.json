@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "FDC",
+ "company": "FDC",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-29T07:46:01.451766+00:00",
+ "dealType": "other",
+ "enrichmentState": "failed",
+ "id": 1310,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "FDC announces share buyback, providing liquidity to shareholders.",
+ "primaryUrl": "https://nsearchives.nseindia.com/corporate/FDC_29102026130821_Company_Intimation_PA_signed.pdf",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "mcap_plausible",
+ "sources": [
+  {
+   "attachedAt": "2026-10-29T07:46:01.452755+00:00",
+   "outlet": "Buyback of Shares",
+   "resolvable": true,
+   "title": "FDC: Public Announcement",
+   "url": "https://nsearchives.nseindia.com/corporate/FDC_29102026130821_Company_Intimation_PA_signed.pdf"
+  }
+ ],
+ "synopsis": null,
+ "ticker": "FDC.NS",
+ "updatedAt": "2026-10-29T07:46:01.451766+00:00"
+}

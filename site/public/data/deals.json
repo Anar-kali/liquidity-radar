@@ -1,6 +1,28 @@
 {
- "dealCount": 968,
+ "dealCount": 969,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "FDC",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-29T07:46:01.451766+00:00",
+   "dealType": "other",
+   "enrichmentState": "failed",
+   "id": 1310,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "FDC announces share buyback, providing liquidity to shareholders.",
+   "primaryOutlet": "Buyback of Shares",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "mcap_plausible",
+   "sourceCount": 1,
+   "ticker": "FDC.NS",
+   "updatedAt": "2026-10-29T07:46:01.451766+00:00",
+   "updates": []
+  },
   {
    "amountCr": 277.0,
    "amountRaw": "₹277 Crore",
@@ -30497,6 +30519,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-29T07:01:27.922561+00:00",
- "totalDeals": 968
+ "generatedAt": "2026-10-29T07:46:01.451766+00:00",
+ "totalDeals": 969
 }
