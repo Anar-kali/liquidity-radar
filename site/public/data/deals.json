@@ -1,6 +1,28 @@
 {
- "dealCount": 969,
+ "dealCount": 970,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Carlsberg India",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-29T08:16:04.551125+00:00",
+   "dealType": "unknown",
+   "enrichmentState": null,
+   "id": 1311,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Carlsberg India is exploring an IPO, leading to promoter liquidity.",
+   "primaryOutlet": "ETLegalWorld.com",
+   "seller": "Carlsberg India promoters",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-29T08:16:08.911331+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -30519,6 +30541,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-29T07:46:01.451766+00:00",
- "totalDeals": 969
+ "generatedAt": "2026-10-29T08:16:08.911331+00:00",
+ "totalDeals": 970
 }

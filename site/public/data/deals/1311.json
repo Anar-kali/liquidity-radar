@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Carlsberg India",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-29T08:16:04.551125+00:00",
+ "dealType": "unknown",
+ "enrichmentState": null,
+ "id": 1311,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Carlsberg India is exploring an IPO, leading to promoter liquidity.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPODl6ZDEzb0paVkpGMW9lbnNuTGE5Q3J6N1loa2UwY0hkTjZZMjhBWWIwX2pfUDNzN2FXMk9zcmllV2JqZ3A4SHlSVGJHbzFNNm9VbnE4TGR1TVlQblNWU3MzSXdMOFRYeW40YTNpa0FjOVhIVWZDYmVmX0xiVHhjQjl2R3RKWUZ6ZE83ZHpmbmx5SzZWOGtpaDBTdTdLUTIzcUZvNGlnbHlXNkhvXzhxdnpxeUtnVlRlbWlSdlNtOXdJVUtaNWs5YThNa3pxVnN2bTJJbmZyN1lBY3I5WUlR0gHjAUFVX3lxTE10ZXhXUXVIT2VfVG93OWs5eERON3BrYTg1T3J5SEEzWEN1Rkg3bE02TGtCQmp4N1ZtZzFwQ0E3RlZ0bUxUdEx1MFRHZEtpVjZBeUYwYmdabW5KRnFGZUh3b0xLSFV3SlZLX3pLOU9TZTItM092QzZ2LTdyVE53Rmh1LTl2M3QwUHA5azFLQUFTOUNWaFBFOVVhMTJid0hXallKRWpUb25rdUpBNU90SV8yOFhWSDBKbVppTHhLS0VrQ2NEY3NpNFNXOWk3MTNyWVFkZ2w2Z3VNVWFOdlJFdmtkWnRn?oc=5",
+ "seller": "Carlsberg India promoters",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-10-29T08:16:04.552304+00:00",
+   "outlet": "ETLegalWorld.com",
+   "resolvable": false,
+   "title": "Cyril Amarchand, Norton Rose Fulbright advising Carlsberg India on IPO",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPODl6ZDEzb0paVkpGMW9lbnNuTGE5Q3J6N1loa2UwY0hkTjZZMjhBWWIwX2pfUDNzN2FXMk9zcmllV2JqZ3A4SHlSVGJHbzFNNm9VbnE4TGR1TVlQblNWU3MzSXdMOFRYeW40YTNpa0FjOVhIVWZDYmVmX0xiVHhjQjl2R3RKWUZ6ZE83ZHpmbmx5SzZWOGtpaDBTdTdLUTIzcUZvNGlnbHlXNkhvXzhxdnpxeUtnVlRlbWlSdlNtOXdJVUtaNWs5YThNa3pxVnN2bTJJbmZyN1lBY3I5WUlR0gHjAUFVX3lxTE10ZXhXUXVIT2VfVG93OWs5eERON3BrYTg1T3J5SEEzWEN1Rkg3bE02TGtCQmp4N1ZtZzFwQ0E3RlZ0bUxUdEx1MFRHZEtpVjZBeUYwYmdabW5KRnFGZUh3b0xLSFV3SlZLX3pLOU9TZTItM092QzZ2LTdyVE53Rmh1LTl2M3QwUHA5azFLQUFTOUNWaFBFOVVhMTJid0hXallKRWpUb25rdUpBNU90SV8yOFhWSDBKbVppTHhLS0VrQ2NEY3NpNFNXOWk3MTNyWVFkZ2w2Z3VNVWFOdlJFdmtkWnRn?oc=5"
+  }
+ ],
+ "synopsis": "Carlsberg India Limited is exploring an initial public offering to list its shares on the BSE and the National Stock Exchange of India. The company has engaged Cyril Amarchand Mangaldas for Indian law and London-based Norton Rose Fulbright LLP for international law as legal counsel. Additionally, the IPO has appointed Kotak Mahindra Capital Company, Citigroup Global Markets India, and J.P. Morgan India as book-running lead managers. The updated draft red herring prospectus was dated October 27, 2026, and estimated expense figures including legal fees remain subject to change.",
+ "ticker": null,
+ "updatedAt": "2026-10-29T08:16:08.911331+00:00"
+}
