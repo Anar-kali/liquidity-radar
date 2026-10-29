@@ -1,6 +1,28 @@
 {
- "dealCount": 971,
+ "dealCount": 972,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Punjab Carbonic",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-29T12:01:21.749118+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 1313,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Punjab Carbonic received SEBI approval for an IPO.",
+   "primaryOutlet": "Moneycontrol.com",
+   "seller": "promoters",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-29T12:01:44.471807+00:00",
+   "updates": []
+  },
   {
    "amountCr": 266.71,
    "amountRaw": "₹266.71 Cr",
@@ -30588,6 +30610,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-29T11:16:09.890155+00:00",
- "totalDeals": 971
+ "generatedAt": "2026-10-29T12:01:44.471807+00:00",
+ "totalDeals": 972
 }
