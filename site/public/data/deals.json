@@ -18,10 +18,19 @@
    "seller": "IIFL Capital clients",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 3,
    "ticker": "SAGILITY.NS",
    "updatedAt": "2026-10-29T15:47:08.967835+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-10-29T16:17:04.710835+00:00",
+     "title": "Sagility block deal: Promoter Sagility BV likely to sell 12% stake for Rs 2,377 crore"
+    },
+    {
+     "attachedAt": "2026-10-29T16:17:04.714431+00:00",
+     "title": "Sagility block deal: Parent Sagility BV to offload 12% stake for ₹2,377 crore; Floor price at ₹42.45"
+    }
+   ]
   },
   {
    "amountCr": null,
