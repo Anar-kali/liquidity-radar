@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 266.71,
+ "amountRaw": "₹266.71 Cr",
+ "buyer": "MosChip Technologies",
+ "company": "Vayavya Labs",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-29T11:01:20.337610+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1312,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "MosChip Technologies acquires 73% stake in Vayavya Labs for Rs 266.71 Cr, cashing out founders/investors.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPU3lxN3VpSlJqRFhMN3U3R1JnZjhIM1lfN0xfckE0UGVCaEVCNVQ0RWxDWG9iREFuOEZVWGxMUVk5S0psQ2JlUm1OT2hweUhmQXpYMnBEc2QtUnVldGx3RUZJNWIyQUNDNzdXN0NhdXhOTUFjcmZ2VFhwNUdIN1RVblgycDFrNXFDdEVDNzY2NVhVRHBibW1pWVlEQi11VjdXdU1OLXk0bThJZGl6LU04cVc3SXlhc19ucExld1U0RzFoQm5oZEwxcDlXeFFrODBXVW9uc3NELVNwNFRjY1hjR3VjdXo3ejhseHdFUGRUYUhRTHB3blhTLUlMM3p2UQ?oc=5",
+ "seller": "Vayavya Labs Private Limited founders/investors",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-29T11:01:20.338982+00:00",
+   "outlet": "Trade Brains",
+   "resolvable": false,
+   "title": "MosChip Technologies shares slide 8% as Q2 net loss hits ₹30.40 Cr; board approves 73% acquisition of Vayavya Labs for ₹266.71 Cr",
+   "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPU3lxN3VpSlJqRFhMN3U3R1JnZjhIM1lfN0xfckE0UGVCaEVCNVQ0RWxDWG9iREFuOEZVWGxMUVk5S0psQ2JlUm1OT2hweUhmQXpYMnBEc2QtUnVldGx3RUZJNWIyQUNDNzdXN0NhdXhOTUFjcmZ2VFhwNUdIN1RVblgycDFrNXFDdEVDNzY2NVhVRHBibW1pWVlEQi11VjdXdU1OLXk0bThJZGl6LU04cVc3SXlhc19ucExld1U0RzFoQm5oZEwxcDlXeFFrODBXVW9uc3NELVNwNFRjY1hjR3VjdXo3ejhseHdFUGRUYUhRTHB3blhTLUlMM3p2UQ?oc=5"
+  }
+ ],
+ "synopsis": "MosChip Technologies Limited has announced that its board approved the acquisition of a 73 percent stake in Vayavya Labs Private Limited for Rs 266.71 crore. The transaction involves Rs 154.52 crore in cash and Rs 112.19 crore settled through the issuance of 50,50,686 new MosChip shares to the sellers at Rs 222.14 each. The remaining 27 percent stake will be acquired after March 31, 2028, with pricing based on performance. The deal requires shareholder approval at an EGM on November 25, 2026, as well as stock exchange and Reserve Bank of India approvals. Alongside this acquisition, MosChip reported a consolidated net loss of Rs 30.40 crore for the September quarter.",
+ "ticker": null,
+ "updatedAt": "2026-10-29T11:01:27.344763+00:00"
+}

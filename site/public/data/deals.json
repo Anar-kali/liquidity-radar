@@ -1,6 +1,28 @@
 {
- "dealCount": 970,
+ "dealCount": 971,
  "deals": [
+  {
+   "amountCr": 266.71,
+   "amountRaw": "₹266.71 Cr",
+   "company": "Vayavya Labs",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-29T11:01:20.337610+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1312,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "MosChip Technologies acquires 73% stake in Vayavya Labs for Rs 266.71 Cr, cashing out founders/investors.",
+   "primaryOutlet": "Trade Brains",
+   "seller": "Vayavya Labs Private Limited founders/investors",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-29T11:01:27.344763+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -30550,6 +30572,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-29T08:16:08.911331+00:00",
- "totalDeals": 970
+ "generatedAt": "2026-10-29T11:01:27.344763+00:00",
+ "totalDeals": 971
 }
