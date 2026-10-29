@@ -40,13 +40,17 @@
    "seller": "Carlsberg India promoters",
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-10-29T08:16:08.911331+00:00",
    "updates": [
     {
      "attachedAt": "2026-10-29T10:16:07.723643+00:00",
      "title": "Carlsberg India files updated IPO papers with SEBI"
+    },
+    {
+     "attachedAt": "2026-10-29T11:16:09.867960+00:00",
+     "title": "Carlsberg India moves closer to IPO: What its updated filing reveals about the beer maker"
     }
    ]
   },
@@ -780,8 +784,8 @@
    "updates": []
   },
   {
-   "amountCr": 1215.0,
-   "amountRaw": "Rs 1,215 crore",
+   "amountCr": 5012.0,
+   "amountRaw": "₹5,012 crore",
    "company": "Zetwerk",
    "confidence": "high",
    "confirmed": false,
@@ -796,13 +800,17 @@
    "seller": "Kae Capital, Accel, Peak XV and Lightspeed",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
-   "updatedAt": "2026-10-24T15:16:05.907726+00:00",
+   "updatedAt": "2026-10-29T11:16:09.890155+00:00",
    "updates": [
     {
      "attachedAt": "2026-10-26T01:31:06.714981+00:00",
      "title": "Accel once rejected Zetwerk: Now it sells a slice of its stake in the IPO"
+    },
+    {
+     "attachedAt": "2026-10-29T11:16:09.883696+00:00",
+     "title": "Trilegal, Shardul Amarchand Mangaldas act on Zetwerk ₹5,012 crore IPO"
     }
    ]
   },
@@ -30572,6 +30580,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-29T11:01:27.344763+00:00",
+ "generatedAt": "2026-10-29T11:16:09.890155+00:00",
  "totalDeals": 971
 }
