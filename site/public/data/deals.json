@@ -1,6 +1,35 @@
 {
- "dealCount": 964,
+ "dealCount": 965,
  "deals": [
+  {
+   "amountCr": 28800.0,
+   "amountRaw": "€3 billion",
+   "company": "VTTI",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-29T01:31:18.985763+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1306,
+   "individuals": [
+    "Gautam Adani"
+   ],
+   "listed": false,
+   "oneLine": "Adani eyes €3 billion acquisition of VTTI.",
+   "primaryOutlet": "Mint",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 2,
+   "ticker": null,
+   "updatedAt": "2026-10-29T01:31:20.545689+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-10-29T01:31:18.990662+00:00",
+     "title": "Gautam Adani explores €3 billion acquisition of Dutch energy storage group VTTI"
+    }
+   ]
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -5837,7 +5866,7 @@
    "seller": "Carlsberg Group",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 18,
+   "sourceCount": 19,
    "ticker": null,
    "updatedAt": "2026-10-01T14:46:08.546312+00:00",
    "updates": [
@@ -5908,6 +5937,10 @@
     {
      "attachedAt": "2026-10-28T17:01:55.758321+00:00",
      "title": "Carlsberg India Files Updated IPO Prospectus For 8.64 Cr Equity Shares"
+    },
+    {
+     "attachedAt": "2026-10-29T01:31:18.967159+00:00",
+     "title": "Carlsberg India IPO: Updated Papers Filed with Sebi"
     }
    ]
   },
@@ -30375,6 +30408,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-28T15:17:03.154909+00:00",
- "totalDeals": 964
+ "generatedAt": "2026-10-29T01:31:20.545689+00:00",
+ "totalDeals": 965
 }

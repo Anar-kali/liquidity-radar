@@ -1,0 +1,41 @@
+{
+ "advisers": [],
+ "amountCr": 28800.0,
+ "amountRaw": "€3 billion",
+ "buyer": "Adani Group",
+ "company": "VTTI",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-29T01:31:18.985763+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1306,
+ "individuals": [
+  "Gautam Adani"
+ ],
+ "listed": false,
+ "oneLine": "Adani eyes €3 billion acquisition of VTTI.",
+ "primaryUrl": "https://www.livemint.com/companies/people/adani-eyes-3-billion-acquisition-of-dutch-energy-storage-firm-vtti-as-supply-disruptions-boost-demand-11793209049359.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-29T01:31:18.986902+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "Adani eyes €3 billion acquisition of Dutch energy storage firm VTTI as supply disruptions boost demand",
+   "url": "https://www.livemint.com/companies/people/adani-eyes-3-billion-acquisition-of-dutch-energy-storage-firm-vtti-as-supply-disruptions-boost-demand-11793209049359.html"
+  },
+  {
+   "attachedAt": "2026-10-29T01:31:18.990662+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "Gautam Adani explores €3 billion acquisition of Dutch energy storage group VTTI",
+   "url": "https://www.thehindubusinessline.com/companies/gautam-adani-explores-3-billion-acquisition-of-dutch-energy-storage-group-vtti/article71638065.ece"
+  }
+ ],
+ "synopsis": "Adani Group is exploring a potential acquisition of Dutch energy storage group VTTI in a deal that could value the company at around €3 billion. VTTI is currently owned by IFM Investors Pty, Vitol SA, and Abu Dhabi National Oil Co. Adnoc is considering selling out of VTTI completely, while the other co-owners may also look to reduce their positions. Deliberations remain ongoing with no certainty of a transaction, and other bidders are also pursuing a stake in the company.",
+ "ticker": null,
+ "updatedAt": "2026-10-29T01:31:20.545689+00:00"
+}
