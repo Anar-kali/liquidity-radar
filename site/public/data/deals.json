@@ -178,10 +178,15 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "mcap_plausible",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": "IIFLCAPS.NS",
    "updatedAt": "2026-10-29T02:31:06.577619+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-10-29T15:02:30.004178+00:00",
+     "title": "Fairfax Entity Seeks Control of IIFL Capital Services: Key Steps"
+    }
+   ]
   },
   {
    "amountCr": 1073.4,
