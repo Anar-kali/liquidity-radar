@@ -87,7 +87,7 @@
    "seller": "Carlsberg India promoters",
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 5,
+   "sourceCount": 6,
    "ticker": null,
    "updatedAt": "2026-10-29T08:16:08.911331+00:00",
    "updates": [
@@ -106,6 +106,10 @@
     {
      "attachedAt": "2026-10-29T11:46:13.144813+00:00",
      "title": "Carlsberg India Limited"
+    },
+    {
+     "attachedAt": "2026-10-29T13:16:12.005088+00:00",
+     "title": "Carlsberg India IPO: 8.64 Crore Shares in OFS"
     }
    ]
   },
