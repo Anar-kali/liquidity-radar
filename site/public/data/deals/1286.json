@@ -10,7 +10,10 @@
  "dealType": "DRHP filing",
  "enrichmentState": null,
  "id": 1286,
- "individuals": [],
+ "individuals": [
+  "Shyam Bhartia",
+  "Hari Bhartia"
+ ],
  "listed": false,
  "oneLine": "Coca-Cola India bottler plans to file DRHP for a $1 billion IPO.",
  "primaryUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNYmJ4ZkVhakctU3ZwSk9WM0FibmtxcE95WTFPdjExQlBYYWhzaHRNQ0hSaHBlWmpPcy1tYksyZmZ2aHpUU3BFc21nZk9XZnJzVjdibzI0ZHlFWXhrNkhMR0syaWY5ekZjR0oxWkFtYThydnJKUnZyNHp3VGZQcmhTb3NMQWlqWXJzU0wzQWVobWZNOVdiZjhYcy02Tk1XMTBwQ1JVMWpxbUNBSjZKOVRhSWVaMjFwc0xENmt6S2RVRXhKdWFRdEl1VzE1RUNPaFBZN3fSAdcBQVVfeXFMT1k0S0p0cVpHUGFXVXNacDRlN2pZSHpqRDZMckFIY015WmYycGZzaVA2cENaUnJlV3lTOFB2S1EtNVFxNkxBRnFRVF9LS2ZOck0tRzNwYWhuV2xEd19Xc0RpdVhTSE1KR1pXUEhrZ1lpdDFGbTdYbzlyWWJ1bzhYSUF4aWpvQzV5VEdFOFQzVWwtXzE0SllHeVZmRzg0WGdtdnJucnprMjJYNXFhMjdYTXc4cGp6Q19EcWttc0J5LXJoOHdJUHpJVjU2S19veVllakVJbjc3OXc?oc=5",
@@ -66,9 +69,16 @@
    "resolvable": false,
    "title": "IPO plans for Indian bottling arm’s on track: Coca-Cola",
    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOb3o4dkZXOW81YlRXaHkzNXl0U3dEYjk0RjMxMXZ2ak1XMnV6NmhBSjB3cVd1LVVtd3lJQ2JwLV9xWHE0YW9rUlNyTFdVdjh5MHk0V09wQnNIWHdLbzFzSVFjQkpYckUyUk5lTnFzUjM4dkx4MG5kaUs2OTE0U2pYQ05YTmRaZG4yb1diSlVxWDMtWkw4UVFSTkpCVDI0WVl3dlJXN3VYM0ZPcVJhaHM5NjljQk40ZnJuY3NodS1MSTVYeHPSAcgBQVVfeXFMTjVYOS1ISXh3d2UtVThlcGlqYTBqWXcwaC1Bcm16NzBQSG1SQ1B6a05VRkNDUXFLWFVuTEFWMkhOXzdoWjMxSS0xUF9OYkExYkVEa2JHWHY2THRCdDE4Y3ZvRGNnSWNlMFBSRDJGc1QyVEkyWHlVXy1JXzJ3aUNTSEpqT0tabmlFNWViWVZXMkhwV2pud1h6ZWNURm9NWl9IS3c2RW8talMxV2ZQbzJWVkozMDlfclRUeWxqVjRTWGFVRnJHaDNxTmo?oc=5"
+  },
+  {
+   "attachedAt": "2026-10-29T06:31:05.918412+00:00",
+   "outlet": "CEOWORLD magazine",
+   "resolvable": false,
+   "title": "Billionaire brothers Shyam and Hari Bhartia’ Coca-Cola Bet Nears a Payoff as Bottler Plans $1 Billion IPO",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOU2c1SFVDSmhsQ3RKOG5TaU5HSzBfaTJUWGxZQW5IQXI4M2R6SVFSb2JGUjJiS2V1bG1rc2dCUEs3MHhfU29NMzhWM2pyMFFRZXR5empGdXdHTFB2c0hBazdlLXNEVUxqQU00ME1mREgzVU5ucEdORHZoRUljVmFSXzk2bjlhWkZiMEdBMVFraGp0T3M1MWVkaWJzdnRiV3NrQ2U5YjduWGxDTzE5R3JWY09ITVIzYnRoUnBKMDRub2JVNjE2alU4c3BlMXJjbVRTbmc?oc=5"
   }
  ],
  "synopsis": "Hindustan Coca-Cola Holdings, the parent company for Indian Coca-Cola bottler Hindustan Coca-Cola Beverages, is likely to file its draft red herring prospectus with SEBI for a $1 billion initial public offering, expected to occur in 2027. The issue size is estimated around $1 billion for a stake sale, with the firm seeking a valuation of $10 billion. Rothschild & Co has been retained to advise on the listing, while Axis Capital and IIFL Capital Services are part of the issue's syndicate. The listing aims to complete the refranchising of HCCH. The Coca-Cola Company retains a 60% stake following a transaction with Jubilant Bhartia Group, which acquired a 40% stake in July 2025.",
  "ticker": null,
- "updatedAt": "2026-10-26T10:31:11.530588+00:00"
+ "updatedAt": "2026-10-29T06:31:05.920759+00:00"
 }
