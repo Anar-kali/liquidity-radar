@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "FIH Mauritius",
+ "company": "IIFL Capital Services",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-29T02:31:06.577619+00:00",
+ "dealType": "open offer",
+ "enrichmentState": "failed",
+ "id": 1308,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "FIH Mauritius launches an open offer for IIFL Capital Services.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQ3I5YU9ZMEhXWllRajFGbGx1U1MxTXBCN3ZlbGgtVm0zLXE4M3JqZm9UX0lDMzFucXVTVkF6SVNrcTZ6Q0pjUEN2elBTb0pyYnRxT0kyYVNkeG0tVXc0YXZOMGVvSmExYi1OOU5CMzRiZUo3M1pWX1lpdkNlQ2w4RHdtenQ2bXhVRnRKbmpiaEQteGJZZlhhWlJnbXY3M1lycXc0M2dTWVExbTdKQ2Q0UHFONW5uNEU?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "mcap_plausible",
+ "sources": [
+  {
+   "attachedAt": "2026-10-29T02:31:06.579771+00:00",
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "FIH Mauritius launches ₹350 open offer for IIFL Capital Services",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQ3I5YU9ZMEhXWllRajFGbGx1U1MxTXBCN3ZlbGgtVm0zLXE4M3JqZm9UX0lDMzFucXVTVkF6SVNrcTZ6Q0pjUEN2elBTb0pyYnRxT0kyYVNkeG0tVXc0YXZOMGVvSmExYi1OOU5CMzRiZUo3M1pWX1lpdkNlQ2w4RHdtenQ2bXhVRnRKbmpiaEQteGJZZlhhWlJnbXY3M1lycXc0M2dTWVExbTdKQ2Q0UHFONW5uNEU?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": "IIFLCAPS.NS",
+ "updatedAt": "2026-10-29T02:31:06.577619+00:00"
+}

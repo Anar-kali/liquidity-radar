@@ -1,6 +1,28 @@
 {
- "dealCount": 966,
+ "dealCount": 967,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "IIFL Capital Services",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-29T02:31:06.577619+00:00",
+   "dealType": "open offer",
+   "enrichmentState": "failed",
+   "id": 1308,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "FIH Mauritius launches an open offer for IIFL Capital Services.",
+   "primaryOutlet": "scanx.trade",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "mcap_plausible",
+   "sourceCount": 1,
+   "ticker": "IIFLCAPS.NS",
+   "updatedAt": "2026-10-29T02:31:06.577619+00:00",
+   "updates": []
+  },
   {
    "amountCr": 1073.4,
    "amountRaw": "₹1,073.40 crore",
@@ -481,7 +503,7 @@
    "seller": "Promoters and shareholders",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 6,
+   "sourceCount": 7,
    "ticker": null,
    "updatedAt": "2026-10-26T10:31:11.530588+00:00",
    "updates": [
@@ -504,6 +526,10 @@
     {
      "attachedAt": "2026-10-27T15:01:56.742185+00:00",
      "title": "Coke sees strong volume growth in Q3 CY26"
+    },
+    {
+     "attachedAt": "2026-10-29T02:31:06.583133+00:00",
+     "title": "IPO plans for Indian bottling arm’s on track: Coca-Cola"
     }
    ]
   },
@@ -30430,6 +30456,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-29T01:45:59.029387+00:00",
- "totalDeals": 966
+ "generatedAt": "2026-10-29T02:31:06.577619+00:00",
+ "totalDeals": 967
 }
