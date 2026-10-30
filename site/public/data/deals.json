@@ -1,6 +1,28 @@
 {
- "dealCount": 977,
+ "dealCount": 978,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Mahanadi Coalfields",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-30T10:31:10.648931+00:00",
+   "dealType": "other",
+   "enrichmentState": null,
+   "id": 1320,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Company is exploring an upcoming IPO, bringing potential liquidity to owners.",
+   "primaryOutlet": "Upstox",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-30T10:31:14.177627+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -18,10 +40,15 @@
    "seller": "GAIL",
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-10-30T10:01:36.471145+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-10-30T10:31:10.654416+00:00",
+     "title": "GAIL Q2 Results: Profit zooms 139% YoY to Rs 4,720 crore, revenue rises 33%; board approves GAIL Gas IPO"
+    }
+   ]
   },
   {
    "amountCr": null,
@@ -30776,6 +30803,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-30T10:01:36.471145+00:00",
- "totalDeals": 977
+ "generatedAt": "2026-10-30T10:31:14.177627+00:00",
+ "totalDeals": 978
 }

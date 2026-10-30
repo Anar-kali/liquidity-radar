@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Mahanadi Coalfields",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-30T10:31:10.648931+00:00",
+ "dealType": "other",
+ "enrichmentState": null,
+ "id": 1320,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Company is exploring an upcoming IPO, bringing potential liquidity to owners.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPOG5tSHo0aDdwSFBUZzh4QzhpUnJOaVh5WlN2dExJamEzeE9nQUFHLTVGVTlHcTQ0UWt1OEt0R2lTaVRBallmYWV6enBYN3RRWXpOSkdBOW8zcmVmeWkyRjctOU85dFhYdmtfVjNqUzVtSkY0bjNjd3J6YUlXZXNMTl9TT0FtNmdtM0hQY0F1dlM0N2JxMi1MR3QxN1Z0RHJVTTBVS2Q2dERCbUc1ZWFsTXE3V2J6bGNrcEFsU2czWlU5ckxaOXp6NmtwTERfQkV3bmRGVUc3RFFGRE1LRi1SQ1BaTWVDNGU3VzJGbkdPLVBrSTZDVy1BMzNkcGNteUlCVk1KQ1RJMm1nXzVwbGctUQ?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-10-30T10:31:10.650865+00:00",
+   "outlet": "Upstox",
+   "resolvable": false,
+   "title": "Upcoming IPOs: Mahanadi Coalfields, OYO, Cult.fit, Carlsberg India are among big-ticket IPOs expected after Jio Platforms listing",
+   "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPOG5tSHo0aDdwSFBUZzh4QzhpUnJOaVh5WlN2dExJamEzeE9nQUFHLTVGVTlHcTQ0UWt1OEt0R2lTaVRBallmYWV6enBYN3RRWXpOSkdBOW8zcmVmeWkyRjctOU85dFhYdmtfVjNqUzVtSkY0bjNjd3J6YUlXZXNMTl9TT0FtNmdtM0hQY0F1dlM0N2JxMi1MR3QxN1Z0RHJVTTBVS2Q2dERCbUc1ZWFsTXE3V2J6bGNrcEFsU2czWlU5ckxaOXp6NmtwTERfQkV3bmRGVUc3RFFGRE1LRi1SQ1BaTWVDNGU3VzJGbkdPLVBrSTZDVy1BMzNkcGNteUlCVk1KQ1RJMm1nXzVwbGctUQ?oc=5"
+  }
+ ],
+ "synopsis": "The article outlines a list of upcoming big-ticket initial public offerings in India following the Jio Platforms listing, covering ten companies including Mahanadi Coalfields, OYO, Cult.fit, Carlsberg India, INOX Air Products, Avaada Electro, Inox Clean Energy, Razorpay, Acko, and Navi. Mentioned details include tentative issue sizes and offer structures such as fresh issues and offers for sale across various sectors like solar manufacturing, coal mining, hospitality, insurance, and industrial gases. The report notes specific plans for several companies, such as Avaada Ventures planning an OFS of about ₹6,000 crore for Avaada Electro, Coal India proposing to sell up to a 10% stake in Mahanadi Coalfields, and Carlsberg India's Singapore holding company planning to sell about 8.64 crore equity shares through an OFS.",
+ "ticker": null,
+ "updatedAt": "2026-10-30T10:31:14.177627+00:00"
+}
