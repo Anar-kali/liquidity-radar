@@ -962,7 +962,7 @@
    "seller": "Kae Capital, Accel, Peak XV and Lightspeed",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 4,
+   "sourceCount": 5,
    "ticker": null,
    "updatedAt": "2026-10-29T14:16:21.680731+00:00",
    "updates": [
@@ -977,6 +977,10 @@
     {
      "attachedAt": "2026-10-29T14:16:21.676322+00:00",
      "title": "From US Return To NSE Bell: Zetwerk Co-Founder Amrit Acharya On His Father's Doubts And Rs 5,000 Crore IPO"
+    },
+    {
+     "attachedAt": "2026-10-30T09:01:13.149660+00:00",
+     "title": "Zetwerk Manufacturing Businesses Limited"
     }
    ]
   },
