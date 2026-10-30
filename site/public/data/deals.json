@@ -1,6 +1,28 @@
 {
- "dealCount": 974,
+ "dealCount": 975,
  "deals": [
+  {
+   "amountCr": 150.0,
+   "amountRaw": "₹150 crore",
+   "company": "TCI",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-30T04:31:01.674167+00:00",
+   "dealType": "other",
+   "enrichmentState": "failed",
+   "id": 1317,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "TCI completed a Rs 150 crore share buyback, distributing cash to shareholders.",
+   "primaryOutlet": "scanx.trade",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "532262.BO",
+   "updatedAt": "2026-10-30T04:31:01.674167+00:00",
+   "updates": []
+  },
   {
    "amountCr": 2200.0,
    "amountRaw": "$250 million (~Rs 2,200 crore)",
@@ -30694,6 +30716,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-29T15:47:08.967835+00:00",
- "totalDeals": 974
+ "generatedAt": "2026-10-30T04:31:01.674167+00:00",
+ "totalDeals": 975
 }

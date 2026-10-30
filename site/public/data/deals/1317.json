@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 150.0,
+ "amountRaw": "₹150 crore",
+ "buyer": null,
+ "company": "TCI",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-30T04:31:01.674167+00:00",
+ "dealType": "other",
+ "enrichmentState": "failed",
+ "id": 1317,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "TCI completed a Rs 150 crore share buyback, distributing cash to shareholders.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbXVOeklONVNDbml2ZWlXSzhjVUtwQVphY0ctd0gxWVZfdWp6U0tUTFVMTFlJS1pJX1hWT1c1bzlOY3JuWGYtQnd5VlZ4RUE4OG1aUTVYbU8zRmRpN2hEdGQtdjdsU3Y3ZEZ3b29vSGNoc3cwaGtpQ0pFV0g3Ty1MLUd0TUtldFBveTZ4QjBCbUpwa19wNks5YkJYUVlGTU9Bd0dLMA?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-30T04:31:01.675499+00:00",
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "TCI completes ₹150 crore buyback at ₹960 per share",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbXVOeklONVNDbml2ZWlXSzhjVUtwQVphY0ctd0gxWVZfdWp6U0tUTFVMTFlJS1pJX1hWT1c1bzlOY3JuWGYtQnd5VlZ4RUE4OG1aUTVYbU8zRmRpN2hEdGQtdjdsU3Y3ZEZ3b29vSGNoc3cwaGtpQ0pFV0g3Ty1MLUd0TUtldFBveTZ4QjBCbUpwa19wNks5YkJYUVlGTU9Bd0dLMA?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": "532262.BO",
+ "updatedAt": "2026-10-30T04:31:01.674167+00:00"
+}
