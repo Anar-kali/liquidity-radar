@@ -1,6 +1,28 @@
 {
- "dealCount": 979,
+ "dealCount": 980,
  "deals": [
+  {
+   "amountCr": 400.0,
+   "amountRaw": "Rs 400 crore",
+   "company": "Ratnadeep Retail",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-30T15:46:04.156499+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 1322,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Ratnadeep Retail gets Sebi approval for an IPO featuring a fresh issue and OFS.",
+   "primaryOutlet": "The Times of India",
+   "seller": "promoter selling shareholders",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-30T15:46:17.105468+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -30825,6 +30847,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-30T14:47:10.119583+00:00",
- "totalDeals": 979
+ "generatedAt": "2026-10-30T15:46:17.105468+00:00",
+ "totalDeals": 980
 }
