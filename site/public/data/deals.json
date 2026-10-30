@@ -1,6 +1,28 @@
 {
- "dealCount": 976,
+ "dealCount": 977,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "GAIL Gas",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-30T10:01:32.740560+00:00",
+   "dealType": "unknown",
+   "enrichmentState": null,
+   "id": 1319,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "GAIL plans to IPO GAIL Gas and divest up to 25% stake.",
+   "primaryOutlet": "Upstox",
+   "seller": "GAIL",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-30T10:01:36.471145+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -30754,6 +30776,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-30T06:16:04.309322+00:00",
- "totalDeals": 976
+ "generatedAt": "2026-10-30T10:01:36.471145+00:00",
+ "totalDeals": 977
 }

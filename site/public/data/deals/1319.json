@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "GAIL Gas",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-30T10:01:32.740560+00:00",
+ "dealType": "unknown",
+ "enrichmentState": null,
+ "id": 1319,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "GAIL plans to IPO GAIL Gas and divest up to 25% stake.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxON3E4dVZ5TTFienJLYXZyNjZJQTlvV0JYOHRfVVVPLXpVYXE3OTc2d3NocXFlblJHYnVDTmgyd0dXUjl5MC1vUUZ2VGxLX09fYjhvcjZFTzNLYkxIUHZxNXpLZVFUMFRmeWpTQWx2VHZ1dGhaQW52eEhqSmI1SVlPS2xXVllIUUE3N0xrc1p0cjNqeWtuZ3FZSlNwSXdQWDJYQk5sd09tTEszOFFFV2NwWWpUb0R0NmVBYzhiV3pGWllSU1RqbnVaM2h2a2pTTXFWWVZ3VEhOdDFsdw?oc=5",
+ "seller": "GAIL",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-10-30T10:01:32.759676+00:00",
+   "outlet": "Upstox",
+   "resolvable": false,
+   "title": "GAIL board gives in-principle approval for GAIL Gas IPO, plans to divest up to 25% stake",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxON3E4dVZ5TTFienJLYXZyNjZJQTlvV0JYOHRfVVVPLXpVYXE3OTc2d3NocXFlblJHYnVDTmgyd0dXUjl5MC1vUUZ2VGxLX09fYjhvcjZFTzNLYkxIUHZxNXpLZVFUMFRmeWpTQWx2VHZ1dGhaQW52eEhqSmI1SVlPS2xXVllIUUE3N0xrc1p0cjNqeWtuZ3FZSlNwSXdQWDJYQk5sd09tTEszOFFFV2NwWWpUb0R0NmVBYzhiV3pGWllSU1RqbnVaM2h2a2pTTXFWWVZ3VEhOdDFsdw?oc=5"
+  }
+ ],
+ "synopsis": "GAIL (India) Ltd announced that its board has given in-principle approval for the initial public offering of its wholly owned subsidiary, GAIL Gas. Through the proposed IPO, GAIL plans to dilute its stake in GAIL Gas by up to 25%. Further approvals regarding the final extent of dilution, valuation, price band, and modalities will be sought from the GAIL board after the submission of the final proposal based on Book Running Lead Manager recommendations.",
+ "ticker": null,
+ "updatedAt": "2026-10-30T10:01:36.471145+00:00"
+}
