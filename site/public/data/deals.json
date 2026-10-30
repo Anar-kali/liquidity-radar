@@ -1,6 +1,28 @@
 {
- "dealCount": 975,
+ "dealCount": 976,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Baazar Kolkata",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-30T06:16:04.309322+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1318,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Private equity firms in race to acquire Baazar Kolkata parent company",
+   "primaryOutlet": "Moneycontrol.com",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-30T06:16:04.309322+00:00",
+   "updates": []
+  },
   {
    "amountCr": 150.0,
    "amountRaw": "₹150 crore",
@@ -30724,6 +30746,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-30T04:31:01.674167+00:00",
- "totalDeals": 975
+ "generatedAt": "2026-10-30T06:16:04.309322+00:00",
+ "totalDeals": 976
 }
