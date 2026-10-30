@@ -1,0 +1,41 @@
+{
+ "advisers": [],
+ "amountCr": 981.79,
+ "amountRaw": "981.79cr confirmed via NSE block deal",
+ "buyer": null,
+ "company": "Swiggy Limited",
+ "confidence": "high",
+ "confirmed": true,
+ "createdAt": "2026-10-30T19:10:51.057694+00:00",
+ "dealType": "bulk deal",
+ "enrichmentState": null,
+ "id": 1323,
+ "individuals": [
+  "TENCENT CLOUD EUROPE B.V."
+ ],
+ "listed": true,
+ "oneLine": "TENCENT CLOUD EUROPE B.V. sold shares in Swiggy Limited (confirmed, NSE bulk deal)",
+ "primaryUrl": "",
+ "seller": "TENCENT CLOUD EUROPE B.V.",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-10-30T19:10:51.058762+00:00",
+   "outlet": "NSE",
+   "resolvable": true,
+   "title": "Swiggy Limited: bulk deal",
+   "url": ""
+  },
+  {
+   "attachedAt": "2026-10-30T19:10:51.062620+00:00",
+   "outlet": "NSE",
+   "resolvable": true,
+   "title": "Swiggy Limited: block deal",
+   "url": ""
+  }
+ ],
+ "synopsis": null,
+ "ticker": "SWIGGY.NS",
+ "updatedAt": "2026-10-30T19:10:51.063696+00:00"
+}

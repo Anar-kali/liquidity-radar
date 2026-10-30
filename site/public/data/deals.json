@@ -1,6 +1,35 @@
 {
- "dealCount": 980,
+ "dealCount": 981,
  "deals": [
+  {
+   "amountCr": 981.79,
+   "amountRaw": "981.79cr confirmed via NSE block deal",
+   "company": "Swiggy Limited",
+   "confidence": "high",
+   "confirmed": true,
+   "createdAt": "2026-10-30T19:10:51.057694+00:00",
+   "dealType": "bulk deal",
+   "enrichmentState": null,
+   "id": 1323,
+   "individuals": [
+    "TENCENT CLOUD EUROPE B.V."
+   ],
+   "listed": true,
+   "oneLine": "TENCENT CLOUD EUROPE B.V. sold shares in Swiggy Limited (confirmed, NSE bulk deal)",
+   "primaryOutlet": "NSE",
+   "seller": "TENCENT CLOUD EUROPE B.V.",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 2,
+   "ticker": "SWIGGY.NS",
+   "updatedAt": "2026-10-30T19:10:51.063696+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-10-30T19:10:51.062620+00:00",
+     "title": "Swiggy Limited: block deal"
+    }
+   ]
+  },
   {
    "amountCr": 400.0,
    "amountRaw": "Rs 400 crore",
@@ -144,25 +173,27 @@
    "updates": []
   },
   {
-   "amountCr": 2200.0,
-   "amountRaw": "$250 million (~Rs 2,200 crore)",
+   "amountCr": 2394.56,
+   "amountRaw": "2394.56cr confirmed via NSE bulk deal",
    "company": "Sagility",
    "confidence": "medium",
-   "confirmed": false,
+   "confirmed": true,
    "createdAt": "2026-10-29T15:46:43.966156+00:00",
    "dealType": "block deal",
    "enrichmentState": null,
    "id": 1315,
-   "individuals": [],
+   "individuals": [
+    "SAGILITY B.V."
+   ],
    "listed": true,
    "oneLine": "IIFL Capital launches a block deal up to $250 million in Sagility.",
    "primaryOutlet": "Moneycontrol.com",
    "seller": "IIFL Capital clients",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 7,
+   "sourceCount": 8,
    "ticker": "SAGILITY.NS",
-   "updatedAt": "2026-10-29T15:47:08.967835+00:00",
+   "updatedAt": "2026-10-30T19:10:51.051554+00:00",
    "updates": [
     {
      "attachedAt": "2026-10-29T16:17:04.710835+00:00",
@@ -187,6 +218,10 @@
     {
      "attachedAt": "2026-10-30T08:16:00.543715+00:00",
      "title": "Sagility Share Price Falls 5% on Rs 2,377 Crore Block Deal"
+    },
+    {
+     "attachedAt": "2026-10-30T19:10:51.050486+00:00",
+     "title": "SAGILITY LIMITED: bulk deal"
     }
    ]
   },
@@ -30852,6 +30887,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-30T15:46:17.105468+00:00",
- "totalDeals": 980
+ "generatedAt": "2026-10-30T19:10:51.063696+00:00",
+ "totalDeals": 981
 }
