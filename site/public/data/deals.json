@@ -1,6 +1,28 @@
 {
- "dealCount": 978,
+ "dealCount": 979,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "OfBusiness",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-30T14:46:10.886737+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 1321,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "OfBusiness is heading for an IPO, creating future liquidity for its founders.",
+   "primaryOutlet": "Inc42",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-30T14:47:10.119583+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -30803,6 +30825,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-30T10:31:14.177627+00:00",
- "totalDeals": 978
+ "generatedAt": "2026-10-30T14:47:10.119583+00:00",
+ "totalDeals": 979
 }

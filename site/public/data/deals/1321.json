@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "OfBusiness",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-30T14:46:10.886737+00:00",
+ "dealType": "IPO-OFS",
+ "enrichmentState": null,
+ "id": 1321,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "OfBusiness is heading for an IPO, creating future liquidity for its founders.",
+ "primaryUrl": "https://inc42.com/features/decoding-the-commerce-and-lending-engines-of-ipo-bound-ofbusiness/",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-10-30T14:46:10.896715+00:00",
+   "outlet": "Inc42",
+   "resolvable": true,
+   "title": "Decoding The Commerce And Lending Engines Of IPO-Bound OfBusiness",
+   "url": "https://inc42.com/features/decoding-the-commerce-and-lending-engines-of-ipo-bound-ofbusiness/"
+  }
+ ],
+ "synopsis": "OfBusiness is heading for the stock market with an upcoming IPO that creates future liquidity for its founders. The company operates a commerce business spanning raw-material trading, manufacturing, and apparel that generates almost all its sales, alongside a lending business led by Oxyzo that contributes more than half of its segment profits. In FY26, OfBusiness reported consolidated operating revenue of ₹20,472 Cr, down nearly 8% year on year, while net profit climbed 21% to ₹724 Cr. The lending-led financial services generated ₹505 Cr in profit before tax compared with ₹422 Cr from commerce. The company achieved unicorn status alongside its lending arm Oxyzo, while preparing for its stock market debut.",
+ "ticker": null,
+ "updatedAt": "2026-10-30T14:47:10.119583+00:00"
+}
