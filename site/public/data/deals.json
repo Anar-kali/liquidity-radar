@@ -18,7 +18,7 @@
    "seller": "IIFL Capital clients",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 4,
+   "sourceCount": 5,
    "ticker": "SAGILITY.NS",
    "updatedAt": "2026-10-29T15:47:08.967835+00:00",
    "updates": [
@@ -33,6 +33,10 @@
     {
      "attachedAt": "2026-10-30T01:31:15.378957+00:00",
      "title": "Sagility block deal: Promoter to offload 12% stake at ₹42.45 apiece; deal size ₹2,377 crore"
+    },
+    {
+     "attachedAt": "2026-10-30T02:31:13.205015+00:00",
+     "title": "Sagility BV to cut stake in India arm"
     }
    ]
   },
