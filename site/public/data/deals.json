@@ -62,7 +62,7 @@
    "seller": "IIFL Capital clients",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 6,
+   "sourceCount": 7,
    "ticker": "SAGILITY.NS",
    "updatedAt": "2026-10-29T15:47:08.967835+00:00",
    "updates": [
@@ -85,6 +85,10 @@
     {
      "attachedAt": "2026-10-30T04:46:00.474243+00:00",
      "title": "Sagility share price drops 6% after promoter likely to have sold equity worth ₹2,543 crore"
+    },
+    {
+     "attachedAt": "2026-10-30T08:16:00.543715+00:00",
+     "title": "Sagility Share Price Falls 5% on Rs 2,377 Crore Block Deal"
     }
    ]
   },
