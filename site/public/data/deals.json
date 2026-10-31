@@ -172,13 +172,21 @@
    "seller": "GAIL",
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 2,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-10-30T10:01:36.471145+00:00",
    "updates": [
     {
      "attachedAt": "2026-10-30T10:31:10.654416+00:00",
      "title": "GAIL Q2 Results: Profit zooms 139% YoY to Rs 4,720 crore, revenue rises 33%; board approves GAIL Gas IPO"
+    },
+    {
+     "attachedAt": "2026-10-31T07:01:09.543653+00:00",
+     "title": "GAIL Gas IPO: Board Approves Listing Plan, Up To 25% Stake Sale Proposed"
+    },
+    {
+     "attachedAt": "2026-10-31T07:01:09.551590+00:00",
+     "title": "GAIL Gas IPO: Board Approves Up to 25% Stake Dilution"
     }
    ]
   },
