@@ -1,6 +1,28 @@
 {
- "dealCount": 984,
+ "dealCount": 985,
  "deals": [
+  {
+   "amountCr": 303.6,
+   "amountRaw": "2% x mcap ~Rs 15182cr = ~Rs 304cr",
+   "company": "PC Jeweller",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-31T10:16:02.219357+00:00",
+   "dealType": "block deal",
+   "enrichmentState": null,
+   "id": 1327,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Unico Global Opportunities Fund sells a 2% stake in PC Jeweller via market sale.",
+   "primaryOutlet": "Whalesbook",
+   "seller": "Unico Global Opportunities Fund",
+   "sizeBand": null,
+   "sizeSource": "computed",
+   "sourceCount": 1,
+   "ticker": "PCJEWELLER.NS",
+   "updatedAt": "2026-10-31T10:16:05.453166+00:00",
+   "updates": []
+  },
   {
    "amountCr": 3050.0,
    "amountRaw": "Rs 3,050-crore",
@@ -30983,6 +31005,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-31T09:31:01.947338+00:00",
- "totalDeals": 984
+ "generatedAt": "2026-10-31T10:16:05.453166+00:00",
+ "totalDeals": 985
 }

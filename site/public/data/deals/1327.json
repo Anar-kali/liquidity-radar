@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 303.6,
+ "amountRaw": "2% x mcap ~Rs 15182cr = ~Rs 304cr",
+ "buyer": null,
+ "company": "PC Jeweller",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-31T10:16:02.219357+00:00",
+ "dealType": "block deal",
+ "enrichmentState": null,
+ "id": 1327,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Unico Global Opportunities Fund sells a 2% stake in PC Jeweller via market sale.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQSE8wN1lKQmtsNW1RQ3hkMHBCOFhkWmxLUVJHaTlQMUk4M1BmaFpVXzlPUjlUcnpGNGJVNXAzbjJMc01MQ3NOeXVKYzJfTTRWM3g3aFJWY3VHeFgwZXZEb3BrZ3FNNmZPNXJqMmFZbURiNGNnZ2xib1ZtYXJXclBPQUJqemhJSjYzZXNGamM2a0NyTEFCUHJNMjgwWEpPOHV6T2stSlhUVmd3VFhYQUdzbWlTVzd1Ym0zdUpMbmgzdGtXZDhZOTJzX0xPWllKTXlwYVlzWUluMF9wSG9qSjl1N3V6eklmcklnblZaLV9GSG9LQ0E0T0E3dk9HVWx4N2FTeVpv?oc=5",
+ "seller": "Unico Global Opportunities Fund",
+ "sizeBand": null,
+ "sizeSource": "computed",
+ "sources": [
+  {
+   "attachedAt": "2026-10-31T10:16:02.223160+00:00",
+   "outlet": "Whalesbook",
+   "resolvable": false,
+   "title": "PC Jeweller: Unico Global Opportunities Fund Sells 2% Stake via Market Sale",
+   "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQSE8wN1lKQmtsNW1RQ3hkMHBCOFhkWmxLUVJHaTlQMUk4M1BmaFpVXzlPUjlUcnpGNGJVNXAzbjJMc01MQ3NOeXVKYzJfTTRWM3g3aFJWY3VHeFgwZXZEb3BrZ3FNNmZPNXJqMmFZbURiNGNnZ2xib1ZtYXJXclBPQUJqemhJSjYzZXNGamM2a0NyTEFCUHJNMjgwWEpPOHV6T2stSlhUVmd3VFhYQUdzbWlTVzd1Ym0zdUpMbmgzdGtXZDhZOTJzX0xPWllKTXlwYVlzWUluMF9wSG9qSjl1N3V6eklmcklnblZaLV9GSG9LQ0E0T0E3dk9HVWx4N2FTeVpv?oc=5"
+  }
+ ],
+ "synopsis": "Unico Global Opportunities Fund Ltd has sold a 2% stake in PC Jeweller Limited through open market transactions. The fund disposed of 138,619,971 equity shares between July 9, 2026, and October 26, 2026. Following this series of market sales, the fund's shareholding in the company decreased from 4.97% to 2.97%, dropping its total holding to 290,969,031 shares. The article does not mention the transaction amount in rupees, specific buyers, or any advisers involved in the stake sale.",
+ "ticker": "PCJEWELLER.NS",
+ "updatedAt": "2026-10-31T10:16:05.453166+00:00"
+}
