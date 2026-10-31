@@ -1,6 +1,28 @@
 {
- "dealCount": 983,
+ "dealCount": 984,
  "deals": [
+  {
+   "amountCr": 3050.0,
+   "amountRaw": "Rs 3,050-crore",
+   "company": "IntelliSmart Infrastructure",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-31T09:31:01.947338+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": "failed",
+   "id": 1326,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Adani Energy Solutions acquires IntelliSmart Infrastructure for Rs 3,050 crore.",
+   "primaryOutlet": "The Hawk",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-31T09:31:01.947338+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -30961,6 +30983,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-31T01:31:18.637967+00:00",
- "totalDeals": 983
+ "generatedAt": "2026-10-31T09:31:01.947338+00:00",
+ "totalDeals": 984
 }
