@@ -93,13 +93,17 @@
    "seller": "promoter selling shareholders",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-10-30T15:46:17.105468+00:00",
    "updates": [
     {
      "attachedAt": "2026-10-30T17:31:07.947828+00:00",
      "title": "Ratnadeep Retail IPO Gets Sebi Approval for Rs 400 Crore Issue"
+    },
+    {
+     "attachedAt": "2026-10-31T04:31:01.144373+00:00",
+     "title": "Hyderabad-based Ratnadeep Retail gets SEBI nod to raise ₹ 400 crore via IPO"
     }
    ]
   },
