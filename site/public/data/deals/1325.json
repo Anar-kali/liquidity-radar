@@ -1,0 +1,34 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Bombay Burmah Trading Corporation",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-10-31T01:31:13.877665+00:00",
+ "dealType": "block deal",
+ "enrichmentState": "failed",
+ "id": 1325,
+ "individuals": [
+  "Nusli Wadia"
+ ],
+ "listed": true,
+ "oneLine": "Nusli Wadia sells BBTC shares in a block deal.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQ3JGb2xRU2JRRktSakd0WGpsd3J5UktWdk1GdGpBRU1Ya3oyQnVKTkNoZnY1M2M3QXkwNlhEXzJ5V2o2SmJQY05RZ2tOS3BNNjlJTW1YelpmTjhJLXJObzB6WFZLZWJ1QVdsQy1CR3EzTFRrMXJWNTh1SEk3VmNhNk9QSTdWMmNHSC1ncTU4eTk3bEVVSTV3a08zMEhLVE1ua0JsdmpRMnllWDJqd0htNmk3b3g?oc=5",
+ "seller": "Nusli Wadia",
+ "sizeBand": null,
+ "sizeSource": "mcap_plausible",
+ "sources": [
+  {
+   "attachedAt": "2026-10-31T01:31:13.878948+00:00",
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "Nusli Wadia sells 12.81 lakh BBTC shares at ₹1,195 each",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQ3JGb2xRU2JRRktSakd0WGpsd3J5UktWdk1GdGpBRU1Ya3oyQnVKTkNoZnY1M2M3QXkwNlhEXzJ5V2o2SmJQY05RZ2tOS3BNNjlJTW1YelpmTjhJLXJObzB6WFZLZWJ1QVdsQy1CR3EzTFRrMXJWNTh1SEk3VmNhNk9QSTdWMmNHSC1ncTU4eTk3bEVVSTV3a08zMEhLVE1ua0JsdmpRMnllWDJqd0htNmk3b3g?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": "BBTC.NS",
+ "updatedAt": "2026-10-31T01:31:13.877665+00:00"
+}

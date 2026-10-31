@@ -1,6 +1,52 @@
 {
- "dealCount": 981,
+ "dealCount": 983,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Bombay Burmah Trading Corporation",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-31T01:31:13.877665+00:00",
+   "dealType": "block deal",
+   "enrichmentState": "failed",
+   "id": 1325,
+   "individuals": [
+    "Nusli Wadia"
+   ],
+   "listed": true,
+   "oneLine": "Nusli Wadia sells BBTC shares in a block deal.",
+   "primaryOutlet": "scanx.trade",
+   "seller": "Nusli Wadia",
+   "sizeBand": null,
+   "sizeSource": "mcap_plausible",
+   "sourceCount": 1,
+   "ticker": "BBTC.NS",
+   "updatedAt": "2026-10-31T01:31:13.877665+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 1414.0,
+   "amountRaw": "₹1414 Crore",
+   "company": "Nueclear Healthcare",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-10-31T01:31:13.861790+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1324,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Thyrocare Technologies sells entire stake in Nueclear Healthcare for 1414 crore.",
+   "primaryOutlet": "InvestyWise",
+   "seller": "Thyrocare Technologies",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-10-31T01:31:18.637967+00:00",
+   "updates": []
+  },
   {
    "amountCr": 981.79,
    "amountRaw": "981.79cr confirmed via NSE block deal",
@@ -191,7 +237,7 @@
    "seller": "IIFL Capital clients",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 8,
+   "sourceCount": 9,
    "ticker": "SAGILITY.NS",
    "updatedAt": "2026-10-30T19:10:51.051554+00:00",
    "updates": [
@@ -222,6 +268,10 @@
     {
      "attachedAt": "2026-10-30T19:10:51.050486+00:00",
      "title": "SAGILITY LIMITED: bulk deal"
+    },
+    {
+     "attachedAt": "2026-10-31T01:31:13.855344+00:00",
+     "title": "Sagility promoter sells 12% stake for Rs 2,395 crore; Smallcap World Fund raises holding in Lotus..."
     }
    ]
   },
@@ -30887,6 +30937,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-30T19:10:51.063696+00:00",
- "totalDeals": 981
+ "generatedAt": "2026-10-31T01:31:18.637967+00:00",
+ "totalDeals": 983
 }
