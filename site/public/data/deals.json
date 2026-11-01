@@ -18,10 +18,15 @@
    "seller": "Unico Global Opportunities Fund",
    "sizeBand": null,
    "sizeSource": "computed",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": "PCJEWELLER.NS",
    "updatedAt": "2026-10-31T10:16:05.453166+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-11-01T02:01:06.891588+00:00",
+     "title": "Unico Fund reduces PC Jeweller stake by 2% via market sale"
+    }
+   ]
   },
   {
    "amountCr": 3050.0,
