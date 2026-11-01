@@ -247,7 +247,7 @@
    "seller": "GAIL",
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 4,
+   "sourceCount": 5,
    "ticker": null,
    "updatedAt": "2026-10-30T10:01:36.471145+00:00",
    "updates": [
@@ -262,6 +262,10 @@
     {
      "attachedAt": "2026-10-31T07:01:09.551590+00:00",
      "title": "GAIL Gas IPO: Board Approves Up to 25% Stake Dilution"
+    },
+    {
+     "attachedAt": "2026-11-01T07:45:55.527758+00:00",
+     "title": "Gail Approves Gail Gas IPO, Plans Up To 25% Stake Dilution"
     }
    ]
   },
