@@ -1,6 +1,28 @@
 {
- "dealCount": 985,
+ "dealCount": 986,
  "deals": [
+  {
+   "amountCr": 273.36,
+   "amountRaw": "₹273.36 cr",
+   "company": "Nitin Castings",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-01T03:01:10.973988+00:00",
+   "dealType": "open offer",
+   "enrichmentState": "failed",
+   "id": 1328,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Nitin Castings backed a Rs 273.36 crore delisting offer for public shareholders.",
+   "primaryOutlet": "scanx.trade",
+   "seller": "public shareholders",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "508875.BO",
+   "updatedAt": "2026-11-01T03:01:10.973988+00:00",
+   "updates": []
+  },
   {
    "amountCr": 303.6,
    "amountRaw": "2% x mcap ~Rs 15182cr = ~Rs 304cr",
@@ -31010,6 +31032,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-10-31T10:16:05.453166+00:00",
- "totalDeals": 985
+ "generatedAt": "2026-11-01T03:01:10.973988+00:00",
+ "totalDeals": 986
 }
