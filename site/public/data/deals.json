@@ -1,6 +1,28 @@
 {
- "dealCount": 986,
+ "dealCount": 987,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Alom",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-01T11:01:20.341656+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": "failed",
+   "id": 1329,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Shyam Metalics proposes to acquire a 51 percent controlling stake in Alom.",
+   "primaryOutlet": "Howl.Link",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-01T11:01:20.341656+00:00",
+   "updates": []
+  },
   {
    "amountCr": 273.36,
    "amountRaw": "₹273.36 cr",
@@ -31040,6 +31062,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-11-01T03:01:10.973988+00:00",
- "totalDeals": 986
+ "generatedAt": "2026-11-01T11:01:20.341656+00:00",
+ "totalDeals": 987
 }

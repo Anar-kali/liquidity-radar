@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "Shyam Metalics and Energy",
+ "company": "Alom",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-01T11:01:20.341656+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": "failed",
+ "id": 1329,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Shyam Metalics proposes to acquire a 51 percent controlling stake in Alom.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE5ia2NPQ05oY0xJcHJwN0t6dENHbE9qeENNRG1TT1RrckdSR2JqeVRhRFBqR2d6bUh5U2pj?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-11-01T11:01:20.351108+00:00",
+   "outlet": "Howl.Link",
+   "resolvable": false,
+   "title": "Shyam Metalics and Energy: 3. The proposal to acquire a 51% controlling equity stake in Alom…",
+   "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE5ia2NPQ05oY0xJcHJwN0t6dENHbE9qeENNRG1TT1RrckdSR2JqeVRhRFBqR2d6bUh5U2pj?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-11-01T11:01:20.341656+00:00"
+}
