@@ -11,7 +11,7 @@
  "enrichmentState": null,
  "id": 258,
  "individuals": [],
- "listed": false,
+ "listed": true,
  "oneLine": "Tonbo Imaging files DRHP for IPO; promoters likely to cash out.",
  "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/aug-2026/tonbo-imaging-india-limited-drhp_103625.html",
  "seller": "Early investors",
@@ -97,6 +97,6 @@
   }
  ],
  "synopsis": null,
- "ticker": null,
+ "ticker": "TONBO.NS",
  "updatedAt": "2026-10-15T01:31:15.126221+00:00"
 }

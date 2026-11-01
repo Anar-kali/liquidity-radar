@@ -11,7 +11,7 @@
  "enrichmentState": null,
  "id": 245,
  "individuals": [],
- "listed": false,
+ "listed": true,
  "oneLine": "Zetwerk promoters pledge stake; likely exploring liquidity or financing.",
  "primaryUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQWDBYUVlLTkVSQ1BQT0RvU2E5UWl3M19kYVMwc2tLa0cwekYxVXY0NFRyYlI2anRHTG5MSC1xNkhQSVFIVGtILXM1aG5RbnlrRTF5X3kxUWZVZzNURjhTLXY0Y2J3UjBKUWhmeFQzQ1VmWFRYX1BpbDdqYTZkSUd0N2lxUjVlcGh6blhtdWN0TkpVcktfUTM5d0dwaUhGZnlucUpxa0J0eEcxdFBRX0JMQm5YSzFBTXRhcGtjTzBwMjZuSTZqT0JPaVU2ZlNRdHJ4QnZ3U1FObDU1blXSAeABQVVfeXFMT1NaUUoyaUEyT0dQVDh4SU41Qjc2cFNzcnB3ZUpRVmN5a2diWGlQRXZHWFNyMm54ck1hWTZyZVZOdzFINENwMEJLTUVhd2RMVEpEcXdLenhRVXdmMkdWYW1HekU1OWRId1hhbDhQRTRrV2dVVFBlNE5ZZC11d2lISjNkRkd4WVRGc3g1WHo0SWk2OHFucEI3WjZScVFGRTRkX2UtaFBUVnZjVDE1a01MalFLeFg5NHFSMWdtdDdrcUNOT0xueXFadEMyT2MtcWNHU1lhUVM1T0lIekVKcVd1M0k?oc=5",
  "seller": null,
@@ -62,6 +62,6 @@
   }
  ],
  "synopsis": null,
- "ticker": null,
+ "ticker": "ZETWERK.NS",
  "updatedAt": "2026-08-18T15:53:21.128085+00:00"
 }

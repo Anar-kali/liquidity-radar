@@ -11,7 +11,7 @@
  "enrichmentState": null,
  "id": 625,
  "individuals": [],
- "listed": false,
+ "listed": true,
  "oneLine": "Paras Healthcare receives SEBI IPO approval.",
  "primaryUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVHFJY052YXpRT3VrQ2Q1S3dONFRVOTdOM3NTNFAwSGcwSmpMYUJQemVYS0JFS0ZQbzAyZmpCOUtDTFRtU0RnbHduR1p0VzZPSGhOZ25zOU9qS3dPaDhCbFdaVGFZNFB5ZW9ZM1dOdFRZSWJJX0luaUVVdTNiYUpKejQxbjFkMzhTMFNBMzJxOTZTaUx0UkNPa0RKd3JJcjhkSnQ3MVdjOVfSAa4BQVVfeXFMT3lOQXBORnU0a0JkazhnVXdSQS1wOFo1d1VIYTl0WmotbkQtNUxBazJUTkFPdG5neXpxRXRnRXhBeWMwMWNLYUExSXQ3RWdROTBFZHpfRHd3RTl3VHZyTE9WbWdFazQzNzZHb0JfLXRCYlBIVmJrY041TURoRVBvZFNCclBSSlJoNVdxNkRHUEhzUnRhNUlFVXptSk1jX2UxMVA2MFVYYWRreEFvSFpR?oc=5",
  "seller": "promoters of listed companies",
@@ -48,6 +48,6 @@
   }
  ],
  "synopsis": null,
- "ticker": null,
+ "ticker": "PARASHLTH.NS",
  "updatedAt": "2026-09-22T05:25:45.614455+00:00"
 }

@@ -11,7 +11,7 @@
  "enrichmentState": "failed",
  "id": 970,
  "individuals": [],
- "listed": false,
+ "listed": true,
  "oneLine": "Shah Investor's Home Limited filed a draft offer document with SEBI for an IPO.",
  "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/shah-investor-s-home-limited-rhp_104660.html",
  "seller": null,
@@ -34,6 +34,6 @@
   }
  ],
  "synopsis": null,
- "ticker": null,
+ "ticker": "SHAHINVEST.NS",
  "updatedAt": "2026-09-23T05:31:09.670327+00:00"
 }

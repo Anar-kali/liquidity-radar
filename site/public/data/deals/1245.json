@@ -13,7 +13,7 @@
  "individuals": [
   "Akash Ambani"
  ],
- "listed": false,
+ "listed": true,
  "oneLine": "Jio Platforms prepares for an upcoming IPO with Akash Ambani leading strategy.",
  "primaryUrl": "https://economictimes.indiatimes.com/industry/telecom/telecom-news/et-exclusive-jio-wants-satellite-broadband-within-reach-of-more-indians-says-akash-ambani/articleshow/135070296.cms",
  "seller": null,
@@ -50,6 +50,6 @@
   }
  ],
  "synopsis": "Jio Platforms is preparing for an initial public offering debuting on October 21. The offering is entirely a fresh issue with no offer for sale, meaning no existing institutional investors or shareholders are selling their shares through the offering, and all proceeds go directly to the company. Managing Director Akash Ambani stated that the IPO proceeds will help Jio move toward net debt-free status and strengthen its balance sheet. None of the existing investors are selling shares, and pre-issue shareholdings carry a six-month lock-in.",
- "ticker": null,
+ "ticker": "JPL.NS",
  "updatedAt": "2026-10-20T13:01:19.975358+00:00"
 }

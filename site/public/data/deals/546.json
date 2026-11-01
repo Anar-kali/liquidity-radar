@@ -11,7 +11,7 @@
  "enrichmentState": null,
  "id": 546,
  "individuals": [],
- "listed": false,
+ "listed": true,
  "oneLine": "DRHP addendum filed; IPO stage, promoters likely to cash out.",
  "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/aug-2026/german-green-steel-and-power-ltd-addendum-to-drhp_103895.html",
  "seller": null,
@@ -34,6 +34,6 @@
   }
  ],
  "synopsis": null,
- "ticker": null,
+ "ticker": "GERMAN.NS",
  "updatedAt": "2026-09-22T05:25:45.529328+00:00"
 }

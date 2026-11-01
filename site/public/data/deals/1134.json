@@ -11,7 +11,7 @@
  "enrichmentState": "failed",
  "id": 1134,
  "individuals": [],
- "listed": false,
+ "listed": true,
  "oneLine": "HD Fire Protect files draft offer document with SEBI for an IPO.",
  "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/oct-2026/hd-fire-protect-limited-rhp_105058.html",
  "seller": null,
@@ -48,6 +48,6 @@
   }
  ],
  "synopsis": null,
- "ticker": null,
+ "ticker": "HDFIRE.NS",
  "updatedAt": "2026-10-08T11:01:20.368736+00:00"
 }

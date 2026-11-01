@@ -11,7 +11,7 @@
  "enrichmentState": "failed",
  "id": 960,
  "individuals": [],
- "listed": false,
+ "listed": true,
  "oneLine": "Orient Cables (India) files DRHP for an IPO worth 552 crores.",
  "primaryUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWnZ6R2E4UXdQbDNmc0VBLXZBdHh4Uy1VakdmcUE1Z3FLdzdsNnkxdnFJeU5qY2h1TDdLNDZGYmZiYlZOZUN5UWFPaFNWMVNocGkteGhEVlVaYWlja0JuY2k4QlZlTGg4SmNLTXFXd1RvaGpuVXBoZ3MtMzBueTZ1X2VVYVVua1RwZnEwaXNSeVZPTTVFVkVVVS1sZEhoNFBDZ0M1SmtuS1Bob0ZIamVxUTExYW5RQ2FWNmc?oc=5",
  "seller": null,
@@ -48,6 +48,6 @@
   }
  ],
  "synopsis": null,
- "ticker": null,
+ "ticker": "ORIENTCABL.NS",
  "updatedAt": "2026-09-22T10:01:21.527607+00:00"
 }

@@ -11,7 +11,7 @@
  "enrichmentState": "failed",
  "id": 809,
  "individuals": [],
- "listed": false,
+ "listed": true,
  "oneLine": "Runwal Enterprises submitted an addendum to its DRHP with SEBI.",
  "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/sep-2026/runwal-enterprises-limited-addendum-to-drhp_104424.html",
  "seller": "Runwal family",
@@ -41,6 +41,6 @@
   }
  ],
  "synopsis": null,
- "ticker": null,
+ "ticker": "RUNWALENTR.NS",
  "updatedAt": "2026-09-26T04:31:01.285933+00:00"
 }

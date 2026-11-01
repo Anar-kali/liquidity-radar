@@ -1238,14 +1238,14 @@
    "individuals": [
     "Amrit Acharya"
    ],
-   "listed": false,
+   "listed": true,
    "oneLine": "Zetwerk IPO features an OFS where early investors realise Rs 1,215 crore.",
    "primaryOutlet": "Business Line",
    "seller": "Kae Capital, Accel, Peak XV and Lightspeed",
    "sizeBand": null,
    "sizeSource": "stated",
    "sourceCount": 5,
-   "ticker": null,
+   "ticker": "ZETWERK.NS",
    "updatedAt": "2026-10-29T14:16:21.680731+00:00",
    "updates": [
     {
@@ -2052,14 +2052,14 @@
    "individuals": [
     "Akash Ambani"
    ],
-   "listed": false,
+   "listed": true,
    "oneLine": "Jio Platforms prepares for an upcoming IPO with Akash Ambani leading strategy.",
    "primaryOutlet": "ET Corporate",
    "seller": null,
    "sizeBand": "OVER_2000",
    "sizeSource": "band",
    "sourceCount": 4,
-   "ticker": null,
+   "ticker": "JPL.NS",
    "updatedAt": "2026-10-20T13:01:19.975358+00:00",
    "updates": [
     {
@@ -2864,14 +2864,14 @@
    "individuals": [
     "Mukesh Ambani"
    ],
-   "listed": false,
+   "listed": true,
    "oneLine": "Jio Platforms prepares a massive issue expected to bring multi-billion gains for early investors and promoters.",
    "primaryOutlet": "Livemint",
    "seller": "Reliance Industries and early investors",
    "sizeBand": null,
    "sizeSource": "stated",
    "sourceCount": 15,
-   "ticker": null,
+   "ticker": "JPL.NS",
    "updatedAt": "2026-10-16T17:16:22.151743+00:00",
    "updates": [
     {
@@ -2943,14 +2943,14 @@
    "enrichmentState": null,
    "id": 1216,
    "individuals": [],
-   "listed": false,
+   "listed": true,
    "oneLine": "Tonbo Imaging is preparing for a major IPO.",
    "primaryOutlet": "Business Line",
    "seller": "early investors, including Celesta Capital and Edelweiss",
    "sizeBand": null,
    "sizeSource": "stated",
    "sourceCount": 2,
-   "ticker": null,
+   "ticker": "TONBO.NS",
    "updatedAt": "2026-10-16T15:31:43.840836+00:00",
    "updates": [
     {
@@ -3101,14 +3101,14 @@
    "enrichmentState": null,
    "id": 1210,
    "individuals": [],
-   "listed": false,
+   "listed": true,
    "oneLine": "Bonfiglioli Transmissions is in the news regarding potential IPO plans.",
    "primaryOutlet": "The Economic Times",
    "seller": "Bonfiglioli S.p.A.",
    "sizeBand": null,
    "sizeSource": "stated",
    "sourceCount": 1,
-   "ticker": null,
+   "ticker": "BONFIG.NS",
    "updatedAt": "2026-10-16T01:31:21.268091+00:00",
    "updates": []
   },
@@ -3243,14 +3243,14 @@
    "enrichmentState": null,
    "id": 1205,
    "individuals": [],
-   "listed": false,
+   "listed": true,
    "oneLine": "Zetwerk Manufacturing explores an IPO.",
    "primaryOutlet": "The Economic Times",
    "seller": "promoter group",
    "sizeBand": null,
    "sizeSource": "stated",
    "sourceCount": 1,
-   "ticker": null,
+   "ticker": "ZETWERK.NS",
    "updatedAt": "2026-10-15T01:31:18.668015+00:00",
    "updates": []
   },
@@ -4110,14 +4110,14 @@
     "Dhirajlal Kotadia",
     "Ashish Kacholia"
    ],
-   "listed": false,
+   "listed": true,
    "oneLine": "Sahajanand Medical Technologies plans an IPO with a 1.38-crore-share offer for sale, providing exit to backers.",
    "primaryOutlet": "Moneycontrol.com",
    "seller": "Samara Capital and Morgan Stanley",
    "sizeBand": null,
    "sizeSource": "unknown",
    "sourceCount": 4,
-   "ticker": null,
+   "ticker": "SMT.NS",
    "updatedAt": "2026-10-11T13:16:01.142768+00:00",
    "updates": [
     {
@@ -4218,14 +4218,14 @@
    "enrichmentState": null,
    "id": 1167,
    "individuals": [],
-   "listed": false,
+   "listed": true,
    "oneLine": "Zetwerk is exploring an upcoming IPO, providing future liquidity to shareholders.",
    "primaryOutlet": "Business Standard",
    "seller": "Zetwerk Manufacturing Business",
    "sizeBand": null,
    "sizeSource": "stated",
    "sourceCount": 14,
-   "ticker": null,
+   "ticker": "ZETWERK.NS",
    "updatedAt": "2026-10-14T06:16:00.789354+00:00",
    "updates": [
     {
@@ -4365,14 +4365,14 @@
     "Mukul Agrawal",
     "Ashish Kacholia"
    ],
-   "listed": false,
+   "listed": true,
    "oneLine": "Fusion CX plans an IPO worth Rs 702 crore, providing promoter liquidity.",
    "primaryOutlet": "TRIPURA STAR NEWS",
    "seller": "Fusion CX Limited promoters",
    "sizeBand": null,
    "sizeSource": "stated",
    "sourceCount": 6,
-   "ticker": null,
+   "ticker": "FUSIONCX.NS",
    "updatedAt": "2026-10-11T16:45:54.139527+00:00",
    "updates": [
     {
@@ -4455,14 +4455,14 @@
     "Akash Ambani",
     "Isha Ambani"
    ],
-   "listed": false,
+   "listed": true,
    "oneLine": "Jio Platforms is reported to set an IPO price band with listing expected in October.",
    "primaryOutlet": "Livemint",
    "seller": "Jio Platforms Ltd.",
    "sizeBand": null,
    "sizeSource": "stated",
    "sourceCount": 18,
-   "ticker": null,
+   "ticker": "JPL.NS",
    "updatedAt": "2026-10-10T06:46:00.921986+00:00",
    "updates": [
     {
@@ -4614,14 +4614,14 @@
    "enrichmentState": null,
    "id": 1156,
    "individuals": [],
-   "listed": false,
+   "listed": true,
    "oneLine": "Bonfiglioli plans a Rs 2,500 crore IPO for its India arm.",
    "primaryOutlet": "BusinessLine",
    "seller": "Bonfiglioli Group",
    "sizeBand": null,
    "sizeSource": "stated",
    "sourceCount": 1,
-   "ticker": null,
+   "ticker": "BONFIG.NS",
    "updatedAt": "2026-10-09T08:01:20.494517+00:00",
    "updates": []
   },
@@ -4936,14 +4936,14 @@
    "individuals": [
     "गौरव गोयल"
    ],
-   "listed": false,
+   "listed": true,
    "oneLine": "Promoter Gaurav Goyal sells his entire 56.13% stake in Tikona Communication.",
    "primaryOutlet": "Whalesbook",
    "seller": "गौरव गोयल",
    "sizeBand": null,
    "sizeSource": "unknown",
    "sourceCount": 2,
-   "ticker": null,
+   "ticker": "TIKONA.NS",
    "updatedAt": "2026-10-07T12:31:18.595604+00:00",
    "updates": [
     {
@@ -5143,14 +5143,14 @@
    "enrichmentState": "failed",
    "id": 1134,
    "individuals": [],
-   "listed": false,
+   "listed": true,
    "oneLine": "HD Fire Protect files draft offer document with SEBI for an IPO.",
    "primaryOutlet": "Abridged Prospectus",
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
    "sourceCount": 4,
-   "ticker": null,
+   "ticker": "HDFIRE.NS",
    "updatedAt": "2026-10-08T11:01:20.368736+00:00",
    "updates": [
     {
@@ -5178,14 +5178,14 @@
    "enrichmentState": "failed",
    "id": 1133,
    "individuals": [],
-   "listed": false,
+   "listed": true,
    "oneLine": "Nityas Gems and Jewellery files DRHP with SEBI for an IPO.",
    "primaryOutlet": "Prospectus",
    "seller": null,
    "sizeBand": null,
    "sizeSource": "unknown",
    "sourceCount": 1,
-   "ticker": null,
+   "ticker": "NITYAS.NS",
    "updatedAt": "2026-10-07T04:31:08.215554+00:00",
    "updates": []
   },
@@ -5322,14 +5322,14 @@
    "enrichmentState": null,
    "id": 1126,
    "individuals": [],
-   "listed": false,
+   "listed": true,
    "oneLine": "Fusion CX expects to launch an IPO valued around Rs 700-800 Cr.",
    "primaryOutlet": "Rediff MoneyWiz",
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
    "sourceCount": 2,
-   "ticker": null,
+   "ticker": "FUSIONCX.NS",
    "updatedAt": "2026-10-06T13:04:51.340125+00:00",
    "updates": [
     {
@@ -5349,14 +5349,14 @@
    "enrichmentState": "failed",
    "id": 1125,
    "individuals": [],
-   "listed": false,
+   "listed": true,
    "oneLine": "Vishal Nirmiti Limited files draft offer document with SEBI for potential IPO.",
    "primaryOutlet": "Prospectus",
    "seller": null,
    "sizeBand": null,
    "sizeSource": "unknown",
    "sourceCount": 1,
-   "ticker": null,
+   "ticker": "VNL.NS",
    "updatedAt": "2026-10-06T11:46:09.972199+00:00",
    "updates": []
   },
@@ -5444,14 +5444,14 @@
    "individuals": [
     "Akash Ambani"
    ],
-   "listed": false,
+   "listed": true,
    "oneLine": "Jio Platforms is planning an IPO/listing event.",
    "primaryOutlet": "tradingview.com",
    "seller": "Jio Platforms",
    "sizeBand": null,
    "sizeSource": "stated",
    "sourceCount": 12,
-   "ticker": null,
+   "ticker": "JPL.NS",
    "updatedAt": "2026-10-09T01:31:05.782532+00:00",
    "updates": [
     {
@@ -6135,14 +6135,14 @@
    "enrichmentState": null,
    "id": 1098,
    "individuals": [],
-   "listed": false,
+   "listed": true,
    "oneLine": "Jio Platforms is reported to prepare for an IPO.",
    "primaryOutlet": "Fortune India",
    "seller": "Jio Platforms",
    "sizeBand": null,
    "sizeSource": "stated",
    "sourceCount": 15,
-   "ticker": null,
+   "ticker": "JPL.NS",
    "updatedAt": "2026-10-03T17:01:17.671642+00:00",
    "updates": [
     {
@@ -9581,14 +9581,14 @@
    "enrichmentState": null,
    "id": 996,
    "individuals": [],
-   "listed": false,
+   "listed": true,
    "oneLine": "SRIT India plans to raise ₹218 crore via an IPO.",
    "primaryOutlet": "TradingView",
    "seller": "SRIT India",
    "sizeBand": null,
    "sizeSource": "stated",
    "sourceCount": 4,
-   "ticker": null,
+   "ticker": "SRIT.NS",
    "updatedAt": "2026-09-24T12:02:16.975989+00:00",
    "updates": [
     {
@@ -10278,14 +10278,14 @@
    "enrichmentState": "failed",
    "id": 970,
    "individuals": [],
-   "listed": false,
+   "listed": true,
    "oneLine": "Shah Investor's Home Limited filed a draft offer document with SEBI for an IPO.",
    "primaryOutlet": "Abridged Prospectus",
    "seller": null,
    "sizeBand": null,
    "sizeSource": "unknown",
    "sourceCount": 2,
-   "ticker": null,
+   "ticker": "SHAHINVEST.NS",
    "updatedAt": "2026-09-23T05:31:09.670327+00:00",
    "updates": [
     {
@@ -10479,14 +10479,14 @@
    "individuals": [
     "Subodh Runwal"
    ],
-   "listed": false,
+   "listed": true,
    "oneLine": "Runwal Enterprises eyes stronger balance sheet with a Rs 500-crore IPO",
    "primaryOutlet": "Business Standard",
    "seller": "Runwal Enterprises",
    "sizeBand": null,
    "sizeSource": "stated",
    "sourceCount": 7,
-   "ticker": null,
+   "ticker": "RUNWALENTR.NS",
    "updatedAt": "2026-09-22T12:02:12.776131+00:00",
    "updates": [
     {
@@ -10600,14 +10600,14 @@
    "enrichmentState": "failed",
    "id": 960,
    "individuals": [],
-   "listed": false,
+   "listed": true,
    "oneLine": "Orient Cables (India) files DRHP for an IPO worth 552 crores.",
    "primaryOutlet": "scanx.trade",
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
    "sourceCount": 4,
-   "ticker": null,
+   "ticker": "ORIENTCABL.NS",
    "updatedAt": "2026-09-22T10:01:21.527607+00:00",
    "updates": [
     {
@@ -11227,14 +11227,14 @@
    "enrichmentState": null,
    "id": 940,
    "individuals": [],
-   "listed": false,
+   "listed": true,
    "oneLine": "AceVector files RHP for Rs 287 Cr fresh issue and IPO.",
    "primaryOutlet": "Entrackr",
    "seller": "Starfish I Pte. Ltd., Nexus India Direct Investments II, Nexus Opportunity Fund, Nexus Ventures III, SoftBank, Foxconn",
    "sizeBand": null,
    "sizeSource": "stated",
    "sourceCount": 9,
-   "ticker": null,
+   "ticker": "ACEVECTOR.NS",
    "updatedAt": "2026-09-22T05:25:44.938300+00:00",
    "updates": [
     {
@@ -13955,14 +13955,14 @@
    "enrichmentState": "failed",
    "id": 809,
    "individuals": [],
-   "listed": false,
+   "listed": true,
    "oneLine": "Runwal Enterprises submitted an addendum to its DRHP with SEBI.",
    "primaryOutlet": "Addendum to DRHP",
    "seller": "Runwal family",
    "sizeBand": null,
    "sizeSource": "unknown",
    "sourceCount": 3,
-   "ticker": null,
+   "ticker": "RUNWALENTR.NS",
    "updatedAt": "2026-09-26T04:31:01.285933+00:00",
    "updates": [
     {
@@ -18229,14 +18229,14 @@
    "enrichmentState": null,
    "id": 625,
    "individuals": [],
-   "listed": false,
+   "listed": true,
    "oneLine": "Paras Healthcare receives SEBI IPO approval.",
    "primaryOutlet": "Rediff MoneyWiz",
    "seller": "promoters of listed companies",
    "sizeBand": null,
    "sizeSource": "unknown",
    "sourceCount": 4,
-   "ticker": null,
+   "ticker": "PARASHLTH.NS",
    "updatedAt": "2026-09-22T05:25:45.614455+00:00",
    "updates": [
     {
@@ -20508,14 +20508,14 @@
    "enrichmentState": null,
    "id": 546,
    "individuals": [],
-   "listed": false,
+   "listed": true,
    "oneLine": "DRHP addendum filed; IPO stage, promoters likely to cash out.",
    "primaryOutlet": "Addendum to DRHP",
    "seller": null,
    "sizeBand": null,
    "sizeSource": "unknown",
    "sourceCount": 2,
-   "ticker": null,
+   "ticker": "GERMAN.NS",
    "updatedAt": "2026-09-22T05:25:45.529328+00:00",
    "updates": [
     {
@@ -22387,7 +22387,7 @@
    "sizeBand": null,
    "sizeSource": "mcap_plausible",
    "sourceCount": 1,
-   "ticker": "ICICIPRULI.NS",
+   "ticker": "540133.BO",
    "updatedAt": "2026-08-19T01:31:10.871713+00:00",
    "updates": []
   },
@@ -23604,14 +23604,14 @@
    "enrichmentState": null,
    "id": 258,
    "individuals": [],
-   "listed": false,
+   "listed": true,
    "oneLine": "Tonbo Imaging files DRHP for IPO; promoters likely to cash out.",
    "primaryOutlet": "SEBI",
    "seller": "Early investors",
    "sizeBand": null,
    "sizeSource": "stated",
    "sourceCount": 11,
-   "ticker": null,
+   "ticker": "TONBO.NS",
    "updatedAt": "2026-10-15T01:31:15.126221+00:00",
    "updates": [
     {
@@ -23878,14 +23878,14 @@
    "enrichmentState": null,
    "id": 245,
    "individuals": [],
-   "listed": false,
+   "listed": true,
    "oneLine": "Zetwerk promoters pledge stake; likely exploring liquidity or financing.",
    "primaryOutlet": "The Economic Times",
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
    "sourceCount": 6,
-   "ticker": null,
+   "ticker": "ZETWERK.NS",
    "updatedAt": "2026-08-18T15:53:21.128085+00:00",
    "updates": [
     {
@@ -25463,14 +25463,14 @@
    "individuals": [
     "Zetwerk promoters/founders (unnamed)"
    ],
-   "listed": false,
+   "listed": true,
    "oneLine": "Zetwerk planning IPO, raising up to $400 mn; promoter liquidity event ahead.",
    "primaryOutlet": "Business Standard",
    "seller": "promoters of Zetwerk (implied)",
    "sizeBand": null,
    "sizeSource": "stated",
    "sourceCount": 43,
-   "ticker": null,
+   "ticker": "ZETWERK.NS",
    "updatedAt": "2026-09-22T05:25:45.275286+00:00",
    "updates": [
     {
@@ -27803,14 +27803,14 @@
    "individuals": [
     "Mukesh Ambani"
    ],
-   "listed": false,
+   "listed": true,
    "oneLine": "Jio Platforms files DRHP with SEBI for IPO; Reliance promoters to cash out.",
    "primaryOutlet": "Goodreturns",
    "seller": "Reliance Industries (promoter)",
    "sizeBand": null,
    "sizeSource": "unknown",
    "sourceCount": 47,
-   "ticker": null,
+   "ticker": "JPL.NS",
    "updatedAt": "2026-09-22T05:25:45.146598+00:00",
    "updates": [
     {
@@ -28010,14 +28010,14 @@
    "enrichmentState": null,
    "id": 144,
    "individuals": [],
-   "listed": false,
+   "listed": true,
    "oneLine": "Fusion CX plans ₹1,000-crore IPO by October; promoters likely to sell shares.",
    "primaryOutlet": "BusinessLine",
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
    "sourceCount": 2,
-   "ticker": null,
+   "ticker": "FUSIONCX.NS",
    "updatedAt": "2026-08-08T17:01:04.385366+00:00",
    "updates": [
     {

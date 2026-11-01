@@ -13,7 +13,7 @@
  "individuals": [
   "Mukesh Ambani"
  ],
- "listed": false,
+ "listed": true,
  "oneLine": "Jio Platforms files DRHP with SEBI for IPO; Reliance promoters to cash out.",
  "primaryUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOMFBlT1JleEJoRE90SXFfWEhVMkVjdkk2NDlKNTZVWU9zRVN6dHRweXZJaDk0TzJnMk9QX05FRnNmTmt4RGVuQWo0SWJpc2ZHakphcDhsRzJ0ekFpSG8yOVNfSjhIYkZIdnp0UVJRM3NoU0NTVjZLNzVVZzNFWmdFNWZ3OVFQUzFkYm9XRTBuRDB0ZnEtekdjQnVtNGR1SUNEeFhLV2RQYTU5Z3lqQnA0Y1NSdnFvYXVSQ0FVNF9n?oc=5",
  "seller": "Reliance Industries (promoter)",
@@ -351,6 +351,6 @@
   }
  ],
  "synopsis": "Jio is exploring a major upcoming initial public offering consisting entirely of a fresh issue of up to 27 crore equity shares, aiming to raise up to ₹ 37,700 crore. The anticipated IPO could hit the market as early as September 2026, with Jio having filed its Draft Red Herring Prospectus with SEBI on 19 June 2026. The entire proceeds are from a fresh issue with no Offer for Sale component, meaning capital goes directly to the company to help strengthen the business and clear certain borrowings. The final pricing, price band, and exact launch dates are yet to be determined.",
- "ticker": null,
+ "ticker": "JPL.NS",
  "updatedAt": "2026-09-22T05:25:45.146598+00:00"
 }

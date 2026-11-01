@@ -11,7 +11,7 @@
  "enrichmentState": "failed",
  "id": 1133,
  "individuals": [],
- "listed": false,
+ "listed": true,
  "oneLine": "Nityas Gems and Jewellery files DRHP with SEBI for an IPO.",
  "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/oct-2026/nityas-gems-and-jewellery-limited-prospectus_105059.html",
  "seller": null,
@@ -27,6 +27,6 @@
   }
  ],
  "synopsis": null,
- "ticker": null,
+ "ticker": "NITYAS.NS",
  "updatedAt": "2026-10-07T04:31:08.215554+00:00"
 }
