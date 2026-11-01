@@ -1,0 +1,34 @@
+{
+ "advisers": [],
+ "amountCr": 25000.0,
+ "amountRaw": "Rs. 25,000 Crore",
+ "buyer": "Tata Sons",
+ "company": "SP Group",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-01T14:01:35.522601+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1330,
+ "individuals": [
+  "Noel Tata"
+ ],
+ "listed": true,
+ "oneLine": "Noel Tata seeks board review of SP Group's Rs. 25,000 crore exit plan.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZXMxNnBEZW5sRWJPZm1nUlJDN0FISDB2RnRHMmc5YWhlTVluMmpwZ1BJQlFHU1F4WDJBMXBtbDduZFNZMTJmSmIyWkRfZG5xNUE3WVNlb08zZXRxcFQ0cUNzT3ZtQ3hqSl9senlZZWo0YlBIMGhCN1BiYWFxM2Q3TkotdXd4QmVJbUFCVTBkcWVxRHpzelhjY21LaWFJVmFKdFdWYzFuSdIBtAFBVV95cUxQOHUtbjdmSHQ1RFRpZUZpRkZrQ0NsZkY2UG9uZ2kta2FnT0hiWDlmNXg1ZndRR0ZOUk92dFN5S2RVZUVFUnVaVmNsOVZRY1R6dVQ0bGQtN0JZcGN6YXBlRzVmY1ZHRWlONHl5Y28zbk9Fdl90LVQ5aVFiS2dGRXRhR1J0XzB4SjVWcEZkT0VpM1U3YU5CY2tEcXJJMm8xWWNIX0h1Uk45djllcTZiQ29OY0E3Q20?oc=5",
+ "seller": "SP Group",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-11-01T14:01:35.523640+00:00",
+   "outlet": "Analytics Insight",
+   "resolvable": false,
+   "title": "Noel Tata Seeks Board Review of SP Group's Rs. 25,000 Crore Exit Plan",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZXMxNnBEZW5sRWJPZm1nUlJDN0FISDB2RnRHMmc5YWhlTVluMmpwZ1BJQlFHU1F4WDJBMXBtbDduZFNZMTJmSmIyWkRfZG5xNUE3WVNlb08zZXRxcFQ0cUNzT3ZtQ3hqSl9senlZZWo0YlBIMGhCN1BiYWFxM2Q3TkotdXd4QmVJbUFCVTBkcWVxRHpzelhjY21LaWFJVmFKdFdWYzFuSdIBtAFBVV95cUxQOHUtbjdmSHQ1RFRpZUZpRkZrQ0NsZkY2UG9uZ2kta2FnT0hiWDlmNXg1ZndRR0ZOUk92dFN5S2RVZUVFUnVaVmNsOVZRY1R6dVQ0bGQtN0JZcGN6YXBlRzVmY1ZHRWlONHl5Y28zbk9Fdl90LVQ5aVFiS2dGRXRhR1J0XzB4SjVWcEZkT0VpM1U3YU5CY2tEcXJJMm8xWWNIX0h1Uk45djllcTZiQ29OY0E3Q20?oc=5"
+  }
+ ],
+ "synopsis": "Tata Sons director Noel Tata has requested a board review and detailed evaluation of a Rs. 25,000 crore exit plan proposed by minority shareholder Shapoorji Pallonji (SP) Group, which holds approximately 18.38% of Tata Sons. Under the proposal, Tata Sons would buy out shares held by SP shareholders for a gross consideration of Rs. 25,000 crore, payable in two or more tranches over 18 months, utilizing internal cash flows, partial sales of listed company holdings, third-party investments, or listings with offers for sale. The plan requires shareholder approval, SP shareholder consent, and clearances from regulatory bodies including the National Company Law Tribunal. Noel Tata also sought an evaluation of a restructuring proposal by Sir Dorabji Tata Trust and Sir Ratan Tata Trust to merge two subsidiaries into Tata Sons.",
+ "ticker": "530289.BO",
+ "updatedAt": "2026-11-01T14:02:00.976227+00:00"
+}

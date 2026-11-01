@@ -1,6 +1,30 @@
 {
- "dealCount": 987,
+ "dealCount": 988,
  "deals": [
+  {
+   "amountCr": 25000.0,
+   "amountRaw": "Rs. 25,000 Crore",
+   "company": "SP Group",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-01T14:01:35.522601+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1330,
+   "individuals": [
+    "Noel Tata"
+   ],
+   "listed": true,
+   "oneLine": "Noel Tata seeks board review of SP Group's Rs. 25,000 crore exit plan.",
+   "primaryOutlet": "Analytics Insight",
+   "seller": "SP Group",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "530289.BO",
+   "updatedAt": "2026-11-01T14:02:00.976227+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -186,7 +210,7 @@
    "seller": "promoter selling shareholders",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 5,
+   "sourceCount": 6,
    "ticker": null,
    "updatedAt": "2026-10-30T15:46:17.105468+00:00",
    "updates": [
@@ -205,6 +229,10 @@
     {
      "attachedAt": "2026-10-31T08:01:10.494587+00:00",
      "title": "Ratnadeep Retail gets SEBI’S nod for ₹400 crore IPO"
+    },
+    {
+     "attachedAt": "2026-11-01T14:01:35.519452+00:00",
+     "title": "Ratnadeep Retail Gets SEBI Nod For IPO"
     }
    ]
   },
@@ -31062,6 +31090,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-11-01T11:01:20.341656+00:00",
- "totalDeals": 987
+ "generatedAt": "2026-11-01T14:02:00.976227+00:00",
+ "totalDeals": 988
 }
