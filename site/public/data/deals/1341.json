@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 3000.0,
+ "amountRaw": "₹3,000 crore",
+ "buyer": null,
+ "company": "Muthoot FinCorp",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-02T13:16:00.458466+00:00",
+ "dealType": "IPO-OFS",
+ "enrichmentState": null,
+ "id": 1341,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Muthoot FinCorp is planning a Rs 3,000 crore IPO.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUjhxbWFDa3NfQi1BQnQ1NVhVaUREUUF1RExRSnNkV1FTeEdQbUlQTTN3WUN3UVkyVzZtTWFxdzNQX214dElPblZSejU1MmYyaVVVTW1ZQXpkUlZ5Y2lPYUFHWDhlekxWM1NsZEs0d3VaMnR3NjlSZ0Zad18wMmJHTTF2ZlpaYXM0YlA4V1ZvMmJjR0tWb3ZDU2ttdkNwaFU4UkV1T3daLXhyMERDRjFDeGlCdE5JUzEyWWRQN1NTZ9IBxAFBVV95cUxPOHAwNFpscFFmYmFyaWc3S0pPXzFTb3dxY3l4NWV1dW5aRG16MHJ6YVZfQW5xZ2JWbDVETHN1MWt0d0M0bmJ1UDhRWDRzai1xZlRjbW12bnZpclZCX2tFZHhaRnRELVRxa0dka3FfZ3ptTjl3aWVCN2l2b3Zlb0YzRVpZVkE4eEl3eVlPY1EyN2dydTlBNlY2N1VfQi1GVFdRb0dxX2NwM0ZvbjEtZWhSV3ZNc2RRd1R4RnktZW91bXhKOVoz?oc=5",
+ "seller": "Muthoot FinCorp",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-11-02T13:16:00.471758+00:00",
+   "outlet": "Business Today",
+   "resolvable": false,
+   "title": "Muthoot FinCorp looks beyond gold loans with ₹3,000 crore IPO",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUjhxbWFDa3NfQi1BQnQ1NVhVaUREUUF1RExRSnNkV1FTeEdQbUlQTTN3WUN3UVkyVzZtTWFxdzNQX214dElPblZSejU1MmYyaVVVTW1ZQXpkUlZ5Y2lPYUFHWDhlekxWM1NsZEs0d3VaMnR3NjlSZ0Zad18wMmJHTTF2ZlpaYXM0YlA4V1ZvMmJjR0tWb3ZDU2ttdkNwaFU4UkV1T3daLXhyMERDRjFDeGlCdE5JUzEyWWRQN1NTZ9IBxAFBVV95cUxPOHAwNFpscFFmYmFyaWc3S0pPXzFTb3dxY3l4NWV1dW5aRG16MHJ6YVZfQW5xZ2JWbDVETHN1MWt0d0M0bmJ1UDhRWDRzai1xZlRjbW12bnZpclZCX2tFZHhaRnRELVRxa0dka3FfZ3ptTjl3aWVCN2l2b3Zlb0YzRVpZVkE4eEl3eVlPY1EyN2dydTlBNlY2N1VfQi1GVFdRb0dxX2NwM0ZvbjEtZWhSV3ZNc2RRd1R4RnktZW91bXhKOVoz?oc=5"
+  }
+ ],
+ "synopsis": "Muthoot FinCorp is planning an initial public offering to raise 3,000 crore rupees through a fresh issue of shares. The non-banking financial company intends to use the proceeds to strengthen its Tier I capital base and support future capital requirements, including onward lending. The proposed listing comes as the company seeks to expand its reach in rural and semi-urban markets, broaden its secured lending products beyond gold loans, and scale its wealth management and digital platforms to increase fee-based income.",
+ "ticker": null,
+ "updatedAt": "2026-11-02T13:16:10.606805+00:00"
+}

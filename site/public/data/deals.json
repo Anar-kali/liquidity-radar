@@ -1,6 +1,50 @@
 {
- "dealCount": 997,
+ "dealCount": 999,
  "deals": [
+  {
+   "amountCr": 3000.0,
+   "amountRaw": "₹3,000 crore",
+   "company": "Muthoot FinCorp",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-02T13:16:00.458466+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 1341,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Muthoot FinCorp is planning a Rs 3,000 crore IPO.",
+   "primaryOutlet": "Business Today",
+   "seller": "Muthoot FinCorp",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-02T13:16:10.606805+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 590.3,
+   "amountRaw": "4.87% x mcap ~Rs 12122cr = ~Rs 590cr",
+   "company": "Sri Lotus",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-02T13:16:00.447964+00:00",
+   "dealType": "promoter sale",
+   "enrichmentState": "failed",
+   "id": 1340,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Sri Lotus promoter proposes 4.87% equity sale via OFS.",
+   "primaryOutlet": "scanx.trade",
+   "seller": "Sri Lotus promoter",
+   "sizeBand": null,
+   "sizeSource": "computed",
+   "sourceCount": 1,
+   "ticker": "LOTUSDEV.NS",
+   "updatedAt": "2026-11-02T13:16:00.447964+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -31331,6 +31375,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-11-02T11:46:02.307182+00:00",
- "totalDeals": 997
+ "generatedAt": "2026-11-02T13:16:10.606805+00:00",
+ "totalDeals": 999
 }

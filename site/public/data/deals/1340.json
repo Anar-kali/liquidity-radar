@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 590.3,
+ "amountRaw": "4.87% x mcap ~Rs 12122cr = ~Rs 590cr",
+ "buyer": null,
+ "company": "Sri Lotus",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-02T13:16:00.447964+00:00",
+ "dealType": "promoter sale",
+ "enrichmentState": "failed",
+ "id": 1340,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Sri Lotus promoter proposes 4.87% equity sale via OFS.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTEV0TVZsU2VBcWEyN1h4SWJpd29aLW5xMzdRd2xPV3VtMUlFdGtTOTVKekFFbVhWOGZ0c0IxZDlMQmxZaG9wd1RVQWF5Ui1oUjY5R1JHSEJBd2pvLXJYdmV6VzREc0NGOTFtb3VwTElWZ1JXWTAtWTEtVjdpcnNWcVlsMk53RWlBZU5GeU5yQW9ZeUlfenU5aDZyUl9VYmI4cjRnaEFrc3hub2xLM3oybzNpemY?oc=5",
+ "seller": "Sri Lotus promoter",
+ "sizeBand": null,
+ "sizeSource": "computed",
+ "sources": [
+  {
+   "attachedAt": "2026-11-02T13:16:00.448981+00:00",
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "Sri Lotus promoter proposes 4.87% equity sale via OFS",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTEV0TVZsU2VBcWEyN1h4SWJpd29aLW5xMzdRd2xPV3VtMUlFdGtTOTVKekFFbVhWOGZ0c0IxZDlMQmxZaG9wd1RVQWF5Ui1oUjY5R1JHSEJBd2pvLXJYdmV6VzREc0NGOTFtb3VwTElWZ1JXWTAtWTEtVjdpcnNWcVlsMk53RWlBZU5GeU5yQW9ZeUlfenU5aDZyUl9VYmI4cjRnaEFrc3hub2xLM3oybzNpemY?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": "LOTUSDEV.NS",
+ "updatedAt": "2026-11-02T13:16:00.447964+00:00"
+}
