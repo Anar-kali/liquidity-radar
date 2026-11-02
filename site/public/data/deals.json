@@ -1,6 +1,28 @@
 {
- "dealCount": 999,
+ "dealCount": 1000,
  "deals": [
+  {
+   "amountCr": 150.0,
+   "amountRaw": "Rs 150 crore",
+   "company": "Atomberg",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-02T15:01:22.409828+00:00",
+   "dealType": "other",
+   "enrichmentState": null,
+   "id": 1343,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Atomberg allots Rs 150 crore for marketing in a proposed IPO.",
+   "primaryOutlet": "Exchange4Media",
+   "seller": "Atomberg Technologies",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-02T15:01:27.244767+00:00",
+   "updates": []
+  },
   {
    "amountCr": 3000.0,
    "amountRaw": "₹3,000 crore",
@@ -31375,6 +31397,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-11-02T13:16:10.606805+00:00",
- "totalDeals": 999
+ "generatedAt": "2026-11-02T15:01:27.244767+00:00",
+ "totalDeals": 1000
 }
