@@ -15,13 +15,18 @@
    "listed": true,
    "oneLine": "Stonepeak takes control of Castrol India through a 51% stake acquisition.",
    "primaryOutlet": "Autocar Professional",
-   "seller": null,
+   "seller": "Castrol India promoter",
    "sizeBand": null,
    "sizeSource": "computed",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": "CASTROLIND.NS",
-   "updatedAt": "2026-11-02T09:46:53.942962+00:00",
-   "updates": []
+   "updatedAt": "2026-11-02T10:46:01.399615+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-11-02T10:46:01.397528+00:00",
+     "title": "Stonepeak completes acquisition of Castrol India promoter"
+    }
+   ]
   },
   {
    "amountCr": null,
@@ -31292,6 +31297,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-11-02T09:47:10.573240+00:00",
+ "generatedAt": "2026-11-02T10:46:01.399615+00:00",
  "totalDeals": 996
 }
