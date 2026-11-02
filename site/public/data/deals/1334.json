@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 986.35,
+ "amountRaw": "₹986.35 crore",
+ "buyer": "Apollo Micro Systems",
+ "company": "Premier Explosives",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-02T02:45:59.678690+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": "failed",
+ "id": 1334,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Apollo Micro Systems deposits ₹986.35 crore to acquire a stake in Premier Explosives.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWDVHWWtPZkJNLVJUMm10NmJUZEJWQWlJcFhEUmdSREszZzB2NUJmY2IzaXdwel9BaE43Nmw0UUdMdkZrMDVNMjA2SlJ5aThZN0dYRFhPVjJVdzZuZlJIVnh6dklwWHhCTTRhY3l2Nml5NEdHNVNlNVhfMFJRRWFJWUw2dUhCdkRJY25DcTNaaGV3cjA0Rm5pMlpjM2ZjZmQtTWtJT1E1M0hsZFVhWU14aVprZldzODRWZ0xyTUQyOGVrZw?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-11-02T02:45:59.680746+00:00",
+   "outlet": "scanx.trade",
+   "resolvable": false,
+   "title": "Apollo Micro Systems deposits ₹986.35 crore for Premier Explosives stake",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWDVHWWtPZkJNLVJUMm10NmJUZEJWQWlJcFhEUmdSREszZzB2NUJmY2IzaXdwel9BaE43Nmw0UUdMdkZrMDVNMjA2SlJ5aThZN0dYRFhPVjJVdzZuZlJIVnh6dklwWHhCTTRhY3l2Nml5NEdHNVNlNVhfMFJRRWFJWUw2dUhCdkRJY25DcTNaaGV3cjA0Rm5pMlpjM2ZjZmQtTWtJT1E1M0hsZFVhWU14aVprZldzODRWZ0xyTUQyOGVrZw?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": "PREMEXPLN.NS",
+ "updatedAt": "2026-11-02T02:45:59.678690+00:00"
+}
