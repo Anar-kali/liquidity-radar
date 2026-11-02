@@ -62,10 +62,15 @@
    "seller": "Sri Lotus promoter",
    "sizeBand": null,
    "sizeSource": "computed",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": "LOTUSDEV.NS",
    "updatedAt": "2026-11-02T13:16:00.447964+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-11-02T15:15:58.135010+00:00",
+     "title": "Sri Lotus Developers and Realty promoters to sell 2.38 cr shares via OFS"
+    }
+   ]
   },
   {
    "amountCr": null,
