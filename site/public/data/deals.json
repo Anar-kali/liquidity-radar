@@ -40,10 +40,15 @@
    "seller": "Coal India",
    "sizeBand": "OVER_2000",
    "sizeSource": "band",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-11-02T05:31:18.677413+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-11-02T08:16:00.349702+00:00",
+     "title": "SECL IPO News, Coal India Plans To Sell 66.81 Crore Shares As Subsidiary Files Draft Papers With SEBI"
+    }
+   ]
   },
   {
    "amountCr": 986.35,
