@@ -1,0 +1,34 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "Maxop Engineering",
+ "company": "Faith Automation",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-02T01:31:34.422981+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1331,
+ "individuals": [
+  "Nilesh Pandhare"
+ ],
+ "listed": false,
+ "oneLine": "Maxop Engineering buys majority stake in Faith Automation, cashing out previous owners.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPN0Q0QThKR1pNSFhCX19XWUhqaXRUUElEV2VJcS1tbk5pVU1vZmllN0lMTWFUZ0V5Y0JyRmRLUTFteUVIbDJPWWVaQ1U1UWEtdXhUOHB1QUZVQUQ3WlZfdmxDalZwQUI0OEZnbVpWN1ZRVnU0RmpKSjBBczczaVhtaDlJNG9Na3pDMWhiZ2tvTk1xNXRJOTdYVTRzVURPc04wNGMyVkNwclNKY2IxWDlDck5tQkdldDdKX3BvQzl6VjVQRHgtaWNDS29qalpTeTl1TjVhSUtQWlhUM2J0czVPRdIB5gFBVV95cUxNb0Y0Y3ZhcnRyWV9zZGZNM2FOa2pPdmxTV0JNTlFkX2FOcW1BT3hBdnVaQng3RGpXa3RpRnR5Sm80bHp4R2hrLUd6M203VHdVemltX0RFbGw1QXdlSlgyU0ItY0NLNXJSeE1nZ3l6RkFDeVF5RldRbG1LZ3BOYnhiYUd4VE5HMlJIODlSbDNnQjRlRVFjTFRQaXJBcVhqT2pBQ3VnV055cE5SN0l2a2U3aE5HWG5UQ2ZwU2ZSbXR5TkZTRnF1Z2h2LUxqNkFnN0o1c2hEZ1BnZlV3djJKTW9YcWNpWWd6Zw?oc=5",
+ "seller": "Faith Automation Systems and Tooling",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-11-02T01:31:34.426855+00:00",
+   "outlet": "The Economic Times",
+   "resolvable": false,
+   "title": "Maxop Engineering buys majority stake in Faith Automation",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPN0Q0QThKR1pNSFhCX19XWUhqaXRUUElEV2VJcS1tbk5pVU1vZmllN0lMTWFUZ0V5Y0JyRmRLUTFteUVIbDJPWWVaQ1U1UWEtdXhUOHB1QUZVQUQ3WlZfdmxDalZwQUI0OEZnbVpWN1ZRVnU0RmpKSjBBczczaVhtaDlJNG9Na3pDMWhiZ2tvTk1xNXRJOTdYVTRzVURPc04wNGMyVkNwclNKY2IxWDlDck5tQkdldDdKX3BvQzl6VjVQRHgtaWNDS29qalpTeTl1TjVhSUtQWlhUM2J0czVPRdIB5gFBVV95cUxNb0Y0Y3ZhcnRyWV9zZGZNM2FOa2pPdmxTV0JNTlFkX2FOcW1BT3hBdnVaQng3RGpXa3RpRnR5Sm80bHp4R2hrLUd6M203VHdVemltX0RFbGw1QXdlSlgyU0ItY0NLNXJSeE1nZ3l6RkFDeVF5RldRbG1LZ3BOYnhiYUd4VE5HMlJIODlSbDNnQjRlRVFjTFRQaXJBcVhqT2pBQ3VnV055cE5SN0l2a2U3aE5HWG5UQ2ZwU2ZSbXR5TkZTRnF1Z2h2LUxqNkFnN0o1c2hEZ1BnZlV3djJKTW9YcWNpWWd6Zw?oc=5"
+  }
+ ],
+ "synopsis": "Fairfax-backed Maxop Engineering has acquired a majority stake in Pune-based design and engineering firm Faith Automation Systems and Tooling, cashing out its previous owners and founding team led by Nilesh Pandhare. Faith Automation specializes in automating production lines for vehicle manufacturers such as Honda, Mahindra & Mahindra, and Stellantis, and reports revenues of around Rs 300 crore. Industry experts have pegged the enterprise value of the transaction at Rs 400-500 crore, though the exact financial details were not disclosed by the companies.",
+ "ticker": null,
+ "updatedAt": "2026-11-02T01:31:38.584569+00:00"
+}

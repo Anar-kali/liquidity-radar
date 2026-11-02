@@ -1,6 +1,74 @@
 {
- "dealCount": 988,
+ "dealCount": 991,
  "deals": [
+  {
+   "amountCr": 48400.0,
+   "amountRaw": "$5.5 billion (approx Rs 48,400 crore)",
+   "company": "STT GDC India",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-02T01:31:34.532640+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1333,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "KKR, Singtel, and Tata Communications put STT GDC India up for sale at over $5.5 billion.",
+   "primaryOutlet": "The Economic Times",
+   "seller": "KKR, Singtel and Tata Communications",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-02T01:31:54.097519+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Global beverage majors advance India IPO plans, from DRHP filing to board’s nod",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-02T01:31:34.528317+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 1332,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Global beverage majors advance India IPO plans.",
+   "primaryOutlet": "MillenniumPost",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-02T01:31:42.716253+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Faith Automation",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-02T01:31:34.422981+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1331,
+   "individuals": [
+    "Nilesh Pandhare"
+   ],
+   "listed": false,
+   "oneLine": "Maxop Engineering buys majority stake in Faith Automation, cashing out previous owners.",
+   "primaryOutlet": "The Economic Times",
+   "seller": "Faith Automation Systems and Tooling",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-02T01:31:38.584569+00:00",
+   "updates": []
+  },
   {
    "amountCr": 25000.0,
    "amountRaw": "Rs. 25,000 Crore",
@@ -31090,6 +31158,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-11-01T14:02:00.976227+00:00",
- "totalDeals": 988
+ "generatedAt": "2026-11-02T01:31:54.097519+00:00",
+ "totalDeals": 991
 }
