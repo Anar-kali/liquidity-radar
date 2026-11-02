@@ -1,6 +1,28 @@
 {
- "dealCount": 996,
+ "dealCount": 997,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "LOTUSDEV",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-02T11:46:02.307182+00:00",
+   "dealType": "promoter sale",
+   "enrichmentState": "failed",
+   "id": 1339,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Lotusdev announced an offer for sale.",
+   "primaryOutlet": "NSE",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-02T11:46:02.307182+00:00",
+   "updates": []
+  },
   {
    "amountCr": 9584.6,
    "amountRaw": "51% x mcap ~Rs 18793cr = ~Rs 9585cr",
@@ -31301,6 +31323,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-11-02T10:46:01.399615+00:00",
- "totalDeals": 996
+ "generatedAt": "2026-11-02T11:46:02.307182+00:00",
+ "totalDeals": 997
 }

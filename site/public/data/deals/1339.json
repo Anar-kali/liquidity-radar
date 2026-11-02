@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "LOTUSDEV",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-02T11:46:02.307182+00:00",
+ "dealType": "promoter sale",
+ "enrichmentState": "failed",
+ "id": 1339,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Lotusdev announced an offer for sale.",
+ "primaryUrl": "https://nsearchives.nseindia.com/corporate/phonrao_02112026170628_NoticeforOfferForSale.pdf",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-11-02T11:46:02.308765+00:00",
+   "outlet": "NSE",
+   "resolvable": true,
+   "title": "LOTUSDEV: Offer for sale",
+   "url": "https://nsearchives.nseindia.com/corporate/phonrao_02112026170628_NoticeforOfferForSale.pdf"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-11-02T11:46:02.307182+00:00"
+}
