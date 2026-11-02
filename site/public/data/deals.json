@@ -1,6 +1,59 @@
 {
- "dealCount": 994,
+ "dealCount": 996,
  "deals": [
+  {
+   "amountCr": 9584.6,
+   "amountRaw": "51% x mcap ~Rs 18793cr = ~Rs 9585cr",
+   "company": "Castrol India",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-02T09:46:53.942962+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": "failed",
+   "id": 1338,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Stonepeak takes control of Castrol India through a 51% stake acquisition.",
+   "primaryOutlet": "Autocar Professional",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "computed",
+   "sourceCount": 1,
+   "ticker": "CASTROLIND.NS",
+   "updatedAt": "2026-11-02T09:46:53.942962+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "SECL",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-02T09:46:53.919720+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 1337,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "SECL files DRHP for IPO with an offer for sale component by parent Coal India.",
+   "primaryOutlet": "Fortune India",
+   "seller": "Coal India",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 3,
+   "ticker": null,
+   "updatedAt": "2026-11-02T09:47:10.573240+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-11-02T09:46:53.931644+00:00",
+     "title": "SECL Files IPO Papers; Coal India to Offload Shares"
+    },
+    {
+     "attachedAt": "2026-11-02T09:46:53.939050+00:00",
+     "title": "Coal India subsidiary SECL files IPO papers; offer for sale of 66.8 crore shares proposed"
+    }
+   ]
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -31239,6 +31292,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-11-02T06:31:12.986235+00:00",
- "totalDeals": 994
+ "generatedAt": "2026-11-02T09:47:10.573240+00:00",
+ "totalDeals": 996
 }

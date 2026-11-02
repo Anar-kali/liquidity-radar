@@ -1,0 +1,46 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "SECL",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-02T09:46:53.919720+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": null,
+ "id": 1337,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "SECL files DRHP for IPO with an offer for sale component by parent Coal India.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMU5XYTVzbm1BOENkZENPcHA0VnI4QWRoa1ZfZDRTd0RmN3ZDQWFuTHV4ZVFCSXpNX0NFZGtXVWU1VTNhcnBzMlU0eE1VQ3hYV0YybndOMThlSVV0QmVhNzZFRzBvVTRZWkotMHZXT1ZhYlA0QnpNOTRnMGVTSmZoNnJvX1lDM0dVc2U1ZGVLWmFGMVhpQUhzX2N2QjRXVm1DMXFjNFlvaGhkcXFBSWdtbDJaRnVyV2d3ZklZV29MRTJCTXprbTBxQ3JRaG_SAdoBQVVfeXFMT0xLR09IOHktdHJUU3Z3REtoeVRGSlE1eGgxZUVnMFU4WjY0d3lQeWFBNFlySGM2cTVoR3RaRDVLWjhmc0RZME04Y2haYVV4Z1Jvc2Vwdjc3djZ1SkxmNTRBMS1aWnV2TllfS200UTZseENlTUJpaDdWeXlvdVpHY1BQc3VOekNfTEZqbzhPNUNoMGdELW1EbVRWWG5sTWs5aWhnalZEelRqY2tSSk5TNm9DLU1mUDVMMlVhRVAySHp0c2hkakRRODJIV1NWUnFSTEJ2NlhUQlBPdFE?oc=5",
+ "seller": "Coal India",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-11-02T09:46:53.922643+00:00",
+   "outlet": "Fortune India",
+   "resolvable": false,
+   "title": "Coal India arm SECL files draft papers for IPO; promoter to offload 66.81 crore shares",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMU5XYTVzbm1BOENkZENPcHA0VnI4QWRoa1ZfZDRTd0RmN3ZDQWFuTHV4ZVFCSXpNX0NFZGtXVWU1VTNhcnBzMlU0eE1VQ3hYV0YybndOMThlSVV0QmVhNzZFRzBvVTRZWkotMHZXT1ZhYlA0QnpNOTRnMGVTSmZoNnJvX1lDM0dVc2U1ZGVLWmFGMVhpQUhzX2N2QjRXVm1DMXFjNFlvaGhkcXFBSWdtbDJaRnVyV2d3ZklZV29MRTJCTXprbTBxQ3JRaG_SAdoBQVVfeXFMT0xLR09IOHktdHJUU3Z3REtoeVRGSlE1eGgxZUVnMFU4WjY0d3lQeWFBNFlySGM2cTVoR3RaRDVLWjhmc0RZME04Y2haYVV4Z1Jvc2Vwdjc3djZ1SkxmNTRBMS1aWnV2TllfS200UTZseENlTUJpaDdWeXlvdVpHY1BQc3VOekNfTEZqbzhPNUNoMGdELW1EbVRWWG5sTWs5aWhnalZEelRqY2tSSk5TNm9DLU1mUDVMMlVhRVAySHp0c2hkakRRODJIV1NWUnFSTEJ2NlhUQlBPdFE?oc=5"
+  },
+  {
+   "attachedAt": "2026-11-02T09:46:53.931644+00:00",
+   "outlet": "Rediff MoneyWiz",
+   "resolvable": false,
+   "title": "SECL Files IPO Papers; Coal India to Offload Shares",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbGJ5VWpRXzU1c3dCd2Y4S0xyaFpmNW5JUnV3bHFWZVFBcU1mV0xvYk1UNDlxSTRxYXhLNG45UWNTNjc2NjZSXzVPUlNNVVRoN0paWEhXTm9hTlluazNDSTZFUVRscE8zOS16R2phZXFRdm1SQ1hpVElHeFY2UjJZMXpCR09xZmlneno3bGJiUzhjSjNLOW1xZnU3ZkZETUJXQzZHa9IBqgFBVV95cUxOZEozVlJaQnVxQi1hTHdOUHBocm15N1YwOHYtaUhLRnVGSjRqLXEybS15em80ejlMMEYweWNLUXMxY0R4Z0VlQzlmOWIzdVZBSHBkc1hNZ1A4cG5XWXE0VTBMd3JUMXpadUl1blA0Rkk3SXljVThuSmVSeGc5cWdDMkhNSEpVblRxZi1XN2FwaDctckp0VzlTM2FrY0V3SkNyNXZoTWJJdldDQQ?oc=5"
+  },
+  {
+   "attachedAt": "2026-11-02T09:46:53.939050+00:00",
+   "outlet": "Zee Business",
+   "resolvable": false,
+   "title": "Coal India subsidiary SECL files IPO papers; offer for sale of 66.8 crore shares proposed",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQRXAzaTdEeGZfejFaQUZVN3ZkOGt5cWZrSU8zdGI0U2kxdVVBTUI3SlJZQ1VYdUI5TTV2UHhuWFJWeVlVM1NlR2dNNUViekU2aGM2blFRQ3BESXgwMWNCVlZzRjNmbjVYZ2ZnajJvVmxpZGdfMHdqeW1LVG1HMEtBZUFMRS14M1pHTENrN3d2bzVFRkdvcncyYnlqSlNEZVByZWpoUFF4QVZZR0t2RHJKZTF4RmpHQkxCX0FFRTROUlVaQV94S1M3cUJpYktEX2c?oc=5"
+  }
+ ],
+ "synopsis": "South Eastern Coalfields Ltd (SECL), a subsidiary of Coal India Ltd, has filed preliminary papers with the Securities and Exchange Board of India for an initial public offering. The proposed IPO consists entirely of an offer for sale of up to 66.81 crore equity shares by its promoter, Coal India Ltd, with no fresh issue component. Consequently, SECL will not receive any proceeds from the offering, as the entire amount goes to the parent company. SBI Capital Markets, ICICI Securities, IDBI Capital Markets & Securities, and Motilal Oswal Investment Advisors are the book-running lead managers to the issue, and KFin Technologies is the registrar.",
+ "ticker": null,
+ "updatedAt": "2026-11-02T09:47:10.573240+00:00"
+}
