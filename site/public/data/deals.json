@@ -18,13 +18,17 @@
    "seller": "Castrol India promoter",
    "sizeBand": null,
    "sizeSource": "computed",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": "CASTROLIND.NS",
    "updatedAt": "2026-11-02T10:46:01.399615+00:00",
    "updates": [
     {
      "attachedAt": "2026-11-02T10:46:01.397528+00:00",
      "title": "Stonepeak completes acquisition of Castrol India promoter"
+    },
+    {
+     "attachedAt": "2026-11-02T11:01:41.347364+00:00",
+     "title": "Castrol India CASTROLIND: Stonepeak Completes Promoter Acquisition"
     }
    ]
   },
