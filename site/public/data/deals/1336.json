@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Carlsberg",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-02T06:31:08.787225+00:00",
+ "dealType": "unknown",
+ "enrichmentState": null,
+ "id": 1336,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Global beverage giant Carlsberg plans an IPO in India.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMnFpSXRrUDVMdDBIcnktVk9pTE1USWtGenB1TUkydDRrdnBiS21nTE9URDAyb3VqVXhnZWYxdWVtb2NHOEpKWndKWWFRRUItVlg5UDhtMlFqSzZVLVVNOWxXa0RWWVZPQVBCazdrakZZMlNYdWl4aElXc2NpNFQzcnpnaDZWUkxkUHNnRXd5b20wREZIUlZDTW9ZYmkyeFdUNXc0c0hIMkJ2MWY1Wm8tWk8wMVJUYnPSAbcBQVVfeXFMUDJxaUl0a1A1THQwSHJ5LVZPaUxNVElrRnpwdU1JMnQ0a3ZwYkttZ0xPVEQwMm91alV4Z2VmMXVlbW9jRzhKSlp3SllhUUVCLVZYOVA4bTJRaks2VS1VTTlsV2tEVllWT0FQQms3a2pGWTJTWHVpeGhJV3NjaTRUM3J6Z2g2VlJMZFBzZ0V3eW9tMERGSFJWQ01vWWJpMnhXVDV3NHNISDJCdjFmNVpvLVpPMDFSVGJz?oc=5",
+ "seller": null,
+ "sizeBand": "OVER_2000",
+ "sizeSource": "band",
+ "sources": [
+  {
+   "attachedAt": "2026-11-02T06:31:08.789355+00:00",
+   "outlet": "Rediff MoneyWiz",
+   "resolvable": false,
+   "title": "Global Beverage Giants Plan India IPOs: Carlsberg, Pernod, Coke",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMnFpSXRrUDVMdDBIcnktVk9pTE1USWtGenB1TUkydDRrdnBiS21nTE9URDAyb3VqVXhnZWYxdWVtb2NHOEpKWndKWWFRRUItVlg5UDhtMlFqSzZVLVVNOWxXa0RWWVZPQVBCazdrakZZMlNYdWl4aElXc2NpNFQzcnpnaDZWUkxkUHNnRXd5b20wREZIUlZDTW9ZYmkyeFdUNXc0c0hIMkJ2MWY1Wm8tWk8wMVJUYnPSAbcBQVVfeXFMUDJxaUl0a1A1THQwSHJ5LVZPaUxNVElrRnpwdU1JMnQ0a3ZwYkttZ0xPVEQwMm91alV4Z2VmMXVlbW9jRzhKSlp3SllhUUVCLVZYOVA4bTJRaks2VS1VTTlsV2tEVllWT0FQQms3a2pGWTJTWHVpeGhJV3NjaTRUM3J6Z2g2VlJMZFBzZ0V3eW9tMERGSFJWQ01vWWJpMnhXVDV3NHNISDJCdjFmNVpvLVpPMDFSVGJz?oc=5"
+  }
+ ],
+ "synopsis": "Global beverage giants Carlsberg, Pernod Ricard, and The Coca-Cola Company are advancing plans for potential initial public offerings of their Indian operations. Carlsberg is the furthest along, having filed an updated draft red herring prospectus with the Securities and Exchange Board of India on October 28, 2026, and is engaging with potential investors, as confirmed by CFO Ulrica Fearn and CEO Jacob Aarup-Andersen. Pernod Ricard is continuing preparatory work pending final board approval, with Executive Vice President Mauve Croizat noting the board requested the company stay prepared. Meanwhile, The Coca-Cola Company is exploring a potential listing of its Indian bottling operations, Hindustan Coca-Cola Beverages through Hindustan Coca-Cola Holdings, as stated by CFO John Murphy, following the Jubilant Bhartia Group's acquisition of a 40 percent stake in HCCH last year.",
+ "ticker": null,
+ "updatedAt": "2026-11-02T06:31:12.986235+00:00"
+}

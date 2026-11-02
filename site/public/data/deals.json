@@ -1,6 +1,28 @@
 {
- "dealCount": 993,
+ "dealCount": 994,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Carlsberg",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-02T06:31:08.787225+00:00",
+   "dealType": "unknown",
+   "enrichmentState": null,
+   "id": 1336,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Global beverage giant Carlsberg plans an IPO in India.",
+   "primaryOutlet": "Rediff MoneyWiz",
+   "seller": null,
+   "sizeBand": "OVER_2000",
+   "sizeSource": "band",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-02T06:31:12.986235+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -31212,6 +31234,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-11-02T05:31:18.677413+00:00",
- "totalDeals": 993
+ "generatedAt": "2026-11-02T06:31:12.986235+00:00",
+ "totalDeals": 994
 }
