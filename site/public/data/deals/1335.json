@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "South Eastern Coalfields",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-02T05:31:11.500654+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": null,
+ "id": 1335,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "SECL files DRHP for IPO with parent Coal India offering 66.81 crore shares.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPXzFMWEhEamppekl0TnZKeHl2R1I1S282Z1JwNFlDY0xTQTdrRVZCOWY0RGxpcEQ3dUFhVDlRVUxHaXNsRE1Bc0lHYUc3cFNlV1M4LWtWc0ZFMGNNTWFhQlpWYkVQOFpTb3NKSFU0bWZGZHA0NDYzVkp0NHRiNTJaWVNXaWUxNU5LQUVQaTMxc3locGxvWWpNb0RENzBTWHNGMXhfN0JtQzU4WGlVS0ZydWVGMUY4ZmtpN1HSAb8BQVVfeXFMTm1SWTBxR1FfRWNQUm0wQVZrVE5EWERvM3N0Q2NWcE1jWHc4VEtIbXlSQXBwV2ptaDk5VTBJUmNfeU5yZ0VPcmZIQWVvam9Oamg4QUpsVnhlRDhYN045SFpSbFZmanZTdHFYSGZCWU1Zbmx2dlRiX3hXMzQxTndpU0UtT3VhVWdweHYtV0VSVWRfWEJzdXF6X0t4VjI5YjdZS1NGRUdDVlByeC1YYS1MVV9WekNUMmU1Q2RBQk5JN1U?oc=5",
+ "seller": "Coal India",
+ "sizeBand": "OVER_2000",
+ "sizeSource": "band",
+ "sources": [
+  {
+   "attachedAt": "2026-11-02T05:31:11.502357+00:00",
+   "outlet": "CNBC TV18",
+   "resolvable": false,
+   "title": "SECL IPO: Coal India subsidiary files DRHP with SEBI; parent to sell 66.81 crore shares",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPXzFMWEhEamppekl0TnZKeHl2R1I1S282Z1JwNFlDY0xTQTdrRVZCOWY0RGxpcEQ3dUFhVDlRVUxHaXNsRE1Bc0lHYUc3cFNlV1M4LWtWc0ZFMGNNTWFhQlpWYkVQOFpTb3NKSFU0bWZGZHA0NDYzVkp0NHRiNTJaWVNXaWUxNU5LQUVQaTMxc3locGxvWWpNb0RENzBTWHNGMXhfN0JtQzU4WGlVS0ZydWVGMUY4ZmtpN1HSAb8BQVVfeXFMTm1SWTBxR1FfRWNQUm0wQVZrVE5EWERvM3N0Q2NWcE1jWHc4VEtIbXlSQXBwV2ptaDk5VTBJUmNfeU5yZ0VPcmZIQWVvam9Oamg4QUpsVnhlRDhYN045SFpSbFZmanZTdHFYSGZCWU1Zbmx2dlRiX3hXMzQxTndpU0UtT3VhVWdweHYtV0VSVWRfWEJzdXF6X0t4VjI5YjdZS1NGRUdDVlByeC1YYS1MVV9WekNUMmU1Q2RBQk5JN1U?oc=5"
+  }
+ ],
+ "synopsis": "South Eastern Coalfields Ltd. (SECL), a wholly owned subsidiary of state-owned Coal India Ltd., has filed its Draft Red Herring Prospectus with SEBI for an initial public offering. The proposed IPO is entirely an offer for sale, with Coal India planning to offload up to 66.81 crore shares. The offering could raise as much as $800 million. Around 35% of the offer is reserved for retail investors, 5% for employees, and 10% for eligible shareholders of Coal India. SBI Capital Markets, ICICI Securities, IDBI Capital Markets & Securities, and Motilal Oswal Investment Advisors are appointed as book-running lead managers for the IPO.",
+ "ticker": null,
+ "updatedAt": "2026-11-02T05:31:18.677413+00:00"
+}

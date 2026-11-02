@@ -1,6 +1,28 @@
 {
- "dealCount": 992,
+ "dealCount": 993,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "South Eastern Coalfields",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-02T05:31:11.500654+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 1335,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "SECL files DRHP for IPO with parent Coal India offering 66.81 crore shares.",
+   "primaryOutlet": "CNBC TV18",
+   "seller": "Coal India",
+   "sizeBand": "OVER_2000",
+   "sizeSource": "band",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-02T05:31:18.677413+00:00",
+   "updates": []
+  },
   {
    "amountCr": 986.35,
    "amountRaw": "₹986.35 crore",
@@ -31190,6 +31212,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-11-02T02:45:59.678690+00:00",
- "totalDeals": 992
+ "generatedAt": "2026-11-02T05:31:18.677413+00:00",
+ "totalDeals": 993
 }
