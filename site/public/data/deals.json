@@ -2060,7 +2060,7 @@
    "seller": "Promoters",
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 5,
+   "sourceCount": 6,
    "ticker": null,
    "updatedAt": "2026-10-22T08:01:24.501517+00:00",
    "updates": [
@@ -2079,6 +2079,10 @@
     {
      "attachedAt": "2026-10-27T10:01:19.404797+00:00",
      "title": "GAMP Services Limited Files DRHP with SEBI for Proposed IPO"
+    },
+    {
+     "attachedAt": "2026-11-03T04:16:02.747536+00:00",
+     "title": "GAMP Services Limited"
     }
    ]
   },
