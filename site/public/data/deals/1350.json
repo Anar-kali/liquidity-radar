@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Sterling Holiday Resorts",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-03T09:01:13.962115+00:00",
+ "dealType": "IPO-OFS",
+ "enrichmentState": null,
+ "id": 1350,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Thomas Cook India targets a public listing for Sterling Holiday Resorts by Q1 FY28.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOYVpRTmxfeHllUnBERjg4dG83RGRHbmg0UXBrTzlnZE5rdXd3ZUpodzBGcHZpSVJnckpHdzJRUlVRZGR2M0IzbVdXNUFTUHZ0cTJSV2NWekV1UFZDM2drTTdXZ1hiSHowQjhkN284YUExWncyc292Tlh1R2JyQVBNc3locFI2UldjV2s0bVJrRnpXOGNGeGNhRE5WTVpMbFM1SWdqYWtHUE1hYlE?oc=5",
+ "seller": "Thomas Cook (India) Ltd",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-11-03T09:01:13.963828+00:00",
+   "outlet": "Multibagg AI",
+   "resolvable": false,
+   "title": "Thomas Cook (India) Ltd targets SHRL listing by Q1 FY28",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOYVpRTmxfeHllUnBERjg4dG83RGRHbmg0UXBrTzlnZE5rdXd3ZUpodzBGcHZpSVJnckpHdzJRUlVRZGR2M0IzbVdXNUFTUHZ0cTJSV2NWekV1UFZDM2drTTdXZ1hiSHowQjhkN284YUExWncyc292Tlh1R2JyQVBNc3locFI2UldjV2s0bVJrRnpXOGNGeGNhRE5WTVpMbFM1SWdqYWtHUE1hYlE?oc=5"
+  }
+ ],
+ "synopsis": "Thomas Cook (India) Ltd targets a public listing for Sterling Holiday Resorts Ltd (SHRL) on BSE and NSE by Q1 FY28 following the demerger of its resorts and resort management business. TCIL proposes to give its shareholders 0.81 SHRL shares for every one TCIL share held, subject to National Company Law Tribunal (NCLT) and regulatory approvals. The transferred business will include six Nature Trails resorts. TCIL will retain its Financial Services and Travel & Related Services segments. The scheme also involves capital restructuring steps including face value adjustments.",
+ "ticker": null,
+ "updatedAt": "2026-11-03T09:01:17.919508+00:00"
+}
