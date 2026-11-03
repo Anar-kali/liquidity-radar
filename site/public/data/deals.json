@@ -1,6 +1,28 @@
 {
- "dealCount": 1004,
+ "dealCount": 1005,
  "deals": [
+  {
+   "amountCr": 3000.0,
+   "amountRaw": "₹3,000 Crore",
+   "company": "Truhome",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-03T08:45:59.138974+00:00",
+   "dealType": "unknown",
+   "enrichmentState": null,
+   "id": 1349,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Truhome is planning an IPO covering ₹3,000 crore, bringing promoter liquidity.",
+   "primaryOutlet": "Multibagg AI",
+   "seller": "Truhome Finance",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-03T08:46:02.837796+00:00",
+   "updates": []
+  },
   {
    "amountCr": 1012.0,
    "amountRaw": "₹1,012-crore",
@@ -31527,6 +31549,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-11-03T08:16:21.545373+00:00",
- "totalDeals": 1004
+ "generatedAt": "2026-11-03T08:46:02.837796+00:00",
+ "totalDeals": 1005
 }

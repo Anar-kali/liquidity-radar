@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 3000.0,
+ "amountRaw": "₹3,000 Crore",
+ "buyer": null,
+ "company": "Truhome",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-03T08:45:59.138974+00:00",
+ "dealType": "unknown",
+ "enrichmentState": null,
+ "id": 1349,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Truhome is planning an IPO covering ₹3,000 crore, bringing promoter liquidity.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORGd1SkVSbXhRd0lNOGZ3NGJRMlcxWlViQThIWGtQYWZndTJ0eHkzS2hIMjFkNjZqY1FITHV5QnRfQ09TeWVrSFJQZmdZTE1wNTZYU09aOTh2R0pKcU1TWnc2d2I5dlRnTTNHMWd0Y1JHVHdFYTNEbUVvSmw5WVpBOWxHbG95bEZjdXIyNm92OE5MWUFDNURtNXRSQXJwUktYMGcxQW1MNjF4b1VSb1Jz?oc=5",
+ "seller": "Truhome Finance",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-11-03T08:45:59.140510+00:00",
+   "outlet": "Multibagg AI",
+   "resolvable": false,
+   "title": "India Financial Services IPOs: Truhome Review Covers ₹3,000 Crore",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORGd1SkVSbXhRd0lNOGZ3NGJRMlcxWlViQThIWGtQYWZndTJ0eHkzS2hIMjFkNjZqY1FITHV5QnRfQ09TeWVrSFJQZmdZTE1wNTZYU09aOTh2R0pKcU1TWnc2d2I5dlRnTTNHMWd0Y1JHVHdFYTNEbUVvSmw5WVpBOWxHbG95bEZjdXIyNm92OE5MWUFDNURtNXRSQXJwUktYMGcxQW1MNjF4b1VSb1Jz?oc=5"
+  }
+ ],
+ "synopsis": "Truhome Finance is planning an initial public offering with a proposed issue size of ₹3,000 crore, bringing promoter liquidity. The company's SEBI review was reported as completed on 24 March 2026. The article notes various financial services and fintech IPO watchlists, including mentions of Razorpay, PhonePe, Credila Financial Services, and others, but provides specific sizing and completed review details primarily for Truhome Finance.",
+ "ticker": null,
+ "updatedAt": "2026-11-03T08:46:02.837796+00:00"
+}
