@@ -1,6 +1,28 @@
 {
- "dealCount": 1001,
+ "dealCount": 1002,
  "deals": [
+  {
+   "amountCr": 1000.0,
+   "amountRaw": "₹1,000 crore valuation",
+   "company": "Kitchen Treasures",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-03T04:01:18.740586+00:00",
+   "dealType": "PE secondary",
+   "enrichmentState": null,
+   "id": 1345,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Investcorp explores exit from Kitchen Treasures at up to Rs 1,000 crore valuation.",
+   "primaryOutlet": "Mint",
+   "seller": "Investcorp",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-03T04:01:22.873058+00:00",
+   "updates": []
+  },
   {
    "amountCr": 1012000.0,
    "amountRaw": "$115 Billion",
@@ -31440,6 +31462,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-11-03T01:31:20.647363+00:00",
- "totalDeals": 1001
+ "generatedAt": "2026-11-03T04:01:22.873058+00:00",
+ "totalDeals": 1002
 }

@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 1000.0,
+ "amountRaw": "₹1,000 crore valuation",
+ "buyer": null,
+ "company": "Kitchen Treasures",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-03T04:01:18.740586+00:00",
+ "dealType": "PE secondary",
+ "enrichmentState": null,
+ "id": 1345,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Investcorp explores exit from Kitchen Treasures at up to Rs 1,000 crore valuation.",
+ "primaryUrl": "https://www.livemint.com/companies/start-ups/investcorp-kitchen-treasures-synthite-group-intergrow-brands-foods-and-beverages-packaged-food-spices-11793672130310.html",
+ "seller": "Investcorp",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-11-03T04:01:18.742289+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "Investcorp eyes exit from Kitchen Treasures at up to ₹1,000 crore valuation",
+   "url": "https://www.livemint.com/companies/start-ups/investcorp-kitchen-treasures-synthite-group-intergrow-brands-foods-and-beverages-packaged-food-spices-11793672130310.html"
+  }
+ ],
+ "synopsis": "Bahrain-based investment firm Investcorp is exploring an exit from its investment in Intergrow Brands, the parent entity of Kerala-based Kitchen Treasures, through a secondary sale of its sub-25% stake. The deal is expected to value the food and spice brand at Rs 800-1,000 crore, with the formal launch anticipated early next year as Investcorp engages with advisors. The transaction may also include a primary component if the company seeks external capital for acquisitions. Investcorp originally invested about Rs 80 crore in 2019. Kitchen Treasures is owned by the Synthite Group through Intergrow Brands.",
+ "ticker": null,
+ "updatedAt": "2026-11-03T04:01:22.873058+00:00"
+}
