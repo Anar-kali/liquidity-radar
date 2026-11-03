@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 1012.0,
+ "amountRaw": "₹1,012-crore",
+ "buyer": "Marico",
+ "company": "Satiya Nutraceuticals",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-03T08:16:12.775909+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1348,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Marico acquires majority stake in Satiya Nutraceuticals for Rs 1,012 crore.",
+ "primaryUrl": "https://www.thehindubusinessline.com/companies/marico-bets-on-1012-cr-plix-deal-for-20000-cr-revenue-goal/article71656593.ece",
+ "seller": "Satiya Nutraceuticals shareholders",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-11-03T08:16:12.777559+00:00",
+   "outlet": "Business Line",
+   "resolvable": true,
+   "title": "Marico bets on ₹1,012-cr Plix deal for ₹20,000-cr revenue goal",
+   "url": "https://www.thehindubusinessline.com/companies/marico-bets-on-1012-cr-plix-deal-for-20000-cr-revenue-goal/article71656593.ece"
+  }
+ ],
+ "synopsis": "Marico has acquired an additional 24.09 per cent stake in Satiya Nutraceuticals, the owner of wellness brand Plix, for ₹1,012.03 crore, raising its total holding from 60 per cent to 84.09 per cent. The transaction took place in October 2026. Marico plans to acquire another 14.09 per cent stake in July 2027 for a base consideration of up to ₹592 crore plus milestone-linked payments. The deal is part of Marico's broader strategy to expand its digital-first portfolio and achieve ₹20,000 crore in consolidated annual revenue by FY30.",
+ "ticker": null,
+ "updatedAt": "2026-11-03T08:16:21.545373+00:00"
+}
