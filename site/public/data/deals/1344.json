@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 1012000.0,
+ "amountRaw": "$115 Billion",
+ "buyer": "Marvell Technology Inc.",
+ "company": "Lumentum Holdings Inc.",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-11-03T01:31:18.737146+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1344,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Marvell Technology unveils takeover of Lumentum Holdings.",
+ "primaryUrl": "https://www.livemint.com/companies/this-is-such-a-bad-time-for-a-115-billion-tech-deal-11793647443726.html",
+ "seller": "Lumentum Holdings Inc.",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-11-03T01:31:18.738486+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "This Is Such a Bad Time for a $115 Billion Tech Deal",
+   "url": "https://www.livemint.com/companies/this-is-such-a-bad-time-for-a-115-billion-tech-deal-11793647443726.html"
+  }
+ ],
+ "synopsis": "Marvell Technology Inc. has unveiled a takeover of Lumentum Holdings Inc. at a $115 billion enterprise value under all-share terms where Lumentum shareholders would own a third of the enlarged firm. The formal announcement followed advanced talks revealed on October 28. The deal faces negative investor reaction, with Marvell's stock price dropping since the announcement. The transaction requires approval from both sets of shareholders and regulators. The stated aim of the combination is to create a broad full-stack connectivity portfolio enabling end-to-end extreme co-design and optical solutions integration.",
+ "ticker": null,
+ "updatedAt": "2026-11-03T01:31:20.647363+00:00"
+}

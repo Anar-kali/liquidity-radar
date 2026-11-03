@@ -1,7 +1,7 @@
 {
  "advisers": [],
- "amountCr": 590.3,
- "amountRaw": "4.87% x mcap ~Rs 12122cr = ~Rs 590cr",
+ "amountCr": 714.0,
+ "amountRaw": "5.89% x mcap ~Rs 12122cr = ~Rs 714cr",
  "buyer": null,
  "company": "Sri Lotus",
  "confidence": "medium",
@@ -16,7 +16,7 @@
  "primaryUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTEV0TVZsU2VBcWEyN1h4SWJpd29aLW5xMzdRd2xPV3VtMUlFdGtTOTVKekFFbVhWOGZ0c0IxZDlMQmxZaG9wd1RVQWF5Ui1oUjY5R1JHSEJBd2pvLXJYdmV6VzREc0NGOTFtb3VwTElWZ1JXWTAtWTEtVjdpcnNWcVlsMk53RWlBZU5GeU5yQW9ZeUlfenU5aDZyUl9VYmI4cjRnaEFrc3hub2xLM3oybzNpemY?oc=5",
  "seller": "Sri Lotus promoter",
  "sizeBand": null,
- "sizeSource": "computed",
+ "sizeSource": "stated",
  "sources": [
   {
    "attachedAt": "2026-11-02T13:16:00.448981+00:00",
@@ -31,9 +31,30 @@
    "resolvable": false,
    "title": "Sri Lotus Developers and Realty promoters to sell 2.38 cr shares via OFS",
    "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOQ09kaTdiZEJnY0JfZXJ0VU11NlV1YjBlNlVqTU9DRGFtdjNRUm91bDkwdV9FOTZzc0hNX0ZmYW9xNEhKVi1UaUJFVVNlRXg3M3NxMlpQZ2pQbjVQcmt5bi1QaDNYamRWZDh4RXBBTzVwVE1TZlJSV29lY2E2OWhRd0RDRjZPVVl2MDhTLTE0VmIxRlUxTmtyZVVuQWttWXQyYzJoSkJaRkNzZHp6bTJjOFNHTUV4V0U0NVNGcTkxX1ZwZ0dCS3p6b01hby16NFA2NTJ3WllFQ0xha0JOMExBZFVrQnZsVVJEdmwtYktuZUJiMWV3YTlzT29R0gH_AUFVX3lxTE5JRllqZ3JGc1pVaE5VLW44djJIaFN0dm9OUmpSYjN1Mk91RXFOQ2dYYVpCUC05dkV3bXRuQ1V1OHptdk05SW1YZXB3d2lYanUxMWtveERRMmtidE81WkhCQmVOMVdLUW5iaGRfQTZwY1dDQkc4d0IzbFZvM2R4MHgxenM2U1R5OEZkMUNETTBSTDR0ZmxRVWxKQWVtZTd4dUNBWVFpLU5xdFFFSmRFVHJXcHZobjZsMkVpSmxWaWV2VUpLNkp6ZDlwSUsxN1VnNERsR3NiOVlRTlB6bndtYWNsRW9vRlhaOU9XUzhsSHRaTk1rNG5vckVqWnlXd1ZfTQ?oc=5"
+  },
+  {
+   "attachedAt": "2026-11-03T01:31:18.719697+00:00",
+   "outlet": "Multibagg AI",
+   "resolvable": false,
+   "title": "Sri Lotus Developers sets Rs 240 floor for 2.88 crore-share OFS",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORFJLVzl5YnI3VzJLbHJ2TFlGYjBqbUhOQjU5bG5pLWNqZ2FPUnpMRm0xT3FlUXdFUVJaWlpXdTA3dXlSNTZBdHJUM0ZraGt4UUltTDhqNzgxczZiVjFNQlRDZ3F6V2NMRWpCNE9zSjg4S3cxRzROU0x5bXBXVzU2VkVuNUstcnZzTXdyckgydGZPRTVsaG9qcmVIcV9FdnBPWW40U3NGcFNCakFhNVJNcjdLZkdQWWc?oc=5"
+  },
+  {
+   "attachedAt": "2026-11-03T01:31:18.726767+00:00",
+   "outlet": "Kalkine India",
+   "resolvable": false,
+   "title": "Sri Lotus Developers OFS: Promoter to Sell 5.89% Stake via Exchange",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTmRyQ1F2d3dGaGxoRkhyeGx5aDV3S2V5WE9leS1fNHBNWVdZYUNST3FOSzRBeEc2RGJXaHA5UTJIcW9qZ2hXc2U3bzF6dGpXOU5LTTZpYnI2bVBVTDY2WDVQY3VyY1M0Qy10eTJnV09mZG0ySlg1cnlEODQxM1V0bVllcXotb1VLT21DdVZpdnJHcHhiM2xLa1daRk1XWnVCazlrcDgyOEVjdmpzNnQ2Vk9yVXh5TFp0dlFZTkVrZWpxTGVNS3BURU5B?oc=5"
+  },
+  {
+   "attachedAt": "2026-11-03T01:31:18.733576+00:00",
+   "outlet": "Multibagg AI",
+   "resolvable": false,
+   "title": "Sri Lotus OFS can sell up to 5.89% after SEBI cooling-off waiver",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUXdkWWZEd2d0d1VBVE56OVNUbW1VQVJmSDNTakRuYzB3bFdnQVl0VTNueS0ta1NMSmJQRU13TG4zUkJoZlQ1enRlc0NKUzVmRDd0OG92dy1VMHRlQ3J5NEFDMkZjdHBXYU94cnZvc1pnZjk4czZsRWV6TDRGZFpaR08wX3JEQXZ3bE1sOTd5SFlNVzk4OUV0RmNxN3MxbktWVFdBdmQwZU5meTNNRXAzQQ?oc=5"
   }
  ],
  "synopsis": null,
  "ticker": "LOTUSDEV.NS",
- "updatedAt": "2026-11-02T13:16:00.447964+00:00"
+ "updatedAt": "2026-11-03T01:31:18.728196+00:00"
 }

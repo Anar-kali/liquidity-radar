@@ -1,6 +1,28 @@
 {
- "dealCount": 1000,
+ "dealCount": 1001,
  "deals": [
+  {
+   "amountCr": 1012000.0,
+   "amountRaw": "$115 Billion",
+   "company": "Lumentum Holdings Inc.",
+   "confidence": "high",
+   "confirmed": false,
+   "createdAt": "2026-11-03T01:31:18.737146+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1344,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Marvell Technology unveils takeover of Lumentum Holdings.",
+   "primaryOutlet": "Mint",
+   "seller": "Lumentum Holdings Inc.",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-03T01:31:20.647363+00:00",
+   "updates": []
+  },
   {
    "amountCr": 150.0,
    "amountRaw": "Rs 150 crore",
@@ -46,8 +68,8 @@
    "updates": []
   },
   {
-   "amountCr": 590.3,
-   "amountRaw": "4.87% x mcap ~Rs 12122cr = ~Rs 590cr",
+   "amountCr": 714.0,
+   "amountRaw": "5.89% x mcap ~Rs 12122cr = ~Rs 714cr",
    "company": "Sri Lotus",
    "confidence": "medium",
    "confirmed": false,
@@ -61,14 +83,26 @@
    "primaryOutlet": "scanx.trade",
    "seller": "Sri Lotus promoter",
    "sizeBand": null,
-   "sizeSource": "computed",
-   "sourceCount": 2,
+   "sizeSource": "stated",
+   "sourceCount": 5,
    "ticker": "LOTUSDEV.NS",
-   "updatedAt": "2026-11-02T13:16:00.447964+00:00",
+   "updatedAt": "2026-11-03T01:31:18.728196+00:00",
    "updates": [
     {
      "attachedAt": "2026-11-02T15:15:58.135010+00:00",
      "title": "Sri Lotus Developers and Realty promoters to sell 2.38 cr shares via OFS"
+    },
+    {
+     "attachedAt": "2026-11-03T01:31:18.719697+00:00",
+     "title": "Sri Lotus Developers sets Rs 240 floor for 2.88 crore-share OFS"
+    },
+    {
+     "attachedAt": "2026-11-03T01:31:18.726767+00:00",
+     "title": "Sri Lotus Developers OFS: Promoter to Sell 5.89% Stake via Exchange"
+    },
+    {
+     "attachedAt": "2026-11-03T01:31:18.733576+00:00",
+     "title": "Sri Lotus OFS can sell up to 5.89% after SEBI cooling-off waiver"
     }
    ]
   },
@@ -111,7 +145,7 @@
    "seller": "Castrol India promoter",
    "sizeBand": null,
    "sizeSource": "computed",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": "CASTROLIND.NS",
    "updatedAt": "2026-11-02T10:46:01.399615+00:00",
    "updates": [
@@ -122,6 +156,10 @@
     {
      "attachedAt": "2026-11-02T11:01:41.347364+00:00",
      "title": "Castrol India CASTROLIND: Stonepeak Completes Promoter Acquisition"
+    },
+    {
+     "attachedAt": "2026-11-03T01:31:18.722942+00:00",
+     "title": "Motion JVCo gains control through Castrol India's 51% stake"
     }
    ]
   },
@@ -31402,6 +31440,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-11-02T15:01:27.244767+00:00",
- "totalDeals": 1000
+ "generatedAt": "2026-11-03T01:31:20.647363+00:00",
+ "totalDeals": 1001
 }
