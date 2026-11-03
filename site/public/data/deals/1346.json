@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 8300.0,
+ "amountRaw": "$1 billion",
+ "buyer": null,
+ "company": "Mahanadi Coalfields",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-03T05:31:04.452654+00:00",
+ "dealType": "IPO-OFS",
+ "enrichmentState": null,
+ "id": 1346,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Coal India plans $1 billion IPO for subsidiary MCL.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQaHZ4OGdFekdFem05Vkw5LWdrUV9Ha3g2eENEWWNMRGxrY1ZfS3FRNmY5aXlmMmlremZwdHNibFB2d3AtaEJUM25HOTFlWEFDMGp0VnNPSGJzSmNjc2tZU0R0ZHI5RjZrN2F4QTdlaE5aRHc0bFJFeHFpVm9IVFJEQ09oM0hVd3N0NWwtUFZPVFJfYWpoNWtjN1ZIMDNYRUhDNTRMOUNtMXFzQ1JVeWV5VVc2MjhJT0ZodTI2NktWWmhMWnhoTmI4aEIwTFpaTVNOaGF2UmM4YktjMmZJ0gHWAUFVX3lxTFBLWmVuUkNldlNQenM1QzhIOTMwZjZRa3dMQ09TSkFSVFRPbF9MUzZHQ0pnS3FtMnliWGJUMlAzcFhYdU4yWGhKSnhHNEI0OFpFeXFkcjhtS09vdklBalY3TUp3UFRJbkF4TUN2OTdmdzFDdlA0TnFoVlc0bHlMVHdyZ3V1NE5Zd0VYZ3FQdUhWbTY2OXQ4Q21CR0VUREdpOVdPeXctM0pIWlhhVEFrTFRDTXJLbWJfQlBuNWlFcElNMVV3b1VRS2c0T1pkd1NHeDdNZER3RGc?oc=5",
+ "seller": "Coal India",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-11-03T05:31:04.453638+00:00",
+   "outlet": "The Economic Times",
+   "resolvable": false,
+   "title": "Coal India said to plan $1 billion MCL IPO as soon as this month",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQaHZ4OGdFekdFem05Vkw5LWdrUV9Ha3g2eENEWWNMRGxrY1ZfS3FRNmY5aXlmMmlremZwdHNibFB2d3AtaEJUM25HOTFlWEFDMGp0VnNPSGJzSmNjc2tZU0R0ZHI5RjZrN2F4QTdlaE5aRHc0bFJFeHFpVm9IVFJEQ09oM0hVd3N0NWwtUFZPVFJfYWpoNWtjN1ZIMDNYRUhDNTRMOUNtMXFzQ1JVeWV5VVc2MjhJT0ZodTI2NktWWmhMWnhoTmI4aEIwTFpaTVNOaGF2UmM4YktjMmZJ0gHWAUFVX3lxTFBLWmVuUkNldlNQenM1QzhIOTMwZjZRa3dMQ09TSkFSVFRPbF9MUzZHQ0pnS3FtMnliWGJUMlAzcFhYdU4yWGhKSnhHNEI0OFpFeXFkcjhtS09vdklBalY3TUp3UFRJbkF4TUN2OTdmdzFDdlA0TnFoVlc0bHlMVHdyZ3V1NE5Zd0VYZ3FQdUhWbTY2OXQ4Q21CR0VUREdpOVdPeXctM0pIWlhhVEFrTFRDTXJLbWJfQlBuNWlFcElNMVV3b1VRS2c0T1pkd1NHeDdNZER3RGc?oc=5"
+  }
+ ],
+ "synopsis": "Coal India is preparing a $1 billion initial public offering for its subsidiary Mahanadi Coalfields, potentially launching as early as late November or early December 2026. The offering consists entirely of an existing share sale by the parent company, which plans to sell up to 661.84 million shares representing a 10% stake. The valuation of Mahanadi Coalfields could reach up to $10 billion. The draft prospectus was filed with the Securities and Exchange Board of India. SBI Capital Markets, Axis Capital, BOB Capital Markets, IDBI Capital Markets & Securities, and IIFL Capital Services are serving as the book-running lead managers for the offering. Deliberations are ongoing and details such as size, valuation, and timing remain subject to change.",
+ "ticker": null,
+ "updatedAt": "2026-11-03T05:31:08.089496+00:00"
+}

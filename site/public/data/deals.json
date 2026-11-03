@@ -1,6 +1,28 @@
 {
- "dealCount": 1002,
+ "dealCount": 1003,
  "deals": [
+  {
+   "amountCr": 8300.0,
+   "amountRaw": "$1 billion",
+   "company": "Mahanadi Coalfields",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-03T05:31:04.452654+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 1346,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Coal India plans $1 billion IPO for subsidiary MCL.",
+   "primaryOutlet": "The Economic Times",
+   "seller": "Coal India",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-03T05:31:08.089496+00:00",
+   "updates": []
+  },
   {
    "amountCr": 1000.0,
    "amountRaw": "₹1,000 crore valuation",
@@ -754,7 +776,7 @@
    "seller": "IIFL Capital clients",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 9,
+   "sourceCount": 10,
    "ticker": "SAGILITY.NS",
    "updatedAt": "2026-10-30T19:10:51.051554+00:00",
    "updates": [
@@ -789,6 +811,10 @@
     {
      "attachedAt": "2026-10-31T01:31:13.855344+00:00",
      "title": "Sagility promoter sells 12% stake for Rs 2,395 crore; Smallcap World Fund raises holding in Lotus..."
+    },
+    {
+     "attachedAt": "2026-11-03T05:31:04.444046+00:00",
+     "title": "Sagility B.V. Sells 11.96% Stake for Rs 2,395 Crore Through Block Deal"
     }
    ]
   },
@@ -31466,6 +31492,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-11-03T04:01:22.873058+00:00",
- "totalDeals": 1002
+ "generatedAt": "2026-11-03T05:31:08.089496+00:00",
+ "totalDeals": 1003
 }
