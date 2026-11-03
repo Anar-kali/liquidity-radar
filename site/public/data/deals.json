@@ -1,6 +1,30 @@
 {
- "dealCount": 1006,
+ "dealCount": 1007,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Pee Safe",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-03T09:31:08.381016+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 1351,
+   "individuals": [
+    "Rithish Kumar"
+   ],
+   "listed": false,
+   "oneLine": "Pee Safe plans an IPO for FY29-30, providing liquidity for co-founder Rithish Kumar.",
+   "primaryOutlet": "Mint",
+   "seller": "Rithish Kumar",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-03T09:31:12.581108+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -31571,6 +31595,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-11-03T09:01:17.919508+00:00",
- "totalDeals": 1006
+ "generatedAt": "2026-11-03T09:31:12.581108+00:00",
+ "totalDeals": 1007
 }

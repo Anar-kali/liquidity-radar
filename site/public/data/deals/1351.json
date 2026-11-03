@@ -1,0 +1,34 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Pee Safe",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-03T09:31:08.381016+00:00",
+ "dealType": "IPO-OFS",
+ "enrichmentState": null,
+ "id": 1351,
+ "individuals": [
+  "Rithish Kumar"
+ ],
+ "listed": false,
+ "oneLine": "Pee Safe plans an IPO for FY29-30, providing liquidity for co-founder Rithish Kumar.",
+ "primaryUrl": "https://www.livemint.com/companies/pee-safe-eyes-250-cr-revenue-in-fy27-ahead-of-planned-ipo-co-founder-rithish-kumar-in-exclusive-interview-top-points-11793364567905.html",
+ "seller": "Rithish Kumar",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-11-03T09:31:08.382550+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "Pee Safe eyes ₹250 cr revenue in FY27 ahead of planned IPO: Co-founder Rithish Kumar in exclusive interview | Top points",
+   "url": "https://www.livemint.com/companies/pee-safe-eyes-250-cr-revenue-in-fy27-ahead-of-planned-ipo-co-founder-rithish-kumar-in-exclusive-interview-top-points-11793364567905.html"
+  }
+ ],
+ "synopsis": "Personal hygiene brand Pee Safe is planning an initial public offering in FY29-30, according to co-founder Rithish Kumar and founder Vikas Bagaria. The company is currently focusing on revenue growth, targeting ₹250 crore in revenue in FY27 compared to ₹130 crore in FY26, alongside building sustainable profitability and operational efficiency. Pee Safe is also expanding its international presence across more than 22 countries and scaling new product categories, including recent launches like FURR, Comfort, and the women's wellness nutraceutical brand Within.",
+ "ticker": null,
+ "updatedAt": "2026-11-03T09:31:12.581108+00:00"
+}
