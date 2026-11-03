@@ -133,7 +133,7 @@
    "seller": "Sri Lotus promoter",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 5,
+   "sourceCount": 6,
    "ticker": "LOTUSDEV.NS",
    "updatedAt": "2026-11-03T01:31:18.728196+00:00",
    "updates": [
@@ -152,6 +152,10 @@
     {
      "attachedAt": "2026-11-03T01:31:18.733576+00:00",
      "title": "Sri Lotus OFS can sell up to 5.89% after SEBI cooling-off waiver"
+    },
+    {
+     "attachedAt": "2026-11-03T06:01:12.615273+00:00",
+     "title": "Sri Lotus to Cut Promoter Stake; 2.38 Cr Shares on Sale Nov 3–4"
     }
    ]
   },
