@@ -1,0 +1,41 @@
+{
+ "advisers": [],
+ "amountCr": 157.84,
+ "amountRaw": "157.84cr confirmed via NSE block deal",
+ "buyer": null,
+ "company": "V2 Retail Limited",
+ "confidence": "high",
+ "confirmed": true,
+ "createdAt": "2026-11-06T20:23:36.849485+00:00",
+ "dealType": "bulk deal",
+ "enrichmentState": null,
+ "id": 1354,
+ "individuals": [
+  "RICON COMMODITIES PRIVATE LIMITED"
+ ],
+ "listed": true,
+ "oneLine": "RICON COMMODITIES PRIVATE LIMITED sold shares in V2 Retail Limited (confirmed, NSE bulk deal)",
+ "primaryUrl": "",
+ "seller": "RICON COMMODITIES PRIVATE LIMITED",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-11-06T20:23:36.850529+00:00",
+   "outlet": "NSE",
+   "resolvable": true,
+   "title": "V2 Retail Limited: bulk deal",
+   "url": ""
+  },
+  {
+   "attachedAt": "2026-11-06T20:23:36.856796+00:00",
+   "outlet": "NSE",
+   "resolvable": true,
+   "title": "V2 Retail Limited: block deal",
+   "url": ""
+  }
+ ],
+ "synopsis": null,
+ "ticker": "V2RETAIL.NS",
+ "updatedAt": "2026-11-06T20:23:36.857660+00:00"
+}

@@ -1,6 +1,64 @@
 {
- "dealCount": 894,
+ "dealCount": 896,
  "deals": [
+  {
+   "amountCr": 157.84,
+   "amountRaw": "157.84cr confirmed via NSE block deal",
+   "company": "V2 Retail Limited",
+   "confidence": "high",
+   "confirmed": true,
+   "createdAt": "2026-11-06T20:23:36.849485+00:00",
+   "dealType": "bulk deal",
+   "enrichmentState": null,
+   "id": 1354,
+   "individuals": [
+    "RICON COMMODITIES PRIVATE LIMITED"
+   ],
+   "listed": true,
+   "oneLine": "RICON COMMODITIES PRIVATE LIMITED sold shares in V2 Retail Limited (confirmed, NSE bulk deal)",
+   "primaryOutlet": "NSE",
+   "seller": "RICON COMMODITIES PRIVATE LIMITED",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 2,
+   "ticker": "V2RETAIL.NS",
+   "updatedAt": "2026-11-06T20:23:36.857660+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-11-06T20:23:36.856796+00:00",
+     "title": "V2 Retail Limited: block deal"
+    }
+   ]
+  },
+  {
+   "amountCr": 389.94,
+   "amountRaw": "389.94cr confirmed via NSE block deal",
+   "company": "Alivus Life Sciences Ltd",
+   "confidence": "high",
+   "confirmed": true,
+   "createdAt": "2026-11-06T20:23:36.828168+00:00",
+   "dealType": "bulk deal",
+   "enrichmentState": null,
+   "id": 1353,
+   "individuals": [
+    "NIRMA LIMITED"
+   ],
+   "listed": true,
+   "oneLine": "NIRMA LIMITED sold shares in Alivus Life Sciences Ltd (confirmed, NSE bulk deal)",
+   "primaryOutlet": "NSE",
+   "seller": "NIRMA LIMITED",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 2,
+   "ticker": "ALIVUS.NS",
+   "updatedAt": "2026-11-06T20:23:36.854151+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-11-06T20:23:36.853222+00:00",
+     "title": "Alivus Life Sciences Ltd: block deal"
+    }
+   ]
+  },
   {
    "amountCr": 250.5,
    "amountRaw": "250.5cr confirmed via NSE block deal",
@@ -28594,6 +28652,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-11-03T20:29:01.863804+00:00",
- "totalDeals": 1008
+ "generatedAt": "2026-11-06T20:23:36.857660+00:00",
+ "totalDeals": 1010
 }

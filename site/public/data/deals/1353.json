@@ -1,0 +1,41 @@
+{
+ "advisers": [],
+ "amountCr": 389.94,
+ "amountRaw": "389.94cr confirmed via NSE block deal",
+ "buyer": null,
+ "company": "Alivus Life Sciences Ltd",
+ "confidence": "high",
+ "confirmed": true,
+ "createdAt": "2026-11-06T20:23:36.828168+00:00",
+ "dealType": "bulk deal",
+ "enrichmentState": null,
+ "id": 1353,
+ "individuals": [
+  "NIRMA LIMITED"
+ ],
+ "listed": true,
+ "oneLine": "NIRMA LIMITED sold shares in Alivus Life Sciences Ltd (confirmed, NSE bulk deal)",
+ "primaryUrl": "",
+ "seller": "NIRMA LIMITED",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-11-06T20:23:36.829049+00:00",
+   "outlet": "NSE",
+   "resolvable": true,
+   "title": "Alivus Life Sciences Ltd: bulk deal",
+   "url": ""
+  },
+  {
+   "attachedAt": "2026-11-06T20:23:36.853222+00:00",
+   "outlet": "NSE",
+   "resolvable": true,
+   "title": "Alivus Life Sciences Ltd: block deal",
+   "url": ""
+  }
+ ],
+ "synopsis": null,
+ "ticker": "ALIVUS.NS",
+ "updatedAt": "2026-11-06T20:23:36.854151+00:00"
+}
