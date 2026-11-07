@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Anthropic",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-07T10:02:48.822090+00:00",
+ "dealType": "unknown",
+ "enrichmentState": null,
+ "id": 1355,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Anthropic prepares for an IPO with lowered valuation expectations.",
+ "primaryUrl": "https://www.livemint.com/companies/news/anthropic-ipo-valuation-why-investors-are-lowering-expectations-after-wall-street-selloff-11794013538561.html",
+ "seller": null,
+ "sizeBand": "OVER_2000",
+ "sizeSource": "band",
+ "sources": [
+  {
+   "attachedAt": "2026-11-07T10:02:48.823051+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "Anthropic IPO valuation: Why investors are lowering expectations after Wall Street sell-off",
+   "url": "https://www.livemint.com/companies/news/anthropic-ipo-valuation-why-investors-are-lowering-expectations-after-wall-street-selloff-11794013538561.html"
+  }
+ ],
+ "synopsis": "Anthropic is preparing for an initial public offering on the Nasdaq under the ticker symbol ANT, with an expected IPO roadshow starting next week. Prospective investors are lowering valuation expectations for the artificial intelligence company to around $1.2 trillion to $1.3 trillion, down from earlier considerations of up to $2 trillion, following a sharp sell-off in US technology stocks. The Nasdaq Composite plunged more than 5% and the Nasdaq 100 dropped 6.4%, wiping out $2.3 trillion in market value in a single session and raising volatility. Anthropic and its existing shareholders may begin formal marketing with a conservative valuation and offering size or consider postponing the listing, though strategists suggest the company may accept a lower valuation rather than delay.",
+ "ticker": null,
+ "updatedAt": "2026-11-07T10:02:52.799081+00:00"
+}

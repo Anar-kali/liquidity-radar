@@ -1,7 +1,7 @@
 {
  "advisers": [],
- "amountCr": null,
- "amountRaw": null,
+ "amountCr": 6000.0,
+ "amountRaw": "₹6,000 Cr",
  "buyer": null,
  "company": "Razorpay",
  "confidence": "medium",
@@ -10,13 +10,15 @@
  "dealType": "DRHP filing",
  "enrichmentState": null,
  "id": 788,
- "individuals": [],
+ "individuals": [
+  "Harshil Mathur"
+ ],
  "listed": false,
  "oneLine": "Razorpay confirms IPO filing; targets global markets.",
  "primaryUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUDFFTUZLT1RRYi1CMVNLRmdhdC1SejlZems1S0Rsek1yZEZJcVQxUjNqNlI2WUlrdFJnS2RLWGxyVXNXZTFTdnlqUVJrMnVnX2NPdjdLSGFMNFctWUgxV1ZIdWdaXy10czVhU2Vnbm01TmdMcDVySzM4eS1kclJod2VfeDhoY1FVOFBpYWFNcFJkSFJfbzdJMlVPU2dkUkZwSjJDMjZLRnJKbXdtNTcyQWVLOHZKeUItZHRDeXJJYkNqRUZiZVdF?oc=5",
  "seller": "Razorpay",
  "sizeBand": null,
- "sizeSource": "unknown",
+ "sizeSource": "stated",
  "sources": [
   {
    "attachedAt": "2026-09-09T12:31:22.763841+00:00",
@@ -24,9 +26,16 @@
    "resolvable": false,
    "title": "Razorpay Targets Global Markets, IPO Filing Confirmed",
    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUDFFTUZLT1RRYi1CMVNLRmdhdC1SejlZems1S0Rsek1yZEZJcVQxUjNqNlI2WUlrdFJnS2RLWGxyVXNXZTFTdnlqUVJrMnVnX2NPdjdLSGFMNFctWUgxV1ZIdWdaXy10czVhU2Vnbm01TmdMcDVySzM4eS1kclJod2VfeDhoY1FVOFBpYWFNcFJkSFJfbzdJMlVPU2dkUkZwSjJDMjZLRnJKbXdtNTcyQWVLOHZKeUItZHRDeXJJYkNqRUZiZVdF?oc=5"
+  },
+  {
+   "attachedAt": "2026-11-07T10:02:48.840038+00:00",
+   "outlet": "Google News",
+   "resolvable": true,
+   "title": "MDR And AI: Inside The Two Acronyms That Could Shape Razorpay’s ₹6,000 Cr IPO",
+   "url": "https://inc42.com/features/mdr-and-ai-inside-the-two-acronyms-that-could-shape-razorpays-%e2%82%b96000-cr-ipo/"
   }
  ],
  "synopsis": null,
  "ticker": null,
- "updatedAt": "2026-09-22T05:25:44.538598+00:00"
+ "updatedAt": "2026-11-07T10:02:48.841008+00:00"
 }

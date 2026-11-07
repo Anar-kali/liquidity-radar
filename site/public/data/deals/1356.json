@@ -1,0 +1,55 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "MakeMyTrip",
+ "company": "Quick Ride",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-07T10:02:48.827680+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1356,
+ "individuals": [
+  "KNM Rao"
+ ],
+ "listed": false,
+ "oneLine": "MakeMyTrip acquires majority stake in Quick Ride, paying out existing shareholders.",
+ "primaryUrl": "https://entrackr.com/news/makemytrip-acquires-majority-stake-in-quick-ride-to-enter-shared-mobility-segment-12789293",
+ "seller": "Quick Ride's promoters and existing shareholders",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-11-07T10:02:48.828627+00:00",
+   "outlet": "Entrackr",
+   "resolvable": true,
+   "title": "MakeMyTrip acquires majority stake in Quick Ride",
+   "url": "https://entrackr.com/news/makemytrip-acquires-majority-stake-in-quick-ride-to-enter-shared-mobility-segment-12789293"
+  },
+  {
+   "attachedAt": "2026-11-07T10:02:48.831312+00:00",
+   "outlet": "Entrackr",
+   "resolvable": true,
+   "title": "MakeMyTrip Acquires Majority Stake In Quick Ride To Enter Ride Pooling",
+   "url": "https://inc42.com/buzz/makemytrip-acquires-majority-stake-in-quick-ride-to-enter-ride-pooling/"
+  },
+  {
+   "attachedAt": "2026-11-07T10:02:48.844180+00:00",
+   "outlet": "Entrackr",
+   "resolvable": true,
+   "title": "MakeMyTrip enters shared mobility space with majority stake in Quick Ride",
+   "url": "https://yourstory.com/2026/11/makemytrip-enters-shared-mobility-space-with-majority-stake-quick-ride"
+  },
+  {
+   "attachedAt": "2026-11-07T10:02:48.851451+00:00",
+   "outlet": "Entrackr",
+   "resolvable": true,
+   "title": "MakeMyTrip expands ground transport play with Quick Ride acquisition",
+   "url": "https://www.thehindubusinessline.com/economy/logistics/makemytrip-expands-ground-transport-play-with-quick-ride-acquisition/article71673855.ece"
+  }
+ ],
+ "synopsis": "Travel technology platform MakeMyTrip has acquired a majority stake in Bengaluru-based shared mobility startup Quick Ride through its subsidiary redBus. Quick Ride's ride pooling business and brand were moved to a new entity, Co Ride Mobility Private Limited, through which the acquisition was completed. Quick Ride was founded in 2015 by KNM Rao, and its promoters will continue to lead the business. The financial details of the transaction have not been disclosed.",
+ "ticker": null,
+ "updatedAt": "2026-11-07T10:02:56.891978+00:00"
+}

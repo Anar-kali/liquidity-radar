@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 470.0,
+ "amountRaw": "₹470 crore",
+ "buyer": "SmallCap World Fund Inc and Government Pension Fund Global",
+ "company": "CarTrade Tech",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-07T10:02:48.847815+00:00",
+ "dealType": "block deal",
+ "enrichmentState": null,
+ "id": 1357,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Temasek sells a 3.74% stake in CarTrade Tech for Rs 470 crore.",
+ "primaryUrl": "https://www.thehindubusinessline.com/companies/temasek-sells-nearly-4-stake-in-cartrade-tech-for-470-crore/article71677396.ece",
+ "seller": "Temasek",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-11-07T10:02:48.848810+00:00",
+   "outlet": "Business Line",
+   "resolvable": true,
+   "title": "Temasek sells nearly 4% stake in CarTrade Tech for ₹470 crore",
+   "url": "https://www.thehindubusinessline.com/companies/temasek-sells-nearly-4-stake-in-cartrade-tech-for-470-crore/article71677396.ece"
+  }
+ ],
+ "synopsis": "Singapore-based state-owned investment firm Temasek, through its affiliate MacRitchie Investments Pte Ltd, sold a 3.74% stake in multi-channel auto platform CarTrade Tech for Rs 470.10 crore through an open market transaction on the BSE. The shares were offloaded at an average price of Rs 2,583 apiece, reducing Temasek's holding in CarTrade from 6.82% to 3.08%. On the buying side, US-based Capital Group's arm SmallCap World Fund Inc and Norway's Government Pension Fund Global acquired more than 17.23 lakh shares, representing a 3.54% holding, for Rs 445 crore at the same price.",
+ "ticker": "CARTRADE.NS",
+ "updatedAt": "2026-11-07T10:03:02.487724+00:00"
+}

@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 524.0,
+ "amountRaw": "Rs 524 crore",
+ "buyer": "Prestige Group",
+ "company": "Allure Developers",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-07T10:02:48.856081+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1358,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Prestige Group buys 100% stake in Allure Developers for Rs 524 crore.",
+ "primaryUrl": "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/prestige-group-buys-100-stake-in-allure-developers-for-rs-524-crore-to-develop-housing-project-in-noida/articleshow/135630853.cms",
+ "seller": "Allure Developers",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-11-07T10:02:48.856960+00:00",
+   "outlet": "ET Corporate",
+   "resolvable": true,
+   "title": "Prestige Group buys 100% stake in Allure Developers for Rs 524 crore to develop housing project in Noida",
+   "url": "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/prestige-group-buys-100-stake-in-allure-developers-for-rs-524-crore-to-develop-housing-project-in-noida/articleshow/135630853.cms"
+  }
+ ],
+ "synopsis": "Prestige Estates Projects Ltd has acquired a 100 per cent stake in Allure Developers Pvt Ltd for Rs 524 crore. The share purchase agreement was entered into on November 6, 2026. Through this transaction, Allure Developers has become a wholly owned subsidiary of Prestige Estates Projects Ltd. Allure Developers is currently engaged in the development of a residential project located in Noida Sector 150. The consideration is to be paid in tranches of up to Rs 5,23.76 crore.",
+ "ticker": null,
+ "updatedAt": "2026-11-07T10:03:05.915076+00:00"
+}

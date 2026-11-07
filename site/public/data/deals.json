@@ -1,6 +1,109 @@
 {
- "dealCount": 896,
+ "dealCount": 898,
  "deals": [
+  {
+   "amountCr": 524.0,
+   "amountRaw": "Rs 524 crore",
+   "company": "Allure Developers",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-07T10:02:48.856081+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1358,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Prestige Group buys 100% stake in Allure Developers for Rs 524 crore.",
+   "primaryOutlet": "ET Corporate",
+   "seller": "Allure Developers",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-07T10:03:05.915076+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 470.0,
+   "amountRaw": "₹470 crore",
+   "company": "CarTrade Tech",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-07T10:02:48.847815+00:00",
+   "dealType": "block deal",
+   "enrichmentState": null,
+   "id": 1357,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Temasek sells a 3.74% stake in CarTrade Tech for Rs 470 crore.",
+   "primaryOutlet": "Business Line",
+   "seller": "Temasek",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "CARTRADE.NS",
+   "updatedAt": "2026-11-07T10:03:02.487724+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Quick Ride",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-07T10:02:48.827680+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1356,
+   "individuals": [
+    "KNM Rao"
+   ],
+   "listed": false,
+   "oneLine": "MakeMyTrip acquires majority stake in Quick Ride, paying out existing shareholders.",
+   "primaryOutlet": "Entrackr",
+   "seller": "Quick Ride's promoters and existing shareholders",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 4,
+   "ticker": null,
+   "updatedAt": "2026-11-07T10:02:56.891978+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-11-07T10:02:48.831312+00:00",
+     "title": "MakeMyTrip Acquires Majority Stake In Quick Ride To Enter Ride Pooling"
+    },
+    {
+     "attachedAt": "2026-11-07T10:02:48.844180+00:00",
+     "title": "MakeMyTrip enters shared mobility space with majority stake in Quick Ride"
+    },
+    {
+     "attachedAt": "2026-11-07T10:02:48.851451+00:00",
+     "title": "MakeMyTrip expands ground transport play with Quick Ride acquisition"
+    }
+   ]
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Anthropic",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-07T10:02:48.822090+00:00",
+   "dealType": "unknown",
+   "enrichmentState": null,
+   "id": 1355,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Anthropic prepares for an IPO with lowered valuation expectations.",
+   "primaryOutlet": "Mint",
+   "seller": null,
+   "sizeBand": "OVER_2000",
+   "sizeSource": "band",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-07T10:02:52.799081+00:00",
+   "updates": []
+  },
   {
    "amountCr": 157.84,
    "amountRaw": "157.84cr confirmed via NSE block deal",
@@ -15002,8 +15105,8 @@
    ]
   },
   {
-   "amountCr": null,
-   "amountRaw": null,
+   "amountCr": 6000.0,
+   "amountRaw": "₹6,000 Cr",
    "company": "Razorpay",
    "confidence": "medium",
    "confirmed": false,
@@ -15011,17 +15114,24 @@
    "dealType": "DRHP filing",
    "enrichmentState": null,
    "id": 788,
-   "individuals": [],
+   "individuals": [
+    "Harshil Mathur"
+   ],
    "listed": false,
    "oneLine": "Razorpay confirms IPO filing; targets global markets.",
    "primaryOutlet": "Whalesbook",
    "seller": "Razorpay",
    "sizeBand": null,
-   "sizeSource": "unknown",
-   "sourceCount": 1,
+   "sizeSource": "stated",
+   "sourceCount": 2,
    "ticker": null,
-   "updatedAt": "2026-09-22T05:25:44.538598+00:00",
-   "updates": []
+   "updatedAt": "2026-11-07T10:02:48.841008+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-11-07T10:02:48.840038+00:00",
+     "title": "MDR And AI: Inside The Two Acronyms That Could Shape Razorpay’s ₹6,000 Cr IPO"
+    }
+   ]
   },
   {
    "amountCr": 4000.0,
@@ -28418,240 +28528,9 @@
      "title": "NSE IPO: Can the large supply of shares and all-OFS structure limit listing gains?"
     }
    ]
-  },
-  {
-   "amountCr": null,
-   "amountRaw": null,
-   "company": "BPTP",
-   "confidence": "medium",
-   "confirmed": false,
-   "createdAt": "2026-08-09T03:16:01.530079+00:00",
-   "dealType": "IPO-OFS",
-   "enrichmentState": null,
-   "id": 146,
-   "individuals": [],
-   "listed": false,
-   "oneLine": "BPTP leadership overhaul amid IPO ambitions; promoter liquidity event likely coming.",
-   "primaryOutlet": "inventiva.co.in",
-   "seller": null,
-   "sizeBand": null,
-   "sizeSource": "unknown",
-   "sourceCount": 1,
-   "ticker": null,
-   "updatedAt": "2026-08-09T03:16:01.530079+00:00",
-   "updates": []
-  },
-  {
-   "amountCr": 37700.0,
-   "amountRaw": "Rs 37,700 crore offering",
-   "company": "Jio Platforms",
-   "confidence": "medium",
-   "confirmed": false,
-   "createdAt": "2026-08-09T01:31:10.107802+00:00",
-   "dealType": "DRHP filing",
-   "enrichmentState": null,
-   "id": 145,
-   "individuals": [
-    "Mukesh Ambani"
-   ],
-   "listed": true,
-   "oneLine": "Jio Platforms files DRHP with SEBI for IPO; Reliance promoters to cash out.",
-   "primaryOutlet": "Goodreturns",
-   "seller": "Reliance Industries (promoter)",
-   "sizeBand": null,
-   "sizeSource": "unknown",
-   "sourceCount": 47,
-   "ticker": "JPL.NS",
-   "updatedAt": "2026-09-22T05:25:45.146598+00:00",
-   "updates": [
-    {
-     "attachedAt": "2026-08-28T12:31:37.116343+00:00",
-     "title": "Jio IPO soon! RIL's telecom arm gets Sebi nod for Rs 37,700 crore offering"
-    },
-    {
-     "attachedAt": "2026-08-28T12:31:37.118632+00:00",
-     "title": "Jio IPO, Expected To Be India's Biggest Public Issue, Gets SEBI Nod"
-    },
-    {
-     "attachedAt": "2026-08-28T12:31:37.122370+00:00",
-     "title": "SEBI Approves IPO Plans Of Jio Platforms, Paras Healthcare, Bharat PET And Four Other Companies"
-    },
-    {
-     "attachedAt": "2026-08-28T12:31:37.124434+00:00",
-     "title": "Jio Platforms IPO: SEBI Clears One of the Largest INR 37,700 Crore Public Offers for Reliance Digital Arm"
-    },
-    {
-     "attachedAt": "2026-08-28T12:31:37.196023+00:00",
-     "title": "SEBI Clears IPO Path for Jio Platforms, 6 Others"
-    },
-    {
-     "attachedAt": "2026-08-28T13:31:08.234934+00:00",
-     "title": "Jio Platforms Gets SEBI Nod for IPO"
-    },
-    {
-     "attachedAt": "2026-08-28T13:31:08.241020+00:00",
-     "title": "Jio Platforms gets Sebi nod for ₹35,000 crore IPO, India’s biggest potential listing"
-    },
-    {
-     "attachedAt": "2026-08-28T13:31:08.243026+00:00",
-     "title": "Jio Platforms IPO gets SEBI nod: Rs 27,500 crore debt repayment plan, $100 billion valuation in focus"
-    },
-    {
-     "attachedAt": "2026-08-28T13:31:08.245338+00:00",
-     "title": "Jio Platforms gets SEBI nod for ₹37,700 crore IPO, could become India’s biggest listing"
-    },
-    {
-     "attachedAt": "2026-08-31T01:34:53.465005+00:00",
-     "title": "Jio Platforms IPO: SEBI clears DRHP; here's all you need to know"
-    },
-    {
-     "attachedAt": "2026-08-31T01:34:53.468001+00:00",
-     "title": "Reliance’s Jio Platforms gets Sebi nod to launch India’s biggest IPO"
-    },
-    {
-     "attachedAt": "2026-08-31T01:34:53.470117+00:00",
-     "title": "RIL says Jio Platforms receives SEBI observation letter for proposed IPO"
-    },
-    {
-     "attachedAt": "2026-08-31T01:34:53.472450+00:00",
-     "title": "Jio Platforms gets Sebi nod for $3.8-bn IPO, set to be India's biggest"
-    },
-    {
-     "attachedAt": "2026-08-31T01:34:53.741879+00:00",
-     "title": "Jio Platforms gets SEBI clearance for proposed Rs 37,000-crore-plus IPO"
-    },
-    {
-     "attachedAt": "2026-08-31T01:34:53.744362+00:00",
-     "title": "Jio Platforms secures Sebi nod for $3.8B IPO, India's biggest ever"
-    },
-    {
-     "attachedAt": "2026-08-31T01:34:53.748559+00:00",
-     "title": "Jio Platforms secures SEBI nod for $3.8 billion IPO"
-    },
-    {
-     "attachedAt": "2026-08-31T01:34:53.751617+00:00",
-     "title": "Jio Platforms Gets SEBI Clearance for Landmark $4 Billion India IPO"
-    },
-    {
-     "attachedAt": "2026-08-31T01:34:53.753607+00:00",
-     "title": "Jio Eyes India’s Biggest IPO"
-    },
-    {
-     "attachedAt": "2026-08-31T01:34:53.766453+00:00",
-     "title": "Jio Platforms Mega IPO Gets the Green Light: Here’s What Investors Should Know"
-    },
-    {
-     "attachedAt": "2026-08-31T01:34:53.768606+00:00",
-     "title": "Jio Platforms Get SEBI Approval For India's Biggest IPO At Rs 38,000 Cr Estimation"
-    },
-    {
-     "attachedAt": "2026-08-31T01:34:53.773126+00:00",
-     "title": "Jio Platforms gets SEBI nod for India’s biggest-ever IPO"
-    },
-    {
-     "attachedAt": "2026-08-31T01:34:53.782664+00:00",
-     "title": "Jio Platforms Secures SEBI Approval for Major IPO, Poised to Become India’s Largest"
-    },
-    {
-     "attachedAt": "2026-08-31T01:34:53.821367+00:00",
-     "title": "Jio Platforms gets SEBI nod for biggest IPO listing of around ₹37,700 crore"
-    },
-    {
-     "attachedAt": "2026-08-31T02:31:15.158951+00:00",
-     "title": "Reliance Jio IPO: 7 risk factors investors should know as firm gets Sebi nod for Rs 37,000-crore issue"
-    },
-    {
-     "attachedAt": "2026-08-31T03:31:19.266329+00:00",
-     "title": "Jio Platforms IPO: Mukesh Ambani's Reliance Group company gets SEBI nod for ₹37,700 crore issue | Full details"
-    },
-    {
-     "attachedAt": "2026-08-31T03:31:19.269143+00:00",
-     "title": "Jio Platform gets Sebi's nod for Rs 37,000 crore IPO"
-    },
-    {
-     "attachedAt": "2026-08-31T04:31:49.887259+00:00",
-     "title": "Jio Platforms secures SEBI nod for ₹37,700 crore IPO"
-    },
-    {
-     "attachedAt": "2026-08-31T06:31:50.143638+00:00",
-     "title": "Reliance’s Jio Platforms gets SEBI nod for IPO; Rs 37,000 crore issue likely"
-    },
-    {
-     "attachedAt": "2026-09-02T07:31:31.826109+00:00",
-     "title": "Debt Reduction Meets Digital Ambition: Inside The Structure Of Jio Platforms’ Mega IPO"
-    },
-    {
-     "attachedAt": "2026-09-02T07:31:31.834075+00:00",
-     "title": "Jio Platforms Gets Sebi Nod For $3.8 Bn IPO"
-    },
-    {
-     "attachedAt": "2026-09-02T08:31:23.421089+00:00",
-     "title": "September set for IPO boom as Jio, NSE could drive record fundraising"
-    },
-    {
-     "attachedAt": "2026-09-03T04:31:09.442334+00:00",
-     "title": "The IPO India Has Been Waiting For: Why Jio’s Market Debut Could Rewrite Stock Market History"
-    },
-    {
-     "attachedAt": "2026-09-04T01:33:11.173688+00:00",
-     "title": "Jio sets eyes on Navratri-Diwali period to launch mega $4 billion IPO"
-    },
-    {
-     "attachedAt": "2026-09-04T02:31:07.908117+00:00",
-     "title": "IPO rush: Jio and NSE among 238 companies ready to mop up Rs 4.66 lakh cr via new issues"
-    },
-    {
-     "attachedAt": "2026-09-04T02:31:07.911661+00:00",
-     "title": "Jio IPO launch likely during Navratri-Diwali festive window: Report"
-    },
-    {
-     "attachedAt": "2026-09-04T03:31:17.342154+00:00",
-     "title": "Jio IPO: Mukesh Ambani-owned Reliance Industries sets eyes on Navratri-Diwali period for launch? What we know so far"
-    },
-    {
-     "attachedAt": "2026-09-04T05:32:07.748650+00:00",
-     "title": "Dalal Street dhamaka in Navaratri-Diwali: Jio IPO expected to hit market to raise Rs 37,800 cr"
-    },
-    {
-     "attachedAt": "2026-09-04T06:31:23.889399+00:00",
-     "title": "Jio IPO Is Finally Closing In: India’s Biggest-Ever Share Sale Could Arrive This Festive Season"
-    },
-    {
-     "attachedAt": "2026-09-04T07:31:29.848900+00:00",
-     "title": "Jio IPO: ₹37,800 crore Mega Issue Likely Around Diwali; What Investors Need To Know"
-    },
-    {
-     "attachedAt": "2026-09-04T08:31:40.507761+00:00",
-     "title": "Reliance may launch Jio IPO during Navratri or Diwali: Mukesh Ambani will bring India's largest IPO worth ₹..."
-    },
-    {
-     "attachedAt": "2026-09-04T08:31:40.516587+00:00",
-     "title": "Jio Platforms Plans $4 Billion IPO Around Diwali"
-    },
-    {
-     "attachedAt": "2026-09-08T03:31:13.819748+00:00",
-     "title": "Jio Platforms gears up for IPO marketing next week, eyes November listing: Report"
-    },
-    {
-     "attachedAt": "2026-09-09T08:31:14.453677+00:00",
-     "title": "Jio Platforms Steps Up IPO Preparations, Investor Outreach To Start Later This Week"
-    },
-    {
-     "attachedAt": "2026-09-15T11:31:19.122968+00:00",
-     "title": "Why The Jio IPO Could Be One Of India’s Biggest IPOs"
-    },
-    {
-     "attachedAt": "2026-09-16T08:31:17.530843+00:00",
-     "title": "Jio IPO 2026: Expected Timeline, IPO Size, Valuation And Key Details"
-    },
-    {
-     "attachedAt": "2026-09-21T08:31:16.260474+00:00",
-     "title": "Jio Platforms IPO enters final lap: ₹37,700 crore issue, November launch in sight; price band still under wraps"
-    }
-   ]
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-11-06T20:23:36.857660+00:00",
- "totalDeals": 1010
+ "generatedAt": "2026-11-07T10:03:05.915076+00:00",
+ "totalDeals": 1014
 }
