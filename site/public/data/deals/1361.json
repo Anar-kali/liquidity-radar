@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "Israir",
+ "company": "Arkia",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-09T17:46:21.397462+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1361,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Israeli carrier Israir is in talks to purchase rival Arkia.",
+ "primaryUrl": "https://www.livemint.com/companies/israeli-carrier-israir-in-talks-to-purchase-local-rival-arkia-11794137409790.html",
+ "seller": "Nakash Group",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-11-09T17:46:21.398432+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "Israeli carrier Israir in talks to purchase local rival Arkia",
+   "url": "https://www.livemint.com/companies/israeli-carrier-israir-in-talks-to-purchase-local-rival-arkia-11794137409790.html"
+  }
+ ],
+ "synopsis": "Israeli carrier Israir is in preliminary talks to purchase its local rival Arkia in a bid to better compete against foreign carriers. The discussions were revealed by Israir Chief Executive Uri Sirkis in a letter to staff. Arkia, a privately held airline owned by the Nakash brothers, has recently faced a crisis and media reports indicated a loss of $30 million over the first three quarters of 2026, though financial results are not officially published. Arkia is currently working to find solutions and rehabilitate the company. Israir is valued at $144 million. No financial terms or deal values were disclosed in the preliminary talks.",
+ "ticker": null,
+ "updatedAt": "2026-11-09T17:47:57.698097+00:00"
+}

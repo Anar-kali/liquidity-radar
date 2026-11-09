@@ -1,6 +1,81 @@
 {
- "dealCount": 878,
+ "dealCount": 868,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Arkia",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-09T17:46:21.397462+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1361,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Israeli carrier Israir is in talks to purchase rival Arkia.",
+   "primaryOutlet": "Mint",
+   "seller": "Nakash Group",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-09T17:47:57.698097+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 2500.0,
+   "amountRaw": "₹2,500 crore",
+   "company": "IL JIN Electronics",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-09T17:46:21.368474+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 1360,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Amber Enterprises arm IL JIN Electronics filed a DRHP for a ₹2,500 crore IPO.",
+   "primaryOutlet": "Business Standard",
+   "seller": "IL JIN Electronics (India) Ltd",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 3,
+   "ticker": null,
+   "updatedAt": "2026-11-09T17:48:05.740194+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-11-09T17:46:21.374228+00:00",
+     "title": "Amber Enterprises subsidiary IL Jin Electronics files draft papers for Rs 2,500-crore IPO; plans to reduce..."
+    },
+    {
+     "attachedAt": "2026-11-09T17:46:21.379289+00:00",
+     "title": "IL JIN Electronics files draft papers for ₹2,500-crore IPO"
+    }
+   ]
+  },
+  {
+   "amountCr": 186.71,
+   "amountRaw": "₹186.71 Crore",
+   "company": "Kirana Club",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-09T17:46:21.345784+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": "failed",
+   "id": 1359,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Meesho acquired a 92.74% stake in Kirana Club for ₹186.71 crore.",
+   "primaryOutlet": "Sahi",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-09T17:46:21.345784+00:00",
+   "updates": []
+  },
   {
    "amountCr": 524.0,
    "amountRaw": "Rs 524 crore",
@@ -1799,7 +1874,7 @@
    "seller": "Promoters and shareholders",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 8,
+   "sourceCount": 13,
    "ticker": null,
    "updatedAt": "2026-10-29T06:31:05.920759+00:00",
    "updates": [
@@ -1830,6 +1905,26 @@
     {
      "attachedAt": "2026-10-29T06:31:05.918412+00:00",
      "title": "Billionaire brothers Shyam and Hari Bhartia’ Coca-Cola Bet Nears a Payoff as Bottler Plans $1 Billion IPO"
+    },
+    {
+     "attachedAt": "2026-11-09T17:46:21.358094+00:00",
+     "title": "Coca-Cola’s Indian bottling arm Hindustan Coca-Cola Holdings files DRHP for IPO"
+    },
+    {
+     "attachedAt": "2026-11-09T17:46:21.384296+00:00",
+     "title": "Upcoming IPO: Coca-Cola India bottler HCCH files DRHP for public issue, majority shareholder to sell up to 15% stake"
+    },
+    {
+     "attachedAt": "2026-11-09T17:46:21.389576+00:00",
+     "title": "Coca-Cola-backed HCCH sets IPO ball rolling with 99.75 crore-share offer"
+    },
+    {
+     "attachedAt": "2026-11-09T17:46:21.394814+00:00",
+     "title": "Coca Cola's Indian Bottling Arm Offers 100 Crore Shares Via IPO"
+    },
+    {
+     "attachedAt": "2026-11-09T17:46:21.406946+00:00",
+     "title": "Hindustan Coca-Cola Holdings files DRHP for IPO"
     }
    ]
   },
@@ -2902,7 +2997,7 @@
    "seller": "Edelweiss",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 6,
+   "sourceCount": 7,
    "ticker": null,
    "updatedAt": "2026-10-20T07:31:03.691524+00:00",
    "updates": [
@@ -2925,6 +3020,10 @@
     {
      "attachedAt": "2026-10-21T08:31:15.490721+00:00",
      "title": "EAAA India Alternatives IPO DRHP: ₹1,200 crore offer for sale; no fresh issue component"
+    },
+    {
+     "attachedAt": "2026-11-09T17:46:21.352843+00:00",
+     "title": "Cyril Amarchand Mangaldas advises underwriters on EAAA India Alternatives' ₹1,200-crore IPO"
     }
    ]
   },
@@ -27080,511 +27179,9 @@
      "title": "Thyrocare promoter Docon offloads 9.9 pc stake for Rs 986 crore"
     }
    ]
-  },
-  {
-   "amountCr": null,
-   "amountRaw": null,
-   "company": "CIEL HR Services",
-   "confidence": "medium",
-   "confirmed": false,
-   "createdAt": "2026-08-11T16:01:20.119625+00:00",
-   "dealType": "DRHP filing",
-   "enrichmentState": null,
-   "id": 182,
-   "individuals": [],
-   "listed": false,
-   "oneLine": "CIEL HR Services revives IPO plans; early-stage prospecting lead",
-   "primaryOutlet": "Whalesbook",
-   "seller": null,
-   "sizeBand": null,
-   "sizeSource": "unknown",
-   "sourceCount": 1,
-   "ticker": null,
-   "updatedAt": "2026-08-11T16:01:20.119625+00:00",
-   "updates": []
-  },
-  {
-   "amountCr": 3180.0,
-   "amountRaw": "Rs 3,180 crore",
-   "company": "Tenneco Clean Air",
-   "confidence": "high",
-   "confirmed": false,
-   "createdAt": "2026-08-11T16:01:20.106677+00:00",
-   "dealType": "block deal",
-   "enrichmentState": null,
-   "id": 181,
-   "individuals": [],
-   "listed": true,
-   "oneLine": "Promoter Tenneco Mauritius selling 8% stake in Tenneco Clean Air for Rs 2,000+ crore",
-   "primaryOutlet": "NDTV Profit",
-   "seller": null,
-   "sizeBand": null,
-   "sizeSource": "stated",
-   "sourceCount": 17,
-   "ticker": "TENNIND.NS",
-   "updatedAt": "2026-08-13T01:31:18.977020+00:00",
-   "updates": [
-    {
-     "attachedAt": "2026-08-11T16:01:20.110652+00:00",
-     "title": "Tenneco Clean Air Block Deal: Promoter Tenneco Mauritius likely to sell 8% stake at ₹515/share"
-    },
-    {
-     "attachedAt": "2026-08-11T16:01:20.113992+00:00",
-     "title": "Tenneco Clean Air Block Deal: Promoter To Sell Over Rs 2,000-Crore Stake; Offer Price Fixed"
-    },
-    {
-     "attachedAt": "2026-08-11T16:01:20.116182+00:00",
-     "title": "Tenneco Clean Air Block Deal: Promoter Tenneco Mauritius likely to sell 8% stake at ₹515/share"
-    },
-    {
-     "attachedAt": "2026-08-11T16:31:12.353352+00:00",
-     "title": "Tenneco Clean Air India Promoter Plans 8% Stake Sale at ₹515"
-    },
-    {
-     "attachedAt": "2026-08-11T16:31:13.682638+00:00",
-     "title": "Tenneco Clean Air India Promoter Plans 8% Stake Sale at ₹515"
-    },
-    {
-     "attachedAt": "2026-08-12T16:45:59.380592+00:00",
-     "title": "Tenneco Clean Air India promoter offloads 15% stake worth Rs 3,180 crore; SBI, HDFC MF among buyers"
-    },
-    {
-     "attachedAt": "2026-08-12T16:45:59.386832+00:00",
-     "title": "Tenneco Clean Air India promoter offloads 15% stake worth Rs 3,180 crore; SBI, HDFC MF among buyers"
-    },
-    {
-     "attachedAt": "2026-08-12T16:45:59.388877+00:00",
-     "title": "Tenneco Clean Air India promoter offloads 15% stake worth Rs 3,180 crore; SBI, HDFC MF among buyers"
-    },
-    {
-     "attachedAt": "2026-08-12T17:15:58.844116+00:00",
-     "title": "Tenneco Clean Air India Promoter Sells Stake Worth ~₹1,699 Crore"
-    },
-    {
-     "attachedAt": "2026-08-12T17:15:58.852571+00:00",
-     "title": "Tenneco Clean Air India Promoter Sells Stake Worth ~₹1,699 Crore"
-    },
-    {
-     "attachedAt": "2026-08-13T01:31:18.976133+00:00",
-     "title": "Tenneco Clean Air India promoter offloads 15% stake worth Rs 3,180 crore; SBI, HDFC MF among buyers"
-    },
-    {
-     "attachedAt": "2026-08-13T01:31:20.187150+00:00",
-     "title": "Tenneco Clean Air India promoter offloads 15% stake worth Rs 3,180 crore; SBI, HDFC MF among buyers"
-    },
-    {
-     "attachedAt": "2026-08-13T01:31:20.195394+00:00",
-     "title": "Tenneco Clean Air India promoter offloads 15% stake worth Rs 3,180 crore; SBI, HDFC MF among buyers"
-    },
-    {
-     "attachedAt": "2026-08-14T08:46:06.420917+00:00",
-     "title": "Tenneco Clean Air promoters sell 15% stake in open market"
-    },
-    {
-     "attachedAt": "2026-08-14T08:46:07.646635+00:00",
-     "title": "Tenneco Clean Air promoters sell 15% stake in open market"
-    },
-    {
-     "attachedAt": "2026-08-14T09:01:22.219801+00:00",
-     "title": "Tenneco Clean Air India promoter offloads 15% stake worth Rs 3,180 crore; SBI, HDFC MF among buyers"
-    }
-   ]
-  },
-  {
-   "amountCr": 750.0,
-   "amountRaw": "Rs 750 crore IPO",
-   "company": "NDR InvIT Trust",
-   "confidence": "high",
-   "confirmed": false,
-   "createdAt": "2026-08-11T15:01:51.864529+00:00",
-   "dealType": "DRHP filing",
-   "enrichmentState": null,
-   "id": 180,
-   "individuals": [],
-   "listed": false,
-   "oneLine": "NDR InvIT Trust files DRHP for Rs 750 crore IPO",
-   "primaryOutlet": "The Economic Times",
-   "seller": null,
-   "sizeBand": null,
-   "sizeSource": "stated",
-   "sourceCount": 4,
-   "ticker": null,
-   "updatedAt": "2026-08-11T15:01:51.864529+00:00",
-   "updates": [
-    {
-     "attachedAt": "2026-08-11T15:31:05.010691+00:00",
-     "title": "NDR InvIT Trust files draft papers for Rs 750 crore IPO"
-    },
-    {
-     "attachedAt": "2026-08-12T03:45:59.126036+00:00",
-     "title": "NDR InvIT Trust files draft papers for ₹750 crore IPO"
-    },
-    {
-     "attachedAt": "2026-08-12T10:31:23.402427+00:00",
-     "title": "Investcorp-backed NDR InvIT Trust files draft paper with Sebi for Rs 750 crore IPO"
-    }
-   ]
-  },
-  {
-   "amountCr": 6160.0,
-   "amountRaw": "$7 billion = 7000 million USD × 88 INR/USD ÷ 10 million/cr = 6160 cr INR",
-   "company": "OpenAI",
-   "confidence": "high",
-   "confirmed": false,
-   "createdAt": "2026-08-11T14:31:21.799414+00:00",
-   "dealType": "PE secondary",
-   "enrichmentState": null,
-   "id": 179,
-   "individuals": [
-    "OpenAI employees (unnamed)"
-   ],
-   "listed": false,
-   "oneLine": "OpenAI employees sell ~$7B shares ahead of potential IPO.",
-   "primaryOutlet": "Mint",
-   "seller": null,
-   "sizeBand": null,
-   "sizeSource": "stated",
-   "sourceCount": 1,
-   "ticker": null,
-   "updatedAt": "2026-08-11T14:31:21.799414+00:00",
-   "updates": []
-  },
-  {
-   "amountCr": null,
-   "amountRaw": null,
-   "company": "Tribeca Ventures",
-   "confidence": "medium",
-   "confirmed": false,
-   "createdAt": "2026-08-11T12:46:03.648907+00:00",
-   "dealType": "IPO-OFS",
-   "enrichmentState": null,
-   "id": 178,
-   "individuals": [],
-   "listed": false,
-   "oneLine": "Tribeca Ventures (Trump Towers India partner) plans IPO by 2028.",
-   "primaryOutlet": "Google News",
-   "seller": null,
-   "sizeBand": null,
-   "sizeSource": "unknown",
-   "sourceCount": 1,
-   "ticker": null,
-   "updatedAt": "2026-08-11T12:46:03.648907+00:00",
-   "updates": []
-  },
-  {
-   "amountCr": 2780.7,
-   "amountRaw": "2.5% x mcap ~Rs 111228cr = ~Rs 2781cr",
-   "company": "Vedanta Group",
-   "confidence": "medium",
-   "confirmed": false,
-   "createdAt": "2026-08-11T12:31:37.593843+00:00",
-   "dealType": "promoter sale",
-   "enrichmentState": null,
-   "id": 177,
-   "individuals": [],
-   "listed": true,
-   "oneLine": "Vedanta Group promoters may undertake share sale action",
-   "primaryOutlet": "CNBC TV18",
-   "seller": null,
-   "sizeBand": null,
-   "sizeSource": "stated",
-   "sourceCount": 3,
-   "ticker": "VEDL.NS",
-   "updatedAt": "2026-08-14T06:16:00.855076+00:00",
-   "updates": [
-    {
-     "attachedAt": "2026-08-11T17:31:14.523819+00:00",
-     "title": "Vedanta Shares Slip 2.5% on Promoter Stake Reshuffle Reports"
-    },
-    {
-     "attachedAt": "2026-08-14T06:16:00.854316+00:00",
-     "title": "Vedanta Ltd: The Exchange has received Disclosure under Regulation 31(1) and 31(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations, 2011 on August 11, 2026 for Twin Star Holdings Ltd & Others"
-    }
-   ]
-  },
-  {
-   "amountCr": null,
-   "amountRaw": null,
-   "company": "Gujarat Winding Systems Ltd",
-   "confidence": "medium",
-   "confirmed": false,
-   "createdAt": "2026-08-11T11:46:00.750530+00:00",
-   "dealType": "block deal",
-   "enrichmentState": null,
-   "id": 176,
-   "individuals": [
-    "Sanjeev Lunkad"
-   ],
-   "listed": true,
-   "oneLine": "Substantial acquisition by Sanjeev Lunkad & PACs disclosed.",
-   "primaryOutlet": "BSE",
-   "seller": null,
-   "sizeBand": null,
-   "sizeSource": "unknown",
-   "sourceCount": 1,
-   "ticker": "541627.BO",
-   "updatedAt": "2026-08-11T11:46:00.750530+00:00",
-   "updates": []
-  },
-  {
-   "amountCr": null,
-   "amountRaw": null,
-   "company": "Moongipa Capital Finance Ltd",
-   "confidence": "medium",
-   "confirmed": false,
-   "createdAt": "2026-08-11T11:46:00.641887+00:00",
-   "dealType": "block deal",
-   "enrichmentState": null,
-   "id": 175,
-   "individuals": [
-    "Piyush Jain"
-   ],
-   "listed": true,
-   "oneLine": "Substantial acquisition by Piyush Jain & others disclosed.",
-   "primaryOutlet": "BSE",
-   "seller": null,
-   "sizeBand": null,
-   "sizeSource": "unknown",
-   "sourceCount": 1,
-   "ticker": "530167.BO",
-   "updatedAt": "2026-08-11T11:46:00.641887+00:00",
-   "updates": []
-  },
-  {
-   "amountCr": null,
-   "amountRaw": null,
-   "company": "Capillary Technologies India Ltd",
-   "confidence": "medium",
-   "confirmed": false,
-   "createdAt": "2026-08-11T11:46:00.500971+00:00",
-   "dealType": "block deal",
-   "enrichmentState": null,
-   "id": 174,
-   "individuals": [],
-   "listed": true,
-   "oneLine": "Substantial acquisition disclosure filed; acquirer identified.",
-   "primaryOutlet": "BSE",
-   "seller": null,
-   "sizeBand": null,
-   "sizeSource": "mcap_plausible",
-   "sourceCount": 1,
-   "ticker": "CAPILLARY.NS",
-   "updatedAt": "2026-08-11T11:46:00.500971+00:00",
-   "updates": []
-  },
-  {
-   "amountCr": null,
-   "amountRaw": null,
-   "company": "Beauty Garage Limited",
-   "confidence": "medium",
-   "confirmed": false,
-   "createdAt": "2026-08-11T09:16:08.755192+00:00",
-   "dealType": "DRHP filing",
-   "enrichmentState": null,
-   "id": 173,
-   "individuals": [],
-   "listed": false,
-   "oneLine": "Beauty Garage Limited files DRHP with SEBI for IPO.",
-   "primaryOutlet": "Abridged Prospectus",
-   "seller": null,
-   "sizeBand": null,
-   "sizeSource": "unknown",
-   "sourceCount": 2,
-   "ticker": null,
-   "updatedAt": "2026-08-11T09:16:08.755192+00:00",
-   "updates": [
-    {
-     "attachedAt": "2026-08-11T09:16:08.759659+00:00",
-     "title": "BEAUTY GARAGE LIMITED"
-    }
-   ]
-  },
-  {
-   "amountCr": null,
-   "amountRaw": null,
-   "company": "Shein",
-   "confidence": "medium",
-   "confirmed": false,
-   "createdAt": "2026-08-11T08:01:18.481094+00:00",
-   "dealType": "IPO-OFS",
-   "enrichmentState": null,
-   "id": 172,
-   "individuals": [],
-   "listed": false,
-   "oneLine": "Shein planning Hong Kong IPO launch; promoters to cash out via OFS.",
-   "primaryOutlet": "The Economic Times",
-   "seller": null,
-   "sizeBand": null,
-   "sizeSource": "unknown",
-   "sourceCount": 1,
-   "ticker": null,
-   "updatedAt": "2026-08-11T08:01:18.481094+00:00",
-   "updates": []
-  },
-  {
-   "amountCr": 800.0,
-   "amountRaw": "Rs 800 Cr via fresh issue",
-   "company": "Tablespace Technologies",
-   "confidence": "medium",
-   "confirmed": false,
-   "createdAt": "2026-08-11T07:45:55.836997+00:00",
-   "dealType": "DRHP filing",
-   "enrichmentState": null,
-   "id": 171,
-   "individuals": [],
-   "listed": false,
-   "oneLine": "Tablespace Technologies files DRHP with SEBI to launch IPO; promoters to cash out.",
-   "primaryOutlet": "Business Today",
-   "seller": null,
-   "sizeBand": null,
-   "sizeSource": "stated",
-   "sourceCount": 8,
-   "ticker": null,
-   "updatedAt": "2026-09-22T05:25:45.247247+00:00",
-   "updates": [
-    {
-     "attachedAt": "2026-08-11T09:16:08.764590+00:00",
-     "title": "Table Space files DRHP with SEBI to raise Rs 800 Cr via fresh issue"
-    },
-    {
-     "attachedAt": "2026-08-11T09:31:27.065110+00:00",
-     "title": "Tablespace Technologies files DRHP with SEBI to launch its IPO; check details"
-    },
-    {
-     "attachedAt": "2026-08-11T17:01:09.720768+00:00",
-     "title": "Tablespace technologies files draft papers with Sebi to raise funds through IPO"
-    },
-    {
-     "attachedAt": "2026-08-11T17:31:14.528154+00:00",
-     "title": "Tablespace technologies files draft papers with Sebi to raise funds through IPO"
-    },
-    {
-     "attachedAt": "2026-08-11T17:31:14.533305+00:00",
-     "title": "Tablespace technologies files draft papers with Sebi to raise funds through IPO"
-    },
-    {
-     "attachedAt": "2026-08-18T07:31:17.124617+00:00",
-     "title": "TABLESPACE TECHNOLOGIES LIMITED - DRHPTABLESPACE TECHNOLOGIES LIMITED"
-    },
-    {
-     "attachedAt": "2026-08-18T07:31:17.127359+00:00",
-     "title": "TABLESPACE TECHNOLOGIES LIMITED"
-    }
-   ]
-  },
-  {
-   "amountCr": 800.0,
-   "amountRaw": "Rs 800 crore",
-   "company": "Table Space",
-   "confidence": "high",
-   "confirmed": false,
-   "createdAt": "2026-08-11T04:46:11.553220+00:00",
-   "dealType": "DRHP filing",
-   "enrichmentState": null,
-   "id": 170,
-   "individuals": [],
-   "listed": false,
-   "oneLine": "Hillhouse-backed Table Space files IPO papers; Rs 800 cr fresh issue planned.",
-   "primaryOutlet": "Moneycontrol.com",
-   "seller": null,
-   "sizeBand": null,
-   "sizeSource": "stated",
-   "sourceCount": 23,
-   "ticker": null,
-   "updatedAt": "2026-09-22T05:25:45.239502+00:00",
-   "updates": [
-    {
-     "attachedAt": "2026-08-11T04:46:11.568899+00:00",
-     "title": "Hillhouse-backed managed workspace provider Table Space files IPO papers to raise Rs 800 crore via fresh..."
-    },
-    {
-     "attachedAt": "2026-08-11T04:46:11.585007+00:00",
-     "title": "Hillhouse-backed managed workspace provider Table Space files IPO papers to raise Rs 800 crore via fresh..."
-    },
-    {
-     "attachedAt": "2026-08-11T05:46:04.708365+00:00",
-     "title": "Table Space Files DRHP For ₹800 Cr+ IPO"
-    },
-    {
-     "attachedAt": "2026-08-11T06:46:01.780562+00:00",
-     "title": "Table Space Files DRHP For ₹800 Cr+ IPO"
-    },
-    {
-     "attachedAt": "2026-08-11T08:01:18.484904+00:00",
-     "title": "Table Space Technologies Files DRHP With Sebi For ₹800-Crore IPO; Plans OFS Of Up To 6.55 Crore Shares"
-    },
-    {
-     "attachedAt": "2026-08-11T09:31:27.058364+00:00",
-     "title": "Table Space files DRHP with SEBI to raise Rs 800 Cr via fresh issue"
-    },
-    {
-     "attachedAt": "2026-08-11T09:31:27.061947+00:00",
-     "title": "Table Space files DRHP with Sebi for ₹800 crore fresh issue, OFS"
-    },
-    {
-     "attachedAt": "2026-08-11T09:31:27.071236+00:00",
-     "title": "Table Space files DRHP with SEBI to raise Rs 800 Cr via fresh issue"
-    },
-    {
-     "attachedAt": "2026-08-11T09:31:27.078326+00:00",
-     "title": "Table Space files DRHP with SEBI to raise Rs 800 Cr via fresh issue"
-    },
-    {
-     "attachedAt": "2026-08-11T09:31:27.080904+00:00",
-     "title": "Table Space files DRHP with Sebi for ₹800 crore fresh issue, OFS"
-    },
-    {
-     "attachedAt": "2026-08-11T10:31:16.481918+00:00",
-     "title": "Managed workspace provider Table Space files IPO papers; eyes Rs 800 cr via fresh issue"
-    },
-    {
-     "attachedAt": "2026-08-11T11:16:15.742310+00:00",
-     "title": "Managed workspace provider Table Space files IPO papers; eyes Rs 800 cr via fresh issue"
-    },
-    {
-     "attachedAt": "2026-08-11T11:31:18.864817+00:00",
-     "title": "Table Space files DRHP with Sebi for ₹800 crore fresh issue, OFS"
-    },
-    {
-     "attachedAt": "2026-08-11T12:32:23.060894+00:00",
-     "title": "Table Space files DRHP for ₹800 crore IPO"
-    },
-    {
-     "attachedAt": "2026-08-11T12:32:23.064101+00:00",
-     "title": "Table Space Files DRHP for Proposed Rs 800 Crore IPO"
-    },
-    {
-     "attachedAt": "2026-08-11T12:32:23.066802+00:00",
-     "title": "Table Space Files DRHP for Proposed Rs 800 Crore IPO"
-    },
-    {
-     "attachedAt": "2026-08-11T12:32:23.069343+00:00",
-     "title": "Table Space Files DRHP for Proposed Rs 800 Crore IPO"
-    },
-    {
-     "attachedAt": "2026-08-11T13:01:22.718296+00:00",
-     "title": "Table Space revenue crosses Rs 2,200 Cr in FY26; EBITDA jumps 88%"
-    },
-    {
-     "attachedAt": "2026-08-12T02:45:58.122349+00:00",
-     "title": "Table Space All Set For IPO, Watermarking AI & More"
-    },
-    {
-     "attachedAt": "2026-08-13T01:46:03.078400+00:00",
-     "title": "Table Space Goes For IPO, But Its Growth Story Has A Catch"
-    },
-    {
-     "attachedAt": "2026-08-13T15:16:01.923779+00:00",
-     "title": "Table Space files DRHP for INR 800 crore IPO"
-    },
-    {
-     "attachedAt": "2026-08-17T14:01:29.119337+00:00",
-     "title": "Table Space DRHP: A Look At Shareholding Pattern & Key Executives"
-    }
-   ]
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-11-07T10:03:05.915076+00:00",
- "totalDeals": 1014
+ "generatedAt": "2026-11-09T17:48:05.740194+00:00",
+ "totalDeals": 1017
 }

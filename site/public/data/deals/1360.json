@@ -1,0 +1,46 @@
+{
+ "advisers": [],
+ "amountCr": 2500.0,
+ "amountRaw": "₹2,500 crore",
+ "buyer": null,
+ "company": "IL JIN Electronics",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-09T17:46:21.368474+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": null,
+ "id": 1360,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Amber Enterprises arm IL JIN Electronics filed a DRHP for a ₹2,500 crore IPO.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPOUFXQkR4TEs5NlNDYXVOWXRvX3lEOVFla1M0N0dyR0hFVGtyRXZVNHMxSmZReVNxZ08taXo4TDI5ZEFPQzZwZFRIWV9IV090M1BwSENQQ0h2R1ZnbENYb28zNFlTc25fM0dFdEtrUENPdzFydElaU05sZWdpQTRWRWw3dFg0emNfUTVGcnlIUUdSbWlneDliVG1ZWmtNcG9WOEhQR0ZMY1gxTGVLU2U2UkZtblhYZGJtYXBKU2Jaamd6R2FKVElteGZhNEJhc3Jscjdz0gHYAUFVX3lxTE1hdVIzeElUQURjS2liUURkd0IxUm5iRmVOS2FVWUNnTHNST056NmdXNDJraHg2TDI5M0ZpUTZzeDVadWM2bHE2MkN6emJIUVNLMGd1SE1TTTd5Wnl1TnFfcmx2UVl5M2k5RVBPLVBoeW9KTnRBYVNTZUgxRFhCVG5ETzBrX1RWR3NMQlVvdGt5MTEyTkVHenluWE11MlhpRGFwN2pxUS1WaHdraUlUNlRpZkM3V19wT3gzTDVMME0xemRDREkzcGNYelNnQXdwSHpvSXU3aXA3YQ?oc=5",
+ "seller": "IL JIN Electronics (India) Ltd",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-11-09T17:46:21.369456+00:00",
+   "outlet": "Business Standard",
+   "resolvable": false,
+   "title": "Amber Enterprises arm IL JIN Electronics files DRHP for ₹2,500 crore IPO",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPOUFXQkR4TEs5NlNDYXVOWXRvX3lEOVFla1M0N0dyR0hFVGtyRXZVNHMxSmZReVNxZ08taXo4TDI5ZEFPQzZwZFRIWV9IV090M1BwSENQQ0h2R1ZnbENYb28zNFlTc25fM0dFdEtrUENPdzFydElaU05sZWdpQTRWRWw3dFg0emNfUTVGcnlIUUdSbWlneDliVG1ZWmtNcG9WOEhQR0ZMY1gxTGVLU2U2UkZtblhYZGJtYXBKU2Jaamd6R2FKVElteGZhNEJhc3Jscjdz0gHYAUFVX3lxTE1hdVIzeElUQURjS2liUURkd0IxUm5iRmVOS2FVWUNnTHNST056NmdXNDJraHg2TDI5M0ZpUTZzeDVadWM2bHE2MkN6emJIUVNLMGd1SE1TTTd5Wnl1TnFfcmx2UVl5M2k5RVBPLVBoeW9KTnRBYVNTZUgxRFhCVG5ETzBrX1RWR3NMQlVvdGt5MTEyTkVHenluWE11MlhpRGFwN2pxUS1WaHdraUlUNlRpZkM3V19wT3gzTDVMME0xemRDREkzcGNYelNnQXdwSHpvSXU3aXA3YQ?oc=5"
+  },
+  {
+   "attachedAt": "2026-11-09T17:46:21.374228+00:00",
+   "outlet": "Moneycontrol.com",
+   "resolvable": false,
+   "title": "Amber Enterprises subsidiary IL Jin Electronics files draft papers for Rs 2,500-crore IPO; plans to reduce...",
+   "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQck9hd2dWX2dmTmRQV09BWEwtTi00ZlEyTHNqd0lLM3ZVWVlvVHNwSzl0cFdjSGgxT0JuUGZSZWotOGNVcWNWbjRDcXFLUi1jM0tYZWIwTWRER0VxQ2hjVnNTZVVnOGtMWWRmcmN6TEFSTmRhWllId3Ixa3Vvbkp3RGh1TVBJSm1UY09jc0J4ZTJ4M2V6WlF5Z3ZwRTNVSTlyZGcwV0VVTktIMUtlQUNfRzhQbHhTazlkRE5FWW5ZdG1FcUdXaXQySnE2cHJYOExIRUQ1U1FBSGp5c09zejZESXlTMXByN0NUdmZ5RGZlUUczYWtRc3E5RHZ1U3VMejJK0gGGAkFVX3lxTE5GV0k3NTdLTW1rTkJ6alV1a0VEQll0NjNHQnVBSnNaN3BKTmJ3cTRVYVp2T2hMSC02ZkxlSVpCaEJ2TjlYeWpYNmF0dVo3LVN3WHpqQzZsUmpfNndIZnI3eGtndEJvUzlWQU0xMHVhWkFseUd6UGJiTEEtdWpDS1FqR3JkVjNsc1BrRWZWTjFiMlR0eUU2eVpTSmZmX3BraEhQaGRFQTA5Zkk5Wk8zVUFfaFlSUmtST0Jna0hlMDRUdUpteUx6clZIOVctbHVyX0t5WU11X2V3VWQ1MjVuZGNtbFNmOE1KWmR3WXJFMTJhcFU1SW1EUEN1ZjBKZkxCTjFqZWZFMGc?oc=5"
+  },
+  {
+   "attachedAt": "2026-11-09T17:46:21.379289+00:00",
+   "outlet": "BusinessLine",
+   "resolvable": false,
+   "title": "IL JIN Electronics files draft papers for ₹2,500-crore IPO",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVHpwa0lfaXRBeExPWDBkWjFGZjRHSHk5bzljclVrR2tsZUdrRDNHXzNfRWpHQWtVSm5DNkNvaFJqWlRYRzN6N1ZPb28yNWJ2OGQxZVRhUS1JRHlMV3lfaGFqR0hyTmJlWjR2dHRETGRZcmFDbzZIU2VuTGZSVldhLUljTThVTDcwb1QtQkFvYjZ3QU90ZV9iNWczWm1tSjdBRXVYYkJvbklWV3NNam9zTE9kVk40UE5kbVdKVmliOUVURldx0gHEAUFVX3lxTE5UenBrSV9pdEF4TE9YMGRaMUZmNEdIeTlvOWNyVWtHa2xlR2tEM0dfM19FakdBa1VKbkM2Q29oUmpaVFhHM3o3Vk9vbzI1YnY4ZDFlVGFRLUlEeUxXeV9oYWpHSHJOYmVaNHZ0dERMZFlyYUNvNkhTZW5MZlJWV2EtSWNNOFVMNzBvVC1CQW9iNndBT3RlX2I1ZzNabW1KN0FFdVhiQm9uSVZXc01qb3NMT2RWTjRQTmRtV0pWaWI5RVRGV3E?oc=5"
+  }
+ ],
+ "synopsis": "IL JIN Electronics (India) Ltd, an arm of Amber Enterprises India Ltd, has filed a draft red herring prospectus with Sebi to raise Rs 2,500 crore through an initial public offering. The proposed IPO is entirely a fresh issue of equity shares with no offer for sale component. Proceeds from the IPO will be utilized for debt repayment or prepayment, purchasing plant, machinery, and equipment for its manufacturing units, and for general corporate purposes. The book-running lead managers appointed for the issue are Motilal Oswal Investment Advisors, Axis Capital, and Jefferies India, while KFin Technologies is acting as the registrar.",
+ "ticker": null,
+ "updatedAt": "2026-11-09T17:48:05.740194+00:00"
+}

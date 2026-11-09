@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 186.71,
+ "amountRaw": "₹186.71 Crore",
+ "buyer": "Meesho",
+ "company": "Kirana Club",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-09T17:46:21.345784+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": "failed",
+ "id": 1359,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Meesho acquired a 92.74% stake in Kirana Club for ₹186.71 crore.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNU0FUdk9VMGlHSmQ1U3F2dkVsZW43aWQ2NkpfUm1vMWZhMVFqb19ydVo0V1MzNHJwaWw5WTc1Q0hha2F5Zy0zd2pLbUV5eDJleEFKSjNaNUd6V1RtdDVUU0xoYXJZdjhZRVlNb1FJcGNDZWxFaExaWmVyZ3FHejNQTDRuM2htUWQzLW1uLWczeWZrR0RKQ25r?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-11-09T17:46:21.346701+00:00",
+   "outlet": "Sahi",
+   "resolvable": false,
+   "title": "Meesho Completes 92.74% Acquisition Of Kirana Club For ₹186.71 Crore",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNU0FUdk9VMGlHSmQ1U3F2dkVsZW43aWQ2NkpfUm1vMWZhMVFqb19ydVo0V1MzNHJwaWw5WTc1Q0hha2F5Zy0zd2pLbUV5eDJleEFKSjNaNUd6V1RtdDVUU0xoYXJZdjhZRVlNb1FJcGNDZWxFaExaWmVyZ3FHejNQTDRuM2htUWQzLW1uLWczeWZrR0RKQ25r?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-11-09T17:46:21.345784+00:00"
+}
