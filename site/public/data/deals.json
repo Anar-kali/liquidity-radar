@@ -1,5 +1,5 @@
 {
- "dealCount": 880,
+ "dealCount": 878,
  "deals": [
   {
    "amountCr": 524.0,
@@ -27580,55 +27580,6 @@
     {
      "attachedAt": "2026-08-17T14:01:29.119337+00:00",
      "title": "Table Space DRHP: A Look At Shareholding Pattern & Key Executives"
-    }
-   ]
-  },
-  {
-   "amountCr": null,
-   "amountRaw": "$4 bn fundraise (subsidiary listing planned)",
-   "company": "Sify Infinit",
-   "confidence": "medium",
-   "confirmed": false,
-   "createdAt": "2026-08-11T01:33:11.394923+00:00",
-   "dealType": "IPO-OFS",
-   "enrichmentState": null,
-   "id": 169,
-   "individuals": [],
-   "listed": false,
-   "oneLine": "Sify Infinit eyes $4 bn fundraise; plans IPO of data centre subsidiary",
-   "primaryOutlet": "Mint",
-   "seller": null,
-   "sizeBand": "OVER_2000",
-   "sizeSource": "band",
-   "sourceCount": 1,
-   "ticker": null,
-   "updatedAt": "2026-08-11T01:33:11.394923+00:00",
-   "updates": []
-  },
-  {
-   "amountCr": null,
-   "amountRaw": null,
-   "company": "Neelkanth Rock-Minerals",
-   "confidence": "medium",
-   "confirmed": false,
-   "createdAt": "2026-08-11T01:33:11.374480+00:00",
-   "dealType": "promoter sale",
-   "enrichmentState": null,
-   "id": 168,
-   "individuals": [],
-   "listed": false,
-   "oneLine": "Promoter sells 62.06% stake; open offer triggered for 26%",
-   "primaryOutlet": "whalesbook.com",
-   "seller": null,
-   "sizeBand": null,
-   "sizeSource": "unknown",
-   "sourceCount": 2,
-   "ticker": null,
-   "updatedAt": "2026-08-11T01:33:11.374480+00:00",
-   "updates": [
-    {
-     "attachedAt": "2026-08-11T01:33:11.385257+00:00",
-     "title": "Neelkanth Rock-Minerals: Promoter sells 62.06%, triggers open offer for 26%"
     }
    ]
   }
