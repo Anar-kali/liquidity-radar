@@ -1,6 +1,35 @@
 {
- "dealCount": 828,
+ "dealCount": 829,
  "deals": [
+  {
+   "amountCr": 290.83,
+   "amountRaw": "290.83cr confirmed via NSE block deal",
+   "company": "Aditya Infotech Limited",
+   "confidence": "high",
+   "confirmed": true,
+   "createdAt": "2026-11-11T21:18:38.792638+00:00",
+   "dealType": "bulk deal",
+   "enrichmentState": null,
+   "id": 1362,
+   "individuals": [
+    "DIXON TECHNOLOGIES (INDIA) LIMITED"
+   ],
+   "listed": true,
+   "oneLine": "DIXON TECHNOLOGIES (INDIA) LIMITED sold shares in Aditya Infotech Limited (confirmed, NSE bulk deal)",
+   "primaryOutlet": "NSE",
+   "seller": "DIXON TECHNOLOGIES (INDIA) LIMITED",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 2,
+   "ticker": "CPPLUS.NS",
+   "updatedAt": "2026-11-11T21:18:38.812140+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-11-11T21:18:38.811207+00:00",
+     "title": "Aditya Infotech Limited: block deal"
+    }
+   ]
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -25482,6 +25511,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-11-09T17:48:05.740194+00:00",
- "totalDeals": 1017
+ "generatedAt": "2026-11-11T21:18:38.812140+00:00",
+ "totalDeals": 1018
 }
