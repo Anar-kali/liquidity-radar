@@ -1,6 +1,35 @@
 {
- "dealCount": 817,
+ "dealCount": 818,
  "deals": [
+  {
+   "amountCr": 201.2,
+   "amountRaw": "201.2cr confirmed via NSE block deal",
+   "company": "Gallantt Ispat Limited",
+   "confidence": "high",
+   "confirmed": true,
+   "createdAt": "2026-11-12T21:25:05.343025+00:00",
+   "dealType": "bulk deal",
+   "enrichmentState": null,
+   "id": 1363,
+   "individuals": [
+    "DINESH R AGARWAL"
+   ],
+   "listed": true,
+   "oneLine": "DINESH R AGARWAL sold shares in Gallantt Ispat Limited (confirmed, NSE bulk deal)",
+   "primaryOutlet": "NSE",
+   "seller": "DINESH R AGARWAL",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 2,
+   "ticker": "GALLANTT.NS",
+   "updatedAt": "2026-11-12T21:25:05.369945+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-11-12T21:25:05.368701+00:00",
+     "title": "Gallantt Ispat Limited: block deal"
+    }
+   ]
+  },
   {
    "amountCr": 290.83,
    "amountRaw": "290.83cr confirmed via NSE block deal",
@@ -24912,6 +24941,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-11-11T21:18:38.812140+00:00",
- "totalDeals": 1018
+ "generatedAt": "2026-11-12T21:25:05.369945+00:00",
+ "totalDeals": 1019
 }
