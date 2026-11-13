@@ -1,7 +1,7 @@
 {
  "advisers": [],
- "amountCr": null,
- "amountRaw": null,
+ "amountCr": 455.0,
+ "amountRaw": "Rs 455 Crore",
  "buyer": null,
  "company": "Crystal Corp Protection Limited",
  "confidence": "medium",
@@ -16,7 +16,7 @@
  "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/oct-2026/crystal-corp-protection-limited-addendum-to-drhp-_105338.html",
  "seller": null,
  "sizeBand": null,
- "sizeSource": "unknown",
+ "sizeSource": "stated",
  "sources": [
   {
    "attachedAt": "2026-10-21T05:01:15.135242+00:00",
@@ -38,9 +38,16 @@
    "resolvable": false,
    "title": "International Finance Corporation-backed Crystal Crop Protection cuts IPO size",
    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNOWtacUxmR284anJEa3p6b3lNZGl0X2dJajUyZGc4cWR2RDJSR0dBdmdHOXJvZXJuYXBEX2NlMzdia2RfM2xyc2NhckZrZnNrT0ExWjNGUmNNRThaVE1QcVRSV1dYdkRPeGI0NzlXZTM0eXFlMlRlSGhqXzZ3VmZmV2M4YlJ2Z05qSWphSzRXdUFzVVl0VVhRbVFVcHgtVmxISFBnalZTRkEwZEdDcGtEbGxhUkhOSW42S0FNckVCdUJtd2J0QjBUTU5HZGdoNDVGVTBYT0J30gHbAUFVX3lxTE1pRzA0SFh4V05CaTFrQXlmVkthYnhkWndiUzJ0VUItX01RUzlqYm1kT1B5bkJCMDNGTjM0RFpmcmhreDFpdi00UDZsMDZ5ekpsXzB3RHZLMFBvcEk1LWgtUGZIVlNpT1l5em92MjM1OXhtX3g5RmJqMG9iRE94dkpjTXJVNU1CZWMzY0g4cjlZcDNoWk5fWFRDdDlnaGoyS21XRVJ4dnNMbnEyUGpTbmFHcFUxb0VJV2cxaDZ3MmhlQS1KU0NVMEpZWnRndF9sc1dnVXhLMV9zSHdaSQ?oc=5"
+  },
+  {
+   "attachedAt": "2026-11-13T18:30:57.468867+00:00",
+   "outlet": "Global Agriculture",
+   "resolvable": false,
+   "title": "Crystal Crop Protection to Launch Rs 455 Crore IPO on November 18",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNM2dIWDFsc0tUb0FSUUsxaWNfZTNQdno3UjgtREdzcnR0Z3JKRGJDV0NKRkhGT0trcGUtNW1XWDg4MUZKYWtBOWsyUnhyclFnaDdoWjhlZXkwM2RFTXl4dWlmZm00eWg0YndoU3l4SU43djl1VV81QjVtQmlXcndaWHJQMkVCanpGZzdtRUFvcDktRF9RaDJQWmtqUHU2aE45YXplVWJtenZXRnQ1M1RjcWowdEFlX0xEV2NoSlhiQ3pQUzJUWXZObDZPcTBCMW9jS3RXYg?oc=5"
   }
  ],
  "synopsis": null,
  "ticker": null,
- "updatedAt": "2026-10-21T05:01:15.133939+00:00"
+ "updatedAt": "2026-11-13T18:30:57.470608+00:00"
 }

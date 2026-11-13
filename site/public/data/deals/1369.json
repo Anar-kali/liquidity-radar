@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 1885.0,
+ "amountRaw": "Rs 1,885 Cr",
+ "buyer": null,
+ "company": "Meesho",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-13T18:30:57.473588+00:00",
+ "dealType": "block deal",
+ "enrichmentState": "failed",
+ "id": 1369,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "SoftBank sells 1.65% stake in Meesho for Rs 1,885 crore via block deal.",
+ "primaryUrl": "https://entrackr.com/news/softbank-sells-165-stake-in-meesho-for-rs-1885-cr-through-block-deal-12807590",
+ "seller": "SoftBank",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-11-13T18:30:57.475327+00:00",
+   "outlet": "Entrackr",
+   "resolvable": true,
+   "title": "SoftBank sells 1.65% stake in Meesho for Rs 1,885 Cr through block deal",
+   "url": "https://entrackr.com/news/softbank-sells-165-stake-in-meesho-for-rs-1885-cr-through-block-deal-12807590"
+  }
+ ],
+ "synopsis": null,
+ "ticker": "MEESHO.NS",
+ "updatedAt": "2026-11-13T18:30:57.473588+00:00"
+}

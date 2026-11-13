@@ -1,6 +1,57 @@
 {
- "dealCount": 819,
+ "dealCount": 821,
  "deals": [
+  {
+   "amountCr": 1885.0,
+   "amountRaw": "Rs 1,885 Cr",
+   "company": "Meesho",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-13T18:30:57.473588+00:00",
+   "dealType": "block deal",
+   "enrichmentState": "failed",
+   "id": 1369,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "SoftBank sells 1.65% stake in Meesho for Rs 1,885 crore via block deal.",
+   "primaryOutlet": "Entrackr",
+   "seller": "SoftBank",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "MEESHO.NS",
+   "updatedAt": "2026-11-13T18:30:57.473588+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 1663.07,
+   "amountRaw": "INR 1,663.07 Crores (from article)",
+   "company": "Pricol Autotech",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-13T18:30:57.458780+00:00",
+   "dealType": "promoter sale",
+   "enrichmentState": null,
+   "id": 1368,
+   "individuals": [
+    "Mr. Vijay Mohan",
+    "Mr. Vikram Mohan",
+    "Mrs. Vanitha Mohan",
+    "Mr. Viren Mohan",
+    "Ms. Manasa Mohan",
+    "Ms. Madhura Mohan"
+   ],
+   "listed": false,
+   "oneLine": "Pricol Autotech promoter stake sale to Warburg Pincus approved.",
+   "primaryOutlet": "InvestyWise",
+   "seller": "Promoters",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-13T18:31:17.237883+00:00",
+   "updates": []
+  },
   {
    "amountCr": 3050.0,
    "amountRaw": "Rs 3,050 crore",
@@ -2913,8 +2964,8 @@
    "updates": []
   },
   {
-   "amountCr": null,
-   "amountRaw": null,
+   "amountCr": 455.0,
+   "amountRaw": "Rs 455 Crore",
    "company": "Crystal Corp Protection Limited",
    "confidence": "medium",
    "confirmed": false,
@@ -2928,10 +2979,10 @@
    "primaryOutlet": "Addendum to DRHP.",
    "seller": null,
    "sizeBand": null,
-   "sizeSource": "unknown",
-   "sourceCount": 3,
+   "sizeSource": "stated",
+   "sourceCount": 4,
    "ticker": null,
-   "updatedAt": "2026-10-21T05:01:15.133939+00:00",
+   "updatedAt": "2026-11-13T18:30:57.470608+00:00",
    "updates": [
     {
      "attachedAt": "2026-10-21T11:01:19.214468+00:00",
@@ -2940,6 +2991,10 @@
     {
      "attachedAt": "2026-10-21T14:17:00.755831+00:00",
      "title": "International Finance Corporation-backed Crystal Crop Protection cuts IPO size"
+    },
+    {
+     "attachedAt": "2026-11-13T18:30:57.468867+00:00",
+     "title": "Crystal Crop Protection to Launch Rs 455 Crore IPO on November 18"
     }
    ]
   },
@@ -24926,6 +24981,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-11-13T12:36:02.599262+00:00",
- "totalDeals": 1023
+ "generatedAt": "2026-11-13T18:31:17.237883+00:00",
+ "totalDeals": 1025
 }

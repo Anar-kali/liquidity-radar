@@ -1,0 +1,39 @@
+{
+ "advisers": [],
+ "amountCr": 1663.07,
+ "amountRaw": "INR 1,663.07 Crores (from article)",
+ "buyer": "Warburg Pincus",
+ "company": "Pricol Autotech",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-13T18:30:57.458780+00:00",
+ "dealType": "promoter sale",
+ "enrichmentState": null,
+ "id": 1368,
+ "individuals": [
+  "Mr. Vijay Mohan",
+  "Mr. Vikram Mohan",
+  "Mrs. Vanitha Mohan",
+  "Mr. Viren Mohan",
+  "Ms. Manasa Mohan",
+  "Ms. Madhura Mohan"
+ ],
+ "listed": false,
+ "oneLine": "Pricol Autotech promoter stake sale to Warburg Pincus approved.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTElBeXlIai1RQTRoMjhmRUtkZWRWNGJoRl9HbDktdjJ5T1R2ZDlPb0NUUUxqT25ENGJUTm04dWpUTGgtMndQaDVtc3dsZS0zMHVvM0wzS3VKbGJrXzdhVjctZENEQzN0X3o5SjZvanlXU0JNcmpSSHMxTkxCNlFrWGVDXzNnNjViWUY2bTdFMFZGanZOaVFteXFURHI?oc=5",
+ "seller": "Promoters",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-11-13T18:30:57.460650+00:00",
+   "outlet": "InvestyWise",
+   "resolvable": false,
+   "title": "Pricol Autotech promoter stake sale to Warburg Pincus approved",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTElBeXlIai1RQTRoMjhmRUtkZWRWNGJoRl9HbDktdjJ5T1R2ZDlPb0NUUUxqT25ENGJUTm04dWpUTGgtMndQaDVtc3dsZS0zMHVvM0wzS3VKbGJrXzdhVjctZENEQzN0X3o5SjZvanlXU0JNcmpSSHMxTkxCNlFrWGVDXzNnNjViWUY2bTdFMFZGanZOaVFteXFURHI?oc=5"
+  }
+ ],
+ "synopsis": "Pricol Limited's board approved a share purchase agreement allowing Topaz Terrace Investments, an affiliate of Warburg Pincus LLC, to acquire a 38.51% stake in Pricol Autotech. The transaction involves the sale of 4,69,34,833 equity shares by the promoter and promoter group sellers of Pricol Limited, following the demerger of Pricol's Driver Information & Connected Vehicle Solutions business into Pricol Autotech. The aggregate consideration payable to the sellers is up to INR 1,663.07 crores. The deal is contingent on regulatory approvals, the effectiveness of the demerger scheme, the listing of Pricol Autotech's equity shares, and the completion of an open offer period.",
+ "ticker": null,
+ "updatedAt": "2026-11-13T18:31:17.237883+00:00"
+}
