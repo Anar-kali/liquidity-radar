@@ -2,26 +2,37 @@
  "dealCount": 821,
  "deals": [
   {
-   "amountCr": 1885.0,
-   "amountRaw": "Rs 1,885 Cr",
+   "amountCr": 1885.17,
+   "amountRaw": "1885.17cr confirmed via NSE block deal",
    "company": "Meesho",
    "confidence": "medium",
-   "confirmed": false,
+   "confirmed": true,
    "createdAt": "2026-11-13T18:30:57.473588+00:00",
    "dealType": "block deal",
    "enrichmentState": "failed",
    "id": 1369,
-   "individuals": [],
+   "individuals": [
+    "SVF II MEERKAT (DE) LLC"
+   ],
    "listed": true,
    "oneLine": "SoftBank sells 1.65% stake in Meesho for Rs 1,885 crore via block deal.",
    "primaryOutlet": "Entrackr",
    "seller": "SoftBank",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 3,
    "ticker": "MEESHO.NS",
-   "updatedAt": "2026-11-13T18:30:57.473588+00:00",
-   "updates": []
+   "updatedAt": "2026-11-13T20:51:10.070741+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-11-13T20:51:10.054103+00:00",
+     "title": "Meesho Limited: bulk deal"
+    },
+    {
+     "attachedAt": "2026-11-13T20:51:10.069657+00:00",
+     "title": "Meesho Limited: block deal"
+    }
+   ]
   },
   {
    "amountCr": 1663.07,
@@ -24981,6 +24992,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-11-13T18:31:17.237883+00:00",
+ "generatedAt": "2026-11-13T20:51:10.070741+00:00",
  "totalDeals": 1025
 }

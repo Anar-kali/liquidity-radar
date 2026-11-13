@@ -243,9 +243,9 @@
    "company": "Meesho Limited",
    "firstTrade": "03-Sep-2026",
    "id": 13,
-   "lastTrade": "03-Sep-2026",
+   "lastTrade": "13-Nov-2026",
    "person": "SVF II MEERKAT (DE) LLC",
-   "saleCount": 2,
+   "saleCount": 3,
    "sales": [
     {
      "date": "03-Sep-2026",
@@ -262,11 +262,19 @@
       "block"
      ],
      "valueCr": 921.8
+    },
+    {
+     "date": "13-Nov-2026",
+     "sources": [
+      "bulk",
+      "block"
+     ],
+     "valueCr": 1885.17
     }
    ],
    "storedTotalCr": 3300.8,
-   "totalCr": 1650.4,
-   "weeks": 1
+   "totalCr": 3535.57,
+   "weeks": 10
   },
   {
    "alertedAt": "2026-08-26T16:56:23.284937+00:00",
@@ -440,5 +448,5 @@
   }
  ],
  "count": 11,
- "generatedAt": "2026-11-13T18:31:17.237883+00:00"
+ "generatedAt": "2026-11-13T20:51:10.070741+00:00"
 }
