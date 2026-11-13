@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 15840.0,
+ "amountRaw": "$1.8 billion valuation",
+ "buyer": "Blackstone",
+ "company": "BluPine Energy",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-13T12:34:05.450398+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": "failed",
+ "id": 1365,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Blackstone emerges frontrunner to buy Actis-owned BluPine at $1.8 billion valuation.",
+ "primaryUrl": "https://www.livemint.com/companies/news/blackstone-blupine-energy-acquisition-deal-11794486377121.html",
+ "seller": "Actis",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-11-13T12:34:05.451425+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "Blackstone emerges frontrunner to buy Actis-owned BluPine at $1.8 billion valuation",
+   "url": "https://www.livemint.com/companies/news/blackstone-blupine-energy-acquisition-deal-11794486377121.html"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-11-13T12:34:05.450398+00:00"
+}

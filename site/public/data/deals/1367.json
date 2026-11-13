@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 3050.0,
+ "amountRaw": "Rs 3,050 crore",
+ "buyer": "Adani Energy Solutions",
+ "company": "IntelliSmart Infrastructure",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-13T12:34:05.470203+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1367,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Adani completes acquisition of IntelliSmart Infrastructure for Rs 3,050 crore.",
+ "primaryUrl": "https://economictimes.indiatimes.com/industry/energy/power/adani-energy-solutions-acquires-intellismart-infrastructure-for-rs-3050-crore/articleshow/135792268.cms",
+ "seller": "NIIF",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-11-13T12:34:05.471305+00:00",
+   "outlet": "ET Corporate",
+   "resolvable": true,
+   "title": "Adani makes smart ₹3,050 crore bet to power up its metering game",
+   "url": "https://economictimes.indiatimes.com/industry/energy/power/adani-energy-solutions-acquires-intellismart-infrastructure-for-rs-3050-crore/articleshow/135792268.cms"
+  }
+ ],
+ "synopsis": "Adani Energy Solutions has completed the acquisition of a 100 per cent equity stake in IntelliSmart Infrastructure from the National Investment and Infrastructure Fund and Energy Efficiency Services Limited for Rs 3,050 crore. The transaction also includes the redemption of optionally convertible debentures of IntelliSmart held by NIIF. IntelliSmart provides advanced metering infrastructure and smart gas meters in India. The Competition Commission of India approved the proposal in October, following a binding securities purchase and subscription agreement announced in June. Adani Energy Solutions is part of the Gautam Adani-led Adani Group.",
+ "ticker": null,
+ "updatedAt": "2026-11-13T12:36:02.599262+00:00"
+}

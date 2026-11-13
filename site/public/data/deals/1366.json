@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 1584.0,
+ "amountRaw": "$180 million",
+ "buyer": "Bodhi Tree Systems",
+ "company": "Adyar Ananda Bhavan",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-13T12:34:05.461205+00:00",
+ "dealType": "PE primary",
+ "enrichmentState": "failed",
+ "id": 1366,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "James Murdoch's Bodhi Tree Systems invests $180 million in Adyar Ananda Bhavan.",
+ "primaryUrl": "https://www.thehindubusinessline.com/companies/james-murdochs-bodhi-tree-systems-invests-180-m-in-adyar-ananda-bhavan/article71694514.ece",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-11-13T12:34:05.462199+00:00",
+   "outlet": "Business Line",
+   "resolvable": true,
+   "title": "James Murdoch’s Bodhi Tree Systems invests $180 million in Adyar Ananda Bhavan",
+   "url": "https://www.thehindubusinessline.com/companies/james-murdochs-bodhi-tree-systems-invests-180-m-in-adyar-ananda-bhavan/article71694514.ece"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-11-13T12:34:05.461205+00:00"
+}

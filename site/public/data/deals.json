@@ -1,6 +1,94 @@
 {
- "dealCount": 818,
+ "dealCount": 819,
  "deals": [
+  {
+   "amountCr": 3050.0,
+   "amountRaw": "Rs 3,050 crore",
+   "company": "IntelliSmart Infrastructure",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-13T12:34:05.470203+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1367,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Adani completes acquisition of IntelliSmart Infrastructure for Rs 3,050 crore.",
+   "primaryOutlet": "ET Corporate",
+   "seller": "NIIF",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-13T12:36:02.599262+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 1584.0,
+   "amountRaw": "$180 million",
+   "company": "Adyar Ananda Bhavan",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-13T12:34:05.461205+00:00",
+   "dealType": "PE primary",
+   "enrichmentState": "failed",
+   "id": 1366,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "James Murdoch's Bodhi Tree Systems invests $180 million in Adyar Ananda Bhavan.",
+   "primaryOutlet": "Business Line",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-13T12:34:05.461205+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 15840.0,
+   "amountRaw": "$1.8 billion valuation",
+   "company": "BluPine Energy",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-13T12:34:05.450398+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": "failed",
+   "id": 1365,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Blackstone emerges frontrunner to buy Actis-owned BluPine at $1.8 billion valuation.",
+   "primaryOutlet": "Mint",
+   "seller": "Actis",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-13T12:34:05.450398+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Razorpay",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-13T12:34:05.443576+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": "failed",
+   "id": 1364,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Razorpay and Sembcorp Green Infra receive SEBI nod to float IPOs.",
+   "primaryOutlet": "The Economic Times",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-13T12:34:05.443576+00:00",
+   "updates": []
+  },
   {
    "amountCr": 201.2,
    "amountRaw": "201.2cr confirmed via NSE block deal",
@@ -98,7 +186,7 @@
    "seller": "IL JIN Electronics (India) Ltd",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-11-09T17:48:05.740194+00:00",
    "updates": [
@@ -109,6 +197,10 @@
     {
      "attachedAt": "2026-11-09T17:46:21.379289+00:00",
      "title": "IL JIN Electronics files draft papers for ₹2,500-crore IPO"
+    },
+    {
+     "attachedAt": "2026-11-13T12:34:05.434299+00:00",
+     "title": "IL JIN Electronics eyes Rs 2,500-cr via IPO"
     }
    ]
   },
@@ -7397,7 +7489,7 @@
    "seller": "Carlsberg Group",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 21,
+   "sourceCount": 22,
    "ticker": null,
    "updatedAt": "2026-10-01T14:46:08.546312+00:00",
    "updates": [
@@ -7480,6 +7572,10 @@
     {
      "attachedAt": "2026-11-01T09:45:55.117646+00:00",
      "title": "From Carlsberg to Coca-Cola: Global beverage giants gear up for India IPOs"
+    },
+    {
+     "attachedAt": "2026-11-13T12:34:05.427854+00:00",
+     "title": "Carlsberg India Plans To Launch $600 Million IPO By January"
     }
    ]
   },
@@ -24827,120 +24923,9 @@
      "title": "Zetwerk IPO: Contract Manufacturing Platform Moves Closer To Rs 2,600 Cr Public Issue"
     }
    ]
-  },
-  {
-   "amountCr": null,
-   "amountRaw": null,
-   "company": "Docon Technologies",
-   "confidence": "medium",
-   "confirmed": false,
-   "createdAt": "2026-08-15T04:15:56.675092+00:00",
-   "dealType": "block deal",
-   "enrichmentState": null,
-   "id": 244,
-   "individuals": [
-    "promoter"
-   ],
-   "listed": false,
-   "oneLine": "Docon Technologies promoter sells 10% stake via block deal",
-   "primaryOutlet": "The Economic Times",
-   "seller": null,
-   "sizeBand": null,
-   "sizeSource": "unknown",
-   "sourceCount": 1,
-   "ticker": null,
-   "updatedAt": "2026-08-15T04:15:56.675092+00:00",
-   "updates": []
-  },
-  {
-   "amountCr": 1533.0,
-   "amountRaw": "₹1,533 crore share swap acquisitions",
-   "company": "Anlon Healthcare",
-   "confidence": "high",
-   "confirmed": false,
-   "createdAt": "2026-08-15T01:31:29.149045+00:00",
-   "dealType": "strategic buyout",
-   "enrichmentState": null,
-   "id": 243,
-   "individuals": [],
-   "listed": true,
-   "oneLine": "Anlon Healthcare seeks approval for Rs 1,533 crore share swap acquisitions.",
-   "primaryOutlet": "scanx.trade",
-   "seller": null,
-   "sizeBand": null,
-   "sizeSource": "stated",
-   "sourceCount": 1,
-   "ticker": "AHCL.NS",
-   "updatedAt": "2026-08-15T01:31:29.149045+00:00",
-   "updates": []
-  },
-  {
-   "amountCr": 986.0,
-   "amountRaw": "Rs 986 crore",
-   "company": "Thyrocare",
-   "confidence": "high",
-   "confirmed": false,
-   "createdAt": "2026-08-15T01:31:28.942727+00:00",
-   "dealType": "promoter sale",
-   "enrichmentState": null,
-   "id": 242,
-   "individuals": [
-    "Docon (promoter)"
-   ],
-   "listed": true,
-   "oneLine": "Thyrocare promoter Docon offloads 9.9% stake for Rs 986 crore.",
-   "primaryOutlet": "ET HealthWorld",
-   "seller": null,
-   "sizeBand": null,
-   "sizeSource": "stated",
-   "sourceCount": 11,
-   "ticker": "THYROCARE.NS",
-   "updatedAt": "2026-08-17T06:04:17.150375+00:00",
-   "updates": [
-    {
-     "attachedAt": "2026-08-15T01:31:29.118765+00:00",
-     "title": "Thyrocare shares crack 8% as promoter Docon Technologies sells 10% stake"
-    },
-    {
-     "attachedAt": "2026-08-15T04:15:56.672069+00:00",
-     "title": "Thyrocare shares fall 7% as founder sells 9.9% stake via block deal"
-    },
-    {
-     "attachedAt": "2026-08-15T09:02:30.752124+00:00",
-     "title": "Thyrocare Tech drops after promoter sells 9.90% stake following pledge release"
-    },
-    {
-     "attachedAt": "2026-08-17T06:04:17.148687+00:00",
-     "title": "Why PharmEasy Keeps Selling Thyrocare Shares?"
-    },
-    {
-     "attachedAt": "2026-08-17T10:16:49.971417+00:00",
-     "title": "Thyrocare rules out reverse merger of PharmEasy into listed diagnostics company"
-    },
-    {
-     "attachedAt": "2026-08-17T14:01:29.100421+00:00",
-     "title": "API Holdings turns debt-free after repaying ₹1,050 crore term loan; sells 9.9% Thyrocare stake"
-    },
-    {
-     "attachedAt": "2026-08-17T14:01:29.105477+00:00",
-     "title": "API holdings turns debt free, Thyrocare out of pledged shares"
-    },
-    {
-     "attachedAt": "2026-08-17T14:01:29.108818+00:00",
-     "title": "API Holdings Turns Debt-Free -- Repays ₹1,050 Crore, Frees Thyrocare Shares from Pledge"
-    },
-    {
-     "attachedAt": "2026-08-17T14:01:29.111957+00:00",
-     "title": "API Holdings Becomes Debt-Free After Rs 1,050 Cr Repayment"
-    },
-    {
-     "attachedAt": "2026-08-17T14:01:29.126573+00:00",
-     "title": "API Holdings goes debt-free without losing control of Thyrocare"
-    }
-   ]
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-11-12T21:25:05.369945+00:00",
- "totalDeals": 1019
+ "generatedAt": "2026-11-13T12:36:02.599262+00:00",
+ "totalDeals": 1023
 }
