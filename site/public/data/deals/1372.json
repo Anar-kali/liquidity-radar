@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 10000.0,
+ "amountRaw": "Rs 10,000 crore (from article)",
+ "buyer": null,
+ "company": "Haldiram Snacks",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-14T11:46:24.209158+00:00",
+ "dealType": "IPO-OFS",
+ "enrichmentState": null,
+ "id": 1372,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Haldiram Snacks plans an upcoming IPO.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNVh6c0lFSWNrRGYzMDZ3OUR0bWViU2Ntdm43Nl9DNVNRVHlxcF9tYnFSX25xeWVTZHdpY2ZYZUN4cmNqOWxsTWtQWXE0U0h5R1hqMzUzR2d5RDhRQlJncDkzR3BuaDZQNU9BNlh0MUhzenN1MFdFaDVWaFR4dEEwNVlOc2d5RDJNSGtsVkJGOWxaVTdWcnc?oc=5",
+ "seller": "Haldiram Snacks Food",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-11-14T11:46:24.213856+00:00",
+   "outlet": "DealStreetAsia",
+   "resolvable": false,
+   "title": "India Digest: Haldiram Snacks plans IPO; InCred Capital buys Quintessentially India",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNVh6c0lFSWNrRGYzMDZ3OUR0bWViU2Ntdm43Nl9DNVNRVHlxcF9tYnFSX25xeWVTZHdpY2ZYZUN4cmNqOWxsTWtQWXE0U0h5R1hqMzUzR2d5RDhRQlJncDkzR3BuaDZQNU9BNlh0MUhzenN1MFdFaDVWaFR4dEEwNVlOc2d5RDJNSGtsVkJGOWxaVTdWcnc?oc=5"
+  }
+ ],
+ "synopsis": "Haldiram Snacks Food has begun preparations to launch an initial public offering targeted for the latter part of next year, with an issue size expected to be worth around Rs 10,000 crore. The company has appointed EY to manage the IPO process and is targeting a valuation of over Rs 1 trillion. Haldiram Snacks is backed by Singapore’s state investment firm Temasek, International Holding Company, Alpha Wave Global, and L Catterton. In a separate transaction mentioned in the article, Indian fintech firm InCred Capital acquired Quintessentially India, the Indian arm of the luxury lifestyle management company, to expand its wealth management and lifestyle offerings for high-net-worth individuals and business families.",
+ "ticker": null,
+ "updatedAt": "2026-11-14T11:46:36.521490+00:00"
+}

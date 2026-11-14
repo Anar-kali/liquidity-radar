@@ -1,7 +1,7 @@
 {
  "advisers": [],
- "amountCr": null,
- "amountRaw": null,
+ "amountCr": 6000.0,
+ "amountRaw": "₹6,000 Cr",
  "buyer": null,
  "company": "Razorpay",
  "confidence": "medium",
@@ -16,7 +16,7 @@
  "primaryUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcHprX2pXRkVRQlJVdndWNnR4eGNGa25JNmpjNmJrVWRDMl9oaHM0cmw3X2lPbHc4ZlBqNXJKVmxfUklTX2I4LWtYczduXy1od29CQVphTV85Wkltal9kLTBPMlpHZVdSU2pSbXBUUGw1bXk5UFJzT2dfMWMydVdrZkoxUjlGRWhoUlhVdWxYRHRmMnZqMjJ0OElQWUI0ZGRwSE9OellzbEk2NWxQekJ6czFCS21aVzh5REViQ2trVEMzNlItdFBJVTA3eDbSAcwBQVVfeXFMTnB6a19qV0ZFUUJSVXZ3VjZ0eHhjRmtuSTZqYzZia1VkQzJfaGhzNHJsN19pT2x3OGZQajVySlZsX1JJU19iOC1rWHM3bl8taHdvQkFaYU1fOVpJbWpfZC0wTzJaR2VXUlNqUm1wVFBsNW15OVBSc09nXzFjMnVXa2ZKMVI5RkVoaFJYVXVsWER0ZjJ2ajIydDhJUFlCNGRkcEhPTnpZc2xJNjVsUHpCenMxQkttWlc4eURFYkNra1RDMzZSLXRQSVUwN3g2?oc=5",
  "seller": null,
  "sizeBand": null,
- "sizeSource": "unknown",
+ "sizeSource": "stated",
  "sources": [
   {
    "attachedAt": "2026-11-13T12:34:05.444620+00:00",
@@ -24,9 +24,16 @@
    "resolvable": false,
    "title": "Razorpay, Sembcorp Green Infra get Sebi nod to float IPOs",
    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcHprX2pXRkVRQlJVdndWNnR4eGNGa25JNmpjNmJrVWRDMl9oaHM0cmw3X2lPbHc4ZlBqNXJKVmxfUklTX2I4LWtYczduXy1od29CQVphTV85Wkltal9kLTBPMlpHZVdSU2pSbXBUUGw1bXk5UFJzT2dfMWMydVdrZkoxUjlGRWhoUlhVdWxYRHRmMnZqMjJ0OElQWUI0ZGRwSE9OellzbEk2NWxQekJ6czFCS21aVzh5REViQ2trVEMzNlItdFBJVTA3eDbSAcwBQVVfeXFMTnB6a19qV0ZFUUJSVXZ3VjZ0eHhjRmtuSTZqYzZia1VkQzJfaGhzNHJsN19pT2x3OGZQajVySlZsX1JJU19iOC1rWHM3bl8taHdvQkFaYU1fOVpJbWpfZC0wTzJaR2VXUlNqUm1wVFBsNW15OVBSc09nXzFjMnVXa2ZKMVI5RkVoaFJYVXVsWER0ZjJ2ajIydDhJUFlCNGRkcEhPTnpZc2xJNjVsUHpCenMxQkttWlc4eURFYkNra1RDMzZSLXRQSVUwN3g2?oc=5"
+  },
+  {
+   "attachedAt": "2026-11-14T11:46:24.253946+00:00",
+   "outlet": "Google News",
+   "resolvable": true,
+   "title": "[Update] Razorpay Gets SEBI Nod For ₹6,000 Cr IPO",
+   "url": "https://inc42.com/buzz/razorpay-gets-sebi-nod-for-%e2%82%b96000-cr-ipo/"
   }
  ],
  "synopsis": null,
  "ticker": null,
- "updatedAt": "2026-11-13T12:34:05.443576+00:00"
+ "updatedAt": "2026-11-14T11:46:24.255444+00:00"
 }

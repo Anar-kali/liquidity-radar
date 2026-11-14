@@ -1,6 +1,28 @@
 {
- "dealCount": 820,
+ "dealCount": 815,
  "deals": [
+  {
+   "amountCr": 10000.0,
+   "amountRaw": "Rs 10,000 crore (from article)",
+   "company": "Haldiram Snacks",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-14T11:46:24.209158+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 1372,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Haldiram Snacks plans an upcoming IPO.",
+   "primaryOutlet": "DealStreetAsia",
+   "seller": "Haldiram Snacks Food",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-14T11:46:36.521490+00:00",
+   "updates": []
+  },
   {
    "amountCr": 1885.17,
    "amountRaw": "1885.17cr confirmed via NSE block deal",
@@ -20,7 +42,7 @@
    "seller": "SoftBank",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 3,
+   "sourceCount": 5,
    "ticker": "MEESHO.NS",
    "updatedAt": "2026-11-13T20:51:10.070741+00:00",
    "updates": [
@@ -31,6 +53,14 @@
     {
      "attachedAt": "2026-11-13T20:51:10.069657+00:00",
      "title": "Meesho Limited: block deal"
+    },
+    {
+     "attachedAt": "2026-11-14T11:46:23.747042+00:00",
+     "title": "Softbank further trims India exposure, offloads Meesho shares worth Rs 1,885 cr"
+    },
+    {
+     "attachedAt": "2026-11-14T11:46:24.246008+00:00",
+     "title": "SoftBank Offloads Meesho Shares Worth ₹1,855 Cr"
     }
    ]
   },
@@ -58,10 +88,55 @@
    "seller": "Promoters",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 12,
    "ticker": null,
    "updatedAt": "2026-11-13T18:31:17.237883+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-11-14T11:46:22.677689+00:00",
+     "title": "Pricol promoters agree Rs 1,663 crore Autotech stake sale"
+    },
+    {
+     "attachedAt": "2026-11-14T11:46:22.696799+00:00",
+     "title": "Warburg Pincus to Buy 38.51 Percent Stake in Pricol Autotech for Rs 1,663 Crore After Demerger"
+    },
+    {
+     "attachedAt": "2026-11-14T11:46:22.707152+00:00",
+     "title": "Warburg Pincus seals $176-mn deal for stake in Pricol’s auto electronics business"
+    },
+    {
+     "attachedAt": "2026-11-14T11:46:22.749269+00:00",
+     "title": "Pricol promoters to sell stake in Pricol Autotech to Warburg Pincus for up to ₹1,663 crore - CNBC TV18"
+    },
+    {
+     "attachedAt": "2026-11-14T11:46:23.744358+00:00",
+     "title": "Pricol board approves sale of 38.51% stake in Pricol Autotech to Warburg Pincus"
+    },
+    {
+     "attachedAt": "2026-11-14T11:46:23.749665+00:00",
+     "title": "Pricol Autotech Stake Sale Gives Warburg Pincus Control Path"
+    },
+    {
+     "attachedAt": "2026-11-14T11:46:23.752259+00:00",
+     "title": "Warburg Pincus picks up Rs 1,663 crore stake in unit of Pricol"
+    },
+    {
+     "attachedAt": "2026-11-14T11:46:23.754880+00:00",
+     "title": "Pricol announces sale of 38.51% stake in Pricol Autotech"
+    },
+    {
+     "attachedAt": "2026-11-14T11:46:23.769872+00:00",
+     "title": "Pricol promoters to sell stake in Pricol Autotech to Warburg Pincus for up to ₹1,663 crore"
+    },
+    {
+     "attachedAt": "2026-11-14T11:46:23.775937+00:00",
+     "title": "Pricol Autotech Deal: Warburg Pincus Buys 38.51% Stake"
+    },
+    {
+     "attachedAt": "2026-11-14T11:46:24.575014+00:00",
+     "title": "Pricol promoters to sell entire stake in demerged connected vehicle business to Warburg Pincus"
+    }
+   ]
   },
   {
    "amountCr": 3050.0,
@@ -130,8 +205,8 @@
    "updates": []
   },
   {
-   "amountCr": null,
-   "amountRaw": null,
+   "amountCr": 6000.0,
+   "amountRaw": "₹6,000 Cr",
    "company": "Razorpay",
    "confidence": "medium",
    "confirmed": false,
@@ -145,11 +220,16 @@
    "primaryOutlet": "The Economic Times",
    "seller": null,
    "sizeBand": null,
-   "sizeSource": "unknown",
-   "sourceCount": 1,
+   "sizeSource": "stated",
+   "sourceCount": 2,
    "ticker": null,
-   "updatedAt": "2026-11-13T12:34:05.443576+00:00",
-   "updates": []
+   "updatedAt": "2026-11-14T11:46:24.255444+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-11-14T11:46:24.253946+00:00",
+     "title": "[Update] Razorpay Gets SEBI Nod For ₹6,000 Cr IPO"
+    }
+   ]
   },
   {
    "amountCr": 201.2,
@@ -569,8 +649,8 @@
    "updates": []
   },
   {
-   "amountCr": 8300.0,
-   "amountRaw": "$1 billion",
+   "amountCr": 10000.0,
+   "amountRaw": "Rs 10k cr",
    "company": "Mahanadi Coalfields",
    "confidence": "medium",
    "confirmed": false,
@@ -585,13 +665,45 @@
    "seller": "Coal India",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 10,
    "ticker": null,
-   "updatedAt": "2026-11-03T05:31:08.089496+00:00",
+   "updatedAt": "2026-11-14T11:46:24.199769+00:00",
    "updates": [
     {
      "attachedAt": "2026-11-03T05:46:12.416630+00:00",
      "title": "Coal India plans $1 billion IPO for Mahanadi Coalfields as soon as this month"
+    },
+    {
+     "attachedAt": "2026-11-14T11:46:22.693970+00:00",
+     "title": "Mahanadi Coalfields IPO: Coal India subsidiary files RHP - Latest GMP at ₹12.5; check key dates, size, valuation, more"
+    },
+    {
+     "attachedAt": "2026-11-14T11:46:22.703245+00:00",
+     "title": "Mahanadi Coalfields IPO: Coal India arm files RHP; 66.18 crore shares on offer"
+    },
+    {
+     "attachedAt": "2026-11-14T11:46:22.714122+00:00",
+     "title": "Coal India Set To Unlock Value From Mahanadi Coalfields, ₹9,500 Crore IPO Moves Ahead With RHP Filing"
+    },
+    {
+     "attachedAt": "2026-11-14T11:46:22.720959+00:00",
+     "title": "₹8,300 Crore IPO, $10 Billion Valuation: Coal India Subsidiary Gets Closer To Mega Market Debut"
+    },
+    {
+     "attachedAt": "2026-11-14T11:46:23.764148+00:00",
+     "title": "Mahanadi Coalfields files Red Herring Prospectus for IPO with SEBI"
+    },
+    {
+     "attachedAt": "2026-11-14T11:46:24.198098+00:00",
+     "title": "Mahanadi Coalfields IPO May Open Next Week, Issue Size Pegged at 10k cr"
+    },
+    {
+     "attachedAt": "2026-11-14T11:46:24.220652+00:00",
+     "title": "Mahanadi Coalfields IPO May Open Next Week"
+    },
+    {
+     "attachedAt": "2026-11-14T11:46:24.235258+00:00",
+     "title": "Mahanadi Coalfields IPO may open next week, issue size pegged at Rs 10,000 crore"
     }
    ]
   },
@@ -2991,7 +3103,7 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 4,
+   "sourceCount": 5,
    "ticker": null,
    "updatedAt": "2026-11-13T18:30:57.470608+00:00",
    "updates": [
@@ -3006,6 +3118,10 @@
     {
      "attachedAt": "2026-11-13T18:30:57.468867+00:00",
      "title": "Crystal Crop Protection to Launch Rs 455 Crore IPO on November 18"
+    },
+    {
+     "attachedAt": "2026-11-14T11:46:24.228275+00:00",
+     "title": "Crystal Crop Protection Limited IPO targets ₹456 crore, lists Nov 26"
     }
    ]
   },
@@ -24796,159 +24912,9 @@
    "ticker": null,
    "updatedAt": "2026-08-16T12:30:57.035090+00:00",
    "updates": []
-  },
-  {
-   "amountCr": null,
-   "amountRaw": null,
-   "company": "SML (Swaraj Mazda Limited or similar)",
-   "confidence": "medium",
-   "confirmed": false,
-   "createdAt": "2026-08-16T11:30:58.314492+00:00",
-   "dealType": "strategic buyout",
-   "enrichmentState": null,
-   "id": 252,
-   "individuals": [],
-   "listed": true,
-   "oneLine": "Mahindra acquires SML to grow commercial vehicle market share.",
-   "primaryOutlet": "Business Line",
-   "seller": null,
-   "sizeBand": null,
-   "sizeSource": "unknown",
-   "sourceCount": 1,
-   "ticker": "SMLMAH.NS",
-   "updatedAt": "2026-08-16T11:30:58.314492+00:00",
-   "updates": []
-  },
-  {
-   "amountCr": 800.0,
-   "amountRaw": "₹800 crore",
-   "company": "Style Union",
-   "confidence": "medium",
-   "confirmed": false,
-   "createdAt": "2026-08-16T08:31:00.398481+00:00",
-   "dealType": "PE primary",
-   "enrichmentState": null,
-   "id": 251,
-   "individuals": [
-    "Rakesh Biyani",
-    "Ekta Biyani"
-   ],
-   "listed": false,
-   "oneLine": "Style Union seeks to raise ₹800 crore; founders Rakesh and Ekta Biyani",
-   "primaryOutlet": "Mint",
-   "seller": null,
-   "sizeBand": null,
-   "sizeSource": "stated",
-   "sourceCount": 1,
-   "ticker": null,
-   "updatedAt": "2026-08-16T08:31:00.398481+00:00",
-   "updates": []
-  },
-  {
-   "amountCr": null,
-   "amountRaw": null,
-   "company": "Zypp Electric (Bycyshare Technologies)",
-   "confidence": "medium",
-   "confirmed": false,
-   "createdAt": "2026-08-16T07:46:32.446944+00:00",
-   "dealType": "IPO-OFS",
-   "enrichmentState": null,
-   "id": 250,
-   "individuals": [],
-   "listed": false,
-   "oneLine": "IPO-bound Zypp Electric reduces FY26 loss; company preparing for public listing",
-   "primaryOutlet": "Inc42",
-   "seller": null,
-   "sizeBand": null,
-   "sizeSource": "unknown",
-   "sourceCount": 1,
-   "ticker": null,
-   "updatedAt": "2026-08-16T07:46:32.446944+00:00",
-   "updates": []
-  },
-  {
-   "amountCr": 2325.0,
-   "amountRaw": "₹2,325 Crore",
-   "company": "Embassy REIT",
-   "confidence": "medium",
-   "confirmed": true,
-   "createdAt": "2026-08-16T07:46:32.408490+00:00",
-   "dealType": "block deal",
-   "enrichmentState": null,
-   "id": 248,
-   "individuals": [
-    "APAC COMPANY XXIII LIMITED"
-   ],
-   "listed": false,
-   "oneLine": "Bain Capital entity to sell up to 5.64% stake in Embassy REIT.",
-   "primaryOutlet": "CNBC TV18",
-   "seller": null,
-   "sizeBand": null,
-   "sizeSource": "stated",
-   "sourceCount": 4,
-   "ticker": null,
-   "updatedAt": "2026-08-19T04:22:18.309132+00:00",
-   "updates": [
-    {
-     "attachedAt": "2026-08-17T14:58:42.310985+00:00",
-     "title": "Embassy Office Parks REIT: bulk deal"
-    },
-    {
-     "attachedAt": "2026-08-18T01:31:21.935031+00:00",
-     "title": "Bain Capital Exits Embassy REIT; Baazar Style Sees Big Deal"
-    },
-    {
-     "attachedAt": "2026-08-19T04:22:18.308243+00:00",
-     "title": "Bain Capital Sells 5.64% Stake in Embassy REIT for ₹2,325 Crore"
-    }
-   ]
-  },
-  {
-   "amountCr": null,
-   "amountRaw": null,
-   "company": "Synergy Advanced Metals",
-   "confidence": "medium",
-   "confirmed": false,
-   "createdAt": "2026-08-16T07:46:32.399978+00:00",
-   "dealType": "DRHP filing",
-   "enrichmentState": null,
-   "id": 247,
-   "individuals": [],
-   "listed": false,
-   "oneLine": "Synergy Advanced Metals receives SEBI nod for mainboard IPO.",
-   "primaryOutlet": "Whalesbook",
-   "seller": null,
-   "sizeBand": null,
-   "sizeSource": "unknown",
-   "sourceCount": 1,
-   "ticker": null,
-   "updatedAt": "2026-08-16T07:46:32.399978+00:00",
-   "updates": []
-  },
-  {
-   "amountCr": 806.0,
-   "amountRaw": "5.02% x mcap ~Rs 16055cr = ~Rs 806cr",
-   "company": "Dr. Agarwal's Health Care",
-   "confidence": "medium",
-   "confirmed": false,
-   "createdAt": "2026-08-16T07:46:32.386858+00:00",
-   "dealType": "block deal",
-   "enrichmentState": null,
-   "id": 246,
-   "individuals": [],
-   "listed": true,
-   "oneLine": "Claymore sells 5.02% stake in Dr. Agarwal's Health Care.",
-   "primaryOutlet": "scanx.trade",
-   "seller": null,
-   "sizeBand": null,
-   "sizeSource": "computed",
-   "sourceCount": 1,
-   "ticker": "AGARWALEYE.NS",
-   "updatedAt": "2026-08-16T07:46:32.386858+00:00",
-   "updates": []
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-11-13T20:51:10.070741+00:00",
- "totalDeals": 1025
+ "generatedAt": "2026-11-14T11:46:36.521490+00:00",
+ "totalDeals": 1026
 }
