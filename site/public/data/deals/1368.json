@@ -1,7 +1,7 @@
 {
  "advisers": [],
- "amountCr": 1663.07,
- "amountRaw": "INR 1,663.07 Crores (from article)",
+ "amountCr": 2400.0,
+ "amountRaw": "Rs 2,400 crore",
  "buyer": "Warburg Pincus",
  "company": "Pricol Autotech",
  "confidence": "medium",
@@ -108,9 +108,16 @@
    "resolvable": true,
    "title": "Pricol promoters to sell entire stake in demerged connected vehicle business to Warburg Pincus",
    "url": "https://www.thehindubusinessline.com/companies/pricol-promoters-to-sell-entire-stake-in-demerged-connected-vehicle-business-to-warburg-pincus/article71699569.ece"
+  },
+  {
+   "attachedAt": "2026-11-14T12:01:12.786742+00:00",
+   "outlet": "Multibagg AI",
+   "resolvable": false,
+   "title": "Pricol plans Rs 2,400 crore DICVS demerger and stake sale",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNX0NKMjN4VEVac1JLMEJIMGtVWkNUNHpzc3FUY0dROEZEbnNicGwyNnRfVTNaZ2M4SV9YaElsbkJuU2pQNVVxNXp5U0REbGFHa1VhS0pGa3lLNDZxVklHWUhaanV6UGRSYVYyRjFxYTBtYjMxZFNXbWJ1OFJvSW5VWmRBSV9SRFhvNkY4SG9mT2xxeXI5YlpBODF1anJhWXhQOTA4dnFtOHBZUmRPVEJmTTFoWGpsTGZ5c2kydw?oc=5"
   }
  ],
  "synopsis": "Pricol Limited's board approved a share purchase agreement allowing Topaz Terrace Investments, an affiliate of Warburg Pincus LLC, to acquire a 38.51% stake in Pricol Autotech. The transaction involves the sale of 4,69,34,833 equity shares by the promoter and promoter group sellers of Pricol Limited, following the demerger of Pricol's Driver Information & Connected Vehicle Solutions business into Pricol Autotech. The aggregate consideration payable to the sellers is up to INR 1,663.07 crores. The deal is contingent on regulatory approvals, the effectiveness of the demerger scheme, the listing of Pricol Autotech's equity shares, and the completion of an open offer period.",
  "ticker": null,
- "updatedAt": "2026-11-13T18:31:17.237883+00:00"
+ "updatedAt": "2026-11-14T12:01:12.799350+00:00"
 }

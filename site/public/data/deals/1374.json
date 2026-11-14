@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 9500.0,
+ "amountRaw": "₹9,500cr",
+ "buyer": null,
+ "company": "Coal India subsidiary",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-14T12:01:13.627864+00:00",
+ "dealType": "IPO-OFS",
+ "enrichmentState": "failed",
+ "id": 1374,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Coal India subsidiary plans to raise ₹9,500cr via IPO.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQa2RWajFkT1p5OUFzalViS1VIdEtMZFVEaEQwV2h0cXJIVC1lUWRRcnBmbmx3TzZlSVJTMnpFMjRNdDBTMTdOM0dUV2U1NkRmT21aM2k0WDRqaENKN1VYOFg2MmE0UjV6OS1jZndwdFhQYnppYnotR2NpUnJpbk5ZaXV5cXNac2ZnVS1oOFNDY1F5dk80Z0hUcHZ6bw?oc=5",
+ "seller": "Coal India",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-11-14T12:01:13.789171+00:00",
+   "outlet": "NewsBytes",
+   "resolvable": false,
+   "title": "Coal India subsidiary plans to raise ₹9,500cr via IPO",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQa2RWajFkT1p5OUFzalViS1VIdEtMZFVEaEQwV2h0cXJIVC1lUWRRcnBmbmx3TzZlSVJTMnpFMjRNdDBTMTdOM0dUV2U1NkRmT21aM2k0WDRqaENKN1VYOFg2MmE0UjV6OS1jZndwdFhQYnppYnotR2NpUnJpbk5ZaXV5cXNac2ZnVS1oOFNDY1F5dk80Z0hUcHZ6bw?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-11-14T12:01:13.627864+00:00"
+}
