@@ -1,5 +1,5 @@
 {
- "dealCount": 821,
+ "dealCount": 820,
  "deals": [
   {
    "amountCr": 1885.17,
@@ -24946,49 +24946,6 @@
    "ticker": "AGARWALEYE.NS",
    "updatedAt": "2026-08-16T07:46:32.386858+00:00",
    "updates": []
-  },
-  {
-   "amountCr": 2600.0,
-   "amountRaw": "Rs 2,600 Cr public issue",
-   "company": "Zetwerk",
-   "confidence": "medium",
-   "confirmed": false,
-   "createdAt": "2026-08-16T07:46:31.481254+00:00",
-   "dealType": "promoter sale",
-   "enrichmentState": null,
-   "id": 245,
-   "individuals": [],
-   "listed": true,
-   "oneLine": "Zetwerk promoters pledge stake; likely exploring liquidity or financing.",
-   "primaryOutlet": "The Economic Times",
-   "seller": null,
-   "sizeBand": null,
-   "sizeSource": "stated",
-   "sourceCount": 6,
-   "ticker": "ZETWERK.NS",
-   "updatedAt": "2026-08-18T15:53:21.128085+00:00",
-   "updates": [
-    {
-     "attachedAt": "2026-08-16T07:46:31.487975+00:00",
-     "title": "Manufacturing Platform Zetwerk Files UDRHP"
-    },
-    {
-     "attachedAt": "2026-08-16T07:46:32.415595+00:00",
-     "title": "Zetwerk files updated IPO papers with SEBI"
-    },
-    {
-     "attachedAt": "2026-08-17T04:27:03.578585+00:00",
-     "title": "Zetwerk Files UDRHP-1 for IPO, Reports Revenue Growth to INR 15,913 Crores in FY26 - energetica-india.net"
-    },
-    {
-     "attachedAt": "2026-08-17T09:31:19.994630+00:00",
-     "title": "Zetwerk DRHP: Exiting civil infrastructure business, rising order book and pledged promoter shares among..."
-    },
-    {
-     "attachedAt": "2026-08-18T15:53:21.127231+00:00",
-     "title": "Zetwerk IPO: Contract Manufacturing Platform Moves Closer To Rs 2,600 Cr Public Issue"
-    }
-   ]
   }
  ],
  "feedWindowDays": 90,
