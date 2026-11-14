@@ -1,5 +1,5 @@
 {
- "dealCount": 816,
+ "dealCount": 815,
  "deals": [
   {
    "amountCr": 9500.0,
@@ -24916,28 +24916,6 @@
      "title": "Apollo Micro Systems to acquire 41.33% stake in Premier Explosives for ₹1,550 crore"
     }
    ]
-  },
-  {
-   "amountCr": 660.0,
-   "amountRaw": "₹660cr",
-   "company": "SRK-backed company (unnamed)",
-   "confidence": "medium",
-   "confirmed": false,
-   "createdAt": "2026-08-16T12:30:57.035090+00:00",
-   "dealType": "IPO-OFS",
-   "enrichmentState": null,
-   "id": 253,
-   "individuals": [],
-   "listed": false,
-   "oneLine": "SRK-backed company planning IPO to raise ₹660cr; promoter liquidity likely.",
-   "primaryOutlet": "NewsBytes",
-   "seller": null,
-   "sizeBand": null,
-   "sizeSource": "stated",
-   "sourceCount": 1,
-   "ticker": null,
-   "updatedAt": "2026-08-16T12:30:57.035090+00:00",
-   "updates": []
   }
  ],
  "feedWindowDays": 90,
