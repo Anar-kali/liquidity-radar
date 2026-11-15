@@ -1,5 +1,5 @@
 {
- "dealCount": 810,
+ "dealCount": 808,
  "deals": [
   {
    "amountCr": 3150.0,
@@ -24620,67 +24620,6 @@
      "title": "Cupid Ltd-$: The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations, 2011 for Aditya Kumar Halwasiya"
     }
    ]
-  },
-  {
-   "amountCr": 450.0,
-   "amountRaw": "Over ₹450 Cr via IPO",
-   "company": "Exclusive: Atomberg plans Rs 450 Cr fresh issue, Rs 90 Cr pre-IPO placement",
-   "confidence": "medium",
-   "confirmed": false,
-   "createdAt": "2026-08-17T10:16:49.984587+00:00",
-   "dealType": "unknown",
-   "enrichmentState": null,
-   "id": 270,
-   "individuals": [],
-   "listed": false,
-   "oneLine": "Exclusive: Atomberg plans Rs 450 Cr fresh issue, Rs 90 Cr pre-IPO placement - Entrackr",
-   "primaryOutlet": "Entrackr",
-   "seller": null,
-   "sizeBand": null,
-   "sizeSource": "stated",
-   "sourceCount": 5,
-   "ticker": null,
-   "updatedAt": "2026-08-17T14:01:30.260718+00:00",
-   "updates": [
-    {
-     "attachedAt": "2026-08-17T14:01:30.259755+00:00",
-     "title": "Atomberg Gets Board Nod To Raise Over ₹450 Cr Via IPO"
-    },
-    {
-     "attachedAt": "2026-08-17T15:57:55.018825+00:00",
-     "title": "Atomberg Technologies Clears Rs 450 Cr Fresh IPO Issue"
-    },
-    {
-     "attachedAt": "2026-08-18T07:31:17.149701+00:00",
-     "title": "Atomberg Approves Rs 450 Cr IPO Plan, Clears Rs 90 Cr Pre-IPO Fundraise"
-    },
-    {
-     "attachedAt": "2026-08-18T13:31:08.132766+00:00",
-     "title": "Atomberg Secures Shareholder Approval for Rs 450 Crore IPO Issue"
-    }
-   ]
-  },
-  {
-   "amountCr": null,
-   "amountRaw": null,
-   "company": "Shiprocket",
-   "confidence": "medium",
-   "confirmed": false,
-   "createdAt": "2026-08-17T09:31:20.000156+00:00",
-   "dealType": "other",
-   "enrichmentState": null,
-   "id": 264,
-   "individuals": [],
-   "listed": true,
-   "oneLine": "Shiprocket IPO; investor exits and promoter liquidity ahead",
-   "primaryOutlet": "medianama.com",
-   "seller": null,
-   "sizeBand": null,
-   "sizeSource": "unknown",
-   "sourceCount": 1,
-   "ticker": "SHIPROCKET.NS",
-   "updatedAt": "2026-08-17T09:31:20.000156+00:00",
-   "updates": []
   }
  ],
  "feedWindowDays": 90,
