@@ -10,7 +10,10 @@
  "dealType": "PE primary",
  "enrichmentState": "failed",
  "id": 1366,
- "individuals": [],
+ "individuals": [
+  "James Murdoch",
+  "Uday Shankar"
+ ],
  "listed": false,
  "oneLine": "James Murdoch's Bodhi Tree Systems invests $180 million in Adyar Ananda Bhavan.",
  "primaryUrl": "https://www.thehindubusinessline.com/companies/james-murdochs-bodhi-tree-systems-invests-180-m-in-adyar-ananda-bhavan/article71694514.ece",
@@ -24,9 +27,23 @@
    "resolvable": true,
    "title": "James Murdoch’s Bodhi Tree Systems invests $180 million in Adyar Ananda Bhavan",
    "url": "https://www.thehindubusinessline.com/companies/james-murdochs-bodhi-tree-systems-invests-180-m-in-adyar-ananda-bhavan/article71694514.ece"
+  },
+  {
+   "attachedAt": "2026-11-15T02:01:15.646663+00:00",
+   "outlet": "Indian Startup News",
+   "resolvable": false,
+   "title": "Bodhi Tree buys majority stake in Chennai restaurant chain Adyar Ananda Bhavan for $180 million",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQSUFVci1fcGhaUWtKMlF0R1VCLTNJc1pXSUFkYmJPVVNBLV81N0dqXzZkbmVHNG44bUJKMklsVUZVcXhGRFlzeEtsMFBLTUJtTHBycmNycElqc1Fpc2prWEE1YS1CTDBEaG92UVBnRDE2cUMxQnRQUGFZa20tVkZzUDJyYnBxWW92NHNOUW9LQ0RaVkY0SEJGYzI0RktFeW8xSkZPd2h3NU1SX0FMZHFxWDJRR2JFZk9IcXZ6RHc1XzBnbVBjV3NVaktUSGhoNzJpb013Q9IB1AFBVV95cUxQSUFVci1fcGhaUWtKMlF0R1VCLTNJc1pXSUFkYmJPVVNBLV81N0dqXzZkbmVHNG44bUJKMklsVUZVcXhGRFlzeEtsMFBLTUJtTHBycmNycElqc1Fpc2prWEE1YS1CTDBEaG92UVBnRDE2cUMxQnRQUGFZa20tVkZzUDJyYnBxWW92NHNOUW9LQ0RaVkY0SEJGYzI0RktFeW8xSkZPd2h3NU1SX0FMZHFxWDJRR2JFZk9IcXZ6RHc1XzBnbVBjV3NVaktUSGhoNzJpb013Qw?oc=5"
+  },
+  {
+   "attachedAt": "2026-11-15T02:01:15.653062+00:00",
+   "outlet": "Business Line",
+   "resolvable": true,
+   "title": "Bodhi Tree Systems to invest $180 million for majority stake in south Indian food chain Adyar Ananda Bhavan",
+   "url": "https://www.livemint.com/companies/news/bodhi-tree-systems-to-invest-180-million-for-majority-stake-in-south-indian-food-chain-adyar-ananda-bhavan-11794665523532.html"
   }
  ],
  "synopsis": null,
  "ticker": null,
- "updatedAt": "2026-11-13T12:34:05.461205+00:00"
+ "updatedAt": "2026-11-15T02:01:15.654040+00:00"
 }

@@ -1,6 +1,28 @@
 {
- "dealCount": 815,
+ "dealCount": 816,
  "deals": [
+  {
+   "amountCr": 3150.0,
+   "amountRaw": "3,150 Crore",
+   "company": "Yatharth Hospital",
+   "confidence": "high",
+   "confirmed": false,
+   "createdAt": "2026-11-15T02:01:15.648541+00:00",
+   "dealType": "PE secondary",
+   "enrichmentState": null,
+   "id": 1375,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Advent receives CCI nod for stake acquisition in Yatharth Hospital for Rs 3,150 Crore.",
+   "primaryOutlet": "Sahyadri Startups",
+   "seller": "Yatharth Hospital",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "YATHARTH.NS",
+   "updatedAt": "2026-11-15T02:01:18.785431+00:00",
+   "updates": []
+  },
   {
    "amountCr": 9500.0,
    "amountRaw": "₹9,500cr",
@@ -64,7 +86,7 @@
    "seller": "SoftBank",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 5,
+   "sourceCount": 6,
    "ticker": "MEESHO.NS",
    "updatedAt": "2026-11-13T20:51:10.070741+00:00",
    "updates": [
@@ -83,12 +105,16 @@
     {
      "attachedAt": "2026-11-14T11:46:24.246008+00:00",
      "title": "SoftBank Offloads Meesho Shares Worth ₹1,855 Cr"
+    },
+    {
+     "attachedAt": "2026-11-15T02:01:15.651228+00:00",
+     "title": "SoftBank sells Meesho stake worth 1885 crore in block deal market watch"
     }
    ]
   },
   {
-   "amountCr": 2400.0,
-   "amountRaw": "Rs 2,400 crore",
+   "amountCr": 1663.07,
+   "amountRaw": "Rs 1,663.07 crore",
    "company": "Pricol Autotech",
    "confidence": "medium",
    "confirmed": false,
@@ -110,9 +136,9 @@
    "seller": "Promoters",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 13,
+   "sourceCount": 16,
    "ticker": null,
-   "updatedAt": "2026-11-14T12:01:12.799350+00:00",
+   "updatedAt": "2026-11-15T02:01:15.642050+00:00",
    "updates": [
     {
      "attachedAt": "2026-11-14T11:46:22.677689+00:00",
@@ -161,6 +187,18 @@
     {
      "attachedAt": "2026-11-14T12:01:12.786742+00:00",
      "title": "Pricol plans Rs 2,400 crore DICVS demerger and stake sale"
+    },
+    {
+     "attachedAt": "2026-11-15T02:01:15.637744+00:00",
+     "title": "Pricol Promoters Sell 38.51% Pricol Autotech Stake to Warburg"
+    },
+    {
+     "attachedAt": "2026-11-15T02:01:15.641071+00:00",
+     "title": "Pricol Limited promoters agree Rs 1,663.07 crore Autotech sale"
+    },
+    {
+     "attachedAt": "2026-11-15T02:01:15.644853+00:00",
+     "title": "Warburg Pincus to acquire 38.51%promoter stake in Pricol Autotech after proposed demerger"
     }
    ]
   },
@@ -196,17 +234,29 @@
    "dealType": "PE primary",
    "enrichmentState": "failed",
    "id": 1366,
-   "individuals": [],
+   "individuals": [
+    "James Murdoch",
+    "Uday Shankar"
+   ],
    "listed": false,
    "oneLine": "James Murdoch's Bodhi Tree Systems invests $180 million in Adyar Ananda Bhavan.",
    "primaryOutlet": "Business Line",
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 3,
    "ticker": null,
-   "updatedAt": "2026-11-13T12:34:05.461205+00:00",
-   "updates": []
+   "updatedAt": "2026-11-15T02:01:15.654040+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-11-15T02:01:15.646663+00:00",
+     "title": "Bodhi Tree buys majority stake in Chennai restaurant chain Adyar Ananda Bhavan for $180 million"
+    },
+    {
+     "attachedAt": "2026-11-15T02:01:15.653062+00:00",
+     "title": "Bodhi Tree Systems to invest $180 million for majority stake in south Indian food chain Adyar Ananda Bhavan"
+    }
+   ]
   },
   {
    "amountCr": 15840.0,
@@ -24919,6 +24969,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-11-14T12:01:13.627864+00:00",
- "totalDeals": 1027
+ "generatedAt": "2026-11-15T02:01:18.785431+00:00",
+ "totalDeals": 1028
 }

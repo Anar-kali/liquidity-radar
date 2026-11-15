@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 3150.0,
+ "amountRaw": "3,150 Crore",
+ "buyer": "Advent",
+ "company": "Yatharth Hospital",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-11-15T02:01:15.648541+00:00",
+ "dealType": "PE secondary",
+ "enrichmentState": null,
+ "id": 1375,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Advent receives CCI nod for stake acquisition in Yatharth Hospital for Rs 3,150 Crore.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPVHJUNDF3bktsb0RQazN3Y1FhQjVieW9seEExUTFjTHdpMy1uZHRLVHI3MEU4R1VXQnBaNWpjSVMxbmtONlBPVDNDOGFzeVFtTUJ5N2RGeWlyY0tDMHN2bXZQQTNOV0J2LVl6THBmRHZod2ozWF9rMUR0SGRRQVQtZlBnMjV5VkJxa05mM0hjaThiNUx6T2hZVHZ0aGhsRXVlNXJRbG9faTF1UENtY0dTWEVRVkpUNFZvYmRIcEZ3bzA1WFdqci1iZUFLcXJVeXlLd2I5R0dWcTFla3JQdHJ6b3pYTFYyNFhxX25uY3UxX0NCVkk?oc=5",
+ "seller": "Yatharth Hospital",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-11-15T02:01:15.649510+00:00",
+   "outlet": "Sahyadri Startups",
+   "resolvable": false,
+   "title": "3,150 Crore For 24.87% Stake Gets CCI Nod! What Makes Yatharth Hospital So Attractive To Global PE Giant Advent?",
+   "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPVHJUNDF3bktsb0RQazN3Y1FhQjVieW9seEExUTFjTHdpMy1uZHRLVHI3MEU4R1VXQnBaNWpjSVMxbmtONlBPVDNDOGFzeVFtTUJ5N2RGeWlyY0tDMHN2bXZQQTNOV0J2LVl6THBmRHZod2ozWF9rMUR0SGRRQVQtZlBnMjV5VkJxa05mM0hjaThiNUx6T2hZVHZ0aGhsRXVlNXJRbG9faTF1UENtY0dTWEVRVkpUNFZvYmRIcEZ3bzA1WFdqci1iZUFLcXJVeXlLd2I5R0dWcTFla3JQdHJ6b3pYTFYyNFhxX25uY3UxX0NCVkk?oc=5"
+  }
+ ],
+ "synopsis": "Advent International has received approval from the Competition Commission of India to acquire a 24.87 percent stake in Yatharth Hospital for ₹3,150 crore. The transaction is structured as a preferential issue of equity shares and warrants through Advent's investment vehicle, Rasmalai Limited. The capital infusion will provide Yatharth Hospital with resources to strengthen its hospital footprint and support network expansion. The investment represents a minority stake with no change in management control. The CCI approved the combination on 10 November 2026, though the deal remains subject to other regulatory and statutory requirements.",
+ "ticker": "YATHARTH.NS",
+ "updatedAt": "2026-11-15T02:01:18.785431+00:00"
+}
