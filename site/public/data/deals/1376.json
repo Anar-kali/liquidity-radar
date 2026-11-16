@@ -1,0 +1,34 @@
+{
+ "advisers": [],
+ "amountCr": 1760.0,
+ "amountRaw": "$200 million (~1760 crore INR)",
+ "buyer": "TPG, Warburg Pincus, ChrysCapital",
+ "company": "Transasia BioMedicals",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-16T01:32:22.700820+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1376,
+ "individuals": [
+  "Suresh Vazirani"
+ ],
+ "listed": false,
+ "oneLine": "Transasia BioMedicals is exploring a minority stake sale to raise up to $200 million.",
+ "primaryUrl": "https://www.livemint.com/companies/news/transasia-biomedicals-explores-up-to-20-stake-sale-to-raise-200-million-11794755869514.html",
+ "seller": "Transasia BioMedicals promoters",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-11-16T01:32:22.701833+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "Transasia BioMedicals explores up to 20% stake sale to raise $200 million",
+   "url": "https://www.livemint.com/companies/news/transasia-biomedicals-explores-up-to-20-stake-sale-to-raise-200-million-11794755869514.html"
+  }
+ ],
+ "synopsis": "Transasia Bio-Medicals is exploring a sale of up to a 20% stake to raise $150-200 million in its first external capital raise. The fundraising process is drawing interest from private equity funds including TPG, Warburg Pincus, ChrysCapital, Motilal Oswal, and Quadria Capital. The potential transaction is expected to involve a mix of primary and secondary share sales, with discussions currently at an early stage. O3 Capital is advising the company on the fundraise. The medical equipment maker was founded in 1979 by Suresh Vazirani and is part of the Erba group of companies.",
+ "ticker": null,
+ "updatedAt": "2026-11-16T01:32:26.351006+00:00"
+}

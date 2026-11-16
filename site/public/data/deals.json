@@ -1,6 +1,30 @@
 {
- "dealCount": 803,
+ "dealCount": 800,
  "deals": [
+  {
+   "amountCr": 1760.0,
+   "amountRaw": "$200 million (~1760 crore INR)",
+   "company": "Transasia BioMedicals",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-16T01:32:22.700820+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1376,
+   "individuals": [
+    "Suresh Vazirani"
+   ],
+   "listed": false,
+   "oneLine": "Transasia BioMedicals is exploring a minority stake sale to raise up to $200 million.",
+   "primaryOutlet": "Mint",
+   "seller": "Transasia BioMedicals promoters",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-16T01:32:26.351006+00:00",
+   "updates": []
+  },
   {
    "amountCr": 3150.0,
    "amountRaw": "3,150 Crore",
@@ -24293,112 +24317,9 @@
      "title": "Milky Mist shares gain 30%; India Exposition Mart files DRHP with Sebi"
     }
    ]
-  },
-  {
-   "amountCr": 1320.0,
-   "amountRaw": "$1.5 billion = ~Rs 1,320 crore (at 88 INR/USD)",
-   "company": "Tristar",
-   "confidence": "high",
-   "confirmed": false,
-   "createdAt": "2026-08-18T01:31:21.979498+00:00",
-   "dealType": "strategic buyout",
-   "enrichmentState": null,
-   "id": 349,
-   "individuals": [],
-   "listed": false,
-   "oneLine": "Aegis Logistics in advanced talks to acquire Tristar for $1.5 billion",
-   "primaryOutlet": "ET Corporate",
-   "seller": null,
-   "sizeBand": null,
-   "sizeSource": "stated",
-   "sourceCount": 1,
-   "ticker": null,
-   "updatedAt": "2026-08-18T01:31:21.979498+00:00",
-   "updates": []
-  },
-  {
-   "amountCr": null,
-   "amountRaw": null,
-   "company": "Darwinbox",
-   "confidence": "medium",
-   "confirmed": false,
-   "createdAt": "2026-08-18T01:31:21.972709+00:00",
-   "dealType": "strategic buyout",
-   "enrichmentState": null,
-   "id": 348,
-   "individuals": [],
-   "listed": false,
-   "oneLine": "Microsoft, Salesforce eye Darwinbox buyout ahead of planned IPO",
-   "primaryOutlet": "Mint",
-   "seller": null,
-   "sizeBand": null,
-   "sizeSource": "unknown",
-   "sourceCount": 2,
-   "ticker": null,
-   "updatedAt": "2026-08-18T01:31:21.972709+00:00",
-   "updates": [
-    {
-     "attachedAt": "2026-08-19T01:31:10.878078+00:00",
-     "title": "Three Tech Giants Circle India's Darwinbox in Pre-IPO Bidding War"
-    }
-   ]
-  },
-  {
-   "amountCr": 3000.0,
-   "amountRaw": "₹3,000 cr IPO",
-   "company": "RSB Transmissions",
-   "confidence": "medium",
-   "confirmed": false,
-   "createdAt": "2026-08-18T01:31:21.968654+00:00",
-   "dealType": "IPO-OFS",
-   "enrichmentState": null,
-   "id": 347,
-   "individuals": [],
-   "listed": false,
-   "oneLine": "Bain-backed RSB Transmissions begins IPO banker talks for Rs 3,000 cr",
-   "primaryOutlet": "Mint",
-   "seller": null,
-   "sizeBand": null,
-   "sizeSource": "stated",
-   "sourceCount": 2,
-   "ticker": null,
-   "updatedAt": "2026-08-18T01:31:21.968654+00:00",
-   "updates": [
-    {
-     "attachedAt": "2026-08-18T02:30:59.587208+00:00",
-     "title": "RSB Transmissions Targets ₹3,000 Crore IPO with Bain Capital"
-    }
-   ]
-  },
-  {
-   "amountCr": 626.4,
-   "amountRaw": "₹626.40 crore",
-   "company": "Steel Infra Solutions",
-   "confidence": "high",
-   "confirmed": false,
-   "createdAt": "2026-08-18T01:31:21.953237+00:00",
-   "dealType": "strategic buyout",
-   "enrichmentState": null,
-   "id": 344,
-   "individuals": [],
-   "listed": false,
-   "oneLine": "Lloyds Engineering acquires 51.13% Steel Infra Solutions for Rs 626.40 cr",
-   "primaryOutlet": "scanx.trade",
-   "seller": null,
-   "sizeBand": null,
-   "sizeSource": "stated",
-   "sourceCount": 2,
-   "ticker": null,
-   "updatedAt": "2026-08-18T01:31:21.953237+00:00",
-   "updates": [
-    {
-     "attachedAt": "2026-08-18T04:21:16.331699+00:00",
-     "title": "Lloyds Engineering Acquires 51.13% Stake In Steel Infra Solutions For ₹626.4 Crore"
-    }
-   ]
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-11-15T02:01:18.785431+00:00",
- "totalDeals": 1028
+ "generatedAt": "2026-11-16T01:32:26.351006+00:00",
+ "totalDeals": 1029
 }
