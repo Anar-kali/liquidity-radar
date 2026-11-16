@@ -1,0 +1,39 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Anthropic",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-16T07:02:40.348324+00:00",
+ "dealType": "IPO-OFS",
+ "enrichmentState": null,
+ "id": 1378,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Anthropic's planned IPO draws attention with major tech investments.",
+ "primaryUrl": "https://www.livemint.com/companies/news/anthropic-ipo-why-google-s-13-stake-and-big-tech-s-900-billion-ai-bet-hinge-on-claude-maker-s-success-decoded-11794798914261.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-11-16T07:02:40.348994+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "Anthropic IPO: Why Google’s 13% stake and Big Tech’s $900-billion AI bet hinge on Claude maker’s success | Decoded",
+   "url": "https://www.livemint.com/companies/news/anthropic-ipo-why-google-s-13-stake-and-big-tech-s-900-billion-ai-bet-hinge-on-claude-maker-s-success-decoded-11794798914261.html"
+  },
+  {
+   "attachedAt": "2026-11-16T07:02:40.353127+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "Anthropic promises to pursue humanitys benefit. Its IPO filing gives it wiggle room",
+   "url": "https://www.livemint.com/companies/anthropic-promises-to-pursue-humanitys-benefit-its-ipo-filing-gives-it-wiggle-room-11794805350350.html"
+  }
+ ],
+ "synopsis": "Anthropic is planning an initial public offering on the Nasdaq, with expected share prices between $70 and $78. Advanced Micro Devices, Broadcom, Google, Micron, Microsoft, Nvidia, and Taiwan Semiconductor Manufacturing Company are collectively investing $26 billion at the IPO price. Google is expected to own about 13% of the company after the public offering. The IPO could generate more than $90 billion in proceeds.",
+ "ticker": null,
+ "updatedAt": "2026-11-16T07:02:45.961332+00:00"
+}

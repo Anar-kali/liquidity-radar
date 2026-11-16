@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Learnfluence Education Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-16T07:02:40.338334+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": "failed",
+ "id": 1377,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Learnfluence Education filed an addendum to its draft offer document for an IPO.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/nov-2026/learnfluence-education-limited-addendum-to-drhp_105776.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-11-16T07:02:40.339598+00:00",
+   "outlet": "Addendum to DRHP",
+   "resolvable": true,
+   "title": "Learnfluence Education Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/nov-2026/learnfluence-education-limited-addendum-to-drhp_105776.html"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-11-16T07:02:40.338334+00:00"
+}

@@ -1,6 +1,55 @@
 {
- "dealCount": 800,
+ "dealCount": 799,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Anthropic",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-16T07:02:40.348324+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 1378,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Anthropic's planned IPO draws attention with major tech investments.",
+   "primaryOutlet": "Mint",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 2,
+   "ticker": null,
+   "updatedAt": "2026-11-16T07:02:45.961332+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-11-16T07:02:40.353127+00:00",
+     "title": "Anthropic promises to pursue humanitys benefit. Its IPO filing gives it wiggle room"
+    }
+   ]
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Learnfluence Education Limited",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-16T07:02:40.338334+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 1377,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Learnfluence Education filed an addendum to its draft offer document for an IPO.",
+   "primaryOutlet": "Addendum to DRHP",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-16T07:02:40.338334+00:00",
+   "updates": []
+  },
   {
    "amountCr": 1760.0,
    "amountRaw": "$200 million (~1760 crore INR)",
@@ -24207,119 +24256,9 @@
    "ticker": null,
    "updatedAt": "2026-08-18T07:31:17.139977+00:00",
    "updates": []
-  },
-  {
-   "amountCr": 450.0,
-   "amountRaw": "₹450-Crore IPO",
-   "company": "Gaja Alternative Asset Management Limited",
-   "confidence": "medium",
-   "confirmed": false,
-   "createdAt": "2026-08-18T06:31:05.077898+00:00",
-   "dealType": "DRHP filing",
-   "enrichmentState": null,
-   "id": 352,
-   "individuals": [
-    "Gopal Jain"
-   ],
-   "listed": true,
-   "oneLine": "Gaja Alternative Asset Management files RHP for IPO; promoter liquidity event pending.",
-   "primaryOutlet": "Abridged Prospectus",
-   "seller": null,
-   "sizeBand": null,
-   "sizeSource": "stated",
-   "sourceCount": 4,
-   "ticker": "GAJA.NS",
-   "updatedAt": "2026-09-22T05:25:45.422136+00:00",
-   "updates": [
-    {
-     "attachedAt": "2026-08-18T06:31:05.082505+00:00",
-     "title": "Gaja Alternative Asset Management Limited"
-    },
-    {
-     "attachedAt": "2026-08-19T10:31:13.623563+00:00",
-     "title": "Gaja Alternative Asset Management’s ₹450-Crore IPO Push, Gopal Jain Reveals Fund Expansion Roadmap"
-    },
-    {
-     "attachedAt": "2026-08-24T06:31:27.471774+00:00",
-     "title": "GAJA ALTERNATIVE ASSET MANAGEMENT LIMITED"
-    }
-   ]
-  },
-  {
-   "amountCr": null,
-   "amountRaw": null,
-   "company": "Thyrocare Technologies",
-   "confidence": "medium",
-   "confirmed": false,
-   "createdAt": "2026-08-18T05:31:11.177237+00:00",
-   "dealType": "promoter sale",
-   "enrichmentState": null,
-   "id": 351,
-   "individuals": [],
-   "listed": true,
-   "oneLine": "Thyrocare promoter pledged shares released; potential liquidity event.",
-   "primaryOutlet": "Whalesbook",
-   "seller": null,
-   "sizeBand": null,
-   "sizeSource": "mcap_plausible",
-   "sourceCount": 1,
-   "ticker": "THYROCARE.NS",
-   "updatedAt": "2026-08-18T05:31:11.177237+00:00",
-   "updates": []
-  },
-  {
-   "amountCr": null,
-   "amountRaw": null,
-   "company": "India Exposition Mart",
-   "confidence": "medium",
-   "confirmed": false,
-   "createdAt": "2026-08-18T03:31:05.442468+00:00",
-   "dealType": "DRHP filing",
-   "enrichmentState": null,
-   "id": 350,
-   "individuals": [],
-   "listed": false,
-   "oneLine": "India Exposition Mart files for IPO; promoters likely to cash out",
-   "primaryOutlet": "ET Now",
-   "seller": null,
-   "sizeBand": null,
-   "sizeSource": "unknown",
-   "sourceCount": 8,
-   "ticker": null,
-   "updatedAt": "2026-08-18T03:31:05.442468+00:00",
-   "updates": [
-    {
-     "attachedAt": "2026-08-18T05:31:11.186936+00:00",
-     "title": "Exhibition and convention centre India Exposition Mart files IPO papers with SEBI"
-    },
-    {
-     "attachedAt": "2026-08-18T05:31:11.189601+00:00",
-     "title": "India Exposition Mart Files for IPO to Modernize Greater Noida Venue"
-    },
-    {
-     "attachedAt": "2026-08-18T06:31:05.086630+00:00",
-     "title": "India Exposition Mart files draft IPO papers with SEBI with fresh issue, OFS components"
-    },
-    {
-     "attachedAt": "2026-08-18T07:31:17.143453+00:00",
-     "title": "India Exposition Mart Files DRHP To Raise Funds Through IPO"
-    },
-    {
-     "attachedAt": "2026-08-18T10:31:21.323089+00:00",
-     "title": "India Exposition Mart IPO Filing: Sebi Receives Draft Papers"
-    },
-    {
-     "attachedAt": "2026-08-18T10:31:21.333122+00:00",
-     "title": "India Exposition Mart Files Draft IPO Papers with Sebi"
-    },
-    {
-     "attachedAt": "2026-08-19T01:31:09.943654+00:00",
-     "title": "Milky Mist shares gain 30%; India Exposition Mart files DRHP with Sebi"
-    }
-   ]
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-11-16T01:32:26.351006+00:00",
- "totalDeals": 1029
+ "generatedAt": "2026-11-16T07:02:45.961332+00:00",
+ "totalDeals": 1031
 }
