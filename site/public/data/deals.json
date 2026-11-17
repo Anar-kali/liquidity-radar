@@ -1,6 +1,93 @@
 {
- "dealCount": 765,
+ "dealCount": 768,
  "deals": [
+  {
+   "amountCr": 841.25,
+   "amountRaw": "841.25cr confirmed via NSE block deal",
+   "company": "Billionbrains Garage Vn L",
+   "confidence": "high",
+   "confirmed": true,
+   "createdAt": "2026-11-17T22:11:29.081998+00:00",
+   "dealType": "bulk deal",
+   "enrichmentState": null,
+   "id": 1381,
+   "individuals": [
+    "RIBBIT CAYMAN GW HOLDINGS V LTD."
+   ],
+   "listed": false,
+   "oneLine": "RIBBIT CAYMAN GW HOLDINGS V LTD. sold shares in Billionbrains Garage Vn L (confirmed, NSE bulk deal)",
+   "primaryOutlet": "NSE",
+   "seller": "RIBBIT CAYMAN GW HOLDINGS V LTD.",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 2,
+   "ticker": null,
+   "updatedAt": "2026-11-17T22:11:29.127192+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-11-17T22:11:29.125847+00:00",
+     "title": "Billionbrains Garage Vn L: block deal"
+    }
+   ]
+  },
+  {
+   "amountCr": 158.1,
+   "amountRaw": "158.1cr confirmed via NSE block deal",
+   "company": "Gallantt Ispat Limited",
+   "confidence": "high",
+   "confirmed": true,
+   "createdAt": "2026-11-17T22:11:29.074044+00:00",
+   "dealType": "bulk deal",
+   "enrichmentState": null,
+   "id": 1380,
+   "individuals": [
+    "DINESH R AGARWAL"
+   ],
+   "listed": true,
+   "oneLine": "DINESH R AGARWAL sold shares in Gallantt Ispat Limited (confirmed, NSE bulk deal)",
+   "primaryOutlet": "NSE",
+   "seller": "DINESH R AGARWAL",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 2,
+   "ticker": "GALLANTT.NS",
+   "updatedAt": "2026-11-17T22:11:29.122439+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-11-17T22:11:29.121504+00:00",
+     "title": "Gallantt Ispat Limited: block deal"
+    }
+   ]
+  },
+  {
+   "amountCr": 301.9,
+   "amountRaw": "301.9cr confirmed via NSE block deal",
+   "company": "Alkem Laboratories Ltd.",
+   "confidence": "high",
+   "confirmed": true,
+   "createdAt": "2026-11-17T22:11:29.040979+00:00",
+   "dealType": "bulk deal",
+   "enrichmentState": null,
+   "id": 1379,
+   "individuals": [
+    "SAMPRADA&NANHAMATI SINGH FAMILY TRUST"
+   ],
+   "listed": true,
+   "oneLine": "SAMPRADA&NANHAMATI SINGH FAMILY TRUST sold shares in Alkem Laboratories Ltd. (confirmed, NSE bulk deal)",
+   "primaryOutlet": "NSE",
+   "seller": "SAMPRADA&NANHAMATI SINGH FAMILY TRUST",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 2,
+   "ticker": "ALKEM.NS",
+   "updatedAt": "2026-11-17T22:11:29.117657+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-11-17T22:11:29.116580+00:00",
+     "title": "Alkem Laboratories Ltd.: block deal"
+    }
+   ]
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -23277,6 +23364,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-11-16T07:02:45.961332+00:00",
- "totalDeals": 1031
+ "generatedAt": "2026-11-17T22:11:29.127192+00:00",
+ "totalDeals": 1034
 }

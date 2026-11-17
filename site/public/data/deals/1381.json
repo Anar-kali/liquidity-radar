@@ -1,0 +1,41 @@
+{
+ "advisers": [],
+ "amountCr": 841.25,
+ "amountRaw": "841.25cr confirmed via NSE block deal",
+ "buyer": null,
+ "company": "Billionbrains Garage Vn L",
+ "confidence": "high",
+ "confirmed": true,
+ "createdAt": "2026-11-17T22:11:29.081998+00:00",
+ "dealType": "bulk deal",
+ "enrichmentState": null,
+ "id": 1381,
+ "individuals": [
+  "RIBBIT CAYMAN GW HOLDINGS V LTD."
+ ],
+ "listed": false,
+ "oneLine": "RIBBIT CAYMAN GW HOLDINGS V LTD. sold shares in Billionbrains Garage Vn L (confirmed, NSE bulk deal)",
+ "primaryUrl": "",
+ "seller": "RIBBIT CAYMAN GW HOLDINGS V LTD.",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-11-17T22:11:29.083723+00:00",
+   "outlet": "NSE",
+   "resolvable": true,
+   "title": "Billionbrains Garage Vn L: bulk deal",
+   "url": ""
+  },
+  {
+   "attachedAt": "2026-11-17T22:11:29.125847+00:00",
+   "outlet": "NSE",
+   "resolvable": true,
+   "title": "Billionbrains Garage Vn L: block deal",
+   "url": ""
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-11-17T22:11:29.127192+00:00"
+}

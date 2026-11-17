@@ -1,0 +1,41 @@
+{
+ "advisers": [],
+ "amountCr": 301.9,
+ "amountRaw": "301.9cr confirmed via NSE block deal",
+ "buyer": null,
+ "company": "Alkem Laboratories Ltd.",
+ "confidence": "high",
+ "confirmed": true,
+ "createdAt": "2026-11-17T22:11:29.040979+00:00",
+ "dealType": "bulk deal",
+ "enrichmentState": null,
+ "id": 1379,
+ "individuals": [
+  "SAMPRADA&NANHAMATI SINGH FAMILY TRUST"
+ ],
+ "listed": true,
+ "oneLine": "SAMPRADA&NANHAMATI SINGH FAMILY TRUST sold shares in Alkem Laboratories Ltd. (confirmed, NSE bulk deal)",
+ "primaryUrl": "",
+ "seller": "SAMPRADA&NANHAMATI SINGH FAMILY TRUST",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-11-17T22:11:29.042108+00:00",
+   "outlet": "NSE",
+   "resolvable": true,
+   "title": "Alkem Laboratories Ltd.: bulk deal",
+   "url": ""
+  },
+  {
+   "attachedAt": "2026-11-17T22:11:29.116580+00:00",
+   "outlet": "NSE",
+   "resolvable": true,
+   "title": "Alkem Laboratories Ltd.: block deal",
+   "url": ""
+  }
+ ],
+ "synopsis": null,
+ "ticker": "ALKEM.NS",
+ "updatedAt": "2026-11-17T22:11:29.117657+00:00"
+}
