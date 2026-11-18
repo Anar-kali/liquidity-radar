@@ -1,6 +1,30 @@
 {
- "dealCount": 754,
+ "dealCount": 755,
  "deals": [
+  {
+   "amountCr": 800.15,
+   "amountRaw": "800.15cr confirmed via NSE bulk deal",
+   "company": "Azad Engineering Limited",
+   "confidence": "high",
+   "confirmed": true,
+   "createdAt": "2026-11-18T21:49:13.232728+00:00",
+   "dealType": "bulk deal",
+   "enrichmentState": null,
+   "id": 1382,
+   "individuals": [
+    "RAKESH CHOPDAR"
+   ],
+   "listed": true,
+   "oneLine": "RAKESH CHOPDAR sold shares in Azad Engineering Limited (confirmed, NSE bulk deal)",
+   "primaryOutlet": "NSE",
+   "seller": "RAKESH CHOPDAR",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "AZAD.NS",
+   "updatedAt": "2026-11-18T21:49:13.232728+00:00",
+   "updates": []
+  },
   {
    "amountCr": 841.25,
    "amountRaw": "841.25cr confirmed via NSE block deal",
@@ -22952,6 +22976,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-11-17T22:11:29.127192+00:00",
- "totalDeals": 1034
+ "generatedAt": "2026-11-18T21:49:13.232728+00:00",
+ "totalDeals": 1035
 }
