@@ -1,0 +1,56 @@
+{
+ "advisers": [],
+ "amountCr": 1130.5,
+ "amountRaw": "1130.5cr confirmed via NSE block deal",
+ "buyer": null,
+ "company": "IIFL CAPITAL SERVICES LTD",
+ "confidence": "high",
+ "confirmed": true,
+ "createdAt": "2026-11-19T22:05:50.781618+00:00",
+ "dealType": "bulk deal",
+ "enrichmentState": null,
+ "id": 1393,
+ "individuals": [
+  "VENKATRAMAN R",
+  "NIRMAL BHANWARLAL JAIN"
+ ],
+ "listed": true,
+ "oneLine": "VENKATRAMAN R sold shares in IIFL CAPITAL SERVICES LTD (confirmed, NSE bulk deal)",
+ "primaryUrl": "",
+ "seller": "VENKATRAMAN R",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-11-19T22:05:50.782664+00:00",
+   "outlet": "NSE",
+   "resolvable": true,
+   "title": "IIFL CAPITAL SERVICES LTD: bulk deal",
+   "url": ""
+  },
+  {
+   "attachedAt": "2026-11-19T22:05:50.786051+00:00",
+   "outlet": "NSE",
+   "resolvable": true,
+   "title": "IIFL CAPITAL SERVICES LTD: bulk deal",
+   "url": ""
+  },
+  {
+   "attachedAt": "2026-11-19T22:05:50.804805+00:00",
+   "outlet": "NSE",
+   "resolvable": true,
+   "title": "IIFL CAPITAL SERVICES LTD: block deal",
+   "url": ""
+  },
+  {
+   "attachedAt": "2026-11-19T22:05:50.810174+00:00",
+   "outlet": "NSE",
+   "resolvable": true,
+   "title": "IIFL CAPITAL SERVICES LTD: block deal",
+   "url": ""
+  }
+ ],
+ "synopsis": null,
+ "ticker": "IIFLCAPS.NS",
+ "updatedAt": "2026-11-19T22:05:50.811036+00:00"
+}
