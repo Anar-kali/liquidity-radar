@@ -2,6 +2,246 @@
  "dealCount": 755,
  "deals": [
   {
+   "amountCr": 800.0,
+   "amountRaw": "8 billion rupees",
+   "company": "Aragen Life Sciences",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-19T08:48:38.280523+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 1392,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Aragen Life Sciences files for IPO including a fresh issue and offer for sale.",
+   "primaryOutlet": "ET Corporate",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-19T08:48:38.280523+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 1320.0,
+   "amountRaw": "$150 million",
+   "company": "Narayana Hrudayalaya",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-19T08:48:38.250593+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1391,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Aster DM in talks to purchase rival hospitals from Narayana Hrudayalaya for about $150 million.",
+   "primaryOutlet": "ET Corporate",
+   "seller": "Narayana Hrudayalaya Ltd.",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "NH.NS",
+   "updatedAt": "2026-11-19T08:48:38.250593+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Yapan Bio",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-19T08:48:38.248771+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1390,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Piramal Pharma exercises option to acquire remaining 26% stake in Yapan Bio.",
+   "primaryOutlet": "Business Line",
+   "seller": "existing shareholders of Yapan Bio Private Limited",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-19T08:49:10.171269+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 1600.0,
+   "amountRaw": "Rs 1,600 Crore",
+   "company": "A2B",
+   "confidence": "high",
+   "confirmed": false,
+   "createdAt": "2026-11-19T08:48:38.244654+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1389,
+   "individuals": [
+    "K.T. Srinivasa Raja",
+    "Sivaraj Sekar"
+   ],
+   "listed": false,
+   "oneLine": "Bodhi Tree acquired a majority stake in A2B for Rs 1,600 crore.",
+   "primaryOutlet": "YourStory",
+   "seller": "Adyar Ananda Bhavan (A2B)",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-19T08:49:06.754858+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 1905.0,
+   "amountRaw": "Rs 1,905 Cr",
+   "company": "Billionbrains Garage Ventures",
+   "confidence": "high",
+   "confirmed": false,
+   "createdAt": "2026-11-19T08:48:38.238507+00:00",
+   "dealType": "block deal",
+   "enrichmentState": null,
+   "id": 1388,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Ribbit Capital sold a Rs 1,905 crore stake in Groww parent Billionbrains Garage Ventures.",
+   "primaryOutlet": "Entrackr",
+   "seller": "Ribbit Capital",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 3,
+   "ticker": "GROWW.NS",
+   "updatedAt": "2026-11-19T08:49:02.340126+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-11-19T08:48:38.259740+00:00",
+     "title": "Ribbit Capital Sells 1.4% Stake In Groww For ₹1,905 Cr Via Block Deals"
+    },
+    {
+     "attachedAt": "2026-11-19T08:48:38.262228+00:00",
+     "title": "Kotak MF, BlackRock among investors buying Rs 1,905-Cr stake in Groww"
+    }
+   ]
+  },
+  {
+   "amountCr": 7000.0,
+   "amountRaw": "₹7,000 crore",
+   "company": "Megha Engineering",
+   "confidence": "high",
+   "confirmed": false,
+   "createdAt": "2026-11-19T08:48:38.229897+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1387,
+   "individuals": [
+    "PP Reddy",
+    "PV Krishna Reddy"
+   ],
+   "listed": false,
+   "oneLine": "PV Krishna Reddy raised Rs 7,000 crore to buy out PP Reddy's stake in Megha Engineering.",
+   "primaryOutlet": "Mint",
+   "seller": "PP Reddy",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-19T08:48:58.316029+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Rediff com India Limited",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-19T08:48:38.212928+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 1386,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Rediff.com India filed a draft abridged prospectus for an IPO.",
+   "primaryOutlet": "Draft Abridged Prospectus",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 2,
+   "ticker": null,
+   "updatedAt": "2026-11-19T08:48:38.212928+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-11-19T08:48:38.217922+00:00",
+     "title": "Rediff com India Limited"
+    }
+   ]
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "LIQVD DIGITAL INDIA LIMITED",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-19T08:48:38.196713+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 1385,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "LIQVD Digital India released its prospectus for a public listing.",
+   "primaryOutlet": "Prospectus",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-19T08:48:38.196713+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Eldorado Agritech Limited",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-19T08:48:38.189263+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 1384,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Eldorado Agritech filed an addendum to its DRHP for a planned IPO.",
+   "primaryOutlet": "Addendum to the DRHP",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-19T08:48:38.189263+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Chartered Speed Limited",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-19T08:48:38.182136+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 1383,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Chartered Speed filed an addendum to its DRHP for a planned IPO.",
+   "primaryOutlet": "SEBI",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-19T08:48:38.182136+00:00",
+   "updates": []
+  },
+  {
    "amountCr": 800.15,
    "amountRaw": "800.15cr confirmed via NSE bulk deal",
    "company": "Azad Engineering Limited",
@@ -588,7 +828,7 @@
    "seller": "IL JIN Electronics (India) Ltd",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 4,
+   "sourceCount": 6,
    "ticker": null,
    "updatedAt": "2026-11-09T17:48:05.740194+00:00",
    "updates": [
@@ -603,6 +843,14 @@
     {
      "attachedAt": "2026-11-13T12:34:05.434299+00:00",
      "title": "IL JIN Electronics eyes Rs 2,500-cr via IPO"
+    },
+    {
+     "attachedAt": "2026-11-19T08:48:38.201664+00:00",
+     "title": "IL JIN ELECTRONICS (INDIA) LIMITED - DRHPIL JIN ELECTRONICS (INDIA) LIMITED"
+    },
+    {
+     "attachedAt": "2026-11-19T08:48:38.206599+00:00",
+     "title": "IL JIN ELECTRONICS (INDIA) LIMITED"
     }
    ]
   },
@@ -925,7 +1173,7 @@
    "seller": "Coal India",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 10,
+   "sourceCount": 12,
    "ticker": null,
    "updatedAt": "2026-11-14T11:46:24.199769+00:00",
    "updates": [
@@ -964,6 +1212,14 @@
     {
      "attachedAt": "2026-11-14T11:46:24.235258+00:00",
      "title": "Mahanadi Coalfields IPO may open next week, issue size pegged at Rs 10,000 crore"
+    },
+    {
+     "attachedAt": "2026-11-19T08:48:38.223022+00:00",
+     "title": "Mahanadi Coalfields Limited - RHPMahanadi Coalfields Limited"
+    },
+    {
+     "attachedAt": "2026-11-19T08:48:38.227731+00:00",
+     "title": "Mahanadi Coalfields Limited"
     }
    ]
   },
@@ -22616,366 +22872,9 @@
    "ticker": "505343.BO",
    "updatedAt": "2026-09-22T05:25:44.281635+00:00",
    "updates": []
-  },
-  {
-   "amountCr": null,
-   "amountRaw": null,
-   "company": "Carlsberg India",
-   "confidence": "medium",
-   "confirmed": false,
-   "createdAt": "2026-08-21T08:31:21.168076+00:00",
-   "dealType": "other",
-   "enrichmentState": null,
-   "id": 516,
-   "individuals": [],
-   "listed": false,
-   "oneLine": "Carlsberg India IPO plans advance; mid-teen H1 growth reported.",
-   "primaryOutlet": "Whalesbook",
-   "seller": "Carlsberg parent / promoters",
-   "sizeBand": null,
-   "sizeSource": "unknown",
-   "sourceCount": 2,
-   "ticker": null,
-   "updatedAt": "2026-09-22T05:25:44.279532+00:00",
-   "updates": [
-    {
-     "attachedAt": "2026-08-21T08:31:21.179183+00:00",
-     "title": "Carlsberg India posts strong volume growth in H1, IPO process underway: Global CEO Aarup-Andersen."
-    }
-   ]
-  },
-  {
-   "amountCr": null,
-   "amountRaw": null,
-   "company": "Enbee Trade",
-   "confidence": "medium",
-   "confirmed": false,
-   "createdAt": "2026-08-21T07:31:13.510626+00:00",
-   "dealType": "block deal",
-   "enrichmentState": null,
-   "id": 515,
-   "individuals": [
-    "Meyhul Gaala"
-   ],
-   "listed": true,
-   "oneLine": "Meyhul Gaala exits Enbee Trade stake completely.",
-   "primaryOutlet": "scanx.trade",
-   "seller": "Meyhul Gaala",
-   "sizeBand": null,
-   "sizeSource": "unknown",
-   "sourceCount": 1,
-   "ticker": "512441.BO",
-   "updatedAt": "2026-08-21T07:31:13.510626+00:00",
-   "updates": []
-  },
-  {
-   "amountCr": null,
-   "amountRaw": null,
-   "company": "IDBI Bank",
-   "confidence": "medium",
-   "confirmed": false,
-   "createdAt": "2026-08-21T06:31:30.829789+00:00",
-   "dealType": "strategic buyout",
-   "enrichmentState": null,
-   "id": 514,
-   "individuals": [],
-   "listed": true,
-   "oneLine": "Fairfax Financial to acquire majority stake in IDBI Bank from LIC and government",
-   "primaryOutlet": "ET Corporate",
-   "seller": "Life Insurance Corporation; Government of India",
-   "sizeBand": null,
-   "sizeSource": "mcap_plausible",
-   "sourceCount": 1,
-   "ticker": "IDBI.NS",
-   "updatedAt": "2026-09-22T05:25:44.277223+00:00",
-   "updates": []
-  },
-  {
-   "amountCr": 850.0,
-   "amountRaw": "block deals worth ₹850 crore",
-   "company": "Amagi Media; Shadowfax Technologies",
-   "confidence": "medium",
-   "confirmed": false,
-   "createdAt": "2026-08-21T06:31:30.310898+00:00",
-   "dealType": "block deal",
-   "enrichmentState": null,
-   "id": 513,
-   "individuals": [],
-   "listed": false,
-   "oneLine": "Block deals in Amagi Media and Shadowfax Technologies worth Rs 850 crore",
-   "primaryOutlet": "CNBC TV18",
-   "seller": null,
-   "sizeBand": null,
-   "sizeSource": "stated",
-   "sourceCount": 1,
-   "ticker": null,
-   "updatedAt": "2026-08-21T06:31:30.310898+00:00",
-   "updates": []
-  },
-  {
-   "amountCr": null,
-   "amountRaw": null,
-   "company": "J PAN TUBULAR COMPONENTS LIMITED",
-   "confidence": "medium",
-   "confirmed": false,
-   "createdAt": "2026-08-21T06:31:30.304001+00:00",
-   "dealType": "DRHP filing",
-   "enrichmentState": null,
-   "id": 512,
-   "individuals": [],
-   "listed": false,
-   "oneLine": "J PAN TUBULAR COMPONENTS LIMITED files DRHP for IPO",
-   "primaryOutlet": "Draft Abridged Prospectus",
-   "seller": null,
-   "sizeBand": null,
-   "sizeSource": "unknown",
-   "sourceCount": 3,
-   "ticker": null,
-   "updatedAt": "2026-08-21T06:31:30.304001+00:00",
-   "updates": [
-    {
-     "attachedAt": "2026-08-21T06:31:30.306803+00:00",
-     "title": "J PAN TUBULAR COMPONENTS LIMITED"
-    },
-    {
-     "attachedAt": "2026-10-19T14:31:44.261630+00:00",
-     "title": "J Pan Tubular Components gets SEBI nod to proceed with IPO plans"
-    }
-   ]
-  },
-  {
-   "amountCr": null,
-   "amountRaw": null,
-   "company": "HY-TECH ENGINEERS LIMITED",
-   "confidence": "medium",
-   "confirmed": false,
-   "createdAt": "2026-08-21T06:31:30.298062+00:00",
-   "dealType": "DRHP filing",
-   "enrichmentState": null,
-   "id": 511,
-   "individuals": [],
-   "listed": true,
-   "oneLine": "HY-TECH ENGINEERS LIMITED files RHP/DRHP for IPO",
-   "primaryOutlet": "Abridged Prospectus",
-   "seller": null,
-   "sizeBand": null,
-   "sizeSource": "unknown",
-   "sourceCount": 3,
-   "ticker": "HTEL.NS",
-   "updatedAt": "2026-09-22T05:25:45.501892+00:00",
-   "updates": [
-    {
-     "attachedAt": "2026-08-21T06:31:30.301598+00:00",
-     "title": "HY-TECH ENGINEERS LIMITED"
-    },
-    {
-     "attachedAt": "2026-08-28T11:31:20.149322+00:00",
-     "title": "Hy Tech Engineers Limited"
-    }
-   ]
-  },
-  {
-   "amountCr": null,
-   "amountRaw": null,
-   "company": "Disha Resources",
-   "confidence": "medium",
-   "confirmed": false,
-   "createdAt": "2026-08-21T05:32:32.754995+00:00",
-   "dealType": "block deal",
-   "enrichmentState": null,
-   "id": 510,
-   "individuals": [
-    "Krishna Awtar Kabra"
-   ],
-   "listed": true,
-   "oneLine": "Disha Resources promoter Krishna Awtar Kabra sells 1.57% stake.",
-   "primaryOutlet": "scanx.trade",
-   "seller": "Krishna Awtar Kabra",
-   "sizeBand": null,
-   "sizeSource": "unknown",
-   "sourceCount": 1,
-   "ticker": "531553.BO",
-   "updatedAt": "2026-08-21T05:32:32.754995+00:00",
-   "updates": []
-  },
-  {
-   "amountCr": 2640.0,
-   "amountRaw": "$300 million = ~Rs 2,640 crore at 88 INR/USD",
-   "company": "Nobel Hygiene",
-   "confidence": "high",
-   "confirmed": false,
-   "createdAt": "2026-08-21T05:32:32.472754+00:00",
-   "dealType": "DRHP filing",
-   "enrichmentState": null,
-   "id": 509,
-   "individuals": [],
-   "listed": false,
-   "oneLine": "Nobel Hygiene files DRHP for IPO; Quadria to exit",
-   "primaryOutlet": "ET Now",
-   "seller": "Quadria Capital",
-   "sizeBand": null,
-   "sizeSource": "stated",
-   "sourceCount": 6,
-   "ticker": null,
-   "updatedAt": "2026-09-22T05:25:44.839821+00:00",
-   "updates": [
-    {
-     "attachedAt": "2026-08-21T06:31:30.313960+00:00",
-     "title": "Quadria-backed Nobel Hygiene Files Sebi Papers for IPO"
-    },
-    {
-     "attachedAt": "2026-08-21T07:31:13.516371+00:00",
-     "title": "Quadria Capital-backed Nobel Hygiene files draft papers with Sebi to raise funds via IPO - Mid-Day"
-    },
-    {
-     "attachedAt": "2026-08-21T08:31:21.150291+00:00",
-     "title": "Quadria Capital-backed Nobel Hygiene files papers with SEBI to raise funds via IPO"
-    },
-    {
-     "attachedAt": "2026-08-21T08:31:21.152576+00:00",
-     "title": "India: Quadria-backed Nobel Hygiene files draft IPO papers with Sebi"
-    },
-    {
-     "attachedAt": "2026-08-21T11:31:16.176107+00:00",
-     "title": "Home-grown hygiene products maker Nobel Hygiene files DRHP with SEBI for IPO"
-    }
-   ]
-  },
-  {
-   "amountCr": null,
-   "amountRaw": null,
-   "company": "Shree Digvijay Cement",
-   "confidence": "medium",
-   "confirmed": false,
-   "createdAt": "2026-08-21T05:32:32.409562+00:00",
-   "dealType": "strategic buyout",
-   "enrichmentState": null,
-   "id": 508,
-   "individuals": [],
-   "listed": true,
-   "oneLine": "Shree Digvijay Cement capacity expansion with promoter change expected FY26.",
-   "primaryOutlet": "Whalesbook",
-   "seller": null,
-   "sizeBand": null,
-   "sizeSource": "mcap_plausible",
-   "sourceCount": 1,
-   "ticker": "SHREDIGCEM.NS",
-   "updatedAt": "2026-08-21T05:32:32.409562+00:00",
-   "updates": []
-  },
-  {
-   "amountCr": 450.0,
-   "amountRaw": "Rs 450 Crore Fresh Issue",
-   "company": "Atomberg Technologies files DRHP with SEBI for IPO; plans Rs 450 crore fresh issue, 7.65 crore-share OFS",
-   "confidence": "medium",
-   "confirmed": false,
-   "createdAt": "2026-08-21T04:24:05.795670+00:00",
-   "dealType": "unknown",
-   "enrichmentState": null,
-   "id": 494,
-   "individuals": [],
-   "listed": false,
-   "oneLine": "Atomberg Technologies files DRHP with SEBI for IPO; plans Rs 450 crore fresh issue, 7.65 crore-share OFS - ET Now",
-   "primaryOutlet": "ET Now",
-   "seller": "A91, Temasek, Jungle Ventures",
-   "sizeBand": null,
-   "sizeSource": "stated",
-   "sourceCount": 23,
-   "ticker": null,
-   "updatedAt": "2026-09-22T05:25:44.837056+00:00",
-   "updates": [
-    {
-     "attachedAt": "2026-08-21T04:41:51.659568+00:00",
-     "title": "Atomberg Files DRHP With For ₹450 Cr+ IPO"
-    },
-    {
-     "attachedAt": "2026-08-21T04:41:51.758366+00:00",
-     "title": "Atomberg files draft IPO papers for Rs 450 Cr fresh issue; sellers include A91, Temasek"
-    },
-    {
-     "attachedAt": "2026-08-21T05:32:32.415160+00:00",
-     "title": "Atomberg Technologies files DRHP with SEBI for IPO comprising fresh issue, OFS components"
-    },
-    {
-     "attachedAt": "2026-08-21T05:32:32.468957+00:00",
-     "title": "Atomberg files DRHP for Rs 450 Cr fresh issue; A91, Temasek, Jungle Ventures, and others to take partial exit"
-    },
-    {
-     "attachedAt": "2026-08-21T05:32:32.496051+00:00",
-     "title": "Atomberg Technologies files IPO papers, lines up ₹450 crore fresh issue"
-    },
-    {
-     "attachedAt": "2026-08-21T05:32:32.498252+00:00",
-     "title": "Appliance maker Atomberg files draft IPO papers with Rs 450-crore fresh issue"
-    },
-    {
-     "attachedAt": "2026-08-21T05:32:32.503990+00:00",
-     "title": "Atomberg Technologies files DRHP for IPO; eyes ₹450 crore fresh issue"
-    },
-    {
-     "attachedAt": "2026-08-21T05:32:32.764922+00:00",
-     "title": "Atomberg IPO: Jungle Ventures-Backed Company Files DRHP For Rs 450 Crore Fresh Issue"
-    },
-    {
-     "attachedAt": "2026-08-21T06:31:30.315922+00:00",
-     "title": "Atomberg Technologies Files IPO Papers for Rs 450 Cr Fresh Issue"
-    },
-    {
-     "attachedAt": "2026-08-21T08:31:21.155019+00:00",
-     "title": "Consumer appliance maker Atomberg files IPO papers with SEBI for up to Rs 450 crore fresh issue, 7.65 crore-share OFS"
-    },
-    {
-     "attachedAt": "2026-08-21T09:31:10.984639+00:00",
-     "title": "Atomberg IPO: Smart appliance pioneer files DRHP for Rs 450 crore fresh issue — 6 ‘must know’ details"
-    },
-    {
-     "attachedAt": "2026-08-21T09:31:10.986751+00:00",
-     "title": "Atomberg files IPO papers with Sebi for raising up to Rs 450 crore"
-    },
-    {
-     "attachedAt": "2026-08-21T10:31:14.480361+00:00",
-     "title": "Atomberg Technologies IPO: Premium fan maker files DRHP with SEBI launch IPO; check details"
-    },
-    {
-     "attachedAt": "2026-08-21T10:31:14.484575+00:00",
-     "title": "Atomberg files IPO papers for ₹450cr fresh issue"
-    },
-    {
-     "attachedAt": "2026-08-21T11:31:16.182557+00:00",
-     "title": "Atomberg’s early investors, founders sold Rs 683 Cr stake since 2019; A91 sold Rs 445 Cr"
-    },
-    {
-     "attachedAt": "2026-08-21T12:31:22.842542+00:00",
-     "title": "Atomberg Technologies Files for IPO as Appliance Demand Grows"
-    },
-    {
-     "attachedAt": "2026-08-21T13:31:04.694748+00:00",
-     "title": "Atomberg Files DRHP for Rs 450 Crore Fresh Issue Ahead of IPO"
-    },
-    {
-     "attachedAt": "2026-08-24T01:33:23.444238+00:00",
-     "title": "A91 Partners, Jungle Ventures-backed Atomberg files DRHP for IPO; plans ₹450 crore fresh issue"
-    },
-    {
-     "attachedAt": "2026-08-24T01:33:24.385287+00:00",
-     "title": "Atomberg IPO decoded: Issue size, investor exits, financials and key risks"
-    },
-    {
-     "attachedAt": "2026-08-24T01:33:24.553929+00:00",
-     "title": "Atomberg Files IPO Papers; A91 Partners to Sell ₹445 Cr Stake"
-    },
-    {
-     "attachedAt": "2026-08-24T01:33:24.581069+00:00",
-     "title": "A91 invests Rs 143 Cr in Atomberg, sells Rs 445 Cr stake while retaining 21%"
-    },
-    {
-     "attachedAt": "2026-08-24T01:33:24.609497+00:00",
-     "title": "A91 Partners set to cash out ₹445 crore from Atomberg ahead of IPO"
-    }
-   ]
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-11-18T21:49:13.232728+00:00",
- "totalDeals": 1035
+ "generatedAt": "2026-11-19T08:49:10.171269+00:00",
+ "totalDeals": 1045
 }

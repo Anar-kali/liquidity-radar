@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "Piramal Pharma",
+ "company": "Yapan Bio",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-19T08:48:38.248771+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1390,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Piramal Pharma exercises option to acquire remaining 26% stake in Yapan Bio.",
+ "primaryUrl": "https://www.thehindubusinessline.com/companies/piramal-pharma-to-acquire-remaining-26-stake-in-yapan-bio/article71718629.ece",
+ "seller": "existing shareholders of Yapan Bio Private Limited",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-11-19T08:48:38.249298+00:00",
+   "outlet": "Business Line",
+   "resolvable": true,
+   "title": "Piramal Pharma to acquire remaining 26% stake in Yapan Bio",
+   "url": "https://www.thehindubusinessline.com/companies/piramal-pharma-to-acquire-remaining-26-stake-in-yapan-bio/article71718629.ece"
+  }
+ ],
+ "synopsis": "Piramal Pharma Limited has approved the exercise of a call option to acquire the remaining 26 per cent equity stake in Yapan Bio Private Limited from its existing shareholders. Following the transaction, Piramal Pharma's shareholding in Yapan Bio will increase from 74 per cent to 100 per cent, making it a wholly owned subsidiary. The final acquisition terms, including the consideration amount and the effective date of the share transfer, are yet to be finalised as the company is currently engaged in discussions with the shareholders of Yapan.",
+ "ticker": null,
+ "updatedAt": "2026-11-19T08:49:10.171269+00:00"
+}

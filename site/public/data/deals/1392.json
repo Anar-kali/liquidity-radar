@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 800.0,
+ "amountRaw": "8 billion rupees",
+ "buyer": null,
+ "company": "Aragen Life Sciences",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-19T08:48:38.280523+00:00",
+ "dealType": "IPO-OFS",
+ "enrichmentState": null,
+ "id": 1392,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Aragen Life Sciences files for IPO including a fresh issue and offer for sale.",
+ "primaryUrl": "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/ipo-bound-aragen-plans-to-spend-rs-15-billion-over-3-years-for-expansion-md-says/articleshow/135956847.cms",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-11-19T08:48:38.281461+00:00",
+   "outlet": "ET Corporate",
+   "resolvable": true,
+   "title": "IPO-bound Aragen plans to spend Rs 15 billion over 3 years for expansion, MD says",
+   "url": "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/ipo-bound-aragen-plans-to-spend-rs-15-billion-over-3-years-for-expansion-md-says/articleshow/135956847.cms"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-11-19T08:48:38.280523+00:00"
+}

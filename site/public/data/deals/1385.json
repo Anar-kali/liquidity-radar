@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "LIQVD DIGITAL INDIA LIMITED",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-19T08:48:38.196713+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": "failed",
+ "id": 1385,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "LIQVD Digital India released its prospectus for a public listing.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/nov-2026/liqvd-digital-india-limited-prospectus_105796.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-11-19T08:48:38.197291+00:00",
+   "outlet": "Prospectus",
+   "resolvable": true,
+   "title": "LIQVD DIGITAL INDIA LIMITED",
+   "url": "https://www.sebi.gov.in/filings/public-issues/nov-2026/liqvd-digital-india-limited-prospectus_105796.html"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-11-19T08:48:38.196713+00:00"
+}

@@ -1,0 +1,35 @@
+{
+ "advisers": [],
+ "amountCr": 7000.0,
+ "amountRaw": "₹7,000 crore",
+ "buyer": "PV Krishna Reddy",
+ "company": "Megha Engineering",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-11-19T08:48:38.229897+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1387,
+ "individuals": [
+  "PP Reddy",
+  "PV Krishna Reddy"
+ ],
+ "listed": false,
+ "oneLine": "PV Krishna Reddy raised Rs 7,000 crore to buy out PP Reddy's stake in Megha Engineering.",
+ "primaryUrl": "https://www.livemint.com/companies/news/krishna-reddy-raises-rs-7-000-crore-to-buy-out-uncle-pp-reddy-s-stake-in-megha-engineering-report-11794990852503.html",
+ "seller": "PP Reddy",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-11-19T08:48:38.230584+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "Krishna Reddy raises ₹7,000 crore to buy out uncle PP Reddy’s stake in Megha Engineering: Report",
+   "url": "https://www.livemint.com/companies/news/krishna-reddy-raises-rs-7-000-crore-to-buy-out-uncle-pp-reddy-s-stake-in-megha-engineering-report-11794990852503.html"
+  }
+ ],
+ "synopsis": "PV Krishna Reddy, managing director of Megha Engineering and Infrastructure, has raised around Rs 7,000 crore from a consortium of global investors led by Davidson Kempner Capital Management LP, alongside Värde Partners and Hillhouse Capital. The financing forms part of a family settlement in which Krishna Reddy is acquiring the remaining 43 percent stake held by his uncle, Pamireddy Pitchi Reddy, the executive chairman of the company. Krishna Reddy currently owns 57 percent of Megha Engineering. The transaction counts among India's largest private credit deals for the year.",
+ "ticker": null,
+ "updatedAt": "2026-11-19T08:48:58.316029+00:00"
+}

@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Chartered Speed Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-19T08:48:38.182136+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": "failed",
+ "id": 1383,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Chartered Speed filed an addendum to its DRHP for a planned IPO.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/nov-2026/chartered-speed-limited-addendum-to-the-drhp_105815.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-11-19T08:48:38.183018+00:00",
+   "outlet": "SEBI",
+   "resolvable": true,
+   "title": "Chartered Speed Limited_Addendum to the DRHP",
+   "url": "https://www.sebi.gov.in/filings/public-issues/nov-2026/chartered-speed-limited-addendum-to-the-drhp_105815.html"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-11-19T08:48:38.182136+00:00"
+}

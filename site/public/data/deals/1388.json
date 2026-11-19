@@ -1,0 +1,46 @@
+{
+ "advisers": [],
+ "amountCr": 1905.0,
+ "amountRaw": "Rs 1,905 Cr",
+ "buyer": "Kotak MF, BlackRock and others",
+ "company": "Billionbrains Garage Ventures",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-11-19T08:48:38.238507+00:00",
+ "dealType": "block deal",
+ "enrichmentState": null,
+ "id": 1388,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Ribbit Capital sold a Rs 1,905 crore stake in Groww parent Billionbrains Garage Ventures.",
+ "primaryUrl": "https://entrackr.com/news/ribbit-capital-sells-rs-1905-cr-stake-in-groww-through-block-deal-12819027",
+ "seller": "Ribbit Capital",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-11-19T08:48:38.239057+00:00",
+   "outlet": "Entrackr",
+   "resolvable": true,
+   "title": "Ribbit Capital sells Rs 1,905 Cr stake in Groww through block deal",
+   "url": "https://entrackr.com/news/ribbit-capital-sells-rs-1905-cr-stake-in-groww-through-block-deal-12819027"
+  },
+  {
+   "attachedAt": "2026-11-19T08:48:38.259740+00:00",
+   "outlet": "Entrackr",
+   "resolvable": true,
+   "title": "Ribbit Capital Sells 1.4% Stake In Groww For ₹1,905 Cr Via Block Deals",
+   "url": "https://inc42.com/buzz/ribbit-capital-sells-1-4-stake-in-groww-for-%e2%82%b91905-cr-via-block-deals/"
+  },
+  {
+   "attachedAt": "2026-11-19T08:48:38.262228+00:00",
+   "outlet": "Entrackr",
+   "resolvable": true,
+   "title": "Kotak MF, BlackRock among investors buying Rs 1,905-Cr stake in Groww",
+   "url": "https://yourstory.com/2026/11/kotak-mf-blackrock-among-investors-buying-rs-1905-cr-stake-in-groww"
+  }
+ ],
+ "synopsis": "US-based venture capital firm Ribbit Capital has sold shares worth around Rs 1,905 crore in Billionbrains Garage Ventures, the parent company of stockbroking platform Groww, through block deals on Tuesday, November 17. Entities Ribbit Capital V LP and Ribbit Cayman GW Holdings V Ltd sold a combined 1.38% stake, amounting to approximately 8.7 crore shares at Rs 219 per share. Buyers in the transaction included institutional investors such as Kotak Mahindra Mutual Fund, BlackRock, Societe Generale, Fidelity, BNP Paribas, Morgan Stanley, HDFC Life Insurance, and Norges Bank. This follows earlier stake sales by early investors following Groww's stock market debut in November 2025.",
+ "ticker": "GROWW.NS",
+ "updatedAt": "2026-11-19T08:49:02.340126+00:00"
+}

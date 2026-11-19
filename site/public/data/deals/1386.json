@@ -1,0 +1,39 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Rediff com India Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-19T08:48:38.212928+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": "failed",
+ "id": 1386,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Rediff.com India filed a draft abridged prospectus for an IPO.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/nov-2026/rediff-com-india-limited-udrhp-i_105794.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-11-19T08:48:38.213643+00:00",
+   "outlet": "Draft Abridged Prospectus",
+   "resolvable": true,
+   "title": "Rediff com India Limited - UDRHP-IRediff com India Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/nov-2026/rediff-com-india-limited-udrhp-i_105794.html"
+  },
+  {
+   "attachedAt": "2026-11-19T08:48:38.217922+00:00",
+   "outlet": "Draft Abridged Prospectus",
+   "resolvable": true,
+   "title": "Rediff com India Limited",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Rediff_DA_p.pdf"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-11-19T08:48:38.212928+00:00"
+}

@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 1320.0,
+ "amountRaw": "$150 million",
+ "buyer": "Aster DM Quality Care Ltd.",
+ "company": "Narayana Hrudayalaya",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-19T08:48:38.250593+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1391,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Aster DM in talks to purchase rival hospitals from Narayana Hrudayalaya for about $150 million.",
+ "primaryUrl": "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/blackstone-backed-aster-dm-in-talks-to-acquire-rival-hospitals-in-deeper-india-push/articleshow/135980019.cms",
+ "seller": "Narayana Hrudayalaya Ltd.",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-11-19T08:48:38.251133+00:00",
+   "outlet": "ET Corporate",
+   "resolvable": true,
+   "title": "Blackstone-backed Aster DM in talks to acquire rival hospitals in deeper India push",
+   "url": "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/blackstone-backed-aster-dm-in-talks-to-acquire-rival-hospitals-in-deeper-india-push/articleshow/135980019.cms"
+  }
+ ],
+ "synopsis": null,
+ "ticker": "NH.NS",
+ "updatedAt": "2026-11-19T08:48:38.250593+00:00"
+}

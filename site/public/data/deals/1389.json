@@ -1,0 +1,35 @@
+{
+ "advisers": [],
+ "amountCr": 1600.0,
+ "amountRaw": "Rs 1,600 Crore",
+ "buyer": "Bodhi Tree",
+ "company": "A2B",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-11-19T08:48:38.244654+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1389,
+ "individuals": [
+  "K.T. Srinivasa Raja",
+  "Sivaraj Sekar"
+ ],
+ "listed": false,
+ "oneLine": "Bodhi Tree acquired a majority stake in A2B for Rs 1,600 crore.",
+ "primaryUrl": "https://yourstory.com/2026/11/a2b-bodhi-tree-majority-stake-rs-1600-crore-deal-vedacorp",
+ "seller": "Adyar Ananda Bhavan (A2B)",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-11-19T08:48:38.245235+00:00",
+   "outlet": "YourStory",
+   "resolvable": true,
+   "title": "How VedaCorp Sealed the Rs 1,600 Crore A2B–Bodhi Tree Deal After 8 Years",
+   "url": "https://yourstory.com/2026/11/a2b-bodhi-tree-majority-stake-rs-1600-crore-deal-vedacorp"
+  }
+ ],
+ "synopsis": "Bodhi Tree Systems acquired a majority stake in South Indian restaurant and sweet chain Adyar Ananda Bhavan (A2B) for approximately Rs 1,600 crore, valuing the target company between $350 million and roughly Rs 2,800 crore to Rs 3,400 crore. The deal transitions the traditionally run family business to institutional ownership with the goal of driving global expansion and preparing the company for a stock market listing. VedaCorp acted as the exclusive financial adviser for the transaction, which followed a relationship built over seven to eight years between the advisers and A2B co-founders K.T. Srinivasa Raja and Venkatesan.",
+ "ticker": null,
+ "updatedAt": "2026-11-19T08:49:06.754858+00:00"
+}
