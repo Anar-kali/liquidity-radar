@@ -1,0 +1,43 @@
+{
+ "advisers": [],
+ "amountCr": 15316.1,
+ "amountRaw": "26% x mcap ~Rs 58908cr = ~Rs 15316cr",
+ "buyer": "Tata Steel / ArcelorMittal",
+ "company": "APL Apollo",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-21T11:02:37.356764+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1397,
+ "individuals": [
+  "Sanjay Gupta",
+  "Rahul Gupta",
+  "Vinay Gupta"
+ ],
+ "listed": true,
+ "oneLine": "APL Apollo control sale would trigger an open offer for at least 26% more shares.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5CT1RpU1ZoN0NTNUZGQmlkVjdnLXdYWUh1QmNNSkV5bi1saE5yanhmd2lQbVR1THhsR05zaDlONkY2ZGg0a0M4ZmtQYmN2NnNRRG5saVVqZ09aUkw1aUdsWWliVjJwOHJQRTZadkJhU0RDbUQx?oc=5",
+ "seller": "Promoters",
+ "sizeBand": null,
+ "sizeSource": "computed",
+ "sources": [
+  {
+   "attachedAt": "2026-11-21T11:02:37.357805+00:00",
+   "outlet": "NiftyTrader",
+   "resolvable": false,
+   "title": "Why an APL Apollo Control Sale Would Trigger an Open Offer for at Least 26% More Shares",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5CT1RpU1ZoN0NTNUZGQmlkVjdnLXdYWUh1QmNNSkV5bi1saE5yanhmd2lQbVR1THhsR05zaDlONkY2ZGg0a0M4ZmtQYmN2NnNRRG5saVVqZ09aUkw1aUdsWWliVjJwOHJQRTZadkJhU0RDbUQx?oc=5"
+  },
+  {
+   "attachedAt": "2026-11-21T11:02:37.530528+00:00",
+   "outlet": "The Economic Times",
+   "resolvable": false,
+   "title": "Tata Steel closes in on APL Apollo buyout; ArcelorMittal also in fray",
+   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOTHdkekRqQ25yc2g1eE85YzVjdlFzMDVpYUFFWHVqUHZXUEhsX2hVMEhldVNlTzZPaTBJRElKa0VzX0xvQmwzdHZFVVF2M2EzZGZlc1VmU0ZTS1k0Ry1kOFdCMjc0ckdUMjRMMTlfQ0JJNVNXM3hHSmxydzJmNTIzYTdmVlpYd29pc3ptRnFVdGJrcU5rT096bVhxU2Eta2thX0wzLW8tWTh4SjdHY21PeE15cno2WDZjeFVobTM2T0dXeXRhVGxzLUJUbUN2N3JPVHM3N0tFMGNYZWQybEp3M1BvVGJWN1HSAewBQVVfeXFMUHllN3BONjFhRF9BSWw2RVQtZDlXQVJJcERpaUwxZmc0N3V5cW5wYzlfbmNLdVA1X0xPVXNlc25XSkVDWjZ0bTNHbEQ1VVpUb2V2S2ZwQm1HNFAtYTFBWUVkT3FsTF9NS2xFV0MxNXdZQjFnMWlLREdBYXhGS3F5VmQzcEN5dDVWTEs1NkUxSTJRcVZpWnRSUThvVnV5MDc4U090U1FHTFYzRTlZa3BGSW12X3ozZm4ycTVRSUdfQ190anpiYzBoUFYtV1owN2NuRzNUaWVrWk5xdHFiQVg1MXNiWlpoV08wQktWQzA?oc=5"
+  }
+ ],
+ "synopsis": "The promoter family of APL Apollo Tubes, led by the Gupta family, is exploring a possible sale of its 28.18% stake in the structural steel tube manufacturer. Discussions are currently at an early exploratory stage with no binding agreement or confirmed buyer announced. The Gupta family's holding is valued at approximately Rs 17,000 crore based on a share price of Rs 2,175. A change of control would trigger a mandatory open offer under SEBI regulations to purchase at least another 26% of shares from public shareholders, which could cost around Rs 15,700 crore and bring the total potential transaction value to approximately Rs 32,700 crore. APL Apollo Chairman Sanjay Gupta and directors Rahul Gupta and Vinay Gupta did not respond to requests for comment.",
+ "ticker": "APLAPOLLO.NS",
+ "updatedAt": "2026-11-21T11:02:42.581082+00:00"
+}

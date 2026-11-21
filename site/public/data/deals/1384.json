@@ -1,7 +1,7 @@
 {
  "advisers": [],
- "amountCr": null,
- "amountRaw": null,
+ "amountCr": 330.0,
+ "amountRaw": "₹330 crore",
  "buyer": null,
  "company": "Eldorado Agritech Limited",
  "confidence": "medium",
@@ -14,9 +14,9 @@
  "listed": false,
  "oneLine": "Eldorado Agritech filed an addendum to its DRHP for a planned IPO.",
  "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/nov-2026/eldorado-agritech-limited-addendum-to-the-drhp_105811.html",
- "seller": null,
+ "seller": "Promoters",
  "sizeBand": null,
- "sizeSource": "unknown",
+ "sizeSource": "stated",
  "sources": [
   {
    "attachedAt": "2026-11-19T08:48:38.190248+00:00",
@@ -24,9 +24,23 @@
    "resolvable": true,
    "title": "Eldorado Agritech Limited",
    "url": "https://www.sebi.gov.in/filings/public-issues/nov-2026/eldorado-agritech-limited-addendum-to-the-drhp_105811.html"
+  },
+  {
+   "attachedAt": "2026-11-21T11:02:36.301392+00:00",
+   "outlet": "Indiatimes",
+   "resolvable": false,
+   "title": "Eldorado Agritech trims IPO to ₹504 crore, shifts ₹330 crore to promoters' stake sale",
+   "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxPa1JSWXRFdzNEVWJhSU01eXVPWUFLUExCbDJ1dHdqMWFTSDBWaEpnd01TLW1hT2t2VnREVUZDOXN0ME5YazFXWEZhU2dqUkVKTDh2QVZIeENEVDRjbkRhaGxDYkswOTJoS2x6YTJBalo5T2hIOTJpZWFLRkhHaFR0OHItaVBPVC1zdU4yWmg1Zi0zblJDNnRKbXE5bkVKaU5DRkRjRXBQWWlVaEw2dEdsWF92YjRRMmJXV0JpblowdjNWdFJHZkdQM0M1ZG5VM0pQcWROamRGdnBIbU1pY21pMWtFQ3p5VGVmNFhhbG16SWNZb1Z6aDJ4dlZwaWotblRvVHhUcnRNV196NjJtZi1DV1hob1VFY0RMajVpR0ZPTUFhaWtJRTZhbVU5c9IB-gFBVV95cUxQQ3hkaWFpa3FobkhHQmF1ZG41eHhpTHpVdUpBMWVjbTRYQUZ3R1FlNVJNQjlOV0Zha3JLQjcxMFdQbWZ3OTk5QmRmU2w0TjhzTS1lbEJ4SGt2TXBkRnpKQ0J2a3BrMzdIX3dPSno4YUZhVEJ0UkNyWkJlSmhtQ1E0ZzN3dUVLbVJlc3hlUlNZckk4VlFSLTNLUy1kelRXaVlEd2hleTNlb250czBRZDZheHRldVY0M2tTZkdUSmxlSndjN1VfX1NJT0hyNXFwMzNjWDEtNWNEQVFPUVpLQXowdVFCVnZodlItMVlubWtqMlJHdERHcmZvaDBR?oc=5"
+  },
+  {
+   "attachedAt": "2026-11-21T11:02:37.520876+00:00",
+   "outlet": "Moneycontrol.com",
+   "resolvable": false,
+   "title": "Eldorado Agritech halves IPO size to Rs 504 crore; promoters to sell Rs 330 crore stake",
+   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPZHNBUVVPZEcyLXo4YzJ2VmxLUXl5eXdfLTBFUDdERlItUGk1dk5PWnlKbUJaUVJrWHRwZkRaMGxoMG93bTJvaGpyT0dBSFpxTDZycHdOa3lWMjl6SFYtSmVOcS1qdHRzbzV5VXdQM0wwZFhqamhpUWNDaURja3hIQjdUcm4xaXBMT1JMbU13ZlFscllnT3NmUko5Nlk0dFhvQkNxVklZS19FMkdsSDVTcVNkQktKRDdCRXF3UTZDVHg1YktwYjJ6MDlLM0RzNWtERFJwUS1mVGtzNDlJU0FyS09qdGlNUdIB5gFBVV95cUxPZHNBUVVPZEcyLXo4YzJ2VmxLUXl5eXdfLTBFUDdERlItUGk1dk5PWnlKbUJaUVJrWHRwZkRaMGxoMG93bTJvaGpyT0dBSFpxTDZycHdOa3lWMjl6SFYtSmVOcS1qdHRzbzV5VXdQM0wwZFhqamhpUWNDaURja3hIQjdUcm4xaXBMT1JMbU13ZlFscllnT3NmUko5Nlk0dFhvQkNxVklZS19FMkdsSDVTcVNkQktKRDdCRXF3UTZDVHg1YktwYjJ6MDlLM0RzNWtERFJwUS1mVGtzNDlJU0FyS09qdGlNUQ?oc=5"
   }
  ],
  "synopsis": null,
  "ticker": null,
- "updatedAt": "2026-11-19T08:48:38.189263+00:00"
+ "updatedAt": "2026-11-21T11:02:36.302837+00:00"
 }

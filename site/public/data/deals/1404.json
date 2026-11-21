@@ -1,0 +1,44 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "ChrysCapital, Investcorp, Sofina",
+ "company": "Hocco Ice Cream",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-21T11:02:37.780392+00:00",
+ "dealType": "PE secondary",
+ "enrichmentState": null,
+ "id": 1404,
+ "individuals": [
+  "Ankit Chorna",
+  "Gayatri Ankit Chona",
+  "Abhishek Bachchan",
+  "Chirag Negandhi"
+ ],
+ "listed": false,
+ "oneLine": "ChrysCapital and other PE funds race to buy a minority stake in Hocco Ice Cream.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNMXVIUDhvWjRRY2ZoV1NSRTFuTWJtcTRoRWhHRG9DSUtpcDhIWGZvMkxyTU1OMVU5dzBRd1p0X1VJTnRYOERUMEJqRVRkbEpaTnBYdElEbWVXdXhjTGVCRDdjdFVZYS1RWGlNanhMRDZrdXhoSGk2a2JqaF80SWdybVRLVEhzVk1JNW0yd0lscVdnazJCTXV6elJYX2otVmpoakRrNjVKM2dibVFiZERoRzVKUTVQMFBoZmxwWVAxZVBoVEs2dFB0SEwtcEJ0LTJKZmE0WlFGaGpUSGQtbGotWk5zTnFKQVNjNDRZdVpDNEozSzBIQ2doS2hBVdIB-wFBVV95cUxNMXVIUDhvWjRRY2ZoV1NSRTFuTWJtcTRoRWhHRG9DSUtpcDhIWGZvMkxyTU1OMVU5dzBRd1p0X1VJTnRYOERUMEJqRVRkbEpaTnBYdElEbWVXdXhjTGVCRDdjdFVZYS1RWGlNanhMRDZrdXhoSGk2a2JqaF80SWdybVRLVEhzVk1JNW0yd0lscVdnazJCTXV6elJYX2otVmpoakRrNjVKM2dibVFiZERoRzVKUTVQMFBoZmxwWVAxZVBoVEs2dFB0SEwtcEJ0LTJKZmE0WlFGaGpUSGQtbGotWk5zTnFKQVNjNDRZdVpDNEozSzBIQ2doS2hBVQ?oc=5",
+ "seller": "Sauce.vc",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-11-21T11:02:37.783626+00:00",
+   "outlet": "ET BrandEquity",
+   "resolvable": false,
+   "title": "ChrysCap Among 3 PE Funds in Final Race to Buy Minority Stake in Hocco Ice Cream",
+   "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNMXVIUDhvWjRRY2ZoV1NSRTFuTWJtcTRoRWhHRG9DSUtpcDhIWGZvMkxyTU1OMVU5dzBRd1p0X1VJTnRYOERUMEJqRVRkbEpaTnBYdElEbWVXdXhjTGVCRDdjdFVZYS1RWGlNanhMRDZrdXhoSGk2a2JqaF80SWdybVRLVEhzVk1JNW0yd0lscVdnazJCTXV6elJYX2otVmpoakRrNjVKM2dibVFiZERoRzVKUTVQMFBoZmxwWVAxZVBoVEs2dFB0SEwtcEJ0LTJKZmE0WlFGaGpUSGQtbGotWk5zTnFKQVNjNDRZdVpDNEozSzBIQ2doS2hBVdIB-wFBVV95cUxNMXVIUDhvWjRRY2ZoV1NSRTFuTWJtcTRoRWhHRG9DSUtpcDhIWGZvMkxyTU1OMVU5dzBRd1p0X1VJTnRYOERUMEJqRVRkbEpaTnBYdElEbWVXdXhjTGVCRDdjdFVZYS1RWGlNanhMRDZrdXhoSGk2a2JqaF80SWdybVRLVEhzVk1JNW0yd0lscVdnazJCTXV6elJYX2otVmpoakRrNjVKM2dibVFiZERoRzVKUTVQMFBoZmxwWVAxZVBoVEs2dFB0SEwtcEJ0LTJKZmE0WlFGaGpUSGQtbGotWk5zTnFKQVNjNDRZdVpDNEozSzBIQ2doS2hBVQ?oc=5"
+  },
+  {
+   "attachedAt": "2026-11-21T11:02:37.791733+00:00",
+   "outlet": "The Economic Times",
+   "resolvable": false,
+   "title": "Sofina, Investcorp, ChrysCap in final race for Hocco Ice Cream",
+   "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNZHNfRDNqY0d0ekZVbzM0Njh4bW9tRXpWQkhSN2JudXJEZkhVbFR6SUI1a0h4cWxiaFc1SURnbHBoLTFmcExQUE1NSGNFdFFiSU5jV1ktVGJWamlubkpya3dDajZTcGNXUXZ2VElUQ3ZCaVBkNGRRZzhhdW1SSWZidVQtQ1c1M0cwZE1MaG03bDBkN1hBMVlScUJwSlQwM1pYc2lnYnBTVWJ3Z0x3UnVSbjVtUll5SGhLVlZ3S0dBbjMwUXdNWER5ZDdsWHVVSDFiWUN0UWVDNFNaS1lOZVBXSTV2bVktZk1ZQ2ZEWEd3ZVlRaERrUGxpQnN30gH_AUFVX3lxTE03RHhfNXZZLVdzcFBaUXZwVTlzYUVadlh5aDZfNWxZYTJNTVhqdEZta05sVXJneDA2eWkxbEI3QW1UeFFpeW1neS0yTDlJUkFLUnRKNVVOczBEOVJIUFFFYldieU91ZGJHMmt4eG9pRVNsUk9uSmtPaFMxMk1SN19jYV9ZVXdOZlNYOHhCR0VTZmFBSWE1bmZZUjZfZUhyNVRqSlJXbjkycWc3cXNWUDdvX0RaMnVBMk1MTXBjY0xCT2w5bV9LT0lyekRZT2hQbEVEektTMm1kYU1IeTZSbTdzcGlsRTNSV3JJM1luVnJybm5NdmRTRnNzT0RHSzN5Yw?oc=5"
+  }
+ ],
+ "synopsis": "ChrysCapital, Investcorp, and Sofina are competing as final contenders to acquire a minority stake in Ahmedabad-based ice cream maker Hocco. The proposed transaction involves selling a 10 per cent stake through a mix of primary and secondary shares at a valuation of about INR 4,500 crore. Existing investor Sauce.vc may sell a 1 to 3 per cent stake as part of the deal. KPMG is advising Hocco on the transaction. The parent entity NISA family trust currently owns a controlling 54 per cent stake, while founder Ankit Chorna holds 8.4 per cent, Gayatri Ankit Chona holds 8.4 per cent, Sauce.vc holds 21 per cent, and angel investors hold 1.3 per cent.",
+ "ticker": null,
+ "updatedAt": "2026-11-21T11:03:30.638958+00:00"
+}

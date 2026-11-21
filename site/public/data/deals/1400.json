@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 300.0,
+ "amountRaw": "Rs 300 crore",
+ "buyer": null,
+ "company": "Sandhar Technologies",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-21T11:02:37.742749+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": "failed",
+ "id": 1400,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Sandhar Technologies files draft papers for Rs 300 crore IPO.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQdTJTT01BMmtLeUtvUk1JS0VkTFhVUlI0Q3NYS01DaHdqcENfSDRJNjhUSFBJZmdzQm1BMGZCV3A2TGpwUlBNUWxjOEs5UHdFdElBc054RFVfMFVFbDNmTXhQQW45R1hyM0xYcWNOd2VnaUNrWXdVS2xvYUJVS3ZQWlBLZjJVWXpDdnp4dTVfUGdIT0lvaWQyTWdqZ3BkT0hSa25QcmJua1h1WGxiRmZFMnFUMVd1V2pFWndtaWhHdWdQMzZpNnZwTHI0dnc0R291ZmdGY0dR0gHQAUFVX3lxTE9pbnJpWDJZNGJFNVZfRWl1NnE3Q29qcFNOOWI2czVjTUN3ckZkUkVucTVmbzFvVUtvT1VvTXpqZ05SOGZNR0FJSWc0VW5vNDNISmtzRkdqM01idE1wcWNtUVAxOEQyUDM0XzJzbGRJdUs5S3RVTkNpVVQxS2l0ZGlNUWMzMmxmd1A2UWtaM3VibENCdXdCS0hzdmFvekJqYU1JbDc5QkljUUNtUkotS3FhUi05dVV0YUpjbDFRLUNCOTJUYjNkOXM2VFhRNkNrSnM?oc=5",
+ "seller": "Promoters",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-11-21T11:02:37.743928+00:00",
+   "outlet": "ET Auto",
+   "resolvable": false,
+   "title": "Sandhar Technologies files draft papers for Rs 300 crore IPO",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQdTJTT01BMmtLeUtvUk1JS0VkTFhVUlI0Q3NYS01DaHdqcENfSDRJNjhUSFBJZmdzQm1BMGZCV3A2TGpwUlBNUWxjOEs5UHdFdElBc054RFVfMFVFbDNmTXhQQW45R1hyM0xYcWNOd2VnaUNrWXdVS2xvYUJVS3ZQWlBLZjJVWXpDdnp4dTVfUGdIT0lvaWQyTWdqZ3BkT0hSa25QcmJua1h1WGxiRmZFMnFUMVd1V2pFWndtaWhHdWdQMzZpNnZwTHI0dnc0R291ZmdGY0dR0gHQAUFVX3lxTE9pbnJpWDJZNGJFNVZfRWl1NnE3Q29qcFNOOWI2czVjTUN3ckZkUkVucTVmbzFvVUtvT1VvTXpqZ05SOGZNR0FJSWc0VW5vNDNISmtzRkdqM01idE1wcWNtUVAxOEQyUDM0XzJzbGRJdUs5S3RVTkNpVVQxS2l0ZGlNUWMzMmxmd1A2UWtaM3VibENCdXdCS0hzdmFvekJqYU1JbDc5QkljUUNtUkotS3FhUi05dVV0YUpjbDFRLUNCOTJUYjNkOXM2VFhRNkNrSnM?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": "SANDHAR.NS",
+ "updatedAt": "2026-11-21T11:02:37.742749+00:00"
+}

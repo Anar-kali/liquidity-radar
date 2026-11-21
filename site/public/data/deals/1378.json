@@ -1,7 +1,7 @@
 {
  "advisers": [],
- "amountCr": null,
- "amountRaw": null,
+ "amountCr": 715440.0,
+ "amountRaw": "$81.3bn",
  "buyer": null,
  "company": "Anthropic",
  "confidence": "medium",
@@ -16,7 +16,7 @@
  "primaryUrl": "https://www.livemint.com/companies/news/anthropic-ipo-why-google-s-13-stake-and-big-tech-s-900-billion-ai-bet-hinge-on-claude-maker-s-success-decoded-11794798914261.html",
  "seller": null,
  "sizeBand": null,
- "sizeSource": "unknown",
+ "sizeSource": "stated",
  "sources": [
   {
    "attachedAt": "2026-11-16T07:02:40.348994+00:00",
@@ -38,9 +38,23 @@
    "resolvable": true,
    "title": "Who are Anthropic’s seven founders who became multibillionaires after Claude AI maker’s historic IPO?",
    "url": "https://www.livemint.com/companies/people/who-are-anthropic-s-seven-founders-who-became-multibillionaires-after-claude-ai-maker-s-historic-ipo-11795172512612.html"
+  },
+  {
+   "attachedAt": "2026-11-21T11:02:38.240384+00:00",
+   "outlet": "TheBanker.com",
+   "resolvable": false,
+   "title": "Goldman and Morgan Stanley lead $81.3bn Anthropic IPO; UniCredit and Germany reach agreement on Commerzbank takeover",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBSdUNSdnRuRHpVWnkyc3dlZ1NjV3FPUUZha2NtZG9GUllNc3h1aFV4Q2pjRHJEX0FKVE90SlZoWE9xT0dmZFhDWEtmcUdRVmZSUmtFWGU3RTBnOWdQMWpITVBWcUV5dmJiVkkxN1RLOVVNOE51UkREV0pR?oc=5"
+  },
+  {
+   "attachedAt": "2026-11-21T11:02:38.266283+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "Anthropic IPO windfall: More than 400 employees could be worth over ₹935 crore each",
+   "url": "https://www.livemint.com/companies/news/anthropic-ipo-windfall-more-than-400-employees-could-be-worth-over-935-crore-each-11795095476490.html"
   }
  ],
  "synopsis": "Anthropic is planning an initial public offering on the Nasdaq, with expected share prices between $70 and $78. Advanced Micro Devices, Broadcom, Google, Micron, Microsoft, Nvidia, and Taiwan Semiconductor Manufacturing Company are collectively investing $26 billion at the IPO price. Google is expected to own about 13% of the company after the public offering. The IPO could generate more than $90 billion in proceeds.",
  "ticker": null,
- "updatedAt": "2026-11-16T07:02:45.961332+00:00"
+ "updatedAt": "2026-11-21T11:02:38.241497+00:00"
 }

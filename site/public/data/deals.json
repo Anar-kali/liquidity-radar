@@ -1,6 +1,235 @@
 {
- "dealCount": 754,
+ "dealCount": 763,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Money Masters Leasing & Finance Ltd",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-21T11:02:38.200971+00:00",
+   "dealType": "open offer",
+   "enrichmentState": null,
+   "id": 1407,
+   "individuals": [
+    "Agarwals"
+   ],
+   "listed": true,
+   "oneLine": "Money Masters Leasing & Finance open offer sets 51% control.",
+   "primaryOutlet": "Multibagg AI",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 2,
+   "ticker": "535910.BO",
+   "updatedAt": "2026-11-21T11:02:38.227538+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-11-21T11:02:38.223331+00:00",
+     "title": "MMLFL offer could give Agarwals 77.005% ownership stake"
+    }
+   ]
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Mamaearth",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-21T11:02:37.956959+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 1406,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Mamaearth's parent company is in talks with SEBI regarding its IPO.",
+   "primaryOutlet": "ETLegalWorld.com",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "mcap_plausible",
+   "sourceCount": 1,
+   "ticker": "HONASA.NS",
+   "updatedAt": "2026-11-21T11:02:37.956959+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 162.0,
+   "amountRaw": "₹162 Crore",
+   "company": "CardUp Singapore",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-21T11:02:37.788233+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1405,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "One 97 Communications acquires a 19.1% stake in CardUp Singapore for ₹162 Crore.",
+   "primaryOutlet": "Sahi",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-21T11:02:37.788233+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Hocco Ice Cream",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-21T11:02:37.780392+00:00",
+   "dealType": "PE secondary",
+   "enrichmentState": null,
+   "id": 1404,
+   "individuals": [
+    "Ankit Chorna",
+    "Gayatri Ankit Chona",
+    "Abhishek Bachchan",
+    "Chirag Negandhi"
+   ],
+   "listed": false,
+   "oneLine": "ChrysCapital and other PE funds race to buy a minority stake in Hocco Ice Cream.",
+   "primaryOutlet": "ET BrandEquity",
+   "seller": "Sauce.vc",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 2,
+   "ticker": null,
+   "updatedAt": "2026-11-21T11:03:30.638958+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-11-21T11:02:37.791733+00:00",
+     "title": "Sofina, Investcorp, ChrysCap in final race for Hocco Ice Cream"
+    }
+   ]
+  },
+  {
+   "amountCr": 600.0,
+   "amountRaw": "₹600 crore",
+   "company": "Arohan Financial Services",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-21T11:02:37.772597+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 1402,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Arohan Financial Services secures SEBI approval for an IPO comprising a ₹600 crore fresh issue and OFS.",
+   "primaryOutlet": "Free Press Journal",
+   "seller": "existing investors including US Teachers Insurance and Annuity Association, Michael & Susan Dell Foundation +others",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-21T11:03:22.607854+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 600.0,
+   "amountRaw": "Rs 600 crore (from article)",
+   "company": "Pristine Logistics",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-21T11:02:37.757130+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 1401,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Pristine Logistics receives SEBI nod to launch its IPO.",
+   "primaryOutlet": "Moneycontrol.com",
+   "seller": "Arohan Financial Services (existing investors via OFS)",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-21T11:03:18.788471+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 300.0,
+   "amountRaw": "Rs 300 crore",
+   "company": "Sandhar Technologies",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-21T11:02:37.742749+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 1400,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Sandhar Technologies files draft papers for Rs 300 crore IPO.",
+   "primaryOutlet": "ET Auto",
+   "seller": "Promoters",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "SANDHAR.NS",
+   "updatedAt": "2026-11-21T11:02:37.742749+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 3300.0,
+   "amountRaw": "INR 3,300 Crore",
+   "company": "NLC India Renewables",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-21T11:02:37.733170+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 1399,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "NLC India Renewables files DRHP with SEBI for INR 3,300 crore IPO.",
+   "primaryOutlet": "Energetica India Magazine",
+   "seller": "Promoters",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 2,
+   "ticker": null,
+   "updatedAt": "2026-11-21T11:03:00.107882+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-11-21T11:02:37.963421+00:00",
+     "title": "NLC India Renewables files IPO papers, plans to raise Rs 3,300 crore through fresh issue"
+    }
+   ]
+  },
+  {
+   "amountCr": 15316.1,
+   "amountRaw": "26% x mcap ~Rs 58908cr = ~Rs 15316cr",
+   "company": "APL Apollo",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-21T11:02:37.356764+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1397,
+   "individuals": [
+    "Sanjay Gupta",
+    "Rahul Gupta",
+    "Vinay Gupta"
+   ],
+   "listed": true,
+   "oneLine": "APL Apollo control sale would trigger an open offer for at least 26% more shares.",
+   "primaryOutlet": "NiftyTrader",
+   "seller": "Promoters",
+   "sizeBand": null,
+   "sizeSource": "computed",
+   "sourceCount": 2,
+   "ticker": "APLAPOLLO.NS",
+   "updatedAt": "2026-11-21T11:02:42.581082+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-11-21T11:02:37.530528+00:00",
+     "title": "Tata Steel closes in on APL Apollo buyout; ArcelorMittal also in fray"
+    }
+   ]
+  },
   {
    "amountCr": 35200.0,
    "amountRaw": "$400 million",
@@ -26,8 +255,8 @@
    "updates": []
   },
   {
-   "amountCr": null,
-   "amountRaw": null,
+   "amountCr": 3412.0,
+   "amountRaw": "₹3,412 Crore",
    "company": "Sagar Defence Engineering Limited",
    "confidence": "medium",
    "confirmed": false,
@@ -39,16 +268,24 @@
    "listed": false,
    "oneLine": "Sagar Defence Engineering Limited filed a draft abridged prospectus for an IPO.",
    "primaryOutlet": "Draft Abridged Prospectus",
-   "seller": null,
+   "seller": "Selling shareholders",
    "sizeBand": null,
-   "sizeSource": "unknown",
-   "sourceCount": 2,
+   "sizeSource": "stated",
+   "sourceCount": 4,
    "ticker": null,
-   "updatedAt": "2026-11-21T02:33:21.113136+00:00",
+   "updatedAt": "2026-11-21T11:02:37.725344+00:00",
    "updates": [
     {
      "attachedAt": "2026-11-21T02:33:21.117594+00:00",
      "title": "Sagar Defence Engineering Limited"
+    },
+    {
+     "attachedAt": "2026-11-21T11:02:37.724295+00:00",
+     "title": "Sagar Defence Engineering Files Updated DRHP for ₹3,412 Crore IPO, Including Fresh Issue and OFS"
+    },
+    {
+     "attachedAt": "2026-11-21T11:02:37.749064+00:00",
+     "title": "Sagar Defence Engineering files updated DRHP for ₹3,412 crore IPO"
     }
    ]
   },
@@ -80,8 +317,8 @@
    ]
   },
   {
-   "amountCr": 1130.5,
-   "amountRaw": "1130.5cr confirmed via NSE block deal",
+   "amountCr": 2000.0,
+   "amountRaw": "₹2,000 crore",
    "company": "IIFL CAPITAL SERVICES LTD",
    "confidence": "high",
    "confirmed": true,
@@ -99,9 +336,9 @@
    "seller": "VENKATRAMAN R",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 4,
+   "sourceCount": 12,
    "ticker": "IIFLCAPS.NS",
-   "updatedAt": "2026-11-19T22:05:50.811036+00:00",
+   "updatedAt": "2026-11-21T11:02:38.233555+00:00",
    "updates": [
     {
      "attachedAt": "2026-11-19T22:05:50.786051+00:00",
@@ -114,6 +351,38 @@
     {
      "attachedAt": "2026-11-19T22:05:50.810174+00:00",
      "title": "IIFL CAPITAL SERVICES LTD: block deal"
+    },
+    {
+     "attachedAt": "2026-11-21T11:02:36.309558+00:00",
+     "title": "Fairfax Raises IIFL Capital Stake to 52.63% After ₹1,540 Crore Block Deal as Shares Fall 4.99%"
+    },
+    {
+     "attachedAt": "2026-11-21T11:02:37.523048+00:00",
+     "title": "Fairfax raises stake in IIFL Capital Services to 52.63% with Rs 1,540-crore acquisition"
+    },
+    {
+     "attachedAt": "2026-11-21T11:02:37.533570+00:00",
+     "title": "Fairfax-backed FIH Mauritius buys 11.8% stake in IIFL Capital Services for Rs 1,540 crore as promoters par"
+    },
+    {
+     "attachedAt": "2026-11-21T11:02:37.536082+00:00",
+     "title": "Fairfax takes control of India's IIFL Capital after open offer"
+    },
+    {
+     "attachedAt": "2026-11-21T11:02:37.538535+00:00",
+     "title": "FIH Mauritius Raises IIFL Capital Holding Above Majority Mark Through Block Deal"
+    },
+    {
+     "attachedAt": "2026-11-21T11:02:37.540898+00:00",
+     "title": "Fairfax Arm Gets Controlling 44% Stake in IIFL Capital"
+    },
+    {
+     "attachedAt": "2026-11-21T11:02:37.544084+00:00",
+     "title": "Fairfax Arm Buys 11.8% Stake In IIFL Capital Services For Rs 1,540 Cr"
+    },
+    {
+     "attachedAt": "2026-11-21T11:02:38.232492+00:00",
+     "title": "Fairfax India targets 51% stake in IIFL Capital through ₹2,000 crore d…"
     }
    ]
   },
@@ -314,8 +583,8 @@
    "updates": []
   },
   {
-   "amountCr": null,
-   "amountRaw": null,
+   "amountCr": 330.0,
+   "amountRaw": "₹330 crore",
    "company": "Eldorado Agritech Limited",
    "confidence": "medium",
    "confirmed": false,
@@ -327,13 +596,22 @@
    "listed": false,
    "oneLine": "Eldorado Agritech filed an addendum to its DRHP for a planned IPO.",
    "primaryOutlet": "Addendum to the DRHP",
-   "seller": null,
+   "seller": "Promoters",
    "sizeBand": null,
-   "sizeSource": "unknown",
-   "sourceCount": 1,
+   "sizeSource": "stated",
+   "sourceCount": 3,
    "ticker": null,
-   "updatedAt": "2026-11-19T08:48:38.189263+00:00",
-   "updates": []
+   "updatedAt": "2026-11-21T11:02:36.302837+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-11-21T11:02:36.301392+00:00",
+     "title": "Eldorado Agritech trims IPO to ₹504 crore, shifts ₹330 crore to promoters' stake sale"
+    },
+    {
+     "attachedAt": "2026-11-21T11:02:37.520876+00:00",
+     "title": "Eldorado Agritech halves IPO size to Rs 504 crore; promoters to sell Rs 330 crore stake"
+    }
+   ]
   },
   {
    "amountCr": null,
@@ -376,10 +654,19 @@
    "seller": "RAKESH CHOPDAR",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 3,
    "ticker": "AZAD.NS",
    "updatedAt": "2026-11-18T21:49:13.232728+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-11-21T11:02:36.305272+00:00",
+     "title": "Azad Engineering Promoter Sells 5.4% Stake for ₹800 Crore"
+    },
+    {
+     "attachedAt": "2026-11-21T11:02:36.307537+00:00",
+     "title": "Azad Engineering promoter Rakesh Chopdar sells 5.42% stake for ₹835.62 crore"
+    }
+   ]
   },
   {
    "amountCr": 841.25,
@@ -429,13 +716,17 @@
    "seller": "DINESH R AGARWAL",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": "GALLANTT.NS",
    "updatedAt": "2026-11-17T22:11:29.122439+00:00",
    "updates": [
     {
      "attachedAt": "2026-11-17T22:11:29.121504+00:00",
      "title": "Gallantt Ispat Limited: block deal"
+    },
+    {
+     "attachedAt": "2026-11-21T11:02:37.714978+00:00",
+     "title": "Gallantt Ispat promoter Dinesh Agarwal sells 1.24% stake via block deal"
     }
    ]
   },
@@ -469,8 +760,8 @@
    ]
   },
   {
-   "amountCr": null,
-   "amountRaw": null,
+   "amountCr": 715440.0,
+   "amountRaw": "$81.3bn",
    "company": "Anthropic",
    "confidence": "medium",
    "confirmed": false,
@@ -484,10 +775,10 @@
    "primaryOutlet": "Mint",
    "seller": null,
    "sizeBand": null,
-   "sizeSource": "unknown",
-   "sourceCount": 3,
+   "sizeSource": "stated",
+   "sourceCount": 5,
    "ticker": null,
-   "updatedAt": "2026-11-16T07:02:45.961332+00:00",
+   "updatedAt": "2026-11-21T11:02:38.241497+00:00",
    "updates": [
     {
      "attachedAt": "2026-11-16T07:02:40.353127+00:00",
@@ -496,6 +787,14 @@
     {
      "attachedAt": "2026-11-21T02:33:21.125197+00:00",
      "title": "Who are Anthropic’s seven founders who became multibillionaires after Claude AI maker’s historic IPO?"
+    },
+    {
+     "attachedAt": "2026-11-21T11:02:38.240384+00:00",
+     "title": "Goldman and Morgan Stanley lead $81.3bn Anthropic IPO; UniCredit and Germany reach agreement on Commerzbank takeover"
+    },
+    {
+     "attachedAt": "2026-11-21T11:02:38.266283+00:00",
+     "title": "Anthropic IPO windfall: More than 400 employees could be worth over ₹935 crore each"
     }
    ]
   },
@@ -841,13 +1140,17 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-11-14T11:46:24.255444+00:00",
    "updates": [
     {
      "attachedAt": "2026-11-14T11:46:24.253946+00:00",
      "title": "[Update] Razorpay Gets SEBI Nod For ₹6,000 Cr IPO"
+    },
+    {
+     "attachedAt": "2026-11-21T11:02:38.279103+00:00",
+     "title": "Razorpay To File UDRHP By Next Week, Eyes IPO By February 2027: Report"
     }
    ]
   },
@@ -3412,13 +3715,17 @@
    "seller": "existing shareholders",
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-10-22T10:01:53.356047+00:00",
    "updates": [
     {
      "attachedAt": "2026-10-23T06:31:10.088415+00:00",
      "title": "Transline Technologies IPO: AI Surveillance Specialist Prepares for Listing"
+    },
+    {
+     "attachedAt": "2026-11-21T11:02:37.764313+00:00",
+     "title": "Transline Technologies IPO Update: DRHP Filed With SEBI, 1.61 Crore Shares On Offer; FY26 Profit Jumps 45%"
     }
    ]
   },
@@ -22875,6 +23182,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-11-21T02:33:30.120898+00:00",
- "totalDeals": 1049
+ "generatedAt": "2026-11-21T11:03:30.638958+00:00",
+ "totalDeals": 1058
 }

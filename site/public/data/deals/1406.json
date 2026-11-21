@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Mamaearth",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-21T11:02:37.956959+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": null,
+ "id": 1406,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Mamaearth's parent company is in talks with SEBI regarding its IPO.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOTm8ybzlVRlEyTUx2NlVvSEZzMEU5c1Z4M1J6dV8tRXZlS2twTjAtYm03TnJUd2JUcVc5VzVQQ1dZVmFTRGxvZm8wZjdpcUl6eWl1cEJxa3VhZlk2Z0QycWhnUU1YNldac05SbEJqRGo4TnBrb04tSEFRMEFVNGZqRG1GeEZtVW5yc1dWSVhjWWZMb0dwMnhZanU0UG5ZbDdCVE5WVlk1NnEza0VtUDFFd05HSktyOUFxWTFEMmZaWEpxVzdVMmtJVFByOTU1cmM2bkQxdHJteGNDbnRZODg40gHaAUFVX3lxTFB0UGFYNnp5V0M4SmZuOXBhSkp0Y085N0NWYXZYdXBKcjhZcXJUNENhM2dDY3h3dGFXYkhkZFo0cV9Ic2Y1a2gxR3NnaTlZV2VRWXNJaDJrZzVNZGVOSnZVamJHQmpYTURFOUVxbGx5bktCT003V0IxbUdaR2xFRTJTNnB4SXBJY0d6bzNIR05hZGF2bVQ5TDB1QW4yT1BWYlZZbWJFTDFqaGZuNWZaWXF4Z1pjTEhmMlViRTI5TTZLWm9qdzdjQTViOHZ1cDRFTVZuVXZXWU4tdTN3?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "mcap_plausible",
+ "sources": [
+  {
+   "attachedAt": "2026-11-21T11:02:37.958212+00:00",
+   "outlet": "ETLegalWorld.com",
+   "resolvable": false,
+   "title": "Mamaearth's parent company still in talks with Sebi on IPO; awaits approval",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOTm8ybzlVRlEyTUx2NlVvSEZzMEU5c1Z4M1J6dV8tRXZlS2twTjAtYm03TnJUd2JUcVc5VzVQQ1dZVmFTRGxvZm8wZjdpcUl6eWl1cEJxa3VhZlk2Z0QycWhnUU1YNldac05SbEJqRGo4TnBrb04tSEFRMEFVNGZqRG1GeEZtVW5yc1dWSVhjWWZMb0dwMnhZanU0UG5ZbDdCVE5WVlk1NnEza0VtUDFFd05HSktyOUFxWTFEMmZaWEpxVzdVMmtJVFByOTU1cmM2bkQxdHJteGNDbnRZODg40gHaAUFVX3lxTFB0UGFYNnp5V0M4SmZuOXBhSkp0Y085N0NWYXZYdXBKcjhZcXJUNENhM2dDY3h3dGFXYkhkZFo0cV9Ic2Y1a2gxR3NnaTlZV2VRWXNJaDJrZzVNZGVOSnZVamJHQmpYTURFOUVxbGx5bktCT003V0IxbUdaR2xFRTJTNnB4SXBJY0d6bzNIR05hZGF2bVQ5TDB1QW4yT1BWYlZZbWJFTDFqaGZuNWZaWXF4Z1pjTEhmMlViRTI5TTZLWm9qdzdjQTViOHZ1cDRFTVZuVXZXWU4tdTN3?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": "HONASA.NS",
+ "updatedAt": "2026-11-21T11:02:37.956959+00:00"
+}

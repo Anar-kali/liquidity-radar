@@ -1,7 +1,7 @@
 {
  "advisers": [],
- "amountCr": null,
- "amountRaw": null,
+ "amountCr": 3412.0,
+ "amountRaw": "₹3,412 Crore",
  "buyer": null,
  "company": "Sagar Defence Engineering Limited",
  "confidence": "medium",
@@ -14,9 +14,9 @@
  "listed": false,
  "oneLine": "Sagar Defence Engineering Limited filed a draft abridged prospectus for an IPO.",
  "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/nov-2026/sagar-defence-engineering-limited-udrhp-i_105801.html",
- "seller": null,
+ "seller": "Selling shareholders",
  "sizeBand": null,
- "sizeSource": "unknown",
+ "sizeSource": "stated",
  "sources": [
   {
    "attachedAt": "2026-11-21T02:33:21.114123+00:00",
@@ -31,9 +31,23 @@
    "resolvable": true,
    "title": "Sagar Defence Engineering Limited",
    "url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Sagar%20Defence%20Engineering%20Limited%20-%20Draft%20Abridged%20Prospectus_p.pdf"
+  },
+  {
+   "attachedAt": "2026-11-21T11:02:37.724295+00:00",
+   "outlet": "Kotak Neo",
+   "resolvable": false,
+   "title": "Sagar Defence Engineering Files Updated DRHP for ₹3,412 Crore IPO, Including Fresh Issue and OFS",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPa0g2bjBONnItUFI4RXd1QW9Na0x3Si1OcWxaRG5GOEVJd1NIRTU5ZlRTMnZ2bVNLYnA0dkc3eVJycWRUVzBqbFZVMk9ZU2d2TUIyY1kxdkIyZVhURXJIOHJTcTROY2wxelJ4bkdTbWhxeE04dlI0aV9kNlRpNUVWRVRsQjVOSmN4SjZLdTJuU0pMd3RvMGZXMUpoMXBKV3ZnOUlRc3VsSmhJQmNVb1d0R1dWMU5idDljV2ttT1RFSTg?oc=5"
+  },
+  {
+   "attachedAt": "2026-11-21T11:02:37.749064+00:00",
+   "outlet": "Business Standard",
+   "resolvable": false,
+   "title": "Sagar Defence Engineering files updated DRHP for ₹3,412 crore IPO",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOSzVIOVpZRTVrQWU2RVlkVm5ycm1fQ3Q5VDFPVlVwN3J1ZGhCanlFTHRWQl8tQUc0SzEyUWNpSFZ0VEd6N3VBZVRwbEpqa3ByZWlaZENCdHhnSEVxQWw1enE0azlBZUZvZ1o5NUt6M25jZkhtR3hYQjdOWGJPRGNkY3ZmN0tDUDJCNzM3WjJldVJTQXd4SXRTamRZSVo4NGN3ODVMLTJydmJKbzNQSnZ4X2lnNU5ZYWF1S01KY0VkVVNjVVdiM3lhcTRQa9IB0AFBVV95cUxQVVNHdGRYN1prbDU4UjdhdUV3Mzc4Ui1iNVM5XzZBcmlEdXlGeFBZQ09rZDN2RXFYUk9oV01OVEkwNi1ESUlLYWZ3Nm9CX2NwbXRTTjVtX2ZIUW14V0ZzVW5NSlA5R2d0U1RUX0gtNTRaWXBVaWdtdDV3bnlhWEhMblFaeXJrY0Q3NzJ2NjJJZEpRX0Jhb3ktZ19KdzNWT2hMLWhwRzFCX1l4dVZMTlR3YjE4WjRIbVpLbHR2WFZPeGVCS2VmekFYYTFLOUljRTVW?oc=5"
   }
  ],
  "synopsis": null,
  "ticker": null,
- "updatedAt": "2026-11-21T02:33:21.113136+00:00"
+ "updatedAt": "2026-11-21T11:02:37.725344+00:00"
 }

@@ -1,8 +1,8 @@
 {
  "advisers": [],
- "amountCr": 1130.5,
- "amountRaw": "1130.5cr confirmed via NSE block deal",
- "buyer": null,
+ "amountCr": 2000.0,
+ "amountRaw": "₹2,000 crore",
+ "buyer": "Fairfax",
  "company": "IIFL CAPITAL SERVICES LTD",
  "confidence": "high",
  "confirmed": true,
@@ -48,9 +48,65 @@
    "resolvable": true,
    "title": "IIFL CAPITAL SERVICES LTD: block deal",
    "url": ""
+  },
+  {
+   "attachedAt": "2026-11-21T11:02:36.309558+00:00",
+   "outlet": "Kotak Neo",
+   "resolvable": false,
+   "title": "Fairfax Raises IIFL Capital Stake to 52.63% After ₹1,540 Crore Block Deal as Shares Fall 4.99%",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZDF5eDViRks1bUM4cTVxS2lQVGVaQ2ZiMnpyMS16ZHd4NHF2RjI3VzBBNDgya0RIVW8zRnBLVm9UbUFrS0lOOFBhQmVOWGkyYkNzblQwUnQ3UlNTbXBuRkhKNzhsaU9xaE5XbUhQanFmOUZ6a2lKaUo4d0JRYVJmbWNIbWtaMncwM2VkZkNia3hsSlNFaUh1d1hDMy1heTJCWllxaGtReDk2OTRyWUlKVk5lWVp2TmZiNUxF?oc=5"
+  },
+  {
+   "attachedAt": "2026-11-21T11:02:37.523048+00:00",
+   "outlet": "Moneycontrol.com",
+   "resolvable": false,
+   "title": "Fairfax raises stake in IIFL Capital Services to 52.63% with Rs 1,540-crore acquisition",
+   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNc3k0T1ZsalNCWndMSjlfVmlnc2hKZTRXNElfNkFOMXBhSE9SdTRBOXhFVW5pOHY3Vk5qT1h2Q2kyVlRYanNIazN3ejZlejNtd1ZRbTFrcHN4WGFJZTd5Wng2SVZ6NjJlUUNXTVQ0b2tvR0c5WkttVmdVVWlldExEVGc3T0tGZjRGVktBdTlTTURrOHByank4LWJWZFZ4TUZQODVULVF0ZWZfNFlyd29vQnFFeEVUT19Ibl9sOFMyUlM0eENZVS1sMUF2QzdCaGJ5ZHhzbDlJeVd2TEJOaWVrYWoyMm1ZUdIB6wFBVV95cUxOdnRQRUd2Vk1nM3NHUC1Fa0dvTmF5Q05QZzduYllWQkxpTzFMNEI1RzRneTh5Yk1PSjBNeVBmTktDWmREVm9aRzl5akNaY1RQVFZveVgyY3c4N1FhREh4VEM5b1FnMTZFTU9pV0g4OUIxYzdQZzl0U2F3cDNDaWZ5cnQ5ZFo1UmFFTWYzRjROSUhqa0I1bFVUZjdfekh5UWN2ak1fdjhUbVdrOEw0OEJ6OHNCN3N5dl9pSXNDZmhnNWtnYkowWkt2Zm93bUJWendqRjZtUUp1QnBJcXVWMWttb0RBN3c2aTA3bDk0?oc=5"
+  },
+  {
+   "attachedAt": "2026-11-21T11:02:37.533570+00:00",
+   "outlet": "The Economic Times",
+   "resolvable": false,
+   "title": "Fairfax-backed FIH Mauritius buys 11.8% stake in IIFL Capital Services for Rs 1,540 crore as promoters par",
+   "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQWUdvdHBva190TjdDdi1jUXVDSncxU1c2ZWg4R0MzRVh0MGNyaGVTVl9zbFN5VXBQUWZZNnEyMkZ0WVFCWGNWQW9vNzB2RHJrVjdreW5uWUZMZFc2Tl9CWnVUM2MwdE9reGFJZW4tZ1hiWlQtN0hoTnMwbFE0cm1NV19yWGhxNWFlaG83RzJpMUQ5QlU4RVJxbDdEWFhzTFcxWWhteEpCN0ppaEpzRTNYYzdlbk5RYmlycWx2cXVyOW1ReTdUdXNBNlJNa014TjNlaWx4N19VMk05Z1c1SUJMQkZqeDM5MnA4ZzEtQVFmS2tKTlgtZ291TlRaV0hQZS1HYklzWDdtMnpBYmc4MjljUzVSa9IBmAJBVV95cUxQeFUzMHpQNGxuUEMxbHlsRGdsNndTVThFbFZFOUEzRTZacFVxZ2JuY0Q5bW9VeDlCTUdKeTVCMEczSGs2Q0RhVW14ZXhnWUkybWlkSDNvSFA5d0tFU3VKdTJMd0xZMV84VHN4azh0RVVnMmZkX3M5akp0VjFIM3QwZG80aHpxNGotaHgybDJvM19xLWVGel9XbWJuSTlfSlVLUWpUSFFRSV80MWV4TzhIQU1ieXU1YTFLaU5Xc242NTBQaHhYS09XNDktWm9tcDdDSmRKY0VIQ3JmWlNuRm8xZlRHNlNrMTV0Wm4wdFZrWHhpbjRuZjdqQlltMzA5WlJBRFJwLUd0YzVpOXdZWTlTVUlXb0hLRi1y?oc=5"
+  },
+  {
+   "attachedAt": "2026-11-21T11:02:37.536082+00:00",
+   "outlet": "Reuters",
+   "resolvable": false,
+   "title": "Fairfax takes control of India's IIFL Capital after open offer",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNenQydlhPTTJlSnBQMlZMNkhLT2htd3VqUVF5V2tkaU9HNlFXNkFDcmZ1ekRfMms1amdOMi1ocE1NRkhjdlV6bXZsVmVyUVBNWW1FTFRwUXB5dUJCTjRraXlZdzRRVHlVZzRvQkRZNDZYOTRwbkRqdUVnZmJzVi1iYUdNcXlTLXhkeTBzMVFibndQZ1lLeFU3c3RqMUREQnhLZnBxNjNqWlZRdVI0NFdFdTdXMmt2RUVaNUlleWFsREc?oc=5"
+  },
+  {
+   "attachedAt": "2026-11-21T11:02:37.538535+00:00",
+   "outlet": "Dalal Street Investment Journal",
+   "resolvable": false,
+   "title": "FIH Mauritius Raises IIFL Capital Holding Above Majority Mark Through Block Deal",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUzYyWGZ3aEsxbFRfSU5HaHAxZGUyeFItQnZ4QXNoU0owOEZkQjgzX2VCSXNadHNTLXpNZFN0dGtqVDdWMnZVdHdQV3lwYmNuN3lOYk93bk1Fb3RYamI5TTU4Q3I5MFJMZXN4OXRqZmo1VVQyNzFXUGI2MVFUcF9YdjZDdndoQjBtSHhkbTVaWV9BMWF5TzZrSlVOZ18yNmx5Tk1XRHl5VmdFbjBMMUJJRWJoMDd4enFkcllub3l3UEE?oc=5"
+  },
+  {
+   "attachedAt": "2026-11-21T11:02:37.540898+00:00",
+   "outlet": "HDFC Sky",
+   "resolvable": false,
+   "title": "Fairfax Arm Gets Controlling 44% Stake in IIFL Capital",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZ0F1SEVTaTFnRzRnOUhDMS1HN0pNa0FDRmpnYldIZXdxc0xpRlBIQ0lHUG10NmVBTGk1YUZ6Vk5oZktQdVpkUVJBUi1YSVh5clRFSE5TM190QkJpeDdxX3lmalhSeXQzeTJ2UlgtMjczaFJzekk0elVKSlFmelhFbzM0eDFkZDFyUFlZ?oc=5"
+  },
+  {
+   "attachedAt": "2026-11-21T11:02:37.544084+00:00",
+   "outlet": "BW Businessworld",
+   "resolvable": false,
+   "title": "Fairfax Arm Buys 11.8% Stake In IIFL Capital Services For Rs 1,540 Cr",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObGtNMEJORFNseGUwZkI0S0p4Mjc2enRuc3FFU3pDOGZyY2k4ekx4Sk9YWmJMTnpHVG40TlotVzJrOU5zNFpacl8wWTVSRWhQUEs2Mm5JLWtxLWVIY2JIa3RHRHJFR1ZNRWdIR1g0anVYckJscVNBZVQyVWZnM1NRMDlZN2xBRUFVX0Q0YW81azNFNDg0aERqRmlOVjFMNDRJQ0h0QXVxcU9WakZvUEhFVXB3?oc=5"
+  },
+  {
+   "attachedAt": "2026-11-21T11:02:38.232492+00:00",
+   "outlet": "Rich Picks Daily",
+   "resolvable": false,
+   "title": "Fairfax India targets 51% stake in IIFL Capital through ₹2,000 crore d…",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMjZSV3RoZTlyOEtjMEJ3am90QzU3eW9LM3pKVDc0M1oxNnpfZDY2bzBJVEtNbDB4c1dWNnRxVlpMTTRhTWJtMlRDejNhdm9PYWQ0MnJBbnFmV0ZUSUMwSVZ5aFczNWlieDRvcHd0SnRqWnRvX0M2ZGZJMkJkV0RtQW5TN2YzNzBaX1ZrekZMc0JGSFFELTRZZQ?oc=5"
   }
  ],
  "synopsis": null,
  "ticker": "IIFLCAPS.NS",
- "updatedAt": "2026-11-19T22:05:50.811036+00:00"
+ "updatedAt": "2026-11-21T11:02:38.233555+00:00"
 }
