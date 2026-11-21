@@ -1,6 +1,28 @@
 {
- "dealCount": 763,
+ "dealCount": 764,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "AGILOX",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-21T15:32:21.162534+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1408,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Rockwell Automation acquires AGILOX for its autonomous mobile robots business.",
+   "primaryOutlet": "Business Line",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-21T15:32:24.443215+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -23182,6 +23204,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-11-21T11:03:30.638958+00:00",
- "totalDeals": 1058
+ "generatedAt": "2026-11-21T15:32:24.443215+00:00",
+ "totalDeals": 1059
 }

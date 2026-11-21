@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "Rockwell Automation",
+ "company": "AGILOX",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-21T15:32:21.162534+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1408,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Rockwell Automation acquires AGILOX for its autonomous mobile robots business.",
+ "primaryUrl": "https://www.thehindubusinessline.com/companies/rockwell-automation-to-acquire-agilox-to-boost-autonomous-mobile-robots-business/article71728359.ece",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-11-21T15:32:21.163259+00:00",
+   "outlet": "Business Line",
+   "resolvable": true,
+   "title": "Rockwell Automation to acquire AGILOX to boost autonomous mobile robots business",
+   "url": "https://www.thehindubusinessline.com/companies/rockwell-automation-to-acquire-agilox-to-boost-autonomous-mobile-robots-business/article71728359.ece"
+  }
+ ],
+ "synopsis": "Rockwell Automation has signed an agreement to acquire Austria-based autonomous mobile robots maker AGILOX to boost its autonomous mobile robots business and strengthen its position in autonomous material movement. The announcement was made during Rockwell Automation's annual Automation Fair held in Boston between November 16 and 19. The combination of AGILOX and Rockwell's OTTO AMR technologies is intended to create a technology platform for autonomous material movement.",
+ "ticker": null,
+ "updatedAt": "2026-11-21T15:32:24.443215+00:00"
+}
