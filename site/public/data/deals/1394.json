@@ -1,0 +1,39 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Foodlink F&B Holdings India Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-21T02:33:21.101843+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": "failed",
+ "id": 1394,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Foodlink F&B Holdings India Limited filed draft offer documents with SEBI for an IPO.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/nov-2026/foodlink-fandb-holdings-india-limited-rhp_105865.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-11-21T02:33:21.103158+00:00",
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "Foodlink F&B Holdings India Limited - RHPFoodlink F&B Holdings India Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/nov-2026/foodlink-fandb-holdings-india-limited-rhp_105865.html"
+  },
+  {
+   "attachedAt": "2026-11-21T02:33:21.106876+00:00",
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "Foodlink F&B Holdings India Limited",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Foodlink F&B Holdings India Limited_RHP_p.pdf"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-11-21T02:33:21.101843+00:00"
+}

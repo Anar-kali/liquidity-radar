@@ -1,6 +1,84 @@
 {
- "dealCount": 751,
+ "dealCount": 754,
  "deals": [
+  {
+   "amountCr": 35200.0,
+   "amountRaw": "$400 million",
+   "company": "Kolkata Knight Riders",
+   "confidence": "high",
+   "confirmed": false,
+   "createdAt": "2026-11-21T02:33:21.119368+00:00",
+   "dealType": "promoter sale",
+   "enrichmentState": null,
+   "id": 1396,
+   "individuals": [
+    "Jay Mehta"
+   ],
+   "listed": false,
+   "oneLine": "Jay Mehta is reportedly selling half of his stake in Kolkata Knight Riders for $400 million.",
+   "primaryOutlet": "Mint",
+   "seller": "Jay Mehta",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-21T02:33:30.120898+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Sagar Defence Engineering Limited",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-21T02:33:21.113136+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 1395,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Sagar Defence Engineering Limited filed a draft abridged prospectus for an IPO.",
+   "primaryOutlet": "Draft Abridged Prospectus",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 2,
+   "ticker": null,
+   "updatedAt": "2026-11-21T02:33:21.113136+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-11-21T02:33:21.117594+00:00",
+     "title": "Sagar Defence Engineering Limited"
+    }
+   ]
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Foodlink F&B Holdings India Limited",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-21T02:33:21.101843+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 1394,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Foodlink F&B Holdings India Limited filed draft offer documents with SEBI for an IPO.",
+   "primaryOutlet": "Abridged Prospectus",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 2,
+   "ticker": null,
+   "updatedAt": "2026-11-21T02:33:21.101843+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-11-21T02:33:21.106876+00:00",
+     "title": "Foodlink F&B Holdings India Limited"
+    }
+   ]
+  },
   {
    "amountCr": 1130.5,
    "amountRaw": "1130.5cr confirmed via NSE block deal",
@@ -407,13 +485,17 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 2,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-11-16T07:02:45.961332+00:00",
    "updates": [
     {
      "attachedAt": "2026-11-16T07:02:40.353127+00:00",
      "title": "Anthropic promises to pursue humanitys benefit. Its IPO filing gives it wiggle room"
+    },
+    {
+     "attachedAt": "2026-11-21T02:33:21.125197+00:00",
+     "title": "Who are Anthropic’s seven founders who became multibillionaires after Claude AI maker’s historic IPO?"
     }
    ]
   },
@@ -22793,6 +22875,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-11-19T22:05:50.811036+00:00",
- "totalDeals": 1046
+ "generatedAt": "2026-11-21T02:33:30.120898+00:00",
+ "totalDeals": 1049
 }
