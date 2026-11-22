@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 66000.0,
+ "amountRaw": "$7.5 billion (approx 66000 cr)",
+ "buyer": "Amazon",
+ "company": "Decart",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-22T02:47:16.919894+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1409,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Amazon is reportedly acquiring AI startup Decart for $7.5 billion.",
+ "primaryUrl": "https://www.livemint.com/companies/news/amazon-eyes-7-5-billion-decart-deal-to-boost-ai-chip-efficiency-challenge-nvidia-5-things-to-know-11795310250674.html",
+ "seller": "Decart",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-11-22T02:47:16.921188+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "Amazon eyes $7.5 billion Decart deal to boost AI chip efficiency, challenge Nvidia | 5 things to know",
+   "url": "https://www.livemint.com/companies/news/amazon-eyes-7-5-billion-decart-deal-to-boost-ai-chip-efficiency-challenge-nvidia-5-things-to-know-11795310250674.html"
+  }
+ ],
+ "synopsis": "Amazon is nearing a $7.5 billion deal to acquire AI startup Decart at an advanced stage of talks, according to the Financial Times. Decart's software allows AI models to run more efficiently to help Amazon Web Services compete with Nvidia. Founded in 2023 by three Israeli engineers, Decart was previously valued at $4 billion in May after raising $300 million from investors including Radical Ventures, Sequoia Capital, Benchmark, and Nvidia. Anthropic had previously explored a potential $6 billion deal for Decart in August before walking away. The potential acquisition comes as US tech stocks suffer their worst weekly decline since the Covid-19 crisis.",
+ "ticker": null,
+ "updatedAt": "2026-11-22T02:47:20.547037+00:00"
+}
