@@ -1,6 +1,30 @@
 {
- "dealCount": 746,
+ "dealCount": 742,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Mahindra Last Mile Mobility",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-22T10:17:06.317931+00:00",
+   "dealType": "other",
+   "enrichmentState": null,
+   "id": 1410,
+   "individuals": [
+    "Rajesh Jejurikar"
+   ],
+   "listed": false,
+   "oneLine": "Mahindra Last Mile Mobility plans an IPO in 18 months, providing future liquidity for promoters.",
+   "primaryOutlet": "Business Line",
+   "seller": null,
+   "sizeBand": "OVER_2000",
+   "sizeSource": "band",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-22T10:17:10.725300+00:00",
+   "updates": []
+  },
   {
    "amountCr": 66000.0,
    "amountRaw": "$7.5 billion (approx 66000 cr)",
@@ -22413,154 +22437,9 @@
    "ticker": null,
    "updatedAt": "2026-08-24T10:31:17.742339+00:00",
    "updates": []
-  },
-  {
-   "amountCr": null,
-   "amountRaw": null,
-   "company": "iD Fresh Food",
-   "confidence": "medium",
-   "confirmed": false,
-   "createdAt": "2026-08-24T09:31:20.222074+00:00",
-   "dealType": "DRHP filing",
-   "enrichmentState": null,
-   "id": 553,
-   "individuals": [],
-   "listed": false,
-   "oneLine": "iD Fresh Food eyes 2027 IPO; promoters likely to cash out",
-   "primaryOutlet": "Whalesbook",
-   "seller": null,
-   "sizeBand": "500_TO_2000",
-   "sizeSource": "band",
-   "sourceCount": 1,
-   "ticker": null,
-   "updatedAt": "2026-08-24T09:31:20.222074+00:00",
-   "updates": []
-  },
-  {
-   "amountCr": null,
-   "amountRaw": null,
-   "company": "Moms Belief",
-   "confidence": "medium",
-   "confirmed": false,
-   "createdAt": "2026-08-24T09:31:20.218625+00:00",
-   "dealType": "DRHP filing",
-   "enrichmentState": null,
-   "id": 552,
-   "individuals": [],
-   "listed": false,
-   "oneLine": "Moms Belief operator to launch IPO on Sept 1; promoters to exit",
-   "primaryOutlet": "Daily Excelsior",
-   "seller": null,
-   "sizeBand": null,
-   "sizeSource": "unknown",
-   "sourceCount": 1,
-   "ticker": null,
-   "updatedAt": "2026-08-24T09:31:20.218625+00:00",
-   "updates": []
-  },
-  {
-   "amountCr": null,
-   "amountRaw": null,
-   "company": "Nobel Hygiene",
-   "confidence": "medium",
-   "confirmed": false,
-   "createdAt": "2026-08-24T09:31:20.211912+00:00",
-   "dealType": "DRHP filing",
-   "enrichmentState": null,
-   "id": 551,
-   "individuals": [],
-   "listed": false,
-   "oneLine": "Nobel Hygiene files for IPO; promoters likely to cash out",
-   "primaryOutlet": "fintechbiznews.com",
-   "seller": null,
-   "sizeBand": null,
-   "sizeSource": "unknown",
-   "sourceCount": 3,
-   "ticker": null,
-   "updatedAt": "2026-08-24T09:31:20.211912+00:00",
-   "updates": [
-    {
-     "attachedAt": "2026-08-25T10:31:14.234854+00:00",
-     "title": "Nobel Hygiene Limited - DRHPNobel Hygiene Limited"
-    },
-    {
-     "attachedAt": "2026-08-25T10:31:14.236895+00:00",
-     "title": "Nobel Hygiene Limited"
-    }
-   ]
-  },
-  {
-   "amountCr": 450.0,
-   "amountRaw": "₹450 Cr offering",
-   "company": "Atomberg",
-   "confidence": "medium",
-   "confirmed": false,
-   "createdAt": "2026-08-24T08:31:05.211490+00:00",
-   "dealType": "DRHP filing",
-   "enrichmentState": null,
-   "id": 550,
-   "individuals": [],
-   "listed": false,
-   "oneLine": "Atomberg files DRHP for IPO; founder liquidity event ahead.",
-   "primaryOutlet": "Whalesbook",
-   "seller": "promoters of Atomberg (implied)",
-   "sizeBand": null,
-   "sizeSource": "unknown",
-   "sourceCount": 6,
-   "ticker": null,
-   "updatedAt": "2026-09-22T05:25:45.551496+00:00",
-   "updates": [
-    {
-     "attachedAt": "2026-08-25T01:31:59.825856+00:00",
-     "title": "Atomberg IPO: Can India’s Smart Fan Maker Become a Home Appliance Giant?"
-    },
-    {
-     "attachedAt": "2026-08-26T01:31:46.532132+00:00",
-     "title": "Atomberg DRHP: A Look At Shareholding Pattern & Key Personnel"
-    },
-    {
-     "attachedAt": "2026-08-27T06:31:18.633895+00:00",
-     "title": "ATOMBERG TECHNOLOGIES LIMITED - DRHPATOMBERG TECHNOLOGIES LIMITED"
-    },
-    {
-     "attachedAt": "2026-08-27T06:31:18.637641+00:00",
-     "title": "ATOMBERG TECHNOLOGIES LIMITED"
-    },
-    {
-     "attachedAt": "2026-09-07T05:34:54.133384+00:00",
-     "title": "Atomberg IPO Legal Advisors India: CAM and JSA Appointed for ₹450 Cr Offering"
-    }
-   ]
-  },
-  {
-   "amountCr": null,
-   "amountRaw": null,
-   "company": "MSM Unify",
-   "confidence": "medium",
-   "confirmed": false,
-   "createdAt": "2026-08-24T07:31:13.773006+00:00",
-   "dealType": "IPO-OFS",
-   "enrichmentState": null,
-   "id": 549,
-   "individuals": [],
-   "listed": false,
-   "oneLine": "MSM Unify plans IPO across India and global markets.",
-   "primaryOutlet": "BusinessLine",
-   "seller": null,
-   "sizeBand": null,
-   "sizeSource": "unknown",
-   "sourceCount": 2,
-   "ticker": null,
-   "updatedAt": "2026-08-24T07:31:13.773006+00:00",
-   "updates": [
-    {
-     "attachedAt": "2026-08-24T08:31:05.215064+00:00",
-     "title": "MSM Unify appoints Rishi Kapoor as CFO, eyes IPO in India and overseas markets"
-    }
-   ]
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-11-22T02:47:20.547037+00:00",
- "totalDeals": 1060
+ "generatedAt": "2026-11-22T10:17:10.725300+00:00",
+ "totalDeals": 1061
 }

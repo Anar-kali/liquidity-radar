@@ -1,0 +1,34 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Mahindra Last Mile Mobility",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-22T10:17:06.317931+00:00",
+ "dealType": "other",
+ "enrichmentState": null,
+ "id": 1410,
+ "individuals": [
+  "Rajesh Jejurikar"
+ ],
+ "listed": false,
+ "oneLine": "Mahindra Last Mile Mobility plans an IPO in 18 months, providing future liquidity for promoters.",
+ "primaryUrl": "https://www.thehindubusinessline.com/markets/mahindra-last-mile-mobility-eyes-ipo-in-18-months-plans-expansion-into-new-products-chairman/article71730782.ece",
+ "seller": null,
+ "sizeBand": "OVER_2000",
+ "sizeSource": "band",
+ "sources": [
+  {
+   "attachedAt": "2026-11-22T10:17:06.320578+00:00",
+   "outlet": "Business Line",
+   "resolvable": true,
+   "title": "Mahindra Last Mile Mobility eyes IPO in 18 months; plans expansion into new products: Chairman",
+   "url": "https://www.thehindubusinessline.com/markets/mahindra-last-mile-mobility-eyes-ipo-in-18-months-plans-expansion-into-new-products-chairman/article71730782.ece"
+  }
+ ],
+ "synopsis": "Mahindra Last Mile Mobility Ltd (MLMML) is planning an initial public offering in approximately 18 months to unlock value and fund expansion into new products and capacity augmentation, according to Chairman Rajesh Jejurikar. The company already holds a valuation of around $1 billion and currently has two investors on board, with a third expected soon. The funds raised will be used partly for value unlocking and primarily for driving growth in new segments and products, including electric three- and four-wheelers in passenger and cargo segments. Jejurikar noted that Mahindra intends to continue participating in the journey without reducing its stake significantly. No specific listing date has been finalised yet, and the company is also exploring potential overseas markets such as Southeast Asia and Africa.",
+ "ticker": null,
+ "updatedAt": "2026-11-22T10:17:10.725300+00:00"
+}
