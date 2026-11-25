@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Pride Hotels Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-25T08:49:13.251206+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": "failed",
+ "id": 1411,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Pride Hotels added to its DRHP filing for a planned IPO.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/nov-2026/pride-hotels-limited-addendum-to-the-drhp_105935.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-11-25T08:49:13.252482+00:00",
+   "outlet": "Addendum to the DRHP",
+   "resolvable": true,
+   "title": "Pride Hotels Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/nov-2026/pride-hotels-limited-addendum-to-the-drhp_105935.html"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-11-25T08:49:13.251206+00:00"
+}

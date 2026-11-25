@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 14960.0,
+ "amountRaw": "$1.7 billion",
+ "buyer": "Brookfield",
+ "company": "PGP Glass",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-25T08:49:13.367027+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1420,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Brookfield buys PGP Glass from Blackstone for $1.7 billion",
+ "primaryUrl": "https://www.thehindubusinessline.com/companies/brookfield-buys-pgp-glass-from-blackstone-for-17-billion/article71734455.ece",
+ "seller": "Blackstone",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-11-25T08:49:13.368056+00:00",
+   "outlet": "Business Line",
+   "resolvable": true,
+   "title": "Brookfield buys PGP Glass from Blackstone for $1.7 billion",
+   "url": "https://www.thehindubusinessline.com/companies/brookfield-buys-pgp-glass-from-blackstone-for-17-billion/article71734455.ece"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-11-25T08:49:13.367027+00:00"
+}

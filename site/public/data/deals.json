@@ -1,6 +1,225 @@
 {
- "dealCount": 708,
+ "dealCount": 709,
  "deals": [
+  {
+   "amountCr": 14960.0,
+   "amountRaw": "$1.7 billion",
+   "company": "PGP Glass",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-25T08:49:13.367027+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1420,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Brookfield buys PGP Glass from Blackstone for $1.7 billion",
+   "primaryOutlet": "Business Line",
+   "seller": "Blackstone",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-25T08:49:13.367027+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Tata Sons",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-25T08:49:13.363178+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 1419,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Tata Sons board meeting deferred amid discussion on RBI communication to list shares",
+   "primaryOutlet": "Business Line",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-25T08:49:13.363178+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 28000.0,
+   "amountRaw": "₹28,000 cr",
+   "company": "APL Apollo",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-25T08:49:13.344313+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1418,
+   "individuals": [
+    "Sanjay Gupta"
+   ],
+   "listed": true,
+   "oneLine": "Brokerages turn cautious on Tata Steel and APL Apollo's Rs 28,000 cr deal",
+   "primaryOutlet": "Business Line",
+   "seller": "Tata Steel",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 2,
+   "ticker": "APLAPOLLO.NS",
+   "updatedAt": "2026-11-25T08:49:49.983459+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-11-25T08:49:13.352336+00:00",
+     "title": "Tata Steel-APL Apollo deal under governance, valuation lens"
+    }
+   ]
+  },
+  {
+   "amountCr": 920.58,
+   "amountRaw": "Rs 920.58 crore",
+   "company": "Lenskart",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-25T08:49:13.315114+00:00",
+   "dealType": "block deal",
+   "enrichmentState": null,
+   "id": 1416,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Steadview Capital sells a 0.73% stake in Lenskart for Rs 921 Cr.",
+   "primaryOutlet": "Entrackr",
+   "seller": "Steadview Capital",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 3,
+   "ticker": "LENSKART.NS",
+   "updatedAt": "2026-11-25T08:49:43.369587+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-11-25T08:49:13.327715+00:00",
+     "title": "Steadview Capital Sells Lenskart Shares Worth ₹921 Cr"
+    },
+    {
+     "attachedAt": "2026-11-25T08:49:13.333158+00:00",
+     "title": "Goldman Sachs, Societe Generale buy Rs 920-Cr stake in Lenskart"
+    }
+   ]
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Decart",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-25T08:49:13.302807+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1415,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Amazon acquires AI startup Decart's technology and hires founders.",
+   "primaryOutlet": "Mint",
+   "seller": "Decart",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-25T08:49:36.777733+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 360800.0,
+   "amountRaw": "$41 billion",
+   "company": "Insmed Inc.",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-25T08:49:13.299359+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1414,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Sanofi acquires Insmed for $41 billion.",
+   "primaryOutlet": "Mint",
+   "seller": "Insmed Inc.",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-25T08:49:29.132431+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 2816000.0,
+   "amountRaw": "$3.2 trillion",
+   "company": "SpaceX",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-25T08:49:13.295844+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1413,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Tesla and SpaceX discussing a $3.2 trillion all-stock merger.",
+   "primaryOutlet": "Mint",
+   "seller": "Tesla and SpaceX",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-25T08:49:27.362400+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Monomark Engineering (India) Limited",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-25T08:49:13.260400+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 1412,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Monomark Engineering issued an RHP/abridged prospectus for its IPO.",
+   "primaryOutlet": "Abridged Prospectus",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 2,
+   "ticker": null,
+   "updatedAt": "2026-11-25T08:49:13.260400+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-11-25T08:49:13.266569+00:00",
+     "title": "Monomark Engineering (India) Limited"
+    }
+   ]
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Pride Hotels Limited",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-25T08:49:13.251206+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 1411,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Pride Hotels added to its DRHP filing for a planned IPO.",
+   "primaryOutlet": "Addendum to the DRHP",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-25T08:49:13.251206+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -257,13 +476,21 @@
    "seller": "Promoters",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-11-21T11:03:00.107882+00:00",
    "updates": [
     {
      "attachedAt": "2026-11-21T11:02:37.963421+00:00",
      "title": "NLC India Renewables files IPO papers, plans to raise Rs 3,300 crore through fresh issue"
+    },
+    {
+     "attachedAt": "2026-11-25T08:49:13.235144+00:00",
+     "title": "NLC India Renewables Limited - DRHPNLC India Renewables Limited"
+    },
+    {
+     "attachedAt": "2026-11-25T08:49:13.240888+00:00",
+     "title": "NLC India Renewables Limited"
     }
    ]
   },
@@ -698,10 +925,15 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-11-19T08:48:38.182136+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-11-25T08:49:13.340655+00:00",
+     "title": "Chartered Speed targets December IPO after Iran war disruption"
+    }
+   ]
   },
   {
    "amountCr": 800.15,
@@ -1664,7 +1896,7 @@
    "seller": "Coal India",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 12,
+   "sourceCount": 13,
    "ticker": null,
    "updatedAt": "2026-11-14T11:46:24.199769+00:00",
    "updates": [
@@ -1711,6 +1943,10 @@
     {
      "attachedAt": "2026-11-19T08:48:38.227731+00:00",
      "title": "Mahanadi Coalfields Limited"
+    },
+    {
+     "attachedAt": "2026-11-25T08:49:13.271958+00:00",
+     "title": "Mahanadi Coalfields Ltd.- Prospectus"
     }
    ]
   },
@@ -4114,7 +4350,7 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 5,
+   "sourceCount": 6,
    "ticker": null,
    "updatedAt": "2026-11-13T18:30:57.470608+00:00",
    "updates": [
@@ -4133,6 +4369,10 @@
     {
      "attachedAt": "2026-11-14T11:46:24.228275+00:00",
      "title": "Crystal Crop Protection Limited IPO targets ₹456 crore, lists Nov 26"
+    },
+    {
+     "attachedAt": "2026-11-25T08:49:13.277932+00:00",
+     "title": "Crystal Crop Protection Limited– Prospectus"
     }
    ]
   },
@@ -6159,10 +6399,19 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 1,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-10-12T04:31:11.977910+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-11-25T08:49:13.284354+00:00",
+     "title": "Matangi Rubber Limited - RHPMatangi Rubber Limited"
+    },
+    {
+     "attachedAt": "2026-11-25T08:49:13.292561+00:00",
+     "title": "Matangi Rubber Limited"
+    }
+   ]
   },
   {
    "amountCr": 1900.6,
@@ -21075,278 +21324,9 @@
      "title": "Oyo parent Prism’s FY26 profit jumps over fourfold to Rs 994 crore"
     }
    ]
-  },
-  {
-   "amountCr": 2299.0,
-   "amountRaw": "₹2,299 Cr",
-   "company": "Rubicon Research",
-   "confidence": "high",
-   "confirmed": false,
-   "createdAt": "2026-08-27T08:31:09.792034+00:00",
-   "dealType": "PE secondary",
-   "enrichmentState": null,
-   "id": 601,
-   "individuals": [],
-   "listed": true,
-   "oneLine": "General Atlantic exits 8.4% Rubicon Research stake for ₹2,299 cr.",
-   "primaryOutlet": "outlookbusiness.com",
-   "seller": "General Atlantic",
-   "sizeBand": null,
-   "sizeSource": "stated",
-   "sourceCount": 1,
-   "ticker": "RUBICON.NS",
-   "updatedAt": "2026-09-22T05:25:44.859935+00:00",
-   "updates": []
-  },
-  {
-   "amountCr": null,
-   "amountRaw": null,
-   "company": "Pushp Brand",
-   "confidence": "medium",
-   "confirmed": false,
-   "createdAt": "2026-08-27T08:31:09.785415+00:00",
-   "dealType": "IPO-OFS",
-   "enrichmentState": null,
-   "id": 600,
-   "individuals": [],
-   "listed": false,
-   "oneLine": "Pushp Brand gets SEBI IPO approval with OFS component; promoter liquidity event.",
-   "primaryOutlet": "Upstox",
-   "seller": "A91 Partners, Sixth Sense",
-   "sizeBand": null,
-   "sizeSource": "unknown",
-   "sourceCount": 3,
-   "ticker": null,
-   "updatedAt": "2026-09-22T05:25:44.856924+00:00",
-   "updates": [
-    {
-     "attachedAt": "2026-08-27T12:31:24.767720+00:00",
-     "title": "A91 Emerging, Sixth Sense-backed Pushp Brand receives Sebi nod for IPO"
-    },
-    {
-     "attachedAt": "2026-08-28T01:32:28.686228+00:00",
-     "title": "Pushp Brand gets IPO nod; A91 Partners, Sixth Sense to partially divest stake"
-    }
-   ]
-  },
-  {
-   "amountCr": 800.0,
-   "amountRaw": "₹800 crore fresh issue",
-   "company": "Aragen Life Sciences",
-   "confidence": "medium",
-   "confirmed": false,
-   "createdAt": "2026-08-27T07:31:11.134573+00:00",
-   "dealType": "DRHP filing",
-   "enrichmentState": null,
-   "id": 599,
-   "individuals": [],
-   "listed": false,
-   "oneLine": "Goldman Sachs-backed Aragen Life Sciences files DRHP for IPO; promoters to cash out.",
-   "primaryOutlet": "ET Now",
-   "seller": null,
-   "sizeBand": null,
-   "sizeSource": "stated",
-   "sourceCount": 18,
-   "ticker": null,
-   "updatedAt": "2026-09-22T05:25:45.571824+00:00",
-   "updates": [
-    {
-     "attachedAt": "2026-08-27T09:31:08.344178+00:00",
-     "title": "Aragen Life Sciences filed DRHP with SEBI to launch its IPO; check all key details"
-    },
-    {
-     "attachedAt": "2026-08-27T09:31:08.348210+00:00",
-     "title": "Aragen Life Sciences Limited files DRHP with SEBI for its IPO"
-    },
-    {
-     "attachedAt": "2026-08-27T10:31:38.397089+00:00",
-     "title": "Aragen Life Sciences files DRHP with Sebi for IPO comprising ₹800 crore fresh issue"
-    },
-    {
-     "attachedAt": "2026-08-27T10:31:38.403956+00:00",
-     "title": "Aragen Life Sciences files draft papers with SEBI; eyes ₹800-cr via fresh issue"
-    },
-    {
-     "attachedAt": "2026-08-27T10:31:38.413969+00:00",
-     "title": "Aragen Life Sciences files draft papers with Sebi to raise funds through IPO"
-    },
-    {
-     "attachedAt": "2026-08-27T10:31:38.417255+00:00",
-     "title": "Aragen Life Sciences Files for Rs 800 Cr IPO with Sebi"
-    },
-    {
-     "attachedAt": "2026-08-27T11:31:20.185320+00:00",
-     "title": "Aragen Life Sciences Files DRHP With SEBI For IPO; Eyes Rs 800 Crore Via Fresh Issue"
-    },
-    {
-     "attachedAt": "2026-08-27T11:31:20.188839+00:00",
-     "title": "Aragen Life Sciences Files for ₹800 Crore IPO to Cut Debt"
-    },
-    {
-     "attachedAt": "2026-08-27T12:31:24.760849+00:00",
-     "title": "Aragen Life Sciences files DRHP with Sebi for IPO that includes ₹800 crore fresh issue"
-    },
-    {
-     "attachedAt": "2026-08-27T13:31:30.004330+00:00",
-     "title": "Aragen Life Sciences Files ₹800 Cr IPO; OFS of 2.73 Cr Shares"
-    },
-    {
-     "attachedAt": "2026-08-28T01:32:28.008376+00:00",
-     "title": "Aragen files DRHP with Sebi for IPO"
-    },
-    {
-     "attachedAt": "2026-08-28T01:32:28.637756+00:00",
-     "title": "Aragen Life Sciences files draft papers for IPO with ₹800-cr fresh issue"
-    },
-    {
-     "attachedAt": "2026-08-28T05:31:09.848654+00:00",
-     "title": "Aragen Life Sciences files DRHP for ₹800 cr fresh issue"
-    },
-    {
-     "attachedAt": "2026-09-01T06:31:34.529341+00:00",
-     "title": "ARAGEN LIFE SCIENCES LIMITED - DRHPARAGEN LIFE SCIENCES LIMITED"
-    },
-    {
-     "attachedAt": "2026-09-01T06:31:34.531584+00:00",
-     "title": "ARAGEN LIFE SCIENCES LIMITED"
-    },
-    {
-     "attachedAt": "2026-09-02T13:31:21.817065+00:00",
-     "title": "CAM, Trilegal, TT&A act on Aragen Life Sciences proposed IPO"
-    },
-    {
-     "attachedAt": "2026-09-08T07:31:19.080292+00:00",
-     "title": "Aragen Life Sciences Files DRHP with SEBI for ₹800 Crore Fresh Issue"
-    }
-   ]
-  },
-  {
-   "amountCr": null,
-   "amountRaw": null,
-   "company": "Deepa Jewellers Limited",
-   "confidence": "medium",
-   "confirmed": false,
-   "createdAt": "2026-08-27T05:32:16.478836+00:00",
-   "dealType": "DRHP filing",
-   "enrichmentState": null,
-   "id": 598,
-   "individuals": [],
-   "listed": true,
-   "oneLine": "Deepa Jewellers files RHP; IPO prospecting lead.",
-   "primaryOutlet": "Abridged Prospectus",
-   "seller": null,
-   "sizeBand": null,
-   "sizeSource": "unknown",
-   "sourceCount": 2,
-   "ticker": "DEEPA.NS",
-   "updatedAt": "2026-08-27T05:32:16.478836+00:00",
-   "updates": [
-    {
-     "attachedAt": "2026-08-27T05:32:16.482058+00:00",
-     "title": "Deepa Jewellers Limited"
-    }
-   ]
-  },
-  {
-   "amountCr": 58000.0,
-   "amountRaw": "Rs 58,000 crore",
-   "company": "Rs 58,000 crore selloff by promoters, PE funds hits stock market. Why are they cashing out now?",
-   "confidence": "medium",
-   "confirmed": false,
-   "createdAt": "2026-08-27T04:31:12.354912+00:00",
-   "dealType": "other",
-   "enrichmentState": null,
-   "id": 597,
-   "individuals": [],
-   "listed": false,
-   "oneLine": "Rs 58,000 cr promoter and PE fund selloff hitting stock market.",
-   "primaryOutlet": "The Economic Times",
-   "seller": "promoters, PE funds",
-   "sizeBand": null,
-   "sizeSource": "stated",
-   "sourceCount": 1,
-   "ticker": null,
-   "updatedAt": "2026-08-27T04:31:12.354912+00:00",
-   "updates": []
-  },
-  {
-   "amountCr": 2537.0,
-   "amountRaw": "Rs 2,537 crore",
-   "company": "D-Mart",
-   "confidence": "high",
-   "confirmed": false,
-   "createdAt": "2026-08-27T03:31:17.919931+00:00",
-   "dealType": "block deal",
-   "enrichmentState": null,
-   "id": 594,
-   "individuals": [],
-   "listed": false,
-   "oneLine": "Capital Group sells 1% D-Mart stake for Rs 2,537 crore.",
-   "primaryOutlet": "inkl",
-   "seller": "Capital Group",
-   "sizeBand": null,
-   "sizeSource": "stated",
-   "sourceCount": 2,
-   "ticker": null,
-   "updatedAt": "2026-09-22T05:25:44.853974+00:00",
-   "updates": [
-    {
-     "attachedAt": "2026-08-27T11:31:20.190905+00:00",
-     "title": "Retail India News: Capital Group Sells D-Mart Stake for Rs 2,537 Cr"
-    }
-   ]
-  },
-  {
-   "amountCr": 320.0,
-   "amountRaw": "up to ₹320 crore",
-   "company": "Aye Finance",
-   "confidence": "high",
-   "confirmed": false,
-   "createdAt": "2026-08-27T01:31:44.735599+00:00",
-   "dealType": "PE secondary",
-   "enrichmentState": null,
-   "id": 593,
-   "individuals": [],
-   "listed": true,
-   "oneLine": "Alpha Wave seeks to sell 7.8% stake in Aye Finance for up to ₹320 crore.",
-   "primaryOutlet": "CNBC TV18",
-   "seller": "Alpha Wave",
-   "sizeBand": null,
-   "sizeSource": "stated",
-   "sourceCount": 2,
-   "ticker": "AYE.NS",
-   "updatedAt": "2026-09-22T05:25:44.851033+00:00",
-   "updates": [
-    {
-     "attachedAt": "2026-08-28T01:32:28.676508+00:00",
-     "title": "Alpha Wave Ventures Exits Aye Finance Via ₹323 Cr Bulk Deals"
-    }
-   ]
-  },
-  {
-   "amountCr": 2719.0,
-   "amountRaw": "USD 309 million = ~₹2,719 crore (at 88 INR/USD)",
-   "company": "Paytm",
-   "confidence": "medium",
-   "confirmed": false,
-   "createdAt": "2026-08-27T01:31:42.797324+00:00",
-   "dealType": "block deal",
-   "enrichmentState": null,
-   "id": 592,
-   "individuals": [],
-   "listed": true,
-   "oneLine": "Goldman Sachs executes USD 309 million block sale of Paytm shares.",
-   "primaryOutlet": "LawBeat",
-   "seller": "Goldman Sachs (on behalf of selling shareholder)",
-   "sizeBand": null,
-   "sizeSource": "stated",
-   "sourceCount": 1,
-   "ticker": "PAYTM.NS",
-   "updatedAt": "2026-08-27T01:31:42.797324+00:00",
-   "updates": []
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-11-22T10:17:10.725300+00:00",
- "totalDeals": 1061
+ "generatedAt": "2026-11-25T08:49:49.983459+00:00",
+ "totalDeals": 1070
 }

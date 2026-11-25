@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 360800.0,
+ "amountRaw": "$41 billion",
+ "buyer": "Sanofi SA",
+ "company": "Insmed Inc.",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-25T08:49:13.299359+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1414,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Sanofi acquires Insmed for $41 billion.",
+ "primaryUrl": "https://www.livemint.com/companies/sanofis-41-billion-insmed-deal-shows-cost-of-a-patent-cliff-11795545425011.html",
+ "seller": "Insmed Inc.",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-11-25T08:49:13.300535+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "Sanofi’s $41 Billion Insmed Deal Shows Cost of a Patent Cliff",
+   "url": "https://www.livemint.com/companies/sanofis-41-billion-insmed-deal-shows-cost-of-a-patent-cliff-11795545425011.html"
+  }
+ ],
+ "synopsis": "Sanofi SA has agreed to acquire Insmed Inc. for $41 billion. The transaction is driven by Sanofi's need to plug upcoming pipeline gaps and address the looming patent expiry of its asthma blockbuster Dupixent, which starts losing patent protection in 2031. Through the acquisition, led by new Sanofi Chief Executive Officer Belén Garijo, the French firm gains two on-market lung disease drugs and access to a wider pipeline of rare-disease treatments. The deal represents the largest biopharma tie-up since Pfizer Inc. bought Seagen Inc. for $43 billion in late 2023, and follows a 46% premium on Insmed.",
+ "ticker": null,
+ "updatedAt": "2026-11-25T08:49:29.132431+00:00"
+}

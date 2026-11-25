@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Tata Sons",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-25T08:49:13.363178+00:00",
+ "dealType": "IPO-OFS",
+ "enrichmentState": null,
+ "id": 1419,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Tata Sons board meeting deferred amid discussion on RBI communication to list shares",
+ "primaryUrl": "https://www.thehindubusinessline.com/companies/tata-sons-board-meeting-deferred-to-november-30/article71735338.ece",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-11-25T08:49:13.364593+00:00",
+   "outlet": "Business Line",
+   "resolvable": true,
+   "title": "Tata Sons board meeting deferred to November 30",
+   "url": "https://www.thehindubusinessline.com/companies/tata-sons-board-meeting-deferred-to-november-30/article71735338.ece"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-11-25T08:49:13.363178+00:00"
+}

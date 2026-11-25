@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 2816000.0,
+ "amountRaw": "$3.2 trillion",
+ "buyer": "Tesla",
+ "company": "SpaceX",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-25T08:49:13.295844+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1413,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Tesla and SpaceX discussing a $3.2 trillion all-stock merger.",
+ "primaryUrl": "https://www.livemint.com/companies/news/spacextesla-merger-elon-musk-s-companies-assemble-teams-to-discuss-biggest-ever-3-2-trillion-deal-11795572495864.html",
+ "seller": "Tesla and SpaceX",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-11-25T08:49:13.296993+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "SpaceX-Tesla merger: Elon Musk’s companies assemble teams to discuss ‘biggest ever’ $3.2 trillion deal",
+   "url": "https://www.livemint.com/companies/news/spacextesla-merger-elon-musk-s-companies-assemble-teams-to-discuss-biggest-ever-3-2-trillion-deal-11795572495864.html"
+  }
+ ],
+ "synopsis": "Tesla and SpaceX have assembled a committee of five directors and three investment banks to discuss an all-stock merger that would create a combined entity valued at $3.2 trillion. SpaceX has a market cap of roughly $1.7 trillion and Tesla clocks in at $1.5 trillion. Elon Musk, who owns both companies, has recused himself from the negotiations due to a conflict of interest, while independent special committees evaluate the proposed transaction. Morgan Stanley and Goldman Sachs are advising SpaceX, and Evercore is developing financial models for Tesla. The deal could potentially be announced as soon as December.",
+ "ticker": null,
+ "updatedAt": "2026-11-25T08:49:27.362400+00:00"
+}

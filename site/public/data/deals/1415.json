@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "Amazon",
+ "company": "Decart",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-25T08:49:13.302807+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1415,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Amazon acquires AI startup Decart's technology and hires founders.",
+ "primaryUrl": "https://www.livemint.com/companies/news/can-amazon-s-trainium-chips-reduce-its-dependence-on-nvidia-the-decart-technology-acquisition-offers-clues-11795541315149.html",
+ "seller": "Decart",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-11-25T08:49:13.303849+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "Can Amazon’s Trainium chips reduce its dependence on Nvidia? The Decart acquisition offers clues",
+   "url": "https://www.livemint.com/companies/news/can-amazon-s-trainium-chips-reduce-its-dependence-on-nvidia-the-decart-technology-acquisition-offers-clues-11795541315149.html"
+  }
+ ],
+ "synopsis": "Amazon announced it will acquire AI startup Decart's technology and recruit its founders and other staff in a deal reported by Bloomberg News to be worth around $7.5 billion, though Amazon declined to disclose the financial terms. Founded in 2023, Decart develops software to improve the efficiency of AI workloads across different hardware platforms and has been working with Amazon since 2025 to improve Trainium processor performance. The acquisition aims to strengthen Amazon's software ecosystem for its custom silicon chips and reduce dependence on Nvidia's computing infrastructure.",
+ "ticker": null,
+ "updatedAt": "2026-11-25T08:49:36.777733+00:00"
+}

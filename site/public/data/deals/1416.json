@@ -1,0 +1,46 @@
+{
+ "advisers": [],
+ "amountCr": 920.58,
+ "amountRaw": "Rs 920.58 crore",
+ "buyer": "Goldman Sachs, Societe Generale",
+ "company": "Lenskart",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-25T08:49:13.315114+00:00",
+ "dealType": "block deal",
+ "enrichmentState": null,
+ "id": 1416,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Steadview Capital sells a 0.73% stake in Lenskart for Rs 921 Cr.",
+ "primaryUrl": "https://entrackr.com/news/steadview-capital-sells-073-stake-in-lenskart-for-rs-921-cr-through-block-deal-12835966",
+ "seller": "Steadview Capital",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-11-25T08:49:13.316376+00:00",
+   "outlet": "Entrackr",
+   "resolvable": true,
+   "title": "Steadview Capital sells 0.73% stake in Lenskart for Rs 921 Cr through block deal",
+   "url": "https://entrackr.com/news/steadview-capital-sells-073-stake-in-lenskart-for-rs-921-cr-through-block-deal-12835966"
+  },
+  {
+   "attachedAt": "2026-11-25T08:49:13.327715+00:00",
+   "outlet": "Entrackr",
+   "resolvable": true,
+   "title": "Steadview Capital Sells Lenskart Shares Worth ₹921 Cr",
+   "url": "https://inc42.com/buzz/steadview-capital-sells-lenskart-shares-worth-%e2%82%b9921-cr/"
+  },
+  {
+   "attachedAt": "2026-11-25T08:49:13.333158+00:00",
+   "outlet": "Entrackr",
+   "resolvable": true,
+   "title": "Goldman Sachs, Societe Generale buy Rs 920-Cr stake in Lenskart",
+   "url": "https://yourstory.com/2026/11/goldman-sachs-societe-generale-buy-rs-920-cr-stake-lenskart"
+  }
+ ],
+ "synopsis": "San Francisco-based Steadview Capital offloaded a 0.73% stake in eyewear retailer Lenskart for Rs 920.58 crore through a block deal on November 23. Steadview Capital, operating through Steadview Capital Mauritius Ltd-FDI and LTR Focus Fund, sold a combined 1.27 crore shares at Rs 725 per share. Buyers in the transaction included Societe Generale ODI, which picked up 61.76 lakh shares worth Rs 447.8 crore, and Goldman Sachs, which acquired a combined 65.21 lakh shares worth around Rs 473 crore through two entities. Following this partial exit, Steadview Capital's stake reduced from the 3.31% it held as of September 2026. The shares were transacted at a 2.6% discount to Lenskart's previous closing price of Rs 744.35.",
+ "ticker": "LENSKART.NS",
+ "updatedAt": "2026-11-25T08:49:43.369587+00:00"
+}

@@ -1,0 +1,41 @@
+{
+ "advisers": [],
+ "amountCr": 28000.0,
+ "amountRaw": "₹28,000 cr",
+ "buyer": "Tata Steel",
+ "company": "APL Apollo",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-25T08:49:13.344313+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1418,
+ "individuals": [
+  "Sanjay Gupta"
+ ],
+ "listed": true,
+ "oneLine": "Brokerages turn cautious on Tata Steel and APL Apollo's Rs 28,000 cr deal",
+ "primaryUrl": "https://www.thehindubusinessline.com/markets/stock-markets/tata-steel-shares-rise-1-while-apl-apollo-slumps-9-after-brokerages-turn-cautious-on-28000-cr-deal/article71741210.ece",
+ "seller": "Tata Steel",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-11-25T08:49:13.345692+00:00",
+   "outlet": "Business Line",
+   "resolvable": true,
+   "title": "Tata Steel shares rise 1%, APL Apollo falls 9% as brokerages turn cautious on ₹28,000 cr deal",
+   "url": "https://www.thehindubusinessline.com/markets/stock-markets/tata-steel-shares-rise-1-while-apl-apollo-slumps-9-after-brokerages-turn-cautious-on-28000-cr-deal/article71741210.ece"
+  },
+  {
+   "attachedAt": "2026-11-25T08:49:13.352336+00:00",
+   "outlet": "Business Line",
+   "resolvable": true,
+   "title": "Tata Steel-APL Apollo deal under governance, valuation lens",
+   "url": "https://www.thehindubusinessline.com/companies/minority-shareholder-concerns-intensify-over-tata-steel-apl-apollo-deal/article71739426.ece"
+  }
+ ],
+ "synopsis": "Tata Steel is selling its tubes and colour-coated steel businesses to APL Apollo for Rs 28,000 crore. Under the agreement, APL Apollo will acquire a combined 52.38 per cent stake comprising a promoter stake and a further share through an open offer. The first tranche of 9.9 per cent was completed on November 23, while later tranches remain subject to regulatory, Competition Commission of India, and shareholder approvals. Brokerages have turned cautious on the transaction, raising concerns over valuation, leverage, and earnings dilution for APL Apollo, while views on Tata Steel remain mixed.",
+ "ticker": "APLAPOLLO.NS",
+ "updatedAt": "2026-11-25T08:49:49.983459+00:00"
+}

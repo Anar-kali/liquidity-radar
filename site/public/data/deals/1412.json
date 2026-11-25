@@ -1,0 +1,39 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Monomark Engineering (India) Limited",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-25T08:49:13.260400+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": "failed",
+ "id": 1412,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Monomark Engineering issued an RHP/abridged prospectus for its IPO.",
+ "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/nov-2026/monomark-engineering-india-limited-rhp_105932.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-11-25T08:49:13.261519+00:00",
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "Monomark Engineering (India) Limited - RHPMonomark Engineering (India) Limited",
+   "url": "https://www.sebi.gov.in/filings/public-issues/nov-2026/monomark-engineering-india-limited-rhp_105932.html"
+  },
+  {
+   "attachedAt": "2026-11-25T08:49:13.266569+00:00",
+   "outlet": "Abridged Prospectus",
+   "resolvable": true,
+   "title": "Monomark Engineering (India) Limited",
+   "url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Monomark%20Engineering%20(India)%20Limited-prospectus_p.pdf"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-11-25T08:49:13.260400+00:00"
+}
