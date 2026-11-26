@@ -1,0 +1,34 @@
+{
+ "advisers": [],
+ "amountCr": 182.04,
+ "amountRaw": "182.04cr confirmed via NSE block deal",
+ "buyer": null,
+ "company": "Alkem Laboratories Ltd.",
+ "confidence": "high",
+ "confirmed": true,
+ "createdAt": "2026-11-26T22:55:28.954214+00:00",
+ "dealType": "block deal",
+ "enrichmentState": null,
+ "id": 1422,
+ "individuals": [
+  "SEEMA SINGH"
+ ],
+ "listed": true,
+ "oneLine": "SEEMA SINGH sold shares in Alkem Laboratories Ltd. (confirmed, NSE block deal)",
+ "primaryUrl": "",
+ "seller": "SEEMA SINGH",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-11-26T22:55:28.954837+00:00",
+   "outlet": "NSE",
+   "resolvable": true,
+   "title": "Alkem Laboratories Ltd.: block deal",
+   "url": ""
+  }
+ ],
+ "synopsis": null,
+ "ticker": "ALKEM.NS",
+ "updatedAt": "2026-11-26T22:55:28.954214+00:00"
+}

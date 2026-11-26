@@ -1,6 +1,54 @@
 {
- "dealCount": 684,
+ "dealCount": 686,
  "deals": [
+  {
+   "amountCr": 182.04,
+   "amountRaw": "182.04cr confirmed via NSE block deal",
+   "company": "Alkem Laboratories Ltd.",
+   "confidence": "high",
+   "confirmed": true,
+   "createdAt": "2026-11-26T22:55:28.954214+00:00",
+   "dealType": "block deal",
+   "enrichmentState": null,
+   "id": 1422,
+   "individuals": [
+    "SEEMA SINGH"
+   ],
+   "listed": true,
+   "oneLine": "SEEMA SINGH sold shares in Alkem Laboratories Ltd. (confirmed, NSE block deal)",
+   "primaryOutlet": "NSE",
+   "seller": "SEEMA SINGH",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "ALKEM.NS",
+   "updatedAt": "2026-11-26T22:55:28.954214+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 2396.45,
+   "amountRaw": "2396.45cr confirmed via NSE bulk deal",
+   "company": "LG Electronics India Ltd",
+   "confidence": "high",
+   "confirmed": true,
+   "createdAt": "2026-11-26T22:55:28.944608+00:00",
+   "dealType": "bulk deal",
+   "enrichmentState": null,
+   "id": 1421,
+   "individuals": [
+    "LG ELECTRONICS INC"
+   ],
+   "listed": true,
+   "oneLine": "LG ELECTRONICS INC sold shares in LG Electronics India Ltd (confirmed, NSE bulk deal)",
+   "primaryOutlet": "NSE",
+   "seller": "LG ELECTRONICS INC",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "LGEINDIA.NS",
+   "updatedAt": "2026-11-26T22:55:28.944608+00:00",
+   "updates": []
+  },
   {
    "amountCr": 14960.0,
    "amountRaw": "$1.7 billion",
@@ -20579,6 +20627,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-11-25T08:49:49.983459+00:00",
- "totalDeals": 1070
+ "generatedAt": "2026-11-26T22:55:28.954214+00:00",
+ "totalDeals": 1072
 }
