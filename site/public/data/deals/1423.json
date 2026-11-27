@@ -1,0 +1,36 @@
+{
+ "advisers": [],
+ "amountCr": 3000.0,
+ "amountRaw": "₹3,000 cr",
+ "buyer": null,
+ "company": "Kalyan Silks",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-27T08:02:38.645961+00:00",
+ "dealType": "PE secondary",
+ "enrichmentState": null,
+ "id": 1423,
+ "individuals": [
+  "T.S. Pattabhiraman",
+  "Prakash Pattabhiraman",
+  "Mahesh Pattabhiraman"
+ ],
+ "listed": false,
+ "oneLine": "Kalyan Silks promoters eye minority stake sale at a valuation up to Rs 3,000 cr.",
+ "primaryUrl": "https://www.livemint.com/companies/news/kalyan-silks-promoters-explore-minority-stake-sale-at-upto-rs-3-000-cr-valn-11795687123191.html",
+ "seller": "Promoters",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-11-27T08:02:38.646634+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "Kalyan Silks promoters eye minority stake sale at up to ₹3,000 cr valuation",
+   "url": "https://www.livemint.com/companies/news/kalyan-silks-promoters-explore-minority-stake-sale-at-upto-rs-3-000-cr-valn-11795687123191.html"
+  }
+ ],
+ "synopsis": "The promoters of Kerala-based Kalyan Silks are exploring a minority stake sale that could value the textile retailer at Rs 2,500 to 3,000 crore, alongside considering a public listing. The potential deal may involve a 20% stake sale utilizing a mix of primary and secondary share sales. Kalyan Silks has hired Mumbai-based investment bank O3 Capital to arrange the transaction. Founded in 1909 and led by T.S. Pattabhiraman alongside his sons Prakash and Mahesh Pattabhiraman, the profitable company reported an operating revenue of Rs 1,522.92 crore and a net profit of Rs 113.55 crore in FY25. This move marks a renewed fundraising effort after previous attempts with multiple investors failed.",
+ "ticker": null,
+ "updatedAt": "2026-11-27T08:02:39.956600+00:00"
+}

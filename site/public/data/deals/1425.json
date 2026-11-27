@@ -1,0 +1,39 @@
+{
+ "advisers": [],
+ "amountCr": 262.44,
+ "amountRaw": "Rs 262.44 crore",
+ "buyer": "Aditya Birla Sun Life Mutual Fund, Old Bridge Capital Management's All Cap Strategy, Long Term Equity Fund",
+ "company": "Amagi",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-11-27T08:02:38.651351+00:00",
+ "dealType": "block deal",
+ "enrichmentState": null,
+ "id": 1425,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Norwest Venture Partners offloaded a 2.15% stake in Amagi through a block deal worth Rs 262.44 crore.",
+ "primaryUrl": "https://entrackr.com/news/norwest-venture-partners-sells-215-stake-in-amagi-for-rs-262-cr-through-block-deal-12844123",
+ "seller": "Norwest Venture Partners X Mauritius",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-11-27T08:02:38.652018+00:00",
+   "outlet": "Entrackr",
+   "resolvable": true,
+   "title": "Norwest Venture Partners sells 2.15% stake in Amagi for Rs 262 Cr through block deal",
+   "url": "https://entrackr.com/news/norwest-venture-partners-sells-215-stake-in-amagi-for-rs-262-cr-through-block-deal-12844123"
+  },
+  {
+   "attachedAt": "2026-11-27T08:02:38.653455+00:00",
+   "outlet": "Entrackr",
+   "resolvable": true,
+   "title": "Norwest Sells ₹262 Cr Stake In Amagi Through Block Deal",
+   "url": "https://inc42.com/buzz/norwest-sells-%e2%82%b9262-cr-stake-in-amagi-through-block-deal/"
+  }
+ ],
+ "synopsis": "Global investment firm Norwest Venture Partners has offloaded a 2.15% stake in SaaS company Amagi through a block deal worth Rs 262.44 crore. Norwest Venture Partners X Mauritius sold 47.37 lakh shares at Rs 554 each on the NSE. On the buying side, Aditya Birla Sun Life Mutual Fund acquired 33.27 lakh shares worth Rs 184.33 crore, Old Bridge Capital Management's All Cap Strategy picked up 7.65 lakh shares worth Rs 42.38 crore, and Long Term Equity Fund acquired 6.45 lakh shares worth Rs 35.73 crore. Following this transaction, Norwest Venture Partners' shareholding in Amagi is expected to decline from its previous 11.76% stake held as of September 2026 to around 9.61%.",
+ "ticker": "AMAGI.NS",
+ "updatedAt": "2026-11-27T08:02:51.783125+00:00"
+}

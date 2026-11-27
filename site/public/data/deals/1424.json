@@ -1,0 +1,34 @@
+{
+ "advisers": [],
+ "amountCr": 10560.0,
+ "amountRaw": "$1.2-1.4 billion",
+ "buyer": "Haleon",
+ "company": "HealthKart",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-27T08:02:38.648439+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1424,
+ "individuals": [
+  "Sameer Maheshwari"
+ ],
+ "listed": false,
+ "oneLine": "Haleon looks to acquire a controlling stake in HealthKart, valuing it at $1.2-1.4 billion.",
+ "primaryUrl": "https://www.livemint.com/companies/gsk-consumer-healthkart-acquisition-deal-11795688783370.html",
+ "seller": "HealthKart",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-11-27T08:02:38.649076+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "GSK spinoff Haleon eyes billion-dollar Healthkart bet",
+   "url": "https://www.livemint.com/companies/gsk-consumer-healthkart-acquisition-deal-11795688783370.html"
+  }
+ ],
+ "synopsis": "UK-headquartered Haleon is in early talks to acquire a controlling stake in homegrown nutrition and supplements platform HealthKart in a deal that could value the company at $1.2-1.4 billion. The target is backed by Temasek and ChrysCapital, and is also exploring a dual-track process that includes an initial public offering on Indian bourses. Investment bank Avendus is likely advising HealthKart on the transaction, while a full sale is also being contemplated.",
+ "ticker": null,
+ "updatedAt": "2026-11-27T08:02:47.658844+00:00"
+}

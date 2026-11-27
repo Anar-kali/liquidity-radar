@@ -1,6 +1,83 @@
 {
- "dealCount": 686,
+ "dealCount": 689,
  "deals": [
+  {
+   "amountCr": 262.44,
+   "amountRaw": "Rs 262.44 crore",
+   "company": "Amagi",
+   "confidence": "high",
+   "confirmed": false,
+   "createdAt": "2026-11-27T08:02:38.651351+00:00",
+   "dealType": "block deal",
+   "enrichmentState": null,
+   "id": 1425,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Norwest Venture Partners offloaded a 2.15% stake in Amagi through a block deal worth Rs 262.44 crore.",
+   "primaryOutlet": "Entrackr",
+   "seller": "Norwest Venture Partners X Mauritius",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 2,
+   "ticker": "AMAGI.NS",
+   "updatedAt": "2026-11-27T08:02:51.783125+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-11-27T08:02:38.653455+00:00",
+     "title": "Norwest Sells ₹262 Cr Stake In Amagi Through Block Deal"
+    }
+   ]
+  },
+  {
+   "amountCr": 10560.0,
+   "amountRaw": "$1.2-1.4 billion",
+   "company": "HealthKart",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-27T08:02:38.648439+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1424,
+   "individuals": [
+    "Sameer Maheshwari"
+   ],
+   "listed": false,
+   "oneLine": "Haleon looks to acquire a controlling stake in HealthKart, valuing it at $1.2-1.4 billion.",
+   "primaryOutlet": "Mint",
+   "seller": "HealthKart",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-27T08:02:47.658844+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 3000.0,
+   "amountRaw": "₹3,000 cr",
+   "company": "Kalyan Silks",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-27T08:02:38.645961+00:00",
+   "dealType": "PE secondary",
+   "enrichmentState": null,
+   "id": 1423,
+   "individuals": [
+    "T.S. Pattabhiraman",
+    "Prakash Pattabhiraman",
+    "Mahesh Pattabhiraman"
+   ],
+   "listed": false,
+   "oneLine": "Kalyan Silks promoters eye minority stake sale at a valuation up to Rs 3,000 cr.",
+   "primaryOutlet": "Mint",
+   "seller": "Promoters",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-27T08:02:39.956600+00:00",
+   "updates": []
+  },
   {
    "amountCr": 182.04,
    "amountRaw": "182.04cr confirmed via NSE block deal",
@@ -20627,6 +20704,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-11-26T22:55:28.954214+00:00",
- "totalDeals": 1072
+ "generatedAt": "2026-11-27T08:02:51.783125+00:00",
+ "totalDeals": 1075
 }
