@@ -1,6 +1,53 @@
 {
- "dealCount": 708,
+ "dealCount": 710,
  "deals": [
+  {
+   "amountCr": 150.0,
+   "amountRaw": "₹150 crore",
+   "company": "EATA Private Ltd",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-28T15:32:19.122904+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1447,
+   "individuals": [
+    "Batuk Popatlal Shah",
+    "Joy Joseph Malamel"
+   ],
+   "listed": false,
+   "oneLine": "Craftsman Automation is acquiring EATA Private Ltd for ₹150 crore, providing a cash exit.",
+   "primaryOutlet": "Business Line",
+   "seller": "Batuk Popatlal Shah and Joy Joseph Malamel",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-28T15:32:29.650626+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Master Chains N Jewels Limited",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-28T15:32:19.120393+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": "failed",
+   "id": 1446,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Master Chains N Jewels Limited filed an addendum to its DRHP for an IPO.",
+   "primaryOutlet": "Addendum to DRHP",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-28T15:32:19.120393+00:00",
+   "updates": []
+  },
   {
    "amountCr": null,
    "amountRaw": null,
@@ -297,13 +344,21 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 2,
+   "sourceCount": 4,
    "ticker": null,
    "updatedAt": "2026-11-28T12:02:18.829622+00:00",
    "updates": [
     {
      "attachedAt": "2026-11-28T12:02:19.576240+00:00",
      "title": "Swaraj Green Power & Fuel Moves Closer To Market Debut, ₹1,100 Crore IPO To Strengthen Balance Sheet"
+    },
+    {
+     "attachedAt": "2026-11-28T15:32:19.110494+00:00",
+     "title": "Swaraj Green Power and Fuel Limited - UDRHP-1Swaraj Green Power and Fuel Limited"
+    },
+    {
+     "attachedAt": "2026-11-28T15:32:19.114873+00:00",
+     "title": "Swaraj Green Power and Fuel Limited"
     }
    ]
   },
@@ -21288,6 +21343,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-11-28T12:02:55.026141+00:00",
- "totalDeals": 1094
+ "generatedAt": "2026-11-28T15:32:29.650626+00:00",
+ "totalDeals": 1096
 }

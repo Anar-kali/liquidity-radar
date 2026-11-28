@@ -1,0 +1,35 @@
+{
+ "advisers": [],
+ "amountCr": 150.0,
+ "amountRaw": "₹150 crore",
+ "buyer": "Craftsman Automation",
+ "company": "EATA Private Ltd",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-28T15:32:19.122904+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1447,
+ "individuals": [
+  "Batuk Popatlal Shah",
+  "Joy Joseph Malamel"
+ ],
+ "listed": false,
+ "oneLine": "Craftsman Automation is acquiring EATA Private Ltd for ₹150 crore, providing a cash exit.",
+ "primaryUrl": "https://www.thehindubusinessline.com/companies/craftsman-automation-to-acquire-eata-private-ltd-for-150-crore/article71754977.ece",
+ "seller": "Batuk Popatlal Shah and Joy Joseph Malamel",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-11-28T15:32:19.123510+00:00",
+   "outlet": "Business Line",
+   "resolvable": true,
+   "title": "Craftsman Automation to acquire EATA Private Ltd for ₹150 crore",
+   "url": "https://www.thehindubusinessline.com/companies/craftsman-automation-to-acquire-eata-private-ltd-for-150-crore/article71754977.ece"
+  }
+ ],
+ "synopsis": "Craftsman Automation has signed a special purchase agreement to acquire a 100 per cent stake in EATA Private Ltd for ₹150 crore, providing a cash exit. EATA is an automotive component manufacturer specialising in precision-machined aluminium and cast iron parts. Craftsman will acquire the entire stake held by owners Batuk Popatlal Shah and Joy Joseph Malamel, according to an exchange filing on Saturday. Additionally, Craftsman Automation's board of directors agreed to make a further investment of ₹110 crore in its wholly owned subsidiary, Craftsman Germany GmbH.",
+ "ticker": null,
+ "updatedAt": "2026-11-28T15:32:29.650626+00:00"
+}
