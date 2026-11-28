@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": "Flywings",
+ "company": "Shree OSFM",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-28T12:02:18.886129+00:00",
+ "dealType": "open offer",
+ "enrichmentState": null,
+ "id": 1440,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Flywings makes open offer for Shree OSFM shares at ₹61 per share.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQQ1M3ZVhRSk9Jc2R2LXRLRkFHc3R4SVB3d2U5bWhBSk9XWnN1dHIwQTEzSjJyMEFNQU1aSXNWTDdQTEVJYUFYUld4bjFvMVhCcXJBbUU1TGItTDg0VGZkWEJuV3JVdFRZa2tkZTgtRjdZMjRxODVhQnJOMXNZbXVhbWtHZFgwRU13Q0pYLVFCMzk1NDV6WUtoZkJzMUV2ekNhV3RGOWdBaTR3TEJjZjZfM2xfa3d1QUdyYlhR?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-11-28T12:02:18.887154+00:00",
+   "outlet": "Multibagg AI",
+   "resolvable": false,
+   "title": "Flywings offers ₹61 for Shree OSFM shares, 16% above VWAP",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQQ1M3ZVhRSk9Jc2R2LXRLRkFHc3R4SVB3d2U5bWhBSk9XWnN1dHIwQTEzSjJyMEFNQU1aSXNWTDdQTEVJYUFYUld4bjFvMVhCcXJBbUU1TGItTDg0VGZkWEJuV3JVdFRZa2tkZTgtRjdZMjRxODVhQnJOMXNZbXVhbWtHZFgwRU13Q0pYLVFCMzk1NDV6WUtoZkJzMUV2ekNhV3RGOWdBaTR3TEJjZjZfM2xfa3d1QUdyYlhR?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-11-28T12:02:18.886129+00:00"
+}

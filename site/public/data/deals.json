@@ -1,6 +1,550 @@
 {
- "dealCount": 689,
+ "dealCount": 708,
  "deals": [
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Flipkart",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-28T12:02:19.578704+00:00",
+   "dealType": "other",
+   "enrichmentState": null,
+   "id": 1445,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Flipkart likely to announce employee stock option cash payout amid leadership transition",
+   "primaryOutlet": "Mint",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-28T12:02:19.578704+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 3350.0,
+   "amountRaw": "Rs 3,350 Crore",
+   "company": "Oyo",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-28T12:02:19.537566+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 1444,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Oyo revives IPO plans aiming for a Rs 3,350 crore public issue",
+   "primaryOutlet": "BW Businessworld",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-28T12:02:19.537566+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 3246.2,
+   "amountRaw": "2.35% x mcap ~Rs 138138cr = ~Rs 3246cr",
+   "company": "Groww",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-28T12:02:19.527678+00:00",
+   "dealType": "block deal",
+   "enrichmentState": null,
+   "id": 1443,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Tiger Global cuts its stake in Groww via a share sale",
+   "primaryOutlet": "Elets BFSI",
+   "seller": "Tiger Global",
+   "sizeBand": null,
+   "sizeSource": "computed",
+   "sourceCount": 1,
+   "ticker": "GROWW.NS",
+   "updatedAt": "2026-11-28T12:02:19.527678+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 354.95,
+   "amountRaw": "₹354.95 Crore",
+   "company": "Diamond Plaza Mall",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-28T12:02:19.291789+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1442,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Diamond Plaza Mall sold for ₹354.95 crore",
+   "primaryOutlet": "SCC Online",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-28T12:02:19.291789+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Jaipan",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-28T12:02:19.192465+00:00",
+   "dealType": "promoter sale",
+   "enrichmentState": null,
+   "id": 1441,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Jaipan promoters sell 30.39% stake, triggering control shift.",
+   "primaryOutlet": "Dealroom",
+   "seller": "Promoters",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": "505840.BO",
+   "updatedAt": "2026-11-28T12:02:19.192465+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Shree OSFM",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-28T12:02:18.886129+00:00",
+   "dealType": "open offer",
+   "enrichmentState": null,
+   "id": 1440,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Flywings makes open offer for Shree OSFM shares at ₹61 per share.",
+   "primaryOutlet": "Multibagg AI",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-28T12:02:18.886129+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 26400.0,
+   "amountRaw": "$3 Billion-Plus",
+   "company": "APL Apollo",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-28T12:02:18.879928+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1439,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Market regulator reviews Tata Steel's $3 billion-plus acquisition of APL Apollo.",
+   "primaryOutlet": "BigGo Finance",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 5,
+   "ticker": "APLAPOLLO.NS",
+   "updatedAt": "2026-11-28T12:02:18.879928+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-11-28T12:02:18.883836+00:00",
+     "title": "SEBI Looks at Tata Steel-APL Apollo Rs 28,000 Crore Deal: Why Proxy Firms Want 4 Transactions Judged as One"
+    },
+    {
+     "attachedAt": "2026-11-28T12:02:18.889382+00:00",
+     "title": "Funding, valuation and promoter concerns in APL Apollo’s Rs 28,000-crore Tata Steel deal"
+    },
+    {
+     "attachedAt": "2026-11-28T12:02:19.196266+00:00",
+     "title": "Tata Steel-APL Apollo Deal Explained: Why Is The Acquisition Structure Facing Scrutiny?"
+    },
+    {
+     "attachedAt": "2026-11-28T12:02:19.613649+00:00",
+     "title": "India markets regulator examining Tata Steel-APL Apollo deal, sources say"
+    }
+   ]
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Autopay Payment Solutions",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-28T12:02:18.861891+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1438,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Novus Loyalty acquires 80.87% stake in Autopay Payment Solutions.",
+   "primaryOutlet": "Sahi",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-28T12:02:18.861891+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": null,
+   "amountRaw": null,
+   "company": "Investdirect",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-28T12:02:18.858647+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1437,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Niyogin Fintech signs pact to sell 58% stake in Investdirect.",
+   "primaryOutlet": "Kalkine India",
+   "seller": "Niyogin Fintech",
+   "sizeBand": null,
+   "sizeSource": "unknown",
+   "sourceCount": 1,
+   "ticker": null,
+   "updatedAt": "2026-11-28T12:02:18.858647+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 132000.0,
+   "amountRaw": "USD 15 billion",
+   "company": "PhonePe",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-28T12:02:18.853048+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 1436,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "PhonePe eyes March 2027 listing at a $15 billion valuation.",
+   "primaryOutlet": "theopenpress.in",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 2,
+   "ticker": null,
+   "updatedAt": "2026-11-28T12:02:19.565567+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-11-28T12:02:19.564564+00:00",
+     "title": "PhonePe revives IPO plans, eyes March 2027 listing at up to USD 15 billion"
+    }
+   ]
+  },
+  {
+   "amountCr": 3000.0,
+   "amountRaw": "Rs 3,000-cr",
+   "company": "Svatantra Microfin",
+   "confidence": "high",
+   "confirmed": false,
+   "createdAt": "2026-11-28T12:02:18.838060+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 1435,
+   "individuals": [
+    "Ananya Birla"
+   ],
+   "listed": false,
+   "oneLine": "Svatantra Microfin gets SEBI nod for Rs 3,000 crore IPO issue.",
+   "primaryOutlet": "The Financial Express",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 4,
+   "ticker": null,
+   "updatedAt": "2026-11-28T12:02:18.838060+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-11-28T12:02:19.543704+00:00",
+     "title": "Svatantra Microfin Receives SEBI Approval for ₹3,000 Crore IPO"
+    },
+    {
+     "attachedAt": "2026-11-28T12:02:19.548753+00:00",
+     "title": "Ananya Birla-led Svatantra Microfin gets Sebi observations for ₹3,000-crore IPO"
+    },
+    {
+     "attachedAt": "2026-11-28T12:02:19.571423+00:00",
+     "title": "Sterlite Electric, Svatantra Microfin Among Eight Firms Get SEBI’s Nod To Float IPOs; Two Withdraw Papers"
+    }
+   ]
+  },
+  {
+   "amountCr": 1100.0,
+   "amountRaw": "Rs 1,100 crore",
+   "company": "Swaraj Green Power and Fuel",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-28T12:02:18.829622+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 1434,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Swaraj Green Power and Fuel files UDRHP to raise Rs 1,100 crore via IPO.",
+   "primaryOutlet": "Moneycontrol.com",
+   "seller": null,
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 2,
+   "ticker": null,
+   "updatedAt": "2026-11-28T12:02:18.829622+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-11-28T12:02:19.576240+00:00",
+     "title": "Swaraj Green Power & Fuel Moves Closer To Market Debut, ₹1,100 Crore IPO To Strengthen Balance Sheet"
+    }
+   ]
+  },
+  {
+   "amountCr": 150.0,
+   "amountRaw": "₹150 Cr",
+   "company": "Swara Baby Products",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-28T12:02:18.800032+00:00",
+   "dealType": "IPO-OFS",
+   "enrichmentState": null,
+   "id": 1433,
+   "individuals": [],
+   "listed": false,
+   "oneLine": "Swara Baby Products announces ₹800 crore IPO with subscription opening soon.",
+   "primaryOutlet": "Kotak Neo",
+   "seller": "FirstCry",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 5,
+   "ticker": null,
+   "updatedAt": "2026-11-28T12:02:55.026141+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-11-28T12:02:18.871745+00:00",
+     "title": "Brainbees Solutions Ltd Reports Swara Baby ₹800 Crore IPO RHP"
+    },
+    {
+     "attachedAt": "2026-11-28T12:02:18.876637+00:00",
+     "title": "FirstCry cuts Swara Baby IPO as issue shrinks to Rs 800 crore"
+    },
+    {
+     "attachedAt": "2026-11-28T12:02:19.559731+00:00",
+     "title": "Swara Baby Products sets Rs 105-111 price band for IPO; plans 10-line capacity expansion"
+    },
+    {
+     "attachedAt": "2026-11-28T12:02:19.592522+00:00",
+     "title": "FirstCry Halves Stake Sale To ₹150 Cr In Swara Baby IPO"
+    }
+   ]
+  },
+  {
+   "amountCr": 600.0,
+   "amountRaw": "₹600 Crore",
+   "company": "Zee Entertainment",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-28T12:02:18.504066+00:00",
+   "dealType": "open offer",
+   "enrichmentState": null,
+   "id": 1432,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Zee Entertainment announces ₹600 crore buyback.",
+   "primaryOutlet": "Kotak Neo",
+   "seller": "shareholders",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "ZEEL.NS",
+   "updatedAt": "2026-11-28T12:02:50.325859+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 700.0,
+   "amountRaw": "₹700 Crore",
+   "company": "Dalmia Bharat",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-28T12:02:18.501017+00:00",
+   "dealType": "open offer",
+   "enrichmentState": null,
+   "id": 1431,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Dalmia Bharat approves ₹700 crore share buyback.",
+   "primaryOutlet": "Kotak Neo",
+   "seller": "shareholders",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 1,
+   "ticker": "DALBHARAT.NS",
+   "updatedAt": "2026-11-28T12:02:46.162312+00:00",
+   "updates": []
+  },
+  {
+   "amountCr": 1500.0,
+   "amountRaw": "₹1,500 crore (from article)",
+   "company": "Sterlite Electric",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-28T12:02:18.268152+00:00",
+   "dealType": "DRHP filing",
+   "enrichmentState": null,
+   "id": 1430,
+   "individuals": [
+    "Jigar Babubhai Ravaria",
+    "Mahesh Babubhai Ravaria"
+   ],
+   "listed": false,
+   "oneLine": "SEBI clears IPO documents of seven companies including Sterlite Electric and Nobel Hygiene.",
+   "primaryOutlet": "Kotak Neo",
+   "seller": "Sterlite Electric",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 4,
+   "ticker": null,
+   "updatedAt": "2026-11-28T12:02:42.047328+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-11-28T12:02:18.812208+00:00",
+     "title": "Sterlite Electric, Beauty Garage, Nobel Hygiene, Svatantra Microfin among 8 companies to receive SEBI nod for IPOs"
+    },
+    {
+     "attachedAt": "2026-11-28T12:02:18.817062+00:00",
+     "title": "Sterlite Electric Svatantra Microfin among 8 firms to get Sebi nod for IPO 2 withdraw papers"
+    },
+    {
+     "attachedAt": "2026-11-28T12:02:18.845693+00:00",
+     "title": "SEBI IPO Approvals: Eight Companies Including Sterlite Electric and Svatantra Microfin Cleared to List"
+    }
+   ]
+  },
+  {
+   "amountCr": 28000.0,
+   "amountRaw": "Rs 28,000 Crore",
+   "company": "Tata Steel",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-28T12:02:18.259161+00:00",
+   "dealType": "strategic buyout",
+   "enrichmentState": null,
+   "id": 1429,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Tata Steel sold two key businesses to APL Apollo for Rs 28,000 crore.",
+   "primaryOutlet": "Spherical Insights",
+   "seller": "Tata Steel",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 2,
+   "ticker": "TATASTEEL.NS",
+   "updatedAt": "2026-11-28T12:02:37.561867+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-11-28T12:02:18.803799+00:00",
+     "title": "APL Apollo-Tata Steel ₹28,000 Crore Deal Faces Fresh Scrutiny as IiAS Seeks SEBI Intervention"
+    }
+   ]
+  },
+  {
+   "amountCr": 280.0,
+   "amountRaw": "₹280 Crore",
+   "company": "International Gemological Institute",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-28T12:02:16.926471+00:00",
+   "dealType": "block deal",
+   "enrichmentState": null,
+   "id": 1427,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "BCP Asia sells stake in International Gemological Institute via a Rs 280 crore block deal.",
+   "primaryOutlet": "Kotak Neo",
+   "seller": "BCP Asia",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 9,
+   "ticker": "IGIL.NS",
+   "updatedAt": "2026-11-28T12:02:27.688077+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-11-28T12:02:18.485552+00:00",
+     "title": "International Gemological shares rise 7% as promoter proposes to sell 1.55% stake"
+    },
+    {
+     "attachedAt": "2026-11-28T12:02:18.491373+00:00",
+     "title": "Blackstone sells 1.55% stake in IGI for Rs 280 crore to meet public shareholding norms"
+    },
+    {
+     "attachedAt": "2026-11-28T12:02:18.493831+00:00",
+     "title": "IGI shares in focus as promoter plans to sell 1.55% stake via block deals to meet public shareholding norm"
+    },
+    {
+     "attachedAt": "2026-11-28T12:02:18.495847+00:00",
+     "title": "IGI shares rise over 3% after Rs 280-crore block deal; promoter cuts 1.55% stake"
+    },
+    {
+     "attachedAt": "2026-11-28T12:02:18.497903+00:00",
+     "title": "Rs 280-Crore Block Deal: International Gemological Institute promoter to sell 1.55% stake"
+    },
+    {
+     "attachedAt": "2026-11-28T12:02:18.507454+00:00",
+     "title": "IGI shares surge 6% after Rs 280 crore block deal; BCP Asia likely exits"
+    },
+    {
+     "attachedAt": "2026-11-28T12:02:18.806194+00:00",
+     "title": "IGI shares rise 6% after promoter sells 1.55% stake through block deal; stock nears peak"
+    },
+    {
+     "attachedAt": "2026-11-28T12:02:18.866283+00:00",
+     "title": "International Gemological Institute achieves MPS as Blackstone sells 1.55% stake to Stallion Asset, Old Bridge MF among seven investors"
+    }
+   ]
+  },
+  {
+   "amountCr": 3549.0,
+   "amountRaw": "₹3,549 crore",
+   "company": "Schaeffler India",
+   "confidence": "medium",
+   "confirmed": false,
+   "createdAt": "2026-11-28T12:02:16.922399+00:00",
+   "dealType": "block deal",
+   "enrichmentState": "failed",
+   "id": 1426,
+   "individuals": [],
+   "listed": true,
+   "oneLine": "Schaeffler India promoter sells 6.49% stake for Rs 3,549 crore via block deal.",
+   "primaryOutlet": "ET Auto",
+   "seller": "Schaeffler India promoter",
+   "sizeBand": null,
+   "sizeSource": "stated",
+   "sourceCount": 4,
+   "ticker": "SCHAEFFLER.NS",
+   "updatedAt": "2026-11-28T12:02:16.922399+00:00",
+   "updates": [
+    {
+     "attachedAt": "2026-11-28T12:02:16.929521+00:00",
+     "title": "Schaeffler India Promoter Sells 6.5% Stake for Rs 3,549 Cr"
+    },
+    {
+     "attachedAt": "2026-11-28T12:02:17.869907+00:00",
+     "title": "Schaeffler India Promoter Sells 6.5% Stake in Block Deal"
+    },
+    {
+     "attachedAt": "2026-11-28T12:02:18.489087+00:00",
+     "title": "Block Deals: Schaeffler India promoter sells 6.5% stake; Norwest Venture Partners offloads over 2% in..."
+    }
+   ]
+  },
   {
    "amountCr": 262.44,
    "amountRaw": "Rs 262.44 crore",
@@ -47,10 +591,15 @@
    "seller": "HealthKart",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": null,
    "updatedAt": "2026-11-27T08:02:47.658844+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-11-28T12:02:19.595840+00:00",
+     "title": "Haleon In Talks To Acquire Controlling Stake In HealthKart At $1.4 Bn Valuation: Report"
+    }
+   ]
   },
   {
    "amountCr": 3000.0,
@@ -97,10 +646,15 @@
    "seller": "SEEMA SINGH",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 2,
    "ticker": "ALKEM.NS",
    "updatedAt": "2026-11-26T22:55:28.954214+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-11-28T12:02:18.741787+00:00",
+     "title": "Alkem Laboratories: Block Deal"
+    }
+   ]
   },
   {
    "amountCr": 2396.45,
@@ -121,10 +675,23 @@
    "seller": "LG ELECTRONICS INC",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 1,
+   "sourceCount": 4,
    "ticker": "LGEINDIA.NS",
    "updatedAt": "2026-11-26T22:55:28.944608+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-11-28T12:02:17.620652+00:00",
+     "title": "South Korean promoter sells 2% stake in LG Electronics India; Capital Group offloads 1.31% in IIFL Finance"
+    },
+    {
+     "attachedAt": "2026-11-28T12:02:17.623281+00:00",
+     "title": "LG Electronics India: Promoter Stake Sale"
+    },
+    {
+     "attachedAt": "2026-11-28T12:02:17.872040+00:00",
+     "title": "LG Electronics To Sell Up To 2% Stake In India Arm For Rs 2,320 Cr"
+    }
+   ]
   },
   {
    "amountCr": 14960.0,
@@ -165,10 +732,19 @@
    "seller": null,
    "sizeBand": null,
    "sizeSource": "unknown",
-   "sourceCount": 1,
+   "sourceCount": 3,
    "ticker": null,
    "updatedAt": "2026-11-25T08:49:13.363178+00:00",
-   "updates": []
+   "updates": [
+    {
+     "attachedAt": "2026-11-28T12:02:19.601305+00:00",
+     "title": "With no HC relief for Tata Trusts, Tata Sons board to meet on Monday"
+    },
+    {
+     "attachedAt": "2026-11-28T12:02:19.607552+00:00",
+     "title": "Tata Sons’ shareholder charities seek to halt board meeting over chairman’s reappointment"
+    }
+   ]
   },
   {
    "amountCr": 28000.0,
@@ -297,8 +873,8 @@
    "updates": []
   },
   {
-   "amountCr": null,
-   "amountRaw": null,
+   "amountCr": 175.5,
+   "amountRaw": "Rs 175.5 Cr",
    "company": "Monomark Engineering (India) Limited",
    "confidence": "medium",
    "confirmed": false,
@@ -312,14 +888,18 @@
    "primaryOutlet": "Abridged Prospectus",
    "seller": null,
    "sizeBand": null,
-   "sizeSource": "unknown",
-   "sourceCount": 2,
+   "sizeSource": "stated",
+   "sourceCount": 3,
    "ticker": null,
-   "updatedAt": "2026-11-25T08:49:13.260400+00:00",
+   "updatedAt": "2026-11-28T12:02:19.554786+00:00",
    "updates": [
     {
      "attachedAt": "2026-11-25T08:49:13.266569+00:00",
      "title": "Monomark Engineering (India) Limited"
+    },
+    {
+     "attachedAt": "2026-11-28T12:02:19.553860+00:00",
+     "title": "Monomark Engineering IPO to Raise Rs 175.5 Cr for Growth"
     }
    ]
   },
@@ -601,7 +1181,7 @@
    "seller": "Promoters",
    "sizeBand": null,
    "sizeSource": "stated",
-   "sourceCount": 4,
+   "sourceCount": 5,
    "ticker": null,
    "updatedAt": "2026-11-21T11:03:00.107882+00:00",
    "updates": [
@@ -616,6 +1196,10 @@
     {
      "attachedAt": "2026-11-25T08:49:13.240888+00:00",
      "title": "NLC India Renewables Limited"
+    },
+    {
+     "attachedAt": "2026-11-28T12:02:18.822104+00:00",
+     "title": "NLC India Renewables DRHP: structure, financial profile and key risks for IPO advisors"
     }
    ]
   },
@@ -20704,6 +21288,6 @@
   }
  ],
  "feedWindowDays": 90,
- "generatedAt": "2026-11-27T08:02:51.783125+00:00",
- "totalDeals": 1075
+ "generatedAt": "2026-11-28T12:02:55.026141+00:00",
+ "totalDeals": 1094
 }

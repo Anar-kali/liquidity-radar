@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": 3246.2,
+ "amountRaw": "2.35% x mcap ~Rs 138138cr = ~Rs 3246cr",
+ "buyer": null,
+ "company": "Groww",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-28T12:02:19.527678+00:00",
+ "dealType": "block deal",
+ "enrichmentState": null,
+ "id": 1443,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Tiger Global cuts its stake in Groww via a share sale",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE85YTlnN0p4S21YT2wwQ3dYYXZ3OXRqUHVDVzVQUWxtVHZyb1RpRWltTzFBWUFCUWh0UWdIcUlVeWFMb1pBdERWVFd6LUVYTnloXzkyZzcwczUzWTFuQTJGQVlyZXE?oc=5",
+ "seller": "Tiger Global",
+ "sizeBand": null,
+ "sizeSource": "computed",
+ "sources": [
+  {
+   "attachedAt": "2026-11-28T12:02:19.528703+00:00",
+   "outlet": "Elets BFSI",
+   "resolvable": false,
+   "title": "Tiger Global Cuts Groww Stake to 2.35% After 17 Crore Share Sale",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE85YTlnN0p4S21YT2wwQ3dYYXZ3OXRqUHVDVzVQUWxtVHZyb1RpRWltTzFBWUFCUWh0UWdIcUlVeWFMb1pBdERWVFd6LUVYTnloXzkyZzcwczUzWTFuQTJGQVlyZXE?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": "GROWW.NS",
+ "updatedAt": "2026-11-28T12:02:19.527678+00:00"
+}

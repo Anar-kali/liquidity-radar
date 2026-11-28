@@ -1,0 +1,39 @@
+{
+ "advisers": [],
+ "amountCr": 28000.0,
+ "amountRaw": "Rs 28,000 Crore",
+ "buyer": "APL Apollo",
+ "company": "Tata Steel",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-28T12:02:18.259161+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1429,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Tata Steel sold two key businesses to APL Apollo for Rs 28,000 crore.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPU28yVGE4d2FiUHFwMVNuUnhwMU5mRk1INVVRNXdTSEo3b2ZwQ0NVUS1RZnhaTmVGRTZjLXJ6NjJHWm4wX1AwdE5DZXU2ekFrUWVwTVFTcEJHMXVicC1nVkNHZzNfcnY2T3R1RHZzaWRHMG4yZFZzRnF6akhpcU5IRml3UmdlVDdYRlVkbDk5eE5iRXVjY3dZd1FKLS1ERzJYcE5QeUdRUk9tT2xxaEVZd0lkcHZLSnlKVEYzWEgwVkJILThVNzQw?oc=5",
+ "seller": "Tata Steel",
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-11-28T12:02:18.260111+00:00",
+   "outlet": "Spherical Insights",
+   "resolvable": false,
+   "title": "Why TATA Steel Sold Two Key Businesses to APL Apollo For Rs 28,000 Crore (USD 3.02 Billion)",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPU28yVGE4d2FiUHFwMVNuUnhwMU5mRk1INVVRNXdTSEo3b2ZwQ0NVUS1RZnhaTmVGRTZjLXJ6NjJHWm4wX1AwdE5DZXU2ekFrUWVwTVFTcEJHMXVicC1nVkNHZzNfcnY2T3R1RHZzaWRHMG4yZFZzRnF6akhpcU5IRml3UmdlVDdYRlVkbDk5eE5iRXVjY3dZd1FKLS1ERzJYcE5QeUdRUk9tT2xxaEVZd0lkcHZLSnlKVEYzWEgwVkJILThVNzQw?oc=5"
+  },
+  {
+   "attachedAt": "2026-11-28T12:02:18.803799+00:00",
+   "outlet": "Kotak Neo",
+   "resolvable": false,
+   "title": "APL Apollo-Tata Steel ₹28,000 Crore Deal Faces Fresh Scrutiny as IiAS Seeks SEBI Intervention",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQdlAxVHRhVjFWTlVCeVBFaURlcFpRQW9PTldXVFJmQktZcEhjaW9CaEtQYkpvZjdGUDh5akFXaVhZUHpXY0dJa2R0eUJQTTRLaXhoTjlRblpkYV9pdEVlVnlDdEFZR3dEcTdsSnlMY1lPY0hBN1drWkZQaWJBTmdsWi1nYUl0V3UwZVRiT19SaFdOSDJOR2ZiZHFMV1E4ZFBjei1yYS10YV9pSk5NZXp0anpGNmlDNWIzU0toTDVKNEpMckVqRmxCME1hWGo3VEdHdno3Q09PQ3JjREItMTdWeE9ESGU?oc=5"
+  }
+ ],
+ "synopsis": "Tata Steel's board approved the sale of its tubes and pipes business for up to ₹11,700 crore and its entire holding in Tata Steel Colors to APL Apollo Tubes Limited for ₹16,300 crore, making a combined transaction value of up to ₹28,000 crore on November 22, 2026. Both interlinked agreements are expected to close by March 31, 2028, subject to regulatory approvals. Simultaneously, Tata Steel signed agreements on November 23, 2026, to acquire a 26.6% promoter stake in APL Apollo for ₹15,510 crore and announced an open offer for an additional 26% stake. The deals aim to create a stronger downstream steel platform.",
+ "ticker": "TATASTEEL.NS",
+ "updatedAt": "2026-11-28T12:02:37.561867+00:00"
+}

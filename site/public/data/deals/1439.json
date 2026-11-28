@@ -1,0 +1,60 @@
+{
+ "advisers": [],
+ "amountCr": 26400.0,
+ "amountRaw": "$3 Billion-Plus",
+ "buyer": "Tata Steel",
+ "company": "APL Apollo",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-28T12:02:18.879928+00:00",
+ "dealType": "strategic buyout",
+ "enrichmentState": null,
+ "id": 1439,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Market regulator reviews Tata Steel's $3 billion-plus acquisition of APL Apollo.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5HWmppb01SaU1oSjlWb0JiY2ZEZGZjX2tKWjQ5U1dic2VXTnhjSS1Cbk4zWGVXM0JJM1dRWURMYklFaFNCOS1WcnpGRTAzaGhaYlVBWnFfaWdOaVRqSXV1RG44UWVlYlBpR05hS3d5dWNMWU9zRFE?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-11-28T12:02:18.880876+00:00",
+   "outlet": "BigGo Finance",
+   "resolvable": false,
+   "title": "India's Market Regulator Opens Review of Tata Steel's $3 Billion-Plus APL Apollo Takeover",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5HWmppb01SaU1oSjlWb0JiY2ZEZGZjX2tKWjQ5U1dic2VXTnhjSS1Cbk4zWGVXM0JJM1dRWURMYklFaFNCOS1WcnpGRTAzaGhaYlVBWnFfaWdOaVRqSXV1RG44UWVlYlBpR05hS3d5dWNMWU9zRFE?oc=5"
+  },
+  {
+   "attachedAt": "2026-11-28T12:02:18.883836+00:00",
+   "outlet": "NiftyTrader",
+   "resolvable": false,
+   "title": "SEBI Looks at Tata Steel-APL Apollo Rs 28,000 Crore Deal: Why Proxy Firms Want 4 Transactions Judged as One",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBIYWF3T2JXSEFMczI3WnFva1hLcnJJNlM5TzF3dkttRmFfNFdGUEM0Z21FeG13SVRha2M4bW5TMXRGZElmTnJXSHVUX3FwaUg2QnQ3ZmNxckhRMjdWODUtczhRTzhXODFZMWZNRGkwREE0NTZZc0trcHdMSQ?oc=5"
+  },
+  {
+   "attachedAt": "2026-11-28T12:02:18.889382+00:00",
+   "outlet": "Moneycontrol.com",
+   "resolvable": false,
+   "title": "Funding, valuation and promoter concerns in APL Apollo’s Rs 28,000-crore Tata Steel deal",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPbUtJOGNuc3R1NUtaLTF4UXhFQU9CaDdpR3NHTVJpc2JhMHg5VmlqdmhJREFzNHN3LUhYUHJ1Rzd6Y0M5UFNjcnhGSzBRaDdKc0NkWnh3V2ZUc1dqZDNyY1VDY0tqSGhQWlNsT0w5RzlzN29hQnQ3dG0yRDZLcnJZeDhMMW14a3lNLXprTDRDT1BQSnNOdTRpLXR2ZWhNRXNKbkh3NHgwTEM1RVJfVmVUMlNZQ0xxYS1sZHotb1hIQ1o3UUpja3lfbFNBcWhTNVpEUW16UkcwdXJ5S2RK?oc=5"
+  },
+  {
+   "attachedAt": "2026-11-28T12:02:19.196266+00:00",
+   "outlet": "Outlook Money",
+   "resolvable": false,
+   "title": "Tata Steel-APL Apollo Deal Explained: Why Is The Acquisition Structure Facing Scrutiny?",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQaWJKUnZ0YXFKWVhBQ2Rsa0dlU1JUemFGRHlnejMyWjlZcnF4QkFKdHdaZzBhMjROeUhpS19wcnY3ZXE4b2tONlk3LUVmUFZCMEpZNjJXcVJaVWtZYldBOV85UkxTYmxUUm43b2NOZVVPZEltVWdWdktNOTVuNmNxTThfNzJVbk5qY053bWdIZVIzUk5xd19ZNTdKakhhb0Z3RE9zTdIBsgFBVV95cUxQcGtVVjd0QjJwaHJPQjZkQWVfQmdSd0NEaFVqcmdzLTc3VW5lNlg4YlJKYlcyS01tUVlRZWZVSDhudzZWWnNyMDljQ1RYanFwT3hhRVBJN3hHN2xHdDVGUHY1UTdPOUdGZldBLWFlSGxoTGtMNE9pdV9ZLWNnbUMzcFhNbUNYQUJWTnJzSEZ4WWV5dm83ZDJiN1RZRTdSMS1DcUticHpyS2FibEhUMVpaaE9R?oc=5"
+  },
+  {
+   "attachedAt": "2026-11-28T12:02:19.613649+00:00",
+   "outlet": "Google News",
+   "resolvable": true,
+   "title": "India markets regulator examining Tata Steel-APL Apollo deal, sources say",
+   "url": "https://economictimes.indiatimes.com/industry/indl-goods/svs/steel/india-markets-regulator-examining-tata-steel-apl-apollo-deal-sources-say/articleshow/136218356.cms"
+  }
+ ],
+ "synopsis": null,
+ "ticker": "APLAPOLLO.NS",
+ "updatedAt": "2026-11-28T12:02:18.879928+00:00"
+}

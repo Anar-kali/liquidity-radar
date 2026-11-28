@@ -437,9 +437,9 @@
    "company": "Svatantra Microfin",
    "firstTrade": "2026-08-14",
    "id": 4,
-   "lastTrade": "2026-08-14",
+   "lastTrade": "2026-11-28",
    "person": "Ananya Birla",
-   "saleCount": 2,
+   "saleCount": 3,
    "sales": [
     {
      "date": "2026-08-14",
@@ -454,13 +454,20 @@
       "news"
      ],
      "valueCr": 1500.0
+    },
+    {
+     "date": "2026-11-28",
+     "sources": [
+      "news"
+     ],
+     "valueCr": 3000.0
     }
    ],
    "storedTotalCr": 7500.0,
-   "totalCr": 4500.0,
-   "weeks": 1
+   "totalCr": 7500.0,
+   "weeks": 15
   }
  ],
  "count": 11,
- "generatedAt": "2026-11-27T08:02:51.783125+00:00"
+ "generatedAt": "2026-11-28T12:02:55.026141+00:00"
 }

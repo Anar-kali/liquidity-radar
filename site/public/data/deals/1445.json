@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Flipkart",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-28T12:02:19.578704+00:00",
+ "dealType": "other",
+ "enrichmentState": null,
+ "id": 1445,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "Flipkart likely to announce employee stock option cash payout amid leadership transition",
+ "primaryUrl": "https://www.livemint.com/companies/news/walmarts-chris-nicholas-likely-to-visit-india-on-30-november-as-flipkarts-krishnamurthy-steps-down-what-we-know-11795853815607.html",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-11-28T12:02:19.579732+00:00",
+   "outlet": "Mint",
+   "resolvable": true,
+   "title": "Walmart's Chris Nicholas likely to visit India on 30 November as Flipkart's Krishnamurthy steps down | What we know",
+   "url": "https://www.livemint.com/companies/news/walmarts-chris-nicholas-likely-to-visit-india-on-30-november-as-flipkarts-krishnamurthy-steps-down-what-we-know-11795853815607.html"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-11-28T12:02:19.578704+00:00"
+}

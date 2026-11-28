@@ -1,7 +1,7 @@
 {
  "advisers": [],
- "amountCr": null,
- "amountRaw": null,
+ "amountCr": 175.5,
+ "amountRaw": "Rs 175.5 Cr",
  "buyer": null,
  "company": "Monomark Engineering (India) Limited",
  "confidence": "medium",
@@ -16,7 +16,7 @@
  "primaryUrl": "https://www.sebi.gov.in/filings/public-issues/nov-2026/monomark-engineering-india-limited-rhp_105932.html",
  "seller": null,
  "sizeBand": null,
- "sizeSource": "unknown",
+ "sizeSource": "stated",
  "sources": [
   {
    "attachedAt": "2026-11-25T08:49:13.261519+00:00",
@@ -31,9 +31,16 @@
    "resolvable": true,
    "title": "Monomark Engineering (India) Limited",
    "url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Monomark%20Engineering%20(India)%20Limited-prospectus_p.pdf"
+  },
+  {
+   "attachedAt": "2026-11-28T12:02:19.553860+00:00",
+   "outlet": "Rediff MoneyWiz",
+   "resolvable": false,
+   "title": "Monomark Engineering IPO to Raise Rs 175.5 Cr for Growth",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORmtQLWc3UTJNdDRTQV9JcHB3Y3RBNmpjNTd1d2JsVnJSNkFPYkE3MHBROEdQY0dBOWMxdDBET3p1N3g1TU5pSmZ0ZjRvR2NrNEhWSDNWNzdYNW9zbWp2eWNkYTRyYnFNM0puNjJWOVgtbnY3TjBEc3pBcThRcEZSMnplc3Rxb09hS0MyN1hxUlFvZVpzOGRvYnZYSjJSSEhWVUhDczJmMFUtZG1n0gGyAUFVX3lxTE0tZWNJaEE2azFNYjFKcGdDWWd0eHBlOFVySWtpcXBfcUF3bmNja0Q3S1RNRW1ieEtDbllndmFWeHBfQkFyRFFDWWtzMWFFSHpINHN2eERlVDl0RnFlbE0zM1ptOG44OEVuVVdNdFBYMFVpRVh0ZGpjT254T2daR21WTEdDMnNsWkQ5d2ZvclB1bEZxLXh5ZHk4WkVvOGZWanpkd1dETXRfd3hwMGZ2MHlIcEE?oc=5"
   }
  ],
  "synopsis": null,
  "ticker": null,
- "updatedAt": "2026-11-25T08:49:13.260400+00:00"
+ "updatedAt": "2026-11-28T12:02:19.554786+00:00"
 }

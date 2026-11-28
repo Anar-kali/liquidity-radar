@@ -1,0 +1,32 @@
+{
+ "advisers": [],
+ "amountCr": null,
+ "amountRaw": null,
+ "buyer": null,
+ "company": "Jaipan",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-28T12:02:19.192465+00:00",
+ "dealType": "promoter sale",
+ "enrichmentState": null,
+ "id": 1441,
+ "individuals": [],
+ "listed": true,
+ "oneLine": "Jaipan promoters sell 30.39% stake, triggering control shift.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcjBsMmFqblkyVmNvblFOMHlrMkJZT2ZHelBYS3lZNGdpS2plSnRBSVRmR3ZpNG9CMEtEX2VSN21aeUxBcHBQQjRJRWFNcTRKZFRqbWk2NFJ6OGNHN0JIdnZWZ0tZYUozelJmSHhxTTNlUUk0ZlVQUDNEdHZzSWNVNXR5eU5yQ3ZiT2tWV1ZHTms4d3U3MVFv?oc=5",
+ "seller": "Promoters",
+ "sizeBand": null,
+ "sizeSource": "unknown",
+ "sources": [
+  {
+   "attachedAt": "2026-11-28T12:02:19.193990+00:00",
+   "outlet": "Dealroom",
+   "resolvable": false,
+   "title": "Jaipan promoters sell 30.39% stake, triggering control shift",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcjBsMmFqblkyVmNvblFOMHlrMkJZT2ZHelBYS3lZNGdpS2plSnRBSVRmR3ZpNG9CMEtEX2VSN21aeUxBcHBQQjRJRWFNcTRKZFRqbWk2NFJ6OGNHN0JIdnZWZ0tZYUozelJmSHhxTTNlUUk0ZlVQUDNEdHZzSWNVNXR5eU5yQ3ZiT2tWV1ZHTms4d3U3MVFv?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": "505840.BO",
+ "updatedAt": "2026-11-28T12:02:19.192465+00:00"
+}

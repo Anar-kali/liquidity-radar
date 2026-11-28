@@ -1,0 +1,55 @@
+{
+ "advisers": [],
+ "amountCr": 3000.0,
+ "amountRaw": "Rs 3,000-cr",
+ "buyer": null,
+ "company": "Svatantra Microfin",
+ "confidence": "high",
+ "confirmed": false,
+ "createdAt": "2026-11-28T12:02:18.838060+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": null,
+ "id": 1435,
+ "individuals": [
+  "Ananya Birla"
+ ],
+ "listed": false,
+ "oneLine": "Svatantra Microfin gets SEBI nod for Rs 3,000 crore IPO issue.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcDZxdHVGYWRQNUdXQUtZeU5uRnhXNTZGQlBpdFhxOElKdHVya0pYZUhLZEllYkh1c1pDbGt2cUl4b1ZMbXp1VVlTb28zbG5xb2FCWnJ1Z2ZkNmRPUHNIRktBYm12M1NYZTRNSzc5R1FjRE9PVGFEZEJXU3dmWmZjN053TzJONEFMTXUtT012aWFGQ1FFV0I4Q3U0OG51ajVpWWRDaW5FdXg0T1AtbmJDQnd0VFB1NnVCY0FuVVZXWnA4OVhZeFgwNVpiMXrSAdMBQVVfeXFMTl9yVzZkVDJwVjdZLTFKNWdoNmtWb0FqSGlmZDVHYl9VSWxEZTZtRldpVlo1Tk5wWUtYZ1ZPU29QSWJldzZaQmEyMllmNlhfV0ZXV2J5M3c5UkhzYVFpS3NNc2ZGM2tQRGloRWRnZTRrWjY3WVhYbTllYTBTZWNYTXBMa0NVTXNfWEhvc0ZJNXlFUml1MDAwdVE3VlhQclJoVlp1VmhLazNLcXlQVmZ2U1hWcGw1cjU1S2VPZlVIeXhVSUF4YnMtdjRlUFcwY2pDa0tPYw?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-11-28T12:02:18.839211+00:00",
+   "outlet": "The Financial Express",
+   "resolvable": false,
+   "title": "Ananya Birla-led Svatantra Microfin IPO gets SEBI nod for Rs 3,000-cr issue",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcDZxdHVGYWRQNUdXQUtZeU5uRnhXNTZGQlBpdFhxOElKdHVya0pYZUhLZEllYkh1c1pDbGt2cUl4b1ZMbXp1VVlTb28zbG5xb2FCWnJ1Z2ZkNmRPUHNIRktBYm12M1NYZTRNSzc5R1FjRE9PVGFEZEJXU3dmWmZjN053TzJONEFMTXUtT012aWFGQ1FFV0I4Q3U0OG51ajVpWWRDaW5FdXg0T1AtbmJDQnd0VFB1NnVCY0FuVVZXWnA4OVhZeFgwNVpiMXrSAdMBQVVfeXFMTl9yVzZkVDJwVjdZLTFKNWdoNmtWb0FqSGlmZDVHYl9VSWxEZTZtRldpVlo1Tk5wWUtYZ1ZPU29QSWJldzZaQmEyMllmNlhfV0ZXV2J5M3c5UkhzYVFpS3NNc2ZGM2tQRGloRWRnZTRrWjY3WVhYbTllYTBTZWNYTXBMa0NVTXNfWEhvc0ZJNXlFUml1MDAwdVE3VlhQclJoVlp1VmhLazNLcXlQVmZ2U1hWcGw1cjU1S2VPZlVIeXhVSUF4YnMtdjRlUFcwY2pDa0tPYw?oc=5"
+  },
+  {
+   "attachedAt": "2026-11-28T12:02:19.543704+00:00",
+   "outlet": "India News Network",
+   "resolvable": false,
+   "title": "Svatantra Microfin Receives SEBI Approval for ₹3,000 Crore IPO",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPYnMzemhUVmhHNHQ0SjcyS3dWNEhoR0c0Y2hFS0V4ZVJqTnFDTjB0NEpYWHo4YXV3c25DVUV6dHFsQllMUVNkcFFJWmJPbEVMMG1mZWxPLXRsMUNMdjRlWHgwWktmNTRDb3hvSlR2VThiMUJTaTM0UDNYMW9aRmM4YXJMcXVSRVEyQkhiY2JqSGI4SnNLcjhieGE3Sk5zMHFvbFZXYg?oc=5"
+  },
+  {
+   "attachedAt": "2026-11-28T12:02:19.548753+00:00",
+   "outlet": "Fortune India",
+   "resolvable": false,
+   "title": "Ananya Birla-led Svatantra Microfin gets Sebi observations for ₹3,000-crore IPO",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVmdVZURXYWI3MFpRV3VNR09wRmxDZnlzN2xkUzU0M3hJbUlyTFR2MDZuaEZpR29ldTJnWUl3WDFPN3UyREFFMTNldWk3TDhENUg2V1NNejZNQkpQZ0lmcmJCUHVoZnBKZldKX1FBTFE2OEpKYnBzMUVqMzFzci1lTzdienZPcTNCM1h6YjBLRGgxSXdUdWRWVDZMd1ZRaDdYM3JJZmJ4eFMzR0ctTHBGR3g2WVFOeWh1cjlTTFp30gHLAUFVX3lxTE14TlNPaDBObXR4R2xyaUxIbEtaMTRLZ3JRdk1zemxPZWlvdVI4REFMRlRKcEx0NDJ4M091TmdjUGtEV0JuTVZxcXIwNVhKeG1aNE5FWjVLaGhmOEJFTE1fX1ZWTjNSTjR1TjQyejZWUjFCMUF1Y2tBZEZJd3RmQmpDdkZzQ3lUQ29RX1lkUDZfeGUxaHRobVVkbm9rZ01iZXd0dkVmTmlkZlRtRVlRbk1qakR4UkxTd0hJQ1RJSXdBUlVaLUU1NWEwZjlr?oc=5"
+  },
+  {
+   "attachedAt": "2026-11-28T12:02:19.571423+00:00",
+   "outlet": "NDTV Profit",
+   "resolvable": false,
+   "title": "Sterlite Electric, Svatantra Microfin Among Eight Firms Get SEBI’s Nod To Float IPOs; Two Withdraw Papers",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPaHFnLWkyZXItdjR5R3d0QnJ2cmo0QW14UkI3SWFfTF9HblhjbUJVTUFsOU1uN1dkZnRZVjRkakgyTzhIVHBlamdvV0hOeVZwTkxNblNvRWk1d3lqZmlNVHVtZ093RldMWE93ci1fSnN4TnFlbEtzVGh1Z3RmeVJsZWt0X1FMd3NEN3lwaUpuVjVoUUNQY1g4dl9Kd0lmQ2JIdHBVVl91b3RWb2pia3FpWG11d091Vm9KUzdkY08wRFpoYWQ1R2xjRXNWbDBBQTdmTlR1MlJkYlFVU2dJdGNvUNIB6AFBVV95cUxOb0dmbng5NEk4RXpzd0sxelNsUk9HOUM3QkNqb19aeXpZNFhGY0NVWXI5MjROT0N6Z0o2ZHBPZ1FCbkh2eXlydWRzTXlGOFZLNGFvT3JXRFlmaG1lX2lUZE1vSmhrOGNQcmRsa3lPVmNIX1BiZFg1eDBFNDRyQWdVaXp6dDFTSzE2V053MWVyakZDZER6ck9aUjJGVFg4d3lPaWdmTTZDNWVTVzZQN2l3X0ZWWDA0VjA5bUZwVm15bjlESS1tY2RkSkJ4MHdpRUJwVzhGMExVaUVmWXZIUUFKdnNGOGlqdmdw?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-11-28T12:02:18.838060+00:00"
+}

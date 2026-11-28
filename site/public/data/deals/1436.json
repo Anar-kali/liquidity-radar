@@ -1,0 +1,39 @@
+{
+ "advisers": [],
+ "amountCr": 132000.0,
+ "amountRaw": "USD 15 billion",
+ "buyer": null,
+ "company": "PhonePe",
+ "confidence": "medium",
+ "confirmed": false,
+ "createdAt": "2026-11-28T12:02:18.853048+00:00",
+ "dealType": "DRHP filing",
+ "enrichmentState": null,
+ "id": 1436,
+ "individuals": [],
+ "listed": false,
+ "oneLine": "PhonePe eyes March 2027 listing at a $15 billion valuation.",
+ "primaryUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNEs1RHJzZzN2dFA5amFybmIwTzEtTHkxRHR6QzB5WE9lb0IzUmt4OTFQMEFtWVNZblVRSUg5bEx1NVRVN1VuaVMtU2RoaVc4VlhtS181LXBQd2Vxcm9IOTFEZm16RnF2VWpXOVR6NU1QcmJMUk9hOFJMalRId25FNXpvZ1Rxd3hONlp2QlNhdWZQS3pwVFE?oc=5",
+ "seller": null,
+ "sizeBand": null,
+ "sizeSource": "stated",
+ "sources": [
+  {
+   "attachedAt": "2026-11-28T12:02:18.854206+00:00",
+   "outlet": "theopenpress.in",
+   "resolvable": false,
+   "title": "PhonePe IPO Revival: Walmart-Backed Fintech Eyes March 2027 Listing at $15 Billion Valuation",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNEs1RHJzZzN2dFA5amFybmIwTzEtTHkxRHR6QzB5WE9lb0IzUmt4OTFQMEFtWVNZblVRSUg5bEx1NVRVN1VuaVMtU2RoaVc4VlhtS181LXBQd2Vxcm9IOTFEZm16RnF2VWpXOVR6NU1QcmJMUk9hOFJMalRId25FNXpvZ1Rxd3hONlp2QlNhdWZQS3pwVFE?oc=5"
+  },
+  {
+   "attachedAt": "2026-11-28T12:02:19.564564+00:00",
+   "outlet": "PropNewsTime",
+   "resolvable": false,
+   "title": "PhonePe revives IPO plans, eyes March 2027 listing at up to USD 15 billion",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWHRSdUlqa0IzanRXMXUxbHRHZ0Ryd1VhLTJ5QWJNZ2NHZ2VJN0RVTEMzb21xRzJfU0RPZXhHQ3pOak5BTTN0ajRwS291YUJEbUtZUktFQ1RyY0RBT3E0UER5TE9idFdPOUxhQ3JFM0h4ZF9LRXlndElmWjFmWTRyemo1MUFMUlhiLUZZTGpiaUVlT1FDMmZDTE5OXzJOeGplak5pZ1ByRUU2SWFyR1pCNS12ellwNkxpTF9XY3ZrcTRaQkE?oc=5"
+  }
+ ],
+ "synopsis": null,
+ "ticker": null,
+ "updatedAt": "2026-11-28T12:02:19.565567+00:00"
+}
